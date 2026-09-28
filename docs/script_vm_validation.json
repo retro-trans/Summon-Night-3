@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-26",
+  "mode": "read-only validation of original resources",
+  "source_iso_sha256": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+  "method": "Read each indexed resource with GameSource, verify its raw SHA-256, decompress where recorded, and call sn3_vm.verify_script with its indexed pool rows.",
+  "input_sha256": {
+    "tools/sn3_vm.py": "3fbe03358be685ccb6ca223d874603310a839f5654269678a13c0b790c0501d9",
+    "tools/script_strings.py": "e4b05a9c0af29956376d5f073050767c6458d260f0e100df47735ad32d302071",
+    "work/translation/en/script_strings.index.json": "3455c67655cd75853bee0d497d7dd9b23e41d144578b38f3a3154fa94536a556"
+  },
+  "statistics": {
+    "passed_resources": 801,
+    "instruction_count": 2314749,
+    "control_references": 567372,
+    "nonempty_string_occurrences": 153524,
+    "nonempty_string_references": 153524,
+    "empty_string_references": 1,
+    "extended_string_references": 1669,
+    "unreferenced_strings": 0
+  },
+  "checks": [
+    "Every indexed resource matches its recorded raw source hash",
+    "Instructions decode from byte 32 to the string-pool boundary",
+    "Entrypoints and all decoded call/jump targets are instruction boundaries",
+    "All text references resolve to indexed string starts or the empty pool base",
+    "Every indexed nonempty string has an instruction reference"
+  ],
+  "samples": [
+    {"resource": "00:00226", "extended_string_references": 24, "instruction_count": 69119},
+    {"resource": "00:00272", "extended_string_references": 738, "instruction_count": 74226},
+    {"resource": "00:00295", "extended_string_references": 753, "instruction_count": 73884}
+  ],
+  "index_schema_version": 2,
+  "index_integration_pending": false,
+  "reinsertion_ready": false,
+  "limitations": [
+    "Command meanings, speakers, scene order, and branch context need mapping",
+    "Encoding and relocation have static checks, but no script relocation build or expanded runtime allocation proof exists",
+    "This validates the indexed scripts, not full-game text coverage or a translated playthrough"
+  ]
+}

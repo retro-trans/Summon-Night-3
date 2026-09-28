@@ -1,0 +1,363 @@
+{
+  "resource_id": "00:00088",
+  "review_type": "independent_meaning_review",
+  "semantic_complete": true,
+  "reviewer": "root (draft author terra_cabin_801)",
+  "reviewed_slices": [
+    {
+      "target_file": "work/translation/en/chapters_0.1.12/0088/slice_0000.targets.json",
+      "target_file_sha256": "1e3daaed1913b06d42301352c142e7a07605d33548de4061b974f534ec0b2170",
+      "assigned_range": [
+        0,
+        79
+      ],
+      "rows_examined": [
+        0,
+        99
+      ]
+    },
+    {
+      "target_file": "work/translation/en/chapters_0.1.12/0088/slice_0080.targets.json",
+      "target_file_sha256": "403289690f99255e6706d06c79d5868f82875098570d2ec46fb72607edfa8831",
+      "assigned_range": [
+        80,
+        159
+      ],
+      "rows_examined": [
+        60,
+        179
+      ]
+    },
+    {
+      "target_file": "work/translation/en/chapters_0.1.12/0088/slice_0160.targets.json",
+      "target_file_sha256": "66123a0ed23b618736f1f26eceef0272619df8a95138d06a8fb906ed9c8409b7",
+      "assigned_range": [
+        160,
+        239
+      ],
+      "rows_examined": [
+        140,
+        259
+      ]
+    },
+    {
+      "target_file": "work/translation/en/chapters_0.1.12/0088/slice_0240.targets.json",
+      "target_file_sha256": "31947cf975c5c038df784768091056b0625c8cbe2b0fb3dcb228b334e668e46d",
+      "assigned_range": [
+        240,
+        319
+      ],
+      "rows_examined": [
+        220,
+        339
+      ]
+    },
+    {
+      "target_file": "work/translation/en/chapters_0.1.12/0088/slice_0320.targets.json",
+      "target_file_sha256": "412577019faa22cbd3560c94283be045ade30c3000f1df7178d3573f2cefa45e",
+      "assigned_range": [
+        320,
+        399
+      ],
+      "rows_examined": [
+        300,
+        419
+      ]
+    },
+    {
+      "target_file": "work/translation/en/chapters_0.1.12/0088/slice_0400.targets.json",
+      "target_file_sha256": "d243ef0aab430eb9bad54795d2dd126425ff9058c24cb7cefa4daf4e62431607",
+      "assigned_range": [
+        400,
+        479
+      ],
+      "rows_examined": [
+        380,
+        499
+      ]
+    },
+    {
+      "target_file": "work/translation/en/chapters_0.1.12/0088/slice_0480.targets.json",
+      "target_file_sha256": "308daf2f81506b8e922360d219ad29ec99bc15ee659ef8144ffa0d2baef06115",
+      "assigned_range": [
+        480,
+        559
+      ],
+      "rows_examined": [
+        460,
+        579
+      ]
+    }
+  ],
+  "required_corrections": [
+    {
+      "resource_row": 22,
+      "source_id": "00:00088:text:00029f08",
+      "source_sha256": "52c72eefeb965334074f4efbd4a12292f050b1d38ba1f8c2c44dc5f807f15653",
+      "replacement_text": "they go!?",
+      "reason": "The pupil refers to the selected protagonist; this branch can be male or female."
+    },
+    {
+      "resource_row": 154,
+      "source_id": "00:00088:text:0002a7ec",
+      "source_sha256": "66f6ea7bd1fc616fcaf4c6c86d9e04c877670c174167dc79e205fef8505e781f",
+      "replacement_text": "attacked you, right?",
+      "reason": "Teacher addresses the pupil about the attack during their journey with the companion; draft wrongly singles out the companion as the victim."
+    },
+    {
+      "resource_row": 156,
+      "source_id": "00:00088:text:0002a810",
+      "source_sha256": "424f4c34e4563445259cf58f95210634f53110d7409502e434e57bf1fa875668",
+      "replacement_text": "attacked you, didn't they?",
+      "reason": "Teacher addresses the pupil about the attack during their journey with the companion; draft wrongly singles out the companion as the victim."
+    },
+    {
+      "resource_row": 160,
+      "source_id": "00:00088:text:0002a86c",
+      "source_sha256": "adcd1f5d76c6b35ea80bc9d7c4ec650d2cf0bdc78eeb826057ba5bc2a2621920",
+      "replacement_text": "So I...",
+      "reason": "The pupil starts to explain their own action; the draft changes speaker and joins it incorrectly to the next reply."
+    },
+    {
+      "resource_row": 161,
+      "source_id": "00:00088:text:0002a880",
+      "source_sha256": "430170abea561dfa6bda60f7e9c2276c9bc58e6b7ce76b5c85e88b89eac5a970",
+      "replacement_text": "So that's why you took",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 162,
+      "source_id": "00:00088:text:0002a896",
+      "source_sha256": "bf27bcf5f91f026f481b4551f4474a0927a628b8670359bdd546734a34cfa002",
+      "replacement_text": "such a terrible risk",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 163,
+      "source_id": "00:00088:text:0002a8aa",
+      "source_sha256": "f3724a33e0a97e87be6d8a5022ed982b555cf84c4b6d119c02d31afbb334f37a",
+      "replacement_text": "to protect it...",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 164,
+      "source_id": "00:00088:text:0002a8ba",
+      "source_sha256": "430170abea561dfa6bda60f7e9c2276c9bc58e6b7ce76b5c85e88b89eac5a970",
+      "replacement_text": "So that's why you took",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 165,
+      "source_id": "00:00088:text:0002a8d0",
+      "source_sha256": "bf27bcf5f91f026f481b4551f4474a0927a628b8670359bdd546734a34cfa002",
+      "replacement_text": "such a terrible risk",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 166,
+      "source_id": "00:00088:text:0002a8e4",
+      "source_sha256": "83c4c3e450d1833c97850d2705d0e1dcf4bba5660e1d32cb53b5fb5ab65d36c4",
+      "replacement_text": "to protect it.",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 181,
+      "source_id": "00:00088:text:0002a9cc",
+      "source_sha256": "02b5aafa9bdb4c6281931dd4821a1874d2aa5ea69767d16b650b25a1e25d827d",
+      "replacement_text": "Good for you,",
+      "reason": "The following source fragment already supplies R; remove duplicate name."
+    },
+    {
+      "resource_row": 189,
+      "source_id": "00:00088:text:0002aa54",
+      "source_sha256": "627c1022241fa0bef1f4abd420817c3cdcba5b43ad913fe8de4aed29a876f154",
+      "replacement_text": "Beep beep! \u266a",
+      "reason": "Restore musical-note expression."
+    },
+    {
+      "resource_row": 209,
+      "source_id": "00:00088:text:0002abaa",
+      "source_sha256": "66f6ea7bd1fc616fcaf4c6c86d9e04c877670c174167dc79e205fef8505e781f",
+      "replacement_text": "attacked you, right?",
+      "reason": "Teacher addresses the pupil about the attack during their journey with the companion; draft wrongly singles out the companion as the victim."
+    },
+    {
+      "resource_row": 211,
+      "source_id": "00:00088:text:0002abce",
+      "source_sha256": "424f4c34e4563445259cf58f95210634f53110d7409502e434e57bf1fa875668",
+      "replacement_text": "attacked you, didn't they?",
+      "reason": "Teacher addresses the pupil about the attack during their journey with the companion; draft wrongly singles out the companion as the victim."
+    },
+    {
+      "resource_row": 215,
+      "source_id": "00:00088:text:0002ac12",
+      "source_sha256": "430170abea561dfa6bda60f7e9c2276c9bc58e6b7ce76b5c85e88b89eac5a970",
+      "replacement_text": "So that's why you took",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 216,
+      "source_id": "00:00088:text:0002ac28",
+      "source_sha256": "bf27bcf5f91f026f481b4551f4474a0927a628b8670359bdd546734a34cfa002",
+      "replacement_text": "such a terrible risk",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 217,
+      "source_id": "00:00088:text:0002ac3c",
+      "source_sha256": "f3724a33e0a97e87be6d8a5022ed982b555cf84c4b6d119c02d31afbb334f37a",
+      "replacement_text": "to protect it...",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 218,
+      "source_id": "00:00088:text:0002ac4c",
+      "source_sha256": "430170abea561dfa6bda60f7e9c2276c9bc58e6b7ce76b5c85e88b89eac5a970",
+      "replacement_text": "So that's why you took",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 219,
+      "source_id": "00:00088:text:0002ac62",
+      "source_sha256": "bf27bcf5f91f026f481b4551f4474a0927a628b8670359bdd546734a34cfa002",
+      "replacement_text": "such a terrible risk",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 220,
+      "source_id": "00:00088:text:0002ac76",
+      "source_sha256": "83c4c3e450d1833c97850d2705d0e1dcf4bba5660e1d32cb53b5fb5ab65d36c4",
+      "replacement_text": "to protect it.",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 224,
+      "source_id": "00:00088:text:0002acb8",
+      "source_sha256": "dcc4e1c4c7e07ba3cee86e804b3357a4a6f41788ee933dba2385737d7a733576",
+      "replacement_text": "That's not true.",
+      "reason": "Reply denies the pupil acted wrongly; draft pronoun could invert its meaning."
+    },
+    {
+      "resource_row": 256,
+      "source_id": "00:00088:text:0002aec6",
+      "source_sha256": "73afc2f3e6d2d433aaa760decc9584d8dbc886c2c853d17f4d34d40979893b2b",
+      "replacement_text": "Meow, meow! \u266a",
+      "reason": "Restore musical-note expression."
+    },
+    {
+      "resource_row": 273,
+      "source_id": "00:00088:text:0002afea",
+      "source_sha256": "66f6ea7bd1fc616fcaf4c6c86d9e04c877670c174167dc79e205fef8505e781f",
+      "replacement_text": "attacked you, right?",
+      "reason": "Teacher addresses the pupil about the attack during their journey with the companion; draft wrongly singles out the companion as the victim."
+    },
+    {
+      "resource_row": 275,
+      "source_id": "00:00088:text:0002b00e",
+      "source_sha256": "424f4c34e4563445259cf58f95210634f53110d7409502e434e57bf1fa875668",
+      "replacement_text": "attacked you, didn't they?",
+      "reason": "Teacher addresses the pupil about the attack during their journey with the companion; draft wrongly singles out the companion as the victim."
+    },
+    {
+      "resource_row": 279,
+      "source_id": "00:00088:text:0002b070",
+      "source_sha256": "430170abea561dfa6bda60f7e9c2276c9bc58e6b7ce76b5c85e88b89eac5a970",
+      "replacement_text": "So that's why you took",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 280,
+      "source_id": "00:00088:text:0002b086",
+      "source_sha256": "bf27bcf5f91f026f481b4551f4474a0927a628b8670359bdd546734a34cfa002",
+      "replacement_text": "such a terrible risk",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 281,
+      "source_id": "00:00088:text:0002b09a",
+      "source_sha256": "f3724a33e0a97e87be6d8a5022ed982b555cf84c4b6d119c02d31afbb334f37a",
+      "replacement_text": "to protect it...",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 286,
+      "source_id": "00:00088:text:0002b0ee",
+      "source_sha256": "dcc4e1c4c7e07ba3cee86e804b3357a4a6f41788ee933dba2385737d7a733576",
+      "replacement_text": "That's not true.",
+      "reason": "Reply denies the pupil acted wrongly; draft pronoun could invert its meaning."
+    },
+    {
+      "resource_row": 319,
+      "source_id": "00:00088:text:0002b32c",
+      "source_sha256": "f210accd6ee5ffe195ecc8ce3e738362528c4ab0d3dfd27fa0545bcc04d924ca",
+      "replacement_text": "Bwee-bwee! \u266a",
+      "reason": "Restore musical-note expression."
+    },
+    {
+      "resource_row": 336,
+      "source_id": "00:00088:text:0002b454",
+      "source_sha256": "66f6ea7bd1fc616fcaf4c6c86d9e04c877670c174167dc79e205fef8505e781f",
+      "replacement_text": "attacked you, right?",
+      "reason": "Teacher addresses the pupil about the attack during their journey with the companion; draft wrongly singles out the companion as the victim."
+    },
+    {
+      "resource_row": 338,
+      "source_id": "00:00088:text:0002b478",
+      "source_sha256": "424f4c34e4563445259cf58f95210634f53110d7409502e434e57bf1fa875668",
+      "replacement_text": "attacked you, didn't they?",
+      "reason": "Teacher addresses the pupil about the attack during their journey with the companion; draft wrongly singles out the companion as the victim."
+    },
+    {
+      "resource_row": 339,
+      "source_id": "00:00088:text:0002b488",
+      "source_sha256": "785d39c8a3c81adec1387845a62e739a4610e9766bfdfbd06e6c6e189d33ddfc",
+      "replacement_text": "U-Um...!",
+      "reason": "Hesitant interjection is not a denial."
+    },
+    {
+      "resource_row": 345,
+      "source_id": "00:00088:text:0002b500",
+      "source_sha256": "430170abea561dfa6bda60f7e9c2276c9bc58e6b7ce76b5c85e88b89eac5a970",
+      "replacement_text": "So that's why you took",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 346,
+      "source_id": "00:00088:text:0002b516",
+      "source_sha256": "bf27bcf5f91f026f481b4551f4474a0927a628b8670359bdd546734a34cfa002",
+      "replacement_text": "such a terrible risk",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 347,
+      "source_id": "00:00088:text:0002b52a",
+      "source_sha256": "f3724a33e0a97e87be6d8a5022ed982b555cf84c4b6d119c02d31afbb334f37a",
+      "replacement_text": "to protect it...",
+      "reason": "The teacher is acknowledging the pupil risking themselves to protect their companion, not the companion protecting the teacher. Adjacent pupil replies settle the referent."
+    },
+    {
+      "resource_row": 374,
+      "source_id": "00:00088:text:0002b6e4",
+      "source_sha256": "e1e255d651c91ae8c0897e6765fc13726fec41d7713c2de5b798b988f7238875",
+      "replacement_text": "Kyuu-py! \u266a",
+      "reason": "Restore musical-note expression."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        250,
+        251
+      ],
+      "note": "Teco is named after the sound/quality of its gait; the English keeps the explanation without inventing a new pet name."
+    },
+    {
+      "rows": [
+        61,
+        62
+      ],
+      "note": "Wrong to wake you is an acceptable polite explanation for not wanting to disturb sleep; stylistic change not required."
+    }
+  ],
+  "additional_review": "review_empty_fragments.json redistributes merged English without empty target rows."
+}

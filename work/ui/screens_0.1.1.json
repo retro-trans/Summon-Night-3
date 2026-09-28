@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "candidate_version": "0.1.1",
+  "candidate_sha256": "3f41c344db3352decee68c6cec17695c20a0079e7bcf0079819f2f465ab5174f",
+  "native_resolution": [480, 272],
+  "capture_method": "Software PSP framebuffer at sceDisplaySetFrameBuf",
+  "measurement_method": "Bright glyph pixels in y=120..147, with green above 120 and either green/red ratio above 1.4 or all RGB above 170; these are observed ink bounds, not text-box capacities.",
+  "screens": [
+    {"id": "title", "screenshot": "0.1.1_title.png", "role": "Clean candidate launch reaches title"},
+    {"id": "character.select", "screenshot": "0.1.1_name.png", "role": "Protagonist selection; filename predates inspection and does not mean name entry"},
+    {"id": "opening.line_01", "screenshot": "0.1.1_dialogue_01.png", "text_id": "00:00065:text:0002646e", "target_text": "...waken.", "display_units": 9, "observed_glyph_bounds_xywh": [165, 129, 130, 12], "visual_check": "Complete readable target, no clipping, advance prompt visible"},
+    {"id": "opening.line_02", "screenshot": "0.1.1_dialogue_02.png", "text_id": "00:00065:text:0002647c", "target_text": "Huh...?", "display_units": 7, "observed_glyph_bounds_xywh": [184, 129, 104, 13], "visual_check": "Complete readable target, no clipping, advance prompt visible"},
+    {"id": "opening.line_03", "screenshot": "0.1.1_dialogue_03.png", "text_id": "00:00065:text:00026488", "target_text": "Now, awaken...", "display_units": 14, "observed_glyph_bounds_xywh": [124, 129, 208, 13], "visual_check": "Complete readable target, no clipping, advance prompt visible; processed display cells independently checked in RAM"}
+  ],
+  "maximum_characters": null,
+  "font_metrics_complete": false,
+  "scope_limit": "Three centered opening lines only; not ordinary dialogue-box limits or full Latin coverage."
+}

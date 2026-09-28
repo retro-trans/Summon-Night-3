@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "candidate_version": "0.1.2",
+  "candidate_sha256": "924304f8ec1f951d23ec2880ec1428cc23e9d1b8f281d0df61effc75a6ea5bd2",
+  "native_resolution": [480, 272],
+  "capture_method": "Software PSP framebuffer at sceDisplaySetFrameBuf",
+  "portrait_layout_policy": {
+    "reference_screenshot": "0.1.1_beach_box_02.png",
+    "approximate_text_area_xywh": [178, 199, 228, 55],
+    "observed_glyph_advance_pixels": 16,
+    "observed_line_advance_pixels": 20,
+    "pilot_units_per_line": 13,
+    "pilot_lines_per_page": 3,
+    "reason": "Reserve space for the lower-right advance icon with full-width Latin glyphs.",
+    "universal_maximum_claim": false
+  },
+  "screens": [
+    {"id": "setup.movie", "screenshot": "0.1.2_setup.png", "role": "Intro movie; not protagonist selection"},
+    {"id": "setup.title", "screenshot": "0.1.2_setup_02.png", "role": "Title animation after skipping the intro"},
+    {"id": "setup.character", "screenshot": "0.1.2_setup_03.png", "role": "Rexx protagonist selection"},
+    {
+      "id": "portrait.wrapped.page0",
+      "screenshot": "0.1.2_wrapped_page_01.png",
+      "layout_group_id": "opening_000:group:24",
+      "page_index": 0,
+      "target_lines": ["Why am I", "lying flat on", "my back on"],
+      "display_units": [8, 13, 10],
+      "visual_check": "All lines readable and complete; no clipping; advance icon clear."
+    },
+    {
+      "id": "portrait.wrapped.page1",
+      "screenshot": "0.1.2_wrapped_page_02.png",
+      "layout_group_id": "opening_000:group:24",
+      "page_index": 1,
+      "target_lines": ["this beach?"],
+      "display_units": [11],
+      "visual_check": "Complete continuation after one advance, same portrait and style, no clipping."
+    },
+    {
+      "id": "opening.choice",
+      "screenshot": "0.1.2_choice.png",
+      "text_ids": ["00:00065:text:0002691a", "00:00065:text:0002692a", "00:00065:text:00026946"],
+      "target_lines": ["Let's see...", "About myself", "Trivial things"],
+      "visual_check": "Prompt and both choices readable; Recent events is not enabled on this visit.",
+      "selection_test": "Activated selection, verified record 1/value 0, confirmed About myself."
+    },
+    {
+      "id": "opening.choice.result",
+      "screenshot": "0.1.2_choice_result.png",
+      "layout_group_id": "opening_000:group:40",
+      "page_index": 0,
+      "target_lines": ["I was born in", "the Empire.", "...Though, to"],
+      "display_units": [13, 11, 13],
+      "visual_check": "Expected backstory begins; all three lines fit. Later pages have cell checks but no screenshots."
+    }
+  ],
+  "complete_logical_visual_rows_this_build": 5,
+  "counting_method": "Two source rows in fully captured group 24, plus the choice prompt and its two displayed options. Excludes partly captured group 40.",
+  "font_metrics_complete": false,
+  "scope_limit": "One Rexx/Machine route, selected screens only. Wide lettering and additional page breaks remain temporary."
+}

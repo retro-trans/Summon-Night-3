@@ -1,0 +1,59 @@
+{
+  "resource_id": "00:00123",
+  "semantic_complete": true,
+  "reviewed_targets": [
+    {
+      "target_file": "slice_0011.targets.json",
+      "reviewed_rows": [
+        [
+          11,
+          30
+        ]
+      ],
+      "context_ranges": [
+        [
+          0,
+          30
+        ]
+      ],
+      "context_count": 31,
+      "assigned_range": [
+        11,
+        30
+      ],
+      "reviewed_source_ids": [
+        "00:00123:text:00002bc6",
+        "00:00123:text:00002bda",
+        "00:00123:text:00002bf6",
+        "00:00123:text:00002c08",
+        "00:00123:text:00002c26",
+        "00:00123:text:00002c32",
+        "00:00123:text:00002c46",
+        "00:00123:text:00002c58",
+        "00:00123:text:00002c68",
+        "00:00123:text:00002c76",
+        "00:00123:text:00002c88",
+        "00:00123:text:00002c9a",
+        "00:00123:text:00002cbc",
+        "00:00123:text:00002cd0",
+        "00:00123:text:00002cde",
+        "00:00123:text:00002d00",
+        "00:00123:text:00002d1c",
+        "00:00123:text:00002d30",
+        "00:00123:text:00002d3c",
+        "00:00123:text:00002d4e"
+      ],
+      "target_sha256": "8e1ddf2120182571f16f7649a13fe6248960af4abd6382cdb85a8052d1a344ec",
+      "semantic_complete": true
+    }
+  ],
+  "required_fixes": [],
+  "uncertainties": [],
+  "change_log": [
+    {
+      "version": "0.1.12",
+      "date": "2026-09-27",
+      "change": "Completed source-Japanese versus English semantic review of the night scene without modifying its draft."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "resource_id": "00:00111",
+  "review_type": "menu_meaning_review",
+  "semantic_complete": true,
+  "reviewed_slices": [
+    {
+      "target_file": "work/translation/en/chapters_0.1.12/0111/slice_0400.targets.json",
+      "target_file_sha256": "0d65f62846f4f0f2c3696cacf01e2762a9612e0c68cb5ba4fc0bd2da9a0f0a2a",
+      "assigned_range": [
+        435,
+        436
+      ]
+    },
+    {
+      "target_file": "work/translation/en/chapters_0.1.12/0111/slice_0720.targets.json",
+      "target_file_sha256": "47b5eeba70521dd57acce426297350d02da2dd70eb2e472e7ad1f94d40522183",
+      "assigned_range": [
+        733,
+        734
+      ]
+    },
+    {
+      "target_file": "work/translation/en/chapters_0.1.12/0111/slice_0800.targets.json",
+      "target_file_sha256": "cb1cbd88731ea7dd24113a03893d46ee9f0f0960998b6fb7d8eed45a5b6fb744",
+      "assigned_range": [
+        817,
+        820
+      ]
+    }
+  ],
+  "required_corrections": {
+    "00:00111:text:000307d2": {
+      "resource_row": 435,
+      "source_sha256": "23386593a0e92b4a876b7ed2d1ba6725b35f9a74449f4838549e7580b04a8aca",
+      "target_file": "work/translation/en/chapters_0.1.12/0111/slice_0400.targets.json",
+      "target_file_sha256": "0d65f62846f4f0f2c3696cacf01e2762a9612e0c68cb5ba4fc0bd2da9a0f0a2a",
+      "suggested_text": "　I don't know",
+      "rationale": "Restores source full-width menu indentation."
+    },
+    "00:00111:text:000307de": {
+      "resource_row": 436,
+      "source_sha256": "b00d7d315a5c765a760435b0386c8ae57bc25812b117ded45fd5a3d315b52d21",
+      "target_file": "work/translation/en/chapters_0.1.12/0111/slice_0400.targets.json",
+      "target_file_sha256": "0d65f62846f4f0f2c3696cacf01e2762a9612e0c68cb5ba4fc0bd2da9a0f0a2a",
+      "suggested_text": "　I know",
+      "rationale": "Restores source full-width menu indentation."
+    },
+    "00:00111:text:00031d26": {
+      "resource_row": 733,
+      "source_sha256": "36d13f8f938605fcd0b8aadb0e0e693262c373a1d2c94b7e888a910a4ab54d2a",
+      "target_file": "work/translation/en/chapters_0.1.12/0111/slice_0720.targets.json",
+      "target_file_sha256": "47b5eeba70521dd57acce426297350d02da2dd70eb2e472e7ad1f94d40522183",
+      "suggested_text": "　Go fishing",
+      "rationale": "Restores source full-width menu indentation."
+    },
+    "00:00111:text:00031d36": {
+      "resource_row": 734,
+      "source_sha256": "92df76a3770b3a1276d333b75bf46eef8818999f801d9789c6c3723c37bce4c9",
+      "target_file": "work/translation/en/chapters_0.1.12/0111/slice_0720.targets.json",
+      "target_file_sha256": "47b5eeba70521dd57acce426297350d02da2dd70eb2e472e7ad1f94d40522183",
+      "suggested_text": "　Don't go",
+      "rationale": "Restores source full-width menu indentation."
+    },
+    "00:00111:text:00032340": {
+      "resource_row": 817,
+      "source_sha256": "3b1c86f00f0222222b244e4e4f2171a9cff2a4374c6f60f8dca28a775922a9c0",
+      "target_file": "work/translation/en/chapters_0.1.12/0111/slice_0800.targets.json",
+      "target_file_sha256": "cb1cbd88731ea7dd24113a03893d46ee9f0f0960998b6fb7d8eed45a5b6fb744",
+      "suggested_text": "　Yard: blue light, back-R",
+      "rationale": "Compact choice preserves voter, color, position, and light."
+    },
+    "00:00111:text:00032360": {
+      "resource_row": 818,
+      "source_sha256": "78da8fc14f11a91ab411878474d4019208bbd859f4aca5faf28f1375bf2867ff",
+      "target_file": "work/translation/en/chapters_0.1.12/0111/slice_0800.targets.json",
+      "target_file_sha256": "cb1cbd88731ea7dd24113a03893d46ee9f0f0960998b6fb7d8eed45a5b6fb744",
+      "suggested_text": "　Kyle: red light, front-R",
+      "rationale": "Compact choice preserves voter, color, position, and light."
+    },
+    "00:00111:text:00032382": {
+      "resource_row": 819,
+      "source_sha256": "701290157b1974f895fc4116b3fe8cf78c7cb0fb805981aabc2fb888ba58f03b",
+      "target_file": "work/translation/en/chapters_0.1.12/0111/slice_0800.targets.json",
+      "target_file_sha256": "cb1cbd88731ea7dd24113a03893d46ee9f0f0960998b6fb7d8eed45a5b6fb744",
+      "suggested_text": "　Sonolar: purple light, front-L",
+      "rationale": "Compact choice preserves voter, color, position, and light."
+    },
+    "00:00111:text:000323a4": {
+      "resource_row": 820,
+      "source_sha256": "6e408904de7bd2357d3092921be8d642b991b0efef938294385c113dcda74c1b",
+      "target_file": "work/translation/en/chapters_0.1.12/0111/slice_0800.targets.json",
+      "target_file_sha256": "cb1cbd88731ea7dd24113a03893d46ee9f0f0960998b6fb7d8eed45a5b6fb744",
+      "suggested_text": "　Scarrel: green light, back-L",
+      "rationale": "Compact choice preserves voter, color, position, and light."
+    }
+  },
+  "uncertainties": []
+}

@@ -1,0 +1,27 @@
+{
+  "version": "0.1.28",
+  "baseline": "0.1.27",
+  "fresh_launch": true,
+  "in_game_save": true,
+  "crash_reproduced": true,
+  "baseline_result": "Owned isolated PPSSPP process exited after confirming Stance",
+  "trace": {
+    "pc": "0x08868bf0",
+    "module_pc": "0x64bf0",
+    "line_byte_cursor": "0x58",
+    "line_cell_cursor": 44,
+    "native_line_cells": 29,
+    "total_glyphs_bound": 44,
+    "selected_description": "Guard",
+    "selected_description_cells": 58,
+    "missing_empty_line": true
+  },
+  "fix": {
+    "records": 18,
+    "executable_unchanged": true,
+    "explicit_empty_line": true,
+    "max_line_cells": 29,
+    "max_total_cells": 53
+  },
+  "trace_log": "work/scratch/stance028_overrun.log"
+}

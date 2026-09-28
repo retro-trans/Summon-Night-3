@@ -1,0 +1,99 @@
+{
+  "resource_id": "00:00189",
+  "review_type": "independent_meaning_review",
+  "semantic_complete": true,
+  "independent_review": true,
+  "reviewed_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ],
+  "reviewed_slices": [
+    {
+      "target_file": "work/translation/en/chapters_0.1.14/0189/slice_0011.targets.json",
+      "target_file_sha256": "ed3fe66f2f2efdf6c3614f84d9c7986fdaeb18750397f59917780b2bc645e829",
+      "assigned_range": [
+        11,
+        69
+      ],
+      "translation_count": 59
+    }
+  ],
+  "corrections": [
+    {
+      "resource_row": 66,
+      "source_sha256": "6c2c7913d5ea89674f8c79d0c894c31fddc9177bd6cd0e0ee4b10e9f87698d76",
+      "text": "\"I am already dead...\""
+    }
+  ],
+  "rows_examined": {
+    "physical_range_inclusive": [
+      6,
+      69
+    ],
+    "count": 64
+  },
+  "uncertainties": [
+    "The final narration quotes Fariel saying she is already dead; corrected tense and marked it as a quotation."
+  ],
+  "method": "Read and compared every assigned source/target row in slices of at most 80, with adjacent context. Reviewer did not author these drafts. Structural checks do not substitute for that meaning review.",
+  "change_log": [
+    "Build 0.1.14: independently reviewed all optional/night dialogue rows in this resource."
+  ]
+}

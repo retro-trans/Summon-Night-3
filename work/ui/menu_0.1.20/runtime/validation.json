@@ -1,0 +1,44 @@
+{
+  "version": "0.1.20",
+  "iso_sha256": "b4fa21ea06e344964d42e5c1d565f951bb3fa1af9c1ac859423c4c668dd4558e",
+  "fresh_launch": true,
+  "loaded_copied_ingame_save": true,
+  "save_state_loaded": false,
+  "live_new_code_data_bytes_verified": 41200,
+  "jit_replaced_instructions_verified_via_debugger": 86,
+  "live_hook_count": 8,
+  "prior_crash_fix_groups_verified": [
+    "elf:ui:00217bb8",
+    "elf:ui:00217bf8",
+    "elf:ui:00216f74",
+    "elf:ui:00217d14",
+    "elf:ui:0021cac8"
+  ],
+  "screens": [
+    "Battle Prep",
+    "Inventory weapons",
+    "Inventory accessory and Key Item",
+    "Inventory centered None",
+    "Summon Index Dritol",
+    "Summon details Dritol, proportional spells and description, native English controls"
+  ],
+  "mips_checks": {
+    "menu_and_help_cases": 208,
+    "strip_packer_cases": 210,
+    "centered_packer_cases": 210,
+    "name_lookup_cases": 248,
+    "load_bases": 2
+  },
+  "cpu_status": {
+    "event": "cpu.status",
+    "ticket": "275c2560-dc67-4d4d-8024-e462f571c6a8",
+    "stepping": true,
+    "paused": false,
+    "pc": 144800668,
+    "ticks": 20157851693
+  },
+  "limitations": [
+    "Visual QA on PPSSPP software renderer at 1x; hardware renderer and original PSP not tested.",
+    "Other UI rendering paths can still use original character spacing."
+  ]
+}

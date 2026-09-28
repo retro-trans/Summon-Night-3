@@ -1,0 +1,91 @@
+{
+  "build_version": "0.1.24",
+  "review_kind": "independent_meaning_review",
+  "source": "work/source/original.iso, 01.DAT V4 SCRIPT child 1, resource 175",
+  "draft_inputs_sha256": {
+    "work/translation/en/battle_0.1.24/common_0560.targets.json": "a855b7c4469b8287817e7ac6a401d5154152054f232b7f58f03bc3a119df7f08"
+  },
+  "slice_ranges_inclusive": [
+    [
+      560,
+      639
+    ]
+  ],
+  "examined_rows": {
+    "ranges_inclusive": [
+      [
+        555,
+        644
+      ]
+    ],
+    "assigned_row_count": 80,
+    "context_rows_each_side": 5,
+    "total_row_count": 90
+  },
+  "review_policy": "Compared every draft row to its CP932 source and five adjacent rows at both slice edges. Corrections are limited to meaning or source-line-boundary errors.",
+  "corrections": [
+    {
+      "resource": 175,
+      "resource_row": 568,
+      "source_sha256": "85ecedf56202c1c4df0cfca1ee89a1b25cb35fa9582d3011d843af594b845de1",
+      "text": "All that I am,",
+      "reason": "Restores the source’s object; the dedication verb belongs to the final split line."
+    },
+    {
+      "resource": 175,
+      "resource_row": 569,
+      "source_sha256": "ed0d9b95198c6a2910cbd89b9b6c08b1e4b9e60e5f875aba7a4c147554079dab",
+      "text": "for your great ambition,",
+      "reason": "Keeps the stated purpose on its own source line."
+    },
+    {
+      "resource": 175,
+      "resource_row": 570,
+      "source_sha256": "f6ed807fe9db5fd68e9816b991e5406cc34a2b90cdc564e9de8ee6f588b28da9",
+      "text": "I shall offer...",
+      "reason": "Restores the source’s dedication verb without duplicating the preceding English."
+    },
+    {
+      "resource": 175,
+      "resource_row": 593,
+      "source_sha256": "d2267ecd6d8130595dabfeb63f5d1ece19ccfa11784030a276a26f30aeab9d74",
+      "text": "Correcting a husband's faults",
+      "reason": "Corrects 良人 from the generic “good man” to “husband.”"
+    },
+    {
+      "resource": 175,
+      "resource_row": 594,
+      "source_sha256": "437b7b574f96015b9a9713ad9abf6d183082be30368d55a30a4dfcd767acb9c4",
+      "text": "is also a wife's",
+      "reason": "Preserves the split possessive phrase."
+    },
+    {
+      "resource": 175,
+      "resource_row": 595,
+      "source_sha256": "ac9978dd38abd0327e1b9e6de39ca01634147b724842115b0d9b2dda4cef76bb",
+      "text": "duty, is it not!?",
+      "reason": "Completes the source’s rhetorical question."
+    },
+    {
+      "resource": 175,
+      "resource_row": 604,
+      "source_sha256": "d03c7969317aa9a18edd21cb33f7598c56b35f6152c4d52f4217041c18e59fb6",
+      "text": "...You thieving cat!",
+      "reason": "Restores the jealousy insult “thief cat”; “alley cat” changes its meaning."
+    },
+    {
+      "resource": 175,
+      "resource_row": 607,
+      "source_sha256": "617a26dbdb153b7b224af1b5b2a2a316170f4f9f2aca26b1fcd1c7186d405e99",
+      "text": "Do not be jealous.",
+      "reason": "Corrects 嫉妬しないで, which was mistranslated as “Don't pity me.”"
+    },
+    {
+      "resource": 175,
+      "resource_row": 608,
+      "source_sha256": "dba3a99dfad470f40bb595d3da276f999d93455af9ba5aa72c9d862ceae33352",
+      "text": "It is a sad way to live...",
+      "reason": "Restores the source’s characterization of that life."
+    }
+  ]
+}

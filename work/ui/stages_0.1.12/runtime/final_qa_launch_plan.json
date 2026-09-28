@@ -1,0 +1,41 @@
+{
+  "version": "0.1.12",
+  "status": "pending final ISO",
+  "qa_name": "setup_qa_0.1.12_final",
+  "candidate_iso": "work/output/0.1.12/Summon_Night_3_EN_0.1.12.iso",
+  "candidate_manifest": "work/output/0.1.12/manifest.json",
+  "session": "work/scratch/setup_qa_0.1.12_final/session.json",
+  "port": 19381,
+  "launcher": {
+    "tool": "tools/launch_setup_qa.ps1",
+    "preview_arguments": [
+      "-QaName", "setup_qa_0.1.12_final",
+      "-GamePath", "work/output/0.1.12/Summon_Night_3_EN_0.1.12.iso"
+    ],
+    "execute_requires": [
+      "final ISO and manifest exist",
+      "the isolated QA directory does not already exist",
+      "port 19381 has no listener"
+    ]
+  },
+  "ownership_checks": [
+    "The runtime tool requires the explicit session path.",
+    "The session ISO must exactly match the final candidate path.",
+    "The listener on port 19381 must belong to the PID recorded in that session.",
+    "The debugger must report NPJH50380."
+  ],
+  "fresh_boot_workflow": [
+    "Launch only after the final ISO exists.",
+    "Run chapter_qa_runtime.py with the explicit session and no input to preview its binding.",
+    "Advance the opening with only the known recollection and refined-pupil choices automated.",
+    "Stop and capture at the original native 0x31 post-opening setup transition.",
+    "Capture and inspect Character Select, then capture Name Entry before the separate explicit default-name confirmation.",
+    "Resume bounded advance until the first cabin target stages_641 is observed and capture it."
+  ],
+  "native_0x31": {
+    "finding": "Expected original post-opening setup transition.",
+    "source_offset": 93082,
+    "compiler_boundary": "The first translated cabin row starts at source instruction 93122."
+  },
+  "outputs": "work/ui/stages_0.1.12/runtime/<tag>.trace.json and optional unique PNG/JSON captures"
+}

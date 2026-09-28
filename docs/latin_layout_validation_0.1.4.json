@@ -1,0 +1,94 @@
+{
+  "checked_at_utc": "2026-09-26T06:58:13.598295+00:00",
+  "source_iso_sha256": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+  "layout_profile": "opening_latin_pixels_pool192_v2",
+  "preview": {
+    "selected_rows": 78,
+    "reflowed_groups": 22,
+    "required_font_profile": "latin_ink_spacing_pool192_v2",
+    "required_font_pool_capacity": 192,
+    "additional_pages": 5,
+    "old_decoded_bytes": 182526,
+    "new_decoded_bytes": 188010,
+    "decoded_sha256": "631c69857b12fb1b2df3644a3a09b62af25314bfd0b1715c886588f644ee4ac2",
+    "samples": [
+      {
+        "id": "opening_000:group:3",
+        "text": "A voice... Is it calling me?",
+        "pages": [
+          [
+            "A voice... Is it calling me?"
+          ]
+        ]
+      },
+      {
+        "id": "opening_000:group:4",
+        "text": "A voice... Is it calling... for me?",
+        "pages": [
+          [
+            "A voice... Is it calling... for",
+            "me?"
+          ]
+        ]
+      },
+      {
+        "id": "opening_000:group:6",
+        "text": "Open your eyes... and rise...",
+        "pages": [
+          [
+            "Open your eyes... and rise..."
+          ]
+        ]
+      },
+      {
+        "id": "opening_000:group:8",
+        "text": "You who... have inherited me!",
+        "pages": [
+          [
+            "You who... have inherited me!"
+          ]
+        ]
+      },
+      {
+        "id": "opening_000:group:12",
+        "text": "A voice... Is it calling me?",
+        "pages": [
+          [
+            "A voice... Is it calling me?"
+          ]
+        ]
+      }
+    ],
+    "scope_limit": "Static preview only; the selected font/layout profile and pagination need in-game verification."
+  },
+  "group_execution_checks": 22,
+  "choice_control_flow_preserved": true,
+  "compression_roundtrip": true,
+  "unsafe_cases_rejected": [
+    "wrong source hash",
+    "overlapping group ownership",
+    "duplicate group ID",
+    "incomplete group",
+    "choice mistaken for dialogue",
+    "word too wide",
+    "spacing would be lost",
+    "20-bit overflow",
+    "branch enters replaced span",
+    "raw newline",
+    "pixel width overflow",
+    "cell count overflow with narrow ink",
+    "unmapped target character",
+    "pixel wrapping whitespace loss"
+  ],
+  "input_sha256": {
+    "tools/dialogue_layout.py": "24595a3d0f81cfe54b3c95c54e6602443eee24b0340df248ced0bfe4aeeb1685",
+    "tools/prepare_opening_layout.py": "e8fceb19cf6b8002c9f48b16989548c7a12f09893f7e7a86fc579214306fa8cf",
+    "tools/verify_dialogue_layout.py": "d5b3b10f8c2c26fe21a4e099603ed738265400e48c558a19b28d77d570523d10",
+    "tools/script_repack.py": "6242c0ec5d0da7838458e4fd3b706620005e95d0a0f4fcbd7e20224ec45b8219",
+    "tools/script_strings.py": "e4b05a9c0af29956376d5f073050767c6458d260f0e100df47735ad32d302071",
+    "tools/sn3_vm.py": "3fbe03358be685ccb6ca223d874603310a839f5654269678a13c0b790c0501d9",
+    "tools/dialogue_encoding.py": "32ee79498945e156386748c5ddaa7604094c453e6e6058fd9eb62325ecc9055a",
+    "tools/font_metrics.py": "189af19e08b21563e5be6116b1aedc1625866eb689905c2413db540584d92b18"
+  },
+  "scope_limit": "Static compiler and bounded group execution only; runtime pagination, voices, geometry, branches and save/load require live testing."
+}

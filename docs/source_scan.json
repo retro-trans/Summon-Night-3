@@ -1,0 +1,745 @@
+{
+  "report_schema": 1,
+  "scanned_at_utc": "2026-09-26T01:59:45.827613+00:00",
+  "scope": "Full ISO hash and ISO9660 inventory; bounded header probes, complete BOOT.BIN zero check. No dialogue extraction or runtime testing.",
+  "source": {
+    "iso_name": "Summon Night 3 (Japan).iso",
+    "iso_size_bytes": 1658159104,
+    "zip_member_crc32": "9dcdca58",
+    "zip_compressed_size_bytes": 1213500828,
+    "source_name": "Summon Night 3 (Japan)_2.zip",
+    "source_size_bytes": 1213501000,
+    "source_sha256": "da6cb60a15e3a830927badb8bbaf6a327c32878af53781e495aadabbed742f3c",
+    "iso_sha256": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+    "zip_crc_verified": true
+  },
+  "volume": {
+    "system_identifier": "PSP GAME",
+    "volume_identifier": "",
+    "directory_count": 5,
+    "file_count": 36
+  },
+  "param_sfo": {
+    "APP_VER": "01.00",
+    "BOOTABLE": 1,
+    "CATEGORY": "UG",
+    "DISC_ID": "NPJH50380",
+    "DISC_NUMBER": 1,
+    "DISC_TOTAL": 1,
+    "DISC_VERSION": "2.00",
+    "HRKGMP_VER": 19,
+    "PARENTAL_LEVEL": 5,
+    "PSP_SYSTEM_VER": "6.60",
+    "REGION": 32768,
+    "TITLE": "\u30b5\u30e2\u30f3\u30ca\u30a4\u30c8\uff13",
+    "USE_USB": 0
+  },
+  "files": [
+    {
+      "path": "/UMD_DATA.BIN",
+      "sector": 27,
+      "size_bytes": 48
+    },
+    {
+      "path": "/PSP_GAME/SYSDIR/OPNSSMP.BIN",
+      "sector": 32,
+      "size_bytes": 880
+    },
+    {
+      "path": "/PSP_GAME/SYSDIR/EBOOT.BIN",
+      "sector": 544,
+      "size_bytes": 2885456,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "7e 50 53 50 00 00 00 00 01 01 53 75 6d 6d 6f 6e 4e 69 67 68 74 33 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 02 f1 05 2c 00 50 07 2c 00 5c 17 1c 00 68 42 21 00 d0 eb 0f 00 40 00 40 00",
+        "signature": "PSP executable wrapper; not a plain ELF",
+        "magic_matches": {}
+      }
+    },
+    {
+      "path": "/PSP_GAME/SYSDIR/UPDATE/PARAM.SFO",
+      "sector": 1968,
+      "size_bytes": 2080
+    },
+    {
+      "path": "/PSP_GAME/SYSDIR/UPDATE/EBOOT.BIN",
+      "sector": 1984,
+      "size_bytes": 5718512,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "7e 50 53 50 00 08 00 00 01 01 75 70 64 61 74 65 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 02 9f 40 57 00 f0 41 57 00 9c 07 00 00 10 44 12 00 c4 60 03 00 40 00 40 00",
+        "signature": "PSP executable wrapper; not a plain ELF",
+        "magic_matches": {}
+      }
+    },
+    {
+      "path": "/PSP_GAME/SYSDIR/UPDATE/DATA.BIN",
+      "sector": 6080,
+      "size_bytes": 26876352
+    },
+    {
+      "path": "/PSP_GAME/PARAM.SFO",
+      "sector": 54720,
+      "size_bytes": 560
+    },
+    {
+      "path": "/PSP_GAME/ICON0.PNG",
+      "sector": 54736,
+      "size_bytes": 24410
+    },
+    {
+      "path": "/PSP_GAME/PIC1.PNG",
+      "sector": 54752,
+      "size_bytes": 220886
+    },
+    {
+      "path": "/PSP_GAME/SYSDIR/BOOT.BIN",
+      "sector": 54864,
+      "size_bytes": 2885105,
+      "probe": {
+        "sample_size_bytes": 2885105,
+        "header_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+        "signature": "all sampled bytes are zero",
+        "magic_matches": {}
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/psmf.prx",
+      "sector": 56288,
+      "size_bytes": 6832
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/libpsmfplayer.prx",
+      "sector": 56304,
+      "size_bytes": 26560
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/04.DAT",
+      "sector": 56320,
+      "size_bytes": 26193920,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "50 53 4d 46 30 30 31 35 00 00 08 00 01 8f a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+        "signature": "PSMF video",
+        "magic_matches": {
+          "PSMF": {
+            "count_in_sample": 1,
+            "first_offsets": [
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV01.DAT",
+      "sector": 69120,
+      "size_bytes": 11679744,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 bc 4a 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 19140,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 5,
+            "first_offsets": [
+              0,
+              20480,
+              40960,
+              83968,
+              129024
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV02.DAT",
+      "sector": 74832,
+      "size_bytes": 19249152,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 8c 48 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 18580,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 6,
+            "first_offsets": [
+              0,
+              20480,
+              43008,
+              61440,
+              79872,
+              110592
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV03.DAT",
+      "sector": 84240,
+      "size_bytes": 26433536,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 9c 83 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 33700,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 5,
+            "first_offsets": [
+              0,
+              34816,
+              47104,
+              69632,
+              100352
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV04.DAT",
+      "sector": 97152,
+      "size_bytes": 33269760,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 8c b1 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 45460,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 3,
+            "first_offsets": [
+              0,
+              47104,
+              102400
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV05.DAT",
+      "sector": 113408,
+      "size_bytes": 33900544,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 ac 55 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 21940,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 9,
+            "first_offsets": [
+              0,
+              22528,
+              38912,
+              53248,
+              67584,
+              79872,
+              92160,
+              104448
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV06.DAT",
+      "sector": 129968,
+      "size_bytes": 28921856,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 2c 39 01 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 80180,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 2,
+            "first_offsets": [
+              0,
+              81920
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV07.DAT",
+      "sector": 144096,
+      "size_bytes": 28833792,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 7c 02 01 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 66180,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 3,
+            "first_offsets": [
+              0,
+              67584,
+              116736
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV00.DAT",
+      "sector": 158176,
+      "size_bytes": 12652544,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 1c db 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 56100,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 3,
+            "first_offsets": [
+              0,
+              57344,
+              106496
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/00.DAT",
+      "sector": 164368,
+      "size_bytes": 49686528,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "e7 01 01 00 0b 00 00 00 02 00 00 00 00 00 00 00 02 00 00 00 46 01 00 00 48 01 00 00 60 01 00 00 a8 02 00 00 3a 01 00 00 e2 03 00 00 54 01 00 00 36 05 00 00 7d 01 00 00 b3 06 00 00 32 01 00 00",
+        "signature": "unidentified binary data",
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 1,
+            "first_offsets": [
+              4096
+            ]
+          }
+        },
+        "candidate_index": {
+          "status": "structural hypothesis; payload meanings unverified",
+          "entry_count": 487,
+          "unit_bytes": 2048,
+          "empty_entry_count": 179,
+          "first_pairs": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              326
+            ],
+            [
+              328,
+              352
+            ],
+            [
+              680,
+              314
+            ]
+          ],
+          "last_pairs": [
+            [
+              24178,
+              0
+            ],
+            [
+              24178,
+              7
+            ],
+            [
+              24185,
+              76
+            ],
+            [
+              24261,
+              0
+            ]
+          ],
+          "all_entries_within_file": true,
+          "entries_contiguous": true,
+          "first_payload_after_table": true,
+          "indexed_end_bytes": 49686528,
+          "covers_full_file": true
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/02.DAT",
+      "sector": 188640,
+      "size_bytes": 310835200,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "16 00 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 04 00 00 3a 04 00 00",
+        "signature": "unidentified binary data",
+        "magic_matches": {}
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV08.DAT",
+      "sector": 340416,
+      "size_bytes": 40112128,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 0c c3 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 49940,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 3,
+            "first_offsets": [
+              0,
+              51200,
+              118784
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV09.DAT",
+      "sector": 360016,
+      "size_bytes": 49348608,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 bc 90 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 37060,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 3,
+            "first_offsets": [
+              0,
+              38912,
+              81920
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV10.DAT",
+      "sector": 384112,
+      "size_bytes": 49195008,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 4c dd 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 56660,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 6,
+            "first_offsets": [
+              0,
+              57344,
+              73728,
+              90112,
+              106496,
+              116736
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV11.DAT",
+      "sector": 408144,
+      "size_bytes": 58955776,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 cc a8 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 43220,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 4,
+            "first_offsets": [
+              0,
+              45056,
+              65536,
+              122880
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV12.DAT",
+      "sector": 442560,
+      "size_bytes": 53209088,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 1c b8 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 47140,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 3,
+            "first_offsets": [
+              0,
+              49152,
+              129024
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV13.DAT",
+      "sector": 468544,
+      "size_bytes": 39960576,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 0c 7d 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 32020,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 3,
+            "first_offsets": [
+              0,
+              32768,
+              98304
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV14.DAT",
+      "sector": 488064,
+      "size_bytes": 26662912,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 5c 69 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 26980,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 3,
+            "first_offsets": [
+              0,
+              28672,
+              94208
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV15.DAT",
+      "sector": 501088,
+      "size_bytes": 106000384,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 ec 92 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 37620,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 4,
+            "first_offsets": [
+              0,
+              38912,
+              53248,
+              108544
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/01.DAT",
+      "sector": 552848,
+      "size_bytes": 247572480,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "05 00 01 00 04 00 00 00 03 00 00 00 37 08 00 00 3a 08 00 00 47 0b 00 00 81 13 00 00 49 00 00 00 ca 13 00 00 f1 00 00 00 bb 14 00 00 14 01 00 00 10 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+        "signature": "unidentified binary data",
+        "magic_matches": {},
+        "candidate_index": {
+          "status": "structural hypothesis; payload meanings unverified",
+          "entry_count": 5,
+          "unit_bytes": 16,
+          "empty_entry_count": 0,
+          "first_pairs": [
+            [
+              3,
+              2103
+            ],
+            [
+              2106,
+              2887
+            ],
+            [
+              4993,
+              73
+            ],
+            [
+              5066,
+              241
+            ]
+          ],
+          "last_pairs": [
+            [
+              2106,
+              2887
+            ],
+            [
+              4993,
+              73
+            ],
+            [
+              5066,
+              241
+            ],
+            [
+              5307,
+              276
+            ]
+          ],
+          "all_entries_within_file": true,
+          "entries_contiguous": true,
+          "first_payload_after_table": true,
+          "indexed_end_bytes": 89328,
+          "covers_full_file": false
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/03.DAT",
+      "sector": 673744,
+      "size_bytes": 22296576,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "02 00 01 00 04 00 00 00 02 00 00 00 39 00 00 00 3b 00 00 00 c2 0c 00 00 00 00 00 00 00 00 00 00 50 50 48 44 38 00 00 00 00 00 01 00 ff ff ff ff 40 00 00 00 78 02 00 00 58 03 00 00 ff ff ff ff",
+        "signature": "unidentified binary data",
+        "magic_matches": {
+          "PPHD": {
+            "count_in_sample": 4,
+            "first_offsets": [
+              32,
+              53280,
+              86048,
+              118816
+            ]
+          },
+          "PPPG": {
+            "count_in_sample": 4,
+            "first_offsets": [
+              96,
+              53344,
+              86112,
+              118880
+            ]
+          }
+        },
+        "candidate_index": {
+          "status": "structural hypothesis; payload meanings unverified",
+          "entry_count": 2,
+          "unit_bytes": 16,
+          "empty_entry_count": 0,
+          "first_pairs": [
+            [
+              2,
+              57
+            ],
+            [
+              59,
+              3266
+            ]
+          ],
+          "last_pairs": [
+            [
+              2,
+              57
+            ],
+            [
+              59,
+              3266
+            ]
+          ],
+          "all_entries_within_file": true,
+          "entries_contiguous": true,
+          "first_payload_after_table": true,
+          "indexed_end_bytes": 53200,
+          "covers_full_file": false
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV16.DAT",
+      "sector": 684640,
+      "size_bytes": 48406528,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 3c 2e 01 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 77380,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 2,
+            "first_offsets": [
+              0,
+              77824
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV17.DAT",
+      "sector": 708288,
+      "size_bytes": 39395328,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 1c fe 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 65060,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 2,
+            "first_offsets": [
+              0,
+              65536
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "/PSP_GAME/USRDIR/SV18.DAT",
+      "sector": 727536,
+      "size_bytes": 168155136,
+      "probe": {
+        "sample_size_bytes": 131072,
+        "header_hex": "52 49 46 46 3c c5 00 00 57 41 56 45 66 6d 74 20 34 00 00 00 fe ff 01 00 44 ac 00 00 1b 2f 00 00 30 02 00 00 22 00 00 08 01 00 00 00 bf aa 23 e9 58 cb 71 44 a1 19 ff fa 01 e4 ce 62 01 00 24 45",
+        "signature": "RIFF/WAVE",
+        "first_riff_size_bytes": 50500,
+        "magic_matches": {
+          "RIFF": {
+            "count_in_sample": 5,
+            "first_offsets": [
+              0,
+              51200,
+              69632,
+              83968,
+              100352
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

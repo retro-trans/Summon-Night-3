@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-09-26",
+  "reviewer": "independent_setup_ui_meaning_review",
+  "status": "complete_with_unresolved_tiny_text_and_auto_name_behavior",
+  "target_path": "work/translation/en/setup_ui.related_drafts.json",
+  "target_sha256": "1b042cec3b1a603885814fd77d04bb4ab9b98186eda9d5ec97e7b8cd8fea5c8b",
+  "source_index": {
+    "path": "work/ui/setup_assets_complete/index.json",
+    "sha256": "77b6122a8e8f9535948abe9b1bba5384338770f5d3136dc1b35bd7df550178fd"
+  },
+  "immutable_prior_inputs": [
+    {
+      "path": "work\\translation\\en\\setup_ui.screenshot_drafts.json",
+      "sha256": "b98060f9593900f0e22c5670c4cb102e9e2777209eda4cc91b3f2eb9093b10d1"
+    },
+    {
+      "path": "work\\translation\\en\\setup_ui.meaning_review.json",
+      "sha256": "b3e62f023e966d40eab272ca090343a5f8cf6916913a31dca1a11f2c9ac90d82"
+    },
+    {
+      "path": "work\\glossary\\setup_ui.proposed.json",
+      "sha256": "47a0fdee8f084e5f3ca56dd09fdca6a2858461f049410560ed65abd0eb868958"
+    }
+  ],
+  "coverage": {
+    "records_assigned": 57,
+    "records_examined": 57,
+    "entry_sprite_occurrences_hash_checked": 122,
+    "distinct_image_files_hash_checked": 92,
+    "result_counts": {
+      "meaning_pass": 40,
+      "preserve_existing_data": 6,
+      "provisional_auto_name_function": 4,
+      "source_corroborated_target_pending": 1,
+      "unresolved_tiny_text": 6
+    },
+    "meaning_corrections_required": 0,
+    "source_transcriptions_newly_corroborated": 1,
+    "affinity_descriptions_independently_viewed": 4
+  },
+  "records": [
+    {
+      "id": "select.protagonist",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "select.affinity",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "select.confirm",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "affinity.suffix",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "affinity.machine",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "affinity.yokai",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "affinity.spirit",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "affinity.beast",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "description.machine",
+      "result": "meaning_pass",
+      "note": "Pass: advanced mechanical civilization and mechanical soldiers are retained; most offensive summons, strong power, and somewhat higher MP costs are all present. Other machines is a reasonable rendering of the nonexclusive example marker, not a new species claim."
+    },
+    {
+      "id": "description.yokai",
+      "result": "meaning_pass",
+      "note": "Pass: coexistence of humans with yokai/dragon gods/oni gods is retained. Attack and ailment/possession summons are the main categories; many such effects disadvantage enemies. English or lists available effects and does not claim every summon combines all effects."
+    },
+    {
+      "id": "description.spirit",
+      "result": "meaning_pass",
+      "note": "Pass: angels and demons are spiritual life forms; immortality remains expressly limited to the Spirit World. Recovery/healing, ailments, possession, and beginner suitability are all retained. Do not replace possession with buffs or infer an unverified HP/status-cure split."
+    },
+    {
+      "id": "description.beast",
+      "result": "meaning_pass",
+      "note": "Pass: natural abundance, peaceful beastlike humanoids/mythical beasts, balanced summon effects, and unusual possession effects are retained. Unusual is valid for special/distinctive here; no required wording change."
+    },
+    {
+      "id": "name.footer",
+      "result": "provisional_auto_name_function",
+      "note": "Auto-Name is a semantically defensible provisional label. Native art does not distinguish restoring the default from generating a name; keep behavior unasserted until the handler or live behavior is checked. Preserve controller icons and arrows in footer copies."
+    },
+    {
+      "id": "name.start",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.delete",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.auto",
+      "result": "provisional_auto_name_function",
+      "note": "Auto-Name is a semantically defensible provisional label. Native art does not distinguish restoring the default from generating a name; keep behavior unasserted until the handler or live behavior is checked. Preserve controller icons and arrows in footer copies."
+    },
+    {
+      "id": "name.confirm",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.hiragana",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.katakana",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.alnum",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.symbols",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.kanji",
+      "result": "meaning_pass",
+      "note": "Native sprite clearly reads Kanji. The extension correctly resolves the old provisional Convert label while preserving the prior artifact."
+    },
+    {
+      "id": "name.footer_short",
+      "result": "provisional_auto_name_function",
+      "note": "Auto-Name is a semantically defensible provisional label. Native art does not distinguish restoring the default from generating a name; keep behavior unasserted until the handler or live behavior is checked. Preserve controller icons and arrows in footer copies."
+    },
+    {
+      "id": "name.protagonist_heading",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.summon_heading",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.background.delete",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.background.auto",
+      "result": "provisional_auto_name_function",
+      "note": "Auto-Name is a semantically defensible provisional label. Native art does not distinguish restoring the default from generating a name; keep behavior unasserted until the handler or live behavior is checked. Preserve controller icons and arrows in footer copies."
+    },
+    {
+      "id": "name.background.confirm",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.background.hiragana",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.background.katakana",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.background.alnum",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.background.symbols",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "name.background.kanji",
+      "result": "meaning_pass",
+      "note": "Embedded background label corroborates Kanji; update this copy along with the selectable button artwork."
+    },
+    {
+      "id": "options.footer",
+      "result": "meaning_pass",
+      "note": "Confirm/Cancel correctly matches this separate source footer; do not substitute Exit Options everywhere."
+    },
+    {
+      "id": "options.title",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "options.music",
+      "result": "meaning_pass",
+      "note": "Pass: normal state uses two fragments, selected state uses one. Preserve complete assembled meaning rather than translating each fragment as a separate label."
+    },
+    {
+      "id": "options.voices",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "options.forecast",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "options.cursor",
+      "result": "meaning_pass",
+      "note": "Pass: selected-state label is split across two source sprites. No direction mapping is asserted beyond the source setting label."
+    },
+    {
+      "id": "options.lr",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "options.rotation",
+      "result": "meaning_pass",
+      "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+    },
+    {
+      "id": "options.unit",
+      "result": "meaning_pass",
+      "note": "Unit Cycling correctly expresses moving between units. Both states use assembly fragments; no extra targeting behavior is assumed."
+    },
+    {
+      "id": "options.exit_footer",
+      "result": "meaning_pass",
+      "note": "Confirm/Exit Options correctly matches the embedded bottom frame strip; preserve controller symbols."
+    },
+    {
+      "id": "options.thumbnail.forecast_check",
+      "result": "preserve_existing_data",
+      "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+    },
+    {
+      "id": "options.thumbnail.forecast_damage",
+      "result": "preserve_existing_data",
+      "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+    },
+    {
+      "id": "options.thumbnail.forecast_numeric",
+      "result": "preserve_existing_data",
+      "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+    },
+    {
+      "id": "options.thumbnail.battle_footer_left",
+      "result": "unresolved_tiny_text",
+      "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+    },
+    {
+      "id": "options.thumbnail.battle_footer_right",
+      "result": "unresolved_tiny_text",
+      "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+    },
+    {
+      "id": "options.thumbnail.ally_name",
+      "result": "meaning_pass",
+      "note": "Rexx is readable and follows the established locked glossary spelling. This is static thumbnail text, not the dynamic runtime name."
+    },
+    {
+      "id": "options.thumbnail.ally_command_left",
+      "result": "unresolved_tiny_text",
+      "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+    },
+    {
+      "id": "options.thumbnail.ally_command_right",
+      "result": "unresolved_tiny_text",
+      "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+    },
+    {
+      "id": "options.thumbnail.ally_numeric_stats",
+      "result": "preserve_existing_data",
+      "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+    },
+    {
+      "id": "options.thumbnail.opponent_right_panel",
+      "result": "unresolved_tiny_text",
+      "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+    },
+    {
+      "id": "options.thumbnail.enemy_name_partial",
+      "result": "source_corroborated_target_pending",
+      "note": "The visible suffix is consistent with the exact mirrored source-table label char_label:00007cbc. Complete source transcription is now supported. No researched English enemy-name spelling has been approved here."
+    },
+    {
+      "id": "options.thumbnail.enemy_command",
+      "result": "unresolved_tiny_text",
+      "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+    },
+    {
+      "id": "options.thumbnail.enemy_numeric_stats",
+      "result": "preserve_existing_data",
+      "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+    },
+    {
+      "id": "options.thumbnail.forecast_magnified_numeric",
+      "result": "preserve_existing_data",
+      "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+    }
+  ],
+  "required_fixes": [],
+  "accepted_prior_correction": {
+    "prior_id": "name.convert",
+    "resolved_source": "漢字",
+    "resolved_target": "Kanji",
+    "evidence": [
+      "02_00030_00001_sprite_012.png",
+      "02_00030_00003_sprite_000.png"
+    ],
+    "action": "Use the extension correction when merging; retain prior reviewed artifacts and their original hashes."
+  },
+  "new_source_resolution": {
+    "id": "options.thumbnail.enemy_name_partial",
+    "source_visible_complete": "マリンゼリー",
+    "corroborating_source_id": "char_label:00007cbc",
+    "source_tables": [
+      "01:00001/00000",
+      "00:00044/00006/00000"
+    ],
+    "source_sha256": "8c0adef9708bdb72dfae14b4753cf1ccf97193e79b5b98442a9e70d12c3924ca",
+    "target_literal_proposal": "Marine Jelly",
+    "target_status": "unresearched_name_proposal_not_approved_glossary",
+    "action": "Record complete transcription in a successor/merged artifact; research and normalize its English name before final insertion."
+  },
+  "options_states_review": {
+    "normal_selected": "Both source states preserve the same labels, with split fragments identified by assembly_groups.",
+    "on_off": "Native sprites 016/017 and selected 033/034 already read ON/OFF; preserve the English labels. Volume-slider OFF is also already English.",
+    "map_rotation_unit_cycling": "Translations are faithful to the visible option values. Exact button-direction mapping still belongs to runtime verification.",
+    "footer_distinction": "Separate Cancel and Exit Options sources are correctly translated distinctly."
+  },
+  "visually_inspected_assets": [
+    "contact_00.jpg",
+    "contact_01.jpg",
+    "contact_02.jpg",
+    "contact_03.jpg",
+    "contact_04.jpg",
+    "contact_05.jpg",
+    "02_00028_00009_sprite_000.png",
+    "02_00028_00010_sprite_000.png",
+    "02_00028_00011_sprite_000.png",
+    "02_00028_00012_sprite_000.png",
+    "02_00030_00001_sprite_012.png",
+    "02_00030_00003_sprite_000.png",
+    "02_00033_00002_sprite_039.png",
+    "02_00033_00002_sprite_040.png",
+    "02_00033_00002_sprite_041.png",
+    "02_00033_00002_sprite_042.png"
+  ],
+  "source_image_hashes": {
+    "02_00028_00001_sprite_000.png": "6a8c8294a0f8e150c7c235b5f77ae0c8d818904999d47cc04f9b74130b3eabb1",
+    "02_00029_00001_sprite_000.png": "6a8c8294a0f8e150c7c235b5f77ae0c8d818904999d47cc04f9b74130b3eabb1",
+    "02_00028_00001_sprite_001.png": "0e5b7158c3e1d0028cad61b98c83c912a6e778be272c46157b93b34e985ade63",
+    "02_00029_00001_sprite_001.png": "0e5b7158c3e1d0028cad61b98c83c912a6e778be272c46157b93b34e985ade63",
+    "02_00028_00001_sprite_004.png": "811b90f8a92ba3f6eaf58257a77b95e9052977f2608a93256b30537da7695e17",
+    "02_00029_00001_sprite_004.png": "811b90f8a92ba3f6eaf58257a77b95e9052977f2608a93256b30537da7695e17",
+    "02_00028_00008_sprite_001.png": "dc0119e1a13efef55c2aa82fc57286effe388f24ff8ee2b1844bc5d041fab3ab",
+    "02_00029_00008_sprite_001.png": "dc0119e1a13efef55c2aa82fc57286effe388f24ff8ee2b1844bc5d041fab3ab",
+    "02_00028_00008_sprite_002.png": "fe9a5dba9374cbd83d79510ecfd3c8898a7da8290d3a2f260261482593968542",
+    "02_00029_00008_sprite_002.png": "fe9a5dba9374cbd83d79510ecfd3c8898a7da8290d3a2f260261482593968542",
+    "02_00028_00008_sprite_003.png": "b0a66d368e751c9da783a8016e2097e5745c791ea77d31162cdb7a7555016c0b",
+    "02_00029_00008_sprite_003.png": "b0a66d368e751c9da783a8016e2097e5745c791ea77d31162cdb7a7555016c0b",
+    "02_00028_00008_sprite_004.png": "0239ed59ed7998acad07d61b61982ded6565c87a270f128654a37ccc98cca820",
+    "02_00029_00008_sprite_004.png": "0239ed59ed7998acad07d61b61982ded6565c87a270f128654a37ccc98cca820",
+    "02_00028_00008_sprite_005.png": "c7c0fc86340a9165f91ef5401096940fdd7be18e3fb4eb695d479d59236a7c51",
+    "02_00029_00008_sprite_005.png": "c7c0fc86340a9165f91ef5401096940fdd7be18e3fb4eb695d479d59236a7c51",
+    "02_00028_00009_sprite_000.png": "e07489d04091545772a8af550e9ed1415be7c34c1ee2a5f46d109a6b0a535c20",
+    "02_00029_00009_sprite_000.png": "e07489d04091545772a8af550e9ed1415be7c34c1ee2a5f46d109a6b0a535c20",
+    "02_00028_00010_sprite_000.png": "7752f1de05cc2255754cb720e8b772b039d5a6c2d605834b04aaf6f3b1fd76b0",
+    "02_00029_00010_sprite_000.png": "7752f1de05cc2255754cb720e8b772b039d5a6c2d605834b04aaf6f3b1fd76b0",
+    "02_00028_00011_sprite_000.png": "62c9126cd5a790f0710e2321a250f863d7c60bd84190466a249901580bce6305",
+    "02_00029_00011_sprite_000.png": "62c9126cd5a790f0710e2321a250f863d7c60bd84190466a249901580bce6305",
+    "02_00028_00012_sprite_000.png": "3ff88506e01e3afb271a340ed2f33fac5f7ac684dd8ddeba494197bd405506ca",
+    "02_00029_00012_sprite_000.png": "3ff88506e01e3afb271a340ed2f33fac5f7ac684dd8ddeba494197bd405506ca",
+    "02_00030_00001_sprite_001.png": "6154cd28403cc557c1c1bdb7a4abbd38919d3fe45083a1d7fc09604f5fe8c5cb",
+    "02_00031_00001_sprite_001.png": "6154cd28403cc557c1c1bdb7a4abbd38919d3fe45083a1d7fc09604f5fe8c5cb",
+    "02_00032_00001_sprite_001.png": "6154cd28403cc557c1c1bdb7a4abbd38919d3fe45083a1d7fc09604f5fe8c5cb",
+    "02_00030_00001_sprite_002.png": "07151eabe2fa5197a2dccdfc86bd754f9f298988f3b374bbdc7c17043a7188c3",
+    "02_00031_00001_sprite_002.png": "07151eabe2fa5197a2dccdfc86bd754f9f298988f3b374bbdc7c17043a7188c3",
+    "02_00032_00001_sprite_002.png": "07151eabe2fa5197a2dccdfc86bd754f9f298988f3b374bbdc7c17043a7188c3",
+    "02_00030_00001_sprite_005.png": "570bf73f10a5d6891bea698994b385431d9144b2d2341d03946ec8b5831a1f4d",
+    "02_00031_00001_sprite_005.png": "570bf73f10a5d6891bea698994b385431d9144b2d2341d03946ec8b5831a1f4d",
+    "02_00032_00001_sprite_005.png": "570bf73f10a5d6891bea698994b385431d9144b2d2341d03946ec8b5831a1f4d",
+    "02_00030_00001_sprite_006.png": "f8940badf962b57f9ee0ff7a5089256a1bda1361534031e8b1e1dabc1d8a0306",
+    "02_00031_00001_sprite_006.png": "f8940badf962b57f9ee0ff7a5089256a1bda1361534031e8b1e1dabc1d8a0306",
+    "02_00032_00001_sprite_006.png": "f8940badf962b57f9ee0ff7a5089256a1bda1361534031e8b1e1dabc1d8a0306",
+    "02_00030_00001_sprite_007.png": "c5f85e9888d33ceee0417803d9814bdcc7a8f52f4a304abcafb6f8992a86fdda",
+    "02_00031_00001_sprite_007.png": "c5f85e9888d33ceee0417803d9814bdcc7a8f52f4a304abcafb6f8992a86fdda",
+    "02_00032_00001_sprite_007.png": "c5f85e9888d33ceee0417803d9814bdcc7a8f52f4a304abcafb6f8992a86fdda",
+    "02_00030_00001_sprite_008.png": "da1707cc458cae657ec685cb4bee87352251f1ddb70f984d2dc1b77c34f2d01d",
+    "02_00031_00001_sprite_008.png": "da1707cc458cae657ec685cb4bee87352251f1ddb70f984d2dc1b77c34f2d01d",
+    "02_00032_00001_sprite_008.png": "da1707cc458cae657ec685cb4bee87352251f1ddb70f984d2dc1b77c34f2d01d",
+    "02_00030_00001_sprite_009.png": "2ee539b5bca8608252e4acbdc507b06ecbce1e4feba76283b3d682ce8f76e9ba",
+    "02_00031_00001_sprite_009.png": "2ee539b5bca8608252e4acbdc507b06ecbce1e4feba76283b3d682ce8f76e9ba",
+    "02_00032_00001_sprite_009.png": "2ee539b5bca8608252e4acbdc507b06ecbce1e4feba76283b3d682ce8f76e9ba",
+    "02_00030_00001_sprite_010.png": "bb5a4485d537954db9c9715e7046b93e993c3bea6826002ed16542fac00c6038",
+    "02_00031_00001_sprite_010.png": "bb5a4485d537954db9c9715e7046b93e993c3bea6826002ed16542fac00c6038",
+    "02_00032_00001_sprite_010.png": "bb5a4485d537954db9c9715e7046b93e993c3bea6826002ed16542fac00c6038",
+    "02_00030_00001_sprite_011.png": "14d06727fd25e98956470dbc9c38ce1fe32c4da926f44e9d9254677847f9f322",
+    "02_00031_00001_sprite_011.png": "14d06727fd25e98956470dbc9c38ce1fe32c4da926f44e9d9254677847f9f322",
+    "02_00032_00001_sprite_011.png": "14d06727fd25e98956470dbc9c38ce1fe32c4da926f44e9d9254677847f9f322",
+    "02_00030_00001_sprite_012.png": "5c171492c643764a2b676ec4f6d22d6182f121eca66765fa30537a9d2b838456",
+    "02_00031_00001_sprite_012.png": "5c171492c643764a2b676ec4f6d22d6182f121eca66765fa30537a9d2b838456",
+    "02_00032_00001_sprite_012.png": "5c171492c643764a2b676ec4f6d22d6182f121eca66765fa30537a9d2b838456",
+    "02_00030_00001_sprite_042.png": "569e582add070644d820a88209585392476537777b11267e31c49609a1658f74",
+    "02_00031_00001_sprite_042.png": "569e582add070644d820a88209585392476537777b11267e31c49609a1658f74",
+    "02_00032_00001_sprite_042.png": "569e582add070644d820a88209585392476537777b11267e31c49609a1658f74",
+    "02_00030_00002_sprite_000.png": "3b7fee8e30a8ac5fabb329bcba4650e48adfafb4f2bbe609c00b9037934620d9",
+    "02_00031_00002_sprite_000.png": "3b7fee8e30a8ac5fabb329bcba4650e48adfafb4f2bbe609c00b9037934620d9",
+    "02_00032_00002_sprite_000.png": "3b7fee8e30a8ac5fabb329bcba4650e48adfafb4f2bbe609c00b9037934620d9",
+    "02_00030_00002_sprite_001.png": "2546d9e6b69229b98da712303083d8bea2b838843d41979391467a58b0058941",
+    "02_00031_00002_sprite_001.png": "2546d9e6b69229b98da712303083d8bea2b838843d41979391467a58b0058941",
+    "02_00032_00002_sprite_001.png": "2546d9e6b69229b98da712303083d8bea2b838843d41979391467a58b0058941",
+    "02_00030_00003_sprite_000.png": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+    "02_00031_00003_sprite_000.png": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+    "02_00032_00003_sprite_000.png": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+    "02_00033_00002_sprite_000.png": "1c6a09435541354308799d536f18742fea0fda30f7ddacb1b601b9b500f1e26c",
+    "02_00033_00002_sprite_002.png": "65737d957c569bc644f7a9afb501e783b727e0f510a94d3567fe69c87d8fed38",
+    "02_00033_00002_sprite_003.png": "9c4d3149ef8c840a66e964d4004be365751a51b9b1715ef589699a4cdac7370d",
+    "02_00033_00002_sprite_004.png": "bec8389bee99833978648b6fa37a7bdc153dc8675aeb5e3f908765f7f2dccc6b",
+    "02_00033_00002_sprite_010.png": "ce5fe8d84f15a1f8d5251d4743fc192708f7d6c186ea47f8b1d4ba6a365d70b3",
+    "02_00033_00002_sprite_006.png": "2f1e627b6f9d0ba341d9de6fde4155844a2aae176fe8fb93e540933819380b00",
+    "02_00033_00002_sprite_011.png": "ce82fd3649a0239b58838690d661f03481397dbd07f528c21427fc7b173a19da",
+    "02_00033_00002_sprite_007.png": "f1d2a265e7f282cd41c347b19af8f504185b9310df8e57d91b910113d5818f09",
+    "02_00033_00002_sprite_012.png": "a85f8cc6daec2e2b01c2511a8dd61b93a9e4a1ceb8cc017e34d3111cf595a76f",
+    "02_00033_00002_sprite_008.png": "6b8ab1e3f95ae9e27384c607626acabd5d145f596dc51f21bd984bf864fd540e",
+    "02_00033_00002_sprite_013.png": "b284a2c6fa6226df45ec4ad6cf6a4a94f92888f0f450540f287a38c202165af8",
+    "02_00033_00002_sprite_014.png": "5c5437ea4a0d3a9f40309017586fc8969c13804be9ceecdefbcc319b737b1e9d",
+    "02_00033_00002_sprite_009.png": "54a4d6a9a86fe3694d12ad81f456907eab37811770bb521634ea641d41a0abd3",
+    "02_00033_00002_sprite_015.png": "fad69283a3680120104fc6b3245868b757077a5f6fc45bf295474bc4e732c0cd",
+    "02_00033_00002_sprite_027.png": "4a3844061442ae0e704e5c308f55f3b908ba21daf7052ace65484563bdd58153",
+    "02_00033_00002_sprite_036.png": "44fd2b0cd3d34395f99696172f1fa98202a8e032907a333336ef89b6bcf74d36",
+    "02_00033_00002_sprite_031.png": "07aef578351530d9a9a6590759f8f1f4358978e86d2b2c5ddcbbb702d5aaca4a",
+    "02_00033_00002_sprite_032.png": "7f3c1fd5040b3234a7c0d79c808ec8640a97bb2e033e4f06da7738f9d429b40a",
+    "02_00033_00002_sprite_037.png": "2644f3d0837fa2c6d4be15dd13bd6c1d55aa0ea42df686ee41884e0575063bcd",
+    "02_00033_00002_sprite_038.png": "30a2c3c2c515e5eb74d62a2ce886d5cbd09d900530e3f0ff47f5a3816ece5756",
+    "02_00033_00003_sprite_005.png": "61eb315ac1df6925cff06845836c688f0d0dfa7e93b0a7a8b25b2ab2d8fe4654",
+    "02_00033_00002_sprite_039.png": "785a077f42c6c42c71d0bf6f648390f03f5d0dc646eaff670a8af5decc52cf9d",
+    "02_00033_00002_sprite_040.png": "4717bfad783540d4e4b7dbb9b0f4cc0583109e6113dfad1f4930073593bb65ea",
+    "02_00033_00002_sprite_041.png": "b433ef4a4fd7a48b4fd4ba95276d708457731dc4d8ba51c4e314799d81aabfeb",
+    "02_00033_00002_sprite_042.png": "f5973f80219cfa0d89e7f11dea110a403b89c2f5fd294b37b18e96dbab2750da",
+    "02_00033_00002_sprite_043.png": "2ba30b8fa2fe7b479e6a4cd0bbf38626a215a95e303fb52cc08fc8b4d2fb8e3f"
+  },
+  "uncertainties": [
+    "Six tiny thumbnail labels/regions remain unresolved after one enemy name source is corroborated. Attack, Defend, and Counterattack remain conditional transcriptions, not final approvals.",
+    "Four semantic records include Auto-Name; the name-generation/default-restoration behavior remains unverified.",
+    "Image duplicates are supported by hashes; identical image bytes do not prove identical runtime use.",
+    "Japanese visual line wraps may be reflowed, but descriptions must retain full meaning. This review approves meaning rather than exact per-line source transcription punctuation.",
+    "Tiny English/numeric examples should be preserved from source pixels, not recreated from uncertified OCR."
+  ],
+  "scope_limits": [
+    "Review covers the 57 submitted semantic records, and checks hashes for their listed sprite occurrences. It does not independently establish completeness of every one of the 410 textures or decode 51 nontexture children.",
+    "Affinities/world names retain the nine proposals reviewed in setup_ui.meaning_review.json. No new glossary edit was made.",
+    "No target artifact, image, prior review, glossary, ISO, or emulator state was changed.",
+    "Meaning review does not certify English layout fitting, palette editing, relocated geometry, input-page defaults, or runtime rendering.",
+    "Apply final meaning/source resolutions before scripted glossary normalization."
+  ]
+}

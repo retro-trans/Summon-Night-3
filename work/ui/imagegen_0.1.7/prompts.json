@@ -1,0 +1,18 @@
+{
+  "version": "0.1.7",
+  "method": "built-in image_gen",
+  "assets": [
+    {
+      "id": "character_banner",
+      "source": "C:/Users/Binh/.codex/generated_images/01a0db63-acc7-7ff0-b061-538dd1602405/exec-d056e520-dc69-45b9-9242-81d87e37af3d.png",
+      "prompt": "Use case: text-localization. Edit target: the attached ORIGINAL game banner sprite. Create a clean English-localized production sprite, not a screenshot mockup. Keep the same wide banner silhouette, flush left edge, rounded right end, white spiral ornament, peach woodgrain, cream double border, brown outlines, and warm hand-painted PSP fantasy-game style. Completely reconstruct the interior woodgrain seamlessly: no old Japanese strokes, repeated texture strips, rectangles, patch edges or pasted-on panels.\nText exactly two lines: \"Character Select\" then \"Choose your protagonist.\" Retain the original playful rounded bold lettering style: warm cream face, dark brown outline and subtle brown shadow. Integrate both text lines naturally and center them within the left text area. Make second line bold, highly readable and large enough for a 264x64 native game sprite, within the same visual hierarchy as the first. No extra wording, no Japanese.\nOutput only this single flat 2D banner sprite, same approximately 4.125:1 canvas aspect ratio and relative layout as the input, at high resolution for downsampling. Transparent outside the banner. No scene, characters, surrounding UI, checkerboard, matte background, margin additions or drop shadow outside original silhouette. Preserve the spiral and frame; render all of the interior artwork coherently rather than covering the previous letters.",
+      "sprite": 0
+    },
+    {
+      "id": "confirm_button",
+      "source": "C:/Users/Binh/.codex/generated_images/01a0db63-acc7-7ff0-b061-538dd1602405/exec-569c93c7-7573-405a-876c-3339e7e515ac.png",
+      "prompt": "Use case: text-localization. Edit target: original PSP game hexagonal Confirm button sprite. Recreate a clean English production game sprite with a seamless single interior, not a screenshot. Keep the exact elongated horizontal hexagonal silhouette, peach salmon woodgrain fill, beveled cream double-line border, dark brown edge, and the small dark round PlayStation circle-button icon on the LEFT. Replace the Japanese text completely with the exact word \"Confirm\", centered in the space to the RIGHT of the circle icon. Use bold rounded cream lettering with a dark brown outline matching the original Japanese menu artwork's weight. Make text highly readable after downsampling to 112x56. Repaint the whole button surface as coherent artwork so there are no rectangles, patch seams, leftover glyph strokes, flat inset panels, duplicated edges or paint-over traces. Preserve original shape, horizontal layout and icon position. Output ONLY one button, flat front-on, at high resolution, same 2:1 overall canvas proportions, real alpha transparency outside the silhouette. No extra buttons, no surrounding screen, no captions, no checkerboard or matte background.",
+      "sprite": 4
+    }
+  ]
+}

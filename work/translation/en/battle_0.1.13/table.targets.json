@@ -1,0 +1,3824 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "status": "draft_pending_meaning_review",
+  "build_version": "0.1.13",
+  "scope": "Battle status, base attack modes/ranges, tutorial navigation, and directly translated Brave Battle objectives. Named skills/items and unresolved named/multiline conditions are deliberately excluded.",
+  "source_index_path": "work/translation/en/interface.index.json",
+  "source_index_sha256": "7b59c56c46b60f0bb88bd0f4b498a3d9e88be701f892d0c1b31017e00bf3aca3",
+  "excluded_rows": [
+    {
+      "id": "02:00003/00046:ui:0000107c",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000010a2",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000010d6",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000010f2",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001114",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:0000114c",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000014f0",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001518",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001548",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:0000155a",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001582",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000015b2",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000015da",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:0000160c",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:0000162a",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001646",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000016b2",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000016da",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001708",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:0000172a",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001760",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000017c0",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000017e2",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001818",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:0000189c",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001904",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001956",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:0000196c",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001994",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001a34",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001a5a",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001a80",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001aa8",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001ade",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001b02",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001b26",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001b4c",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001b6e",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001ba0",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001bd2",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001c06",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001c7e",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001ca4",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001d06",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001d2e",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001d62",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001d86",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001dba",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001dee",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001e14",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001ee6",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001f0a",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001f42",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001f4e",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001f74",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00001f9a",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00002030",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00002056",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000020c0",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000020e8",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:0000219c",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000021c0",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000021e4",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00002200",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:0000222a",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00002252",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00002306",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00002328",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00002386",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000023a8",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000023de",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00002402",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00002420",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00002452",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:00002482",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    },
+    {
+      "id": "02:00003/00046:ui:000024a8",
+      "reason": "outside bounded battle UI scope or no table translation rule"
+    }
+  ],
+  "entries": [
+    {
+      "id": "02:00003/00000:ui:000000b4",
+      "target_full": "Normal",
+      "source_sha256": "e2f2f67890c4789296ba2993030376eb2043a46b6eb8319bfaa986e329332857",
+      "source_offset": 180,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 0,
+          "slot": 0,
+          "pointer_field_offset": 4
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000000ba",
+      "target_full": "Petrify",
+      "source_sha256": "14f75662dfb6a6c1cb5e8a256b500a0be9ce315f35a61684bc5b2bb859d8a76a",
+      "source_offset": 186,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 1,
+          "slot": 0,
+          "pointer_field_offset": 12
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000000c0",
+      "target_full": "Charm",
+      "source_sha256": "28672e51b3eeebd3a7b21186f0095acab9cfc2787cef73a76dfeeab113cd0653",
+      "source_offset": 192,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 2,
+          "slot": 0,
+          "pointer_field_offset": 20
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000000c6",
+      "target_full": "Berserk",
+      "source_sha256": "5709e8e695a146848cf2ea3334a79ffd60a4c65b6b44e3f97a15398fa4b2fd09",
+      "source_offset": 198,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 3,
+          "slot": 0,
+          "pointer_field_offset": 28
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000000ce",
+      "target_full": "Poison",
+      "source_sha256": "3af157ef4b0920011d50f081abd7f39c279339477b4f20c65d257ac0b319b1cf",
+      "source_offset": 206,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 4,
+          "slot": 0,
+          "pointer_field_offset": 36
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000000d2",
+      "target_full": "Paralysis",
+      "source_sha256": "d17e469d1a9ecc0f87beb6d49bad5a3c8a98f1082ae0c154b8edbd54a76a90f6",
+      "source_offset": 210,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 5,
+          "slot": 0,
+          "pointer_field_offset": 44
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000000d8",
+      "target_full": "Blind",
+      "source_sha256": "021911d2b48fa5eca83b7666f1f8b3a9228e0b322802021e9039c7b39f9e28e9",
+      "source_offset": 216,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 6,
+          "slot": 0,
+          "pointer_field_offset": 52
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000000de",
+      "target_full": "Summon Seal",
+      "source_sha256": "d6f853fea83db6da8be8865e0bfd79f25d85aeb8a5a6d465decdbdb416c81c33",
+      "source_offset": 222,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 7,
+          "slot": 0,
+          "pointer_field_offset": 60
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000000e8",
+      "target_full": "Cannot use summon magic.",
+      "source_sha256": "f3f9c91f414137692f7f72b6ce4fd94ba0312ca8a61726141e817f4d2773e116",
+      "source_offset": 232,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 7,
+          "slot": 1,
+          "pointer_field_offset": 64
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:00000106",
+      "target_full": "Sleep",
+      "source_sha256": "b1340215c7d803dd9c6d86c491b7dcca437682819a77acab5874b0760f398618",
+      "source_offset": 262,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 8,
+          "slot": 0,
+          "pointer_field_offset": 68
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:0000010c",
+      "target_full": "Cheer",
+      "source_sha256": "b4cb13f178d17ba7a44c164a514b1affc319debf19673c1789112f5817cca616",
+      "source_offset": 268,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 9,
+          "slot": 0,
+          "pointer_field_offset": 76
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:00000112",
+      "target_full": "Charge",
+      "source_sha256": "74d04a82072fc4b73fe70d9f4d8158eb9a54b1bcd79c661d2b9864470ed72fd4",
+      "source_offset": 274,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 10,
+          "slot": 0,
+          "pointer_field_offset": 84
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:0000011c",
+      "target_full": "Stealth",
+      "source_sha256": "801dfe9099ca65c89509f868aea10ff23b68f1ba5ded8ec992e78d5d4c43c283",
+      "source_offset": 284,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 11,
+          "slot": 0,
+          "pointer_field_offset": 92
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:00000122",
+      "target_full": "Cannot be attacked until acting (persists while moving).",
+      "source_sha256": "64dfa0570d3699d2e8e6670c9c930048fed246d82af2bc37cd2917c58a2edc9f",
+      "source_offset": 290,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 11,
+          "slot": 1,
+          "pointer_field_offset": 96
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:00000152",
+      "target_full": "ZOC is disabled while active.",
+      "source_sha256": "3f220c4320f0481806f65182462d64a5a6ad6e506ae9966d6af4ccecaa82ded7",
+      "source_offset": 338,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:00000174",
+      "target_full": "Draw Blade",
+      "source_sha256": "5913d60b6893bc6a448cb27605c35e4830074209dfd6e085f40293fb647c2b8e",
+      "source_offset": 372,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 12,
+          "slot": 0,
+          "pointer_field_offset": 100
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:0000017a",
+      "target_full": "Immune to ailments and Possession; Rampage Summon enabled.",
+      "source_sha256": "1d3bdf97d20addc621264e2a8127dc96d5a89f72ec4226a074daad590ef92824",
+      "source_offset": 378,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 12,
+          "slot": 1,
+          "pointer_field_offset": 104
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:0000019e",
+      "target_full": "Revive",
+      "source_sha256": "3dcbbc1aa16b9679a85dd628bb3a9d988954c5c96dfdcb3d89d0b14b55b349c8",
+      "source_offset": 414,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 13,
+          "slot": 0,
+          "pointer_field_offset": 108
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000001a4",
+      "target_full": "Immune to all ailments",
+      "source_sha256": "30984fc451c71193019626ebfce5dd2ddfa388ad11e8a3ec0eac576bf8670162",
+      "source_offset": 420,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 13,
+          "slot": 1,
+          "pointer_field_offset": 112
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000001b2",
+      "target_full": "Fracture",
+      "source_sha256": "3c09d7a606660a2e1445d06bbcddfac69622559843f95a0953b29120d68ebe7c",
+      "source_offset": 434,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 14,
+          "slot": 0,
+          "pointer_field_offset": 116
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000001b8",
+      "target_full": "Contamination",
+      "source_sha256": "930e2942192e1460830400ca382c31dad47ee1a93ba34773cca1f68d534c5e80",
+      "source_offset": 440,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 15,
+          "slot": 0,
+          "pointer_field_offset": 124
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000001be",
+      "target_full": "Critical",
+      "source_sha256": "47107cc2f7104891fe95acbebf8abd4a1b1cbd791faaf30f1a45699b8eaf246a",
+      "source_offset": 446,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 16,
+          "slot": 0,
+          "pointer_field_offset": 132
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000001c4",
+      "target_full": "Curse of Violent Blood",
+      "source_sha256": "3ea1613b8c76aff134fdc6becc7a1a516aa08f72841fe10d0058efc7143ad802",
+      "source_offset": 452,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 17,
+          "slot": 0,
+          "pointer_field_offset": 140
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000001d0",
+      "target_full": "Immune to all ailments",
+      "source_sha256": "30984fc451c71193019626ebfce5dd2ddfa388ad11e8a3ec0eac576bf8670162",
+      "source_offset": 464,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 17,
+          "slot": 1,
+          "pointer_field_offset": 144
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000001de",
+      "target_full": "Cure Ailments",
+      "source_sha256": "5cf7a3b10aaf562e0c09e5b9af67e5066f43a79504bb96e59909a614f5e3ff50",
+      "source_offset": 478,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 18,
+          "slot": 0,
+          "pointer_field_offset": 148
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000001f0",
+      "target_full": "Protagonist Karma",
+      "source_sha256": "06a4f9fde7ae6f3bc1b5e6e50e41b427d6c3b3983a4afa881f3f303ac6073895",
+      "source_offset": 496,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 19,
+          "slot": 0,
+          "pointer_field_offset": 156
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:000001fe",
+      "target_full": "Immune to All Possession",
+      "source_sha256": "c5c7b2f1b22967a5f1ff56538d32bf5ab4bddf3f59f80f8eff7377e82920996b",
+      "source_offset": 510,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 20,
+          "slot": 0,
+          "pointer_field_offset": 164
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00000:ui:0000020a",
+      "target_full": "Material Break",
+      "source_sha256": "654a1738b2b47ed4b58859b1d70339e4fe91128434e2161ecf7b37b334132f51",
+      "source_offset": 522,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 21,
+          "slot": 0,
+          "pointer_field_offset": 172
+        }
+      ],
+      "table_id": "02:00003/00000",
+      "table_source_sha256": "bb29d44e2133b5c800699cc79103a50d26f2025801c343d29a65711ab081fad5"
+    },
+    {
+      "id": "02:00003/00025:ui:000050a4",
+      "target_full": "Vertical Slash",
+      "source_sha256": "6801e0134d9f596c41ba34856caf600dd4c16c689e599bd8fe3f7f66d4ca96af",
+      "source_offset": 20644,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 0,
+          "slot": 8,
+          "pointer_field_offset": 36
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000050ac",
+      "target_full": "Range: Adjacent   Up 2   Down 2",
+      "source_sha256": "cdcf58f13eadbc1e710423a9821131e49369c82987eba8f4580f1e07066cc0de",
+      "source_offset": 20652,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 0,
+          "slot": 9,
+          "pointer_field_offset": 40
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000050ca",
+      "target_full": "Horizontal Slash",
+      "source_sha256": "881db565e17c0b40ab7917cfd2c58eeee1f4bd129605f9f9606f690d502252a0",
+      "source_offset": 20682,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 1,
+          "slot": 8,
+          "pointer_field_offset": 84
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000050d2",
+      "target_full": "Range: Adjacent   Up 1   Down 2",
+      "source_sha256": "faf35fc6520b40dc97a749f3cdb2255e4eb28a86ad24825a531898240284b108",
+      "source_offset": 20690,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 1,
+          "slot": 9,
+          "pointer_field_offset": 88
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000050ee",
+      "target_full": "       Diagonal   Up 0   Down 1",
+      "source_sha256": "61b8a576cef77319886e4dfe68065bd75a4ded3dff0cd5975c567ba168ffae7c",
+      "source_offset": 20718,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:0000510c",
+      "target_full": "Thrust",
+      "source_sha256": "7cf63a24262a30fef458a1a1d482511701287d5ba37876cb3105a23886037c24",
+      "source_offset": 20748,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 2,
+          "slot": 8,
+          "pointer_field_offset": 132
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005112",
+      "target_full": "Range: Adjacent   Up 2   Down 3",
+      "source_sha256": "8609020e96749a3ec2ce86f7a32b3ae7f55730e8ee76921bb15baf09629fb7b7",
+      "source_offset": 20754,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 2,
+          "slot": 9,
+          "pointer_field_offset": 136
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005130",
+      "target_full": "Vertical Slash",
+      "source_sha256": "6801e0134d9f596c41ba34856caf600dd4c16c689e599bd8fe3f7f66d4ca96af",
+      "source_offset": 20784,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 3,
+          "slot": 8,
+          "pointer_field_offset": 180
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005138",
+      "target_full": "Range: Adjacent   Up 3   Down 2",
+      "source_sha256": "c17e3c49eb97a80017e1c8674566feda5b518c40cdab91490d508bfd918744cc",
+      "source_offset": 20792,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 3,
+          "slot": 9,
+          "pointer_field_offset": 184
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005156",
+      "target_full": "Horizontal Slash",
+      "source_sha256": "881db565e17c0b40ab7917cfd2c58eeee1f4bd129605f9f9606f690d502252a0",
+      "source_offset": 20822,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 4,
+          "slot": 8,
+          "pointer_field_offset": 228
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:0000515e",
+      "target_full": "Range: Adjacent   Up 1   Down 2",
+      "source_sha256": "faf35fc6520b40dc97a749f3cdb2255e4eb28a86ad24825a531898240284b108",
+      "source_offset": 20830,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 4,
+          "slot": 9,
+          "pointer_field_offset": 232
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:0000517a",
+      "target_full": "       Diagonal   Up 0   Down 1",
+      "source_sha256": "61b8a576cef77319886e4dfe68065bd75a4ded3dff0cd5975c567ba168ffae7c",
+      "source_offset": 20858,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005198",
+      "target_full": "Vertical Slash",
+      "source_sha256": "6801e0134d9f596c41ba34856caf600dd4c16c689e599bd8fe3f7f66d4ca96af",
+      "source_offset": 20888,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 5,
+          "slot": 8,
+          "pointer_field_offset": 276
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000051a0",
+      "target_full": "Range: Adjacent   Up 2   Down 2",
+      "source_sha256": "cdcf58f13eadbc1e710423a9821131e49369c82987eba8f4580f1e07066cc0de",
+      "source_offset": 20896,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 5,
+          "slot": 9,
+          "pointer_field_offset": 280
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000051be",
+      "target_full": "Horizontal Slash",
+      "source_sha256": "881db565e17c0b40ab7917cfd2c58eeee1f4bd129605f9f9606f690d502252a0",
+      "source_offset": 20926,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 6,
+          "slot": 8,
+          "pointer_field_offset": 324
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000051c6",
+      "target_full": "Range: Adjacent   Up 1   Down 2",
+      "source_sha256": "faf35fc6520b40dc97a749f3cdb2255e4eb28a86ad24825a531898240284b108",
+      "source_offset": 20934,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 6,
+          "slot": 9,
+          "pointer_field_offset": 328
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000051e2",
+      "target_full": "       Diagonal   Up 0   Down 1",
+      "source_sha256": "61b8a576cef77319886e4dfe68065bd75a4ded3dff0cd5975c567ba168ffae7c",
+      "source_offset": 20962,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005200",
+      "target_full": "Thrust",
+      "source_sha256": "7cf63a24262a30fef458a1a1d482511701287d5ba37876cb3105a23886037c24",
+      "source_offset": 20992,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 7,
+          "slot": 8,
+          "pointer_field_offset": 372
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005206",
+      "target_full": "Range: Adjacent   Up 2   Down 2",
+      "source_sha256": "cdcf58f13eadbc1e710423a9821131e49369c82987eba8f4580f1e07066cc0de",
+      "source_offset": 20998,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 7,
+          "slot": 9,
+          "pointer_field_offset": 376
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005224",
+      "target_full": "Vertical Slash",
+      "source_sha256": "6801e0134d9f596c41ba34856caf600dd4c16c689e599bd8fe3f7f66d4ca96af",
+      "source_offset": 21028,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 8,
+          "slot": 8,
+          "pointer_field_offset": 420
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:0000522c",
+      "target_full": "Range: Adjacent   Up 2   Down 2",
+      "source_sha256": "cdcf58f13eadbc1e710423a9821131e49369c82987eba8f4580f1e07066cc0de",
+      "source_offset": 21036,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 8,
+          "slot": 9,
+          "pointer_field_offset": 424
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:0000524a",
+      "target_full": "Horizontal Slash",
+      "source_sha256": "881db565e17c0b40ab7917cfd2c58eeee1f4bd129605f9f9606f690d502252a0",
+      "source_offset": 21066,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 9,
+          "slot": 8,
+          "pointer_field_offset": 468
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005252",
+      "target_full": "Range: Adjacent   Up 1   Down 2",
+      "source_sha256": "faf35fc6520b40dc97a749f3cdb2255e4eb28a86ad24825a531898240284b108",
+      "source_offset": 21074,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 9,
+          "slot": 9,
+          "pointer_field_offset": 472
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:0000526e",
+      "target_full": "       Diagonal   Up 0   Down 1",
+      "source_sha256": "61b8a576cef77319886e4dfe68065bd75a4ded3dff0cd5975c567ba168ffae7c",
+      "source_offset": 21102,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:0000528c",
+      "target_full": "Thrust",
+      "source_sha256": "7cf63a24262a30fef458a1a1d482511701287d5ba37876cb3105a23886037c24",
+      "source_offset": 21132,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 10,
+          "slot": 8,
+          "pointer_field_offset": 516
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005292",
+      "target_full": "Range: Adjacent   Up 2   Down 2",
+      "source_sha256": "cdcf58f13eadbc1e710423a9821131e49369c82987eba8f4580f1e07066cc0de",
+      "source_offset": 21138,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 10,
+          "slot": 9,
+          "pointer_field_offset": 520
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000052b0",
+      "target_full": "Vertical Slash",
+      "source_sha256": "6801e0134d9f596c41ba34856caf600dd4c16c689e599bd8fe3f7f66d4ca96af",
+      "source_offset": 21168,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 11,
+          "slot": 8,
+          "pointer_field_offset": 564
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000052b8",
+      "target_full": "Range: Adjacent   Up 2   Down 3",
+      "source_sha256": "8609020e96749a3ec2ce86f7a32b3ae7f55730e8ee76921bb15baf09629fb7b7",
+      "source_offset": 21176,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 11,
+          "slot": 9,
+          "pointer_field_offset": 568
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000052d6",
+      "target_full": "Vertical Slash",
+      "source_sha256": "6801e0134d9f596c41ba34856caf600dd4c16c689e599bd8fe3f7f66d4ca96af",
+      "source_offset": 21206,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 12,
+          "slot": 8,
+          "pointer_field_offset": 612
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000052de",
+      "target_full": "Range: Adjacent   Up 2   Down 2",
+      "source_sha256": "cdcf58f13eadbc1e710423a9821131e49369c82987eba8f4580f1e07066cc0de",
+      "source_offset": 21214,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 12,
+          "slot": 9,
+          "pointer_field_offset": 616
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000052fc",
+      "target_full": "Horizontal Slash",
+      "source_sha256": "881db565e17c0b40ab7917cfd2c58eeee1f4bd129605f9f9606f690d502252a0",
+      "source_offset": 21244,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 13,
+          "slot": 8,
+          "pointer_field_offset": 660
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005304",
+      "target_full": "Range: Adjacent   Up 1   Down 2",
+      "source_sha256": "faf35fc6520b40dc97a749f3cdb2255e4eb28a86ad24825a531898240284b108",
+      "source_offset": 21252,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 13,
+          "slot": 9,
+          "pointer_field_offset": 664
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005320",
+      "target_full": "       Diagonal   Up 0   Down 1",
+      "source_sha256": "61b8a576cef77319886e4dfe68065bd75a4ded3dff0cd5975c567ba168ffae7c",
+      "source_offset": 21280,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:0000533e",
+      "target_full": "Thrust",
+      "source_sha256": "7cf63a24262a30fef458a1a1d482511701287d5ba37876cb3105a23886037c24",
+      "source_offset": 21310,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 14,
+          "slot": 8,
+          "pointer_field_offset": 708
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005344",
+      "target_full": "Range: Adjacent   Up 2   Down 2",
+      "source_sha256": "cdcf58f13eadbc1e710423a9821131e49369c82987eba8f4580f1e07066cc0de",
+      "source_offset": 21316,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 14,
+          "slot": 9,
+          "pointer_field_offset": 712
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005362",
+      "target_full": "Thrust",
+      "source_sha256": "7cf63a24262a30fef458a1a1d482511701287d5ba37876cb3105a23886037c24",
+      "source_offset": 21346,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 15,
+          "slot": 8,
+          "pointer_field_offset": 756
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005368",
+      "target_full": "Range: Adjacent   Up 4   Down 3",
+      "source_sha256": "aa5b292f349297f96966691f39166e3fdc235d76876466ca82db375d0f125b85",
+      "source_offset": 21352,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 15,
+          "slot": 9,
+          "pointer_field_offset": 760
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005384",
+      "target_full": "       Second space   Up 3   Down 2",
+      "source_sha256": "bf55d755d8a6df2368b6bc2f569c0b77a5fd2ae0aa4ff5b40935a82e003571fc",
+      "source_offset": 21380,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000053a2",
+      "target_full": "Strike",
+      "source_sha256": "867d6089c886f6e6e5d65b097256a2abc89427cbb8d742d22c3dc219fd5c2d58",
+      "source_offset": 21410,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 16,
+          "slot": 8,
+          "pointer_field_offset": 804
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000053a8",
+      "target_full": "Range: Adjacent   Up 2   Down 2",
+      "source_sha256": "cdcf58f13eadbc1e710423a9821131e49369c82987eba8f4580f1e07066cc0de",
+      "source_offset": 21416,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 16,
+          "slot": 9,
+          "pointer_field_offset": 808
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000053c6",
+      "target_full": "Vertical Slash",
+      "source_sha256": "6801e0134d9f596c41ba34856caf600dd4c16c689e599bd8fe3f7f66d4ca96af",
+      "source_offset": 21446,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 17,
+          "slot": 8,
+          "pointer_field_offset": 852
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000053ce",
+      "target_full": "Range: Adjacent   Up 3   Down 2",
+      "source_sha256": "c17e3c49eb97a80017e1c8674566feda5b518c40cdab91490d508bfd918744cc",
+      "source_offset": 21454,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 17,
+          "slot": 9,
+          "pointer_field_offset": 856
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000053ec",
+      "target_full": "Horizontal Slash",
+      "source_sha256": "881db565e17c0b40ab7917cfd2c58eeee1f4bd129605f9f9606f690d502252a0",
+      "source_offset": 21484,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 18,
+          "slot": 8,
+          "pointer_field_offset": 900
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000053f4",
+      "target_full": "Range: Adjacent   Up 2   Down 2",
+      "source_sha256": "cdcf58f13eadbc1e710423a9821131e49369c82987eba8f4580f1e07066cc0de",
+      "source_offset": 21492,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 18,
+          "slot": 9,
+          "pointer_field_offset": 904
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005412",
+      "target_full": "Thrust",
+      "source_sha256": "7cf63a24262a30fef458a1a1d482511701287d5ba37876cb3105a23886037c24",
+      "source_offset": 21522,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 19,
+          "slot": 8,
+          "pointer_field_offset": 948
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005418",
+      "target_full": "Range: Adjacent   Up 2   Down 2",
+      "source_sha256": "cdcf58f13eadbc1e710423a9821131e49369c82987eba8f4580f1e07066cc0de",
+      "source_offset": 21528,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 19,
+          "slot": 9,
+          "pointer_field_offset": 952
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005436",
+      "target_full": "Vertical Throw",
+      "source_sha256": "0cbd98c84e3fd66029c6e638de03ac0b3d328c7b37242ed6e79aeca0d97c564a",
+      "source_offset": 21558,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 20,
+          "slot": 8,
+          "pointer_field_offset": 996
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:0000543e",
+      "target_full": "Range: 1–3   Height varies by distance",
+      "source_sha256": "394c68219a346ee14085de052cadd4a14c5ece6db7a78ef31bf6a95709bc9f60",
+      "source_offset": 21566,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 20,
+          "slot": 9,
+          "pointer_field_offset": 1000
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005462",
+      "target_full": "Obstacles may block attacks",
+      "source_sha256": "c291c7c8a56290832923b9dbcf57c6b2ad9b729524275d23bc2acad277d1f877",
+      "source_offset": 21602,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:0000547e",
+      "target_full": "Horizontal Throw",
+      "source_sha256": "8ed1961bd87281273e9dd0c8fd0f2cd575cb15bf2e7d59219135fa706d46b469",
+      "source_offset": 21630,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 21,
+          "slot": 8,
+          "pointer_field_offset": 1044
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:00005486",
+      "target_full": "Range: 1–3   Height varies by distance",
+      "source_sha256": "394c68219a346ee14085de052cadd4a14c5ece6db7a78ef31bf6a95709bc9f60",
+      "source_offset": 21638,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 21,
+          "slot": 9,
+          "pointer_field_offset": 1048
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000054aa",
+      "target_full": "Obstacles may block attacks",
+      "source_sha256": "c291c7c8a56290832923b9dbcf57c6b2ad9b729524275d23bc2acad277d1f877",
+      "source_offset": 21674,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000054c6",
+      "target_full": "Shoot",
+      "source_sha256": "019aa389dea1905d669e8140f55113582708bf482fbfa1bbe12a14682fb7597d",
+      "source_offset": 21702,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 22,
+          "slot": 8,
+          "pointer_field_offset": 1092
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000054cc",
+      "target_full": "Range: 2–5   Height varies by distance",
+      "source_sha256": "ca28a34ae0b966c756888f9c54326addaf2107dd29ea13bdcdadb48a82924920",
+      "source_offset": 21708,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 22,
+          "slot": 9,
+          "pointer_field_offset": 1096
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000054f2",
+      "target_full": "Fire",
+      "source_sha256": "18decfff01de88b950ba37e4dc8feddd1a0ddfdef131a0afed85a00c5ea68e89",
+      "source_offset": 21746,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 23,
+          "slot": 8,
+          "pointer_field_offset": 1140
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:000054f8",
+      "target_full": "Range: 1–5   Height varies by distance",
+      "source_sha256": "f4fec39aa91c6c2a7be0acdec15e5849d17a1c7460776e84496340817377a9e3",
+      "source_offset": 21752,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 23,
+          "slot": 9,
+          "pointer_field_offset": 1144
+        }
+      ],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00025:ui:0000551c",
+      "target_full": "Obstacles may block attacks  ",
+      "source_sha256": "9f406ed3f673e8a978353a386fbf13b48992f348f82723f5bda22a0fcd2322d7",
+      "source_offset": 21788,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00025",
+      "table_source_sha256": "262ec662e71e4ea9c2970e9aecc7b0ed8f8a13934334a6ac76836e5888e6e5e8"
+    },
+    {
+      "id": "02:00003/00038:ui:000014cc",
+      "target_full": "Title",
+      "source_sha256": "cd04aca8014d5cb144c0c6c7431ecfaaa1131e761586ffa8ff2d2000a110e6a6",
+      "source_offset": 5324,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 0,
+          "slot": 6,
+          "pointer_field_offset": 28
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:000014d6",
+      "target_full": "Move",
+      "source_sha256": "832505c844e27acd44056575a2522eb998d370349d0be9590c3b4eb2c932067c",
+      "source_offset": 5334,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 1,
+          "slot": 6,
+          "pointer_field_offset": 56
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:000014dc",
+      "target_full": "Facing and Height",
+      "source_sha256": "53a32a40e6feed527f0532d348b274f6426f3ae787c99152fdc33ac4dece6c8c",
+      "source_offset": 5340,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 2,
+          "slot": 6,
+          "pointer_field_offset": 84
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:000014e8",
+      "target_full": "Attack Range and Weapons",
+      "source_sha256": "2b7c9fd4919dd9b9a566ba257615275086ed5d027081391e118ea507f3e4dc0c",
+      "source_offset": 5352,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 3,
+          "slot": 6,
+          "pointer_field_offset": 112
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:000014f8",
+      "target_full": "Ready Stance",
+      "source_sha256": "670f9fef9d871fe2609b5a315720e8f96dad2e9ad34ace4669460e35383dc4eb",
+      "source_offset": 5368,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 4,
+          "slot": 6,
+          "pointer_field_offset": 140
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:00001500",
+      "target_full": "Status Ailments",
+      "source_sha256": "af97774ab474b213be4fa6547ce260edae7ae6d60e12ae24d067979866d51320",
+      "source_offset": 5376,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 5,
+          "slot": 6,
+          "pointer_field_offset": 168
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:0000150a",
+      "target_full": "Obstacles",
+      "source_sha256": "77b6d8d97f0cef65e9cf584a318e62d4c0f573882fc9b6d66ec749e9d05f3d16",
+      "source_offset": 5386,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 6,
+          "slot": 6,
+          "pointer_field_offset": 196
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:00001512",
+      "target_full": "Skills",
+      "source_sha256": "af191c639a15b95cce0a5ca767a3d87ceddcd82f62b2e14b84dbc0c4060191b8",
+      "source_offset": 5394,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 7,
+          "slot": 6,
+          "pointer_field_offset": 224
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:0000151a",
+      "target_full": "Summon Magic",
+      "source_sha256": "535fc029d9db3b2499339456c12f078dda647fb2949761d1bed9ec8f945273de",
+      "source_offset": 5402,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 8,
+          "slot": 6,
+          "pointer_field_offset": 252
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:00001524",
+      "target_full": "Create Summons",
+      "source_sha256": "e709e5bce1cc3dbcec701c735ff65c3d7b94ddbfb0501a9aed7e223436bc119c",
+      "source_offset": 5412,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 9,
+          "slot": 6,
+          "pointer_field_offset": 280
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:0000152e",
+      "target_full": "Affinity Resistance",
+      "source_sha256": "64d22e2ce624f60392a2914b223491b3ca73f262b18f227b313fb703b667da68",
+      "source_offset": 5422,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 10,
+          "slot": 6,
+          "pointer_field_offset": 308
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:00001536",
+      "target_full": "Summon Assist",
+      "source_sha256": "bee80ff83480e00a10865e113e6a3cfabf4ae90bcd6a303d319b143fbc13b71b",
+      "source_offset": 5430,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 11,
+          "slot": 6,
+          "pointer_field_offset": 336
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:00001546",
+      "target_full": "Favorite Summons",
+      "source_sha256": "a515ea72c193ed659917e6a6642e2ce0985d38707f1cf09563859ef0fff1866b",
+      "source_offset": 5446,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 12,
+          "slot": 6,
+          "pointer_field_offset": 364
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:00001558",
+      "target_full": "Blade Awakening",
+      "source_sha256": "9fb9c733834769ffd405f0be7549389739c218a8adffc23b4bf0f4b5915e7037",
+      "source_offset": 5464,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 13,
+          "slot": 6,
+          "pointer_field_offset": 392
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:00001562",
+      "target_full": "Brave Battle",
+      "source_sha256": "ffbf60f365354a74eee213ae79dd9fa9fd8218ea333e427f8d1f273992797ccf",
+      "source_offset": 5474,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 14,
+          "slot": 6,
+          "pointer_field_offset": 420
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:00001572",
+      "target_full": "Party Abilities",
+      "source_sha256": "e3180352dca000ca33f842a21577f7dacd43d0f509cd63ec48b54748c53f6c4f",
+      "source_offset": 5490,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 15,
+          "slot": 6,
+          "pointer_field_offset": 448
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:00001580",
+      "target_full": "Replay Event Battle",
+      "source_sha256": "384e8778adb5c97038542c7496b2e5800f9397a30b4974da02bd7d10fcab0f4d",
+      "source_offset": 5504,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 16,
+          "slot": 6,
+          "pointer_field_offset": 476
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:00001594",
+      "target_full": "Cooking",
+      "source_sha256": "bc49a96afb23dec4b7ee906f69bdfb0ab1307281f977c5b879e7b8acceaf44f9",
+      "source_offset": 5524,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 17,
+          "slot": 6,
+          "pointer_field_offset": 504
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:0000159a",
+      "target_full": "Raise Unit Summons",
+      "source_sha256": "f9dbec7eaa153e56675d1f9de75ff7ec6d83d2b98e4be493b5f9b4f775bd9b19",
+      "source_offset": 5530,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 18,
+          "slot": 6,
+          "pointer_field_offset": 532
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:000015ae",
+      "target_full": "Level Drain",
+      "source_sha256": "fd5969103636367f25a9f401f8fef8733a8cc0e4793ecb48f995a12b6af22190",
+      "source_offset": 5550,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 19,
+          "slot": 6,
+          "pointer_field_offset": 560
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:000015be",
+      "target_full": "Puppet Summon",
+      "source_sha256": "6d52d49937b5adc2b995f175482e51fab8ed1e988b4ce217750d666f906a30e6",
+      "source_offset": 5566,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 20,
+          "slot": 6,
+          "pointer_field_offset": 588
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:000015c8",
+      "target_full": "Karma",
+      "source_sha256": "934e21181bfebbfd8cf97b0211669b5bdd91ede129acd757e14469063384913c",
+      "source_offset": 5576,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 21,
+          "slot": 6,
+          "pointer_field_offset": 616
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00038:ui:000015d2",
+      "target_full": "Title",
+      "source_sha256": "cd04aca8014d5cb144c0c6c7431ecfaaa1131e761586ffa8ff2d2000a110e6a6",
+      "source_offset": 5586,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 25,
+          "slot": 6,
+          "pointer_field_offset": 728
+        }
+      ],
+      "table_id": "02:00003/00038",
+      "table_source_sha256": "c861da311fb621d9c94f5360d5e337205bc511de4d17cdc87f6f66532d9896a7"
+    },
+    {
+      "id": "02:00003/00045:ui:000002ac",
+      "target_full": "Use 3 or fewer recovery items.",
+      "source_sha256": "3a3db9b2ec1f24ac01b6aeea8105a013114fe016f6b11a23a0425c1ea00f9998",
+      "source_offset": 684,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 0,
+          "slot": 7,
+          "pointer_field_offset": 32
+        }
+      ],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:000002d2",
+      "target_full": "Use 3 or fewer recovery items during battle.",
+      "source_sha256": "04ef058ca1b7c59a76dca69f8c2073e661b4b09d6f70464d0ded5ca8ee2a9824",
+      "source_offset": 722,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 0,
+          "slot": 8,
+          "pointer_field_offset": 36
+        }
+      ],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:00000302",
+      "target_full": "Support-unit uses and cooking items do not count.",
+      "source_sha256": "b14b85a2fcb53c4d34341153ad0e369b664fadf8b348793fe73a38e583a06bde",
+      "source_offset": 770,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:00000336",
+      "target_full": "Land the first attack.",
+      "source_sha256": "85eb82898f291e56ba4a234eff7e291d599581c947ddb20613fdb7a4c064e5f2",
+      "source_offset": 822,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 1,
+          "slot": 7,
+          "pointer_field_offset": 100
+        }
+      ],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:00000354",
+      "target_full": "Your unit must be the first to land an attack, among both sides.",
+      "source_sha256": "f10e56ad30187e6a54e05c2f05195e6cb5ff9884c95b0ee483b230d7ea3cd915",
+      "source_offset": 852,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 1,
+          "slot": 8,
+          "pointer_field_offset": 104
+        }
+      ],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:0000038e",
+      "target_full": "Defeat 1 or more enemies with Summon Assist.",
+      "source_sha256": "3fc2b6c88d59e292ea24d9b836c5d71abc3ac89d0d558352147e5e6b3fa9cf72",
+      "source_offset": 910,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 2,
+          "slot": 7,
+          "pointer_field_offset": 168
+        }
+      ],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:000003b6",
+      "target_full": "Defeat 1 or more enemies with Summon Assist.",
+      "source_sha256": "3fc2b6c88d59e292ea24d9b836c5d71abc3ac89d0d558352147e5e6b3fa9cf72",
+      "source_offset": 950,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 2,
+          "slot": 8,
+          "pointer_field_offset": 172
+        }
+      ],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:000003de",
+      "target_full": "Do not defeat enemies below the attacker’s level.",
+      "source_sha256": "750858b47a4f7da182609aaa9c62ce4f87c4c2fdb1871559a2f428746743b14d",
+      "source_offset": 990,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 3,
+          "slot": 7,
+          "pointer_field_offset": 236
+        }
+      ],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:00000404",
+      "target_full": "Do not defeat enemies below the attacker’s level; equal level is allowed.",
+      "source_sha256": "49ea1fe3be97d7cbb951701c9e5cab92372380edf947ac50dffa3b04cb361438",
+      "source_offset": 1028,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 3,
+          "slot": 8,
+          "pointer_field_offset": 240
+        }
+      ],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:00000438",
+      "target_full": "Spot-deployed and assist participants’ levels do not count.",
+      "source_sha256": "2545bae83aa8443313c2637c267c0ba523678af4c0aebd1942f5f39f6e7220fe",
+      "source_offset": 1080,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:0000046a",
+      "target_full": "Do not let anyone become incapacitated.",
+      "source_sha256": "73c67e02c054c8515a0d3000dacc1145abf8dcc060c3293b1be9bd0d0839fce9",
+      "source_offset": 1130,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 4,
+          "slot": 7,
+          "pointer_field_offset": 304
+        }
+      ],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:00000488",
+      "target_full": "Do not let anyone become incapacitated; automatic Blade Awakening counts as incapacitation.",
+      "source_sha256": "4e6962366ae6882c64ccbe1fa0ffa4802410464c1aeed4577e5f39ad0ca3f87a",
+      "source_offset": 1160,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 4,
+          "slot": 8,
+          "pointer_field_offset": 308
+        }
+      ],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00045:ui:000004be",
+      "target_full": "Voluntary Blade Awakening and Utsusemi/support incapacitation avoidance do not count.",
+      "source_sha256": "97119e2266489b53123e8edc4a85700d84f034155c1efaea89e78f6789019549",
+      "source_offset": 1214,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00045",
+      "table_source_sha256": "ba021dc4291830be4a5f008e99daf9537e46f0a115b89814f47bdcc9241bd369"
+    },
+    {
+      "id": "02:00003/00046:ui:0000115e",
+      "target_full": "Yard defeats ３+ enemies.",
+      "source_sha256": "c8acd809e3665e9ddc8f794db7b21fd6c357e8ddf9bc5168949852e03bc2efd9",
+      "source_offset": 4446,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 2,
+          "slot": 7,
+          "pointer_field_offset": 168
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000117e",
+      "target_full": "Yard defeats ３+ enemies.",
+      "source_sha256": "c8acd809e3665e9ddc8f794db7b21fd6c357e8ddf9bc5168949852e03bc2efd9",
+      "source_offset": 4478,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 2,
+          "slot": 8,
+          "pointer_field_offset": 172
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000119e",
+      "target_full": "Defeat 1+ enemies with an obstacle explosion.",
+      "source_sha256": "be120501b694d61007b6168965ce167098bd3f3daffac58855cdacd5282e06a2",
+      "source_offset": 4510,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 3,
+          "slot": 7,
+          "pointer_field_offset": 236
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000011c4",
+      "target_full": "Defeat 1+ enemies with an obstacle explosion.",
+      "source_sha256": "be120501b694d61007b6168965ce167098bd3f3daffac58855cdacd5282e06a2",
+      "source_offset": 4548,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 3,
+          "slot": 8,
+          "pointer_field_offset": 240
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000011ea",
+      "target_full": "Kyle defeats ３+ enemies.",
+      "source_sha256": "a7c0ed05b9edf3e73f1b00fe802221129d764df15985ba6535cd655d33a3b8a0",
+      "source_offset": 4586,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 4,
+          "slot": 7,
+          "pointer_field_offset": 304
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000120a",
+      "target_full": "Kyle defeats ３+ enemies.",
+      "source_sha256": "a7c0ed05b9edf3e73f1b00fe802221129d764df15985ba6535cd655d33a3b8a0",
+      "source_offset": 4618,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 4,
+          "slot": 8,
+          "pointer_field_offset": 308
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000122a",
+      "target_full": "Poison 1+ enemies with an obstacle.",
+      "source_sha256": "43c78fb2b1e528c86d076a51f47592848bab921f44cd3704c1d2400ceec8aa5f",
+      "source_offset": 4650,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 5,
+          "slot": 7,
+          "pointer_field_offset": 372
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000124a",
+      "target_full": "Poison 1+ enemies with an obstacle.",
+      "source_sha256": "43c78fb2b1e528c86d076a51f47592848bab921f44cd3704c1d2400ceec8aa5f",
+      "source_offset": 4682,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 5,
+          "slot": 8,
+          "pointer_field_offset": 376
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000126a",
+      "target_full": "Sonolar defeats ３+ enemies.",
+      "source_sha256": "6a114170e79e043faf482b00aca4b48e1ef81a134f866619df8343e637e4fef4",
+      "source_offset": 4714,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 6,
+          "slot": 7,
+          "pointer_field_offset": 440
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000128a",
+      "target_full": "Sonolar defeats ３+ enemies.",
+      "source_sha256": "6a114170e79e043faf482b00aca4b48e1ef81a134f866619df8343e637e4fef4",
+      "source_offset": 4746,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 6,
+          "slot": 8,
+          "pointer_field_offset": 444
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000012aa",
+      "target_full": "Petrify 1+ enemies with an obstacle.",
+      "source_sha256": "c091925f2562f13f2c813281acea23a61570ab52a84bc2e4cc76cf016d30fb92",
+      "source_offset": 4778,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 7,
+          "slot": 7,
+          "pointer_field_offset": 508
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000012cc",
+      "target_full": "Petrify 1+ enemies with an obstacle.",
+      "source_sha256": "c091925f2562f13f2c813281acea23a61570ab52a84bc2e4cc76cf016d30fb92",
+      "source_offset": 4812,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 7,
+          "slot": 8,
+          "pointer_field_offset": 512
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000012ee",
+      "target_full": "Scarrel defeats ３+ enemies.",
+      "source_sha256": "a07b14c0e803542f45f58cefa28ab794b9096909777a581a89912bb8043b0d38",
+      "source_offset": 4846,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 8,
+          "slot": 7,
+          "pointer_field_offset": 576
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001312",
+      "target_full": "Scarrel defeats ３+ enemies.",
+      "source_sha256": "a07b14c0e803542f45f58cefa28ab794b9096909777a581a89912bb8043b0d38",
+      "source_offset": 4882,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 8,
+          "slot": 8,
+          "pointer_field_offset": 580
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001336",
+      "target_full": "Defeat 1+ enemies with an obstacle explosion.",
+      "source_sha256": "be120501b694d61007b6168965ce167098bd3f3daffac58855cdacd5282e06a2",
+      "source_offset": 4918,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 9,
+          "slot": 7,
+          "pointer_field_offset": 644
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000135c",
+      "target_full": "Defeat 1+ enemies with an obstacle explosion.",
+      "source_sha256": "be120501b694d61007b6168965ce167098bd3f3daffac58855cdacd5282e06a2",
+      "source_offset": 4956,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 9,
+          "slot": 8,
+          "pointer_field_offset": 648
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001382",
+      "target_full": "Defeat 護人がVijue.",
+      "source_sha256": "96fd0a731945c81c86021fb349e13dfa00c15201b24a65862db31ea5f7f4f513",
+      "source_offset": 4994,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 10,
+          "slot": 7,
+          "pointer_field_offset": 712
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000139c",
+      "target_full": "Defeat 護人がVijue.",
+      "source_sha256": "96fd0a731945c81c86021fb349e13dfa00c15201b24a65862db31ea5f7f4f513",
+      "source_offset": 5020,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 10,
+          "slot": 8,
+          "pointer_field_offset": 716
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000013b6",
+      "target_full": "Poison 1+ enemies with an obstacle.",
+      "source_sha256": "43c78fb2b1e528c86d076a51f47592848bab921f44cd3704c1d2400ceec8aa5f",
+      "source_offset": 5046,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 11,
+          "slot": 7,
+          "pointer_field_offset": 780
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000013d6",
+      "target_full": "Poison 1+ enemies with an obstacle.",
+      "source_sha256": "43c78fb2b1e528c86d076a51f47592848bab921f44cd3704c1d2400ceec8aa5f",
+      "source_offset": 5078,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 11,
+          "slot": 8,
+          "pointer_field_offset": 784
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000013f6",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 5110,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 12,
+          "slot": 7,
+          "pointer_field_offset": 848
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001414",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 5140,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 12,
+          "slot": 8,
+          "pointer_field_offset": 852
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001432",
+      "target_full": "Defeat Oukini.",
+      "source_sha256": "02b0ffd940fc37130102d1a72124c05a94c0adb9015827066abdfaf424f47b6b",
+      "source_offset": 5170,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 13,
+          "slot": 7,
+          "pointer_field_offset": 916
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000144a",
+      "target_full": "Defeat Oukini.",
+      "source_sha256": "02b0ffd940fc37130102d1a72124c05a94c0adb9015827066abdfaf424f47b6b",
+      "source_offset": 5194,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 13,
+          "slot": 8,
+          "pointer_field_offset": 920
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001462",
+      "target_full": "Defeat 生徒がGalleorかVijue.",
+      "source_sha256": "b376834884c31dc660254a64b4198393bb5708c19753b079b51f411287e3b198",
+      "source_offset": 5218,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 14,
+          "slot": 7,
+          "pointer_field_offset": 984
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001486",
+      "target_full": "Defeat 生徒がGalleorかVijueのどちらか.",
+      "source_sha256": "49a2750eee97c3983fcaf295a21df61fc1927919af4314da23a72c31ae2e908b",
+      "source_offset": 5254,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 14,
+          "slot": 8,
+          "pointer_field_offset": 988
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000014b4",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 5300,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 15,
+          "slot": 7,
+          "pointer_field_offset": 1052
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000014d2",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 5330,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 15,
+          "slot": 8,
+          "pointer_field_offset": 1056
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001676",
+      "target_full": "Clear within ２５ turns.",
+      "source_sha256": "dd68bfcea689e1a226fd779e366cb2ca38f10bc19745b927e918363e97270916",
+      "source_offset": 5750,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 20,
+          "slot": 7,
+          "pointer_field_offset": 1392
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001694",
+      "target_full": "Clear within ２５ turns.",
+      "source_sha256": "dd68bfcea689e1a226fd779e366cb2ca38f10bc19745b927e918363e97270916",
+      "source_offset": 5780,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 20,
+          "slot": 8,
+          "pointer_field_offset": 1396
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001784",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 6020,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 23,
+          "slot": 7,
+          "pointer_field_offset": 1596
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000017a2",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 6050,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 23,
+          "slot": 8,
+          "pointer_field_offset": 1600
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000183c",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 6204,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 25,
+          "slot": 7,
+          "pointer_field_offset": 1732
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000185a",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 6234,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 25,
+          "slot": 8,
+          "pointer_field_offset": 1736
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001878",
+      "target_full": "Defeat 状態異常中のJakiini.",
+      "source_sha256": "c0bc2b9bb62f54cb2e607b45a17bdf065c1f838903d8025476a85b4b6a5d476b",
+      "source_offset": 6264,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 26,
+          "slot": 7,
+          "pointer_field_offset": 1800
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000018d0",
+      "target_full": "Defeat いずれかの状態異常が付加中のJakiini.",
+      "source_sha256": "c9d8a346b3a0b11e03a40fff572ff69d83ca9d61124e7d186713ea21b778c788",
+      "source_offset": 6352,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000192a",
+      "target_full": "出撃したユニット全員 defeats １+ enemies.",
+      "source_sha256": "aeea7414dcd7a52da039e65bf34b0575598a8a803cf0cb4d89d3d5a52fe1b34b",
+      "source_offset": 6442,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 27,
+          "slot": 8,
+          "pointer_field_offset": 1872
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000019c0",
+      "target_full": "Defeat 主人公がIshlar.",
+      "source_sha256": "a716b22738927cf177eaaf84060945820d0a313d7681b2f1fe07a98b0a777c75",
+      "source_offset": 6592,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 29,
+          "slot": 7,
+          "pointer_field_offset": 2004
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000019dc",
+      "target_full": "Defeat 主人公がIshlar.",
+      "source_sha256": "a716b22738927cf177eaaf84060945820d0a313d7681b2f1fe07a98b0a777c75",
+      "source_offset": 6620,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 29,
+          "slot": 8,
+          "pointer_field_offset": 2008
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000019f8",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 6648,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 30,
+          "slot": 7,
+          "pointer_field_offset": 2072
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001a16",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 6678,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 30,
+          "slot": 8,
+          "pointer_field_offset": 2076
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001c36",
+      "target_full": "Defeat Ishlarより先にAzlier.",
+      "source_sha256": "4021be9de068cecee3d2a5df1bdf541a9a2e6ead24c0fae1ba8858afaf22a9ec",
+      "source_offset": 7222,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 33,
+          "slot": 7,
+          "pointer_field_offset": 2276
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001c5a",
+      "target_full": "Defeat Ishlarより先にAzlier.",
+      "source_sha256": "4021be9de068cecee3d2a5df1bdf541a9a2e6ead24c0fae1ba8858afaf22a9ec",
+      "source_offset": 7258,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 33,
+          "slot": 8,
+          "pointer_field_offset": 2280
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001cca",
+      "target_full": "Clear within ２５ turns.",
+      "source_sha256": "dd68bfcea689e1a226fd779e366cb2ca38f10bc19745b927e918363e97270916",
+      "source_offset": 7370,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 35,
+          "slot": 7,
+          "pointer_field_offset": 2412
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001ce8",
+      "target_full": "Clear within ２５ turns.",
+      "source_sha256": "dd68bfcea689e1a226fd779e366cb2ca38f10bc19745b927e918363e97270916",
+      "source_offset": 7400,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 35,
+          "slot": 8,
+          "pointer_field_offset": 2416
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001e3a",
+      "target_full": "Defeat ScarrelがHazel.",
+      "source_sha256": "7d6b00483b2a5eee6e6009c0cbe4454a25126198ebce66e514717134f74c0e23",
+      "source_offset": 7738,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 39,
+          "slot": 7,
+          "pointer_field_offset": 2684
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001e5c",
+      "target_full": "Defeat ScarrelがHazel.",
+      "source_sha256": "7d6b00483b2a5eee6e6009c0cbe4454a25126198ebce66e514717134f74c0e23",
+      "source_offset": 7772,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 39,
+          "slot": 8,
+          "pointer_field_offset": 2688
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001e7e",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 7806,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 40,
+          "slot": 7,
+          "pointer_field_offset": 2752
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001e9c",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 7836,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 40,
+          "slot": 8,
+          "pointer_field_offset": 2756
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001eba",
+      "target_full": "Defeat Wizel.",
+      "source_sha256": "584da2b379ee03dbda305a8fe66fa9abb0ba87750b038615332b5b7efc2ee9c6",
+      "source_offset": 7866,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 41,
+          "slot": 7,
+          "pointer_field_offset": 2820
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001ed0",
+      "target_full": "Defeat Wizel.",
+      "source_sha256": "584da2b379ee03dbda305a8fe66fa9abb0ba87750b038615332b5b7efc2ee9c6",
+      "source_offset": 7888,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 41,
+          "slot": 8,
+          "pointer_field_offset": 2824
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001fc0",
+      "target_full": "Defeat ５人以上のサモンアシストでOrdreik.",
+      "source_sha256": "f67e9391bc1c84652890fefde4d31c2378bb4e4062ae144a1aa1607e42254549",
+      "source_offset": 8128,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 44,
+          "slot": 8,
+          "pointer_field_offset": 3028
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00001ff4",
+      "target_full": "Clear within ２５ turns.",
+      "source_sha256": "dd68bfcea689e1a226fd779e366cb2ca38f10bc19745b927e918363e97270916",
+      "source_offset": 8180,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 45,
+          "slot": 7,
+          "pointer_field_offset": 3092
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00002012",
+      "target_full": "Clear within ２５ turns.",
+      "source_sha256": "dd68bfcea689e1a226fd779e366cb2ca38f10bc19745b927e918363e97270916",
+      "source_offset": 8210,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 45,
+          "slot": 8,
+          "pointer_field_offset": 3096
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000207c",
+      "target_full": "Phlaiz defeats ４+ enemies.",
+      "source_sha256": "adbdfd8b8b0973925dcb7789522134a2431ab5387d602daa2c54c2a491ee38f0",
+      "source_offset": 8316,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 47,
+          "slot": 7,
+          "pointer_field_offset": 3228
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000209e",
+      "target_full": "Phlaiz defeats ４+ enemies.",
+      "source_sha256": "adbdfd8b8b0973925dcb7789522134a2431ab5387d602daa2c54c2a491ee38f0",
+      "source_offset": 8350,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 47,
+          "slot": 8,
+          "pointer_field_offset": 3232
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00002118",
+      "target_full": "Defeat 機属性の召喚術でCunnon.",
+      "source_sha256": "9e31eb3c47db4857683ebad7986ce71629adf0f6e8cf5cc8ab4bb1696b019854",
+      "source_offset": 8472,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 49,
+          "slot": 7,
+          "pointer_field_offset": 3364
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000213c",
+      "target_full": "Defeat 機属性の召喚術でCunnon.",
+      "source_sha256": "9e31eb3c47db4857683ebad7986ce71629adf0f6e8cf5cc8ab4bb1696b019854",
+      "source_offset": 8508,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 49,
+          "slot": 8,
+          "pointer_field_offset": 3368
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00002160",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 8544,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 50,
+          "slot": 7,
+          "pointer_field_offset": 3432
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000217e",
+      "target_full": "Clear within ２０ turns.",
+      "source_sha256": "857e9239bc8380185d96a8d1b9a82f9212f65d73b9ef56b980a50082161793d4",
+      "source_offset": 8574,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 50,
+          "slot": 8,
+          "pointer_field_offset": 3436
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000227e",
+      "target_full": "Defeat 1+ enemies with an obstacle explosion.",
+      "source_sha256": "be120501b694d61007b6168965ce167098bd3f3daffac58855cdacd5282e06a2",
+      "source_offset": 8830,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 54,
+          "slot": 7,
+          "pointer_field_offset": 3704
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000022a4",
+      "target_full": "Defeat 1+ enemies with an obstacle explosion.",
+      "source_sha256": "be120501b694d61007b6168965ce167098bd3f3daffac58855cdacd5282e06a2",
+      "source_offset": 8868,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 54,
+          "slot": 8,
+          "pointer_field_offset": 3708
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000022ca",
+      "target_full": "Clear within １５ turns.",
+      "source_sha256": "20792b66376e953fbaafe2124ddab966b8a754cf7e02c7dcf9f74d582bc9b8e4",
+      "source_offset": 8906,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 55,
+          "slot": 7,
+          "pointer_field_offset": 3772
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000022e8",
+      "target_full": "Clear within １５ turns.",
+      "source_sha256": "20792b66376e953fbaafe2124ddab966b8a754cf7e02c7dcf9f74d582bc9b8e4",
+      "source_offset": 8936,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 55,
+          "slot": 8,
+          "pointer_field_offset": 3776
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:0000234a",
+      "target_full": "生徒 defeats ５+ enemies.",
+      "source_sha256": "249f2ebeba88515464de2258b99d08320d7ed0f423e4efc11107d6e6086f6ea9",
+      "source_offset": 9034,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 57,
+          "slot": 7,
+          "pointer_field_offset": 3908
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:00002368",
+      "target_full": "生徒 defeats ５+ enemies.",
+      "source_sha256": "249f2ebeba88515464de2258b99d08320d7ed0f423e4efc11107d6e6086f6ea9",
+      "source_offset": 9064,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 57,
+          "slot": 8,
+          "pointer_field_offset": 3912
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000024ce",
+      "target_full": "Defeat 1+ enemies with an obstacle explosion.",
+      "source_sha256": "be120501b694d61007b6168965ce167098bd3f3daffac58855cdacd5282e06a2",
+      "source_offset": 9422,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 61,
+          "slot": 7,
+          "pointer_field_offset": 4180
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    },
+    {
+      "id": "02:00003/00046:ui:000024f4",
+      "target_full": "Defeat 1+ enemies with an obstacle explosion.",
+      "source_sha256": "be120501b694d61007b6168965ce167098bd3f3daffac58855cdacd5282e06a2",
+      "source_offset": 9460,
+      "source_control_tokens": [],
+      "source_kind": "table",
+      "meaning_status": "draft_pending_meaning_review",
+      "insertion_status": "not_inserted_or_layout_validated",
+      "references": [
+        {
+          "record": 61,
+          "slot": 8,
+          "pointer_field_offset": 4184
+        }
+      ],
+      "table_id": "02:00003/00046",
+      "table_source_sha256": "aa5c6ecf1dab4c92900e36804b6c8cffd8b5c6b8ec0a7b46cda925aff2fde257"
+    }
+  ]
+}

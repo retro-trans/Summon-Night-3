@@ -1,0 +1,3135 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "language_status": "working assumption pending user confirmation",
+  "resource_id": "00:00065",
+  "scope": "Second bounded opening pilot: 80 consecutive compiled text occurrences, opening rows 80-159. Drafts only; no full-game bulk-production, build, or runtime acceptance.",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "rows_in_slice": 80,
+  "rows_examined": 107,
+  "context_rows_before": 11,
+  "context_rows_after": 16,
+  "opening_row_range": [
+    80,
+    159
+  ],
+  "examined_opening_row_range": [
+    69,
+    175
+  ],
+  "reference_instruction_range": [
+    78322,
+    80106
+  ],
+  "context_instruction_range": [
+    78166,
+    80340
+  ],
+  "ordering": "Ascending verified reference instruction byte offset in decoded script. Not one unconditional playthrough.",
+  "slice_row_convention": "slice_row is local 0-79; opening_row continues the first-slice source ordering at 80-159.",
+  "drafted_rows": 80,
+  "unresolved_rows": 0,
+  "draft_rows_requiring_cross_slice_integration": [
+    80,
+    158,
+    159
+  ],
+  "method": "Read original source in memory through GameSource/decompress; verified resource, decoded and per-row hashes; matched all first-slice IDs/order; read 107 source occurrences and inspected VM instructions at bytes 78100-80400. Source text was not saved.",
+  "provenance": {
+    "prior_target_file": "opening_000.targets.json",
+    "prior_meaning_review_file": "opening_000.meaning_review.json",
+    "preserved_input_sha256": {
+      "work\\translation\\en\\opening_000.targets.json": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+      "work\\translation\\en\\opening_000.meaning_review.json": "7a82442692213a839ed876073151f65f8ddcf1b399c3a254fa648bb97027df4b",
+      "work\\glossary\\entities.json": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855"
+    },
+    "source_index_schema_version": 2
+  },
+  "glossary": {
+    "path": "work/glossary/entities.json",
+    "read_sha256": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+    "used_ids": [
+      "organization.empire"
+    ],
+    "checked_context_ids": [
+      "character.rexx",
+      "character.aty",
+      "class.family_teacher"
+    ],
+    "scripted_name_normalization_applied": false,
+    "order": "Independent meaning review first, scripted name normalization afterward. No new named entity appears in the assigned text."
+  },
+  "token_review": {
+    "control_bytes_in_slice": 0,
+    "runtime_placeholder_symbols_in_slice": [],
+    "preserved_layout_characters": {},
+    "source_target_token_sequences_match": true,
+    "cp932_display_roundtrip_rows": 80,
+    "punctuation_note": "Visible Japanese punctuation becomes English punctuation; hesitation, uncertainty, emphasis and continuation are retained. Row 120 preserves the five-dot pause."
+  },
+  "uncertainties": [
+    {
+      "opening_rows": [
+        80,
+        81,
+        82,
+        83
+      ],
+      "kind": "descriptive_terminology",
+      "finding": "Military academy and imperial capital remain descriptions, not invented proper names. Empire is the existing glossary entity."
+    },
+    {
+      "opening_rows": [
+        93,
+        104
+      ],
+      "kind": "agency_unspecified",
+      "finding": "Left the military does not assert voluntary retirement, dismissal, punishment, or why the first mission failed."
+    },
+    {
+      "opening_rows": [
+        108,
+        120,
+        132,
+        144,
+        145
+      ],
+      "kind": "performance_tone",
+      "finding": "Pauses and small exasperated reactions are draft voice choices; no voice synchronization or in-game timing acceptance is claimed."
+    },
+    {
+      "opening_rows": [
+        138,
+        139,
+        140
+      ],
+      "kind": "unspecified_referent",
+      "finding": "The vague feeling is left as that rather than tied to an invented disaster or specific reason."
+    },
+    {
+      "opening_rows": [
+        158,
+        159
+      ],
+      "kind": "function_boundary",
+      "finding": "These rows belong to a different compiled function than rows 80-157; immediate chronological continuity is not inferred from source order."
+    }
+  ],
+  "glossary_research_needs": [
+    {
+      "outside_assigned_slice": true,
+      "opening_rows": [
+        165,
+        174
+      ],
+      "source_ids": [
+        "00:00065:text:00027098",
+        "00:00065:text:0002714e"
+      ],
+      "entity_kind": "merchant_family",
+      "finding": "The following context names a major trading family. Ask the orchestrator to research its wiki-backed spelling, family description and relevant character relationships before the next slice. No English proper spelling is adopted here."
+    }
+  ],
+  "coordinated_completion_proposals": [
+    {
+      "proposal_id": "coordinated_group_43",
+      "apply_together": true,
+      "sentence_group": 43,
+      "opening_rows": [
+        78,
+        79,
+        80
+      ],
+      "group_ids": [
+        "00:00065:text:00026a0a",
+        "00:00065:text:00026a20",
+        "00:00065:text:00026a36"
+      ],
+      "preserved_prior_file": "opening_000.targets.json",
+      "first_slice_edits_applied": false,
+      "rows": [
+        {
+          "id": "00:00065:text:00026a0a",
+          "opening_row": 78,
+          "source_sha256": "b0df5cc06783796e62b3cfd9fc1a50f9c706f82e46786c012725b9a2b6361223",
+          "reference_instructions": [
+            78306
+          ],
+          "proposed_text": "Thanks to everyone in the village,",
+          "outside_assigned_slice": true
+        },
+        {
+          "id": "00:00065:text:00026a20",
+          "opening_row": 79,
+          "source_sha256": "d1e2369c582302ed0457fe13794669d21f82436c17eb368114590d83cab8569c",
+          "reference_instructions": [
+            78314
+          ],
+          "proposed_text": "I was able to attend the military academy",
+          "outside_assigned_slice": true
+        },
+        {
+          "id": "00:00065:text:00026a36",
+          "opening_row": 80,
+          "source_sha256": "a3deebe46dbf05e91b807b9e3b55bf60ee5dcb33b6a4047d9a3715b1f3557671",
+          "reference_instructions": [
+            78322
+          ],
+          "proposed_text": "in the imperial capital...",
+          "outside_assigned_slice": false
+        }
+      ],
+      "whole_sentence": "Thanks to everyone in the village, I was able to attend the military academy in the imperial capital...",
+      "reason": "Adopts the existing independent review proposal: move the ability-to-attend predicate into English row 79 and complete the destination in row 80. Apply all three together after review."
+    },
+    {
+      "proposal_id": "coordinated_group_75",
+      "apply_together": true,
+      "sentence_group": 75,
+      "opening_rows": [
+        158,
+        159,
+        160
+      ],
+      "group_ids": [
+        "00:00065:text:00027016",
+        "00:00065:text:00027024",
+        "00:00065:text:00027036"
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:00027016",
+          "opening_row": 158,
+          "source_sha256": "483e8473ba746c169ed293050a0815442e3fe7920acab7e44fdd7524f15716b4",
+          "reference_instructions": [
+            80098
+          ],
+          "proposed_text": "Still,",
+          "outside_assigned_slice": false
+        },
+        {
+          "id": "00:00065:text:00027024",
+          "opening_row": 159,
+          "source_sha256": "34b88a22a4d4bb7cb6ad05fd44e82737b1b0f77438bede31b40e3fa04e64e8f0",
+          "reference_instructions": [
+            80106
+          ],
+          "proposed_text": "it all happened so suddenly",
+          "outside_assigned_slice": false
+        },
+        {
+          "id": "00:00065:text:00027036",
+          "opening_row": 160,
+          "source_sha256": "1063451c4395f3464cfbd28510fcc268c5b6ff7c578c87d891d3a2bf284aab17",
+          "reference_instructions": [
+            80114
+          ],
+          "proposed_text": "that it really surprised me.",
+          "outside_assigned_slice": true
+        }
+      ],
+      "whole_sentence": "Still, it all happened so suddenly that it really surprised me.",
+      "reason": "The source predicate is in the next slice. Rows 158-159 are drafted but this display group must wait for coordinated row 160 review and integration."
+    }
+  ],
+  "display_groups": [
+    {
+      "sentence_group": 43,
+      "opening_rows": [
+        78,
+        80
+      ],
+      "group_ids": [
+        "00:00065:text:00026a0a",
+        "00:00065:text:00026a20",
+        "00:00065:text:00026a36"
+      ],
+      "reference_instructions": [
+        78306,
+        78314,
+        78322
+      ],
+      "display_instruction": 78334,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": false
+    },
+    {
+      "sentence_group": 44,
+      "opening_rows": [
+        81,
+        83
+      ],
+      "group_ids": [
+        "00:00065:text:00026a48",
+        "00:00065:text:00026a5e",
+        "00:00065:text:00026a74"
+      ],
+      "reference_instructions": [
+        78354,
+        78362,
+        78370
+      ],
+      "display_instruction": 78382,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 45,
+      "opening_rows": [
+        84,
+        85
+      ],
+      "group_ids": [
+        "00:00065:text:00026a86",
+        "00:00065:text:00026a98"
+      ],
+      "reference_instructions": [
+        78386,
+        78394
+      ],
+      "display_instruction": 78406,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 46,
+      "opening_rows": [
+        86,
+        87
+      ],
+      "group_ids": [
+        "00:00065:text:00026aac",
+        "00:00065:text:00026ac2"
+      ],
+      "reference_instructions": [
+        78434,
+        78442
+      ],
+      "display_instruction": 78454,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 47,
+      "opening_rows": [
+        88,
+        90
+      ],
+      "group_ids": [
+        "00:00065:text:00026ad8",
+        "00:00065:text:00026ae4",
+        "00:00065:text:00026af6"
+      ],
+      "reference_instructions": [
+        78470,
+        78478,
+        78486
+      ],
+      "display_instruction": 78498,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 48,
+      "opening_rows": [
+        91,
+        93
+      ],
+      "group_ids": [
+        "00:00065:text:00026b0c",
+        "00:00065:text:00026b22",
+        "00:00065:text:00026b34"
+      ],
+      "reference_instructions": [
+        78514,
+        78522,
+        78530
+      ],
+      "display_instruction": 78542,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 49,
+      "opening_rows": [
+        94,
+        96
+      ],
+      "group_ids": [
+        "00:00065:text:00026b48",
+        "00:00065:text:00026b5e",
+        "00:00065:text:00026b74"
+      ],
+      "reference_instructions": [
+        78558,
+        78566,
+        78574
+      ],
+      "display_instruction": 78586,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 50,
+      "opening_rows": [
+        97,
+        98
+      ],
+      "group_ids": [
+        "00:00065:text:00026b8a",
+        "00:00065:text:00026b9e"
+      ],
+      "reference_instructions": [
+        78606,
+        78614
+      ],
+      "display_instruction": 78626,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 51,
+      "opening_rows": [
+        99,
+        101
+      ],
+      "group_ids": [
+        "00:00065:text:00026bb2",
+        "00:00065:text:00026bc8",
+        "00:00065:text:00026bda"
+      ],
+      "reference_instructions": [
+        78642,
+        78650,
+        78658
+      ],
+      "display_instruction": 78670,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 52,
+      "opening_rows": [
+        102,
+        104
+      ],
+      "group_ids": [
+        "00:00065:text:00026bf2",
+        "00:00065:text:00026c08",
+        "00:00065:text:00026c18"
+      ],
+      "reference_instructions": [
+        78686,
+        78694,
+        78702
+      ],
+      "display_instruction": 78714,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 53,
+      "opening_rows": [
+        105,
+        107
+      ],
+      "group_ids": [
+        "00:00065:text:00026c2c",
+        "00:00065:text:00026c42",
+        "00:00065:text:00026c58"
+      ],
+      "reference_instructions": [
+        78730,
+        78738,
+        78746
+      ],
+      "display_instruction": 78758,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 54,
+      "opening_rows": [
+        108,
+        108
+      ],
+      "group_ids": [
+        "00:00065:text:00026c6a"
+      ],
+      "reference_instructions": [
+        78868
+      ],
+      "display_instruction": 78880,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 55,
+      "opening_rows": [
+        109,
+        110
+      ],
+      "group_ids": [
+        "00:00065:text:00026c74",
+        "00:00065:text:00026c88"
+      ],
+      "reference_instructions": [
+        78908,
+        78916
+      ],
+      "display_instruction": 78928,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 56,
+      "opening_rows": [
+        111,
+        113
+      ],
+      "group_ids": [
+        "00:00065:text:00026c9e",
+        "00:00065:text:00026caa",
+        "00:00065:text:00026cc0"
+      ],
+      "reference_instructions": [
+        78944,
+        78952,
+        78960
+      ],
+      "display_instruction": 78972,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 57,
+      "opening_rows": [
+        114,
+        116
+      ],
+      "group_ids": [
+        "00:00065:text:00026cd0",
+        "00:00065:text:00026ce0",
+        "00:00065:text:00026cf2"
+      ],
+      "reference_instructions": [
+        78992,
+        79000,
+        79008
+      ],
+      "display_instruction": 79020,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 58,
+      "opening_rows": [
+        117,
+        119
+      ],
+      "group_ids": [
+        "00:00065:text:00026d04",
+        "00:00065:text:00026d10",
+        "00:00065:text:00026d24"
+      ],
+      "reference_instructions": [
+        79036,
+        79044,
+        79052
+      ],
+      "display_instruction": 79064,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 59,
+      "opening_rows": [
+        120,
+        120
+      ],
+      "group_ids": [
+        "00:00065:text:00026d38"
+      ],
+      "reference_instructions": [
+        79068
+      ],
+      "display_instruction": 79080,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 60,
+      "opening_rows": [
+        121,
+        123
+      ],
+      "group_ids": [
+        "00:00065:text:00026d44",
+        "00:00065:text:00026d54",
+        "00:00065:text:00026d68"
+      ],
+      "reference_instructions": [
+        79146,
+        79154,
+        79162
+      ],
+      "display_instruction": 79174,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 61,
+      "opening_rows": [
+        124,
+        126
+      ],
+      "group_ids": [
+        "00:00065:text:00026d7a",
+        "00:00065:text:00026d90",
+        "00:00065:text:00026da6"
+      ],
+      "reference_instructions": [
+        79190,
+        79198,
+        79206
+      ],
+      "display_instruction": 79218,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 62,
+      "opening_rows": [
+        127,
+        128
+      ],
+      "group_ids": [
+        "00:00065:text:00026dba",
+        "00:00065:text:00026dd0"
+      ],
+      "reference_instructions": [
+        79234,
+        79242
+      ],
+      "display_instruction": 79254,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 63,
+      "opening_rows": [
+        129,
+        131
+      ],
+      "group_ids": [
+        "00:00065:text:00026de2",
+        "00:00065:text:00026df8",
+        "00:00065:text:00026e0e"
+      ],
+      "reference_instructions": [
+        79270,
+        79278,
+        79286
+      ],
+      "display_instruction": 79298,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 64,
+      "opening_rows": [
+        132,
+        132
+      ],
+      "group_ids": [
+        "00:00065:text:00026e20"
+      ],
+      "reference_instructions": [
+        79314
+      ],
+      "display_instruction": 79326,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 65,
+      "opening_rows": [
+        133,
+        135
+      ],
+      "group_ids": [
+        "00:00065:text:00026e32",
+        "00:00065:text:00026e48",
+        "00:00065:text:00026e5a"
+      ],
+      "reference_instructions": [
+        79346,
+        79354,
+        79362
+      ],
+      "display_instruction": 79374,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 66,
+      "opening_rows": [
+        136,
+        137
+      ],
+      "group_ids": [
+        "00:00065:text:00026e70",
+        "00:00065:text:00026e82"
+      ],
+      "reference_instructions": [
+        79390,
+        79398
+      ],
+      "display_instruction": 79410,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 67,
+      "opening_rows": [
+        138,
+        140
+      ],
+      "group_ids": [
+        "00:00065:text:00026e98",
+        "00:00065:text:00026ea6",
+        "00:00065:text:00026eba"
+      ],
+      "reference_instructions": [
+        79426,
+        79434,
+        79442
+      ],
+      "display_instruction": 79454,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 68,
+      "opening_rows": [
+        141,
+        143
+      ],
+      "group_ids": [
+        "00:00065:text:00026eca",
+        "00:00065:text:00026ede",
+        "00:00065:text:00026eec"
+      ],
+      "reference_instructions": [
+        79470,
+        79478,
+        79486
+      ],
+      "display_instruction": 79498,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 69,
+      "opening_rows": [
+        144,
+        144
+      ],
+      "group_ids": [
+        "00:00065:text:00026f02"
+      ],
+      "reference_instructions": [
+        79530
+      ],
+      "display_instruction": 79542,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 70,
+      "opening_rows": [
+        145,
+        145
+      ],
+      "group_ids": [
+        "00:00065:text:00026f14"
+      ],
+      "reference_instructions": [
+        79562
+      ],
+      "display_instruction": 79574,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 71,
+      "opening_rows": [
+        146,
+        148
+      ],
+      "group_ids": [
+        "00:00065:text:00026f2a",
+        "00:00065:text:00026f3c",
+        "00:00065:text:00026f52"
+      ],
+      "reference_instructions": [
+        79618,
+        79626,
+        79634
+      ],
+      "display_instruction": 79646,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 72,
+      "opening_rows": [
+        149,
+        151
+      ],
+      "group_ids": [
+        "00:00065:text:00026f66",
+        "00:00065:text:00026f72",
+        "00:00065:text:00026f84"
+      ],
+      "reference_instructions": [
+        79660,
+        79668,
+        79676
+      ],
+      "display_instruction": 79688,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 73,
+      "opening_rows": [
+        152,
+        154
+      ],
+      "group_ids": [
+        "00:00065:text:00026f9a",
+        "00:00065:text:00026fac",
+        "00:00065:text:00026fc2"
+      ],
+      "reference_instructions": [
+        79708,
+        79716,
+        79724
+      ],
+      "display_instruction": 79736,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 74,
+      "opening_rows": [
+        155,
+        157
+      ],
+      "group_ids": [
+        "00:00065:text:00026fd8",
+        "00:00065:text:00026fec",
+        "00:00065:text:00027000"
+      ],
+      "reference_instructions": [
+        79750,
+        79758,
+        79766
+      ],
+      "display_instruction": 79778,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 75,
+      "opening_rows": [
+        158,
+        160
+      ],
+      "group_ids": [
+        "00:00065:text:00027016",
+        "00:00065:text:00027024",
+        "00:00065:text:00027036"
+      ],
+      "reference_instructions": [
+        80098,
+        80106,
+        80114
+      ],
+      "display_instruction": 80126,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": false
+    }
+  ],
+  "translations": {
+    "00:00065:text:00026a36": {
+      "id": "00:00065:text:00026a36",
+      "source_offset": 158262,
+      "source_sha256": "a3deebe46dbf05e91b807b9e3b55bf60ee5dcb33b6a4047d9a3715b1f3557671",
+      "reference_instructions": [
+        78322
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 0,
+      "opening_row": 80,
+      "text": "in the imperial capital...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 43,
+      "group_ids": [
+        "00:00065:text:00026a0a",
+        "00:00065:text:00026a20",
+        "00:00065:text:00026a36"
+      ],
+      "notes": [
+        "Continues first-slice rows 78 and 79. Insert only after the coordinated group 43 proposal is independently reviewed and applied together; row 79 remains null in its preserved file."
+      ],
+      "glossary_ids": [
+        "organization.empire"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "integration_requires": "coordinated_group_43"
+    },
+    "00:00065:text:00026a48": {
+      "id": "00:00065:text:00026a48",
+      "source_offset": 158280,
+      "source_sha256": "b0df5cc06783796e62b3cfd9fc1a50f9c706f82e46786c012725b9a2b6361223",
+      "reference_instructions": [
+        78354
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 1,
+      "opening_row": 81,
+      "text": "Thanks to everyone in the village,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 44,
+      "group_ids": [
+        "00:00065:text:00026a48",
+        "00:00065:text:00026a5e",
+        "00:00065:text:00026a74"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026a5e": {
+      "id": "00:00065:text:00026a5e",
+      "source_offset": 158302,
+      "source_sha256": "aba18d95754002274d91a5189b63ed145caabbed85beb93f6ea0c24cb134c325",
+      "reference_instructions": [
+        78362
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 2,
+      "opening_row": 82,
+      "text": "I was able to attend the military academy",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 44,
+      "group_ids": [
+        "00:00065:text:00026a48",
+        "00:00065:text:00026a5e",
+        "00:00065:text:00026a74"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026a74": {
+      "id": "00:00065:text:00026a74",
+      "source_offset": 158324,
+      "source_sha256": "a3deebe46dbf05e91b807b9e3b55bf60ee5dcb33b6a4047d9a3715b1f3557671",
+      "reference_instructions": [
+        78370
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 3,
+      "opening_row": 83,
+      "text": "in the imperial capital...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 44,
+      "group_ids": [
+        "00:00065:text:00026a48",
+        "00:00065:text:00026a5e",
+        "00:00065:text:00026a74"
+      ],
+      "notes": [],
+      "glossary_ids": [
+        "organization.empire"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026a86": {
+      "id": "00:00065:text:00026a86",
+      "source_offset": 158342,
+      "source_sha256": "4233402bde0d7efcc9fc8bdbfe930be4481df0b2f7293aee64babd9de8462199",
+      "reference_instructions": [
+        78386
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 4,
+      "opening_row": 84,
+      "text": "I spent all that time studying",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Shared protagonist text.",
+      "sentence_group": 45,
+      "group_ids": [
+        "00:00065:text:00026a86",
+        "00:00065:text:00026a98"
+      ],
+      "notes": [
+        "The purpose clause continues across the next display group; preserve its linkage to studying to become a soldier."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026a98": {
+      "id": "00:00065:text:00026a98",
+      "source_offset": 158360,
+      "source_sha256": "cf453e6ac2e6e5becd62e7212028df7d73773b8191cd037e96d1fc3753053d25",
+      "reference_instructions": [
+        78394
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 5,
+      "opening_row": 85,
+      "text": "to become a soldier.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Shared protagonist text.",
+      "sentence_group": 45,
+      "group_ids": [
+        "00:00065:text:00026a86",
+        "00:00065:text:00026a98"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026aac": {
+      "id": "00:00065:text:00026aac",
+      "source_offset": 158380,
+      "source_sha256": "5ec685b1ca0f36e79ca644caaf13bbb2b9a1da1920313f6523bf8116f114ae5d",
+      "reference_instructions": [
+        78434
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 6,
+      "opening_row": 86,
+      "text": "To grow stronger and protect",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 46,
+      "group_ids": [
+        "00:00065:text:00026aac",
+        "00:00065:text:00026ac2"
+      ],
+      "notes": [
+        "This protagonist branch explicitly mentions becoming stronger and protecting people. Do not copy the other branch's save-lives wording over it."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026ac2": {
+      "id": "00:00065:text:00026ac2",
+      "source_offset": 158402,
+      "source_sha256": "bf60ce0c22ac11a639762d6885d882e1bf06aa744d097cb7236e59975bc7f538",
+      "reference_instructions": [
+        78442
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 7,
+      "opening_row": 87,
+      "text": "as many people as I could.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 46,
+      "group_ids": [
+        "00:00065:text:00026aac",
+        "00:00065:text:00026ac2"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026ad8": {
+      "id": "00:00065:text:00026ad8",
+      "source_offset": 158424,
+      "source_sha256": "b082a0c0d987143c6aa19ae32c143f13ef8b340498e8df1ad55e48948efe2482",
+      "reference_instructions": [
+        78470
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 8,
+      "opening_row": 88,
+      "text": "But...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 47,
+      "group_ids": [
+        "00:00065:text:00026ad8",
+        "00:00065:text:00026ae4",
+        "00:00065:text:00026af6"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026ae4": {
+      "id": "00:00065:text:00026ae4",
+      "source_offset": 158436,
+      "source_sha256": "e2a8712ab02e86644646f65823036809742a1ff075024bcc99252ff378c93e42",
+      "reference_instructions": [
+        78478
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 9,
+      "opening_row": 89,
+      "text": "it turned out I just wasn't",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 47,
+      "group_ids": [
+        "00:00065:text:00026ad8",
+        "00:00065:text:00026ae4",
+        "00:00065:text:00026af6"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026af6": {
+      "id": "00:00065:text:00026af6",
+      "source_offset": 158454,
+      "source_sha256": "65c0b3877b64192d20fe832295a6362f734780ce197785bcc5eaaadf81da04a9",
+      "reference_instructions": [
+        78486
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 10,
+      "opening_row": 90,
+      "text": "cut out to be a soldier.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 47,
+      "group_ids": [
+        "00:00065:text:00026ad8",
+        "00:00065:text:00026ae4",
+        "00:00065:text:00026af6"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026b0c": {
+      "id": "00:00065:text:00026b0c",
+      "source_offset": 158476,
+      "source_sha256": "fe3398da6c6ee7e9ab844c80bf0230752bd37cc070c2a445aa0b2dcd14c3c2c9",
+      "reference_instructions": [
+        78514
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 11,
+      "opening_row": 91,
+      "text": "I failed",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 48,
+      "group_ids": [
+        "00:00065:text:00026b0c",
+        "00:00065:text:00026b22",
+        "00:00065:text:00026b34"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026b22": {
+      "id": "00:00065:text:00026b22",
+      "source_offset": 158498,
+      "source_sha256": "db36d6d7e19f28dd18aa7c46e2cfbc196640ce3c3c3772cb88ffdc896ea24045",
+      "reference_instructions": [
+        78522
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 12,
+      "opening_row": 92,
+      "text": "on my very first mission,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 48,
+      "group_ids": [
+        "00:00065:text:00026b0c",
+        "00:00065:text:00026b22",
+        "00:00065:text:00026b34"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026b34": {
+      "id": "00:00065:text:00026b34",
+      "source_offset": 158516,
+      "source_sha256": "3b6e4aa57a44571fbdfc0aea09d5082463794c3a52fd2663743ee04a4f3ea53b",
+      "reference_instructions": [
+        78530
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 13,
+      "opening_row": 93,
+      "text": "and left the military just like that...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 48,
+      "group_ids": [
+        "00:00065:text:00026b0c",
+        "00:00065:text:00026b22",
+        "00:00065:text:00026b34"
+      ],
+      "notes": [
+        "The source says the protagonist left active military service after failing the first mission; it does not specify dismissal, resignation, blame, or the failed mission's details."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026b48": {
+      "id": "00:00065:text:00026b48",
+      "source_offset": 158536,
+      "source_sha256": "ded1784af2a9c34aeff436d2c428a1b1d2718ffce3fa470efb49a55209948bc5",
+      "reference_instructions": [
+        78558
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 14,
+      "opening_row": 94,
+      "text": "I couldn't even return to the village.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 49,
+      "group_ids": [
+        "00:00065:text:00026b48",
+        "00:00065:text:00026b5e",
+        "00:00065:text:00026b74"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026b5e": {
+      "id": "00:00065:text:00026b5e",
+      "source_offset": 158558,
+      "source_sha256": "6526a6cc6b864634ca6b5628066fa9615bbb0559731c551b0233ad189bee574a",
+      "reference_instructions": [
+        78566
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 15,
+      "opening_row": 95,
+      "text": "I spent every day",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 49,
+      "group_ids": [
+        "00:00065:text:00026b48",
+        "00:00065:text:00026b5e",
+        "00:00065:text:00026b74"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026b74": {
+      "id": "00:00065:text:00026b74",
+      "source_offset": 158580,
+      "source_sha256": "92c03091d252f7c2a2f5f9ad62e89e63f4a2bfaa309516669aba691fa3bccfae",
+      "reference_instructions": [
+        78574
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 16,
+      "opening_row": 96,
+      "text": "at a loss for what to do...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 49,
+      "group_ids": [
+        "00:00065:text:00026b48",
+        "00:00065:text:00026b5e",
+        "00:00065:text:00026b74"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026b8a": {
+      "id": "00:00065:text:00026b8a",
+      "source_offset": 158602,
+      "source_sha256": "8b3ddb79deed30fa1fd1afa3b8e29134fad34b2c23c8433ff89099098cdbd131",
+      "reference_instructions": [
+        78606
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 17,
+      "opening_row": 97,
+      "text": "To save",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 50,
+      "group_ids": [
+        "00:00065:text:00026b8a",
+        "00:00065:text:00026b9e"
+      ],
+      "notes": [
+        "This protagonist branch specifies saving lives and omits the other branch's becoming-stronger wording."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026b9e": {
+      "id": "00:00065:text:00026b9e",
+      "source_offset": 158622,
+      "source_sha256": "799cd45e095edd1765d9dacd9cd58c37fea085d57d25ba76e3f323f1a258ad68",
+      "reference_instructions": [
+        78614
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 18,
+      "opening_row": 98,
+      "text": "as many lives as I could.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 50,
+      "group_ids": [
+        "00:00065:text:00026b8a",
+        "00:00065:text:00026b9e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026bb2": {
+      "id": "00:00065:text:00026bb2",
+      "source_offset": 158642,
+      "source_sha256": "716692481918cab96209914f5feead7a09ee2121895914e7de49c4fa642e3754",
+      "reference_instructions": [
+        78642
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 19,
+      "opening_row": 99,
+      "text": "But... it seems",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 51,
+      "group_ids": [
+        "00:00065:text:00026bb2",
+        "00:00065:text:00026bc8",
+        "00:00065:text:00026bda"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026bc8": {
+      "id": "00:00065:text:00026bc8",
+      "source_offset": 158664,
+      "source_sha256": "9148e7823818002f26399497e56616c88b32c1508321537ac8a0785a9c509f2a",
+      "reference_instructions": [
+        78650
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 20,
+      "opening_row": 100,
+      "text": "I just wasn't cut out",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 51,
+      "group_ids": [
+        "00:00065:text:00026bb2",
+        "00:00065:text:00026bc8",
+        "00:00065:text:00026bda"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026bda": {
+      "id": "00:00065:text:00026bda",
+      "source_offset": 158682,
+      "source_sha256": "5907e5166d7294d6569db9f60eaa95b213f8f216d7216ee0636ec420ecd9cf9b",
+      "reference_instructions": [
+        78658
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 21,
+      "opening_row": 101,
+      "text": "to be a soldier after all...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 51,
+      "group_ids": [
+        "00:00065:text:00026bb2",
+        "00:00065:text:00026bc8",
+        "00:00065:text:00026bda"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026bf2": {
+      "id": "00:00065:text:00026bf2",
+      "source_offset": 158706,
+      "source_sha256": "fe3398da6c6ee7e9ab844c80bf0230752bd37cc070c2a445aa0b2dcd14c3c2c9",
+      "reference_instructions": [
+        78686
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 22,
+      "opening_row": 102,
+      "text": "I failed",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 52,
+      "group_ids": [
+        "00:00065:text:00026bf2",
+        "00:00065:text:00026c08",
+        "00:00065:text:00026c18"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026c08": {
+      "id": "00:00065:text:00026c08",
+      "source_offset": 158728,
+      "source_sha256": "dc55f88cdec1f40390612bad024e23ec4a8deea97f9c9e128ae575cd5a9972f6",
+      "reference_instructions": [
+        78694
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 23,
+      "opening_row": 103,
+      "text": "on my very first mission,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 52,
+      "group_ids": [
+        "00:00065:text:00026bf2",
+        "00:00065:text:00026c08",
+        "00:00065:text:00026c18"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026c18": {
+      "id": "00:00065:text:00026c18",
+      "source_offset": 158744,
+      "source_sha256": "3b6e4aa57a44571fbdfc0aea09d5082463794c3a52fd2663743ee04a4f3ea53b",
+      "reference_instructions": [
+        78702
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 24,
+      "opening_row": 104,
+      "text": "and left the military just like that...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 52,
+      "group_ids": [
+        "00:00065:text:00026bf2",
+        "00:00065:text:00026c08",
+        "00:00065:text:00026c18"
+      ],
+      "notes": [
+        "Departure from military service is kept neutral; no dismissal or voluntary resignation is invented."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026c2c": {
+      "id": "00:00065:text:00026c2c",
+      "source_offset": 158764,
+      "source_sha256": "ded1784af2a9c34aeff436d2c428a1b1d2718ffce3fa470efb49a55209948bc5",
+      "reference_instructions": [
+        78730
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 25,
+      "opening_row": 105,
+      "text": "I couldn't even return to the village.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 53,
+      "group_ids": [
+        "00:00065:text:00026c2c",
+        "00:00065:text:00026c42",
+        "00:00065:text:00026c58"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026c42": {
+      "id": "00:00065:text:00026c42",
+      "source_offset": 158786,
+      "source_sha256": "6526a6cc6b864634ca6b5628066fa9615bbb0559731c551b0233ad189bee574a",
+      "reference_instructions": [
+        78738
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 26,
+      "opening_row": 106,
+      "text": "I spent every day",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 53,
+      "group_ids": [
+        "00:00065:text:00026c2c",
+        "00:00065:text:00026c42",
+        "00:00065:text:00026c58"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026c58": {
+      "id": "00:00065:text:00026c58",
+      "source_offset": 158808,
+      "source_sha256": "787935f2d06f14dba1bbeabcf09f8e2ec35dce580f3c295cc7226cdc8511989c",
+      "reference_instructions": [
+        78746
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 27,
+      "opening_row": 107,
+      "text": "at a loss for what to do...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream self-recollection branch: schooling and military career. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 53,
+      "group_ids": [
+        "00:00065:text:00026c2c",
+        "00:00065:text:00026c42",
+        "00:00065:text:00026c58"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026c6a": {
+      "id": "00:00065:text:00026c6a",
+      "source_offset": 158826,
+      "source_sha256": "f77cf80f75402e276ff282d3be7c8823090534071b2ea3a2423285d060c3d979",
+      "reference_instructions": [
+        78868
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 28,
+      "opening_row": 108,
+      "text": "A ship...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Shared protagonist text.",
+      "sentence_group": 54,
+      "group_ids": [
+        "00:00065:text:00026c6a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026c74": {
+      "id": "00:00065:text:00026c74",
+      "source_offset": 158836,
+      "source_sha256": "a2c676801650a46dde7823a373c3dab874ec0bb54f1f658bd70cf7fc20d48cd9",
+      "reference_instructions": [
+        78908
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 29,
+      "opening_row": 109,
+      "text": "That's right... I'm sure",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 55,
+      "group_ids": [
+        "00:00065:text:00026c74",
+        "00:00065:text:00026c88"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026c88": {
+      "id": "00:00065:text:00026c88",
+      "source_offset": 158856,
+      "source_sha256": "4f7dca03e7bf0e0561d1f0d6e4b3188dbf6df166adefd46d8d319295854a9bfa",
+      "reference_instructions": [
+        78916
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 30,
+      "opening_row": 110,
+      "text": "I was on a ship!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 55,
+      "group_ids": [
+        "00:00065:text:00026c74",
+        "00:00065:text:00026c88"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026c9e": {
+      "id": "00:00065:text:00026c9e",
+      "source_offset": 158878,
+      "source_sha256": "b082a0c0d987143c6aa19ae32c143f13ef8b340498e8df1ad55e48948efe2482",
+      "reference_instructions": [
+        78944
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 31,
+      "opening_row": 111,
+      "text": "But...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 56,
+      "group_ids": [
+        "00:00065:text:00026c9e",
+        "00:00065:text:00026caa",
+        "00:00065:text:00026cc0"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026caa": {
+      "id": "00:00065:text:00026caa",
+      "source_offset": 158890,
+      "source_sha256": "4a326470b6a4aef159af571bc4d6bdc9493b38467932e23d2da97489e2f3e733",
+      "reference_instructions": [
+        78952
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 32,
+      "opening_row": 112,
+      "text": "why was I on a ship",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 56,
+      "group_ids": [
+        "00:00065:text:00026c9e",
+        "00:00065:text:00026caa",
+        "00:00065:text:00026cc0"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026cc0": {
+      "id": "00:00065:text:00026cc0",
+      "source_offset": 158912,
+      "source_sha256": "a4819949fb6b5043b6f0bc9b2f754fae10f5639a4f35dd1ac03d26470e262182",
+      "reference_instructions": [
+        78960
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 33,
+      "opening_row": 113,
+      "text": "in the first place?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 56,
+      "group_ids": [
+        "00:00065:text:00026c9e",
+        "00:00065:text:00026caa",
+        "00:00065:text:00026cc0"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026cd0": {
+      "id": "00:00065:text:00026cd0",
+      "source_offset": 158928,
+      "source_sha256": "2444a63a32d003da3f0374ae1ff6b10d5a391bf44f46e28dcab84e4c72b62892",
+      "reference_instructions": [
+        78992
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 34,
+      "opening_row": 114,
+      "text": "That's right...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 57,
+      "group_ids": [
+        "00:00065:text:00026cd0",
+        "00:00065:text:00026ce0",
+        "00:00065:text:00026cf2"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026ce0": {
+      "id": "00:00065:text:00026ce0",
+      "source_offset": 158944,
+      "source_sha256": "3d6eeecd2e89b46efba71a1d0e3f1af5235090235710e4f93a1c9dffa84c0bef",
+      "reference_instructions": [
+        79000
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 35,
+      "opening_row": 115,
+      "text": "I'm sure I was",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 57,
+      "group_ids": [
+        "00:00065:text:00026cd0",
+        "00:00065:text:00026ce0",
+        "00:00065:text:00026cf2"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026cf2": {
+      "id": "00:00065:text:00026cf2",
+      "source_offset": 158962,
+      "source_sha256": "1adf404b810a21202211b3f3f8f7b179e6a823ef09981b87cc75bb31df1a628a",
+      "reference_instructions": [
+        79008
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 36,
+      "opening_row": 116,
+      "text": "on a ship!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 57,
+      "group_ids": [
+        "00:00065:text:00026cd0",
+        "00:00065:text:00026ce0",
+        "00:00065:text:00026cf2"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026d04": {
+      "id": "00:00065:text:00026d04",
+      "source_offset": 158980,
+      "source_sha256": "b082a0c0d987143c6aa19ae32c143f13ef8b340498e8df1ad55e48948efe2482",
+      "reference_instructions": [
+        79036
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 37,
+      "opening_row": 117,
+      "text": "But...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 58,
+      "group_ids": [
+        "00:00065:text:00026d04",
+        "00:00065:text:00026d10",
+        "00:00065:text:00026d24"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026d10": {
+      "id": "00:00065:text:00026d10",
+      "source_offset": 158992,
+      "source_sha256": "4410d05cfaba6d4b9795601630d72342f152d3b6ae08482f9d2c5971785b08db",
+      "reference_instructions": [
+        79044
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 38,
+      "opening_row": 118,
+      "text": "why was I",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 58,
+      "group_ids": [
+        "00:00065:text:00026d04",
+        "00:00065:text:00026d10",
+        "00:00065:text:00026d24"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026d24": {
+      "id": "00:00065:text:00026d24",
+      "source_offset": 159012,
+      "source_sha256": "e0013e14deb9a88c0110e2cebba31bccad76bd0e2af5d84ef8334d641833ea37",
+      "reference_instructions": [
+        79052
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 39,
+      "opening_row": 119,
+      "text": "on a ship, anyway?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 58,
+      "group_ids": [
+        "00:00065:text:00026d04",
+        "00:00065:text:00026d10",
+        "00:00065:text:00026d24"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026d38": {
+      "id": "00:00065:text:00026d38",
+      "source_offset": 159032,
+      "source_sha256": "b8d2173047844f2af820f7355e98291d810f2dc07194ba6523c8264fe09a4e51",
+      "reference_instructions": [
+        79068
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 40,
+      "opening_row": 120,
+      "text": ".....",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream ship-recollection branch. Shared protagonist text.",
+      "sentence_group": 59,
+      "group_ids": [
+        "00:00065:text:00026d38"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026d44": {
+      "id": "00:00065:text:00026d44",
+      "source_offset": 159044,
+      "source_sha256": "2eab652d0c0fe8a86b3dc851698097a02ac05e831b56ef969d9daf9aa31ddf85",
+      "reference_instructions": [
+        79146
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 41,
+      "opening_row": 121,
+      "text": "Still, it's cold.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 60,
+      "group_ids": [
+        "00:00065:text:00026d44",
+        "00:00065:text:00026d54",
+        "00:00065:text:00026d68"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026d54": {
+      "id": "00:00065:text:00026d54",
+      "source_offset": 159060,
+      "source_sha256": "e3b422b73eb59219597a76e8f0670e877d303ab00ea7646d719037268a1e4d90",
+      "reference_instructions": [
+        79154
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 42,
+      "opening_row": 122,
+      "text": "And now I'm even",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 60,
+      "group_ids": [
+        "00:00065:text:00026d44",
+        "00:00065:text:00026d54",
+        "00:00065:text:00026d68"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026d68": {
+      "id": "00:00065:text:00026d68",
+      "source_offset": 159080,
+      "source_sha256": "6f304b176198c35baa59b2aee31dd8e574981f6797c9f9388644e9c6ff1d0712",
+      "reference_instructions": [
+        79162
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 43,
+      "opening_row": 123,
+      "text": "starting to feel hungry.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 60,
+      "group_ids": [
+        "00:00065:text:00026d44",
+        "00:00065:text:00026d54",
+        "00:00065:text:00026d68"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026d7a": {
+      "id": "00:00065:text:00026d7a",
+      "source_offset": 159098,
+      "source_sha256": "5700b7d8eb2862ec94e2026a616a081c968cbf36ee355f327ec300b41149f8d0",
+      "reference_instructions": [
+        79190
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 44,
+      "opening_row": 124,
+      "text": "But it looks like",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 61,
+      "group_ids": [
+        "00:00065:text:00026d7a",
+        "00:00065:text:00026d90",
+        "00:00065:text:00026da6"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026d90": {
+      "id": "00:00065:text:00026d90",
+      "source_offset": 159120,
+      "source_sha256": "42a550bc2d8f0c4b336bf6aec0df7a752ed8528b29544b9e04359ac8d232b917",
+      "reference_instructions": [
+        79198
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 45,
+      "opening_row": 125,
+      "text": "I've lost",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 61,
+      "group_ids": [
+        "00:00065:text:00026d7a",
+        "00:00065:text:00026d90",
+        "00:00065:text:00026da6"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026da6": {
+      "id": "00:00065:text:00026da6",
+      "source_offset": 159142,
+      "source_sha256": "fdeaa8b9deaca64cd8d32d1790a235bf884886ceb63fdef7becf2a355f51906a",
+      "reference_instructions": [
+        79206
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 46,
+      "opening_row": 126,
+      "text": "all my things.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 61,
+      "group_ids": [
+        "00:00065:text:00026d7a",
+        "00:00065:text:00026d90",
+        "00:00065:text:00026da6"
+      ],
+      "notes": [
+        "All belongings being lost is this branch's inference. Do not replace it with the other branch's weaker observation that they are not visible."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026dba": {
+      "id": "00:00065:text:00026dba",
+      "source_offset": 159162,
+      "source_sha256": "962dde77754aee1da7878fe81440b71f3ea0cc7c5103ff89be66d83bb9848215",
+      "reference_instructions": [
+        79234
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 47,
+      "opening_row": 127,
+      "text": "I'd been trying",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 62,
+      "group_ids": [
+        "00:00065:text:00026dba",
+        "00:00065:text:00026dd0"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026dd0": {
+      "id": "00:00065:text:00026dd0",
+      "source_offset": 159184,
+      "source_sha256": "ad0d3f82de921991a2bbe3cd566b8478b3fb2f7f72f213118608153e2a4a60bf",
+      "reference_instructions": [
+        79242
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 48,
+      "opening_row": 128,
+      "text": "not to think about it, but...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 62,
+      "group_ids": [
+        "00:00065:text:00026dba",
+        "00:00065:text:00026dd0"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026de2": {
+      "id": "00:00065:text:00026de2",
+      "source_offset": 159202,
+      "source_sha256": "588db3fe2762a0fcae1b73f0353d10629e6be9182d50af5fe0366237ffbb9b31",
+      "reference_instructions": [
+        79270
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 49,
+      "opening_row": 129,
+      "text": "Could it be",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 63,
+      "group_ids": [
+        "00:00065:text:00026de2",
+        "00:00065:text:00026df8",
+        "00:00065:text:00026e0e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026df8": {
+      "id": "00:00065:text:00026df8",
+      "source_offset": 159224,
+      "source_sha256": "db82be56352df431ad72d77c9d05847b1e92b65cf3bd8228e27cb3293352c0d5",
+      "reference_instructions": [
+        79278
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 50,
+      "opening_row": 130,
+      "text": "that I'm in",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 63,
+      "group_ids": [
+        "00:00065:text:00026de2",
+        "00:00065:text:00026df8",
+        "00:00065:text:00026e0e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026e0e": {
+      "id": "00:00065:text:00026e0e",
+      "source_offset": 159246,
+      "source_sha256": "12992c073517854d77caae7c4ed3d8b434a9c25376544b5ccc34c07d1c0eaa38",
+      "reference_instructions": [
+        79286
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 51,
+      "opening_row": 131,
+      "text": "really serious trouble?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 63,
+      "group_ids": [
+        "00:00065:text:00026de2",
+        "00:00065:text:00026df8",
+        "00:00065:text:00026e0e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026e20": {
+      "id": "00:00065:text:00026e20",
+      "source_offset": 159264,
+      "source_sha256": "2487976555c620b50f9a7d57f0df6d3ded063e761adfaf8fb773d23f87201a14",
+      "reference_instructions": [
+        79314
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 52,
+      "opening_row": 132,
+      "text": "What a mess...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 64,
+      "group_ids": [
+        "00:00065:text:00026e20"
+      ],
+      "notes": [
+        "An exasperated reaction to the situation; no explicit plea to another character is added."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026e32": {
+      "id": "00:00065:text:00026e32",
+      "source_offset": 159282,
+      "source_sha256": "8e8ec9e4844583d435670760e9e30dd22fc94552af2065bf712af43da4e3aff7",
+      "reference_instructions": [
+        79346
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 53,
+      "opening_row": 133,
+      "text": "It's a little chilly...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 65,
+      "group_ids": [
+        "00:00065:text:00026e32",
+        "00:00065:text:00026e48",
+        "00:00065:text:00026e5a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026e48": {
+      "id": "00:00065:text:00026e48",
+      "source_offset": 159304,
+      "source_sha256": "ec6d66f510a6800a405f0da77a4647a500e9864611047b246f7e5cc5e8772fa0",
+      "reference_instructions": [
+        79354
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 54,
+      "opening_row": 134,
+      "text": "And I think",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 65,
+      "group_ids": [
+        "00:00065:text:00026e32",
+        "00:00065:text:00026e48",
+        "00:00065:text:00026e5a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026e5a": {
+      "id": "00:00065:text:00026e5a",
+      "source_offset": 159322,
+      "source_sha256": "2ef8d100332af97f25c0180f48df0584184a19a4c57ec3d8f41675b5ab332c9e",
+      "reference_instructions": [
+        79362
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 55,
+      "opening_row": 135,
+      "text": "I'm starting to get hungry, too.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 65,
+      "group_ids": [
+        "00:00065:text:00026e32",
+        "00:00065:text:00026e48",
+        "00:00065:text:00026e5a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026e70": {
+      "id": "00:00065:text:00026e70",
+      "source_offset": 159344,
+      "source_sha256": "a1402a6131b3c69fd1f15ae5b146b841e81c287296a6ae2164e6176888fd8302",
+      "reference_instructions": [
+        79390
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 56,
+      "opening_row": 136,
+      "text": "But my things",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 66,
+      "group_ids": [
+        "00:00065:text:00026e70",
+        "00:00065:text:00026e82"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026e82": {
+      "id": "00:00065:text:00026e82",
+      "source_offset": 159362,
+      "source_sha256": "7c76324855766cbda8e356154f652ac134ecc6650b9242af0d022c8de1947a13",
+      "reference_instructions": [
+        79398
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 57,
+      "opening_row": 137,
+      "text": "are nowhere to be found...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 66,
+      "group_ids": [
+        "00:00065:text:00026e70",
+        "00:00065:text:00026e82"
+      ],
+      "notes": [
+        "This branch says the belongings cannot be seen; it does not assert that they were all lost."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026e98": {
+      "id": "00:00065:text:00026e98",
+      "source_offset": 159384,
+      "source_sha256": "01eb0addab226f913b932ce9425e08732e9ddb565150c4331279097f3f2ea9ba",
+      "reference_instructions": [
+        79426
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 58,
+      "opening_row": 138,
+      "text": "I did have a vague feeling",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 67,
+      "group_ids": [
+        "00:00065:text:00026e98",
+        "00:00065:text:00026ea6",
+        "00:00065:text:00026eba"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026ea6": {
+      "id": "00:00065:text:00026ea6",
+      "source_offset": 159398,
+      "source_sha256": "5cc1c6da889a83f207ce7a142cdf264b71e1e3c00572b5b6520ce290e6f41881",
+      "reference_instructions": [
+        79434
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 59,
+      "opening_row": 139,
+      "text": "that might be the case,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 67,
+      "group_ids": [
+        "00:00065:text:00026e98",
+        "00:00065:text:00026ea6",
+        "00:00065:text:00026eba"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026eba": {
+      "id": "00:00065:text:00026eba",
+      "source_offset": 159418,
+      "source_sha256": "1269e7e0e3e3060ed8c5ccc8b88d59aea0993b3697cb5aba8ba96787250a077e",
+      "reference_instructions": [
+        79442
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 60,
+      "opening_row": 140,
+      "text": "but...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 67,
+      "group_ids": [
+        "00:00065:text:00026e98",
+        "00:00065:text:00026ea6",
+        "00:00065:text:00026eba"
+      ],
+      "notes": [
+        "The object of the vague feeling is left general, as in the source. The surrounding self-reflection supports first-person narration."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026eca": {
+      "id": "00:00065:text:00026eca",
+      "source_offset": 159434,
+      "source_sha256": "aaaab50a2f0e63d93de1f6abf2e39a8d03be02e862926ada7890e91cb7d23a79",
+      "reference_instructions": [
+        79470
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 61,
+      "opening_row": 141,
+      "text": "Could it be",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 68,
+      "group_ids": [
+        "00:00065:text:00026eca",
+        "00:00065:text:00026ede",
+        "00:00065:text:00026eec"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026ede": {
+      "id": "00:00065:text:00026ede",
+      "source_offset": 159454,
+      "source_sha256": "f9b457d074b481ccff6f441a6bf13851437de5641b5eb45fb821097281f4ab1a",
+      "reference_instructions": [
+        79478
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 62,
+      "opening_row": 142,
+      "text": "that I've gotten into",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 68,
+      "group_ids": [
+        "00:00065:text:00026eca",
+        "00:00065:text:00026ede",
+        "00:00065:text:00026eec"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026eec": {
+      "id": "00:00065:text:00026eec",
+      "source_offset": 159468,
+      "source_sha256": "ce819d38b0ff32210dd67ae5c8502b9cc4f889ad132e9b087e41211f5e7649b1",
+      "reference_instructions": [
+        79486
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 63,
+      "opening_row": 143,
+      "text": "quite a predicament?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 68,
+      "group_ids": [
+        "00:00065:text:00026eca",
+        "00:00065:text:00026ede",
+        "00:00065:text:00026eec"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026f02": {
+      "id": "00:00065:text:00026f02",
+      "source_offset": 159490,
+      "source_sha256": "2487976555c620b50f9a7d57f0df6d3ded063e761adfaf8fb773d23f87201a14",
+      "reference_instructions": [
+        79530
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 64,
+      "opening_row": 144,
+      "text": "What a mess...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 69,
+      "group_ids": [
+        "00:00065:text:00026f02"
+      ],
+      "notes": [
+        "Repeated source at a separate reference/context remains a separate target."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026f14": {
+      "id": "00:00065:text:00026f14",
+      "source_offset": 159508,
+      "source_sha256": "384a4d5c27f24cc58e7fdacbc8fd925f4c55e9a05e113cf4acec7ae23d84bd73",
+      "reference_instructions": [
+        79562
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 65,
+      "opening_row": 145,
+      "text": "I'm in a bit of a fix...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Post-dream present-situation branch; cold, hunger and missing belongings. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 70,
+      "group_ids": [
+        "00:00065:text:00026f14"
+      ],
+      "notes": [
+        "The reaction expresses being at a loss; it is not a diagnosis of physical weakness."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026f2a": {
+      "id": "00:00065:text:00026f2a",
+      "source_offset": 159530,
+      "source_sha256": "c755c9f8034ff14d1a8f266a44f53e487303b188d1bef393c7661dea8e32a8f2",
+      "reference_instructions": [
+        79618
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 66,
+      "opening_row": 146,
+      "text": "That's right! Work!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 71,
+      "group_ids": [
+        "00:00065:text:00026f2a",
+        "00:00065:text:00026f3c",
+        "00:00065:text:00026f52"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026f3c": {
+      "id": "00:00065:text:00026f3c",
+      "source_offset": 159548,
+      "source_sha256": "d43136c503474b3b30723517a53240a98b3b78b94570e1195c6491e64be404b0",
+      "reference_instructions": [
+        79626
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 67,
+      "opening_row": 147,
+      "text": "I boarded that ship",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 71,
+      "group_ids": [
+        "00:00065:text:00026f2a",
+        "00:00065:text:00026f3c",
+        "00:00065:text:00026f52"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026f52": {
+      "id": "00:00065:text:00026f52",
+      "source_offset": 159570,
+      "source_sha256": "0c7041740bc5ee34072fc0557d566531c1533484c041c8891e521395c0d0323b",
+      "reference_instructions": [
+        79634
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 68,
+      "opening_row": 148,
+      "text": "to start a new job.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 71,
+      "group_ids": [
+        "00:00065:text:00026f2a",
+        "00:00065:text:00026f3c",
+        "00:00065:text:00026f52"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026f66": {
+      "id": "00:00065:text:00026f66",
+      "source_offset": 159590,
+      "source_sha256": "ab01ae8ae2a52efbc83cd5b7565359d37f9358be65bbd6a3534617ff6629315f",
+      "reference_instructions": [
+        79660
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 69,
+      "opening_row": 149,
+      "text": "Yeah...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 72,
+      "group_ids": [
+        "00:00065:text:00026f66",
+        "00:00065:text:00026f72",
+        "00:00065:text:00026f84"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026f72": {
+      "id": "00:00065:text:00026f72",
+      "source_offset": 159602,
+      "source_sha256": "be03d6b88d5407d634be90654b507035400200ee0a4c21dde61dd509c2ebd3d9",
+      "reference_instructions": [
+        79668
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 70,
+      "opening_row": 150,
+      "text": "Little by little,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 72,
+      "group_ids": [
+        "00:00065:text:00026f66",
+        "00:00065:text:00026f72",
+        "00:00065:text:00026f84"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026f84": {
+      "id": "00:00065:text:00026f84",
+      "source_offset": 159620,
+      "source_sha256": "9d5897dc642593d0447b0f9ff74bfb12710ad5a5511a31fadc5076a130996350",
+      "reference_instructions": [
+        79676
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 71,
+      "opening_row": 151,
+      "text": "it's coming back to me clearly...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 72,
+      "group_ids": [
+        "00:00065:text:00026f66",
+        "00:00065:text:00026f72",
+        "00:00065:text:00026f84"
+      ],
+      "notes": [
+        "Gradual, increasingly clear recollection is retained."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026f9a": {
+      "id": "00:00065:text:00026f9a",
+      "source_offset": 159642,
+      "source_sha256": "fed14380ae7358f514e4647ebbb221b9e7b1ce796b2e3bd1623b2ba071ffe233",
+      "reference_instructions": [
+        79708
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 72,
+      "opening_row": 152,
+      "text": "That's right! My job!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 73,
+      "group_ids": [
+        "00:00065:text:00026f9a",
+        "00:00065:text:00026fac",
+        "00:00065:text:00026fc2"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026fac": {
+      "id": "00:00065:text:00026fac",
+      "source_offset": 159660,
+      "source_sha256": "257e11c4f6c63ffd3329fe6ec8844b0c5d70fa1cadcdbf2e4b2ddf7f07f29782",
+      "reference_instructions": [
+        79716
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 73,
+      "opening_row": 153,
+      "text": "I boarded that ship",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 73,
+      "group_ids": [
+        "00:00065:text:00026f9a",
+        "00:00065:text:00026fac",
+        "00:00065:text:00026fc2"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026fc2": {
+      "id": "00:00065:text:00026fc2",
+      "source_offset": 159682,
+      "source_sha256": "43cbad8da71f891ccd2f1d75c0255728902b16eecf3702e497842d56817af66c",
+      "reference_instructions": [
+        79724
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 74,
+      "opening_row": 154,
+      "text": "to start a new job.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 73,
+      "group_ids": [
+        "00:00065:text:00026f9a",
+        "00:00065:text:00026fac",
+        "00:00065:text:00026fc2"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026fd8": {
+      "id": "00:00065:text:00026fd8",
+      "source_offset": 159704,
+      "source_sha256": "bdbbc73a89c3f672b7146326b0d581872aead2ca7b3dc7053cea1fa279e64f78",
+      "reference_instructions": [
+        79750
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 75,
+      "opening_row": 155,
+      "text": "Yes, that's right...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 74,
+      "group_ids": [
+        "00:00065:text:00026fd8",
+        "00:00065:text:00026fec",
+        "00:00065:text:00027000"
+      ],
+      "notes": [
+        "The repeated affirmation is naturalized as an affirming phrase without adding a new fact."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00026fec": {
+      "id": "00:00065:text:00026fec",
+      "source_offset": 159724,
+      "source_sha256": "9e836d045da9b4552268c5de1d09445ac5e598c2c28537b5330d4d447bffe667",
+      "reference_instructions": [
+        79758
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 76,
+      "opening_row": 156,
+      "text": "Little by little,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 74,
+      "group_ids": [
+        "00:00065:text:00026fd8",
+        "00:00065:text:00026fec",
+        "00:00065:text:00027000"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027000": {
+      "id": "00:00065:text:00027000",
+      "source_offset": 159744,
+      "source_sha256": "8bec5432d8d0f2a347b01e65b01bc85a483618ee20fa270d745689adf648cee0",
+      "reference_instructions": [
+        79766
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 77,
+      "opening_row": 157,
+      "text": "it's coming back to me clearly...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Conclusion of the recollection loop: remembering the new job and ship. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 74,
+      "group_ids": [
+        "00:00065:text:00026fd8",
+        "00:00065:text:00026fec",
+        "00:00065:text:00027000"
+      ],
+      "notes": [
+        "Gradual, increasingly clear recollection is retained."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027016": {
+      "id": "00:00065:text:00027016",
+      "source_offset": 159766,
+      "source_sha256": "483e8473ba746c169ed293050a0815442e3fe7920acab7e44fdd7524f15716b4",
+      "reference_instructions": [
+        80098
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 78,
+      "opening_row": 158,
+      "text": "Still,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Subsequent compiled function begins at byte 79914; reflection on unexpectedly becoming a teacher. Source adjacency is not proof of chronology. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 75,
+      "group_ids": [
+        "00:00065:text:00027016",
+        "00:00065:text:00027024",
+        "00:00065:text:00027036"
+      ],
+      "notes": [
+        "This group continues through out-of-slice row 160. Do not insert rows 158-159 as an incomplete display group."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "integration_requires": "coordinated_group_75"
+    },
+    "00:00065:text:00027024": {
+      "id": "00:00065:text:00027024",
+      "source_offset": 159780,
+      "source_sha256": "34b88a22a4d4bb7cb6ad05fd44e82737b1b0f77438bede31b40e3fa04e64e8f0",
+      "reference_instructions": [
+        80106
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 79,
+      "opening_row": 159,
+      "text": "it all happened so suddenly",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Subsequent compiled function begins at byte 79914; reflection on unexpectedly becoming a teacher. Source adjacency is not proof of chronology. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 75,
+      "group_ids": [
+        "00:00065:text:00027016",
+        "00:00065:text:00027024",
+        "00:00065:text:00027036"
+      ],
+      "notes": [
+        "The predicate lies in out-of-slice row 160; the coordinated completion proposal supplies it. No new event details are invented."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "integration_requires": "coordinated_group_75"
+    }
+  },
+  "acceptance": {
+    "meaning": "Translator self-reviewed draft; independent review pending.",
+    "names": "No newly named person or family in assigned rows. Existing glossary consulted; no normalization script run.",
+    "layout": "No shortening for bytes or presumed line limits. Complete groups require relocation and reflow; width acceptance pending.",
+    "branches": "Separate source references and protagonist alternatives retained; identical source text is not deduplicated.",
+    "runtime": "Not built, loaded, displayed, or tested by this agent.",
+    "production_ready": false
+  }
+}

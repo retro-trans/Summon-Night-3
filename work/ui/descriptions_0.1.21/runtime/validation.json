@@ -1,0 +1,27 @@
+{
+  "version": "0.1.21",
+  "fresh_launch": true,
+  "normal_copied_battle_save": true,
+  "save_state_used": false,
+  "emulator": "PPSSPP 1.20.4 software 1x",
+  "port": 19382,
+  "source_iso_sha256": "e334fb7cbf31da3e6b52944268cdb73100c1e0f52730cf415209a6bd5a7d2022",
+  "elf_literals_verified": 18,
+  "relocation_references_verified": 17,
+  "alternate_branch_highs_verified": 7,
+  "resident_table_descriptions_verified": 42,
+  "crash_fix_spans_verified": 5,
+  "visual_checks": [
+    "Battle Prep opens",
+    "Dritol detail",
+    "Drill Blow: ATK Pwr:12 Single",
+    "Drill Rush: translated description",
+    "Drill Hurricane: ATK Pwr:38 Single",
+    "proportional text; no clipping"
+  ],
+  "native_formatter_all_records": 235,
+  "limitations": [
+    "Visual checks cover available saved-game spells; other spells checked by executing native formatter and live resident table checks.",
+    "Hardware GPU and original PSP not tested."
+  ]
+}

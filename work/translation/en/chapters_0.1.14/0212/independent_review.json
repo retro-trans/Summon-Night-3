@@ -1,0 +1,70 @@
+{
+  "resource_id": "00:00212",
+  "review_type": "independent_meaning_review",
+  "semantic_complete": true,
+  "reviewed_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "reviewed_slices": [
+    {
+      "target_file": "work/translation/en/chapters_0.1.14/0212/slice_0011.targets.json",
+      "target_file_sha256": "55484b085f3039c9bb4c0f64afc9cc6b6b6255a2147a8ccc9ee24ad9df1db2ad",
+      "assigned_range": [
+        11,
+        48
+      ],
+      "translation_count": 38
+    }
+  ],
+  "corrections": [],
+  "uncertainties": [
+    "Daytime form line correctly reflects Fariel/Falzen identity already known in this conversation; no new identity inserted."
+  ],
+  "rows_examined": {
+    "physical_ranges_inclusive": [
+      [
+        0,
+        48
+      ]
+    ],
+    "count": 49
+  },
+  "method": "Independent reviewer read each target against the original Japanese and the full local conversation. Scope covers only physical dialogue rows 11 onward; first eleven system rows examined as context, not included in semantic coverage. Consecutive target slices have at most 80 rows. Acceptable variants left unchanged; corrections focus on meaning. No machine translation service used."
+}

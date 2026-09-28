@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "native_resolution": [480, 272],
+  "candidate_version": "0.1.0",
+  "method": "Software PSP framebuffer captured at sceDisplaySetFrameBuf",
+  "measurement_status": "Rectangles estimated by direct screenshot inspection; these are observed regions, not proven maximum text capacities.",
+  "screens": [
+    {"id": "original.opening", "screenshot": "original_boot.png", "role": "Original ISO opening movie; baseline capture only"},
+    {"id": "title", "screenshot": "0.1.0_frame_06.png", "role": "Candidate title with Push Start"},
+    {"id": "title.new_game", "screenshot": "0.1.0_frame_07.png", "role": "New Game selected"},
+    {"id": "title.difficulty", "screenshot": "0.1.0_frame_08.png", "role": "Normal/Easy menu"},
+    {"id": "character.select", "screenshot": "0.1.0_frame_09.png", "role": "Protagonist selection"},
+    {"id": "character.affinity", "screenshot": "0.1.0_frame_10.png", "role": "Machine affinity description"},
+    {"id": "character.name", "screenshot": "0.1.0_frame_11.png", "role": "Japanese default name remains"},
+    {"id": "character.name_confirm", "screenshot": "0.1.0_frame_14.png", "role": "Name confirmation with Yes selected"},
+    {"id": "story.opening_centered", "screenshot": "0.1.0_frame_15.png", "role": "Opening centered text, not a full ordinary dialogue box"}
+  ],
+  "elements": [
+    {"ui_id": "character.select.prompt", "screen": "character.select", "x": 0, "y": 0, "width": 257, "height": 63, "observed_text_lines": 2, "source_reference": "Executable UI strings; exact consumer pending", "maximum_characters": null, "font_metrics": null},
+    {"ui_id": "character.affinity.description", "screen": "character.affinity", "x": 282, "y": 105, "width": 193, "height": 122, "observed_text_lines": 7, "source_reference": "Pending", "maximum_characters": null, "font_metrics": null},
+    {"ui_id": "character.name.prompt", "screen": "character.name", "x": 0, "y": 0, "width": 240, "height": 58, "observed_text_lines": 2, "source_reference": "Executable UI strings; exact consumer pending", "maximum_characters": null, "font_metrics": null},
+    {"ui_id": "character.name.entry", "screen": "character.name", "x": 7, "y": 82, "width": 143, "height": 26, "observed_text_lines": 1, "source_reference": "Separate default-name source; not patched character table", "maximum_characters": null, "font_metrics": null},
+    {"ui_id": "character.name.confirm", "screen": "character.name_confirm", "x": 123, "y": 97, "width": 235, "height": 83, "observed_text_lines": 3, "runtime_substitutions": ["player name"], "maximum_characters": null, "font_metrics": null}
+  ]
+}

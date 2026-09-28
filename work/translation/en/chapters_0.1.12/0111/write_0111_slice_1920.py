@@ -1,0 +1,14 @@
+import argparse,json,sys
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[5]/'tools'))
+from chapter_source import chapter_source
+from dialogue_encoding import encode_dialogue
+OUT=Path(__file__).with_name('slice_1920.targets.json')
+T={1920:'humans are the ones who do not belong.',1921:'It seems.',1922:'It may have been natural',1923:'that the summoned beasts',1924:'attacked us.',1925:'...',1926:'...',1927:'...',1928:'...',1929:'Pipi...',1930:'Fumii...',1931:'Bii...',1932:'Kyuuu...',1933:"But it'll be all right.",1934:'If we keep talking,',1935:"we'll surely understand each other.",1936:'Ardylia',1937:'said she would',1938:'help us, too.',1939:'Kyuuma',1940:'said he would',1941:'help us, too.',1942:'Farzen',1943:'said he would',1944:'help us, too.',1945:'Yaffa',1946:'said he would',1947:'help us, too.',1948:'I believe that.',1949:"But it'll be all right.",1950:'If we keep talking,',1951:"we'll surely understand each other.",1952:'Ardylia',1953:'said she would',1954:'help us, too.',1955:'Kyuuma',1956:'said he would',1957:'help us, too.',1958:'Farzen',1959:'said he would',1960:'help us, too.',1961:'Yaffa',1962:'said he would',1963:'help us, too.',1964:'I believe that.',1965:'Pipi!',1966:'Meow!',1967:'I hope so.',1968:'Bii!',1969:'Kyupi!',1970:'I hope so.',1971:'!?',1972:'That explosion...',1973:'That explosion...',1974:'That explosion...',1975:'That explosion...',1976:'It came from the settlement!?',1977:'From the settlement!?',1978:'What the hell is going on?',1979:'This island...',1980:'is full of',1981:'monsters, damn it!?',1982:'0E0DEF...',1983:'Ugh...',1984:'Ooooooh...',1985:'Uuugh...',1986:'Hehehe!?',1987:'Die! Die!!',1988:'Die already!!!',1989:'Stop this!',1990:'...What?',1991:'Any further act of',1992:'destroying my fellows',1993:'in the name of the Guardian,',1994:'I will not allow!',1995:'Oh...?',1996:'A rather alluring opponent',1997:'has appeared...',1998:'Perfect...',1999:'Capture that woman'}
+def build():
+ r,rows,data=chapter_source(111);assert set(T)==set(range(1920,2000));o={}
+ for n,t in T.items():
+  x=rows[n];s=data[x['source_offset']:x['source_offset']+x['source_byte_length']].decode('cp932');encode_dialogue(t,s);o[x['id']]={'id':x['id'],'source_sha256':x['source_sha256'],'source_offset':x['source_offset'],'source_byte_length':x['source_byte_length'],'reference_instructions':x['reference_instructions'],'resource_row':n,'text':t,'status':'draft','notes':'No source control tokens.'}
+ return {'resource_id':r['id'],'assigned_range':[1920,1999],'rows_examined':{'ranges_inclusive':[[1900,2019]],'count':120},'translations':o,'uncertainties':[],'new_glossary_requests':[]}
+if __name__=='__main__':
+ p=argparse.ArgumentParser();p.add_argument('--write',action='store_true');a=p.parse_args();d=build();print(json.dumps({'mode':'write' if a.write else 'dry-run','count':len(d['translations'])}));a.write and OUT.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

@@ -1,0 +1,1699 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "language_status": "working assumption pending user confirmation",
+  "resource_id": "00:00065",
+  "scope": "First 80 consecutive compiled text occurrences at or after instruction 76240, including alternative branches. English pilot draft, not accepted translation or complete opening scene.",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "rows_in_slice": 80,
+  "rows_examined": 132,
+  "reference_instruction_range": [
+    76240,
+    78314
+  ],
+  "ordering": "Ascending verified reference instruction byte offset in decoded script. Not one unconditional playthrough.",
+  "translations": {
+    "00:00065:text:0002646e": {
+      "id": "00:00065:text:0002646e",
+      "resource_id": "00:00065",
+      "slice_row": 0,
+      "source_offset": 156782,
+      "source_sha256": "1dcea15a9df627b32a9a593c48eed9bff9ce8628a6af7b6776757e4b6cfe574b",
+      "reference_instructions": [
+        76240
+      ],
+      "text": "...waken.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0.",
+      "sentence_group": 0,
+      "group_ids": [
+        "00:00065:text:0002646e"
+      ],
+      "notes": [
+        "Opening is deliberately incomplete; retain the heard fragment rather than restore the omitted beginning."
+      ]
+    },
+    "00:00065:text:0002647c": {
+      "id": "00:00065:text:0002647c",
+      "resource_id": "00:00065",
+      "slice_row": 1,
+      "source_offset": 156796,
+      "source_sha256": "a3074b22f5199d2fc3f8c49f674eb6cee409d3401c432291ec9f7a0a08d0b229",
+      "reference_instructions": [
+        76252
+      ],
+      "text": "Huh...?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0.",
+      "sentence_group": 1,
+      "group_ids": [
+        "00:00065:text:0002647c"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026488": {
+      "id": "00:00065:text:00026488",
+      "resource_id": "00:00065",
+      "slice_row": 2,
+      "source_offset": 156808,
+      "source_sha256": "13b8d995017d9b65abb1e12099c816fb069fd476da5f4e03fc6afc34f7931115",
+      "reference_instructions": [
+        76272
+      ],
+      "text": "Now, awaken...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0.",
+      "sentence_group": 2,
+      "group_ids": [
+        "00:00065:text:00026488"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000264a2": {
+      "id": "00:00065:text:000264a2",
+      "resource_id": "00:00065",
+      "slice_row": 3,
+      "source_offset": 156834,
+      "source_sha256": "0639a2a70705e6cb5d15daf76044a2aabe869993c90035ede50df78ad5a1f2f6",
+      "reference_instructions": [
+        76296
+      ],
+      "text": "A voice...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 3,
+      "group_ids": [
+        "00:00065:text:000264a2",
+        "00:00065:text:000264ac"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000264ac": {
+      "id": "00:00065:text:000264ac",
+      "resource_id": "00:00065",
+      "slice_row": 4,
+      "source_offset": 156844,
+      "source_sha256": "83fc3b1d626449478f2fa5c80f0f44f8cbf1fa62ea7b0244efc96ea0ba090719",
+      "reference_instructions": [
+        76304
+      ],
+      "text": "Is it calling me?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 3,
+      "group_ids": [
+        "00:00065:text:000264a2",
+        "00:00065:text:000264ac"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000264c2": {
+      "id": "00:00065:text:000264c2",
+      "resource_id": "00:00065",
+      "slice_row": 5,
+      "source_offset": 156866,
+      "source_sha256": "0639a2a70705e6cb5d15daf76044a2aabe869993c90035ede50df78ad5a1f2f6",
+      "reference_instructions": [
+        76320
+      ],
+      "text": "A voice...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 4,
+      "group_ids": [
+        "00:00065:text:000264c2",
+        "00:00065:text:000264cc",
+        "00:00065:text:000264d8"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000264cc": {
+      "id": "00:00065:text:000264cc",
+      "resource_id": "00:00065",
+      "slice_row": 6,
+      "source_offset": 156876,
+      "source_sha256": "c8bb25bb0796bd5dd55de19104f6581cfa1936a94aa24a5b33b35b659076ba49",
+      "reference_instructions": [
+        76328
+      ],
+      "text": "Is it calling...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 4,
+      "group_ids": [
+        "00:00065:text:000264c2",
+        "00:00065:text:000264cc",
+        "00:00065:text:000264d8"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:000264d8": {
+      "id": "00:00065:text:000264d8",
+      "resource_id": "00:00065",
+      "slice_row": 7,
+      "source_offset": 156888,
+      "source_sha256": "9dc5d2517381612ca874835b6f778ace2076cf36fad5c4f7f5ae3b57f8e9a12c",
+      "reference_instructions": [
+        76336
+      ],
+      "text": "for me?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 4,
+      "group_ids": [
+        "00:00065:text:000264c2",
+        "00:00065:text:000264cc",
+        "00:00065:text:000264d8"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:000264e8": {
+      "id": "00:00065:text:000264e8",
+      "resource_id": "00:00065",
+      "slice_row": 8,
+      "source_offset": 156904,
+      "source_sha256": "25989ebc48b0d6e3e1adaf528660f11aadc69d580e6d05e17dc844ea90e49abd",
+      "reference_instructions": [
+        76348
+      ],
+      "text": "But who? From where?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0.",
+      "sentence_group": 5,
+      "group_ids": [
+        "00:00065:text:000264e8"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026502": {
+      "id": "00:00065:text:00026502",
+      "resource_id": "00:00065",
+      "slice_row": 9,
+      "source_offset": 156930,
+      "source_sha256": "3e9f3894b8aee6394dab22bc77d361fc3ac25e56c32e85fee01c30ef08c39199",
+      "reference_instructions": [
+        76368
+      ],
+      "text": "Open your eyes...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0.",
+      "sentence_group": 6,
+      "group_ids": [
+        "00:00065:text:00026502",
+        "00:00065:text:00026514"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026514": {
+      "id": "00:00065:text:00026514",
+      "resource_id": "00:00065",
+      "slice_row": 10,
+      "source_offset": 156948,
+      "source_sha256": "8ba68428fa4211a9214dc970cdc2c51c08dfe2e0c476481647eb2134b4ea87ec",
+      "reference_instructions": [
+        76376
+      ],
+      "text": "and rise...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0.",
+      "sentence_group": 6,
+      "group_ids": [
+        "00:00065:text:00026502",
+        "00:00065:text:00026514"
+      ],
+      "notes": []
+    },
+    "00:00065:text:0002652a": {
+      "id": "00:00065:text:0002652a",
+      "resource_id": "00:00065",
+      "slice_row": 11,
+      "source_offset": 156970,
+      "source_sha256": "9aff3d50a7706323400100cd25d91843cfd84bdba24d4cb71ed0353816fbe866",
+      "reference_instructions": [
+        76388
+      ],
+      "text": "U-ugh...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0.",
+      "sentence_group": 7,
+      "group_ids": [
+        "00:00065:text:0002652a"
+      ],
+      "notes": []
+    },
+    "00:00065:text:0002653a": {
+      "id": "00:00065:text:0002653a",
+      "resource_id": "00:00065",
+      "slice_row": 12,
+      "source_offset": 156986,
+      "source_sha256": "55d4f06b00a025f49d63e756f3280b53fa9fc28227bf7fcfdca8ed6365e61242",
+      "reference_instructions": [
+        76408
+      ],
+      "text": "You who...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0.",
+      "sentence_group": 8,
+      "group_ids": [
+        "00:00065:text:0002653a",
+        "00:00065:text:00026546"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together.",
+        "The unidentified voice explicitly refers to inheriting/succeeding the speaker. Draft preserves the unusual object without inventing power, a title, or the speaker identity. Independent meaning review still needed."
+      ]
+    },
+    "00:00065:text:00026546": {
+      "id": "00:00065:text:00026546",
+      "resource_id": "00:00065",
+      "slice_row": 13,
+      "source_offset": 156998,
+      "source_sha256": "1a96cb2d81974dfc269da9e834419189cc5ef03264489d8ae953644db13da02f",
+      "reference_instructions": [
+        76416
+      ],
+      "text": "have inherited me!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] == 0.",
+      "sentence_group": 8,
+      "group_ids": [
+        "00:00065:text:0002653a",
+        "00:00065:text:00026546"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together.",
+        "The unidentified voice explicitly refers to inheriting/succeeding the speaker. Draft preserves the unusual object without inventing power, a title, or the speaker identity. Independent meaning review still needed."
+      ]
+    },
+    "00:00065:text:00026556": {
+      "id": "00:00065:text:00026556",
+      "resource_id": "00:00065",
+      "slice_row": 14,
+      "source_offset": 157014,
+      "source_sha256": "36fe1cfbab52f30818446adae5ddc42cb9f4e9ade683f363e1935f37674c9b6a",
+      "reference_instructions": [
+        76440
+      ],
+      "text": "...wake up.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 9,
+      "group_ids": [
+        "00:00065:text:00026556"
+      ],
+      "notes": [
+        "Opening is deliberately incomplete; retain the heard fragment rather than restore the omitted beginning."
+      ]
+    },
+    "00:00065:text:00026566": {
+      "id": "00:00065:text:00026566",
+      "resource_id": "00:00065",
+      "slice_row": 15,
+      "source_offset": 157030,
+      "source_sha256": "a3074b22f5199d2fc3f8c49f674eb6cee409d3401c432291ec9f7a0a08d0b229",
+      "reference_instructions": [
+        76452
+      ],
+      "text": "Huh...?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 10,
+      "group_ids": [
+        "00:00065:text:00026566"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026572": {
+      "id": "00:00065:text:00026572",
+      "resource_id": "00:00065",
+      "slice_row": 16,
+      "source_offset": 157042,
+      "source_sha256": "e0ce1e1b548777d2a93acf59949a5268783592e4993e7674b25b5d9e0bd9c681",
+      "reference_instructions": [
+        76472
+      ],
+      "text": "Come on, wake up...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 11,
+      "group_ids": [
+        "00:00065:text:00026572"
+      ],
+      "notes": []
+    },
+    "00:00065:text:0002658c": {
+      "id": "00:00065:text:0002658c",
+      "resource_id": "00:00065",
+      "slice_row": 17,
+      "source_offset": 157068,
+      "source_sha256": "0639a2a70705e6cb5d15daf76044a2aabe869993c90035ede50df78ad5a1f2f6",
+      "reference_instructions": [
+        76496
+      ],
+      "text": "A voice...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 12,
+      "group_ids": [
+        "00:00065:text:0002658c",
+        "00:00065:text:00026596"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026596": {
+      "id": "00:00065:text:00026596",
+      "resource_id": "00:00065",
+      "slice_row": 18,
+      "source_offset": 157078,
+      "source_sha256": "83fc3b1d626449478f2fa5c80f0f44f8cbf1fa62ea7b0244efc96ea0ba090719",
+      "reference_instructions": [
+        76504
+      ],
+      "text": "Is it calling me?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 12,
+      "group_ids": [
+        "00:00065:text:0002658c",
+        "00:00065:text:00026596"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000265ac": {
+      "id": "00:00065:text:000265ac",
+      "resource_id": "00:00065",
+      "slice_row": 19,
+      "source_offset": 157100,
+      "source_sha256": "0639a2a70705e6cb5d15daf76044a2aabe869993c90035ede50df78ad5a1f2f6",
+      "reference_instructions": [
+        76520
+      ],
+      "text": "A voice...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 13,
+      "group_ids": [
+        "00:00065:text:000265ac",
+        "00:00065:text:000265b6",
+        "00:00065:text:000265c2"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000265b6": {
+      "id": "00:00065:text:000265b6",
+      "resource_id": "00:00065",
+      "slice_row": 20,
+      "source_offset": 157110,
+      "source_sha256": "c8bb25bb0796bd5dd55de19104f6581cfa1936a94aa24a5b33b35b659076ba49",
+      "reference_instructions": [
+        76528
+      ],
+      "text": "Is it calling...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 13,
+      "group_ids": [
+        "00:00065:text:000265ac",
+        "00:00065:text:000265b6",
+        "00:00065:text:000265c2"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:000265c2": {
+      "id": "00:00065:text:000265c2",
+      "resource_id": "00:00065",
+      "slice_row": 21,
+      "source_offset": 157122,
+      "source_sha256": "9dc5d2517381612ca874835b6f778ace2076cf36fad5c4f7f5ae3b57f8e9a12c",
+      "reference_instructions": [
+        76536
+      ],
+      "text": "for me?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 13,
+      "group_ids": [
+        "00:00065:text:000265ac",
+        "00:00065:text:000265b6",
+        "00:00065:text:000265c2"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:000265d2": {
+      "id": "00:00065:text:000265d2",
+      "resource_id": "00:00065",
+      "slice_row": 22,
+      "source_offset": 157138,
+      "source_sha256": "25989ebc48b0d6e3e1adaf528660f11aadc69d580e6d05e17dc844ea90e49abd",
+      "reference_instructions": [
+        76548
+      ],
+      "text": "But who? From where?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 14,
+      "group_ids": [
+        "00:00065:text:000265d2"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000265ec": {
+      "id": "00:00065:text:000265ec",
+      "resource_id": "00:00065",
+      "slice_row": 23,
+      "source_offset": 157164,
+      "source_sha256": "1bb7c988bc741e6abd6971f2d39eabec125d6c67ba5eca50b8b0370793f01d90",
+      "reference_instructions": [
+        76568
+      ],
+      "text": "I've been waiting all this time",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 15,
+      "group_ids": [
+        "00:00065:text:000265ec",
+        "00:00065:text:00026606",
+        "00:00065:text:0002661e"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026606": {
+      "id": "00:00065:text:00026606",
+      "resource_id": "00:00065",
+      "slice_row": 24,
+      "source_offset": 157190,
+      "source_sha256": "11b8deed20187cecc88d380ca8606a546a2563991396dd2e4021ded600106b9a",
+      "reference_instructions": [
+        76576
+      ],
+      "text": "for someone like you",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 15,
+      "group_ids": [
+        "00:00065:text:000265ec",
+        "00:00065:text:00026606",
+        "00:00065:text:0002661e"
+      ],
+      "notes": []
+    },
+    "00:00065:text:0002661e": {
+      "id": "00:00065:text:0002661e",
+      "resource_id": "00:00065",
+      "slice_row": 25,
+      "source_offset": 157214,
+      "source_sha256": "6a58c03317491bd21bff2939d7dc2b868ece00d5505a952a3cb2384066789f1d",
+      "reference_instructions": [
+        76584
+      ],
+      "text": "to come someday.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 15,
+      "group_ids": [
+        "00:00065:text:000265ec",
+        "00:00065:text:00026606",
+        "00:00065:text:0002661e"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026630": {
+      "id": "00:00065:text:00026630",
+      "resource_id": "00:00065",
+      "slice_row": 26,
+      "source_offset": 157232,
+      "source_sha256": "1f5b485cd6c1bb241346ff8372e9b35a57f945c67e811bac89fc9c5c6394b3e6",
+      "reference_instructions": [
+        76608
+      ],
+      "text": "For... me?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 16,
+      "group_ids": [
+        "00:00065:text:00026630"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026640": {
+      "id": "00:00065:text:00026640",
+      "resource_id": "00:00065",
+      "slice_row": 27,
+      "source_offset": 157248,
+      "source_sha256": "6d5fbecb3cd52f4a3f86ae34b40981259aea20063854e0a66fed6e796656f9b8",
+      "reference_instructions": [
+        76624
+      ],
+      "text": "For... me?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 17,
+      "group_ids": [
+        "00:00065:text:00026640"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026654": {
+      "id": "00:00065:text:00026654",
+      "resource_id": "00:00065",
+      "slice_row": 28,
+      "source_offset": 157268,
+      "source_sha256": "3810f107d96accda6f50bb91ccf0effdbc9ca7d221deb7448f9e07f6d5ef08d9",
+      "reference_instructions": [
+        76644
+      ],
+      "text": "I'm sure you",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 18,
+      "group_ids": [
+        "00:00065:text:00026654",
+        "00:00065:text:00026666",
+        "00:00065:text:0002667c"
+      ],
+      "notes": [
+        "Confidence in the addressee is explicit in the surrounding first-person plea; no gender or identity is supplied."
+      ]
+    },
+    "00:00065:text:00026666": {
+      "id": "00:00065:text:00026666",
+      "resource_id": "00:00065",
+      "slice_row": 29,
+      "source_offset": 157286,
+      "source_sha256": "a8917adeddaba5e1add4c6431742ef835f5797afe3c1680b5ea10649c40965fd",
+      "reference_instructions": [
+        76652
+      ],
+      "text": "can find the answer.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 18,
+      "group_ids": [
+        "00:00065:text:00026654",
+        "00:00065:text:00026666",
+        "00:00065:text:0002667c"
+      ],
+      "notes": [
+        "Confidence in the addressee is explicit in the surrounding first-person plea; no gender or identity is supplied."
+      ]
+    },
+    "00:00065:text:0002667c": {
+      "id": "00:00065:text:0002667c",
+      "resource_id": "00:00065",
+      "slice_row": 30,
+      "source_offset": 157308,
+      "source_sha256": "a8c6aaac3d69b61e6a4e42f276e5dbae8d72e1c4cdf3940b8ca842c871252387",
+      "reference_instructions": [
+        76660
+      ],
+      "text": "So...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 18,
+      "group_ids": [
+        "00:00065:text:00026654",
+        "00:00065:text:00026666",
+        "00:00065:text:0002667c"
+      ],
+      "notes": []
+    },
+    "00:00065:text:0002668a": {
+      "id": "00:00065:text:0002668a",
+      "resource_id": "00:00065",
+      "slice_row": 31,
+      "source_offset": 157322,
+      "source_sha256": "ddc8ac9864330fc398ab1a4c90b6f83a8728028eb298baea3c229526a0422123",
+      "reference_instructions": [
+        76680
+      ],
+      "text": "Please...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 19,
+      "group_ids": [
+        "00:00065:text:0002668a",
+        "00:00065:text:00026696"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:00026696": {
+      "id": "00:00065:text:00026696",
+      "resource_id": "00:00065",
+      "slice_row": 32,
+      "source_offset": 157334,
+      "source_sha256": "a2b23c7e523e0ac90b4d632a5adb7b784b9eddd2ea8cc7ac29f2324d109f86e4",
+      "reference_instructions": [
+        76688
+      ],
+      "text": "stop me...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Dream variant: global[150] != 0.",
+      "sentence_group": 19,
+      "group_ids": [
+        "00:00065:text:0002668a",
+        "00:00065:text:00026696"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:000266a8": {
+      "id": "00:00065:text:000266a8",
+      "resource_id": "00:00065",
+      "slice_row": 33,
+      "source_offset": 157352,
+      "source_sha256": "87fa473f33829bf000dc71d5811cbdabffe571b24e7f62850040b78c3a9788da",
+      "reference_instructions": [
+        76862
+      ],
+      "text": "......!?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 20,
+      "group_ids": [
+        "00:00065:text:000266a8"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000266bc": {
+      "id": "00:00065:text:000266bc",
+      "resource_id": "00:00065",
+      "slice_row": 34,
+      "source_offset": 157372,
+      "source_sha256": "c91771a6a9e89110e075af4d0481ca930eb2c14aad27f3b94be15f7f0f62ebb1",
+      "reference_instructions": [
+        77132
+      ],
+      "text": "...!!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 21,
+      "group_ids": [
+        "00:00065:text:000266bc"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000266c8": {
+      "id": "00:00065:text:000266c8",
+      "resource_id": "00:00065",
+      "slice_row": 35,
+      "source_offset": 157384,
+      "source_sha256": "61734c9c30d75444ef55d7d0d67514d5f018151acb5a52bc0f454f9453d1bf29",
+      "reference_instructions": [
+        77184
+      ],
+      "text": "A dream, huh...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 22,
+      "group_ids": [
+        "00:00065:text:000266c8"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000266d6": {
+      "id": "00:00065:text:000266d6",
+      "resource_id": "00:00065",
+      "slice_row": 36,
+      "source_offset": 157398,
+      "source_sha256": "fac2964b137f8cb62a43b8f58d8795e0592a6822f55594e33d7acfa7b75f40a8",
+      "reference_instructions": [
+        77212
+      ],
+      "text": "Ugh...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 23,
+      "group_ids": [
+        "00:00065:text:000266d6"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000266e4": {
+      "id": "00:00065:text:000266e4",
+      "resource_id": "00:00065",
+      "slice_row": 37,
+      "source_offset": 157412,
+      "source_sha256": "f324c2d1b8d45596bfabb13399de35eb6758adace9e3841410206a1e119627b7",
+      "reference_instructions": [
+        77240
+      ],
+      "text": "Why am I lying",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 24,
+      "group_ids": [
+        "00:00065:text:000266e4",
+        "00:00065:text:000266fc"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:000266fc": {
+      "id": "00:00065:text:000266fc",
+      "resource_id": "00:00065",
+      "slice_row": 38,
+      "source_offset": 157436,
+      "source_sha256": "64ae6019d71c19629b950f59e27b1d44779b8332407305b10bc5eabdcef0eebd",
+      "reference_instructions": [
+        77248
+      ],
+      "text": "flat on my back on this beach?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 24,
+      "group_ids": [
+        "00:00065:text:000266e4",
+        "00:00065:text:000266fc"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:00026714": {
+      "id": "00:00065:text:00026714",
+      "resource_id": "00:00065",
+      "slice_row": 39,
+      "source_offset": 157460,
+      "source_sha256": "5284d111d643c9d51477ca36643e67067b2f345d4b7a09f303d87ef29966a8f6",
+      "reference_instructions": [
+        77276
+      ],
+      "text": "No...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 25,
+      "group_ids": [
+        "00:00065:text:00026714",
+        "00:00065:text:00026720"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026720": {
+      "id": "00:00065:text:00026720",
+      "resource_id": "00:00065",
+      "slice_row": 40,
+      "source_offset": 157472,
+      "source_sha256": "d639e43517f8924ce00b6fce5ea471e0c94f95ac55ea7e6f9f90db65f9a62b37",
+      "reference_instructions": [
+        77284
+      ],
+      "text": "Before that...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 25,
+      "group_ids": [
+        "00:00065:text:00026714",
+        "00:00065:text:00026720"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026732": {
+      "id": "00:00065:text:00026732",
+      "resource_id": "00:00065",
+      "slice_row": 41,
+      "source_offset": 157490,
+      "source_sha256": "36abbabb772ba21769038e917960eb77d14ee50a5fd414b1a57225d8eed003ed",
+      "reference_instructions": [
+        77312
+      ],
+      "text": "Where am I???",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 26,
+      "group_ids": [
+        "00:00065:text:00026732"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026748": {
+      "id": "00:00065:text:00026748",
+      "resource_id": "00:00065",
+      "slice_row": 42,
+      "source_offset": 157512,
+      "source_sha256": "a0196084c785530d77de918e37d35d9a59fba4a464ac40d97017688ee9da6a4e",
+      "reference_instructions": [
+        77344
+      ],
+      "text": "H-huh...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 27,
+      "group_ids": [
+        "00:00065:text:00026748",
+        "00:00065:text:00026756"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026756": {
+      "id": "00:00065:text:00026756",
+      "resource_id": "00:00065",
+      "slice_row": 43,
+      "source_offset": 157526,
+      "source_sha256": "2ac28e2eabfcaece395398ed2c8158392cbc0bc7f26f78f31a0d4deefa1d0576",
+      "reference_instructions": [
+        77352
+      ],
+      "text": "A dream...?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 27,
+      "group_ids": [
+        "00:00065:text:00026748",
+        "00:00065:text:00026756"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026762": {
+      "id": "00:00065:text:00026762",
+      "resource_id": "00:00065",
+      "slice_row": 44,
+      "source_offset": 157538,
+      "source_sha256": "975ea8e61fd31d0caf7c6381bd62013e7804ea77d8bc63902c87872d07e13b7c",
+      "reference_instructions": [
+        77380
+      ],
+      "text": "Um...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 28,
+      "group_ids": [
+        "00:00065:text:00026762",
+        "00:00065:text:00026772",
+        "00:00065:text:00026786"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026772": {
+      "id": "00:00065:text:00026772",
+      "resource_id": "00:00065",
+      "slice_row": 45,
+      "source_offset": 157554,
+      "source_sha256": "2e28d4572dab66e183d937802c09f239f4873ba59c69c6ed776d9088a6b9ccff",
+      "reference_instructions": [
+        77388
+      ],
+      "text": "Why was I",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 28,
+      "group_ids": [
+        "00:00065:text:00026762",
+        "00:00065:text:00026772",
+        "00:00065:text:00026786"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026786": {
+      "id": "00:00065:text:00026786",
+      "resource_id": "00:00065",
+      "slice_row": 46,
+      "source_offset": 157574,
+      "source_sha256": "dc6041a6c6b1b2ede85ff2a70928467a599b29f4078206737f4027f5fafe2b45",
+      "reference_instructions": [
+        77396
+      ],
+      "text": "sleeping on the beach?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 28,
+      "group_ids": [
+        "00:00065:text:00026762",
+        "00:00065:text:00026772",
+        "00:00065:text:00026786"
+      ],
+      "notes": []
+    },
+    "00:00065:text:0002679c": {
+      "id": "00:00065:text:0002679c",
+      "resource_id": "00:00065",
+      "slice_row": 47,
+      "source_offset": 157596,
+      "source_sha256": "a94cbce1f72099d5bcae76a5eb4688a4fb9366c54fe64d829e31d6dc40a1ba01",
+      "reference_instructions": [
+        77424
+      ],
+      "text": "No...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 29,
+      "group_ids": [
+        "00:00065:text:0002679c",
+        "00:00065:text:000267aa"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000267aa": {
+      "id": "00:00065:text:000267aa",
+      "resource_id": "00:00065",
+      "slice_row": 48,
+      "source_offset": 157610,
+      "source_sha256": "d639e43517f8924ce00b6fce5ea471e0c94f95ac55ea7e6f9f90db65f9a62b37",
+      "reference_instructions": [
+        77432
+      ],
+      "text": "Before that...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 29,
+      "group_ids": [
+        "00:00065:text:0002679c",
+        "00:00065:text:000267aa"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000267bc": {
+      "id": "00:00065:text:000267bc",
+      "resource_id": "00:00065",
+      "slice_row": 49,
+      "source_offset": 157628,
+      "source_sha256": "f405004c5593da2bd1e008c3b095db65c3c25c980e7b5c65b0a5eda87ec54fa6",
+      "reference_instructions": [
+        77460
+      ],
+      "text": "Where is this??",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 30,
+      "group_ids": [
+        "00:00065:text:000267bc"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000267d2": {
+      "id": "00:00065:text:000267d2",
+      "resource_id": "00:00065",
+      "slice_row": 50,
+      "source_offset": 157650,
+      "source_sha256": "2487976555c620b50f9a7d57f0df6d3ded063e761adfaf8fb773d23f87201a14",
+      "reference_instructions": [
+        77794
+      ],
+      "text": "This is bad...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 31,
+      "group_ids": [
+        "00:00065:text:000267d2",
+        "00:00065:text:000267e4",
+        "00:00065:text:000267fa"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000267e4": {
+      "id": "00:00065:text:000267e4",
+      "resource_id": "00:00065",
+      "slice_row": 51,
+      "source_offset": 157668,
+      "source_sha256": "683d87f932c031699a365fd6cfb016cf31b9778c9f121879a4ce6579bc6e90c4",
+      "reference_instructions": [
+        77802
+      ],
+      "text": "Not a house in sight,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 31,
+      "group_ids": [
+        "00:00065:text:000267d2",
+        "00:00065:text:000267e4",
+        "00:00065:text:000267fa"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:000267fa": {
+      "id": "00:00065:text:000267fa",
+      "resource_id": "00:00065",
+      "slice_row": 52,
+      "source_offset": 157690,
+      "source_sha256": "0aa75e0923fe3ec1658111ad3626cf94de1216970a61493f3b0f1d8d673664c7",
+      "reference_instructions": [
+        77810
+      ],
+      "text": "or even a single person.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 31,
+      "group_ids": [
+        "00:00065:text:000267d2",
+        "00:00065:text:000267e4",
+        "00:00065:text:000267fa"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:0002680e": {
+      "id": "00:00065:text:0002680e",
+      "resource_id": "00:00065",
+      "slice_row": 53,
+      "source_offset": 157710,
+      "source_sha256": "2db3988dd20d8368fe053c07ddc0a427de234122a77589050a862888ef1a73a2",
+      "reference_instructions": [
+        77842
+      ],
+      "text": "What a mess...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 32,
+      "group_ids": [
+        "00:00065:text:0002680e",
+        "00:00065:text:00026822",
+        "00:00065:text:00026836"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026822": {
+      "id": "00:00065:text:00026822",
+      "resource_id": "00:00065",
+      "slice_row": 54,
+      "source_offset": 157730,
+      "source_sha256": "c195acc327b3b2a6209b72c01b6db475f088dcae6f3ec5ce5cfec9b7c3f8f3f9",
+      "reference_instructions": [
+        77850
+      ],
+      "text": "Not a house in sight,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 32,
+      "group_ids": [
+        "00:00065:text:0002680e",
+        "00:00065:text:00026822",
+        "00:00065:text:00026836"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:00026836": {
+      "id": "00:00065:text:00026836",
+      "resource_id": "00:00065",
+      "slice_row": 55,
+      "source_offset": 157750,
+      "source_sha256": "0aa75e0923fe3ec1658111ad3626cf94de1216970a61493f3b0f1d8d673664c7",
+      "reference_instructions": [
+        77858
+      ],
+      "text": "or even a single soul.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 32,
+      "group_ids": [
+        "00:00065:text:0002680e",
+        "00:00065:text:00026822",
+        "00:00065:text:00026836"
+      ],
+      "notes": [
+        "English wording is distributed across the linked line group; insert/review the group together."
+      ]
+    },
+    "00:00065:text:0002684a": {
+      "id": "00:00065:text:0002684a",
+      "resource_id": "00:00065",
+      "slice_row": 56,
+      "source_offset": 157770,
+      "source_sha256": "418dbb59af01f54e0911fa953a9e2e8b89d526cf33cc9a3c069700db3c3bf488",
+      "reference_instructions": [
+        77874
+      ],
+      "text": "And this scenery...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 33,
+      "group_ids": [
+        "00:00065:text:0002684a",
+        "00:00065:text:0002685a",
+        "00:00065:text:00026870"
+      ],
+      "notes": []
+    },
+    "00:00065:text:0002685a": {
+      "id": "00:00065:text:0002685a",
+      "resource_id": "00:00065",
+      "slice_row": 57,
+      "source_offset": 157786,
+      "source_sha256": "ec1dd1f898a1da9689adb2428603e1db17eccdc3e6da31bee9c573c93e46a8a8",
+      "reference_instructions": [
+        77882
+      ],
+      "text": "No matter how I look at it,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 33,
+      "group_ids": [
+        "00:00065:text:0002684a",
+        "00:00065:text:0002685a",
+        "00:00065:text:00026870"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026870": {
+      "id": "00:00065:text:00026870",
+      "resource_id": "00:00065",
+      "slice_row": 58,
+      "source_offset": 157808,
+      "source_sha256": "5d002a428ee61fdd023bb276d1735ee0b05f6f0eac66b84ee72f2fade6171ebc",
+      "reference_instructions": [
+        77890
+      ],
+      "text": "nothing looks familiar.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 33,
+      "group_ids": [
+        "00:00065:text:0002684a",
+        "00:00065:text:0002685a",
+        "00:00065:text:00026870"
+      ],
+      "notes": []
+    },
+    "00:00065:text:0002687e": {
+      "id": "00:00065:text:0002687e",
+      "resource_id": "00:00065",
+      "slice_row": 59,
+      "source_offset": 157822,
+      "source_sha256": "9fe36554971cf5320ffaa16d02503e38f2831db1cee51af7863535fdf21d5bd7",
+      "reference_instructions": [
+        77930
+      ],
+      "text": "Anyway, how on earth",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 34,
+      "group_ids": [
+        "00:00065:text:0002687e",
+        "00:00065:text:0002689a",
+        "00:00065:text:000268b4"
+      ],
+      "notes": []
+    },
+    "00:00065:text:0002689a": {
+      "id": "00:00065:text:0002689a",
+      "resource_id": "00:00065",
+      "slice_row": 60,
+      "source_offset": 157850,
+      "source_sha256": "e82defa69060747eeed7ef606adc206035036c9dd643da87b46730098e6d5094",
+      "reference_instructions": [
+        77938
+      ],
+      "text": "did I end up like this?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 34,
+      "group_ids": [
+        "00:00065:text:0002687e",
+        "00:00065:text:0002689a",
+        "00:00065:text:000268b4"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000268b4": {
+      "id": "00:00065:text:000268b4",
+      "resource_id": "00:00065",
+      "slice_row": 61,
+      "source_offset": 157876,
+      "source_sha256": "e7dac9a5d34e0766c81e469e16283d2d974cb219f8ced5390f949255424acb63",
+      "reference_instructions": [
+        77946
+      ],
+      "text": "I need to think back, step by step.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 34,
+      "group_ids": [
+        "00:00065:text:0002687e",
+        "00:00065:text:0002689a",
+        "00:00065:text:000268b4"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000268ce": {
+      "id": "00:00065:text:000268ce",
+      "resource_id": "00:00065",
+      "slice_row": 62,
+      "source_offset": 157902,
+      "source_sha256": "9fe36554971cf5320ffaa16d02503e38f2831db1cee51af7863535fdf21d5bd7",
+      "reference_instructions": [
+        77978
+      ],
+      "text": "Anyway, how on earth",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 35,
+      "group_ids": [
+        "00:00065:text:000268ce",
+        "00:00065:text:000268ea",
+        "00:00065:text:00026902"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000268ea": {
+      "id": "00:00065:text:000268ea",
+      "resource_id": "00:00065",
+      "slice_row": 63,
+      "source_offset": 157930,
+      "source_sha256": "58bdaa1f7e6c7fc17e1d371e8aecbd895293968b213c83d4743b3bfa8e664dd3",
+      "reference_instructions": [
+        77986
+      ],
+      "text": "did I end up like this?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 35,
+      "group_ids": [
+        "00:00065:text:000268ce",
+        "00:00065:text:000268ea",
+        "00:00065:text:00026902"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026902": {
+      "id": "00:00065:text:00026902",
+      "resource_id": "00:00065",
+      "slice_row": 64,
+      "source_offset": 157954,
+      "source_sha256": "dfc197a1c42a69d501cd3489f34f8ec60b7b285ad7a01af39e8d7d580f36d6f8",
+      "reference_instructions": [
+        77994
+      ],
+      "text": "Let's think back, step by step.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 35,
+      "group_ids": [
+        "00:00065:text:000268ce",
+        "00:00065:text:000268ea",
+        "00:00065:text:00026902"
+      ],
+      "notes": []
+    },
+    "00:00065:text:0002691a": {
+      "id": "00:00065:text:0002691a",
+      "resource_id": "00:00065",
+      "slice_row": 65,
+      "source_offset": 157978,
+      "source_sha256": "975ea8e61fd31d0caf7c6381bd62013e7804ea77d8bc63902c87872d07e13b7c",
+      "reference_instructions": [
+        78044
+      ],
+      "text": "Let's see...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 36,
+      "group_ids": [
+        "00:00065:text:0002691a"
+      ],
+      "notes": []
+    },
+    "00:00065:text:0002692a": {
+      "id": "00:00065:text:0002692a",
+      "resource_id": "00:00065",
+      "slice_row": 66,
+      "source_offset": 157994,
+      "source_sha256": "a43b97859ba6c9930770e51a9dff799e7d2b21b1e7852869613a30aa374e8dac",
+      "reference_instructions": [
+        78064
+      ],
+      "text": "　About myself",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 37,
+      "group_ids": [
+        "00:00065:text:0002692a"
+      ],
+      "notes": [
+        "Helper word2012 calls native0x3050 with mode1 and explicit choice ID. Helper word2315 then calls native0x3052 and its result controls branching. Leading U+3000 preserved pending layout verification."
+      ],
+      "choice_id": 0
+    },
+    "00:00065:text:00026938": {
+      "id": "00:00065:text:00026938",
+      "resource_id": "00:00065",
+      "slice_row": 67,
+      "source_offset": 158008,
+      "source_sha256": "f2095c9c972ce06d340c86a9e526417e139c50bdf05f7be801e11c47a5a7ee1a",
+      "reference_instructions": [
+        78078
+      ],
+      "text": "　Recent events",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 38,
+      "group_ids": [
+        "00:00065:text:00026938"
+      ],
+      "notes": [
+        "Helper word2012 calls native0x3050 with mode1 and explicit choice ID. Helper word2315 then calls native0x3052 and its result controls branching. Leading U+3000 preserved pending layout verification."
+      ],
+      "choice_id": 1
+    },
+    "00:00065:text:00026946": {
+      "id": "00:00065:text:00026946",
+      "resource_id": "00:00065",
+      "slice_row": 68,
+      "source_offset": 158022,
+      "source_sha256": "519b7b48005c358eac304cf2face517d8b49535f76f4e21732366462a5b40705",
+      "reference_instructions": [
+        78088
+      ],
+      "text": "　Trivial things",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 39,
+      "group_ids": [
+        "00:00065:text:00026946"
+      ],
+      "notes": [
+        "Helper word2012 calls native0x3050 with mode1 and explicit choice ID. Helper word2315 then calls native0x3052 and its result controls branching. Leading U+3000 preserved pending layout verification."
+      ],
+      "choice_id": 2
+    },
+    "00:00065:text:00026958": {
+      "id": "00:00065:text:00026958",
+      "resource_id": "00:00065",
+      "slice_row": 69,
+      "source_offset": 158040,
+      "source_sha256": "998b8c1e55e6f2d1622e029eb2d103b88fa8b11df1269c721ac4e51cd4a9d0cd",
+      "reference_instructions": [
+        78166
+      ],
+      "text": "I was born in the Empire.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 40,
+      "group_ids": [
+        "00:00065:text:00026958",
+        "00:00065:text:0002696e",
+        "00:00065:text:00026980"
+      ],
+      "notes": [
+        "Source gives only the generic short designation. Keep Empire; do not expand an unspoken proper name."
+      ],
+      "glossary_ids": [
+        "organization.empire"
+      ]
+    },
+    "00:00065:text:0002696e": {
+      "id": "00:00065:text:0002696e",
+      "resource_id": "00:00065",
+      "slice_row": 70,
+      "source_offset": 158062,
+      "source_sha256": "f4b09102d3cd86bd56abbce301eccab93f8f159769bc315f43bb987b9cd07168",
+      "reference_instructions": [
+        78174
+      ],
+      "text": "...Though, to be precise,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 40,
+      "group_ids": [
+        "00:00065:text:00026958",
+        "00:00065:text:0002696e",
+        "00:00065:text:00026980"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026980": {
+      "id": "00:00065:text:00026980",
+      "resource_id": "00:00065",
+      "slice_row": 71,
+      "source_offset": 158080,
+      "source_sha256": "0c02bd29c650ec6a3ef9165f1435f35e9f5121c9b63aa7dce3923d02800f9260",
+      "reference_instructions": [
+        78182
+      ],
+      "text": "it was a small country village.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 40,
+      "group_ids": [
+        "00:00065:text:00026958",
+        "00:00065:text:0002696e",
+        "00:00065:text:00026980"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026992": {
+      "id": "00:00065:text:00026992",
+      "resource_id": "00:00065",
+      "slice_row": 72,
+      "source_offset": 158098,
+      "source_sha256": "a1978b9b81e8813093256f35635a5ced8aa5aef9b6a0e1a408ae3715c2877f05",
+      "reference_instructions": [
+        78214
+      ],
+      "text": "I was born in the Empire.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 41,
+      "group_ids": [
+        "00:00065:text:00026992",
+        "00:00065:text:000269a8",
+        "00:00065:text:000269ba"
+      ],
+      "notes": [
+        "Source gives only the generic short designation. Keep Empire; do not expand an unspoken proper name."
+      ],
+      "glossary_ids": [
+        "organization.empire"
+      ]
+    },
+    "00:00065:text:000269a8": {
+      "id": "00:00065:text:000269a8",
+      "resource_id": "00:00065",
+      "slice_row": 73,
+      "source_offset": 158120,
+      "source_sha256": "f4b09102d3cd86bd56abbce301eccab93f8f159769bc315f43bb987b9cd07168",
+      "reference_instructions": [
+        78222
+      ],
+      "text": "...Though, to be precise,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 41,
+      "group_ids": [
+        "00:00065:text:00026992",
+        "00:00065:text:000269a8",
+        "00:00065:text:000269ba"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000269ba": {
+      "id": "00:00065:text:000269ba",
+      "resource_id": "00:00065",
+      "slice_row": 74,
+      "source_offset": 158138,
+      "source_sha256": "0c02bd29c650ec6a3ef9165f1435f35e9f5121c9b63aa7dce3923d02800f9260",
+      "reference_instructions": [
+        78230
+      ],
+      "text": "it was a small country village.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] != 0.",
+      "sentence_group": 41,
+      "group_ids": [
+        "00:00065:text:00026992",
+        "00:00065:text:000269a8",
+        "00:00065:text:000269ba"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000269cc": {
+      "id": "00:00065:text:000269cc",
+      "resource_id": "00:00065",
+      "slice_row": 75,
+      "source_offset": 158156,
+      "source_sha256": "6331123fd95f7c08c240869451c6d039540524b7c246344133a914c130de1efd",
+      "reference_instructions": [
+        78246
+      ],
+      "text": "Even though it was in the south,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 42,
+      "group_ids": [
+        "00:00065:text:000269cc",
+        "00:00065:text:000269e2",
+        "00:00065:text:000269f8"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000269e2": {
+      "id": "00:00065:text:000269e2",
+      "resource_id": "00:00065",
+      "slice_row": 76,
+      "source_offset": 158178,
+      "source_sha256": "2ca97b5ecbb5127028d43d7b3bbeb8989f9b867e821a47eda9e3189ff9b7894f",
+      "reference_instructions": [
+        78254
+      ],
+      "text": "snow would fall there in winter,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 42,
+      "group_ids": [
+        "00:00065:text:000269cc",
+        "00:00065:text:000269e2",
+        "00:00065:text:000269f8"
+      ],
+      "notes": []
+    },
+    "00:00065:text:000269f8": {
+      "id": "00:00065:text:000269f8",
+      "resource_id": "00:00065",
+      "slice_row": 77,
+      "source_offset": 158200,
+      "source_sha256": "88923b6017e1a2fe0879c6923bd374cccb0cb2ce882be6e65b1bb8941fd83af3",
+      "reference_instructions": [
+        78262
+      ],
+      "text": "as I recall.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script.",
+      "sentence_group": 42,
+      "group_ids": [
+        "00:00065:text:000269cc",
+        "00:00065:text:000269e2",
+        "00:00065:text:000269f8"
+      ],
+      "notes": []
+    },
+    "00:00065:text:00026a0a": {
+      "id": "00:00065:text:00026a0a",
+      "resource_id": "00:00065",
+      "slice_row": 78,
+      "source_offset": 158218,
+      "source_sha256": "b0df5cc06783796e62b3cfd9fc1a50f9c706f82e46786c012725b9a2b6361223",
+      "reference_instructions": [
+        78306
+      ],
+      "text": "Thanks to everyone in the village,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 43,
+      "group_ids": [
+        "00:00065:text:00026a0a",
+        "00:00065:text:00026a20"
+      ],
+      "notes": [
+        "The sentence continues through row79 and the next slice row80; not approved for isolated insertion."
+      ],
+      "group_continuation_id": "00:00065:text:00026a36"
+    },
+    "00:00065:text:00026a20": {
+      "id": "00:00065:text:00026a20",
+      "resource_id": "00:00065",
+      "slice_row": 79,
+      "source_offset": 158240,
+      "source_sha256": "d1e2369c582302ed0457fe13794669d21f82436c17eb368114590d83cab8569c",
+      "reference_instructions": [
+        78314
+      ],
+      "text": null,
+      "status": "unresolved",
+      "text_role": "queued_dialogue_line",
+      "context": "After the dream; exact event path depends on surrounding script. Protagonist alternative: global[60] == 0.",
+      "sentence_group": 43,
+      "group_ids": [
+        "00:00065:text:00026a0a",
+        "00:00065:text:00026a20"
+      ],
+      "notes": [
+        "Source meaning is understood from following row80: the protagonist could attend the military academy in the imperial capital thanks to the villagers. English verb placement crosses the slice boundary. Leave null until both rows can be drafted and reviewed together, rather than duplicate or omit the next row predicate."
+      ],
+      "group_continuation_id": "00:00065:text:00026a36"
+    }
+  }
+}

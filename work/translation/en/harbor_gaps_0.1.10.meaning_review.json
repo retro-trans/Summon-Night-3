@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "version": "0.1.10",
+  "scope": "Meaning review of previously translated harbor gaps; no new dialogue slice. Source transcript is read transiently and not persisted.",
+  "resource_id": "00:00065",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "input_sha256": {
+    "work/translation/en/opening_harbor.reviewed.json": "ca697e7ece450cfc3521c71cbf4e4c5c85d6fd78d9e2966a3b7972d280ec11f8",
+    "work/ui/latin_font_metrics.json": "7232763c8493237032dffe83afd0640154f6ddbf6d2a48d2da8ab0bbd71a5552"
+  },
+  "rows_examined": {
+    "ranges_inclusive": [
+      [
+        312,
+        348
+      ],
+      [
+        443,
+        505
+      ]
+    ],
+    "count": 100
+  },
+  "target_rows": [
+    330,
+    331,
+    332,
+    456,
+    457,
+    458,
+    459,
+    460,
+    461,
+    487,
+    488,
+    489,
+    490,
+    491,
+    492
+  ],
+  "target_row_count": 15,
+  "locked_glossary_names": [
+    "Rexx",
+    "Aty",
+    "Nup",
+    "Will",
+    "Belfrau",
+    "Alieze",
+    "Salome"
+  ],
+  "constraints": {
+    "max_display_units": 31,
+    "max_latin_advance_pixels": 208,
+    "preserve_original_controls": true,
+    "preserve_dynamic_name_token_row_and_order": true,
+    "preserve_leading_ideographic_choice_indent": true
+  },
+  "uncertainties": [
+    "This review is semantic and metric based, not a runtime approval. Verify choice highlight layout and final ink extent, especially row458 at207px.",
+    "The two-line complete-group reflow and maximum six-glyph player-name expansion require rendering/control-flow verification. No extra honorific or invented addressee is supplied.",
+    "The menu header Surely... is retained from the reviewed catalog; source branch ordering is compiled ordering, not proof of linear runtime chronology."
+  ],
+  "items": [
+    {
+      "opening_row": 330,
+      "id": "00:00065:text:00027cbc",
+      "source_sha256": "c9b846160d36315f5de8ed876ab4ace0883f455a0805d4375daa63f80cfa9d73",
+      "reference_instructions": [
+        85280
+      ],
+      "reviewed_catalog_text": "Ah, yes.",
+      "proposed_text": "Ah, yes.",
+      "display_units_before_runtime_expansion": 8,
+      "latin_advance_pixels": 67,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Affirmation answering Salome about being the new private tutor."
+    },
+    {
+      "opening_row": 331,
+      "id": "00:00065:text:00027cc6",
+      "source_sha256": "fc2277f452cb2621a625f5dcfc2371710ea306f420a85575640852dcd70116da",
+      "reference_instructions": [
+        85288
+      ],
+      "reviewed_catalog_text": "My name is ●",
+      "proposed_text": "My name is ●.",
+      "display_units_before_runtime_expansion": 13,
+      "latin_advance_pixels": null,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Polite self-introduction. Runtime player-name token stays on original row331, in the same order. Count expanded name, not the token.",
+      "runtime_width_formula": "101 + sum(expanded player-name glyph advances); six native-width16 glyphs would total197px. Verify actual supported name limit and ink extents."
+    },
+    {
+      "opening_row": 332,
+      "id": "00:00065:text:00027ccc",
+      "source_sha256": "1d8c1921cc7f6c3c06c54c984739bfdf8469091cf82417defad82d704e4ebc22",
+      "reference_instructions": [
+        85296
+      ],
+      "reviewed_catalog_text": ".",
+      "proposed_text": "",
+      "display_units_before_runtime_expansion": 0,
+      "latin_advance_pixels": 0,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "All meaning is carried by row331. Approve complete-group reflow to two displayed lines, preserving all three source identities and semantic display controls, without a standalone punctuation-only or blank third line."
+    },
+    {
+      "opening_row": 456,
+      "id": "00:00065:text:000285fe",
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "reference_instructions": [
+        88770
+      ],
+      "reviewed_catalog_text": "Surely...",
+      "proposed_text": "Surely...",
+      "display_units_before_runtime_expansion": 9,
+      "latin_advance_pixels": 61,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Existing prompt retained; no meaning defect.",
+      "leading_ideographic_indent_preserved": null
+    },
+    {
+      "opening_row": 457,
+      "id": "00:00065:text:0002860c",
+      "source_sha256": "1a0fe33bdca6b98d0ba7e44e9ea1ff9ba7524598ca4727e63bfd5f6e60e46453",
+      "reference_instructions": [
+        88778
+      ],
+      "reviewed_catalog_text": "　Maybe he's mischievous?",
+      "proposed_text": "　Maybe he's a rascal?",
+      "display_units_before_runtime_expansion": 21,
+      "latin_advance_pixels": 180,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Mischievous/rambunctious pupil; rascal retains this meaning. Boy referent established by rows445–450.",
+      "leading_ideographic_indent_preserved": true
+    },
+    {
+      "opening_row": 458,
+      "id": "00:00065:text:00028622",
+      "source_sha256": "b5a25c4ba57620547147ba4aab578fd91193a458fcbded39eb180bdcb6cc41f0",
+      "reference_instructions": [
+        88788
+      ],
+      "reviewed_catalog_text": "　He seems polite, so it'll be fine.",
+      "proposed_text": "　Seems polite. It'll be fine.",
+      "display_units_before_runtime_expansion": 29,
+      "latin_advance_pixels": 207,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Apparent good manners imply the tutoring relationship should be manageable. Rows469–473 confirm the impression comes from the pupil letter. 207px advance is close to208px: check actual rightmost ink before accepting.",
+      "leading_ideographic_indent_preserved": true
+    },
+    {
+      "opening_row": 459,
+      "id": "00:00065:text:0002863e",
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "reference_instructions": [
+        88802
+      ],
+      "reviewed_catalog_text": "Surely...",
+      "proposed_text": "Surely...",
+      "display_units_before_runtime_expansion": 9,
+      "latin_advance_pixels": 61,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Existing prompt retained; no meaning defect.",
+      "leading_ideographic_indent_preserved": null
+    },
+    {
+      "opening_row": 460,
+      "id": "00:00065:text:0002864c",
+      "source_sha256": "1a0fe33bdca6b98d0ba7e44e9ea1ff9ba7524598ca4727e63bfd5f6e60e46453",
+      "reference_instructions": [
+        88810
+      ],
+      "reviewed_catalog_text": "　Maybe he's mischievous?",
+      "proposed_text": "　Maybe he's a rascal?",
+      "display_units_before_runtime_expansion": 21,
+      "latin_advance_pixels": 180,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Same boy-pupil branch meaning as row457.",
+      "leading_ideographic_indent_preserved": true
+    },
+    {
+      "opening_row": 461,
+      "id": "00:00065:text:00028662",
+      "source_sha256": "71961c710b92d051845931f35ffb404d630742b0ba22f711dbdfafd75e76d971",
+      "reference_instructions": [
+        88820
+      ],
+      "reviewed_catalog_text": "　It'll be fine. I can manage.",
+      "proposed_text": "　It'll be fine. I can manage.",
+      "display_units_before_runtime_expansion": 29,
+      "latin_advance_pixels": 207,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Reassurance plus confidence in handling the pupil; both clauses retained.",
+      "leading_ideographic_indent_preserved": true
+    },
+    {
+      "opening_row": 487,
+      "id": "00:00065:text:0002884a",
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "reference_instructions": [
+        89364
+      ],
+      "reviewed_catalog_text": "Surely...",
+      "proposed_text": "Surely...",
+      "display_units_before_runtime_expansion": 9,
+      "latin_advance_pixels": 61,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Existing prompt retained; no meaning defect.",
+      "leading_ideographic_indent_preserved": null
+    },
+    {
+      "opening_row": 488,
+      "id": "00:00065:text:00028858",
+      "source_sha256": "b519e641006f6634b53eb33765a7b12c75ae6cb2f09ff9249989a8275a3a2ec5",
+      "reference_instructions": [
+        89372
+      ],
+      "reviewed_catalog_text": "　Probably a refined young lady.",
+      "proposed_text": "　A refined young lady?",
+      "display_units_before_runtime_expansion": 22,
+      "latin_advance_pixels": 186,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Conjectural refined young lady. Question form retains speculation without the overlong Probably. Young and refined both retained.",
+      "leading_ideographic_indent_preserved": true
+    },
+    {
+      "opening_row": 489,
+      "id": "00:00065:text:00028874",
+      "source_sha256": "335e5017832f5c5854d4108ba28585a1bd55895e6fe04fe8b9bc7de5dac4f6fa",
+      "reference_instructions": [
+        89382
+      ],
+      "reviewed_catalog_text": "　Let's not overthink it.",
+      "proposed_text": "　Let's not overthink it.",
+      "display_units_before_runtime_expansion": 24,
+      "latin_advance_pixels": 180,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Avoid overthinking before meeting the pupil; rows502–505 confirm this.",
+      "leading_ideographic_indent_preserved": true
+    },
+    {
+      "opening_row": 490,
+      "id": "00:00065:text:0002888c",
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "reference_instructions": [
+        89396
+      ],
+      "reviewed_catalog_text": "Surely...",
+      "proposed_text": "Surely...",
+      "display_units_before_runtime_expansion": 9,
+      "latin_advance_pixels": 61,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Existing prompt retained; no meaning defect.",
+      "leading_ideographic_indent_preserved": null
+    },
+    {
+      "opening_row": 491,
+      "id": "00:00065:text:0002889a",
+      "source_sha256": "50db18f881bfb624abf1b7c45003111d6a844a1f9e7e0cca4ca581785b9167c8",
+      "reference_instructions": [
+        89404
+      ],
+      "reviewed_catalog_text": "　She must be a well-mannered young lady.",
+      "proposed_text": "　A polite young lady, I bet",
+      "display_units_before_runtime_expansion": 27,
+      "latin_advance_pixels": 206,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Expected well-mannered young lady. I bet retains expectation; no final period is normal for a menu fragment. Polite is the natural compact equivalent of well-mannered here.",
+      "leading_ideographic_indent_preserved": true
+    },
+    {
+      "opening_row": 492,
+      "id": "00:00065:text:000288b4",
+      "source_sha256": "372e33b4140c681ee27720fff8d00832de7f457338ac932a3e35e78ed47085eb",
+      "reference_instructions": [
+        89414
+      ],
+      "reviewed_catalog_text": "　I'll meet her and talk first.",
+      "proposed_text": "　First, meet her and talk.",
+      "display_units_before_runtime_expansion": 26,
+      "latin_advance_pixels": 200,
+      "meaning_review": "approved_with_runtime_layout_verification",
+      "notes": "Meet and converse before speculating. All three components (first, meeting, talking) retained.",
+      "leading_ideographic_indent_preserved": true
+    }
+  ],
+  "introduction_group": {
+    "source_rows": [
+      330,
+      331,
+      332
+    ],
+    "combined_text": "Ah, yes. My name is ●.",
+    "approved_display_lines": [
+      "Ah, yes.",
+      "My name is ●."
+    ],
+    "implementation_note": "Complete-group reflow approved; preserve source identities, runtime-name substitution order, display helper and meaningful control arguments. Do not require a blank third displayed line."
+  },
+  "preferred_menu_targets_if_native_280px_confirmed": [
+    {
+      "opening_row": 456,
+      "id": "00:00065:text:000285fe",
+      "text": "Surely...",
+      "display_units": 9,
+      "latin_advance_pixels": 61
+    },
+    {
+      "opening_row": 457,
+      "id": "00:00065:text:0002860c",
+      "text": "　Maybe he's mischievous?",
+      "display_units": 24,
+      "latin_advance_pixels": 217
+    },
+    {
+      "opening_row": 458,
+      "id": "00:00065:text:00028622",
+      "text": "　Seems polite. It'll be fine.",
+      "display_units": 29,
+      "latin_advance_pixels": 207
+    },
+    {
+      "opening_row": 459,
+      "id": "00:00065:text:0002863e",
+      "text": "Surely...",
+      "display_units": 9,
+      "latin_advance_pixels": 61
+    },
+    {
+      "opening_row": 460,
+      "id": "00:00065:text:0002864c",
+      "text": "　Maybe he's mischievous?",
+      "display_units": 24,
+      "latin_advance_pixels": 217
+    },
+    {
+      "opening_row": 461,
+      "id": "00:00065:text:00028662",
+      "text": "　It'll be fine. I can manage.",
+      "display_units": 29,
+      "latin_advance_pixels": 207
+    },
+    {
+      "opening_row": 487,
+      "id": "00:00065:text:0002884a",
+      "text": "Surely...",
+      "display_units": 9,
+      "latin_advance_pixels": 61
+    },
+    {
+      "opening_row": 488,
+      "id": "00:00065:text:00028858",
+      "text": "　Probably a refined young lady.",
+      "display_units": 31,
+      "latin_advance_pixels": 251
+    },
+    {
+      "opening_row": 489,
+      "id": "00:00065:text:00028874",
+      "text": "　Let's not overthink it.",
+      "display_units": 24,
+      "latin_advance_pixels": 180
+    },
+    {
+      "opening_row": 490,
+      "id": "00:00065:text:0002888c",
+      "text": "Surely...",
+      "display_units": 9,
+      "latin_advance_pixels": 61
+    },
+    {
+      "opening_row": 491,
+      "id": "00:00065:text:0002889a",
+      "text": "　A polite young lady, I bet.",
+      "display_units": 28,
+      "latin_advance_pixels": 209
+    },
+    {
+      "opening_row": 492,
+      "id": "00:00065:text:000288b4",
+      "text": "　I'll meet her and talk first.",
+      "display_units": 30,
+      "latin_advance_pixels": 211
+    }
+  ],
+  "menu_selection_note": "Prefer the fuller menu targets after confirming native centered-menu bounds. Conservative208px alternatives are in items. Both sets retain leading ideographic indent and source meaning; only existing strings exceeding31 display units require rewriting for the wider menu."
+}

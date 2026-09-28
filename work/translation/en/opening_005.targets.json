@@ -1,0 +1,3267 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "resource_id": "00:00065",
+  "scope": "Opening rows400-479:80 compiled text entries, departure and separate student-anticipation functions. Draft translation with four choice labels, not one chronological playthrough.",
+  "language_status": "working assumption pending user confirmation",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "rows_in_slice": 80,
+  "rows_examined": 128,
+  "context_rows_before": 21,
+  "context_rows_after": 27,
+  "opening_row_range": [
+    400,
+    479
+  ],
+  "examined_opening_row_range": [
+    379,
+    506
+  ],
+  "reference_instruction_range": [
+    87198,
+    89204
+  ],
+  "ordering": "Resource00:00065 strings sorted by minimum verified reference instruction; opening row0=text0002646e, globalindex1808.",
+  "slice_row_convention": "Local slice_row0-79; opening_row400-479.",
+  "sentence_group_convention": "Temporary labels use authoritative display instruction offsets; group_ids include outside-slice members where necessary. Choice alternatives retain distinct group IDs although their display call is shared.",
+  "drafted_rows": 80,
+  "unresolved_rows": 0,
+  "draft_rows_requiring_cross_slice_integration": [
+    400,
+    479
+  ],
+  "method": "Read128 unique source rows379-506 in memory, VM calls/branches and current harbor glossary. Verified source metadata against index; compared prior drafts for row ordering. No Japanese transcript saved.",
+  "provenance": {
+    "preserved_input_sha256": {
+      "work\\translation\\en\\opening_000.targets.json": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+      "work\\translation\\en\\opening_001.targets.json": "7492d262918e492818bec6038b6227d179d48d12e2d3d31bc73406ebcf9fba3d",
+      "work\\translation\\en\\opening_002.targets.json": "9e7fa4f6fe7e2f9b71197cdfa509c2e94e0cf85441a4dbd95dcccda86214743c",
+      "work\\translation\\en\\opening_003.targets.json": "616374035099fe4b4a992b90d5ff78bb1abbdc07adb4653a00f0db284d58fee9",
+      "work\\translation\\en\\opening_004.targets.json": "1a1d0dea56832b7a1675e756af2daa8e73959757faa198653e6fb193dc10fa11"
+    },
+    "source_index_schema_version": 2,
+    "opening004_available_at_write": true
+  },
+  "glossary": {
+    "path": "work\\glossary\\opening_harbor.json",
+    "read_sha256": "f7524803992a3cd45ba7577580c2868ec0b549a903f8b7f649dd8f250719941b",
+    "used_ids": [
+      "character.will",
+      "character.belfrau",
+      "family.martini",
+      "character.salome"
+    ],
+    "notes": "Use Will, Belfrau and Martini per glossary. Nanny is the generic caregiver address, never replaced with Salome. Master/Lady retain the honorific address without asserting a noble rank.",
+    "scripted_name_normalization_applied": false
+  },
+  "token_review": {
+    "control_bytes_in_slice": 0,
+    "runtime_placeholder_symbols_in_slice": [],
+    "source_target_token_sequences_match": true,
+    "preserved_layout_characters": {
+      "U+3000": [
+        457,
+        458,
+        460,
+        461
+      ]
+    },
+    "cp932_encodable_drafts": 80,
+    "punctuation_note": "Six-dot pause at432 retained; ellipses and hesitant endings remain. No runtime placeholder appears within assigned rows."
+  },
+  "uncertainties": [
+    {
+      "opening_rows": [
+        400
+      ],
+      "kind": "cross_slice_group",
+      "finding": "Part of display398-400. Target everyone... relies on coordinated398 If I learned how to fight, and399 I could protect. Do not insert row400 alone against uncoordinated preceding English."
+    },
+    {
+      "opening_rows": [
+        405,
+        406,
+        407,
+        408,
+        409,
+        410
+      ],
+      "kind": "belief_not_established_fact",
+      "finding": "Ability to heal every illness/injury is the protagonist past belief, explicitly framed by408-410. Preserve that belief framing; no factual healing ability is asserted."
+    },
+    {
+      "opening_rows": [
+        416,
+        418,
+        431,
+        442
+      ],
+      "kind": "honorific_address",
+      "finding": "Young master/young miss and Master Will/Lady Belfrau are honorific address drafts. Titles should be harmonized with neighboring reviewed slices; they are not claims of nobility."
+    },
+    {
+      "opening_rows": [
+        428,
+        429,
+        430
+      ],
+      "kind": "advice_intent_unspecified",
+      "finding": "Putting ideas into that persons head conveys the disapproving coaching/interference idiom. The exact advice and intended action are not invented. Review the dismissive tone."
+    },
+    {
+      "opening_rows": [
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        476,
+        477,
+        478,
+        479
+      ],
+      "kind": "function_boundary_and_referent",
+      "finding": "After444 the compiled source enters earlier-in-scene anticipation functions at88540 and89134. He/him in boy branch is licensed by explicit boy reference, not inferred from a name. Head of the family remains gender-neutral."
+    },
+    {
+      "opening_rows": [
+        457,
+        458,
+        460,
+        461
+      ],
+      "kind": "choice_tone",
+      "finding": "All four choices retain distinct IDs and protagonist alternatives. Mischievous denotes childish unruliness, not criminal wrongdoing. Preserve initial U+3000."
+    },
+    {
+      "opening_rows": [
+        469,
+        470,
+        471
+      ],
+      "kind": "enclosure_agency",
+      "finding": "The enclosed letter is explicitly the childs own. Draft does not claim the child personally enclosed or mailed it."
+    },
+    {
+      "opening_rows": [
+        479
+      ],
+      "kind": "cross_slice_group",
+      "finding": "Opening006 coordination proposal is479 The letter said /480 it was a girl, /481 didnt it? All three source IDs are recorded; only479 is owned here."
+    }
+  ],
+  "branch_evidence": {
+    "function_boundaries": [
+      {
+        "instruction": 79914,
+        "assigned_rows": [
+          400,
+          444
+        ],
+        "role": "Harbor conversation and departure"
+      },
+      {
+        "instruction": 88540,
+        "assigned_rows": [
+          445,
+          475
+        ],
+        "role": "Boy-pupil anticipation; earlier function call at80460 targetsword44270"
+      },
+      {
+        "instruction": 89134,
+        "assigned_rows": [
+          476,
+          479
+        ],
+        "role": "Girl-pupil anticipation; earlier call at80468 targetsword44567"
+      }
+    ],
+    "protagonist_global": 60,
+    "student_global": 64,
+    "choice_local": 0,
+    "choice_display_instruction": 88834,
+    "choice_result_branch_instruction": 88852,
+    "martial_choice_result_branch_instruction": 87124,
+    "martial_global_write_instruction": 87130,
+    "summoning_global_write_instruction": 87290
+  },
+  "cross_slice_groups": [
+    {
+      "id": "opening005_display_87210",
+      "opening_rows": [
+        398,
+        399,
+        400
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:000281e0",
+          "opening_row": 398,
+          "source_sha256": "64ef38bc8b08e75247acb9d24e699a152c7d2c09d7fcc49fdb497b7edd8a4fb7",
+          "proposed_text": "If I learned how to fight,"
+        },
+        {
+          "id": "00:00065:text:000281f6",
+          "opening_row": 399,
+          "source_sha256": "524ffd447cde8a3f30f645c69f8c9e70e5f36769df5f7fb439e3d8f121859b92",
+          "proposed_text": "I could protect"
+        },
+        {
+          "id": "00:00065:text:0002820a",
+          "opening_row": 400,
+          "source_sha256": "290f455857f52cec1106727e79487414c16bdcdb5baeb7d51c8d9b53a121d6db",
+          "proposed_text": "everyone..."
+        }
+      ],
+      "status": "verified_against_opening004_draft_and_coordinated_proposal",
+      "reason": "Complete English sentence across004/005 boundary; source directly inspected."
+    },
+    {
+      "id": "opening005_display_89232",
+      "opening_rows": [
+        479,
+        480,
+        481
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:000287be",
+          "opening_row": 479,
+          "source_sha256": "ead032245b7d14b08a09ef14d4d15deac29b483f4ae089469df482dbb0344050",
+          "proposed_text": "The letter said"
+        },
+        {
+          "id": "00:00065:text:000287ca",
+          "opening_row": 480,
+          "source_sha256": "df83a9aa398ea7178307c69b1aa13ac2a51a203de36fca53f96e842caaf73773",
+          "proposed_text": "it was a girl,"
+        },
+        {
+          "id": "00:00065:text:000287da",
+          "opening_row": 481,
+          "source_sha256": "69f4bdc5a8edddee2853be86aa215bed8defee138ec419f050c9ddbbc66cb0cc",
+          "proposed_text": "didn't it?"
+        }
+      ],
+      "status": "coordinated_with_opening006_via_orchestrator",
+      "reason": "Complete letter recollection across005/006 boundary."
+    }
+  ],
+  "acceptance": {
+    "meaning": "Translator self-review only; independent review required.",
+    "runtime": "No build or in-game validation performed.",
+    "layout": "Full meaning without byte-budget shortening. No width acceptance.",
+    "source_transcript_saved": false
+  },
+  "sentence_groups": {
+    "opening005_display_87210": {
+      "id": "opening005_display_87210",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000281e0",
+        "00:00065:text:000281f6",
+        "00:00065:text:0002820a"
+      ],
+      "opening_rows": [
+        398,
+        399,
+        400
+      ],
+      "display_instruction": 87210,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": false,
+      "prior_group_number": 199
+    },
+    "opening005_display_87244": {
+      "id": "opening005_display_87244",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:0002821c",
+        "00:00065:text:0002822a"
+      ],
+      "opening_rows": [
+        401,
+        402
+      ],
+      "display_instruction": 87244,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87280": {
+      "id": "opening005_display_87280",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:0002823c"
+      ],
+      "opening_rows": [
+        403
+      ],
+      "display_instruction": 87280,
+      "display_helper_word": 2030,
+      "display_actor_id": 44,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87316": {
+      "id": "opening005_display_87316",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028246"
+      ],
+      "opening_rows": [
+        404
+      ],
+      "display_instruction": 87316,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87370": {
+      "id": "opening005_display_87370",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028254",
+        "00:00065:text:00028268",
+        "00:00065:text:0002827c"
+      ],
+      "opening_rows": [
+        405,
+        406,
+        407
+      ],
+      "display_instruction": 87370,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87412": {
+      "id": "opening005_display_87412",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:0002828e",
+        "00:00065:text:000282a0",
+        "00:00065:text:000282b6"
+      ],
+      "opening_rows": [
+        408,
+        409,
+        410
+      ],
+      "display_instruction": 87412,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87448": {
+      "id": "opening005_display_87448",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000282cc"
+      ],
+      "opening_rows": [
+        411
+      ],
+      "display_instruction": 87448,
+      "display_helper_word": 2030,
+      "display_actor_id": 44,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87508": {
+      "id": "opening005_display_87508",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000282d6",
+        "00:00065:text:000282ec"
+      ],
+      "opening_rows": [
+        412,
+        413
+      ],
+      "display_instruction": 87508,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87546": {
+      "id": "opening005_display_87546",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000282fa",
+        "00:00065:text:0002830a"
+      ],
+      "opening_rows": [
+        414,
+        415
+      ],
+      "display_instruction": 87546,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87774": {
+      "id": "opening005_display_87774",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028320",
+        "00:00065:text:00028334"
+      ],
+      "opening_rows": [
+        416,
+        417
+      ],
+      "display_instruction": 87774,
+      "display_helper_word": 2030,
+      "display_actor_id": 44,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87822": {
+      "id": "opening005_display_87822",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028348",
+        "00:00065:text:0002835c"
+      ],
+      "opening_rows": [
+        418,
+        419
+      ],
+      "display_instruction": 87822,
+      "display_helper_word": 2030,
+      "display_actor_id": 44,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87874": {
+      "id": "opening005_display_87874",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028370",
+        "00:00065:text:00028386",
+        "00:00065:text:0002839c"
+      ],
+      "opening_rows": [
+        420,
+        421,
+        422
+      ],
+      "display_instruction": 87874,
+      "display_helper_word": 2030,
+      "display_actor_id": 44,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87936": {
+      "id": "opening005_display_87936",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000283b0",
+        "00:00065:text:000283c6"
+      ],
+      "opening_rows": [
+        423,
+        424
+      ],
+      "display_instruction": 87936,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_87990": {
+      "id": "opening005_display_87990",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000283da"
+      ],
+      "opening_rows": [
+        425
+      ],
+      "display_instruction": 87990,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88032": {
+      "id": "opening005_display_88032",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000283ee",
+        "00:00065:text:00028400"
+      ],
+      "opening_rows": [
+        426,
+        427
+      ],
+      "display_instruction": 88032,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88082": {
+      "id": "opening005_display_88082",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028410",
+        "00:00065:text:00028422",
+        "00:00065:text:00028436"
+      ],
+      "opening_rows": [
+        428,
+        429,
+        430
+      ],
+      "display_instruction": 88082,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88118": {
+      "id": "opening005_display_88118",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028444"
+      ],
+      "opening_rows": [
+        431
+      ],
+      "display_instruction": 88118,
+      "display_helper_word": 2030,
+      "display_actor_id": 44,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88152": {
+      "id": "opening005_display_88152",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028450"
+      ],
+      "opening_rows": [
+        432
+      ],
+      "display_instruction": 88152,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88208": {
+      "id": "opening005_display_88208",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:0002845e"
+      ],
+      "opening_rows": [
+        433
+      ],
+      "display_instruction": 88208,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88252": {
+      "id": "opening005_display_88252",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028474",
+        "00:00065:text:00028484"
+      ],
+      "opening_rows": [
+        434,
+        435
+      ],
+      "display_instruction": 88252,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88304": {
+      "id": "opening005_display_88304",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028496",
+        "00:00065:text:000284a8",
+        "00:00065:text:000284c2"
+      ],
+      "opening_rows": [
+        436,
+        437,
+        438
+      ],
+      "display_instruction": 88304,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88356": {
+      "id": "opening005_display_88356",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000284de",
+        "00:00065:text:000284f2",
+        "00:00065:text:00028508"
+      ],
+      "opening_rows": [
+        439,
+        440,
+        441
+      ],
+      "display_instruction": 88356,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88392": {
+      "id": "opening005_display_88392",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:0002851a"
+      ],
+      "opening_rows": [
+        442
+      ],
+      "display_instruction": 88392,
+      "display_helper_word": 2030,
+      "display_actor_id": 44,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88426": {
+      "id": "opening005_display_88426",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:0002852a"
+      ],
+      "opening_rows": [
+        443
+      ],
+      "display_instruction": 88426,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88482": {
+      "id": "opening005_display_88482",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:0002853a"
+      ],
+      "opening_rows": [
+        444
+      ],
+      "display_instruction": 88482,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88592": {
+      "id": "opening005_display_88592",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:0002854e",
+        "00:00065:text:0002855c",
+        "00:00065:text:0002856c"
+      ],
+      "opening_rows": [
+        445,
+        446,
+        447
+      ],
+      "display_instruction": 88592,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88638": {
+      "id": "opening005_display_88638",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028576",
+        "00:00065:text:00028584",
+        "00:00065:text:00028594"
+      ],
+      "opening_rows": [
+        448,
+        449,
+        450
+      ],
+      "display_instruction": 88638,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88680": {
+      "id": "opening005_display_88680",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000285a0",
+        "00:00065:text:000285b0",
+        "00:00065:text:000285c6"
+      ],
+      "opening_rows": [
+        451,
+        452,
+        453
+      ],
+      "display_instruction": 88680,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88718": {
+      "id": "opening005_display_88718",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000285d2"
+      ],
+      "opening_rows": [
+        454
+      ],
+      "display_instruction": 88718,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88748": {
+      "id": "opening005_display_88748",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000285e8"
+      ],
+      "opening_rows": [
+        455
+      ],
+      "display_instruction": 88748,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_choice_88834_protagonist0": {
+      "id": "opening005_choice_88834_protagonist0",
+      "kind": "choice_prompt_and_options",
+      "group_ids": [
+        "00:00065:text:000285fe",
+        "00:00065:text:0002860c",
+        "00:00065:text:00028622"
+      ],
+      "opening_rows": [
+        456,
+        457,
+        458
+      ],
+      "display_instruction": 88834,
+      "display_helper_word": 2315,
+      "display_actor_id": null,
+      "complete_display_group_in_slice": true,
+      "notes": "Alternative protagonist prompt/options share one eventual display call. Do not concatenate both protagonist alternatives into one live menu."
+    },
+    "opening005_choice_88834_protagonist1": {
+      "id": "opening005_choice_88834_protagonist1",
+      "kind": "choice_prompt_and_options",
+      "group_ids": [
+        "00:00065:text:0002863e",
+        "00:00065:text:0002864c",
+        "00:00065:text:00028662"
+      ],
+      "opening_rows": [
+        459,
+        460,
+        461
+      ],
+      "display_instruction": 88834,
+      "display_helper_word": 2315,
+      "display_actor_id": null,
+      "complete_display_group_in_slice": true,
+      "notes": "Alternative protagonist prompt/options share one eventual display call. Do not concatenate both protagonist alternatives into one live menu."
+    },
+    "opening005_display_88900": {
+      "id": "opening005_display_88900",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:0002867c",
+        "00:00065:text:0002868e",
+        "00:00065:text:0002869e"
+      ],
+      "opening_rows": [
+        462,
+        463,
+        464
+      ],
+      "display_instruction": 88900,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88948": {
+      "id": "opening005_display_88948",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000286ac",
+        "00:00065:text:000286c2"
+      ],
+      "opening_rows": [
+        465,
+        466
+      ],
+      "display_instruction": 88948,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_88988": {
+      "id": "opening005_display_88988",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000286d4",
+        "00:00065:text:000286ea"
+      ],
+      "opening_rows": [
+        467,
+        468
+      ],
+      "display_instruction": 88988,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_89040": {
+      "id": "opening005_display_89040",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000286fe",
+        "00:00065:text:0002871a",
+        "00:00065:text:00028730"
+      ],
+      "opening_rows": [
+        469,
+        470,
+        471
+      ],
+      "display_instruction": 89040,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_89086": {
+      "id": "opening005_display_89086",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:0002874a",
+        "00:00065:text:0002875e"
+      ],
+      "opening_rows": [
+        472,
+        473
+      ],
+      "display_instruction": 89086,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_89126": {
+      "id": "opening005_display_89126",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028774",
+        "00:00065:text:00028782"
+      ],
+      "opening_rows": [
+        474,
+        475
+      ],
+      "display_instruction": 89126,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_89186": {
+      "id": "opening005_display_89186",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:00028798",
+        "00:00065:text:000287a4",
+        "00:00065:text:000287b4"
+      ],
+      "opening_rows": [
+        476,
+        477,
+        478
+      ],
+      "display_instruction": 89186,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening005_display_89232": {
+      "id": "opening005_display_89232",
+      "kind": "dialogue",
+      "group_ids": [
+        "00:00065:text:000287be",
+        "00:00065:text:000287ca",
+        "00:00065:text:000287da"
+      ],
+      "opening_rows": [
+        479,
+        480,
+        481
+      ],
+      "display_instruction": 89232,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": false
+    }
+  },
+  "translations": {
+    "00:00065:text:0002820a": {
+      "id": "00:00065:text:0002820a",
+      "resource_id": "00:00065",
+      "slice_row": 0,
+      "opening_row": 400,
+      "source_offset": 164362,
+      "source_sha256": "290f455857f52cec1106727e79487414c16bdcdb5baeb7d51c8d9b53a121d6db",
+      "reference_instructions": [
+        87198
+      ],
+      "text": "everyone...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Martial-arts choice branch. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_87210",
+      "group_ids": [
+        "00:00065:text:000281e0",
+        "00:00065:text:000281f6",
+        "00:00065:text:0002820a"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together.",
+        "Cross-slice group: see cross_slice_groups. Do not insert independently."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "integration_requires": "opening005_display_87210"
+    },
+    "00:00065:text:0002821c": {
+      "id": "00:00065:text:0002821c",
+      "resource_id": "00:00065",
+      "slice_row": 1,
+      "opening_row": 401,
+      "source_offset": 164380,
+      "source_sha256": "562c8f6684218fb44c6e827249b5afe326947c3332a5a04949fdd17705e6ce57",
+      "reference_instructions": [
+        87224
+      ],
+      "text": "That's what I'd",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Martial-arts choice branch. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_87244",
+      "group_ids": [
+        "00:00065:text:0002821c",
+        "00:00065:text:0002822a"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002822a": {
+      "id": "00:00065:text:0002822a",
+      "resource_id": "00:00065",
+      "slice_row": 2,
+      "opening_row": 402,
+      "source_offset": 164394,
+      "source_sha256": "b63c34d441fb4ebceb8eb7e64a42f81ad73e9685abd9f21536771634b05bf958",
+      "reference_instructions": [
+        87232
+      ],
+      "text": "always believed.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Martial-arts choice branch. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_87244",
+      "group_ids": [
+        "00:00065:text:0002821c",
+        "00:00065:text:0002822a"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002823c": {
+      "id": "00:00065:text:0002823c",
+      "resource_id": "00:00065",
+      "slice_row": 3,
+      "opening_row": 403,
+      "source_offset": 164412,
+      "source_sha256": "36118cacaf5398f2f8dd9d215ce4b77e7b5cd38abeb1d5670521e8caf2dcb1b7",
+      "reference_instructions": [
+        87268
+      ],
+      "text": "I see.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Martial-arts choice branch.",
+      "sentence_group": "opening005_display_87280",
+      "group_ids": [
+        "00:00065:text:0002823c"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028246": {
+      "id": "00:00065:text:00028246",
+      "resource_id": "00:00065",
+      "slice_row": 4,
+      "opening_row": 404,
+      "source_offset": 164422,
+      "source_sha256": "859b3f7d5141c83e046d04ca39f84beda7b07d3acfd50d2009ae96ec4afd6f24",
+      "reference_instructions": [
+        87304
+      ],
+      "text": "Summoning arts.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Summoning-arts choice branch.",
+      "sentence_group": "opening005_display_87316",
+      "group_ids": [
+        "00:00065:text:00028246"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028254": {
+      "id": "00:00065:text:00028254",
+      "resource_id": "00:00065",
+      "slice_row": 5,
+      "opening_row": 405,
+      "source_offset": 164436,
+      "source_sha256": "50569b77ea0ab38124bb1ba2cc8aa76bde5e13d4c31e0f8505898d54b5536ce4",
+      "reference_instructions": [
+        87342
+      ],
+      "text": "If I studied summoning arts,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Summoning-arts choice branch. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_87370",
+      "group_ids": [
+        "00:00065:text:00028254",
+        "00:00065:text:00028268",
+        "00:00065:text:0002827c"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028268": {
+      "id": "00:00065:text:00028268",
+      "resource_id": "00:00065",
+      "slice_row": 6,
+      "opening_row": 406,
+      "source_offset": 164456,
+      "source_sha256": "165c17619d6bb1da5587b7e16d2b960a10b1da78737a220f693e8ea4b4823014",
+      "reference_instructions": [
+        87350
+      ],
+      "text": "I could cure",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Summoning-arts choice branch. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_87370",
+      "group_ids": [
+        "00:00065:text:00028254",
+        "00:00065:text:00028268",
+        "00:00065:text:0002827c"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002827c": {
+      "id": "00:00065:text:0002827c",
+      "resource_id": "00:00065",
+      "slice_row": 7,
+      "opening_row": 407,
+      "source_offset": 164476,
+      "source_sha256": "421803603a2fc082b6f3c5336429e51a98f325bc5639e84a913e1d1b8fccfae5",
+      "reference_instructions": [
+        87358
+      ],
+      "text": "any illness or injury.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Summoning-arts choice branch. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_87370",
+      "group_ids": [
+        "00:00065:text:00028254",
+        "00:00065:text:00028268",
+        "00:00065:text:0002827c"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002828e": {
+      "id": "00:00065:text:0002828e",
+      "resource_id": "00:00065",
+      "slice_row": 8,
+      "opening_row": 408,
+      "source_offset": 164494,
+      "source_sha256": "8e34aea308c0f05ab95cf8a3891a4edf0ea2cdb015917a1b8712e5a5d1413a7b",
+      "reference_instructions": [
+        87384
+      ],
+      "text": "That was what I believed,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Summoning-arts choice branch. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_87412",
+      "group_ids": [
+        "00:00065:text:0002828e",
+        "00:00065:text:000282a0",
+        "00:00065:text:000282b6"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000282a0": {
+      "id": "00:00065:text:000282a0",
+      "resource_id": "00:00065",
+      "slice_row": 9,
+      "opening_row": 409,
+      "source_offset": 164512,
+      "source_sha256": "d278c8bc08cfce7e71aa2ed85509525564e0deccb3b5b7302b099dd49f164d9c",
+      "reference_instructions": [
+        87392
+      ],
+      "text": "and why I decided",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Summoning-arts choice branch. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_87412",
+      "group_ids": [
+        "00:00065:text:0002828e",
+        "00:00065:text:000282a0",
+        "00:00065:text:000282b6"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000282b6": {
+      "id": "00:00065:text:000282b6",
+      "resource_id": "00:00065",
+      "slice_row": 10,
+      "opening_row": 410,
+      "source_offset": 164534,
+      "source_sha256": "30375259862b0951454f01a3b5c34e09a1271b18f9bd7354f2af9d1de4dc2ad0",
+      "reference_instructions": [
+        87400
+      ],
+      "text": "to attend military academy...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Summoning-arts choice branch. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_87412",
+      "group_ids": [
+        "00:00065:text:0002828e",
+        "00:00065:text:000282a0",
+        "00:00065:text:000282b6"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000282cc": {
+      "id": "00:00065:text:000282cc",
+      "resource_id": "00:00065",
+      "slice_row": 11,
+      "opening_row": 411,
+      "source_offset": 164556,
+      "source_sha256": "36118cacaf5398f2f8dd9d215ce4b77e7b5cd38abeb1d5670521e8caf2dcb1b7",
+      "reference_instructions": [
+        87436
+      ],
+      "text": "I see.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Summoning-arts choice branch.",
+      "sentence_group": "opening005_display_87448",
+      "group_ids": [
+        "00:00065:text:000282cc"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000282d6": {
+      "id": "00:00065:text:000282d6",
+      "resource_id": "00:00065",
+      "slice_row": 12,
+      "opening_row": 412,
+      "source_offset": 164566,
+      "source_sha256": "2fafe326d88b6e317a4f8fe41e10ebabd545a17c555c31168db71ffd507c7b13",
+      "reference_instructions": [
+        87488
+      ],
+      "text": "Ah, it looks like",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_87508",
+      "group_ids": [
+        "00:00065:text:000282d6",
+        "00:00065:text:000282ec"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000282ec": {
+      "id": "00:00065:text:000282ec",
+      "resource_id": "00:00065",
+      "slice_row": 13,
+      "opening_row": 413,
+      "source_offset": 164588,
+      "source_sha256": "bc855e95e6553f2263bc79bc4c0a98e044fc5bf09e52253ab7dae42462bfdf48",
+      "reference_instructions": [
+        87496
+      ],
+      "text": "the ship will be leaving soon.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_87508",
+      "group_ids": [
+        "00:00065:text:000282d6",
+        "00:00065:text:000282ec"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000282fa": {
+      "id": "00:00065:text:000282fa",
+      "resource_id": "00:00065",
+      "slice_row": 14,
+      "opening_row": 414,
+      "source_offset": 164602,
+      "source_sha256": "4767c7742b20f1b64b3597e148f06d6a266872e99475c68e32f38d2278065366",
+      "reference_instructions": [
+        87526
+      ],
+      "text": "Oh, it looks like",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_87546",
+      "group_ids": [
+        "00:00065:text:000282fa",
+        "00:00065:text:0002830a"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002830a": {
+      "id": "00:00065:text:0002830a",
+      "resource_id": "00:00065",
+      "slice_row": 15,
+      "opening_row": 415,
+      "source_offset": 164618,
+      "source_sha256": "612dc65725d6d8edb174acd081393712d1e52bd04164b12f3d257cc347e9817d",
+      "reference_instructions": [
+        87534
+      ],
+      "text": "the ship will be leaving soon.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_87546",
+      "group_ids": [
+        "00:00065:text:000282fa",
+        "00:00065:text:0002830a"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028320": {
+      "id": "00:00065:text:00028320",
+      "resource_id": "00:00065",
+      "slice_row": 16,
+      "opening_row": 416,
+      "source_offset": 164640,
+      "source_sha256": "f848fbd1ef4cdecf2e920abd3f2e1ad95d7ae6860c3b9d50e9d3b0497fea0f3d",
+      "reference_instructions": [
+        87754
+      ],
+      "text": "Come along, young master.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64] is1 or4.",
+      "sentence_group": "opening005_display_87774",
+      "group_ids": [
+        "00:00065:text:00028320",
+        "00:00065:text:00028334"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028334": {
+      "id": "00:00065:text:00028334",
+      "resource_id": "00:00065",
+      "slice_row": 17,
+      "opening_row": 417,
+      "source_offset": 164660,
+      "source_sha256": "6d2e2babf1b7a968b84b6f4a0a664db74f2caa7607d12a4a76eab6c690c22af7",
+      "reference_instructions": [
+        87762
+      ],
+      "text": "Please go aboard first.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64] is1 or4.",
+      "sentence_group": "opening005_display_87774",
+      "group_ids": [
+        "00:00065:text:00028320",
+        "00:00065:text:00028334"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028348": {
+      "id": "00:00065:text:00028348",
+      "resource_id": "00:00065",
+      "slice_row": 18,
+      "opening_row": 418,
+      "source_offset": 164680,
+      "source_sha256": "71c934dd1e830e43da113263552c26be5afd8dd0280e9114a9aa7d2cba8ea3ea",
+      "reference_instructions": [
+        87802
+      ],
+      "text": "Come along, young miss.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64] is2 or3.",
+      "sentence_group": "opening005_display_87822",
+      "group_ids": [
+        "00:00065:text:00028348",
+        "00:00065:text:0002835c"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002835c": {
+      "id": "00:00065:text:0002835c",
+      "resource_id": "00:00065",
+      "slice_row": 19,
+      "opening_row": 419,
+      "source_offset": 164700,
+      "source_sha256": "6d2e2babf1b7a968b84b6f4a0a664db74f2caa7607d12a4a76eab6c690c22af7",
+      "reference_instructions": [
+        87810
+      ],
+      "text": "Please go aboard first.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64] is2 or3.",
+      "sentence_group": "opening005_display_87822",
+      "group_ids": [
+        "00:00065:text:00028348",
+        "00:00065:text:0002835c"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028370": {
+      "id": "00:00065:text:00028370",
+      "resource_id": "00:00065",
+      "slice_row": 20,
+      "opening_row": 420,
+      "source_offset": 164720,
+      "source_sha256": "1ea4a276aeb906d4f8f2162172fc3b74cf989b89689c0f31700d91ddb28c976c",
+      "reference_instructions": [
+        87846
+      ],
+      "text": "There are still a few things",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation.",
+      "sentence_group": "opening005_display_87874",
+      "group_ids": [
+        "00:00065:text:00028370",
+        "00:00065:text:00028386",
+        "00:00065:text:0002839c"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028386": {
+      "id": "00:00065:text:00028386",
+      "resource_id": "00:00065",
+      "slice_row": 21,
+      "opening_row": 421,
+      "source_offset": 164742,
+      "source_sha256": "52aa90ac3cc9c1f4642ce5e1ff617103926e85a5bac6cabc634114e29d6658f9",
+      "reference_instructions": [
+        87854
+      ],
+      "text": "I need to discuss",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation.",
+      "sentence_group": "opening005_display_87874",
+      "group_ids": [
+        "00:00065:text:00028370",
+        "00:00065:text:00028386",
+        "00:00065:text:0002839c"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002839c": {
+      "id": "00:00065:text:0002839c",
+      "resource_id": "00:00065",
+      "slice_row": 22,
+      "opening_row": 422,
+      "source_offset": 164764,
+      "source_sha256": "37121536f4f2e2de0f7f010153b5866d8260a6963d3e256da7283b7c72d21ac7",
+      "reference_instructions": [
+        87862
+      ],
+      "text": "with this person.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation.",
+      "sentence_group": "opening005_display_87874",
+      "group_ids": [
+        "00:00065:text:00028370",
+        "00:00065:text:00028386",
+        "00:00065:text:0002839c"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000283b0": {
+      "id": "00:00065:text:000283b0",
+      "resource_id": "00:00065",
+      "slice_row": 23,
+      "opening_row": 423,
+      "source_offset": 164784,
+      "source_sha256": "6d7fe407c8338455f0fd95814d01c2e4853b715dffe64c6db46da7c047ba2f95",
+      "reference_instructions": [
+        87916
+      ],
+      "text": "All right, all right. I got it.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==1.",
+      "sentence_group": "opening005_display_87936",
+      "group_ids": [
+        "00:00065:text:000283b0",
+        "00:00065:text:000283c6"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000283c6": {
+      "id": "00:00065:text:000283c6",
+      "resource_id": "00:00065",
+      "slice_row": 24,
+      "opening_row": 424,
+      "source_offset": 164806,
+      "source_sha256": "1a956a0fdb69d9d2975f2695f246bfd3320a2f2d519d06d931b5caadf67828aa",
+      "reference_instructions": [
+        87924
+      ],
+      "text": "I'll go on ahead, then!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==1.",
+      "sentence_group": "opening005_display_87936",
+      "group_ids": [
+        "00:00065:text:000283b0",
+        "00:00065:text:000283c6"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000283da": {
+      "id": "00:00065:text:000283da",
+      "resource_id": "00:00065",
+      "slice_row": 25,
+      "opening_row": 425,
+      "source_offset": 164826,
+      "source_sha256": "ea851518fbab1df4f8e3c511e16b937b6f987e601664f4431d8873d0f16eb812",
+      "reference_instructions": [
+        87978
+      ],
+      "text": "All right, Nanny.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==4; Will is named at431.",
+      "sentence_group": "opening005_display_87990",
+      "group_ids": [
+        "00:00065:text:000283da"
+      ],
+      "notes": [],
+      "glossary_ids": [
+        "character.salome"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000283ee": {
+      "id": "00:00065:text:000283ee",
+      "resource_id": "00:00065",
+      "slice_row": 26,
+      "opening_row": 426,
+      "source_offset": 164846,
+      "source_sha256": "f497be79e6a242271ad549421007e21bb6ad097ed009d301fcffbb88e52a7733",
+      "reference_instructions": [
+        88012
+      ],
+      "text": "Just so",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==4; Will is named at431.",
+      "sentence_group": "opening005_display_88032",
+      "group_ids": [
+        "00:00065:text:000283ee",
+        "00:00065:text:00028400"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028400": {
+      "id": "00:00065:text:00028400",
+      "resource_id": "00:00065",
+      "slice_row": 27,
+      "opening_row": 427,
+      "source_offset": 164864,
+      "source_sha256": "ed81ba8fb9ea60ed12663a18ab559ff646689f42437a4e556a9fe437526a08c6",
+      "reference_instructions": [
+        88020
+      ],
+      "text": "you know...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==4; Will is named at431.",
+      "sentence_group": "opening005_display_88032",
+      "group_ids": [
+        "00:00065:text:000283ee",
+        "00:00065:text:00028400"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028410": {
+      "id": "00:00065:text:00028410",
+      "resource_id": "00:00065",
+      "slice_row": 28,
+      "opening_row": 428,
+      "source_offset": 164880,
+      "source_sha256": "a24fb4a1cbb256e58d16403ffb55fc814f7226ed7c0d8b3aca49474a8088db68",
+      "reference_instructions": [
+        88054
+      ],
+      "text": "It's no use",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==4; Will is named at431.",
+      "sentence_group": "opening005_display_88082",
+      "group_ids": [
+        "00:00065:text:00028410",
+        "00:00065:text:00028422",
+        "00:00065:text:00028436"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028422": {
+      "id": "00:00065:text:00028422",
+      "resource_id": "00:00065",
+      "slice_row": 29,
+      "opening_row": 429,
+      "source_offset": 164898,
+      "source_sha256": "0345920e3c2e902d558c91a866358d50f550132875868f941eb6ee40534dac90",
+      "reference_instructions": [
+        88062
+      ],
+      "text": "putting ideas",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==4; Will is named at431.",
+      "sentence_group": "opening005_display_88082",
+      "group_ids": [
+        "00:00065:text:00028410",
+        "00:00065:text:00028422",
+        "00:00065:text:00028436"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028436": {
+      "id": "00:00065:text:00028436",
+      "resource_id": "00:00065",
+      "slice_row": 30,
+      "opening_row": 430,
+      "source_offset": 164918,
+      "source_sha256": "e4b1b9c8200999272c578a1f55a19b2c31a98e847fa1934c0e8c151d42b8660a",
+      "reference_instructions": [
+        88070
+      ],
+      "text": "into that person's head.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==4; Will is named at431.",
+      "sentence_group": "opening005_display_88082",
+      "group_ids": [
+        "00:00065:text:00028410",
+        "00:00065:text:00028422",
+        "00:00065:text:00028436"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028444": {
+      "id": "00:00065:text:00028444",
+      "resource_id": "00:00065",
+      "slice_row": 31,
+      "opening_row": 431,
+      "source_offset": 164932,
+      "source_sha256": "e13d5d98c8ba851f60afc43c888ba1dc61932bca835f1a37f8893af24971bad3",
+      "reference_instructions": [
+        88106
+      ],
+      "text": "Master Will!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==4; Will is named at431.",
+      "sentence_group": "opening005_display_88118",
+      "group_ids": [
+        "00:00065:text:00028444"
+      ],
+      "notes": [],
+      "glossary_ids": [
+        "character.will"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028450": {
+      "id": "00:00065:text:00028450",
+      "resource_id": "00:00065",
+      "slice_row": 32,
+      "opening_row": 432,
+      "source_offset": 164944,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "reference_instructions": [
+        88140
+      ],
+      "text": "......",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==4; Will is named at431.",
+      "sentence_group": "opening005_display_88152",
+      "group_ids": [
+        "00:00065:text:00028450"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002845e": {
+      "id": "00:00065:text:0002845e",
+      "resource_id": "00:00065",
+      "slice_row": 33,
+      "opening_row": 433,
+      "source_offset": 164958,
+      "source_sha256": "38a1073fb00b566dfaed904baf94685dd1dd52f4c0080268e69b8dbf6009e635",
+      "reference_instructions": [
+        88196
+      ],
+      "text": "Very well. I'll go on ahead.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==2; Belfrau is named at442.",
+      "sentence_group": "opening005_display_88208",
+      "group_ids": [
+        "00:00065:text:0002845e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028474": {
+      "id": "00:00065:text:00028474",
+      "resource_id": "00:00065",
+      "slice_row": 34,
+      "opening_row": 434,
+      "source_offset": 164980,
+      "source_sha256": "0be8b1e42b75925b810eea43cbaf99146c4ec555a9a98c7984988ab5b0df53f2",
+      "reference_instructions": [
+        88232
+      ],
+      "text": "And Nanny,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==2; Belfrau is named at442.",
+      "sentence_group": "opening005_display_88252",
+      "group_ids": [
+        "00:00065:text:00028474",
+        "00:00065:text:00028484"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [
+        "character.salome"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028484": {
+      "id": "00:00065:text:00028484",
+      "resource_id": "00:00065",
+      "slice_row": 35,
+      "opening_row": 435,
+      "source_offset": 164996,
+      "source_sha256": "4012a33d2494887e52f1a3b0da7063311ce2cd7746cf8c3ab1647de428648816",
+      "reference_instructions": [
+        88240
+      ],
+      "text": "let me make one thing clear.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==2; Belfrau is named at442.",
+      "sentence_group": "opening005_display_88252",
+      "group_ids": [
+        "00:00065:text:00028474",
+        "00:00065:text:00028484"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028496": {
+      "id": "00:00065:text:00028496",
+      "resource_id": "00:00065",
+      "slice_row": 36,
+      "opening_row": 436,
+      "source_offset": 165014,
+      "source_sha256": "c9ea59f42c2bff1bd7e17dbe0cf349cc77c9de68408f88ffcc3b5b5b510d5121",
+      "reference_instructions": [
+        88276
+      ],
+      "text": "You and that person",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==2; Belfrau is named at442.",
+      "sentence_group": "opening005_display_88304",
+      "group_ids": [
+        "00:00065:text:00028496",
+        "00:00065:text:000284a8",
+        "00:00065:text:000284c2"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000284a8": {
+      "id": "00:00065:text:000284a8",
+      "resource_id": "00:00065",
+      "slice_row": 37,
+      "opening_row": 437,
+      "source_offset": 165032,
+      "source_sha256": "44d054733ded43d9ca5cbfe7749c4d1177705226539ed11dc295bcb07535304f",
+      "reference_instructions": [
+        88284
+      ],
+      "text": "are nothing more than servants",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==2; Belfrau is named at442.",
+      "sentence_group": "opening005_display_88304",
+      "group_ids": [
+        "00:00065:text:00028496",
+        "00:00065:text:000284a8",
+        "00:00065:text:000284c2"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000284c2": {
+      "id": "00:00065:text:000284c2",
+      "resource_id": "00:00065",
+      "slice_row": 38,
+      "opening_row": 438,
+      "source_offset": 165058,
+      "source_sha256": "6fa637dab46a1ed400a6a953a11ad16fedb9870b043911034bbeb0d36aa74fb7",
+      "reference_instructions": [
+        88292
+      ],
+      "text": "employed by the Martini family.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==2; Belfrau is named at442.",
+      "sentence_group": "opening005_display_88304",
+      "group_ids": [
+        "00:00065:text:00028496",
+        "00:00065:text:000284a8",
+        "00:00065:text:000284c2"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [
+        "family.martini"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000284de": {
+      "id": "00:00065:text:000284de",
+      "resource_id": "00:00065",
+      "slice_row": 39,
+      "opening_row": 439,
+      "source_offset": 165086,
+      "source_sha256": "10df69e0b53f38f31bede524b8cda1afb39099c365a81448b36ab52b1f3a5352",
+      "reference_instructions": [
+        88328
+      ],
+      "text": "As for anything outside your duties,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==2; Belfrau is named at442.",
+      "sentence_group": "opening005_display_88356",
+      "group_ids": [
+        "00:00065:text:000284de",
+        "00:00065:text:000284f2",
+        "00:00065:text:00028508"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000284f2": {
+      "id": "00:00065:text:000284f2",
+      "resource_id": "00:00065",
+      "slice_row": 40,
+      "opening_row": 440,
+      "source_offset": 165106,
+      "source_sha256": "82956266a59dd5357e490af613526746dda16d402e31c0df2c8b77625cd65720",
+      "reference_instructions": [
+        88336
+      ],
+      "text": "keep your opinions to yourself.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==2; Belfrau is named at442.",
+      "sentence_group": "opening005_display_88356",
+      "group_ids": [
+        "00:00065:text:000284de",
+        "00:00065:text:000284f2",
+        "00:00065:text:00028508"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028508": {
+      "id": "00:00065:text:00028508",
+      "resource_id": "00:00065",
+      "slice_row": 41,
+      "opening_row": 441,
+      "source_offset": 165128,
+      "source_sha256": "c344ec1c2013078fa68e2155f6daf9bc65ffe93c6e6cda9af7ae037d38fc88ee",
+      "reference_instructions": [
+        88344
+      ],
+      "text": "...Understood?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==2; Belfrau is named at442.",
+      "sentence_group": "opening005_display_88356",
+      "group_ids": [
+        "00:00065:text:000284de",
+        "00:00065:text:000284f2",
+        "00:00065:text:00028508"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002851a": {
+      "id": "00:00065:text:0002851a",
+      "resource_id": "00:00065",
+      "slice_row": 42,
+      "opening_row": 442,
+      "source_offset": 165146,
+      "source_sha256": "15f8d3b157be9cff7e7db90ce73c3c3f6499258f054b062441b3fd43de088eb8",
+      "reference_instructions": [
+        88380
+      ],
+      "text": "Lady Belfrau!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==2; Belfrau is named at442.",
+      "sentence_group": "opening005_display_88392",
+      "group_ids": [
+        "00:00065:text:0002851a"
+      ],
+      "notes": [],
+      "glossary_ids": [
+        "character.belfrau"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002852a": {
+      "id": "00:00065:text:0002852a",
+      "resource_id": "00:00065",
+      "slice_row": 43,
+      "opening_row": 443,
+      "source_offset": 165162,
+      "source_sha256": "4c612f321a830aaf7c27e899f6a729c762181443e42974a83729f362911aff9c",
+      "reference_instructions": [
+        88414
+      ],
+      "text": "...Hmph!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==2; Belfrau is named at442.",
+      "sentence_group": "opening005_display_88426",
+      "group_ids": [
+        "00:00065:text:0002852a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002853a": {
+      "id": "00:00065:text:0002853a",
+      "resource_id": "00:00065",
+      "slice_row": 44,
+      "opening_row": 444,
+      "source_offset": 165178,
+      "source_sha256": "75331bbcc19751bdcd3f3188733754d22312ffbdf885413315dc6d93394a4385",
+      "reference_instructions": [
+        88470
+      ],
+      "text": "All right...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Harbor departure conversation. Student global[64]==3.",
+      "sentence_group": "opening005_display_88482",
+      "group_ids": [
+        "00:00065:text:0002853a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002854e": {
+      "id": "00:00065:text:0002854e",
+      "resource_id": "00:00065",
+      "slice_row": 45,
+      "opening_row": 445,
+      "source_offset": 165198,
+      "source_sha256": "4609525429ddaafabd1c72ec7fa562b8322ebb2e85fb82106a7b248d61cc5652",
+      "reference_instructions": [
+        88564
+      ],
+      "text": "The letter said",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_88592",
+      "group_ids": [
+        "00:00065:text:0002854e",
+        "00:00065:text:0002855c",
+        "00:00065:text:0002856c"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002855c": {
+      "id": "00:00065:text:0002855c",
+      "resource_id": "00:00065",
+      "slice_row": 46,
+      "opening_row": 446,
+      "source_offset": 165212,
+      "source_sha256": "df83a9aa398ea7178307c69b1aa13ac2a51a203de36fca53f96e842caaf73773",
+      "reference_instructions": [
+        88572
+      ],
+      "text": "it was a boy,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_88592",
+      "group_ids": [
+        "00:00065:text:0002854e",
+        "00:00065:text:0002855c",
+        "00:00065:text:0002856c"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002856c": {
+      "id": "00:00065:text:0002856c",
+      "resource_id": "00:00065",
+      "slice_row": 47,
+      "opening_row": 447,
+      "source_offset": 165228,
+      "source_sha256": "90de39e3d12f9fedb9f6e8ef1e6498d17562d919bc004fe6adbe333d48cbb594",
+      "reference_instructions": [
+        88580
+      ],
+      "text": "as I recall.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_88592",
+      "group_ids": [
+        "00:00065:text:0002854e",
+        "00:00065:text:0002855c",
+        "00:00065:text:0002856c"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028576": {
+      "id": "00:00065:text:00028576",
+      "resource_id": "00:00065",
+      "slice_row": 48,
+      "opening_row": 448,
+      "source_offset": 165238,
+      "source_sha256": "4609525429ddaafabd1c72ec7fa562b8322ebb2e85fb82106a7b248d61cc5652",
+      "reference_instructions": [
+        88610
+      ],
+      "text": "The letter said",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_88638",
+      "group_ids": [
+        "00:00065:text:00028576",
+        "00:00065:text:00028584",
+        "00:00065:text:00028594"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028584": {
+      "id": "00:00065:text:00028584",
+      "resource_id": "00:00065",
+      "slice_row": 49,
+      "opening_row": 449,
+      "source_offset": 165252,
+      "source_sha256": "df83a9aa398ea7178307c69b1aa13ac2a51a203de36fca53f96e842caaf73773",
+      "reference_instructions": [
+        88618
+      ],
+      "text": "it was a boy,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_88638",
+      "group_ids": [
+        "00:00065:text:00028576",
+        "00:00065:text:00028584",
+        "00:00065:text:00028594"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028594": {
+      "id": "00:00065:text:00028594",
+      "resource_id": "00:00065",
+      "slice_row": 50,
+      "opening_row": 450,
+      "source_offset": 165268,
+      "source_sha256": "69f4bdc5a8edddee2853be86aa215bed8defee138ec419f050c9ddbbc66cb0cc",
+      "reference_instructions": [
+        88626
+      ],
+      "text": "didn't it?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_88638",
+      "group_ids": [
+        "00:00065:text:00028576",
+        "00:00065:text:00028584",
+        "00:00065:text:00028594"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000285a0": {
+      "id": "00:00065:text:000285a0",
+      "resource_id": "00:00065",
+      "slice_row": 51,
+      "opening_row": 451,
+      "source_offset": 165280,
+      "source_sha256": "559551b2085f1540870de5084820206ae0fdeb862d8c7d438466eccca46ae0fb",
+      "reference_instructions": [
+        88652
+      ],
+      "text": "The head of the family says",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction.",
+      "sentence_group": "opening005_display_88680",
+      "group_ids": [
+        "00:00065:text:000285a0",
+        "00:00065:text:000285b0",
+        "00:00065:text:000285c6"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000285b0": {
+      "id": "00:00065:text:000285b0",
+      "resource_id": "00:00065",
+      "slice_row": 52,
+      "opening_row": 452,
+      "source_offset": 165296,
+      "source_sha256": "cd74bd653fad623156c03a75039c5b933597b9edf6d54251dd83a2707495fbd6",
+      "reference_instructions": [
+        88660
+      ],
+      "text": "he's been quite a handful,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction.",
+      "sentence_group": "opening005_display_88680",
+      "group_ids": [
+        "00:00065:text:000285a0",
+        "00:00065:text:000285b0",
+        "00:00065:text:000285c6"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000285c6": {
+      "id": "00:00065:text:000285c6",
+      "resource_id": "00:00065",
+      "slice_row": 53,
+      "opening_row": 453,
+      "source_offset": 165318,
+      "source_sha256": "d194d2f800eea19b064f389e041fbf26667e0c254af05d9c79631ca88e1ef206",
+      "reference_instructions": [
+        88668
+      ],
+      "text": "though.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction.",
+      "sentence_group": "opening005_display_88680",
+      "group_ids": [
+        "00:00065:text:000285a0",
+        "00:00065:text:000285b0",
+        "00:00065:text:000285c6"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000285d2": {
+      "id": "00:00065:text:000285d2",
+      "resource_id": "00:00065",
+      "slice_row": 54,
+      "opening_row": 454,
+      "source_offset": 165330,
+      "source_sha256": "0bccfb017e6d8508fb6a24286a205d827886c0fe8aac91da07df8ef38d740ca2",
+      "reference_instructions": [
+        88706
+      ],
+      "text": "What kind of boy is he?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_88718",
+      "group_ids": [
+        "00:00065:text:000285d2"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000285e8": {
+      "id": "00:00065:text:000285e8",
+      "resource_id": "00:00065",
+      "slice_row": 55,
+      "opening_row": 455,
+      "source_offset": 165352,
+      "source_sha256": "2f2155bd2ba6a52b0a0a047d0567671fa50ebc82be812e8cb00a9be0aab2e2c1",
+      "reference_instructions": [
+        88736
+      ],
+      "text": "I wonder what he's like??",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_88748",
+      "group_ids": [
+        "00:00065:text:000285e8"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000285fe": {
+      "id": "00:00065:text:000285fe",
+      "resource_id": "00:00065",
+      "slice_row": 56,
+      "opening_row": 456,
+      "source_offset": 165374,
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "reference_instructions": [
+        88770
+      ],
+      "text": "Surely...",
+      "status": "draft",
+      "text_role": "queued_choice_prompt",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==0.",
+      "sentence_group": "opening005_choice_88834_protagonist0",
+      "group_ids": [
+        "00:00065:text:000285fe",
+        "00:00065:text:0002860c",
+        "00:00065:text:00028622"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002860c": {
+      "id": "00:00065:text:0002860c",
+      "resource_id": "00:00065",
+      "slice_row": 57,
+      "opening_row": 457,
+      "source_offset": 165388,
+      "source_sha256": "1a0fe33bdca6b98d0ba7e44e9ea1ff9ba7524598ca4727e63bfd5f6e60e46453",
+      "reference_instructions": [
+        88778
+      ],
+      "text": "　Maybe he's mischievous?",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==0.",
+      "sentence_group": "opening005_choice_88834_protagonist0",
+      "group_ids": [
+        "00:00065:text:000285fe",
+        "00:00065:text:0002860c",
+        "00:00065:text:00028622"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together.",
+        "Choice ID0; helper2012. Preserve leading U+3000."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "choice_id": 0
+    },
+    "00:00065:text:00028622": {
+      "id": "00:00065:text:00028622",
+      "resource_id": "00:00065",
+      "slice_row": 58,
+      "opening_row": 458,
+      "source_offset": 165410,
+      "source_sha256": "b5a25c4ba57620547147ba4aab578fd91193a458fcbded39eb180bdcb6cc41f0",
+      "reference_instructions": [
+        88788
+      ],
+      "text": "　He seems polite, so it'll be fine.",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==0.",
+      "sentence_group": "opening005_choice_88834_protagonist0",
+      "group_ids": [
+        "00:00065:text:000285fe",
+        "00:00065:text:0002860c",
+        "00:00065:text:00028622"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together.",
+        "Choice ID1; helper2012. Preserve leading U+3000."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "choice_id": 1
+    },
+    "00:00065:text:0002863e": {
+      "id": "00:00065:text:0002863e",
+      "resource_id": "00:00065",
+      "slice_row": 59,
+      "opening_row": 459,
+      "source_offset": 165438,
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "reference_instructions": [
+        88802
+      ],
+      "text": "Surely...",
+      "status": "draft",
+      "text_role": "queued_choice_prompt",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_choice_88834_protagonist1",
+      "group_ids": [
+        "00:00065:text:0002863e",
+        "00:00065:text:0002864c",
+        "00:00065:text:00028662"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002864c": {
+      "id": "00:00065:text:0002864c",
+      "resource_id": "00:00065",
+      "slice_row": 60,
+      "opening_row": 460,
+      "source_offset": 165452,
+      "source_sha256": "1a0fe33bdca6b98d0ba7e44e9ea1ff9ba7524598ca4727e63bfd5f6e60e46453",
+      "reference_instructions": [
+        88810
+      ],
+      "text": "　Maybe he's mischievous?",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_choice_88834_protagonist1",
+      "group_ids": [
+        "00:00065:text:0002863e",
+        "00:00065:text:0002864c",
+        "00:00065:text:00028662"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together.",
+        "Choice ID0; helper2012. Preserve leading U+3000."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "choice_id": 0
+    },
+    "00:00065:text:00028662": {
+      "id": "00:00065:text:00028662",
+      "resource_id": "00:00065",
+      "slice_row": 61,
+      "opening_row": 461,
+      "source_offset": 165474,
+      "source_sha256": "71961c710b92d051845931f35ffb404d630742b0ba22f711dbdfafd75e76d971",
+      "reference_instructions": [
+        88820
+      ],
+      "text": "　It'll be fine. I can manage.",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_choice_88834_protagonist1",
+      "group_ids": [
+        "00:00065:text:0002863e",
+        "00:00065:text:0002864c",
+        "00:00065:text:00028662"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together.",
+        "Choice ID1; helper2012. Preserve leading U+3000."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "choice_id": 1
+    },
+    "00:00065:text:0002867c": {
+      "id": "00:00065:text:0002867c",
+      "resource_id": "00:00065",
+      "slice_row": 62,
+      "opening_row": 462,
+      "source_offset": 165500,
+      "source_sha256": "5635e27fed45af925e7e9807f5e0a43e052563f3f4a98bbb7b70e0352194d484",
+      "reference_instructions": [
+        88872
+      ],
+      "text": "At his age,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Choice result0; global[64] set to1.",
+      "sentence_group": "opening005_display_88900",
+      "group_ids": [
+        "00:00065:text:0002867c",
+        "00:00065:text:0002868e",
+        "00:00065:text:0002869e"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002868e": {
+      "id": "00:00065:text:0002868e",
+      "resource_id": "00:00065",
+      "slice_row": 63,
+      "opening_row": 463,
+      "source_offset": 165518,
+      "source_sha256": "933028394eae0e70201ed8299e07d64d07a23edab0553f508413e3c1aaf3d5ff",
+      "reference_instructions": [
+        88880
+      ],
+      "text": "he's probably at the height",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Choice result0; global[64] set to1.",
+      "sentence_group": "opening005_display_88900",
+      "group_ids": [
+        "00:00065:text:0002867c",
+        "00:00065:text:0002868e",
+        "00:00065:text:0002869e"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002869e": {
+      "id": "00:00065:text:0002869e",
+      "resource_id": "00:00065",
+      "slice_row": 64,
+      "opening_row": 464,
+      "source_offset": 165534,
+      "source_sha256": "7772394d2e8fe29946bf21610dd6e4cb08c66d3212070d8ccfc3d6bc25bf665e",
+      "reference_instructions": [
+        88888
+      ],
+      "text": "of his mischievous phase.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Choice result0; global[64] set to1.",
+      "sentence_group": "opening005_display_88900",
+      "group_ids": [
+        "00:00065:text:0002867c",
+        "00:00065:text:0002868e",
+        "00:00065:text:0002869e"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000286ac": {
+      "id": "00:00065:text:000286ac",
+      "resource_id": "00:00065",
+      "slice_row": 65,
+      "opening_row": 465,
+      "source_offset": 165548,
+      "source_sha256": "ed0bffd21bdca43cd21babfc883c827899b885a486ebc1eb5e4aae4a72afaf25",
+      "reference_instructions": [
+        88928
+      ],
+      "text": "I just hope",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==0. Choice result0; global[64] set to1.",
+      "sentence_group": "opening005_display_88948",
+      "group_ids": [
+        "00:00065:text:000286ac",
+        "00:00065:text:000286c2"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000286c2": {
+      "id": "00:00065:text:000286c2",
+      "resource_id": "00:00065",
+      "slice_row": 66,
+      "opening_row": 466,
+      "source_offset": 165570,
+      "source_sha256": "8e93fc8ecfa09950c8f16b87c761141397dd6cdee373f4b75d1514aff9916650",
+      "reference_instructions": [
+        88936
+      ],
+      "text": "I can handle him...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==0. Choice result0; global[64] set to1.",
+      "sentence_group": "opening005_display_88948",
+      "group_ids": [
+        "00:00065:text:000286ac",
+        "00:00065:text:000286c2"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000286d4": {
+      "id": "00:00065:text:000286d4",
+      "resource_id": "00:00065",
+      "slice_row": 67,
+      "opening_row": 467,
+      "source_offset": 165588,
+      "source_sha256": "185c12ef128564fabb81598f21dce6bc2bb5243a8326e12c7d8971bfd7542582",
+      "reference_instructions": [
+        88968
+      ],
+      "text": "I just hope",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative. Choice result0; global[64] set to1.",
+      "sentence_group": "opening005_display_88988",
+      "group_ids": [
+        "00:00065:text:000286d4",
+        "00:00065:text:000286ea"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000286ea": {
+      "id": "00:00065:text:000286ea",
+      "resource_id": "00:00065",
+      "slice_row": 68,
+      "opening_row": 468,
+      "source_offset": 165610,
+      "source_sha256": "c2f6cf8177edc1ec0065e700a740be93bd8070182a51d5361b19650b66e43421",
+      "reference_instructions": [
+        88976
+      ],
+      "text": "I can handle him...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative. Choice result0; global[64] set to1.",
+      "sentence_group": "opening005_display_88988",
+      "group_ids": [
+        "00:00065:text:000286d4",
+        "00:00065:text:000286ea"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000286fe": {
+      "id": "00:00065:text:000286fe",
+      "resource_id": "00:00065",
+      "slice_row": 69,
+      "opening_row": 469,
+      "source_offset": 165630,
+      "source_sha256": "6349831f2e4c6ba0e10b5a21b95197b86cc971f52169868dcf24bc7dca336cc3",
+      "reference_instructions": [
+        89012
+      ],
+      "text": "Judging by his letter enclosed with it,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Choice result1; global[64] set to4.",
+      "sentence_group": "opening005_display_89040",
+      "group_ids": [
+        "00:00065:text:000286fe",
+        "00:00065:text:0002871a",
+        "00:00065:text:00028730"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002871a": {
+      "id": "00:00065:text:0002871a",
+      "resource_id": "00:00065",
+      "slice_row": 70,
+      "opening_row": 470,
+      "source_offset": 165658,
+      "source_sha256": "949197a4d8be035e42a2fe687687e97b6e5af2f22b81f19a71d7bc04f262d9f0",
+      "reference_instructions": [
+        89020
+      ],
+      "text": "he's so polite",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Choice result1; global[64] set to4.",
+      "sentence_group": "opening005_display_89040",
+      "group_ids": [
+        "00:00065:text:000286fe",
+        "00:00065:text:0002871a",
+        "00:00065:text:00028730"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028730": {
+      "id": "00:00065:text:00028730",
+      "resource_id": "00:00065",
+      "slice_row": 71,
+      "opening_row": 471,
+      "source_offset": 165680,
+      "source_sha256": "0df4a497dca53f992a94ff60126cbadfd85f97d4adadf6e77f1a3b80ccb591c3",
+      "reference_instructions": [
+        89028
+      ],
+      "text": "it's hard to believe he's a child.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Choice result1; global[64] set to4.",
+      "sentence_group": "opening005_display_89040",
+      "group_ids": [
+        "00:00065:text:000286fe",
+        "00:00065:text:0002871a",
+        "00:00065:text:00028730"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002874a": {
+      "id": "00:00065:text:0002874a",
+      "resource_id": "00:00065",
+      "slice_row": 72,
+      "opening_row": 472,
+      "source_offset": 165706,
+      "source_sha256": "3f255fc20c84f44e466df3e815924618c159639d0c32223f62a3fe9f363ec25d",
+      "reference_instructions": [
+        89066
+      ],
+      "text": "I'm sure it'll be fine...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==0. Choice result1; global[64] set to4.",
+      "sentence_group": "opening005_display_89086",
+      "group_ids": [
+        "00:00065:text:0002874a",
+        "00:00065:text:0002875e"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002875e": {
+      "id": "00:00065:text:0002875e",
+      "resource_id": "00:00065",
+      "slice_row": 73,
+      "opening_row": 473,
+      "source_offset": 165726,
+      "source_sha256": "06e4e57dfaa1558d7cf595bb29a287b5ad44ed3dbcd76d0f7d88959427cf8a3c",
+      "reference_instructions": [
+        89074
+      ],
+      "text": "Things will work out.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==0. Choice result1; global[64] set to4.",
+      "sentence_group": "opening005_display_89086",
+      "group_ids": [
+        "00:00065:text:0002874a",
+        "00:00065:text:0002875e"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028774": {
+      "id": "00:00065:text:00028774",
+      "resource_id": "00:00065",
+      "slice_row": 74,
+      "opening_row": 474,
+      "source_offset": 165748,
+      "source_sha256": "dcf395b5f7460d0b3a170ced860ea8acfe849d5351e12e0640e86c0ca464b71f",
+      "reference_instructions": [
+        89106
+      ],
+      "text": "I'm sure it'll be fine.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative. Choice result1; global[64] set to4.",
+      "sentence_group": "opening005_display_89126",
+      "group_ids": [
+        "00:00065:text:00028774",
+        "00:00065:text:00028782"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028782": {
+      "id": "00:00065:text:00028782",
+      "resource_id": "00:00065",
+      "slice_row": 75,
+      "opening_row": 475,
+      "source_offset": 165762,
+      "source_sha256": "8249c2ce944058d25cfaa2af23078794549e256fb429f3d228e4d3c55d2c24e5",
+      "reference_instructions": [
+        89114
+      ],
+      "text": "It should work out.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Boy-pupil anticipation function at88540; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative. Choice result1; global[64] set to4.",
+      "sentence_group": "opening005_display_89126",
+      "group_ids": [
+        "00:00065:text:00028774",
+        "00:00065:text:00028782"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028798": {
+      "id": "00:00065:text:00028798",
+      "resource_id": "00:00065",
+      "slice_row": 76,
+      "opening_row": 476,
+      "source_offset": 165784,
+      "source_sha256": "ead032245b7d14b08a09ef14d4d15deac29b483f4ae089469df482dbb0344050",
+      "reference_instructions": [
+        89158
+      ],
+      "text": "The letter said",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Girl-pupil anticipation function at89134; invoked before the student introduction. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_89186",
+      "group_ids": [
+        "00:00065:text:00028798",
+        "00:00065:text:000287a4",
+        "00:00065:text:000287b4"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000287a4": {
+      "id": "00:00065:text:000287a4",
+      "resource_id": "00:00065",
+      "slice_row": 77,
+      "opening_row": 477,
+      "source_offset": 165796,
+      "source_sha256": "df83a9aa398ea7178307c69b1aa13ac2a51a203de36fca53f96e842caaf73773",
+      "reference_instructions": [
+        89166
+      ],
+      "text": "it was a girl,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Girl-pupil anticipation function at89134; invoked before the student introduction. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_89186",
+      "group_ids": [
+        "00:00065:text:00028798",
+        "00:00065:text:000287a4",
+        "00:00065:text:000287b4"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000287b4": {
+      "id": "00:00065:text:000287b4",
+      "resource_id": "00:00065",
+      "slice_row": 78,
+      "opening_row": 478,
+      "source_offset": 165812,
+      "source_sha256": "90de39e3d12f9fedb9f6e8ef1e6498d17562d919bc004fe6adbe333d48cbb594",
+      "reference_instructions": [
+        89174
+      ],
+      "text": "as I recall.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Girl-pupil anticipation function at89134; invoked before the student introduction. Protagonist global[60]==0.",
+      "sentence_group": "opening005_display_89186",
+      "group_ids": [
+        "00:00065:text:00028798",
+        "00:00065:text:000287a4",
+        "00:00065:text:000287b4"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000287be": {
+      "id": "00:00065:text:000287be",
+      "resource_id": "00:00065",
+      "slice_row": 79,
+      "opening_row": 479,
+      "source_offset": 165822,
+      "source_sha256": "ead032245b7d14b08a09ef14d4d15deac29b483f4ae089469df482dbb0344050",
+      "reference_instructions": [
+        89204
+      ],
+      "text": "The letter said",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Girl-pupil anticipation function at89134; invoked before the student introduction. Protagonist global[60]==1 or the nonzero alternative.",
+      "sentence_group": "opening005_display_89232",
+      "group_ids": [
+        "00:00065:text:000287be",
+        "00:00065:text:000287ca",
+        "00:00065:text:000287da"
+      ],
+      "notes": [
+        "Review and integrate this complete display group together.",
+        "Cross-slice group: see cross_slice_groups. Do not insert independently."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "integration_requires": "opening005_display_89232"
+    }
+  }
+}

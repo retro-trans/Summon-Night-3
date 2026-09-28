@@ -1,0 +1,15 @@
+"""Record the translator's source-context self-review; dry-run by default."""
+import argparse,hashlib,json
+from sn3_archive import ROOT
+
+def main():
+ p=argparse.ArgumentParser();p.add_argument('--write',action='store_true');a=p.parse_args()
+ folder=ROOT/'work/translation/en/chapters_0.1.14/0203'
+ paths=sorted(folder.glob('slice_*.targets.json'))
+ hashes={str(p.relative_to(ROOT)).replace('\\','/'):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
+ reviewed=sorted(t['resource_row'] for p in paths for t in json.loads(p.read_text(encoding='utf-8'))['translations'].values())
+ assert reviewed==list(range(2236))
+ doc={'review_type':'translator_self_review','independent_review':False,'resource_id':'00:00203','scope':'main-tail only; excludes shared prefix','reviewed_rows':reviewed,'rows_in_scope':2236,'rows_examined':{'physical_range_inclusive':[3950,6192],'count':2243},'method':'The author read every source row and adjacent scene context while drafting, checked target clauses against those source readings, then repaired identified subject and terminology issues. This is author self-review, not a separate independent pass.','draft_inputs_sha256':hashes,'corrections':[],'self_check_notes':['All 2236 assigned rows translated; none left unresolved or silently dropped. Source identity, reference lists, CP932 encoding and ordered control tokens checked by the packer.','No byte budget was used to draft dialogue. Menu choices retain their full force and branch distinctions.','Main gallery spellings used. Terminology locks: Latrix, Veiger, Shartos, Zenobis, Jilcooda. Do not revert these during wording edits.','Player-name tokens remain untouched; subjects omitted or neutral where unresolved. Final targeted repairs removed an added conversational question and unnecessary gender inference.'],'uncertainties':[{'physical_rows':[4267,4268,4269,4277],'decision':'Belfraw calls Ardylia big sister as an admiring address; the surrounding scene makes clear this is not a newly asserted biological relationship.'},{'physical_rows':[5199,5200,5201,5220,5221],'decision':'The deceased person behind the final wish is not named in this scene. Target retains neutral wording instead of asserting gender from this excerpt.'},{'physical_rows':[6099,6100,6101,6102],'decision':'Gathering Spring is a literal rendering of the location; local glossary had no match. Root was informed for cross-chapter consistency.'}],'change_log':['Completed Chapter 7 main-tail English draft for build 0.1.14 in 28 consecutive slices (27x80 plus 76).','Applied user-selected names and project terminology after meaning edits.','Recorded truthful author-only review and immutable final slice hashes.']}
+ print(json.dumps({k:v for k,v in doc.items() if k not in ('reviewed_rows','draft_inputs_sha256')},ensure_ascii=False,indent=2));print('Bound slice hashes',len(hashes))
+ if a.write:(folder/'translator_self_review.json').write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+if __name__=='__main__':main()

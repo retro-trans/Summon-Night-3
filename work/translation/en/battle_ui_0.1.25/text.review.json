@@ -1,0 +1,154 @@
+{
+  "version": "0.1.25",
+  "notice": "Tutorials: see Gallery.",
+  "description_full": "A weapon wreathed in light that shatters chaos. Its radiance remains undimmed after the ancient hero's death.",
+  "description_lines": [
+    "Chaos-rending light blade",
+    "Ancient hero dead; aglow."
+  ],
+  "review": "Independent meaning reviewer accepted blade from Shine Saber context, ancient hero death and enduring radiance. Compact display retains these within native 54-glyph budget.",
+  "elf": {
+    "profile": "battle_elf_patch_0.1.13",
+    "baseline_elf_sha256": "966161b402f3d8f018cab47df290f0472dc271762ccc3888f97d0f8e7e3130b2",
+    "patched_elf_sha256": "02a2f3b7e612ef2791f89b62c2e754bda48bc601a1a3ef6a867db7b34df70967",
+    "source_bytes": 6295432,
+    "patched_bytes": 6295496,
+    "targets_total": 1,
+    "targets_patched": 1,
+    "targets_skipped": 0,
+    "skipped": [],
+    "entries": [
+      {
+        "id": "elf:ui:00214ddc",
+        "module_address": "0x214d1c",
+        "source_offset": 2182620,
+        "source_sha256": "eb923830a2a4cd9e1b047a90e95fcda011721ca82f771b77a753ff6ee1fbdaae",
+        "target_variant": "full",
+        "target_text": "Tutorials: see Gallery.",
+        "display_text": "\uff34\uff55\uff54\uff4f\uff52\uff49\uff41\uff4c\uff53\uff1a\u3000\uff53\uff45\uff45\u3000\uff27\uff41\uff4c\uff4c\uff45\uff52\uff59\uff0e",
+        "encoded_bytes": 50,
+        "bundle_bytes": 50,
+        "unreferenced_tails": [],
+        "new_address": "0x34a038",
+        "new_file_offset": 5700408,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x27430",
+            "low": "0x27440",
+            "register": "0x6"
+          }
+        ]
+      }
+    ],
+    "added_segment": {
+      "index": 3,
+      "module_address": "0x32dbc0",
+      "file_offset": 5584576,
+      "old_bytes": 115832,
+      "new_bytes": 115896,
+      "appended_bytes": 64
+    },
+    "relocation_segment": {
+      "index": 2,
+      "records_unchanged": true,
+      "old_file_offset": 5700416,
+      "new_file_offset": 5700480
+    },
+    "audit": {
+      "mapped_start_reference_count": 1,
+      "interior_reference_targets_skipped": 0,
+      "shared_hi16_pairs_proven_safe": 1,
+      "bundled_unreferenced_tail_count": 0,
+      "all_differences_allowlisted": true,
+      "allowed_changed_byte_count": 71
+    },
+    "structural_checks": {
+      "program_header_count": 4,
+      "section_header_count": 61,
+      "load_ranges": [
+        {
+          "index": 0,
+          "start": "0x0",
+          "end": "0x22d37c"
+        },
+        {
+          "index": 1,
+          "start": "0x22d380",
+          "end": "0x32db8c"
+        },
+        {
+          "index": 3,
+          "start": "0x32dbc0",
+          "end": "0x34a078"
+        }
+      ]
+    },
+    "change_log": [
+      "Relocated only source-hash-verified battle literals with proven direct relocation references; preserved opaque prefixes/control tokens, existing hooks, and all existing relocation records."
+    ],
+    "explicit_empty_line_sentinel": true
+  },
+  "tables": {
+    "units": [],
+    "tables": [
+      {
+        "child": 12,
+        "changes": [
+          {
+            "id": "02:00003/00012:ui:0000372a",
+            "record": 84,
+            "rows": [
+              {
+                "source_offset": 14122,
+                "source_byte_length": 34,
+                "source_sha256": "b31709390950dbc0bee93904039809382c67639dd5ad9d01958508e6671e9265",
+                "contains_japanese": true,
+                "source_control_tokens": [],
+                "references": [
+                  {
+                    "record": 84,
+                    "slot": 12,
+                    "pointer_field_offset": 4420
+                  }
+                ],
+                "ownership_status": "direct_pointer",
+                "id": "02:00003/00012:ui:0000372a",
+                "category": "summon_names_and_forms"
+              },
+              {
+                "source_offset": 14158,
+                "source_byte_length": 34,
+                "source_sha256": "ae4261114bd041ce16caa3c7f7594a866772df9d83bb8f2fe8f5ff0e46478167",
+                "contains_japanese": true,
+                "source_control_tokens": [],
+                "references": [],
+                "ownership_status": "pool_string_consumer_unverified",
+                "preceding_referenced_string_offset": 14122,
+                "ownership_note": "Pool adjacency is context only, not a proven runtime reference. May be a subsequent line of a multi-string field.",
+                "id": "02:00003/00012:ui:0000374e",
+                "category": "summon_names_and_forms"
+              }
+            ],
+            "lines": [
+              "Chaos-rending light blade",
+              "Ancient hero dead; aglow."
+            ],
+            "glyph_counts": [
+              25,
+              25
+            ],
+            "measured_advance_pixels": [
+              215,
+              214
+            ],
+            "pointer_fields": [
+              4420
+            ],
+            "new_offset": 22528
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "build_version": "0.1.13",
+  "status": "root_reviewed_source_art",
+  "scope": "Every unique text sprite in encounter family 01:4-64; duplicate bank occurrences found during import.",
+  "source_export": "work\\ui\\battle_0.1.13\\intro_discovery_01_00004_00064_full\\index.json",
+  "source_export_sha256": "ce0c57a3d7c6861815377c66bc646fcd81762421cdca179696dab7c0e7647f3e",
+  "provisional_terms": [
+    "Jilcooda",
+    "Shadow of Primal Sin"
+  ],
+  "entries": [
+    {
+      "id": "01:00004/00002:sprite:000",
+      "source_sha256": "8f3e40a42f815d2f390aa2c69edb6a726ad83ecffe608abde0b2b7878383bf9f",
+      "source_image_path": "01_00004_00002_sprite_000.png",
+      "target_text": "DEFEAT ALL\nENEMIES",
+      "generated_key": "victory_all",
+      "type": "condition"
+    },
+    {
+      "id": "01:00015/00002:sprite:000",
+      "source_sha256": "b171d6109d2b4c8acb814b25869812fc5e8a6b8d8f8ac94de4f6cf70b2d2cf7d",
+      "source_image_path": "01_00015_00002_sprite_000.png",
+      "target_text": "DEFEAT ALL\nENEMIES",
+      "generated_key": "victory_all",
+      "type": "condition"
+    },
+    {
+      "id": "01:00004/00003:sprite:000",
+      "source_sha256": "0e5e3185cf327f6011584c59f9676b7ac35fc18bdff7e7633562cdd948182b5d",
+      "source_image_path": "01_00004_00003_sprite_000.png",
+      "target_text": "HERO\nDEFEATED",
+      "generated_key": "loss_hero",
+      "type": "condition"
+    },
+    {
+      "id": "01:00004/00004:sprite:000",
+      "source_sha256": "1e0bce0e0e5c2830cbc05b89592e0d9e70fb398bff4f089222c4c2b7bf244485",
+      "source_image_path": "01_00004_00004_sprite_000.png",
+      "target_text": "VS Pirates",
+      "generated_key": "title_pirates",
+      "type": "title"
+    },
+    {
+      "id": "01:00005/00004:sprite:000",
+      "source_sha256": "4d49af594576d90af287a5f952828322df892d2161fba7e3d80138fadf4953bb",
+      "source_image_path": "01_00005_00004_sprite_000.png",
+      "target_text": "VS Pirates",
+      "generated_key": "title_pirates",
+      "type": "title"
+    },
+    {
+      "id": "01:00004/00001:sprite:000",
+      "source_sha256": "326f3fe915c6cd38977bb227a5ff2917e8147aade4dd47f3cf2d38b170acf95d",
+      "source_image_path": "01_00004_00001_sprite_000.png",
+      "target_text": "W",
+      "generated_key": "header_0",
+      "type": "heading"
+    },
+    {
+      "id": "01:00004/00001:sprite:001",
+      "source_sha256": "326f3fe915c6cd38977bb227a5ff2917e8147aade4dd47f3cf2d38b170acf95d",
+      "source_image_path": "01_00004_00001_sprite_001.png",
+      "target_text": "IN",
+      "generated_key": "header_1",
+      "type": "heading"
+    },
+    {
+      "id": "01:00004/00001:sprite:002",
+      "source_sha256": "326f3fe915c6cd38977bb227a5ff2917e8147aade4dd47f3cf2d38b170acf95d",
+      "source_image_path": "01_00004_00001_sprite_002.png",
+      "target_text": "IF",
+      "generated_key": "header_2",
+      "type": "heading"
+    },
+    {
+      "id": "01:00004/00001:sprite:003",
+      "source_sha256": "326f3fe915c6cd38977bb227a5ff2917e8147aade4dd47f3cf2d38b170acf95d",
+      "source_image_path": "01_00004_00001_sprite_003.png",
+      "target_text": "LO",
+      "generated_key": "header_3",
+      "type": "heading"
+    },
+    {
+      "id": "01:00004/00001:sprite:004",
+      "source_sha256": "326f3fe915c6cd38977bb227a5ff2917e8147aade4dd47f3cf2d38b170acf95d",
+      "source_image_path": "01_00004_00001_sprite_004.png",
+      "target_text": "SE",
+      "generated_key": "header_4",
+      "type": "heading"
+    },
+    {
+      "id": "01:00016/00002:sprite:000",
+      "source_sha256": "dbc424842c431a80d17a2f8882f7fae76dffae75591c1b1a651896592166b66e",
+      "source_image_path": "01_00016_00002_sprite_000.png",
+      "target_text": "DEFEAT THE\nENEMY LEADER",
+      "generated_key": "victory_leader",
+      "type": "condition"
+    },
+    {
+      "id": "01:00036/00002:sprite:000",
+      "source_sha256": "d01c3f5b02e8a6bed5e6d67170736c667fb208823af5e16bc3a2a9326d01b511",
+      "source_image_path": "01_00036_00002_sprite_000.png",
+      "target_text": "DEFEAT\nDIELGO!",
+      "generated_key": "victory_dielgo",
+      "type": "condition"
+    },
+    {
+      "id": "01:00006/00004:sprite:000",
+      "source_sha256": "48f23cd947b37bf57b7aa78674176d5b4a94c6b9ec6d4a8abf0f0b8b40401628",
+      "source_image_path": "01_00006_00004_sprite_000.png",
+      "target_text": "VS Stray Summon Beasts",
+      "generated_key": "title_00006",
+      "type": "title"
+    },
+    {
+      "id": "01:00007/00004:sprite:000",
+      "source_sha256": "394fc68e143f837e5b6016569750cbd5b200b860804e1761516dea466583d5f2",
+      "source_image_path": "01_00007_00004_sprite_000.png",
+      "target_text": "VS Kyle & Yard",
+      "generated_key": "title_00007",
+      "type": "title"
+    },
+    {
+      "id": "01:00008/00004:sprite:000",
+      "source_sha256": "3ee695cc860a26d638a85f3aa5168dfc2ab336084ab7a352c881854bf83c62d9",
+      "source_image_path": "01_00008_00004_sprite_000.png",
+      "target_text": "VS Sonolar & Scarrel",
+      "generated_key": "title_00008",
+      "type": "title"
+    },
+    {
+      "id": "01:00011/00004:sprite:000",
+      "source_sha256": "08b9bf2d45fcb19a263c84018ba88613f1e20dcf355e168b012405d4ecb01fb9",
+      "source_image_path": "01_00011_00004_sprite_000.png",
+      "target_text": "VS Loreilal's Defense Machines",
+      "generated_key": "title_00011",
+      "type": "title"
+    },
+    {
+      "id": "01:00012/00004:sprite:000",
+      "source_sha256": "72b9e9ccb738784c2b59debdd4cedeeb87d667b79665e4197d6fa093db961bdb",
+      "source_image_path": "01_00012_00004_sprite_000.png",
+      "target_text": "VS Silturn's Oni & Yokai",
+      "generated_key": "title_00012",
+      "type": "title"
+    },
+    {
+      "id": "01:00013/00004:sprite:000",
+      "source_sha256": "d65589e6248fe9c4e3d037f36d388784de746da5ad9ebc887917bc4f1f204d96",
+      "source_image_path": "01_00013_00004_sprite_000.png",
+      "target_text": "VS Sapureth's Ghosts",
+      "generated_key": "title_00013",
+      "type": "title"
+    },
+    {
+      "id": "01:00014/00004:sprite:000",
+      "source_sha256": "1317808c78978e4c387d97e92056183915e41318a5b2c6e611c05d038b232c47",
+      "source_image_path": "01_00014_00004_sprite_000.png",
+      "target_text": "VS Maetropa's Beastfolk",
+      "generated_key": "title_00014",
+      "type": "title"
+    },
+    {
+      "id": "01:00015/00004:sprite:000",
+      "source_sha256": "f3eed3194da1766f57a655e83d956ff7e2dd5fea6178024901f312f1cae89d57",
+      "source_image_path": "01_00015_00004_sprite_000.png",
+      "target_text": "VS Vijue's Imperial Troops",
+      "generated_key": "title_00015",
+      "type": "title"
+    },
+    {
+      "id": "01:00016/00004:sprite:000",
+      "source_sha256": "4b74bb906a60cb6e3c078e75eefa7e124bffaa0e14ad80f750c56e92ef91f743",
+      "source_image_path": "01_00016_00004_sprite_000.png",
+      "target_text": "VS Jakinie's Pirate Crew",
+      "generated_key": "title_00016",
+      "type": "title"
+    },
+    {
+      "id": "01:00017/00004:sprite:000",
+      "source_sha256": "a51eb4f42b11bb125d5b402348475b6f699ef39a59577ffc01b25ba1c27c0b26",
+      "source_image_path": "01_00017_00004_sprite_000.png",
+      "target_text": "VS Azlier's Imperial Army",
+      "generated_key": "title_00017",
+      "type": "title"
+    },
+    {
+      "id": "01:00018/00004:sprite:000",
+      "source_sha256": "f9a19b88cdcbdae6a20246a463201a973f847536e6272a7167f143d9a1b58c9a",
+      "source_image_path": "01_00018_00004_sprite_000.png",
+      "target_text": "VS Jilcooda Summoned Insects",
+      "generated_key": "title_00018",
+      "type": "title"
+    },
+    {
+      "id": "01:00044/00004:sprite:000",
+      "source_sha256": "b2b4794e4931f183b94a7a2058c1a8ef64fcf65be30f3d309b17b586a94ba776",
+      "source_image_path": "01_00044_00004_sprite_000.png",
+      "target_text": "VS Jilcooda Summoned Insects",
+      "generated_key": "title_00018",
+      "type": "title"
+    },
+    {
+      "id": "01:00019/00004:sprite:000",
+      "source_sha256": "5fa9c753b072b1333cb4a425b30a62d4a2c6495e1396d6b2af0200aabde2486e",
+      "source_image_path": "01_00019_00004_sprite_000.png",
+      "target_text": "VS Jilcooda & the Insect Queen",
+      "generated_key": "title_00019",
+      "type": "title"
+    },
+    {
+      "id": "01:00023/00004:sprite:000",
+      "source_sha256": "50b8fdc26a53705428f38eb3d5f26efb180641b28e396a99aff5fd862f6a5639",
+      "source_image_path": "01_00023_00004_sprite_000.png",
+      "target_text": "VS Imperial Army",
+      "generated_key": "title_00023",
+      "type": "title"
+    },
+    {
+      "id": "01:00025/00004:sprite:000",
+      "source_sha256": "6f3469e6fec2087ffc9b691350570465a1e105af9b21cef6d1d21a42b19de75a",
+      "source_image_path": "01_00025_00004_sprite_000.png",
+      "target_text": "VS Undead Summoners",
+      "generated_key": "title_00025",
+      "type": "title"
+    },
+    {
+      "id": "01:00026/00004:sprite:000",
+      "source_sha256": "e477ba8fb22807b497932c501767157204895fba800139de980d7b1de3901aad",
+      "source_image_path": "01_00026_00004_sprite_000.png",
+      "target_text": "VS Ishlar's Imperial Army",
+      "generated_key": "title_00026",
+      "type": "title"
+    },
+    {
+      "id": "01:00029/00004:sprite:000",
+      "source_sha256": "89fdb4dc55f59f70556a935b09c167dc7d2a2d82360753b63a43518556fceaa8",
+      "source_image_path": "01_00029_00004_sprite_000.png",
+      "target_text": "VS Colorless Faction",
+      "generated_key": "title_00029",
+      "type": "title"
+    },
+    {
+      "id": "01:00033/00004:sprite:000",
+      "source_sha256": "57b5798af95c20b8331e09adabf11b29d2f9ce227e6aa59857230012ea1fc848",
+      "source_image_path": "01_00033_00004_sprite_000.png",
+      "target_text": "VS Ordreik's Colorless Faction",
+      "generated_key": "title_00033",
+      "type": "title"
+    },
+    {
+      "id": "01:00034/00004:sprite:000",
+      "source_sha256": "bc25f684f3c0f94b4c0293e3b22b027097c1750015224ef73aff460740d60fc9",
+      "source_image_path": "01_00034_00004_sprite_000.png",
+      "target_text": "VS Ishlar & the Undead",
+      "generated_key": "title_00034",
+      "type": "title"
+    },
+    {
+      "id": "01:00035/00004:sprite:000",
+      "source_sha256": "531e5eeb3ae68fd4d445a39672c921cae4f2bdeaf480087c666952c9470be114",
+      "source_image_path": "01_00035_00004_sprite_000.png",
+      "target_text": "VS The Undead",
+      "generated_key": "title_00035",
+      "type": "title"
+    },
+    {
+      "id": "01:00036/00004:sprite:000",
+      "source_sha256": "c024aaf835d68446c901be3dae75186f618fe7f02f945f627be7382f81f5f6ee",
+      "source_image_path": "01_00036_00004_sprite_000.png",
+      "target_text": "VS Heinel's Dielgo",
+      "generated_key": "title_00036",
+      "type": "title"
+    },
+    {
+      "id": "01:00043/00004:sprite:000",
+      "source_sha256": "ff8c101862add7c1f60da954a0397ded8ddd47fec92ff742ca9888cb2d022f65",
+      "source_image_path": "01_00043_00004_sprite_000.png",
+      "target_text": "VS Rogue Summon Beasts",
+      "generated_key": "title_00043",
+      "type": "title"
+    },
+    {
+      "id": "01:00063/00004:sprite:000",
+      "source_sha256": "e518415eded780900d9b555184c24db9a3ac149b1f4c0fd6e9d21015f8ccfabf",
+      "source_image_path": "01_00063_00004_sprite_000.png",
+      "target_text": "VS Rogue Summon Beasts",
+      "generated_key": "title_00043",
+      "type": "title"
+    },
+    {
+      "id": "01:00045/00004:sprite:000",
+      "source_sha256": "ddaaef202594deab47a20997e09b05bcc69e9c0a873b1411fd179f57e4567c3a",
+      "source_image_path": "01_00045_00004_sprite_000.png",
+      "target_text": "VS Cunnon",
+      "generated_key": "title_00045",
+      "type": "title"
+    },
+    {
+      "id": "01:00046/00004:sprite:000",
+      "source_sha256": "bb30b6dcc2da2b7eb569665c522f6b3f3f89b71f4bd3a94b7107df6a014d55ef",
+      "source_image_path": "01_00046_00004_sprite_000.png",
+      "target_text": "VS Pirate Ghosts",
+      "generated_key": "title_00046",
+      "type": "title"
+    },
+    {
+      "id": "01:00047/00004:sprite:000",
+      "source_sha256": "b66b17380f46e2dd7822763ac27135b2b99a6892bc67c76f39da1ace6c19e691",
+      "source_image_path": "01_00047_00004_sprite_000.png",
+      "target_text": "VS VAR-Xe-LD",
+      "generated_key": "title_00047",
+      "type": "title"
+    },
+    {
+      "id": "01:00048/00004:sprite:000",
+      "source_sha256": "f0d069b3ab67ba4574d5e09da06ef6b9d5686e270feca19bebdb0969b5c0c6cf",
+      "source_image_path": "01_00048_00004_sprite_000.png",
+      "target_text": "VS Ishlar",
+      "generated_key": "title_00048",
+      "type": "title"
+    },
+    {
+      "id": "01:00053/00004:sprite:000",
+      "source_sha256": "cb8df90c9971b2abb3d4803ccc842dfa9d454fd4dc90c5c72440455e8ce3f38e",
+      "source_image_path": "01_00053_00004_sprite_000.png",
+      "target_text": "VS Marurur & the Islanders",
+      "generated_key": "title_00053",
+      "type": "title"
+    },
+    {
+      "id": "01:00054/00004:sprite:000",
+      "source_sha256": "712d256a3ae1f601e79cdf564165c7be3535656c45e1d39b4ffad5565e33f253",
+      "source_image_path": "01_00054_00004_sprite_000.png",
+      "target_text": "VS Mysterious Shadow",
+      "generated_key": "title_00054",
+      "type": "title"
+    },
+    {
+      "id": "01:00060/00004:sprite:000",
+      "source_sha256": "270584ec221b98bee8a4cdfc1dd162dfca40b0e0ebc80850f680c687b8971f4a",
+      "source_image_path": "01_00060_00004_sprite_000.png",
+      "target_text": "VS Shadow of Primal Sin",
+      "generated_key": "title_00060",
+      "type": "title"
+    },
+    {
+      "id": "01:00009/00003:sprite:000",
+      "source_sha256": "d34cd280f3603f3303ea727e0a104431f5ffd80f256612c5cff7670cdd996f06",
+      "source_image_path": "01_00009_00003_sprite_000.png",
+      "target_text": "HERO OR SONOLAR\nDEFEATED",
+      "generated_key": "loss_00009",
+      "type": "condition"
+    },
+    {
+      "id": "01:00010/00003:sprite:000",
+      "source_sha256": "c7208a620cda1d99e8036c18c68457ad168bf7a901691e3106bd53881114c987",
+      "source_image_path": "01_00010_00003_sprite_000.png",
+      "target_text": "HERO OR KYLE\nDEFEATED",
+      "generated_key": "loss_00010",
+      "type": "condition"
+    },
+    {
+      "id": "01:00015/00003:sprite:000",
+      "source_sha256": "1507fe6be3fb8a779578ad0abe17516708b701f5e47eae93ea6e0f622e9de98d",
+      "source_image_path": "01_00015_00003_sprite_000.png",
+      "target_text": "HERO OR GUARDIAN\nDEFEATED",
+      "generated_key": "loss_00015",
+      "type": "condition"
+    },
+    {
+      "id": "01:00017/00003:sprite:000",
+      "source_sha256": "86ce1ded8df0d90ee5785e7c60268fc237f4b31c83850105aa2e872446d9d1cc",
+      "source_image_path": "01_00017_00003_sprite_000.png",
+      "target_text": "HERO OR PUPIL\nDEFEATED",
+      "generated_key": "loss_00017",
+      "type": "condition"
+    },
+    {
+      "id": "01:00029/00003:sprite:000",
+      "source_sha256": "0f6c5e893aee03782afc96705ad45ffa1392d567d8bbf47deeb93e9a8b81c602",
+      "source_image_path": "01_00029_00003_sprite_000.png",
+      "target_text": "HERO, AZLIER OR\nGALLEOR DEFEATED",
+      "generated_key": "loss_00029",
+      "type": "condition"
+    },
+    {
+      "id": "01:00030/00003:sprite:000",
+      "source_sha256": "727a65892e2bc8ed696ad611f3d61dbee57b2214bdc28861380e832ff6ba40e7",
+      "source_image_path": "01_00030_00003_sprite_000.png",
+      "target_text": "HERO, SCARREL OR\nYARD DEFEATED",
+      "generated_key": "loss_00030",
+      "type": "condition"
+    },
+    {
+      "id": "01:00043/00003:sprite:000",
+      "source_sha256": "e15be795e69ad6c575fb500ac9162fcb4f5b5d6905306f8593017123388f457b",
+      "source_image_path": "01_00043_00003_sprite_000.png",
+      "target_text": "HERO OR PHLAIZ\nDEFEATED",
+      "generated_key": "loss_00043",
+      "type": "condition"
+    },
+    {
+      "id": "01:00044/00003:sprite:000",
+      "source_sha256": "33dfb5a9c1fa3b18b2226048da9cc07a9ba7b12f93fd51898ba7cf8eb06bd5cb",
+      "source_image_path": "01_00044_00003_sprite_000.png",
+      "target_text": "HERO OR CUNNON\nDEFEATED",
+      "generated_key": "loss_00044",
+      "type": "condition"
+    },
+    {
+      "id": "01:00045/00003:sprite:000",
+      "source_sha256": "9f3e3aea42c3135feaac7c20b99aa9da0023fc3af9ee5b614a61c52df18e6f18",
+      "source_image_path": "01_00045_00003_sprite_000.png",
+      "target_text": "HERO OR ARDYLLIA\nDEFEATED",
+      "generated_key": "loss_00045",
+      "type": "condition"
+    },
+    {
+      "id": "01:00046/00003:sprite:000",
+      "source_sha256": "5706a717a6185e908056153aeb7cc06a637ac56e6fc95e3021f637c9aa63f9b3",
+      "source_image_path": "01_00046_00003_sprite_000.png",
+      "target_text": "HERO OR JAKINIE\nDEFEATED",
+      "generated_key": "loss_00046",
+      "type": "condition"
+    },
+    {
+      "id": "01:00048/00003:sprite:000",
+      "source_sha256": "219105ad0951548e7e4003d785acbd6652276e574b8bfa5ab8cb2b9acf5f73e1",
+      "source_image_path": "01_00048_00003_sprite_000.png",
+      "target_text": "HERO OR AZLIER\nDEFEATED",
+      "generated_key": "loss_00048",
+      "type": "condition"
+    },
+    {
+      "id": "01:00049/00003:sprite:000",
+      "source_sha256": "6beaf8a8e0581cc9f9205b7be398ab1644e2552aef52804a7dc853912704692c",
+      "source_image_path": "01_00049_00003_sprite_000.png",
+      "target_text": "HERO OR OUKINIE\nDEFEATED",
+      "generated_key": "loss_00049",
+      "type": "condition"
+    },
+    {
+      "id": "01:00063/00003:sprite:000",
+      "source_sha256": "5792eaa179b3b7e205a9322309563783683317ff04a48381b186b2350e8de15c",
+      "source_image_path": "01_00063_00003_sprite_000.png",
+      "target_text": "ALL ALLIES\nDEFEATED",
+      "generated_key": "loss_00063",
+      "type": "condition"
+    }
+  ]
+}

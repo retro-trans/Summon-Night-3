@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "scope": "Selected related UI packs; decoded source graphics, not translated images.",
+  "resources": [
+    {
+      "id": "02:00125",
+      "source_sha256": "cd59c8d642ef799929a245ed7d750e235833baeec6c33ede9f999ec54ac17727",
+      "decoded_sha256": "cd59c8d642ef799929a245ed7d750e235833baeec6c33ede9f999ec54ac17727",
+      "compressed_key": null,
+      "children": 3
+    }
+  ],
+  "textures": [
+    {
+      "id": "02:00125/00001:sprite:000",
+      "resource_id": "02:00125/00001",
+      "source_sha256": "0b32399800b432555a77b6a03f194cdd505caa8ec3bc6b771b3b40c3f2509a67",
+      "resource_offset_in_pack": 4096,
+      "offset_space": "raw_pack",
+      "number": 0,
+      "width": 240,
+      "height": 40,
+      "texture_width": 256,
+      "texture_height": 64,
+      "pitch": 256,
+      "data_offset": 112,
+      "data_size": 5120,
+      "format": 4,
+      "palette": 0,
+      "palette_base": 5232,
+      "swizzled": 1,
+      "flags": 3,
+      "descriptor_offset": 68,
+      "image_file": "02_00125_00001_sprite_000.png",
+      "image_sha256": "151a5a9f615d386e89e7ba4f12f5c009f7477eeda91c3f320c5d15f6a5e7fb67"
+    },
+    {
+      "id": "02:00125/00002:sprite:000",
+      "resource_id": "02:00125/00002",
+      "source_sha256": "b181e9bf3324b9f79d968f130cbbc84bf4159b043130e54788a5830b3e010748",
+      "resource_offset_in_pack": 10240,
+      "offset_space": "raw_pack",
+      "number": 0,
+      "width": 304,
+      "height": 88,
+      "texture_width": 512,
+      "texture_height": 128,
+      "pitch": 304,
+      "data_offset": 112,
+      "data_size": 26752,
+      "format": 5,
+      "palette": 0,
+      "palette_base": 26864,
+      "swizzled": 1,
+      "flags": 3,
+      "descriptor_offset": 68,
+      "image_file": "02_00125_00002_sprite_000.png",
+      "image_sha256": "bb70e9a9ee32f4d12624d41066bbcfadc370b8564a6f4436333b8849e4a76358"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "02:00125/00000",
+      "reason": "Not a supported static texture resource",
+      "header_hex": "01000000012121000010012105220000"
+    }
+  ],
+  "contact_sheet_scope": "Unique decoded images wider than 32 or taller than 64 pixels; all individual images remain indexed.",
+  "contact_image_count": 2,
+  "contact_sheets": [
+    "contact_00.jpg"
+  ]
+}

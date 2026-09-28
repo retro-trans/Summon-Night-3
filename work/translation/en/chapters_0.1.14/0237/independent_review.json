@@ -1,0 +1,88 @@
+{
+  "resource_id": "00:00237",
+  "review_type": "independent_meaning_review",
+  "semantic_complete": true,
+  "reviewed_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+  ],
+  "reviewed_slices": [
+    {
+      "target_file": "work/translation/en/chapters_0.1.14/0237/slice_0011.targets.json",
+      "target_file_sha256": "b7ad643c21e7a13748b6e3ee845249b7587f03d030c02b78b74b2f685315a63f",
+      "assigned_range": [
+        11,
+        57
+      ],
+      "translation_count": 47
+    }
+  ],
+  "corrections": [
+    {
+      "resource_row": 51,
+      "source_sha256": "53ddb715927799eea567f2e10375e6a05b019e2ab29180c9e4245dcf983780b7",
+      "text": "The weight of what he's done..."
+    },
+    {
+      "resource_row": 55,
+      "source_sha256": "53ddb715927799eea567f2e10375e6a05b019e2ab29180c9e4245dcf983780b7",
+      "text": "The weight of what he's done..."
+    }
+  ],
+  "uncertainties": [],
+  "rows_examined": {
+    "physical_ranges_inclusive": [
+      [
+        0,
+        57
+      ]
+    ],
+    "count": 58
+  },
+  "method": "Independent reviewer read each target against the original Japanese and the full local conversation. Scope covers only physical dialogue rows 11 onward; first eleven system rows examined as context, not included in semantic coverage. Consecutive target slices have at most 80 rows. Acceptable variants left unchanged; corrections focus on meaning. No machine translation service used."
+}

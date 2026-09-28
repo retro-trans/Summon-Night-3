@@ -1,0 +1,1326 @@
+{
+  "schema_version": 1,
+  "profile": "existing_latin_ink_spacing_experiment_v1",
+  "status": "Measured source ink; advances are a proposed policy, not a production font patch.",
+  "source_elf_sha256": "82cc184377986d90d298ee4918fb11bd0e3524659e5c6f8b7b3c859f4d232684",
+  "font_resource_sha256": "0db773359358341c6d4f235d6db74fd1096e0dd5164ab199adbaf8a4845af9e2",
+  "font_resources": [
+    "00:00044/00004/00000",
+    "02:00004/00000"
+  ],
+  "map_module_address": "0x226000",
+  "glyph_dimensions": [
+    16,
+    16
+  ],
+  "bits_per_pixel": 4,
+  "nibble_order": "low nibble is the left pixel",
+  "font_payload_bytes": 471040,
+  "font_glyph_count": 3680,
+  "native_glyph_draw_size_unchanged": true,
+  "spacing_policy": "One blank pixel after inclusive ink bounds; ordinary space advances five pixels.",
+  "characters": {
+    " ": {
+      "cp932_hex": "8140",
+      "glyph_index": 1,
+      "font_byte_offset": 28,
+      "glyph_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca",
+      "ink_bounds_inclusive": null,
+      "proposed_advance_pixels": 5,
+      "proposed_center_offset_pixels": 8
+    },
+    "!": {
+      "cp932_hex": "8149",
+      "glyph_index": 10,
+      "font_byte_offset": 1180,
+      "glyph_sha256": "0bf3a78d5a7e766f70ed5dff6e31b4860afd110ee5b82396692469996ed3722e",
+      "ink_bounds_inclusive": [
+        6,
+        1,
+        7,
+        13
+      ],
+      "proposed_advance_pixels": 3,
+      "proposed_center_offset_pixels": 2
+    },
+    "\"": {
+      "cp932_hex": "8168",
+      "glyph_index": 41,
+      "font_byte_offset": 5148,
+      "glyph_sha256": "323f270d67947968237ac3105b3a44412f9be2fbbfcf794125c7a23ea9c1cd47",
+      "ink_bounds_inclusive": [
+        1,
+        0,
+        5,
+        3
+      ],
+      "proposed_advance_pixels": 6,
+      "proposed_center_offset_pixels": 7
+    },
+    "#": {
+      "cp932_hex": "8194",
+      "glyph_index": 84,
+      "font_byte_offset": 10652,
+      "glyph_sha256": "e1feadc1fa0e7689888eb11188d632eac64a7ad84d40b0a786f1ccd8f6143115",
+      "ink_bounds_inclusive": [
+        2,
+        1,
+        12,
+        13
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "$": {
+      "cp932_hex": "8190",
+      "glyph_index": 80,
+      "font_byte_offset": 10140,
+      "glyph_sha256": "a3e0a5ef03e59872270d37db3373802a97a1f1c489508e3df95f0f54d792f538",
+      "ink_bounds_inclusive": [
+        3,
+        0,
+        12,
+        14
+      ],
+      "proposed_advance_pixels": 11,
+      "proposed_center_offset_pixels": 5
+    },
+    "%": {
+      "cp932_hex": "8193",
+      "glyph_index": 83,
+      "font_byte_offset": 10524,
+      "glyph_sha256": "4d69261d01a20d9e088b51c2d467922fed7bbce7286468bb2f60ced4572f1b88",
+      "ink_bounds_inclusive": [
+        1,
+        1,
+        13,
+        13
+      ],
+      "proposed_advance_pixels": 14,
+      "proposed_center_offset_pixels": 7
+    },
+    "&": {
+      "cp932_hex": "8195",
+      "glyph_index": 85,
+      "font_byte_offset": 10780,
+      "glyph_sha256": "474035354038b9951a2a2f05f8583f8e129230dfbc4918e6485692f01d490c0b",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        12,
+        13
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "'": {
+      "cp932_hex": "8166",
+      "glyph_index": 39,
+      "font_byte_offset": 4892,
+      "glyph_sha256": "d36750aad0fdcde98c324ecf76580b88720d0656fa6a1c6f6c49f932591442d4",
+      "ink_bounds_inclusive": [
+        1,
+        0,
+        3,
+        3
+      ],
+      "proposed_advance_pixels": 4,
+      "proposed_center_offset_pixels": 7
+    },
+    "(": {
+      "cp932_hex": "8169",
+      "glyph_index": 42,
+      "font_byte_offset": 5276,
+      "glyph_sha256": "a58dc656e3b68fbbd8a7608db2ac29f92abc1f347849b6e30c5487254cdb8874",
+      "ink_bounds_inclusive": [
+        10,
+        0,
+        14,
+        13
+      ],
+      "proposed_advance_pixels": 6,
+      "proposed_center_offset_pixels": -2
+    },
+    ")": {
+      "cp932_hex": "816a",
+      "glyph_index": 43,
+      "font_byte_offset": 5404,
+      "glyph_sha256": "5a017f331d199a36c6a3d5ad648a6b16a1b98715b5c35242526fefb25a6943e0",
+      "ink_bounds_inclusive": [
+        0,
+        0,
+        4,
+        13
+      ],
+      "proposed_advance_pixels": 6,
+      "proposed_center_offset_pixels": 8
+    },
+    "*": {
+      "cp932_hex": "8196",
+      "glyph_index": 86,
+      "font_byte_offset": 10908,
+      "glyph_sha256": "641dff88ca3059acc3dc053fa3d1b618b593bc8e6637678c2c0368b59291e005",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        10,
+        11
+      ],
+      "proposed_advance_pixels": 9,
+      "proposed_center_offset_pixels": 5
+    },
+    "+": {
+      "cp932_hex": "817b",
+      "glyph_index": 60,
+      "font_byte_offset": 7580,
+      "glyph_sha256": "7916bd69a6b45559fd4c10da2cac4eee982aba0e836936ff87b0af4714f0c4d5",
+      "ink_bounds_inclusive": [
+        2,
+        2,
+        13,
+        12
+      ],
+      "proposed_advance_pixels": 13,
+      "proposed_center_offset_pixels": 6
+    },
+    ",": {
+      "cp932_hex": "8143",
+      "glyph_index": 4,
+      "font_byte_offset": 412,
+      "glyph_sha256": "8370a02f43de88620b56c56eeaa87435227a428a571683d060558cb8a8c57c3f",
+      "ink_bounds_inclusive": [
+        1,
+        11,
+        3,
+        14
+      ],
+      "proposed_advance_pixels": 4,
+      "proposed_center_offset_pixels": 7
+    },
+    "-": {
+      "cp932_hex": "817c",
+      "glyph_index": 61,
+      "font_byte_offset": 7708,
+      "glyph_sha256": "6140078caa4b5568fef84ad72bb47216892278e2802feaaecbe75a573377ec28",
+      "ink_bounds_inclusive": [
+        2,
+        6,
+        12,
+        7
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    ".": {
+      "cp932_hex": "8144",
+      "glyph_index": 5,
+      "font_byte_offset": 540,
+      "glyph_sha256": "aed13ccf30268bcd202fc50eb5dfb50381dbdbe823a308f2e8b0fd64ecbad464",
+      "ink_bounds_inclusive": [
+        1,
+        10,
+        2,
+        12
+      ],
+      "proposed_advance_pixels": 3,
+      "proposed_center_offset_pixels": 7
+    },
+    "/": {
+      "cp932_hex": "815e",
+      "glyph_index": 31,
+      "font_byte_offset": 3868,
+      "glyph_sha256": "debad2b210e14c5a3feab96a58bf046691a6e2df3af0c3f9e53752bb769719b6",
+      "ink_bounds_inclusive": [
+        0,
+        0,
+        14,
+        13
+      ],
+      "proposed_advance_pixels": 16,
+      "proposed_center_offset_pixels": 8
+    },
+    "0": {
+      "cp932_hex": "824f",
+      "glyph_index": 148,
+      "font_byte_offset": 18844,
+      "glyph_sha256": "e79df43cbe36cec9b2d7d5ba0d84ed736b1655e4c21d20e9e226bd24ebf62534",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        12,
+        13
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "1": {
+      "cp932_hex": "8250",
+      "glyph_index": 149,
+      "font_byte_offset": 18972,
+      "glyph_sha256": "6cc6396934bb269bfa43aee1a3c6f7c2f743359382bc6db020ab24734c60136a",
+      "ink_bounds_inclusive": [
+        4,
+        0,
+        8,
+        12
+      ],
+      "proposed_advance_pixels": 6,
+      "proposed_center_offset_pixels": 4
+    },
+    "2": {
+      "cp932_hex": "8251",
+      "glyph_index": 150,
+      "font_byte_offset": 19100,
+      "glyph_sha256": "39a617872e0718a8054b814e31adbac65383438ba2793b9a4fe75f3309a8854c",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "3": {
+      "cp932_hex": "8252",
+      "glyph_index": 151,
+      "font_byte_offset": 19228,
+      "glyph_sha256": "a9356c8cab173b2cd065808781dd3be645ec73f1c974dc3e355d9452a34efbed",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        12,
+        13
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "4": {
+      "cp932_hex": "8253",
+      "glyph_index": 152,
+      "font_byte_offset": 19356,
+      "glyph_sha256": "ecbb708bcf2ae788c514ff4c257ee03e66e633d1591f87a1ef01ee74d8444fed",
+      "ink_bounds_inclusive": [
+        2,
+        1,
+        13,
+        13
+      ],
+      "proposed_advance_pixels": 13,
+      "proposed_center_offset_pixels": 6
+    },
+    "5": {
+      "cp932_hex": "8254",
+      "glyph_index": 153,
+      "font_byte_offset": 19484,
+      "glyph_sha256": "12a7bf6d09ff1f1089d7c677427e8ac278124971e2b02a9c128ba1e6ca94556c",
+      "ink_bounds_inclusive": [
+        2,
+        1,
+        12,
+        13
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "6": {
+      "cp932_hex": "8255",
+      "glyph_index": 154,
+      "font_byte_offset": 19612,
+      "glyph_sha256": "a2946f10a89e19bd700eef1e01f9b83a032735c14ee0b3d2acafef45e8058233",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        12,
+        13
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "7": {
+      "cp932_hex": "8256",
+      "glyph_index": 155,
+      "font_byte_offset": 19740,
+      "glyph_sha256": "dbc15d9214cae4d6e75298f34689a37bb7ac1d641e2aea5a127dc4eb8b75460b",
+      "ink_bounds_inclusive": [
+        2,
+        1,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "8": {
+      "cp932_hex": "8257",
+      "glyph_index": 156,
+      "font_byte_offset": 19868,
+      "glyph_sha256": "c5c5cc2b726caad0195f9081c1b0245ecd0602ac73a18766a9d0641994faf64f",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        12,
+        13
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "9": {
+      "cp932_hex": "8258",
+      "glyph_index": 157,
+      "font_byte_offset": 19996,
+      "glyph_sha256": "32e77b4df8fb0a35d37b0791ab37c19b4888b4d5dc8d31c77a555312ddddfe95",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        12,
+        13
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    ":": {
+      "cp932_hex": "8146",
+      "glyph_index": 7,
+      "font_byte_offset": 796,
+      "glyph_sha256": "6ca3ba85bcea15e018b48c8dc8d7dce23ea8e1ad54b21e708fec70fcbead9694",
+      "ink_bounds_inclusive": [
+        6,
+        3,
+        7,
+        11
+      ],
+      "proposed_advance_pixels": 3,
+      "proposed_center_offset_pixels": 2
+    },
+    ";": {
+      "cp932_hex": "8147",
+      "glyph_index": 8,
+      "font_byte_offset": 924,
+      "glyph_sha256": "ff87d9a1f0d9ed2593aed123f340a4a06757d36a68e8ad5964922b8bb31c937d",
+      "ink_bounds_inclusive": [
+        6,
+        3,
+        8,
+        12
+      ],
+      "proposed_advance_pixels": 4,
+      "proposed_center_offset_pixels": 2
+    },
+    "<": {
+      "cp932_hex": "8183",
+      "glyph_index": 67,
+      "font_byte_offset": 8476,
+      "glyph_sha256": "ba4167aae4b7da5452b193170364b48bc80566a01e219bc9d937f2488f88d755",
+      "ink_bounds_inclusive": [
+        2,
+        2,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "=": {
+      "cp932_hex": "8181",
+      "glyph_index": 65,
+      "font_byte_offset": 8220,
+      "glyph_sha256": "fe9f76d7a1af25d9a7920793fc7c778e7da0616275a57f791564f93b58dbb232",
+      "ink_bounds_inclusive": [
+        2,
+        5,
+        12,
+        9
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    ">": {
+      "cp932_hex": "8184",
+      "glyph_index": 68,
+      "font_byte_offset": 8604,
+      "glyph_sha256": "868ab46bd720838d24f6f36e92cb165c380f9994da67e27e411a3989c1aeec9a",
+      "ink_bounds_inclusive": [
+        2,
+        2,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "?": {
+      "cp932_hex": "8148",
+      "glyph_index": 9,
+      "font_byte_offset": 1052,
+      "glyph_sha256": "864ec44323ff6854b6fae0c15626e81a9ad43fb2bd0d5099f856503e3847de25",
+      "ink_bounds_inclusive": [
+        3,
+        1,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "@": {
+      "cp932_hex": "8197",
+      "glyph_index": 87,
+      "font_byte_offset": 11036,
+      "glyph_sha256": "8b6dce29edeff3021d6897e0c7861ca10a2447693778c3470c0762bf0a77bb90",
+      "ink_bounds_inclusive": [
+        1,
+        1,
+        13,
+        13
+      ],
+      "proposed_advance_pixels": 14,
+      "proposed_center_offset_pixels": 7
+    },
+    "A": {
+      "cp932_hex": "8260",
+      "glyph_index": 158,
+      "font_byte_offset": 20124,
+      "glyph_sha256": "a97d38ea154303d0b6ce925b7d22a91b9088286c2499523f4abdde2642d8588e",
+      "ink_bounds_inclusive": [
+        1,
+        0,
+        13,
+        13
+      ],
+      "proposed_advance_pixels": 14,
+      "proposed_center_offset_pixels": 7
+    },
+    "B": {
+      "cp932_hex": "8261",
+      "glyph_index": 159,
+      "font_byte_offset": 20252,
+      "glyph_sha256": "3043e35fe4230c71db592bf78c2fea0c3d4f1c1a5371d5076880bc3182bacf4a",
+      "ink_bounds_inclusive": [
+        3,
+        1,
+        13,
+        12
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 5
+    },
+    "C": {
+      "cp932_hex": "8262",
+      "glyph_index": 160,
+      "font_byte_offset": 20380,
+      "glyph_sha256": "6593cdbd6dd00a00fc3b512cf70400fc476627b1a0ab773384b859a3538d9bad",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        13,
+        13
+      ],
+      "proposed_advance_pixels": 13,
+      "proposed_center_offset_pixels": 6
+    },
+    "D": {
+      "cp932_hex": "8263",
+      "glyph_index": 161,
+      "font_byte_offset": 20508,
+      "glyph_sha256": "7417f4523201c06ddbcd8f506ec6b7a15e4851f83a4ac1ee30479f619e03a404",
+      "ink_bounds_inclusive": [
+        2,
+        1,
+        13,
+        12
+      ],
+      "proposed_advance_pixels": 13,
+      "proposed_center_offset_pixels": 6
+    },
+    "E": {
+      "cp932_hex": "8264",
+      "glyph_index": 162,
+      "font_byte_offset": 20636,
+      "glyph_sha256": "9e6bb56c50160a75bd98cf8b754caf5fa622e544e8efaea571823e5794d26a87",
+      "ink_bounds_inclusive": [
+        3,
+        1,
+        11,
+        12
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "F": {
+      "cp932_hex": "8265",
+      "glyph_index": 163,
+      "font_byte_offset": 20764,
+      "glyph_sha256": "861d71ced5fbdcc647709b45f2e6f630a0e91226c034219725f19b40c6b8c8ef",
+      "ink_bounds_inclusive": [
+        3,
+        1,
+        11,
+        12
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "G": {
+      "cp932_hex": "8266",
+      "glyph_index": 164,
+      "font_byte_offset": 20892,
+      "glyph_sha256": "f4321895af277a7a8eab1182ac61b886231bf933c3c62b62cd4eb60cbcf2c834",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        13,
+        13
+      ],
+      "proposed_advance_pixels": 13,
+      "proposed_center_offset_pixels": 6
+    },
+    "H": {
+      "cp932_hex": "8267",
+      "glyph_index": 165,
+      "font_byte_offset": 21020,
+      "glyph_sha256": "7050e41224ac4caf8379374e8eb18c29b2598ab0a5ffa82d853ea7052ac2c490",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "I": {
+      "cp932_hex": "8268",
+      "glyph_index": 166,
+      "font_byte_offset": 21148,
+      "glyph_sha256": "1e3a2188d22bdfd2b43a2b13e5fb956233e1b5108e807223b1478ee18b9ea528",
+      "ink_bounds_inclusive": [
+        7,
+        0,
+        8,
+        12
+      ],
+      "proposed_advance_pixels": 3,
+      "proposed_center_offset_pixels": 1
+    },
+    "J": {
+      "cp932_hex": "8269",
+      "glyph_index": 167,
+      "font_byte_offset": 21276,
+      "glyph_sha256": "23f96a434a62cb1e708f9e1abc15e1ff3cd138d0b9895b5a2e00bb14d5d3bda2",
+      "ink_bounds_inclusive": [
+        3,
+        0,
+        10,
+        13
+      ],
+      "proposed_advance_pixels": 9,
+      "proposed_center_offset_pixels": 5
+    },
+    "K": {
+      "cp932_hex": "826a",
+      "glyph_index": 168,
+      "font_byte_offset": 21404,
+      "glyph_sha256": "47bfd08ba5169fc8a3e2a1e42365ffd98ef5bd9342121d38c78d167a057192fc",
+      "ink_bounds_inclusive": [
+        3,
+        0,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 11,
+      "proposed_center_offset_pixels": 5
+    },
+    "L": {
+      "cp932_hex": "826b",
+      "glyph_index": 169,
+      "font_byte_offset": 21532,
+      "glyph_sha256": "5b491a6f6a631c290948ed0700171321f4fccf4f31fa0ba8c6ec0d7fbe4e266d",
+      "ink_bounds_inclusive": [
+        4,
+        0,
+        11,
+        12
+      ],
+      "proposed_advance_pixels": 9,
+      "proposed_center_offset_pixels": 4
+    },
+    "M": {
+      "cp932_hex": "826c",
+      "glyph_index": 170,
+      "font_byte_offset": 21660,
+      "glyph_sha256": "af0ccc7174ababc1b0613da216c89869687bd22496375011fcac6a0f3721ec49",
+      "ink_bounds_inclusive": [
+        1,
+        1,
+        13,
+        13
+      ],
+      "proposed_advance_pixels": 14,
+      "proposed_center_offset_pixels": 7
+    },
+    "N": {
+      "cp932_hex": "826d",
+      "glyph_index": 171,
+      "font_byte_offset": 21788,
+      "glyph_sha256": "cae16d0fcda9f51b59beee93e9bf1b1fbf6df86a12f4d9361d3a6d1f32430e97",
+      "ink_bounds_inclusive": [
+        2,
+        1,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "O": {
+      "cp932_hex": "826e",
+      "glyph_index": 172,
+      "font_byte_offset": 21916,
+      "glyph_sha256": "749b2ff4ab150f926df67e21b1d86e961cda97f965a2bccd46b0fa4c4a8fcbbf",
+      "ink_bounds_inclusive": [
+        1,
+        0,
+        13,
+        13
+      ],
+      "proposed_advance_pixels": 14,
+      "proposed_center_offset_pixels": 7
+    },
+    "P": {
+      "cp932_hex": "826f",
+      "glyph_index": 173,
+      "font_byte_offset": 22044,
+      "glyph_sha256": "fc2fa2627c5766d0e95590ef4f36dec5631dcf0a352f15694e4f780eec39c7d5",
+      "ink_bounds_inclusive": [
+        3,
+        1,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 11,
+      "proposed_center_offset_pixels": 5
+    },
+    "Q": {
+      "cp932_hex": "8270",
+      "glyph_index": 174,
+      "font_byte_offset": 22172,
+      "glyph_sha256": "66d889fe132832373786780db7f4a365783ca4c729b671c4c4f3ea14f467f987",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        13,
+        14
+      ],
+      "proposed_advance_pixels": 13,
+      "proposed_center_offset_pixels": 6
+    },
+    "R": {
+      "cp932_hex": "8271",
+      "glyph_index": 175,
+      "font_byte_offset": 22300,
+      "glyph_sha256": "e432b92ffcfbb6da9f116e141a77d9b5805ca46af272bb6ecf472080015a4a64",
+      "ink_bounds_inclusive": [
+        3,
+        1,
+        13,
+        12
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 5
+    },
+    "S": {
+      "cp932_hex": "8272",
+      "glyph_index": 176,
+      "font_byte_offset": 22428,
+      "glyph_sha256": "8ff88b87ac445e2b2a1180ec5009dfa9d4278df46f9ebdd796835bf90d75854f",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        12,
+        13
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "T": {
+      "cp932_hex": "8273",
+      "glyph_index": 177,
+      "font_byte_offset": 22556,
+      "glyph_sha256": "26600b0eea8d20539ff76166747350d54226408a7fa39fbd462a924e81113262",
+      "ink_bounds_inclusive": [
+        2,
+        1,
+        12,
+        13
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "U": {
+      "cp932_hex": "8274",
+      "glyph_index": 178,
+      "font_byte_offset": 22684,
+      "glyph_sha256": "56d51ca78749abba1ab966c5ac36afed649f8b1e83deeb50afbfc6afea568c20",
+      "ink_bounds_inclusive": [
+        3,
+        0,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "V": {
+      "cp932_hex": "8275",
+      "glyph_index": 179,
+      "font_byte_offset": 22812,
+      "glyph_sha256": "b3750f1b4183de0cab7203d504cdb0561f5801e203fa73dc23459a28c050b12f",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "W": {
+      "cp932_hex": "8276",
+      "glyph_index": 180,
+      "font_byte_offset": 22940,
+      "glyph_sha256": "062ceb2793ffb7b75a83b3e06e5d6189921e2adbe57c568d35ae7285720d215f",
+      "ink_bounds_inclusive": [
+        0,
+        0,
+        14,
+        12
+      ],
+      "proposed_advance_pixels": 16,
+      "proposed_center_offset_pixels": 8
+    },
+    "X": {
+      "cp932_hex": "8277",
+      "glyph_index": 181,
+      "font_byte_offset": 23068,
+      "glyph_sha256": "7fc13c2793f13b0f507da5c3ea1156908ce5b8da3ee2ac57aab0cfc7e68da24e",
+      "ink_bounds_inclusive": [
+        2,
+        0,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "Y": {
+      "cp932_hex": "8278",
+      "glyph_index": 182,
+      "font_byte_offset": 23196,
+      "glyph_sha256": "c7414d66c33025c3b35e967af0efc2a9bfebdf5868173030b252e110da479839",
+      "ink_bounds_inclusive": [
+        1,
+        0,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 13,
+      "proposed_center_offset_pixels": 7
+    },
+    "Z": {
+      "cp932_hex": "8279",
+      "glyph_index": 183,
+      "font_byte_offset": 23324,
+      "glyph_sha256": "18ffe74e80170935f5a5224c54c73631109dee56cdfee8208a645940f75c3592",
+      "ink_bounds_inclusive": [
+        2,
+        1,
+        12,
+        12
+      ],
+      "proposed_advance_pixels": 12,
+      "proposed_center_offset_pixels": 6
+    },
+    "\\": {
+      "cp932_hex": "815f",
+      "glyph_index": 32,
+      "font_byte_offset": 3996,
+      "glyph_sha256": "a602661c3c23316ce5ce71287af5ffe1f15d97eaa08a4c2d2d8f9b2c3cce7882",
+      "ink_bounds_inclusive": [
+        0,
+        0,
+        14,
+        13
+      ],
+      "proposed_advance_pixels": 16,
+      "proposed_center_offset_pixels": 8
+    },
+    "^": {
+      "cp932_hex": "814f",
+      "glyph_index": 16,
+      "font_byte_offset": 1948,
+      "glyph_sha256": "cce352d0fc2fb2ce8f0c2df8e6ee266675fb34dde3915ece73df3c6246ecbf4f",
+      "ink_bounds_inclusive": [
+        5,
+        0,
+        9,
+        2
+      ],
+      "proposed_advance_pixels": 6,
+      "proposed_center_offset_pixels": 3
+    },
+    "_": {
+      "cp932_hex": "8151",
+      "glyph_index": 18,
+      "font_byte_offset": 2204,
+      "glyph_sha256": "ac7a8180cbf6f5a9209a84b0ff8089a42361b2eaefbc369f773a083de51aad67",
+      "ink_bounds_inclusive": [
+        0,
+        14,
+        14,
+        14
+      ],
+      "proposed_advance_pixels": 16,
+      "proposed_center_offset_pixels": 8
+    },
+    "`": {
+      "cp932_hex": "814d",
+      "glyph_index": 14,
+      "font_byte_offset": 1692,
+      "glyph_sha256": "361e8c1ca0d0089de3ffac5976460296a0751bd85ffc9facb4532a4a95412ab3",
+      "ink_bounds_inclusive": [
+        5,
+        0,
+        9,
+        2
+      ],
+      "proposed_advance_pixels": 6,
+      "proposed_center_offset_pixels": 3
+    },
+    "a": {
+      "cp932_hex": "8281",
+      "glyph_index": 184,
+      "font_byte_offset": 23452,
+      "glyph_sha256": "8164b9d55587c0448d252279a4a6f5770ca7aa9c9f97512fc1232d68372ef2d5",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "b": {
+      "cp932_hex": "8282",
+      "glyph_index": 185,
+      "font_byte_offset": 23580,
+      "glyph_sha256": "331bd0f7672685fe24236aed7e82b8ca13a24250219a56bd3df4ef90f13cddf5",
+      "ink_bounds_inclusive": [
+        3,
+        0,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "c": {
+      "cp932_hex": "8283",
+      "glyph_index": 186,
+      "font_byte_offset": 23708,
+      "glyph_sha256": "cc4d8f2b3cd7469dbc43fea1e10c42568db0fd278af9b681dc0f2d9cea014ae8",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "d": {
+      "cp932_hex": "8284",
+      "glyph_index": 187,
+      "font_byte_offset": 23836,
+      "glyph_sha256": "52553cb7ca0685525b12a29a8683af5532c56fed7edd7c76d1c0c41dff4d6835",
+      "ink_bounds_inclusive": [
+        3,
+        0,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "e": {
+      "cp932_hex": "8285",
+      "glyph_index": 188,
+      "font_byte_offset": 23964,
+      "glyph_sha256": "99ec6bff644fd7b730e3677a7574d439458b557f21eb53cdfa5d46c5ffc89063",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        12,
+        13
+      ],
+      "proposed_advance_pixels": 11,
+      "proposed_center_offset_pixels": 5
+    },
+    "f": {
+      "cp932_hex": "8286",
+      "glyph_index": 189,
+      "font_byte_offset": 24092,
+      "glyph_sha256": "986f83dab3eb02f830e78489995fb61003a8acd28bb265bb5da00a727f3766ec",
+      "ink_bounds_inclusive": [
+        5,
+        1,
+        10,
+        13
+      ],
+      "proposed_advance_pixels": 7,
+      "proposed_center_offset_pixels": 3
+    },
+    "g": {
+      "cp932_hex": "8287",
+      "glyph_index": 190,
+      "font_byte_offset": 24220,
+      "glyph_sha256": "69bb132664f783f01036783408a46e5fe22c78c13c6b6bf88f3947b5a3070e51",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        11,
+        14
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "h": {
+      "cp932_hex": "8288",
+      "glyph_index": 191,
+      "font_byte_offset": 24348,
+      "glyph_sha256": "58177933cbfc9cfea87516613479580945dae2845b655b3d5d1b636292a8f43f",
+      "ink_bounds_inclusive": [
+        3,
+        0,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "i": {
+      "cp932_hex": "8289",
+      "glyph_index": 192,
+      "font_byte_offset": 24476,
+      "glyph_sha256": "6f9f81a26ea864de714fb93c9b9ae58dbea1d649079a81e1a6e6efc309d0ac9d",
+      "ink_bounds_inclusive": [
+        6,
+        1,
+        8,
+        13
+      ],
+      "proposed_advance_pixels": 4,
+      "proposed_center_offset_pixels": 2
+    },
+    "j": {
+      "cp932_hex": "828a",
+      "glyph_index": 193,
+      "font_byte_offset": 24604,
+      "glyph_sha256": "ce61d4ffe119cc61a9b7d5c794e0f28a71c79dd6797c6908b6c985651f51bbd6",
+      "ink_bounds_inclusive": [
+        5,
+        1,
+        8,
+        14
+      ],
+      "proposed_advance_pixels": 5,
+      "proposed_center_offset_pixels": 3
+    },
+    "k": {
+      "cp932_hex": "828b",
+      "glyph_index": 194,
+      "font_byte_offset": 24732,
+      "glyph_sha256": "3fcb7bee4e9641fc015c15fc5d8824ec75f8c727eda8334a6d3c02249e2c3421",
+      "ink_bounds_inclusive": [
+        4,
+        0,
+        11,
+        12
+      ],
+      "proposed_advance_pixels": 9,
+      "proposed_center_offset_pixels": 4
+    },
+    "l": {
+      "cp932_hex": "828c",
+      "glyph_index": 195,
+      "font_byte_offset": 24860,
+      "glyph_sha256": "28854ebf691e82c54334844e67fff3968d72793b06cd79abb36122b2f3b7c757",
+      "ink_bounds_inclusive": [
+        6,
+        0,
+        7,
+        12
+      ],
+      "proposed_advance_pixels": 3,
+      "proposed_center_offset_pixels": 2
+    },
+    "m": {
+      "cp932_hex": "828d",
+      "glyph_index": 196,
+      "font_byte_offset": 24988,
+      "glyph_sha256": "4a7bdce3d3d075b780b6ce6631a34756f31a87ca8fb76a628027a096314157e8",
+      "ink_bounds_inclusive": [
+        1,
+        3,
+        13,
+        13
+      ],
+      "proposed_advance_pixels": 14,
+      "proposed_center_offset_pixels": 7
+    },
+    "n": {
+      "cp932_hex": "828e",
+      "glyph_index": 197,
+      "font_byte_offset": 25116,
+      "glyph_sha256": "eee5f7e32458c70968a7a110fc601c0c6d83a5258fe21fcc3c33d5375d7e9c3e",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "o": {
+      "cp932_hex": "828f",
+      "glyph_index": 198,
+      "font_byte_offset": 25244,
+      "glyph_sha256": "f1ee4645b4f2f678a79201f21ef70f9ed9d1a1fe6e30c3523764eb994940a55a",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "p": {
+      "cp932_hex": "8290",
+      "glyph_index": 199,
+      "font_byte_offset": 25372,
+      "glyph_sha256": "36c9fb0352b94fbb2dedd3ee2fc213e78dd598b6a978a54e4e0b47fefaf27fd8",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        11,
+        14
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "q": {
+      "cp932_hex": "8291",
+      "glyph_index": 200,
+      "font_byte_offset": 25500,
+      "glyph_sha256": "491aab5bd01f31f4f3a58d4da5b4f4038e9e8402a079f958df54a63e3d20c699",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        11,
+        14
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "r": {
+      "cp932_hex": "8292",
+      "glyph_index": 201,
+      "font_byte_offset": 25628,
+      "glyph_sha256": "54a6d1ef42750ec5c47cb81f31784138e125a059600d4d075aa0e0337e6c6251",
+      "ink_bounds_inclusive": [
+        5,
+        3,
+        10,
+        13
+      ],
+      "proposed_advance_pixels": 7,
+      "proposed_center_offset_pixels": 3
+    },
+    "s": {
+      "cp932_hex": "8293",
+      "glyph_index": 202,
+      "font_byte_offset": 25756,
+      "glyph_sha256": "307d2dd273c1b1d75e33f78a72ee5a616e434010782b4d8612cbc1caa4ee002a",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "t": {
+      "cp932_hex": "8294",
+      "glyph_index": 203,
+      "font_byte_offset": 25884,
+      "glyph_sha256": "a87d125e58fccd9ab3e5dbdccd25b31b1f0c9f7bc78b15c56a9a197c564fc23f",
+      "ink_bounds_inclusive": [
+        5,
+        1,
+        10,
+        13
+      ],
+      "proposed_advance_pixels": 7,
+      "proposed_center_offset_pixels": 3
+    },
+    "u": {
+      "cp932_hex": "8295",
+      "glyph_index": 204,
+      "font_byte_offset": 26012,
+      "glyph_sha256": "344f80604ded818cfea777c73f7bd2b7b9130a69bc9b40aacc6bc9e8955b4cc9",
+      "ink_bounds_inclusive": [
+        4,
+        3,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 9,
+      "proposed_center_offset_pixels": 4
+    },
+    "v": {
+      "cp932_hex": "8296",
+      "glyph_index": 205,
+      "font_byte_offset": 26140,
+      "glyph_sha256": "c0e921e970667122e29fb7f94310ff34716c8a8359f7a9329c775220c0adb81c",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "w": {
+      "cp932_hex": "8297",
+      "glyph_index": 206,
+      "font_byte_offset": 26268,
+      "glyph_sha256": "47d2523246d3816c79d44447e8b09426c94d14cdc904e57256b8c83d39e05b36",
+      "ink_bounds_inclusive": [
+        1,
+        3,
+        13,
+        13
+      ],
+      "proposed_advance_pixels": 14,
+      "proposed_center_offset_pixels": 7
+    },
+    "x": {
+      "cp932_hex": "8298",
+      "glyph_index": 207,
+      "font_byte_offset": 26396,
+      "glyph_sha256": "6bc713d3a032bc7227804965104c5596eaa9d38bc0fa969adf2b4875810aca8b",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        11,
+        13
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "y": {
+      "cp932_hex": "8299",
+      "glyph_index": 208,
+      "font_byte_offset": 26524,
+      "glyph_sha256": "6478b9f7a8d288270c2fb8f71041779be717670eb761b937dc9395575fe33b0c",
+      "ink_bounds_inclusive": [
+        3,
+        3,
+        11,
+        14
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "z": {
+      "cp932_hex": "829a",
+      "glyph_index": 209,
+      "font_byte_offset": 26652,
+      "glyph_sha256": "a6a2a8a9de9ed661a26c186420c3fa87a3081a5cd8de333626b172a042762c46",
+      "ink_bounds_inclusive": [
+        3,
+        4,
+        11,
+        12
+      ],
+      "proposed_advance_pixels": 10,
+      "proposed_center_offset_pixels": 5
+    },
+    "{": {
+      "cp932_hex": "816f",
+      "glyph_index": 48,
+      "font_byte_offset": 6044,
+      "glyph_sha256": "4d8f849fff438fe058643c95ba3b5fd51fd3d06711b742457b15f56140d53765",
+      "ink_bounds_inclusive": [
+        10,
+        0,
+        14,
+        13
+      ],
+      "proposed_advance_pixels": 6,
+      "proposed_center_offset_pixels": -2
+    },
+    "|": {
+      "cp932_hex": "8162",
+      "glyph_index": 35,
+      "font_byte_offset": 4380,
+      "glyph_sha256": "ae948d65c944172ea4af4a2dd33e4aedf69fb3ae04a53afdd9cca1107d702fd3",
+      "ink_bounds_inclusive": [
+        7,
+        0,
+        8,
+        14
+      ],
+      "proposed_advance_pixels": 3,
+      "proposed_center_offset_pixels": 1
+    },
+    "}": {
+      "cp932_hex": "8170",
+      "glyph_index": 49,
+      "font_byte_offset": 6172,
+      "glyph_sha256": "1a126c743f05ad812a894a2380d54aec1942563d96c2b14e7f816c7b024d6f20",
+      "ink_bounds_inclusive": [
+        0,
+        0,
+        4,
+        13
+      ],
+      "proposed_advance_pixels": 6,
+      "proposed_center_offset_pixels": 8
+    },
+    "~": {
+      "cp932_hex": "8160",
+      "glyph_index": 33,
+      "font_byte_offset": 4124,
+      "glyph_sha256": "568d7cb0253985c533983878175e28df2949b220170caa88d743c59a69f17268",
+      "ink_bounds_inclusive": [
+        1,
+        5,
+        14,
+        8
+      ],
+      "proposed_advance_pixels": 15,
+      "proposed_center_offset_pixels": 7
+    }
+  },
+  "rejected_characters": {
+    "[": "Converted punctuation collides with a reserved game control token",
+    "]": "Converted punctuation collides with a reserved game control token"
+  },
+  "tool_sha256": "189af19e08b21563e5be6116b1aedc1625866eb689905c2413db540584d92b18"
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-09-26",
+  "reviewer": "independent_review_setup_compact",
+  "independent_review": true,
+  "scope": "Five compact name-entry category tabs and relocation of four complete affinity headings. Meaning review only; no pixel-fit or runtime approval.",
+  "inputs": [
+    {
+      "path": "work/translation/en/setup_ui.targets.json",
+      "sha256": "74378102a1c2d8e2e27f4959bfacfacbd959b61f1f2573ea04484eb4e2241afc"
+    },
+    {
+      "path": "work/glossary/setup_ui.json",
+      "sha256": "9403c571041ad53d9c428033a5d11930004f7684a335dee82929c4c73fd43ed6"
+    },
+    {
+      "path": "work/translation/en/setup_ui.auto_name_review.json",
+      "sha256": "d5a14ebd0f861731ebbcd42a61da5e18bc539aac8a83157f64698301aa59d6d7"
+    }
+  ],
+  "name_entry_tab_size": [
+    32,
+    16
+  ],
+  "tab_checks": [
+    {
+      "source_ids": [
+        "name.hiragana",
+        "name.background.hiragana"
+      ],
+      "reviewed_full": "Hiragana",
+      "compact_target": "Hira",
+      "verdict": "meaning_pass",
+      "note": "Acceptable unambiguous truncation paired with the Katakana tab in this character-set selector."
+    },
+    {
+      "source_ids": [
+        "name.katakana",
+        "name.background.katakana"
+      ],
+      "reviewed_full": "Katakana",
+      "compact_target": "Kata",
+      "verdict": "meaning_pass",
+      "note": "Acceptable truncation paired with Hiragana in this character-set selector."
+    },
+    {
+      "source_ids": [
+        "name.alnum",
+        "name.background.alnum"
+      ],
+      "reviewed_full": "Letters & Numbers",
+      "compact_target": "ABC\n123",
+      "verdict": "meaning_pass",
+      "note": "The alphabetic and numeric examples together preserve both categories. Two rows belong to one tab; neither row may be dropped."
+    },
+    {
+      "source_ids": [
+        "name.symbols",
+        "name.background.symbols"
+      ],
+      "reviewed_full": "Symbols",
+      "compact_target": "Sym.",
+      "verdict": "meaning_pass",
+      "note": "Conventional category abbreviation with a period; acceptable in this character-set selector."
+    },
+    {
+      "source_ids": [
+        "name.kanji",
+        "name.background.kanji"
+      ],
+      "reviewed_full": "Kanji",
+      "compact_target": "Kanji",
+      "verdict": "meaning_pass",
+      "note": "Full reviewed label is unchanged; this selects Kanji, not a Convert action."
+    }
+  ],
+  "affinity_composition_checks": [
+    {
+      "source_ids": [
+        "affinity.machine",
+        "affinity.suffix",
+        "description.machine"
+      ],
+      "composed_heading": "Machine Affinity",
+      "verdict": "meaning_pass_conditional_on_complete_same_state_composition",
+      "note": "Moving the full affinity heading above the unchanged reviewed description loses no meaning. Blanking the original glyph and suffix is acceptable only when this heading is visible in that same selection state."
+    },
+    {
+      "source_ids": [
+        "affinity.yokai",
+        "affinity.suffix",
+        "description.yokai"
+      ],
+      "composed_heading": "Yokai Affinity",
+      "verdict": "meaning_pass_conditional_on_complete_same_state_composition",
+      "note": "Moving the full affinity heading above the unchanged reviewed description loses no meaning. Blanking the original glyph and suffix is acceptable only when this heading is visible in that same selection state."
+    },
+    {
+      "source_ids": [
+        "affinity.spirit",
+        "affinity.suffix",
+        "description.spirit"
+      ],
+      "composed_heading": "Spirit Affinity",
+      "verdict": "meaning_pass_conditional_on_complete_same_state_composition",
+      "note": "Moving the full affinity heading above the unchanged reviewed description loses no meaning. Blanking the original glyph and suffix is acceptable only when this heading is visible in that same selection state."
+    },
+    {
+      "source_ids": [
+        "affinity.beast",
+        "affinity.suffix",
+        "description.beast"
+      ],
+      "composed_heading": "Beast Affinity",
+      "verdict": "meaning_pass_conditional_on_complete_same_state_composition",
+      "note": "Moving the full affinity heading above the unchanged reviewed description loses no meaning. Blanking the original glyph and suffix is acceptable only when this heading is visible in that same selection state."
+    }
+  ],
+  "unchanged_controls": {
+    "targets": [
+      "Delete",
+      "Auto-Name",
+      "Confirm"
+    ],
+    "verdict": "retain_reviewed_targets",
+    "note": "Auto-Name behavior is resolved by the separate native-code review referenced in inputs."
+  },
+  "required_meaning_edits": [],
+  "semantic_concerns": [
+    "Hira and Kata are abbreviations, not explanations of Japanese scripts. Their distinction remains sufficient within the visible character-set selector; do not use them as standalone narrative words.",
+    "ABC and 123 must remain a single combined tab label. These examples identify available character categories rather than limiting input to those six characters.",
+    "Affinity heading relocation must preserve world title, lore and gameplay paragraphs in full, with glossary terms unchanged. This review does not establish that they physically fit."
+  ],
+  "protected_glossary_terms": [
+    "Loreilal",
+    "Silturn",
+    "Sapureth",
+    "Maetropa",
+    "Machine",
+    "Yokai",
+    "Spirit",
+    "Beast",
+    "Possession"
+  ],
+  "status": "compact_meaning_pass_with_composition_conditions",
+  "verification_limits": "No modified texture, native image or in-game layout was inspected for this review."
+}

@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "build_version": "0.1.16",
+  "language": "en",
+  "reviewer": "ui015_meaning_review independent agent",
+  "status": "bounded_meaning_review_complete_with_named_items_and_class_flagged",
+  "scope": "Six reported screenshots: deployment/status, battle-information submenu, inventory, summon index, options and victory/defeat conditions. Related help and exact duplicated ingredient support text included. Not a full UI translation.",
+  "index_sha256": "7b59c56c46b60f0bb88bd0f4b498a3d9e88be701f892d0c1b31017e00bf3aca3",
+  "name_policy": "Preserve current glossary names and player-entered names. No name substitutions made. Two new named items use parent-approved provisional project transliterations; English canonical spellings remain unverified.",
+  "entries": [
+    {
+      "id": "elf:ui:00216f60",
+      "source_sha256": "21b5c329eec1b57ffbfadef1bf06a64a0f28ae300059fa444306f8c336341b49",
+      "source_control_tokens": [],
+      "target_full": "Check status.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00216f74",
+      "source_sha256": "fe4246ab69ffe0431e198abd7c08142195614743b7cca866e4d0a2aa8d1ca648",
+      "source_control_tokens": [],
+      "target_full": "Check status and change equipment.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00216f94",
+      "source_sha256": "69dc781e5e8d1c57d84eb8e2b6cd874652e9bb3ac1aa6b898a9eb73c5485c8f9",
+      "source_control_tokens": [
+        "Е",
+        "Ё"
+      ],
+      "target_full": "ЕЁSwitch Unit",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00216fac",
+      "source_sha256": "7f1e37d80ff6d90bd60c33aafb4dfc56212b2c26f4448215da2df17bae441782",
+      "source_control_tokens": [
+        "Й"
+      ],
+      "target_full": "Й Give Food",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00216fc0",
+      "source_sha256": "12c08d34053a3836cb786605f436e91e3745d49ae8174ccdcbdeb4c007939497",
+      "source_control_tokens": [
+        "Й"
+      ],
+      "target_full": "Й Learn Skills",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00216fd0",
+      "source_sha256": "2be347487f755d82dc38f8229d303eb8ac1253d85851790e9eaaa1d2b578d250",
+      "source_control_tokens": [
+        "Г"
+      ],
+      "target_full": "ГTransform",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00216fd8",
+      "source_sha256": "475e479007f0d219cf0a292b41631c4c4d15a4ce1762166fc125a34ca7a8f944",
+      "source_control_tokens": [
+        "Г"
+      ],
+      "target_full": "ГChange Type",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00216fe8",
+      "source_sha256": "58e1d5311698b5c9a9e9079b873d5353e0958321433aff900585b5dbbe8c39c2",
+      "source_control_tokens": [
+        "Б"
+      ],
+      "target_full": "Check status.  БBack to Map",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021700c",
+      "source_sha256": "e9c794200af26c9fa07717dbc29053bbf543bb2c2636784bf0c9fbc64093de3a",
+      "source_control_tokens": [
+        "А",
+        "В",
+        "Б"
+      ],
+      "target_full": "АDeploy  ВStatus & Equipment  БBack to Map",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217bb8",
+      "source_sha256": "398abf4851d9075fc4d396a5fd85ddf65f953d0d7a246abc2b152c925e1ef28a",
+      "source_control_tokens": [],
+      "target_full": "Select units to deploy.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217bd6",
+      "source_sha256": "fe4246ab69ffe0431e198abd7c08142195614743b7cca866e4d0a2aa8d1ca648",
+      "source_control_tokens": [],
+      "target_full": "Check status and change equipment.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217bf8",
+      "source_sha256": "3aa91f1db4db4e7d169fa06a6c0895aca67df7506825bbaf7ed09fa9ede64e16",
+      "source_control_tokens": [],
+      "target_full": "View Party Abilities and change",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217c1c",
+      "source_sha256": "92609e04faa8485c5302a5f9c7bdc08646423f00f50db9fdcd505b91a151644a",
+      "source_control_tokens": [],
+      "target_full": "which ones to use in battle.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217c3c",
+      "source_sha256": "3209afd46cc5f9653d99cf015e0cc5e9f2d20c0d77c4f6ab69ea2aca4b0eb927",
+      "source_control_tokens": [],
+      "target_full": "Check the victory and defeat conditions.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217c60",
+      "source_sha256": "77318124a4798fec5b8b62f18d5d5da9d3a7d3ec1abfad23ce2e93941167292f",
+      "source_control_tokens": [],
+      "target_full": "View your inventory.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217c7c",
+      "source_sha256": "9b79cf9934f5b17ade15a0a7b8cf31a4240c906881952aa127fc379955d60e0d",
+      "source_control_tokens": [],
+      "target_full": "View summon details and combination results.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217cb4",
+      "source_sha256": "e0d46db2552a8ad1965f11567fb138bebedcfa47870543cd75545bb54237d5bd",
+      "source_control_tokens": [],
+      "target_full": "Change game settings.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217cd4",
+      "source_sha256": "42e85b4432468b4580049f61e1a347eece59d036ea5a9c2b650b9ba5fa5bf8db",
+      "source_control_tokens": [],
+      "target_full": "Save the game.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217cf4",
+      "source_sha256": "e5845067babf380d831a98e3fe4dc56093ef3adb2dd25b349ea57b0ab7245a2a",
+      "source_control_tokens": [],
+      "target_full": "Load a saved game.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217d14",
+      "source_sha256": "fe4246ab69ffe0431e198abd7c08142195614743b7cca866e4d0a2aa8d1ca648",
+      "source_control_tokens": [],
+      "target_full": "Check status and change equipment.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217e1c",
+      "source_sha256": "bba4477671c41b283105b8d68bd94a665415634fa6cb111f1b6b34bcb59353b7",
+      "source_control_tokens": [],
+      "target_full": "Start the battle.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217e7c",
+      "source_sha256": "134fd12366272df9c5f99e24b74d20ba657384e72f18dab55d2bc4fc0aa23a05",
+      "source_control_tokens": [],
+      "target_full": "Prepare for battle.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00217fe4",
+      "source_sha256": "4d35896f182373b978a6f3b5bd910faa6d4d9a23d28a275095d004b5fe7508f2",
+      "source_control_tokens": [],
+      "target_full": "View Support Abilities.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00218008",
+      "source_sha256": "532b03e9e3923556bececef72c27d38a895928b5b7ba7f54b3c655b233bb0d23",
+      "source_control_tokens": [],
+      "target_full": "View Brave Conditions.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00218050",
+      "source_sha256": "d908104f77bd47ac77f13338a6ea6d507c85cd27d32ed55f5c790cce8feeb235",
+      "source_control_tokens": [],
+      "target_full": "View battle information.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021828c",
+      "source_sha256": "5b415bcd00a1985ab2acf851003adfa371c29aacf1ba3c5ca2faa9c48b0740a4",
+      "source_control_tokens": [],
+      "target_full": "Choose the units to deploy.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:002186c0",
+      "source_sha256": "0bafbc1a333d3970a56fbbef16ac4de67fb6cf8198dc46d0ad26827125ecda3e",
+      "source_control_tokens": [],
+      "target_full": "Defeat all enemies.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00218750",
+      "source_sha256": "ce10bc8412a9a35bd5553fc3d2aae2e594f2526301da0a3b25b01885ef13f23a",
+      "source_control_tokens": [],
+      "target_full": "Protagonist incapacitated.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:00218764",
+      "source_sha256": "dd22078fa1c933e944c3caedc4312591f588e5fd69d01f050f1b2d4b84d31419",
+      "source_control_tokens": [],
+      "target_full": "All allies incapacitated.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021ca58",
+      "source_sha256": "20dd495a7d2b0f1ebb2fa545fbd1c213c86126b8cdb8ab7b74657ed00124dc8f",
+      "source_control_tokens": [],
+      "target_full": "Adjust the background music volume.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021ca7c",
+      "source_sha256": "594e2d285b779272aa65a58d868459c2fdf9bd2fb9fd35316c1053e815fae66e",
+      "source_control_tokens": [],
+      "target_full": "Turn event voices on or off.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021caa0",
+      "source_sha256": "e696349e15e8cc93921dce8ee370ab390489b0a62fa17be0b4e3b70e8822aae1",
+      "source_control_tokens": [],
+      "target_full": "Turn damage prediction on or off.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021cac8",
+      "source_sha256": "06b2ad6a9d4504ac48c04d2e982c101619f003abf2b8ff3a1b103ea304a6c266",
+      "source_control_tokens": [],
+      "target_full": "Change the battle cursor movement directions.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021caf0",
+      "source_sha256": "8647505cdd03cbc67e6ffb22d071b4aa88aeed7706c20b18c45f7d4ba3347f86",
+      "source_control_tokens": [],
+      "target_full": "Change how the L/R buttons work in battle.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021e22c",
+      "source_sha256": "9b6538aa9a743566f8731114954a580d16dc718a3f96417cce899cb7993f8074",
+      "source_control_tokens": [],
+      "target_full": "Switch Affinity",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021e238",
+      "source_sha256": "45db36324f35ee75e1f928e485ce6fd65ab180daf46bfa2b729a6c13e2c5fc21",
+      "source_control_tokens": [],
+      "target_full": "Confirm",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021e240",
+      "source_sha256": "1af29f431d5c1f46330919a627ed37c6a8d83c440e01938d53e08f5c51930c9e",
+      "source_control_tokens": [],
+      "target_full": "Set Name",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021e24c",
+      "source_sha256": "83981abd199c0d29e2062b5893a6bb03973bab7454b265010dff815fde491746",
+      "source_control_tokens": [],
+      "target_full": "Cast Magic",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021e258",
+      "source_sha256": "2893b9b945110504d081aeade280b1aecf6f7f2948443eb0488f6e60c79db6f3",
+      "source_control_tokens": [],
+      "target_full": "Dismiss",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021efa0",
+      "source_sha256": "ffdd33e3dd4bcdd18c378a0e3cc90dd1b95642689ac49d3d705adb04764ad755",
+      "source_control_tokens": [],
+      "target_full": "Victory Conditions",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021efac",
+      "source_sha256": "682c8942402850f1d424a1997047f3bfe30e4538deded5e94b50b34fffeb5376",
+      "source_control_tokens": [],
+      "target_full": "Defeat Conditions",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "elf:ui:0021efb8",
+      "source_sha256": "641ef941a6e11af903d89aca4c7b0331c06ab4d88921a3f0744256bc7fe83711",
+      "source_control_tokens": [],
+      "target_full": "Not set.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00015:ui:000082c0",
+      "source_sha256": "9df3edd9b417360eb5eae98ab168d5a66dbc502bc690710b7f41377cbc8b1016",
+      "source_control_tokens": [],
+      "target_full": "Novice Sword",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00015:ui:000082de",
+      "source_sha256": "76b429ae872ae55b177a270f470fbf98d405c276918f383304bb332a6d3a5bf3",
+      "source_control_tokens": [],
+      "target_full": "Baygnart",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00012:ui:00001458",
+      "source_sha256": "215c45b4ccccdbab29611f2da9ef2ce3f0a2155a24e2475a67611d6291f78178",
+      "source_control_tokens": [],
+      "target_full": "Dritol",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00012:ui:0000147e",
+      "source_sha256": "0d68c8598b6e6e8cda64379592ca8ee37b6c32948db633d5408349d5dfe0a64f",
+      "source_control_tokens": [],
+      "target_full": "A machine equipped with a large drill for land development.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00012:ui:000014b4",
+      "source_sha256": "73c50205471302b5ee3229759fe856e0a148b347808a266d2cc98e481ebf650c",
+      "source_control_tokens": [],
+      "target_full": "Built to withstand long hours of work even in polar regions.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00032:ui:000016a4",
+      "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+      "source_control_tokens": [],
+      "target_full": "Search the area for ingredients.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00032:ui:000016c4",
+      "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+      "source_control_tokens": [],
+      "target_full": "Search the area for ingredients.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00032:ui:00001a5a",
+      "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+      "source_control_tokens": [],
+      "target_full": "Search the area for ingredients.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00032:ui:00001bac",
+      "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+      "source_control_tokens": [],
+      "target_full": "Search the area for ingredients.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00032:ui:00001cd4",
+      "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+      "source_control_tokens": [],
+      "target_full": "Search the area for ingredients.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00032:ui:00001cf4",
+      "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+      "source_control_tokens": [],
+      "target_full": "Search the area for ingredients.",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00031:ui:000043e4",
+      "source_sha256": "74ab0bdf4f7a1841bfae544963816129ab44d75eb493dea42288f3ec143bda2e",
+      "source_control_tokens": [],
+      "target_full": "Ingredient Hunter",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00031:ui:0000443e",
+      "source_sha256": "74ab0bdf4f7a1841bfae544963816129ab44d75eb493dea42288f3ec143bda2e",
+      "source_control_tokens": [],
+      "target_full": "Ingredient Hunter",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00031:ui:00004d44",
+      "source_sha256": "1c557a43080cdee60ca40b744a93ff46752ab4fcae971765ebbd797dd685635c",
+      "source_control_tokens": [],
+      "target_full": "Gather Ingredients",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00031:ui:00005082",
+      "source_sha256": "1c557a43080cdee60ca40b744a93ff46752ab4fcae971765ebbd797dd685635c",
+      "source_control_tokens": [],
+      "target_full": "Gather Ingredients",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00031:ui:0000560c",
+      "source_sha256": "74ab0bdf4f7a1841bfae544963816129ab44d75eb493dea42288f3ec143bda2e",
+      "source_control_tokens": [],
+      "target_full": "Ingredient Hunter",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00031:ui:00005666",
+      "source_sha256": "74ab0bdf4f7a1841bfae544963816129ab44d75eb493dea42288f3ec143bda2e",
+      "source_control_tokens": [],
+      "target_full": "Ingredient Hunter",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    },
+    {
+      "id": "02:00003/00038:ui:00001572",
+      "source_sha256": "e3180352dca000ca33f842a21577f7dacd43d0f509cd63ec48b54748c53f6c4f",
+      "source_control_tokens": [],
+      "target_full": "Party Abilities",
+      "meaning_status": "independently_reviewed",
+      "layout_status": "not_measured_or_runtime_verified"
+    }
+  ],
+  "screenshot_labels": [
+    {
+      "label_key": "deployment_title",
+      "source_ui_label": "出撃選択",
+      "target_full": "Deployment",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "battle_info_title",
+      "source_ui_label": "戦闘情報",
+      "target_full": "Battle Info",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "party_abilities",
+      "source_ui_label": "パーティ能力",
+      "target_full": "Party Abilities",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "support_abilities",
+      "source_ui_label": "サポート能力",
+      "target_full": "Support Abilities",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "brave_conditions",
+      "source_ui_label": "ブレイブ条件",
+      "target_full": "Brave Conditions",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "battle_conditions",
+      "source_ui_label": "勝敗条件",
+      "target_full": "Battle Conditions",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "inventory_title",
+      "source_ui_label": "所持品",
+      "target_full": "Inventory",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "summon_index_title",
+      "source_ui_label": "召喚事典",
+      "target_full": "Summon Index",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "summon_affinity",
+      "source_ui_label": "属性：",
+      "target_full": "Affinity:",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "machine_affinity",
+      "source_ui_label": "機",
+      "target_full": "Machine",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "options_title",
+      "source_ui_label": "オプション",
+      "target_full": "Options",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "bgm_volume",
+      "source_ui_label": "BGMボリューム",
+      "target_full": "BGM Volume",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "event_voice",
+      "source_ui_label": "イベント音声",
+      "target_full": "Event Voices",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "damage_prediction",
+      "source_ui_label": "予測表示",
+      "target_full": "Damage Prediction",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "cursor_directions",
+      "source_ui_label": "カーソル移動方向",
+      "target_full": "Cursor Directions",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "lr_buttons",
+      "source_ui_label": "LRボタン機能",
+      "target_full": "L/R Controls",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "confirm",
+      "source_ui_label": "決定",
+      "target_full": "Confirm",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    },
+    {
+      "label_key": "exit_options",
+      "source_ui_label": "オプション画面終了",
+      "target_full": "Exit Options",
+      "source_id": null,
+      "meaning_status": "independently_reviewed_from_screenshot",
+      "consumer_status": "asset_source_not_traced"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "02:00003/00015:ui:000082de",
+      "source_sha256": "76b429ae872ae55b177a270f470fbf98d405c276918f383304bb332a6d3a5bf3",
+      "provisional_target": "Baygnart",
+      "status": "provisional_project_transliteration",
+      "note": "Parent researched Japanese source at https://wikiwiki.jp/summonnight2/武器一覧; no reliable English spelling found. Baygnart is a provisional project spelling, not claimed official."
+    },
+    {
+      "id": "02:00003/00012:ui:00001458",
+      "source_sha256": "215c45b4ccccdbab29611f2da9ef2ce3f0a2155a24e2475a67611d6291f78178",
+      "provisional_target": "Dritol",
+      "status": "provisional_project_transliteration",
+      "note": "Parent researched Japanese source at https://w.atwiki.jp/sn3psp/pages/93.html; no reliable English spelling found. Dritol is a provisional project spelling, not generic Drill and not claimed official."
+    },
+    {
+      "screenshot_field": "deployment_status_class",
+      "status": "not_translatable_from_corrupted_screen",
+      "note": "Rendered glyphs are corrupt. Original class source/identity must be traced; do not guess Teacher from protagonist role."
+    }
+  ],
+  "notes": [
+    "The summon description is one sentence split across two source rows; translating with two sentences preserves all details. Extreme cold is implied by polar regions but not stated; do not add it.",
+    "The first screenshot shows Horizontal Slash: an attack style, not the equipped weapon name. Existing full translation remains correct.",
+    "Victory source is defeat all enemies, not simply a vague victory. Existing Rout is a compact strategy-game equivalent; Defeat all enemies is clearer when proportional layout permits.",
+    "Protagonist incapacitated is semantically correct; screenshot shows a layout overflow, not a meaning error. Compact alternative Protagonist KO is acceptable only if the available width demands it.",
+    "Battle Info submenu has four items; Party Abilities and Support Abilities are distinct concepts. Brave Conditions must remain distinct from the battle victory/defeat conditions.",
+    "Icon/control tokens preserved in source order. Menu-label consumer membership and rendering widths require parent runtime verification.",
+    "Options Cursor Directions means mapping directional controls to battlefield movement; source does not specify screen-relative/map-relative settings or axis modes. Do not invent values.",
+    "The small inset options screenshot itself contains Japanese gameplay labels; editing outer menu text does not translate those baked-in inset labels.",
+    "Only requested weapon names were reviewed; no inference of complete weapon or summon name coverage.",
+    "All source UI text resolved transiently by index_interface.source_text with source hash verification; no dialogue transcript exported."
+  ]
+}

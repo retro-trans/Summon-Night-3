@@ -1,0 +1,811 @@
+{
+  "version": "0.1.26",
+  "elf": {
+    "profile": "battle_elf_patch_0.1.13",
+    "baseline_elf_sha256": "02a2f3b7e612ef2791f89b62c2e754bda48bc601a1a3ef6a867db7b34df70967",
+    "patched_elf_sha256": "0e80871ea4e69e565701674eb5771287295dfab6f5e192f29ab3616059cc1331",
+    "source_bytes": 6295496,
+    "patched_bytes": 6295544,
+    "targets_total": 2,
+    "targets_patched": 1,
+    "targets_skipped": 1,
+    "skipped": [
+      {
+        "id": "elf:ui:00216430",
+        "module_address": "0x216370",
+        "reason": "no_relocation_backed_start_reference"
+      }
+    ],
+    "entries": [
+      {
+        "id": "elf:ui:00216428",
+        "module_address": "0x216368",
+        "source_offset": 2188328,
+        "source_sha256": "864e5e1f0b9d10790bfe488eaaa526b3e243476b72430c2f1c91d6f1506104ff",
+        "target_variant": "full",
+        "target_text": "???",
+        "display_text": "\uff1f\uff1f\uff1f",
+        "encoded_bytes": 8,
+        "bundle_bytes": 38,
+        "unreferenced_tails": [
+          {
+            "id": "elf:ui:00216430",
+            "module_address": 2188144,
+            "source_sha256": "4b0af7622e936fd3ca84e6bcc0d32179f7a819cca8a59c51e2f40d4b029c32a8",
+            "text": "Favorites Only",
+            "display_text": "\uff26\uff41\uff56\uff4f\uff52\uff49\uff54\uff45\uff53\u3000\uff2f\uff4e\uff4c\uff59",
+            "encoded_bytes": 30,
+            "variant": "full"
+          }
+        ],
+        "new_address": "0x34a078",
+        "new_file_offset": 7122552,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x5d658",
+            "low": "0x5d65c",
+            "register": "0x4"
+          }
+        ]
+      }
+    ],
+    "added_segment": {
+      "index": 3,
+      "module_address": "0x32dbc0",
+      "file_offset": 5584576,
+      "old_bytes": 115896,
+      "new_bytes": 115944,
+      "appended_bytes": 48
+    },
+    "relocation_segment": {
+      "index": 2,
+      "records_unchanged": true,
+      "old_file_offset": 5700480,
+      "new_file_offset": 5700528
+    },
+    "audit": {
+      "mapped_start_reference_count": 1,
+      "interior_reference_targets_skipped": 0,
+      "shared_hi16_pairs_proven_safe": 1,
+      "bundled_unreferenced_tail_count": 1,
+      "all_differences_allowlisted": true,
+      "allowed_changed_byte_count": 59
+    },
+    "structural_checks": {
+      "program_header_count": 4,
+      "section_header_count": 61,
+      "load_ranges": [
+        {
+          "index": 0,
+          "start": "0x0",
+          "end": "0x22d37c"
+        },
+        {
+          "index": 1,
+          "start": "0x22d380",
+          "end": "0x32db8c"
+        },
+        {
+          "index": 3,
+          "start": "0x32dbc0",
+          "end": "0x34a0a8"
+        }
+      ]
+    },
+    "change_log": [
+      "Relocated only source-hash-verified battle literals with proven direct relocation references; preserved opaque prefixes/control tokens, existing hooks, and all existing relocation records."
+    ],
+    "locked_record_proof": "Root reference 0x5d658/0x5d65c points to question marks followed by restriction line; original line boundaries retained.",
+    "stat_spacing": {
+      "profile": "inventory_symbolic_stat_spacing_0.1.26",
+      "baseline_elf_sha256": "f6965d2408298d8f5d2e66adf016ab4a155f07dab25818834e2595434d135985",
+      "expected_source_sha256": null,
+      "hook": "0x642c0",
+      "previous_target": "0x347be0",
+      "previous_instruction": "0xc0d1ef8",
+      "replacement_instruction": "0xc0d282a",
+      "symbolic_stat_rule": "renderer context mode at s4+0x34 equals 6: native grid callback",
+      "other_help_rule": "all other renderer modes: existing help VWF helper",
+      "appended": {
+        "code_address": "0x34a0a8",
+        "code_bytes": 32,
+        "labels": {
+          "stat_cell_dispatch": 0,
+          "vwf_position": 16,
+          "native_grid": 24,
+          "table": 32
+        },
+        "hooks": {
+          "0x642c0": "stat_cell_dispatch"
+        },
+        "new_relocations": [
+          [
+            115960,
+            772
+          ]
+        ],
+        "extra_relocation_records": [
+          [
+            32,
+            772
+          ],
+          [
+            112,
+            772
+          ],
+          [
+            136,
+            772
+          ],
+          [
+            160,
+            772
+          ],
+          [
+            232,
+            773
+          ],
+          [
+            236,
+            774
+          ],
+          [
+            328,
+            772
+          ],
+          [
+            360,
+            772
+          ],
+          [
+            400,
+            772
+          ],
+          [
+            496,
+            772
+          ],
+          [
+            516,
+            772
+          ],
+          [
+            548,
+            772
+          ],
+          [
+            604,
+            772
+          ],
+          [
+            624,
+            772
+          ],
+          [
+            644,
+            772
+          ],
+          [
+            664,
+            772
+          ],
+          [
+            1240,
+            772
+          ],
+          [
+            1284,
+            773
+          ],
+          [
+            1288,
+            774
+          ],
+          [
+            1316,
+            772
+          ],
+          [
+            1548,
+            772
+          ],
+          [
+            1868,
+            772
+          ],
+          [
+            1984,
+            773
+          ],
+          [
+            1988,
+            774
+          ],
+          [
+            106276,
+            772
+          ],
+          [
+            106312,
+            772
+          ],
+          [
+            106420,
+            772
+          ],
+          [
+            106464,
+            772
+          ],
+          [
+            106488,
+            772
+          ],
+          [
+            106584,
+            772
+          ],
+          [
+            106648,
+            772
+          ],
+          [
+            106816,
+            772
+          ],
+          [
+            106860,
+            773
+          ],
+          [
+            106864,
+            774
+          ],
+          [
+            106892,
+            772
+          ],
+          [
+            107124,
+            772
+          ],
+          [
+            107444,
+            772
+          ],
+          [
+            107560,
+            773
+          ],
+          [
+            107564,
+            774
+          ],
+          [
+            108440,
+            772
+          ],
+          [
+            108484,
+            773
+          ],
+          [
+            108488,
+            774
+          ],
+          [
+            108516,
+            772
+          ],
+          [
+            108748,
+            772
+          ],
+          [
+            108812,
+            772
+          ],
+          [
+            109132,
+            772
+          ],
+          [
+            109248,
+            773
+          ],
+          [
+            109252,
+            774
+          ],
+          [
+            110076,
+            773
+          ],
+          [
+            110080,
+            774
+          ],
+          [
+            110204,
+            772
+          ],
+          [
+            110220,
+            772
+          ],
+          [
+            110244,
+            772
+          ],
+          [
+            110288,
+            772
+          ],
+          [
+            110304,
+            772
+          ],
+          [
+            110328,
+            772
+          ],
+          [
+            115960,
+            772
+          ]
+        ],
+        "added_segment_file_offset": 6295552,
+        "added_segment_bytes": 115976,
+        "patched_elf_sha256": "14f373858559c8d6db08959c3ec52bf2eb103652e279839d1e954cef2d235983",
+        "structure": {
+          "program_header_count": 4,
+          "section_header_count": 62,
+          "load_ranges": [
+            {
+              "index": 0,
+              "start": "0x0",
+              "end": "0x22d37c"
+            },
+            {
+              "index": 1,
+              "start": "0x22d380",
+              "end": "0x32db8c"
+            },
+            {
+              "index": 3,
+              "start": "0x32dbc0",
+              "end": "0x34a0c8"
+            }
+          ]
+        }
+      },
+      "patched_elf_sha256": "14f373858559c8d6db08959c3ec52bf2eb103652e279839d1e954cef2d235983"
+    },
+    "long_list": {
+      "code_address": "0x34a0c8",
+      "code_bytes": 900,
+      "labels": {
+        "list": 0,
+        "measure": 88,
+        "old": 176,
+        "return": 196,
+        "long_bind": 212,
+        "chunk": 380,
+        "count_ready": 416,
+        "copy_row": 452,
+        "copy_byte": 464,
+        "invalidate": 576,
+        "clear_row": 604,
+        "clear_byte": 612,
+        "character": 656,
+        "pixel_row": 716,
+        "pixel": 720,
+        "next_character": 820,
+        "done": 844,
+        "table": 900
+      },
+      "hooks": {
+        "0x1b390": "list",
+        "0x14ecf8": "list"
+      },
+      "new_relocations": [
+        [
+          116000,
+          772
+        ],
+        [
+          116016,
+          772
+        ],
+        [
+          116068,
+          772
+        ],
+        [
+          116136,
+          772
+        ],
+        [
+          116164,
+          772
+        ],
+        [
+          116256,
+          772
+        ],
+        [
+          116280,
+          773
+        ],
+        [
+          116284,
+          774
+        ],
+        [
+          116396,
+          772
+        ],
+        [
+          116648,
+          772
+        ]
+      ],
+      "extra_relocation_records": [
+        [
+          32,
+          772
+        ],
+        [
+          112,
+          772
+        ],
+        [
+          136,
+          772
+        ],
+        [
+          160,
+          772
+        ],
+        [
+          232,
+          773
+        ],
+        [
+          236,
+          774
+        ],
+        [
+          328,
+          772
+        ],
+        [
+          360,
+          772
+        ],
+        [
+          400,
+          772
+        ],
+        [
+          496,
+          772
+        ],
+        [
+          516,
+          772
+        ],
+        [
+          548,
+          772
+        ],
+        [
+          604,
+          772
+        ],
+        [
+          624,
+          772
+        ],
+        [
+          644,
+          772
+        ],
+        [
+          664,
+          772
+        ],
+        [
+          1240,
+          772
+        ],
+        [
+          1284,
+          773
+        ],
+        [
+          1288,
+          774
+        ],
+        [
+          1316,
+          772
+        ],
+        [
+          1548,
+          772
+        ],
+        [
+          1868,
+          772
+        ],
+        [
+          1984,
+          773
+        ],
+        [
+          1988,
+          774
+        ],
+        [
+          106276,
+          772
+        ],
+        [
+          106312,
+          772
+        ],
+        [
+          106420,
+          772
+        ],
+        [
+          106464,
+          772
+        ],
+        [
+          106488,
+          772
+        ],
+        [
+          106584,
+          772
+        ],
+        [
+          106648,
+          772
+        ],
+        [
+          106816,
+          772
+        ],
+        [
+          106860,
+          773
+        ],
+        [
+          106864,
+          774
+        ],
+        [
+          106892,
+          772
+        ],
+        [
+          107124,
+          772
+        ],
+        [
+          107444,
+          772
+        ],
+        [
+          107560,
+          773
+        ],
+        [
+          107564,
+          774
+        ],
+        [
+          108440,
+          772
+        ],
+        [
+          108484,
+          773
+        ],
+        [
+          108488,
+          774
+        ],
+        [
+          108516,
+          772
+        ],
+        [
+          108748,
+          772
+        ],
+        [
+          108812,
+          772
+        ],
+        [
+          109132,
+          772
+        ],
+        [
+          109248,
+          773
+        ],
+        [
+          109252,
+          774
+        ],
+        [
+          110076,
+          773
+        ],
+        [
+          110080,
+          774
+        ],
+        [
+          110204,
+          772
+        ],
+        [
+          110220,
+          772
+        ],
+        [
+          110244,
+          772
+        ],
+        [
+          110288,
+          772
+        ],
+        [
+          110304,
+          772
+        ],
+        [
+          110328,
+          772
+        ],
+        [
+          115960,
+          772
+        ],
+        [
+          116000,
+          772
+        ],
+        [
+          116016,
+          772
+        ],
+        [
+          116068,
+          772
+        ],
+        [
+          116136,
+          772
+        ],
+        [
+          116164,
+          772
+        ],
+        [
+          116256,
+          772
+        ],
+        [
+          116280,
+          773
+        ],
+        [
+          116284,
+          774
+        ],
+        [
+          116396,
+          772
+        ],
+        [
+          116648,
+          772
+        ]
+      ],
+      "added_segment_file_offset": 7006656,
+      "added_segment_bytes": 116876,
+      "patched_elf_sha256": "0e80871ea4e69e565701674eb5771287295dfab6f5e192f29ab3616059cc1331",
+      "structure": {
+        "program_header_count": 4,
+        "section_header_count": 63,
+        "load_ranges": [
+          {
+            "index": 0,
+            "start": "0x0",
+            "end": "0x22d37c"
+          },
+          {
+            "index": 1,
+            "start": "0x22d380",
+            "end": "0x32db8c"
+          },
+          {
+            "index": 3,
+            "start": "0x32dbc0",
+            "end": "0x34a44c"
+          }
+        ]
+      },
+      "profile": "long_latin_labels_in_native_16_cell_cache",
+      "max_input_cells": 32,
+      "cache_cells": 16,
+      "max_advance_pixels": 256
+    }
+  },
+  "table": {
+    "child": 13,
+    "changes": [
+      {
+        "id": "02:00003/00013:ui:000034e0",
+        "record": 233,
+        "slot": 8,
+        "text": "Crush! Light Gen. Sword",
+        "full_translation": "Shatter! Light General's Sword!",
+        "advance_pixels": 172.375,
+        "source_sha256": "be59ddccd2f97cb075fe539258c4598ed6cb9107733a21019f5341a06248cb3f",
+        "new_offset": 18432,
+        "pointer_fields": [
+          9356
+        ]
+      }
+    ]
+  },
+  "graphics": {
+    "records": [
+      {
+        "name": "Kyle",
+        "pack": 914,
+        "child": 3,
+        "source_sha256": "8b0f2be97fd0ac7b103df1aabd4f99919b4383c561758e98d37cce61cbf86da1",
+        "output_sha256": "a9eb2c93e34654a556f718ba1942baf5b328e7660f739100bc5523b29666bc70",
+        "changed_pixels": 936
+      },
+      {
+        "name": "Kyle",
+        "pack": 914,
+        "child": 4,
+        "source_sha256": "23e03c4f7c6f608db5164e1384ea0e525b026de95ba3056e8df6074026d44f93",
+        "output_sha256": "670f7e6ada076fb8df4bd5d4b69d432db232571dc1ee6461f8d28724194131fd",
+        "changed_pixels": 4594
+      },
+      {
+        "name": "Kyle",
+        "pack": 1098,
+        "child": 1,
+        "source_sha256": "cc72a271a7dc0d79438a4cfdebec4530c5968b8a0d664331836771918ef14e5b",
+        "output_sha256": "b5133658d85a54c2346db957c11b2b209f2705f030e968b026ff56201f573be0",
+        "changed_pixels": 611
+      },
+      {
+        "name": "Kyle",
+        "pack": 1098,
+        "child": 2,
+        "source_sha256": "20d6b0455e00a5126e68568206c9cbcfbe8c95760c12a142378969dc478e3341",
+        "output_sha256": "98202e2cee00b14fcff4d764e67177f1879c4f315d5aadaf4d0d837e28ae6dc4",
+        "changed_pixels": 2109
+      }
+    ],
+    "other_portrait_layers_unchanged": true
+  },
+  "meaning_review": "Independent reviewer accepted Crush! Light Gen. Sword as a compact skill-title compound: Crush retains the imperative, Gen. abbreviates General, and omitted possessive is grammatical compression. Favorites Only preserves the restriction. Kyle spelling locked to selected glossary.",
+  "locked_question_marks_preserved": true
+}

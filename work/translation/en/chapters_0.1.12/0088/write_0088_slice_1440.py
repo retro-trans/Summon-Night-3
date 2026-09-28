@@ -1,0 +1,17 @@
+"""Write Chapter 2 rows 1440-1519 after a dry-run validation."""
+import argparse,json,sys
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[5]/'tools'))
+from chapter_source import chapter_source
+from dialogue_encoding import encode_dialogue
+OUT=Path(__file__).with_name('slice_1440.targets.json')
+TEXT={1440:"Kyukyu~!?",1441:"Kyle!",1442:"You can't do it alone!",1443:"...!",1444:"Hey, you",1445:"don't mean...",1446:"Don't tell me you're",1447:"going to help them?",1448:"What",1449:"are you planning!?",1450:"Teacher...?",1451:"We can't just",1452:"stand by, can we?",1453:"We can't just stand by, right?",1454:"Even so!?",1455:"They...",1456:"We don't owe them anything!",1457:"But they...",1458:"Why!?",1459:"Those people...",1460:"No...",1461:"Why!?",1462:"They're our friends, right?",1463:"!",1464:"We only just met,",1465:"but they're precious friends.",1466:"So I will protect them!",1467:"We'll fight, make up,",1468:"and become",1469:"even closer from now on.",1470:"That's why...",1471:"I'll help them!",1472:"Look, look, that's it.",1473:"What you see over there",1474:"is ours...",1475:"...Huh?",1476:"Hey,",1477:"something's wrong!?",1478:"Ukokekekueh!!",1479:"Nngh!?",1480:"What are you doing",1481:"to our guest,",1482:"you fish bastard!?",1483:"Gueeeh!",1484:"Are you all right?",1485:"Yes, somehow,",1486:"but...",1487:"Ukokekeeh!!",1488:"So it's just a matter of time...",1489:"Damn it...",1490:"It's a blessing in disguise",1491:"that Sonolar and the others",1492:"were away.",1493:"Stray summoned beasts!?",1494:"Stray summoned beasts!?",1495:"Stray summoned beasts!?",1496:"Stray summoned beasts!?",1497:"Why do they keep",1498:"coming one after another...?",1499:"This island really",1500:"isn't normal... is it?",1501:"Boss!?",1502:"Pubibii!?",1503:"Myamyamya!?",1504:"Bibibi!?",1505:"Kyukyu~!?",1506:"Stop it, Sonolar!",1507:"Can you defeat",1508:"that monster alone!?",1509:"Let go!",1510:"No, no, no!",1511:"Let me go!",1512:"...",1513:"At this rate...",1514:"The boss, the boss",1515:"is going to die!",1516:"...!",1517:"Hey, you",1518:"don't mean...",1519:"Don't tell me you're"}
+def build():
+ r,rows,data=chapter_source(88);assert set(TEXT)==set(range(1440,1520));ts={}
+ for n in range(1440,1520):
+  x=rows[n];s=data[x['source_offset']:x['source_offset']+x['source_byte_length']].decode('cp932');encode_dialogue(TEXT[n],s);ts[x['id']]={'id':x['id'],'source_sha256':x['source_sha256'],'source_offset':x['source_offset'],'source_byte_length':x['source_byte_length'],'reference_instructions':x['reference_instructions'],'resource_row':n,'text':TEXT[n],'status':'draft','notes':'No source control tokens.'}
+ return {'resource_id':r['id'],'assigned_range':[1440,1519],'rows_examined':{'ranges_inclusive':[[1420,1539]],'count':120},'translations':ts,'uncertainties':[{'resource_row':1493,'note':'Generic category rendered as stray summoned beasts; no proper-name inference.'}],'new_glossary_requests':[]}
+def main():
+ p=argparse.ArgumentParser();p.add_argument('--write',action='store_true');a=p.parse_args();d=build();print(json.dumps({'mode':'write' if a.write else 'dry-run','translation_count':len(d['translations']),'sample':[(n,next(v['text'] for v in d['translations'].values() if v['resource_row']==n)) for n in (1440,1462,1482,1506,1519)]},ensure_ascii=False,indent=2));
+ if a.write:OUT.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+if __name__=='__main__':main()

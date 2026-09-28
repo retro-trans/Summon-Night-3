@@ -1,0 +1,198 @@
+{
+  "version": "0.1.28",
+  "status": "meaning_reviewed",
+  "limits": {
+    "total_cells": 54,
+    "line_cells": 29,
+    "lines": 2
+  },
+  "entries": [
+    {
+      "record": 100,
+      "id": "02:00003/00031:ui:0000621a",
+      "name": "Counter",
+      "full": "Counter type. Counterattack when attacked from within range.",
+      "compact_lines": [
+        "Counter type: retaliate",
+        "when hit within range."
+      ]
+    },
+    {
+      "record": 101,
+      "id": "02:00003/00031:ui:00006250",
+      "name": "Guard",
+      "full": "Defense type. Reduces damage from normal physical attacks.",
+      "compact_lines": [
+        "Guard type: reduces normal",
+        "physical attack damage."
+      ]
+    },
+    {
+      "record": 102,
+      "id": "02:00003/00031:ui:00006292",
+      "name": "Riposte",
+      "full": "Counter type. Counter damage rises by Skill Lv x 5%.",
+      "compact_lines": [
+        "Counter type: counter dmg",
+        "+5% per Skill Lv."
+      ]
+    },
+    {
+      "record": 107,
+      "id": "02:00003/00031:ui:000062ec",
+      "name": "Preempt",
+      "full": "Counter type. When hit by a physical attack from within range, Skill Lv x 20% chance to strike first. Ineffective against special attacks.",
+      "compact_lines": [
+        "Cntr: physical hits in range",
+        "20%/Lv first; no special."
+      ]
+    },
+    {
+      "record": 111,
+      "id": "02:00003/00031:ui:0000636e",
+      "name": "Preempt+",
+      "full_translation": "Counter type. Strike first when hit by a physical attack in range.",
+      "lines": [
+        "Counter: strike first vs.",
+        "physical hits in range."
+      ],
+      "compact_lines": [
+        "Cntr: physical hits in range",
+        "First strike; no special."
+      ],
+      "full": "Counter type. Strike first when hit by a physical attack from within range. Ineffective against special attacks."
+    },
+    {
+      "record": 112,
+      "id": "02:00003/00031:ui:000063c8",
+      "name": "Block",
+      "full": "Counter type. Negates normal physical attacks with a Skill Lv x 7% chance.",
+      "compact_lines": [
+        "Counter type: block normal",
+        "attacks; 7% per Skill Lv."
+      ]
+    },
+    {
+      "record": 117,
+      "id": "02:00003/00031:ui:00006420",
+      "name": "Iron Wall",
+      "full": "Defense type. Damage reduction rises by Skill Lv x 5%.",
+      "compact_lines": [
+        "Guard type: dmg reduction",
+        "+5% per Skill Lv."
+      ]
+    },
+    {
+      "record": 122,
+      "id": "02:00003/00031:ui:00006484",
+      "name": "Dodge",
+      "full": "Defense type. Evasion against throws, bows, and guns rises by Skill Lv x 5%.",
+      "compact_lines": [
+        "Guard type: evade throws,",
+        "bows, guns +5% per Lv."
+      ]
+    },
+    {
+      "record": 127,
+      "id": "02:00003/00031:ui:000064e2",
+      "name": "Agility",
+      "full": "Defense type. Evasion against all direct attacks rises by Skill Lv x 5%.",
+      "compact_lines": [
+        "Guard type: evade direct",
+        "attacks +5% per Skill Lv."
+      ]
+    },
+    {
+      "record": 132,
+      "id": "02:00003/00031:ui:00006544",
+      "name": "Magic Resist",
+      "full": "Guard type. Reduces summon damage by Skill Lv x 8%. Physical damage received is the same as Guard.",
+      "compact_lines": [
+        "Summon dmg -8%/Lv.",
+        "Phys. dmg as Guard."
+      ]
+    },
+    {
+      "record": 137,
+      "id": "02:00003/00031:ui:000065bc",
+      "name": "Mana Guard",
+      "full": "Guard type. Summon damage may be received as MP damage. Physical damage received is the same as Guard.",
+      "compact_lines": [
+        "Summon dmg may hit MP.",
+        "Phys. dmg as Guard."
+      ]
+    },
+    {
+      "record": 142,
+      "id": "02:00003/00031:ui:0000663c",
+      "name": "Retort",
+      "full": "Counter type. Always counterattack when attacked from within range. Damage dealt is the same as Counter.",
+      "compact_lines": [
+        "Always counter in range.",
+        "Dmg as Counter."
+      ]
+    },
+    {
+      "record": 147,
+      "id": "02:00003/00031:ui:000066b6",
+      "name": "P. Barrier",
+      "full": "Guard type. Physical damage reduction increases by Skill Lv x 10%.",
+      "compact_lines": [
+        "Guard: Phys. dmg reduction",
+        "+10% per Skill Lv."
+      ]
+    },
+    {
+      "record": 152,
+      "id": "02:00003/00031:ui:00006726",
+      "name": "Intimidate",
+      "full": "Guard type. Wait with a specially shaped ZOC. Damage received is the same as Guard.",
+      "compact_lines": [
+        "Guard: Special ZOC shape.",
+        "Dmg as Guard."
+      ]
+    },
+    {
+      "record": 157,
+      "id": "02:00003/00031:ui:0000679a",
+      "name": "Provoke",
+      "full": "Counter type. More likely to be targeted by enemies. Damage dealt is the same as Counter.",
+      "compact_lines": [
+        "Cntr: Draw more enemy attacks",
+        "Dmg as Counter."
+      ]
+    },
+    {
+      "record": 162,
+      "id": "02:00003/00031:ui:00006806",
+      "name": "Cover",
+      "full": "Guard type. Take attacks in place of adjacent allies. Damage received is the same as Guard.",
+      "compact_lines": [
+        "Take hits for adjacent ally.",
+        "Dmg as Guard."
+      ]
+    },
+    {
+      "record": 167,
+      "id": "02:00003/00031:ui:00006878",
+      "name": "Brace",
+      "full": "Guard type. Skill Lv x 7% chance to nullify normal physical attacks. Otherwise damage received is the same as Guard.",
+      "compact_lines": [
+        "Null normal phys.: 7%/Lv.",
+        "Else: Guard damage."
+      ]
+    },
+    {
+      "record": 172,
+      "id": "02:00003/00031:ui:000068f8",
+      "name": "Reflect",
+      "full": "Guard type. Return half the damage that would be received from thrown weapons, bows and guns to the attacker. Other physical damage received is the same as Guard.",
+      "compact_lines": [
+        "Return 1/2 thrown/bow/gun dmg",
+        "Other phys.: Guard."
+      ]
+    }
+  ],
+  "scope_note": "All 18 distinct stance descriptions in table31 records100..176. Record177 begins the ZOC passive category.",
+  "review_note": "Root extracted full original continuation lines. Independent meaning reviewer accepted compact additions and required explicit no-special-attacks clauses for107/111. Reviewed corrections applied before layout validation."
+}

@@ -1,0 +1,1014 @@
+{
+  "schema_version": 1,
+  "purpose": "Read-only chapter 2/3 scope map. Metadata only; no dialogue text.",
+  "source_catalog": "work/translation/en/script_strings.index.json",
+  "shared_prefix_definition": {
+    "row_count": 1808,
+    "proof": "The ordered source-hash sequence for rows 0..1807 is identical in 00:00088 and 00:00111.",
+    "chapter_specific_definition": "Rows after the shared-prefix range in each main resource; this is a structural distinction, not a reachability claim."
+  },
+  "main_resources": [
+    {
+      "chapter": "chapter2",
+      "source_id": "00:00088",
+      "archive_index": 88,
+      "row_count": 3519,
+      "row_ranges": {
+        "shared_prefix": [
+          0,
+          1807
+        ],
+        "chapter_unique_tail": [
+          1808,
+          3518
+        ]
+      },
+      "shared_prefix_row_count": 1808,
+      "chapter_unique_tail_row_count": 1711,
+      "source_id_ranges": {
+        "shared_prefix": [
+          "00:00088:text:000219d0",
+          "00:00088:text:00029daa"
+        ],
+        "chapter_unique_tail": [
+          "00:00088:text:00029db6",
+          "00:00088:text:00031178"
+        ]
+      },
+      "shared_prefix_sequence_sha256": "9b47014af4125d6263dc5b1981218b5ab60c31757ddb6168c926efab1aa1d2ad",
+      "unique_tail_sequence_sha256": "5d3d82d9b3894403fafe5901be87f670f8dab4baed2c25283f325e7e1feba079",
+      "source_offsets": {
+        "shared_prefix": [
+          137680,
+          171434
+        ],
+        "chapter_unique_tail": [
+          171446,
+          201080
+        ]
+      },
+      "reference_instruction_offsets": {
+        "shared_prefix": [
+          3038,
+          75846
+        ],
+        "chapter_unique_tail": [
+          76314,
+          137218
+        ]
+      }
+    },
+    {
+      "chapter": "chapter3",
+      "source_id": "00:00111",
+      "archive_index": 111,
+      "row_count": 4127,
+      "row_ranges": {
+        "shared_prefix": [
+          0,
+          1807
+        ],
+        "chapter_unique_tail": [
+          1808,
+          4126
+        ]
+      },
+      "shared_prefix_row_count": 1808,
+      "chapter_unique_tail_row_count": 2319,
+      "source_id_ranges": {
+        "shared_prefix": [
+          "00:00111:text:0002649c",
+          "00:00111:text:0002e876"
+        ],
+        "chapter_unique_tail": [
+          "00:00111:text:0002e882",
+          "00:00111:text:00038d82"
+        ]
+      },
+      "shared_prefix_sequence_sha256": "9b47014af4125d6263dc5b1981218b5ab60c31757ddb6168c926efab1aa1d2ad",
+      "unique_tail_sequence_sha256": "f8adc93a4eb623d05639007a11b5eea601a716babb72104c2bf334624a8ac044",
+      "source_offsets": {
+        "shared_prefix": [
+          156828,
+          190582
+        ],
+        "chapter_unique_tail": [
+          190594,
+          232834
+        ]
+      },
+      "reference_instruction_offsets": {
+        "shared_prefix": [
+          3038,
+          75846
+        ],
+        "chapter_unique_tail": [
+          76338,
+          156132
+        ]
+      }
+    }
+  ],
+  "candidate_support_regions": {
+    "chapter2_archive_index_window": [
+      66,
+      110
+    ],
+    "chapter2_main_archive_index": 88,
+    "chapter2_all_present_indexes": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      99,
+      100,
+      101,
+      102,
+      110
+    ],
+    "chapter2_support_present_indexes": [
+      87,
+      89,
+      90,
+      91,
+      92,
+      93,
+      99,
+      100,
+      101,
+      102,
+      110
+    ],
+    "chapter2_absent_indexes": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      94,
+      95,
+      96,
+      97,
+      98,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+    ],
+    "chapter2_support_resources": [
+      {
+        "source_id": "00:00087",
+        "archive_index": 87,
+        "archive_offset": 45436928,
+        "compressed_size": 14336,
+        "row_count": 42,
+        "row_range": [
+          0,
+          41
+        ],
+        "source_id_range": [
+          "00:00087:text:000060fc",
+          "00:00087:text:000064a4"
+        ],
+        "japanese_row_count": 11,
+        "unique_source_hash_count": 38,
+        "reference_instruction_offsets": [
+          328,
+          16644
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 7,
+          "chapter2_unique_tail": 0,
+          "chapter3_unique_tail": 0,
+          "exclusive_to_this_scope_comparison": 31
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "d1932938bfe9d0c2015bb5eb4dfa5b827cf59c51a3a92014eb824dc75d031ed8",
+          "string_reference_count": 42,
+          "immediate_call_after_string_reference": {},
+          "queue_push_2003_references": 0
+        },
+        "classification_hint": "candidate companion script: indexed strings present, but no immediate 2003 dialogue-queue reference"
+      },
+      {
+        "source_id": "00:00089",
+        "archive_index": 89,
+        "archive_offset": 45547520,
+        "compressed_size": 8192,
+        "row_count": 150,
+        "row_range": [
+          0,
+          149
+        ],
+        "source_id_range": [
+          "00:00089:text:000037dc",
+          "00:00089:text:00004160"
+        ],
+        "japanese_row_count": 149,
+        "unique_source_hash_count": 92,
+        "reference_instruction_offsets": [
+          3038,
+          14274
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 15,
+          "chapter2_unique_tail": 7,
+          "chapter3_unique_tail": 6,
+          "exclusive_to_this_scope_comparison": 73
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "236312d8eb1707a593b21fa06b05a5ed096c0fde17eed93a01c31da15ae35c77",
+          "string_reference_count": 150,
+          "immediate_call_after_string_reference": {
+            "2003": 139
+          },
+          "queue_push_2003_references": 139
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00090",
+        "archive_index": 90,
+        "archive_offset": 45555712,
+        "compressed_size": 6144,
+        "row_count": 43,
+        "row_range": [
+          0,
+          42
+        ],
+        "source_id_range": [
+          "00:00090:text:00002b62",
+          "00:00090:text:00002f38"
+        ],
+        "japanese_row_count": 43,
+        "unique_source_hash_count": 39,
+        "reference_instruction_offsets": [
+          3038,
+          11084
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 9,
+          "chapter2_unique_tail": 3,
+          "chapter3_unique_tail": 3,
+          "exclusive_to_this_scope_comparison": 29
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "6822b8d3af840390cfed616dc4134468ba864ef6d790c0c17804a3152add6db6",
+          "string_reference_count": 43,
+          "immediate_call_after_string_reference": {
+            "2003": 32
+          },
+          "queue_push_2003_references": 32
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00091",
+        "archive_index": 91,
+        "archive_offset": 45561856,
+        "compressed_size": 6144,
+        "row_count": 60,
+        "row_range": [
+          0,
+          59
+        ],
+        "source_id_range": [
+          "00:00091:text:00002c9a",
+          "00:00091:text:000031fe"
+        ],
+        "japanese_row_count": 60,
+        "unique_source_hash_count": 55,
+        "reference_instruction_offsets": [
+          3038,
+          11396
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 9,
+          "chapter2_unique_tail": 5,
+          "chapter3_unique_tail": 5,
+          "exclusive_to_this_scope_comparison": 42
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "0b983a87d436c9317d65740064fe5a562fead98923aecd8ca52960889834695a",
+          "string_reference_count": 60,
+          "immediate_call_after_string_reference": {
+            "2003": 49
+          },
+          "queue_push_2003_references": 49
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00092",
+        "archive_index": 92,
+        "archive_offset": 45568000,
+        "compressed_size": 6144,
+        "row_count": 43,
+        "row_range": [
+          0,
+          42
+        ],
+        "source_id_range": [
+          "00:00092:text:00002b5a",
+          "00:00092:text:00002f20"
+        ],
+        "japanese_row_count": 43,
+        "unique_source_hash_count": 39,
+        "reference_instruction_offsets": [
+          3038,
+          11076
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 9,
+          "chapter2_unique_tail": 3,
+          "chapter3_unique_tail": 4,
+          "exclusive_to_this_scope_comparison": 27
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "44482c4036e67c0606c9f3b6a39df2975f5085f692873b1e23df88539e517f07",
+          "string_reference_count": 43,
+          "immediate_call_after_string_reference": {
+            "2003": 32
+          },
+          "queue_push_2003_references": 32
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00093",
+        "archive_index": 93,
+        "archive_offset": 45574144,
+        "compressed_size": 6144,
+        "row_count": 54,
+        "row_range": [
+          0,
+          53
+        ],
+        "source_id_range": [
+          "00:00093:text:00002c1c",
+          "00:00093:text:000030f4"
+        ],
+        "japanese_row_count": 54,
+        "unique_source_hash_count": 49,
+        "reference_instruction_offsets": [
+          3038,
+          11270
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 10,
+          "chapter2_unique_tail": 4,
+          "chapter3_unique_tail": 5,
+          "exclusive_to_this_scope_comparison": 37
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "b9049faea1c4830fdbff2204d636e3466102dbde3da89a200e79af9fbdd8b12e",
+          "string_reference_count": 54,
+          "immediate_call_after_string_reference": {
+            "2003": 43
+          },
+          "queue_push_2003_references": 43
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00099",
+        "archive_index": 99,
+        "archive_offset": 45580288,
+        "compressed_size": 6144,
+        "row_count": 47,
+        "row_range": [
+          0,
+          46
+        ],
+        "source_id_range": [
+          "00:00099:text:00002ba6",
+          "00:00099:text:0000300a"
+        ],
+        "japanese_row_count": 46,
+        "unique_source_hash_count": 42,
+        "reference_instruction_offsets": [
+          3038,
+          11152
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 8,
+          "chapter2_unique_tail": 4,
+          "chapter3_unique_tail": 2,
+          "exclusive_to_this_scope_comparison": 31
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "ad5c0305511bc718edb3b755ed24853cd98e7273f79229123df2827a493a3950",
+          "string_reference_count": 47,
+          "immediate_call_after_string_reference": {
+            "2003": 36
+          },
+          "queue_push_2003_references": 36
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00100",
+        "archive_index": 100,
+        "archive_offset": 45586432,
+        "compressed_size": 6144,
+        "row_count": 38,
+        "row_range": [
+          0,
+          37
+        ],
+        "source_id_range": [
+          "00:00100:text:00002b22",
+          "00:00100:text:00002eb6"
+        ],
+        "japanese_row_count": 38,
+        "unique_source_hash_count": 34,
+        "reference_instruction_offsets": [
+          3038,
+          11020
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 9,
+          "chapter2_unique_tail": 2,
+          "chapter3_unique_tail": 3,
+          "exclusive_to_this_scope_comparison": 24
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "2596a932fc8387c8d7160859eb51c5b3c2c421bf148fbfde72132fb3bb2044e8",
+          "string_reference_count": 38,
+          "immediate_call_after_string_reference": {
+            "2003": 27
+          },
+          "queue_push_2003_references": 27
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00101",
+        "archive_index": 101,
+        "archive_offset": 45592576,
+        "compressed_size": 6144,
+        "row_count": 40,
+        "row_range": [
+          0,
+          39
+        ],
+        "source_id_range": [
+          "00:00101:text:00002b4a",
+          "00:00101:text:00002ef4"
+        ],
+        "japanese_row_count": 40,
+        "unique_source_hash_count": 36,
+        "reference_instruction_offsets": [
+          3038,
+          11060
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 9,
+          "chapter2_unique_tail": 2,
+          "chapter3_unique_tail": 4,
+          "exclusive_to_this_scope_comparison": 25
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "f9d457d29765529fddf56e8f440c2f448e8d57ac28a434840f535dc6f45c95de",
+          "string_reference_count": 40,
+          "immediate_call_after_string_reference": {
+            "2003": 29
+          },
+          "queue_push_2003_references": 29
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00102",
+        "archive_index": 102,
+        "archive_offset": 45598720,
+        "compressed_size": 6144,
+        "row_count": 50,
+        "row_range": [
+          0,
+          49
+        ],
+        "source_id_range": [
+          "00:00102:text:00002c10",
+          "00:00102:text:000030b6"
+        ],
+        "japanese_row_count": 50,
+        "unique_source_hash_count": 44,
+        "reference_instruction_offsets": [
+          3038,
+          11258
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 10,
+          "chapter2_unique_tail": 3,
+          "chapter3_unique_tail": 3,
+          "exclusive_to_this_scope_comparison": 33
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "592f63172813c1bfd7a82bbf68436e567d83bd940d1a1ad40dd57cabd698a66c",
+          "string_reference_count": 50,
+          "immediate_call_after_string_reference": {
+            "2003": 39
+          },
+          "queue_push_2003_references": 39
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00110",
+        "archive_index": 110,
+        "archive_offset": 45604864,
+        "compressed_size": 14336,
+        "row_count": 42,
+        "row_range": [
+          0,
+          41
+        ],
+        "source_id_range": [
+          "00:00110:text:000062f8",
+          "00:00110:text:000066a0"
+        ],
+        "japanese_row_count": 11,
+        "unique_source_hash_count": 38,
+        "reference_instruction_offsets": [
+          328,
+          16644
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 7,
+          "chapter2_unique_tail": 0,
+          "chapter3_unique_tail": 0,
+          "exclusive_to_this_scope_comparison": 31
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "4c80fe91c6e0ed683bc0142cd02dde24d73064058490b1f86922c8b813bcc802",
+          "string_reference_count": 42,
+          "immediate_call_after_string_reference": {},
+          "queue_push_2003_references": 0
+        },
+        "classification_hint": "candidate companion script: indexed strings present, but no immediate 2003 dialogue-queue reference"
+      }
+    ],
+    "chapter3_archive_index_window": [
+      112,
+      133
+    ],
+    "chapter3_main_archive_index": 111,
+    "chapter3_all_present_indexes": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      122,
+      123,
+      124,
+      125,
+      133
+    ],
+    "chapter3_support_present_indexes": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      122,
+      123,
+      124,
+      125,
+      133
+    ],
+    "chapter3_absent_indexes": [
+      117,
+      118,
+      119,
+      120,
+      121,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132
+    ],
+    "chapter3_support_resources": [
+      {
+        "source_id": "00:00112",
+        "archive_index": 112,
+        "archive_offset": 45729792,
+        "compressed_size": 8192,
+        "row_count": 100,
+        "row_range": [
+          0,
+          99
+        ],
+        "source_id_range": [
+          "00:00112:text:00003506",
+          "00:00112:text:00003bf0"
+        ],
+        "japanese_row_count": 100,
+        "unique_source_hash_count": 69,
+        "reference_instruction_offsets": [
+          3038,
+          13540
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 13,
+          "chapter2_unique_tail": 5,
+          "chapter3_unique_tail": 6,
+          "exclusive_to_this_scope_comparison": 54
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "3365078e368139099a24c6a78ca34d032d20a5b1ba311dc53960c384bfa692b4",
+          "string_reference_count": 100,
+          "immediate_call_after_string_reference": {
+            "2003": 89
+          },
+          "queue_push_2003_references": 89
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00113",
+        "archive_index": 113,
+        "archive_offset": 45737984,
+        "compressed_size": 6144,
+        "row_count": 39,
+        "row_range": [
+          0,
+          38
+        ],
+        "source_id_range": [
+          "00:00113:text:00002b0e",
+          "00:00113:text:00002e82"
+        ],
+        "japanese_row_count": 39,
+        "unique_source_hash_count": 35,
+        "reference_instruction_offsets": [
+          3038,
+          11000
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 8,
+          "chapter2_unique_tail": 1,
+          "chapter3_unique_tail": 1,
+          "exclusive_to_this_scope_comparison": 26
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "9bcf9b881655a8cc32221440d24e7f3c479ee3fed58e63459428b215eb489ac8",
+          "string_reference_count": 39,
+          "immediate_call_after_string_reference": {
+            "2003": 28
+          },
+          "queue_push_2003_references": 28
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00114",
+        "archive_index": 114,
+        "archive_offset": 45744128,
+        "compressed_size": 6144,
+        "row_count": 30,
+        "row_range": [
+          0,
+          29
+        ],
+        "source_id_range": [
+          "00:00114:text:00002a7c",
+          "00:00114:text:00002d12"
+        ],
+        "japanese_row_count": 30,
+        "unique_source_hash_count": 26,
+        "reference_instruction_offsets": [
+          3038,
+          10854
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 11,
+          "chapter2_unique_tail": 2,
+          "chapter3_unique_tail": 1,
+          "exclusive_to_this_scope_comparison": 14
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "2c73b2f67159e4a27800a78ade5d3502e06ff94a0bc487a66283e741e303d72f",
+          "string_reference_count": 30,
+          "immediate_call_after_string_reference": {
+            "2003": 19
+          },
+          "queue_push_2003_references": 19
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00115",
+        "archive_index": 115,
+        "archive_offset": 45750272,
+        "compressed_size": 6144,
+        "row_count": 37,
+        "row_range": [
+          0,
+          36
+        ],
+        "source_id_range": [
+          "00:00115:text:00002ae2",
+          "00:00115:text:00002e3c"
+        ],
+        "japanese_row_count": 37,
+        "unique_source_hash_count": 33,
+        "reference_instruction_offsets": [
+          3038,
+          10956
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 7,
+          "chapter2_unique_tail": 0,
+          "chapter3_unique_tail": 0,
+          "exclusive_to_this_scope_comparison": 26
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "3e6ea1aeac382721b1d4a91a8907cec1cb657a81311313df8c06ef1716e5812d",
+          "string_reference_count": 37,
+          "immediate_call_after_string_reference": {
+            "2003": 26
+          },
+          "queue_push_2003_references": 26
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00116",
+        "archive_index": 116,
+        "archive_offset": 45756416,
+        "compressed_size": 6144,
+        "row_count": 30,
+        "row_range": [
+          0,
+          29
+        ],
+        "source_id_range": [
+          "00:00116:text:00002a76",
+          "00:00116:text:00002d16"
+        ],
+        "japanese_row_count": 30,
+        "unique_source_hash_count": 26,
+        "reference_instruction_offsets": [
+          3038,
+          10848
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 10,
+          "chapter2_unique_tail": 2,
+          "chapter3_unique_tail": 1,
+          "exclusive_to_this_scope_comparison": 15
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "dabaec55c2b5264bc520f9d9f9ec773e00315e3a149821c9c0e747cd0d7f8280",
+          "string_reference_count": 30,
+          "immediate_call_after_string_reference": {
+            "2003": 19
+          },
+          "queue_push_2003_references": 19
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00122",
+        "archive_index": 122,
+        "archive_offset": 45762560,
+        "compressed_size": 6144,
+        "row_count": 45,
+        "row_range": [
+          0,
+          44
+        ],
+        "source_id_range": [
+          "00:00122:text:00002bf6",
+          "00:00122:text:00002ff6"
+        ],
+        "japanese_row_count": 45,
+        "unique_source_hash_count": 39,
+        "reference_instruction_offsets": [
+          3038,
+          11232
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 10,
+          "chapter2_unique_tail": 3,
+          "chapter3_unique_tail": 5,
+          "exclusive_to_this_scope_comparison": 27
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "0dd494d2d4bab25bea931513918991e749c296d1fc58f3a84256b7f1a553c988",
+          "string_reference_count": 45,
+          "immediate_call_after_string_reference": {
+            "2003": 34
+          },
+          "queue_push_2003_references": 34
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00123",
+        "archive_index": 123,
+        "archive_offset": 45768704,
+        "compressed_size": 6144,
+        "row_count": 31,
+        "row_range": [
+          0,
+          30
+        ],
+        "source_id_range": [
+          "00:00123:text:00002a94",
+          "00:00123:text:00002d4e"
+        ],
+        "japanese_row_count": 31,
+        "unique_source_hash_count": 26,
+        "reference_instruction_offsets": [
+          3038,
+          10878
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 8,
+          "chapter2_unique_tail": 2,
+          "chapter3_unique_tail": 2,
+          "exclusive_to_this_scope_comparison": 17
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "dea30f45e992d17c00a2b46b1e368dfa8a36f8afe49aea6d836cc4d9e6ba463f",
+          "string_reference_count": 31,
+          "immediate_call_after_string_reference": {
+            "2003": 20
+          },
+          "queue_push_2003_references": 20
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00124",
+        "archive_index": 124,
+        "archive_offset": 45774848,
+        "compressed_size": 6144,
+        "row_count": 36,
+        "row_range": [
+          0,
+          35
+        ],
+        "source_id_range": [
+          "00:00124:text:00002aec",
+          "00:00124:text:00002dfe"
+        ],
+        "japanese_row_count": 36,
+        "unique_source_hash_count": 31,
+        "reference_instruction_offsets": [
+          3038,
+          10966
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 8,
+          "chapter2_unique_tail": 2,
+          "chapter3_unique_tail": 3,
+          "exclusive_to_this_scope_comparison": 21
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "b8886f1475470c5ccd84c1e66e682a323b9da2756b55ef09895cb12f233deff1",
+          "string_reference_count": 36,
+          "immediate_call_after_string_reference": {
+            "2003": 25
+          },
+          "queue_push_2003_references": 25
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00125",
+        "archive_index": 125,
+        "archive_offset": 45780992,
+        "compressed_size": 6144,
+        "row_count": 41,
+        "row_range": [
+          0,
+          40
+        ],
+        "source_id_range": [
+          "00:00125:text:00002b44",
+          "00:00125:text:00002f00"
+        ],
+        "japanese_row_count": 41,
+        "unique_source_hash_count": 37,
+        "reference_instruction_offsets": [
+          3038,
+          11054
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 9,
+          "chapter2_unique_tail": 3,
+          "chapter3_unique_tail": 3,
+          "exclusive_to_this_scope_comparison": 26
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "031de8b2de57e5020edabd1ea4ea2b6182a9220a634d6e64722ed84fa18a9db8",
+          "string_reference_count": 41,
+          "immediate_call_after_string_reference": {
+            "2003": 30
+          },
+          "queue_push_2003_references": 30
+        },
+        "classification_hint": "candidate companion story/event script: indexed Japanese strings and 2003 dialogue-queue references present"
+      },
+      {
+        "source_id": "00:00133",
+        "archive_index": 133,
+        "archive_offset": 45787136,
+        "compressed_size": 14336,
+        "row_count": 42,
+        "row_range": [
+          0,
+          41
+        ],
+        "source_id_range": [
+          "00:00133:text:000066d6",
+          "00:00133:text:00006a7e"
+        ],
+        "japanese_row_count": 11,
+        "unique_source_hash_count": 38,
+        "reference_instruction_offsets": [
+          328,
+          16644
+        ],
+        "exact_source_hash_overlap": {
+          "shared_main_prefix": 7,
+          "chapter2_unique_tail": 0,
+          "chapter3_unique_tail": 0,
+          "exclusive_to_this_scope_comparison": 31
+        },
+        "runtime_text_usage": {
+          "decoded_sha256": "c176be0a2905d6cbbc224a098c13985a7a3a4a31fad2e0665fa9469b13568670",
+          "string_reference_count": 42,
+          "immediate_call_after_string_reference": {},
+          "queue_push_2003_references": 0
+        },
+        "classification_hint": "candidate companion script: indexed strings present, but no immediate 2003 dialogue-queue reference"
+      }
+    ]
+  },
+  "reachable_transition_hints": {
+    "archive_order": "00:00088 follows the chapter-2 companion window and 00:00111 begins after it; 00:00134 is the next observed large main-script boundary.",
+    "dialogue_signal": "Support resources with immediate call target 2003 after a string reference are candidates for dialogue-bearing optional scenes, night talks, or battle events. The VM evidence does not identify the game-state loader condition.",
+    "scope_rule_for_future_slices": "Translate main unique tails by ordered row range. Treat every companion resource with Japanese rows and dialogue-queue references as a separate required coverage queue until runtime route evidence assigns it to a chapter."
+  },
+  "coverage_accounting": {
+    "chapter2_main_unique_rows": 1711,
+    "chapter3_main_unique_rows": 2319,
+    "chapter2_support_japanese_rows": 545,
+    "chapter3_support_japanese_rows": 400,
+    "unassigned_dialogue_bearing_support_source_ids": [
+      "00:00089",
+      "00:00090",
+      "00:00091",
+      "00:00092",
+      "00:00093",
+      "00:00099",
+      "00:00100",
+      "00:00101",
+      "00:00102",
+      "00:00112",
+      "00:00113",
+      "00:00114",
+      "00:00115",
+      "00:00116",
+      "00:00122",
+      "00:00123",
+      "00:00124",
+      "00:00125"
+    ]
+  },
+  "unknowns": [
+    "Static string references prove text presence and immediate dialogue queue use, but do not prove which game-state flags load each companion resource.",
+    "The archive-number windows are a bounded candidate map. They do not prove that no chapter 2/3 optional story lives outside those windows.",
+    "Night-talk and battle-event labels require runtime route tracing or loader-function research; this document deliberately does not infer those labels from dialogue text."
+  ]
+}

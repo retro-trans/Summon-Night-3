@@ -1,0 +1,2193 @@
+{
+  "schema_version": 1,
+  "version": "0.1.6",
+  "scope": "Character selection, all affinities and name-entry graphics for both protagonists and naming variants.",
+  "inputs_sha256": {
+    "work/translation/en/setup_ui.targets.json": "74378102a1c2d8e2e27f4959bfacfacbd959b61f1f2573ea04484eb4e2241afc",
+    "work/translation/en/setup_ui.compact_review.json": "141efbd6e80d442c61a2e0e66628b6e36e6347244499437f1926caffdfaf2254",
+    "tools/setup_ui_patch.py": "c8f6623d78c17d9dbf88fdd4f04e270bf27d9771da621df1e268c2d3e42d896e"
+  },
+  "font_inputs_sha256": {
+    "C:\\Windows\\Fonts\\arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "C:\\Windows\\Fonts\\arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "C:\\Windows\\Fonts\\ARIALNB.TTF": "dc7f1542fca0f52bdf53e24a49dbb6e9a733c6beeb5ccb27dd0215713d126233"
+  },
+  "sprite_count": 68,
+  "records": [
+    {
+      "sprite_id": "02:00028/00001:sprite:000",
+      "tag": "select_heading",
+      "image_file": "02_00028_00001_sprite_000.png",
+      "source_resource_sha256": "dc638a929e5894621932f6b6be18e75bdc9698ea98e1d13627a11cfe6e930658",
+      "width": 264,
+      "height": 64,
+      "changed_pixels": 3778,
+      "layout": [
+        {
+          "text": "Choose your protagonist.",
+          "lines": [
+            "Choose your protagonist."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 13,
+          "rect": [
+            25,
+            30,
+            188,
+            20
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "66d7b36e1ece34e0c311fc0558a7f0417c7f49d34fb4fc301bae345b344a1edf"
+    },
+    {
+      "sprite_id": "02:00028/00001:sprite:001",
+      "tag": "select_heading",
+      "image_file": "02_00028_00001_sprite_001.png",
+      "source_resource_sha256": "dc638a929e5894621932f6b6be18e75bdc9698ea98e1d13627a11cfe6e930658",
+      "width": 264,
+      "height": 64,
+      "changed_pixels": 8386,
+      "layout": [
+        {
+          "text": "Choose the summon affinity your protagonist will specialize in.",
+          "lines": [
+            "Choose the summon affinity your",
+            "protagonist will specialize in."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 14,
+          "rect": [
+            22,
+            7,
+            192,
+            44
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "aeaa057f9b89838c00f2f7517263accc2773c65f001f9b05c1764ab87468a64c"
+    },
+    {
+      "sprite_id": "02:00028/00001:sprite:004",
+      "tag": "confirm_button",
+      "image_file": "02_00028_00001_sprite_004.png",
+      "source_resource_sha256": "dc638a929e5894621932f6b6be18e75bdc9698ea98e1d13627a11cfe6e930658",
+      "width": 112,
+      "height": 56,
+      "changed_pixels": 1404,
+      "layout": [
+        {
+          "text": "Confirm",
+          "lines": [
+            "Confirm"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 12,
+          "rect": [
+            42,
+            17,
+            51,
+            22
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "25776a408f4396295c04d5c475a0a16cd065c73f85556e96b370c2e323e0b587"
+    },
+    {
+      "sprite_id": "02:00028/00008:sprite:000",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00028_00008_sprite_000.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 40,
+      "height": 24,
+      "changed_pixels": 434,
+      "layout": [],
+      "decoded_rgba_sha256": "a8eac8b0d3b1fde368813438dd5ba415a796fd6dd0a2a42fb6a5a2dfb2429576"
+    },
+    {
+      "sprite_id": "02:00028/00008:sprite:001",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00028_00008_sprite_001.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 40,
+      "height": 24,
+      "changed_pixels": 658,
+      "layout": [],
+      "decoded_rgba_sha256": "a8eac8b0d3b1fde368813438dd5ba415a796fd6dd0a2a42fb6a5a2dfb2429576"
+    },
+    {
+      "sprite_id": "02:00028/00008:sprite:002",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00028_00008_sprite_002.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 32,
+      "height": 32,
+      "changed_pixels": 598,
+      "layout": [],
+      "decoded_rgba_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "sprite_id": "02:00028/00008:sprite:003",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00028_00008_sprite_003.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 32,
+      "height": 32,
+      "changed_pixels": 500,
+      "layout": [],
+      "decoded_rgba_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "sprite_id": "02:00028/00008:sprite:004",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00028_00008_sprite_004.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 32,
+      "height": 32,
+      "changed_pixels": 580,
+      "layout": [],
+      "decoded_rgba_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "sprite_id": "02:00028/00008:sprite:005",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00028_00008_sprite_005.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 32,
+      "height": 32,
+      "changed_pixels": 573,
+      "layout": [],
+      "decoded_rgba_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "sprite_id": "02:00028/00009:sprite:000",
+      "tag": "description.machine",
+      "image_file": "02_00028_00009_sprite_000.png",
+      "source_resource_sha256": "5bbee70b147a20c87e130673b999bcc1891cb899a060d68d5fbcdc5b3a8c0cae",
+      "width": 200,
+      "height": 136,
+      "changed_pixels": 15735,
+      "layout": [
+        {
+          "text": "Machine Affinity",
+          "lines": [
+            "Machine Affinity"
+          ],
+          "font": "arialbd.ttf",
+          "size": 16,
+          "rect": [
+            1,
+            0,
+            198,
+            20
+          ]
+        },
+        {
+          "text": "Machine World: Loreilal\nA world with an advanced mechanical civilization that creates mechanical soldiers and other machines.\nThis affinity has the most offensive summons. They are powerful, but their MP costs are also somewhat higher.",
+          "lines": [
+            "Machine World: Loreilal",
+            "A world with an advanced mechanical",
+            "civilization that creates mechanical",
+            "soldiers and other machines.",
+            "This affinity has the most offensive",
+            "summons. They are powerful, but their",
+            "MP costs are also somewhat higher."
+          ],
+          "font": "arial.ttf",
+          "size": 11,
+          "rect": [
+            1,
+            21,
+            198,
+            114
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "c5a6e1b5def0db38440f7a6f6a0f2d13fe314bc57283296197b95e494206fd6a"
+    },
+    {
+      "sprite_id": "02:00028/00010:sprite:000",
+      "tag": "description.yokai",
+      "image_file": "02_00028_00010_sprite_000.png",
+      "source_resource_sha256": "6a296da0ce0ec233370e0ac35f5975e797f6a81abe82f85de87b17a9af8b4237",
+      "width": 200,
+      "height": 136,
+      "changed_pixels": 16693,
+      "layout": [
+        {
+          "text": "Yokai Affinity",
+          "lines": [
+            "Yokai Affinity"
+          ],
+          "font": "arialbd.ttf",
+          "size": 16,
+          "rect": [
+            1,
+            0,
+            198,
+            20
+          ]
+        },
+        {
+          "text": "Yokai World: Silturn\nA world where humans coexist with supernatural beings such as yokai, dragon gods, and oni gods.\nIts summons mainly attack or apply status ailments and possession effects. Many of these effects put enemies at a disadvantage.",
+          "lines": [
+            "Yokai World: Silturn",
+            "A world where humans coexist with",
+            "supernatural beings such as yokai,",
+            "dragon gods, and oni gods.",
+            "Its summons mainly attack or apply",
+            "status ailments and possession effects.",
+            "Many of these effects put enemies at a",
+            "disadvantage."
+          ],
+          "font": "arial.ttf",
+          "size": 11,
+          "rect": [
+            1,
+            21,
+            198,
+            114
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "0d03a9abf549a78edcfc17e042e3d595ec08552f3ce67e9ff4baec98f9b4795e"
+    },
+    {
+      "sprite_id": "02:00028/00011:sprite:000",
+      "tag": "description.spirit",
+      "image_file": "02_00028_00011_sprite_000.png",
+      "source_resource_sha256": "0192d01d0de7a2b1c2ec77c1fbfd5bb3e557c9bd92a45d3f3c73b48de27c5671",
+      "width": 200,
+      "height": 136,
+      "changed_pixels": 16323,
+      "layout": [
+        {
+          "text": "Spirit Affinity",
+          "lines": [
+            "Spirit Affinity"
+          ],
+          "font": "arialbd.ttf",
+          "size": 16,
+          "rect": [
+            1,
+            0,
+            198,
+            20
+          ]
+        },
+        {
+          "text": "Spirit World: Sapureth\nHome to spiritual beings such as angels and demons. They are immortal in the Spirit World.\nAn affinity that excels at recovery and healing, with many status ailment and possession effects. Well suited to beginners.",
+          "lines": [
+            "Spirit World: Sapureth",
+            "Home to spiritual beings such as angels",
+            "and demons. They are immortal in the",
+            "Spirit World.",
+            "An affinity that excels at recovery and",
+            "healing, with many status ailment and",
+            "possession effects. Well suited to",
+            "beginners."
+          ],
+          "font": "arial.ttf",
+          "size": 11,
+          "rect": [
+            1,
+            21,
+            198,
+            114
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "6869d324738867be2ac96b0c052cb980d7969fc2e88a072a22a9638e02f76817"
+    },
+    {
+      "sprite_id": "02:00028/00012:sprite:000",
+      "tag": "description.beast",
+      "image_file": "02_00028_00012_sprite_000.png",
+      "source_resource_sha256": "6a615aa053f3d3034c132ca8ca1f128f7d86d401a5553780fe224e0aaf088f9b",
+      "width": 200,
+      "height": 136,
+      "changed_pixels": 16986,
+      "layout": [
+        {
+          "text": "Beast Affinity",
+          "lines": [
+            "Beast Affinity"
+          ],
+          "font": "arialbd.ttf",
+          "size": 16,
+          "rect": [
+            1,
+            0,
+            198,
+            20
+          ]
+        },
+        {
+          "text": "Beast World: Maetropa\nA land rich in nature, where beastlike humanoids and mythical beasts live in peace.\nThis affinity is balanced across all summon effects and has some unusual possession effects.",
+          "lines": [
+            "Beast World: Maetropa",
+            "A land rich in nature, where beastlike",
+            "humanoids and mythical beasts live in",
+            "peace.",
+            "This affinity is balanced across all",
+            "summon effects and has some unusual",
+            "possession effects."
+          ],
+          "font": "arial.ttf",
+          "size": 11,
+          "rect": [
+            1,
+            21,
+            198,
+            114
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "6e28ba37a77cb465b29bcb9075c9fb014afbfba2e36d72c1948d274cb3840bc3"
+    },
+    {
+      "sprite_id": "02:00029/00001:sprite:000",
+      "tag": "select_heading",
+      "image_file": "02_00029_00001_sprite_000.png",
+      "source_resource_sha256": "dc638a929e5894621932f6b6be18e75bdc9698ea98e1d13627a11cfe6e930658",
+      "width": 264,
+      "height": 64,
+      "changed_pixels": 3778,
+      "layout": [
+        {
+          "text": "Choose your protagonist.",
+          "lines": [
+            "Choose your protagonist."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 13,
+          "rect": [
+            25,
+            30,
+            188,
+            20
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "66d7b36e1ece34e0c311fc0558a7f0417c7f49d34fb4fc301bae345b344a1edf"
+    },
+    {
+      "sprite_id": "02:00029/00001:sprite:001",
+      "tag": "select_heading",
+      "image_file": "02_00029_00001_sprite_001.png",
+      "source_resource_sha256": "dc638a929e5894621932f6b6be18e75bdc9698ea98e1d13627a11cfe6e930658",
+      "width": 264,
+      "height": 64,
+      "changed_pixels": 8386,
+      "layout": [
+        {
+          "text": "Choose the summon affinity your protagonist will specialize in.",
+          "lines": [
+            "Choose the summon affinity your",
+            "protagonist will specialize in."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 14,
+          "rect": [
+            22,
+            7,
+            192,
+            44
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "aeaa057f9b89838c00f2f7517263accc2773c65f001f9b05c1764ab87468a64c"
+    },
+    {
+      "sprite_id": "02:00029/00001:sprite:004",
+      "tag": "confirm_button",
+      "image_file": "02_00029_00001_sprite_004.png",
+      "source_resource_sha256": "dc638a929e5894621932f6b6be18e75bdc9698ea98e1d13627a11cfe6e930658",
+      "width": 112,
+      "height": 56,
+      "changed_pixels": 1404,
+      "layout": [
+        {
+          "text": "Confirm",
+          "lines": [
+            "Confirm"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 12,
+          "rect": [
+            42,
+            17,
+            51,
+            22
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "25776a408f4396295c04d5c475a0a16cd065c73f85556e96b370c2e323e0b587"
+    },
+    {
+      "sprite_id": "02:00029/00008:sprite:000",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00029_00008_sprite_000.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 40,
+      "height": 24,
+      "changed_pixels": 434,
+      "layout": [],
+      "decoded_rgba_sha256": "a8eac8b0d3b1fde368813438dd5ba415a796fd6dd0a2a42fb6a5a2dfb2429576"
+    },
+    {
+      "sprite_id": "02:00029/00008:sprite:001",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00029_00008_sprite_001.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 40,
+      "height": 24,
+      "changed_pixels": 658,
+      "layout": [],
+      "decoded_rgba_sha256": "a8eac8b0d3b1fde368813438dd5ba415a796fd6dd0a2a42fb6a5a2dfb2429576"
+    },
+    {
+      "sprite_id": "02:00029/00008:sprite:002",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00029_00008_sprite_002.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 32,
+      "height": 32,
+      "changed_pixels": 598,
+      "layout": [],
+      "decoded_rgba_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "sprite_id": "02:00029/00008:sprite:003",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00029_00008_sprite_003.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 32,
+      "height": 32,
+      "changed_pixels": 500,
+      "layout": [],
+      "decoded_rgba_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "sprite_id": "02:00029/00008:sprite:004",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00029_00008_sprite_004.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 32,
+      "height": 32,
+      "changed_pixels": 580,
+      "layout": [],
+      "decoded_rgba_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "sprite_id": "02:00029/00008:sprite:005",
+      "tag": "affinity_heading_moved_to_description",
+      "image_file": "02_00029_00008_sprite_005.png",
+      "source_resource_sha256": "2725d3f8dc970cf75677f40247cd660a96b8e79f828faf529e98ad42c9723a47",
+      "width": 32,
+      "height": 32,
+      "changed_pixels": 573,
+      "layout": [],
+      "decoded_rgba_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "sprite_id": "02:00029/00009:sprite:000",
+      "tag": "description.machine",
+      "image_file": "02_00029_00009_sprite_000.png",
+      "source_resource_sha256": "5bbee70b147a20c87e130673b999bcc1891cb899a060d68d5fbcdc5b3a8c0cae",
+      "width": 200,
+      "height": 136,
+      "changed_pixels": 15735,
+      "layout": [
+        {
+          "text": "Machine Affinity",
+          "lines": [
+            "Machine Affinity"
+          ],
+          "font": "arialbd.ttf",
+          "size": 16,
+          "rect": [
+            1,
+            0,
+            198,
+            20
+          ]
+        },
+        {
+          "text": "Machine World: Loreilal\nA world with an advanced mechanical civilization that creates mechanical soldiers and other machines.\nThis affinity has the most offensive summons. They are powerful, but their MP costs are also somewhat higher.",
+          "lines": [
+            "Machine World: Loreilal",
+            "A world with an advanced mechanical",
+            "civilization that creates mechanical",
+            "soldiers and other machines.",
+            "This affinity has the most offensive",
+            "summons. They are powerful, but their",
+            "MP costs are also somewhat higher."
+          ],
+          "font": "arial.ttf",
+          "size": 11,
+          "rect": [
+            1,
+            21,
+            198,
+            114
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "c5a6e1b5def0db38440f7a6f6a0f2d13fe314bc57283296197b95e494206fd6a"
+    },
+    {
+      "sprite_id": "02:00029/00010:sprite:000",
+      "tag": "description.yokai",
+      "image_file": "02_00029_00010_sprite_000.png",
+      "source_resource_sha256": "6a296da0ce0ec233370e0ac35f5975e797f6a81abe82f85de87b17a9af8b4237",
+      "width": 200,
+      "height": 136,
+      "changed_pixels": 16693,
+      "layout": [
+        {
+          "text": "Yokai Affinity",
+          "lines": [
+            "Yokai Affinity"
+          ],
+          "font": "arialbd.ttf",
+          "size": 16,
+          "rect": [
+            1,
+            0,
+            198,
+            20
+          ]
+        },
+        {
+          "text": "Yokai World: Silturn\nA world where humans coexist with supernatural beings such as yokai, dragon gods, and oni gods.\nIts summons mainly attack or apply status ailments and possession effects. Many of these effects put enemies at a disadvantage.",
+          "lines": [
+            "Yokai World: Silturn",
+            "A world where humans coexist with",
+            "supernatural beings such as yokai,",
+            "dragon gods, and oni gods.",
+            "Its summons mainly attack or apply",
+            "status ailments and possession effects.",
+            "Many of these effects put enemies at a",
+            "disadvantage."
+          ],
+          "font": "arial.ttf",
+          "size": 11,
+          "rect": [
+            1,
+            21,
+            198,
+            114
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "0d03a9abf549a78edcfc17e042e3d595ec08552f3ce67e9ff4baec98f9b4795e"
+    },
+    {
+      "sprite_id": "02:00029/00011:sprite:000",
+      "tag": "description.spirit",
+      "image_file": "02_00029_00011_sprite_000.png",
+      "source_resource_sha256": "0192d01d0de7a2b1c2ec77c1fbfd5bb3e557c9bd92a45d3f3c73b48de27c5671",
+      "width": 200,
+      "height": 136,
+      "changed_pixels": 16323,
+      "layout": [
+        {
+          "text": "Spirit Affinity",
+          "lines": [
+            "Spirit Affinity"
+          ],
+          "font": "arialbd.ttf",
+          "size": 16,
+          "rect": [
+            1,
+            0,
+            198,
+            20
+          ]
+        },
+        {
+          "text": "Spirit World: Sapureth\nHome to spiritual beings such as angels and demons. They are immortal in the Spirit World.\nAn affinity that excels at recovery and healing, with many status ailment and possession effects. Well suited to beginners.",
+          "lines": [
+            "Spirit World: Sapureth",
+            "Home to spiritual beings such as angels",
+            "and demons. They are immortal in the",
+            "Spirit World.",
+            "An affinity that excels at recovery and",
+            "healing, with many status ailment and",
+            "possession effects. Well suited to",
+            "beginners."
+          ],
+          "font": "arial.ttf",
+          "size": 11,
+          "rect": [
+            1,
+            21,
+            198,
+            114
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "6869d324738867be2ac96b0c052cb980d7969fc2e88a072a22a9638e02f76817"
+    },
+    {
+      "sprite_id": "02:00029/00012:sprite:000",
+      "tag": "description.beast",
+      "image_file": "02_00029_00012_sprite_000.png",
+      "source_resource_sha256": "6a615aa053f3d3034c132ca8ca1f128f7d86d401a5553780fe224e0aaf088f9b",
+      "width": 200,
+      "height": 136,
+      "changed_pixels": 16986,
+      "layout": [
+        {
+          "text": "Beast Affinity",
+          "lines": [
+            "Beast Affinity"
+          ],
+          "font": "arialbd.ttf",
+          "size": 16,
+          "rect": [
+            1,
+            0,
+            198,
+            20
+          ]
+        },
+        {
+          "text": "Beast World: Maetropa\nA land rich in nature, where beastlike humanoids and mythical beasts live in peace.\nThis affinity is balanced across all summon effects and has some unusual possession effects.",
+          "lines": [
+            "Beast World: Maetropa",
+            "A land rich in nature, where beastlike",
+            "humanoids and mythical beasts live in",
+            "peace.",
+            "This affinity is balanced across all",
+            "summon effects and has some unusual",
+            "possession effects."
+          ],
+          "font": "arial.ttf",
+          "size": 11,
+          "rect": [
+            1,
+            21,
+            198,
+            114
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "6e28ba37a77cb465b29bcb9075c9fb014afbfba2e36d72c1948d274cb3840bc3"
+    },
+    {
+      "sprite_id": "02:00030/00001:sprite:001",
+      "tag": "name_footer",
+      "image_file": "02_00030_00001_sprite_001.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 232,
+      "height": 24,
+      "changed_pixels": 1009,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            95,
+            0,
+            32,
+            24
+          ]
+        },
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            146,
+            0,
+            74,
+            24
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "127e0e5dc0198b915c26bb38af400cc63017fb0ad634307e369c33fb4f9c48aa"
+    },
+    {
+      "sprite_id": "02:00030/00001:sprite:002",
+      "tag": "start_confirm",
+      "image_file": "02_00030_00001_sprite_002.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 64,
+      "height": 16,
+      "changed_pixels": 388,
+      "layout": [
+        {
+          "text": "Confirm",
+          "lines": [
+            "Confirm"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            30,
+            0,
+            34,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "e2fe61887ff3516a1c601cc9fa5333c99069a9234697a63ca9adcf8799dad446"
+    },
+    {
+      "sprite_id": "02:00030/00001:sprite:005",
+      "tag": "name_label_5",
+      "image_file": "02_00030_00001_sprite_005.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 341,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "6042fe63e26a09cfd274514e8240bd206b725d6b7708c3498444320ded36193a"
+    },
+    {
+      "sprite_id": "02:00030/00001:sprite:006",
+      "tag": "name_label_6",
+      "image_file": "02_00030_00001_sprite_006.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 64,
+      "height": 16,
+      "changed_pixels": 724,
+      "layout": [
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            64,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "274dc68f71e2a71133b10b57f2275b1294e62f941f5918c3f06f62ae343f6ede"
+    },
+    {
+      "sprite_id": "02:00030/00001:sprite:007",
+      "tag": "name_label_7",
+      "image_file": "02_00030_00001_sprite_007.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 40,
+      "height": 32,
+      "changed_pixels": 1000,
+      "layout": [
+        {
+          "text": "Confirm",
+          "lines": [
+            "Confirm"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            40,
+            32
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "0da0c6c4d09f36dd654bf9d83be76af0cf14120fb789502eb150840628880189"
+    },
+    {
+      "sprite_id": "02:00030/00001:sprite:008",
+      "tag": "name_label_8",
+      "image_file": "02_00030_00001_sprite_008.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 338,
+      "layout": [
+        {
+          "text": "Hira",
+          "lines": [
+            "Hira"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "ecc2f4f7f09c9fb3a741c7d77e909f8271ef9316e2881fac9242659b8cae6f83"
+    },
+    {
+      "sprite_id": "02:00030/00001:sprite:009",
+      "tag": "name_label_9",
+      "image_file": "02_00030_00001_sprite_009.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 337,
+      "layout": [
+        {
+          "text": "Kata",
+          "lines": [
+            "Kata"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "d9e39922a3c8cb6680e7da7db701a3dd26f470377b61f7bc0843a486f7b2410d"
+    },
+    {
+      "sprite_id": "02:00030/00001:sprite:010",
+      "tag": "name_label_10",
+      "image_file": "02_00030_00001_sprite_010.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 337,
+      "layout": [
+        {
+          "text": "ABC\n123",
+          "lines": [
+            "ABC",
+            "123"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 7,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "7cb3c4c1191d524aaa626e5d986e0e8fe2eb5fb803a141e55f00476e4d759f2a"
+    },
+    {
+      "sprite_id": "02:00030/00001:sprite:011",
+      "tag": "name_label_11",
+      "image_file": "02_00030_00001_sprite_011.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 338,
+      "layout": [
+        {
+          "text": "Sym.",
+          "lines": [
+            "Sym."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "d2163b2022fcf204dd233168d6e68a438425ad5939ca2c615a3c70ef07850ada"
+    },
+    {
+      "sprite_id": "02:00030/00001:sprite:012",
+      "tag": "name_label_12",
+      "image_file": "02_00030_00001_sprite_012.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 336,
+      "layout": [
+        {
+          "text": "Kanji",
+          "lines": [
+            "Kanji"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "bfe9b2c6dcd030dc813cc3cdae759767b5c46f0fc48e0852a58a93c09088f8c0"
+    },
+    {
+      "sprite_id": "02:00030/00001:sprite:042",
+      "tag": "name_footer",
+      "image_file": "02_00030_00001_sprite_042.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 136,
+      "height": 24,
+      "changed_pixels": 955,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            23,
+            0,
+            32,
+            24
+          ]
+        },
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            74,
+            0,
+            60,
+            24
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "765665a9aad3f7da66c566c8cb43d3ff57933e0cc481d3aeec8d049d147e87e7"
+    },
+    {
+      "sprite_id": "02:00030/00002:sprite:000",
+      "tag": "name_heading",
+      "image_file": "02_00030_00002_sprite_000.png",
+      "source_resource_sha256": "ce56a12165f49e1307457b5fbacb70d9a32150e525ce992b105d4a5aaf5e7e1f",
+      "width": 240,
+      "height": 56,
+      "changed_pixels": 6787,
+      "layout": [
+        {
+          "text": "Choose your protagonist's name.",
+          "lines": [
+            "Choose your protagonist's",
+            "name."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 17,
+          "rect": [
+            18,
+            8,
+            185,
+            40
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "9ee26817ccfc01fb4d47e64bc7601b8a15aa85d243df6fb4f75008b03825a342"
+    },
+    {
+      "sprite_id": "02:00030/00002:sprite:001",
+      "tag": "name_heading",
+      "image_file": "02_00030_00002_sprite_001.png",
+      "source_resource_sha256": "ce56a12165f49e1307457b5fbacb70d9a32150e525ce992b105d4a5aaf5e7e1f",
+      "width": 240,
+      "height": 56,
+      "changed_pixels": 6524,
+      "layout": [
+        {
+          "text": "Choose your summon creature's name.",
+          "lines": [
+            "Choose your summon",
+            "creature's name."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 17,
+          "rect": [
+            18,
+            8,
+            185,
+            40
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "76bd3a592e1ca7fba96d8c7fe8fa7882661b9d27354bebbc317fb054345563a8"
+    },
+    {
+      "sprite_id": "02:00030/00003:sprite:000",
+      "tag": "name_background_labels",
+      "image_file": "02_00030_00003_sprite_000.png",
+      "source_resource_sha256": "d5c532d19c1a5b6e68f5e0cbd55d6b9541eba29b599e1a4755b3fbd2f83ad4f6",
+      "width": 480,
+      "height": 208,
+      "changed_pixels": 3229,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            218,
+            15,
+            26,
+            14
+          ]
+        },
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            248,
+            15,
+            54,
+            14
+          ]
+        },
+        {
+          "text": "Confirm",
+          "lines": [
+            "Confirm"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            306,
+            15,
+            35,
+            32
+          ]
+        },
+        {
+          "text": "Hira",
+          "lines": [
+            "Hira"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            157,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "Kata",
+          "lines": [
+            "Kata"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            187,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "ABC\n123",
+          "lines": [
+            "ABC",
+            "123"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 6,
+          "rect": [
+            217,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "Sym.",
+          "lines": [
+            "Sym."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            247,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "Kanji",
+          "lines": [
+            "Kanji"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            277,
+            33,
+            26,
+            13
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "82cb78a9586cf83611ef18c049b172dbc13c872ccbbe6bba382fa0cdaf8e93c3"
+    },
+    {
+      "sprite_id": "02:00031/00001:sprite:001",
+      "tag": "name_footer",
+      "image_file": "02_00031_00001_sprite_001.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 232,
+      "height": 24,
+      "changed_pixels": 1009,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            95,
+            0,
+            32,
+            24
+          ]
+        },
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            146,
+            0,
+            74,
+            24
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "127e0e5dc0198b915c26bb38af400cc63017fb0ad634307e369c33fb4f9c48aa"
+    },
+    {
+      "sprite_id": "02:00031/00001:sprite:002",
+      "tag": "start_confirm",
+      "image_file": "02_00031_00001_sprite_002.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 64,
+      "height": 16,
+      "changed_pixels": 388,
+      "layout": [
+        {
+          "text": "Confirm",
+          "lines": [
+            "Confirm"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            30,
+            0,
+            34,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "e2fe61887ff3516a1c601cc9fa5333c99069a9234697a63ca9adcf8799dad446"
+    },
+    {
+      "sprite_id": "02:00031/00001:sprite:005",
+      "tag": "name_label_5",
+      "image_file": "02_00031_00001_sprite_005.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 341,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "6042fe63e26a09cfd274514e8240bd206b725d6b7708c3498444320ded36193a"
+    },
+    {
+      "sprite_id": "02:00031/00001:sprite:006",
+      "tag": "name_label_6",
+      "image_file": "02_00031_00001_sprite_006.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 64,
+      "height": 16,
+      "changed_pixels": 724,
+      "layout": [
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            64,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "274dc68f71e2a71133b10b57f2275b1294e62f941f5918c3f06f62ae343f6ede"
+    },
+    {
+      "sprite_id": "02:00031/00001:sprite:007",
+      "tag": "name_label_7",
+      "image_file": "02_00031_00001_sprite_007.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 40,
+      "height": 32,
+      "changed_pixels": 1000,
+      "layout": [
+        {
+          "text": "Confirm",
+          "lines": [
+            "Confirm"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            40,
+            32
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "0da0c6c4d09f36dd654bf9d83be76af0cf14120fb789502eb150840628880189"
+    },
+    {
+      "sprite_id": "02:00031/00001:sprite:008",
+      "tag": "name_label_8",
+      "image_file": "02_00031_00001_sprite_008.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 338,
+      "layout": [
+        {
+          "text": "Hira",
+          "lines": [
+            "Hira"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "ecc2f4f7f09c9fb3a741c7d77e909f8271ef9316e2881fac9242659b8cae6f83"
+    },
+    {
+      "sprite_id": "02:00031/00001:sprite:009",
+      "tag": "name_label_9",
+      "image_file": "02_00031_00001_sprite_009.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 337,
+      "layout": [
+        {
+          "text": "Kata",
+          "lines": [
+            "Kata"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "d9e39922a3c8cb6680e7da7db701a3dd26f470377b61f7bc0843a486f7b2410d"
+    },
+    {
+      "sprite_id": "02:00031/00001:sprite:010",
+      "tag": "name_label_10",
+      "image_file": "02_00031_00001_sprite_010.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 337,
+      "layout": [
+        {
+          "text": "ABC\n123",
+          "lines": [
+            "ABC",
+            "123"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 7,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "7cb3c4c1191d524aaa626e5d986e0e8fe2eb5fb803a141e55f00476e4d759f2a"
+    },
+    {
+      "sprite_id": "02:00031/00001:sprite:011",
+      "tag": "name_label_11",
+      "image_file": "02_00031_00001_sprite_011.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 338,
+      "layout": [
+        {
+          "text": "Sym.",
+          "lines": [
+            "Sym."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "d2163b2022fcf204dd233168d6e68a438425ad5939ca2c615a3c70ef07850ada"
+    },
+    {
+      "sprite_id": "02:00031/00001:sprite:012",
+      "tag": "name_label_12",
+      "image_file": "02_00031_00001_sprite_012.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 336,
+      "layout": [
+        {
+          "text": "Kanji",
+          "lines": [
+            "Kanji"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "bfe9b2c6dcd030dc813cc3cdae759767b5c46f0fc48e0852a58a93c09088f8c0"
+    },
+    {
+      "sprite_id": "02:00031/00001:sprite:042",
+      "tag": "name_footer",
+      "image_file": "02_00031_00001_sprite_042.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 136,
+      "height": 24,
+      "changed_pixels": 955,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            23,
+            0,
+            32,
+            24
+          ]
+        },
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            74,
+            0,
+            60,
+            24
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "765665a9aad3f7da66c566c8cb43d3ff57933e0cc481d3aeec8d049d147e87e7"
+    },
+    {
+      "sprite_id": "02:00031/00002:sprite:000",
+      "tag": "name_heading",
+      "image_file": "02_00031_00002_sprite_000.png",
+      "source_resource_sha256": "ce56a12165f49e1307457b5fbacb70d9a32150e525ce992b105d4a5aaf5e7e1f",
+      "width": 240,
+      "height": 56,
+      "changed_pixels": 6787,
+      "layout": [
+        {
+          "text": "Choose your protagonist's name.",
+          "lines": [
+            "Choose your protagonist's",
+            "name."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 17,
+          "rect": [
+            18,
+            8,
+            185,
+            40
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "9ee26817ccfc01fb4d47e64bc7601b8a15aa85d243df6fb4f75008b03825a342"
+    },
+    {
+      "sprite_id": "02:00031/00002:sprite:001",
+      "tag": "name_heading",
+      "image_file": "02_00031_00002_sprite_001.png",
+      "source_resource_sha256": "ce56a12165f49e1307457b5fbacb70d9a32150e525ce992b105d4a5aaf5e7e1f",
+      "width": 240,
+      "height": 56,
+      "changed_pixels": 6524,
+      "layout": [
+        {
+          "text": "Choose your summon creature's name.",
+          "lines": [
+            "Choose your summon",
+            "creature's name."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 17,
+          "rect": [
+            18,
+            8,
+            185,
+            40
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "76bd3a592e1ca7fba96d8c7fe8fa7882661b9d27354bebbc317fb054345563a8"
+    },
+    {
+      "sprite_id": "02:00031/00003:sprite:000",
+      "tag": "name_background_labels",
+      "image_file": "02_00031_00003_sprite_000.png",
+      "source_resource_sha256": "d5c532d19c1a5b6e68f5e0cbd55d6b9541eba29b599e1a4755b3fbd2f83ad4f6",
+      "width": 480,
+      "height": 208,
+      "changed_pixels": 3229,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            218,
+            15,
+            26,
+            14
+          ]
+        },
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            248,
+            15,
+            54,
+            14
+          ]
+        },
+        {
+          "text": "Confirm",
+          "lines": [
+            "Confirm"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            306,
+            15,
+            35,
+            32
+          ]
+        },
+        {
+          "text": "Hira",
+          "lines": [
+            "Hira"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            157,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "Kata",
+          "lines": [
+            "Kata"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            187,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "ABC\n123",
+          "lines": [
+            "ABC",
+            "123"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 6,
+          "rect": [
+            217,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "Sym.",
+          "lines": [
+            "Sym."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            247,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "Kanji",
+          "lines": [
+            "Kanji"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            277,
+            33,
+            26,
+            13
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "82cb78a9586cf83611ef18c049b172dbc13c872ccbbe6bba382fa0cdaf8e93c3"
+    },
+    {
+      "sprite_id": "02:00032/00001:sprite:001",
+      "tag": "name_footer",
+      "image_file": "02_00032_00001_sprite_001.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 232,
+      "height": 24,
+      "changed_pixels": 1009,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            95,
+            0,
+            32,
+            24
+          ]
+        },
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            146,
+            0,
+            74,
+            24
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "127e0e5dc0198b915c26bb38af400cc63017fb0ad634307e369c33fb4f9c48aa"
+    },
+    {
+      "sprite_id": "02:00032/00001:sprite:002",
+      "tag": "start_confirm",
+      "image_file": "02_00032_00001_sprite_002.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 64,
+      "height": 16,
+      "changed_pixels": 388,
+      "layout": [
+        {
+          "text": "Confirm",
+          "lines": [
+            "Confirm"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            30,
+            0,
+            34,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "e2fe61887ff3516a1c601cc9fa5333c99069a9234697a63ca9adcf8799dad446"
+    },
+    {
+      "sprite_id": "02:00032/00001:sprite:005",
+      "tag": "name_label_5",
+      "image_file": "02_00032_00001_sprite_005.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 341,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "6042fe63e26a09cfd274514e8240bd206b725d6b7708c3498444320ded36193a"
+    },
+    {
+      "sprite_id": "02:00032/00001:sprite:006",
+      "tag": "name_label_6",
+      "image_file": "02_00032_00001_sprite_006.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 64,
+      "height": 16,
+      "changed_pixels": 724,
+      "layout": [
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            64,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "274dc68f71e2a71133b10b57f2275b1294e62f941f5918c3f06f62ae343f6ede"
+    },
+    {
+      "sprite_id": "02:00032/00001:sprite:007",
+      "tag": "name_label_7",
+      "image_file": "02_00032_00001_sprite_007.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 40,
+      "height": 32,
+      "changed_pixels": 1000,
+      "layout": [
+        {
+          "text": "Confirm",
+          "lines": [
+            "Confirm"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            40,
+            32
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "0da0c6c4d09f36dd654bf9d83be76af0cf14120fb789502eb150840628880189"
+    },
+    {
+      "sprite_id": "02:00032/00001:sprite:008",
+      "tag": "name_label_8",
+      "image_file": "02_00032_00001_sprite_008.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 338,
+      "layout": [
+        {
+          "text": "Hira",
+          "lines": [
+            "Hira"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "ecc2f4f7f09c9fb3a741c7d77e909f8271ef9316e2881fac9242659b8cae6f83"
+    },
+    {
+      "sprite_id": "02:00032/00001:sprite:009",
+      "tag": "name_label_9",
+      "image_file": "02_00032_00001_sprite_009.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 337,
+      "layout": [
+        {
+          "text": "Kata",
+          "lines": [
+            "Kata"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "d9e39922a3c8cb6680e7da7db701a3dd26f470377b61f7bc0843a486f7b2410d"
+    },
+    {
+      "sprite_id": "02:00032/00001:sprite:010",
+      "tag": "name_label_10",
+      "image_file": "02_00032_00001_sprite_010.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 337,
+      "layout": [
+        {
+          "text": "ABC\n123",
+          "lines": [
+            "ABC",
+            "123"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 7,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "7cb3c4c1191d524aaa626e5d986e0e8fe2eb5fb803a141e55f00476e4d759f2a"
+    },
+    {
+      "sprite_id": "02:00032/00001:sprite:011",
+      "tag": "name_label_11",
+      "image_file": "02_00032_00001_sprite_011.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 338,
+      "layout": [
+        {
+          "text": "Sym.",
+          "lines": [
+            "Sym."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "d2163b2022fcf204dd233168d6e68a438425ad5939ca2c615a3c70ef07850ada"
+    },
+    {
+      "sprite_id": "02:00032/00001:sprite:012",
+      "tag": "name_label_12",
+      "image_file": "02_00032_00001_sprite_012.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 32,
+      "height": 16,
+      "changed_pixels": 336,
+      "layout": [
+        {
+          "text": "Kanji",
+          "lines": [
+            "Kanji"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 10,
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "bfe9b2c6dcd030dc813cc3cdae759767b5c46f0fc48e0852a58a93c09088f8c0"
+    },
+    {
+      "sprite_id": "02:00032/00001:sprite:042",
+      "tag": "name_footer",
+      "image_file": "02_00032_00001_sprite_042.png",
+      "source_resource_sha256": "1b5ab36ed23b801aa8f3547ae5e41d6285d45e9a6b442aeae2f90f4a60859f5a",
+      "width": 136,
+      "height": 24,
+      "changed_pixels": 955,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            23,
+            0,
+            32,
+            24
+          ]
+        },
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 11,
+          "rect": [
+            74,
+            0,
+            60,
+            24
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "765665a9aad3f7da66c566c8cb43d3ff57933e0cc481d3aeec8d049d147e87e7"
+    },
+    {
+      "sprite_id": "02:00032/00002:sprite:000",
+      "tag": "name_heading",
+      "image_file": "02_00032_00002_sprite_000.png",
+      "source_resource_sha256": "ce56a12165f49e1307457b5fbacb70d9a32150e525ce992b105d4a5aaf5e7e1f",
+      "width": 240,
+      "height": 56,
+      "changed_pixels": 6787,
+      "layout": [
+        {
+          "text": "Choose your protagonist's name.",
+          "lines": [
+            "Choose your protagonist's",
+            "name."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 17,
+          "rect": [
+            18,
+            8,
+            185,
+            40
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "9ee26817ccfc01fb4d47e64bc7601b8a15aa85d243df6fb4f75008b03825a342"
+    },
+    {
+      "sprite_id": "02:00032/00002:sprite:001",
+      "tag": "name_heading",
+      "image_file": "02_00032_00002_sprite_001.png",
+      "source_resource_sha256": "ce56a12165f49e1307457b5fbacb70d9a32150e525ce992b105d4a5aaf5e7e1f",
+      "width": 240,
+      "height": 56,
+      "changed_pixels": 6524,
+      "layout": [
+        {
+          "text": "Choose your summon creature's name.",
+          "lines": [
+            "Choose your summon",
+            "creature's name."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 17,
+          "rect": [
+            18,
+            8,
+            185,
+            40
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "76bd3a592e1ca7fba96d8c7fe8fa7882661b9d27354bebbc317fb054345563a8"
+    },
+    {
+      "sprite_id": "02:00032/00003:sprite:000",
+      "tag": "name_background_labels",
+      "image_file": "02_00032_00003_sprite_000.png",
+      "source_resource_sha256": "d5c532d19c1a5b6e68f5e0cbd55d6b9541eba29b599e1a4755b3fbd2f83ad4f6",
+      "width": 480,
+      "height": 208,
+      "changed_pixels": 3229,
+      "layout": [
+        {
+          "text": "Delete",
+          "lines": [
+            "Delete"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            218,
+            15,
+            26,
+            14
+          ]
+        },
+        {
+          "text": "Auto-Name",
+          "lines": [
+            "Auto-Name"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            248,
+            15,
+            54,
+            14
+          ]
+        },
+        {
+          "text": "Confirm",
+          "lines": [
+            "Confirm"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            306,
+            15,
+            35,
+            32
+          ]
+        },
+        {
+          "text": "Hira",
+          "lines": [
+            "Hira"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            157,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "Kata",
+          "lines": [
+            "Kata"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            187,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "ABC\n123",
+          "lines": [
+            "ABC",
+            "123"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 6,
+          "rect": [
+            217,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "Sym.",
+          "lines": [
+            "Sym."
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            247,
+            33,
+            26,
+            13
+          ]
+        },
+        {
+          "text": "Kanji",
+          "lines": [
+            "Kanji"
+          ],
+          "font": "ARIALNB.TTF",
+          "size": 9,
+          "rect": [
+            277,
+            33,
+            26,
+            13
+          ]
+        }
+      ],
+      "decoded_rgba_sha256": "82cb78a9586cf83611ef18c049b172dbc13c872ccbbe6bba382fa0cdaf8e93c3"
+    }
+  ],
+  "packs": [
+    {
+      "number": 28,
+      "sha256": "613f0430aa726699b460b014eb32574185501e888eefbba5ceab1db341805390",
+      "bytes": 315572
+    },
+    {
+      "number": 29,
+      "sha256": "c997123f8802a1353829b6fdb78addc1de5d9a200f1b813ff0914472097e057c",
+      "bytes": 289372
+    },
+    {
+      "number": 30,
+      "sha256": "901b7af168268f42fe95c3722d5fb061ef9c5170cff48f69a1a831c75f14c6c2",
+      "bytes": 358400
+    },
+    {
+      "number": 31,
+      "sha256": "98a5fb3576346296c6df852614b41ce9b70fedc48c0242d22a738f258e1223bc",
+      "bytes": 358400
+    },
+    {
+      "number": 32,
+      "sha256": "3348de10375198b62008273e897bbefb1d4bbf377fcab2be855c0edf5fd5f1dc",
+      "bytes": 301056
+    }
+  ],
+  "native_palette_and_dimensions_preserved": true,
+  "unchanged_pixels_preserved": true,
+  "roundtrip_verified": true,
+  "runtime_verified": false
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "build_version": "0.1.13",
+  "status": "visual discovery only; no source or asset mutation",
+  "source_catalog": "work/ui/interface_graphics.index.json",
+  "source_catalog_sha256": "f07a4f11a6b53fd54057ad2fdd2c25db60ef7784d0b171d677bef14bdf42c62c",
+  "selection": {
+    "dimensions": {
+      "width": [120, 256],
+      "height": [48, 128]
+    },
+    "decoded_candidate_count": 744,
+    "rejected_candidate_count": 45,
+    "inspection_method": "Ten labeled contact sheets, 80 decoded sprites per page, visually inspected."
+  },
+  "evidence_directory": "work/ui/battle_0.1.13/intro_discovery_120_256x48_128",
+  "confirmed_battle_condition_art": [
+    {
+      "id": "01:00004/00002:sprite:000",
+      "source_label": "Enemy Annihilation",
+      "recommended_english": "Defeat All Enemies",
+      "role": "victory condition"
+    },
+    {
+      "id": "01:00015/00002:sprite:000",
+      "source_label": "Enemy Annihilation",
+      "recommended_english": "Defeat All Enemies",
+      "role": "duplicate victory-condition art"
+    },
+    {
+      "id": "01:00016/00002:sprite:000",
+      "source_label": "Defeat Enemy Leader",
+      "recommended_english": "Defeat the Enemy Leader",
+      "role": "victory condition"
+    },
+    {
+      "id": "01:00004/00003:sprite:000",
+      "source_label": "Protagonist Incapacitated",
+      "recommended_english": "Protagonist Incapacitated",
+      "role": "defeat condition"
+    },
+    {
+      "id": "01:00009/00003:sprite:000",
+      "source_label": "Protagonist or Sonolar Incapacitated",
+      "recommended_english": "Protagonist or Sonolar Incapacitated",
+      "role": "defeat condition"
+    },
+    {
+      "id": "01:00010/00003:sprite:000",
+      "source_label": "Protagonist or Kyle Incapacitated",
+      "recommended_english": "Protagonist or Kyle Incapacitated",
+      "role": "defeat condition"
+    },
+    {
+      "id": "01:00015/00003:sprite:000",
+      "source_label": "Protagonist or Guardian Incapacitated",
+      "recommended_english": "Protagonist or Guardian Incapacitated",
+      "role": "defeat condition"
+    },
+    {
+      "id": "01:00017/00003:sprite:000",
+      "source_label": "Protagonist or Pupil Incapacitated",
+      "recommended_english": "Protagonist or Pupil Incapacitated",
+      "role": "defeat condition"
+    }
+  ],
+  "negative_finding": {
+    "searched_label": "VS Pirates",
+    "result": "No matching VS or pirate-title word art appeared in the 744 reviewed sprites.",
+    "inference": "The VS and encounter-faction label in the screenshot is likely dynamically rendered, while the victory/defeat condition uses separate baked artwork."
+  },
+  "notes": [
+    "The contact sheets also contain non-battle portraits, effects, cut-in parts, maps, and nameplates; none is a translation target from this discovery pass.",
+    "The separate decoded 700-series, 3573-3605, and 3814-3848 families were ruled out respectively as portrait strips, tutorial pages, and battle cut-in art."
+  ]
+}

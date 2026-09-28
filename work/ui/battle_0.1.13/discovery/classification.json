@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "build_target": "0.1.13",
+  "status": "native-graphics discovery only; no translation or source mutation",
+  "source_export": "fullpage_03892_03924/index.json",
+  "source_export_sha256": "6193a4192b5300c874cda1f74371a2acdfe0784140ee2b057215907d9811a233",
+  "families": [
+    {
+      "id": "battle_tutorial_full_pages",
+      "resource_id_range": "02:03892-02:03924",
+      "native_canvas": [480, 272],
+      "resource_count": 33,
+      "decoded_page_count": 32,
+      "decoder_gap": {
+        "id": "02:03911:sprite:000",
+        "format": 3,
+        "status": "not decoded by the verified indexed 4/8-bit decoder"
+      },
+      "recommended_handling": "Translate page artwork only after each page's text and illustration regions are reviewed; do not treat this family as executable text."
+    },
+    {
+      "id": "battle_tutorial_fundamentals",
+      "resource_ids": [
+        "02:03892", "02:03893", "02:03894", "02:03895", "02:03896", "02:03897", "02:03898",
+        "02:03899", "02:03900", "02:03901", "02:03902", "02:03903", "02:03904"
+      ],
+      "page_count": 13,
+      "scope": "Movement/ZOC, facing, attack range, wait types, status ailments, obstacles, and skill acquisition.",
+      "suggested_translation_category": "battle tutorial fundamentals"
+    },
+    {
+      "id": "battle_selection_command_buttons",
+      "resource_ids": [
+        "02:01341/00001", "02:01341/00002", "02:01341/00003", "02:01341/00004", "02:01341/00005", "02:01341/00006",
+        "02:01341/00007", "02:01341/00008", "02:01341/00009", "02:01341/00010", "02:01341/00011", "02:01341/00012"
+      ],
+      "native_canvas": [112, 24],
+      "texture_count": 12,
+      "unique_label_count": 6,
+      "state_model": "six bright/dim pairs; every translated label must replace both members of its pair",
+      "mapping_source": "work/ui/menu_discovery/classification.json"
+    },
+    {
+      "id": "battle_deployment_existing_english",
+      "resource_id": "02:01333/00008",
+      "texture_count": 8,
+      "text_texture_count": 7,
+      "status": "already English: support-skill, entry, and support labels; retain native art"
+    }
+  ],
+  "requested_page": {
+    "id": "02:03892:sprite:000",
+    "semantic_category": "battle_tutorial_movement_and_zoc",
+    "source_sha256": "8af0649df6809546a3d2fedefbab3e05e20bbba1f27df541e88de236e2990d3a",
+    "image_file": "fullpage_03892_03924/02_03892_sprite_000.png",
+    "image_sha256": "421a363c26e2092e4bfc05f042cea14f2ab471d95fe753257c193e1599251f34",
+    "text_regions_xywh": [
+      {"role": "page_title", "xywh": [160, 14, 160, 22]},
+      {"role": "introductory_copy", "xywh": [14, 40, 452, 29]},
+      {"role": "zoc_section_heading", "xywh": [133, 74, 214, 16]},
+      {"role": "left_diagram_labels_and_caption", "xywh": [17, 96, 224, 139]},
+      {"role": "right_diagram_labels_and_caption", "xywh": [247, 96, 220, 139]}
+    ],
+    "region_coordinate_system": "native decoded page pixels; top-left origin; boxes are review bounds, not final replacement masks",
+    "ready_for_image_generation": false,
+    "blocker": "Translation and source-region review are complete enough for text extraction, but no final English page layout has been approved."
+  },
+  "non_graphic_findings": [
+    "Encounter title and victory/defeat condition text are not in these native page or command-button assets.",
+    "The existing executable category inventory owns battle encounter titles and condition strings; its consumer tracing should supply those replacements.",
+    "The requested Change Position and Start battle? labels were not identified as baked text in the inspected native families."
+  ],
+  "replacement_tooling": {
+    "decode": "tools/sn3_ui_textures.py",
+    "encode": "tools/setup_ui_patch.py:encode_texture",
+    "repack_examples": ["tools/build_imagegen_ui.py", "tools/build_chapter_titles.py"],
+    "preservation_requirements": "Retain native texture geometry, indexed palette, alpha behavior, descriptors, and bright/dim state pairs."
+  },
+  "changelog": [
+    "2026-09-27: Decoded and visually inspected the selected full-page tutorial family. Identified the movement/ZOC page, recorded source and image hashes, bounded the fundamentals subset, and retained the single unsupported texture as a decoder gap."
+  ]
+}

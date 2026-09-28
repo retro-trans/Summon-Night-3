@@ -1,0 +1,283 @@
+{
+  "session": {
+    "pid": 197732,
+    "game": "E:\\Projects\\Summon Night 3\\work\\scratch\\stages_ch1_candidate\\Summon_Night_3_EN_0.1.12.iso",
+    "port": 19381
+  },
+  "candidate_sha256": "ce3b5624a753e3371234420eb34399cf122d837c5c23ffdc75e30a2bae8bfa70",
+  "live_script_sha256": "edce3ae14584541fc412d62d33d2c544ac657639ebe093dc8b28c48855ea3ab2",
+  "states": [
+    {
+      "pc": 2042,
+      "native": "0x3052",
+      "script_base": "0x8d8b000",
+      "lines": [
+        {
+          "id": "harbor_rows_164_165_166:page:0:line:0",
+          "text": "And my pupil is a child of",
+          "rendered": "And my pupil is a child of",
+          "pointer": "0x8dc3494",
+          "units": 26,
+          "selectable": false,
+          "choice": 4294967295,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "harbor_rows_164_165_166:page:0:line:1",
+          "text": "the Martini family, one of",
+          "rendered": "the Martini family, one of",
+          "pointer": "0x8dc34ca",
+          "units": 26,
+          "selectable": false,
+          "choice": 4294967295,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "harbor_rows_164_165_166:page:0:line:2",
+          "text": "the Empire's greatest",
+          "rendered": "the Empire\u2019s greatest",
+          "pointer": "0x8dc3500",
+          "units": 21,
+          "selectable": false,
+          "choice": 4294967295,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "choice": false,
+      "names": {
+        "\u25cf": "Rexx",
+        "\u25b2": "No Pupil",
+        "\u25a0": "????????"
+      }
+    },
+    {
+      "pc": 2042,
+      "native": "0x3052",
+      "script_base": "0x8d8b000",
+      "lines": [
+        {
+          "id": "harbor_rows_164_165_166:page:1:line:0",
+          "text": "trading families...",
+          "rendered": "trading families...",
+          "pointer": "0x8dc352c",
+          "units": 19,
+          "selectable": false,
+          "choice": 4294967295,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "choice": false,
+      "names": {
+        "\u25cf": "Rexx",
+        "\u25b2": "No Pupil",
+        "\u25a0": "????????"
+      }
+    },
+    {
+      "pc": 2328,
+      "native": "0x3052",
+      "script_base": "0x8d8b000",
+      "lines": [
+        {
+          "id": "00:00065:text:0002717c",
+          "text": "If I remember right...",
+          "rendered": "If I remember right...",
+          "pointer": "0x8dbd94a",
+          "units": 22,
+          "selectable": false,
+          "choice": 4294967295,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "00:00065:text:0002718a",
+          "text": "\u3000A boy, wasn't it?",
+          "rendered": " A boy, wasn\u2019t it?",
+          "pointer": "0x8dbd978",
+          "units": 18,
+          "selectable": true,
+          "choice": 0,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "00:00065:text:000271a0",
+          "text": "\u3000A girl, wasn't it?",
+          "rendered": " A girl, wasn\u2019t it?",
+          "pointer": "0x8dbd99e",
+          "units": 19,
+          "selectable": true,
+          "choice": 1,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "choice": true,
+      "names": {
+        "\u25cf": "Rexx",
+        "\u25b2": "No Pupil",
+        "\u25a0": "????????"
+      }
+    }
+  ],
+  "actions": [
+    "advance",
+    "advance",
+    "advance"
+  ]
+}

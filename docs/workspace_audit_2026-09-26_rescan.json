@@ -1,0 +1,783 @@
+{
+  "schema_version": 2,
+  "audited_at_utc": "2026-09-26T08:24:37.002280+00:00",
+  "scope": "Saved metadata reconciliation and selected-file integrity. No new binary decoding, runtime test, or meaning review.",
+  "git_directory_present": false,
+  "build_versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4"
+  ],
+  "latest_build": "0.1.4",
+  "script_counts": {
+    "script_resources": 801,
+    "compressed_script_resources": 247,
+    "resources_with_strings": 327,
+    "string_occurrences": 153524,
+    "japanese_occurrences": 151840,
+    "unique_japanese_strings": 49545,
+    "occurrences_without_reference": 0
+  },
+  "inventory_reconciliation": {
+    "node_count": 13889,
+    "original_kind_counts": {
+      "riff_audio": 448,
+      "inline_pack": 843,
+      "external_index": 41,
+      "unclassified": 11718,
+      "sound_bank": 120,
+      "v4_pack": 719
+    },
+    "recognized_scripts_previously_unclassified": 801,
+    "reconciled_kind_counts": {
+      "riff_audio": 448,
+      "inline_pack": 843,
+      "external_index": 41,
+      "unclassified": 10917,
+      "sound_bank": 120,
+      "recognized_script": 801,
+      "v4_pack": 719
+    },
+    "remaining_unclassified_by_bank": {
+      "00.DAT": 143,
+      "01.DAT": 5906,
+      "02.DAT": 4868
+    },
+    "remaining_unclassified_nodes": 10917,
+    "limit": "Resource nodes are not text counts; unknown nodes may contain nontext data or further containers. Original inventory is preserved."
+  },
+  "translation_counts": {
+    "opening_assigned": 160,
+    "opening_nonempty_drafts": 159,
+    "opening_meaning_reviewed": 159,
+    "opening_without_drafts": 1,
+    "opening_slices": [
+      {
+        "file": "work/translation/en/opening_000.targets.json",
+        "sha256": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+        "review_file": "work/translation/en/opening_000.meaning_review.json",
+        "review_sha256": "7a82442692213a839ed876073151f65f8ddcf1b399c3a254fa648bb97027df4b",
+        "assigned": 80,
+        "drafted": 79,
+        "meaning_reviewed": 79,
+        "rows_examined_by_translator": 132,
+        "rows_examined_by_reviewer": 132,
+        "required_meaning_edits": 0,
+        "cross_slice_proposals": 1
+      },
+      {
+        "file": "work/translation/en/opening_001.targets.json",
+        "sha256": "7492d262918e492818bec6038b6227d179d48d12e2d3d31bc73406ebcf9fba3d",
+        "review_file": "work/translation/en/opening_001.meaning_review.json",
+        "review_sha256": "82c038c80bd2d86c49e57bef0f84468c0916703a2d7294260da8b6baf0350321",
+        "assigned": 80,
+        "drafted": 80,
+        "meaning_reviewed": 80,
+        "rows_examined_by_translator": 107,
+        "rows_examined_by_reviewer": 107,
+        "required_meaning_edits": 0,
+        "cross_slice_proposals": 2
+      }
+    ],
+    "opening_selected": 78,
+    "japanese_labels_indexed": 746,
+    "label_targets": 3,
+    "glossary_entries": 4
+  },
+  "integrity_checks": [
+    {
+      "check": "latest version agrees with status",
+      "expected": "0.1.4",
+      "actual": "0.1.4",
+      "passed": true
+    },
+    {
+      "check": "inventory source identity",
+      "expected": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "actual": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "passed": true
+    },
+    {
+      "check": "script index source identity",
+      "expected": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "actual": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "passed": true
+    },
+    {
+      "check": "build source identity",
+      "expected": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "actual": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "passed": true
+    },
+    {
+      "check": "selection source identity",
+      "expected": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "actual": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/build_candidate.py",
+      "expected": "691dd1a3797ee740f7dae5bdc71c06c1b1a90c56218bfa0588e8a03b29b74892",
+      "actual": "691dd1a3797ee740f7dae5bdc71c06c1b1a90c56218bfa0588e8a03b29b74892",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/sn3_repack.py",
+      "expected": "b50b0f6a731d8d6a158cdc31d791dc0f7575bb73da17e0835dc9d99fda455c4b",
+      "actual": "b50b0f6a731d8d6a158cdc31d791dc0f7575bb73da17e0835dc9d99fda455c4b",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/sn3_archive.py",
+      "expected": "4170455a9130667006962822a058f9cc4808497a154e78db079f3675b8849ad9",
+      "actual": "4170455a9130667006962822a058f9cc4808497a154e78db079f3675b8849ad9",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/character_labels.py",
+      "expected": "57f9d5b44bd7bc3d5b49c968eb24d893cacabe705d55274e7b349362ccb10b9a",
+      "actual": "57f9d5b44bd7bc3d5b49c968eb24d893cacabe705d55274e7b349362ccb10b9a",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/translation/en/character_labels.targets.json",
+      "expected": "efb39269e07af8e4a11efa2fdb25817ee70311ab9a2bfdbea29ad221d4afcf11",
+      "actual": "efb39269e07af8e4a11efa2fdb25817ee70311ab9a2bfdbea29ad221d4afcf11",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/glossary/entities.json",
+      "expected": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+      "actual": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/script_repack.py",
+      "expected": "6242c0ec5d0da7838458e4fd3b706620005e95d0a0f4fcbd7e20224ec45b8219",
+      "actual": "6242c0ec5d0da7838458e4fd3b706620005e95d0a0f4fcbd7e20224ec45b8219",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/script_strings.py",
+      "expected": "e4b05a9c0af29956376d5f073050767c6458d260f0e100df47735ad32d302071",
+      "actual": "e4b05a9c0af29956376d5f073050767c6458d260f0e100df47735ad32d302071",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/sn3_codec.py",
+      "expected": "f6d19854150e0174963c9e5c84e33bfd37107ada94b5886c4769e33755ca8229",
+      "actual": "f6d19854150e0174963c9e5c84e33bfd37107ada94b5886c4769e33755ca8229",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/sn3_vm.py",
+      "expected": "3fbe03358be685ccb6ca223d874603310a839f5654269678a13c0b790c0501d9",
+      "actual": "3fbe03358be685ccb6ca223d874603310a839f5654269678a13c0b790c0501d9",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/dialogue_encoding.py",
+      "expected": "32ee79498945e156386748c5ddaa7604094c453e6e6058fd9eb62325ecc9055a",
+      "actual": "32ee79498945e156386748c5ddaa7604094c453e6e6058fd9eb62325ecc9055a",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/dialogue_layout.py",
+      "expected": "24595a3d0f81cfe54b3c95c54e6602443eee24b0340df248ced0bfe4aeeb1685",
+      "actual": "24595a3d0f81cfe54b3c95c54e6602443eee24b0340df248ced0bfe4aeeb1685",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/prepare_opening_layout.py",
+      "expected": "e8fceb19cf6b8002c9f48b16989548c7a12f09893f7e7a86fc579214306fa8cf",
+      "actual": "e8fceb19cf6b8002c9f48b16989548c7a12f09893f7e7a86fc579214306fa8cf",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/translation/en/opening_latin_pool192.targets.json",
+      "expected": "cb08a3248bbd5257a40d4a037be91db4095842f7fafcba0e252ad20f744ef38d",
+      "actual": "cb08a3248bbd5257a40d4a037be91db4095842f7fafcba0e252ad20f744ef38d",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/font_patch.py",
+      "expected": "ac375fe5129c08218325d87ab5dc40d2dc3e0923989623d7c64600c5a305cfaa",
+      "actual": "ac375fe5129c08218325d87ab5dc40d2dc3e0923989623d7c64600c5a305cfaa",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/font_metrics.py",
+      "expected": "189af19e08b21563e5be6116b1aedc1625866eb689905c2413db540584d92b18",
+      "actual": "189af19e08b21563e5be6116b1aedc1625866eb689905c2413db540584d92b18",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/verify_font_patch.py",
+      "expected": "6490cb86ce29a8d54822d071186fd6cb9d314194ce5cce2e2fb6c0110a2d9534",
+      "actual": "6490cb86ce29a8d54822d071186fd6cb9d314194ce5cce2e2fb6c0110a2d9534",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/verify_font_pool.py",
+      "expected": "f6abda15c344a0db70f849357c42aa2507ae9bf8df14ada1722acc81479f8f4e",
+      "actual": "f6abda15c344a0db70f849357c42aa2507ae9bf8df14ada1722acc81479f8f4e",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/translation/en/opening_000.targets.json",
+      "expected": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+      "actual": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/translation/en/opening_000.meaning_review.json",
+      "expected": "7a82442692213a839ed876073151f65f8ddcf1b399c3a254fa648bb97027df4b",
+      "actual": "7a82442692213a839ed876073151f65f8ddcf1b399c3a254fa648bb97027df4b",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/source/original.iso",
+      "expected": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "actual": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/output/0.1.4/Summon_Night_3_EN_0.1.4.iso",
+      "expected": "e02b88d37938c35b45339229e4e62541b08c76cfd492c10412615e4820ef3777",
+      "actual": "e02b88d37938c35b45339229e4e62541b08c76cfd492c10412615e4820ef3777",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/output/0.1.4/EBOOT.elf",
+      "expected": "f0c6586f56db26e1ecad0e79858396b8078552bed47b838b52edd91c5cddceb6",
+      "actual": "f0c6586f56db26e1ecad0e79858396b8078552bed47b838b52edd91c5cddceb6",
+      "passed": true
+    },
+    {
+      "check": "unique inventory IDs",
+      "expected": 13889,
+      "actual": 13889,
+      "passed": true
+    },
+    {
+      "check": "unique script resource IDs",
+      "expected": 801,
+      "actual": 801,
+      "passed": true
+    },
+    {
+      "check": "script to inventory identity mismatches",
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "check": "recount:script_resources",
+      "expected": 801,
+      "actual": 801,
+      "passed": true
+    },
+    {
+      "check": "recount:compressed_script_resources",
+      "expected": 247,
+      "actual": 247,
+      "passed": true
+    },
+    {
+      "check": "recount:resources_with_strings",
+      "expected": 327,
+      "actual": 327,
+      "passed": true
+    },
+    {
+      "check": "recount:string_occurrences",
+      "expected": 153524,
+      "actual": 153524,
+      "passed": true
+    },
+    {
+      "check": "recount:japanese_occurrences",
+      "expected": 151840,
+      "actual": 151840,
+      "passed": true
+    },
+    {
+      "check": "recount:unique_japanese_strings",
+      "expected": 49545,
+      "actual": 49545,
+      "passed": true
+    },
+    {
+      "check": "recount:occurrences_without_reference",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "reconciled node total",
+      "expected": 13889,
+      "actual": 13889,
+      "passed": true
+    },
+    {
+      "check": "slice assigned count:work/translation/en/opening_000.targets.json",
+      "expected": 80,
+      "actual": 80,
+      "passed": true
+    },
+    {
+      "check": "slice resource identity:work/translation/en/opening_000.targets.json",
+      "expected": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+      "actual": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+      "passed": true
+    },
+    {
+      "check": "slice overlap:work/translation/en/opening_000.targets.json",
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "check": "review target hash:work/translation/en/opening_000.targets.json",
+      "expected": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+      "actual": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+      "passed": true
+    },
+    {
+      "check": "independent review:work/translation/en/opening_000.targets.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "review coverage:work/translation/en/opening_000.targets.json",
+      "expected": [
+        "00:00065:text:0002646e",
+        "00:00065:text:0002647c",
+        "00:00065:text:00026488",
+        "00:00065:text:000264a2",
+        "00:00065:text:000264ac",
+        "00:00065:text:000264c2",
+        "00:00065:text:000264cc",
+        "00:00065:text:000264d8",
+        "00:00065:text:000264e8",
+        "00:00065:text:00026502",
+        "00:00065:text:00026514",
+        "00:00065:text:0002652a",
+        "00:00065:text:0002653a",
+        "00:00065:text:00026546",
+        "00:00065:text:00026556",
+        "00:00065:text:00026566",
+        "00:00065:text:00026572",
+        "00:00065:text:0002658c",
+        "00:00065:text:00026596",
+        "00:00065:text:000265ac",
+        "00:00065:text:000265b6",
+        "00:00065:text:000265c2",
+        "00:00065:text:000265d2",
+        "00:00065:text:000265ec",
+        "00:00065:text:00026606",
+        "00:00065:text:0002661e",
+        "00:00065:text:00026630",
+        "00:00065:text:00026640",
+        "00:00065:text:00026654",
+        "00:00065:text:00026666",
+        "00:00065:text:0002667c",
+        "00:00065:text:0002668a",
+        "00:00065:text:00026696",
+        "00:00065:text:000266a8",
+        "00:00065:text:000266bc",
+        "00:00065:text:000266c8",
+        "00:00065:text:000266d6",
+        "00:00065:text:000266e4",
+        "00:00065:text:000266fc",
+        "00:00065:text:00026714",
+        "00:00065:text:00026720",
+        "00:00065:text:00026732",
+        "00:00065:text:00026748",
+        "00:00065:text:00026756",
+        "00:00065:text:00026762",
+        "00:00065:text:00026772",
+        "00:00065:text:00026786",
+        "00:00065:text:0002679c",
+        "00:00065:text:000267aa",
+        "00:00065:text:000267bc",
+        "00:00065:text:000267d2",
+        "00:00065:text:000267e4",
+        "00:00065:text:000267fa",
+        "00:00065:text:0002680e",
+        "00:00065:text:00026822",
+        "00:00065:text:00026836",
+        "00:00065:text:0002684a",
+        "00:00065:text:0002685a",
+        "00:00065:text:00026870",
+        "00:00065:text:0002687e",
+        "00:00065:text:0002689a",
+        "00:00065:text:000268b4",
+        "00:00065:text:000268ce",
+        "00:00065:text:000268ea",
+        "00:00065:text:00026902",
+        "00:00065:text:0002691a",
+        "00:00065:text:0002692a",
+        "00:00065:text:00026938",
+        "00:00065:text:00026946",
+        "00:00065:text:00026958",
+        "00:00065:text:0002696e",
+        "00:00065:text:00026980",
+        "00:00065:text:00026992",
+        "00:00065:text:000269a8",
+        "00:00065:text:000269ba",
+        "00:00065:text:000269cc",
+        "00:00065:text:000269e2",
+        "00:00065:text:000269f8",
+        "00:00065:text:00026a0a",
+        "00:00065:text:00026a20"
+      ],
+      "actual": [
+        "00:00065:text:0002646e",
+        "00:00065:text:0002647c",
+        "00:00065:text:00026488",
+        "00:00065:text:000264a2",
+        "00:00065:text:000264ac",
+        "00:00065:text:000264c2",
+        "00:00065:text:000264cc",
+        "00:00065:text:000264d8",
+        "00:00065:text:000264e8",
+        "00:00065:text:00026502",
+        "00:00065:text:00026514",
+        "00:00065:text:0002652a",
+        "00:00065:text:0002653a",
+        "00:00065:text:00026546",
+        "00:00065:text:00026556",
+        "00:00065:text:00026566",
+        "00:00065:text:00026572",
+        "00:00065:text:0002658c",
+        "00:00065:text:00026596",
+        "00:00065:text:000265ac",
+        "00:00065:text:000265b6",
+        "00:00065:text:000265c2",
+        "00:00065:text:000265d2",
+        "00:00065:text:000265ec",
+        "00:00065:text:00026606",
+        "00:00065:text:0002661e",
+        "00:00065:text:00026630",
+        "00:00065:text:00026640",
+        "00:00065:text:00026654",
+        "00:00065:text:00026666",
+        "00:00065:text:0002667c",
+        "00:00065:text:0002668a",
+        "00:00065:text:00026696",
+        "00:00065:text:000266a8",
+        "00:00065:text:000266bc",
+        "00:00065:text:000266c8",
+        "00:00065:text:000266d6",
+        "00:00065:text:000266e4",
+        "00:00065:text:000266fc",
+        "00:00065:text:00026714",
+        "00:00065:text:00026720",
+        "00:00065:text:00026732",
+        "00:00065:text:00026748",
+        "00:00065:text:00026756",
+        "00:00065:text:00026762",
+        "00:00065:text:00026772",
+        "00:00065:text:00026786",
+        "00:00065:text:0002679c",
+        "00:00065:text:000267aa",
+        "00:00065:text:000267bc",
+        "00:00065:text:000267d2",
+        "00:00065:text:000267e4",
+        "00:00065:text:000267fa",
+        "00:00065:text:0002680e",
+        "00:00065:text:00026822",
+        "00:00065:text:00026836",
+        "00:00065:text:0002684a",
+        "00:00065:text:0002685a",
+        "00:00065:text:00026870",
+        "00:00065:text:0002687e",
+        "00:00065:text:0002689a",
+        "00:00065:text:000268b4",
+        "00:00065:text:000268ce",
+        "00:00065:text:000268ea",
+        "00:00065:text:00026902",
+        "00:00065:text:0002691a",
+        "00:00065:text:0002692a",
+        "00:00065:text:00026938",
+        "00:00065:text:00026946",
+        "00:00065:text:00026958",
+        "00:00065:text:0002696e",
+        "00:00065:text:00026980",
+        "00:00065:text:00026992",
+        "00:00065:text:000269a8",
+        "00:00065:text:000269ba",
+        "00:00065:text:000269cc",
+        "00:00065:text:000269e2",
+        "00:00065:text:000269f8",
+        "00:00065:text:00026a0a",
+        "00:00065:text:00026a20"
+      ],
+      "passed": true
+    },
+    {
+      "check": "slice source/review row identities:work/translation/en/opening_000.targets.json",
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "check": "review draft count:work/translation/en/opening_000.targets.json",
+      "expected": 79,
+      "actual": 79,
+      "passed": true
+    },
+    {
+      "check": "slice assigned count:work/translation/en/opening_001.targets.json",
+      "expected": 80,
+      "actual": 80,
+      "passed": true
+    },
+    {
+      "check": "slice resource identity:work/translation/en/opening_001.targets.json",
+      "expected": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+      "actual": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+      "passed": true
+    },
+    {
+      "check": "slice overlap:work/translation/en/opening_001.targets.json",
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "check": "review target hash:work/translation/en/opening_001.targets.json",
+      "expected": "7492d262918e492818bec6038b6227d179d48d12e2d3d31bc73406ebcf9fba3d",
+      "actual": "7492d262918e492818bec6038b6227d179d48d12e2d3d31bc73406ebcf9fba3d",
+      "passed": true
+    },
+    {
+      "check": "independent review:work/translation/en/opening_001.targets.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "review coverage:work/translation/en/opening_001.targets.json",
+      "expected": [
+        "00:00065:text:00026a36",
+        "00:00065:text:00026a48",
+        "00:00065:text:00026a5e",
+        "00:00065:text:00026a74",
+        "00:00065:text:00026a86",
+        "00:00065:text:00026a98",
+        "00:00065:text:00026aac",
+        "00:00065:text:00026ac2",
+        "00:00065:text:00026ad8",
+        "00:00065:text:00026ae4",
+        "00:00065:text:00026af6",
+        "00:00065:text:00026b0c",
+        "00:00065:text:00026b22",
+        "00:00065:text:00026b34",
+        "00:00065:text:00026b48",
+        "00:00065:text:00026b5e",
+        "00:00065:text:00026b74",
+        "00:00065:text:00026b8a",
+        "00:00065:text:00026b9e",
+        "00:00065:text:00026bb2",
+        "00:00065:text:00026bc8",
+        "00:00065:text:00026bda",
+        "00:00065:text:00026bf2",
+        "00:00065:text:00026c08",
+        "00:00065:text:00026c18",
+        "00:00065:text:00026c2c",
+        "00:00065:text:00026c42",
+        "00:00065:text:00026c58",
+        "00:00065:text:00026c6a",
+        "00:00065:text:00026c74",
+        "00:00065:text:00026c88",
+        "00:00065:text:00026c9e",
+        "00:00065:text:00026caa",
+        "00:00065:text:00026cc0",
+        "00:00065:text:00026cd0",
+        "00:00065:text:00026ce0",
+        "00:00065:text:00026cf2",
+        "00:00065:text:00026d04",
+        "00:00065:text:00026d10",
+        "00:00065:text:00026d24",
+        "00:00065:text:00026d38",
+        "00:00065:text:00026d44",
+        "00:00065:text:00026d54",
+        "00:00065:text:00026d68",
+        "00:00065:text:00026d7a",
+        "00:00065:text:00026d90",
+        "00:00065:text:00026da6",
+        "00:00065:text:00026dba",
+        "00:00065:text:00026dd0",
+        "00:00065:text:00026de2",
+        "00:00065:text:00026df8",
+        "00:00065:text:00026e0e",
+        "00:00065:text:00026e20",
+        "00:00065:text:00026e32",
+        "00:00065:text:00026e48",
+        "00:00065:text:00026e5a",
+        "00:00065:text:00026e70",
+        "00:00065:text:00026e82",
+        "00:00065:text:00026e98",
+        "00:00065:text:00026ea6",
+        "00:00065:text:00026eba",
+        "00:00065:text:00026eca",
+        "00:00065:text:00026ede",
+        "00:00065:text:00026eec",
+        "00:00065:text:00026f02",
+        "00:00065:text:00026f14",
+        "00:00065:text:00026f2a",
+        "00:00065:text:00026f3c",
+        "00:00065:text:00026f52",
+        "00:00065:text:00026f66",
+        "00:00065:text:00026f72",
+        "00:00065:text:00026f84",
+        "00:00065:text:00026f9a",
+        "00:00065:text:00026fac",
+        "00:00065:text:00026fc2",
+        "00:00065:text:00026fd8",
+        "00:00065:text:00026fec",
+        "00:00065:text:00027000",
+        "00:00065:text:00027016",
+        "00:00065:text:00027024"
+      ],
+      "actual": [
+        "00:00065:text:00026a36",
+        "00:00065:text:00026a48",
+        "00:00065:text:00026a5e",
+        "00:00065:text:00026a74",
+        "00:00065:text:00026a86",
+        "00:00065:text:00026a98",
+        "00:00065:text:00026aac",
+        "00:00065:text:00026ac2",
+        "00:00065:text:00026ad8",
+        "00:00065:text:00026ae4",
+        "00:00065:text:00026af6",
+        "00:00065:text:00026b0c",
+        "00:00065:text:00026b22",
+        "00:00065:text:00026b34",
+        "00:00065:text:00026b48",
+        "00:00065:text:00026b5e",
+        "00:00065:text:00026b74",
+        "00:00065:text:00026b8a",
+        "00:00065:text:00026b9e",
+        "00:00065:text:00026bb2",
+        "00:00065:text:00026bc8",
+        "00:00065:text:00026bda",
+        "00:00065:text:00026bf2",
+        "00:00065:text:00026c08",
+        "00:00065:text:00026c18",
+        "00:00065:text:00026c2c",
+        "00:00065:text:00026c42",
+        "00:00065:text:00026c58",
+        "00:00065:text:00026c6a",
+        "00:00065:text:00026c74",
+        "00:00065:text:00026c88",
+        "00:00065:text:00026c9e",
+        "00:00065:text:00026caa",
+        "00:00065:text:00026cc0",
+        "00:00065:text:00026cd0",
+        "00:00065:text:00026ce0",
+        "00:00065:text:00026cf2",
+        "00:00065:text:00026d04",
+        "00:00065:text:00026d10",
+        "00:00065:text:00026d24",
+        "00:00065:text:00026d38",
+        "00:00065:text:00026d44",
+        "00:00065:text:00026d54",
+        "00:00065:text:00026d68",
+        "00:00065:text:00026d7a",
+        "00:00065:text:00026d90",
+        "00:00065:text:00026da6",
+        "00:00065:text:00026dba",
+        "00:00065:text:00026dd0",
+        "00:00065:text:00026de2",
+        "00:00065:text:00026df8",
+        "00:00065:text:00026e0e",
+        "00:00065:text:00026e20",
+        "00:00065:text:00026e32",
+        "00:00065:text:00026e48",
+        "00:00065:text:00026e5a",
+        "00:00065:text:00026e70",
+        "00:00065:text:00026e82",
+        "00:00065:text:00026e98",
+        "00:00065:text:00026ea6",
+        "00:00065:text:00026eba",
+        "00:00065:text:00026eca",
+        "00:00065:text:00026ede",
+        "00:00065:text:00026eec",
+        "00:00065:text:00026f02",
+        "00:00065:text:00026f14",
+        "00:00065:text:00026f2a",
+        "00:00065:text:00026f3c",
+        "00:00065:text:00026f52",
+        "00:00065:text:00026f66",
+        "00:00065:text:00026f72",
+        "00:00065:text:00026f84",
+        "00:00065:text:00026f9a",
+        "00:00065:text:00026fac",
+        "00:00065:text:00026fc2",
+        "00:00065:text:00026fd8",
+        "00:00065:text:00026fec",
+        "00:00065:text:00027000",
+        "00:00065:text:00027016",
+        "00:00065:text:00027024"
+      ],
+      "passed": true
+    },
+    {
+      "check": "slice source/review row identities:work/translation/en/opening_001.targets.json",
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "check": "review draft count:work/translation/en/opening_001.targets.json",
+      "expected": 80,
+      "actual": 80,
+      "passed": true
+    },
+    {
+      "check": "draft count agrees with status",
+      "expected": 159,
+      "actual": 159,
+      "passed": true
+    },
+    {
+      "check": "assigned count agrees with status",
+      "expected": 160,
+      "actual": 160,
+      "passed": true
+    },
+    {
+      "check": "reviewed count agrees with status",
+      "expected": 159,
+      "actual": 159,
+      "passed": true
+    },
+    {
+      "check": "selected count agrees with status",
+      "expected": 78,
+      "actual": 78,
+      "passed": true
+    },
+    {
+      "check": "glossary count agrees with status",
+      "expected": 4,
+      "actual": 4,
+      "passed": true
+    }
+  ],
+  "checks_passed": 60,
+  "checks_failed": 0,
+  "not_revalidated": [
+    "Original ZIP hash/CRC",
+    "Older build image hashes",
+    "Runtime behavior and visual coverage",
+    "Full-game text completeness"
+  ]
+}

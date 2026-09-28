@@ -1,0 +1,73 @@
+{
+  "capture": {
+    "method": "software VRAM at sceDisplaySetFrameBuf",
+    "game": {
+      "id": "NPJH50380",
+      "version": "2.00",
+      "title": "\u30b5\u30e2\u30f3\u30ca\u30a4\u30c8\uff13"
+    },
+    "framebuffer_address": "0x4044000",
+    "stride_pixels": 512,
+    "pixel_format": 1,
+    "width": 480,
+    "height": 272,
+    "sync": 0,
+    "display_import_address": "0x8a17b9c",
+    "png_bytes": 107202,
+    "png_sha256": "794339de9f889d0b1650b96d3e8c685f057969a5f9c830b0b393081b2505fb49",
+    "cpu_left_stepping": true
+  },
+  "state": {
+    "pc": 2042,
+    "native": "0x3052",
+    "lines": [
+      {
+        "id": "00:00065:text:00027cbc",
+        "text": "Ah, yes.",
+        "rendered": "Ah, yes.",
+        "pointer": "0x8dc44e6",
+        "units": 8,
+        "selectable": false,
+        "choice": 4294967295,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "harbor_player_introduction_0.1.10:page:0:line:1",
+        "text": "My name is \u25cf.",
+        "rendered": "My name is Rexx.",
+        "pointer": "0x8dc472c",
+        "units": 16,
+        "selectable": false,
+        "choice": 4294967295,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "choice": false
+  }
+}

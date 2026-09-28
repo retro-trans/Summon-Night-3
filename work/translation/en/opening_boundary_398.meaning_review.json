@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "resource_id": "00:00065",
+  "scope": "Independent meaning review of the398-400 cross-slice sentence only.",
+  "review_type": "independent_agent_boundary_meaning_review",
+  "independent_review": true,
+  "reviewer": "opening_second_slice; no authorship of004/005 or this boundary proposal",
+  "reviewed_inputs_sha256": {
+    "work/translation/en/opening_004.targets.json": "1a1d0dea56832b7a1675e756af2daa8e73959757faa198653e6fb193dc10fa11",
+    "work/translation/en/opening_005.targets.json": "79f4750bd569343ce19f46a1b2c3f8a90559d91de9d8c8f83b2658df853d653e"
+  },
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "rows_in_slice": 3,
+  "rows_examined": 21,
+  "opening_row_range": [
+    398,
+    400
+  ],
+  "examined_opening_row_range": [
+    390,
+    410
+  ],
+  "context_rows_before": 8,
+  "context_rows_after": 10,
+  "assigned_instruction_range": [
+    87182,
+    87198
+  ],
+  "context_instruction_range": [
+    86986,
+    87400
+  ],
+  "method": "Read all21 source rows directly from original resource in memory; compare all3 boundary drafts from preserved004/005 files, verify per-row hashes/references and the three helper2003 queue calls followed by helper2044 at87210. No Japanese transcript saved.",
+  "verdict": {
+    "existing_draft_rows_reviewed": 3,
+    "existing_draft_rows_requiring_meaning_correction": 0,
+    "unresolved_rows_as_found": 0,
+    "unresolved_rows_after_review": 0,
+    "coordinated_completion_proposals": 1,
+    "meaning": "All three rows pass independent meaning review together.",
+    "target_edits_applied": false,
+    "final_translation_acceptance": false
+  },
+  "required_meaning_edits": [],
+  "coordinated_completion_proposals": [
+    {
+      "proposal_id": "opening_boundary_398_400",
+      "sentence_group": 199,
+      "status": "meaning_accepted_for_coordinated_integration_only",
+      "apply_together": true,
+      "opening_rows": [
+        398,
+        399,
+        400
+      ],
+      "group_ids": [
+        "00:00065:text:000281e0",
+        "00:00065:text:000281f6",
+        "00:00065:text:0002820a"
+      ],
+      "rows": [
+        {
+          "opening_row": 398,
+          "id": "00:00065:text:000281e0",
+          "source_sha256": "64ef38bc8b08e75247acb9d24e699a152c7d2c09d7fcc49fdb497b7edd8a4fb7",
+          "reference_instructions": [
+            87182
+          ],
+          "proposed_text": "If I learned how to fight,",
+          "source_target_file": "work/translation/en/opening_004.targets.json",
+          "outside_assigned_slice": false
+        },
+        {
+          "opening_row": 399,
+          "id": "00:00065:text:000281f6",
+          "source_sha256": "524ffd447cde8a3f30f645c69f8c9e70e5f36769df5f7fb439e3d8f121859b92",
+          "reference_instructions": [
+            87190
+          ],
+          "proposed_text": "I could protect",
+          "source_target_file": "work/translation/en/opening_004.targets.json",
+          "outside_assigned_slice": false
+        },
+        {
+          "opening_row": 400,
+          "id": "00:00065:text:0002820a",
+          "source_sha256": "290f455857f52cec1106727e79487414c16bdcdb5baeb7d51c8d9b53a121d6db",
+          "reference_instructions": [
+            87198
+          ],
+          "proposed_text": "everyone...",
+          "source_target_file": "work/translation/en/opening_005.targets.json",
+          "outside_assigned_slice": false
+        }
+      ],
+      "whole_sentence": "If I learned how to fight, I could protect everyone...",
+      "source_display_instruction": 87210,
+      "source_display_helper_word": 2044,
+      "reason": "The complete source conditional links acquiring the ability to fight with protecting everyone. The following explicit first-person belief establishes the protagonist as the subject. The draft retains the conditional and trailing recollection without inserting a named power, a particular group of people, or a promised outcome.",
+      "integration_condition": "Integrate all three rows against these004/005 hashes together, preserving the following belief in rows401-402. Do not insert only the slice-local fragment.",
+      "cross_file_group_aliases": {
+        "work/translation/en/opening_004.targets.json": 199,
+        "work/translation/en/opening_005.targets.json": "opening005_display_87210"
+      },
+      "edits_applied": false
+    }
+  ],
+  "coverage": [
+    {
+      "opening_row": 398,
+      "id": "00:00065:text:000281e0",
+      "source_sha256": "64ef38bc8b08e75247acb9d24e699a152c7d2c09d7fcc49fdb497b7edd8a4fb7",
+      "reference_instructions": [
+        87182
+      ],
+      "verdict": "independently_meaning_checked_coordinated_integration_required"
+    },
+    {
+      "opening_row": 399,
+      "id": "00:00065:text:000281f6",
+      "source_sha256": "524ffd447cde8a3f30f645c69f8c9e70e5f36769df5f7fb439e3d8f121859b92",
+      "reference_instructions": [
+        87190
+      ],
+      "verdict": "independently_meaning_checked_coordinated_integration_required"
+    },
+    {
+      "opening_row": 400,
+      "id": "00:00065:text:0002820a",
+      "source_sha256": "290f455857f52cec1106727e79487414c16bdcdb5baeb7d51c8d9b53a121d6db",
+      "reference_instructions": [
+        87198
+      ],
+      "verdict": "independently_meaning_checked_coordinated_integration_required"
+    }
+  ],
+  "uncertainty_notes": [
+    {
+      "opening_rows": [
+        398,
+        399,
+        400
+      ],
+      "decision": "Accept learned how to fight as acquiring combat ability in this martial-arts branch.",
+      "uncertainty": "Do not replace ability with a special magical power or supply a specific protected group; the source stays general."
+    },
+    {
+      "opening_rows": [
+        401,
+        402
+      ],
+      "decision": "Use the explicit following belief to resolve first-person reference in the conditional.",
+      "uncertainty": "The surrounding thought is what the protagonist believed, not a factual guarantee that training would protect everyone."
+    }
+  ],
+  "tokens": {
+    "control_tokens_in_boundary": [],
+    "source_target_token_sequences_match": true,
+    "cp932_display_roundtrip_rows": 3
+  },
+  "acceptance_limits": {
+    "layout_tested": false,
+    "runtime_tested": false,
+    "voice_sync_tested": false
+  },
+  "write_scope": "Create only this review file; preserve004/005 drafts unchanged."
+}

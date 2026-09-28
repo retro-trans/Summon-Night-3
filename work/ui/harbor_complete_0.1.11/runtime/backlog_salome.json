@@ -1,0 +1,110 @@
+{
+  "state": {
+    "pc": 2070,
+    "native": "0x3052",
+    "lines": [
+      {
+        "id": "harbor_complete_594_595_596:page:0:line:0",
+        "text": "is absolutely essential",
+        "rendered": "is absolutely essential",
+        "pointer": "0x8dc4caa",
+        "units": 23,
+        "selectable": false,
+        "choice": 4294967295,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "harbor_complete_594_595_596:page:0:line:1",
+        "text": "for the young lady's",
+        "rendered": "for the young lady\u2019s",
+        "pointer": "0x8dc4cda",
+        "units": 20,
+        "selectable": false,
+        "choice": 4294967295,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "harbor_complete_594_595_596:page:0:line:2",
+        "text": "future!",
+        "rendered": "future!",
+        "pointer": "0x8dc4d04",
+        "units": 7,
+        "selectable": false,
+        "choice": 4294967295,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "choice": false
+  },
+  "capture": {
+    "method": "software VRAM at sceDisplaySetFrameBuf",
+    "game": {
+      "id": "NPJH50380",
+      "version": "2.00",
+      "title": "\u30b5\u30e2\u30f3\u30ca\u30a4\u30c8\uff13"
+    },
+    "framebuffer_address": "0x4044000",
+    "stride_pixels": 512,
+    "pixel_format": 1,
+    "width": 480,
+    "height": 272,
+    "sync": 0,
+    "display_import_address": "0x8a17b9c",
+    "png_bytes": 81259,
+    "png_sha256": "fa501ce2ea929f278e8f6696703d3e089de2962b544b2c093a6ce854fdf2b381",
+    "cpu_left_stepping": true
+  }
+}

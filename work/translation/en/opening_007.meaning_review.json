@@ -1,0 +1,1122 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "resource_id": "00:00065",
+  "target_file": "opening_007.targets.json",
+  "review_type": "independent_agent_meaning_review",
+  "independent_review": true,
+  "reviewer": "opening_second_slice; not author of opening_007, with prior boundary involvement disclosed",
+  "independence_scope": {
+    "independently_reviewed_assigned_rows": 78,
+    "boundary_consistency_rows": [
+      560,
+      561
+    ],
+    "reason": "Reviewer drafted006 and its559-561 coordination proposal later reused by007. Those two assigned lines received source/consistency confirmation, not a fresh authorship-independent reading. The remaining78 assigned drafts and contextual640 were independently reviewed."
+  },
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "reviewed_target_sha256": "956384331f2d19176fa61aa009f7525ed4e5da1b55fe7342d0006c6b25b64f79",
+  "rows_in_slice": 80,
+  "rows_examined": 116,
+  "context_rows_before": 20,
+  "context_rows_after": 16,
+  "opening_row_range": [
+    560,
+    639
+  ],
+  "examined_opening_row_range": [
+    540,
+    655
+  ],
+  "assigned_instruction_range": [
+    91072,
+    92858
+  ],
+  "context_instruction_range": [
+    90664,
+    93488
+  ],
+  "ordering": "Resource strings sorted by minimum reference instruction; suffix starting00:00065:text:0002646e, sorted global index1808, is opening row0. Branch alternatives remain distinct.",
+  "method": "Read80 assigned source rows and36 context rows in memory from original resource; compare every draft, check source hashes, source order, token preservation and display queue spans. Inspect branching between the boy/girl continuations and the final protagonist alternatives. Read contextual640 and verify the complete639-640 thought. No Japanese transcript saved.",
+  "verdict": {
+    "existing_draft_rows_reviewed": 80,
+    "independently_reviewed_existing_drafts": 78,
+    "prior_authored_boundary_rows_confirmed": 2,
+    "existing_draft_rows_requiring_meaning_correction": 0,
+    "unresolved_rows_as_found": 0,
+    "unresolved_rows_after_review": 0,
+    "coordinated_completion_proposals": 2,
+    "meaning": "No required meaning correction. Both boundary groups are source-faithful and accepted only for atomic integration. Fresh independence for the reused559-561 proposal should come from the separate006 review.",
+    "target_edits_applied": false,
+    "final_translation_acceptance": false
+  },
+  "required_meaning_edits": [],
+  "coordinated_completion_proposals": [
+    {
+      "proposal_id": "coordinated_group_279",
+      "sentence_group": 279,
+      "status": "meaning_accepted_for_coordinated_integration_only",
+      "apply_together": true,
+      "opening_rows": [
+        559,
+        560,
+        561
+      ],
+      "group_ids": [
+        "00:00065:text:00028dd4",
+        "00:00065:text:00028de8",
+        "00:00065:text:00028dfe"
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:00028dd4",
+          "opening_row": 559,
+          "source_sha256": "1e832e0d704a14e3598cca78ea949e0d19080f58a234450697592aa89223df4a",
+          "reference_instructions": [
+            91064
+          ],
+          "proposed_text": "Especially with men,",
+          "outside_assigned_slice": true
+        },
+        {
+          "id": "00:00065:text:00028de8",
+          "opening_row": 560,
+          "source_sha256": "fbeccf06af40deb98598f94f0f6def67272cb4123d350dff5c6fb9acdd49c9ca",
+          "reference_instructions": [
+            91072
+          ],
+          "proposed_text": "she tends to get worked up",
+          "outside_assigned_slice": false
+        },
+        {
+          "id": "00:00065:text:00028dfe",
+          "opening_row": 561,
+          "source_sha256": "9d9854d4a59254303ed24b791047eea2f5f89f75939d1182b3320f5ac14cfea0",
+          "reference_instructions": [
+            91080
+          ],
+          "proposed_text": "and try to defy them.",
+          "outside_assigned_slice": false
+        }
+      ],
+      "whole_sentence": "Especially with men, she tends to get worked up and try to defy them.",
+      "source_display_instruction": 91092,
+      "source_display_helper_word": 2030,
+      "reason": "The men in row559 are the object of attempted defiance in560-561; becoming worked up and trying to resist are both retained.",
+      "integration_condition": "Apply all rows as one complete source display group, or exclude the entire group. Preserve prior target hashes; use group_ids and display_instruction as cross-file identity.",
+      "edits_applied": false,
+      "cross_file_group_aliases": {
+        "opening_006.targets.json": 282,
+        "opening_007.targets.json": 279
+      },
+      "independence_limit": "Reviewer previously proposed this boundary wording while drafting006; this is source/coordination confirmation. A separate reviewer of006 should supply the fresh independent judgment for559-561."
+    },
+    {
+      "proposal_id": "coordinated_group_311",
+      "sentence_group": 311,
+      "status": "meaning_accepted_for_coordinated_integration_only",
+      "apply_together": true,
+      "opening_rows": [
+        639,
+        640
+      ],
+      "group_ids": [
+        "00:00065:text:000293ca",
+        "00:00065:text:000293dc"
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:000293ca",
+          "opening_row": 639,
+          "source_sha256": "cd201ae74c2334a28d2ed463c53e9df255524d9b24eed859fddd04eefba2dc1e",
+          "reference_instructions": [
+            92858
+          ],
+          "proposed_text": "Maybe I should try",
+          "outside_assigned_slice": false
+        },
+        {
+          "id": "00:00065:text:000293dc",
+          "opening_row": 640,
+          "source_sha256": "80f8914f14944a2a3736324e8651b7854813b1aa35d5d95f56a8219809d75df0",
+          "reference_instructions": [
+            92866
+          ],
+          "proposed_text": "talking for a bit?",
+          "outside_assigned_slice": true
+        }
+      ],
+      "whole_sentence": "Maybe I should try talking for a bit?",
+      "source_display_instruction": 92878,
+      "source_display_helper_word": 2030,
+      "reason": "The complete source thought is a tentative intention to try talking briefly; proposed640 completes639 without specifying an unstated interlocutor or adding a promise.",
+      "integration_condition": "Apply all rows as one complete source display group, or exclude the entire group. Preserve prior target hashes; use group_ids and display_instruction as cross-file identity.",
+      "edits_applied": false
+    }
+  ],
+  "uncertainty_notes": [
+    {
+      "opening_rows": [
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578
+      ],
+      "decision": "Accept the caregiver's account of Alieze's reserve and tears.",
+      "uncertainty": "This is a local scene description, not a diagnosis or claim about every interaction."
+    },
+    {
+      "opening_rows": [
+        588,
+        589,
+        590
+      ],
+      "decision": "Preserve the source statement about the imperial capital.",
+      "uncertainty": "Earlier text locates the military academy in Pastis. The source calls it the capital's finest in prestige and staff here; do not invent a geographical reconciliation or silently replace capital with Empire."
+    },
+    {
+      "opening_rows": [
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596
+      ],
+      "decision": "Accept admission plus each gender-specific continuation as one sentence.",
+      "uncertainty": "Rows591-593 and594-596 are alternatives, not cumulative claims."
+    },
+    {
+      "opening_rows": [
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606
+      ],
+      "decision": "Accept the emphatic request and voyage timeframe.",
+      "uncertainty": "Rows601-603 and604-606 are alternatives; preserve the same trust-building requirement for either pupil."
+    },
+    {
+      "opening_rows": [
+        607,
+        608,
+        609,
+        615,
+        616,
+        626,
+        627,
+        628
+      ],
+      "decision": "Accept called off for nullifying the employment arrangement.",
+      "uncertainty": "Do not add a financial penalty, legal consequence or specified firing procedure."
+    },
+    {
+      "opening_rows": [
+        619,
+        620,
+        621,
+        631,
+        632,
+        633
+      ],
+      "decision": "Accept the different expressions of interest/concern.",
+      "uncertainty": "The child is on the protagonist's mind. The context supports concern, but no romance, diagnosis or definite hidden distress is supplied."
+    },
+    {
+      "opening_rows": [
+        634,
+        635,
+        636
+      ],
+      "decision": "Accept singular their for the shared pupil reference.",
+      "uncertainty": "The mother died shortly after the child's birth; the father is away working. The draft does not turn absence into abandonment."
+    },
+    {
+      "opening_rows": [
+        637,
+        638,
+        639,
+        640
+      ],
+      "decision": "Accept each protagonist's tentative next action.",
+      "uncertainty": "Checking how things are going and trying a brief conversation are alternate thoughts, not one combined action."
+    }
+  ],
+  "metadata_findings": [
+    {
+      "severity": "integration_required",
+      "opening_rows": [
+        559,
+        560,
+        561
+      ],
+      "finding": "The same authoritative group_ids/display91092 use numeric group282 in006 and279 in007. Do not equate or deduplicate solely by numeric sentence_group; normalize through IDs/display references in the integration artifact.",
+      "requires_target_text_edit": false
+    }
+  ],
+  "integration_readiness": {
+    "source_rows_checked": 80,
+    "independent_draft_rows": 78,
+    "boundary_consistency_rows": [
+      560,
+      561
+    ],
+    "complete_display_groups_checked": 33,
+    "coordinated_context_row640_checked": true,
+    "branch_continuations_verified": true,
+    "cross_file_group_number_aliases_require_normalization": true,
+    "fresh_boundary_independence_pending_separate006_review": true
+  },
+  "terminology": {
+    "used_ids": [
+      "character.alieze"
+    ],
+    "glossary_path": "work/glossary/opening_harbor.json",
+    "glossary_sha256": "f7524803992a3cd45ba7577580c2868ec0b549a903f8b7f649dd8f250719941b",
+    "name_normalization_applied": false,
+    "policy": "Meaning review precedes scripted glossary normalization; generic young master/young lady remains generic."
+  },
+  "tokens": {
+    "control_bytes_in_slice": 0,
+    "runtime_control_tokens_in_slice": [],
+    "source_target_sequences_match": true,
+    "draft_roundtrip_rows": 80,
+    "contextual_proposal_roundtrip_rows": 1
+  },
+  "coverage": [
+    {
+      "slice_row": 0,
+      "opening_row": 560,
+      "id": "00:00065:text:00028de8",
+      "source_sha256": "fbeccf06af40deb98598f94f0f6def67272cb4123d350dff5c6fb9acdd49c9ca",
+      "reference_instructions": [
+        91072
+      ],
+      "verdict": "boundary_consistency_checked_prior_reviewer_authorship_disclosed"
+    },
+    {
+      "slice_row": 1,
+      "opening_row": 561,
+      "id": "00:00065:text:00028dfe",
+      "source_sha256": "9d9854d4a59254303ed24b791047eea2f5f89f75939d1182b3320f5ac14cfea0",
+      "reference_instructions": [
+        91080
+      ],
+      "verdict": "boundary_consistency_checked_prior_reviewer_authorship_disclosed"
+    },
+    {
+      "slice_row": 2,
+      "opening_row": 562,
+      "id": "00:00065:text:00028e10",
+      "source_sha256": "65ef685c55cf67a900890e4e47a204b2a7064dded8fc2ee8f42053dc023f4e3c",
+      "reference_instructions": [
+        91120
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 3,
+      "opening_row": 563,
+      "id": "00:00065:text:00028e20",
+      "source_sha256": "26eadfabdf1f25c7c56c2cb8f9118da8a986866bb7c5be9e55719203e9c4dc31",
+      "reference_instructions": [
+        91148
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 4,
+      "opening_row": 564,
+      "id": "00:00065:text:00028e2e",
+      "source_sha256": "71adc061d52d6c34b779b9196709103609c477797c5e8ad555f0652858bed7ab",
+      "reference_instructions": [
+        91156
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 5,
+      "opening_row": 565,
+      "id": "00:00065:text:00028e3e",
+      "source_sha256": "a64a5620a9df7f28e9aed371cc0745ebcc4ccf16046c7dab8edbd33e1cb68fe9",
+      "reference_instructions": [
+        91192
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 6,
+      "opening_row": 566,
+      "id": "00:00065:text:00028e4a",
+      "source_sha256": "40c06d6b5766c33841d34f57f2052bd715160316726f2e14812c5f5dd1fd2161",
+      "reference_instructions": [
+        91200
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 7,
+      "opening_row": 567,
+      "id": "00:00065:text:00028e5e",
+      "source_sha256": "ba2d80c7611bd0969e7b3fd237b6d4aeb2cd396023f3c6316f3eddf27f89d400",
+      "reference_instructions": [
+        91208
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 8,
+      "opening_row": 568,
+      "id": "00:00065:text:00028e72",
+      "source_sha256": "3bf07f9b4128f48b2d5c300d2f0631a01c5cff86154a41a4bce68825673f15c8",
+      "reference_instructions": [
+        91264
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 9,
+      "opening_row": 569,
+      "id": "00:00065:text:00028e80",
+      "source_sha256": "660349f235483ff36e75eadccc219fecc9f56834239784c4c5183a4a8d9fb7ae",
+      "reference_instructions": [
+        91272
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 10,
+      "opening_row": 570,
+      "id": "00:00065:text:00028e94",
+      "source_sha256": "2c421702e1de5f7b3e213a66fe242b63f34c5dd637f57d99129024014f6b7189",
+      "reference_instructions": [
+        91308
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 11,
+      "opening_row": 571,
+      "id": "00:00065:text:00028ea8",
+      "source_sha256": "fea9220aae5519eb15b4c6db75f3bf07f3eff33febf0d7903b715df6d45990d5",
+      "reference_instructions": [
+        91316
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 12,
+      "opening_row": 572,
+      "id": "00:00065:text:00028ebc",
+      "source_sha256": "a87aa3d5a6ac0f852c4da885ed8cf2560d2f97087d846f0ee53845e0c079bcb0",
+      "reference_instructions": [
+        91324
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 13,
+      "opening_row": 573,
+      "id": "00:00065:text:00028ec8",
+      "source_sha256": "ea11fe8538a038d09f6f18c885a01a15b8c6bc837947e11a0a5e20456896545d",
+      "reference_instructions": [
+        91360
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 14,
+      "opening_row": 574,
+      "id": "00:00065:text:00028edc",
+      "source_sha256": "dc724ead725d002367463730adc539a472a41ecc28d60a9ee165e095df77ca68",
+      "reference_instructions": [
+        91368
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 15,
+      "opening_row": 575,
+      "id": "00:00065:text:00028ef6",
+      "source_sha256": "ea6c7ca2e76e7436d1f339d86c031fd7c28e8d97d6bcca19c75c1263d3be75bf",
+      "reference_instructions": [
+        91376
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 16,
+      "opening_row": 576,
+      "id": "00:00065:text:00028f10",
+      "source_sha256": "409fcab9482559d7d442c34c9e52700c392119defa9a939265d656c987046b5a",
+      "reference_instructions": [
+        91412
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 17,
+      "opening_row": 577,
+      "id": "00:00065:text:00028f24",
+      "source_sha256": "852c31f9f855d054622ecfba386fddcacae93704591a590e1eb16ecffc09b13f",
+      "reference_instructions": [
+        91420
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 18,
+      "opening_row": 578,
+      "id": "00:00065:text:00028f3a",
+      "source_sha256": "304513559da1fc97e78135afa8365dc2c74b58a5f1caa8ca6180056a3f33cc2b",
+      "reference_instructions": [
+        91428
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 19,
+      "opening_row": 579,
+      "id": "00:00065:text:00028f4a",
+      "source_sha256": "66c91c88f737b99d0c8d25137abf111f43b64895ac6ad78410cac25b6fce46c0",
+      "reference_instructions": [
+        91468
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 20,
+      "opening_row": 580,
+      "id": "00:00065:text:00028f58",
+      "source_sha256": "6d5aa4afb67fab2430f69ec203851c0281aaf8be2a314b913941a4fa98c605c5",
+      "reference_instructions": [
+        91476
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 21,
+      "opening_row": 581,
+      "id": "00:00065:text:00028f68",
+      "source_sha256": "c42a7d1d972178ea57f01104d8383670a0683b90c584dfe95278d2a7e7701553",
+      "reference_instructions": [
+        91484
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 22,
+      "opening_row": 582,
+      "id": "00:00065:text:00028f7a",
+      "source_sha256": "049e0c2eb33dd25e90e3f74d7900f3205678f0d252ebddc8adc0f5af14254f2c",
+      "reference_instructions": [
+        91598
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 23,
+      "opening_row": 583,
+      "id": "00:00065:text:00028f8c",
+      "source_sha256": "68772e3e58b8f859b03fc33e949b5959d3d2da80e7577f23f427216a352645d1",
+      "reference_instructions": [
+        91606
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 24,
+      "opening_row": 584,
+      "id": "00:00065:text:00028fa8",
+      "source_sha256": "c11b19cbe1ca9dc991aa4d9c8889a23b68c6eea4161574b9f6ecbc89baea6fe7",
+      "reference_instructions": [
+        91614
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 25,
+      "opening_row": 585,
+      "id": "00:00065:text:00028fc0",
+      "source_sha256": "40371146cd15c3da8c78b67fe72ffbe5d5242228010e01150bd65de4511d251f",
+      "reference_instructions": [
+        91648
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 26,
+      "opening_row": 586,
+      "id": "00:00065:text:00028fd6",
+      "source_sha256": "7de00b8b5e2b2fcb7b69562bff1a4eb591042552038f57c4d0b45539d887c99c",
+      "reference_instructions": [
+        91656
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 27,
+      "opening_row": 587,
+      "id": "00:00065:text:00028fe8",
+      "source_sha256": "7c51d8524285057a53eedb0917351b7534591ad677ffd29eb3270e12ec5c2250",
+      "reference_instructions": [
+        91664
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 28,
+      "opening_row": 588,
+      "id": "00:00065:text:00028ff6",
+      "source_sha256": "d8610d7a64f854b6687073ff6f729661b45c6d4b1e0bb04025ecd44da6a0dde2",
+      "reference_instructions": [
+        91698
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 29,
+      "opening_row": 589,
+      "id": "00:00065:text:0002900c",
+      "source_sha256": "dd8359f68d50cfea965f566ff50189c2a5a17f6cde3d853ed03c38121670222b",
+      "reference_instructions": [
+        91706
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 30,
+      "opening_row": 590,
+      "id": "00:00065:text:00029024",
+      "source_sha256": "39ef4ea83b132399c1bf19dc286b411744efc1a0916d3833eda13f8c736e3fbb",
+      "reference_instructions": [
+        91714
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 31,
+      "opening_row": 591,
+      "id": "00:00065:text:00029036",
+      "source_sha256": "15989e82c31df95f59d080f70c827678717e7e8bbe89472dd3b5fbbced338567",
+      "reference_instructions": [
+        91770
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 32,
+      "opening_row": 592,
+      "id": "00:00065:text:00029046",
+      "source_sha256": "c862b15fe2467636c3f0a6f8fb0772209985bb209f668854764972919f03d5b0",
+      "reference_instructions": [
+        91778
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 33,
+      "opening_row": 593,
+      "id": "00:00065:text:0002905a",
+      "source_sha256": "5f06d54daa471c22225c53c435040148ba0b31ab304cb25bfa6fd98e047c5ac5",
+      "reference_instructions": [
+        91786
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 34,
+      "opening_row": 594,
+      "id": "00:00065:text:0002906a",
+      "source_sha256": "a4bf975446542d87a764db0c5d4bf457895956d7c231a9ad2d4afb9ef1b41fd6",
+      "reference_instructions": [
+        91824
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 35,
+      "opening_row": 595,
+      "id": "00:00065:text:0002907a",
+      "source_sha256": "c862b15fe2467636c3f0a6f8fb0772209985bb209f668854764972919f03d5b0",
+      "reference_instructions": [
+        91832
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 36,
+      "opening_row": 596,
+      "id": "00:00065:text:0002908e",
+      "source_sha256": "5f06d54daa471c22225c53c435040148ba0b31ab304cb25bfa6fd98e047c5ac5",
+      "reference_instructions": [
+        91840
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 37,
+      "opening_row": 597,
+      "id": "00:00065:text:0002909e",
+      "source_sha256": "166aef62b606f5c21266219daa2b9b04a3c640eaede4b13d44a05fbc2ef9f9db",
+      "reference_instructions": [
+        91926
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 38,
+      "opening_row": 598,
+      "id": "00:00065:text:000290ae",
+      "source_sha256": "730247b11898f13b962019ab384bcbeef1ca13572b42db9cf8cc178effb56763",
+      "reference_instructions": [
+        91960
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 39,
+      "opening_row": 599,
+      "id": "00:00065:text:000290c4",
+      "source_sha256": "4662fee04b3202566b80cf80382512b4a2634b51bf35fd66bd0656daf2375242",
+      "reference_instructions": [
+        91968
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 40,
+      "opening_row": 600,
+      "id": "00:00065:text:000290d4",
+      "source_sha256": "84bfb438a5e7754f9a72d00488723918cda646f6e565719a4cfbeef6f4716bd9",
+      "reference_instructions": [
+        91976
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 41,
+      "opening_row": 601,
+      "id": "00:00065:text:000290e4",
+      "source_sha256": "e698ebbedc561b5a0b4a97c978ad66462b2204a30a0a16c0407ae3539528aa29",
+      "reference_instructions": [
+        92032
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 42,
+      "opening_row": 602,
+      "id": "00:00065:text:000290f6",
+      "source_sha256": "a01aa052af03bc15742f387dc6f8e0751ed289e8b7fa253e846775f5353504b9",
+      "reference_instructions": [
+        92040
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 43,
+      "opening_row": 603,
+      "id": "00:00065:text:00029108",
+      "source_sha256": "5536262421458e2ee583605dd348bb85e730bc3607ae2ea75902b043534b2352",
+      "reference_instructions": [
+        92048
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 44,
+      "opening_row": 604,
+      "id": "00:00065:text:0002911c",
+      "source_sha256": "cb6ea3724d696b9a831570ae19e646a4a355b2513514553a6bb622697f945655",
+      "reference_instructions": [
+        92086
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 45,
+      "opening_row": 605,
+      "id": "00:00065:text:0002912e",
+      "source_sha256": "a01aa052af03bc15742f387dc6f8e0751ed289e8b7fa253e846775f5353504b9",
+      "reference_instructions": [
+        92094
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 46,
+      "opening_row": 606,
+      "id": "00:00065:text:00029140",
+      "source_sha256": "5536262421458e2ee583605dd348bb85e730bc3607ae2ea75902b043534b2352",
+      "reference_instructions": [
+        92102
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 47,
+      "opening_row": 607,
+      "id": "00:00065:text:00029154",
+      "source_sha256": "bdaea2de85589feac2524bafc87ca5e3e84e5971272fb5988837dc42aa3beaab",
+      "reference_instructions": [
+        92136
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 48,
+      "opening_row": 608,
+      "id": "00:00065:text:0002916a",
+      "source_sha256": "bc1c9b7680bd33a5c8736107e8e0411f563a624b89c825893888df898aa52799",
+      "reference_instructions": [
+        92144
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 49,
+      "opening_row": 609,
+      "id": "00:00065:text:00029180",
+      "source_sha256": "670667791c6eb06ee09530d3025f3b058d478de57a438bb7a7d20e90a506f7a9",
+      "reference_instructions": [
+        92152
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 50,
+      "opening_row": 610,
+      "id": "00:00065:text:0002918e",
+      "source_sha256": "413aff369068644f046e9f743a939b7df369a7adb0a63dfdc0e47d5f73d0b7ef",
+      "reference_instructions": [
+        92358
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 51,
+      "opening_row": 611,
+      "id": "00:00065:text:00029196",
+      "source_sha256": "5b77d501d53205abea064c070ec8a7fc7c489c69524dff75d2a4a134c9b95753",
+      "reference_instructions": [
+        92398
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 52,
+      "opening_row": 612,
+      "id": "00:00065:text:000291a8",
+      "source_sha256": "3d5ecb464558331beb7137cd6023e3f7ce80a3a1fa0d5cca61f96cdbd1315047",
+      "reference_instructions": [
+        92426
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 53,
+      "opening_row": 613,
+      "id": "00:00065:text:000291c4",
+      "source_sha256": "32e943014ceb3f9b8c1baf2351e9e861fdb51f0640e713419a348d96640617ba",
+      "reference_instructions": [
+        92434
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 54,
+      "opening_row": 614,
+      "id": "00:00065:text:000291e0",
+      "source_sha256": "5538673d83d054920601f1f85807102e7c6d8509b2ec674a93a230426e8f40e4",
+      "reference_instructions": [
+        92442
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 55,
+      "opening_row": 615,
+      "id": "00:00065:text:000291fa",
+      "source_sha256": "3af93e2627ca03a04769e8405dfdc4ff319ce41850613d9da35f7f7cd8ae62a2",
+      "reference_instructions": [
+        92470
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 56,
+      "opening_row": 616,
+      "id": "00:00065:text:0002920c",
+      "source_sha256": "9d5af573c563ebd7c6daab8be2f3103c4bdce580d0618d8e5ae64a1b31287555",
+      "reference_instructions": [
+        92478
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 57,
+      "opening_row": 617,
+      "id": "00:00065:text:00029222",
+      "source_sha256": "1db2acc968c6901697e779e179bdae6352ed5a170d2d25b567bcb8147d98287e",
+      "reference_instructions": [
+        92494
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 58,
+      "opening_row": 618,
+      "id": "00:00065:text:00029238",
+      "source_sha256": "dfef3206ba5cb1de122c7411a2290fe401a707f2bfac120dd26e0e8d577b1900",
+      "reference_instructions": [
+        92502
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 59,
+      "opening_row": 619,
+      "id": "00:00065:text:0002924a",
+      "source_sha256": "75c704bf8b26bb90e87cae34388efb36b2a305590132a26e7af4fd3d1948d64f",
+      "reference_instructions": [
+        92530
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 60,
+      "opening_row": 620,
+      "id": "00:00065:text:00029250",
+      "source_sha256": "b78b4d96cb053cc7a3d545f43ef0f172a09b69520a6851392ddb6c57af039413",
+      "reference_instructions": [
+        92538
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 61,
+      "opening_row": 621,
+      "id": "00:00065:text:00029262",
+      "source_sha256": "783729a9c93fd901481cc78fa2fcea792f1bdd36d56d8feadfd5a45f4554da09",
+      "reference_instructions": [
+        92546
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 62,
+      "opening_row": 622,
+      "id": "00:00065:text:00029270",
+      "source_sha256": "c7a0d28360280f84203e4d16deb9bf143783d5d6789e089a6d69f763a2f84f63",
+      "reference_instructions": [
+        92578
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 63,
+      "opening_row": 623,
+      "id": "00:00065:text:00029284",
+      "source_sha256": "a6a430ee14bc6a185ac90f941d1a1daca04938970ea4f51a6227ab6f8d10e878",
+      "reference_instructions": [
+        92606
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 64,
+      "opening_row": 624,
+      "id": "00:00065:text:000292a0",
+      "source_sha256": "924a4960df4512b62815690f2f990ff8a7909f8a8b7b4cb677a21fbe3ddf1eb4",
+      "reference_instructions": [
+        92614
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 65,
+      "opening_row": 625,
+      "id": "00:00065:text:000292b6",
+      "source_sha256": "180e4c0644317df58057cc91acc14c3d917da551e465107104c4843cec1b5f9d",
+      "reference_instructions": [
+        92622
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 66,
+      "opening_row": 626,
+      "id": "00:00065:text:000292d2",
+      "source_sha256": "5bd2771f0e00980c7e60546e4fdf2ace5a460b95be8c9b71149a6d3c47ab2380",
+      "reference_instructions": [
+        92650
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 67,
+      "opening_row": 627,
+      "id": "00:00065:text:000292e6",
+      "source_sha256": "d761e0ffff7b04878532a726eb31b1b4d7ca71889b2c72449110b36bb9c7c6eb",
+      "reference_instructions": [
+        92658
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 68,
+      "opening_row": 628,
+      "id": "00:00065:text:000292fa",
+      "source_sha256": "b4b83fefd9d089d77f2531d4237aed6a5e6ea97aa92466807ee7617ba50d0fa3",
+      "reference_instructions": [
+        92666
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 69,
+      "opening_row": 629,
+      "id": "00:00065:text:0002930a",
+      "source_sha256": "5bf1e82b31d5ff601dda3cbea899010e1ab2756bac3f52742e6e69a264245fb7",
+      "reference_instructions": [
+        92694
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 70,
+      "opening_row": 630,
+      "id": "00:00065:text:0002931a",
+      "source_sha256": "8d662a96c84df04df6abf70aac3671c73b9bf39d11ee8821ab8db68ec17793ae",
+      "reference_instructions": [
+        92702
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 71,
+      "opening_row": 631,
+      "id": "00:00065:text:0002932a",
+      "source_sha256": "20c6d010a3be56e41d023de808c9d3082619a9bf3be0a8831b40a037ed9a7578",
+      "reference_instructions": [
+        92730
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 72,
+      "opening_row": 632,
+      "id": "00:00065:text:00029338",
+      "source_sha256": "989f7c119e432a83de925a986c803cabf6e42a3b2f2b1c55b55a5b67f2d74351",
+      "reference_instructions": [
+        92738
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 73,
+      "opening_row": 633,
+      "id": "00:00065:text:0002934c",
+      "source_sha256": "b2afc1a89780c96f46209f5918cb53120bf7f90d89072e099d36525079180bbf",
+      "reference_instructions": [
+        92746
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 74,
+      "opening_row": 634,
+      "id": "00:00065:text:00029360",
+      "source_sha256": "523d461e3aa52466f4e1b398e3a117ec89256c15b40583df155c1f447d313462",
+      "reference_instructions": [
+        92762
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 75,
+      "opening_row": 635,
+      "id": "00:00065:text:0002937a",
+      "source_sha256": "8c780f528a94cf1c36e54a166f4efc37eee22f2c6c685958ca3e823f93ccc729",
+      "reference_instructions": [
+        92770
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 76,
+      "opening_row": 636,
+      "id": "00:00065:text:00029390",
+      "source_sha256": "c312247412e4bba17e4ca3abef28e05b376a5acc0618482a54f2fa9885a97c1e",
+      "reference_instructions": [
+        92778
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 77,
+      "opening_row": 637,
+      "id": "00:00065:text:000293a6",
+      "source_sha256": "3e9874bf893744cd441f4df7e5be9e519bb6652b3dc5327ff622865cc3002858",
+      "reference_instructions": [
+        92818
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 78,
+      "opening_row": 638,
+      "id": "00:00065:text:000293ba",
+      "source_sha256": "945f8eb8c0eb4faa9b0aa95804532b76ff655ddaf320e41593025ecfbb48e65e",
+      "reference_instructions": [
+        92826
+      ],
+      "verdict": "meaning_checked_no_required_change"
+    },
+    {
+      "slice_row": 79,
+      "opening_row": 639,
+      "id": "00:00065:text:000293ca",
+      "source_sha256": "cd201ae74c2334a28d2ed463c53e9df255524d9b24eed859fddd04eefba2dc1e",
+      "reference_instructions": [
+        92858
+      ],
+      "verdict": "meaning_checked_coordinated_integration_required"
+    }
+  ],
+  "acceptance_limits": {
+    "runtime_tested": false,
+    "layout_tested": false,
+    "voice_sync_tested": false,
+    "helper2058_rows": [
+      585,
+      586,
+      587,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596
+    ],
+    "note": "Source helper2058 and branch continuation timing still require runtime/layout validation."
+  },
+  "write_scope": "Create only the independent review; leave007 and006 target artifacts unchanged."
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "version": "0.1.18",
+  "reviewed_on": "2026-09-27",
+  "scope": "All seven label slots in 01.DAT1 child0 from the current 0.1.17 ISO.",
+  "source_iso_sha256": "71b6bd5e51199c9fd7663a9b377f4429d0ecb38383b1f5f90fe2efe8578971af",
+  "counts": {
+    "rows_examined": 784,
+    "unique_labels_examined": 753,
+    "japanese_labels_examined": 743,
+    "translated_labels": 328,
+    "retained_existing_english_labels": 10,
+    "explicitly_flagged_labels": 415,
+    "references_examined": 2312
+  },
+  "result": "Every current label is represented in unit.targets.json. Mapped entries received independent full and compact wording; all unmapped labels are explicit research flags rather than omissions.",
+  "name_policy": "Used character_reference_sn6_vita.json spellings for mapped party names. Proper names without a glossary match remain flagged; this pass does not invent official spellings.",
+  "layout_policy": "Full text records meaning. Compact text is independently chosen at ten ASCII characters or fewer for the measured class field. Canonical proper names are retained rather than arbitrarily truncated.",
+  "uncertainties": [
+    "Many enemy proper names and later class/title labels need glossary-backed spelling or context review before insertion.",
+    "The source-local class-title renderings are descriptive English and must not be represented as an official localization.",
+    "Some compact variants use game-style abbreviations and need final runtime/font verification."
+  ],
+  "change_log": [
+    "2026-09-27: Created status 0.1.18 unit-label review input from 0.1.17 ISO.",
+    "2026-09-27: Added source-local English renderings for glossary-locked party names, first-party classes, and the generic Soldier/Guard and troop families.",
+    "2026-09-27: Kept three preexisting full-width English labels byte-identical. All remaining Japanese labels are listed individually by source hash and offset as explicit research flags; no label is silently omitted.",
+    "2026-09-27: Extended manually reviewed source-local translations through the party, guest, dragon, and garrison class-title block; named entries without existing glossary evidence are marked provisional."
+  ]
+}

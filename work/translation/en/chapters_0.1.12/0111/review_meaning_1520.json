@@ -1,0 +1,153 @@
+{
+  "resource_id": "00:00111",
+  "assigned_range": [
+    1520,
+    1599
+  ],
+  "semantic_complete": true,
+  "rows_examined": {
+    "ranges_inclusive": [
+      [
+        1500,
+        1619
+      ]
+    ],
+    "count": 120
+  },
+  "reviewed_slices": [
+    {
+      "path": "slice_1520.targets.json",
+      "sha256": "630289b8fe9ede1309a3b6fc1c15aa07dd7f74cfebc803ef38f37d64d6e02f50",
+      "assigned_range": [
+        1520,
+        1599
+      ]
+    }
+  ],
+  "reviewed_source_ids": [
+    "00:00111:text:000354c0",
+    "00:00111:text:000354ce",
+    "00:00111:text:000354e2",
+    "00:00111:text:000354f8",
+    "00:00111:text:00035502",
+    "00:00111:text:00035510",
+    "00:00111:text:0003551a",
+    "00:00111:text:00035538",
+    "00:00111:text:00035554",
+    "00:00111:text:00035568",
+    "00:00111:text:0003557c",
+    "00:00111:text:00035592",
+    "00:00111:text:000355a8",
+    "00:00111:text:000355c4",
+    "00:00111:text:000355e2",
+    "00:00111:text:000355fc",
+    "00:00111:text:00035610",
+    "00:00111:text:00035626",
+    "00:00111:text:0003563a",
+    "00:00111:text:0003564e",
+    "00:00111:text:00035662",
+    "00:00111:text:00035678",
+    "00:00111:text:0003568c",
+    "00:00111:text:000356a0",
+    "00:00111:text:000356b4",
+    "00:00111:text:000356c8",
+    "00:00111:text:000356dc",
+    "00:00111:text:000356e2",
+    "00:00111:text:000356f4",
+    "00:00111:text:00035708",
+    "00:00111:text:00035716",
+    "00:00111:text:00035728",
+    "00:00111:text:00035740",
+    "00:00111:text:00035752",
+    "00:00111:text:00035766",
+    "00:00111:text:0003577c",
+    "00:00111:text:00035792",
+    "00:00111:text:000357a4",
+    "00:00111:text:000357b8",
+    "00:00111:text:000357ca",
+    "00:00111:text:000357dc",
+    "00:00111:text:000357f4",
+    "00:00111:text:00035806",
+    "00:00111:text:0003581c",
+    "00:00111:text:00035832",
+    "00:00111:text:00035846",
+    "00:00111:text:00035854",
+    "00:00111:text:0003586e",
+    "00:00111:text:0003587e",
+    "00:00111:text:00035898",
+    "00:00111:text:000358b4",
+    "00:00111:text:000358c6",
+    "00:00111:text:000358da",
+    "00:00111:text:000358ee",
+    "00:00111:text:000358fe",
+    "00:00111:text:00035914",
+    "00:00111:text:0003592a",
+    "00:00111:text:00035940",
+    "00:00111:text:0003594e",
+    "00:00111:text:00035960",
+    "00:00111:text:0003596e",
+    "00:00111:text:00035984",
+    "00:00111:text:00035990",
+    "00:00111:text:000359a0",
+    "00:00111:text:000359b2",
+    "00:00111:text:000359c0",
+    "00:00111:text:000359d0",
+    "00:00111:text:000359e4",
+    "00:00111:text:000359fa",
+    "00:00111:text:00035a0c",
+    "00:00111:text:00035a1e",
+    "00:00111:text:00035a34",
+    "00:00111:text:00035a4a",
+    "00:00111:text:00035a56",
+    "00:00111:text:00035a66",
+    "00:00111:text:00035a78",
+    "00:00111:text:00035a8a",
+    "00:00111:text:00035aa0",
+    "00:00111:text:00035ab0",
+    "00:00111:text:00035ac2"
+  ],
+  "meaning_corrections": [
+    {
+      "resource_row": 1526,
+      "source_id": "00:00111:text:0003551a",
+      "replacement_text": "Not just my name--the others'",
+      "reason": "Restores the possessive construction begun by 俺だけじゃない and avoids the ungrammatical draft clause \"what everyone else is named\"."
+    },
+    {
+      "resource_row": 1527,
+      "source_id": "00:00111:text:00035538",
+      "replacement_text": "names, and what kind of people",
+      "reason": "Continues the list of the others' names and personalities."
+    },
+    {
+      "resource_row": 1528,
+      "source_id": "00:00111:text:00035554",
+      "replacement_text": "they are...",
+      "reason": "Completes the personality clause without changing its referent."
+    },
+    {
+      "resource_row": 1532,
+      "source_id": "00:00111:text:000355a8",
+      "replacement_text": "Not just my name--the others'",
+      "reason": "Parallel player-choice branch: restores the possessive construction begun by 私だけじゃありません."
+    },
+    {
+      "resource_row": 1533,
+      "source_id": "00:00111:text:000355c4",
+      "replacement_text": "names, and what kind of people",
+      "reason": "Continues the list of the others' names and personalities."
+    },
+    {
+      "resource_row": 1534,
+      "source_id": "00:00111:text:000355e2",
+      "replacement_text": "they are...",
+      "reason": "Completes the personality clause without changing its referent."
+    }
+  ],
+  "uncertainties": [
+    {
+      "resource_row": 1576,
+      "detail": "仲良くなりたい literally expresses wanting to get along; \"be friends\" is a natural English rendering, but is slightly more categorical."
+    }
+  ]
+}

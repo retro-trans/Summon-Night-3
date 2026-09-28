@@ -1,0 +1,96 @@
+{
+  "checked_at_utc": "2026-09-26T05:01:45.701103+00:00",
+  "source_iso_sha256": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+  "preview": {
+    "selected_rows": 78,
+    "reflowed_groups": 15,
+    "additional_pages": 13,
+    "old_decoded_bytes": 182526,
+    "new_decoded_bytes": 187702,
+    "decoded_sha256": "631b8bc638dede0e357305740be337aa4233dce48297bc054169ba3ad867e1b1",
+    "samples": [
+      {
+        "id": "opening_000:group:15",
+        "text": "I've been waiting all this time for someone like you to come someday.",
+        "pages": [
+          [
+            "I've been waiting all this",
+            "time for someone like you to",
+            "come someday."
+          ]
+        ]
+      },
+      {
+        "id": "opening_000:group:22",
+        "text": "A dream, huh...",
+        "pages": [
+          [
+            "A dream,",
+            "huh..."
+          ]
+        ]
+      },
+      {
+        "id": "opening_000:group:24",
+        "text": "Why am I lying flat on my back on this beach?",
+        "pages": [
+          [
+            "Why am I",
+            "lying flat on",
+            "my back on"
+          ],
+          [
+            "this beach?"
+          ]
+        ]
+      },
+      {
+        "id": "opening_000:group:25",
+        "text": "No... Before that...",
+        "pages": [
+          [
+            "No... Before",
+            "that..."
+          ]
+        ]
+      },
+      {
+        "id": "opening_000:group:28",
+        "text": "Um... Why was I sleeping on the beach?",
+        "pages": [
+          [
+            "Um... Why was",
+            "I sleeping on",
+            "the beach?"
+          ]
+        ]
+      }
+    ],
+    "scope_limit": "Static preview only; full-width wrapping and pagination need in-game verification."
+  },
+  "group_execution_checks": 15,
+  "choice_control_flow_preserved": true,
+  "compression_roundtrip": true,
+  "unsafe_cases_rejected": [
+    "wrong source hash",
+    "overlapping group ownership",
+    "duplicate group ID",
+    "incomplete group",
+    "choice mistaken for dialogue",
+    "word too wide",
+    "spacing would be lost",
+    "20-bit overflow",
+    "branch enters replaced span",
+    "raw newline"
+  ],
+  "input_sha256": {
+    "tools/dialogue_layout.py": "9a6cdc1b6f3442dc0041e54281cdb4c04b9e4d97cf40a9479f4194c7a80565a4",
+    "tools/prepare_opening_layout.py": "2d3703f7c3a3fd99c87e4f76c1b7e3f89b8c6168c050a668c41bfcd7e29ce37b",
+    "tools/verify_dialogue_layout.py": "44666fe9700ca24313442e667483d163be14156af111bb583dd17867538121b8",
+    "tools/script_repack.py": "6242c0ec5d0da7838458e4fd3b706620005e95d0a0f4fcbd7e20224ec45b8219",
+    "tools/script_strings.py": "e4b05a9c0af29956376d5f073050767c6458d260f0e100df47735ad32d302071",
+    "tools/sn3_vm.py": "3fbe03358be685ccb6ca223d874603310a839f5654269678a13c0b790c0501d9",
+    "tools/dialogue_encoding.py": "32ee79498945e156386748c5ddaa7604094c453e6e6058fd9eb62325ecc9055a"
+  },
+  "scope_limit": "Static compiler and bounded group execution only; runtime pagination, voices, geometry, branches and save/load require live testing."
+}

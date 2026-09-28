@@ -1,0 +1,84 @@
+{
+  "resource_id": "00:00065",
+  "review_type": "independent_meaning_review",
+  "reviewed_slices": [
+    {
+      "target_file": "work/translation/en/stages_0.1.12/slice_721.targets.json",
+      "target_file_sha256": "c6fbd71c4ed67947c4ec4542f7def8c57e523506e60117dfd9131058a8fec0a8",
+      "assigned_range": [
+        721,
+        800
+      ],
+      "translation_count": 80,
+      "rows_examined": {
+        "ranges_inclusive": [
+          [
+            701,
+            821
+          ]
+        ],
+        "count": 121
+      }
+    },
+    {
+      "target_file": "work/translation/en/stages_0.1.12/slice_961.targets.json",
+      "target_file_sha256": "72775d7e96a2799e88768d06abd37528438bafd45f2d74f1eccc30bb633552a5",
+      "assigned_range": [
+        961,
+        1040
+      ],
+      "translation_count": 80,
+      "rows_examined": {
+        "ranges_inclusive": [
+          [
+            941,
+            1061
+          ]
+        ],
+        "count": 121
+      }
+    },
+    {
+      "target_file": "work/translation/en/stages_0.1.12/slice_1121.targets.json",
+      "target_file_sha256": "268684aff5c80d13568eab73c712e1c4a3535e3baf326ef5a50a40753e98aac9",
+      "assigned_range": [
+        1121,
+        1200
+      ],
+      "translation_count": 80,
+      "rows_examined": {
+        "ranges_inclusive": [
+          [
+            1101,
+            1221
+          ]
+        ],
+        "count": 121
+      }
+    }
+  ],
+  "required_corrections": {
+    "00:00065:text:000299a8": {
+      "opening_row": 728,
+      "source_sha256": "9bfcf86da7b54ca30e60cb8403f73ed64baa4b4700c1835dbc46f7c692516394",
+      "target_file": "work/translation/en/stages_0.1.12/slice_721.targets.json",
+      "suggested_text": "I don't feel well...",
+      "rationale": "The source is a statement by the pupil, not a question asked by the teacher."
+    },
+    "00:00065:text:000299be": {
+      "opening_row": 729,
+      "source_sha256": "3b48baab50c0c4f33fc3ba330c59cb8f7992b635cc8ff680e9f1db9d33fbb1cb",
+      "target_file": "work/translation/en/stages_0.1.12/slice_721.targets.json",
+      "suggested_text": "That's why...",
+      "rationale": "Completes the pupil's explanation that they feel unwell; the current text reverses the exchange's meaning."
+    },
+    "00:00065:text:0002ab10": {
+      "opening_row": 982,
+      "source_sha256": "5d3eee76b896edb3e80a6b780e265c79877c37b50742dbf5fc95ba5ae74f8168",
+      "target_file": "work/translation/en/stages_0.1.12/slice_961.targets.json",
+      "suggested_text": "Don't worry.　This ship should have",
+      "rationale": "The source expresses expectation that security soldiers ought to be aboard, rather than certainty that they are."
+    }
+  },
+  "uncertainties": []
+}

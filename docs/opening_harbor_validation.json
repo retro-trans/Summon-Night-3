@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "scope": "Static source, independent-review provenance, boundary, control-token and encoding checks; no runtime acceptance.",
+  "checks": {
+    "all_8_disjoint_80_row_assignments": true,
+    "all_source_hashes_and_references": true,
+    "all_four_screenshot_hashes_dimensions_and_anchors": true,
+    "all_independent_review_input_hashes": true,
+    "all_review_coverage_hashes": true,
+    "jointly_authored_boundaries_have_third_author_review": true,
+    "all_integrated_groups_complete": true,
+    "all_nonempty_targets_encode_and_preserve_tokens": true,
+    "meaning_edits_before_glossary_normalization": true
+  },
+  "statistics": {
+    "assigned_source_rows": 640,
+    "additional_reviewed_boundary_rows": 1,
+    "preserved_draft_nonempty_rows": 636,
+    "integrated_source_rows": 641,
+    "reviewed_target_rows": 638,
+    "unresolved_rows": [
+      240,
+      241,
+      242
+    ],
+    "display_or_choice_groups": 311,
+    "complete_translated_groups": 310,
+    "meaning_or_boundary_text_changes": 2,
+    "name_normalizations": 0
+  },
+  "opening_slices": [
+    {
+      "file": "work/translation/en/opening_000.targets.json",
+      "assigned": 80,
+      "drafted": 79,
+      "meaning_reviewed": 79,
+      "rows_examined_by_translator": 132,
+      "rows_examined_by_reviewer": 132
+    },
+    {
+      "file": "work/translation/en/opening_001.targets.json",
+      "assigned": 80,
+      "drafted": 80,
+      "meaning_reviewed": 80,
+      "rows_examined_by_translator": 107,
+      "rows_examined_by_reviewer": 107
+    },
+    {
+      "file": "work/translation/en/opening_002.targets.json",
+      "assigned": 80,
+      "drafted": 80,
+      "meaning_reviewed": 80,
+      "rows_examined_by_translator": 111,
+      "rows_examined_by_reviewer": 111
+    },
+    {
+      "file": "work/translation/en/opening_003.targets.json",
+      "assigned": 80,
+      "drafted": 77,
+      "meaning_reviewed": 77,
+      "rows_examined_by_translator": 126,
+      "rows_examined_by_reviewer": 126
+    },
+    {
+      "file": "work/translation/en/opening_004.targets.json",
+      "assigned": 80,
+      "drafted": 80,
+      "meaning_reviewed": 80,
+      "rows_examined_by_translator": 116,
+      "rows_examined_by_reviewer": 116
+    },
+    {
+      "file": "work/translation/en/opening_005.targets.json",
+      "assigned": 80,
+      "drafted": 80,
+      "meaning_reviewed": 80,
+      "rows_examined_by_translator": 128,
+      "rows_examined_by_reviewer": 121
+    },
+    {
+      "file": "work/translation/en/opening_006.targets.json",
+      "assigned": 80,
+      "drafted": 80,
+      "meaning_reviewed": 80,
+      "rows_examined_by_translator": 116,
+      "rows_examined_by_reviewer": 116
+    },
+    {
+      "file": "work/translation/en/opening_007.targets.json",
+      "assigned": 80,
+      "drafted": 80,
+      "meaning_reviewed": 80,
+      "rows_examined_by_translator": 146,
+      "rows_examined_by_reviewer": 116
+    }
+  ],
+  "inputs_sha256": {
+    "work/ui/harbor_dialogue/index.json": "5aaa5c98eeb44f31f3ecfad92923e7f0cf19dee4c9aa5813f25524a32bbba580",
+    "work/ui/harbor_dialogue/cold_hunger.png": "d0799fdba0458ddc4281103d47e76808bd1122f5ea48d7fc7685d129359ee3ae",
+    "work/ui/harbor_dialogue/ship_memory.png": "4ad664918df42a62e38d84a15059c812dbc4524704ea67907725aab3baed9769",
+    "work/ui/harbor_dialogue/adnias_harbor.png": "6fbfefb1b9cf89e87f72f62cc698aa1ee0e85280385a8566d1c750a5674593c7",
+    "work/ui/harbor_dialogue/sudden_teaching.png": "695d5bdc38aa5366a8e639cb845509a686ec8fd3fa303de26e08e9615ef0b4e2",
+    "work/translation/en/opening_000.targets.json": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+    "work/translation/en/opening_000.meaning_review.json": "7a82442692213a839ed876073151f65f8ddcf1b399c3a254fa648bb97027df4b",
+    "work/translation/en/opening_001.targets.json": "7492d262918e492818bec6038b6227d179d48d12e2d3d31bc73406ebcf9fba3d",
+    "work/translation/en/opening_001.meaning_review.json": "82c038c80bd2d86c49e57bef0f84468c0916703a2d7294260da8b6baf0350321",
+    "work/translation/en/opening_002.targets.json": "9e7fa4f6fe7e2f9b71197cdfa509c2e94e0cf85441a4dbd95dcccda86214743c",
+    "work/translation/en/opening_002.meaning_review.json": "84a84536da43d3b21741aab2187af2a48d8c669e6ae17c32238d0380b47993bf",
+    "work/translation/en/opening_003.targets.json": "616374035099fe4b4a992b90d5ff78bb1abbdc07adb4653a00f0db284d58fee9",
+    "work/translation/en/opening_003.meaning_review.json": "ebbe6676f8b5ceda12a1b6f7222a72b8d2d7a738eff94c8dbfcd746b4586d65c",
+    "work/translation/en/opening_004.targets.json": "1a1d0dea56832b7a1675e756af2daa8e73959757faa198653e6fb193dc10fa11",
+    "work/translation/en/opening_004.meaning_review.json": "371bd5383580de2b4aaf93987fe4ccf70d7c20a86687bbf7bf5d39ea7b2dcaf5",
+    "work/translation/en/opening_005.targets.json": "79f4750bd569343ce19f46a1b2c3f8a90559d91de9d8c8f83b2658df853d653e",
+    "work/translation/en/opening_005.meaning_review.json": "5cac950ff67c61f10c05254976c98c1f8d054cee2d9c25637ef06a79a35b5cc1",
+    "work/translation/en/opening_006.targets.json": "db5e1e932ecc7152b3d0f258668619b9df140cf5a48afb775954dd75a14c5fa7",
+    "work/translation/en/opening_006.meaning_review.json": "eaa6c1e59dc9e5ca9084a97710a48666871a1d2b8f7f1335c6aa7794487f9b7d",
+    "work/translation/en/opening_007.targets.json": "956384331f2d19176fa61aa009f7525ed4e5da1b55fe7342d0006c6b25b64f79",
+    "work/translation/en/opening_007.meaning_review.json": "51afcbdeffb1303c5be722c81940c44d9c62fc491aadcb8768175849d7dd6dc4",
+    "work/translation/en/opening_boundary_398.meaning_review.json": "614053fb81a84422d9f6bad55caf9ee72b4ed891780119797724a0116a733661",
+    "work/translation/en/opening_boundary_559.meaning_review.json": "8b14fb9fbacfb1c3083e76d13682cb984592b8501d7fb8467e97bcaa6eaa612a",
+    "work/glossary/entities.json": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+    "work/glossary/opening_harbor.json": "f7524803992a3cd45ba7577580c2868ec0b549a903f8b7f649dd8f250719941b"
+  },
+  "meaning_and_boundary_edits": [
+    {
+      "id": "00:00065:text:00026a20",
+      "opening_row": 79,
+      "before": null,
+      "after": "I was able to attend the military academy",
+      "review": "work/translation/en/opening_001.meaning_review.json",
+      "reason": "coordinated_group_43"
+    },
+    {
+      "id": "00:00065:text:000293dc",
+      "opening_row": 640,
+      "before": null,
+      "after": "talking for a bit?",
+      "review": "work/translation/en/opening_007.meaning_review.json",
+      "reason": "coordinated_group_311"
+    }
+  ],
+  "name_normalizations": [],
+  "whole_target_corpus_alias_hits": [],
+  "unresolved_rows": [
+    240,
+    241,
+    242
+  ]
+}

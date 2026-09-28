@@ -1,0 +1,212 @@
+{
+  "build_version": "0.1.13",
+  "terms": [
+    {
+      "id": "character.heinel_copse",
+      "category": "character",
+      "target_name": "Heinel Copse",
+      "source_context": "battle encounter possessive label",
+      "gender": "unknown",
+      "role": "Member of the Colorless Faction",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Summon_Night_3",
+          "supports": [
+            "English spelling",
+            "Colorless Faction membership"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "character.var_xe_ld",
+      "category": "character",
+      "target_name": "VAR-Xe-LD",
+      "source_context": "battle encounter label",
+      "gender": "male",
+      "role": "Resident of the Loreilal Colony Latrix",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Summon_Night_3",
+          "supports": [
+            "English spelling",
+            "pronoun",
+            "residence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "character.ishlar",
+      "category": "character",
+      "target_name": "Ishlar",
+      "source_context": "battle encounter and objective labels",
+      "gender": "unknown",
+      "role": "Unknown",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Summon_Night_3",
+          "supports": [
+            "English spelling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "character.ordreik_servolt",
+      "category": "character",
+      "target_name": "Ordreik",
+      "full_name": "Ordreik Servolt",
+      "source_context": "battle encounter and objective labels",
+      "gender": "unknown",
+      "role": "Member of the Colorless Faction",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Summon_Night_3",
+          "supports": [
+            "English spelling",
+            "full name",
+            "Colorless Faction membership"
+          ]
+        }
+      ]
+    },
+    {
+      "source_meaning": "defeat all enemies",
+      "english": "Rout",
+      "scope": "battle victory-condition label",
+      "rationale": "A compact military objective label meaning to defeat the opposing force. It replaces the 18-character draft only where the native objective field is approximately 185 pixels wide and no per-label scale control has been proven."
+    },
+    {
+      "source_meaning": "start the battle?",
+      "english": "Start battle?",
+      "scope": "battle confirmation prompt",
+      "rationale": "Reviewed 13-cell prompt form for the approximately 170-pixel confirmation dialog."
+    },
+    {
+      "id": "character.jakinie",
+      "category": "character",
+      "target_name": "Jakinie",
+      "source_name": "ジャキーニ",
+      "source_context": "battle translation normalization",
+      "gender": null,
+      "role": null,
+      "personality": null,
+      "position": null,
+      "status": "verified_canonical_spelling",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Summon_Night_3",
+          "supports": [
+            "English spelling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "character.oukinie",
+      "category": "character",
+      "target_name": "Oukinie",
+      "source_name": "オウキーニ",
+      "source_context": "battle translation normalization",
+      "gender": null,
+      "role": null,
+      "personality": null,
+      "position": null,
+      "status": "verified_canonical_spelling",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Summon_Night_3",
+          "supports": [
+            "English spelling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "character.marurur",
+      "category": "character",
+      "target_name": "Marurur",
+      "source_name": "マルルゥ",
+      "source_context": "battle encounter and objective labels",
+      "gender": null,
+      "role": null,
+      "personality": null,
+      "position": null,
+      "status": "verified_canonical_spelling",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Summon_Night_3",
+          "supports": [
+            "English spelling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "character.ardyllia",
+      "category": "character",
+      "target_name": "Ardyllia",
+      "source_name": "アルディラ",
+      "source_context": "battle status and objective labels",
+      "gender": null,
+      "role": null,
+      "personality": null,
+      "position": null,
+      "status": "verified_canonical_spelling",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Summon_Night_3",
+          "supports": [
+            "English spelling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enemy.jilcooda",
+      "category": "enemy",
+      "target_name": "Jilcooda",
+      "source_name": "ジルコーダ",
+      "source_context": "battle card and objective labels",
+      "gender": null,
+      "role": null,
+      "personality": null,
+      "position": null,
+      "status": "provisional_source_local_transliteration",
+      "evidence": [
+        {
+          "url": null,
+          "supports": [
+            "source-local card trace; no English Wiki.gg match found"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enemy.shadow_of_primal_sin",
+      "category": "enemy",
+      "target_name": "Shadow of Primal Sin",
+      "source_name": "源罪の影",
+      "source_context": "battle card trace",
+      "gender": null,
+      "role": null,
+      "personality": null,
+      "position": null,
+      "status": "provisional_source_local_translation",
+      "evidence": [
+        {
+          "url": null,
+          "supports": [
+            "source-local card trace; no English Wiki.gg match found"
+          ]
+        }
+      ]
+    }
+  ],
+  "change_log": [
+    "2026-09-27: Added the reviewed compact objective label Rout for the defeat-all-enemies condition.",
+    "2026-09-27: Added battle-scoped Wiki.gg normalization entries for Heinel Copse, VAR-Xe-LD, Ishlar, and Ordreik Servolt; unknown fields remain explicit.",
+    "2026-09-27: Added Wiki.gg canonical spellings Jakinie, Oukinie, Marurur, and Ardyllia. Added source-local provisional records Jilcooda and Shadow of Primal Sin; character facts are deliberately unspecified."
+  ]
+}

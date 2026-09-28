@@ -1,0 +1,975 @@
+{
+  "elf": {
+    "profile": "menu_0.1.16",
+    "baseline_elf_sha256": "133abf770a4e7750f16080046caa4f21d2ed9fcb8eef5aa47bafeb55dd68e816",
+    "patched_elf_sha256": "86e3b4f9d3371552490f9850bf67691443848ab6bf7eb9ad76d182836b15fe7c",
+    "source_bytes": 4119840,
+    "patched_bytes": 4149680,
+    "targets_total": 24,
+    "targets_patched": 24,
+    "targets_skipped": 0,
+    "skipped": [],
+    "entries": [
+      {
+        "id": "elf:ui:00216f60",
+        "module_address": "0x216ea0",
+        "source_offset": 2191200,
+        "source_sha256": "21b5c329eec1b57ffbfadef1bf06a64a0f28ae300059fa444306f8c336341b49",
+        "target_variant": "full",
+        "target_text": "Check status.",
+        "display_text": "\uff23\uff48\uff45\uff43\uff4b\u3000\uff53\uff54\uff41\uff54\uff55\uff53\uff0e",
+        "encoded_bytes": 28,
+        "bundle_bytes": 28,
+        "unreferenced_tails": [],
+        "new_address": "0x338908",
+        "new_file_offset": 3525192,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x637f0",
+            "low": "0x63800",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00216f74",
+        "module_address": "0x216eb4",
+        "source_offset": 2191220,
+        "source_sha256": "fe4246ab69ffe0431e198abd7c08142195614743b7cca866e4d0a2aa8d1ca648",
+        "target_variant": "full",
+        "target_text": "View status; change equipment.",
+        "display_text": "\uff36\uff49\uff45\uff57\u3000\uff53\uff54\uff41\uff54\uff55\uff53\uff1b\u3000\uff43\uff48\uff41\uff4e\uff47\uff45\u3000\uff45\uff51\uff55\uff49\uff50\uff4d\uff45\uff4e\uff54\uff0e",
+        "encoded_bytes": 62,
+        "bundle_bytes": 64,
+        "unreferenced_tails": [],
+        "new_address": "0x338924",
+        "new_file_offset": 3525220,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x6380c",
+            "low": "0x6381c",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00216f94",
+        "module_address": "0x216ed4",
+        "source_offset": 2191252,
+        "source_sha256": "69dc781e5e8d1c57d84eb8e2b6cd874652e9bb3ac1aa6b898a9eb73c5485c8f9",
+        "target_variant": "full",
+        "target_text": "\u0415\u0401Switch Unit",
+        "display_text": "\u0415\u0401\uff33\uff57\uff49\uff54\uff43\uff48\u3000\uff35\uff4e\uff49\uff54",
+        "encoded_bytes": 28,
+        "bundle_bytes": 30,
+        "unreferenced_tails": [],
+        "new_address": "0x338964",
+        "new_file_offset": 3525284,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x6382c",
+            "low": "0x6383c",
+            "register": "0x6"
+          },
+          {
+            "kind": "hilo",
+            "high": "0x639b0",
+            "low": "0x639c0",
+            "register": "0x6"
+          },
+          {
+            "kind": "hilo",
+            "high": "0x63afc",
+            "low": "0x63b0c",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00216fac",
+        "module_address": "0x216eec",
+        "source_offset": 2191276,
+        "source_sha256": "7f1e37d80ff6d90bd60c33aafb4dfc56212b2c26f4448215da2df17bae441782",
+        "target_variant": "full",
+        "target_text": "\u0419 Give Food",
+        "display_text": "\u0419\u3000\uff27\uff49\uff56\uff45\u3000\uff26\uff4f\uff4f\uff44",
+        "encoded_bytes": 24,
+        "bundle_bytes": 26,
+        "unreferenced_tails": [],
+        "new_address": "0x338984",
+        "new_file_offset": 3525316,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x63850",
+            "low": "0x63860",
+            "register": "0x6"
+          },
+          {
+            "kind": "hilo",
+            "high": "0x639d4",
+            "low": "0x639e4",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00216fc0",
+        "module_address": "0x216f00",
+        "source_offset": 2191296,
+        "source_sha256": "12c08d34053a3836cb786605f436e91e3745d49ae8174ccdcbdeb4c007939497",
+        "target_variant": "full",
+        "target_text": "\u0419 Learn Skills",
+        "display_text": "\u0419\u3000\uff2c\uff45\uff41\uff52\uff4e\u3000\uff33\uff4b\uff49\uff4c\uff4c\uff53",
+        "encoded_bytes": 30,
+        "bundle_bytes": 30,
+        "unreferenced_tails": [],
+        "new_address": "0x3389a0",
+        "new_file_offset": 3525344,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x63b14",
+            "low": "0x63b24",
+            "register": "0x6"
+          },
+          {
+            "kind": "hilo",
+            "high": "0x63c60",
+            "low": "0x63c70",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00216fd0",
+        "module_address": "0x216f10",
+        "source_offset": 2191312,
+        "source_sha256": "2be347487f755d82dc38f8229d303eb8ac1253d85851790e9eaaa1d2b578d250",
+        "target_variant": "full",
+        "target_text": "\u0413Transform",
+        "display_text": "\u0413\uff34\uff52\uff41\uff4e\uff53\uff46\uff4f\uff52\uff4d",
+        "encoded_bytes": 22,
+        "bundle_bytes": 22,
+        "unreferenced_tails": [],
+        "new_address": "0x3389c0",
+        "new_file_offset": 3525376,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x63880",
+            "low": "0x63890",
+            "register": "0x6"
+          },
+          {
+            "kind": "hilo",
+            "high": "0x63a04",
+            "low": "0x63a14",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00216fd8",
+        "module_address": "0x216f18",
+        "source_offset": 2191320,
+        "source_sha256": "475e479007f0d219cf0a292b41631c4c4d15a4ce1762166fc125a34ca7a8f944",
+        "target_variant": "full",
+        "target_text": "\u0413Change Type",
+        "display_text": "\u0413\uff23\uff48\uff41\uff4e\uff47\uff45\u3000\uff34\uff59\uff50\uff45",
+        "encoded_bytes": 26,
+        "bundle_bytes": 28,
+        "unreferenced_tails": [],
+        "new_address": "0x3389d8",
+        "new_file_offset": 3525400,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x638a0",
+            "low": "0x638b0",
+            "register": "0x6"
+          },
+          {
+            "kind": "hilo",
+            "high": "0x63a24",
+            "low": "0x63a34",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00216fe8",
+        "module_address": "0x216f28",
+        "source_offset": 2191336,
+        "source_sha256": "58e1d5311698b5c9a9e9079b873d5353e0958321433aff900585b5dbbe8c39c2",
+        "target_variant": "full",
+        "target_text": "Check status.  \u0411Back to Map",
+        "display_text": "\uff23\uff48\uff45\uff43\uff4b\u3000\uff53\uff54\uff41\uff54\uff55\uff53\uff0e\u3000\u3000\u0411\uff22\uff41\uff43\uff4b\u3000\uff54\uff4f\u3000\uff2d\uff41\uff50",
+        "encoded_bytes": 56,
+        "bundle_bytes": 56,
+        "unreferenced_tails": [],
+        "new_address": "0x3389f4",
+        "new_file_offset": 3525428,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x63974",
+            "low": "0x63984",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021700c",
+        "module_address": "0x216f4c",
+        "source_offset": 2191372,
+        "source_sha256": "e9c794200af26c9fa07717dbc29053bbf543bb2c2636784bf0c9fbc64093de3a",
+        "target_variant": "full",
+        "target_text": "\u0410Deploy \u0412Status/Gear \u0411Map",
+        "display_text": "\u0410\uff24\uff45\uff50\uff4c\uff4f\uff59\u3000\u0412\uff33\uff54\uff41\uff54\uff55\uff53\uff0f\uff27\uff45\uff41\uff52\u3000\u0411\uff2d\uff41\uff50",
+        "encoded_bytes": 52,
+        "bundle_bytes": 3342,
+        "unreferenced_tails": [],
+        "new_address": "0x338a2c",
+        "new_file_offset": 3525484,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x63990",
+            "low": "0x639a0",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00217d14",
+        "module_address": "0x217c54",
+        "source_offset": 2194708,
+        "source_sha256": "fe4246ab69ffe0431e198abd7c08142195614743b7cca866e4d0a2aa8d1ca648",
+        "target_variant": "full",
+        "target_text": "View status; change equipment.",
+        "display_text": "\uff36\uff49\uff45\uff57\u3000\uff53\uff54\uff41\uff54\uff55\uff53\uff1b\u3000\uff43\uff48\uff41\uff4e\uff47\uff45\u3000\uff45\uff51\uff55\uff49\uff50\uff4d\uff45\uff4e\uff54\uff0e",
+        "encoded_bytes": 62,
+        "bundle_bytes": 392,
+        "unreferenced_tails": [],
+        "new_address": "0x33973c",
+        "new_file_offset": 3528828,
+        "references": [
+          {
+            "kind": "pointer",
+            "instruction": "0x2283a8"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00217e7c",
+        "module_address": "0x217dbc",
+        "source_offset": 2195068,
+        "source_sha256": "134fd12366272df9c5f99e24b74d20ba657384e72f18dab55d2bc4fc0aa23a05",
+        "target_variant": "full",
+        "target_text": "Prepare for battle.",
+        "display_text": "\uff30\uff52\uff45\uff50\uff41\uff52\uff45\u3000\uff46\uff4f\uff52\u3000\uff42\uff41\uff54\uff54\uff4c\uff45\uff0e",
+        "encoded_bytes": 40,
+        "bundle_bytes": 380,
+        "unreferenced_tails": [],
+        "new_address": "0x3398c4",
+        "new_file_offset": 3529220,
+        "references": [
+          {
+            "kind": "pointer",
+            "instruction": "0x2283d8"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00217fe4",
+        "module_address": "0x217f24",
+        "source_offset": 2195428,
+        "source_sha256": "4d35896f182373b978a6f3b5bd910faa6d4d9a23d28a275095d004b5fe7508f2",
+        "target_variant": "full",
+        "target_text": "View Support Abilities.",
+        "display_text": "\uff36\uff49\uff45\uff57\u3000\uff33\uff55\uff50\uff50\uff4f\uff52\uff54\u3000\uff21\uff42\uff49\uff4c\uff49\uff54\uff49\uff45\uff53\uff0e",
+        "encoded_bytes": 48,
+        "bundle_bytes": 54,
+        "unreferenced_tails": [],
+        "new_address": "0x339a40",
+        "new_file_offset": 3529600,
+        "references": [
+          {
+            "kind": "pointer",
+            "instruction": "0x228408"
+          },
+          {
+            "kind": "pointer",
+            "instruction": "0x228470"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00218008",
+        "module_address": "0x217f48",
+        "source_offset": 2195464,
+        "source_sha256": "532b03e9e3923556bececef72c27d38a895928b5b7ba7f54b3c655b233bb0d23",
+        "target_variant": "full",
+        "target_text": "View Brave Conditions.",
+        "display_text": "\uff36\uff49\uff45\uff57\u3000\uff22\uff52\uff41\uff56\uff45\u3000\uff23\uff4f\uff4e\uff44\uff49\uff54\uff49\uff4f\uff4e\uff53\uff0e",
+        "encoded_bytes": 46,
+        "bundle_bytes": 88,
+        "unreferenced_tails": [],
+        "new_address": "0x339a78",
+        "new_file_offset": 3529656,
+        "references": [
+          {
+            "kind": "pointer",
+            "instruction": "0x22840c"
+          },
+          {
+            "kind": "pointer",
+            "instruction": "0x228474"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00218050",
+        "module_address": "0x217f90",
+        "source_offset": 2195536,
+        "source_sha256": "d908104f77bd47ac77f13338a6ea6d507c85cd27d32ed55f5c790cce8feeb235",
+        "target_variant": "full",
+        "target_text": "View battle information.",
+        "display_text": "\uff36\uff49\uff45\uff57\u3000\uff42\uff41\uff54\uff54\uff4c\uff45\u3000\uff49\uff4e\uff46\uff4f\uff52\uff4d\uff41\uff54\uff49\uff4f\uff4e\uff0e",
+        "encoded_bytes": 50,
+        "bundle_bytes": 18964,
+        "unreferenced_tails": [],
+        "new_address": "0x339ad0",
+        "new_file_offset": 3529744,
+        "references": [
+          {
+            "kind": "pointer",
+            "instruction": "0x228414"
+          },
+          {
+            "kind": "pointer",
+            "instruction": "0x228450"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021ca58",
+        "module_address": "0x21c998",
+        "source_offset": 2214488,
+        "source_sha256": "20dd495a7d2b0f1ebb2fa545fbd1c213c86126b8cdb8ab7b74657ed00124dc8f",
+        "target_variant": "full",
+        "target_text": "Adjust music volume.",
+        "display_text": "\uff21\uff44\uff4a\uff55\uff53\uff54\u3000\uff4d\uff55\uff53\uff49\uff43\u3000\uff56\uff4f\uff4c\uff55\uff4d\uff45\uff0e",
+        "encoded_bytes": 42,
+        "bundle_bytes": 46,
+        "unreferenced_tails": [],
+        "new_address": "0x33e4e4",
+        "new_file_offset": 3548708,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x12e834",
+            "low": "0x12e83c",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021ca7c",
+        "module_address": "0x21c9bc",
+        "source_offset": 2214524,
+        "source_sha256": "594e2d285b779272aa65a58d868459c2fdf9bd2fb9fd35316c1053e815fae66e",
+        "target_variant": "full",
+        "target_text": "Turn event voices on or off.",
+        "display_text": "\uff34\uff55\uff52\uff4e\u3000\uff45\uff56\uff45\uff4e\uff54\u3000\uff56\uff4f\uff49\uff43\uff45\uff53\u3000\uff4f\uff4e\u3000\uff4f\uff52\u3000\uff4f\uff46\uff46\uff0e",
+        "encoded_bytes": 58,
+        "bundle_bytes": 62,
+        "unreferenced_tails": [],
+        "new_address": "0x33e514",
+        "new_file_offset": 3548756,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x12e840",
+            "low": "0x12e848",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021caa0",
+        "module_address": "0x21c9e0",
+        "source_offset": 2214560,
+        "source_sha256": "e696349e15e8cc93921dce8ee370ab390489b0a62fa17be0b4e3b70e8822aae1",
+        "target_variant": "full",
+        "target_text": "Turn damage forecast on/off.",
+        "display_text": "\uff34\uff55\uff52\uff4e\u3000\uff44\uff41\uff4d\uff41\uff47\uff45\u3000\uff46\uff4f\uff52\uff45\uff43\uff41\uff53\uff54\u3000\uff4f\uff4e\uff0f\uff4f\uff46\uff46\uff0e",
+        "encoded_bytes": 58,
+        "bundle_bytes": 62,
+        "unreferenced_tails": [],
+        "new_address": "0x33e554",
+        "new_file_offset": 3548820,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x12e84c",
+            "low": "0x12e854",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021cac8",
+        "module_address": "0x21ca08",
+        "source_offset": 2214600,
+        "source_sha256": "06b2ad6a9d4504ac48c04d2e982c101619f003abf2b8ff3a1b103ea304a6c266",
+        "target_variant": "full",
+        "target_text": "Set battle cursor directions.",
+        "display_text": "\uff33\uff45\uff54\u3000\uff42\uff41\uff54\uff54\uff4c\uff45\u3000\uff43\uff55\uff52\uff53\uff4f\uff52\u3000\uff44\uff49\uff52\uff45\uff43\uff54\uff49\uff4f\uff4e\uff53\uff0e",
+        "encoded_bytes": 60,
+        "bundle_bytes": 64,
+        "unreferenced_tails": [],
+        "new_address": "0x33e594",
+        "new_file_offset": 3548884,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x12e858",
+            "low": "0x12e860",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021caf0",
+        "module_address": "0x21ca30",
+        "source_offset": 2214640,
+        "source_sha256": "8647505cdd03cbc67e6ffb22d071b4aa88aeed7706c20b18c45f7d4ba3347f86",
+        "target_variant": "full",
+        "target_text": "Set L/R controls in battle.",
+        "display_text": "\uff33\uff45\uff54\u3000\uff2c\uff0f\uff32\u3000\uff43\uff4f\uff4e\uff54\uff52\uff4f\uff4c\uff53\u3000\uff49\uff4e\u3000\uff42\uff41\uff54\uff54\uff4c\uff45\uff0e",
+        "encoded_bytes": 56,
+        "bundle_bytes": 5962,
+        "unreferenced_tails": [],
+        "new_address": "0x33e5d4",
+        "new_file_offset": 3548948,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x12e864",
+            "low": "0x12e868",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021e22c",
+        "module_address": "0x21e16c",
+        "source_offset": 2220588,
+        "source_sha256": "9b6538aa9a743566f8731114954a580d16dc718a3f96417cce899cb7993f8074",
+        "target_variant": "full",
+        "target_text": "Switch Affinity",
+        "display_text": "\uff33\uff57\uff49\uff54\uff43\uff48\u3000\uff21\uff46\uff46\uff49\uff4e\uff49\uff54\uff59",
+        "encoded_bytes": 32,
+        "bundle_bytes": 34,
+        "unreferenced_tails": [],
+        "new_address": "0x33fd20",
+        "new_file_offset": 3554912,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x1549ec",
+            "low": "0x1549fc",
+            "register": "0x5"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021e238",
+        "module_address": "0x21e178",
+        "source_offset": 2220600,
+        "source_sha256": "45db36324f35ee75e1f928e485ce6fd65ab180daf46bfa2b729a6c13e2c5fc21",
+        "target_variant": "full",
+        "target_text": "Confirm",
+        "display_text": "\uff23\uff4f\uff4e\uff46\uff49\uff52\uff4d",
+        "encoded_bytes": 16,
+        "bundle_bytes": 18,
+        "unreferenced_tails": [],
+        "new_address": "0x33fd44",
+        "new_file_offset": 3554948,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x154a9c",
+            "low": "0x154aac",
+            "register": "0x5"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021e240",
+        "module_address": "0x21e180",
+        "source_offset": 2220608,
+        "source_sha256": "1af29f431d5c1f46330919a627ed37c6a8d83c440e01938d53e08f5c51930c9e",
+        "target_variant": "full",
+        "target_text": "Set Name",
+        "display_text": "\uff33\uff45\uff54\u3000\uff2e\uff41\uff4d\uff45",
+        "encoded_bytes": 18,
+        "bundle_bytes": 20,
+        "unreferenced_tails": [],
+        "new_address": "0x33fd58",
+        "new_file_offset": 3554968,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x154b38",
+            "low": "0x154b48",
+            "register": "0x5"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021e24c",
+        "module_address": "0x21e18c",
+        "source_offset": 2220620,
+        "source_sha256": "83981abd199c0d29e2062b5893a6bb03973bab7454b265010dff815fde491746",
+        "target_variant": "full",
+        "target_text": "Cast Magic",
+        "display_text": "\uff23\uff41\uff53\uff54\u3000\uff2d\uff41\uff47\uff49\uff43",
+        "encoded_bytes": 22,
+        "bundle_bytes": 24,
+        "unreferenced_tails": [],
+        "new_address": "0x33fd6c",
+        "new_file_offset": 3554988,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x154c10",
+            "low": "0x154c20",
+            "register": "0x5"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021e258",
+        "module_address": "0x21e198",
+        "source_offset": 2220632,
+        "source_sha256": "2893b9b945110504d081aeade280b1aecf6f7f2948443eb0488f6e60c79db6f3",
+        "target_variant": "full",
+        "target_text": "Dismiss",
+        "display_text": "\uff24\uff49\uff53\uff4d\uff49\uff53\uff53",
+        "encoded_bytes": 16,
+        "bundle_bytes": 16,
+        "unreferenced_tails": [],
+        "new_address": "0x33fd84",
+        "new_file_offset": 3555012,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x154c78",
+            "low": "0x154c88",
+            "register": "0x5"
+          }
+        ]
+      }
+    ],
+    "added_segment": {
+      "index": 3,
+      "module_address": "0x32dbc0",
+      "file_offset": 3480832,
+      "old_bytes": 44360,
+      "new_bytes": 74200,
+      "appended_bytes": 29840
+    },
+    "relocation_segment": {
+      "index": 2,
+      "records_unchanged": true,
+      "old_file_offset": 3525200,
+      "new_file_offset": 3555040
+    },
+    "audit": {
+      "mapped_start_reference_count": 33,
+      "interior_reference_targets_skipped": 0,
+      "shared_hi16_pairs_proven_safe": 25,
+      "bundled_unreferenced_tail_count": 0,
+      "all_differences_allowlisted": true,
+      "allowed_changed_byte_count": 23443
+    },
+    "structural_checks": {
+      "program_header_count": 4,
+      "section_header_count": 58,
+      "load_ranges": [
+        {
+          "index": 0,
+          "start": "0x0",
+          "end": "0x22d37c"
+        },
+        {
+          "index": 1,
+          "start": "0x22d380",
+          "end": "0x32db8c"
+        },
+        {
+          "index": 3,
+          "start": "0x32dbc0",
+          "end": "0x33fd98"
+        }
+      ]
+    },
+    "change_log": [
+      "Relocated only source-hash-verified battle literals with proven direct relocation references; preserved opaque prefixes/control tokens, existing hooks, and all existing relocation records."
+    ],
+    "compact_conditions": [
+      {
+        "id": "elf:ui:00218750",
+        "text": "Protagonist KO",
+        "new_file_offset": 3486428,
+        "new_address": "0x32f19c",
+        "bundle_bytes": 52,
+        "display_text": "\uff30\uff52\uff4f\uff54\uff41\uff47\uff4f\uff4e\uff49\uff53\uff54\u3000\uff2b\uff2f"
+      },
+      {
+        "id": "elf:ui:00218764",
+        "text": "All allies KO",
+        "new_file_offset": 3486484,
+        "new_address": "0x32f1d4",
+        "bundle_bytes": 52,
+        "display_text": "\uff21\uff4c\uff4c\u3000\uff41\uff4c\uff4c\uff49\uff45\uff53\u3000\uff2b\uff2f"
+      }
+    ]
+  },
+  "tables": {
+    "tables": [
+      {
+        "child": 12,
+        "changes": [
+          {
+            "id": "02:00003/00012:ui:00001458",
+            "text": "Dritol",
+            "display_text": "\uff24\uff52\uff49\uff54\uff4f\uff4c",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "215c45b4ccccdbab29611f2da9ef2ce3f0a2155a24e2475a67611d6291f78178",
+            "old_offset": 5208,
+            "new_offset": 16384,
+            "old_byte_length": 8,
+            "new_byte_length": 12,
+            "pointer_fields": [
+              352
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00012:ui:0000147e",
+            "text": "Large-drill land developer.",
+            "display_text": "\uff2c\uff41\uff52\uff47\uff45\uff0d\uff44\uff52\uff49\uff4c\uff4c\u3000\uff4c\uff41\uff4e\uff44\u3000\uff44\uff45\uff56\uff45\uff4c\uff4f\uff50\uff45\uff52\uff0e",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "0d68c8598b6e6e8cda64379592ca8ee37b6c32948db633d5408349d5dfe0a64f",
+            "old_offset": 5246,
+            "new_offset": 16398,
+            "old_byte_length": 52,
+            "new_byte_length": 54,
+            "pointer_fields": [
+              364
+            ],
+            "continuations": [
+              {
+                "id": "02:00003/00012:ui:000014b4",
+                "mode": "translated",
+                "text": "Built for long polar work.",
+                "display_text": "\uff22\uff55\uff49\uff4c\uff54\u3000\uff46\uff4f\uff52\u3000\uff4c\uff4f\uff4e\uff47\u3000\uff50\uff4f\uff4c\uff41\uff52\u3000\uff57\uff4f\uff52\uff4b\uff0e"
+              }
+            ]
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "child": 15,
+        "changes": [
+          {
+            "id": "02:00003/00015:ui:000082c0",
+            "text": "Novice Sword",
+            "display_text": "\uff2e\uff4f\uff56\uff49\uff43\uff45\u3000\uff33\uff57\uff4f\uff52\uff44",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "9df3edd9b417360eb5eae98ab168d5a66dbc502bc690710b7f41377cbc8b1016",
+            "old_offset": 33472,
+            "new_offset": 36864,
+            "old_byte_length": 14,
+            "new_byte_length": 24,
+            "pointer_fields": [
+              2852
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00015:ui:000082de",
+            "text": "Baygnart",
+            "display_text": "\uff22\uff41\uff59\uff47\uff4e\uff41\uff52\uff54",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "76b429ae872ae55b177a270f470fbf98d405c276918f383304bb332a6d3a5bf3",
+            "old_offset": 33502,
+            "new_offset": 36890,
+            "old_byte_length": 12,
+            "new_byte_length": 16,
+            "pointer_fields": [
+              3020
+            ],
+            "continuations": []
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "child": 31,
+        "changes": [
+          {
+            "id": "02:00003/00031:ui:000043e4",
+            "text": "Ingredient Hunter",
+            "display_text": "\uff29\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\u3000\uff28\uff55\uff4e\uff54\uff45\uff52",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "74ab0bdf4f7a1841bfae544963816129ab44d75eb493dea42288f3ec143bda2e",
+            "old_offset": 17380,
+            "new_offset": 38912,
+            "old_byte_length": 12,
+            "new_byte_length": 34,
+            "pointer_fields": [
+              36
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00031:ui:0000443e",
+            "text": "Ingredient Hunter",
+            "display_text": "\uff29\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\u3000\uff28\uff55\uff4e\uff54\uff45\uff52",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "74ab0bdf4f7a1841bfae544963816129ab44d75eb493dea42288f3ec143bda2e",
+            "old_offset": 17470,
+            "new_offset": 38948,
+            "old_byte_length": 12,
+            "new_byte_length": 34,
+            "pointer_fields": [
+              84
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00031:ui:00004d44",
+            "text": "Gather Ingredients",
+            "display_text": "\uff27\uff41\uff54\uff48\uff45\uff52\u3000\uff29\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\uff53",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "1c557a43080cdee60ca40b744a93ff46752ab4fcae971765ebbd797dd685635c",
+            "old_offset": 19780,
+            "new_offset": 38984,
+            "old_byte_length": 8,
+            "new_byte_length": 36,
+            "pointer_fields": [
+              1332
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00031:ui:00005082",
+            "text": "Gather Ingredients",
+            "display_text": "\uff27\uff41\uff54\uff48\uff45\uff52\u3000\uff29\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\uff53",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "1c557a43080cdee60ca40b744a93ff46752ab4fcae971765ebbd797dd685635c",
+            "old_offset": 20610,
+            "new_offset": 39022,
+            "old_byte_length": 8,
+            "new_byte_length": 36,
+            "pointer_fields": [
+              1860
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00031:ui:0000560c",
+            "text": "Ingredient Hunter",
+            "display_text": "\uff29\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\u3000\uff28\uff55\uff4e\uff54\uff45\uff52",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "74ab0bdf4f7a1841bfae544963816129ab44d75eb493dea42288f3ec143bda2e",
+            "old_offset": 22028,
+            "new_offset": 39060,
+            "old_byte_length": 12,
+            "new_byte_length": 34,
+            "pointer_fields": [
+              2868
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00031:ui:00005666",
+            "text": "Ingredient Hunter",
+            "display_text": "\uff29\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\u3000\uff28\uff55\uff4e\uff54\uff45\uff52",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "74ab0bdf4f7a1841bfae544963816129ab44d75eb493dea42288f3ec143bda2e",
+            "old_offset": 22118,
+            "new_offset": 39096,
+            "old_byte_length": 12,
+            "new_byte_length": 34,
+            "pointer_fields": [
+              2916
+            ],
+            "continuations": []
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "child": 32,
+        "changes": [
+          {
+            "id": "02:00003/00032:ui:000016a4",
+            "text": "Search for ingredients.",
+            "display_text": "\uff33\uff45\uff41\uff52\uff43\uff48\u3000\uff46\uff4f\uff52\u3000\uff49\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\uff53\uff0e",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+            "old_offset": 5796,
+            "new_offset": 8192,
+            "old_byte_length": 28,
+            "new_byte_length": 46,
+            "pointer_fields": [
+              16
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00032:ui:000016c4",
+            "text": "Search for ingredients.",
+            "display_text": "\uff33\uff45\uff41\uff52\uff43\uff48\u3000\uff46\uff4f\uff52\u3000\uff49\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\uff53\uff0e",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+            "old_offset": 5828,
+            "new_offset": 8240,
+            "old_byte_length": 28,
+            "new_byte_length": 46,
+            "pointer_fields": [
+              32
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00032:ui:00001a5a",
+            "text": "Search for ingredients.",
+            "display_text": "\uff33\uff45\uff41\uff52\uff43\uff48\u3000\uff46\uff4f\uff52\u3000\uff49\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\uff53\uff0e",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+            "old_offset": 6746,
+            "new_offset": 8288,
+            "old_byte_length": 28,
+            "new_byte_length": 46,
+            "pointer_fields": [
+              448
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00032:ui:00001bac",
+            "text": "Search for ingredients.",
+            "display_text": "\uff33\uff45\uff41\uff52\uff43\uff48\u3000\uff46\uff4f\uff52\u3000\uff49\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\uff53\uff0e",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+            "old_offset": 7084,
+            "new_offset": 8336,
+            "old_byte_length": 28,
+            "new_byte_length": 46,
+            "pointer_fields": [
+              624
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00032:ui:00001cd4",
+            "text": "Search for ingredients.",
+            "display_text": "\uff33\uff45\uff41\uff52\uff43\uff48\u3000\uff46\uff4f\uff52\u3000\uff49\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\uff53\uff0e",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+            "old_offset": 7380,
+            "new_offset": 8384,
+            "old_byte_length": 28,
+            "new_byte_length": 46,
+            "pointer_fields": [
+              960
+            ],
+            "continuations": []
+          },
+          {
+            "id": "02:00003/00032:ui:00001cf4",
+            "text": "Search for ingredients.",
+            "display_text": "\uff33\uff45\uff41\uff52\uff43\uff48\u3000\uff46\uff4f\uff52\u3000\uff49\uff4e\uff47\uff52\uff45\uff44\uff49\uff45\uff4e\uff54\uff53\uff0e",
+            "encoding_profile": "dialogue_fullwidth_cp932",
+            "source_sha256": "4dde6e03cd9cbfb4fb17f15fd3ae8dc0ee22467e3580b70178e734707a21fe9c",
+            "old_offset": 7412,
+            "new_offset": 8432,
+            "old_byte_length": 28,
+            "new_byte_length": 46,
+            "pointer_fields": [
+              976
+            ],
+            "continuations": []
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "child": 38,
+        "changes": [],
+        "skipped": [
+          {
+            "id": "02:00003/00038:ui:00001572",
+            "reason": "pointer already differs from indexed baseline"
+          }
+        ]
+      }
+    ],
+    "class_label": {
+      "full": "Family Teacher",
+      "compact": "Tutor",
+      "old_offset": 33654,
+      "new_offset": 33680,
+      "references": [
+        {
+          "row": 1,
+          "slot": 2,
+          "entity_number": 1,
+          "pointer_field_offset": 44
+        },
+        {
+          "row": 3,
+          "slot": 2,
+          "entity_number": 3,
+          "pointer_field_offset": 108
+        },
+        {
+          "row": 5,
+          "slot": 2,
+          "entity_number": 5,
+          "pointer_field_offset": 172
+        },
+        {
+          "row": 7,
+          "slot": 2,
+          "entity_number": 7,
+          "pointer_field_offset": 236
+        },
+        {
+          "row": 9,
+          "slot": 2,
+          "entity_number": 9,
+          "pointer_field_offset": 300
+        },
+        {
+          "row": 11,
+          "slot": 2,
+          "entity_number": 11,
+          "pointer_field_offset": 364
+        }
+      ],
+      "encoding": "two_byte_cp932"
+    }
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "build_version": "0.1.24",
+  "review_kind": "independent_meaning_review",
+  "source": "work/source/original.iso, 01.DAT V4 SCRIPT child 1, resource 175",
+  "draft_inputs_sha256": {
+    "work\\translation\\en\\battle_0.1.24\\common_0400.targets.json": "5e5c5eb4e5419ca690527086d1cff466d63764754191a2b88a081b239cadba37",
+    "work\\translation\\en\\battle_0.1.24\\common_0480.targets.json": "23975aaa1a86d8a1547eb53472b730bdf2258ca2481ea94add53a81e9db354a0",
+    "work\\translation\\en\\battle_0.1.24\\common_0640.targets.json": "b2c7ffd88d3887d6be876cfaf44326d8d57673058409b0f8b575dcb78e4f21d4",
+    "work\\translation\\en\\battle_0.1.24\\common_0720.targets.json": "06e7cfcfcf7b2779f6e499a6f9634adb3228eb9c6a641350dd9978b875b5a2c7"
+  },
+  "slice_ranges_inclusive": [
+    [
+      400,
+      479
+    ],
+    [
+      480,
+      559
+    ],
+    [
+      640,
+      719
+    ],
+    [
+      720,
+      799
+    ]
+  ],
+  "examined_rows": {
+    "ranges_inclusive": [
+      [
+        395,
+        484
+      ],
+      [
+        475,
+        564
+      ],
+      [
+        635,
+        724
+      ],
+      [
+        715,
+        804
+      ]
+    ],
+    "assigned_row_count": 320,
+    "context_rows_each_side": 5,
+    "total_rows_examined_with_overlaps": 360
+  },
+  "review_policy": "Compared every requested draft row with its CP932 source and five adjacent rows at each slice edge. Corrections repair meaning, source-line boundaries, and actual row displacement; preference-only rewrites are omitted.",
+  "not_reviewed": [
+    [
+      560,
+      639
+    ]
+  ],
+  "corrections": [
+    {
+      "resource": 175,
+      "resource_row": 641,
+      "source_sha256": "d729be333057a093817f516837ab2ffe640d36b1ce969b9691ed46fe6723b26a",
+      "text": "Rough, but tenacious...",
+      "reason": "Corrects 無骨 (rough, unrefined), which was mistranslated as “boneless.”"
+    },
+    {
+      "resource": 175,
+      "resource_row": 654,
+      "source_sha256": "5e25728b8e85ca7066411185ba42d2b4e3d0e08148e0810865c1f2338116338b",
+      "text": "Put that dangerous thing away",
+      "reason": "Restores the source’s warning about a dangerous object/weapon, rather than a merely noisy one."
+    },
+    {
+      "resource": 175,
+      "resource_row": 677,
+      "source_sha256": "c93eb76e6a4ddad920a0b3da6f17461b2aa23a24c3052955b3db87a5fca7f957",
+      "text": "I said it was just",
+      "reason": "Restores the first half of the split “youthful indiscretion” line."
+    },
+    {
+      "resource": 175,
+      "resource_row": 678,
+      "source_sha256": "a8447dcd337c6463aaa4a34685183592090d4cfcf18b28630db13dd4bc874617",
+      "text": "youthful indiscretion!",
+      "reason": "Restores the second half; the draft instead contained the next speaker’s line."
+    },
+    {
+      "resource": 175,
+      "resource_row": 679,
+      "source_sha256": "bed80e62d02d2860faa49a353f41e3ca08e886c15f8f2e1b23bbed09a4b2ae3c",
+      "text": "Do not get carried away on your own...",
+      "reason": "Repairs the one-row displacement beginning after the youthful-indiscretion exchange."
+    },
+    {
+      "resource": 175,
+      "resource_row": 680,
+      "source_sha256": "d8b72306a6ce1c706716e87689709f3086956f82ca303fb35fc32615b026a800",
+      "text": "Could stress be the cause?",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 681,
+      "source_sha256": "b88c72f5a65b84e7469c61820e4bac75d35b28ac53a9ff39578f8d41c2c364b4",
+      "text": "Your hair roots are weak. At this rate,",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 682,
+      "source_sha256": "64fca64dd8533bf27041bbea48a61fddb56f8f1037867c76117db2af755d1c84",
+      "text": "before long, certainly...",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 683,
+      "source_sha256": "ba70f9419c6106e8d2bd01884462a1b5f8308b1724004b352d955a5f8e5ecefa",
+      "text": "D-Do not say iiiit!!",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 684,
+      "source_sha256": "9ced9b9ed32708dcd327ae20b0715e0e5bc9ecfe135d55f77893bf6024f4d411",
+      "text": "Come, Lady Arumine.",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 685,
+      "source_sha256": "cc7c887f832a219a0ad4928b80ebed50415c1d60bab9db77481e863e0d9fb0aa",
+      "text": "Together, let us show this world",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 686,
+      "source_sha256": "97db1fea35724977e5dc117518e40fa393aa84b9f4018f32682ae63077a1a2e2",
+      "text": "the light of justice!",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 687,
+      "source_sha256": "0bf7411800e8f4cebe0453e5d27624fcfb88a87adfaa2006d9a34debc51d1a8b",
+      "text": "That is why I said, not Arumine -",
+      "reason": "Restores the correction of the speaker’s name."
+    },
+    {
+      "resource": 175,
+      "resource_row": 688,
+      "source_sha256": "9772b39798e3f7d2c878b1b9e901f51d53b948aa9957594d29d451b264c6ba65",
+      "text": "please call me Amel.",
+      "reason": "Completes the source’s name correction."
+    },
+    {
+      "resource": 175,
+      "resource_row": 689,
+      "source_sha256": "0d2169be3a78e1de0ae1feb6e08013f04d9381ac4486b48013f3165aaa44b5be",
+      "text": "Honestly...",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 690,
+      "source_sha256": "6edfc56f10ff2e94a2f9286984331a8bfdfb29c778eaed63cc9d22f678b1b13a",
+      "text": "Now then...",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 691,
+      "source_sha256": "38f1d5f49a3091ce819f3c311e35664426491c74f2bf70428bcb31bc06595fd4",
+      "text": "Let us finish this quickly and get back",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 692,
+      "source_sha256": "00608719ef00d088f5f3bfe6c71988c1d90f94a14cd1cb1751fe838db0e30c0c",
+      "text": "to my nap, shall we?",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 693,
+      "source_sha256": "8d047b5f6a928e083b40221ca982a0e226286c06b37671b7c22a9179df465804",
+      "text": "Hear, hear!♪",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 694,
+      "source_sha256": "7006b672700d27ec9c66ff8ac8439b9295ff6cd676db9c7255666306dbb3ff1a",
+      "text": "Let us finish it quickly, then",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 695,
+      "source_sha256": "dfb535c1909c68204b50fda9038762b94b4e5d207ef14b828a719043147b794d",
+      "text": "lounge around lazily.",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 696,
+      "source_sha256": "ff6f4d990e022541be4cb9ead8550eac72ea30b17c7396d18b27a336e2b5b744",
+      "text": "...Are you two idiots?",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 697,
+      "source_sha256": "eac4dfa9be545f848dcb1d34045bb7ef834c999624476dd191cc4677b7473540",
+      "text": "If we were siblings,",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 698,
+      "source_sha256": "63b09c8cf3638d323bd11613147f6e6d042332b3d9c5e60ce36e846d5e9a4024",
+      "text": "I would clearly be the dependable brother,",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 699,
+      "source_sha256": "6dfbb30ccded3b2d6a7ad9b033ecf8db6efe37b448c1058bed0ec60e07c99b95",
+      "text": "would I not?",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 700,
+      "source_sha256": "5e9aa372a166261018336e33cd0f0affda199d82ab58b79bf6578c9ee976d8d9",
+      "text": "Hmm, no matter how you look at it,",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 701,
+      "source_sha256": "f527920cd185c14ed7506b1b46adfdf16285606132ba4b424c071f1cc3464b83",
+      "text": "we are the useless little brother",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 702,
+      "source_sha256": "122de4434378d4409aeda9ecd3a845e97d561db7198c2592851387fa7db1566d",
+      "text": "and dependable big sister.",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 703,
+      "source_sha256": "0021289b3f175a1717ba32afc496a6a9fbb3f0c70edb0cca31a018a6c437ba73",
+      "text": "Then, let us settle on",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 704,
+      "source_sha256": "b5ec2eed29730a385ed4ab5fb756df1de55fde9612310e75369ae1bc19179dbf",
+      "text": "the unreliable older brother",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 705,
+      "source_sha256": "ece1c0eb32737b5e8f414e74f809e8328b6d0eef04d8e5e471fd201ac2c17f8e",
+      "text": "and the careless younger sister.",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 706,
+      "source_sha256": "05b6dcdb31f0845e49adff9abd18b9003c40287a4c9380a638aca5a85cd431e1",
+      "text": "A vessel made as a counterpart...",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 707,
+      "source_sha256": "b507b3c836d7c24a996a8cf8fe894fdb23d362ae2efa1adfb64afd85475d11ff",
+      "text": "I do not know whose work it was,",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 708,
+      "source_sha256": "51e1b4d6d470c2d580cffa2343109d03f44d125cf5f6f81a768fa31bd30a1874",
+      "text": "but it is cruel indeed.",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 709,
+      "source_sha256": "2c54cfb8bf2acd70e86cc627138966af01cbb10b784ad29263edd4cb89debfff",
+      "text": "Huh?",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 710,
+      "source_sha256": "42e4582d29e67663610a6da85a9d1ddbbb3373a7958a327388cc14f1d3988a2a",
+      "text": "What do you mean...?",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 711,
+      "source_sha256": "cd82521fcf454625d82aa0dca685772d587b1beccfaae66c8e6eb1feed144afa",
+      "text": "You are Magna, are you not?",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 712,
+      "source_sha256": "b5e72ee02d69f9080e90864f72b45d35bff57b3473a68d3fe2b3e4d92835f4aa",
+      "text": "Thank you very much",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 713,
+      "source_sha256": "c345fb23e7a964e566809107889463ffdd855002a95da149caffb81b8f20c24a",
+      "text": "for helping my student.",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 714,
+      "source_sha256": "aa29895c2406dcd32ad72f4ee1f370714b0e7ae6e9776d5ac4806abfe48da3e7",
+      "text": "Oh, no...",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 715,
+      "source_sha256": "96078c2a598c5c36344d7f7091522d6461063b444ffdaff68a5aa9c1b811e204",
+      "text": "(Somehow,",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 716,
+      "source_sha256": "233fca05f7dfae3104f0985f8f07949b064527ab0c91306f56117707743203cf",
+      "text": "my heart is racing...)",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 717,
+      "source_sha256": "3852512e42728b547f94f60fd375792a831b99a8e9920f7743641a9eb28e5515",
+      "text": "You are Magna, right?",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 718,
+      "source_sha256": "2e2aece2ec0cd0fbd12faf6818986cc82c3d8b4813cbe94ab4aea0e7242e0e98",
+      "text": "I have heard about you from her.",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 719,
+      "source_sha256": "c65e187d8324c7c461052b8858a5cfcf11dcb40e7c2f02cc78880141782e5592",
+      "text": "I will be counting on you.",
+      "reason": "Restores the source’s request for support."
+    },
+    {
+      "resource": 175,
+      "resource_row": 760,
+      "source_sha256": "a4b86d220d8f3807fea01cf68fa75377db91c87d4698f5905e5cd1035f1dca7c",
+      "text": "A tsukumogami? ...No, that is not it.",
+      "reason": "Uses the source’s specific artifact-spirit term instead of “guardian deity.”"
+    },
+    {
+      "resource": 175,
+      "resource_row": 761,
+      "source_sha256": "19142d4fed25fdcf3d01e5198bb2849eac42483d109aab47d5e20abcf8a2d088",
+      "text": "I see... Mechanical World technology",
+      "reason": "Restores the first half of the split statement."
+    },
+    {
+      "resource": 175,
+      "resource_row": 762,
+      "source_sha256": "57942d858c5dd1708ec4a4c9ed99381bd6b87d85c32c394d941073625e0c7cfa",
+      "text": "is a cruel thing indeed...",
+      "reason": "Restores the conclusion of the statement."
+    },
+    {
+      "resource": 175,
+      "resource_row": 763,
+      "source_sha256": "2f451552fd4a768ae273b958f6c2d694a1e2476324d68e651a24860754d52133",
+      "text": ".......",
+      "reason": "Restores the source-only pause."
+    },
+    {
+      "resource": 175,
+      "resource_row": 764,
+      "source_sha256": "81186e3f221fe7b087b7d9a99a11b6253572b65056bc1407c46398c1ec2f619e",
+      "text": "Do not be so tense.",
+      "reason": "Repairs the subsequent one-row displacement."
+    },
+    {
+      "resource": 175,
+      "resource_row": 765,
+      "source_sha256": "a32e41178ec18b1c2d87e7327e2ae291c8740469e1602db4b323fcb2b9b83573",
+      "text": "Take it easy... okay?",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 766,
+      "source_sha256": "77696425a9be2bdf305977591fc8de2e91016c63c8229bf084c10078cfd88e01",
+      "text": "If I could do that easily,",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 767,
+      "source_sha256": "e9649cb23f7781182e1f65ad70de6c0f898bceac382df2c87beda80dc48715fd",
+      "text": "I would not be having this trouble.",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 768,
+      "source_sha256": "8a578fc418fd52154ed439ada1d14bb8db6bd3ff8b14c634680e3d51f2f9c4c5",
+      "text": "Honestly...",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 769,
+      "source_sha256": "586a6ffeef17dc73dcf29d119a259563e4305286f2a54aab0395d03111dbef97",
+      "text": "Come on, snap out of it!",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 770,
+      "source_sha256": "8b3a9526cbd10919a6d0dde08f481af6a7251826e3142a5279f143447f3289b5",
+      "text": "The battle has already begun,",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 771,
+      "source_sha256": "673a9e9522dfb8403cc01b57890cae13b542a388c4ac14baf932e1234967b835",
+      "text": "you know!?",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 772,
+      "source_sha256": "27511b7f7aa21b9add655471e211770520d77f94bced438373348ed656029aff",
+      "text": "I-I know!",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 773,
+      "source_sha256": "7ea2ff6f395bdec6c741981bdd3c6947eb2b9e1b205287e2aa578daa8517fce4",
+      "text": "Ugh... I think this is worse",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 774,
+      "source_sha256": "98a9fd2094f64b690a2a4d49b0596676e877827e5b1abc77c4c591b75d676a27",
+      "text": "than being scolded by Ness...",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 775,
+      "source_sha256": "1067e64610cfdb20df7b21732b69021863d3dbf4c213ebaa9b0a6845d594791b",
+      "text": "Honestly, I hate fighting.",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 776,
+      "source_sha256": "22ed2c8090f6c558a710d2799fbc7dc4cb656863f42008c06cdd1635c856bcfd",
+      "text": "Is there not some way",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 777,
+      "source_sha256": "baef6a851774a371f5427b29352494488e5f465290d945aa469dfa5857c28c59",
+      "text": "to avoid fighting somehow?",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 778,
+      "source_sha256": "24c99ad80e1da29aad065bad00d62fa84fad614ae8288dbe1b131177e59dfb05",
+      "text": "Really, you are just like",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 779,
+      "source_sha256": "ba79c718cd16dfe99c0b249e325f2bd7b0db98ccc8513b8dd4246c5087196ae5",
+      "text": "someone I know...",
+      "reason": "Repairs displaced dialogue."
+    },
+    {
+      "resource": 175,
+      "resource_row": 780,
+      "source_sha256": "866f5b2feda2aecd49b695b2dcb35939a109c3bc2b94f117b19c58a18579d5a4",
+      "text": "...right?",
+      "reason": "Restores the final tag of the comparison."
+    }
+  ]
+}

@@ -1,0 +1,1100 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "resource_id": "00:00065",
+  "target_file": "opening_005.targets.json",
+  "review_type": "independent_agent_meaning_review",
+  "independent_review": true,
+  "reviewer": "/root/setup_ui_translation",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "reviewed_target_sha256": "79f4750bd569343ce19f46a1b2c3f8a90559d91de9d8c8f83b2658df853d653e",
+  "rows_in_slice": 80,
+  "rows_examined": 121,
+  "context_rows_before": 20,
+  "context_rows_after": 21,
+  "opening_row_range": [
+    400,
+    479
+  ],
+  "examined_opening_row_range": [
+    380,
+    500
+  ],
+  "assigned_instruction_range": [
+    87198,
+    89204
+  ],
+  "context_instruction_range": [
+    86472,
+    89594
+  ],
+  "ordering": "Ascending compiled reference order from opening row0 at00:00065:text:0002646e; student anticipation functions later in the file execute before the harbor meeting.",
+  "method": "Independently read all80 source and target rows,41 adjacent source rows, and VM branch/choice instructions87110-89240. Verified per-row identities/hashes, source hashes, token sequences and two-byte CP932 display roundtrip. No source dialogue transcript saved.",
+  "verdict": {
+    "existing_draft_rows_reviewed": 80,
+    "existing_draft_rows_requiring_meaning_correction": 0,
+    "unresolved_rows_as_found": 0,
+    "coordinated_completion_proposals": 2,
+    "meaning": "No required meaning correction found. Both boundary groups accepted for atomic integration. Preference-only variations left unchanged.",
+    "target_edits_applied": false,
+    "final_translation_acceptance": false
+  },
+  "required_meaning_edits": [],
+  "coordinated_completion_proposals": [
+    {
+      "proposal_id": "coordinated_display_87210",
+      "sentence_group": "opening005_display_87210",
+      "status": "meaning_accepted_for_coordinated_integration_only",
+      "apply_together": true,
+      "opening_rows": [
+        398,
+        399,
+        400
+      ],
+      "group_ids": [
+        "00:00065:text:000281e0",
+        "00:00065:text:000281f6",
+        "00:00065:text:0002820a"
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:000281e0",
+          "opening_row": 398,
+          "source_sha256": "64ef38bc8b08e75247acb9d24e699a152c7d2c09d7fcc49fdb497b7edd8a4fb7",
+          "reference_instructions": [
+            87182
+          ],
+          "proposed_text": "If I learned how to fight,",
+          "outside_assigned_slice": true
+        },
+        {
+          "id": "00:00065:text:000281f6",
+          "opening_row": 399,
+          "source_sha256": "524ffd447cde8a3f30f645c69f8c9e70e5f36769df5f7fb439e3d8f121859b92",
+          "reference_instructions": [
+            87190
+          ],
+          "proposed_text": "I could protect",
+          "outside_assigned_slice": true
+        },
+        {
+          "id": "00:00065:text:0002820a",
+          "opening_row": 400,
+          "source_sha256": "290f455857f52cec1106727e79487414c16bdcdb5baeb7d51c8d9b53a121d6db",
+          "reference_instructions": [
+            87198
+          ],
+          "proposed_text": "everyone...",
+          "outside_assigned_slice": false
+        }
+      ],
+      "whole_sentence": "If I learned how to fight, I could protect everyone...",
+      "source_display_instruction": 87210,
+      "source_display_helper_word": 2044,
+      "reason": "Source syntax and VM queue checked; all fragments are needed for the complete sentence.",
+      "integration_condition": "Apply the entire group against preserved source/target hashes; do not insert the assigned fragment alone.",
+      "edits_applied": false
+    },
+    {
+      "proposal_id": "coordinated_display_89232",
+      "sentence_group": "opening005_display_89232",
+      "status": "meaning_accepted_for_coordinated_integration_only",
+      "apply_together": true,
+      "opening_rows": [
+        479,
+        480,
+        481
+      ],
+      "group_ids": [
+        "00:00065:text:000287be",
+        "00:00065:text:000287ca",
+        "00:00065:text:000287da"
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:000287be",
+          "opening_row": 479,
+          "source_sha256": "ead032245b7d14b08a09ef14d4d15deac29b483f4ae089469df482dbb0344050",
+          "reference_instructions": [
+            89204
+          ],
+          "proposed_text": "The letter said",
+          "outside_assigned_slice": false
+        },
+        {
+          "id": "00:00065:text:000287ca",
+          "opening_row": 480,
+          "source_sha256": "df83a9aa398ea7178307c69b1aa13ac2a51a203de36fca53f96e842caaf73773",
+          "reference_instructions": [
+            89212
+          ],
+          "proposed_text": "it was a girl,",
+          "outside_assigned_slice": true
+        },
+        {
+          "id": "00:00065:text:000287da",
+          "opening_row": 481,
+          "source_sha256": "69f4bdc5a8edddee2853be86aa215bed8defee138ec419f050c9ddbbc66cb0cc",
+          "reference_instructions": [
+            89220
+          ],
+          "proposed_text": "didn't it?",
+          "outside_assigned_slice": true
+        }
+      ],
+      "whole_sentence": "The letter said it was a girl, didn't it?",
+      "source_display_instruction": 89232,
+      "source_display_helper_word": 2030,
+      "reason": "Source syntax and VM queue checked; all fragments are needed for the complete sentence.",
+      "integration_condition": "Apply the entire group against preserved source/target hashes; do not insert the assigned fragment alone.",
+      "edits_applied": false
+    }
+  ],
+  "uncertainty_notes": [
+    {
+      "opening_rows": [
+        400,
+        401,
+        402
+      ],
+      "decision": "Accept with398-399 boundary proposal.",
+      "uncertainty": "Learning to fight and protecting everyone is a past belief;401-402 preserve that framing."
+    },
+    {
+      "opening_rows": [
+        405,
+        406,
+        407,
+        408,
+        409,
+        410
+      ],
+      "decision": "Accept.",
+      "uncertainty": "Healing any illness or injury is explicitly the protagonist past belief, not an established world rule.408-410 retain why that belief led to the academy."
+    },
+    {
+      "opening_rows": [
+        416,
+        418,
+        431,
+        442
+      ],
+      "decision": "Accept as forms of polite household address.",
+      "uncertainty": "Master/Lady does not establish a noble rank. Neighboring Miss/young lady versus Lady is a later style-consistency question, not a required meaning change."
+    },
+    {
+      "opening_rows": [
+        428,
+        429,
+        430
+      ],
+      "decision": "Accept the meddling idiom.",
+      "uncertainty": "Putting ideas into the tutors head preserves disapproving interference without inventing the content of the advice."
+    },
+    {
+      "opening_rows": [
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        476,
+        477,
+        478,
+        479
+      ],
+      "decision": "Accept distinct anticipation functions.",
+      "uncertainty": "Boy/girl is explicit in source. He in the boy function is licensed; head of the family remains ungendered."
+    },
+    {
+      "opening_rows": [
+        457,
+        458,
+        460,
+        461
+      ],
+      "decision": "Accept each distinct option.",
+      "uncertainty": "Mischievous reflects childhood unruliness. Separate protagonist alternatives at88766 reach the same menu display88834; they must not be combined into one menu."
+    },
+    {
+      "opening_rows": [
+        469,
+        470,
+        471
+      ],
+      "decision": "Accept.",
+      "uncertainty": "His own letter was enclosed; draft does not claim who physically enclosed or sent it."
+    },
+    {
+      "opening_rows": [
+        473,
+        475
+      ],
+      "decision": "Accept without preference editing.",
+      "uncertainty": "Things will work out/It should work out are natural broad renderings of managing successfully in this tutor relationship."
+    }
+  ],
+  "integration_readiness": {
+    "meaning_review_ready": true,
+    "within_slice_complete_group_row_count": 78,
+    "boundary_rows_requiring_atomic_integration": [
+      400,
+      479
+    ],
+    "ordering": "Apply meaning corrections and coordinated groups first, then scripted glossary normalization.",
+    "choice_menu_guard": "Select either456-458 or459-461 by protagonist; never concatenate both.",
+    "layout_or_runtime_acceptance": false,
+    "production_ready": false
+  },
+  "terminology": {
+    "glossary_file": "work/glossary/opening_harbor.json",
+    "glossary_sha256": "f7524803992a3cd45ba7577580c2868ec0b549a903f8b7f649dd8f250719941b",
+    "assigned_rows_named_entities": [
+      "Will",
+      "Belfrau",
+      "Martini"
+    ],
+    "names_modified": false,
+    "name_normalization_applied": false,
+    "person_gender_inferred_from_name": false,
+    "research_needed_before_next_slice": []
+  },
+  "tokens": {
+    "control_characters_found_in_assigned_source": 0,
+    "runtime_placeholders_found_in_assigned_source": [],
+    "source_target_token_sequences_match": true,
+    "cp932_display_roundtrip_rows": 80,
+    "cross_slice_proposal_rows_roundtrip_checked": 6,
+    "preserved_leading_U3000_rows": [
+      457,
+      458,
+      460,
+      461
+    ],
+    "six_dot_pause_preserved_row": 432
+  },
+  "coverage": [
+    {
+      "slice_row": 0,
+      "opening_row": 400,
+      "id": "00:00065:text:0002820a",
+      "source_sha256": "290f455857f52cec1106727e79487414c16bdcdb5baeb7d51c8d9b53a121d6db",
+      "reference_instructions": [
+        87198
+      ],
+      "verdict": "meaning_checked_coordinated_integration_required"
+    },
+    {
+      "slice_row": 1,
+      "opening_row": 401,
+      "id": "00:00065:text:0002821c",
+      "source_sha256": "562c8f6684218fb44c6e827249b5afe326947c3332a5a04949fdd17705e6ce57",
+      "reference_instructions": [
+        87224
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 2,
+      "opening_row": 402,
+      "id": "00:00065:text:0002822a",
+      "source_sha256": "b63c34d441fb4ebceb8eb7e64a42f81ad73e9685abd9f21536771634b05bf958",
+      "reference_instructions": [
+        87232
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 3,
+      "opening_row": 403,
+      "id": "00:00065:text:0002823c",
+      "source_sha256": "36118cacaf5398f2f8dd9d215ce4b77e7b5cd38abeb1d5670521e8caf2dcb1b7",
+      "reference_instructions": [
+        87268
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 4,
+      "opening_row": 404,
+      "id": "00:00065:text:00028246",
+      "source_sha256": "859b3f7d5141c83e046d04ca39f84beda7b07d3acfd50d2009ae96ec4afd6f24",
+      "reference_instructions": [
+        87304
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 5,
+      "opening_row": 405,
+      "id": "00:00065:text:00028254",
+      "source_sha256": "50569b77ea0ab38124bb1ba2cc8aa76bde5e13d4c31e0f8505898d54b5536ce4",
+      "reference_instructions": [
+        87342
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 6,
+      "opening_row": 406,
+      "id": "00:00065:text:00028268",
+      "source_sha256": "165c17619d6bb1da5587b7e16d2b960a10b1da78737a220f693e8ea4b4823014",
+      "reference_instructions": [
+        87350
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 7,
+      "opening_row": 407,
+      "id": "00:00065:text:0002827c",
+      "source_sha256": "421803603a2fc082b6f3c5336429e51a98f325bc5639e84a913e1d1b8fccfae5",
+      "reference_instructions": [
+        87358
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 8,
+      "opening_row": 408,
+      "id": "00:00065:text:0002828e",
+      "source_sha256": "8e34aea308c0f05ab95cf8a3891a4edf0ea2cdb015917a1b8712e5a5d1413a7b",
+      "reference_instructions": [
+        87384
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 9,
+      "opening_row": 409,
+      "id": "00:00065:text:000282a0",
+      "source_sha256": "d278c8bc08cfce7e71aa2ed85509525564e0deccb3b5b7302b099dd49f164d9c",
+      "reference_instructions": [
+        87392
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 10,
+      "opening_row": 410,
+      "id": "00:00065:text:000282b6",
+      "source_sha256": "30375259862b0951454f01a3b5c34e09a1271b18f9bd7354f2af9d1de4dc2ad0",
+      "reference_instructions": [
+        87400
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 11,
+      "opening_row": 411,
+      "id": "00:00065:text:000282cc",
+      "source_sha256": "36118cacaf5398f2f8dd9d215ce4b77e7b5cd38abeb1d5670521e8caf2dcb1b7",
+      "reference_instructions": [
+        87436
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 12,
+      "opening_row": 412,
+      "id": "00:00065:text:000282d6",
+      "source_sha256": "2fafe326d88b6e317a4f8fe41e10ebabd545a17c555c31168db71ffd507c7b13",
+      "reference_instructions": [
+        87488
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 13,
+      "opening_row": 413,
+      "id": "00:00065:text:000282ec",
+      "source_sha256": "bc855e95e6553f2263bc79bc4c0a98e044fc5bf09e52253ab7dae42462bfdf48",
+      "reference_instructions": [
+        87496
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 14,
+      "opening_row": 414,
+      "id": "00:00065:text:000282fa",
+      "source_sha256": "4767c7742b20f1b64b3597e148f06d6a266872e99475c68e32f38d2278065366",
+      "reference_instructions": [
+        87526
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 15,
+      "opening_row": 415,
+      "id": "00:00065:text:0002830a",
+      "source_sha256": "612dc65725d6d8edb174acd081393712d1e52bd04164b12f3d257cc347e9817d",
+      "reference_instructions": [
+        87534
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 16,
+      "opening_row": 416,
+      "id": "00:00065:text:00028320",
+      "source_sha256": "f848fbd1ef4cdecf2e920abd3f2e1ad95d7ae6860c3b9d50e9d3b0497fea0f3d",
+      "reference_instructions": [
+        87754
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 17,
+      "opening_row": 417,
+      "id": "00:00065:text:00028334",
+      "source_sha256": "6d2e2babf1b7a968b84b6f4a0a664db74f2caa7607d12a4a76eab6c690c22af7",
+      "reference_instructions": [
+        87762
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 18,
+      "opening_row": 418,
+      "id": "00:00065:text:00028348",
+      "source_sha256": "71c934dd1e830e43da113263552c26be5afd8dd0280e9114a9aa7d2cba8ea3ea",
+      "reference_instructions": [
+        87802
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 19,
+      "opening_row": 419,
+      "id": "00:00065:text:0002835c",
+      "source_sha256": "6d2e2babf1b7a968b84b6f4a0a664db74f2caa7607d12a4a76eab6c690c22af7",
+      "reference_instructions": [
+        87810
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 20,
+      "opening_row": 420,
+      "id": "00:00065:text:00028370",
+      "source_sha256": "1ea4a276aeb906d4f8f2162172fc3b74cf989b89689c0f31700d91ddb28c976c",
+      "reference_instructions": [
+        87846
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 21,
+      "opening_row": 421,
+      "id": "00:00065:text:00028386",
+      "source_sha256": "52aa90ac3cc9c1f4642ce5e1ff617103926e85a5bac6cabc634114e29d6658f9",
+      "reference_instructions": [
+        87854
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 22,
+      "opening_row": 422,
+      "id": "00:00065:text:0002839c",
+      "source_sha256": "37121536f4f2e2de0f7f010153b5866d8260a6963d3e256da7283b7c72d21ac7",
+      "reference_instructions": [
+        87862
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 23,
+      "opening_row": 423,
+      "id": "00:00065:text:000283b0",
+      "source_sha256": "6d7fe407c8338455f0fd95814d01c2e4853b715dffe64c6db46da7c047ba2f95",
+      "reference_instructions": [
+        87916
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 24,
+      "opening_row": 424,
+      "id": "00:00065:text:000283c6",
+      "source_sha256": "1a956a0fdb69d9d2975f2695f246bfd3320a2f2d519d06d931b5caadf67828aa",
+      "reference_instructions": [
+        87924
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 25,
+      "opening_row": 425,
+      "id": "00:00065:text:000283da",
+      "source_sha256": "ea851518fbab1df4f8e3c511e16b937b6f987e601664f4431d8873d0f16eb812",
+      "reference_instructions": [
+        87978
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 26,
+      "opening_row": 426,
+      "id": "00:00065:text:000283ee",
+      "source_sha256": "f497be79e6a242271ad549421007e21bb6ad097ed009d301fcffbb88e52a7733",
+      "reference_instructions": [
+        88012
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 27,
+      "opening_row": 427,
+      "id": "00:00065:text:00028400",
+      "source_sha256": "ed81ba8fb9ea60ed12663a18ab559ff646689f42437a4e556a9fe437526a08c6",
+      "reference_instructions": [
+        88020
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 28,
+      "opening_row": 428,
+      "id": "00:00065:text:00028410",
+      "source_sha256": "a24fb4a1cbb256e58d16403ffb55fc814f7226ed7c0d8b3aca49474a8088db68",
+      "reference_instructions": [
+        88054
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 29,
+      "opening_row": 429,
+      "id": "00:00065:text:00028422",
+      "source_sha256": "0345920e3c2e902d558c91a866358d50f550132875868f941eb6ee40534dac90",
+      "reference_instructions": [
+        88062
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 30,
+      "opening_row": 430,
+      "id": "00:00065:text:00028436",
+      "source_sha256": "e4b1b9c8200999272c578a1f55a19b2c31a98e847fa1934c0e8c151d42b8660a",
+      "reference_instructions": [
+        88070
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 31,
+      "opening_row": 431,
+      "id": "00:00065:text:00028444",
+      "source_sha256": "e13d5d98c8ba851f60afc43c888ba1dc61932bca835f1a37f8893af24971bad3",
+      "reference_instructions": [
+        88106
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 32,
+      "opening_row": 432,
+      "id": "00:00065:text:00028450",
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "reference_instructions": [
+        88140
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 33,
+      "opening_row": 433,
+      "id": "00:00065:text:0002845e",
+      "source_sha256": "38a1073fb00b566dfaed904baf94685dd1dd52f4c0080268e69b8dbf6009e635",
+      "reference_instructions": [
+        88196
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 34,
+      "opening_row": 434,
+      "id": "00:00065:text:00028474",
+      "source_sha256": "0be8b1e42b75925b810eea43cbaf99146c4ec555a9a98c7984988ab5b0df53f2",
+      "reference_instructions": [
+        88232
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 35,
+      "opening_row": 435,
+      "id": "00:00065:text:00028484",
+      "source_sha256": "4012a33d2494887e52f1a3b0da7063311ce2cd7746cf8c3ab1647de428648816",
+      "reference_instructions": [
+        88240
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 36,
+      "opening_row": 436,
+      "id": "00:00065:text:00028496",
+      "source_sha256": "c9ea59f42c2bff1bd7e17dbe0cf349cc77c9de68408f88ffcc3b5b5b510d5121",
+      "reference_instructions": [
+        88276
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 37,
+      "opening_row": 437,
+      "id": "00:00065:text:000284a8",
+      "source_sha256": "44d054733ded43d9ca5cbfe7749c4d1177705226539ed11dc295bcb07535304f",
+      "reference_instructions": [
+        88284
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 38,
+      "opening_row": 438,
+      "id": "00:00065:text:000284c2",
+      "source_sha256": "6fa637dab46a1ed400a6a953a11ad16fedb9870b043911034bbeb0d36aa74fb7",
+      "reference_instructions": [
+        88292
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 39,
+      "opening_row": 439,
+      "id": "00:00065:text:000284de",
+      "source_sha256": "10df69e0b53f38f31bede524b8cda1afb39099c365a81448b36ab52b1f3a5352",
+      "reference_instructions": [
+        88328
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 40,
+      "opening_row": 440,
+      "id": "00:00065:text:000284f2",
+      "source_sha256": "82956266a59dd5357e490af613526746dda16d402e31c0df2c8b77625cd65720",
+      "reference_instructions": [
+        88336
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 41,
+      "opening_row": 441,
+      "id": "00:00065:text:00028508",
+      "source_sha256": "c344ec1c2013078fa68e2155f6daf9bc65ffe93c6e6cda9af7ae037d38fc88ee",
+      "reference_instructions": [
+        88344
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 42,
+      "opening_row": 442,
+      "id": "00:00065:text:0002851a",
+      "source_sha256": "15f8d3b157be9cff7e7db90ce73c3c3f6499258f054b062441b3fd43de088eb8",
+      "reference_instructions": [
+        88380
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 43,
+      "opening_row": 443,
+      "id": "00:00065:text:0002852a",
+      "source_sha256": "4c612f321a830aaf7c27e899f6a729c762181443e42974a83729f362911aff9c",
+      "reference_instructions": [
+        88414
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 44,
+      "opening_row": 444,
+      "id": "00:00065:text:0002853a",
+      "source_sha256": "75331bbcc19751bdcd3f3188733754d22312ffbdf885413315dc6d93394a4385",
+      "reference_instructions": [
+        88470
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 45,
+      "opening_row": 445,
+      "id": "00:00065:text:0002854e",
+      "source_sha256": "4609525429ddaafabd1c72ec7fa562b8322ebb2e85fb82106a7b248d61cc5652",
+      "reference_instructions": [
+        88564
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 46,
+      "opening_row": 446,
+      "id": "00:00065:text:0002855c",
+      "source_sha256": "df83a9aa398ea7178307c69b1aa13ac2a51a203de36fca53f96e842caaf73773",
+      "reference_instructions": [
+        88572
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 47,
+      "opening_row": 447,
+      "id": "00:00065:text:0002856c",
+      "source_sha256": "90de39e3d12f9fedb9f6e8ef1e6498d17562d919bc004fe6adbe333d48cbb594",
+      "reference_instructions": [
+        88580
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 48,
+      "opening_row": 448,
+      "id": "00:00065:text:00028576",
+      "source_sha256": "4609525429ddaafabd1c72ec7fa562b8322ebb2e85fb82106a7b248d61cc5652",
+      "reference_instructions": [
+        88610
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 49,
+      "opening_row": 449,
+      "id": "00:00065:text:00028584",
+      "source_sha256": "df83a9aa398ea7178307c69b1aa13ac2a51a203de36fca53f96e842caaf73773",
+      "reference_instructions": [
+        88618
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 50,
+      "opening_row": 450,
+      "id": "00:00065:text:00028594",
+      "source_sha256": "69f4bdc5a8edddee2853be86aa215bed8defee138ec419f050c9ddbbc66cb0cc",
+      "reference_instructions": [
+        88626
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 51,
+      "opening_row": 451,
+      "id": "00:00065:text:000285a0",
+      "source_sha256": "559551b2085f1540870de5084820206ae0fdeb862d8c7d438466eccca46ae0fb",
+      "reference_instructions": [
+        88652
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 52,
+      "opening_row": 452,
+      "id": "00:00065:text:000285b0",
+      "source_sha256": "cd74bd653fad623156c03a75039c5b933597b9edf6d54251dd83a2707495fbd6",
+      "reference_instructions": [
+        88660
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 53,
+      "opening_row": 453,
+      "id": "00:00065:text:000285c6",
+      "source_sha256": "d194d2f800eea19b064f389e041fbf26667e0c254af05d9c79631ca88e1ef206",
+      "reference_instructions": [
+        88668
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 54,
+      "opening_row": 454,
+      "id": "00:00065:text:000285d2",
+      "source_sha256": "0bccfb017e6d8508fb6a24286a205d827886c0fe8aac91da07df8ef38d740ca2",
+      "reference_instructions": [
+        88706
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 55,
+      "opening_row": 455,
+      "id": "00:00065:text:000285e8",
+      "source_sha256": "2f2155bd2ba6a52b0a0a047d0567671fa50ebc82be812e8cb00a9be0aab2e2c1",
+      "reference_instructions": [
+        88736
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 56,
+      "opening_row": 456,
+      "id": "00:00065:text:000285fe",
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "reference_instructions": [
+        88770
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 57,
+      "opening_row": 457,
+      "id": "00:00065:text:0002860c",
+      "source_sha256": "1a0fe33bdca6b98d0ba7e44e9ea1ff9ba7524598ca4727e63bfd5f6e60e46453",
+      "reference_instructions": [
+        88778
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 58,
+      "opening_row": 458,
+      "id": "00:00065:text:00028622",
+      "source_sha256": "b5a25c4ba57620547147ba4aab578fd91193a458fcbded39eb180bdcb6cc41f0",
+      "reference_instructions": [
+        88788
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 59,
+      "opening_row": 459,
+      "id": "00:00065:text:0002863e",
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "reference_instructions": [
+        88802
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 60,
+      "opening_row": 460,
+      "id": "00:00065:text:0002864c",
+      "source_sha256": "1a0fe33bdca6b98d0ba7e44e9ea1ff9ba7524598ca4727e63bfd5f6e60e46453",
+      "reference_instructions": [
+        88810
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 61,
+      "opening_row": 461,
+      "id": "00:00065:text:00028662",
+      "source_sha256": "71961c710b92d051845931f35ffb404d630742b0ba22f711dbdfafd75e76d971",
+      "reference_instructions": [
+        88820
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 62,
+      "opening_row": 462,
+      "id": "00:00065:text:0002867c",
+      "source_sha256": "5635e27fed45af925e7e9807f5e0a43e052563f3f4a98bbb7b70e0352194d484",
+      "reference_instructions": [
+        88872
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 63,
+      "opening_row": 463,
+      "id": "00:00065:text:0002868e",
+      "source_sha256": "933028394eae0e70201ed8299e07d64d07a23edab0553f508413e3c1aaf3d5ff",
+      "reference_instructions": [
+        88880
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 64,
+      "opening_row": 464,
+      "id": "00:00065:text:0002869e",
+      "source_sha256": "7772394d2e8fe29946bf21610dd6e4cb08c66d3212070d8ccfc3d6bc25bf665e",
+      "reference_instructions": [
+        88888
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 65,
+      "opening_row": 465,
+      "id": "00:00065:text:000286ac",
+      "source_sha256": "ed0bffd21bdca43cd21babfc883c827899b885a486ebc1eb5e4aae4a72afaf25",
+      "reference_instructions": [
+        88928
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 66,
+      "opening_row": 466,
+      "id": "00:00065:text:000286c2",
+      "source_sha256": "8e93fc8ecfa09950c8f16b87c761141397dd6cdee373f4b75d1514aff9916650",
+      "reference_instructions": [
+        88936
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 67,
+      "opening_row": 467,
+      "id": "00:00065:text:000286d4",
+      "source_sha256": "185c12ef128564fabb81598f21dce6bc2bb5243a8326e12c7d8971bfd7542582",
+      "reference_instructions": [
+        88968
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 68,
+      "opening_row": 468,
+      "id": "00:00065:text:000286ea",
+      "source_sha256": "c2f6cf8177edc1ec0065e700a740be93bd8070182a51d5361b19650b66e43421",
+      "reference_instructions": [
+        88976
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 69,
+      "opening_row": 469,
+      "id": "00:00065:text:000286fe",
+      "source_sha256": "6349831f2e4c6ba0e10b5a21b95197b86cc971f52169868dcf24bc7dca336cc3",
+      "reference_instructions": [
+        89012
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 70,
+      "opening_row": 470,
+      "id": "00:00065:text:0002871a",
+      "source_sha256": "949197a4d8be035e42a2fe687687e97b6e5af2f22b81f19a71d7bc04f262d9f0",
+      "reference_instructions": [
+        89020
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 71,
+      "opening_row": 471,
+      "id": "00:00065:text:00028730",
+      "source_sha256": "0df4a497dca53f992a94ff60126cbadfd85f97d4adadf6e77f1a3b80ccb591c3",
+      "reference_instructions": [
+        89028
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 72,
+      "opening_row": 472,
+      "id": "00:00065:text:0002874a",
+      "source_sha256": "3f255fc20c84f44e466df3e815924618c159639d0c32223f62a3fe9f363ec25d",
+      "reference_instructions": [
+        89066
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 73,
+      "opening_row": 473,
+      "id": "00:00065:text:0002875e",
+      "source_sha256": "06e4e57dfaa1558d7cf595bb29a287b5ad44ed3dbcd76d0f7d88959427cf8a3c",
+      "reference_instructions": [
+        89074
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 74,
+      "opening_row": 474,
+      "id": "00:00065:text:00028774",
+      "source_sha256": "dcf395b5f7460d0b3a170ced860ea8acfe849d5351e12e0640e86c0ca464b71f",
+      "reference_instructions": [
+        89106
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 75,
+      "opening_row": 475,
+      "id": "00:00065:text:00028782",
+      "source_sha256": "8249c2ce944058d25cfaa2af23078794549e256fb429f3d228e4d3c55d2c24e5",
+      "reference_instructions": [
+        89114
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 76,
+      "opening_row": 476,
+      "id": "00:00065:text:00028798",
+      "source_sha256": "ead032245b7d14b08a09ef14d4d15deac29b483f4ae089469df482dbb0344050",
+      "reference_instructions": [
+        89158
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 77,
+      "opening_row": 477,
+      "id": "00:00065:text:000287a4",
+      "source_sha256": "df83a9aa398ea7178307c69b1aa13ac2a51a203de36fca53f96e842caaf73773",
+      "reference_instructions": [
+        89166
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 78,
+      "opening_row": 478,
+      "id": "00:00065:text:000287b4",
+      "source_sha256": "90de39e3d12f9fedb9f6e8ef1e6498d17562d919bc004fe6adbe333d48cbb594",
+      "reference_instructions": [
+        89174
+      ],
+      "verdict": "meaning_checked"
+    },
+    {
+      "slice_row": 79,
+      "opening_row": 479,
+      "id": "00:00065:text:000287be",
+      "source_sha256": "ead032245b7d14b08a09ef14d4d15deac29b483f4ae089469df482dbb0344050",
+      "reference_instructions": [
+        89204
+      ],
+      "verdict": "meaning_checked_coordinated_integration_required"
+    }
+  ],
+  "acceptance_limits": {
+    "scripted_name_normalization": false,
+    "in_game_validation": false,
+    "font_validation": false,
+    "layout_validation": false,
+    "runtime_memory_validation": false,
+    "voice_timing_validation": false,
+    "branch_playthrough_validation": false,
+    "full_game_translation": false
+  },
+  "write_scope": "Only this new review file. Targets/glossary/prior reviews unchanged. Parent handles central changelog.",
+  "change_log": [
+    {
+      "date": "2026-09-26",
+      "change": "Independently reviewed all80 opening005 drafts and two atomic boundary groups; no required meaning edit found."
+    }
+  ]
+}

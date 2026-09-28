@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "build_version": "0.1.16",
+  "reviewer": "ui015_meaning_review independent agent",
+  "result": "no_meaning_blocker",
+  "inputs_examined_sha256": {
+    "tools/menu_text_016.py": "3f1574a6ee1db4e9f1eaa5cf8364b8acc05fa83da17a934e76189c6bb934c7fa",
+    "tools/battle_table_patch.py": "cd7e6ace28b6822c370338dd820abc1f1106a5fe37cc38c9a753602d8f43d263",
+    "work\\translation\\en\\menu_0.1.16\\meaning_review.json": "0e9d420af9a920a08d48e504fb2cbb33e94cb087d0312bbea650c67025973eef",
+    "work\\translation\\en\\menu_0.1.16\\compact_review.json": "5e3ac1dd981306398424a8349f2d4e9bbc55f1098a53f95e0529574c0df53bff",
+    "work\\translation\\en\\menu_0.1.16\\compact_singleline_review.json": "45f67d761af5201ea977d71c86553ad26877046a4ad01ced91c9957e4639cbd1",
+    "work\\translation\\en\\menu_0.1.16\\insertion.report.json": "6d1c7f89e89da2cd89d8e7ab945852cabdd27b668828ccdb1955437d869adb83"
+  },
+  "additional_approvals": [
+    {
+      "source_ui": "召喚事典",
+      "target": "Summon Index",
+      "result": "approved",
+      "note": "Appropriate static title for the summon encyclopedia/list screen."
+    },
+    {
+      "source_ui": "属性",
+      "target": "Affinity",
+      "result": "approved",
+      "note": "Preserves the current battle affinity terminology."
+    },
+    {
+      "id": "elf:ui:0021e22c",
+      "source_ui": "属性切替",
+      "target_compact": "Affinity",
+      "result": "approved_contextual",
+      "note": "With L/R button glyphs, the noun adequately names what those controls switch. Retain Switch Affinity in the full catalog."
+    }
+  ],
+  "checks": [
+    "Current COMPACT overrides match independently approved wording; single-line deployment hint preserves all three icon controls and avoids embedded NUL.",
+    "The KO replacements preserve protagonist and all-allies conditions and verify the inherited bytes before replacement.",
+    "Class display Tutor is written in the two-byte encoding expected by the status consumer; six class-slot references are asserted and updated together. Meaning is an approved abbreviation of the retained Family Teacher title.",
+    "Dritol description is two source strings under one pointer-led group. Insertion report table12 places line1 at 16398, updates pointer field364, and records source014b4 as a translated continuation. The two reviewed lines preserve development purpose, large drill, prolonged-work endurance and polar setting; machine identity is supplied by artwork/full catalog.",
+    "Novice Sword, Baygnart and Dritol remain unchanged from glossary-locked values.",
+    "Table38 Party Abilities was skipped because its original pointer is already relocated. Independently read baseline0.1.15 field448 -> offset8608 and verified fullwidth Party Abilities. This skip retains correct English and is not an untranslated omission.",
+    "Prior compact review corrections Win/Lose and Suspend Data are still required for the separate generated button assets; those asset implementations are outside menu_text_016.py."
+  ],
+  "implementation_followup": [
+    {
+      "id": "elf:ui:0021e22c",
+      "issue": "Reviewed menu_text_016.py and insertion.report still use Switch Affinity; parent intends compact Affinity. Add the requested override and regenerate the insertion report. Both wordings are semantically valid; this is a width implementation follow-up."
+    }
+  ],
+  "limitations": [
+    "Read-only implementation review plus source/report checks; no fresh emulator validation, pixel measurement, complete binary-code audit or proof of all runtime consumers.",
+    "Tool hash identifies inspected snapshot; later edits require parent validation."
+  ],
+  "previous_reviews_unchanged": true
+}

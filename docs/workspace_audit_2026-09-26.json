@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "audited_at_utc": "2026-09-26T07:35:03.654463+00:00",
+  "scope": "Saved metadata reconciliation and selected-file integrity. No new binary decoding, runtime test, or meaning review.",
+  "git_directory_present": false,
+  "build_versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4"
+  ],
+  "latest_build": "0.1.4",
+  "script_counts": {
+    "script_resources": 801,
+    "compressed_script_resources": 247,
+    "resources_with_strings": 327,
+    "string_occurrences": 153524,
+    "japanese_occurrences": 151840,
+    "unique_japanese_strings": 49545,
+    "occurrences_without_reference": 0
+  },
+  "inventory_reconciliation": {
+    "node_count": 13889,
+    "original_kind_counts": {
+      "riff_audio": 448,
+      "inline_pack": 843,
+      "external_index": 41,
+      "unclassified": 11718,
+      "sound_bank": 120,
+      "v4_pack": 719
+    },
+    "recognized_scripts_previously_unclassified": 801,
+    "reconciled_kind_counts": {
+      "riff_audio": 448,
+      "inline_pack": 843,
+      "external_index": 41,
+      "unclassified": 10917,
+      "sound_bank": 120,
+      "recognized_script": 801,
+      "v4_pack": 719
+    },
+    "remaining_unclassified_by_bank": {
+      "00.DAT": 143,
+      "01.DAT": 5906,
+      "02.DAT": 4868
+    },
+    "remaining_unclassified_nodes": 10917,
+    "limit": "Resource nodes are not text counts; unknown nodes may contain nontext data or further containers. Original inventory is preserved."
+  },
+  "translation_counts": {
+    "opening_assigned": 80,
+    "opening_nonempty_drafts": 79,
+    "opening_selected": 78,
+    "japanese_labels_indexed": 746,
+    "label_targets": 3,
+    "glossary_entries": 4
+  },
+  "integrity_checks": [
+    {
+      "check": "latest version agrees with status",
+      "expected": "0.1.4",
+      "actual": "0.1.4",
+      "passed": true
+    },
+    {
+      "check": "inventory source identity",
+      "expected": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "actual": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "passed": true
+    },
+    {
+      "check": "script index source identity",
+      "expected": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "actual": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "passed": true
+    },
+    {
+      "check": "build source identity",
+      "expected": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "actual": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "passed": true
+    },
+    {
+      "check": "selection source identity",
+      "expected": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "actual": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/build_candidate.py",
+      "expected": "691dd1a3797ee740f7dae5bdc71c06c1b1a90c56218bfa0588e8a03b29b74892",
+      "actual": "691dd1a3797ee740f7dae5bdc71c06c1b1a90c56218bfa0588e8a03b29b74892",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/sn3_repack.py",
+      "expected": "b50b0f6a731d8d6a158cdc31d791dc0f7575bb73da17e0835dc9d99fda455c4b",
+      "actual": "b50b0f6a731d8d6a158cdc31d791dc0f7575bb73da17e0835dc9d99fda455c4b",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/sn3_archive.py",
+      "expected": "4170455a9130667006962822a058f9cc4808497a154e78db079f3675b8849ad9",
+      "actual": "4170455a9130667006962822a058f9cc4808497a154e78db079f3675b8849ad9",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/character_labels.py",
+      "expected": "57f9d5b44bd7bc3d5b49c968eb24d893cacabe705d55274e7b349362ccb10b9a",
+      "actual": "57f9d5b44bd7bc3d5b49c968eb24d893cacabe705d55274e7b349362ccb10b9a",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/translation/en/character_labels.targets.json",
+      "expected": "efb39269e07af8e4a11efa2fdb25817ee70311ab9a2bfdbea29ad221d4afcf11",
+      "actual": "efb39269e07af8e4a11efa2fdb25817ee70311ab9a2bfdbea29ad221d4afcf11",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/glossary/entities.json",
+      "expected": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+      "actual": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/script_repack.py",
+      "expected": "6242c0ec5d0da7838458e4fd3b706620005e95d0a0f4fcbd7e20224ec45b8219",
+      "actual": "6242c0ec5d0da7838458e4fd3b706620005e95d0a0f4fcbd7e20224ec45b8219",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/script_strings.py",
+      "expected": "e4b05a9c0af29956376d5f073050767c6458d260f0e100df47735ad32d302071",
+      "actual": "e4b05a9c0af29956376d5f073050767c6458d260f0e100df47735ad32d302071",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/sn3_codec.py",
+      "expected": "f6d19854150e0174963c9e5c84e33bfd37107ada94b5886c4769e33755ca8229",
+      "actual": "f6d19854150e0174963c9e5c84e33bfd37107ada94b5886c4769e33755ca8229",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/sn3_vm.py",
+      "expected": "3fbe03358be685ccb6ca223d874603310a839f5654269678a13c0b790c0501d9",
+      "actual": "3fbe03358be685ccb6ca223d874603310a839f5654269678a13c0b790c0501d9",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/dialogue_encoding.py",
+      "expected": "32ee79498945e156386748c5ddaa7604094c453e6e6058fd9eb62325ecc9055a",
+      "actual": "32ee79498945e156386748c5ddaa7604094c453e6e6058fd9eb62325ecc9055a",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/dialogue_layout.py",
+      "expected": "24595a3d0f81cfe54b3c95c54e6602443eee24b0340df248ced0bfe4aeeb1685",
+      "actual": "24595a3d0f81cfe54b3c95c54e6602443eee24b0340df248ced0bfe4aeeb1685",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/prepare_opening_layout.py",
+      "expected": "e8fceb19cf6b8002c9f48b16989548c7a12f09893f7e7a86fc579214306fa8cf",
+      "actual": "e8fceb19cf6b8002c9f48b16989548c7a12f09893f7e7a86fc579214306fa8cf",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/translation/en/opening_latin_pool192.targets.json",
+      "expected": "cb08a3248bbd5257a40d4a037be91db4095842f7fafcba0e252ad20f744ef38d",
+      "actual": "cb08a3248bbd5257a40d4a037be91db4095842f7fafcba0e252ad20f744ef38d",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/font_patch.py",
+      "expected": "ac375fe5129c08218325d87ab5dc40d2dc3e0923989623d7c64600c5a305cfaa",
+      "actual": "ac375fe5129c08218325d87ab5dc40d2dc3e0923989623d7c64600c5a305cfaa",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/font_metrics.py",
+      "expected": "189af19e08b21563e5be6116b1aedc1625866eb689905c2413db540584d92b18",
+      "actual": "189af19e08b21563e5be6116b1aedc1625866eb689905c2413db540584d92b18",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/verify_font_patch.py",
+      "expected": "6490cb86ce29a8d54822d071186fd6cb9d314194ce5cce2e2fb6c0110a2d9534",
+      "actual": "6490cb86ce29a8d54822d071186fd6cb9d314194ce5cce2e2fb6c0110a2d9534",
+      "passed": true
+    },
+    {
+      "check": "sha256:tools/verify_font_pool.py",
+      "expected": "f6abda15c344a0db70f849357c42aa2507ae9bf8df14ada1722acc81479f8f4e",
+      "actual": "f6abda15c344a0db70f849357c42aa2507ae9bf8df14ada1722acc81479f8f4e",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/translation/en/opening_000.targets.json",
+      "expected": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+      "actual": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/translation/en/opening_000.meaning_review.json",
+      "expected": "7a82442692213a839ed876073151f65f8ddcf1b399c3a254fa648bb97027df4b",
+      "actual": "7a82442692213a839ed876073151f65f8ddcf1b399c3a254fa648bb97027df4b",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/source/original.iso",
+      "expected": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "actual": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/output/0.1.4/Summon_Night_3_EN_0.1.4.iso",
+      "expected": "e02b88d37938c35b45339229e4e62541b08c76cfd492c10412615e4820ef3777",
+      "actual": "e02b88d37938c35b45339229e4e62541b08c76cfd492c10412615e4820ef3777",
+      "passed": true
+    },
+    {
+      "check": "sha256:work/output/0.1.4/EBOOT.elf",
+      "expected": "f0c6586f56db26e1ecad0e79858396b8078552bed47b838b52edd91c5cddceb6",
+      "actual": "f0c6586f56db26e1ecad0e79858396b8078552bed47b838b52edd91c5cddceb6",
+      "passed": true
+    },
+    {
+      "check": "unique inventory IDs",
+      "expected": 13889,
+      "actual": 13889,
+      "passed": true
+    },
+    {
+      "check": "unique script resource IDs",
+      "expected": 801,
+      "actual": 801,
+      "passed": true
+    },
+    {
+      "check": "script to inventory identity mismatches",
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "check": "recount:script_resources",
+      "expected": 801,
+      "actual": 801,
+      "passed": true
+    },
+    {
+      "check": "recount:compressed_script_resources",
+      "expected": 247,
+      "actual": 247,
+      "passed": true
+    },
+    {
+      "check": "recount:resources_with_strings",
+      "expected": 327,
+      "actual": 327,
+      "passed": true
+    },
+    {
+      "check": "recount:string_occurrences",
+      "expected": 153524,
+      "actual": 153524,
+      "passed": true
+    },
+    {
+      "check": "recount:japanese_occurrences",
+      "expected": 151840,
+      "actual": 151840,
+      "passed": true
+    },
+    {
+      "check": "recount:unique_japanese_strings",
+      "expected": 49545,
+      "actual": 49545,
+      "passed": true
+    },
+    {
+      "check": "recount:occurrences_without_reference",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "reconciled node total",
+      "expected": 13889,
+      "actual": 13889,
+      "passed": true
+    },
+    {
+      "check": "draft count agrees with status",
+      "expected": 79,
+      "actual": 79,
+      "passed": true
+    },
+    {
+      "check": "selected count agrees with status",
+      "expected": 78,
+      "actual": 78,
+      "passed": true
+    },
+    {
+      "check": "glossary count agrees with status",
+      "expected": 4,
+      "actual": 4,
+      "passed": true
+    }
+  ],
+  "checks_passed": 42,
+  "checks_failed": 0,
+  "not_revalidated": [
+    "Original ZIP hash/CRC",
+    "Older build image hashes",
+    "Runtime behavior and visual coverage",
+    "Full-game text completeness"
+  ]
+}

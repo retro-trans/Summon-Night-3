@@ -1,0 +1,122 @@
+{
+  "capture": {
+    "method": "software VRAM at sceDisplaySetFrameBuf",
+    "game": {
+      "id": "NPJH50380",
+      "version": "2.00",
+      "title": "\u30b5\u30e2\u30f3\u30ca\u30a4\u30c8\uff13"
+    },
+    "framebuffer_address": "0x4044000",
+    "stride_pixels": 512,
+    "pixel_format": 1,
+    "width": 480,
+    "height": 272,
+    "sync": 0,
+    "display_import_address": "0x8a17b9c",
+    "png_bytes": 102579,
+    "png_sha256": "d9d91183e9dee2334325a40add0fe6c4cd8816df86fbc1fa63c17311ee342609",
+    "cpu_left_stepping": true
+  },
+  "state": {
+    "pc": 2328,
+    "native": "0x3052",
+    "lines": [
+      {
+        "id": "00:00065:text:000285fe",
+        "text": "Surely...",
+        "rendered": "Surely...",
+        "pointer": "0x8dc4516",
+        "units": 9,
+        "selectable": false,
+        "choice": 4294967295,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "00:00065:text:0002860c",
+        "text": "\u3000Maybe he's mischievous?",
+        "rendered": " Maybe he\u2019s mischievous?",
+        "pointer": "0x8dc452a",
+        "units": 24,
+        "selectable": true,
+        "choice": 0,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "00:00065:text:00028622",
+        "text": "\u3000Seems polite. It'll be fine.",
+        "rendered": " Seems polite. It\u2019ll be fine.",
+        "pointer": "0x8dc455c",
+        "units": 29,
+        "selectable": true,
+        "choice": 1,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "choice": true
+  }
+}

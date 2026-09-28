@@ -1,0 +1,119 @@
+{
+  "state": {
+    "pc": 2328,
+    "native": "0x3052",
+    "lines": [
+      {
+        "id": "00:00065:text:0002717c",
+        "text": "If I remember right...",
+        "rendered": "If I remember right...",
+        "pointer": "0x8dbaeda",
+        "units": 22,
+        "selectable": false,
+        "choice": 4294967295,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "00:00065:text:0002718a",
+        "text": "\u3000A boy, wasn't it?",
+        "rendered": " A boy, wasn\u2019t it?",
+        "pointer": "0x8dbaf08",
+        "units": 18,
+        "selectable": true,
+        "choice": 0,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "00:00065:text:000271a0",
+        "text": "\u3000A girl, wasn't it?",
+        "rendered": " A girl, wasn\u2019t it?",
+        "pointer": "0x8dbaf2e",
+        "units": 19,
+        "selectable": true,
+        "choice": 1,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "choice": true
+  },
+  "capture": {
+    "method": "software VRAM at sceDisplaySetFrameBuf",
+    "game": {
+      "id": "NPJH50380",
+      "version": "2.00",
+      "title": "\u30b5\u30e2\u30f3\u30ca\u30a4\u30c8\uff13"
+    },
+    "framebuffer_address": "0x4044000",
+    "stride_pixels": 512,
+    "pixel_format": 1,
+    "width": 480,
+    "height": 272,
+    "sync": 0,
+    "display_import_address": "0x8a17b9c",
+    "png_bytes": 102726,
+    "png_sha256": "b6ae56fca3a2e2dc55a7d50aa8044816a39e43943c46bfb73f323c7f102c4747",
+    "cpu_left_stepping": true
+  }
+}

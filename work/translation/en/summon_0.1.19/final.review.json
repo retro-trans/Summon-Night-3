@@ -1,0 +1,16 @@
+{
+  "version": "0.1.19",
+  "baseline": "0.1.18",
+  "scope": "All 87 populated base summon names in shared table12 slot9, five affinity icon designs across twenty exact sprite matches, compact top-right control label",
+  "new_base_names": 68,
+  "existing_base_names_preserved": 19,
+  "meaning_review": "Independent reviewer compared all base names with exact source records. Rejected a shifted draft mapping in records72–87; corrected before insertion. R, Onibi, Quiupy, Teco, Falzen, Dritol and Shine Saber use project glossary spellings. Other proper names may be provisional.",
+  "control_label": {"old":"Affinity","new":"Type","max_native_cells":4},
+  "affinity": {"M":"Machine","O":"Oni","S":"Spirit","B":"Beast","N":"Neutral"},
+  "user_screenshot_build": "0.1.17, corrected by user after initially reporting0.1.18",
+  "name_investigation": "Current018 shared slot9 name pointers resolve to English Dritol and Shine Saber in both resident and bank copies. Raw Japanese source bytes remain in the old pool. No third source text copy was found; exact runtime cause of the older screenshot is unconfirmed.",
+  "save_files_modified": false,
+  "runtime_verified": false,
+  "excluded": ["Untranslated form aliases outside the previous018 batch","Long summon descriptions outside previous patches"],
+  "validation": ["Complete 87-name pointer walk","Exact old-name source hash verification","Native icon preview inspected","All non-target textures preserved","All five017 crash-fix regions preserved and glyph checks repeated","Historical release input hashes verified"]
+}

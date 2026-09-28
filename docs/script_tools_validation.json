@@ -1,0 +1,50 @@
+{
+  "checked_at_utc": "2026-09-26T04:19:46.591527+00:00",
+  "source_iso_sha256": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+  "index_schema_version": 2,
+  "statistics": {
+    "source_resources_checked": 801,
+    "compressed_originals_roundtripped": 247,
+    "original_encoded_bytes": 4107784,
+    "reencoded_bytes": 4102426,
+    "decoded_bytes": 9038034,
+    "relocated_resources_checked": 327,
+    "relocated_strings_checked": 654,
+    "relocated_compressed_resources_roundtripped": 247
+  },
+  "synthetic_codec_roundtrips": 1365,
+  "invalid_inputs_rejected": 12,
+  "no_op_relocation_byte_identical": true,
+  "shared_references_relocated": true,
+  "offset_above_65535_words_checked": true,
+  "instruction_lengths_control_targets_and_original_pool_preserved": true,
+  "samples": [
+    {
+      "resource": "00:00064",
+      "decoded_size": 24826,
+      "original_encoded_size": 12116,
+      "reencoded_size": 12109
+    },
+    {
+      "resource": "00:00065",
+      "decoded_size": 182526,
+      "original_encoded_size": 86535,
+      "reencoded_size": 86373
+    },
+    {
+      "resource": "00:00087",
+      "decoded_size": 25794,
+      "original_encoded_size": 12599,
+      "reencoded_size": 12589
+    }
+  ],
+  "input_sha256": {
+    "tools/sn3_codec.py": "f6d19854150e0174963c9e5c84e33bfd37107ada94b5886c4769e33755ca8229",
+    "tools/sn3_vm.py": "3fbe03358be685ccb6ca223d874603310a839f5654269678a13c0b790c0501d9",
+    "tools/script_strings.py": "e4b05a9c0af29956376d5f073050767c6458d260f0e100df47735ad32d302071",
+    "tools/script_repack.py": "6242c0ec5d0da7838458e4fd3b706620005e95d0a0f4fcbd7e20224ec45b8219",
+    "tools/verify_script_tools.py": "90b3e91e89ad455647498b0c390b7b85a1846c86ebae008fbed8a578429c9657",
+    "work/translation/en/script_strings.index.json": "3455c67655cd75853bee0d497d7dd9b23e41d144578b38f3a3154fa94536a556"
+  },
+  "scope_limit": "Static source-corpus and synthetic checks only. No runtime allocation, font, layout, command-token, or translated-playthrough acceptance."
+}

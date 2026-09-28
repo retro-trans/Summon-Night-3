@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "candidate_version": "0.1.3",
+  "candidate_sha256": "3ff021946986cbb5b66b8b649e3ec1c2011ddb7fe2466b777e5075b822b7b478",
+  "build_acceptance": "failed_runtime_qa",
+  "native_resolution": [480, 272],
+  "capture_method": "Software PSP framebuffer at sceDisplaySetFrameBuf",
+  "screens": [
+    {"id": "setup.title", "screenshot": "0.1.3_title.png", "role": "Title with Push START; existing title artwork is not new translated coverage"},
+    {"id": "setup.character", "screenshot": "0.1.3_setup.png", "role": "Rexx protagonist selection; Japanese instructions remain"},
+    {"id": "dialogue.centered", "screenshot": "0.1.3_centered.png", "target_lines": ["...waken."], "visual_check": "Complete readable green text centered above a clear advance icon; nine glyph positions verified in live memory"},
+    {"id": "dialogue.portrait", "screenshot": "0.1.3_portrait.png", "layout_group_id": "opening_000:group:24", "page_index": 0, "target_lines": ["Why am I lying flat on my", "back on this beach?"], "display_units": [25, 19], "measured_width_pixels": [203, 168], "approximate_text_area_xywh": [178, 199, 228, 55], "visual_check": "Both lines complete and readable at unchanged glyph height; advance icon clear; Japanese speaker-name graphic remains"}
+  ],
+  "scope_limit": "Two translated pages only. Subsequent group 33 crashes on font-pool capacity. No choice, save/load, complete route, or new cumulative distinct-row coverage claim."
+}

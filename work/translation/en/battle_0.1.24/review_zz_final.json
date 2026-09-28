@@ -1,0 +1,31 @@
+{
+  "review_kind": "final_context_adjudication",
+  "draft_inputs_sha256": {
+    "work/translation/en/battle_0.1.24/common_0160.targets.json": "5e9900539c1c8982a3a56ea8a814c9fa75fc82e302df8ddaa858ad4387792505",
+    "work/translation/en/battle_0.1.24/common_0640.targets.json": "b2c7ffd88d3887d6be876cfaf44326d8d57673058409b0f8b575dcb78e4f21d4",
+    "work/translation/en/battle_0.1.24/common_0720.targets.json": "06e7cfcfcf7b2779f6e499a6f9634adb3228eb9c6a641350dd9978b875b5a2c7"
+  },
+  "corrections": [
+    {
+      "resource": 175,
+      "resource_row": 164,
+      "source_sha256": "2c79ec155db2f6d39661295f7b264b5dc0381a669a7f8c4a94e1a8e99192af74",
+      "text": "You little rascal!?",
+      "reason": "Final source-context adjudication: descriptive nickname, unspecified gender, and descriptive spirit category."
+    },
+    {
+      "resource": 175,
+      "resource_row": 718,
+      "source_sha256": "2e2aece2ec0cd0fbd12faf6818986cc82c3d8b4813cbe94ab4aea0e7242e0e98",
+      "text": "I've heard about you from my student.",
+      "reason": "Final source-context adjudication: descriptive nickname, unspecified gender, and descriptive spirit category."
+    },
+    {
+      "resource": 175,
+      "resource_row": 760,
+      "source_sha256": "a4b86d220d8f3807fea01cf68fa75377db91c87d4698f5905e5cd1035f1dca7c",
+      "text": "A tool spirit? ...No, that's not it.",
+      "reason": "Final source-context adjudication: descriptive nickname, unspecified gender, and descriptive spirit category."
+    }
+  ]
+}

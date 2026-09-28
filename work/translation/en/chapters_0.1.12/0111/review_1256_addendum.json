@@ -1,0 +1,61 @@
+{
+  "resource_id": "00:00111",
+  "review_type": "semantic_addendum",
+  "assigned_range": [
+    1254,
+    1260
+  ],
+  "rows_examined": {
+    "ranges_inclusive": [
+      [
+        1250,
+        1275
+      ]
+    ],
+    "count": 26
+  },
+  "prior_review": "review_meaning_1200.json",
+  "relevant_draft": {
+    "target_file": "slice_1200.targets.json",
+    "target_file_sha256": "e88ae47b18db614edf7a57ab0d5fa90c8ca551372f2d45a6b78a78073f85678b",
+    "resource_rows": [
+      1256,
+      1257,
+      1258
+    ],
+    "rows_sha256": "264603bd68d460e6cec78d7048fd005030e6c7c0be6caa741b009057bcbdcce2"
+  },
+  "compiled_layout_observed": {
+    "file": "compiled.targets.json",
+    "group_id": "chapter_111_1256_1257_1258",
+    "resource_rows": [
+      1256,
+      1257,
+      1258
+    ],
+    "assembled_text": "my name is Freize. I am a Guardian Lord Falzen's advisor.",
+    "display_helper_word": 2030
+  },
+  "meaning_corrections": [
+    {
+      "resource_row": 1256,
+      "source_id": "00:00111:text:00034258",
+      "replacement_text": "My name is Phlaiz.",
+      "reason": "The source begins Phlaiz’s self-introduction; Phlaiz is not identified as a Guardian."
+    },
+    {
+      "resource_row": 1257,
+      "source_id": "00:00111:text:00034274",
+      "replacement_text": "I serve as advisor to",
+      "reason": "Moves the advisor relationship into a grammatical English clause continued by the next fragment."
+    },
+    {
+      "resource_row": 1258,
+      "source_id": "00:00111:text:0003428e",
+      "replacement_text": "this Guardian, Lord Falzen.",
+      "reason": "護人 modifies Lord Falzen in the source, preserving his Guardian role and the honorific."
+    }
+  ],
+  "normalizer_note": "The project normalizer owns the Freize-to-Phlaiz spelling correction elsewhere; this addendum records the independent role/grammar correction.",
+  "uncertainties": []
+}

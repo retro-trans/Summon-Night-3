@@ -1,0 +1,3506 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "language_status": "working assumption pending user confirmation",
+  "resource_id": "00:00065",
+  "scope": "Exactly 80 consecutive opening records, rows480-559, including pupil/protagonist alternatives and choices. Independent meaning and runtime acceptance pending.",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "rows_in_slice": 80,
+  "rows_examined": 116,
+  "context_rows_before": 20,
+  "context_rows_after": 16,
+  "opening_row_range": [
+    480,
+    559
+  ],
+  "examined_opening_row_range": [
+    460,
+    575
+  ],
+  "reference_instruction_range": [
+    89212,
+    91064
+  ],
+  "context_instruction_range": [
+    88810,
+    91376
+  ],
+  "ordering": "Resource strings sorted by min(reference_instructions), suffix beginning ID00:00065:text:0002646e at sorted index1808. Opening row0 has reference76240; branches remain separate.",
+  "slice_row_convention": "slice_row is local0-79; opening_row is480-559.",
+  "drafted_rows": 80,
+  "unresolved_rows": 0,
+  "draft_rows_requiring_cross_slice_integration": [
+    480,
+    481,
+    559
+  ],
+  "method": "Read source in memory through GameSource/decompress; hash-check all116 examined records and original resource; inspect VM branches/displays at89120-91115. Numeric sentence groups are derived from consecutive helper2003 queues and checked against the first three prior slices. No Japanese transcript saved.",
+  "provenance": {
+    "preserved_input_sha256": {
+      "work/translation/en/opening_000.targets.json": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+      "work/translation/en/opening_001.targets.json": "7492d262918e492818bec6038b6227d179d48d12e2d3d31bc73406ebcf9fba3d",
+      "work/translation/en/opening_002.targets.json": "9e7fa4f6fe7e2f9b71197cdfa509c2e94e0cf85441a4dbd95dcccda86214743c",
+      "work/translation/en/opening_003.targets.json": "616374035099fe4b4a992b90d5ff78bb1abbdc07adb4653a00f0db284d58fee9",
+      "work/glossary/entities.json": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+      "work/glossary/setup_ui.json": "9403c571041ad53d9c428033a5d11930004f7684a335dee82929c4c73fd43ed6",
+      "work/glossary/opening_harbor.json": "f7524803992a3cd45ba7577580c2868ec0b549a903f8b7f649dd8f250719941b"
+    }
+  },
+  "glossary": {
+    "paths": [
+      "work/glossary/entities.json",
+      "work/glossary/setup_ui.json",
+      "work/glossary/opening_harbor.json"
+    ],
+    "read_sha256": {
+      "work/glossary/entities.json": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+      "work/glossary/setup_ui.json": "9403c571041ad53d9c428033a5d11930004f7684a335dee82929c4c73fd43ed6",
+      "work/glossary/opening_harbor.json": "f7524803992a3cd45ba7577580c2868ec0b549a903f8b7f649dd8f250719941b"
+    },
+    "used_ids": [
+      "character.nup",
+      "character.will",
+      "character.belfrau",
+      "location.pastis"
+    ],
+    "scripted_name_normalization_applied": false,
+    "order": "Independent meaning review first, scripted name normalization afterward."
+  },
+  "token_review": {
+    "control_bytes_in_slice": 0,
+    "runtime_placeholder_symbols_in_slice": [],
+    "source_target_token_sequences_match": true,
+    "cp932_display_roundtrip_rows": 80,
+    "preserved_layout_characters": {
+      "U+3000": [
+        488,
+        489,
+        491,
+        492
+      ]
+    }
+  },
+  "uncertainties": [
+    {
+      "opening_rows": [
+        517,
+        518,
+        519
+      ],
+      "kind": "city_description",
+      "finding": "Shipbuilding city is a project translation; the exact English city-type term is not externally attested. Pastis is a project romanization. Do not imply a floating city or stronger industrial claim."
+    },
+    {
+      "opening_rows": [
+        500,
+        501
+      ],
+      "kind": "relationship",
+      "finding": "Suitable company preserves concern about interacting with the pupil, without adding romance or unsupported qualifications."
+    },
+    {
+      "opening_rows": [
+        523,
+        524,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        540,
+        541,
+        545,
+        546,
+        547,
+        548,
+        549,
+        552,
+        553,
+        557,
+        558,
+        559
+      ],
+      "kind": "referents",
+      "finding": "Gendered pronouns are limited to explicit Nup/Will/Belfrau referents with glossary gender evidence; the unnamed head of the family is not assigned a gender."
+    },
+    {
+      "opening_rows": [
+        534,
+        535,
+        536,
+        537,
+        538,
+        539
+      ],
+      "kind": "implied_incident",
+      "finding": "The feared mischief remains general; no unspoken prank is invented."
+    }
+  ],
+  "layout_followups": [
+    {
+      "opening_rows": [
+        488,
+        489,
+        491,
+        492
+      ],
+      "finding": "Full labels, choice IDs0/1 and U+3000 must fit verified choice layout; do not truncate."
+    },
+    {
+      "opening_rows": [
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519
+      ],
+      "finding": "Two branch-specific prefixes share a following sentence continuation across source display pages."
+    }
+  ],
+  "coordinated_completion_proposals": [
+    {
+      "proposal_id": "coordinated_group_243",
+      "sentence_group": 243,
+      "status": "proposal_pending_independent_review",
+      "apply_together": true,
+      "opening_rows": [
+        479,
+        480,
+        481
+      ],
+      "group_ids": [
+        "00:00065:text:000287be",
+        "00:00065:text:000287ca",
+        "00:00065:text:000287da"
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:000287be",
+          "opening_row": 479,
+          "source_sha256": "ead032245b7d14b08a09ef14d4d15deac29b483f4ae089469df482dbb0344050",
+          "reference_instructions": [
+            89204
+          ],
+          "proposed_text": "The letter said",
+          "outside_assigned_slice": true
+        },
+        {
+          "id": "00:00065:text:000287ca",
+          "opening_row": 480,
+          "source_sha256": "df83a9aa398ea7178307c69b1aa13ac2a51a203de36fca53f96e842caaf73773",
+          "reference_instructions": [
+            89212
+          ],
+          "proposed_text": "it was a girl,",
+          "outside_assigned_slice": false
+        },
+        {
+          "id": "00:00065:text:000287da",
+          "opening_row": 481,
+          "source_sha256": "69f4bdc5a8edddee2853be86aa215bed8defee138ec419f050c9ddbbc66cb0cc",
+          "reference_instructions": [
+            89220
+          ],
+          "proposed_text": "didn't it?",
+          "outside_assigned_slice": false
+        }
+      ],
+      "whole_sentence": "The letter said it was a girl, didn't it?",
+      "source_display_instruction": 89232,
+      "source_display_helper_word": 2030,
+      "integration_condition": "Apply the entire source display group with coordinated adjacent-slice drafts after independent meaning review; do not overwrite the preserved earlier files.",
+      "edits_applied": false
+    },
+    {
+      "proposal_id": "coordinated_group_282",
+      "sentence_group": 282,
+      "status": "proposal_pending_independent_review",
+      "apply_together": true,
+      "opening_rows": [
+        559,
+        560,
+        561
+      ],
+      "group_ids": [
+        "00:00065:text:00028dd4",
+        "00:00065:text:00028de8",
+        "00:00065:text:00028dfe"
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:00028dd4",
+          "opening_row": 559,
+          "source_sha256": "1e832e0d704a14e3598cca78ea949e0d19080f58a234450697592aa89223df4a",
+          "reference_instructions": [
+            91064
+          ],
+          "proposed_text": "Especially with men,",
+          "outside_assigned_slice": false
+        },
+        {
+          "id": "00:00065:text:00028de8",
+          "opening_row": 560,
+          "source_sha256": "fbeccf06af40deb98598f94f0f6def67272cb4123d350dff5c6fb9acdd49c9ca",
+          "reference_instructions": [
+            91072
+          ],
+          "proposed_text": "she tends to get worked up",
+          "outside_assigned_slice": true
+        },
+        {
+          "id": "00:00065:text:00028dfe",
+          "opening_row": 561,
+          "source_sha256": "9d9854d4a59254303ed24b791047eea2f5f89f75939d1182b3320f5ac14cfea0",
+          "reference_instructions": [
+            91080
+          ],
+          "proposed_text": "and try to defy them.",
+          "outside_assigned_slice": true
+        }
+      ],
+      "whole_sentence": "Especially with men, she tends to get worked up and try to defy them.",
+      "source_display_instruction": 91092,
+      "source_display_helper_word": 2030,
+      "integration_condition": "Apply the entire source display group with coordinated adjacent-slice drafts after independent meaning review; do not overwrite the preserved earlier files.",
+      "edits_applied": false
+    }
+  ],
+  "display_groups": [
+    {
+      "sentence_group": 243,
+      "opening_rows": [
+        479,
+        481
+      ],
+      "group_ids": [
+        "00:00065:text:000287be",
+        "00:00065:text:000287ca",
+        "00:00065:text:000287da"
+      ],
+      "reference_instructions": [
+        89204,
+        89212,
+        89220
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89232,
+      "display_helper_word": 2030,
+      "display_target_argument": 200,
+      "all_rows_in_slice": false
+    },
+    {
+      "sentence_group": 244,
+      "opening_rows": [
+        482,
+        484
+      ],
+      "group_ids": [
+        "00:00065:text:000287e6",
+        "00:00065:text:000287f8",
+        "00:00065:text:0002880c"
+      ],
+      "reference_instructions": [
+        89246,
+        89254,
+        89262
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89274,
+      "display_helper_word": 2030,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 245,
+      "opening_rows": [
+        485,
+        485
+      ],
+      "group_ids": [
+        "00:00065:text:00028820"
+      ],
+      "reference_instructions": [
+        89300
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89312,
+      "display_helper_word": 2044,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 246,
+      "opening_rows": [
+        486,
+        486
+      ],
+      "group_ids": [
+        "00:00065:text:00028836"
+      ],
+      "reference_instructions": [
+        89330
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89342,
+      "display_helper_word": 2044,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 247,
+      "opening_rows": [
+        487,
+        487
+      ],
+      "group_ids": [
+        "00:00065:text:0002884a"
+      ],
+      "reference_instructions": [
+        89364
+      ],
+      "display_group_kind": "choice_prompt",
+      "display_instruction": 89428,
+      "display_helper_word": 2315,
+      "display_target_argument": null,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 248,
+      "opening_rows": [
+        488,
+        488
+      ],
+      "group_ids": [
+        "00:00065:text:00028858"
+      ],
+      "reference_instructions": [
+        89372
+      ],
+      "display_group_kind": "choice_label",
+      "display_instruction": 89428,
+      "display_helper_word": 2315,
+      "display_target_argument": null,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 249,
+      "opening_rows": [
+        489,
+        489
+      ],
+      "group_ids": [
+        "00:00065:text:00028874"
+      ],
+      "reference_instructions": [
+        89382
+      ],
+      "display_group_kind": "choice_label",
+      "display_instruction": 89428,
+      "display_helper_word": 2315,
+      "display_target_argument": null,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 250,
+      "opening_rows": [
+        490,
+        490
+      ],
+      "group_ids": [
+        "00:00065:text:0002888c"
+      ],
+      "reference_instructions": [
+        89396
+      ],
+      "display_group_kind": "choice_prompt",
+      "display_instruction": 89428,
+      "display_helper_word": 2315,
+      "display_target_argument": null,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 251,
+      "opening_rows": [
+        491,
+        491
+      ],
+      "group_ids": [
+        "00:00065:text:0002889a"
+      ],
+      "reference_instructions": [
+        89404
+      ],
+      "display_group_kind": "choice_label",
+      "display_instruction": 89428,
+      "display_helper_word": 2315,
+      "display_target_argument": null,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 252,
+      "opening_rows": [
+        492,
+        492
+      ],
+      "group_ids": [
+        "00:00065:text:000288b4"
+      ],
+      "reference_instructions": [
+        89414
+      ],
+      "display_group_kind": "choice_label",
+      "display_instruction": 89428,
+      "display_helper_word": 2315,
+      "display_target_argument": null,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 253,
+      "opening_rows": [
+        493,
+        494
+      ],
+      "group_ids": [
+        "00:00065:text:000288d0",
+        "00:00065:text:000288e4"
+      ],
+      "reference_instructions": [
+        89466,
+        89474
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89486,
+      "display_helper_word": 2030,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 254,
+      "opening_rows": [
+        495,
+        497
+      ],
+      "group_ids": [
+        "00:00065:text:000288fc",
+        "00:00065:text:00028910",
+        "00:00065:text:00028926"
+      ],
+      "reference_instructions": [
+        89512,
+        89520,
+        89528
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89540,
+      "display_helper_word": 2030,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 255,
+      "opening_rows": [
+        498,
+        499
+      ],
+      "group_ids": [
+        "00:00065:text:00028938",
+        "00:00065:text:0002894c"
+      ],
+      "reference_instructions": [
+        89558,
+        89566
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89578,
+      "display_helper_word": 2030,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 256,
+      "opening_rows": [
+        500,
+        501
+      ],
+      "group_ids": [
+        "00:00065:text:00028962",
+        "00:00065:text:00028978"
+      ],
+      "reference_instructions": [
+        89594,
+        89602
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89614,
+      "display_helper_word": 2030,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 257,
+      "opening_rows": [
+        502,
+        502
+      ],
+      "group_ids": [
+        "00:00065:text:0002898e"
+      ],
+      "reference_instructions": [
+        89650
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89662,
+      "display_helper_word": 2044,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 258,
+      "opening_rows": [
+        503,
+        505
+      ],
+      "group_ids": [
+        "00:00065:text:000289a4",
+        "00:00065:text:000289ba",
+        "00:00065:text:000289cc"
+      ],
+      "reference_instructions": [
+        89676,
+        89684,
+        89692
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89704,
+      "display_helper_word": 2044,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 259,
+      "opening_rows": [
+        506,
+        507
+      ],
+      "group_ids": [
+        "00:00065:text:000289e0",
+        "00:00065:text:000289f0"
+      ],
+      "reference_instructions": [
+        89722,
+        89730
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89742,
+      "display_helper_word": 2044,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 260,
+      "opening_rows": [
+        508,
+        510
+      ],
+      "group_ids": [
+        "00:00065:text:000289fe",
+        "00:00065:text:00028a0e",
+        "00:00065:text:00028a24"
+      ],
+      "reference_instructions": [
+        89756,
+        89764,
+        89772
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89784,
+      "display_helper_word": 2044,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 261,
+      "opening_rows": [
+        511,
+        511
+      ],
+      "group_ids": [
+        "00:00065:text:00028a3a"
+      ],
+      "reference_instructions": [
+        89800
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 89812,
+      "display_helper_word": 2044,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 262,
+      "opening_rows": [
+        512,
+        512
+      ],
+      "group_ids": [
+        "00:00065:text:00028a46"
+      ],
+      "reference_instructions": [
+        90052
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90064,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 263,
+      "opening_rows": [
+        513,
+        514
+      ],
+      "group_ids": [
+        "00:00065:text:00028a52",
+        "00:00065:text:00028a66"
+      ],
+      "reference_instructions": [
+        90108,
+        90116
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90128,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 264,
+      "opening_rows": [
+        515,
+        516
+      ],
+      "group_ids": [
+        "00:00065:text:00028a7c",
+        "00:00065:text:00028a90"
+      ],
+      "reference_instructions": [
+        90154,
+        90162
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90174,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 265,
+      "opening_rows": [
+        517,
+        519
+      ],
+      "group_ids": [
+        "00:00065:text:00028aa6",
+        "00:00065:text:00028ab4",
+        "00:00065:text:00028ad2"
+      ],
+      "reference_instructions": [
+        90196,
+        90204,
+        90212
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90224,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 266,
+      "opening_rows": [
+        520,
+        522
+      ],
+      "group_ids": [
+        "00:00065:text:00028ae6",
+        "00:00065:text:00028afc",
+        "00:00065:text:00028b0e"
+      ],
+      "reference_instructions": [
+        90246,
+        90254,
+        90262
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90274,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 267,
+      "opening_rows": [
+        523,
+        524
+      ],
+      "group_ids": [
+        "00:00065:text:00028b1e",
+        "00:00065:text:00028b36"
+      ],
+      "reference_instructions": [
+        90316,
+        90324
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90336,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 268,
+      "opening_rows": [
+        525,
+        527
+      ],
+      "group_ids": [
+        "00:00065:text:00028b4a",
+        "00:00065:text:00028b5c",
+        "00:00065:text:00028b72"
+      ],
+      "reference_instructions": [
+        90360,
+        90368,
+        90376
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90388,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 269,
+      "opening_rows": [
+        528,
+        530
+      ],
+      "group_ids": [
+        "00:00065:text:00028b80",
+        "00:00065:text:00028b90",
+        "00:00065:text:00028ba4"
+      ],
+      "reference_instructions": [
+        90412,
+        90420,
+        90428
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90440,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 270,
+      "opening_rows": [
+        531,
+        533
+      ],
+      "group_ids": [
+        "00:00065:text:00028bb6",
+        "00:00065:text:00028bca",
+        "00:00065:text:00028be0"
+      ],
+      "reference_instructions": [
+        90464,
+        90472,
+        90480
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90492,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 271,
+      "opening_rows": [
+        534,
+        534
+      ],
+      "group_ids": [
+        "00:00065:text:00028bee"
+      ],
+      "reference_instructions": [
+        90520
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90532,
+      "display_helper_word": 2044,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 272,
+      "opening_rows": [
+        535,
+        536
+      ],
+      "group_ids": [
+        "00:00065:text:00028bfc",
+        "00:00065:text:00028c0e"
+      ],
+      "reference_instructions": [
+        90548,
+        90556
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90568,
+      "display_helper_word": 2030,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 273,
+      "opening_rows": [
+        537,
+        539
+      ],
+      "group_ids": [
+        "00:00065:text:00028c20",
+        "00:00065:text:00028c2c",
+        "00:00065:text:00028c40"
+      ],
+      "reference_instructions": [
+        90592,
+        90600,
+        90608
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90620,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 274,
+      "opening_rows": [
+        540,
+        541
+      ],
+      "group_ids": [
+        "00:00065:text:00028c54",
+        "00:00065:text:00028c6c"
+      ],
+      "reference_instructions": [
+        90664,
+        90672
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90684,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 275,
+      "opening_rows": [
+        542,
+        544
+      ],
+      "group_ids": [
+        "00:00065:text:00028c80",
+        "00:00065:text:00028c94",
+        "00:00065:text:00028caa"
+      ],
+      "reference_instructions": [
+        90708,
+        90716,
+        90724
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90736,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 276,
+      "opening_rows": [
+        545,
+        546
+      ],
+      "group_ids": [
+        "00:00065:text:00028cbc",
+        "00:00065:text:00028cd0"
+      ],
+      "reference_instructions": [
+        90760,
+        90768
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90780,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 277,
+      "opening_rows": [
+        547,
+        549
+      ],
+      "group_ids": [
+        "00:00065:text:00028ce4",
+        "00:00065:text:00028cfa",
+        "00:00065:text:00028d10"
+      ],
+      "reference_instructions": [
+        90804,
+        90812,
+        90820
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90832,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 278,
+      "opening_rows": [
+        550,
+        551
+      ],
+      "group_ids": [
+        "00:00065:text:00028d20",
+        "00:00065:text:00028d30"
+      ],
+      "reference_instructions": [
+        90860,
+        90868
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90880,
+      "display_helper_word": 2044,
+      "display_target_argument": 200,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 279,
+      "opening_rows": [
+        552,
+        553
+      ],
+      "group_ids": [
+        "00:00065:text:00028d46",
+        "00:00065:text:00028d56"
+      ],
+      "reference_instructions": [
+        90924,
+        90932
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90944,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 280,
+      "opening_rows": [
+        554,
+        556
+      ],
+      "group_ids": [
+        "00:00065:text:00028d6c",
+        "00:00065:text:00028d7e",
+        "00:00065:text:00028d94"
+      ],
+      "reference_instructions": [
+        90968,
+        90976,
+        90984
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 90996,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 281,
+      "opening_rows": [
+        557,
+        558
+      ],
+      "group_ids": [
+        "00:00065:text:00028da2",
+        "00:00065:text:00028dbc"
+      ],
+      "reference_instructions": [
+        91020,
+        91028
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 91040,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": true
+    },
+    {
+      "sentence_group": 282,
+      "opening_rows": [
+        559,
+        561
+      ],
+      "group_ids": [
+        "00:00065:text:00028dd4",
+        "00:00065:text:00028de8",
+        "00:00065:text:00028dfe"
+      ],
+      "reference_instructions": [
+        91064,
+        91072,
+        91080
+      ],
+      "display_group_kind": "dialogue",
+      "display_instruction": 91092,
+      "display_helper_word": 2030,
+      "display_target_argument": 44,
+      "all_rows_in_slice": false
+    }
+  ],
+  "translations": {
+    "00:00065:text:000287ca": {
+      "id": "00:00065:text:000287ca",
+      "source_offset": 165834,
+      "source_sha256": "df83a9aa398ea7178307c69b1aa13ac2a51a203de36fca53f96e842caaf73773",
+      "reference_instructions": [
+        89212
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 0,
+      "opening_row": 480,
+      "text": "it was a girl,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 243,
+      "group_ids": [
+        "00:00065:text:000287be",
+        "00:00065:text:000287ca",
+        "00:00065:text:000287da"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Beginning of the assigned slice falls inside rows479-481; apply the coordinated proposal as one group."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "integration_requires": "coordinated_group_243"
+    },
+    "00:00065:text:000287da": {
+      "id": "00:00065:text:000287da",
+      "source_offset": 165850,
+      "source_sha256": "69f4bdc5a8edddee2853be86aa215bed8defee138ec419f050c9ddbbc66cb0cc",
+      "reference_instructions": [
+        89220
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 1,
+      "opening_row": 481,
+      "text": "didn't it?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 243,
+      "group_ids": [
+        "00:00065:text:000287be",
+        "00:00065:text:000287ca",
+        "00:00065:text:000287da"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Question-tag uncertainty is retained. Do not insert this continuation without row479."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "integration_requires": "coordinated_group_243"
+    },
+    "00:00065:text:000287e6": {
+      "id": "00:00065:text:000287e6",
+      "source_offset": 165862,
+      "source_sha256": "22aec4051c14a10e42311b4fb3fbdcbf387c60ab73ad2a93121a4f36a7b08c76",
+      "reference_instructions": [
+        89246
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 2,
+      "opening_row": 482,
+      "text": "The head of the family",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Shared protagonist text; the pupil is explicitly a girl.",
+      "sentence_group": 244,
+      "group_ids": [
+        "00:00065:text:000287e6",
+        "00:00065:text:000287f8",
+        "00:00065:text:0002880c"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Head of the family is kept as an explicit role; no personal name or parental identity is inserted."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000287f8": {
+      "id": "00:00065:text:000287f8",
+      "source_offset": 165880,
+      "source_sha256": "d61dbca81b7df43796d503bd8e01e15a214723bb2921371092d9289b96db4e51",
+      "reference_instructions": [
+        89254
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 3,
+      "opening_row": 483,
+      "text": "seems to find her",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Shared protagonist text; the pupil is explicitly a girl.",
+      "sentence_group": 244,
+      "group_ids": [
+        "00:00065:text:000287e6",
+        "00:00065:text:000287f8",
+        "00:00065:text:0002880c"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002880c": {
+      "id": "00:00065:text:0002880c",
+      "source_offset": 165900,
+      "source_sha256": "76a2fb43c91c827a1b51b8cc7361bdc7b6a4f340d1ad203cd66f54617660634e",
+      "reference_instructions": [
+        89262
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 4,
+      "opening_row": 484,
+      "text": "utterly adorable, though...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Shared protagonist text; the pupil is explicitly a girl.",
+      "sentence_group": 244,
+      "group_ids": [
+        "00:00065:text:000287e6",
+        "00:00065:text:000287f8",
+        "00:00065:text:0002880c"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028820": {
+      "id": "00:00065:text:00028820",
+      "source_offset": 165920,
+      "source_sha256": "0bccfb017e6d8508fb6a24286a205d827886c0fe8aac91da07df8ef38d740ca2",
+      "reference_instructions": [
+        89300
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 5,
+      "opening_row": 485,
+      "text": "I wonder what she's like?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] == 0.",
+      "sentence_group": 245,
+      "group_ids": [
+        "00:00065:text:00028820"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028836": {
+      "id": "00:00065:text:00028836",
+      "source_offset": 165942,
+      "source_sha256": "3c9c9be1fa6edf3e38837d51a843036d8cda944b1a545706be77295003004e39",
+      "reference_instructions": [
+        89330
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 6,
+      "opening_row": 486,
+      "text": "What kind of girl could she be?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 246,
+      "group_ids": [
+        "00:00065:text:00028836"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002884a": {
+      "id": "00:00065:text:0002884a",
+      "source_offset": 165962,
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "reference_instructions": [
+        89364
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 7,
+      "opening_row": 487,
+      "text": "Surely...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] == 0.",
+      "sentence_group": 247,
+      "group_ids": [
+        "00:00065:text:0002884a"
+      ],
+      "display_group_kind": "choice_prompt",
+      "display_helper_word": 2315,
+      "notes": [
+        "Normal queue prompt belongs to the choice display at byte89428; not a standalone normal page."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028858": {
+      "id": "00:00065:text:00028858",
+      "source_offset": 165976,
+      "source_sha256": "b519e641006f6634b53eb33765a7b12c75ae6cb2f09ff9249989a8275a3a2ec5",
+      "reference_instructions": [
+        89372
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 8,
+      "opening_row": 488,
+      "text": "　Probably a refined young lady.",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] == 0.",
+      "sentence_group": 248,
+      "group_ids": [
+        "00:00065:text:00028858"
+      ],
+      "display_group_kind": "choice_label",
+      "display_helper_word": 2315,
+      "notes": [
+        "Choice ID 0, leading U+3000 preserved. Full draft wording is not shortened for the current choice layout."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "choice_id": 0
+    },
+    "00:00065:text:00028874": {
+      "id": "00:00065:text:00028874",
+      "source_offset": 166004,
+      "source_sha256": "335e5017832f5c5854d4108ba28585a1bd55895e6fe04fe8b9bc7de5dac4f6fa",
+      "reference_instructions": [
+        89382
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 9,
+      "opening_row": 489,
+      "text": "　Let's not overthink it.",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] == 0.",
+      "sentence_group": 249,
+      "group_ids": [
+        "00:00065:text:00028874"
+      ],
+      "display_group_kind": "choice_label",
+      "display_helper_word": 2315,
+      "notes": [
+        "Choice ID 1, leading U+3000 preserved. Full draft wording is not shortened for the current choice layout."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "choice_id": 1
+    },
+    "00:00065:text:0002888c": {
+      "id": "00:00065:text:0002888c",
+      "source_offset": 166028,
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "reference_instructions": [
+        89396
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 10,
+      "opening_row": 490,
+      "text": "Surely...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 250,
+      "group_ids": [
+        "00:00065:text:0002888c"
+      ],
+      "display_group_kind": "choice_prompt",
+      "display_helper_word": 2315,
+      "notes": [
+        "Normal queue prompt belongs to the choice display at byte89428; not a standalone normal page."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002889a": {
+      "id": "00:00065:text:0002889a",
+      "source_offset": 166042,
+      "source_sha256": "50db18f881bfb624abf1b7c45003111d6a844a1f9e7e0cca4ca581785b9167c8",
+      "reference_instructions": [
+        89404
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 11,
+      "opening_row": 491,
+      "text": "　She must be a well-mannered young lady.",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 251,
+      "group_ids": [
+        "00:00065:text:0002889a"
+      ],
+      "display_group_kind": "choice_label",
+      "display_helper_word": 2315,
+      "notes": [
+        "Choice ID 0, leading U+3000 preserved. Full draft wording is not shortened for the current choice layout."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "choice_id": 0
+    },
+    "00:00065:text:000288b4": {
+      "id": "00:00065:text:000288b4",
+      "source_offset": 166068,
+      "source_sha256": "372e33b4140c681ee27720fff8d00832de7f457338ac932a3e35e78ed47085eb",
+      "reference_instructions": [
+        89414
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 12,
+      "opening_row": 492,
+      "text": "　I'll meet her and talk first.",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 252,
+      "group_ids": [
+        "00:00065:text:000288b4"
+      ],
+      "display_group_kind": "choice_label",
+      "display_helper_word": 2315,
+      "notes": [
+        "Choice ID 1, leading U+3000 preserved. Full draft wording is not shortened for the current choice layout."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "choice_id": 1
+    },
+    "00:00065:text:000288d0": {
+      "id": "00:00065:text:000288d0",
+      "source_offset": 166096,
+      "source_sha256": "174f1a900247ecc21e0fbe741d46541fc200a25e48a39ba5753c64397dcdd83c",
+      "reference_instructions": [
+        89466
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 13,
+      "opening_row": 493,
+      "text": "She should soon be old enough",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Shared protagonist text; the pupil is explicitly a girl.",
+      "sentence_group": 253,
+      "group_ids": [
+        "00:00065:text:000288d0",
+        "00:00065:text:000288e4"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "The girl is approaching the age for participation in society; no exact age or noble title is invented."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000288e4": {
+      "id": "00:00065:text:000288e4",
+      "source_offset": 166116,
+      "source_sha256": "8d1d191a048ffacf847edc3f97b2b05fe7a80167e7de80f18aae02e76b1c1658",
+      "reference_instructions": [
+        89474
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 14,
+      "opening_row": 494,
+      "text": "to start attending society functions,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Shared protagonist text; the pupil is explicitly a girl.",
+      "sentence_group": 253,
+      "group_ids": [
+        "00:00065:text:000288d0",
+        "00:00065:text:000288e4"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000288fc": {
+      "id": "00:00065:text:000288fc",
+      "source_offset": 166140,
+      "source_sha256": "11342c9513d5234dfdd4ca55f129784804091bcd61edf532713b928c16d45d04",
+      "reference_instructions": [
+        89512
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 15,
+      "opening_row": 495,
+      "text": "so I suppose",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] == 0.",
+      "sentence_group": 254,
+      "group_ids": [
+        "00:00065:text:000288fc",
+        "00:00065:text:00028910",
+        "00:00065:text:00028926"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028910": {
+      "id": "00:00065:text:00028910",
+      "source_offset": 166160,
+      "source_sha256": "4c3e2db5470aa945666c43e4237037e18b52aa31d110712dc3c9cbff9f6f900b",
+      "reference_instructions": [
+        89520
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 16,
+      "opening_row": 496,
+      "text": "she really is",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] == 0.",
+      "sentence_group": 254,
+      "group_ids": [
+        "00:00065:text:000288fc",
+        "00:00065:text:00028910",
+        "00:00065:text:00028926"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028926": {
+      "id": "00:00065:text:00028926",
+      "source_offset": 166182,
+      "source_sha256": "c2f2e01c233ec455980a579ab35d3ad781ad6794b484d4422e24efe41ad89601",
+      "reference_instructions": [
+        89528
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 17,
+      "opening_row": 497,
+      "text": "a refined young lady.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] == 0.",
+      "sentence_group": 254,
+      "group_ids": [
+        "00:00065:text:000288fc",
+        "00:00065:text:00028910",
+        "00:00065:text:00028926"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028938": {
+      "id": "00:00065:text:00028938",
+      "source_offset": 166200,
+      "source_sha256": "9f8ffc7822c34f4ae3dea65420348381230db70994533b1eeeae6c75ceb10b87",
+      "reference_instructions": [
+        89558
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 18,
+      "opening_row": 498,
+      "text": "She must be a well-mannered,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 255,
+      "group_ids": [
+        "00:00065:text:00028938",
+        "00:00065:text:0002894c"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002894c": {
+      "id": "00:00065:text:0002894c",
+      "source_offset": 166220,
+      "source_sha256": "68862cfbea6c409d38ca076100640730bb8ef19510c97a996db75d5d341994e8",
+      "reference_instructions": [
+        89566
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 19,
+      "opening_row": 499,
+      "text": "refined young lady.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 255,
+      "group_ids": [
+        "00:00065:text:00028938",
+        "00:00065:text:0002894c"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028962": {
+      "id": "00:00065:text:00028962",
+      "source_offset": 166242,
+      "source_sha256": "931694e943b91ec4638376f11d350cea05bda0fb5e5bb592f0846cf44e505d89",
+      "reference_instructions": [
+        89594
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 20,
+      "opening_row": 500,
+      "text": "Will someone like me",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 256,
+      "group_ids": [
+        "00:00065:text:00028962",
+        "00:00065:text:00028978"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028978": {
+      "id": "00:00065:text:00028978",
+      "source_offset": 166264,
+      "source_sha256": "09849cfd0bbd667e42622f53472b448c0278f70193b2aa14827a01bf4ba4600c",
+      "reference_instructions": [
+        89602
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 21,
+      "opening_row": 501,
+      "text": "be suitable company for her...?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 256,
+      "group_ids": [
+        "00:00065:text:00028962",
+        "00:00065:text:00028978"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Concern about being suitable company is retained; no romantic relationship or extra tutor qualification is supplied."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002898e": {
+      "id": "00:00065:text:0002898e",
+      "source_offset": 166286,
+      "source_sha256": "0c0a33009ec5493875b0467e36d00e4995b9559cbfcdb82157214caef7a93c93",
+      "reference_instructions": [
+        89650
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 22,
+      "opening_row": 502,
+      "text": "Let's not overthink it.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] == 0.",
+      "sentence_group": 257,
+      "group_ids": [
+        "00:00065:text:0002898e"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000289a4": {
+      "id": "00:00065:text:000289a4",
+      "source_offset": 166308,
+      "source_sha256": "d0b134bc5324fffcbe27f257955c093dad1130a3a510efe357b5abd9028d7fd8",
+      "reference_instructions": [
+        89676
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 23,
+      "opening_row": 503,
+      "text": "I'll look forward to finding out when we meet.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] == 0.",
+      "sentence_group": 258,
+      "group_ids": [
+        "00:00065:text:000289a4",
+        "00:00065:text:000289ba",
+        "00:00065:text:000289cc"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000289ba": {
+      "id": "00:00065:text:000289ba",
+      "source_offset": 166330,
+      "source_sha256": "60c7649039f80c92caebd080927eb686d99557399d7a8f2374e0351192f5f253",
+      "reference_instructions": [
+        89684
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 24,
+      "opening_row": 504,
+      "text": "That's a much more",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] == 0.",
+      "sentence_group": 258,
+      "group_ids": [
+        "00:00065:text:000289a4",
+        "00:00065:text:000289ba",
+        "00:00065:text:000289cc"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000289cc": {
+      "id": "00:00065:text:000289cc",
+      "source_offset": 166348,
+      "source_sha256": "1c497b2d1a2d3e0bed6258b337b2dff52f752ca25f979259c71e5b4fe7f215e4",
+      "reference_instructions": [
+        89692
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 25,
+      "opening_row": 505,
+      "text": "positive way to look at it.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] == 0.",
+      "sentence_group": 258,
+      "group_ids": [
+        "00:00065:text:000289a4",
+        "00:00065:text:000289ba",
+        "00:00065:text:000289cc"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000289e0": {
+      "id": "00:00065:text:000289e0",
+      "source_offset": 166368,
+      "source_sha256": "da2f66e844db01486ae5e40c5447e2b88943a6aaf6228dd50816bfa83d3b67c3",
+      "reference_instructions": [
+        89722
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 26,
+      "opening_row": 506,
+      "text": "It's no good",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 259,
+      "group_ids": [
+        "00:00065:text:000289e0",
+        "00:00065:text:000289f0"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000289f0": {
+      "id": "00:00065:text:000289f0",
+      "source_offset": 166384,
+      "source_sha256": "b7a8673222d062ef92ec8ebaa399e7b215c44d83bd1fc68e401a833c3b9e59ed",
+      "reference_instructions": [
+        89730
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 27,
+      "opening_row": 507,
+      "text": "overthinking things.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 259,
+      "group_ids": [
+        "00:00065:text:000289e0",
+        "00:00065:text:000289f0"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000289fe": {
+      "id": "00:00065:text:000289fe",
+      "source_offset": 166398,
+      "source_sha256": "1b48f0673454b07f7efc5858318983ddcf2693f08d5a0ea99e167188929e9ee3",
+      "reference_instructions": [
+        89756
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 28,
+      "opening_row": 508,
+      "text": "I can meet her,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 260,
+      "group_ids": [
+        "00:00065:text:000289fe",
+        "00:00065:text:00028a0e",
+        "00:00065:text:00028a24"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028a0e": {
+      "id": "00:00065:text:00028a0e",
+      "source_offset": 166414,
+      "source_sha256": "e3fbac36790f59d0f9abc11a1b67e9ec69d6bcb4df108a1f54dd363039019666",
+      "reference_instructions": [
+        89764
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 29,
+      "opening_row": 509,
+      "text": "talk with her first,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 260,
+      "group_ids": [
+        "00:00065:text:000289fe",
+        "00:00065:text:00028a0e",
+        "00:00065:text:00028a24"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028a24": {
+      "id": "00:00065:text:00028a24",
+      "source_offset": 166436,
+      "source_sha256": "13e21ae305d761e2e09aa29781d444d50515395c910074c8bf74c28d7eed194e",
+      "reference_instructions": [
+        89772
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 30,
+      "opening_row": 510,
+      "text": "and think about it after that.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Protagonist variant global[60] != 0.",
+      "sentence_group": 260,
+      "group_ids": [
+        "00:00065:text:000289fe",
+        "00:00065:text:00028a0e",
+        "00:00065:text:00028a24"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028a3a": {
+      "id": "00:00065:text:00028a3a",
+      "source_offset": 166458,
+      "source_sha256": "ab01ae8ae2a52efbc83cd5b7565359d37f9358be65bbd6a3534617ff6629315f",
+      "reference_instructions": [
+        89800
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 31,
+      "opening_row": 511,
+      "text": "Yes...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Female-pupil anticipation function at byte 89134; source adjacency does not prove runtime chronology. Shared protagonist text; the pupil is explicitly a girl.",
+      "sentence_group": 261,
+      "group_ids": [
+        "00:00065:text:00028a3a"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [
+        "Shared affirmative pause remains a separate target."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028a46": {
+      "id": "00:00065:text:00028a46",
+      "source_offset": 166470,
+      "source_sha256": "cd2b5cd1f52d940ad46bd0e0e3f9c2608ef7fe94c8574937b7848c929123bf21",
+      "reference_instructions": [
+        90052
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 32,
+      "opening_row": 512,
+      "text": "Now, then...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Caregiver briefing in the subsequent function; display target 44. Shared instructions.",
+      "sentence_group": 262,
+      "group_ids": [
+        "00:00065:text:00028a46"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028a52": {
+      "id": "00:00065:text:00028a52",
+      "source_offset": 166482,
+      "source_sha256": "8a35d26490aa52217d38b1e26b83a1cbdc7c73ae448abea54fa586dccf7bd3c1",
+      "reference_instructions": [
+        90108
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 33,
+      "opening_row": 513,
+      "text": "You will now be taking",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Caregiver briefing in the subsequent function; display target 44. Male-pupil wording for global[64] values 1 or 4.",
+      "sentence_group": 263,
+      "group_ids": [
+        "00:00065:text:00028a52",
+        "00:00065:text:00028a66"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Sentence continues after the male/female alternatives into rows517-519; preserve both branch prefixes."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028a66": {
+      "id": "00:00065:text:00028a66",
+      "source_offset": 166502,
+      "source_sha256": "b0b391a3503abe79c54ba9e77ffee2bcb4e6105d38179b03f15b89ef308892ce",
+      "reference_instructions": [
+        90116
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 34,
+      "opening_row": 514,
+      "text": "the young master",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Caregiver briefing in the subsequent function; display target 44. Male-pupil wording for global[64] values 1 or 4.",
+      "sentence_group": 263,
+      "group_ids": [
+        "00:00065:text:00028a52",
+        "00:00065:text:00028a66"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028a7c": {
+      "id": "00:00065:text:00028a7c",
+      "source_offset": 166524,
+      "source_sha256": "8a35d26490aa52217d38b1e26b83a1cbdc7c73ae448abea54fa586dccf7bd3c1",
+      "reference_instructions": [
+        90154
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 35,
+      "opening_row": 515,
+      "text": "You will now be taking",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Caregiver briefing in the subsequent function; display target 44. Female-pupil alternative.",
+      "sentence_group": 264,
+      "group_ids": [
+        "00:00065:text:00028a7c",
+        "00:00065:text:00028a90"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Sentence continues after the male/female alternatives into rows517-519; preserve both branch prefixes."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028a90": {
+      "id": "00:00065:text:00028a90",
+      "source_offset": 166544,
+      "source_sha256": "007b20690387878fdd7cc365c2544b6e58d99ed4cbd0dfdfdd5190ecac0e1f3a",
+      "reference_instructions": [
+        90162
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 36,
+      "opening_row": 516,
+      "text": "the young lady",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Caregiver briefing in the subsequent function; display target 44. Female-pupil alternative.",
+      "sentence_group": 264,
+      "group_ids": [
+        "00:00065:text:00028a7c",
+        "00:00065:text:00028a90"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028aa6": {
+      "id": "00:00065:text:00028aa6",
+      "source_offset": 166566,
+      "source_sha256": "ba90b5be33df41dc058bb87149dc7ab51ca8e5ad8f976811402b7c7528b20190",
+      "reference_instructions": [
+        90196
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 37,
+      "opening_row": 517,
+      "text": "to the shipbuilding city of Pastis,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Caregiver briefing in the subsequent function; display target 44. Shared instructions.",
+      "sentence_group": 265,
+      "group_ids": [
+        "00:00065:text:00028aa6",
+        "00:00065:text:00028ab4",
+        "00:00065:text:00028ad2"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Shipbuilding city is a project rendering of the city description; no attested English city-type label established. Do not strengthen this to a floating-city or other unverified claim. Pastis uses the glossary project romanization."
+      ],
+      "glossary_ids": [
+        "location.pastis"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028ab4": {
+      "id": "00:00065:text:00028ab4",
+      "source_offset": 166580,
+      "source_sha256": "beda26ccef3c2203ecdb58ddc2963fa11b8dd234d0cb5fdf638e36b0fa2c9434",
+      "reference_instructions": [
+        90204
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 38,
+      "opening_row": 518,
+      "text": "where the military academy",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Caregiver briefing in the subsequent function; display target 44. Shared instructions.",
+      "sentence_group": 265,
+      "group_ids": [
+        "00:00065:text:00028aa6",
+        "00:00065:text:00028ab4",
+        "00:00065:text:00028ad2"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028ad2": {
+      "id": "00:00065:text:00028ad2",
+      "source_offset": 166610,
+      "source_sha256": "be8b1913be479adc1de4b15cdb959cbca04a5287335db8944963f0b79339f3aa",
+      "reference_instructions": [
+        90212
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 39,
+      "opening_row": 519,
+      "text": "is located.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Caregiver briefing in the subsequent function; display target 44. Shared instructions.",
+      "sentence_group": 265,
+      "group_ids": [
+        "00:00065:text:00028aa6",
+        "00:00065:text:00028ab4",
+        "00:00065:text:00028ad2"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028ae6": {
+      "id": "00:00065:text:00028ae6",
+      "source_offset": 166630,
+      "source_sha256": "3888dd96ca0c0af7bdf601071a89cd312a8888f56f7bf1f63511cdd9d0217f5c",
+      "reference_instructions": [
+        90246
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 40,
+      "opening_row": 520,
+      "text": "There is a reason",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Caregiver briefing in the subsequent function; display target 44. Shared instructions.",
+      "sentence_group": 266,
+      "group_ids": [
+        "00:00065:text:00028ae6",
+        "00:00065:text:00028afc",
+        "00:00065:text:00028b0e"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "The reason for specifically arranging a shared sea voyage is retained without inventing who made the arrangement."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028afc": {
+      "id": "00:00065:text:00028afc",
+      "source_offset": 166652,
+      "source_sha256": "853191f185b05af223e5c6d97a5baae9de250c94257de872dc2db1e36c7d5e34",
+      "reference_instructions": [
+        90254
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 41,
+      "opening_row": 521,
+      "text": "you are specifically being asked",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Caregiver briefing in the subsequent function; display target 44. Shared instructions.",
+      "sentence_group": 266,
+      "group_ids": [
+        "00:00065:text:00028ae6",
+        "00:00065:text:00028afc",
+        "00:00065:text:00028b0e"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028b0e": {
+      "id": "00:00065:text:00028b0e",
+      "source_offset": 166670,
+      "source_sha256": "e79665f081a1868549ebb6b59465376ee26cbda592ae3b0bab1354ef708256cc",
+      "reference_instructions": [
+        90262
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 42,
+      "opening_row": 522,
+      "text": "to travel together by ship.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Caregiver briefing in the subsequent function; display target 44. Shared instructions.",
+      "sentence_group": 266,
+      "group_ids": [
+        "00:00065:text:00028ae6",
+        "00:00065:text:00028afc",
+        "00:00065:text:00028b0e"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028b1e": {
+      "id": "00:00065:text:00028b1e",
+      "source_offset": 166686,
+      "source_sha256": "f5825d058df114bfbf52dcb4194ac4c91bfcf56590eebe6843b0a622b6e93984",
+      "reference_instructions": [
+        90316
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 43,
+      "opening_row": 523,
+      "text": "Compared with other children",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver describes Nup; name and male pronouns are supported by source context and glossary.",
+      "sentence_group": 267,
+      "group_ids": [
+        "00:00065:text:00028b1e",
+        "00:00065:text:00028b36"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028b36": {
+      "id": "00:00065:text:00028b36",
+      "source_offset": 166710,
+      "source_sha256": "13168356a0e4e8b1e763f22f3b4446a4f150d2f75a05fd9da614744c8967fb75",
+      "reference_instructions": [
+        90324
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 44,
+      "opening_row": 524,
+      "text": "his age, Master Nup",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver describes Nup; name and male pronouns are supported by source context and glossary.",
+      "sentence_group": 267,
+      "group_ids": [
+        "00:00065:text:00028b1e",
+        "00:00065:text:00028b36"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Master renders the polite address to the explicitly named male child; Nup is the canonical glossary spelling."
+      ],
+      "glossary_ids": [
+        "character.nup"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028b4a": {
+      "id": "00:00065:text:00028b4a",
+      "source_offset": 166730,
+      "source_sha256": "ab7ac97e3d288cddabb03c14faca3ab9c924953f1addd5db01639c8b4efae2be",
+      "reference_instructions": [
+        90360
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 45,
+      "opening_row": 525,
+      "text": "is, well,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver describes Nup; name and male pronouns are supported by source context and glossary.",
+      "sentence_group": 268,
+      "group_ids": [
+        "00:00065:text:00028b4a",
+        "00:00065:text:00028b5c",
+        "00:00065:text:00028b72"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028b5c": {
+      "id": "00:00065:text:00028b5c",
+      "source_offset": 166748,
+      "source_sha256": "f81998ac4d76bac83bb87037b3ad0fc35b0e728ee2af849b872189cf91a09c4f",
+      "reference_instructions": [
+        90368
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 46,
+      "opening_row": 526,
+      "text": "a little too",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver describes Nup; name and male pronouns are supported by source context and glossary.",
+      "sentence_group": 268,
+      "group_ids": [
+        "00:00065:text:00028b4a",
+        "00:00065:text:00028b5c",
+        "00:00065:text:00028b72"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028b72": {
+      "id": "00:00065:text:00028b72",
+      "source_offset": 166770,
+      "source_sha256": "9070f1a6bd3ee8e83e5587879cefebaa225332e0f05e7cee56dce463fe700f6c",
+      "reference_instructions": [
+        90376
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 47,
+      "opening_row": 527,
+      "text": "boisterous.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver describes Nup; name and male pronouns are supported by source context and glossary.",
+      "sentence_group": 268,
+      "group_ids": [
+        "00:00065:text:00028b4a",
+        "00:00065:text:00028b5c",
+        "00:00065:text:00028b72"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028b80": {
+      "id": "00:00065:text:00028b80",
+      "source_offset": 166784,
+      "source_sha256": "75676cf968bba36da5e6bb283d4b8f588f3004a74355846ef397407093587766",
+      "reference_instructions": [
+        90412
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 48,
+      "opening_row": 528,
+      "text": "He likes playing pranks,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver describes Nup; name and male pronouns are supported by source context and glossary.",
+      "sentence_group": 269,
+      "group_ids": [
+        "00:00065:text:00028b80",
+        "00:00065:text:00028b90",
+        "00:00065:text:00028ba4"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028b90": {
+      "id": "00:00065:text:00028b90",
+      "source_offset": 166800,
+      "source_sha256": "4b9109925533382925aaf0dc86019e65959b9f0b357f987bca67f7275c7e719e",
+      "reference_instructions": [
+        90420
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 49,
+      "opening_row": 529,
+      "text": "and it's hard to get him",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver describes Nup; name and male pronouns are supported by source context and glossary.",
+      "sentence_group": 269,
+      "group_ids": [
+        "00:00065:text:00028b80",
+        "00:00065:text:00028b90",
+        "00:00065:text:00028ba4"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028ba4": {
+      "id": "00:00065:text:00028ba4",
+      "source_offset": 166820,
+      "source_sha256": "7ceafa10a0035c59c966ef978f6130a3dae57312e64f923bd68ec118abca3f48",
+      "reference_instructions": [
+        90428
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 50,
+      "opening_row": 530,
+      "text": "to do as he's told.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver describes Nup; name and male pronouns are supported by source context and glossary.",
+      "sentence_group": 269,
+      "group_ids": [
+        "00:00065:text:00028b80",
+        "00:00065:text:00028b90",
+        "00:00065:text:00028ba4"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028bb6": {
+      "id": "00:00065:text:00028bb6",
+      "source_offset": 166838,
+      "source_sha256": "f935455d4808d5b0428ec47560477b360f19455df347fb118de3388eb56ac938",
+      "reference_instructions": [
+        90464
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 51,
+      "opening_row": 531,
+      "text": "He seems to find it",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver describes Nup; name and male pronouns are supported by source context and glossary.",
+      "sentence_group": 270,
+      "group_ids": [
+        "00:00065:text:00028bb6",
+        "00:00065:text:00028bca",
+        "00:00065:text:00028be0"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028bca": {
+      "id": "00:00065:text:00028bca",
+      "source_offset": 166858,
+      "source_sha256": "5cc456891531abfe69e62f2b107690192623800261b0a620ef840824f4b59512",
+      "reference_instructions": [
+        90472
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 52,
+      "opening_row": 532,
+      "text": "especially amusing",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver describes Nup; name and male pronouns are supported by source context and glossary.",
+      "sentence_group": 270,
+      "group_ids": [
+        "00:00065:text:00028bb6",
+        "00:00065:text:00028bca",
+        "00:00065:text:00028be0"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028be0": {
+      "id": "00:00065:text:00028be0",
+      "source_offset": 166880,
+      "source_sha256": "3e327dc4b58c8b2eac1325029a3f304fbf68e481be4fb6efd924daf5c4999c8a",
+      "reference_instructions": [
+        90480
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 53,
+      "opening_row": 533,
+      "text": "when he does it to women.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver describes Nup; name and male pronouns are supported by source context and glossary.",
+      "sentence_group": 270,
+      "group_ids": [
+        "00:00065:text:00028bb6",
+        "00:00065:text:00028bca",
+        "00:00065:text:00028be0"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "The description concerns mischief toward women; do not add sexual behavior or an unstated specific prank."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028bee": {
+      "id": "00:00065:text:00028bee",
+      "source_offset": 166894,
+      "source_sha256": "be4e4aeb68dd8e94a583389135d57d5e20e873293366be9ea9b3251feddc628b",
+      "reference_instructions": [
+        90520
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 54,
+      "opening_row": 534,
+      "text": "Oh, dear...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Aty response (global[60] == 1).",
+      "sentence_group": 271,
+      "group_ids": [
+        "00:00065:text:00028bee"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028bfc": {
+      "id": "00:00065:text:00028bfc",
+      "source_offset": 166908,
+      "source_sha256": "42e43e8d477db05fa0b7b0abfc04296e3d61bfd6719cb18e2f9fe9d4e1f03c8d",
+      "reference_instructions": [
+        90548
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 55,
+      "opening_row": 535,
+      "text": "Then... could that",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Aty response (global[60] == 1).",
+      "sentence_group": 272,
+      "group_ids": [
+        "00:00065:text:00028bfc",
+        "00:00065:text:00028c0e"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028c0e": {
+      "id": "00:00065:text:00028c0e",
+      "source_offset": 166926,
+      "source_sha256": "cfc7e0929abab25838142a2215b7c8dee0b4f962c4b164fa0415c5d4b0bd318f",
+      "reference_instructions": [
+        90556
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 56,
+      "opening_row": 536,
+      "text": "happen to me, too???",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Aty response (global[60] == 1).",
+      "sentence_group": 272,
+      "group_ids": [
+        "00:00065:text:00028bfc",
+        "00:00065:text:00028c0e"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "That keeps the implied concern contextual rather than inventing a particular anticipated incident."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028c20": {
+      "id": "00:00065:text:00028c20",
+      "source_offset": 166944,
+      "source_sha256": "a64a5620a9df7f28e9aed371cc0745ebcc4ccf16046c7dab8edbd33e1cb68fe9",
+      "reference_instructions": [
+        90592
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 57,
+      "opening_row": 537,
+      "text": "Yes...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver response to Aty; display target 44.",
+      "sentence_group": 273,
+      "group_ids": [
+        "00:00065:text:00028c20",
+        "00:00065:text:00028c2c",
+        "00:00065:text:00028c40"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028c2c": {
+      "id": "00:00065:text:00028c2c",
+      "source_offset": 166956,
+      "source_sha256": "40c06d6b5766c33841d34f57f2052bd715160316726f2e14812c5f5dd1fd2161",
+      "reference_instructions": [
+        90600
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 58,
+      "opening_row": 538,
+      "text": "That is",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver response to Aty; display target 44.",
+      "sentence_group": 273,
+      "group_ids": [
+        "00:00065:text:00028c20",
+        "00:00065:text:00028c2c",
+        "00:00065:text:00028c40"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028c40": {
+      "id": "00:00065:text:00028c40",
+      "source_offset": 166976,
+      "source_sha256": "ba2d80c7611bd0969e7b3fd237b6d4aeb2cd396023f3c6316f3eddf27f89d400",
+      "reference_instructions": [
+        90608
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 59,
+      "opening_row": 539,
+      "text": "my concern as well.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup branch (global[64] == 1). Caregiver response to Aty; display target 44.",
+      "sentence_group": 273,
+      "group_ids": [
+        "00:00065:text:00028c20",
+        "00:00065:text:00028c2c",
+        "00:00065:text:00028c40"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028c54": {
+      "id": "00:00065:text:00028c54",
+      "source_offset": 166996,
+      "source_sha256": "ac48360336524cfcbe8b309dd31977eb66bdf7ae30296fbf7ba937a994e816df",
+      "reference_instructions": [
+        90664
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 60,
+      "opening_row": 540,
+      "text": "Compared with other children",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Caregiver describes Will; male pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 274,
+      "group_ids": [
+        "00:00065:text:00028c54",
+        "00:00065:text:00028c6c"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028c6c": {
+      "id": "00:00065:text:00028c6c",
+      "source_offset": 167020,
+      "source_sha256": "13168356a0e4e8b1e763f22f3b4446a4f150d2f75a05fd9da614744c8967fb75",
+      "reference_instructions": [
+        90672
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 61,
+      "opening_row": 541,
+      "text": "his age, Master Will",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Caregiver describes Will; male pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 274,
+      "group_ids": [
+        "00:00065:text:00028c54",
+        "00:00065:text:00028c6c"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Master is a polite address, not an invented aristocratic rank; Will spelling follows glossary."
+      ],
+      "glossary_ids": [
+        "character.will"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028c80": {
+      "id": "00:00065:text:00028c80",
+      "source_offset": 167040,
+      "source_sha256": "22039ac5d7f33f6d998351ee01c5fce794c101bf3c27292a9d304823f9e5717e",
+      "reference_instructions": [
+        90708
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 62,
+      "opening_row": 542,
+      "text": "seems mature...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Caregiver describes Will; male pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 275,
+      "group_ids": [
+        "00:00065:text:00028c80",
+        "00:00065:text:00028c94",
+        "00:00065:text:00028caa"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028c94": {
+      "id": "00:00065:text:00028c94",
+      "source_offset": 167060,
+      "source_sha256": "66b535465e0802cb6af20d9db33ef68a044221c60e172157eb850ccf31c040c3",
+      "reference_instructions": [
+        90716
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 63,
+      "opening_row": 543,
+      "text": "or rather,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Caregiver describes Will; male pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 275,
+      "group_ids": [
+        "00:00065:text:00028c80",
+        "00:00065:text:00028c94",
+        "00:00065:text:00028caa"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028caa": {
+      "id": "00:00065:text:00028caa",
+      "source_offset": 167082,
+      "source_sha256": "ad286c08fe157793ef9eb7e0774eade6a24e82ab2879dc103c83706781b20a4c",
+      "reference_instructions": [
+        90724
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 64,
+      "opening_row": 544,
+      "text": "quite detached.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Caregiver describes Will; male pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 275,
+      "group_ids": [
+        "00:00065:text:00028c80",
+        "00:00065:text:00028c94",
+        "00:00065:text:00028caa"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Detached conveys the caregiver's impression, not a clinical or permanent personality diagnosis."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028cbc": {
+      "id": "00:00065:text:00028cbc",
+      "source_offset": 167100,
+      "source_sha256": "c33951cc7dd015c096e13254280cee4a13f72cf8b0ff14781cd3c70df55947eb",
+      "reference_instructions": [
+        90760
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 65,
+      "opening_row": 545,
+      "text": "He handles everything",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Caregiver describes Will; male pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 276,
+      "group_ids": [
+        "00:00065:text:00028cbc",
+        "00:00065:text:00028cd0"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028cd0": {
+      "id": "00:00065:text:00028cd0",
+      "source_offset": 167120,
+      "source_sha256": "0c3fb0b54d8d6f873ffda8833c7b1fd64a4c8340c7333fd65b433f96f6ebf03d",
+      "reference_instructions": [
+        90768
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 66,
+      "opening_row": 546,
+      "text": "without difficulty,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Caregiver describes Will; male pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 276,
+      "group_ids": [
+        "00:00065:text:00028cbc",
+        "00:00065:text:00028cd0"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028ce4": {
+      "id": "00:00065:text:00028ce4",
+      "source_offset": 167140,
+      "source_sha256": "bb5926040dded096d9b372d0219b0108b5c3466aed7be9631d215e65ca1d301d",
+      "reference_instructions": [
+        90804
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 67,
+      "opening_row": 547,
+      "text": "but on the other hand,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Caregiver describes Will; male pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 277,
+      "group_ids": [
+        "00:00065:text:00028ce4",
+        "00:00065:text:00028cfa",
+        "00:00065:text:00028d10"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028cfa": {
+      "id": "00:00065:text:00028cfa",
+      "source_offset": 167162,
+      "source_sha256": "a662c617283b7364a20c7d58cf03ca1462ac05989bc528170360033e67a3273f",
+      "reference_instructions": [
+        90812
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 68,
+      "opening_row": 548,
+      "text": "I feel he lacks",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Caregiver describes Will; male pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 277,
+      "group_ids": [
+        "00:00065:text:00028ce4",
+        "00:00065:text:00028cfa",
+        "00:00065:text:00028d10"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028d10": {
+      "id": "00:00065:text:00028d10",
+      "source_offset": 167184,
+      "source_sha256": "67b74a69f2da5d88770d9719d009f0e1650357cc8ea774429d858c0bec5aa4fe",
+      "reference_instructions": [
+        90820
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 69,
+      "opening_row": 549,
+      "text": "consideration for others...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Caregiver describes Will; male pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 277,
+      "group_ids": [
+        "00:00065:text:00028ce4",
+        "00:00065:text:00028cfa",
+        "00:00065:text:00028d10"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "I feel preserves the caregiver's tentative judgment about consideration for others."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028d20": {
+      "id": "00:00065:text:00028d20",
+      "source_offset": 167200,
+      "source_sha256": "65ef685c55cf67a900890e4e47a204b2a7064dded8fc2ee8f42053dc023f4e3c",
+      "reference_instructions": [
+        90860
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 70,
+      "opening_row": 550,
+      "text": "Yes...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Rexx response (global[60] == 0).",
+      "sentence_group": 278,
+      "group_ids": [
+        "00:00065:text:00028d20",
+        "00:00065:text:00028d30"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028d30": {
+      "id": "00:00065:text:00028d30",
+      "source_offset": 167216,
+      "source_sha256": "1d8521a7053a8b75bed87e7bd3b3b72ce12a454ef1355da7d4d584b02785ca4d",
+      "reference_instructions": [
+        90868
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 71,
+      "opening_row": 551,
+      "text": "I suppose he did seem that way.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will branch. Rexx response (global[60] == 0).",
+      "sentence_group": 278,
+      "group_ids": [
+        "00:00065:text:00028d20",
+        "00:00065:text:00028d30"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2044,
+      "notes": [
+        "The protagonist's qualified impression remains qualified."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028d46": {
+      "id": "00:00065:text:00028d46",
+      "source_offset": 167238,
+      "source_sha256": "e436f590975b89421dc017391ddc50058a2efb91e6970c1f6184babcbed4cc39",
+      "reference_instructions": [
+        90924
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 72,
+      "opening_row": 552,
+      "text": "Miss Belfrau",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Belfrau branch. Caregiver describes Belfrau; female pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 279,
+      "group_ids": [
+        "00:00065:text:00028d46",
+        "00:00065:text:00028d56"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Miss is a polite address; Belfrau is the canonical glossary spelling."
+      ],
+      "glossary_ids": [
+        "character.belfrau"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028d56": {
+      "id": "00:00065:text:00028d56",
+      "source_offset": 167254,
+      "source_sha256": "48329d97b9bfe08e35d9ac3d4c564e680bd941396a39ac51119c155a9233b54a",
+      "reference_instructions": [
+        90932
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 73,
+      "opening_row": 553,
+      "text": "is fiercely competitive.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Belfrau branch. Caregiver describes Belfrau; female pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 279,
+      "group_ids": [
+        "00:00065:text:00028d46",
+        "00:00065:text:00028d56"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "Competitive renders the strong drive not to lose; not an invented sport or competition."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028d6c": {
+      "id": "00:00065:text:00028d6c",
+      "source_offset": 167276,
+      "source_sha256": "ab7ac97e3d288cddabb03c14faca3ab9c924953f1addd5db01639c8b4efae2be",
+      "reference_instructions": [
+        90968
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 74,
+      "opening_row": 554,
+      "text": "She can be, well,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Belfrau branch. Caregiver describes Belfrau; female pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 280,
+      "group_ids": [
+        "00:00065:text:00028d6c",
+        "00:00065:text:00028d7e",
+        "00:00065:text:00028d94"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028d7e": {
+      "id": "00:00065:text:00028d7e",
+      "source_offset": 167294,
+      "source_sha256": "6b36d5c2c9831ff57d0c4da4028b17fcb656e5916525d444e570b20b53715b7e",
+      "reference_instructions": [
+        90976
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 75,
+      "opening_row": 555,
+      "text": "a little too",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Belfrau branch. Caregiver describes Belfrau; female pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 280,
+      "group_ids": [
+        "00:00065:text:00028d6c",
+        "00:00065:text:00028d7e",
+        "00:00065:text:00028d94"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028d94": {
+      "id": "00:00065:text:00028d94",
+      "source_offset": 167316,
+      "source_sha256": "9070f1a6bd3ee8e83e5587879cefebaa225332e0f05e7cee56dce463fe700f6c",
+      "reference_instructions": [
+        90984
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 76,
+      "opening_row": 556,
+      "text": "selfish.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Belfrau branch. Caregiver describes Belfrau; female pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 280,
+      "group_ids": [
+        "00:00065:text:00028d6c",
+        "00:00065:text:00028d7e",
+        "00:00065:text:00028d94"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028da2": {
+      "id": "00:00065:text:00028da2",
+      "source_offset": 167330,
+      "source_sha256": "6bc07e6a4d9ab4271f1e3ca77412e586b1ea41e6114ede28d98a939bf0c4df9a",
+      "reference_instructions": [
+        91020
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 77,
+      "opening_row": 557,
+      "text": "She finds it difficult",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Belfrau branch. Caregiver describes Belfrau; female pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 281,
+      "group_ids": [
+        "00:00065:text:00028da2",
+        "00:00065:text:00028dbc"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028dbc": {
+      "id": "00:00065:text:00028dbc",
+      "source_offset": 167356,
+      "source_sha256": "6023c7bc3100531909da4ea31f2dc660811eb8ca95a174f0d271d026cbcde6d4",
+      "reference_instructions": [
+        91028
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 78,
+      "opening_row": 558,
+      "text": "to accept anything that doesn't suit her.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Belfrau branch. Caregiver describes Belfrau; female pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 281,
+      "group_ids": [
+        "00:00065:text:00028da2",
+        "00:00065:text:00028dbc"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028dd4": {
+      "id": "00:00065:text:00028dd4",
+      "source_offset": 167380,
+      "source_sha256": "1e832e0d704a14e3598cca78ea949e0d19080f58a234450697592aa89223df4a",
+      "reference_instructions": [
+        91064
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 79,
+      "opening_row": 559,
+      "text": "Especially with men,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Belfrau branch. Caregiver describes Belfrau; female pronouns follow verified glossary and explicit referent.",
+      "sentence_group": 282,
+      "group_ids": [
+        "00:00065:text:00028dd4",
+        "00:00065:text:00028de8",
+        "00:00065:text:00028dfe"
+      ],
+      "display_group_kind": "dialogue",
+      "display_helper_word": 2030,
+      "notes": [
+        "The final assigned row begins a group ending at rows560-561; apply only with its coordinated continuation."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "integration_requires": "coordinated_group_282"
+    }
+  },
+  "acceptance": {
+    "meaning": "Self-reviewed draft; independent review pending.",
+    "names": "Canonical glossary consulted; scripted normalization still follows meaning review.",
+    "layout": "No shortening for bytes, rows or current choice width; reflow/runtime verification pending.",
+    "runtime": "No ISO or emulator state changed.",
+    "production_ready": false
+  }
+}

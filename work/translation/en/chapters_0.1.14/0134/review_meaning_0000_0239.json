@@ -1,0 +1,151 @@
+{
+  "resource_id": "00:00134",
+  "review_type": "independent_meaning_review",
+  "semantic_complete": true,
+  "reviewed_slices": [
+    {
+      "target_file": "work/translation/en/chapters_0.1.14/0134/slice_0000.targets.json",
+      "target_file_sha256": "7f7db82beb1c5d466c4465c22649475eed338335b9148b1a54301455510e9e96",
+      "assigned_range": [
+        0,
+        79
+      ],
+      "translation_count": 80,
+      "rows_examined": {
+        "physical_ranges_inclusive": [
+          [
+            1800,
+            2055
+          ]
+        ],
+        "count": 256
+      }
+    },
+    {
+      "target_file": "work/translation/en/chapters_0.1.14/0134/slice_0080.targets.json",
+      "target_file_sha256": "993313966a5562ba120a19ae9ad01a98d9827f486bfefafbd8af40a075e8e88a",
+      "assigned_range": [
+        80,
+        159
+      ],
+      "translation_count": 80,
+      "rows_examined": {
+        "physical_ranges_inclusive": [
+          [
+            1800,
+            2055
+          ]
+        ],
+        "count": 256
+      }
+    },
+    {
+      "target_file": "work/translation/en/chapters_0.1.14/0134/slice_0160.targets.json",
+      "target_file_sha256": "9ad809eb4fca4f6bc3e304eab1d382af9b9c6fbc5c297ebb1cd8564701efbdcd",
+      "assigned_range": [
+        160,
+        239
+      ],
+      "translation_count": 80,
+      "rows_examined": {
+        "physical_ranges_inclusive": [
+          [
+            1800,
+            2055
+          ]
+        ],
+        "count": 256
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "resource_row": 6,
+      "id": "00:00134:text:0002efc0",
+      "source_sha256": "1e510235764d01237936f0e4e9a1d8adc455f91bad74a639d8f42bbeec7f64f7",
+      "text": "As for the lumber we cut,"
+    },
+    {
+      "resource_row": 7,
+      "id": "00:00134:text:0002efd4",
+      "source_sha256": "e61fdfa0d0fe87599c9d9a62a5e7e41a2aa319e76053639a23a8020752b42762",
+      "text": "I trimmed off all the branches,"
+    },
+    {
+      "resource_row": 8,
+      "id": "00:00134:text:0002efe6",
+      "source_sha256": "52120d1f801c080850cecb1e82731b06a3d90f789481301264b000b180b2aa18",
+      "text": "just as you asked."
+    },
+    {
+      "resource_row": 33,
+      "id": "00:00134:text:0002f1c6",
+      "source_sha256": "649827d0cde61517dbe07f73068a9a33ae623114ce81c3f9b5256594f7f722f5",
+      "text": "of my home in the countryside..."
+    },
+    {
+      "resource_row": 61,
+      "id": "00:00134:text:0002f3c8",
+      "source_sha256": "4276ea42ab0d110b36f2878b502f6046edf4fd15391d22352020731b15e6f106",
+      "text": "Drinking that"
+    },
+    {
+      "resource_row": 62,
+      "id": "00:00134:text:0002f3de",
+      "source_sha256": "51eb093aa40136a943f44935eca46d7c5bf6a3bb9b3e4bb819070ac8900d5865",
+      "text": "quickly is bad for you..."
+    },
+    {
+      "resource_row": 64,
+      "id": "00:00134:text:0002f3fc",
+      "source_sha256": "4276ea42ab0d110b36f2878b502f6046edf4fd15391d22352020731b15e6f106",
+      "text": "Drinking that"
+    },
+    {
+      "resource_row": 65,
+      "id": "00:00134:text:0002f412",
+      "source_sha256": "f95bc56fa4c4209e6e0500b19cba89ca8a87839fae0071beeaa0a8c97055d1d0",
+      "text": "quickly is bad for you..."
+    },
+    {
+      "resource_row": 83,
+      "id": "00:00134:text:0002f576",
+      "source_sha256": "e5e3087e1819edf2e6a7851fe438d77a7b3a50a319f42b32b67d258a3ed4b393",
+      "text": "So that's why you were dehydrated."
+    },
+    {
+      "resource_row": 157,
+      "id": "00:00134:text:0002fb14",
+      "source_sha256": "4674fbb7e2b05edc971b4ad1c89e615315b57c2692b182b059b76c53c5ded1b4",
+      "text": "No, even they"
+    },
+    {
+      "resource_row": 158,
+      "id": "00:00134:text:0002fb24",
+      "source_sha256": "ee800e9d88c94863f2807c8f6e8ffdfb6a2de990e4abd4defe405726fa641d31",
+      "text": "didn't have those..."
+    },
+    {
+      "resource_row": 163,
+      "id": "00:00134:text:0002fb82",
+      "source_sha256": "622d9f51f4276ea48a0afc07341e4b6bc805b6197fa9eb88ae8587c68373d295",
+      "text": "said she was good"
+    },
+    {
+      "resource_row": 164,
+      "id": "00:00134:text:0002fb98",
+      "source_sha256": "dc7d2603e1bc858d86bec6bfb292760bf2b93e6f3d777143cca30a78d9801e02",
+      "text": "with guns, didn't she?"
+    }
+  ],
+  "uncertainties": [
+    {
+      "resource_rows": [
+        165,
+        166
+      ],
+      "note": "She dropped it retained: neighboring remark and Sonolar reply support another speaker referring to her."
+    }
+  ],
+  "method": "Independently read all 240 source rows alongside earlier targets with eight context rows before and after the scope. Corrected harmful-versus-poison mistranslation, omitted hometown nuance, unclear gun-shop reply, and referent clarity; left acceptable alternatives unchanged."
+}

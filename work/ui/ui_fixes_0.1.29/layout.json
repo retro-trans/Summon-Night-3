@@ -1,0 +1,43 @@
+{
+  "version": "0.1.29",
+  "native_screen": [
+    480,
+    272
+  ],
+  "fields": [
+    "name",
+    "class",
+    "attack",
+    "stance"
+  ],
+  "support": {
+    "origin_x": 124,
+    "glyph_scale": 0.875,
+    "native_chunk_cells": 8,
+    "source": "Search for ingredients."
+  },
+  "shortcut_icons": [
+    {
+      "button": "circle",
+      "label": "Deploy",
+      "cell_index": 0,
+      "old_offset": 0,
+      "new_offset": 0
+    },
+    {
+      "button": "triangle",
+      "label": "Status/Gear",
+      "cell_index": 8,
+      "old_offset": 104,
+      "new_offset": 67.25
+    },
+    {
+      "button": "cross",
+      "label": "Map",
+      "cell_index": 21,
+      "old_offset": 273,
+      "new_offset": 182.625
+    }
+  ],
+  "coordinate_note": "Icon offsets are relative to the unchanged native row anchor; vertical positions unchanged."
+}

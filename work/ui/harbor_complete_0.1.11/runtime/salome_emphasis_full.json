@@ -1,0 +1,94 @@
+{
+  "state": {
+    "pc": 2070,
+    "native": "0x3052",
+    "lines": [
+      {
+        "id": "harbor_complete_585_586_587:page:0:line:0",
+        "text": "But this time, we cannot",
+        "rendered": "But this time, we cannot",
+        "pointer": "0x8dc4bde",
+        "units": 24,
+        "selectable": false,
+        "choice": 4294967295,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "harbor_complete_585_586_587:page:0:line:1",
+        "text": "allow that to happen!",
+        "rendered": "allow that to happen!",
+        "pointer": "0x8dc4c10",
+        "units": 21,
+        "selectable": false,
+        "choice": 4294967295,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "choice": false
+  },
+  "capture": {
+    "method": "software VRAM at sceDisplaySetFrameBuf",
+    "game": {
+      "id": "NPJH50380",
+      "version": "2.00",
+      "title": "\u30b5\u30e2\u30f3\u30ca\u30a4\u30c8\uff13"
+    },
+    "framebuffer_address": "0x4000000",
+    "stride_pixels": 512,
+    "pixel_format": 1,
+    "width": 480,
+    "height": 272,
+    "sync": 0,
+    "display_import_address": "0x8a17b9c",
+    "png_bytes": 110970,
+    "png_sha256": "90707e6de9be4baf3e48e6bbf40d35ca43b1ff79ffb6e046561b7854d804cf61",
+    "cpu_left_stepping": true
+  }
+}

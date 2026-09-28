@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "resource_id": "00:00065",
+  "target_file": "opening_000.targets.json",
+  "review_type": "translator_self_review",
+  "independent_review": false,
+  "in_game_validation": false,
+  "rows_in_slice": 80,
+  "rows_examined": 132,
+  "context_rows_before": 21,
+  "context_rows_after": 31,
+  "context_instruction_range": [
+    75280,
+    78916
+  ],
+  "drafted_rows": 79,
+  "unresolved_rows": 1,
+  "review_findings": [
+    {
+      "severity": "information",
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "finding": "Read all assigned source rows, 21 preceding rows and 31 following rows directly from original decoded resource. No source transcript persisted. The preceding compiled scene is a different function; source adjacency alone is not chronological adjacency. The current scene entry and branches were inspected in the VM instructions."
+    },
+    {
+      "severity": "information",
+      "rows": [
+        66,
+        67,
+        68
+      ],
+      "finding": "Three choice labels verified by helper2012 -> native0x3050 with mode1 and choice IDs0,1,2, then helper2315 -> native0x3052. They are not dialogue spoken by a character. Choice0 and choice1 are offered on alternative paths; choice2 follows either. Their leading U+3000 is retained."
+    },
+    {
+      "severity": "review_needed",
+      "rows": [
+        12,
+        13
+      ],
+      "finding": "Literal inherited-me wording is intentionally unusual. The speaker identity and nature of the succession remain unspecified in this slice, so no power, title, or gender was supplied. Review together with later dream context before acceptance."
+    },
+    {
+      "severity": "review_needed",
+      "rows": [
+        0,
+        14
+      ],
+      "finding": "Both voice variants begin mid-phrase. English cut-ins preserve incompleteness; the exact audible cut point requires voice synchronization review."
+    },
+    {
+      "severity": "review_needed",
+      "rows": [
+        68
+      ],
+      "finding": "The choice label means trivial/worthless matters. Trivial things is semantically conservative; tone may need checking when this optional branch is translated."
+    },
+    {
+      "severity": "unresolved",
+      "rows": [
+        79
+      ],
+      "finding": "The final assigned row belongs to a sentence whose predicate is in out-of-slice row80. Row79 is null to prevent an English fragment requiring an unreviewed repartition of the next slice. Row78 is drafted but flagged against isolated insertion."
+    }
+  ],
+  "terminology": [
+    {
+      "glossary_id": "organization.empire",
+      "target": "Empire",
+      "evidence_url": "https://summonnight.fandom.com/wiki/Rexx",
+      "evidence_note": "Orchestrator researched on 2026-09-26; source refers to the Empire without an expanded name. Imperial capital and military academy remain descriptive."
+    }
+  ],
+  "token_review": {
+    "control_bytes_in_slice": 0,
+    "runtime_placeholder_symbols_in_slice": [],
+    "preserved_layout_characters": {
+      "U+3000": [
+        66,
+        67,
+        68
+      ]
+    },
+    "punctuation_note": "Japanese visible punctuation rendered as ordinary English punctuation. Source ellipses, hesitation, interrupted onset, and emphasis are retained in meaning. No runtime placeholder was encountered in the assigned80 rows; the triangle token seen in preceding context is outside this slice."
+  },
+  "safe_rendering_pilot": {
+    "ids": [
+      "00:00065:text:0002646e",
+      "00:00065:text:0002647c",
+      "00:00065:text:00026488"
+    ],
+    "texts": [
+      "...waken.",
+      "Huh...?",
+      "Now, awaken..."
+    ],
+    "why": "First three individually displayed lines in global150==0 dream path. No unresolved name, runtime placeholder, or cross-row sentence dependency. Row0 is intentionally a fragment. Row2 is a complete imperative and should be used for expanded-string proof."
+  },
+  "acceptance": {
+    "meaning": "self-reviewed draft only",
+    "names": "No person names in this slice; Empire sourced by orchestrator. No scripted name normalization applied.",
+    "layout": "No shortening for byte or line limits. No width acceptance claimed.",
+    "branches": "Source branches preserved as distinct IDs; no identical-source deduplication.",
+    "runtime": "Not loaded or displayed by this agent."
+  }
+}

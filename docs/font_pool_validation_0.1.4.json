@@ -1,0 +1,59 @@
+{
+  "checked_at_utc": "2026-09-26T06:58:08.600721+00:00",
+  "profile": "latin_ink_spacing_pool192_v2",
+  "patched_elf_sha256": "f0c6586f56db26e1ecad0e79858396b8078552bed47b838b52edd91c5cddceb6",
+  "hook_lifecycle_runs": 34,
+  "separate_allocations_constructed_and_freed": 12,
+  "two_live_contexts_independent": true,
+  "null_allocation_trapped": true,
+  "saved_registers_and_stack_preserved": true,
+  "boundary_cases": [
+    {
+      "glyphs": 64,
+      "capacity": 64,
+      "accepted": true
+    },
+    {
+      "glyphs": 65,
+      "capacity": 64,
+      "accepted": false
+    },
+    {
+      "glyphs": 69,
+      "capacity": 64,
+      "accepted": false
+    },
+    {
+      "glyphs": 65,
+      "capacity": 192,
+      "accepted": true
+    },
+    {
+      "glyphs": 69,
+      "capacity": 192,
+      "accepted": true
+    },
+    {
+      "glyphs": 93,
+      "capacity": 192,
+      "accepted": true
+    },
+    {
+      "glyphs": 192,
+      "capacity": 192,
+      "accepted": true
+    },
+    {
+      "glyphs": 193,
+      "capacity": 192,
+      "accepted": false
+    }
+  ],
+  "input_sha256": {
+    "tools/font_patch.py": "ac375fe5129c08218325d87ab5dc40d2dc3e0923989623d7c64600c5a305cfaa",
+    "tools/verify_font_patch.py": "6490cb86ce29a8d54822d071186fd6cb9d314194ce5cce2e2fb6c0110a2d9534",
+    "tools/verify_font_pool.py": "f6abda15c344a0db70f849357c42aa2507ae9bf8df14ada1722acc81479f8f4e",
+    "tools/dialogue_layout.py": "24595a3d0f81cfe54b3c95c54e6602443eee24b0340df248ced0bfe4aeeb1685"
+  },
+  "scope_limit": "Actual emitted MIPS with checked models of native allocation/constructor/cache/destructor contracts. Real heap, rendering, scene transitions and save/load still require runtime evidence."
+}

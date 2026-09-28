@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "version": "0.1.5",
+  "selected_rows": 609,
+  "retained_japanese_rows_in_scope": 32,
+  "excluded_groups": [
+    {
+      "opening_rows": [
+        456,
+        457,
+        458
+      ],
+      "reason": "Complete menu retained in Japanese: long choice exceeds the current single-line layout limit."
+    },
+    {
+      "opening_rows": [
+        459,
+        460,
+        461
+      ],
+      "reason": "Complete menu retained in Japanese: long choice exceeds the current single-line layout limit."
+    },
+    {
+      "opening_rows": [
+        487,
+        488,
+        489
+      ],
+      "reason": "Complete menu retained in Japanese: long choice exceeds the current single-line layout limit."
+    },
+    {
+      "opening_rows": [
+        490,
+        491,
+        492
+      ],
+      "reason": "Complete menu retained in Japanese: long choice exceeds the current single-line layout limit."
+    },
+    {
+      "opening_rows": [
+        200
+      ],
+      "reason": "Special display helper has no accepted layout profile."
+    },
+    {
+      "opening_rows": [
+        201
+      ],
+      "reason": "Special display helper has no accepted layout profile."
+    },
+    {
+      "opening_rows": [
+        202
+      ],
+      "reason": "Special display helper has no accepted layout profile."
+    },
+    {
+      "opening_rows": [
+        203,
+        204
+      ],
+      "reason": "Musical-note glyph has no validated metric in the existing layout profile."
+    },
+    {
+      "opening_rows": [
+        240,
+        241,
+        242
+      ],
+      "reason": "Meaning unresolved; original Japanese preserved."
+    },
+    {
+      "opening_rows": [
+        330,
+        331,
+        332
+      ],
+      "reason": "Runtime player-name expansion needs a measured layout profile."
+    },
+    {
+      "opening_rows": [
+        585,
+        586,
+        587
+      ],
+      "reason": "Special display helper has no accepted layout profile."
+    },
+    {
+      "opening_rows": [
+        591,
+        592,
+        593
+      ],
+      "reason": "Special display helper has no accepted layout profile."
+    },
+    {
+      "opening_rows": [
+        594,
+        595,
+        596
+      ],
+      "reason": "Special display helper has no accepted layout profile."
+    }
+  ],
+  "reflow_groups": 188,
+  "additional_pages": 41,
+  "decoded_script_bytes": 234726,
+  "decoded_script_sha256": "b301c3206442bc262546fd4d237bd1d332615147e4d0eba565080756fe500cca",
+  "max_page_glyphs": 76,
+  "all_generated_pages_simulated": true,
+  "unchanged_branch_and_menu_code_verified": true,
+  "excluded_source_references_unchanged": true,
+  "runtime_verified": false,
+  "menu_layout_evidence": [
+    {
+      "rows": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "measured": [
+        {
+          "opening_row": 65,
+          "text": "Let's see...",
+          "cells": 12,
+          "pixels": 89
+        },
+        {
+          "opening_row": 66,
+          "text": "　About myself",
+          "cells": 13,
+          "pixels": 117
+        },
+        {
+          "opening_row": 67,
+          "text": "　Recent events",
+          "cells": 14,
+          "pixels": 132
+        },
+        {
+          "opening_row": 68,
+          "text": "　Trivial things",
+          "cells": 15,
+          "pixels": 113
+        }
+      ],
+      "included": true,
+      "policy": "Keep original menu code, option IDs and spacing; conservative 208px/31-cell single-line limit."
+    },
+    {
+      "rows": [
+        176,
+        177,
+        178
+      ],
+      "measured": [
+        {
+          "opening_row": 176,
+          "text": "If I remember right...",
+          "cells": 22,
+          "pixels": 162
+        },
+        {
+          "opening_row": 177,
+          "text": "　A boy, wasn't it?",
+          "cells": 18,
+          "pixels": 146
+        },
+        {
+          "opening_row": 178,
+          "text": "　A girl, wasn't it?",
+          "cells": 19,
+          "pixels": 140
+        }
+      ],
+      "included": true,
+      "policy": "Keep original menu code, option IDs and spacing; conservative 208px/31-cell single-line limit."
+    },
+    {
+      "rows": [
+        179,
+        180,
+        181
+      ],
+      "measured": [
+        {
+          "opening_row": 179,
+          "text": "If I remember right...",
+          "cells": 22,
+          "pixels": 162
+        },
+        {
+          "opening_row": 180,
+          "text": "　Was it a boy?",
+          "cells": 14,
+          "pixels": 119
+        },
+        {
+          "opening_row": 181,
+          "text": "　Maybe it was a girl?",
+          "cells": 21,
+          "pixels": 171
+        }
+      ],
+      "included": true,
+      "policy": "Keep original menu code, option IDs and spacing; conservative 208px/31-cell single-line limit."
+    },
+    {
+      "rows": [
+        394,
+        395,
+        396
+      ],
+      "measured": [
+        {
+          "opening_row": 394,
+          "text": "If I had to choose...",
+          "cells": 21,
+          "pixels": 152
+        },
+        {
+          "opening_row": 395,
+          "text": "　Martial arts.",
+          "cells": 14,
+          "pixels": 104
+        },
+        {
+          "opening_row": 396,
+          "text": "　Summoning.",
+          "cells": 11,
+          "pixels": 103
+        }
+      ],
+      "included": true,
+      "policy": "Keep original menu code, option IDs and spacing; conservative 208px/31-cell single-line limit."
+    },
+    {
+      "rows": [
+        456,
+        457,
+        458
+      ],
+      "measured": [
+        {
+          "opening_row": 456,
+          "text": "Surely...",
+          "cells": 9,
+          "pixels": 63
+        },
+        {
+          "opening_row": 457,
+          "text": "　Maybe he's mischievous?",
+          "cells": 24,
+          "pixels": 219
+        },
+        {
+          "opening_row": 458,
+          "text": "　He seems polite, so it'll be fine.",
+          "cells": 35,
+          "pixels": 262
+        }
+      ],
+      "included": false,
+      "policy": "Keep original menu code, option IDs and spacing; conservative 208px/31-cell single-line limit."
+    },
+    {
+      "rows": [
+        459,
+        460,
+        461
+      ],
+      "measured": [
+        {
+          "opening_row": 459,
+          "text": "Surely...",
+          "cells": 9,
+          "pixels": 63
+        },
+        {
+          "opening_row": 460,
+          "text": "　Maybe he's mischievous?",
+          "cells": 24,
+          "pixels": 219
+        },
+        {
+          "opening_row": 461,
+          "text": "　It'll be fine. I can manage.",
+          "cells": 29,
+          "pixels": 209
+        }
+      ],
+      "included": false,
+      "policy": "Keep original menu code, option IDs and spacing; conservative 208px/31-cell single-line limit."
+    },
+    {
+      "rows": [
+        487,
+        488,
+        489
+      ],
+      "measured": [
+        {
+          "opening_row": 487,
+          "text": "Surely...",
+          "cells": 9,
+          "pixels": 63
+        },
+        {
+          "opening_row": 488,
+          "text": "　Probably a refined young lady.",
+          "cells": 31,
+          "pixels": 253
+        },
+        {
+          "opening_row": 489,
+          "text": "　Let's not overthink it.",
+          "cells": 24,
+          "pixels": 182
+        }
+      ],
+      "included": false,
+      "policy": "Keep original menu code, option IDs and spacing; conservative 208px/31-cell single-line limit."
+    },
+    {
+      "rows": [
+        490,
+        491,
+        492
+      ],
+      "measured": [
+        {
+          "opening_row": 490,
+          "text": "Surely...",
+          "cells": 9,
+          "pixels": 63
+        },
+        {
+          "opening_row": 491,
+          "text": "　She must be a well-mannered young lady.",
+          "cells": 40,
+          "pixels": 352
+        },
+        {
+          "opening_row": 492,
+          "text": "　I'll meet her and talk first.",
+          "cells": 30,
+          "pixels": 213
+        }
+      ],
+      "included": false,
+      "policy": "Keep original menu code, option IDs and spacing; conservative 208px/31-cell single-line limit."
+    }
+  ],
+  "samples": [
+    {
+      "id": "harbor_rows_109_110",
+      "text": "That's right... I'm sure I was on a ship!",
+      "pages": [
+        [
+          "That's right... I'm sure I",
+          "was on a ship!"
+        ]
+      ]
+    },
+    {
+      "id": "harbor_rows_121_122_123",
+      "text": "Still, it's cold. And now I'm even starting to feel hungry.",
+      "pages": [
+        [
+          "Still, it's cold. And now",
+          "I'm even starting to feel",
+          "hungry."
+        ]
+      ]
+    },
+    {
+      "id": "harbor_rows_158_159_160",
+      "text": "Still, it all happened so suddenly that it really surprised me.",
+      "pages": [
+        [
+          "Still, it all happened so",
+          "suddenly that it really",
+          "surprised me."
+        ]
+      ]
+    },
+    {
+      "id": "harbor_rows_398_399_400",
+      "text": "If I learned how to fight, I could protect everyone...",
+      "pages": [
+        [
+          "If I learned how to fight, I",
+          "could protect everyone..."
+        ]
+      ]
+    }
+  ]
+}

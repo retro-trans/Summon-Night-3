@@ -1,0 +1,1384 @@
+{
+  "version": "0.1.27",
+  "elf": {
+    "profile": "battle_elf_patch_0.1.13",
+    "baseline_elf_sha256": "0e80871ea4e69e565701674eb5771287295dfab6f5e192f29ab3616059cc1331",
+    "patched_elf_sha256": "5e19aa670ed6097b04a4ddf74fe1ba5e3d379bba4e89c671087d72421f466177",
+    "source_bytes": 7718728,
+    "patched_bytes": 7727608,
+    "targets_total": 23,
+    "targets_patched": 23,
+    "targets_skipped": 0,
+    "skipped": [],
+    "entries": [
+      {
+        "id": "elf:ui:00217484",
+        "module_address": "0x2173c4",
+        "source_offset": 2192516,
+        "source_sha256": "89044fe4764bd8b4d7a8fbde1bb68440974ab629c45c74795f0359ad43193aa3",
+        "target_variant": "full",
+        "target_text": "Craft summons\uff3b",
+        "display_text": "\uff23\uff52\uff41\uff46\uff54\u3000\uff53\uff55\uff4d\uff4d\uff4f\uff4e\uff53\uff3b",
+        "encoded_bytes": 30,
+        "bundle_bytes": 32,
+        "unreferenced_tails": [],
+        "new_address": "0x34a44c",
+        "new_file_offset": 8565708,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x66948",
+            "low": "0x66958",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00217498",
+        "module_address": "0x2173d8",
+        "source_offset": 2192536,
+        "source_sha256": "49414ad3949deaba8d49e24440331252c6603584c7143b855af508c7cf5ce2c1",
+        "target_variant": "full",
+        "target_text": "/",
+        "display_text": "\uff0f",
+        "encoded_bytes": 4,
+        "bundle_bytes": 4,
+        "unreferenced_tails": [],
+        "new_address": "0x34a46c",
+        "new_file_offset": 8565740,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x6695c",
+            "low": "0x6697c",
+            "register": "0x17"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021749c",
+        "module_address": "0x2173dc",
+        "source_offset": 2192540,
+        "source_sha256": "888364e9d574904c2ffccd4f5013f550fd5fe84336b2a4d321cd7e15e4611f7e",
+        "target_variant": "full",
+        "target_text": "Machine",
+        "display_text": "\uff2d\uff41\uff43\uff48\uff49\uff4e\uff45",
+        "encoded_bytes": 16,
+        "bundle_bytes": 16,
+        "unreferenced_tails": [],
+        "new_address": "0x34a470",
+        "new_file_offset": 8565744,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x66960",
+            "low": "0x66980",
+            "register": "0x16"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002174a0",
+        "module_address": "0x2173e0",
+        "source_offset": 2192544,
+        "source_sha256": "fabbcca22dea388655816c8379934ddafc5ede2cda9c2386715b715ca800a59a",
+        "target_variant": "full",
+        "target_text": "Oni",
+        "display_text": "\uff2f\uff4e\uff49",
+        "encoded_bytes": 8,
+        "bundle_bytes": 8,
+        "unreferenced_tails": [],
+        "new_address": "0x34a480",
+        "new_file_offset": 8565760,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x66964",
+            "low": "0x66984",
+            "register": "0x15"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002174a4",
+        "module_address": "0x2173e4",
+        "source_offset": 2192548,
+        "source_sha256": "765d634974ab9e9922188e995481f73328ccaa370a1f71b5a89bd4d189435a6d",
+        "target_variant": "full",
+        "target_text": "Spirit",
+        "display_text": "\uff33\uff50\uff49\uff52\uff49\uff54",
+        "encoded_bytes": 14,
+        "bundle_bytes": 14,
+        "unreferenced_tails": [],
+        "new_address": "0x34a488",
+        "new_file_offset": 8565768,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x66968",
+            "low": "0x66988",
+            "register": "0x14"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002174a8",
+        "module_address": "0x2173e8",
+        "source_offset": 2192552,
+        "source_sha256": "0777cf23e00730a285eaee384df6161e36a0303bf672ef59a29b003a6219b97d",
+        "target_variant": "full",
+        "target_text": "Beast",
+        "display_text": "\uff22\uff45\uff41\uff53\uff54",
+        "encoded_bytes": 12,
+        "bundle_bytes": 12,
+        "unreferenced_tails": [],
+        "new_address": "0x34a498",
+        "new_file_offset": 8565784,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x6696c",
+            "low": "0x6698c",
+            "register": "0x13"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002174ac",
+        "module_address": "0x2173ec",
+        "source_offset": 2192556,
+        "source_sha256": "89072dc51f3e6f444435db636413c28bb46c3fee6c590aa14bd1c57d757888f7",
+        "target_variant": "full",
+        "target_text": "Neutral",
+        "display_text": "\uff2e\uff45\uff55\uff54\uff52\uff41\uff4c",
+        "encoded_bytes": 16,
+        "bundle_bytes": 16,
+        "unreferenced_tails": [],
+        "new_address": "0x34a4a4",
+        "new_file_offset": 8565796,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x66970",
+            "low": "0x66990",
+            "register": "0x12"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002174b0",
+        "module_address": "0x2173f0",
+        "source_offset": 2192560,
+        "source_sha256": "935b5506a707fb195627720afc1cbdef6b9f2f47b11b70646eb53aa58f6026bf",
+        "target_variant": "full",
+        "target_text": "\uff3d",
+        "display_text": "\uff3d",
+        "encoded_bytes": 4,
+        "bundle_bytes": 8196,
+        "unreferenced_tails": [],
+        "new_address": "0x34a4b4",
+        "new_file_offset": 8565812,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x66a70",
+            "low": "0x66a80",
+            "register": "0x6"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002194b8",
+        "module_address": "0x2193f8",
+        "source_offset": 2200760,
+        "source_sha256": "4028cb3398278f6d56c1bd9fd7a0856f42adf5f71d00d71cbb0340450f0923ac",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: All",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff21\uff4c\uff4c",
+        "encoded_bytes": 34,
+        "bundle_bytes": 34,
+        "unreferenced_tails": [],
+        "new_address": "0x34c4b8",
+        "new_file_offset": 8574008,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x695f4",
+            "low": "0x695fc",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002194c8",
+        "module_address": "0x219408",
+        "source_offset": 2200776,
+        "source_sha256": "315214bfff2f72b49e6f5774c0b8631fb7366b5482b826805a3a6668a972bf53",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: O/S/B",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff2f\uff0f\uff33\uff0f\uff22",
+        "encoded_bytes": 38,
+        "bundle_bytes": 38,
+        "unreferenced_tails": [],
+        "new_address": "0x34c4dc",
+        "new_file_offset": 8574044,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x69628",
+            "low": "0x69630",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002194dc",
+        "module_address": "0x21941c",
+        "source_offset": 2200796,
+        "source_sha256": "4fc1fff4690ea76bfbface0b9d64dd6ea2f681892fdac5d8c5ac72181dbef409",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: M/S/B",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff2d\uff0f\uff33\uff0f\uff22",
+        "encoded_bytes": 38,
+        "bundle_bytes": 38,
+        "unreferenced_tails": [],
+        "new_address": "0x34c504",
+        "new_file_offset": 8574084,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x6965c",
+            "low": "0x69664",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002194f0",
+        "module_address": "0x219430",
+        "source_offset": 2200816,
+        "source_sha256": "0ea97af3e311d9d063985cd97e9692949b24badc1be0cdc130eded4bca12c71f",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: M/O/B",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff2d\uff0f\uff2f\uff0f\uff22",
+        "encoded_bytes": 38,
+        "bundle_bytes": 38,
+        "unreferenced_tails": [],
+        "new_address": "0x34c52c",
+        "new_file_offset": 8574124,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x69688",
+            "low": "0x69690",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00219504",
+        "module_address": "0x219444",
+        "source_offset": 2200836,
+        "source_sha256": "a681cb4b29d3da8e8056ff588a2813bffbe46fdc483640643e9510f047a2f8f6",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: M/O/S",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff2d\uff0f\uff2f\uff0f\uff33",
+        "encoded_bytes": 38,
+        "bundle_bytes": 38,
+        "unreferenced_tails": [],
+        "new_address": "0x34c554",
+        "new_file_offset": 8574164,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x696b4",
+            "low": "0x696bc",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00219518",
+        "module_address": "0x219458",
+        "source_offset": 2200856,
+        "source_sha256": "5bfaa6ca6e437ab6b3f199ae8f7727e651e45e0e1307d62b2efec903d1b419d8",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: M/O",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff2d\uff0f\uff2f",
+        "encoded_bytes": 34,
+        "bundle_bytes": 36,
+        "unreferenced_tails": [],
+        "new_address": "0x34c57c",
+        "new_file_offset": 8574204,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x696e0",
+            "low": "0x696e8",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021952c",
+        "module_address": "0x21946c",
+        "source_offset": 2200876,
+        "source_sha256": "7f0b54bca23d8129c89b822a7e6fd1f642801e25287faf7e9e54b807b161f080",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: M/S",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff2d\uff0f\uff33",
+        "encoded_bytes": 34,
+        "bundle_bytes": 36,
+        "unreferenced_tails": [],
+        "new_address": "0x34c5a0",
+        "new_file_offset": 8574240,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x6970c",
+            "low": "0x69714",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00219540",
+        "module_address": "0x219480",
+        "source_offset": 2200896,
+        "source_sha256": "4ff1c825a8e34eba89d44504ec77553e14c966c270cb9e3c51129b4384757929",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: M/B",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff2d\uff0f\uff22",
+        "encoded_bytes": 34,
+        "bundle_bytes": 36,
+        "unreferenced_tails": [],
+        "new_address": "0x34c5c4",
+        "new_file_offset": 8574276,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x69738",
+            "low": "0x69740",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00219554",
+        "module_address": "0x219494",
+        "source_offset": 2200916,
+        "source_sha256": "077d99e20fa405ad6773f7734ed1f9dd0664d04f6812d84d7ee268647ef82acc",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: O/S",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff2f\uff0f\uff33",
+        "encoded_bytes": 34,
+        "bundle_bytes": 36,
+        "unreferenced_tails": [],
+        "new_address": "0x34c5e8",
+        "new_file_offset": 8574312,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x6976c",
+            "low": "0x69774",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00219568",
+        "module_address": "0x2194a8",
+        "source_offset": 2200936,
+        "source_sha256": "211e704ecc7ccfc1bcbf292d4470a04eafaca47afb8b41646348aed8d0a1fbee",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: O/B",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff2f\uff0f\uff22",
+        "encoded_bytes": 34,
+        "bundle_bytes": 36,
+        "unreferenced_tails": [],
+        "new_address": "0x34c60c",
+        "new_file_offset": 8574348,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x69798",
+            "low": "0x697a0",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:0021957c",
+        "module_address": "0x2194bc",
+        "source_offset": 2200956,
+        "source_sha256": "fc6798c2aa00fb2bcef29b81d4a96ddc6851ef5b9a37996eb44a895c7bca0a15",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: S/B",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff33\uff0f\uff22",
+        "encoded_bytes": 34,
+        "bundle_bytes": 36,
+        "unreferenced_tails": [],
+        "new_address": "0x34c630",
+        "new_file_offset": 8574384,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x697c4",
+            "low": "0x697cc",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:00219590",
+        "module_address": "0x2194d0",
+        "source_offset": 2200976,
+        "source_sha256": "7330b2585c503bf80fe5c8c95423905f194c752c0e73e4ef754418649226862f",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: Machine",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff2d\uff41\uff43\uff48\uff49\uff4e\uff45",
+        "encoded_bytes": 42,
+        "bundle_bytes": 42,
+        "unreferenced_tails": [],
+        "new_address": "0x34c654",
+        "new_file_offset": 8574420,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x697d4",
+            "low": "0x6981c",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002195a0",
+        "module_address": "0x2194e0",
+        "source_offset": 2200992,
+        "source_sha256": "5f531c7a741dc2a66a58a7fd5ed896fdea4e4761c8975ac8befa8e28210c28ae",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: Oni",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff2f\uff4e\uff49",
+        "encoded_bytes": 34,
+        "bundle_bytes": 34,
+        "unreferenced_tails": [],
+        "new_address": "0x34c680",
+        "new_file_offset": 8574464,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x697e0",
+            "low": "0x69814",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002195b0",
+        "module_address": "0x2194f0",
+        "source_offset": 2201008,
+        "source_sha256": "05340cec8bea8f7dae7eba3a7315f00540d3f0929392857ad63f5f4a3f04d604",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: Spirit",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff33\uff50\uff49\uff52\uff49\uff54",
+        "encoded_bytes": 40,
+        "bundle_bytes": 40,
+        "unreferenced_tails": [],
+        "new_address": "0x34c6a4",
+        "new_file_offset": 8574500,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x697ec",
+            "low": "0x6980c",
+            "register": "0x2"
+          }
+        ]
+      },
+      {
+        "id": "elf:ui:002195c0",
+        "module_address": "0x219500",
+        "source_offset": 2201024,
+        "source_sha256": "93870f425fac175b87dd9a393eb89cef1c894ddb73a015149bb9fae4c749ec18",
+        "target_variant": "full",
+        "target_text": "Pact Ritual: Beast",
+        "display_text": "\uff30\uff41\uff43\uff54\u3000\uff32\uff49\uff54\uff55\uff41\uff4c\uff1a\u3000\uff22\uff45\uff41\uff53\uff54",
+        "encoded_bytes": 38,
+        "bundle_bytes": 38,
+        "unreferenced_tails": [],
+        "new_address": "0x34c6cc",
+        "new_file_offset": 8574540,
+        "references": [
+          {
+            "kind": "hilo",
+            "high": "0x697fc",
+            "low": "0x69804",
+            "register": "0x2"
+          }
+        ]
+      }
+    ],
+    "added_segment": {
+      "index": 3,
+      "module_address": "0x32dbc0",
+      "file_offset": 7006656,
+      "old_bytes": 116876,
+      "new_bytes": 125756,
+      "appended_bytes": 8880
+    },
+    "relocation_segment": {
+      "index": 2,
+      "records_unchanged": true,
+      "old_file_offset": 7123536,
+      "new_file_offset": 7132416
+    },
+    "audit": {
+      "mapped_start_reference_count": 23,
+      "interior_reference_targets_skipped": 0,
+      "shared_hi16_pairs_proven_safe": 23,
+      "bundled_unreferenced_tail_count": 0,
+      "all_differences_allowlisted": true,
+      "allowed_changed_byte_count": 7223
+    },
+    "structural_checks": {
+      "program_header_count": 4,
+      "section_header_count": 63,
+      "load_ranges": [
+        {
+          "index": 0,
+          "start": "0x0",
+          "end": "0x22d37c"
+        },
+        {
+          "index": 1,
+          "start": "0x22d380",
+          "end": "0x32db8c"
+        },
+        {
+          "index": 3,
+          "start": "0x32dbc0",
+          "end": "0x34c6fc"
+        }
+      ]
+    },
+    "change_log": [
+      "Relocated only source-hash-verified battle literals with proven direct relocation references; preserved opaque prefixes/control tokens, existing hooks, and all existing relocation records."
+    ],
+    "notice_vwf": {
+      "code_address": "0x34c6fc",
+      "code_bytes": 192,
+      "labels": {
+        "notice_position": 0,
+        "native": 92,
+        "table": 100
+      },
+      "hooks": {
+        "0x1b670": "notice_position"
+      },
+      "new_relocations": [
+        [
+          112240,
+          4
+        ],
+        [
+          125760,
+          773
+        ],
+        [
+          125764,
+          774
+        ],
+        [
+          125788,
+          773
+        ],
+        [
+          125792,
+          774
+        ]
+      ],
+      "extra_relocation_records": [
+        [
+          32,
+          772
+        ],
+        [
+          112,
+          772
+        ],
+        [
+          136,
+          772
+        ],
+        [
+          160,
+          772
+        ],
+        [
+          232,
+          773
+        ],
+        [
+          236,
+          774
+        ],
+        [
+          328,
+          772
+        ],
+        [
+          360,
+          772
+        ],
+        [
+          400,
+          772
+        ],
+        [
+          496,
+          772
+        ],
+        [
+          516,
+          772
+        ],
+        [
+          548,
+          772
+        ],
+        [
+          604,
+          772
+        ],
+        [
+          624,
+          772
+        ],
+        [
+          644,
+          772
+        ],
+        [
+          664,
+          772
+        ],
+        [
+          1240,
+          772
+        ],
+        [
+          1284,
+          773
+        ],
+        [
+          1288,
+          774
+        ],
+        [
+          1316,
+          772
+        ],
+        [
+          1548,
+          772
+        ],
+        [
+          1868,
+          772
+        ],
+        [
+          1984,
+          773
+        ],
+        [
+          1988,
+          774
+        ],
+        [
+          106276,
+          772
+        ],
+        [
+          106312,
+          772
+        ],
+        [
+          106420,
+          772
+        ],
+        [
+          106464,
+          772
+        ],
+        [
+          106488,
+          772
+        ],
+        [
+          106584,
+          772
+        ],
+        [
+          106648,
+          772
+        ],
+        [
+          106816,
+          772
+        ],
+        [
+          106860,
+          773
+        ],
+        [
+          106864,
+          774
+        ],
+        [
+          106892,
+          772
+        ],
+        [
+          107124,
+          772
+        ],
+        [
+          107444,
+          772
+        ],
+        [
+          107560,
+          773
+        ],
+        [
+          107564,
+          774
+        ],
+        [
+          108440,
+          772
+        ],
+        [
+          108484,
+          773
+        ],
+        [
+          108488,
+          774
+        ],
+        [
+          108516,
+          772
+        ],
+        [
+          108748,
+          772
+        ],
+        [
+          108812,
+          772
+        ],
+        [
+          109132,
+          772
+        ],
+        [
+          109248,
+          773
+        ],
+        [
+          109252,
+          774
+        ],
+        [
+          110076,
+          773
+        ],
+        [
+          110080,
+          774
+        ],
+        [
+          110204,
+          772
+        ],
+        [
+          110220,
+          772
+        ],
+        [
+          110244,
+          772
+        ],
+        [
+          110288,
+          772
+        ],
+        [
+          110304,
+          772
+        ],
+        [
+          110328,
+          772
+        ],
+        [
+          115960,
+          772
+        ],
+        [
+          116000,
+          772
+        ],
+        [
+          116016,
+          772
+        ],
+        [
+          116068,
+          772
+        ],
+        [
+          116136,
+          772
+        ],
+        [
+          116164,
+          772
+        ],
+        [
+          116256,
+          772
+        ],
+        [
+          116280,
+          773
+        ],
+        [
+          116284,
+          774
+        ],
+        [
+          116396,
+          772
+        ],
+        [
+          116648,
+          772
+        ],
+        [
+          125760,
+          773
+        ],
+        [
+          125764,
+          774
+        ],
+        [
+          125788,
+          773
+        ],
+        [
+          125792,
+          774
+        ]
+      ],
+      "added_segment_file_offset": 7727616,
+      "added_segment_bytes": 125948,
+      "patched_elf_sha256": "993394a163653aba0085ad3df39820fce5e0331ffe32714539aae71760cef6ac",
+      "structure": {
+        "program_header_count": 4,
+        "section_header_count": 64,
+        "load_ranges": [
+          {
+            "index": 0,
+            "start": "0x0",
+            "end": "0x22d37c"
+          },
+          {
+            "index": 1,
+            "start": "0x22d380",
+            "end": "0x32db8c"
+          },
+          {
+            "index": 3,
+            "start": "0x32dbc0",
+            "end": "0x34c7bc"
+          }
+        ]
+      },
+      "profile": "tutorial_notice_proportional_positions",
+      "text": "Tutorials: see Gallery.",
+      "source_address": "0x34a038",
+      "native_glyph_scale": 0.875,
+      "ink_width_pixels": 154.0,
+      "scope": "Only the existing tutorial-notice text pointer; all other messages use native placement."
+    },
+    "help_dispatch": {
+      "code_address": "0x34c7bc",
+      "code_bytes": 80,
+      "labels": {
+        "help_dispatch": 0,
+        "native": 64,
+        "vwf": 72,
+        "table": 80
+      },
+      "hooks": {
+        "0x642c0": "help_dispatch"
+      },
+      "new_relocations": [
+        [
+          126020,
+          772
+        ]
+      ],
+      "extra_relocation_records": [
+        [
+          32,
+          772
+        ],
+        [
+          112,
+          772
+        ],
+        [
+          136,
+          772
+        ],
+        [
+          160,
+          772
+        ],
+        [
+          232,
+          773
+        ],
+        [
+          236,
+          774
+        ],
+        [
+          328,
+          772
+        ],
+        [
+          360,
+          772
+        ],
+        [
+          400,
+          772
+        ],
+        [
+          496,
+          772
+        ],
+        [
+          516,
+          772
+        ],
+        [
+          548,
+          772
+        ],
+        [
+          604,
+          772
+        ],
+        [
+          624,
+          772
+        ],
+        [
+          644,
+          772
+        ],
+        [
+          664,
+          772
+        ],
+        [
+          1240,
+          772
+        ],
+        [
+          1284,
+          773
+        ],
+        [
+          1288,
+          774
+        ],
+        [
+          1316,
+          772
+        ],
+        [
+          1548,
+          772
+        ],
+        [
+          1868,
+          772
+        ],
+        [
+          1984,
+          773
+        ],
+        [
+          1988,
+          774
+        ],
+        [
+          106276,
+          772
+        ],
+        [
+          106312,
+          772
+        ],
+        [
+          106420,
+          772
+        ],
+        [
+          106464,
+          772
+        ],
+        [
+          106488,
+          772
+        ],
+        [
+          106584,
+          772
+        ],
+        [
+          106648,
+          772
+        ],
+        [
+          106816,
+          772
+        ],
+        [
+          106860,
+          773
+        ],
+        [
+          106864,
+          774
+        ],
+        [
+          106892,
+          772
+        ],
+        [
+          107124,
+          772
+        ],
+        [
+          107444,
+          772
+        ],
+        [
+          107560,
+          773
+        ],
+        [
+          107564,
+          774
+        ],
+        [
+          108440,
+          772
+        ],
+        [
+          108484,
+          773
+        ],
+        [
+          108488,
+          774
+        ],
+        [
+          108516,
+          772
+        ],
+        [
+          108748,
+          772
+        ],
+        [
+          108812,
+          772
+        ],
+        [
+          109132,
+          772
+        ],
+        [
+          109248,
+          773
+        ],
+        [
+          109252,
+          774
+        ],
+        [
+          110076,
+          773
+        ],
+        [
+          110080,
+          774
+        ],
+        [
+          110204,
+          772
+        ],
+        [
+          110220,
+          772
+        ],
+        [
+          110244,
+          772
+        ],
+        [
+          110288,
+          772
+        ],
+        [
+          110304,
+          772
+        ],
+        [
+          110328,
+          772
+        ],
+        [
+          115960,
+          772
+        ],
+        [
+          116000,
+          772
+        ],
+        [
+          116016,
+          772
+        ],
+        [
+          116068,
+          772
+        ],
+        [
+          116136,
+          772
+        ],
+        [
+          116164,
+          772
+        ],
+        [
+          116256,
+          772
+        ],
+        [
+          116280,
+          773
+        ],
+        [
+          116284,
+          774
+        ],
+        [
+          116396,
+          772
+        ],
+        [
+          116648,
+          772
+        ],
+        [
+          125760,
+          773
+        ],
+        [
+          125764,
+          774
+        ],
+        [
+          125788,
+          773
+        ],
+        [
+          125792,
+          774
+        ],
+        [
+          126020,
+          772
+        ]
+      ],
+      "added_segment_file_offset": 8448832,
+      "added_segment_bytes": 126028,
+      "patched_elf_sha256": "5e19aa670ed6097b04a4ddf74fe1ba5e3d379bba4e89c671087d72421f466177",
+      "structure": {
+        "program_header_count": 4,
+        "section_header_count": 65,
+        "load_ranges": [
+          {
+            "index": 0,
+            "start": "0x0",
+            "end": "0x22d37c"
+          },
+          {
+            "index": 1,
+            "start": "0x22d380",
+            "end": "0x32db8c"
+          },
+          {
+            "index": 3,
+            "start": "0x32dbc0",
+            "end": "0x34c80c"
+          }
+        ]
+      },
+      "rule": "Native only for mode 6 beginning with a CP932 uppercase Greek stat symbol (839f..83b6); other text uses existing help VWF.",
+      "source_sha256": "993394a163653aba0085ad3df39820fce5e0331ffe32714539aae71760cef6ac"
+    }
+  },
+  "tables": {
+    "units": [],
+    "tables": [
+      {
+        "child": 28,
+        "changes": [
+          {
+            "id": "02:00003/00028:ui:00000f1e",
+            "record": 4,
+            "slot": 8,
+            "text": "Pact Ritual: Machine",
+            "full_translation": "Ritual of the Pact: Machine",
+            "source_sha256": "7330b2585c503bf80fe5c8c95423905f194c752c0e73e4ef754418649226862f",
+            "new_offset": 8192,
+            "pointer_fields": [
+              228
+            ]
+          },
+          {
+            "id": "02:00003/00028:ui:00000f2e",
+            "record": 4,
+            "slot": 9,
+            "text": "Enables summon crafting.",
+            "full_translation": "Enables the creation of summons.",
+            "source_sha256": "82434cdf26615db8a7c3ae6635984fe993200de2d97f23bd2f853dfbf10b9bec",
+            "new_offset": 8234,
+            "pointer_fields": [
+              232
+            ]
+          },
+          {
+            "id": "02:00003/00028:ui:00000f40",
+            "record": 5,
+            "slot": 8,
+            "text": "Pact Ritual: Oni",
+            "full_translation": "Ritual of the Pact: Oni",
+            "source_sha256": "5f531c7a741dc2a66a58a7fd5ed896fdea4e4761c8975ac8befa8e28210c28ae",
+            "new_offset": 8286,
+            "pointer_fields": [
+              276
+            ]
+          },
+          {
+            "id": "02:00003/00028:ui:00000f50",
+            "record": 5,
+            "slot": 9,
+            "text": "Enables summon crafting.",
+            "full_translation": "Enables the creation of summons.",
+            "source_sha256": "82434cdf26615db8a7c3ae6635984fe993200de2d97f23bd2f853dfbf10b9bec",
+            "new_offset": 8320,
+            "pointer_fields": [
+              280
+            ]
+          },
+          {
+            "id": "02:00003/00028:ui:00000f62",
+            "record": 6,
+            "slot": 8,
+            "text": "Pact Ritual: Spirit",
+            "full_translation": "Ritual of the Pact: Spirit",
+            "source_sha256": "05340cec8bea8f7dae7eba3a7315f00540d3f0929392857ad63f5f4a3f04d604",
+            "new_offset": 8372,
+            "pointer_fields": [
+              324
+            ]
+          },
+          {
+            "id": "02:00003/00028:ui:00000f72",
+            "record": 6,
+            "slot": 9,
+            "text": "Enables summon crafting.",
+            "full_translation": "Enables the creation of summons.",
+            "source_sha256": "82434cdf26615db8a7c3ae6635984fe993200de2d97f23bd2f853dfbf10b9bec",
+            "new_offset": 8412,
+            "pointer_fields": [
+              328
+            ]
+          },
+          {
+            "id": "02:00003/00028:ui:00000f84",
+            "record": 7,
+            "slot": 8,
+            "text": "Pact Ritual: Beast",
+            "full_translation": "Ritual of the Pact: Beast",
+            "source_sha256": "93870f425fac175b87dd9a393eb89cef1c894ddb73a015149bb9fae4c749ec18",
+            "new_offset": 8464,
+            "pointer_fields": [
+              372
+            ]
+          },
+          {
+            "id": "02:00003/00028:ui:00000f94",
+            "record": 7,
+            "slot": 9,
+            "text": "Enables summon crafting.",
+            "full_translation": "Enables the creation of summons.",
+            "source_sha256": "82434cdf26615db8a7c3ae6635984fe993200de2d97f23bd2f853dfbf10b9bec",
+            "new_offset": 8502,
+            "pointer_fields": [
+              376
+            ]
+          },
+          {
+            "id": "02:00003/00028:ui:00000fa6",
+            "record": 8,
+            "slot": 8,
+            "text": "Pact Ritual: All",
+            "full_translation": "Ritual of the Pact: All",
+            "source_sha256": "4028cb3398278f6d56c1bd9fd7a0856f42adf5f71d00d71cbb0340450f0923ac",
+            "new_offset": 8554,
+            "pointer_fields": [
+              420
+            ]
+          },
+          {
+            "id": "02:00003/00028:ui:00000fb6",
+            "record": 8,
+            "slot": 9,
+            "text": "Enables summon crafting.",
+            "full_translation": "Enables the creation of summons.",
+            "source_sha256": "82434cdf26615db8a7c3ae6635984fe993200de2d97f23bd2f853dfbf10b9bec",
+            "new_offset": 8588,
+            "pointer_fields": [
+              424
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "review": "Independent reviewer accepted Pact Ritual: Machine and Craft Machine/Neutral summons. Dynamic help retains the same crafting meaning and original affinity selection."
+}

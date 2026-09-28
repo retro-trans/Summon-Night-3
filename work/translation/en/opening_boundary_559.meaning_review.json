@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "resource_id": "00:00065",
+  "target_files": [
+    "work/translation/en/opening_006.targets.json",
+    "work/translation/en/opening_007.targets.json"
+  ],
+  "review_type": "independent_agent_boundary_meaning_review",
+  "independent_review": true,
+  "reviewer": "/root/opening_pilot_translation",
+  "independence_scope": "This reviewer did not draft006/007 or coauthor the559-561 wording. This supplemental review independently checks the original source and contextual branches.",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "reviewed_inputs_sha256": {
+    "work/translation/en/opening_006.targets.json": "db5e1e932ecc7152b3d0f258668619b9df140cf5a48afb775954dd75a14c5fa7",
+    "work/translation/en/opening_007.targets.json": "956384331f2d19176fa61aa009f7525ed4e5da1b55fe7342d0006c6b25b64f79"
+  },
+  "rows_in_slice": 3,
+  "rows_examined": 23,
+  "context_rows_before": 10,
+  "context_rows_after": 10,
+  "opening_row_range": [
+    559,
+    561
+  ],
+  "examined_opening_row_range": [
+    549,
+    571
+  ],
+  "assigned_instruction_range": [
+    91064,
+    91080
+  ],
+  "context_instruction_range": [
+    90820,
+    91316
+  ],
+  "ordering": "Strings sorted by minimum reference instruction; suffix starting00:00065:text:0002646e at sorted global index1808 is opening row0. Branch alternatives remain distinct.",
+  "method": "Read23 source rows in memory without storing a Japanese dialogue transcript. Independently matched every examined source hash and reference against006/007, compared meaning, and inspected the three queues followed by the2030 display plus the following protagonist branch. Reviewed supplied short UI label separately from dialogue.",
+  "verdict": {
+    "existing_draft_rows_reviewed": 3,
+    "existing_draft_rows_independently_reviewed": 3,
+    "existing_draft_rows_requiring_meaning_correction": 0,
+    "unresolved_rows_as_found": 0,
+    "coordinated_completion_proposals": 1,
+    "meaning": "Existing559-561 meaning passes as one complete display group; no wording changes required.",
+    "target_edits_applied": false,
+    "final_translation_acceptance": false
+  },
+  "required_meaning_edits": [],
+  "coordinated_completion_proposals": [
+    {
+      "proposal_id": "coordinated_display_91092",
+      "sentence_group": "opening_boundary_display_91092",
+      "status": "meaning_accepted_for_coordinated_integration_only",
+      "apply_together": true,
+      "opening_rows": [
+        559,
+        560,
+        561
+      ],
+      "group_ids": [
+        "00:00065:text:00028dd4",
+        "00:00065:text:00028de8",
+        "00:00065:text:00028dfe"
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:00028dd4",
+          "opening_row": 559,
+          "source_sha256": "1e832e0d704a14e3598cca78ea949e0d19080f58a234450697592aa89223df4a",
+          "reference_instructions": [
+            91064
+          ],
+          "proposed_text": "Especially with men,",
+          "outside_assigned_slice": false
+        },
+        {
+          "id": "00:00065:text:00028de8",
+          "opening_row": 560,
+          "source_sha256": "fbeccf06af40deb98598f94f0f6def67272cb4123d350dff5c6fb9acdd49c9ca",
+          "reference_instructions": [
+            91072
+          ],
+          "proposed_text": "she tends to get worked up",
+          "outside_assigned_slice": false
+        },
+        {
+          "id": "00:00065:text:00028dfe",
+          "opening_row": 561,
+          "source_sha256": "9d9854d4a59254303ed24b791047eea2f5f89f75939d1182b3320f5ac14cfea0",
+          "reference_instructions": [
+            91080
+          ],
+          "proposed_text": "and try to defy them.",
+          "outside_assigned_slice": false
+        }
+      ],
+      "whole_sentence": "Especially with men, she tends to get worked up and try to defy them.",
+      "source_display_instruction": 91092,
+      "source_display_helper_word": 2030,
+      "reason": "The named Belfrau is the subject. The source specifically describes getting worked up and attempting to resist when dealing with men; the English retains both components. The following male-protagonist question and caregiver reply confirm that the men are the object of defiance. This describes her conduct, without adding romance, universal hatred, or a claim that defiance succeeds.",
+      "integration_condition": "Apply all three reviewed rows together against the exact006/007 hashes. Treat group_ids and source display instruction as authoritative, since local numeric group labels differ. Otherwise exclude the complete group.",
+      "cross_file_group_aliases": {
+        "work/translation/en/opening_006.targets.json": 282,
+        "work/translation/en/opening_007.targets.json": 279
+      },
+      "outside_assigned_slice_convention": "All three rows are within this dedicated boundary review. Original ownership remains559 in006 and560-561 in007.",
+      "independently_reviewed": true,
+      "edits_applied": false
+    }
+  ],
+  "uncertainty_notes": [
+    {
+      "kind": "referent",
+      "opening_rows": [
+        559,
+        560,
+        561
+      ],
+      "finding": "She refers to Belfrau named in552. Men is explicit in559. The follow-up562-567 confirms the male protagonist worries about receiving that treatment, supporting them as the object of defiance."
+    },
+    {
+      "kind": "wording_judgment",
+      "opening_rows": [
+        560,
+        561
+      ],
+      "finding": "Get worked up preserves the emotional insistence of the source; try to defy retains its attempted-action form. Tends to is a reasonable rendering of the described behavior. No preference-only rewriting."
+    },
+    {
+      "kind": "group_metadata",
+      "opening_rows": [
+        559,
+        560,
+        561
+      ],
+      "finding": "006 calls the group282 and007 calls it279. Their identical three group_ids and display instruction91092 identify the same source group. Integration must not rely on the local number alone."
+    },
+    {
+      "kind": "context_scope",
+      "opening_rows": [
+        549,
+        571
+      ],
+      "finding": "Context includes the end of a different pupil branch and the start of Alieze branch. These context rows are not additional accepted translation rows in this supplemental review."
+    }
+  ],
+  "integration_readiness": {
+    "meaning_accepted_as_complete_group": true,
+    "atomic_group_required": true,
+    "runtime_reflow_still_required": true,
+    "source_ids_and_display_instruction_authoritative": true,
+    "target_files_unchanged": true
+  },
+  "terminology": {
+    "glossary_file": "work/glossary/opening_harbor.json",
+    "glossary_sha256": "f7524803992a3cd45ba7577580c2868ec0b549a903f8b7f649dd8f250719941b",
+    "context_ids": [
+      "character.belfrau",
+      "character.salome"
+    ],
+    "supplemental_ui_ids": [
+      "location.adnias_harbor"
+    ],
+    "scripted_name_normalization_applied": false
+  },
+  "tokens": {
+    "reviewed_dialogue_control_tokens": [],
+    "source_target_token_sequences_match": true,
+    "meaning_review_only": true
+  },
+  "coverage": [
+    {
+      "slice_row": 0,
+      "opening_row": 559,
+      "id": "00:00065:text:00028dd4",
+      "source_offset": 167380,
+      "source_sha256": "1e832e0d704a14e3598cca78ea949e0d19080f58a234450697592aa89223df4a",
+      "reference_instructions": [
+        91064
+      ],
+      "verdict": "meaning_accepted_only_with_complete_group_559_561",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 1,
+      "opening_row": 560,
+      "id": "00:00065:text:00028de8",
+      "source_offset": 167400,
+      "source_sha256": "fbeccf06af40deb98598f94f0f6def67272cb4123d350dff5c6fb9acdd49c9ca",
+      "reference_instructions": [
+        91072
+      ],
+      "verdict": "meaning_accepted_only_with_complete_group_559_561",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 2,
+      "opening_row": 561,
+      "id": "00:00065:text:00028dfe",
+      "source_offset": 167422,
+      "source_sha256": "9d9854d4a59254303ed24b791047eea2f5f89f75939d1182b3320f5ac14cfea0",
+      "reference_instructions": [
+        91080
+      ],
+      "verdict": "meaning_accepted_only_with_complete_group_559_561",
+      "independent_of_drafting": true
+    }
+  ],
+  "supplemental_ui_meaning_review": {
+    "source_label": "帝国領・アドニアス港",
+    "source_provenance": "Short screenshot title transcription supplied by orchestrator; this reviewer did not independently inspect the screenshot or identify its native asset.",
+    "target_text": "Imperial Territory: Adnias Harbor",
+    "verdict": "meaning_accepted_with_project_romanization",
+    "reason": "Imperial Territory expresses land under the Empire; the colon naturally separates the jurisdiction from the harbor name in a location title. Harbor and the proper-name spelling follow the glossary.",
+    "proper_name_status": "Adnias is the project romanization; no attested English spelling is claimed.",
+    "glossary_id": "location.adnias_harbor",
+    "counted_in_dialogue_rows": false,
+    "native_asset_identified": false,
+    "runtime_layout_or_rendering_validated": false,
+    "required_meaning_edits": []
+  },
+  "acceptance_limits": {
+    "final_translation_acceptance": false,
+    "in_game_validated": false,
+    "font_glyphs_validated": false,
+    "layout_validated": false,
+    "voice_timing_validated": false,
+    "all_branches_playtested": false
+  },
+  "write_scope": {
+    "created_file": "work/translation/en/opening_boundary_559.meaning_review.json",
+    "target_files_mutated": false,
+    "japanese_dialogue_transcript_saved": false,
+    "iso_modified": false,
+    "changelog_coordination": "Orchestrator maintains the integration changelog."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": "0.1.18",
+  "baseline": "0.1.17",
+  "scope": "Status unit/class labels, equipment names, summon and spell names, empty equipment label, narrow attack and defense fields",
+  "meaning_review": {
+    "unit_labels": "328 accepted source-bound labels; remaining 415 Japanese labels explicitly deferred. Princess/Lady meanings preserved during manual compact pass.",
+    "gear": "Rejected mechanical transliteration drafts. Only semantic accepted rows enter gear.targets; additional weapon_review targets override exact matching hashes.",
+    "magic": "97 accepted targets independently checked by unit reviewer. Four wording fixes applied; some creature proper names and descriptive titles remain provisional.",
+    "weapon_review": "62 explicit source-reading decisions, with six uncertain coined names removed after independent review.",
+    "character_names": "Existing user-selected SN6 Vita glossary spellings retained for matching SN3 characters. Player-entered names are not edited."
+  },
+  "compact_limits_native_cells": {"unit_class":10,"equipment_summon":15,"attack":6,"defense":5},
+  "screenshot_terms": ["Soldier","Guard","None","Rock Mail","Study Manual","Dritol","Shine Saber"],
+  "combat_labels": {"Vertical Slash":"VSlash","Horizontal Slash":"HSlash","Special":"Spec.","Vertical Throw":"VThrow","Horizontal Throw":"HThrow","Defend":"Guard","Counter":"Cntr"},
+  "code_review": "Independent byte-safety review; intentional duplicate weapon overrides require identical source hashes and are reported. Already-relocated text must normalize to printable ASCII. Cached tables rebuilt and compared against bank copies.",
+  "runtime_verified": false,
+  "limitations": ["Not a complete equipment or class glossary translation.","Long summon descriptions are outside this batch.","Compact widths checked statically against screenshot geometry; fresh in-game visual testing remains necessary.","0.1.17 Battle Prep crash-fix text bytes are preserved and capacity checks repeated."]
+}

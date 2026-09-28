@@ -1,0 +1,213 @@
+{
+  "session": {
+    "pid": 133304,
+    "game": "E:\\Projects\\Summon Night 3\\work\\output\\0.1.12\\Summon_Night_3_EN_0.1.12.iso",
+    "port": 19381
+  },
+  "game": {
+    "event": "game.status",
+    "ticket": "ef1ae252-46d2-47e9-bba2-7af2ece71141",
+    "game": {
+      "id": "NPJH50380",
+      "version": "2.00",
+      "title": "\u30b5\u30e2\u30f3\u30ca\u30a4\u30c8\uff13"
+    },
+    "paused": false
+  },
+  "candidate_sha256": "ed929381d11623ec30d144cc4846dc3db2a0e764cdbc15135b26ce7a537bd075",
+  "live_script_sha256": "edce3ae14584541fc412d62d33d2c544ac657639ebe093dc8b28c48855ea3ab2",
+  "states": [
+    {
+      "pc": 2328,
+      "native": "0x3052",
+      "script_base": "0x8d8b000",
+      "lines": [
+        {
+          "id": "00:00065:text:0002717c",
+          "text": "If I remember right...",
+          "rendered": "If I remember right...",
+          "pointer": "0x8dbd94a",
+          "units": 22,
+          "selectable": false,
+          "choice": 4294967295,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "00:00065:text:0002718a",
+          "text": "\u3000A boy, wasn't it?",
+          "rendered": " A boy, wasn\u2019t it?",
+          "pointer": "0x8dbd978",
+          "units": 18,
+          "selectable": true,
+          "choice": 0,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "00:00065:text:000271a0",
+          "text": "\u3000A girl, wasn't it?",
+          "rendered": " A girl, wasn\u2019t it?",
+          "pointer": "0x8dbd99e",
+          "units": 19,
+          "selectable": true,
+          "choice": 1,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "choice": true,
+      "names": {
+        "\u25cf": "Rexx",
+        "\u25b2": "No Pupil",
+        "\u25a0": "????????"
+      },
+      "dialogue_active": true,
+      "script_loaded": true,
+      "live_script_sha256": "edce3ae14584541fc412d62d33d2c544ac657639ebe093dc8b28c48855ea3ab2"
+    },
+    {
+      "pc": 2042,
+      "native": "0x3052",
+      "script_base": "0x8d8b000",
+      "lines": [
+        {
+          "id": "harbor_rows_445_446_447:page:0:line:0",
+          "text": "The letter said it was a",
+          "rendered": "The letter said it was a",
+          "pointer": "0x8dc56b2",
+          "units": 24,
+          "selectable": false,
+          "choice": 4294967295,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "harbor_rows_445_446_447:page:0:line:1",
+          "text": "boy, as I recall.",
+          "rendered": "boy, as I recall.",
+          "pointer": "0x8dc56e4",
+          "units": 17,
+          "selectable": false,
+          "choice": 4294967295,
+          "kinds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "choice": false,
+      "names": {
+        "\u25cf": "Rexx",
+        "\u25b2": "No Pupil",
+        "\u25a0": "????????"
+      },
+      "dialogue_active": true,
+      "script_loaded": true,
+      "live_script_sha256": "edce3ae14584541fc412d62d33d2c544ac657639ebe093dc8b28c48855ea3ab2"
+    }
+  ],
+  "actions": [
+    "down",
+    "circle"
+  ],
+  "stop_reason": null
+}

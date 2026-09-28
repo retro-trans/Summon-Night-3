@@ -1,0 +1,129 @@
+{
+  "resource_id": "00:00111",
+  "assigned_range": [
+    1360,
+    1439
+  ],
+  "semantic_complete": true,
+  "rows_examined": {
+    "ranges_inclusive": [
+      [
+        1340,
+        1459
+      ]
+    ],
+    "count": 120
+  },
+  "reviewed_slices": [
+    {
+      "path": "slice_1360.targets.json",
+      "sha256": "7ca9b8ae9c4a11af1a85b73676644e67b4ebf0dcd76c0592dfed580435ee10c6",
+      "assigned_range": [
+        1360,
+        1439
+      ]
+    }
+  ],
+  "reviewed_source_ids": [
+    "00:00111:text:000349e4",
+    "00:00111:text:000349ee",
+    "00:00111:text:000349f8",
+    "00:00111:text:00034a06",
+    "00:00111:text:00034a1a",
+    "00:00111:text:00034a28",
+    "00:00111:text:00034a3c",
+    "00:00111:text:00034a4a",
+    "00:00111:text:00034a54",
+    "00:00111:text:00034a5e",
+    "00:00111:text:00034a68",
+    "00:00111:text:00034a7a",
+    "00:00111:text:00034a88",
+    "00:00111:text:00034a92",
+    "00:00111:text:00034a9c",
+    "00:00111:text:00034aa6",
+    "00:00111:text:00034ab2",
+    "00:00111:text:00034ac6",
+    "00:00111:text:00034ad6",
+    "00:00111:text:00034aec",
+    "00:00111:text:00034afc",
+    "00:00111:text:00034b06",
+    "00:00111:text:00034b10",
+    "00:00111:text:00034b1a",
+    "00:00111:text:00034b2e",
+    "00:00111:text:00034b40",
+    "00:00111:text:00034b56",
+    "00:00111:text:00034b68",
+    "00:00111:text:00034b7c",
+    "00:00111:text:00034b8c",
+    "00:00111:text:00034ba2",
+    "00:00111:text:00034bb4",
+    "00:00111:text:00034bca",
+    "00:00111:text:00034bda",
+    "00:00111:text:00034bf0",
+    "00:00111:text:00034c04",
+    "00:00111:text:00034c16",
+    "00:00111:text:00034c2c",
+    "00:00111:text:00034c3e",
+    "00:00111:text:00034c52",
+    "00:00111:text:00034c68",
+    "00:00111:text:00034c78",
+    "00:00111:text:00034c8a",
+    "00:00111:text:00034c9e",
+    "00:00111:text:00034cb0",
+    "00:00111:text:00034cbe",
+    "00:00111:text:00034cd4",
+    "00:00111:text:00034ce6",
+    "00:00111:text:00034cf2",
+    "00:00111:text:00034d0e",
+    "00:00111:text:00034d28",
+    "00:00111:text:00034d3e",
+    "00:00111:text:00034d54",
+    "00:00111:text:00034d66",
+    "00:00111:text:00034d7c",
+    "00:00111:text:00034d90",
+    "00:00111:text:00034d9e",
+    "00:00111:text:00034db4",
+    "00:00111:text:00034dc4",
+    "00:00111:text:00034dca",
+    "00:00111:text:00034dde",
+    "00:00111:text:00034df0",
+    "00:00111:text:00034dfa",
+    "00:00111:text:00034e0c",
+    "00:00111:text:00034e20",
+    "00:00111:text:00034e30",
+    "00:00111:text:00034e42",
+    "00:00111:text:00034e58",
+    "00:00111:text:00034e68",
+    "00:00111:text:00034e7c",
+    "00:00111:text:00034e88",
+    "00:00111:text:00034e98",
+    "00:00111:text:00034ea6",
+    "00:00111:text:00034eba",
+    "00:00111:text:00034eca",
+    "00:00111:text:00034ed0",
+    "00:00111:text:00034ee8",
+    "00:00111:text:00034f02",
+    "00:00111:text:00034f14",
+    "00:00111:text:00034f2a"
+  ],
+  "meaning_corrections": [
+    {
+      "resource_row": 1389,
+      "source_id": "00:00111:text:00034b8c",
+      "replacement_text": "Sapureth, Knight of",
+      "reason": "The source identifies Falzen as the Knight of the Underworld from Sapureth; the draft instead makes an ungrammatical \"Spirit Realm Underworld\" title and omits Sapureth."
+    },
+    {
+      "resource_row": 1390,
+      "source_id": "00:00111:text:00034ba2",
+      "replacement_text": "the Underworld, Falzen...",
+      "reason": "Completes the preceding title and retains the speaker-introduced name."
+    }
+  ],
+  "uncertainties": [
+    {
+      "resource_row": 1393,
+      "detail": "四者 (four parties) is rendered \"the four\"; the source leaves their exact institutional label implicit, so the draft preserves that ambiguity."
+    }
+  ]
+}

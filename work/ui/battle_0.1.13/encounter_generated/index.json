@@ -1,0 +1,841 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "key": "victory_all",
+      "file": "victory_all.native-source.png",
+      "prompt": "Edit this game UI text sprite into English. Replace ALL Japanese lettering with exactly these two centered lines: DEFEAT ALL\nENEMIES. Preserve the original early-2000s fantasy tactical RPG embossed serif lettering style, warm ivory and light dusty pink faces, dark burgundy thick outlines, small dimensional bevel, dark soft drop shadow. This is a standalone sprite: genuinely transparent background with alpha, no black rectangle, no scene, no card, no border, no extra marks or other text. Wide landscape canvas about 2.6:1 matching original 208 by 80 sprite proportions. Use wide bold readable serif letters filling most of the width, balanced two-line spacing, leave 5 percent transparent padding. The English words must remain legible after reduction to 208x80 pixels.",
+      "target_text": "DEFEAT ALL\nENEMIES",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-1ef68c24-abff-401c-8c4a-eacb17c06c3a.png",
+      "generation_source_sha256": "79296a866bac5b3e2e1785c7608e1532ea9ba0519df31b56c061b4167c95c403",
+      "targets": [
+        {
+          "resource_id": "01:00004/00002",
+          "number": 0,
+          "source_sha256": "8f3e40a42f815d2f390aa2c69edb6a726ad83ecffe608abde0b2b7878383bf9f"
+        },
+        {
+          "resource_id": "01:00015/00002",
+          "number": 0,
+          "source_sha256": "b171d6109d2b4c8acb814b25869812fc5e8a6b8d8f8ac94de4f6cf70b2d2cf7d"
+        }
+      ],
+      "sha256": "14c7a3d54acddac520f46d80c3646be31c442c92b99b7633670765abe19b7ebd"
+    },
+    {
+      "key": "loss_hero",
+      "file": "loss_hero.native-source.png",
+      "prompt": "Edit this game UI text sprite into English. Replace ALL Japanese lettering with exactly these two centered lines: HERO\nDEFEATED. Preserve the original early-2000s fantasy tactical RPG embossed serif lettering style, white and pale lavender faces, dark navy-purple thick outlines, small dimensional bevel, dark soft drop shadow. This is a standalone sprite: genuinely transparent background with alpha, no black rectangle, no scene, no card, no border, no extra marks or other text. Wide landscape canvas about 2.6:1 matching original 208 by 80 sprite proportions. Use wide bold readable serif letters filling most of the width, balanced two-line spacing, leave 5 percent transparent padding. The English words must remain legible after reduction to 208x80 pixels.",
+      "target_text": "HERO\nDEFEATED",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-9ce26919-8b78-4eff-98b2-6cac44d2fccd.png",
+      "generation_source_sha256": "e9dc28d2e3848be52580da8809a447e9d8730e29c426d9de793e0aca292ba5d9",
+      "targets": [
+        {
+          "resource_id": "01:00004/00003",
+          "number": 0,
+          "source_sha256": "0e5e3185cf327f6011584c59f9676b7ac35fc18bdff7e7633562cdd948182b5d"
+        }
+      ],
+      "sha256": "fad2454390302fe8832e0b14892e7ef1971bfa1704a5f8f8e73d51156826f2ab"
+    },
+    {
+      "key": "title_pirates",
+      "file": "title_pirates.native-source.png",
+      "prompt": "Edit this transparent game encounter title sprite into English. Text exactly: 'VS Pirates'. Preserve its early-2000s fantasy RPG beveled lettering: golden yellow-to-orange VS at the left, large italic blue-lavender and ivory Pirates with deep navy and dark brown outlines at right, no other lettering. Keep readable thick distinctive serif letters, a single centered horizontal composition with subtle dimensional shadow. Transparent background with genuine alpha, no black rectangle, no backdrop, no frame. Wide canvas 3.6:1 matching original432x120. Keep 5 percent transparent padding and fill the width. This is the real in-game sprite and must read clearly at432x120.",
+      "target_text": "VS Pirates",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-423e5618-1ce9-4509-801b-b14c6b2b9f8e.png",
+      "generation_source_sha256": "e198b31bdedfcd391d060d5008f3165c69022a7abb8b7b7d877e23b8cb93dd44",
+      "targets": [
+        {
+          "resource_id": "01:00004/00004",
+          "number": 0,
+          "source_sha256": "1e0bce0e0e5c2830cbc05b89592e0d9e70fb398bff4f089222c4c2b7bf244485"
+        },
+        {
+          "resource_id": "01:00005/00004",
+          "number": 0,
+          "source_sha256": "4d49af594576d90af287a5f952828322df892d2161fba7e3d80138fadf4953bb"
+        }
+      ],
+      "sha256": "e9abad2004c154d3a87e2cbf76ba27db5028b590d5f6ccae69ef7cf84e036a5a"
+    },
+    {
+      "key": "header_0",
+      "file": "header_0.native-source.png",
+      "prompt": "Create one transparent game UI sprite atlas: exactly FIVE equal square cells in a single horizontal row, total canvas 5:1. Each cell has a centered short English label. Cell1 text W; cell2 text IN; cell3 text IF; cell4 text LO; cell5 text SE. These compose WIN IF and LOSE IF in a fantasy tactical RPG. No visible grid, dividers, backdrop, extra words or other marks. Real transparent alpha background. Bold chunky fantasy serif lettering, tiny ivory bevel, strong dark outlines. Cells1and2: warm ivory/coral gradient with dark burgundy outline. Cell3: white with charcoal outline. Cells4and5: ice blue with deep navy outline. Exact equally spaced centers x10%,30%,50%,70%,90%, eachlabel within its own20%width cell with10%internal transparent margin. The W may bewide; all labels fit cell. High contrast and very bold readable when eachcell is reduced to48x48. Style follows provided JapaneseUIglyph reference, but all Japanese is replaced.",
+      "target_text": "W",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-99e0f343-104f-4249-8675-6b86663d90ce.png",
+      "generation_source_sha256": "541c7ecc2ffb89470118a86aac5e69a83e63dfa7855983266ed0e2705e2d2a8b",
+      "targets": [
+        {
+          "resource_id": "01:00004/00001",
+          "number": 0,
+          "source_sha256": "326f3fe915c6cd38977bb227a5ff2917e8147aade4dd47f3cf2d38b170acf95d"
+        }
+      ],
+      "sha256": "750af45f94e64461b67d297c255c3d59b82b3f096a2b98ce26a5a3d7ad6900af"
+    },
+    {
+      "key": "header_1",
+      "file": "header_1.native-source.png",
+      "prompt": "Create one transparent game UI sprite atlas: exactly FIVE equal square cells in a single horizontal row, total canvas 5:1. Each cell has a centered short English label. Cell1 text W; cell2 text IN; cell3 text IF; cell4 text LO; cell5 text SE. These compose WIN IF and LOSE IF in a fantasy tactical RPG. No visible grid, dividers, backdrop, extra words or other marks. Real transparent alpha background. Bold chunky fantasy serif lettering, tiny ivory bevel, strong dark outlines. Cells1and2: warm ivory/coral gradient with dark burgundy outline. Cell3: white with charcoal outline. Cells4and5: ice blue with deep navy outline. Exact equally spaced centers x10%,30%,50%,70%,90%, eachlabel within its own20%width cell with10%internal transparent margin. The W may bewide; all labels fit cell. High contrast and very bold readable when eachcell is reduced to48x48. Style follows provided JapaneseUIglyph reference, but all Japanese is replaced.",
+      "target_text": "IN",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-99e0f343-104f-4249-8675-6b86663d90ce.png",
+      "generation_source_sha256": "541c7ecc2ffb89470118a86aac5e69a83e63dfa7855983266ed0e2705e2d2a8b",
+      "targets": [
+        {
+          "resource_id": "01:00004/00001",
+          "number": 1,
+          "source_sha256": "326f3fe915c6cd38977bb227a5ff2917e8147aade4dd47f3cf2d38b170acf95d"
+        }
+      ],
+      "sha256": "0827dc03b71be7c7293a51789231e3edec2e7a37737a2ecef7a9ce6af1c516e2"
+    },
+    {
+      "key": "header_2",
+      "file": "header_2.native-source.png",
+      "prompt": "Create one transparent game UI sprite atlas: exactly FIVE equal square cells in a single horizontal row, total canvas 5:1. Each cell has a centered short English label. Cell1 text W; cell2 text IN; cell3 text IF; cell4 text LO; cell5 text SE. These compose WIN IF and LOSE IF in a fantasy tactical RPG. No visible grid, dividers, backdrop, extra words or other marks. Real transparent alpha background. Bold chunky fantasy serif lettering, tiny ivory bevel, strong dark outlines. Cells1and2: warm ivory/coral gradient with dark burgundy outline. Cell3: white with charcoal outline. Cells4and5: ice blue with deep navy outline. Exact equally spaced centers x10%,30%,50%,70%,90%, eachlabel within its own20%width cell with10%internal transparent margin. The W may bewide; all labels fit cell. High contrast and very bold readable when eachcell is reduced to48x48. Style follows provided JapaneseUIglyph reference, but all Japanese is replaced.",
+      "target_text": "IF",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-99e0f343-104f-4249-8675-6b86663d90ce.png",
+      "generation_source_sha256": "541c7ecc2ffb89470118a86aac5e69a83e63dfa7855983266ed0e2705e2d2a8b",
+      "targets": [
+        {
+          "resource_id": "01:00004/00001",
+          "number": 2,
+          "source_sha256": "326f3fe915c6cd38977bb227a5ff2917e8147aade4dd47f3cf2d38b170acf95d"
+        }
+      ],
+      "sha256": "cb8ec139637e53bc802903da089b6c146668c095f152712f623e3f1d3d4eece6"
+    },
+    {
+      "key": "header_3",
+      "file": "header_3.native-source.png",
+      "prompt": "Create one transparent game UI sprite atlas: exactly FIVE equal square cells in a single horizontal row, total canvas 5:1. Each cell has a centered short English label. Cell1 text W; cell2 text IN; cell3 text IF; cell4 text LO; cell5 text SE. These compose WIN IF and LOSE IF in a fantasy tactical RPG. No visible grid, dividers, backdrop, extra words or other marks. Real transparent alpha background. Bold chunky fantasy serif lettering, tiny ivory bevel, strong dark outlines. Cells1and2: warm ivory/coral gradient with dark burgundy outline. Cell3: white with charcoal outline. Cells4and5: ice blue with deep navy outline. Exact equally spaced centers x10%,30%,50%,70%,90%, eachlabel within its own20%width cell with10%internal transparent margin. The W may bewide; all labels fit cell. High contrast and very bold readable when eachcell is reduced to48x48. Style follows provided JapaneseUIglyph reference, but all Japanese is replaced.",
+      "target_text": "LO",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-99e0f343-104f-4249-8675-6b86663d90ce.png",
+      "generation_source_sha256": "541c7ecc2ffb89470118a86aac5e69a83e63dfa7855983266ed0e2705e2d2a8b",
+      "targets": [
+        {
+          "resource_id": "01:00004/00001",
+          "number": 3,
+          "source_sha256": "326f3fe915c6cd38977bb227a5ff2917e8147aade4dd47f3cf2d38b170acf95d"
+        }
+      ],
+      "sha256": "afc4444e7a8c2b66fbbbf6aa0e88d51c84b490f4df8de23b59a94e362bafcb2f"
+    },
+    {
+      "key": "header_4",
+      "file": "header_4.native-source.png",
+      "prompt": "Create one transparent game UI sprite atlas: exactly FIVE equal square cells in a single horizontal row, total canvas 5:1. Each cell has a centered short English label. Cell1 text W; cell2 text IN; cell3 text IF; cell4 text LO; cell5 text SE. These compose WIN IF and LOSE IF in a fantasy tactical RPG. No visible grid, dividers, backdrop, extra words or other marks. Real transparent alpha background. Bold chunky fantasy serif lettering, tiny ivory bevel, strong dark outlines. Cells1and2: warm ivory/coral gradient with dark burgundy outline. Cell3: white with charcoal outline. Cells4and5: ice blue with deep navy outline. Exact equally spaced centers x10%,30%,50%,70%,90%, eachlabel within its own20%width cell with10%internal transparent margin. The W may bewide; all labels fit cell. High contrast and very bold readable when eachcell is reduced to48x48. Style follows provided JapaneseUIglyph reference, but all Japanese is replaced.",
+      "target_text": "SE",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-99e0f343-104f-4249-8675-6b86663d90ce.png",
+      "generation_source_sha256": "541c7ecc2ffb89470118a86aac5e69a83e63dfa7855983266ed0e2705e2d2a8b",
+      "targets": [
+        {
+          "resource_id": "01:00004/00001",
+          "number": 4,
+          "source_sha256": "326f3fe915c6cd38977bb227a5ff2917e8147aade4dd47f3cf2d38b170acf95d"
+        }
+      ],
+      "sha256": "f4f1c56be71d833b9e1bb19b1e7c2e7720786b94b0eb0873b2acd76d5a1f02a8"
+    },
+    {
+      "key": "victory_leader",
+      "file": "victory_leader.native-source.png",
+      "prompt": "Translate this standalone game victory-condition sprite into English. Replace ALL Japanese with exactly these two lines: DEFEAT THE\nENEMY LEADER. Preserve original fantasy tactical RPG style: bold serif lettering, warm ivory-to-dusty pink bevel, strong dark burgundy outline and small shadow. Wide2.6:1canvas matching208x80; fillwidth withlargeclear letters,5%transparentmargin. Genuine transparent alpha background, no opaque rectangle, scene, border or additionaltext. Mustreadat208x80.",
+      "target_text": "DEFEAT THE\nENEMY LEADER",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-ad909fb5-5f54-4574-97be-fd97d78f74cd.png",
+      "generation_source_sha256": "553aafa0822ae3e38fbd50b439eac4416ed1d45704974458869dda2fa8dc907f",
+      "targets": [
+        {
+          "resource_id": "01:00016/00002",
+          "number": 0,
+          "source_sha256": "dbc424842c431a80d17a2f8882f7fae76dffae75591c1b1a651896592166b66e"
+        }
+      ],
+      "sha256": "af7d5be3fad12d1e4e4d51bf17dd76910e650c36be36106134d4ab09ccb37b44"
+    },
+    {
+      "key": "victory_dielgo",
+      "file": "victory_dielgo.native-source.png",
+      "prompt": "Translate this standalone game victory-condition sprite into English. Replace ALL Japanese with exactly these two lines: DEFEAT\nDIELGO!. Preserve original fantasy tactical RPG style: bold serif lettering, warm ivory-to-dusty pink bevel, strong dark burgundy outline and small shadow. Wide2.6:1canvas matching208x80; fillwidth withlargeclear letters,5%transparentmargin. Genuine transparent alpha background, no opaque rectangle, scene, border or additionaltext. Mustreadat208x80.",
+      "target_text": "DEFEAT\nDIELGO!",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-3072c840-1615-41a8-ad24-6e2ac12f8340.png",
+      "generation_source_sha256": "fed5159ee9888664f27cdd2169d9c83d0ac3cd0cd1d507fab15f1fa22be5e644",
+      "targets": [
+        {
+          "resource_id": "01:00036/00002",
+          "number": 0,
+          "source_sha256": "d01c3f5b02e8a6bed5e6d67170736c667fb208823af5e16bc3a2a9326d01b511"
+        }
+      ],
+      "sha256": "ee87a00ac8c8c491690cdbb8a097137b7eb7bb7bd2acf3c4ff98411f0cbf5cd9"
+    },
+    {
+      "key": "title_00006",
+      "file": "title_00006.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace all Japanese with exactly \"VS Stray Summon Beasts\". Preserve original palette for the opponent text, gold VS at left, thick serif lettering with bevel and strong dark outline. Use a single centered line for short titles; for long titles a balanced two-line opponent title with VS left is allowed. Genuinely transparent alpha background; no rectangle, backdrop, border or other words. Wide landscape canvas3.6:1, 5%transparentmargin. Large bold letters legible after reducing to432x120. Match original source color and early2000s RPG style.",
+      "target_text": "VS Stray Summon Beasts",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-374aabf7-af1b-42bc-8ff7-edca3db85e67.png",
+      "generation_source_sha256": "07049f214d28e24f3bf16e42ce06b8e6c41211e8e02ad6dee837c6998e253cee",
+      "targets": [
+        {
+          "resource_id": "01:00006/00004",
+          "number": 0,
+          "source_sha256": "48f23cd947b37bf57b7aa78674176d5b4a94c6b9ec6d4a8abf0f0b8b40401628"
+        }
+      ],
+      "sha256": "0ccea52064487847ab1d53b832f718ce29141a1e5e52443a9d6e0a96cc2d524b"
+    },
+    {
+      "key": "title_00007",
+      "file": "title_00007.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace all Japanese with exactly \"VS Kyle & Yard\". Preserve original palette for the opponent text, gold VS at left, thick serif lettering with bevel and strong dark outline. Use a single centered line for short titles; for long titles a balanced two-line opponent title with VS left is allowed. Genuinely transparent alpha background; no rectangle, backdrop, border or other words. Wide landscape canvas3.6:1, 5%transparentmargin. Large bold letters legible after reducing to432x120. Match original source color and early2000s RPG style.",
+      "target_text": "VS Kyle & Yard",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-527416f9-74ea-4de5-9483-2919d0f2c40c.png",
+      "generation_source_sha256": "0b22a2b032c90a63fd728518146c87667eb2f1a286d9e12d37255abc0c054a06",
+      "targets": [
+        {
+          "resource_id": "01:00007/00004",
+          "number": 0,
+          "source_sha256": "394fc68e143f837e5b6016569750cbd5b200b860804e1761516dea466583d5f2"
+        }
+      ],
+      "sha256": "b716698f4ef9e4eae7e3cd3b9de32397baed041735f443ab813f86ec067f93e9"
+    },
+    {
+      "key": "title_00008",
+      "file": "title_00008.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace all Japanese with exactly \"VS Sonolar & Scarrel\". Preserve original palette for the opponent text, gold VS at left, thick serif lettering with bevel and strong dark outline. Use a single centered line for short titles; for long titles a balanced two-line opponent title with VS left is allowed. Genuinely transparent alpha background; no rectangle, backdrop, border or other words. Wide landscape canvas3.6:1, 5%transparentmargin. Large bold letters legible after reducing to432x120. Match original source color and early2000s RPG style.",
+      "target_text": "VS Sonolar & Scarrel",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-c3ff539b-b62c-4612-a6eb-972b3144d96b.png",
+      "generation_source_sha256": "d995781a07de9d803514513bdcce3f474cf43a46a3ef613a4ebcb7990fb938af",
+      "targets": [
+        {
+          "resource_id": "01:00008/00004",
+          "number": 0,
+          "source_sha256": "3ee695cc860a26d638a85f3aa5168dfc2ab336084ab7a352c881854bf83c62d9"
+        }
+      ],
+      "sha256": "757abcf2024ea964619749902a0963481cc5ff22c656f361f9f1bb216ce07fba"
+    },
+    {
+      "key": "title_00011",
+      "file": "title_00011.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace all Japanese with exactly \"VS Loreilal's Defense Machines\". Preserve original palette for the opponent text, gold VS at left, thick serif lettering with bevel and strong dark outline. Use a single centered line for short titles; for long titles a balanced two-line opponent title with VS left is allowed. Genuinely transparent alpha background; no rectangle, backdrop, border or other words. Wide landscape canvas3.6:1, 5%transparentmargin. Large bold letters legible after reducing to432x120. Match original source color and early2000s RPG style.",
+      "target_text": "VS Loreilal's Defense Machines",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-e3d68747-80cf-48bf-a353-58c4811442d0.png",
+      "generation_source_sha256": "c5dd56fc399dcfa365fa2321409c09cf9e09c53e8dfaeff6a7c18c21a7f952ba",
+      "targets": [
+        {
+          "resource_id": "01:00011/00004",
+          "number": 0,
+          "source_sha256": "08b9bf2d45fcb19a263c84018ba88613f1e20dcf355e168b012405d4ecb01fb9"
+        }
+      ],
+      "sha256": "358610b34f83e6727aeeb3824f3e319af078a313a78f469a18b1f98b5c5b0d72"
+    },
+    {
+      "key": "title_00012",
+      "file": "title_00012.native-source.png",
+      "prompt": "Translate this fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Silturn's Oni & Yokai\". Gold VS at left; opponent title uses source's colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short titles one line; long title balanced two lines allowed. Genuine transparent alpha background. No backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Silturn's Oni & Yokai",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-ab34f7da-9799-4660-8bc8-b45ff1ae7c89.png",
+      "generation_source_sha256": "4b5c9d148dea318bed58124fe3b07881d8150d232434aaa2e5ace4ee5d916aa4",
+      "targets": [
+        {
+          "resource_id": "01:00012/00004",
+          "number": 0,
+          "source_sha256": "72b9e9ccb738784c2b59debdd4cedeeb87d667b79665e4197d6fa093db961bdb"
+        }
+      ],
+      "sha256": "d0f920411683ae86880db47188f42b884dc0729c85d7e21a1d5a6fccb3d12c49"
+    },
+    {
+      "key": "title_00013",
+      "file": "title_00013.native-source.png",
+      "prompt": "Translate this fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Sapureth's Ghosts\". Gold VS at left; opponent title uses source's colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short titles one line; long title balanced two lines allowed. Genuine transparent alpha background. No backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Sapureth's Ghosts",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-85366d40-be5d-442e-abd7-f98143399513.png",
+      "generation_source_sha256": "e8f497b773d7d14cf8f5f0649f688ff57805860e618edc7e4a6ac83278142cd1",
+      "targets": [
+        {
+          "resource_id": "01:00013/00004",
+          "number": 0,
+          "source_sha256": "d65589e6248fe9c4e3d037f36d388784de746da5ad9ebc887917bc4f1f204d96"
+        }
+      ],
+      "sha256": "01a505e42a48fe1ede503ee00628e8366b5439b1297ae03d999323bad17723be"
+    },
+    {
+      "key": "title_00014",
+      "file": "title_00014.native-source.png",
+      "prompt": "Translate this fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Maetropa's Beastfolk\". Gold VS at left; opponent title uses source's colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short titles one line; long title balanced two lines allowed. Genuine transparent alpha background. No backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Maetropa's Beastfolk",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-09ffd5d3-d975-4d05-a7e6-b9fc20af0fbf.png",
+      "generation_source_sha256": "a357822a659afdd4e6b6d4a41193db534b4b60dac6b60bfb2efb222a98564e2a",
+      "targets": [
+        {
+          "resource_id": "01:00014/00004",
+          "number": 0,
+          "source_sha256": "1317808c78978e4c387d97e92056183915e41318a5b2c6e611c05d038b232c47"
+        }
+      ],
+      "sha256": "4d40476dd63282085bcc4cbdcdf358635e0e6227ee01e183195a0a371860366f"
+    },
+    {
+      "key": "title_00015",
+      "file": "title_00015.native-source.png",
+      "prompt": "Translate this fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Vijue's Imperial Troops\". Gold VS at left; opponent title uses source's colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short titles one line; long title balanced two lines allowed. Genuine transparent alpha background. No backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Vijue's Imperial Troops",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-4ac92d71-5296-4f1b-a732-d8448d07e383.png",
+      "generation_source_sha256": "fb3b434c591dd88088ef1a5c7a9912b22eb2c0814b85ff50e7f95a065b3d159d",
+      "targets": [
+        {
+          "resource_id": "01:00015/00004",
+          "number": 0,
+          "source_sha256": "f3eed3194da1766f57a655e83d956ff7e2dd5fea6178024901f312f1cae89d57"
+        }
+      ],
+      "sha256": "169431a7d67f8fb43079d9447278442c8b8a5c39025f306107bc5f0ad36a90e4"
+    },
+    {
+      "key": "title_00016",
+      "file": "title_00016.native-source.png",
+      "prompt": "Translate this fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Jakinie's Pirate Crew\". Gold VS at left; opponent title uses source's colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short titles one line; long title balanced two lines allowed. Genuine transparent alpha background. No backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Jakinie's Pirate Crew",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-ef1ca348-33ed-49ad-94e6-dcab9ab1432c.png",
+      "generation_source_sha256": "7ea1136befb33d44e5764ffdc1e21267a17d9f87ffad46758f6f16e515d3d13c",
+      "targets": [
+        {
+          "resource_id": "01:00016/00004",
+          "number": 0,
+          "source_sha256": "4b74bb906a60cb6e3c078e75eefa7e124bffaa0e14ad80f750c56e92ef91f743"
+        }
+      ],
+      "sha256": "6f752a155adaf13722974d699f6fc78931e9cde1e45810c2c10688e72d0cc779"
+    },
+    {
+      "key": "title_00017",
+      "file": "title_00017.native-source.png",
+      "prompt": "Translate this fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Azlier's Imperial Army\". Gold VS at left; opponent title uses source's colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short titles one line; long title balanced two lines allowed. Genuine transparent alpha background. No backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Azlier's Imperial Army",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-036c4f23-a4cd-41aa-b7db-fe55985d4141.png",
+      "generation_source_sha256": "f36d7968172b6af7b3bcc18bb29773c33846a67cf5fce7e38ac399a8d7c78321",
+      "targets": [
+        {
+          "resource_id": "01:00017/00004",
+          "number": 0,
+          "source_sha256": "a51eb4f42b11bb125d5b402348475b6f699ef39a59577ffc01b25ba1c27c0b26"
+        }
+      ],
+      "sha256": "e0dc713b03b6cb121055f011ffefb9f4d44d0bd723ea2e9752bbb75a363c5263"
+    },
+    {
+      "key": "title_00018",
+      "file": "title_00018.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Jilcooda Summoned Insects\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Jilcooda Summoned Insects",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-09621223-b2a3-43c0-bf11-4c277a7f6a9a.png",
+      "generation_source_sha256": "fb851e714b49c809bbd435152d23474cd6015e9e94ae41942b06a94c5bd64416",
+      "targets": [
+        {
+          "resource_id": "01:00018/00004",
+          "number": 0,
+          "source_sha256": "f9a19b88cdcbdae6a20246a463201a973f847536e6272a7167f143d9a1b58c9a"
+        },
+        {
+          "resource_id": "01:00044/00004",
+          "number": 0,
+          "source_sha256": "b2b4794e4931f183b94a7a2058c1a8ef64fcf65be30f3d309b17b586a94ba776"
+        }
+      ],
+      "sha256": "0336a9a9575193c93235226880d95e56b124fd5d72d98f81afdd65339a2a0af1"
+    },
+    {
+      "key": "title_00019",
+      "file": "title_00019.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Jilcooda & the Insect Queen\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Jilcooda & the Insect Queen",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-f7fca19b-6a9b-4840-ae0f-3a154e16d4f2.png",
+      "generation_source_sha256": "bd92dc1f0cd351f24c534f92af4ace4f0a57a028a0687c18722fb09cb3428e20",
+      "targets": [
+        {
+          "resource_id": "01:00019/00004",
+          "number": 0,
+          "source_sha256": "5fa9c753b072b1333cb4a425b30a62d4a2c6495e1396d6b2af0200aabde2486e"
+        }
+      ],
+      "sha256": "2ef129a92b1be4803193ef0d7ffac1c203dc29b30e169dc6ea4ee2b446967664"
+    },
+    {
+      "key": "title_00023",
+      "file": "title_00023.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Imperial Army\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Imperial Army",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-a4d103dc-fcbf-4d9b-85cc-4b12dc19cae0.png",
+      "generation_source_sha256": "7fef6194b22fa54ad79629e8427d2c1726dbc1218c8d66f480c9c17ec29e09e5",
+      "targets": [
+        {
+          "resource_id": "01:00023/00004",
+          "number": 0,
+          "source_sha256": "50b8fdc26a53705428f38eb3d5f26efb180641b28e396a99aff5fd862f6a5639"
+        }
+      ],
+      "sha256": "06151121cae08539d72c04f2db119e28e491c7b0de04166f731b4cbda77f6eee"
+    },
+    {
+      "key": "title_00025",
+      "file": "title_00025.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Undead Summoners\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Undead Summoners",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-5fc1fabc-6ed6-4232-a41b-acf415fd0c2d.png",
+      "generation_source_sha256": "ec0cd029491d8462fe9c89bfd9604c3ece1a5c9bd4e26dc0bb46ddb41b0af89a",
+      "targets": [
+        {
+          "resource_id": "01:00025/00004",
+          "number": 0,
+          "source_sha256": "6f3469e6fec2087ffc9b691350570465a1e105af9b21cef6d1d21a42b19de75a"
+        }
+      ],
+      "sha256": "cd7a3584fb1c31a65f1f86b0d0ac43ab09978959477ef64de1c367a6f174506c"
+    },
+    {
+      "key": "title_00026",
+      "file": "title_00026.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Ishlar's Imperial Army\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Ishlar's Imperial Army",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-a5668de8-6966-4a2d-ae96-9e2ecc8223bf.png",
+      "generation_source_sha256": "7d2ba866e167243f778c42e1d67209dea71c6e5731018bad98d33279fc3effce",
+      "targets": [
+        {
+          "resource_id": "01:00026/00004",
+          "number": 0,
+          "source_sha256": "e477ba8fb22807b497932c501767157204895fba800139de980d7b1de3901aad"
+        }
+      ],
+      "sha256": "1864325fee4aced908c18d3df8cad2a5501a62a53bc5c89e400b0165f4780a29"
+    },
+    {
+      "key": "title_00029",
+      "file": "title_00029.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Colorless Faction\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Colorless Faction",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-080d761b-a789-4b19-a80d-aef5ac37090d.png",
+      "generation_source_sha256": "ef1362ec55100a9d1137552696424f194cc10988fff843ad366d178f82dbacff",
+      "targets": [
+        {
+          "resource_id": "01:00029/00004",
+          "number": 0,
+          "source_sha256": "89fdb4dc55f59f70556a935b09c167dc7d2a2d82360753b63a43518556fceaa8"
+        }
+      ],
+      "sha256": "2afb665dfefbd446ec07772d9e4124ca00ba1622307aec2fc3181db1452bc258"
+    },
+    {
+      "key": "title_00033",
+      "file": "title_00033.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Ordreik's Colorless Faction\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Ordreik's Colorless Faction",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-209af3a1-b979-4a75-83d1-f99649c118b1.png",
+      "generation_source_sha256": "7f9f9d503a86cea413fe87b481c36a7f4fd1d86843e99ffcc45b458dec809c4f",
+      "targets": [
+        {
+          "resource_id": "01:00033/00004",
+          "number": 0,
+          "source_sha256": "57b5798af95c20b8331e09adabf11b29d2f9ce227e6aa59857230012ea1fc848"
+        }
+      ],
+      "sha256": "045fca187f76a8ab402b09af96237b75bad45387dc247659bed7347470871715"
+    },
+    {
+      "key": "title_00034",
+      "file": "title_00034.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Ishlar & the Undead\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Ishlar & the Undead",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-d3a94609-04eb-4bb8-9bba-226521814eed.png",
+      "generation_source_sha256": "f4980c30997074f3fb99f772eb527cb170ca80cd7ee7f834537715049cb044a5",
+      "targets": [
+        {
+          "resource_id": "01:00034/00004",
+          "number": 0,
+          "source_sha256": "bc25f684f3c0f94b4c0293e3b22b027097c1750015224ef73aff460740d60fc9"
+        }
+      ],
+      "sha256": "97c1f2ae79ff909fa0772f6f3caea478306b673135278a2498a79e8bc93a9a77"
+    },
+    {
+      "key": "title_00035",
+      "file": "title_00035.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS The Undead\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS The Undead",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-465a1b08-f8e3-4035-8903-988189afae47.png",
+      "generation_source_sha256": "b36c4cddcff7d49959ff1c4010465f51066240edb8ba6ad903f98746775a3068",
+      "targets": [
+        {
+          "resource_id": "01:00035/00004",
+          "number": 0,
+          "source_sha256": "531e5eeb3ae68fd4d445a39672c921cae4f2bdeaf480087c666952c9470be114"
+        }
+      ],
+      "sha256": "3e75b6f36a110be06631393684567ccb4eefd210dfd703628527cf3dac2a666c"
+    },
+    {
+      "key": "title_00036",
+      "file": "title_00036.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Heinel's Dielgo\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Heinel's Dielgo",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-2c8e587e-945b-47b5-80b1-eca0c374efa4.png",
+      "generation_source_sha256": "e4d00402b9644d28fefbf8251de52165ba64c9acc60976d34d8f9d8f0ae31bd3",
+      "targets": [
+        {
+          "resource_id": "01:00036/00004",
+          "number": 0,
+          "source_sha256": "c024aaf835d68446c901be3dae75186f618fe7f02f945f627be7382f81f5f6ee"
+        }
+      ],
+      "sha256": "9af9e730b462087b4d859bcbe35df9702a93fcbc46eb030addd7a743800cc3de"
+    },
+    {
+      "key": "title_00043",
+      "file": "title_00043.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Rogue Summon Beasts\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Rogue Summon Beasts",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-79ac4a18-7f24-4c99-bff2-c89963c57a05.png",
+      "generation_source_sha256": "e3bb3ad588b55d5f02419460ad25cf35a10d6b09e7cffee7a07605cc7624466e",
+      "targets": [
+        {
+          "resource_id": "01:00043/00004",
+          "number": 0,
+          "source_sha256": "ff8c101862add7c1f60da954a0397ded8ddd47fec92ff742ca9888cb2d022f65"
+        },
+        {
+          "resource_id": "01:00063/00004",
+          "number": 0,
+          "source_sha256": "e518415eded780900d9b555184c24db9a3ac149b1f4c0fd6e9d21015f8ccfabf"
+        }
+      ],
+      "sha256": "0240dad6db5b39ab2ecbf4ab1a92fd94154c0a4105c7f2ff6d46e6a414752d3a"
+    },
+    {
+      "key": "title_00045",
+      "file": "title_00045.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Cunnon\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Cunnon",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-46b845f1-08cc-4e93-977e-b0ce66fa965a.png",
+      "generation_source_sha256": "ba081cfb0c5cacba9fde52ad618311cd2a99de7d0a3888a95a2c5ba18f8a4a50",
+      "targets": [
+        {
+          "resource_id": "01:00045/00004",
+          "number": 0,
+          "source_sha256": "ddaaef202594deab47a20997e09b05bcc69e9c0a873b1411fd179f57e4567c3a"
+        }
+      ],
+      "sha256": "37b024464a16cffcf4fd9416e460a32ae95ae14c3c227c1e79cad1b15e56eefd"
+    },
+    {
+      "key": "title_00046",
+      "file": "title_00046.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Pirate Ghosts\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Pirate Ghosts",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-7c09a95b-d7b3-4536-ac57-f1eac6e8f448.png",
+      "generation_source_sha256": "33888b3ffd009c8e526c94d145aafa4af598752e1e146f16334006daf4f91a95",
+      "targets": [
+        {
+          "resource_id": "01:00046/00004",
+          "number": 0,
+          "source_sha256": "bb30b6dcc2da2b7eb569665c522f6b3f3f89b71f4bd3a94b7107df6a014d55ef"
+        }
+      ],
+      "sha256": "5f90739c0550470072789da5577e4b9480e067efd18394f803666c62595a4b80"
+    },
+    {
+      "key": "title_00047",
+      "file": "title_00047.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS VAR-Xe-LD\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS VAR-Xe-LD",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-f3ef3a20-aa3f-42e9-96a2-6ad9d4f50f6c.png",
+      "generation_source_sha256": "f5f3567fc383b8077f389615c3b32e1b0293cffeaef734c73ce5bdb1bc4d8081",
+      "targets": [
+        {
+          "resource_id": "01:00047/00004",
+          "number": 0,
+          "source_sha256": "b66b17380f46e2dd7822763ac27135b2b99a6892bc67c76f39da1ace6c19e691"
+        }
+      ],
+      "sha256": "711e9ddb8020648890b14ef277078cb130774683182be0e60eb72b6fdbd87bd4"
+    },
+    {
+      "key": "title_00048",
+      "file": "title_00048.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Ishlar\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Ishlar",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-011ead62-e734-4803-8cb2-f590ab42e908.png",
+      "generation_source_sha256": "e7344ef9137c20f68688462f2b62ad3d9858252b291c3874c539a4b71aef6447",
+      "targets": [
+        {
+          "resource_id": "01:00048/00004",
+          "number": 0,
+          "source_sha256": "f0d069b3ab67ba4574d5e09da06ef6b9d5686e270feca19bebdb0969b5c0c6cf"
+        }
+      ],
+      "sha256": "9a6717816e4b71a02d5a5fe8a9897ab26bf78a1df0d473f65dac7fd80e7cfb18"
+    },
+    {
+      "key": "title_00053",
+      "file": "title_00053.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Marurur & the Islanders\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Marurur & the Islanders",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-45e3541c-b954-4c14-b7e3-4a5660e77605.png",
+      "generation_source_sha256": "b325a0bad8595e39514eb66f0e16dead4e78d8d5c0b5dcbcded0564ee010a241",
+      "targets": [
+        {
+          "resource_id": "01:00053/00004",
+          "number": 0,
+          "source_sha256": "cb8df90c9971b2abb3d4803ccc842dfa9d454fd4dc90c5c72440455e8ce3f38e"
+        }
+      ],
+      "sha256": "1245779e019a25a6b1c05c176c34fdf5d7fc0cfbc703ae0b1429e82cde720938"
+    },
+    {
+      "key": "title_00054",
+      "file": "title_00054.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Mysterious Shadow\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Mysterious Shadow",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-fc4d486f-0363-4c77-9dd6-ab525489ae2d.png",
+      "generation_source_sha256": "277579b00f5af688701665cc3a8415b228b3a965fd274bf3b3a903655019c036",
+      "targets": [
+        {
+          "resource_id": "01:00054/00004",
+          "number": 0,
+          "source_sha256": "712d256a3ae1f601e79cdf564165c7be3535656c45e1d39b4ffad5565e33f253"
+        }
+      ],
+      "sha256": "79a9355bbe4988c0a36f998ff8915634036b33276588f2ef77ce8b3bc9af33fb"
+    },
+    {
+      "key": "title_00060",
+      "file": "title_00060.native-source.png",
+      "prompt": "Translate this standalone fantasy RPG encounter-title sprite into English. Replace ALL Japanese with exactly \"VS Shadow of Primal Sin\". Gold VS at left; opponent title uses the original colors with bold beveled serif lettering, bright cream highlights and strong dark outline. Short title one line; long title balanced two lines allowed. Genuinely transparent alpha background, no backdrop, rectangle, card, border or addedtext. Wide canvas3.6:1, keep5%transparentpadding. Large readable thick letters for final432x120 game sprite.",
+      "target_text": "VS Shadow of Primal Sin",
+      "generation_source": "C:\\Users\\Binh\\.codex\\generated_images\\01a0db63-acc7-7ff0-b061-538dd1602405\\exec-a0e6d34e-c2b1-4a44-acaf-16863e3fe5d9.png",
+      "generation_source_sha256": "61239753fbd272fb7a8ec2973e979971d8a9ef8495c6b07fe2768fbd512140fe",
+      "targets": [
+        {
+          "resource_id": "01:00060/00004",
+          "number": 0,
+          "source_sha256": "270584ec221b98bee8a4cdfc1dd162dfca40b0e0ebc80850f680c687b8971f4a"
+        }
+      ],
+      "sha256": "8bfa37bd892e5fa84d4837c1520f1b556ed693c54f3db01048d00d34fe54574f"
+    },
+    {
+      "key": "loss_00009",
+      "file": "loss_00009.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO OR SONOLAR\nDEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO OR SONOLAR\nDEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00009.png",
+      "generation_source_sha256": "6e54d1c0bee62f166feb76ce3e2155c7361a207094dd02a26001af0ada2186e4",
+      "targets": [
+        {
+          "resource_id": "01:00009/00003",
+          "number": 0,
+          "source_sha256": "d34cd280f3603f3303ea727e0a104431f5ffd80f256612c5cff7670cdd996f06"
+        }
+      ],
+      "sha256": "e73cf37d433c1b4ba5cc1aa58d4eedd7c0ca9559e5f11d47b27f9d1be7ae8c51"
+    },
+    {
+      "key": "loss_00010",
+      "file": "loss_00010.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO OR KYLE\nDEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO OR KYLE\nDEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00010.png",
+      "generation_source_sha256": "2171fee66943d1b54c09106215b676c27ac27306960a27290b657bf6968d20f9",
+      "targets": [
+        {
+          "resource_id": "01:00010/00003",
+          "number": 0,
+          "source_sha256": "c7208a620cda1d99e8036c18c68457ad168bf7a901691e3106bd53881114c987"
+        }
+      ],
+      "sha256": "703328b272cbb9e4f625fd481206678815e12af0d21f6e9a6dd70db0f14f1a68"
+    },
+    {
+      "key": "loss_00015",
+      "file": "loss_00015.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO OR GUARDIAN\nDEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO OR GUARDIAN\nDEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00015.png",
+      "generation_source_sha256": "6687f30ad5c054584fefc368f5795433118b6e694683c83af546b01a12ae038d",
+      "targets": [
+        {
+          "resource_id": "01:00015/00003",
+          "number": 0,
+          "source_sha256": "1507fe6be3fb8a779578ad0abe17516708b701f5e47eae93ea6e0f622e9de98d"
+        }
+      ],
+      "sha256": "d84a84561c5ae3741eda28d1af169cebaae2dbc0376eaa9452a3c703e9750879"
+    },
+    {
+      "key": "loss_00017",
+      "file": "loss_00017.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO OR PUPIL\nDEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO OR PUPIL\nDEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00017.png",
+      "generation_source_sha256": "1eb046aa2a8a4bb1b0e55d06c749ebff4fc8b9e92c20d02734ee5360ed504163",
+      "targets": [
+        {
+          "resource_id": "01:00017/00003",
+          "number": 0,
+          "source_sha256": "86ce1ded8df0d90ee5785e7c60268fc237f4b31c83850105aa2e872446d9d1cc"
+        }
+      ],
+      "sha256": "2b74b7d46b0e2a489c5538b75b9b180c1af2a0d124efd5e59b9141c1d2286931"
+    },
+    {
+      "key": "loss_00029",
+      "file": "loss_00029.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO, AZLIER OR\nGALLEOR DEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO, AZLIER OR\nGALLEOR DEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00029.png",
+      "generation_source_sha256": "2b4866f3bd27d2484df4423c54c9f4f9692900696474d0cbb320c4f5a12d194e",
+      "targets": [
+        {
+          "resource_id": "01:00029/00003",
+          "number": 0,
+          "source_sha256": "0f6c5e893aee03782afc96705ad45ffa1392d567d8bbf47deeb93e9a8b81c602"
+        }
+      ],
+      "sha256": "dfad4ab54d75f50160fbba8e38b6d344bb63fb4eb3744f9cea58428795152995"
+    },
+    {
+      "key": "loss_00030",
+      "file": "loss_00030.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO, SCARREL OR\nYARD DEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO, SCARREL OR\nYARD DEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00030.png",
+      "generation_source_sha256": "fbce7368b65a73d69f3d99272893ec1b9b0d403afa6eb7959ef68db80c0277db",
+      "targets": [
+        {
+          "resource_id": "01:00030/00003",
+          "number": 0,
+          "source_sha256": "727a65892e2bc8ed696ad611f3d61dbee57b2214bdc28861380e832ff6ba40e7"
+        }
+      ],
+      "sha256": "b76dcde6887f181f7ecafed49983630600b1df1ca18a8b9f88873a4c3dc38bf5"
+    },
+    {
+      "key": "loss_00043",
+      "file": "loss_00043.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO OR PHLAIZ\nDEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO OR PHLAIZ\nDEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00043.png",
+      "generation_source_sha256": "dcd0839051970cb6cb6484d81deaa80fe63d97d77e558fb8da041761d4fd0603",
+      "targets": [
+        {
+          "resource_id": "01:00043/00003",
+          "number": 0,
+          "source_sha256": "e15be795e69ad6c575fb500ac9162fcb4f5b5d6905306f8593017123388f457b"
+        }
+      ],
+      "sha256": "a72bd96194cd73f30e5a3671a72d2e212c8d385cc2e64575cf1e4b0d403d2f62"
+    },
+    {
+      "key": "loss_00044",
+      "file": "loss_00044.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO OR CUNNON\nDEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO OR CUNNON\nDEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00044.png",
+      "generation_source_sha256": "02143f7e50c87b19be8825a67208772db560a0d9a585265618907de8eb5a39bf",
+      "targets": [
+        {
+          "resource_id": "01:00044/00003",
+          "number": 0,
+          "source_sha256": "33dfb5a9c1fa3b18b2226048da9cc07a9ba7b12f93fd51898ba7cf8eb06bd5cb"
+        }
+      ],
+      "sha256": "9fe2d9288277005ca3e5dc4411a12af7af1ddfd21eb4143d73890ba436dc82ca"
+    },
+    {
+      "key": "loss_00045",
+      "file": "loss_00045.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO OR ARDYLLIA\nDEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO OR ARDYLLIA\nDEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00045.png",
+      "generation_source_sha256": "9ecf423ff7b2b68682cdce5025acbd158386d191b85a9a802b22628d77c17b77",
+      "targets": [
+        {
+          "resource_id": "01:00045/00003",
+          "number": 0,
+          "source_sha256": "9f3e3aea42c3135feaac7c20b99aa9da0023fc3af9ee5b614a61c52df18e6f18"
+        }
+      ],
+      "sha256": "d8816435625101045d853a24d349aae444dfa1d44c4ac7b233f8187e6f6c53e6"
+    },
+    {
+      "key": "loss_00046",
+      "file": "loss_00046.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO OR JAKINIE\nDEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO OR JAKINIE\nDEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00046.png",
+      "generation_source_sha256": "236b05eb54bcd885a99b29a0eac336eb606128aa7f23bbe707f2b19c4253246b",
+      "targets": [
+        {
+          "resource_id": "01:00046/00003",
+          "number": 0,
+          "source_sha256": "5706a717a6185e908056153aeb7cc06a637ac56e6fc95e3021f637c9aa63f9b3"
+        }
+      ],
+      "sha256": "954a364d052b44f9d3c5a12c6cfb4eb4c72e4a5067695b0603cd455cbc5529e8"
+    },
+    {
+      "key": "loss_00048",
+      "file": "loss_00048.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO OR AZLIER\nDEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO OR AZLIER\nDEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00048.png",
+      "generation_source_sha256": "c0f8db932b6bf3254d7770f083a32e8405a49a0695d4a077694dbba968d3fa48",
+      "targets": [
+        {
+          "resource_id": "01:00048/00003",
+          "number": 0,
+          "source_sha256": "219105ad0951548e7e4003d785acbd6652276e574b8bfa5ab8cb2b9acf5f73e1"
+        }
+      ],
+      "sha256": "f40837d326af8e98177e2e7ec5d25736c4215d591313eb54cab19e4f5b3f6594"
+    },
+    {
+      "key": "loss_00049",
+      "file": "loss_00049.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: HERO OR OUKINIE\nDEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "HERO OR OUKINIE\nDEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00049.png",
+      "generation_source_sha256": "beae2c6e94c011986ea9ad11c149e56100d543ea7128ebdab62dab9335185f96",
+      "targets": [
+        {
+          "resource_id": "01:00049/00003",
+          "number": 0,
+          "source_sha256": "6beaf8a8e0581cc9f9205b7be398ab1644e2552aef52804a7dc853912704692c"
+        }
+      ],
+      "sha256": "e4fb2f038be46a840dac3d8752a9be3c81cd2212f5f03925f18e3151ad59ebc2"
+    },
+    {
+      "key": "loss_00063",
+      "file": "loss_00063.native-source.png",
+      "prompt": "Recreate source defeat-condition sprite, exact two-line English: ALL ALLIES\nDEFEATED. White/lavender bold beveled fantasy serif, navy outline, genuine transparent background, 5% padding.",
+      "target_text": "ALL ALLIES\nDEFEATED",
+      "generation_source": "E:\\Projects\\Summon Night 3\\work\\ui\\battle_0.1.13\\encounter_generated\\loss_00063.png",
+      "generation_source_sha256": "4ff3c0b0d21dcb3c0e6aae5699a918d6132c208fab38bc0fc6ec37fed6a52f98",
+      "targets": [
+        {
+          "resource_id": "01:00063/00003",
+          "number": 0,
+          "source_sha256": "5792eaa179b3b7e205a9322309563783683317ff04a48381b186b2350e8de15c"
+        }
+      ],
+      "sha256": "83182f6f9c96e48d35be4c2815118e6c5bff7212f4833ea7a16cd837fd2553f8"
+    }
+  ]
+}

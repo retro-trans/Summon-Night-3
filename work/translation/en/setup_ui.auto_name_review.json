@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-09-26",
+  "reviewer": "independent_setup_ui_meaning_review",
+  "status": "auto_name_behavior_resolved_by_static_native_code",
+  "source": {
+    "path": "work/source/EBOOT.elf",
+    "sha256": "82cc184377986d90d298ee4918fb11bd0e3524659e5c6f8b7b3c859f4d232684"
+  },
+  "address_convention": "Module-relative virtual addresses; corresponding original ELF file offsets equal module address plus 0xc0 for these ranges. End addresses are exclusive. Runtime load base is not included.",
+  "immutable_prior_reviews": [
+    {
+      "path": "work/translation/en/setup_ui.meaning_review.json",
+      "sha256": "b3e62f023e966d40eab272ca090343a5f8cf6916913a31dca1a11f2c9ac90d82"
+    },
+    {
+      "path": "work/translation/en/setup_ui.related_meaning_review.json",
+      "sha256": "50ba4d6afe6d0cb3b2f9ba8db45f22681307533017b7757c70ee4f1e8114b8eb"
+    }
+  ],
+  "resolved_ids": [
+    "name.auto",
+    "name.footer",
+    "name.footer_short",
+    "name.background.auto"
+  ],
+  "approved_shared_target": "Auto-Name",
+  "conclusion": {
+    "protagonist_mode": "Restores the stored default name initialized from the selected Rexx/Aty default string.",
+    "nonzero_naming_mode": "Cycles deterministically through up to three per-entity preset name pointers, skipping null candidates and the current name.",
+    "randomization": "The analyzed handler and preset lookup do not randomize names.",
+    "shared_label": "Auto-Name accurately covers both branches and is approved for shared button/footer/background artwork.",
+    "rejected_shared_labels": {
+      "Random Name": "Misstates deterministic behavior.",
+      "Default Name": "Describes protagonist restoration but omits the nonzero-mode preset cycling behavior."
+    },
+    "mode_specific_label": "Default Name is semantically valid if used only for protagonist-specific text; no such split is required."
+  },
+  "context_fields": {
+    "0x198": "Naming mode; zero selects protagonist defaults.",
+    "0x41bc": "Selected protagonist or nonzero-mode entity identifier.",
+    "0x41c0": "Stored default-name buffer.",
+    "0x41e0": "Editable current-name buffer.",
+    "0x421c": "Nonzero-mode preset cursor, incremented modulo three.",
+    "0x4208": "Selected toolbar action."
+  },
+  "default_string_evidence": [
+    {
+      "target": "Rexx",
+      "pointer_instruction_module_addresses": [
+        "0x129c98",
+        "0x129ca4"
+      ],
+      "source_string_file_offset": "0x21c978"
+    },
+    {
+      "target": "Aty",
+      "pointer_instruction_module_addresses": [
+        "0x129cb8",
+        "0x129cc4"
+      ],
+      "source_string_file_offset": "0x21c984"
+    }
+  ],
+  "native_evidence": [
+    {
+      "id": "default_name_initializer",
+      "module_start": "0x129c38",
+      "module_end_exclusive": "0x129d04",
+      "file_offset_start": "0x129cf8",
+      "file_offset_end_exclusive": "0x129dc4",
+      "byte_length": 204,
+      "bytes_sha256": "5329b1c03c2b6e5072c0cf26f1147c4d81841eabef45366c5df8abf8bec75e04",
+      "observation": "Clears stored/current name buffers; mode zero loads the Rexx/Aty default into ctx+0x41c0 and copies it to current ctx+0x41e0."
+    },
+    {
+      "id": "complete_auto_name_handler",
+      "module_start": "0x12a4c4",
+      "module_end_exclusive": "0x12a650",
+      "file_offset_start": "0x12a584",
+      "file_offset_end_exclusive": "0x12a710",
+      "byte_length": 396,
+      "bytes_sha256": "ac1f4cecd885c49c4df26726a9e20d1f643907d0e933d0f0d71132bcf83023b4",
+      "observation": "Shared handler; mode-zero restoration and nonzero-mode deterministic preset cycling."
+    },
+    {
+      "id": "protagonist_default_restore",
+      "module_start": "0x12a504",
+      "module_end_exclusive": "0x12a534",
+      "file_offset_start": "0x12a5c4",
+      "file_offset_end_exclusive": "0x12a5f4",
+      "byte_length": 48,
+      "bytes_sha256": "f7c88a62911467c4c8b4ad8c3a346676b8c7614107699f02481ea19650611b62",
+      "observation": "Tests ctx+0x198. Zero mode clears current name and copies stored default into it."
+    },
+    {
+      "id": "nonzero_mode_preset_cycle",
+      "module_start": "0x12a534",
+      "module_end_exclusive": "0x12a5d4",
+      "file_offset_start": "0x12a5f4",
+      "file_offset_end_exclusive": "0x12a694",
+      "byte_length": 160,
+      "bytes_sha256": "69aa65b79d6d46a67df170678aa5423d74445a0c855168f45cdc61be75f3f176",
+      "observation": "Reads preset index ctx+0x421c, skips null/current candidates, copies a different preset, increments index modulo three, and stops after replacement or three attempts."
+    },
+    {
+      "id": "preset_lookup",
+      "module_start": "0x19ae30",
+      "module_end_exclusive": "0x19ae58",
+      "file_offset_start": "0x19aef0",
+      "file_offset_end_exclusive": "0x19af18",
+      "byte_length": 40,
+      "bytes_sha256": "6af2a65e3b0306c3e7d45b974ba408f7b941014ff5049d5b89f1f93000084255",
+      "observation": "Uses creature/entity index and preset index to return record+0x24+4*preset_index; returns zero when record is absent. No random operation."
+    },
+    {
+      "id": "string_copy_helper",
+      "module_start": "0x1e4b20",
+      "module_end_exclusive": "0x1e4b50",
+      "file_offset_start": "0x1e4be0",
+      "file_offset_end_exclusive": "0x1e4c10",
+      "byte_length": 48,
+      "bytes_sha256": "4c2cc6df3b2221e144049cef828c32f9f25fbe21078e96ab586a3068e5d65a5c",
+      "observation": "Copies zero-terminated 16-bit storage units, corroborating current/default buffer assignments."
+    },
+    {
+      "id": "shortcut_dispatch_first",
+      "module_start": "0x12cb14",
+      "module_end_exclusive": "0x12cb74",
+      "file_offset_start": "0x12cbd4",
+      "file_offset_end_exclusive": "0x12cc34",
+      "byte_length": 96,
+      "bytes_sha256": "2fc17bd3cc54712d70bc2bfce6231290bf7f336546a44378bc34b109ef5b433b",
+      "observation": "Loads input mask 0x8000 in branch delay slot at 0x12cb24; input check at 0x12cb54 calls shared handler at 0x12cb64."
+    },
+    {
+      "id": "shortcut_dispatch_second",
+      "module_start": "0x12d02c",
+      "module_end_exclusive": "0x12d098",
+      "file_offset_start": "0x12d0ec",
+      "file_offset_end_exclusive": "0x12d158",
+      "byte_length": 108,
+      "bytes_sha256": "8f7412300552af5fe06e4cf8ea2485fc38f4c03c79862d720784286d69e18289",
+      "observation": "Loads input mask 0x8000 at 0x12d03c; input check at 0x12d078 calls shared handler at 0x12d088."
+    },
+    {
+      "id": "toolbar_dispatch",
+      "module_start": "0x12cc38",
+      "module_end_exclusive": "0x12cc74",
+      "file_offset_start": "0x12ccf8",
+      "file_offset_end_exclusive": "0x12cd34",
+      "byte_length": 60,
+      "bytes_sha256": "b52e424620c6897e169b4ee6a6ffeed622734943638bd0c65bfc12b4f4f97b8b",
+      "observation": "Confirm input 0x2000 dispatches selected action ctx+0x4208 through the ten-entry table at module 0x21c948."
+    },
+    {
+      "id": "toolbar_auto_name_case",
+      "module_start": "0x12ccbc",
+      "module_end_exclusive": "0x12cccc",
+      "file_offset_start": "0x12cd7c",
+      "file_offset_end_exclusive": "0x12cd8c",
+      "byte_length": 16,
+      "bytes_sha256": "a637290775c995682cd91127cc33b0201dd3126a9c25df08a06a0fd5620a3661",
+      "observation": "Toolbar action three directly calls shared handler 0x12a4c4."
+    },
+    {
+      "id": "toolbar_action_table",
+      "module_start": "0x21c948",
+      "module_end_exclusive": "0x21c970",
+      "file_offset_start": "0x21ca08",
+      "file_offset_end_exclusive": "0x21ca30",
+      "byte_length": 40,
+      "bytes_sha256": "ac1ddeca43a0238a1225cd63165e5cb81638c05594dec7850d4c6ad8e3a063bd",
+      "observation": "Ten handler addresses; entry three is 0x12ccbc."
+    }
+  ],
+  "toolbar_dispatch_table": [
+    "0x12cc74",
+    "0x12cc90",
+    "0x12ccac",
+    "0x12ccbc",
+    "0x12cccc",
+    "0x12cd00",
+    "0x12cd00",
+    "0x12cd00",
+    "0x12cd00",
+    "0x12cd00"
+  ],
+  "review_scope_and_limits": [
+    "Static original-ELF disassembly and byte verification only; no emulator access or input was used.",
+    "The nonzero naming branch corresponds to the generic creature/summon naming path; every possible caller/mode was not exhaustively enumerated.",
+    "The lookup returns existing preset pointers. This review does not transcribe or approve the actual preset-name corpus.",
+    "This resolves the Auto-Name functional uncertainty in the listed IDs. Other unresolved tiny-text regions, glossary name research, layout fitting, and runtime insertion checks remain unaffected.",
+    "Prior reviews retain their original hashes and historical uncertainty statements. Apply this supplemental resolution when merging, then run glossary normalization."
+  ]
+}

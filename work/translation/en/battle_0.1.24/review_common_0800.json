@@ -1,0 +1,27 @@
+{
+  "reviewed_range": [800, 879],
+  "rows_examined": {
+    "ranges_inclusive": [[795, 884]],
+    "count": 90
+  },
+  "draft_inputs_sha256": {
+    "work/translation/en/battle_0.1.24/common_0800.targets.json": "b22262a89e76285c08f3a0a22e23ad36cc76f3d2d9e86f6cc936b8604f5e341c"
+  },
+  "corrections": [
+    {
+      "resource": 175,
+      "resource_row": 813,
+      "source_sha256": "f78c2d1a372a18fd0c5fe2b50d12ca212c736b2794e2c78e8d33bff74ca70a5d",
+      "text": "Alieze, follow right",
+      "reason": "Uses the current primary character-reference spelling Alieze."
+    }
+  ],
+  "findings": [
+    "All 80 assigned rows were compared with source rows 795–884. No other definite meaning or alignment correction found.",
+    "Rows 821–826 deliberately preserve the body-image joke without adding a specific body part beyond the source's implication.",
+    "Rows 860–873 retain the opposing speakers' ideological exchange; row 873 intentionally remains incomplete."
+  ],
+  "uncertainties": [
+    "Leold, Tris, Recie, and Ness are not present in the supplied primary overlay; retained draft spellings pending a supplemental spelling source."
+  ]
+}

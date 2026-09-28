@@ -1,0 +1,1194 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "resource_id": "00:00065",
+  "target_file": "opening_004.targets.json",
+  "review_type": "independent_agent_meaning_review",
+  "independent_review": true,
+  "reviewer": "/root/opening_pilot_translation",
+  "independence_scope": "Rows320-397 independently reviewed. Rows398-399 were source-checked but use a boundary proposal previously contributed by this reviewer; independent005 reviewer must cover398-402.",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "reviewed_target_sha256": "1a1d0dea56832b7a1675e756af2daa8e73959757faa198653e6fb193dc10fa11",
+  "rows_in_slice": 80,
+  "rows_examined": 116,
+  "context_rows_before": 20,
+  "context_rows_after": 16,
+  "opening_row_range": [
+    320,
+    399
+  ],
+  "examined_opening_row_range": [
+    300,
+    415
+  ],
+  "assigned_instruction_range": [
+    84788,
+    87190
+  ],
+  "context_instruction_range": [
+    84212,
+    87534
+  ],
+  "ordering": "Resource strings sorted by minimum reference instruction; suffix starting at 00:00065:text:0002646e (sorted global index1808) is opening row0. Branch alternatives remain distinct; not one unconditional playthrough.",
+  "method": "Read116 original source rows300-415 in memory, compared every80 assigned draft as complete display groups, verified every source hash/ID/reference and41 display helpers, checked the name token, anonymous302 interruptions, choice IDs0/1 and both boundary groups. No transcript or target edits saved.",
+  "verdict": {
+    "existing_draft_rows_reviewed": 80,
+    "existing_draft_rows_independently_reviewed": 78,
+    "existing_draft_rows_source_checked_with_prior_boundary_contribution": 2,
+    "existing_draft_rows_requiring_meaning_correction": 0,
+    "unresolved_rows_as_found": 0,
+    "coordinated_completion_proposals": 1,
+    "meaning": "No required meaning correction found. Full runtime-name introduction requires reflow. Boundary398-400 is source-aligned and must be atomic, with independent second opinion delegated to the005 reviewer. Preference-only wording remains unchanged.",
+    "target_edits_applied": false,
+    "final_translation_acceptance": false
+  },
+  "required_meaning_edits": [],
+  "coordinated_completion_proposals": [
+    {
+      "proposal_id": "coordinated_group_199",
+      "sentence_group": 199,
+      "status": "meaning_accepted_for_coordinated_integration_only",
+      "apply_together": true,
+      "opening_rows": [
+        398,
+        399,
+        400
+      ],
+      "group_ids": [
+        "00:00065:text:000281e0",
+        "00:00065:text:000281f6",
+        "00:00065:text:0002820a"
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:000281e0",
+          "opening_row": 398,
+          "source_sha256": "64ef38bc8b08e75247acb9d24e699a152c7d2c09d7fcc49fdb497b7edd8a4fb7",
+          "reference_instructions": [
+            87182
+          ],
+          "proposed_text": "If I learned how to fight,",
+          "outside_assigned_slice": false
+        },
+        {
+          "id": "00:00065:text:000281f6",
+          "opening_row": 399,
+          "source_sha256": "524ffd447cde8a3f30f645c69f8c9e70e5f36769df5f7fb439e3d8f121859b92",
+          "reference_instructions": [
+            87190
+          ],
+          "proposed_text": "I could protect",
+          "outside_assigned_slice": false
+        },
+        {
+          "id": "00:00065:text:0002820a",
+          "opening_row": 400,
+          "source_sha256": "290f455857f52cec1106727e79487414c16bdcdb5baeb7d51c8d9b53a121d6db",
+          "reference_instructions": [
+            87198
+          ],
+          "proposed_text": "everyone...",
+          "outside_assigned_slice": true
+        }
+      ],
+      "whole_sentence": "If I learned how to fight, I could protect everyone...",
+      "source_display_instruction": 87210,
+      "source_display_helper_word": 2044,
+      "reason": "One conditional sentence spans398-400, and401-402 explicitly frame it as the protagonists long-held belief. Targets preserve fighting ability, protecting everyone and incomplete reflective cadence.",
+      "integration_condition": "Apply398-400 atomically with the following401-402 belief group. Obtain a separate independent opinion on this coordinated boundary, since this reviewer contributed its wording while authoring005.",
+      "edits_applied": false,
+      "review_independence_limit": "This is a source-alignment/self-check for the shared boundary proposal, not an independent second opinion on398-400."
+    }
+  ],
+  "uncertainty_notes": [
+    {
+      "opening_rows": [
+        320,
+        321,
+        325,
+        326
+      ],
+      "decision": "Keep interrupted recognition and nervous laughter.",
+      "uncertainty": "The child is not explicitly named or expanded into a full student identification. Draft carries the recognition without adding a new factual relationship."
+    },
+    {
+      "opening_rows": [
+        330,
+        331,
+        332
+      ],
+      "decision": "Accept the combined introduction Ah, yes. My name is [runtime name].",
+      "uncertainty": "The introduction predicate moved into331 and332 is punctuation only. This passes meaning as a complete group, not as independently rendered rows; reflow must keep the period attached and measure expanded name width."
+    },
+    {
+      "opening_rows": [
+        333,
+        334,
+        335,
+        346,
+        355,
+        361,
+        371
+      ],
+      "decision": "Keep sourced Martini, Salome, Nup and Alieze spellings.",
+      "uncertainty": "Salome differs from a literal source romanization but follows the current-wiki glossary rule. Master/Miss are respectful addresses, not asserted peerage ranks."
+    },
+    {
+      "opening_rows": [
+        336,
+        337,
+        338,
+        339,
+        340,
+        341
+      ],
+      "decision": "Keep caretaker in place of the late mistress.",
+      "uncertainty": "The draft does not invent grandmother or biological-mother relationships. Him/her follow explicitly male/female child address terms and branches, not guessed gender from names."
+    },
+    {
+      "opening_rows": [
+        342,
+        343,
+        344
+      ],
+      "decision": "Keep the courteous thanks for coming.",
+      "uncertainty": "All this way is treated as a conventional acknowledgment of the trouble taken, not a measured travel distance. No rewrite for stylistic preference is required."
+    },
+    {
+      "opening_rows": [
+        352,
+        353,
+        354,
+        356,
+        357
+      ],
+      "decision": "Keep the childs exaggerated sunset complaint and rude dismissal.",
+      "uncertainty": "The hyperbole is the childs complaint, not a statement of actual departure time. The caregiver address remains Nanny."
+    },
+    {
+      "opening_rows": [
+        358,
+        359,
+        375,
+        376
+      ],
+      "decision": "Keep the polite anonymous interruption.",
+      "uncertainty": "VM display actor302 is observed, but identity is not established. Neither a speaker name nor gender is introduced."
+    },
+    {
+      "opening_rows": [
+        368,
+        369,
+        370
+      ],
+      "decision": "Keep eagerness to meet the teacher early.",
+      "uncertainty": "My teacher is explicit in the relationship and no romantic motive or extra personal intention is inserted."
+    },
+    {
+      "opening_rows": [
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384
+      ],
+      "decision": "Keep reported impressive grades and top-of-class answer.",
+      "uncertainty": "Hesitant delivery remains through Well/Yes and ellipses. The draft makes no claim of a particular degree, award, or rank outside school."
+    },
+    {
+      "opening_rows": [
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397
+      ],
+      "decision": "Keep martial arts and summoning as the two disciplines.",
+      "uncertainty": "Martial arts is broad here and does not force unarmed combat. The spoken answers and choices retain their distinct source records."
+    },
+    {
+      "opening_rows": [
+        398,
+        399
+      ],
+      "decision": "Accept only the complete398-400 conditional with401-402 belief framing.",
+      "uncertainty": "This reviewer contributed the shared boundary wording. A different reviewer must supply its independent second opinion; this review does not claim that independence for these two assigned rows."
+    }
+  ],
+  "integration_readiness": {
+    "meaning_review_ready_opening_rows": [
+      320,
+      397
+    ],
+    "boundary_rows_requiring_atomic_integration": [
+      398,
+      399
+    ],
+    "boundary_independent_second_opinion_pending": true,
+    "ordering": "Complete independent meaning review and any corrections before scripted name normalization.",
+    "layout_or_runtime_acceptance": false,
+    "production_ready": false,
+    "whole_group_reflow_requirements": [
+      {
+        "sentence_group": 163,
+        "opening_rows": [
+          330,
+          331,
+          332
+        ],
+        "group_ids": [
+          "00:00065:text:00027cbc",
+          "00:00065:text:00027cc6",
+          "00:00065:text:00027ccc"
+        ],
+        "source_display_instruction": 85308,
+        "source_display_helper_word": 2030,
+        "reason": "Runtime-name token stays at331, but332 is only punctuation. Reflow as one group; never display punctuation-only332 as a separate final line. Expanded runtime name width must be used."
+      }
+    ],
+    "layout_followups": [
+      {
+        "opening_rows": [
+          395,
+          396
+        ],
+        "finding": "Keep leading U+3000 and choice IDs0/1, verify choices in the menu profile independently of text meaning."
+      }
+    ]
+  },
+  "terminology": {
+    "glossary_file": "work\\glossary\\opening_harbor.json",
+    "glossary_sha256": "f7524803992a3cd45ba7577580c2868ec0b549a903f8b7f649dd8f250719941b",
+    "additional_glossary_file": "work/glossary/entities.json",
+    "additional_glossary_sha256": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+    "verified_ids": [
+      "family.martini",
+      "character.salome",
+      "character.nup",
+      "character.alieze",
+      "organization.empire"
+    ],
+    "names_modified": false,
+    "name_normalization_applied": false,
+    "person_gender_inferred": false
+  },
+  "tokens": {
+    "control_characters_found_in_assigned_source": 0,
+    "runtime_placeholders_found_in_assigned_source": [
+      "●"
+    ],
+    "runtime_placeholder_opening_rows": [
+      331
+    ],
+    "source_target_token_sequences_match": true,
+    "preserved_symbols": {
+      "U+3000": [
+        395,
+        396
+      ]
+    },
+    "cp932_roundtrip_rows": 80,
+    "cross_slice_proposal_rows_roundtrip_checked": 3,
+    "runtime_name_width_acceptance": false
+  },
+  "coverage": [
+    {
+      "slice_row": 0,
+      "opening_row": 320,
+      "id": "00:00065:text:00027bf0",
+      "source_sha256": "12c73e10cf56034d32296fc00fe060fde1d21235dba62dd3c568bc80a1cdf556",
+      "reference_instructions": [
+        84788
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 1,
+      "opening_row": 321,
+      "id": "00:00065:text:00027c00",
+      "source_sha256": "dd7da63e10c3a76cb278816078c715da426ab66748cfb1274e04600c449e2a82",
+      "reference_instructions": [
+        84796
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 2,
+      "opening_row": 322,
+      "id": "00:00065:text:00027c0e",
+      "source_sha256": "c50dc33161222471cf6f0b71355ade74d22f7553f42c9e57302ecfc095384ac2",
+      "reference_instructions": [
+        84820
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 3,
+      "opening_row": 323,
+      "id": "00:00065:text:00027c20",
+      "source_sha256": "ed8107f5a8efc739fa01cc1f1c87b1a16a1df047893cb2b7243851740397fa73",
+      "reference_instructions": [
+        84828
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 4,
+      "opening_row": 324,
+      "id": "00:00065:text:00027c3e",
+      "source_sha256": "0c6e83d76ffc641e4b42479aaba854df2a88cfaedb4df610ae7d140581090ab8",
+      "reference_instructions": [
+        84836
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 5,
+      "opening_row": 325,
+      "id": "00:00065:text:00027c58",
+      "source_sha256": "48fc5cdb778fa1237243b706a68e98c2b3a62f02f155a147625ea5b3ed73d3b2",
+      "reference_instructions": [
+        84922
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 6,
+      "opening_row": 326,
+      "id": "00:00065:text:00027c6c",
+      "source_sha256": "95acba085913be7c53e3d84b25ed0b23438eabf0c13cc5b8463603b32571ae1d",
+      "reference_instructions": [
+        84930
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 7,
+      "opening_row": 327,
+      "id": "00:00065:text:00027c7c",
+      "source_sha256": "b68c076688165927b4f74e60667ea11c720fa49b66d872bcef8018435bdf9b3d",
+      "reference_instructions": [
+        85178
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 8,
+      "opening_row": 328,
+      "id": "00:00065:text:00027c88",
+      "source_sha256": "3d711c13b7cfb03149a61deb1acf7de24e083a423cd4eab73e12257ce641fa11",
+      "reference_instructions": [
+        85186
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 9,
+      "opening_row": 329,
+      "id": "00:00065:text:00027ca4",
+      "source_sha256": "874bfab30bf6d67257e86450472cc68f9df2a4b83d4a957282dc4b0cbe812cf2",
+      "reference_instructions": [
+        85194
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 10,
+      "opening_row": 330,
+      "id": "00:00065:text:00027cbc",
+      "source_sha256": "c9b846160d36315f5de8ed876ab4ace0883f455a0805d4375daa63f80cfa9d73",
+      "reference_instructions": [
+        85280
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 11,
+      "opening_row": 331,
+      "id": "00:00065:text:00027cc6",
+      "source_sha256": "fc2277f452cb2621a625f5dcfc2371710ea306f420a85575640852dcd70116da",
+      "reference_instructions": [
+        85288
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 12,
+      "opening_row": 332,
+      "id": "00:00065:text:00027ccc",
+      "source_sha256": "1d8c1921cc7f6c3c06c54c984739bfdf8469091cf82417defad82d704e4ebc22",
+      "reference_instructions": [
+        85296
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 13,
+      "opening_row": 333,
+      "id": "00:00065:text:00027cd6",
+      "source_sha256": "4f0bbbe851b5452610b1d0bffe8f93997bdae5db494c8e555bbdab7d56b497ec",
+      "reference_instructions": [
+        85330
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 14,
+      "opening_row": 334,
+      "id": "00:00065:text:00027cf2",
+      "source_sha256": "da5190ff1e9373fae9cf7826ec9ce7f61c58630595bcfbe0effb63d813c4c480",
+      "reference_instructions": [
+        85338
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 15,
+      "opening_row": 335,
+      "id": "00:00065:text:00027d0a",
+      "source_sha256": "a54616eea8e3217b5445d6c0618d470278ea65b280a2da9c9367505277cbf7e4",
+      "reference_instructions": [
+        85346
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 16,
+      "opening_row": 336,
+      "id": "00:00065:text:00027d1e",
+      "source_sha256": "6d8a89d05b9fa5a5138686a9375fd94ee1bb3fca9625d08112ef95e7f9a88d4d",
+      "reference_instructions": [
+        85412
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 17,
+      "opening_row": 337,
+      "id": "00:00065:text:00027d32",
+      "source_sha256": "13a5cb97df0173f26e5616d60d2af5dce583ec6ed7aa141e7394d43d49979a0f",
+      "reference_instructions": [
+        85420
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 18,
+      "opening_row": 338,
+      "id": "00:00065:text:00027d4e",
+      "source_sha256": "09990401f938ecdb16f5f1c5dcdd4eb373b1f717c27d42705773efadb47ffbc9",
+      "reference_instructions": [
+        85428
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 19,
+      "opening_row": 339,
+      "id": "00:00065:text:00027d62",
+      "source_sha256": "6d8a89d05b9fa5a5138686a9375fd94ee1bb3fca9625d08112ef95e7f9a88d4d",
+      "reference_instructions": [
+        85466
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 20,
+      "opening_row": 340,
+      "id": "00:00065:text:00027d76",
+      "source_sha256": "9ff90e37f67e01df7ad82673346cb77a23c660b5dbb341dcdbcdaded6c238d89",
+      "reference_instructions": [
+        85474
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 21,
+      "opening_row": 341,
+      "id": "00:00065:text:00027d92",
+      "source_sha256": "09990401f938ecdb16f5f1c5dcdd4eb373b1f717c27d42705773efadb47ffbc9",
+      "reference_instructions": [
+        85482
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 22,
+      "opening_row": 342,
+      "id": "00:00065:text:00027da6",
+      "source_sha256": "615661a57cf6e43e07d4daad6832700e263ab1502dc71911afaf31b3000a1246",
+      "reference_instructions": [
+        85520
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 23,
+      "opening_row": 343,
+      "id": "00:00065:text:00027dbc",
+      "source_sha256": "792d9bd43c009e3919cc55afd04e58039a2bfff3bc25a09eea861f1687b3f0b0",
+      "reference_instructions": [
+        85550
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 24,
+      "opening_row": 344,
+      "id": "00:00065:text:00027dc6",
+      "source_sha256": "a7de8aef0a2158b7f1a8315ebfc7d114dedc147e46fa1577a795b642e21794e5",
+      "reference_instructions": [
+        85558
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 25,
+      "opening_row": 345,
+      "id": "00:00065:text:00027dd6",
+      "source_sha256": "5bd2771f0e00980c7e60546e4fdf2ace5a460b95be8c9b71149a6d3c47ab2380",
+      "reference_instructions": [
+        85592
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 26,
+      "opening_row": 346,
+      "id": "00:00065:text:00027dea",
+      "source_sha256": "8e68033bc3b16c1c90e89c93b1e33a5a3722ea66c5090b3fd39937ba26e3c259",
+      "reference_instructions": [
+        85672
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 27,
+      "opening_row": 347,
+      "id": "00:00065:text:00027df4",
+      "source_sha256": "40c37612866a7499cb5de68e573d4e71a70acd5a844800b34dc6b466ea33159a",
+      "reference_instructions": [
+        85680
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 28,
+      "opening_row": 348,
+      "id": "00:00065:text:00027e0a",
+      "source_sha256": "52f313d2fa08f81b049f8d0048fb807c083fbefb4915229ad383fbf1bb82f279",
+      "reference_instructions": [
+        85688
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 29,
+      "opening_row": 349,
+      "id": "00:00065:text:00027e26",
+      "source_sha256": "8579044c12acb9ed4c51283cdbf307eee64da6cb74810f78bec5b524fc49f974",
+      "reference_instructions": [
+        85724
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 30,
+      "opening_row": 350,
+      "id": "00:00065:text:00027e3c",
+      "source_sha256": "bb3368a4afbc424ddf206116766535aeb392a8e4379ccb7ef972d7315550e7c1",
+      "reference_instructions": [
+        85732
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 31,
+      "opening_row": 351,
+      "id": "00:00065:text:00027e58",
+      "source_sha256": "cea4d18dccdf6ce3f13cf4df1fba9ec6a5ade3d35cdccff136dce85126d43548",
+      "reference_instructions": [
+        85740
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 32,
+      "opening_row": 352,
+      "id": "00:00065:text:00027e74",
+      "source_sha256": "f4f36bb386f04562376daf93d86071d22721b00b445bffae4a68c5e2438394d8",
+      "reference_instructions": [
+        85776
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 33,
+      "opening_row": 353,
+      "id": "00:00065:text:00027e8e",
+      "source_sha256": "c3916662e48a3f7ac2f75e3b09880ad7932c0978e7e0c6bf74f1ce2c62e5acf3",
+      "reference_instructions": [
+        85784
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 34,
+      "opening_row": 354,
+      "id": "00:00065:text:00027ea0",
+      "source_sha256": "348d32774bb95dff4525553e6ffdc99a607e22579fdb5851ea92b49b03faff06",
+      "reference_instructions": [
+        85792
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 35,
+      "opening_row": 355,
+      "id": "00:00065:text:00027eb0",
+      "source_sha256": "ef85bce147ef1a5dd9a2e58b76761c4c8222cb656a10ce52e3fdd0675c7e0ef2",
+      "reference_instructions": [
+        85828
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 36,
+      "opening_row": 356,
+      "id": "00:00065:text:00027ebc",
+      "source_sha256": "d07f0c661b4dcb1e78afed3bcd0f0b92de1d038da9ee0de6450cd211c6d7fa74",
+      "reference_instructions": [
+        85864
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 37,
+      "opening_row": 357,
+      "id": "00:00065:text:00027ed0",
+      "source_sha256": "d40747657bf916514eca38dd0f3f61ca9abbfeae23772d345bf3c6922ae74aae",
+      "reference_instructions": [
+        85872
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 38,
+      "opening_row": 358,
+      "id": "00:00065:text:00027ee4",
+      "source_sha256": "5263ffe504887b0d55ebeffdb11791d8b8e6e5d63228e76b0c119706a09b5120",
+      "reference_instructions": [
+        85888
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 39,
+      "opening_row": 359,
+      "id": "00:00065:text:00027ef4",
+      "source_sha256": "4e1eddc841fad925a2fd776dca31e26122ddb0f8df159230b0842099d79b464b",
+      "reference_instructions": [
+        85896
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 40,
+      "opening_row": 360,
+      "id": "00:00065:text:00027f08",
+      "source_sha256": "3a50da5176e010256955e77e5062c93d39871f11a6e0b476d9377d3e9c14ae82",
+      "reference_instructions": [
+        85932
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 41,
+      "opening_row": 361,
+      "id": "00:00065:text:00027f18",
+      "source_sha256": "0a4c5846283b1b8be7c9c7bfa2bd38f1004d882e456503e9c774c5d4cb93c6a8",
+      "reference_instructions": [
+        86050
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 42,
+      "opening_row": 362,
+      "id": "00:00065:text:00027f24",
+      "source_sha256": "40c37612866a7499cb5de68e573d4e71a70acd5a844800b34dc6b466ea33159a",
+      "reference_instructions": [
+        86058
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 43,
+      "opening_row": 363,
+      "id": "00:00065:text:00027f3a",
+      "source_sha256": "52f313d2fa08f81b049f8d0048fb807c083fbefb4915229ad383fbf1bb82f279",
+      "reference_instructions": [
+        86066
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 44,
+      "opening_row": 364,
+      "id": "00:00065:text:00027f56",
+      "source_sha256": "8579044c12acb9ed4c51283cdbf307eee64da6cb74810f78bec5b524fc49f974",
+      "reference_instructions": [
+        86102
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 45,
+      "opening_row": 365,
+      "id": "00:00065:text:00027f6c",
+      "source_sha256": "bb3368a4afbc424ddf206116766535aeb392a8e4379ccb7ef972d7315550e7c1",
+      "reference_instructions": [
+        86110
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 46,
+      "opening_row": 366,
+      "id": "00:00065:text:00027f88",
+      "source_sha256": "cea4d18dccdf6ce3f13cf4df1fba9ec6a5ade3d35cdccff136dce85126d43548",
+      "reference_instructions": [
+        86118
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 47,
+      "opening_row": 367,
+      "id": "00:00065:text:00027fa4",
+      "source_sha256": "f07cac27db491602976ab69d1be130acc430ea2f53e764dfdfed4deb09b7f032",
+      "reference_instructions": [
+        86154
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 48,
+      "opening_row": 368,
+      "id": "00:00065:text:00027fba",
+      "source_sha256": "352a5521671312c04b79bb886f92d75b208453c6239f4eb9486e567d7bae117b",
+      "reference_instructions": [
+        86190
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 49,
+      "opening_row": 369,
+      "id": "00:00065:text:00027fd0",
+      "source_sha256": "b4b6bf4519756f5b0df137c6ed011fcfe64ed63c25f3b4ac576ef278d4abb653",
+      "reference_instructions": [
+        86198
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 50,
+      "opening_row": 370,
+      "id": "00:00065:text:00027fe8",
+      "source_sha256": "a8c6aaac3d69b61e6a4e42f276e5dbae8d72e1c4cdf3940b8ca842c871252387",
+      "reference_instructions": [
+        86206
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 51,
+      "opening_row": 371,
+      "id": "00:00065:text:00027ff6",
+      "source_sha256": "587d137c06d5caed9ce3c9febd3816f58be2ff2355b6b4a43fa4d454eb28ebdb",
+      "reference_instructions": [
+        86242
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 52,
+      "opening_row": 372,
+      "id": "00:00065:text:00028004",
+      "source_sha256": "a44b7b3be5d4bf44ee6a1d441219cf08ee16a56fe66d40e786346dcd99568778",
+      "reference_instructions": [
+        86278
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 53,
+      "opening_row": 373,
+      "id": "00:00065:text:00028018",
+      "source_sha256": "2ff2b021af2399fa9dd5c9bad22c5839dee9f5ab00db5b0385a727bbb3b6d4d1",
+      "reference_instructions": [
+        86286
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 54,
+      "opening_row": 374,
+      "id": "00:00065:text:0002802c",
+      "source_sha256": "413aff369068644f046e9f743a939b7df369a7adb0a63dfdc0e47d5f73d0b7ef",
+      "reference_instructions": [
+        86322
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 55,
+      "opening_row": 375,
+      "id": "00:00065:text:00028034",
+      "source_sha256": "5263ffe504887b0d55ebeffdb11791d8b8e6e5d63228e76b0c119706a09b5120",
+      "reference_instructions": [
+        86338
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 56,
+      "opening_row": 376,
+      "id": "00:00065:text:00028044",
+      "source_sha256": "4e1eddc841fad925a2fd776dca31e26122ddb0f8df159230b0842099d79b464b",
+      "reference_instructions": [
+        86346
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 57,
+      "opening_row": 377,
+      "id": "00:00065:text:00028058",
+      "source_sha256": "3a50da5176e010256955e77e5062c93d39871f11a6e0b476d9377d3e9c14ae82",
+      "reference_instructions": [
+        86382
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 58,
+      "opening_row": 378,
+      "id": "00:00065:text:00028068",
+      "source_sha256": "5351bc48cd3e4cdb0606c59dfb535aba178733df9b743cb347ef6edb38cdb571",
+      "reference_instructions": [
+        86456
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 59,
+      "opening_row": 379,
+      "id": "00:00065:text:0002807e",
+      "source_sha256": "2756370d4de0e76532ccb600b413ea0a704aa7499284aef981e62ae838f1de96",
+      "reference_instructions": [
+        86464
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 60,
+      "opening_row": 380,
+      "id": "00:00065:text:0002809a",
+      "source_sha256": "0f443bf61c61ecef9e794d3bd4d54ce1ac268a84e20b4e296d81987c81349d04",
+      "reference_instructions": [
+        86472
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 61,
+      "opening_row": 381,
+      "id": "00:00065:text:000280b4",
+      "source_sha256": "90e58b9a61c61f23bfa89c979eca034a327f8116884ed9787f6d05651b4725b0",
+      "reference_instructions": [
+        86512
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 62,
+      "opening_row": 382,
+      "id": "00:00065:text:000280c6",
+      "source_sha256": "77ca8ff7084e38491511055c310cb8c5a05cfcc0910e763debe17981973888c6",
+      "reference_instructions": [
+        86520
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 63,
+      "opening_row": 383,
+      "id": "00:00065:text:000280d6",
+      "source_sha256": "ac41189e2a1bbde87383d1dc359bf35d911e2203b6554220d63fa23dda7abd2c",
+      "reference_instructions": [
+        86552
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 64,
+      "opening_row": 384,
+      "id": "00:00065:text:000280e8",
+      "source_sha256": "77ca8ff7084e38491511055c310cb8c5a05cfcc0910e763debe17981973888c6",
+      "reference_instructions": [
+        86560
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 65,
+      "opening_row": 385,
+      "id": "00:00065:text:000280f8",
+      "source_sha256": "d6fd1cc7a3e1343d31424cf1821671c6a4b90d94609a335e7890557268e9f605",
+      "reference_instructions": [
+        86632
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 66,
+      "opening_row": 386,
+      "id": "00:00065:text:0002810c",
+      "source_sha256": "e4326234636a7bb572da11fffbb62d6c6a6aeee2977d815c5cc33ec433922973",
+      "reference_instructions": [
+        86710
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 67,
+      "opening_row": 387,
+      "id": "00:00065:text:0002811e",
+      "source_sha256": "4d1fed32e29d075c27943f204163c1c50e40fdb58fc3d85fbebd3bba0406fe8d",
+      "reference_instructions": [
+        86798
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 68,
+      "opening_row": 388,
+      "id": "00:00065:text:00028132",
+      "source_sha256": "413aff369068644f046e9f743a939b7df369a7adb0a63dfdc0e47d5f73d0b7ef",
+      "reference_instructions": [
+        86890
+      ],
+      "verdict": "meaning_checked_no_change",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 69,
+      "opening_row": 389,
+      "id": "00:00065:text:0002813a",
+      "source_sha256": "607df66ddf40b8b30dfa5e6657eebf3c77c67ca0b85263e5025be6ea7dcec642",
+      "reference_instructions": [
+        86978
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 70,
+      "opening_row": 390,
+      "id": "00:00065:text:0002814c",
+      "source_sha256": "639f574f82c33485c82682d98f34b2d1d22bcce86a5a41e7ff723bb9258e18e0",
+      "reference_instructions": [
+        86986
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 71,
+      "opening_row": 391,
+      "id": "00:00065:text:00028162",
+      "source_sha256": "6122c037533c2cf36b389bda80c15d7c60d19d817ce3b7514a027609b1d28143",
+      "reference_instructions": [
+        86994
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 72,
+      "opening_row": 392,
+      "id": "00:00065:text:0002817a",
+      "source_sha256": "dac609b5c38b0ff9015ff5acb746138155ca03d09293db381a41d24f1e4f7cdc",
+      "reference_instructions": [
+        87030
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 73,
+      "opening_row": 393,
+      "id": "00:00065:text:0002818c",
+      "source_sha256": "2729fe3aa19f0762ea2612085a2d02795994e974fe2cc3dc74edf95565a0662d",
+      "reference_instructions": [
+        87038
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 74,
+      "opening_row": 394,
+      "id": "00:00065:text:0002819e",
+      "source_sha256": "72fd195202d5e6ca3ced4e5aeeee74cc4fbd30b7771c005b99ceafbf2cdf8184",
+      "reference_instructions": [
+        87074
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 75,
+      "opening_row": 395,
+      "id": "00:00065:text:000281b6",
+      "source_sha256": "501717472891b7e677b7734e5c0b290527bcc8fa5bd87c3816b11fe2e2233451",
+      "reference_instructions": [
+        87082
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 76,
+      "opening_row": 396,
+      "id": "00:00065:text:000281c2",
+      "source_sha256": "fcb130d7d7921767108b82c016f7a419da5c5aa716f7387c2df63fdd4bf65aea",
+      "reference_instructions": [
+        87092
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 77,
+      "opening_row": 397,
+      "id": "00:00065:text:000281d2",
+      "source_sha256": "3341727b45c0ebf8cd472ce0f30e4e0e3804b39b6705ee3ff1a99db4a06ac26d",
+      "reference_instructions": [
+        87144
+      ],
+      "verdict": "meaning_checked_with_uncertainty",
+      "independent_of_drafting": true
+    },
+    {
+      "slice_row": 78,
+      "opening_row": 398,
+      "id": "00:00065:text:000281e0",
+      "source_sha256": "64ef38bc8b08e75247acb9d24e699a152c7d2c09d7fcc49fdb497b7edd8a4fb7",
+      "reference_instructions": [
+        87182
+      ],
+      "verdict": "source_alignment_checked_prior_contribution_independent_boundary_review_required",
+      "independent_of_drafting": false
+    },
+    {
+      "slice_row": 79,
+      "opening_row": 399,
+      "id": "00:00065:text:000281f6",
+      "source_sha256": "524ffd447cde8a3f30f645c69f8c9e70e5f36769df5f7fb439e3d8f121859b92",
+      "reference_instructions": [
+        87190
+      ],
+      "verdict": "source_alignment_checked_prior_contribution_independent_boundary_review_required",
+      "independent_of_drafting": false
+    }
+  ],
+  "acceptance_limits": {
+    "scripted_name_normalization": false,
+    "in_game_validation": false,
+    "font_validation": false,
+    "layout_validation": false,
+    "runtime_memory_validation": false,
+    "voice_timing_validation": false,
+    "branch_playthrough_validation": false,
+    "full_game_translation": false
+  },
+  "write_scope": "Only opening_004.meaning_review.json is written. Target004, target005, glossary and prior reviews remain unchanged. Orchestrator owns changelog."
+}

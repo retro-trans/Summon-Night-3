@@ -1,0 +1,1857 @@
+{
+  "version": "0.1.35",
+  "help": [
+    {
+      "id": "elf:ui:00217d38",
+      "source_offset": 2194744,
+      "source_sha256": "b9ece8cbb2b047b0ebded0c299c218cf7e3c586119f5af8da8e78d4caa0b4b70",
+      "target_text": "View art, music, night talks and endings.",
+      "lines": [
+        "View art, music, night",
+        "talks and endings."
+      ],
+      "table_offset": 0,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261932
+        }
+      ],
+      "new_address": "0x34ce0c"
+    },
+    {
+      "id": "elf:ui:00217d84",
+      "source_offset": 2194820,
+      "source_sha256": "ac3a20afdb15b354072b8541b8497f64b2af8f023bda42dad8dced20f7c58155",
+      "target_text": "Try on and buy equipment. No items are sold here.",
+      "lines": [
+        "Try on and buy equipment.",
+        "No items are sold here."
+      ],
+      "table_offset": 88,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261936
+        }
+      ],
+      "new_address": "0x34ce64"
+    },
+    {
+      "id": "elf:ui:00217dbc",
+      "source_offset": 2194876,
+      "source_sha256": "a1ac0c9551a1b7360058f55195302e58951a1839cb0f963255ed73936bd16258",
+      "target_text": "Buy equipment and items.",
+      "lines": [
+        "Buy equipment and items."
+      ],
+      "table_offset": 192,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261940
+        }
+      ],
+      "new_address": "0x34cecc"
+    },
+    {
+      "id": "elf:ui:00217dd8",
+      "source_offset": 2194904,
+      "source_sha256": "c21081b226cca5f26a50acc412a0c4dc6c6ef3ee0705108148e6c57281d4b8a4",
+      "target_text": "Sell equipment and items.",
+      "lines": [
+        "Sell equipment and items."
+      ],
+      "table_offset": 244,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261944
+        }
+      ],
+      "new_address": "0x34cf00"
+    },
+    {
+      "id": "elf:ui:00217dfc",
+      "source_offset": 2194940,
+      "source_sha256": "71c48ad63e19f29255c86c6cafdc88d0cc3c508b27f2661fa09e555a0834f457",
+      "target_text": "Prepare food items.",
+      "lines": [
+        "Prepare food items."
+      ],
+      "table_offset": 300,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261952
+        }
+      ],
+      "new_address": "0x34cf38"
+    },
+    {
+      "id": "elf:ui:00217e34",
+      "source_offset": 2194996,
+      "source_sha256": "c3cfa4bc4cb0fb4a2394a96b544f220b721acffbd9babfc472def910a8d2d533",
+      "target_text": "Level up.",
+      "lines": [
+        "Level up."
+      ],
+      "table_offset": 344,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261960
+        }
+      ],
+      "new_address": "0x34cf64"
+    },
+    {
+      "id": "elf:ui:00217e4c",
+      "source_offset": 2195020,
+      "source_sha256": "4a7254a62bb374ac595d1e34fd0234dc021fa1170881a7573bb14eeaaddf47ee",
+      "target_text": "Lower a unit's level.",
+      "lines": [
+        "Lower a unit's level."
+      ],
+      "table_offset": 368,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261964
+        },
+        {
+          "kind": "pointer",
+          "address": 2262012
+        }
+      ],
+      "new_address": "0x34cf7c"
+    },
+    {
+      "id": "elf:ui:00217e64",
+      "source_offset": 2195044,
+      "source_sha256": "7679af1e482de8d32b99fd996671720a27998ea8b4b696a31ba98cb4494ab019",
+      "target_text": "Materialize a puppet.",
+      "lines": [
+        "Materialize a puppet."
+      ],
+      "table_offset": 416,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261968
+        },
+        {
+          "kind": "pointer",
+          "address": 2262020
+        }
+      ],
+      "new_address": "0x34cfac"
+    },
+    {
+      "id": "elf:ui:00217e94",
+      "source_offset": 2195092,
+      "source_sha256": "7727b339e23967a8703a86834d4a01bb547dc5b24fc44c178ec35e75297ac151",
+      "target_text": "Try your luck.",
+      "lines": [
+        "Try your luck."
+      ],
+      "table_offset": 464,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261980
+        }
+      ],
+      "new_address": "0x34cfdc"
+    },
+    {
+      "id": "elf:ui:00217eac",
+      "source_offset": 2195116,
+      "source_sha256": "4be8c3efb4ba01f430341997dde2b72b861a217b0e0961942c63031d480defdd",
+      "target_text": "Check your relationships with your allies.",
+      "lines": [
+        "Check your relationships",
+        "with your allies."
+      ],
+      "table_offset": 496,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261984
+        }
+      ],
+      "new_address": "0x34cffc"
+    },
+    {
+      "id": "elf:ui:00217ed0",
+      "source_offset": 2195152,
+      "source_sha256": "0e13d8a13fca74e7f4c8e18b619f9025eaca445f176268d1f9543cd980f1e753",
+      "target_text": "Choose favorite summons and change their names.",
+      "lines": [
+        "Choose favorite summons",
+        "and change their names."
+      ],
+      "table_offset": 584,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261988
+        }
+      ],
+      "new_address": "0x34d054"
+    },
+    {
+      "id": "elf:ui:00217f0c",
+      "source_offset": 2195212,
+      "source_sha256": "fa54f1fb742758030479380ba2339f6010fe376684242c3e9e532388ab120efc",
+      "target_text": "Choose favorite summons.",
+      "lines": [
+        "Choose favorite summons."
+      ],
+      "table_offset": 684,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261992
+        }
+      ],
+      "new_address": "0x34d0b8"
+    },
+    {
+      "id": "elf:ui:00217f30",
+      "source_offset": 2195248,
+      "source_sha256": "dc1fe432e7ad34f165cd388c00d93b9aab20fbabc9422f34963c27f2249a5823",
+      "target_text": "Change summon names.",
+      "lines": [
+        "Change summon names."
+      ],
+      "table_offset": 736,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2261996
+        }
+      ],
+      "new_address": "0x34d0ec"
+    },
+    {
+      "id": "elf:ui:00217f50",
+      "source_offset": 2195280,
+      "source_sha256": "ab989716a322178ffe22d8c199467ce176e2ff4120ffd75388c2ceaf0e681a7c",
+      "target_text": "Replay cleared battles or enter the Endless Halls.",
+      "lines": [
+        "Replay cleared battles or",
+        "enter the Endless Halls."
+      ],
+      "table_offset": 780,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2262000
+        }
+      ],
+      "new_address": "0x34d118"
+    },
+    {
+      "id": "elf:ui:00217f84",
+      "source_offset": 2195332,
+      "source_sha256": "c755ea5552e0fc566f39a6663753afac8920f5b878513a80886f432cdc1fa0c7",
+      "target_text": "Replay cleared event battles.",
+      "lines": [
+        "Replay cleared",
+        "event battles."
+      ],
+      "table_offset": 884,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2262004
+        }
+      ],
+      "new_address": "0x34d180"
+    },
+    {
+      "id": "elf:ui:00217fb4",
+      "source_offset": 2195380,
+      "source_sha256": "0504ad1621b0ccc3eb4ee7447a7f94872f0de48c3b2c8cabcdefb893fbe49c7e",
+      "target_text": "Enter the Endless Halls.",
+      "lines": [
+        "Enter the Endless Halls."
+      ],
+      "table_offset": 948,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2262008
+        }
+      ],
+      "new_address": "0x34d1c0"
+    },
+    {
+      "id": "elf:ui:00217fd0",
+      "source_offset": 2195408,
+      "source_sha256": "8c7c0e4175b3fb81fd805ece1f3e06673c332c2badbdf957c96867e4cc03a523",
+      "target_text": "Go shopping.",
+      "lines": [
+        "Go shopping."
+      ],
+      "table_offset": 1000,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2262016
+        }
+      ],
+      "new_address": "0x34d1f4"
+    },
+    {
+      "id": "elf:ui:0021802c",
+      "source_offset": 2195500,
+      "source_sha256": "f48df359cb7035cc3faf4dff499919cb5089e022f757a27b637913cd400240b4",
+      "target_text": "Train summoned units.",
+      "lines": [
+        "Train summoned units."
+      ],
+      "table_offset": 1028,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2262032
+        }
+      ],
+      "new_address": "0x34d210"
+    },
+    {
+      "id": "elf:ui:0021807c",
+      "source_offset": 2195580,
+      "source_sha256": "65a1703921b790fd0d2e7bbc5d2b48879781e25056fd2e4bd605f2ef4976a95e",
+      "target_text": "Retreat from battle.",
+      "lines": [
+        "Retreat from battle."
+      ],
+      "table_offset": 1076,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2262040
+        },
+        {
+          "kind": "pointer",
+          "address": 2262120
+        }
+      ],
+      "new_address": "0x34d240"
+    },
+    {
+      "id": "elf:ui:00218094",
+      "source_offset": 2195604,
+      "source_sha256": "93ce6ade6d34ce4ed3a0fd0d6f86772d535abb4b562b564906cca94f784ea0e0",
+      "target_text": "Play Meimei's Roulette Darts.",
+      "lines": [
+        "Play Meimei's",
+        "Roulette Darts."
+      ],
+      "table_offset": 1120,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2262044
+        }
+      ],
+      "new_address": "0x34d26c"
+    },
+    {
+      "id": "elf:ui:002180c4",
+      "source_offset": 2195652,
+      "source_sha256": "867ceba072e0e01f84245dba1efccf6fd7dc8eade238b57312e0e8cce80538aa",
+      "target_text": "Play Meimei's Scratch Cards.",
+      "lines": [
+        "Play Meimei's",
+        "Scratch Cards."
+      ],
+      "table_offset": 1184,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2262048
+        }
+      ],
+      "new_address": "0x34d2ac"
+    },
+    {
+      "id": "elf:ui:00218100",
+      "source_offset": 2195712,
+      "source_sha256": "e963ee5ac055a3ad8a7242d804a6188678e25882bd1d85123fa8fd635c1f5662",
+      "target_text": "Load a suspend save.",
+      "lines": [
+        "Load a suspend save."
+      ],
+      "table_offset": 1244,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2262056
+        }
+      ],
+      "new_address": "0x34d2e8"
+    },
+    {
+      "id": "elf:ui:00218124",
+      "source_offset": 2195748,
+      "source_sha256": "e67f0f571094a861179f9a930e81702a6677909995433fc1c3d670dd73a83cfd",
+      "target_text": "Load game data.",
+      "lines": [
+        "Load game data."
+      ],
+      "table_offset": 1288,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2262060
+        }
+      ],
+      "new_address": "0x34d314"
+    },
+    {
+      "id": "elf:ui:0021823c",
+      "source_offset": 2196028,
+      "source_sha256": "4635e5f7a46f39e9d462d63d9bfc1ac901df880474a5d7fb13f37adbad87768a",
+      "target_text": "View summon details and combination results.",
+      "lines": [
+        "View summon details and",
+        "combination results."
+      ],
+      "table_offset": 1324,
+      "references": [
+        {
+          "kind": "pointer",
+          "address": 2262104
+        }
+      ],
+      "new_address": "0x34d338"
+    }
+  ],
+  "enemies": [
+    {
+      "id": "char_label:00007752",
+      "source_sha256": "c992f075ebb2da079a352ea50db4d84f2182fb1e9065429b22f62589b211b5fa",
+      "full_translation": "Assassin",
+      "text": "Assassin",
+      "display_text": "\uff21\uff53\uff53\uff41\uff53\uff53\uff49\uff4e",
+      "new_offset": 39968,
+      "advance_pixels": 68.25,
+      "references": [
+        {
+          "row": 224,
+          "slot": 2,
+          "entity_number": 104,
+          "pointer_field_offset": 7180
+        },
+        {
+          "row": 344,
+          "slot": 1,
+          "entity_number": 194,
+          "pointer_field_offset": 11016
+        },
+        {
+          "row": 345,
+          "slot": 1,
+          "entity_number": 195,
+          "pointer_field_offset": 11048
+        },
+        {
+          "row": 346,
+          "slot": 1,
+          "entity_number": 196,
+          "pointer_field_offset": 11080
+        }
+      ]
+    },
+    {
+      "id": "char_label:000079ba",
+      "source_sha256": "4d93cefea8481d25fb09387fe10e39c9782decfed9adb4cccbec36442e376387",
+      "full_translation": "Rogue Summoner",
+      "text": "Rogue Summ",
+      "display_text": "\uff32\uff4f\uff47\uff55\uff45\u3000\uff33\uff55\uff4d\uff4d",
+      "new_offset": 39986,
+      "advance_pixels": 92.75,
+      "references": [
+        {
+          "row": 259,
+          "slot": 2,
+          "entity_number": 325,
+          "pointer_field_offset": 8300
+        },
+        {
+          "row": 519,
+          "slot": 1,
+          "entity_number": 399,
+          "pointer_field_offset": 16616
+        },
+        {
+          "row": 520,
+          "slot": 1,
+          "entity_number": 400,
+          "pointer_field_offset": 16648
+        },
+        {
+          "row": 521,
+          "slot": 1,
+          "entity_number": 401,
+          "pointer_field_offset": 16680
+        },
+        {
+          "row": 522,
+          "slot": 1,
+          "entity_number": 402,
+          "pointer_field_offset": 16712
+        },
+        {
+          "row": 523,
+          "slot": 1,
+          "entity_number": 403,
+          "pointer_field_offset": 16744
+        },
+        {
+          "row": 524,
+          "slot": 2,
+          "entity_number": 399,
+          "pointer_field_offset": 16780
+        }
+      ]
+    },
+    {
+      "id": "char_label:000079ce",
+      "source_sha256": "cd8f99aeb47f7d59c2f55ea5a7301b6155c2fe7f3581effddbce0e59b1ed5af8",
+      "full_translation": "Outlaw",
+      "text": "Outlaw",
+      "display_text": "\uff2f\uff55\uff54\uff4c\uff41\uff57",
+      "new_offset": 40008,
+      "advance_pixels": 49.875,
+      "references": [
+        {
+          "row": 260,
+          "slot": 2,
+          "entity_number": 326,
+          "pointer_field_offset": 8332
+        },
+        {
+          "row": 390,
+          "slot": 1,
+          "entity_number": 350,
+          "pointer_field_offset": 12488
+        },
+        {
+          "row": 509,
+          "slot": 1,
+          "entity_number": 394,
+          "pointer_field_offset": 16296
+        },
+        {
+          "row": 510,
+          "slot": 1,
+          "entity_number": 395,
+          "pointer_field_offset": 16328
+        },
+        {
+          "row": 511,
+          "slot": 1,
+          "entity_number": 396,
+          "pointer_field_offset": 16360
+        },
+        {
+          "row": 512,
+          "slot": 1,
+          "entity_number": 397,
+          "pointer_field_offset": 16392
+        },
+        {
+          "row": 513,
+          "slot": 1,
+          "entity_number": 398,
+          "pointer_field_offset": 16424
+        },
+        {
+          "row": 524,
+          "slot": 1,
+          "entity_number": 399,
+          "pointer_field_offset": 16776
+        },
+        {
+          "row": 525,
+          "slot": 1,
+          "entity_number": 400,
+          "pointer_field_offset": 16808
+        },
+        {
+          "row": 526,
+          "slot": 1,
+          "entity_number": 401,
+          "pointer_field_offset": 16840
+        },
+        {
+          "row": 527,
+          "slot": 1,
+          "entity_number": 402,
+          "pointer_field_offset": 16872
+        },
+        {
+          "row": 528,
+          "slot": 1,
+          "entity_number": 403,
+          "pointer_field_offset": 16904
+        },
+        {
+          "row": 534,
+          "slot": 1,
+          "entity_number": 409,
+          "pointer_field_offset": 17096
+        },
+        {
+          "row": 535,
+          "slot": 1,
+          "entity_number": 410,
+          "pointer_field_offset": 17128
+        },
+        {
+          "row": 536,
+          "slot": 1,
+          "entity_number": 411,
+          "pointer_field_offset": 17160
+        },
+        {
+          "row": 537,
+          "slot": 1,
+          "entity_number": 412,
+          "pointer_field_offset": 17192
+        },
+        {
+          "row": 538,
+          "slot": 1,
+          "entity_number": 413,
+          "pointer_field_offset": 17224
+        }
+      ]
+    },
+    {
+      "id": "char_label:000079d6",
+      "source_sha256": "7b7866da4ed00ce385fcc2c3d75b16cf19e549b5e00df8ba1db4dc2c86a4442a",
+      "full_translation": "Pirate",
+      "text": "Pirate",
+      "display_text": "\uff30\uff49\uff52\uff41\uff54\uff45",
+      "new_offset": 40022,
+      "advance_pixels": 43.75,
+      "references": [
+        {
+          "row": 270,
+          "slot": 1,
+          "entity_number": 120,
+          "pointer_field_offset": 8648
+        },
+        {
+          "row": 271,
+          "slot": 1,
+          "entity_number": 121,
+          "pointer_field_offset": 8680
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007a34",
+      "source_sha256": "b713185839991df9efc0db71fbe456e99f8be186e7ddc420ab889651efaf308a",
+      "full_translation": "Oni Ninja",
+      "text": "Oni Ninja",
+      "display_text": "\uff2f\uff4e\uff49\u3000\uff2e\uff49\uff4e\uff4a\uff41",
+      "new_offset": 40036,
+      "advance_pixels": 64.75,
+      "references": [
+        {
+          "row": 280,
+          "slot": 1,
+          "entity_number": 130,
+          "pointer_field_offset": 8968
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007a44",
+      "source_sha256": "5ad056c888ee999328c9486054fdeb3142b517789e927c6e561af2748c279e98",
+      "full_translation": "Snow Woman",
+      "text": "Snow Woman",
+      "display_text": "\uff33\uff4e\uff4f\uff57\u3000\uff37\uff4f\uff4d\uff41\uff4e",
+      "new_offset": 40056,
+      "advance_pixels": 97.125,
+      "references": [
+        {
+          "row": 281,
+          "slot": 1,
+          "entity_number": 131,
+          "pointer_field_offset": 9000
+        },
+        {
+          "row": 596,
+          "slot": 1,
+          "entity_number": 428,
+          "pointer_field_offset": 19080
+        },
+        {
+          "row": 597,
+          "slot": 1,
+          "entity_number": 65964,
+          "pointer_field_offset": 19112
+        },
+        {
+          "row": 598,
+          "slot": 1,
+          "entity_number": 131500,
+          "pointer_field_offset": 19144
+        },
+        {
+          "row": 599,
+          "slot": 1,
+          "entity_number": 197036,
+          "pointer_field_offset": 19176
+        },
+        {
+          "row": 600,
+          "slot": 1,
+          "entity_number": 262572,
+          "pointer_field_offset": 19208
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007a52",
+      "source_sha256": "71cc38c5a4435ca9eb59b898f4562ba2c8612d2c0dc3b3828d6fe59d7fc4c4da",
+      "full_translation": "Evil Oni Ninja",
+      "text": "Evil Ninja",
+      "display_text": "\uff25\uff56\uff49\uff4c\u3000\uff2e\uff49\uff4e\uff4a\uff41",
+      "new_offset": 40078,
+      "advance_pixels": 63.875,
+      "references": [
+        {
+          "row": 282,
+          "slot": 1,
+          "entity_number": 132,
+          "pointer_field_offset": 9032
+        },
+        {
+          "row": 283,
+          "slot": 1,
+          "entity_number": 133,
+          "pointer_field_offset": 9064
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007a68",
+      "source_sha256": "763bffe23da4f84f1df611f38cbe0a36188e4de8ab8c70c18250f56048eb5610",
+      "full_translation": "Amanojaku",
+      "text": "Amanojaku",
+      "display_text": "\uff21\uff4d\uff41\uff4e\uff4f\uff4a\uff41\uff4b\uff55",
+      "new_offset": 40100,
+      "advance_pixels": 79.625,
+      "references": [
+        {
+          "row": 284,
+          "slot": 1,
+          "entity_number": 134,
+          "pointer_field_offset": 9096
+        },
+        {
+          "row": 285,
+          "slot": 1,
+          "entity_number": 135,
+          "pointer_field_offset": 9128
+        },
+        {
+          "row": 315,
+          "slot": 1,
+          "entity_number": 165,
+          "pointer_field_offset": 10088
+        },
+        {
+          "row": 316,
+          "slot": 1,
+          "entity_number": 166,
+          "pointer_field_offset": 10120
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007b00",
+      "source_sha256": "921842ecfd9d356859259486184af460b64e9b6a9e39e4269d7f8a0b90e7d495",
+      "full_translation": "Pirate Henchman",
+      "text": "PirateCrew",
+      "display_text": "\uff30\uff49\uff52\uff41\uff54\uff45\uff23\uff52\uff45\uff57",
+      "new_offset": 40120,
+      "advance_pixels": 83.125,
+      "references": [
+        {
+          "row": 306,
+          "slot": 1,
+          "entity_number": 156,
+          "pointer_field_offset": 9800
+        },
+        {
+          "row": 307,
+          "slot": 1,
+          "entity_number": 157,
+          "pointer_field_offset": 9832
+        },
+        {
+          "row": 308,
+          "slot": 1,
+          "entity_number": 158,
+          "pointer_field_offset": 9864
+        },
+        {
+          "row": 309,
+          "slot": 1,
+          "entity_number": 159,
+          "pointer_field_offset": 9896
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007b66",
+      "source_sha256": "6c54557098bfe2627c82e487503b46f9233c0d4110d8888fc12fa836cc631cda",
+      "full_translation": "Ghost Captain",
+      "text": "Ghost Capt",
+      "display_text": "\uff27\uff48\uff4f\uff53\uff54\u3000\uff23\uff41\uff50\uff54",
+      "new_offset": 40142,
+      "advance_pixels": 83.125,
+      "references": [
+        {
+          "row": 317,
+          "slot": 1,
+          "entity_number": 167,
+          "pointer_field_offset": 10152
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007b80",
+      "source_sha256": "651fa490a7009f3f141f467820b40cee3590544f290b25adaba15a0db9e624aa",
+      "full_translation": "Ghost Pirate",
+      "text": "Ghost Prt.",
+      "display_text": "\uff27\uff48\uff4f\uff53\uff54\u3000\uff30\uff52\uff54\uff0e",
+      "new_offset": 40164,
+      "advance_pixels": 72.625,
+      "references": [
+        {
+          "row": 319,
+          "slot": 1,
+          "entity_number": 197048,
+          "pointer_field_offset": 10216
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007b90",
+      "source_sha256": "a1e9a8cd9c1917c440a5c58b379e31ba4e7ec7605c289dd100ea1040a1ff670c",
+      "full_translation": "Ghost Summoner",
+      "text": "Ghost Summ",
+      "display_text": "\uff27\uff48\uff4f\uff53\uff54\u3000\uff33\uff55\uff4d\uff4d",
+      "new_offset": 40186,
+      "advance_pixels": 91.0,
+      "references": [
+        {
+          "row": 320,
+          "slot": 1,
+          "entity_number": 170,
+          "pointer_field_offset": 10248
+        },
+        {
+          "row": 321,
+          "slot": 1,
+          "entity_number": 65706,
+          "pointer_field_offset": 10280
+        },
+        {
+          "row": 322,
+          "slot": 1,
+          "entity_number": 131242,
+          "pointer_field_offset": 10312
+        },
+        {
+          "row": 323,
+          "slot": 1,
+          "entity_number": 196778,
+          "pointer_field_offset": 10344
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007bea",
+      "source_sha256": "d4947e0235147d809201532bb8d666fe20022304fc3e452966bd5b5923ff368f",
+      "full_translation": "Ghost Summon",
+      "text": "Ghost Smn.",
+      "display_text": "\uff27\uff48\uff4f\uff53\uff54\u3000\uff33\uff4d\uff4e\uff0e",
+      "new_offset": 40208,
+      "advance_pixels": 82.25,
+      "references": [
+        {
+          "row": 330,
+          "slot": 1,
+          "entity_number": 180,
+          "pointer_field_offset": 10568
+        },
+        {
+          "row": 331,
+          "slot": 1,
+          "entity_number": 65716,
+          "pointer_field_offset": 10600
+        },
+        {
+          "row": 332,
+          "slot": 1,
+          "entity_number": 131252,
+          "pointer_field_offset": 10632
+        },
+        {
+          "row": 333,
+          "slot": 1,
+          "entity_number": 196788,
+          "pointer_field_offset": 10664
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007ce2",
+      "source_sha256": "0a741bac0540bd1c844d79004c1b63f86978dbb294eea04c1f60a9542eeb8e8b",
+      "full_translation": "Holy Angel",
+      "text": "Holy Angel",
+      "display_text": "\uff28\uff4f\uff4c\uff59\u3000\uff21\uff4e\uff47\uff45\uff4c",
+      "new_offset": 40230,
+      "advance_pixels": 77.0,
+      "references": [
+        {
+          "row": 361,
+          "slot": 1,
+          "entity_number": 211,
+          "pointer_field_offset": 11560
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007d1a",
+      "source_sha256": "bb3db3067ac510449047cdb3675696562add5870a24236ff303084fdfa87fd5f",
+      "full_translation": "Phantom Summoner",
+      "text": "Phant Summ",
+      "display_text": "\uff30\uff48\uff41\uff4e\uff54\u3000\uff33\uff55\uff4d\uff4d",
+      "new_offset": 40252,
+      "advance_pixels": 89.25,
+      "references": [
+        {
+          "row": 367,
+          "slot": 1,
+          "entity_number": 217,
+          "pointer_field_offset": 11752
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007db2",
+      "source_sha256": "be981ded965e050dac2ab61666f843314dedb1deadceef1317f3fea75e79967a",
+      "full_translation": "Bandit",
+      "text": "Bandit",
+      "display_text": "\uff22\uff41\uff4e\uff44\uff49\uff54",
+      "new_offset": 40274,
+      "advance_pixels": 46.375,
+      "references": [
+        {
+          "row": 391,
+          "slot": 1,
+          "entity_number": 350,
+          "pointer_field_offset": 12520
+        },
+        {
+          "row": 514,
+          "slot": 1,
+          "entity_number": 394,
+          "pointer_field_offset": 16456
+        },
+        {
+          "row": 515,
+          "slot": 1,
+          "entity_number": 395,
+          "pointer_field_offset": 16488
+        },
+        {
+          "row": 516,
+          "slot": 1,
+          "entity_number": 396,
+          "pointer_field_offset": 16520
+        },
+        {
+          "row": 517,
+          "slot": 1,
+          "entity_number": 397,
+          "pointer_field_offset": 16552
+        },
+        {
+          "row": 518,
+          "slot": 1,
+          "entity_number": 398,
+          "pointer_field_offset": 16584
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007dca",
+      "source_sha256": "12e567aa9e8d57ed0e2ae69570d35b43efb5f84d4218cf782cac844356eece3a",
+      "full_translation": "Mysterious Summoner",
+      "text": "Myst. Summ",
+      "display_text": "\uff2d\uff59\uff53\uff54\uff0e\u3000\uff33\uff55\uff4d\uff4d",
+      "new_offset": 40288,
+      "advance_pixels": 85.75,
+      "references": [
+        {
+          "row": 398,
+          "slot": 1,
+          "entity_number": 358,
+          "pointer_field_offset": 12744
+        },
+        {
+          "row": 399,
+          "slot": 1,
+          "entity_number": 359,
+          "pointer_field_offset": 12776
+        },
+        {
+          "row": 400,
+          "slot": 1,
+          "entity_number": 360,
+          "pointer_field_offset": 12808
+        },
+        {
+          "row": 401,
+          "slot": 1,
+          "entity_number": 361,
+          "pointer_field_offset": 12840
+        },
+        {
+          "row": 402,
+          "slot": 1,
+          "entity_number": 362,
+          "pointer_field_offset": 12872
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007e0e",
+      "source_sha256": "211885ea5b58216250aba6d29175c7492de73ae38342b877730442b42cdd9f1b",
+      "full_translation": "Colorless Summoner",
+      "text": "Clr. Summ",
+      "display_text": "\uff23\uff4c\uff52\uff0e\u3000\uff33\uff55\uff4d\uff4d",
+      "new_offset": 40310,
+      "advance_pixels": 70.0,
+      "references": [
+        {
+          "row": 409,
+          "slot": 1,
+          "entity_number": 358,
+          "pointer_field_offset": 13096
+        },
+        {
+          "row": 410,
+          "slot": 1,
+          "entity_number": 359,
+          "pointer_field_offset": 13128
+        },
+        {
+          "row": 411,
+          "slot": 1,
+          "entity_number": 360,
+          "pointer_field_offset": 13160
+        },
+        {
+          "row": 412,
+          "slot": 1,
+          "entity_number": 361,
+          "pointer_field_offset": 13192
+        },
+        {
+          "row": 413,
+          "slot": 1,
+          "entity_number": 362,
+          "pointer_field_offset": 13224
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007e40",
+      "source_sha256": "1624aec5bbf98fa841df143ee203d4f512b8fb682c7c0b9cceef24ff33047322",
+      "full_translation": "Mysterious Beastfolk",
+      "text": "Myst Beast",
+      "display_text": "\uff2d\uff59\uff53\uff54\u3000\uff22\uff45\uff41\uff53\uff54",
+      "new_offset": 40330,
+      "advance_pixels": 84.0,
+      "references": [
+        {
+          "row": 430,
+          "slot": 1,
+          "entity_number": 371,
+          "pointer_field_offset": 13768
+        },
+        {
+          "row": 431,
+          "slot": 1,
+          "entity_number": 372,
+          "pointer_field_offset": 13800
+        },
+        {
+          "row": 432,
+          "slot": 1,
+          "entity_number": 373,
+          "pointer_field_offset": 13832
+        },
+        {
+          "row": 433,
+          "slot": 1,
+          "entity_number": 374,
+          "pointer_field_offset": 13864
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007e72",
+      "source_sha256": "4baabb512333c177d8e3e538650d8e45d681f008c098f3c15b4dc28ee8120f09",
+      "full_translation": "Crimson Glove Assassin",
+      "text": "Red Glove",
+      "display_text": "\uff32\uff45\uff44\u3000\uff27\uff4c\uff4f\uff56\uff45",
+      "new_offset": 40352,
+      "advance_pixels": 74.375,
+      "references": [
+        {
+          "row": 438,
+          "slot": 1,
+          "entity_number": 375,
+          "pointer_field_offset": 14024
+        },
+        {
+          "row": 439,
+          "slot": 1,
+          "entity_number": 376,
+          "pointer_field_offset": 14056
+        },
+        {
+          "row": 440,
+          "slot": 1,
+          "entity_number": 377,
+          "pointer_field_offset": 14088
+        },
+        {
+          "row": 441,
+          "slot": 1,
+          "entity_number": 378,
+          "pointer_field_offset": 14120
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007e8c",
+      "source_sha256": "b1e14cb8464246bd2f0d80dd4f617ca07547394ec31b656db9dacdb4e03b3f30",
+      "full_translation": "Veteran Assassin",
+      "text": "Vet. Assn.",
+      "display_text": "\uff36\uff45\uff54\uff0e\u3000\uff21\uff53\uff53\uff4e\uff0e",
+      "new_offset": 40372,
+      "advance_pixels": 74.375,
+      "references": [
+        {
+          "row": 442,
+          "slot": 1,
+          "entity_number": 375,
+          "pointer_field_offset": 14152
+        },
+        {
+          "row": 443,
+          "slot": 1,
+          "entity_number": 376,
+          "pointer_field_offset": 14184
+        },
+        {
+          "row": 444,
+          "slot": 1,
+          "entity_number": 377,
+          "pointer_field_offset": 14216
+        },
+        {
+          "row": 445,
+          "slot": 1,
+          "entity_number": 378,
+          "pointer_field_offset": 14248
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007e9a",
+      "source_sha256": "ea8020dea68f63fc91f9dfdc8bb9ffea40288dfa8b9add9ce3dcd11a10ae29a3",
+      "full_translation": "Masked Assassin",
+      "text": "Mask Assn.",
+      "display_text": "\uff2d\uff41\uff53\uff4b\u3000\uff21\uff53\uff53\uff4e\uff0e",
+      "new_offset": 40394,
+      "advance_pixels": 83.125,
+      "references": [
+        {
+          "row": 446,
+          "slot": 1,
+          "entity_number": 379,
+          "pointer_field_offset": 14280
+        },
+        {
+          "row": 447,
+          "slot": 1,
+          "entity_number": 380,
+          "pointer_field_offset": 14312
+        },
+        {
+          "row": 448,
+          "slot": 1,
+          "entity_number": 381,
+          "pointer_field_offset": 14344
+        },
+        {
+          "row": 449,
+          "slot": 1,
+          "entity_number": 382,
+          "pointer_field_offset": 14376
+        },
+        {
+          "row": 706,
+          "slot": 1,
+          "entity_number": 65915,
+          "pointer_field_offset": 22600
+        },
+        {
+          "row": 707,
+          "slot": 1,
+          "entity_number": 65916,
+          "pointer_field_offset": 22632
+        },
+        {
+          "row": 708,
+          "slot": 1,
+          "entity_number": 65917,
+          "pointer_field_offset": 22664
+        },
+        {
+          "row": 709,
+          "slot": 1,
+          "entity_number": 65918,
+          "pointer_field_offset": 22696
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007ea8",
+      "source_sha256": "71301e5be5f1949fdfd7ee3633fb93cb2f2747b9e8d4f289de9f3bf3dd0cfefe",
+      "full_translation": "Masked Summoner",
+      "text": "Mask Summ",
+      "display_text": "\uff2d\uff41\uff53\uff4b\u3000\uff33\uff55\uff4d\uff4d",
+      "new_offset": 40416,
+      "advance_pixels": 84.875,
+      "references": [
+        {
+          "row": 450,
+          "slot": 1,
+          "entity_number": 383,
+          "pointer_field_offset": 14408
+        },
+        {
+          "row": 451,
+          "slot": 1,
+          "entity_number": 65919,
+          "pointer_field_offset": 14440
+        },
+        {
+          "row": 452,
+          "slot": 1,
+          "entity_number": 131455,
+          "pointer_field_offset": 14472
+        },
+        {
+          "row": 453,
+          "slot": 1,
+          "entity_number": 196991,
+          "pointer_field_offset": 14504
+        },
+        {
+          "row": 454,
+          "slot": 1,
+          "entity_number": 262527,
+          "pointer_field_offset": 14536
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007ec0",
+      "source_sha256": "f24b6607945bbf4e5c1f84e017daea1150c78237955872c03b46ae5f3c1521be",
+      "full_translation": "Oni-Possessed Summoner",
+      "text": "Oni Summ",
+      "display_text": "\uff2f\uff4e\uff49\u3000\uff33\uff55\uff4d\uff4d",
+      "new_offset": 40436,
+      "advance_pixels": 71.75,
+      "references": [
+        {
+          "row": 470,
+          "slot": 1,
+          "entity_number": 131455,
+          "pointer_field_offset": 15048
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007ed6",
+      "source_sha256": "bca54d97cdece20d67d88174e1daa88f8ad51ef180d2719bb37f30d2204d29f4",
+      "full_translation": "Undead Summoner",
+      "text": "Dead Summ",
+      "display_text": "\uff24\uff45\uff41\uff44\u3000\uff33\uff55\uff4d\uff4d",
+      "new_offset": 40454,
+      "advance_pixels": 85.75,
+      "references": [
+        {
+          "row": 480,
+          "slot": 1,
+          "entity_number": 196991,
+          "pointer_field_offset": 15368
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007eec",
+      "source_sha256": "56a7103d52daa216c294bdbeb0d6e17856480ad086f71c67502d1b1ae95b117a",
+      "full_translation": "Beast-Transformed Summoner",
+      "text": "Beast Summ",
+      "display_text": "\uff22\uff45\uff41\uff53\uff54\u3000\uff33\uff55\uff4d\uff4d",
+      "new_offset": 40474,
+      "advance_pixels": 91.0,
+      "references": [
+        {
+          "row": 490,
+          "slot": 1,
+          "entity_number": 262527,
+          "pointer_field_offset": 15688
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007efa",
+      "source_sha256": "7f88976f4b036a486b645eb1b9ba4538402938186dd242dbe7c80db9c3cb1c6c",
+      "full_translation": "Beastfolk Rioter",
+      "text": "Beast Riot",
+      "display_text": "\uff22\uff45\uff41\uff53\uff54\u3000\uff32\uff49\uff4f\uff54",
+      "new_offset": 40496,
+      "advance_pixels": 77.0,
+      "references": [
+        {
+          "row": 491,
+          "slot": 1,
+          "entity_number": 388,
+          "pointer_field_offset": 15720
+        },
+        {
+          "row": 492,
+          "slot": 1,
+          "entity_number": 389,
+          "pointer_field_offset": 15752
+        },
+        {
+          "row": 493,
+          "slot": 1,
+          "entity_number": 390,
+          "pointer_field_offset": 15784
+        },
+        {
+          "row": 494,
+          "slot": 1,
+          "entity_number": 391,
+          "pointer_field_offset": 15816
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007f06",
+      "source_sha256": "6a12a7a19db66df6477f447036f889867027b954dcfdf5fb6b35c29b24365caa",
+      "full_translation": "Demonic Beastfolk",
+      "text": "Demonbeast",
+      "display_text": "\uff24\uff45\uff4d\uff4f\uff4e\uff42\uff45\uff41\uff53\uff54",
+      "new_offset": 40518,
+      "advance_pixels": 92.75,
+      "references": [
+        {
+          "row": 495,
+          "slot": 1,
+          "entity_number": 65924,
+          "pointer_field_offset": 15848
+        },
+        {
+          "row": 496,
+          "slot": 1,
+          "entity_number": 65925,
+          "pointer_field_offset": 15880
+        },
+        {
+          "row": 497,
+          "slot": 1,
+          "entity_number": 65926,
+          "pointer_field_offset": 15912
+        },
+        {
+          "row": 498,
+          "slot": 1,
+          "entity_number": 65927,
+          "pointer_field_offset": 15944
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007f1c",
+      "source_sha256": "0c41078f3e703ab56c9eaa334eab4d890ce43fb60c74daf7230337e2e8bcb6ab",
+      "full_translation": "Horned Beast",
+      "text": "Horn Beast",
+      "display_text": "\uff28\uff4f\uff52\uff4e\u3000\uff22\uff45\uff41\uff53\uff54",
+      "new_offset": 40540,
+      "advance_pixels": 82.25,
+      "references": [
+        {
+          "row": 504,
+          "slot": 1,
+          "entity_number": 393,
+          "pointer_field_offset": 16136
+        },
+        {
+          "row": 505,
+          "slot": 1,
+          "entity_number": 65929,
+          "pointer_field_offset": 16168
+        },
+        {
+          "row": 506,
+          "slot": 1,
+          "entity_number": 131465,
+          "pointer_field_offset": 16200
+        },
+        {
+          "row": 507,
+          "slot": 1,
+          "entity_number": 197001,
+          "pointer_field_offset": 16232
+        },
+        {
+          "row": 508,
+          "slot": 1,
+          "entity_number": 262537,
+          "pointer_field_offset": 16264
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007f58",
+      "source_sha256": "4db5abd6d54d7b44fa17e1333b9e49bd07e476185e993ec977df09f0537d867c",
+      "full_translation": "Infinite Summoner",
+      "text": "Inf. Summ",
+      "display_text": "\uff29\uff4e\uff46\uff0e\u3000\uff33\uff55\uff4d\uff4d",
+      "new_offset": 40562,
+      "advance_pixels": 67.375,
+      "references": [
+        {
+          "row": 539,
+          "slot": 1,
+          "entity_number": 404,
+          "pointer_field_offset": 17256
+        },
+        {
+          "row": 540,
+          "slot": 1,
+          "entity_number": 405,
+          "pointer_field_offset": 17288
+        },
+        {
+          "row": 541,
+          "slot": 1,
+          "entity_number": 406,
+          "pointer_field_offset": 17320
+        },
+        {
+          "row": 542,
+          "slot": 1,
+          "entity_number": 407,
+          "pointer_field_offset": 17352
+        },
+        {
+          "row": 543,
+          "slot": 1,
+          "entity_number": 408,
+          "pointer_field_offset": 17384
+        }
+      ]
+    },
+    {
+      "id": "char_label:00007fc8",
+      "source_sha256": "495b2f5d2a651ce045699163cebca6a865baabf4064801f2458afc3cd72cd589",
+      "full_translation": "Robo Maid",
+      "text": "Robo Maid",
+      "display_text": "\uff32\uff4f\uff42\uff4f\u3000\uff2d\uff41\uff49\uff44",
+      "new_offset": 40582,
+      "advance_pixels": 74.375,
+      "references": [
+        {
+          "row": 574,
+          "slot": 1,
+          "entity_number": 420,
+          "pointer_field_offset": 18376
+        },
+        {
+          "row": 575,
+          "slot": 1,
+          "entity_number": 65956,
+          "pointer_field_offset": 18408
+        },
+        {
+          "row": 576,
+          "slot": 1,
+          "entity_number": 131492,
+          "pointer_field_offset": 18440
+        },
+        {
+          "row": 577,
+          "slot": 1,
+          "entity_number": 197028,
+          "pointer_field_offset": 18472
+        },
+        {
+          "row": 578,
+          "slot": 1,
+          "entity_number": 262564,
+          "pointer_field_offset": 18504
+        }
+      ]
+    },
+    {
+      "id": "char_label:00008012",
+      "source_sha256": "1cd36740c3bc7f6becfdd518846382c4ef5d8842e0a7b7c58760fb65c1e3605c",
+      "full_translation": "Lesser Fox Spirit",
+      "text": "Fox Spirit",
+      "display_text": "\uff26\uff4f\uff58\u3000\uff33\uff50\uff49\uff52\uff49\uff54",
+      "new_offset": 40602,
+      "advance_pixels": 69.125,
+      "references": [
+        {
+          "row": 601,
+          "slot": 1,
+          "entity_number": 429,
+          "pointer_field_offset": 19240
+        },
+        {
+          "row": 602,
+          "slot": 1,
+          "entity_number": 65965,
+          "pointer_field_offset": 19272
+        },
+        {
+          "row": 603,
+          "slot": 1,
+          "entity_number": 131501,
+          "pointer_field_offset": 19304
+        },
+        {
+          "row": 604,
+          "slot": 1,
+          "entity_number": 197037,
+          "pointer_field_offset": 19336
+        },
+        {
+          "row": 605,
+          "slot": 1,
+          "entity_number": 262573,
+          "pointer_field_offset": 19368
+        }
+      ]
+    },
+    {
+      "id": "char_label:0000801a",
+      "source_sha256": "1b49c1ba22d3127dd990e0a81b39c00c3c1365b76b578f3ab63c6b9d7ffe7b29",
+      "full_translation": "Oni Warrior",
+      "text": "OniWarrior",
+      "display_text": "\uff2f\uff4e\uff49\uff37\uff41\uff52\uff52\uff49\uff4f\uff52",
+      "new_offset": 40624,
+      "advance_pixels": 77.875,
+      "references": [
+        {
+          "row": 606,
+          "slot": 1,
+          "entity_number": 430,
+          "pointer_field_offset": 19400
+        },
+        {
+          "row": 607,
+          "slot": 1,
+          "entity_number": 434,
+          "pointer_field_offset": 19432
+        },
+        {
+          "row": 608,
+          "slot": 1,
+          "entity_number": 431,
+          "pointer_field_offset": 19464
+        },
+        {
+          "row": 609,
+          "slot": 1,
+          "entity_number": 435,
+          "pointer_field_offset": 19496
+        }
+      ]
+    },
+    {
+      "id": "char_label:00008024",
+      "source_sha256": "7cb35233297fa0cc3cd477b0b62310d95fc34e2d6a5e095d2d561457138f3f00",
+      "full_translation": "Toad Ninja",
+      "text": "Toad Ninja",
+      "display_text": "\uff34\uff4f\uff41\uff44\u3000\uff2e\uff49\uff4e\uff4a\uff41",
+      "new_offset": 40646,
+      "advance_pixels": 77.0,
+      "references": [
+        {
+          "row": 610,
+          "slot": 1,
+          "entity_number": 432,
+          "pointer_field_offset": 19528
+        },
+        {
+          "row": 611,
+          "slot": 1,
+          "entity_number": 65968,
+          "pointer_field_offset": 19560
+        },
+        {
+          "row": 612,
+          "slot": 1,
+          "entity_number": 131504,
+          "pointer_field_offset": 19592
+        },
+        {
+          "row": 613,
+          "slot": 1,
+          "entity_number": 197040,
+          "pointer_field_offset": 19624
+        },
+        {
+          "row": 614,
+          "slot": 1,
+          "entity_number": 262576,
+          "pointer_field_offset": 19656
+        }
+      ]
+    },
+    {
+      "id": "char_label:0000809c",
+      "source_sha256": "629204467d57af0f2a6bc31d94d4ae02c5a61f87b493883a614079734fbda4b1",
+      "full_translation": "Mischievous Ghost",
+      "text": "TrickGhost",
+      "display_text": "\uff34\uff52\uff49\uff43\uff4b\uff27\uff48\uff4f\uff53\uff54",
+      "new_offset": 40668,
+      "advance_pixels": 80.5,
+      "references": [
+        {
+          "row": 632,
+          "slot": 1,
+          "entity_number": 440,
+          "pointer_field_offset": 20232
+        },
+        {
+          "row": 633,
+          "slot": 1,
+          "entity_number": 65976,
+          "pointer_field_offset": 20264
+        },
+        {
+          "row": 634,
+          "slot": 1,
+          "entity_number": 131512,
+          "pointer_field_offset": 20296
+        },
+        {
+          "row": 635,
+          "slot": 1,
+          "entity_number": 197048,
+          "pointer_field_offset": 20328
+        },
+        {
+          "row": 636,
+          "slot": 1,
+          "entity_number": 262584,
+          "pointer_field_offset": 20360
+        }
+      ]
+    },
+    {
+      "id": "char_label:000080aa",
+      "source_sha256": "c414b2a6f65680d39dedbeb22dc6d9d60c53716c77c3718be55a3b8c18f58e00",
+      "full_translation": "Little Devil",
+      "text": "Lil Devil",
+      "display_text": "\uff2c\uff49\uff4c\u3000\uff24\uff45\uff56\uff49\uff4c",
+      "new_offset": 40690,
+      "advance_pixels": 54.25,
+      "references": [
+        {
+          "row": 637,
+          "slot": 1,
+          "entity_number": 441,
+          "pointer_field_offset": 20392
+        },
+        {
+          "row": 638,
+          "slot": 1,
+          "entity_number": 65977,
+          "pointer_field_offset": 20424
+        },
+        {
+          "row": 639,
+          "slot": 1,
+          "entity_number": 131513,
+          "pointer_field_offset": 20456
+        },
+        {
+          "row": 640,
+          "slot": 1,
+          "entity_number": 197049,
+          "pointer_field_offset": 20488
+        },
+        {
+          "row": 641,
+          "slot": 1,
+          "entity_number": 262585,
+          "pointer_field_offset": 20520
+        }
+      ]
+    },
+    {
+      "id": "char_label:0000817e",
+      "source_sha256": "fda7afe51eac94ac13c8b9dc0921dac0ade55cfb50d6fa88f136261789dbf39e",
+      "full_translation": "Beastfolk",
+      "text": "Beastfolk",
+      "display_text": "\uff22\uff45\uff41\uff53\uff54\uff46\uff4f\uff4c\uff4b",
+      "new_offset": 40710,
+      "advance_pixels": 69.125,
+      "references": [
+        {
+          "row": 667,
+          "slot": 1,
+          "entity_number": 449,
+          "pointer_field_offset": 21352
+        },
+        {
+          "row": 668,
+          "slot": 1,
+          "entity_number": 450,
+          "pointer_field_offset": 21384
+        },
+        {
+          "row": 669,
+          "slot": 1,
+          "entity_number": 451,
+          "pointer_field_offset": 21416
+        },
+        {
+          "row": 670,
+          "slot": 1,
+          "entity_number": 452,
+          "pointer_field_offset": 21448
+        }
+      ]
+    },
+    {
+      "id": "char_label:00008256",
+      "source_sha256": "7fef01d0db788d18a97986425fc0e7a5edb09f0cafef6bec2d8ccd62c1c44dfe",
+      "full_translation": "Toad Chief",
+      "text": "Toad Chief",
+      "display_text": "\uff34\uff4f\uff41\uff44\u3000\uff23\uff48\uff49\uff45\uff46",
+      "new_offset": 40730,
+      "advance_pixels": 80.5,
+      "references": [
+        {
+          "row": 730,
+          "slot": 1,
+          "entity_number": 469,
+          "pointer_field_offset": 23368
+        },
+        {
+          "row": 731,
+          "slot": 1,
+          "entity_number": 66005,
+          "pointer_field_offset": 23400
+        },
+        {
+          "row": 732,
+          "slot": 1,
+          "entity_number": 131541,
+          "pointer_field_offset": 23432
+        },
+        {
+          "row": 733,
+          "slot": 1,
+          "entity_number": 197077,
+          "pointer_field_offset": 23464
+        },
+        {
+          "row": 734,
+          "slot": 1,
+          "entity_number": 262613,
+          "pointer_field_offset": 23496
+        }
+      ]
+    },
+    {
+      "id": "char_label:00008350",
+      "source_sha256": "98a7fd6fb1712f094c5e1ddef230346733d07eef2b931b76acaffcfd9520ffc5",
+      "full_translation": "Mutant Beast",
+      "text": "Mut. Beast",
+      "display_text": "\uff2d\uff55\uff54\uff0e\u3000\uff22\uff45\uff41\uff53\uff54",
+      "new_offset": 40752,
+      "advance_pixels": 77.0,
+      "references": [
+        {
+          "row": 776,
+          "slot": 1,
+          "entity_number": 479,
+          "pointer_field_offset": 24840
+        },
+        {
+          "row": 777,
+          "slot": 1,
+          "entity_number": 66015,
+          "pointer_field_offset": 24872
+        },
+        {
+          "row": 778,
+          "slot": 1,
+          "entity_number": 131551,
+          "pointer_field_offset": 24904
+        },
+        {
+          "row": 779,
+          "slot": 1,
+          "entity_number": 197087,
+          "pointer_field_offset": 24936
+        },
+        {
+          "row": 780,
+          "slot": 1,
+          "entity_number": 262623,
+          "pointer_field_offset": 24968
+        }
+      ]
+    }
+  ],
+  "meaning_review": {
+    "reviewer": "meaning_review035",
+    "help_groups": 24,
+    "source_literals": 28,
+    "enemy_mappings": 39,
+    "status": "approved after Endless Halls glossary correction",
+    "notes": "Compact labels preserve identifying distinctions where space allows; full translations retained. Named cast and creature species outside this generic-label scope."
+  }
+}

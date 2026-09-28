@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "reference": "work/ui/summon_0.1.19/affinity_reference.png",
+  "output": "work/ui/summon_0.1.19/affinity_generated.png",
+  "prompt": "Edit this game UI sprite strip. Replace only the five Japanese symbols with these exact single uppercase Latin letters left to right: M O S B N. Preserve the five square frames and muted color scheme: olive-gold M, orange O, purple S, green B, gray N. Each white/ivory letter bold, clean and extremely legible at 16x16 pixels, old PSP pixel-art aesthetic. No extra text, no shadows outside borders. Produce a single horizontal sprite sheet exactly five equal square tiles edge to edge, no gaps or padding, all tiles same dimensions, entire canvas aspect ratio 5:1. Preserve subtle beveled frames and solid original tile backgrounds. Replace glyphs cleanly, no remnants of kanji. This is production game art, not a mockup.",
+  "generated_dimensions": [2170,725],
+  "strip_crop": [0,143,2170,580],
+  "tile_width": 434,
+  "native_dimensions": [16,16],
+  "conversion": "Crop, resize, preserve original native alpha, quantize to unchanged native palette. No drawn-over screenshot patches.",
+  "letters": {"M":"Machine","O":"Oni","S":"Spirit","B":"Beast","N":"Neutral"},
+  "occurrences": 20,
+  "paths": [[2952,2],[2953,2],[2954,2],[2955,2]],
+  "texture_numbers": [17,18,19,20,21],
+  "verification": "Native palette-converted tiles visually inspected; other textures and resource lengths asserted unchanged."
+}

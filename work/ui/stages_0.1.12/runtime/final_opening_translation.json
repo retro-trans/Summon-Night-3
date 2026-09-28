@@ -1,0 +1,99 @@
+{
+  "state": {
+    "pc": 2042,
+    "native": "0x3052",
+    "script_base": "0x8d8b000",
+    "lines": [
+      {
+        "id": "harbor_rows_445_446_447:page:0:line:0",
+        "text": "The letter said it was a",
+        "rendered": "The letter said it was a",
+        "pointer": "0x8dc56b2",
+        "units": 24,
+        "selectable": false,
+        "choice": 4294967295,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "harbor_rows_445_446_447:page:0:line:1",
+        "text": "boy, as I recall.",
+        "rendered": "boy, as I recall.",
+        "pointer": "0x8dc56e4",
+        "units": 17,
+        "selectable": false,
+        "choice": 4294967295,
+        "kinds": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "choice": false,
+    "names": {
+      "\u25cf": "Rexx",
+      "\u25b2": "No Pupil",
+      "\u25a0": "????????"
+    },
+    "dialogue_active": true,
+    "script_loaded": true,
+    "live_script_sha256": "edce3ae14584541fc412d62d33d2c544ac657639ebe093dc8b28c48855ea3ab2"
+  },
+  "capture": {
+    "method": "software VRAM at sceDisplaySetFrameBuf",
+    "game": {
+      "id": "NPJH50380",
+      "version": "2.00",
+      "title": "\u30b5\u30e2\u30f3\u30ca\u30a4\u30c8\uff13"
+    },
+    "framebuffer_address": "0x4044000",
+    "stride_pixels": 512,
+    "pixel_format": 1,
+    "width": 480,
+    "height": 272,
+    "sync": 0,
+    "display_import_address": "0x8a17b9c",
+    "png_bytes": 107024,
+    "png_sha256": "e91f7ec701cdaac14aeb1b651f7fe6fd1badd31deb2d45001e3825cf7ea8276c",
+    "cpu_left_stepping": true
+  }
+}

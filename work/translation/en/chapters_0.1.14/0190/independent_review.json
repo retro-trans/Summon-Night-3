@@ -1,0 +1,99 @@
+{
+  "resource_id": "00:00190",
+  "review_type": "independent_meaning_review",
+  "semantic_complete": true,
+  "independent_review": true,
+  "reviewed_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ],
+  "reviewed_slices": [
+    {
+      "target_file": "work/translation/en/chapters_0.1.14/0190/slice_0011.targets.json",
+      "target_file_sha256": "cc9a56909873baa4c642558127a7282011c919bafe73c49457e383cc322f0a65",
+      "assigned_range": [
+        11,
+        69
+      ],
+      "translation_count": 59
+    }
+  ],
+  "corrections": [
+    {
+      "resource_row": 28,
+      "source_sha256": "1083e4a121d487551a0fb67325a4f9e09746169e764df8298926be7878b9d54d",
+      "text": "for hopeless cases."
+    }
+  ],
+  "rows_examined": {
+    "physical_range_inclusive": [
+      6,
+      69
+    ],
+    "count": 64
+  },
+  "uncertainties": [
+    "Hopeless cases preserves the characterization in the source; nowhere else to turn instead asserted a circumstance the source does not give."
+  ],
+  "method": "Read and compared every assigned source/target row in slices of at most 80, with adjacent context. Reviewer did not author these drafts. Structural checks do not substitute for that meaning review.",
+  "change_log": [
+    "Build 0.1.14: independently reviewed all optional/night dialogue rows in this resource."
+  ]
+}

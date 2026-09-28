@@ -1,0 +1,375 @@
+{
+  "resource_id": "00:00111",
+  "reviewed_targets": [
+    {
+      "target_file": "slice_1600.targets.json",
+      "reviewed_rows": [
+        [
+          1600,
+          1679
+        ]
+      ],
+      "context_ranges": [
+        [
+          1580,
+          1699
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        1600,
+        1679
+      ],
+      "target_sha256": "88f7d89586c3c495ee9e1edea2ce2e57138a070e8fd83fb82d96f109c02969a8"
+    },
+    {
+      "target_file": "slice_1680.targets.json",
+      "reviewed_rows": [
+        [
+          1680,
+          1759
+        ]
+      ],
+      "context_ranges": [
+        [
+          1660,
+          1779
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        1680,
+        1759
+      ],
+      "target_sha256": "267b77b4da68f3828401c030a7f2dd862216fa06bd662f47ea281a6a6bef2e7e"
+    },
+    {
+      "target_file": "slice_1760.targets.json",
+      "reviewed_rows": [
+        [
+          1760,
+          1839
+        ]
+      ],
+      "context_ranges": [
+        [
+          1740,
+          1859
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        1760,
+        1839
+      ],
+      "target_sha256": "a0daf5847d53a820e11a01ad2cb043edd96f3e2dc5de3819d3f069ec7c5aaead"
+    },
+    {
+      "target_file": "slice_1840.targets.json",
+      "reviewed_rows": [
+        [
+          1840,
+          1919
+        ]
+      ],
+      "context_ranges": [
+        [
+          1820,
+          1939
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        1840,
+        1919
+      ],
+      "target_sha256": "277265aa699c0bb5439959ddce33f8296fd624dbe9c8383882cfe224b52e1ff0"
+    },
+    {
+      "target_file": "slice_1920.targets.json",
+      "reviewed_rows": [
+        [
+          1920,
+          1999
+        ]
+      ],
+      "context_ranges": [
+        [
+          1900,
+          2019
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        1920,
+        1999
+      ],
+      "target_sha256": "ab0de225b3a32d4ccc7666c506a3be9b5bf2dc4d29aa05ece66bedd23ef6a397"
+    },
+    {
+      "target_file": "slice_2000.targets.json",
+      "reviewed_rows": [
+        [
+          2000,
+          2079
+        ]
+      ],
+      "context_ranges": [
+        [
+          1980,
+          2099
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        2000,
+        2079
+      ],
+      "target_sha256": "47eab72d305807b582b71128fc9cabde0bb0ff2426bd6c55a5d337226715c685"
+    },
+    {
+      "target_file": "slice_2080.targets.json",
+      "reviewed_rows": [
+        [
+          2080,
+          2159
+        ]
+      ],
+      "context_ranges": [
+        [
+          2060,
+          2179
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        2080,
+        2159
+      ],
+      "target_sha256": "d9ba90cf9287a79a9d94090fc35cb5af12ad9e3d79da3cc56c3ee2dbb1f213de"
+    },
+    {
+      "target_file": "slice_2160.targets.json",
+      "reviewed_rows": [
+        [
+          2160,
+          2239
+        ]
+      ],
+      "context_ranges": [
+        [
+          2140,
+          2259
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        2160,
+        2239
+      ],
+      "target_sha256": "efca93a7dfe5467345bce61d002df5f851e12ecfa28d75e7c994ad46ad70fa21"
+    },
+    {
+      "target_file": "slice_2240.targets.json",
+      "reviewed_rows": [
+        [
+          2240,
+          2318
+        ]
+      ],
+      "context_ranges": [
+        [
+          2220,
+          2318
+        ]
+      ],
+      "context_count": 99,
+      "assigned_range": [
+        2240,
+        2318
+      ],
+      "target_sha256": "c32c18b46f0d832e64f1ce593489093c3af3d7441781b8d0aaa394f452665bf7"
+    }
+  ],
+  "required_fixes": [
+    {
+      "target_file": "slice_1680.targets.json",
+      "source_id": "00:00111:text:000362ac",
+      "resource_row": 1710,
+      "replacement_text": "Falzen!",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1680.targets.json",
+      "source_id": "00:00111:text:000362ce",
+      "resource_row": 1712,
+      "replacement_text": "Falzen.",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1760.targets.json",
+      "source_id": "00:00111:text:000366a4",
+      "resource_row": 1763,
+      "replacement_text": "more about Falzen.",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1760.targets.json",
+      "source_id": "00:00111:text:00036716",
+      "resource_row": 1768,
+      "replacement_text": "more about Falzen",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1760.targets.json",
+      "source_id": "00:00111:text:0003680c",
+      "resource_row": 1782,
+      "replacement_text": "Falzen.",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1760.targets.json",
+      "source_id": "00:00111:text:00036856",
+      "resource_row": 1786,
+      "replacement_text": "Falzen.",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1760.targets.json",
+      "source_id": "00:00111:text:000368ec",
+      "resource_row": 1795,
+      "replacement_text": "Yafha!",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1760.targets.json",
+      "source_id": "00:00111:text:0003690c",
+      "resource_row": 1797,
+      "replacement_text": "Yafha.",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1840.targets.json",
+      "source_id": "00:00111:text:00036cfc",
+      "resource_row": 1849,
+      "replacement_text": "more about Yafha.",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1840.targets.json",
+      "source_id": "00:00111:text:00036d66",
+      "resource_row": 1854,
+      "replacement_text": "more about Yafha",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1840.targets.json",
+      "source_id": "00:00111:text:00036eb0",
+      "resource_row": 1872,
+      "replacement_text": "Yafha.",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1840.targets.json",
+      "source_id": "00:00111:text:00036ef8",
+      "resource_row": 1876,
+      "replacement_text": "Yafha.",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1920.targets.json",
+      "source_id": "00:00111:text:0003734e",
+      "resource_row": 1942,
+      "replacement_text": "Falzen",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1920.targets.json",
+      "source_id": "00:00111:text:00037386",
+      "resource_row": 1945,
+      "replacement_text": "Yafha",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1920.targets.json",
+      "source_id": "00:00111:text:0003747a",
+      "resource_row": 1958,
+      "replacement_text": "Falzen",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_1920.targets.json",
+      "source_id": "00:00111:text:000374b4",
+      "resource_row": 1961,
+      "replacement_text": "Yafha",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_2000.targets.json",
+      "source_id": "00:00111:text:00037bfe",
+      "resource_row": 2069,
+      "replacement_text": "Falzen...",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_2080.targets.json",
+      "source_id": "00:00111:text:00037cb4",
+      "resource_row": 2080,
+      "replacement_text": "Yafha...",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_2080.targets.json",
+      "source_id": "00:00111:text:000380d0",
+      "resource_row": 2141,
+      "replacement_text": "Falzen?",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_2080.targets.json",
+      "source_id": "00:00111:text:000381aa",
+      "resource_row": 2154,
+      "replacement_text": "Lord Yafha,",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_2160.targets.json",
+      "source_id": "00:00111:text:000382e0",
+      "resource_row": 2172,
+      "replacement_text": "Falzen?",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_2240.targets.json",
+      "source_id": "00:00111:text:00038876",
+      "resource_row": 2253,
+      "replacement_text": "Falzen...",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    },
+    {
+      "target_file": "slice_2240.targets.json",
+      "source_id": "00:00111:text:0003894c",
+      "resource_row": 2265,
+      "replacement_text": "Yafha...",
+      "reason": "Uses the locked glossary spelling for this named Guardian."
+    }
+  ],
+  "uncertainties": [
+    {
+      "resource_rows": [
+        2045,
+        2057,
+        2070,
+        2082
+      ],
+      "finding": "The English keeps the source's species-level contrast without assigning unsupported individual pronouns to the Guardians."
+    }
+  ],
+  "change_log": [
+    {
+      "version": "0.1.12",
+      "date": "2026-09-27",
+      "change": "Recorded semantic source-context review of Chapter 3 rows 1600\u20132318 without changing reviewed drafts."
+    }
+  ]
+}

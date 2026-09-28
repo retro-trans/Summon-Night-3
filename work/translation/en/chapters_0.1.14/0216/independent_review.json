@@ -1,0 +1,54 @@
+{
+  "resource_id": "00:00216",
+  "review_type": "independent_meaning_review",
+  "semantic_complete": true,
+  "reviewed_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "reviewed_slices": [
+    {
+      "target_file": "work/translation/en/chapters_0.1.14/0216/slice_0011.targets.json",
+      "target_file_sha256": "562d96a4dc916ba0b5f00c70470c94cdf1e595a79a21e6f84b8de090cbbe24c2",
+      "assigned_range": [
+        11,
+        34
+      ],
+      "translation_count": 24
+    }
+  ],
+  "corrections": [],
+  "uncertainties": [],
+  "rows_examined": {
+    "physical_ranges_inclusive": [
+      [
+        0,
+        34
+      ]
+    ],
+    "count": 35
+  },
+  "method": "Independent reviewer read each target against the original Japanese and the full local conversation. Scope covers only physical dialogue rows 11 onward; first eleven system rows examined as context, not included in semantic coverage. Consecutive target slices have at most 80 rows. Acceptable variants left unchanged; corrections focus on meaning. No machine translation service used."
+}

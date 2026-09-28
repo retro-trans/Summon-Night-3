@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-26",
+  "passed": true,
+  "scope": "Source catalogs, review provenance, glossary, preserved images, runtime-placeholder metadata and queue integrity. No in-game layout or insertion acceptance.",
+  "statistics": {
+    "checks": 41,
+    "table_strings": 3633,
+    "executable_candidates": 960,
+    "exported_images_hash_and_dimension_checked": 1832,
+    "screenshots": 5,
+    "exact_executable_source_fragments": 12
+  },
+  "checks": [
+    {
+      "check": "String catalog regenerated from original archive and executable",
+      "passed": true
+    },
+    {
+      "check": "Targets regenerated after immutable meaning and behavior reviews",
+      "passed": true
+    },
+    {
+      "check": "Accepted UI glossary regeneration",
+      "passed": true
+    },
+    {
+      "check": "Readable translations match reviewed targets",
+      "passed": true
+    },
+    {
+      "check": "Queue input hash: work/translation/en/interface.index.json",
+      "passed": true
+    },
+    {
+      "check": "Queue input hash: work/translation/en/interface.executable_categories.json",
+      "passed": true
+    },
+    {
+      "check": "Queue input hash: work/translation/en/setup_ui.targets.json",
+      "passed": true
+    },
+    {
+      "check": "Queue input hash: work/translation/en/character_labels.index.json",
+      "passed": true
+    },
+    {
+      "check": "Queue input hash: work/ui/interface_graphics.index.json",
+      "passed": true
+    },
+    {
+      "check": "Queue input hash: work/ui/battle_assets/classification.json",
+      "passed": true
+    },
+    {
+      "check": "Queue input hash: work/ui/menu_discovery/classification.json",
+      "passed": true
+    },
+    {
+      "check": "Every table string assigned exactly once",
+      "passed": true
+    },
+    {
+      "check": "Bounded source batches",
+      "passed": true
+    },
+    {
+      "check": "Runtime name composition preserved",
+      "passed": true
+    },
+    {
+      "check": "Incorrect Convert target removed",
+      "passed": true
+    },
+    {
+      "check": "Kanji correction present",
+      "passed": true
+    },
+    {
+      "check": "All exported image hashes/dimensions: setup_assets_complete",
+      "passed": true
+    },
+    {
+      "check": "All exported image hashes/dimensions: battle_assets",
+      "passed": true
+    },
+    {
+      "check": "All exported image hashes/dimensions: menu_discovery",
+      "passed": true
+    },
+    {
+      "check": "Original screenshot preserved: options",
+      "passed": true
+    },
+    {
+      "check": "Screenshot rectangles bounded: options",
+      "passed": true
+    },
+    {
+      "check": "Original screenshot preserved: protagonist",
+      "passed": true
+    },
+    {
+      "check": "Screenshot rectangles bounded: protagonist",
+      "passed": true
+    },
+    {
+      "check": "Original screenshot preserved: affinity",
+      "passed": true
+    },
+    {
+      "check": "Screenshot rectangles bounded: affinity",
+      "passed": true
+    },
+    {
+      "check": "Original screenshot preserved: name_entry",
+      "passed": true
+    },
+    {
+      "check": "Screenshot rectangles bounded: name_entry",
+      "passed": true
+    },
+    {
+      "check": "Original screenshot preserved: confirmation",
+      "passed": true
+    },
+    {
+      "check": "Screenshot rectangles bounded: confirmation",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: options.bgm_help:0x21ca58",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: name.default_rexx:0x21c978",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: name.confirm_prompt:0x21c990",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: name.confirm_prompt:0x21c994",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: common.yes:0x21c9ac",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: common.no:0x21c9b4",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: options.voices_help:0x21ca7c",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: options.forecast_help:0x21caa0",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: options.cursor_help:0x21cac8",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: options.lr_help:0x21caf0",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: name.empty_prompt:0x21c9bc",
+      "passed": true
+    },
+    {
+      "check": "Executable UI fragment: name.default_aty:0x21c984",
+      "passed": true
+    }
+  ]
+}

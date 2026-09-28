@@ -1,0 +1,4240 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "status": "reviewed_translation_catalog_with_explicit_unresolved_thumbnail_text",
+  "scope": "Five screenshots and related setup/options native text; not every game interface.",
+  "build_status": "Not inserted. Latest playable ISO remains 0.1.4; next unused version is 0.1.5.",
+  "inputs": [
+    {
+      "path": "work/translation/en/setup_ui.screenshot_drafts.json",
+      "sha256": "b98060f9593900f0e22c5670c4cb102e9e2777209eda4cc91b3f2eb9093b10d1"
+    },
+    {
+      "path": "work/translation/en/setup_ui.meaning_review.json",
+      "sha256": "b3e62f023e966d40eab272ca090343a5f8cf6916913a31dca1a11f2c9ac90d82"
+    },
+    {
+      "path": "work/translation/en/setup_ui.related_drafts.json",
+      "sha256": "1b042cec3b1a603885814fd77d04bb4ab9b98186eda9d5ec97e7b8cd8fea5c8b"
+    },
+    {
+      "path": "work/translation/en/setup_ui.related_meaning_review.json",
+      "sha256": "50ba4d6afe6d0cb3b2f9ba8db45f22681307533017b7757c70ee4f1e8114b8eb"
+    },
+    {
+      "path": "work/translation/en/setup_ui.auto_name_review.json",
+      "sha256": "d5a14ebd0f861731ebbcd42a61da5e18bc539aac8a83157f64698301aa59d6d7"
+    },
+    {
+      "path": "work/glossary/setup_ui.proposed.json",
+      "sha256": "47a0fdee8f084e5f3ca56dd09fdca6a2858461f049410560ed65abd0eb868958"
+    }
+  ],
+  "correction": {
+    "removed_id": "name.convert",
+    "replacement_id": "name.kanji",
+    "reason": "Native graphics and independent related review establish Kanji."
+  },
+  "normalization": {
+    "order": "Independent meaning reviews, source corrections, behavior resolution, then glossary normalization.",
+    "replacements": [],
+    "protected_terms": [
+      "Loreilal",
+      "Silturn",
+      "Sapureth",
+      "Maetropa",
+      "Machine",
+      "Yokai",
+      "Spirit",
+      "Beast",
+      "Possession"
+    ],
+    "scope": "All integrated target texts; source transcriptions and original review inputs are immutable."
+  },
+  "statistics": {
+    "records": 77,
+    "by_status": {
+      "meaning_reviewed": 64,
+      "preserve_existing_data": 6,
+      "unresolved": 7
+    },
+    "distinct_reviewed_target_texts": 51
+  },
+  "entries": [
+    {
+      "id": "options.title",
+      "target_full": "Options",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "オプション",
+            "target_full": "Options",
+            "screenshot_occurrences": [
+              1
+            ],
+            "status": "draft"
+          }
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.heading",
+            "source_visible": "オプション",
+            "target_full": "Options",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:002",
+                "image_file": "02_00033_00002_sprite_002.png",
+                "image_sha256": "65737d957c569bc644f7a9afb501e783b727e0f510a94d3567fe69c87d8fed38",
+                "rect": [
+                  0,
+                  0,
+                  96,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.title",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.title",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.bgm",
+      "target_full": "Music Volume",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "BGMボリューム",
+            "target_full": "Music Volume",
+            "screenshot_occurrences": [
+              1
+            ],
+            "status": "draft"
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.bgm",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.voices",
+      "target_full": "Event Voices",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "イベント音声",
+            "target_full": "Event Voices",
+            "screenshot_occurrences": [
+              1
+            ],
+            "status": "draft",
+            "notes": "Binary help at 0x21ca7c confirms the option toggles event voices on/off."
+          }
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.setting",
+            "source_visible": "イベント音声",
+            "target_full": "Event Voices",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:006",
+                "image_file": "02_00033_00002_sprite_006.png",
+                "image_sha256": "2f1e627b6f9d0ba341d9de6fde4155844a2aae176fe8fb93e540933819380b00",
+                "rect": [
+                  0,
+                  0,
+                  96,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "normal"
+              },
+              {
+                "sprite_id": "02:00033/00002:sprite:011",
+                "image_file": "02_00033_00002_sprite_011.png",
+                "image_sha256": "ce82fd3649a0239b58838690d661f03481397dbd07f528c21427fc7b173a19da",
+                "rect": [
+                  0,
+                  0,
+                  96,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "selected"
+              }
+            ],
+            "notes": "When a label spans multiple texture fragments, these occurrences are assembly pieces of one label, not separate complete strings. Preserve fragment ordering or update the layout.",
+            "assembly_groups": [
+              {
+                "state": "normal",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:006"
+                ]
+              },
+              {
+                "state": "selected",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:011"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.voices",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.voices",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.forecast",
+      "target_full": "Damage Forecast",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "予測表示",
+            "target_full": "Damage Forecast",
+            "screenshot_occurrences": [
+              1
+            ],
+            "status": "draft",
+            "notes": "Binary help at 0x21caa0 explicitly identifies damage prediction and an on/off setting."
+          }
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.setting",
+            "source_visible": "予測表示",
+            "target_full": "Damage Forecast",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:007",
+                "image_file": "02_00033_00002_sprite_007.png",
+                "image_sha256": "f1d2a265e7f282cd41c347b19af8f504185b9310df8e57d91b910113d5818f09",
+                "rect": [
+                  0,
+                  0,
+                  72,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "normal"
+              },
+              {
+                "sprite_id": "02:00033/00002:sprite:012",
+                "image_file": "02_00033_00002_sprite_012.png",
+                "image_sha256": "a85f8cc6daec2e2b01c2511a8dd61b93a9e4a1ceb8cc017e34d3111cf595a76f",
+                "rect": [
+                  0,
+                  0,
+                  72,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "selected"
+              }
+            ],
+            "notes": "When a label spans multiple texture fragments, these occurrences are assembly pieces of one label, not separate complete strings. Preserve fragment ordering or update the layout.",
+            "assembly_groups": [
+              {
+                "state": "normal",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:007"
+                ]
+              },
+              {
+                "state": "selected",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:012"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.forecast",
+          "result": "pass",
+          "note": "Damage is supported by the exact ELF help; not an unsupported expansion of the shorter visible label."
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.forecast",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.cursor",
+      "target_full": "Cursor Movement Direction",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "カーソル移動方向",
+            "target_full": "Cursor Movement Direction",
+            "screenshot_occurrences": [
+              1
+            ],
+            "status": "draft",
+            "notes": "Binary help at 0x21cac8 specifies movement of the battle cursor."
+          }
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.setting",
+            "source_visible": "カーソル移動方向",
+            "target_full": "Cursor Movement Direction",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:008",
+                "image_file": "02_00033_00002_sprite_008.png",
+                "image_sha256": "6b8ab1e3f95ae9e27384c607626acabd5d145f596dc51f21bd984bf864fd540e",
+                "rect": [
+                  0,
+                  0,
+                  120,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "normal"
+              },
+              {
+                "sprite_id": "02:00033/00002:sprite:013",
+                "image_file": "02_00033_00002_sprite_013.png",
+                "image_sha256": "b284a2c6fa6226df45ec4ad6cf6a4a94f92888f0f450540f287a38c202165af8",
+                "rect": [
+                  0,
+                  0,
+                  112,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "selected"
+              },
+              {
+                "sprite_id": "02:00033/00002:sprite:014",
+                "image_file": "02_00033_00002_sprite_014.png",
+                "image_sha256": "5c5437ea4a0d3a9f40309017586fc8969c13804be9ceecdefbcc319b737b1e9d",
+                "rect": [
+                  0,
+                  0,
+                  24,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "selected"
+              }
+            ],
+            "notes": "When a label spans multiple texture fragments, these occurrences are assembly pieces of one label, not separate complete strings. Preserve fragment ordering or update the layout.",
+            "assembly_groups": [
+              {
+                "state": "normal",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:008"
+                ]
+              },
+              {
+                "state": "selected",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:013",
+                  "02:00033/00002:sprite:014"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.cursor",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.cursor",
+          "result": "meaning_pass",
+          "note": "Pass: selected-state label is split across two source sprites. No direction mapping is asserted beyond the source setting label."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.lr",
+      "target_full": "L/R Button Function",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "LRボタン機能",
+            "target_full": "L/R Button Function",
+            "screenshot_occurrences": [
+              1
+            ],
+            "status": "draft",
+            "notes": "Binary help at 0x21caf0 specifies L/R button operation during battle."
+          }
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.setting",
+            "source_visible": "LRボタン機能",
+            "target_full": "L/R Button Function",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:009",
+                "image_file": "02_00033_00002_sprite_009.png",
+                "image_sha256": "54a4d6a9a86fe3694d12ad81f456907eab37811770bb521634ea641d41a0abd3",
+                "rect": [
+                  0,
+                  0,
+                  104,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "normal"
+              },
+              {
+                "sprite_id": "02:00033/00002:sprite:015",
+                "image_file": "02_00033_00002_sprite_015.png",
+                "image_sha256": "fad69283a3680120104fc6b3245868b757077a5f6fc45bf295474bc4e732c0cd",
+                "rect": [
+                  0,
+                  0,
+                  112,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "selected"
+              }
+            ],
+            "notes": "When a label spans multiple texture fragments, these occurrences are assembly pieces of one label, not separate complete strings. Preserve fragment ordering or update the layout.",
+            "assembly_groups": [
+              {
+                "state": "normal",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:009"
+                ]
+              },
+              {
+                "state": "selected",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:015"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.lr",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.lr",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.bgm_help",
+      "target_full": "Adjust the background music volume.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "BGMのボリュームを変更します",
+            "target_full": "Adjust the background music volume.",
+            "screenshot_occurrences": [
+              1
+            ],
+            "status": "draft",
+            "binary_sources": [
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21ca58",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "ＢＧＭのボリュームを変更します"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.bgm_help",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "common.confirm",
+      "target_full": "Confirm",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "決定",
+            "target_full": "Confirm",
+            "screenshot_occurrences": [
+              1,
+              2,
+              3,
+              4,
+              4
+            ],
+            "status": "draft",
+            "notes": "Image 4 contains both the upper Confirm button and the START footer label."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "common.confirm",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.exit",
+      "target_full": "Exit Options",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "オプション画面終了",
+            "target_full": "Exit Options",
+            "screenshot_occurrences": [
+              1
+            ],
+            "status": "draft"
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.exit",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "setup.select_prompt",
+      "target_full": "Choose your protagonist.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "主人公を選択して下さい",
+            "target_full": "Choose your protagonist.",
+            "screenshot_occurrences": [
+              2,
+              3
+            ],
+            "status": "draft"
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "setup.select_prompt",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "setup.spirit_affinity",
+      "target_full": "Spirit Affinity",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "霊 属性",
+            "target_full": "Spirit Affinity",
+            "screenshot_occurrences": [
+              3
+            ],
+            "status": "draft",
+            "notes": "The styled glyph 霊 and following 属性 are visually separated; binary resource boundaries are not yet known."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "setup.spirit_affinity",
+          "result": "pass",
+          "note": "Spirit Affinity is a valid terminology choice, with wiki support; retain the separate styled affinity glyph and adjacent label as needed."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "setup.spirit_realm",
+      "target_full": "Spirit World: Sapureth",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "「霊界サプレス」",
+            "target_full": "Spirit World: Sapureth",
+            "screenshot_occurrences": [
+              3
+            ],
+            "status": "draft"
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "setup.spirit_realm",
+          "result": "pass",
+          "note": "Sapureth follows the researched wiki spelling. Colon styling is a presentation choice, not a meaning defect."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "setup.spirit_lore",
+      "target_full": "Home to spiritual beings such as angels and demons. They are immortal in the Spirit World.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "天使や悪魔といった\n霊的生命体が暮らしている。\n彼らは霊界では不死の存在。",
+            "target_full": "Home to spiritual beings such as angels and demons. They are immortal in the Spirit World.",
+            "screenshot_occurrences": [
+              3
+            ],
+            "status": "draft"
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "setup.spirit_lore",
+          "result": "pass",
+          "note": "Pass: includes angels and demons, and explicitly limits immortality to the Spirit World. Do not broaden this into universal invulnerability."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "setup.spirit_gameplay",
+      "target_full": "An affinity that excels at recovery and healing, with many status ailment and possession effects. Well suited to beginners.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "回復・治癒に優れている属性。\n異常、憑依効果も多い。\n初心者向きの属性。",
+            "target_full": "An affinity that excels at recovery and healing, with many status ailment and possession effects. Well suited to beginners.",
+            "screenshot_occurrences": [
+              3
+            ],
+            "status": "draft",
+            "notes": "Possession is a distinct timed summon effect, including beneficial and harmful effects. Do not reduce this to 'buffs' or confuse it with controlling a character. The source does not explicitly define recovery versus healing as HP versus status cures."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "setup.spirit_gameplay",
+          "result": "pass",
+          "note": "Pass: preserves recovery/healing, status ailments, possession effects, and suitability for beginners. Source does not identify recovery/healing as a precise HP/status-cure split. Possession must remain distinct from ailments and is not limited to beneficial buffs."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.prompt",
+      "target_full": "Choose your protagonist's name.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "主人公の\n名前を決めて下さい",
+            "target_full": "Choose your protagonist's name.",
+            "screenshot_occurrences": [
+              4
+            ],
+            "status": "draft"
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "name.prompt",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.default_rexx",
+      "target_full": "Rexx",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "レックス",
+            "target_full": "Rexx",
+            "screenshot_occurrences": [
+              4
+            ],
+            "status": "draft",
+            "notes": "Existing glossary spelling is fixed. The underscore is the name-entry cursor, not part of the name.",
+            "binary_sources": [
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21c978",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "レックス"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "name.default_rexx",
+          "result": "pass",
+          "note": "Pass: existing glossary spelling is fixed; the screenshot cursor is not part of the name."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.delete",
+      "target_full": "Delete",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "削除",
+            "target_full": "Delete",
+            "screenshot_occurrences": [
+              4,
+              4
+            ],
+            "status": "draft"
+          }
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.button",
+            "source_visible": "削除",
+            "target_full": "Delete",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00001:sprite:005",
+                "image_file": "02_00030_00001_sprite_005.png",
+                "image_sha256": "570bf73f10a5d6891bea698994b385431d9144b2d2341d03946ec8b5831a1f4d",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00001:sprite:005",
+                "image_file": "02_00031_00001_sprite_005.png",
+                "image_sha256": "570bf73f10a5d6891bea698994b385431d9144b2d2341d03946ec8b5831a1f4d",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00001:sprite:005",
+                "image_file": "02_00032_00001_sprite_005.png",
+                "image_sha256": "570bf73f10a5d6891bea698994b385431d9144b2d2341d03946ec8b5831a1f4d",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "name.delete",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.delete",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.auto",
+      "target_full": "Auto-Name",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "おまかせ",
+            "target_full": "Auto-Name",
+            "screenshot_occurrences": [
+              4,
+              4
+            ],
+            "status": "draft_with_open_question",
+            "notes": "Provisional functional label: source means leaving the choice to the game. Screenshot alone cannot establish random-name generation versus restoring the default name. Do not call it Random or Default before checking."
+          }
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.button",
+            "source_visible": "おまかせ",
+            "target_full": "Auto-Name",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00001:sprite:006",
+                "image_file": "02_00030_00001_sprite_006.png",
+                "image_sha256": "f8940badf962b57f9ee0ff7a5089256a1bda1361534031e8b1e1dabc1d8a0306",
+                "rect": [
+                  0,
+                  0,
+                  64,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00001:sprite:006",
+                "image_file": "02_00031_00001_sprite_006.png",
+                "image_sha256": "f8940badf962b57f9ee0ff7a5089256a1bda1361534031e8b1e1dabc1d8a0306",
+                "rect": [
+                  0,
+                  0,
+                  64,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00001:sprite:006",
+                "image_file": "02_00032_00001_sprite_006.png",
+                "image_sha256": "f8940badf962b57f9ee0ff7a5089256a1bda1361534031e8b1e1dabc1d8a0306",
+                "rect": [
+                  0,
+                  0,
+                  64,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Source means leave naming to the game; whether random or default is still unverified."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "name.auto",
+          "result": "provisional_function_label",
+          "note": "Acceptable provisional meaning, but production label remains conditional. The screenshot does not distinguish restoring a default from random generation. Auto-Name avoids choosing either specific behavior; verify the handler or live behavior before finalizing."
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.auto",
+          "result": "provisional_auto_name_function",
+          "note": "Auto-Name is a semantically defensible provisional label. Native art does not distinguish restoring the default from generating a name; keep behavior unasserted until the handler or live behavior is checked. Preserve controller icons and arrows in footer copies."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "behavior_review": "work/translation/en/setup_ui.auto_name_review.json",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.hiragana",
+      "target_full": "Hiragana",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "かな",
+            "target_full": "Hiragana",
+            "screenshot_occurrences": [
+              4
+            ],
+            "status": "draft"
+          }
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.button",
+            "source_visible": "かな",
+            "target_full": "Hiragana",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00001:sprite:008",
+                "image_file": "02_00030_00001_sprite_008.png",
+                "image_sha256": "da1707cc458cae657ec685cb4bee87352251f1ddb70f984d2dc1b77c34f2d01d",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00001:sprite:008",
+                "image_file": "02_00031_00001_sprite_008.png",
+                "image_sha256": "da1707cc458cae657ec685cb4bee87352251f1ddb70f984d2dc1b77c34f2d01d",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00001:sprite:008",
+                "image_file": "02_00032_00001_sprite_008.png",
+                "image_sha256": "da1707cc458cae657ec685cb4bee87352251f1ddb70f984d2dc1b77c34f2d01d",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "name.hiragana",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.hiragana",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.katakana",
+      "target_full": "Katakana",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "カナ",
+            "target_full": "Katakana",
+            "screenshot_occurrences": [
+              4
+            ],
+            "status": "draft"
+          }
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.button",
+            "source_visible": "カナ",
+            "target_full": "Katakana",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00001:sprite:009",
+                "image_file": "02_00030_00001_sprite_009.png",
+                "image_sha256": "2ee539b5bca8608252e4acbdc507b06ecbce1e4feba76283b3d682ce8f76e9ba",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00001:sprite:009",
+                "image_file": "02_00031_00001_sprite_009.png",
+                "image_sha256": "2ee539b5bca8608252e4acbdc507b06ecbce1e4feba76283b3d682ce8f76e9ba",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00001:sprite:009",
+                "image_file": "02_00032_00001_sprite_009.png",
+                "image_sha256": "2ee539b5bca8608252e4acbdc507b06ecbce1e4feba76283b3d682ce8f76e9ba",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "name.katakana",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.katakana",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.alnum",
+      "target_full": "Letters & Numbers",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "英数",
+            "target_full": "Letters & Numbers",
+            "screenshot_occurrences": [
+              4
+            ],
+            "status": "draft"
+          }
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.button",
+            "source_visible": "英数",
+            "target_full": "Letters & Numbers",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00001:sprite:010",
+                "image_file": "02_00030_00001_sprite_010.png",
+                "image_sha256": "bb5a4485d537954db9c9715e7046b93e993c3bea6826002ed16542fac00c6038",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00001:sprite:010",
+                "image_file": "02_00031_00001_sprite_010.png",
+                "image_sha256": "bb5a4485d537954db9c9715e7046b93e993c3bea6826002ed16542fac00c6038",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00001:sprite:010",
+                "image_file": "02_00032_00001_sprite_010.png",
+                "image_sha256": "bb5a4485d537954db9c9715e7046b93e993c3bea6826002ed16542fac00c6038",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "name.alnum",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.alnum",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.symbols",
+      "target_full": "Symbols",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "記号",
+            "target_full": "Symbols",
+            "screenshot_occurrences": [
+              4
+            ],
+            "status": "draft"
+          }
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.button",
+            "source_visible": "記号",
+            "target_full": "Symbols",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00001:sprite:011",
+                "image_file": "02_00030_00001_sprite_011.png",
+                "image_sha256": "14d06727fd25e98956470dbc9c38ce1fe32c4da926f44e9d9254677847f9f322",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00001:sprite:011",
+                "image_file": "02_00031_00001_sprite_011.png",
+                "image_sha256": "14d06727fd25e98956470dbc9c38ce1fe32c4da926f44e9d9254677847f9f322",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00001:sprite:011",
+                "image_file": "02_00032_00001_sprite_011.png",
+                "image_sha256": "14d06727fd25e98956470dbc9c38ce1fe32c4da926f44e9d9254677847f9f322",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "name.symbols",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        },
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.symbols",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.confirm_prompt",
+      "target_full": "Use the name \"Rexx\"?",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "「レックス」でよろしいですか？",
+            "target_full": "Use the name \"Rexx\"?",
+            "screenshot_occurrences": [
+              5
+            ],
+            "status": "draft",
+            "notes": "Two constant fragments bracket a runtime name. Full screenshot instance is translated for review; target composition preserves the variable name. Root must verify actual assembly callsites and layout before insertion.",
+            "binary_sources": [
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21c990",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "「"
+              },
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21c994",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "」でよろしいですか？"
+              }
+            ],
+            "target_composition": [
+              {
+                "kind": "literal",
+                "source_offset": "0x21c990",
+                "text": "Use the name \""
+              },
+              {
+                "kind": "runtime_name",
+                "notes": "Keep the existing runtime name insertion; do not hardcode Rexx."
+              },
+              {
+                "kind": "literal",
+                "source_offset": "0x21c994",
+                "text": "\"?"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "name.confirm_prompt",
+          "result": "pass",
+          "note": "Pass: the literal-name screenshot instance is accompanied by a correct literal/runtime-name/literal composition. Preserve the existing runtime insertion; never insert the example name as a fixed value."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "common.yes",
+      "target_full": "Yes",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "は　い",
+            "target_full": "Yes",
+            "screenshot_occurrences": [
+              5
+            ],
+            "status": "draft",
+            "notes": "Full-width source space independently verified from the original ELF.",
+            "binary_sources": [
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21c9ac",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "は　い"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "common.yes",
+          "result": "pass",
+          "note": "Pass: the original full-width spacing is visual formatting, not a token requiring a corresponding English internal space."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "common.no",
+      "target_full": "No",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_visible": "いいえ",
+            "target_full": "No",
+            "screenshot_occurrences": [
+              5
+            ],
+            "status": "draft",
+            "binary_sources": [
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21c9b4",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "いいえ"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "common.no",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.voices_help",
+      "target_full": "Turn event voices on or off.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_exact": "イベント音声の有無を設定します",
+            "target_full": "Turn event voices on or off.",
+            "screenshot_occurrences": [],
+            "status": "draft",
+            "binary_sources": [
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21ca7c",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "イベント音声の有無を設定します"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.voices_help",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.forecast_help",
+      "target_full": "Turn the damage forecast display on or off.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_exact": "ダメージ予測表示の有無を設定します",
+            "target_full": "Turn the damage forecast display on or off.",
+            "screenshot_occurrences": [],
+            "status": "draft",
+            "binary_sources": [
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21caa0",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "ダメージ予測表示の有無を設定します"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.forecast_help",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.cursor_help",
+      "target_full": "Change the battle cursor's movement direction.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_exact": "戦闘カーソルの移動方向を変更します",
+            "target_full": "Change the battle cursor's movement direction.",
+            "screenshot_occurrences": [],
+            "status": "draft",
+            "binary_sources": [
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21cac8",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "戦闘カーソルの移動方向を変更します"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.cursor_help",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.lr_help",
+      "target_full": "Change how the L/R buttons work in battle.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_exact": "戦闘中のＬＲボタンの操作方法を変更します",
+            "target_full": "Change how the L/R buttons work in battle.",
+            "screenshot_occurrences": [],
+            "status": "draft",
+            "binary_sources": [
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21caf0",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "戦闘中のＬＲボタンの操作方法を変更します"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "options.lr_help",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.empty_prompt",
+      "target_full": "Please enter a name.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_exact": "名前を入力して下さい",
+            "target_full": "Please enter a name.",
+            "screenshot_occurrences": [],
+            "status": "draft",
+            "binary_sources": [
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21c9bc",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "名前を入力して下さい"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "name.empty_prompt",
+          "result": "pass",
+          "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.default_aty",
+      "target_full": "Aty",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.screenshot_drafts.json",
+          "record": {
+            "source_exact": "アティ",
+            "target_full": "Aty",
+            "screenshot_occurrences": [],
+            "status": "draft",
+            "binary_sources": [
+              {
+                "path": "work/source/EBOOT.elf",
+                "file_offset": "0x21c984",
+                "encoding": "cp932",
+                "termination": "nul",
+                "source_exact": "アティ"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.meaning_review.json",
+          "id": "name.default_aty",
+          "result": "pass",
+          "note": "Pass: exact original ELF spelling independently matched, and established English glossary spelling is preserved."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "select.protagonist",
+      "target_full": "Character Select\nChoose your protagonist.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.heading",
+            "source_visible": "Character Select\n主人公を選択して下さい",
+            "target_full": "Character Select\nChoose your protagonist.",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00001:sprite:000",
+                "image_file": "02_00028_00001_sprite_000.png",
+                "image_sha256": "6a8c8294a0f8e150c7c235b5f77ae0c8d818904999d47cc04f9b74130b3eabb1",
+                "rect": [
+                  0,
+                  0,
+                  264,
+                  64
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00001:sprite:000",
+                "image_file": "02_00029_00001_sprite_000.png",
+                "image_sha256": "6a8c8294a0f8e150c7c235b5f77ae0c8d818904999d47cc04f9b74130b3eabb1",
+                "rect": [
+                  0,
+                  0,
+                  264,
+                  64
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Keep existing English heading; Japanese prompt requires translation."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "select.protagonist",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "select.affinity",
+      "target_full": "Choose the summon affinity your protagonist will specialize in.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.heading",
+            "source_visible": "主人公が得意とする\n召喚属性を選択して下さい",
+            "target_full": "Choose the summon affinity your protagonist will specialize in.",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00001:sprite:001",
+                "image_file": "02_00028_00001_sprite_001.png",
+                "image_sha256": "0e5b7158c3e1d0028cad61b98c83c912a6e778be272c46157b93b34e985ade63",
+                "rect": [
+                  0,
+                  0,
+                  264,
+                  64
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00001:sprite:001",
+                "image_file": "02_00029_00001_sprite_001.png",
+                "image_sha256": "0e5b7158c3e1d0028cad61b98c83c912a6e778be272c46157b93b34e985ade63",
+                "rect": [
+                  0,
+                  0,
+                  264,
+                  64
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "select.affinity",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "select.confirm",
+      "target_full": "Confirm",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.control",
+            "source_visible": "決定",
+            "target_full": "Confirm",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00001:sprite:004",
+                "image_file": "02_00028_00001_sprite_004.png",
+                "image_sha256": "811b90f8a92ba3f6eaf58257a77b95e9052977f2608a93256b30537da7695e17",
+                "rect": [
+                  0,
+                  0,
+                  112,
+                  56
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00001:sprite:004",
+                "image_file": "02_00029_00001_sprite_004.png",
+                "image_sha256": "811b90f8a92ba3f6eaf58257a77b95e9052977f2608a93256b30537da7695e17",
+                "rect": [
+                  0,
+                  0,
+                  112,
+                  56
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Preserve Circle icon."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "select.confirm",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "affinity.suffix",
+      "target_full": "Affinity",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.affinity_label",
+            "source_visible": "属性",
+            "target_full": "Affinity",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00008:sprite:001",
+                "image_file": "02_00028_00008_sprite_001.png",
+                "image_sha256": "dc0119e1a13efef55c2aa82fc57286effe388f24ff8ee2b1844bc5d041fab3ab",
+                "rect": [
+                  0,
+                  0,
+                  40,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00008:sprite:001",
+                "image_file": "02_00029_00008_sprite_001.png",
+                "image_sha256": "dc0119e1a13efef55c2aa82fc57286effe388f24ff8ee2b1844bc5d041fab3ab",
+                "rect": [
+                  0,
+                  0,
+                  40,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "affinity.suffix",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "affinity.machine",
+      "target_full": "Machine",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.affinity_label",
+            "source_visible": "機",
+            "target_full": "Machine",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00008:sprite:002",
+                "image_file": "02_00028_00008_sprite_002.png",
+                "image_sha256": "fe9a5dba9374cbd83d79510ecfd3c8898a7da8290d3a2f260261482593968542",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00008:sprite:002",
+                "image_file": "02_00029_00008_sprite_002.png",
+                "image_sha256": "fe9a5dba9374cbd83d79510ecfd3c8898a7da8290d3a2f260261482593968542",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Single styled Japanese glyph is a text-bearing icon. English text must be fitted with layout changes if necessary, never forced into original glyph width."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "affinity.machine",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "affinity.yokai",
+      "target_full": "Yokai",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.affinity_label",
+            "source_visible": "鬼",
+            "target_full": "Yokai",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00008:sprite:003",
+                "image_file": "02_00028_00008_sprite_003.png",
+                "image_sha256": "b0a66d368e751c9da783a8016e2097e5745c791ea77d31162cdb7a7555016c0b",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00008:sprite:003",
+                "image_file": "02_00029_00008_sprite_003.png",
+                "image_sha256": "b0a66d368e751c9da783a8016e2097e5745c791ea77d31162cdb7a7555016c0b",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Single styled Japanese glyph is a text-bearing icon. English text must be fitted with layout changes if necessary, never forced into original glyph width."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "affinity.yokai",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "affinity.spirit",
+      "target_full": "Spirit",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.affinity_label",
+            "source_visible": "霊",
+            "target_full": "Spirit",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00008:sprite:004",
+                "image_file": "02_00028_00008_sprite_004.png",
+                "image_sha256": "0239ed59ed7998acad07d61b61982ded6565c87a270f128654a37ccc98cca820",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00008:sprite:004",
+                "image_file": "02_00029_00008_sprite_004.png",
+                "image_sha256": "0239ed59ed7998acad07d61b61982ded6565c87a270f128654a37ccc98cca820",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Single styled Japanese glyph is a text-bearing icon. English text must be fitted with layout changes if necessary, never forced into original glyph width."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "affinity.spirit",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "affinity.beast",
+      "target_full": "Beast",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.affinity_label",
+            "source_visible": "獣",
+            "target_full": "Beast",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00008:sprite:005",
+                "image_file": "02_00028_00008_sprite_005.png",
+                "image_sha256": "c7c0fc86340a9165f91ef5401096940fdd7be18e3fb4eb695d479d59236a7c51",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00008:sprite:005",
+                "image_file": "02_00029_00008_sprite_005.png",
+                "image_sha256": "c7c0fc86340a9165f91ef5401096940fdd7be18e3fb4eb695d479d59236a7c51",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Single styled Japanese glyph is a text-bearing icon. English text must be fitted with layout changes if necessary, never forced into original glyph width."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "affinity.beast",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "description.machine",
+      "target_full": "Machine World: Loreilal\nA world with an advanced mechanical civilization that creates mechanical soldiers and other machines.\nThis affinity has the most offensive summons. They are powerful, but their MP costs are also somewhat higher.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.affinity_description",
+            "source_visible": "「機界ロレイラル」\n機械兵士らを生み出す\n高度な機械文化が\n発達している世界。\n攻撃召喚が最も多い属性。\n威力も高いが消費ＭＰも若干高い。",
+            "target_full": "Machine World: Loreilal\nA world with an advanced mechanical civilization that creates mechanical soldiers and other machines.\nThis affinity has the most offensive summons. They are powerful, but their MP costs are also somewhat higher.",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00009:sprite:000",
+                "image_file": "02_00028_00009_sprite_000.png",
+                "image_sha256": "e07489d04091545772a8af550e9ed1415be7c34c1ee2a5f46d109a6b0a535c20",
+                "rect": [
+                  0,
+                  0,
+                  200,
+                  136
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00009:sprite:000",
+                "image_file": "02_00029_00009_sprite_000.png",
+                "image_sha256": "e07489d04091545772a8af550e9ed1415be7c34c1ee2a5f46d109a6b0a535c20",
+                "rect": [
+                  0,
+                  0,
+                  200,
+                  136
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Full meaning draft; original 200x136 image is not an English length budget. Proposed glossary spellings require review. No omission to fit."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "description.machine",
+          "result": "meaning_pass",
+          "note": "Pass: advanced mechanical civilization and mechanical soldiers are retained; most offensive summons, strong power, and somewhat higher MP costs are all present. Other machines is a reasonable rendering of the nonexclusive example marker, not a new species claim."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "description.yokai",
+      "target_full": "Yokai World: Silturn\nA world where humans coexist with supernatural beings such as yokai, dragon gods, and oni gods.\nIts summons mainly attack or apply status ailments and possession effects. Many of these effects put enemies at a disadvantage.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.affinity_description",
+            "source_visible": "「鬼妖界シルターン」\n妖怪、龍神、鬼神\nといった人ならざるものと\n人間が共存している世界。\n攻撃と異常・憑依効果を与える\n召喚がメイン。異常・憑依効果は\n敵を不利にするものが多い。",
+            "target_full": "Yokai World: Silturn\nA world where humans coexist with supernatural beings such as yokai, dragon gods, and oni gods.\nIts summons mainly attack or apply status ailments and possession effects. Many of these effects put enemies at a disadvantage.",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00010:sprite:000",
+                "image_file": "02_00028_00010_sprite_000.png",
+                "image_sha256": "7752f1de05cc2255754cb720e8b772b039d5a6c2d605834b04aaf6f3b1fd76b0",
+                "rect": [
+                  0,
+                  0,
+                  200,
+                  136
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00010:sprite:000",
+                "image_file": "02_00029_00010_sprite_000.png",
+                "image_sha256": "7752f1de05cc2255754cb720e8b772b039d5a6c2d605834b04aaf6f3b1fd76b0",
+                "rect": [
+                  0,
+                  0,
+                  200,
+                  136
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Full meaning draft; original 200x136 image is not an English length budget. Proposed glossary spellings require review. No omission to fit."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "description.yokai",
+          "result": "meaning_pass",
+          "note": "Pass: coexistence of humans with yokai/dragon gods/oni gods is retained. Attack and ailment/possession summons are the main categories; many such effects disadvantage enemies. English or lists available effects and does not claim every summon combines all effects."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "description.spirit",
+      "target_full": "Spirit World: Sapureth\nHome to spiritual beings such as angels and demons. They are immortal in the Spirit World.\nAn affinity that excels at recovery and healing, with many status ailment and possession effects. Well suited to beginners.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.affinity_description",
+            "source_visible": "「霊界サプレス」\n天使や悪魔といった\n霊的生命体が暮らしている。\n彼らは霊界では不死の存在。\n回復・治癒に優れている属性。\n異常、憑依効果も多い。\n初心者向きの属性。",
+            "target_full": "Spirit World: Sapureth\nHome to spiritual beings such as angels and demons. They are immortal in the Spirit World.\nAn affinity that excels at recovery and healing, with many status ailment and possession effects. Well suited to beginners.",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00011:sprite:000",
+                "image_file": "02_00028_00011_sprite_000.png",
+                "image_sha256": "62c9126cd5a790f0710e2321a250f863d7c60bd84190466a249901580bce6305",
+                "rect": [
+                  0,
+                  0,
+                  200,
+                  136
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00011:sprite:000",
+                "image_file": "02_00029_00011_sprite_000.png",
+                "image_sha256": "62c9126cd5a790f0710e2321a250f863d7c60bd84190466a249901580bce6305",
+                "rect": [
+                  0,
+                  0,
+                  200,
+                  136
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Full meaning draft; original 200x136 image is not an English length budget. Proposed glossary spellings require review. No omission to fit."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "description.spirit",
+          "result": "meaning_pass",
+          "note": "Pass: angels and demons are spiritual life forms; immortality remains expressly limited to the Spirit World. Recovery/healing, ailments, possession, and beginner suitability are all retained. Do not replace possession with buffs or infer an unverified HP/status-cure split."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "description.beast",
+      "target_full": "Beast World: Maetropa\nA land rich in nature, where beastlike humanoids and mythical beasts live in peace.\nThis affinity is balanced across all summon effects and has some unusual possession effects.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "setup.affinity_description",
+            "source_visible": "「幻獣界メイトルパ」\n豊かな自然が広がる大地。\n獣の姿を持つ亜人や幻獣達が\n平和に暮らしている世界。\n全ての召喚効果において\nバランスがとれている属性。\n憑依効果に特殊なものがある。",
+            "target_full": "Beast World: Maetropa\nA land rich in nature, where beastlike humanoids and mythical beasts live in peace.\nThis affinity is balanced across all summon effects and has some unusual possession effects.",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00028/00012:sprite:000",
+                "image_file": "02_00028_00012_sprite_000.png",
+                "image_sha256": "3ff88506e01e3afb271a340ed2f33fac5f7ac684dd8ddeba494197bd405506ca",
+                "rect": [
+                  0,
+                  0,
+                  200,
+                  136
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00029/00012:sprite:000",
+                "image_file": "02_00029_00012_sprite_000.png",
+                "image_sha256": "3ff88506e01e3afb271a340ed2f33fac5f7ac684dd8ddeba494197bd405506ca",
+                "rect": [
+                  0,
+                  0,
+                  200,
+                  136
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Full meaning draft; original 200x136 image is not an English length budget. Proposed glossary spellings require review. No omission to fit."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "description.beast",
+          "result": "meaning_pass",
+          "note": "Pass: natural abundance, peaceful beastlike humanoids/mythical beasts, balanced summon effects, and unusual possession effects are retained. Unusual is valid for special/distinctive here; no required wording change."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.footer",
+      "target_full": "L ←  R →  △ Delete  □ Auto-Name",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.controls",
+            "source_visible": "L ←　R →　△ 削除　□ おまかせ",
+            "target_full": "L ←  R →  △ Delete  □ Auto-Name",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00001:sprite:001",
+                "image_file": "02_00030_00001_sprite_001.png",
+                "image_sha256": "6154cd28403cc557c1c1bdb7a4abbd38919d3fe45083a1d7fc09604f5fe8c5cb",
+                "rect": [
+                  0,
+                  0,
+                  232,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00001:sprite:001",
+                "image_file": "02_00031_00001_sprite_001.png",
+                "image_sha256": "6154cd28403cc557c1c1bdb7a4abbd38919d3fe45083a1d7fc09604f5fe8c5cb",
+                "rect": [
+                  0,
+                  0,
+                  232,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00001:sprite:001",
+                "image_file": "02_00032_00001_sprite_001.png",
+                "image_sha256": "6154cd28403cc557c1c1bdb7a4abbd38919d3fe45083a1d7fc09604f5fe8c5cb",
+                "rect": [
+                  0,
+                  0,
+                  232,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Preserve real controller glyphs and arrow directions; Auto-Name behavior remains unverified."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.footer",
+          "result": "provisional_auto_name_function",
+          "note": "Auto-Name is a semantically defensible provisional label. Native art does not distinguish restoring the default from generating a name; keep behavior unasserted until the handler or live behavior is checked. Preserve controller icons and arrows in footer copies."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "behavior_review": "work/translation/en/setup_ui.auto_name_review.json",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.start",
+      "target_full": "START Confirm",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.controls",
+            "source_visible": "START 決定",
+            "target_full": "START Confirm",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00001:sprite:002",
+                "image_file": "02_00030_00001_sprite_002.png",
+                "image_sha256": "07151eabe2fa5197a2dccdfc86bd754f9f298988f3b374bbdc7c17043a7188c3",
+                "rect": [
+                  0,
+                  0,
+                  64,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00001:sprite:002",
+                "image_file": "02_00031_00001_sprite_002.png",
+                "image_sha256": "07151eabe2fa5197a2dccdfc86bd754f9f298988f3b374bbdc7c17043a7188c3",
+                "rect": [
+                  0,
+                  0,
+                  64,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00001:sprite:002",
+                "image_file": "02_00032_00001_sprite_002.png",
+                "image_sha256": "07151eabe2fa5197a2dccdfc86bd754f9f298988f3b374bbdc7c17043a7188c3",
+                "rect": [
+                  0,
+                  0,
+                  64,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.start",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.confirm",
+      "target_full": "Confirm",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.button",
+            "source_visible": "決定",
+            "target_full": "Confirm",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00001:sprite:007",
+                "image_file": "02_00030_00001_sprite_007.png",
+                "image_sha256": "c5f85e9888d33ceee0417803d9814bdcc7a8f52f4a304abcafb6f8992a86fdda",
+                "rect": [
+                  0,
+                  0,
+                  40,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00001:sprite:007",
+                "image_file": "02_00031_00001_sprite_007.png",
+                "image_sha256": "c5f85e9888d33ceee0417803d9814bdcc7a8f52f4a304abcafb6f8992a86fdda",
+                "rect": [
+                  0,
+                  0,
+                  40,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00001:sprite:007",
+                "image_file": "02_00032_00001_sprite_007.png",
+                "image_sha256": "c5f85e9888d33ceee0417803d9814bdcc7a8f52f4a304abcafb6f8992a86fdda",
+                "rect": [
+                  0,
+                  0,
+                  40,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.confirm",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.kanji",
+      "target_full": "Kanji",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.button",
+            "source_visible": "漢字",
+            "target_full": "Kanji",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00001:sprite:012",
+                "image_file": "02_00030_00001_sprite_012.png",
+                "image_sha256": "5c171492c643764a2b676ec4f6d22d6182f121eca66765fa30537a9d2b838456",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00001:sprite:012",
+                "image_file": "02_00031_00001_sprite_012.png",
+                "image_sha256": "5c171492c643764a2b676ec4f6d22d6182f121eca66765fa30537a9d2b838456",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00001:sprite:012",
+                "image_file": "02_00032_00001_sprite_012.png",
+                "image_sha256": "5c171492c643764a2b676ec4f6d22d6182f121eca66765fa30537a9d2b838456",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Native texture resolves prior provisional screenshot transcription: 漢字, not 転字. This selects Kanji character data. Prior screenshot artifact remains unchanged."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.kanji",
+          "result": "meaning_pass",
+          "note": "Native sprite clearly reads Kanji. The extension correctly resolves the old provisional Convert label while preserving the prior artifact."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.footer_short",
+      "target_full": "△ Delete  □ Auto-Name",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.controls",
+            "source_visible": "△ 削除　□ おまかせ",
+            "target_full": "△ Delete  □ Auto-Name",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00001:sprite:042",
+                "image_file": "02_00030_00001_sprite_042.png",
+                "image_sha256": "569e582add070644d820a88209585392476537777b11267e31c49609a1658f74",
+                "rect": [
+                  0,
+                  0,
+                  136,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00001:sprite:042",
+                "image_file": "02_00031_00001_sprite_042.png",
+                "image_sha256": "569e582add070644d820a88209585392476537777b11267e31c49609a1658f74",
+                "rect": [
+                  0,
+                  0,
+                  136,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00001:sprite:042",
+                "image_file": "02_00032_00001_sprite_042.png",
+                "image_sha256": "569e582add070644d820a88209585392476537777b11267e31c49609a1658f74",
+                "rect": [
+                  0,
+                  0,
+                  136,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Preserve icons."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.footer_short",
+          "result": "provisional_auto_name_function",
+          "note": "Auto-Name is a semantically defensible provisional label. Native art does not distinguish restoring the default from generating a name; keep behavior unasserted until the handler or live behavior is checked. Preserve controller icons and arrows in footer copies."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "behavior_review": "work/translation/en/setup_ui.auto_name_review.json",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.protagonist_heading",
+      "target_full": "Choose your protagonist's name.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.heading",
+            "source_visible": "主人公の\n名前を決めて下さい",
+            "target_full": "Choose your protagonist's name.",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00002:sprite:000",
+                "image_file": "02_00030_00002_sprite_000.png",
+                "image_sha256": "3b7fee8e30a8ac5fabb329bcba4650e48adfafb4f2bbe609c00b9037934620d9",
+                "rect": [
+                  0,
+                  0,
+                  240,
+                  56
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00002:sprite:000",
+                "image_file": "02_00031_00002_sprite_000.png",
+                "image_sha256": "3b7fee8e30a8ac5fabb329bcba4650e48adfafb4f2bbe609c00b9037934620d9",
+                "rect": [
+                  0,
+                  0,
+                  240,
+                  56
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00002:sprite:000",
+                "image_file": "02_00032_00002_sprite_000.png",
+                "image_sha256": "3b7fee8e30a8ac5fabb329bcba4650e48adfafb4f2bbe609c00b9037934620d9",
+                "rect": [
+                  0,
+                  0,
+                  240,
+                  56
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.protagonist_heading",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.summon_heading",
+      "target_full": "Choose your summon creature's name.",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.heading",
+            "source_visible": "召喚獣の\n名前を決めて下さい",
+            "target_full": "Choose your summon creature's name.",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00002:sprite:001",
+                "image_file": "02_00030_00002_sprite_001.png",
+                "image_sha256": "2546d9e6b69229b98da712303083d8bea2b838843d41979391467a58b0058941",
+                "rect": [
+                  0,
+                  0,
+                  240,
+                  56
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00031/00002:sprite:001",
+                "image_file": "02_00031_00002_sprite_001.png",
+                "image_sha256": "2546d9e6b69229b98da712303083d8bea2b838843d41979391467a58b0058941",
+                "rect": [
+                  0,
+                  0,
+                  240,
+                  56
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              },
+              {
+                "sprite_id": "02:00032/00002:sprite:001",
+                "image_file": "02_00032_00002_sprite_001.png",
+                "image_sha256": "2546d9e6b69229b98da712303083d8bea2b838843d41979391467a58b0058941",
+                "rect": [
+                  0,
+                  0,
+                  240,
+                  56
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.summon_heading",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.background.delete",
+      "target_full": "Delete",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.embedded_button",
+            "source_visible": "削除",
+            "target_full": "Delete",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00003:sprite:000",
+                "image_file": "02_00030_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  216,
+                  13,
+                  30,
+                  18
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00031/00003:sprite:000",
+                "image_file": "02_00031_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  216,
+                  13,
+                  30,
+                  18
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00032/00003:sprite:000",
+                "image_file": "02_00032_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  216,
+                  13,
+                  30,
+                  18
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Text embedded in the base background; must update alongside the separate button-state sprite. Inspection rectangles include button frames and are not glyph alpha bounds."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.background.delete",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.background.auto",
+      "target_full": "Auto-Name",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.embedded_button",
+            "source_visible": "おまかせ",
+            "target_full": "Auto-Name",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00003:sprite:000",
+                "image_file": "02_00030_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  246,
+                  13,
+                  58,
+                  18
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00031/00003:sprite:000",
+                "image_file": "02_00031_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  246,
+                  13,
+                  58,
+                  18
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00032/00003:sprite:000",
+                "image_file": "02_00032_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  246,
+                  13,
+                  58,
+                  18
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Text embedded in the base background; must update alongside the separate button-state sprite. Inspection rectangles include button frames and are not glyph alpha bounds."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.background.auto",
+          "result": "provisional_auto_name_function",
+          "note": "Auto-Name is a semantically defensible provisional label. Native art does not distinguish restoring the default from generating a name; keep behavior unasserted until the handler or live behavior is checked. Preserve controller icons and arrows in footer copies."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "behavior_review": "work/translation/en/setup_ui.auto_name_review.json",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.background.confirm",
+      "target_full": "Confirm",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.embedded_button",
+            "source_visible": "決定",
+            "target_full": "Confirm",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00003:sprite:000",
+                "image_file": "02_00030_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  304,
+                  13,
+                  39,
+                  36
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00031/00003:sprite:000",
+                "image_file": "02_00031_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  304,
+                  13,
+                  39,
+                  36
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00032/00003:sprite:000",
+                "image_file": "02_00032_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  304,
+                  13,
+                  39,
+                  36
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Text embedded in the base background; must update alongside the separate button-state sprite. Inspection rectangles include button frames and are not glyph alpha bounds."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.background.confirm",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.background.hiragana",
+      "target_full": "Hiragana",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.embedded_button",
+            "source_visible": "かな",
+            "target_full": "Hiragana",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00003:sprite:000",
+                "image_file": "02_00030_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  155,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00031/00003:sprite:000",
+                "image_file": "02_00031_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  155,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00032/00003:sprite:000",
+                "image_file": "02_00032_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  155,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Text embedded in the base background; must update alongside the separate button-state sprite. Inspection rectangles include button frames and are not glyph alpha bounds."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.background.hiragana",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.background.katakana",
+      "target_full": "Katakana",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.embedded_button",
+            "source_visible": "カナ",
+            "target_full": "Katakana",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00003:sprite:000",
+                "image_file": "02_00030_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  185,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00031/00003:sprite:000",
+                "image_file": "02_00031_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  185,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00032/00003:sprite:000",
+                "image_file": "02_00032_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  185,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Text embedded in the base background; must update alongside the separate button-state sprite. Inspection rectangles include button frames and are not glyph alpha bounds."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.background.katakana",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.background.alnum",
+      "target_full": "Letters & Numbers",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.embedded_button",
+            "source_visible": "英数",
+            "target_full": "Letters & Numbers",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00003:sprite:000",
+                "image_file": "02_00030_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  215,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00031/00003:sprite:000",
+                "image_file": "02_00031_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  215,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00032/00003:sprite:000",
+                "image_file": "02_00032_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  215,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Text embedded in the base background; must update alongside the separate button-state sprite. Inspection rectangles include button frames and are not glyph alpha bounds."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.background.alnum",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.background.symbols",
+      "target_full": "Symbols",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.embedded_button",
+            "source_visible": "記号",
+            "target_full": "Symbols",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00003:sprite:000",
+                "image_file": "02_00030_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  245,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00031/00003:sprite:000",
+                "image_file": "02_00031_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  245,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00032/00003:sprite:000",
+                "image_file": "02_00032_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  245,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Text embedded in the base background; must update alongside the separate button-state sprite. Inspection rectangles include button frames and are not glyph alpha bounds."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.background.symbols",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "name.background.kanji",
+      "target_full": "Kanji",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "name_entry.embedded_button",
+            "source_visible": "漢字",
+            "target_full": "Kanji",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00030/00003:sprite:000",
+                "image_file": "02_00030_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  275,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00031/00003:sprite:000",
+                "image_file": "02_00031_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  275,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              },
+              {
+                "sprite_id": "02:00032/00003:sprite:000",
+                "image_file": "02_00032_00003_sprite_000.png",
+                "image_sha256": "4aed5ef6acaa1a623e4a80a88b0650ce75ae3c22381f8efeb6e4f6bc5c87e0ea",
+                "rect": [
+                  275,
+                  31,
+                  30,
+                  17
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Text embedded in the base background; must update alongside the separate button-state sprite. Inspection rectangles include button frames and are not glyph alpha bounds."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "name.background.kanji",
+          "result": "meaning_pass",
+          "note": "Embedded background label corroborates Kanji; update this copy along with the selectable button artwork."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.footer",
+      "target_full": "○ Confirm  × Cancel",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.controls",
+            "source_visible": "○ 決定　× キャンセル",
+            "target_full": "○ Confirm  × Cancel",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:000",
+                "image_file": "02_00033_00002_sprite_000.png",
+                "image_sha256": "1c6a09435541354308799d536f18742fea0fda30f7ddacb1b601b9b500f1e26c",
+                "rect": [
+                  0,
+                  0,
+                  256,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent"
+              }
+            ],
+            "notes": "Preserve controller icons."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.footer",
+          "result": "meaning_pass",
+          "note": "Confirm/Cancel correctly matches this separate source footer; do not substitute Exit Options everywhere."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.music",
+      "target_full": "Music Volume",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.setting",
+            "source_visible": "BGMボリューム",
+            "target_full": "Music Volume",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:003",
+                "image_file": "02_00033_00002_sprite_003.png",
+                "image_sha256": "9c4d3149ef8c840a66e964d4004be365751a51b9b1715ef589699a4cdac7370d",
+                "rect": [
+                  0,
+                  0,
+                  64,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "normal"
+              },
+              {
+                "sprite_id": "02:00033/00002:sprite:004",
+                "image_file": "02_00033_00002_sprite_004.png",
+                "image_sha256": "bec8389bee99833978648b6fa37a7bdc153dc8675aeb5e3f908765f7f2dccc6b",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "normal"
+              },
+              {
+                "sprite_id": "02:00033/00002:sprite:010",
+                "image_file": "02_00033_00002_sprite_010.png",
+                "image_sha256": "ce5fe8d84f15a1f8d5251d4743fc192708f7d6c186ea47f8b1d4ba6a365d70b3",
+                "rect": [
+                  0,
+                  0,
+                  120,
+                  24
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "selected"
+              }
+            ],
+            "notes": "When a label spans multiple texture fragments, these occurrences are assembly pieces of one label, not separate complete strings. Preserve fragment ordering or update the layout.",
+            "assembly_groups": [
+              {
+                "state": "normal",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:003",
+                  "02:00033/00002:sprite:004"
+                ]
+              },
+              {
+                "state": "selected",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:010"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.music",
+          "result": "meaning_pass",
+          "note": "Pass: normal state uses two fragments, selected state uses one. Preserve complete assembled meaning rather than translating each fragment as a separate label."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.rotation",
+      "target_full": "Map Rotation",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.setting",
+            "source_visible": "マップ回転",
+            "target_full": "Map Rotation",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:027",
+                "image_file": "02_00033_00002_sprite_027.png",
+                "image_sha256": "4a3844061442ae0e704e5c308f55f3b908ba21daf7052ace65484563bdd58153",
+                "rect": [
+                  0,
+                  0,
+                  64,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "normal"
+              },
+              {
+                "sprite_id": "02:00033/00002:sprite:036",
+                "image_file": "02_00033_00002_sprite_036.png",
+                "image_sha256": "44fd2b0cd3d34395f99696172f1fa98202a8e032907a333336ef89b6bcf74d36",
+                "rect": [
+                  0,
+                  0,
+                  64,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "selected"
+              }
+            ],
+            "notes": "When a label spans multiple texture fragments, these occurrences are assembly pieces of one label, not separate complete strings. Preserve fragment ordering or update the layout.",
+            "assembly_groups": [
+              {
+                "state": "normal",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:027"
+                ]
+              },
+              {
+                "state": "selected",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:036"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.rotation",
+          "result": "meaning_pass",
+          "note": "Visible native source agrees with the draft meaning. No correction required; controller symbols, source state variants, and input characters remain structural data."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.unit",
+      "target_full": "Unit Cycling",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.setting",
+            "source_visible": "ユニット送り",
+            "target_full": "Unit Cycling",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:031",
+                "image_file": "02_00033_00002_sprite_031.png",
+                "image_sha256": "07aef578351530d9a9a6590759f8f1f4358978e86d2b2c5ddcbbb702d5aaca4a",
+                "rect": [
+                  0,
+                  0,
+                  64,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "normal"
+              },
+              {
+                "sprite_id": "02:00033/00002:sprite:032",
+                "image_file": "02_00033_00002_sprite_032.png",
+                "image_sha256": "7f3c1fd5040b3234a7c0d79c808ec8640a97bb2e033e4f06da7738f9d429b40a",
+                "rect": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "normal"
+              },
+              {
+                "sprite_id": "02:00033/00002:sprite:037",
+                "image_file": "02_00033_00002_sprite_037.png",
+                "image_sha256": "2644f3d0837fa2c6d4be15dd13bd6c1d55aa0ea42df686ee41884e0575063bcd",
+                "rect": [
+                  0,
+                  0,
+                  64,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "selected"
+              },
+              {
+                "sprite_id": "02:00033/00002:sprite:038",
+                "image_file": "02_00033_00002_sprite_038.png",
+                "image_sha256": "30a2c3c2c515e5eb74d62a2ce886d5cbd09d900530e3f0ff47f5a3816ece5756",
+                "rect": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "full_sprite_extent",
+                "visual_state": "selected"
+              }
+            ],
+            "notes": "When a label spans multiple texture fragments, these occurrences are assembly pieces of one label, not separate complete strings. Preserve fragment ordering or update the layout.",
+            "assembly_groups": [
+              {
+                "state": "normal",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:031",
+                  "02:00033/00002:sprite:032"
+                ]
+              },
+              {
+                "state": "selected",
+                "sprite_ids": [
+                  "02:00033/00002:sprite:037",
+                  "02:00033/00002:sprite:038"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.unit",
+          "result": "meaning_pass",
+          "note": "Unit Cycling correctly expresses moving between units. Both states use assembly fragments; no extra targeting behavior is assumed."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.exit_footer",
+      "target_full": "○ Confirm  × Exit Options",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_controls",
+            "source_visible": "○ 決定　× オプション画面終了",
+            "target_full": "○ Confirm  × Exit Options",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00003:sprite:005",
+                "image_file": "02_00033_00003_sprite_005.png",
+                "image_sha256": "61eb315ac1df6925cff06845836c688f0d0dfa7e93b0a7a8b25b2ab2d8fe4654",
+                "rect": [
+                  0,
+                  234,
+                  432,
+                  22
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Bottom strip is embedded in options-frame background; preserve frame and controller icons."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.exit_footer",
+          "result": "meaning_pass",
+          "note": "Confirm/Exit Options correctly matches the embedded bottom frame strip; preserve controller symbols."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.forecast_check",
+      "target_full": "CHECK!!",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": "CHECK!!",
+            "target_full": "CHECK!!",
+            "status": "already_english",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:039",
+                "image_file": "02_00033_00002_sprite_039.png",
+                "image_sha256": "785a077f42c6c42c71d0bf6f648390f03f5d0dc646eaff670a8af5decc52cf9d",
+                "rect": [
+                  12,
+                  15,
+                  68,
+                  26
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Static sample label inside an illustration; include in texture replacement scope."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.forecast_check",
+          "result": "preserve_existing_data",
+          "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+        }
+      ],
+      "meaning_status": "preserve_existing_data",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.forecast_damage",
+      "target_full": "DAMAGE!!",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": "DAMAGE!!",
+            "target_full": "DAMAGE!!",
+            "status": "already_english",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:039",
+                "image_file": "02_00033_00002_sprite_039.png",
+                "image_sha256": "785a077f42c6c42c71d0bf6f648390f03f5d0dc646eaff670a8af5decc52cf9d",
+                "rect": [
+                  78,
+                  47,
+                  30,
+                  8
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Static sample label inside an illustration; include in texture replacement scope."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.forecast_damage",
+          "result": "preserve_existing_data",
+          "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+        }
+      ],
+      "meaning_status": "preserve_existing_data",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.forecast_numeric",
+      "target_full": "31",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": "31",
+            "target_full": "31",
+            "status": "numeric_data",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:039",
+                "image_file": "02_00033_00002_sprite_039.png",
+                "image_sha256": "785a077f42c6c42c71d0bf6f648390f03f5d0dc646eaff670a8af5decc52cf9d",
+                "rect": [
+                  90,
+                  55,
+                  13,
+                  9
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Static example data is preserved; actual digits are not an untranslated Japanese sentence."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.forecast_numeric",
+          "result": "preserve_existing_data",
+          "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+        }
+      ],
+      "meaning_status": "preserve_existing_data",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.battle_footer_left",
+      "target_full": null,
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": null,
+            "target_full": null,
+            "status": "unresolved_tiny_text",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:039",
+                "image_file": "02_00033_00002_sprite_039.png",
+                "image_sha256": "785a077f42c6c42c71d0bf6f648390f03f5d0dc646eaff670a8af5decc52cf9d",
+                "rect": [
+                  4,
+                  56,
+                  40,
+                  8
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Low-resolution embedded screenshot; source is insufficient to certify every glyph. Obtain matching original battle UI text before translating/replacing. Region is an inspection boundary, not a certified pixel mask."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.battle_footer_left",
+          "result": "unresolved_tiny_text",
+          "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+        }
+      ],
+      "meaning_status": "unresolved",
+      "tentative_target": null,
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.battle_footer_right",
+      "target_full": null,
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": null,
+            "target_full": null,
+            "status": "unresolved_tiny_text",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:040",
+                "image_file": "02_00033_00002_sprite_040.png",
+                "image_sha256": "4717bfad783540d4e4b7dbb9b0f4cc0583109e6113dfad1f4930073593bb65ea",
+                "rect": [
+                  39,
+                  56,
+                  25,
+                  8
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Low-resolution embedded screenshot; source is insufficient to certify every glyph. Obtain matching original battle UI text before translating/replacing. Region is an inspection boundary, not a certified pixel mask."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.battle_footer_right",
+          "result": "unresolved_tiny_text",
+          "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+        }
+      ],
+      "meaning_status": "unresolved",
+      "tentative_target": null,
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.ally_name",
+      "target_full": "Rexx",
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": "レックス",
+            "target_full": "Rexx",
+            "status": "draft_requires_independent_review",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:041",
+                "image_file": "02_00033_00002_sprite_041.png",
+                "image_sha256": "b433ef4a4fd7a48b4fd4ba95276d708457731dc4d8ba51c4e314799d81aabfeb",
+                "rect": [
+                  5,
+                  0,
+                  49,
+                  8
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Static sample label inside an illustration; include in texture replacement scope."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.ally_name",
+          "result": "meaning_pass",
+          "note": "Rexx is readable and follows the established locked glossary spelling. This is static thumbnail text, not the dynamic runtime name."
+        }
+      ],
+      "meaning_status": "meaning_reviewed",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.ally_command_left",
+      "target_full": null,
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": "攻撃",
+            "target_full": "Attack",
+            "status": "tentative_transcription",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:041",
+                "image_file": "02_00033_00002_sprite_041.png",
+                "image_sha256": "b433ef4a4fd7a48b4fd4ba95276d708457731dc4d8ba51c4e314799d81aabfeb",
+                "rect": [
+                  9,
+                  8,
+                  25,
+                  8
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Low-resolution embedded screenshot; source is insufficient to certify every glyph. Obtain matching original battle UI text before translating/replacing. Region is an inspection boundary, not a certified pixel mask."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.ally_command_left",
+          "result": "unresolved_tiny_text",
+          "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+        }
+      ],
+      "meaning_status": "unresolved",
+      "tentative_target": "Attack",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.ally_command_right",
+      "target_full": null,
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": "防御",
+            "target_full": "Defend",
+            "status": "tentative_transcription",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:041",
+                "image_file": "02_00033_00002_sprite_041.png",
+                "image_sha256": "b433ef4a4fd7a48b4fd4ba95276d708457731dc4d8ba51c4e314799d81aabfeb",
+                "rect": [
+                  48,
+                  8,
+                  19,
+                  8
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Low-resolution embedded screenshot; source is insufficient to certify every glyph. Obtain matching original battle UI text before translating/replacing. Region is an inspection boundary, not a certified pixel mask."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.ally_command_right",
+          "result": "unresolved_tiny_text",
+          "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+        }
+      ],
+      "meaning_status": "unresolved",
+      "tentative_target": "Defend",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.ally_numeric_stats",
+      "target_full": null,
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": null,
+            "target_full": null,
+            "status": "numeric_data",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:041",
+                "image_file": "02_00033_00002_sprite_041.png",
+                "image_sha256": "b433ef4a4fd7a48b4fd4ba95276d708457731dc4d8ba51c4e314799d81aabfeb",
+                "rect": [
+                  5,
+                  16,
+                  65,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Static example data is preserved; actual digits are not an untranslated Japanese sentence."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.ally_numeric_stats",
+          "result": "preserve_existing_data",
+          "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+        }
+      ],
+      "meaning_status": "preserve_existing_data",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.opponent_right_panel",
+      "target_full": null,
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": null,
+            "target_full": null,
+            "status": "unresolved_tiny_text",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:041",
+                "image_file": "02_00033_00002_sprite_041.png",
+                "image_sha256": "b433ef4a4fd7a48b4fd4ba95276d708457731dc4d8ba51c4e314799d81aabfeb",
+                "rect": [
+                  104,
+                  0,
+                  24,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Low-resolution embedded screenshot; source is insufficient to certify every glyph. Obtain matching original battle UI text before translating/replacing. Region is an inspection boundary, not a certified pixel mask."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.opponent_right_panel",
+          "result": "unresolved_tiny_text",
+          "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+        }
+      ],
+      "meaning_status": "unresolved",
+      "tentative_target": null,
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.enemy_name_partial",
+      "target_full": null,
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": "…リンゼリー",
+            "target_full": null,
+            "status": "unresolved_tiny_text",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:042",
+                "image_file": "02_00033_00002_sprite_042.png",
+                "image_sha256": "f5973f80219cfa0d89e7f11dea110a403b89c2f5fd294b37b18e96dbab2750da",
+                "rect": [
+                  0,
+                  0,
+                  39,
+                  8
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Low-resolution embedded screenshot; source is insufficient to certify every glyph. Obtain matching original battle UI text before translating/replacing. Region is an inspection boundary, not a certified pixel mask."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.enemy_name_partial",
+          "result": "source_corroborated_target_pending",
+          "note": "The visible suffix is consistent with the exact mirrored source-table label char_label:00007cbc. Complete source transcription is now supported. No researched English enemy-name spelling has been approved here."
+        }
+      ],
+      "meaning_status": "unresolved",
+      "tentative_target": null,
+      "insertion_status": "not_inserted_or_layout_validated",
+      "source_resolution": {
+        "id": "options.thumbnail.enemy_name_partial",
+        "source_visible_complete": "マリンゼリー",
+        "corroborating_source_id": "char_label:00007cbc",
+        "source_tables": [
+          "01:00001/00000",
+          "00:00044/00006/00000"
+        ],
+        "source_sha256": "8c0adef9708bdb72dfae14b4753cf1ccf97193e79b5b98442a9e70d12c3924ca",
+        "target_literal_proposal": "Marine Jelly",
+        "target_status": "unresearched_name_proposal_not_approved_glossary",
+        "action": "Record complete transcription in a successor/merged artifact; research and normalize its English name before final insertion."
+      }
+    },
+    {
+      "id": "options.thumbnail.enemy_command",
+      "target_full": null,
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": "反撃",
+            "target_full": "Counterattack",
+            "status": "tentative_transcription",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:042",
+                "image_file": "02_00033_00002_sprite_042.png",
+                "image_sha256": "f5973f80219cfa0d89e7f11dea110a403b89c2f5fd294b37b18e96dbab2750da",
+                "rect": [
+                  20,
+                  8,
+                  21,
+                  8
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Low-resolution embedded screenshot; source is insufficient to certify every glyph. Obtain matching original battle UI text before translating/replacing. Region is an inspection boundary, not a certified pixel mask."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.enemy_command",
+          "result": "unresolved_tiny_text",
+          "note": "Do not promote this tiny thumbnail text to approved solely from a plausible reading. Existing draft translations, if present, are valid only conditional on source corroboration. Obtain matching full-size battle UI or source references."
+        }
+      ],
+      "meaning_status": "unresolved",
+      "tentative_target": "Counterattack",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.enemy_numeric_stats",
+      "target_full": null,
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": null,
+            "target_full": null,
+            "status": "numeric_data",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:042",
+                "image_file": "02_00033_00002_sprite_042.png",
+                "image_sha256": "f5973f80219cfa0d89e7f11dea110a403b89c2f5fd294b37b18e96dbab2750da",
+                "rect": [
+                  0,
+                  16,
+                  63,
+                  16
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Static example data is preserved; actual digits are not an untranslated Japanese sentence."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.enemy_numeric_stats",
+          "result": "preserve_existing_data",
+          "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+        }
+      ],
+      "meaning_status": "preserve_existing_data",
+      "insertion_status": "not_inserted_or_layout_validated"
+    },
+    {
+      "id": "options.thumbnail.forecast_magnified_numeric",
+      "target_full": null,
+      "source_records": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_drafts.json",
+          "record": {
+            "category": "options.embedded_illustration_label",
+            "source_visible": null,
+            "target_full": null,
+            "status": "numeric_data",
+            "occurrences": [
+              {
+                "sprite_id": "02:00033/00002:sprite:043",
+                "image_file": "02_00033_00002_sprite_043.png",
+                "image_sha256": "2ba30b8fa2fe7b479e6a4cd0bbf38626a215a95e303fb52cc08fc8b4d2fb8e3f",
+                "rect": [
+                  0,
+                  0,
+                  32,
+                  32
+                ],
+                "coordinate_space": "decoded_sprite_pixels",
+                "rect_role": "inspection_region"
+              }
+            ],
+            "notes": "Static example data is preserved; actual digits are not an untranslated Japanese sentence."
+          }
+        }
+      ],
+      "reviews": [
+        {
+          "artifact": "work/translation/en/setup_ui.related_meaning_review.json",
+          "id": "options.thumbnail.forecast_magnified_numeric",
+          "result": "preserve_existing_data",
+          "note": "Retain original English/numeric example data and graphic context. Unreadable small digits are not certified by this review and should not be reconstructed from guesses."
+        }
+      ],
+      "meaning_status": "preserve_existing_data",
+      "insertion_status": "not_inserted_or_layout_validated"
+    }
+  ],
+  "release_gates": [
+    "Translate native image pixels and encode/repack without damaging shared palettes or controls.",
+    "Relocate executable constants and verify all native consumers and encoding.",
+    "Measure runtime name expansion and UI text bounds; full-width dialogue encoding is not assumed safe here.",
+    "Build a new version and visually test every screen/state in PPSSPP."
+  ]
+}

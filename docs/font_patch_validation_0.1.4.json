@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-09-26T06:58:08.057056+00:00",
+  "profile": "latin_ink_spacing_pool192_v2",
+  "patched_elf_sha256": "f0c6586f56db26e1ecad0e79858396b8078552bed47b838b52edd91c5cddceb6",
+  "hook_cases": 940,
+  "load_bases": [
+    "0x08804000",
+    "0x0890c000"
+  ],
+  "maximum_emitted_instructions_per_case": 495,
+  "all_characters_default_and_nondefault_styles_checked": true,
+  "unmapped_character_fallback_checked": true,
+  "callee_arguments_preserved": true,
+  "saved_registers_and_stack_preserved": true,
+  "only_declared_caller_fields_changed": true,
+  "last_cell_measurement_inset_checked": true,
+  "input_sha256": {
+    "tools/font_patch.py": "ac375fe5129c08218325d87ab5dc40d2dc3e0923989623d7c64600c5a305cfaa",
+    "tools/font_metrics.py": "189af19e08b21563e5be6116b1aedc1625866eb689905c2413db540584d92b18",
+    "tools/verify_font_patch.py": "6490cb86ce29a8d54822d071186fd6cb9d314194ce5cce2e2fb6c0110a2d9534"
+  },
+  "scope_limit": "Actual emitted hooks executed with modeled original callee contracts. PSP loader, rasterization, layout and hardware still require runtime checks."
+}

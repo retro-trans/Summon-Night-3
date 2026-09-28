@@ -1,0 +1,73 @@
+{
+  "build_version": "0.1.24",
+  "scope": "Read-only static trace of VM01:00117/00001 battle dialogue in work/output/0.1.23/EBOOT.elf.",
+  "change_log": [
+    "0.1.24: Identified battle dialogue native handlers, shared VWF path, and static storage limits."
+  ],
+  "baseline": {
+    "elf": "work/output/0.1.23/EBOOT.elf",
+    "original_code_file_offset_rule": "module VA + 0xc0",
+    "group_dispatch_table": "0x2267c8",
+    "group_2_table": "0x226808",
+    "entry_stride_bytes": 8
+  },
+  "native_handlers": {
+    "0x20c7": {
+      "table_slot": "0x226e40",
+      "handler": "0x26118",
+      "behavior": "Reads VM argument 0 and appends {string, 0, -1} to global+0xe910 through 0x68d00."
+    },
+    "0x20c8": {
+      "table_slot": "0x226e48",
+      "handler": "0x26164",
+      "behavior": "Reads three VM arguments and dispatches 0xd654c(global, arg0, bool(arg1), bool(arg2))."
+    },
+    "0x20c9": {
+      "table_slot": "0x226e50",
+      "handler": "0x26254",
+      "behavior": "Reads VM argument 0 and dispatches 0xd654c(global, arg0, 0, 0)."
+    },
+    "0x20ca": {
+      "table_slot": "0x226e58",
+      "handler": "0x26304",
+      "behavior": "Calls 0x108e30 on global+0xe890, then clears bit 1 there."
+    }
+  },
+  "queue": {
+    "address": "global+0xe910",
+    "entry_bytes": 12,
+    "append": "0x68d00 increments count at +0x80 and writes at +0x38 + count*12 without a bound check.",
+    "consumption": "0x10a074 copies entries into the display request before calling 0x6b5d0.",
+    "reset_status": "0x10a074 calls 0x6b5d0 with a0=global+0xe890.  At 0x6b658, 0x6b5d0 sets s3=a0+0x80=global+0xe910; its 0x6b6b0 call to 0x68d40(s3) clears the six staged entries and count.  Thus the queue is consumed and reset during the synchronous 0x20c9 construction path.  Repeated 0x20c9 pages are valid when the native c7/c9 sequence is preserved."
+  },
+  "renderer": {
+    "path": ["0x10a074", "0x6b5d0", "0x6ba38", "0x6a038", "0x6a4a0"],
+    "vwf": "active: 0x6a4a0 jumps to released hook 0x32dbc0 before native glyph initialization 0x682e8.",
+    "glyph_pool": {
+      "capacity": 192,
+      "evidence": "0x32dd00..0x32dd54 allocates and initializes 0xc0 objects of 0xe0 bytes; 0x32dd50 binds capacity 0xc0."
+    },
+    "processed_text": {
+      "line_records": 6,
+      "glyphs_per_line": 32,
+      "total_glyphs": 192,
+      "evidence": "0x68d70 initializes six 0x8c-byte records containing 32 entries; 0x6a50c tests s6 < 0x20."
+    },
+    "visible_layout": "Static code proves storage, not the number of visible battle-box rows. Keep the observed 1-3-line page structure and use no more than 3 lines of 32 glyphs (96 total) until runtime verification."
+  },
+  "queued_string_copy": {
+    "buffer_bytes": 256,
+    "copy": "0x1e4b20 copies U16 units without a length check after 0xfd550 clears a 0x100-byte destination.",
+    "safe_maximum_u16_units_including_terminator": 128,
+    "safe_maximum_non_nul_units": 127
+  },
+  "resource_child_1": {
+    "resource": "01:00117/00001",
+    "container": "V4 child 1 named SCRIPT",
+    "script_bytes": 1328,
+    "pool_offset": 718,
+    "string_count": 27,
+    "maximum_source_string_bytes": 28,
+    "container_slack": "none between child 1 and child 2; the V4 payload has 400 trailing bytes after indexed_end, but no fixed runtime loader allocation was proven."
+  }
+}

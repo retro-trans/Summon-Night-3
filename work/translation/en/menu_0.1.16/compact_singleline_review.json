@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "build_version": "0.1.16",
+  "language": "en",
+  "reviewer": "ui015_meaning_review independent agent",
+  "scope": "Two compact single-line help strings requested after parent identified a single native-line consumer at 0x1e502c.",
+  "entries": [
+    {
+      "id": "elf:ui:0021700c",
+      "target_compact": "АDeploy ВStatus/Gear БMap",
+      "meaning_status": "approved",
+      "notes": "Preserves all three source actions in source control-token order. Status/Gear names the status display and equipment-change screen. Map is an acceptable button hint for returning to the battle map. Use a single string; do not split with an embedded NUL.",
+      "character_count": 25
+    },
+    {
+      "id": "elf:ui:00216f74",
+      "target_compact": "View status; change equipment.",
+      "meaning_status": "approved",
+      "notes": "Preserves both status inspection and equipment changes. Semantically applicable to exact duplicate source strings at 00217bd6, 00217d14 and 0021e504; consumer/layout validation remains separate.",
+      "character_count": 30
+    }
+  ],
+  "implementation_note": "Parent supplied consumer trace; this review approves meaning only. Controller glyph tokens remain Cyrillic А, В, Б in that order. No runtime, text-width or pointer-layout claim.",
+  "previous_reviews_unchanged": true
+}

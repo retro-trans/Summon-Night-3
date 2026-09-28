@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "status": "draft_pending_independent_meaning_review",
+  "build_version": "0.1.13",
+  "scope": "Thirteen native battle-tutorial pages covering movement, facing and elevation, weapon ranges, standby types, status ailments, obstacles, and skill acquisition.",
+  "related_category": "battle_tutorial",
+  "source_index_path": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/index.json",
+  "entries": [
+    {
+      "id": "tutorial:02:03892",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03892_sprite_000.png",
+      "source_image_sha256": "421a363c26e2092e4bfc05f042cea14f2ab471d95fe753257c193e1599251f34",
+      "title": "Movement",
+      "headings": ["ZOC (Zone of Control)"],
+      "paragraphs": [
+        "Select [Move] to highlight reachable tiles in blue. Movement range varies by unit and is affected by ZOC and skills.",
+        "ZOC is a passive skill that creates an area around a unit to obstruct enemy movement. A unit cannot pass through a ZOC tile in a single move."
+      ],
+      "diagram_labels": ["Movement Range", "Unit Moving", "ZOC"]
+    },
+    {
+      "id": "tutorial:02:03893",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03893_sprite_000.png",
+      "source_image_sha256": "ef6b20ef3370cba12263b76133ce567f59f9bb2f15f34c44fc42948894bdf081",
+      "title": "Facing and Elevation",
+      "headings": ["Effect of Target Facing", "Effect of Target Elevation", "POINT!"],
+      "paragraphs": [
+        "The target's facing and elevation affect damage, accuracy, and counterattack rate. Attacking from behind or from higher ground is more advantageous than attacking head-on or from below.",
+        "Summon magic power is unaffected by the target's facing or elevation."
+      ],
+      "diagram_labels": ["Damage", "Accuracy", "Counterattack", "Side: Damage / Accuracy UP; Counter DOWN", "Rear: Damage / Accuracy UP; Counter DOWN", "Higher Ground: Damage / Accuracy UP", "Lower Ground: Damage / Accuracy DOWN", "Summon Magic: Unaffected"]
+    },
+    {
+      "id": "tutorial:02:03894",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03894_sprite_000.png",
+      "source_image_sha256": "fbfc13aa58b6e42787b6d500e3df02f2bef8f2a286ee85bb9990ca5ee832aa36",
+      "title": "Attack Range and Weapons 1",
+      "headings": [],
+      "paragraphs": [
+        "Attack range is determined by a unit's equipped weapon and attack type. Some skills can also change attack range."
+      ],
+      "diagram_labels": ["V. Slash", "Strike / Special", "H. Slash", "Slash (Claw)", "Attack Range", "Attack Grid", "Upper: 2 (Greatsword: 3)", "Lower: 2 (Axe: 3)"]
+    },
+    {
+      "id": "tutorial:02:03895",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03895_sprite_000.png",
+      "source_image_sha256": "8f75c433b3e219881d2534c6d9054c83fa930909464d44d0a38f0a079bd4e25a",
+      "title": "Attack Range and Weapons 2",
+      "headings": ["Changing Weapons"],
+      "paragraphs": [
+        "A unit can equip up to two weapons: a main weapon and a sub weapon. Use the [Item] command during battle to switch between them."
+      ],
+      "diagram_labels": ["Thrust", "Lance Thrust", "Throw (V)", "Throw (H)", "Bow Attack", "Gun Attack", "Attack Range", "Attack Grid", "Upper", "Lower", "WEAPON"]
+    },
+    {
+      "id": "tutorial:02:03896",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03896_sprite_000.png",
+      "source_image_sha256": "702df0ff800585ec999f899a8751a53da2d97860e81c925f68a0981084151343",
+      "title": "Standby Types 1",
+      "headings": ["Basic Standby Types", "Special Standby Types 1"],
+      "paragraphs": [
+        "Standby types determine how a unit reacts when attacked. The two basic types are [Defense] and [Counter]. Some special standby types have extra effects, and some consume MP.",
+        "Defense: physical damage received -25%. Resistance: also reduces damage from summon magic. Foresight: increases dodge chance against thrown, bow, and gun attacks.",
+        "Counter: counters only enemies within the unit's attack range. Riposte: raises counterattack damage. First Strike: may counter before the enemy attacks."
+      ],
+      "diagram_labels": ["Defense", "Resistance", "Foresight", "Counter", "Riposte", "First Strike"]
+    },
+    {
+      "id": "tutorial:02:03897",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03897_sprite_000.png",
+      "source_image_sha256": "c6499d48165fcc7c56f5aceed0de0750d2a1f9383d19a2d57f520c5274c5b150",
+      "title": "Standby Types 2",
+      "headings": ["Special Standby Types 2"],
+      "paragraphs": [
+        "New special standby types can be learned from the [Learn Skills] screen. Raising the skill level makes their effects stronger.",
+        "Iron Wall: reduces physical damage by up to 50%. Cover: take damage in place of an adjacent ally. Reflect: when hit by a thrown, bow, or gun attack, return half its damage to the attacker and take no damage.",
+        "Block: has a chance to negate physical attacks, but cannot block command-skill attacks. Counterstrike: counterattack rate 100%, with the same power as a normal Counter. Provoke: makes enemies more likely to target the unit."
+      ],
+      "diagram_labels": ["Iron Wall", "Cover", "Reflect", "Block", "Counterstrike", "Provoke"]
+    },
+    {
+      "id": "tutorial:02:03898",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03898_sprite_000.png",
+      "source_image_sha256": "c95e2f8297c358d70b6c60fca2fa70a5b50b6daa2df47d68d38b826b0242c54a",
+      "title": "Status Ailments 1",
+      "headings": [],
+      "paragraphs": [
+        "Status ailments can be caused by summon magic, some weapon attacks, and skills. They can be cured after a set number of turns or with items and summon magic.",
+        "Petrify: cannot act and takes damage at turn end. Paralysis: Move becomes 1, some commands cannot be used, Attack is reduced, and Accuracy and Evasion -50%. Poison: takes damage at turn end; Attack and Defense are reduced.",
+        "Darkness: movement and summon range are shortened; Accuracy and Evasion -25%. Summon Seal: cannot use summon magic. Charm: cannot be controlled and attacks allies."
+      ],
+      "diagram_labels": ["Petrify", "Paralysis", "Poison", "Darkness", "Summon Seal", "Charm"]
+    },
+    {
+      "id": "tutorial:02:03899",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03899_sprite_000.png",
+      "source_image_sha256": "e4c71b327a08bace40dedd562b027fbd6c1dcc1404ee27d1d438bfadba269993",
+      "title": "Status Ailments 2",
+      "headings": ["POINT!"],
+      "paragraphs": [
+        "Fury: damage dealt +25%, damage received +30%. Encourage: damage received -25%, but critical hits are more likely. Sleep: cannot act; recovers a little HP and MP at turn end.",
+        "Concealment: the user's actions other than [Move] end the effect; receiving a magic attack also reveals the unit. Charge: next turn's attack power +50%; ends if damage is taken before attacking. Near Death: at 25% max HP or less, cannot pass over other units and Attack and Defense are reduced.",
+        "Skills, armor, and accessories can reduce the chance of receiving status ailments."
+      ],
+      "diagram_labels": ["Fury", "Encourage", "Sleep", "Concealment", "Charge", "Near Death"]
+    },
+    {
+      "id": "tutorial:02:03900",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03900_sprite_000.png",
+      "source_image_sha256": "4449e3ae9507751ad6bed9b52f8443e22665797a96224189863457d4bc887548",
+      "title": "Obstacles 1",
+      "headings": ["Step Obstacles", "Damage Obstacles", "Arrow Shields"],
+      "paragraphs": [
+        "Obstacles such as trees and barrels impede movement on the battlefield. They can be destroyed with one or two physical or special attacks.",
+        "Step obstacles can be used as one- to three-level footholds while moving. Damage obstacles inflict damage and status ailments on the four adjacent tiles when destroyed. Arrow Shields block thrown, bow, and gun attacks from the front, but can be attacked from behind."
+      ],
+      "diagram_labels": ["Step Obstacles", "Damage Obstacles", "Arrow Shields", "Hits Needed to Destroy: 1–2", "Hits Needed to Destroy: 2"]
+    },
+    {
+      "id": "tutorial:02:03901",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03901_sprite_000.png",
+      "source_image_sha256": "274179d1f4d0f5cf95f6d9a3f855b230c55210d94d65bb442dfe46035dc15fc3",
+      "title": "Obstacles 2",
+      "headings": ["ZOC Obstacles", "Magic-Mitigation Obstacles", "Status Ailment and Possession-Nullifying Obstacles"],
+      "paragraphs": [
+        "Besides obstacles placed at the start of battle, special obstacles can be created with summon magic.",
+        "ZOC obstacles generate ZOC on the four adjacent tiles. Magic-Mitigation obstacles weaken the effects of all summon magic on the four adjacent tiles. Status Ailment and Possession-Nullifying obstacles nullify those effects on the obstacle and its four adjacent tiles; effects already received cannot be removed."
+      ],
+      "diagram_labels": ["ZOC Obstacles", "Magic-Mitigation Obstacles", "Status Ailment and Possession-Nullifying Obstacles", "Hits Needed to Destroy: 1", "Hits Needed to Destroy: 1–2"]
+    },
+    {
+      "id": "tutorial:02:03902",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03902_sprite_000.png",
+      "source_image_sha256": "f678f2f624e8c487376b61e1d1da940c4d1c82814d336e2897941d16659d3f06",
+      "title": "Learning Skills 1",
+      "headings": ["Persistent Skills", "Command Skills", "Special Standby Skills", "Ability-Enhancement Skills"],
+      "paragraphs": [
+        "Skills are special abilities that produce effects during battle. Learning a skill requires skill points, and skills come in the following types.",
+        "Persistent Skills take effect at all times. Command Skills are used from the command menu and may consume MP. Special Standby Skills add options beyond [Defense] and [Counter]. Ability-Enhancement Skills raise unit stats such as HP, MP, and TEC."
+      ],
+      "diagram_labels": ["Persistent Skills", "Command Skills", "Special Standby Skills", "Ability-Enhancement Skills", "Example: Ignore ZOC", "Example: Pact Ritual: Creates Summon Magic", "Example: Counter", "Example: Max HP UP"]
+    },
+    {
+      "id": "tutorial:02:03903",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03903_sprite_000.png",
+      "source_image_sha256": "c0f8202e2c6ade03db5208770fcb409e0c023831cba506ff44095566629d5ba4",
+      "title": "Learning Skills 2",
+      "headings": ["How to Earn Skill Points", "Skill Acquisition Screen"],
+      "paragraphs": [
+        "Learning a new skill or strengthening one by raising its level requires skill points set for that skill. Each character has strengths and weaknesses for each skill; the required points are shown as a multiplier.",
+        "Earn skill points when the Skill Point level rises, by defeating enemies in battle, when leaving battle, or by meeting other conditions.",
+        "1: Total skill points earned. 2: Points needed for the selected skill. 3: Skill level. 4: Points needed to learn or strengthen it. 5: Learning/strengthening multiplier; a higher value means the character is less proficient. 6: A mastered skill."
+      ],
+      "diagram_labels": ["How to Earn Skill Points", "Skill Acquisition Screen", "1–6: Screen Guide"]
+    },
+    {
+      "id": "tutorial:02:03904",
+      "source_image": "work/ui/battle_0.1.13/discovery/fullpage_03892_03924/02_03904_sprite_000.png",
+      "source_image_sha256": "09b73207ccdf1095cbefd4f3d7760ed0b2480f0f6dbe64fe7c52f82006d3e43e",
+      "title": "Learning Skills 3",
+      "headings": ["Character Skills", "Common Skills", "Skill Master", "Master Effect Example"],
+      "paragraphs": [
+        "Skills a unit can learn are broadly divided into Character Skills and Common Skills. Character Skills are exclusive to specific characters or classes; Common Skills can be learned by anyone.",
+        "Maxing a skill level masters it. Mastered skills may gain a Master Effect, such as an ability increase or a stronger effect. Weapon Mastery: Dagger—on a critical hit, has a small chance to defeat an enemy in one blow."
+      ],
+      "diagram_labels": ["Character Skills", "Common Skills", "Skill Master", "Master Effect Example", "Weapon Mastery: Dagger"]
+    }
+  ],
+  "change_log": [
+    "0.1.13: Added 13 hash-verified native tutorial-page targets (02:03892–02:03904) for English layout replacement."
+  ]
+}

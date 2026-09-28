@@ -1,0 +1,3140 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "language_status": "working assumption pending user confirmation",
+  "resource_id": "00:00065",
+  "scope": "Fourth bounded opening slice: 80 consecutive compiled text occurrences, opening rows240-319. Student introduction branches, not one unconditional playthrough. Drafts only.",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "rows_in_slice": 80,
+  "rows_examined": 126,
+  "context_rows_before": 20,
+  "context_rows_after": 26,
+  "opening_row_range": [
+    240,
+    319
+  ],
+  "examined_opening_row_range": [
+    220,
+    345
+  ],
+  "reference_instruction_range": [
+    82510,
+    84702
+  ],
+  "context_instruction_range": [
+    81822,
+    85592
+  ],
+  "ordering": "Source index00:00065 strings sorted by minimum verified reference instruction; opening row0 is text0002646e, global index1808.",
+  "slice_row_convention": "slice_row is local0-79; opening_row is global opening240-319.",
+  "sentence_group_convention": "Stable temporary labels use display call byte offsets. group_ids are authoritative and all42 display groups are wholly within this slice.",
+  "drafted_rows": 77,
+  "unresolved_rows": 3,
+  "draft_rows_requiring_cross_slice_integration": [],
+  "method": "Read source in memory through GameSource and decompress. Compared fresh per-row hashes/references against schema2 index; matched preceding opening000/001 ordering. Read126 distinct source rows and inspected relevant VM display calls and branches. No source transcript persisted.",
+  "provenance": {
+    "prior_target_files": [
+      "work\\translation\\en\\opening_000.targets.json",
+      "work\\translation\\en\\opening_001.targets.json"
+    ],
+    "preserved_input_sha256": {
+      "work\\translation\\en\\opening_000.targets.json": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+      "work\\translation\\en\\opening_001.targets.json": "7492d262918e492818bec6038b6227d179d48d12e2d3d31bc73406ebcf9fba3d"
+    },
+    "source_index_schema_version": 2
+  },
+  "glossary": {
+    "path": "work\\glossary\\entities.json",
+    "read_sha256": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+    "used_ids": [],
+    "notes": "No proper name occurs in assigned text. Student and attendant identities are not inferred from name, voice style, or wiki gender. Merchant family and attendant names in following context are being researched by the orchestrator.",
+    "scripted_name_normalization_applied": false
+  },
+  "token_review": {
+    "control_bytes_in_slice": 0,
+    "runtime_placeholder_symbols_in_slice": [],
+    "source_target_token_sequences_match": true,
+    "cp932_encodable_drafts": 77,
+    "source_ideographic_spacing_rows": [
+      246
+    ],
+    "spacing_note": "The internal full-width punctuation space at row246 belongs to a sentence redistributed across its complete display group; it is not treated as a runtime placeholder. Six-dot silent pauses at269 and297 are retained.",
+    "punctuation_note": "Visible Japanese punctuation is rendered as English punctuation; hesitations, silent pauses and interrupted reassurance remain explicit."
+  },
+  "uncertainties": [
+    {
+      "opening_rows": [
+        240,
+        241,
+        242
+      ],
+      "kind": "negative_scope_unresolved",
+      "status": "unresolved",
+      "finding": "The relative clause about the introductory summoning textbook can be read as spells not described as exceptions or spells omitted because they are outside its scope. These readings differ in which set is counted. Adjacent quiz questions do not resolve that scope. Leave the entire three-row group null until independent meaning review settles it; do not replace this with a generic question or omit the exclusion."
+    },
+    {
+      "opening_rows": [
+        254,
+        255,
+        287,
+        288
+      ],
+      "kind": "recognition_fragment",
+      "status": "draft_review_needed",
+      "finding": "The protagonist begins recognizing the child but does not explicitly finish the sentence with student or person to teach. Draft preserves the fragment; no identity is inserted."
+    },
+    {
+      "opening_rows": [
+        256,
+        289,
+        318
+      ],
+      "kind": "address_title",
+      "status": "draft_review_needed",
+      "finding": "Young master and Young miss preserve the attendant address titles. These are not inserted character names. Align repeated title forms across preceding/following student branches during review."
+    },
+    {
+      "opening_rows": [
+        270,
+        271,
+        272,
+        273
+      ],
+      "kind": "figurative_gaze",
+      "status": "draft_review_needed",
+      "finding": "Piercing describes the uncomfortable stare figuratively; no claim of physical injury is added."
+    },
+    {
+      "opening_rows": [
+        274,
+        275,
+        276
+      ],
+      "kind": "underspecified_evaluation",
+      "status": "draft_review_needed",
+      "finding": "The student contrasts clothing with what is inside it. The rest of you keeps this broad rather than asserting academic ability, character, attractiveness, or a particular body feature."
+    },
+    {
+      "opening_rows": [
+        277,
+        278,
+        279
+      ],
+      "kind": "branch_specific_insult",
+      "status": "draft_review_needed",
+      "finding": "Country upbringing is explicitly criticized. This extra group is gated by global60==1; retain that branch distinction without adding a gendered insult."
+    },
+    {
+      "opening_rows": [
+        305,
+        306,
+        307
+      ],
+      "kind": "omitted_search_object",
+      "status": "draft_review_needed",
+      "finding": "The second protagonist branch offers to look together without naming whom or what. The first alternative has someone in its preceding line; only that alternative uses neutral them."
+    },
+    {
+      "opening_rows": [
+        316,
+        317,
+        318
+      ],
+      "kind": "interrupted_reassurance",
+      "status": "draft_review_needed",
+      "finding": "The reassuring thought trails off before the attendant calls. Dont worry is a contextual reassurance draft, kept unfinished with an ellipsis; no completed promise of safety or future outcome is supplied."
+    }
+  ],
+  "branch_evidence": {
+    "student_selector_read_instruction": 80818,
+    "student_selector_global": 64,
+    "student_cases": [
+      {
+        "value": 4,
+        "entry_instruction": 81992,
+        "opening_rows": [
+          240,
+          260
+        ]
+      },
+      {
+        "value": 2,
+        "entry_instruction": 83016,
+        "opening_rows": [
+          261,
+          293
+        ]
+      },
+      {
+        "value": 3,
+        "entry_instruction": 83960,
+        "opening_rows": [
+          294,
+          319
+        ]
+      }
+    ],
+    "protagonist_selector_global": 60,
+    "protagonist_condition_examples": [
+      82550,
+      82704,
+      83210,
+      83328,
+      83468,
+      84026,
+      84130,
+      84244,
+      84530
+    ],
+    "notes": "VM case values and source indices are recorded; they are not asserted character-name mappings. Display actor200 is the protagonist,212 the selected child,303 the attendant based on this scene dialogue and call arguments."
+  },
+  "acceptance": {
+    "meaning": "Translator self-review only; independent review required.",
+    "runtime": "No build or in-game validation performed.",
+    "layout": "Full meaning drafted without byte, glyph, or line shortening. No width acceptance.",
+    "source_transcript_saved": false
+  },
+  "sentence_groups": {
+    "opening003_display_82538": {
+      "id": "opening003_display_82538",
+      "group_ids": [
+        "00:00065:text:00027616",
+        "00:00065:text:00027634",
+        "00:00065:text:00027646"
+      ],
+      "opening_rows": [
+        240,
+        241,
+        242
+      ],
+      "display_instruction": 82538,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_82594": {
+      "id": "opening003_display_82594",
+      "group_ids": [
+        "00:00065:text:00027658",
+        "00:00065:text:0002766e",
+        "00:00065:text:00027682"
+      ],
+      "opening_rows": [
+        243,
+        244,
+        245
+      ],
+      "display_instruction": 82594,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_82642": {
+      "id": "opening003_display_82642",
+      "group_ids": [
+        "00:00065:text:00027698",
+        "00:00065:text:000276b6",
+        "00:00065:text:000276cc"
+      ],
+      "opening_rows": [
+        246,
+        247,
+        248
+      ],
+      "display_instruction": 82642,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_82692": {
+      "id": "opening003_display_82692",
+      "group_ids": [
+        "00:00065:text:000276e0",
+        "00:00065:text:000276fa",
+        "00:00065:text:00027714"
+      ],
+      "opening_rows": [
+        249,
+        250,
+        251
+      ],
+      "display_instruction": 82692,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_82732": {
+      "id": "opening003_display_82732",
+      "group_ids": [
+        "00:00065:text:00027722"
+      ],
+      "opening_rows": [
+        252
+      ],
+      "display_instruction": 82732,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_82764": {
+      "id": "opening003_display_82764",
+      "group_ids": [
+        "00:00065:text:00027728"
+      ],
+      "opening_rows": [
+        253
+      ],
+      "display_instruction": 82764,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_82858": {
+      "id": "opening003_display_82858",
+      "group_ids": [
+        "00:00065:text:00027732",
+        "00:00065:text:00027742"
+      ],
+      "opening_rows": [
+        254,
+        255
+      ],
+      "display_instruction": 82858,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_82898": {
+      "id": "opening003_display_82898",
+      "group_ids": [
+        "00:00065:text:00027750",
+        "00:00065:text:00027762",
+        "00:00065:text:00027780"
+      ],
+      "opening_rows": [
+        256,
+        257,
+        258
+      ],
+      "display_instruction": 82898,
+      "display_helper_word": 2030,
+      "display_actor_id": 303,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_82992": {
+      "id": "opening003_display_82992",
+      "group_ids": [
+        "00:00065:text:0002779a",
+        "00:00065:text:000277ae"
+      ],
+      "opening_rows": [
+        259,
+        260
+      ],
+      "display_instruction": 82992,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83066": {
+      "id": "opening003_display_83066",
+      "group_ids": [
+        "00:00065:text:000277be"
+      ],
+      "opening_rows": [
+        261
+      ],
+      "display_instruction": 83066,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83148": {
+      "id": "opening003_display_83148",
+      "group_ids": [
+        "00:00065:text:000277d0"
+      ],
+      "opening_rows": [
+        262
+      ],
+      "display_instruction": 83148,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83198": {
+      "id": "opening003_display_83198",
+      "group_ids": [
+        "00:00065:text:000277d6",
+        "00:00065:text:000277e8",
+        "00:00065:text:000277fa"
+      ],
+      "opening_rows": [
+        263,
+        264,
+        265
+      ],
+      "display_instruction": 83198,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83236": {
+      "id": "opening003_display_83236",
+      "group_ids": [
+        "00:00065:text:00027806"
+      ],
+      "opening_rows": [
+        266
+      ],
+      "display_instruction": 83236,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83266": {
+      "id": "opening003_display_83266",
+      "group_ids": [
+        "00:00065:text:0002781a"
+      ],
+      "opening_rows": [
+        267
+      ],
+      "display_instruction": 83266,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83282": {
+      "id": "opening003_display_83282",
+      "group_ids": [
+        "00:00065:text:0002782e"
+      ],
+      "opening_rows": [
+        268
+      ],
+      "display_instruction": 83282,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83316": {
+      "id": "opening003_display_83316",
+      "group_ids": [
+        "00:00065:text:00027840"
+      ],
+      "opening_rows": [
+        269
+      ],
+      "display_instruction": 83316,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83364": {
+      "id": "opening003_display_83364",
+      "group_ids": [
+        "00:00065:text:0002784e",
+        "00:00065:text:00027862"
+      ],
+      "opening_rows": [
+        270,
+        271
+      ],
+      "display_instruction": 83364,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83404": {
+      "id": "opening003_display_83404",
+      "group_ids": [
+        "00:00065:text:00027878",
+        "00:00065:text:0002788c"
+      ],
+      "opening_rows": [
+        272,
+        273
+      ],
+      "display_instruction": 83404,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83456": {
+      "id": "opening003_display_83456",
+      "group_ids": [
+        "00:00065:text:0002789e",
+        "00:00065:text:000278b4",
+        "00:00065:text:000278ca"
+      ],
+      "opening_rows": [
+        274,
+        275,
+        276
+      ],
+      "display_instruction": 83456,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83518": {
+      "id": "opening003_display_83518",
+      "group_ids": [
+        "00:00065:text:000278e0",
+        "00:00065:text:000278f6",
+        "00:00065:text:0002790a"
+      ],
+      "opening_rows": [
+        277,
+        278,
+        279
+      ],
+      "display_instruction": 83518,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83604": {
+      "id": "opening003_display_83604",
+      "group_ids": [
+        "00:00065:text:0002791e"
+      ],
+      "opening_rows": [
+        280
+      ],
+      "display_instruction": 83604,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83656": {
+      "id": "opening003_display_83656",
+      "group_ids": [
+        "00:00065:text:00027924",
+        "00:00065:text:00027940",
+        "00:00065:text:00027958"
+      ],
+      "opening_rows": [
+        281,
+        282,
+        283
+      ],
+      "display_instruction": 83656,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83708": {
+      "id": "opening003_display_83708",
+      "group_ids": [
+        "00:00065:text:00027970",
+        "00:00065:text:00027984",
+        "00:00065:text:00027998"
+      ],
+      "opening_rows": [
+        284,
+        285,
+        286
+      ],
+      "display_instruction": 83708,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83802": {
+      "id": "opening003_display_83802",
+      "group_ids": [
+        "00:00065:text:000279ac",
+        "00:00065:text:000279bc"
+      ],
+      "opening_rows": [
+        287,
+        288
+      ],
+      "display_instruction": 83802,
+      "display_helper_word": 2044,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83842": {
+      "id": "opening003_display_83842",
+      "group_ids": [
+        "00:00065:text:000279ca",
+        "00:00065:text:000279dc",
+        "00:00065:text:000279fa"
+      ],
+      "opening_rows": [
+        289,
+        290,
+        291
+      ],
+      "display_instruction": 83842,
+      "display_helper_word": 2030,
+      "display_actor_id": 303,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_83936": {
+      "id": "opening003_display_83936",
+      "group_ids": [
+        "00:00065:text:00027a14",
+        "00:00065:text:00027a28"
+      ],
+      "opening_rows": [
+        292,
+        293
+      ],
+      "display_instruction": 83936,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84014": {
+      "id": "opening003_display_84014",
+      "group_ids": [
+        "00:00065:text:00027a38"
+      ],
+      "opening_rows": [
+        294
+      ],
+      "display_instruction": 84014,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84052": {
+      "id": "opening003_display_84052",
+      "group_ids": [
+        "00:00065:text:00027a4a"
+      ],
+      "opening_rows": [
+        295
+      ],
+      "display_instruction": 84052,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84082": {
+      "id": "opening003_display_84082",
+      "group_ids": [
+        "00:00065:text:00027a50"
+      ],
+      "opening_rows": [
+        296
+      ],
+      "display_instruction": 84082,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84118": {
+      "id": "opening003_display_84118",
+      "group_ids": [
+        "00:00065:text:00027a58"
+      ],
+      "opening_rows": [
+        297
+      ],
+      "display_instruction": 84118,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84156": {
+      "id": "opening003_display_84156",
+      "group_ids": [
+        "00:00065:text:00027a66"
+      ],
+      "opening_rows": [
+        298
+      ],
+      "display_instruction": 84156,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84188": {
+      "id": "opening003_display_84188",
+      "group_ids": [
+        "00:00065:text:00027a7c"
+      ],
+      "opening_rows": [
+        299
+      ],
+      "display_instruction": 84188,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84232": {
+      "id": "opening003_display_84232",
+      "group_ids": [
+        "00:00065:text:00027a92",
+        "00:00065:text:00027aa8"
+      ],
+      "opening_rows": [
+        300,
+        301
+      ],
+      "display_instruction": 84232,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84288": {
+      "id": "opening003_display_84288",
+      "group_ids": [
+        "00:00065:text:00027ab6",
+        "00:00065:text:00027aca",
+        "00:00065:text:00027ae0"
+      ],
+      "opening_rows": [
+        302,
+        303,
+        304
+      ],
+      "display_instruction": 84288,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84336": {
+      "id": "opening003_display_84336",
+      "group_ids": [
+        "00:00065:text:00027af0",
+        "00:00065:text:00027b04",
+        "00:00065:text:00027b1a"
+      ],
+      "opening_rows": [
+        305,
+        306,
+        307
+      ],
+      "display_instruction": 84336,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84372": {
+      "id": "opening003_display_84372",
+      "group_ids": [
+        "00:00065:text:00027b2c"
+      ],
+      "opening_rows": [
+        308
+      ],
+      "display_instruction": 84372,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84466": {
+      "id": "opening003_display_84466",
+      "group_ids": [
+        "00:00065:text:00027b32",
+        "00:00065:text:00027b42"
+      ],
+      "opening_rows": [
+        309,
+        310
+      ],
+      "display_instruction": 84466,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84518": {
+      "id": "opening003_display_84518",
+      "group_ids": [
+        "00:00065:text:00027b58",
+        "00:00065:text:00027b6c",
+        "00:00065:text:00027b7e"
+      ],
+      "opening_rows": [
+        311,
+        312,
+        313
+      ],
+      "display_instruction": 84518,
+      "display_helper_word": 2030,
+      "display_actor_id": 212,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84566": {
+      "id": "opening003_display_84566",
+      "group_ids": [
+        "00:00065:text:00027b92",
+        "00:00065:text:00027ba4"
+      ],
+      "opening_rows": [
+        314,
+        315
+      ],
+      "display_instruction": 84566,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84606": {
+      "id": "opening003_display_84606",
+      "group_ids": [
+        "00:00065:text:00027bb6",
+        "00:00065:text:00027bca"
+      ],
+      "opening_rows": [
+        316,
+        317
+      ],
+      "display_instruction": 84606,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84630": {
+      "id": "opening003_display_84630",
+      "group_ids": [
+        "00:00065:text:00027bd8"
+      ],
+      "opening_rows": [
+        318
+      ],
+      "display_instruction": 84630,
+      "display_helper_word": 2030,
+      "display_actor_id": 303,
+      "complete_display_group_in_slice": true
+    },
+    "opening003_display_84714": {
+      "id": "opening003_display_84714",
+      "group_ids": [
+        "00:00065:text:00027bea"
+      ],
+      "opening_rows": [
+        319
+      ],
+      "display_instruction": 84714,
+      "display_helper_word": 2030,
+      "display_actor_id": 200,
+      "complete_display_group_in_slice": true
+    }
+  },
+  "translations": {
+    "00:00065:text:00027616": {
+      "id": "00:00065:text:00027616",
+      "source_offset": 161302,
+      "source_sha256": "a73af9b0f1a17f942e043e84af9220f164d371e726a2ff9e907cdd329884d459",
+      "reference_instructions": [
+        82510
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 0,
+      "opening_row": 240,
+      "text": null,
+      "status": "unresolved",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_82538",
+      "group_ids": [
+        "00:00065:text:00027616",
+        "00:00065:text:00027634",
+        "00:00065:text:00027646"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together.",
+        "Unresolved scope of not-described/excluded-as-exception; see negative_scope_unresolved. No partial quiz group should be inserted."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027634": {
+      "id": "00:00065:text:00027634",
+      "source_offset": 161332,
+      "source_sha256": "5ce28936ae5c31263119729e7e6bb5c65a6d9643bb01f22577af70b0d838ed1c",
+      "reference_instructions": [
+        82518
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 1,
+      "opening_row": 241,
+      "text": null,
+      "status": "unresolved",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_82538",
+      "group_ids": [
+        "00:00065:text:00027616",
+        "00:00065:text:00027634",
+        "00:00065:text:00027646"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together.",
+        "Unresolved scope of not-described/excluded-as-exception; see negative_scope_unresolved. No partial quiz group should be inserted."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027646": {
+      "id": "00:00065:text:00027646",
+      "source_offset": 161350,
+      "source_sha256": "d6e88e4f551a6f8d607cc2d45d4883262e48b70ac14734d9bb1be2b0ee6c656b",
+      "reference_instructions": [
+        82526
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 2,
+      "opening_row": 242,
+      "text": null,
+      "status": "unresolved",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_82538",
+      "group_ids": [
+        "00:00065:text:00027616",
+        "00:00065:text:00027634",
+        "00:00065:text:00027646"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together.",
+        "Unresolved scope of not-described/excluded-as-exception; see negative_scope_unresolved. No partial quiz group should be inserted."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027658": {
+      "id": "00:00065:text:00027658",
+      "source_offset": 161368,
+      "source_sha256": "6655b0338e273507c3a39ae68d9bbca17c2a4716a5adb6f0600a8a83feab6093",
+      "reference_instructions": [
+        82566
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 3,
+      "opening_row": 243,
+      "text": "W-wait a minute!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_82594",
+      "group_ids": [
+        "00:00065:text:00027658",
+        "00:00065:text:0002766e",
+        "00:00065:text:00027682"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002766e": {
+      "id": "00:00065:text:0002766e",
+      "source_offset": 161390,
+      "source_sha256": "6bdee76bd48da7823ca499667e09ab3bab5a7bd720c5870c29943dc0b01f4ed7",
+      "reference_instructions": [
+        82574
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 4,
+      "opening_row": 244,
+      "text": "You can't spring something",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_82594",
+      "group_ids": [
+        "00:00065:text:00027658",
+        "00:00065:text:0002766e",
+        "00:00065:text:00027682"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027682": {
+      "id": "00:00065:text:00027682",
+      "source_offset": 161410,
+      "source_sha256": "43e7eac69213ddb0e1700687c5647d20fb1e878f7829ab2423aeb9fa41b0fc6a",
+      "reference_instructions": [
+        82582
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 5,
+      "opening_row": 245,
+      "text": "that technical on me...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_82594",
+      "group_ids": [
+        "00:00065:text:00027658",
+        "00:00065:text:0002766e",
+        "00:00065:text:00027682"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027698": {
+      "id": "00:00065:text:00027698",
+      "source_offset": 161432,
+      "source_sha256": "be9aad668682200d0409a15baf190bd2747f8dd66e5334605dbcaf061c8c27f2",
+      "reference_instructions": [
+        82614
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 6,
+      "opening_row": 246,
+      "text": "U-um, hold on!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_82642",
+      "group_ids": [
+        "00:00065:text:00027698",
+        "00:00065:text:000276b6",
+        "00:00065:text:000276cc"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000276b6": {
+      "id": "00:00065:text:000276b6",
+      "source_offset": 161462,
+      "source_sha256": "06c049fdf1d632a6f4e2bb838e8a4a3a4ba8446a6df04860ddf15fb7990aac50",
+      "reference_instructions": [
+        82622
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 7,
+      "opening_row": 247,
+      "text": "If you ask such technical questions out of nowhere,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_82642",
+      "group_ids": [
+        "00:00065:text:00027698",
+        "00:00065:text:000276b6",
+        "00:00065:text:000276cc"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000276cc": {
+      "id": "00:00065:text:000276cc",
+      "source_offset": 161484,
+      "source_sha256": "34f56374c7a647b13214a707beec4db2080077f2f657947b1d11f8ab286f2df5",
+      "reference_instructions": [
+        82630
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 8,
+      "opening_row": 248,
+      "text": "I can't answer straight away...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_82642",
+      "group_ids": [
+        "00:00065:text:00027698",
+        "00:00065:text:000276b6",
+        "00:00065:text:000276cc"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000276e0": {
+      "id": "00:00065:text:000276e0",
+      "source_offset": 161504,
+      "source_sha256": "5584873876b0790714f15240957c77cbca628eb6c9b91a0fbd8a7b9d4ee21ca0",
+      "reference_instructions": [
+        82664
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 9,
+      "opening_row": 249,
+      "text": "If you call yourself a teacher,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_82692",
+      "group_ids": [
+        "00:00065:text:000276e0",
+        "00:00065:text:000276fa",
+        "00:00065:text:00027714"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000276fa": {
+      "id": "00:00065:text:000276fa",
+      "source_offset": 161530,
+      "source_sha256": "b3e0edd672dc149c8f663e270efde553344017bbfa2ad3ce2a85c89fed520fba",
+      "reference_instructions": [
+        82672
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 10,
+      "opening_row": 250,
+      "text": "you should be able to answer",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_82692",
+      "group_ids": [
+        "00:00065:text:000276e0",
+        "00:00065:text:000276fa",
+        "00:00065:text:00027714"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027714": {
+      "id": "00:00065:text:00027714",
+      "source_offset": 161556,
+      "source_sha256": "5aac5a073cc759ad4c2fb225b426ef2f7708aec7c16bb2780164b3f454753a52",
+      "reference_instructions": [
+        82680
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 11,
+      "opening_row": 251,
+      "text": "a question like that immediately.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_82692",
+      "group_ids": [
+        "00:00065:text:000276e0",
+        "00:00065:text:000276fa",
+        "00:00065:text:00027714"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027722": {
+      "id": "00:00065:text:00027722",
+      "source_offset": 161570,
+      "source_sha256": "aad930b62c57b98c3eef6a2f53093ba6b477bd165c065c6b06cf7fcf7ecfb57c",
+      "reference_instructions": [
+        82720
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 12,
+      "opening_row": 252,
+      "text": "Huh?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_82732",
+      "group_ids": [
+        "00:00065:text:00027722"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027728": {
+      "id": "00:00065:text:00027728",
+      "source_offset": 161576,
+      "source_sha256": "ce3514625c3754512ca1b6fbe67aba29af36fb6ba43191db8a41c144e2db941c",
+      "reference_instructions": [
+        82752
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 13,
+      "opening_row": 253,
+      "text": "Pardon??",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_82764",
+      "group_ids": [
+        "00:00065:text:00027728"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027732": {
+      "id": "00:00065:text:00027732",
+      "source_offset": 161586,
+      "source_sha256": "12c73e10cf56034d32296fc00fe060fde1d21235dba62dd3c568bc80a1cdf556",
+      "reference_instructions": [
+        82838
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 14,
+      "opening_row": 254,
+      "text": "C-could it be...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2044.",
+      "sentence_group": "opening003_display_82858",
+      "group_ids": [
+        "00:00065:text:00027732",
+        "00:00065:text:00027742"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027742": {
+      "id": "00:00065:text:00027742",
+      "source_offset": 161602,
+      "source_sha256": "dd7da63e10c3a76cb278816078c715da426ab66748cfb1274e04600c449e2a82",
+      "reference_instructions": [
+        82846
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 15,
+      "opening_row": 255,
+      "text": "this child!?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2044.",
+      "sentence_group": "opening003_display_82858",
+      "group_ids": [
+        "00:00065:text:00027732",
+        "00:00065:text:00027742"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027750": {
+      "id": "00:00065:text:00027750",
+      "source_offset": 161616,
+      "source_sha256": "cc79b14a2040f1552ae477ba2bfd3d4a3e1acd2de8bf6f04e71d9f8916e2b37f",
+      "reference_instructions": [
+        82870
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 16,
+      "opening_row": 256,
+      "text": "Young master!?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor303; helper word2030.",
+      "sentence_group": "opening003_display_82898",
+      "group_ids": [
+        "00:00065:text:00027750",
+        "00:00065:text:00027762",
+        "00:00065:text:00027780"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027762": {
+      "id": "00:00065:text:00027762",
+      "source_offset": 161634,
+      "source_sha256": "ed8107f5a8efc739fa01cc1f1c87b1a16a1df047893cb2b7243851740397fa73",
+      "reference_instructions": [
+        82878
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 17,
+      "opening_row": 257,
+      "text": "I've told you time and again",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor303; helper word2030.",
+      "sentence_group": "opening003_display_82898",
+      "group_ids": [
+        "00:00065:text:00027750",
+        "00:00065:text:00027762",
+        "00:00065:text:00027780"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027780": {
+      "id": "00:00065:text:00027780",
+      "source_offset": 161664,
+      "source_sha256": "0c6e83d76ffc641e4b42479aaba854df2a88cfaedb4df610ae7d140581090ab8",
+      "reference_instructions": [
+        82886
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 18,
+      "opening_row": 258,
+      "text": "that you mustn't go off on your own!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor303; helper word2030.",
+      "sentence_group": "opening003_display_82898",
+      "group_ids": [
+        "00:00065:text:00027750",
+        "00:00065:text:00027762",
+        "00:00065:text:00027780"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002779a": {
+      "id": "00:00065:text:0002779a",
+      "source_offset": 161690,
+      "source_sha256": "48fc5cdb778fa1237243b706a68e98c2b3a62f02f155a147625ea5b3ed73d3b2",
+      "reference_instructions": [
+        82972
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 19,
+      "opening_row": 259,
+      "text": "Ah, ha ha ha...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2030.",
+      "sentence_group": "opening003_display_82992",
+      "group_ids": [
+        "00:00065:text:0002779a",
+        "00:00065:text:000277ae"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000277ae": {
+      "id": "00:00065:text:000277ae",
+      "source_offset": 161710,
+      "source_sha256": "95acba085913be7c53e3d84b25ed0b23438eabf0c13cc5b8463603b32571ae1d",
+      "reference_instructions": [
+        82980
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 20,
+      "opening_row": 260,
+      "text": "Just as I thought...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 4. Display actor200; helper word2030.",
+      "sentence_group": "opening003_display_82992",
+      "group_ids": [
+        "00:00065:text:0002779a",
+        "00:00065:text:000277ae"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000277be": {
+      "id": "00:00065:text:000277be",
+      "source_offset": 161726,
+      "source_sha256": "7d3b8f86d100d762b2aa1e8ec5bbeb5e7b2f13f229d79e19cedf466661a700c7",
+      "reference_instructions": [
+        83054
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 21,
+      "opening_row": 261,
+      "text": "...You there.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83066",
+      "group_ids": [
+        "00:00065:text:000277be"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000277d0": {
+      "id": "00:00065:text:000277d0",
+      "source_offset": 161744,
+      "source_sha256": "aad930b62c57b98c3eef6a2f53093ba6b477bd165c065c6b06cf7fcf7ecfb57c",
+      "reference_instructions": [
+        83136
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 22,
+      "opening_row": 262,
+      "text": "Huh?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2030.",
+      "sentence_group": "opening003_display_83148",
+      "group_ids": [
+        "00:00065:text:000277d0"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000277d6": {
+      "id": "00:00065:text:000277d6",
+      "source_offset": 161750,
+      "source_sha256": "a083aedfaf4c7c661af5f467020edb239f985d80ba16b3a4368d77354fd4db12",
+      "reference_instructions": [
+        83170
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 23,
+      "opening_row": 263,
+      "text": "Yes, you.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83198",
+      "group_ids": [
+        "00:00065:text:000277d6",
+        "00:00065:text:000277e8",
+        "00:00065:text:000277fa"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000277e8": {
+      "id": "00:00065:text:000277e8",
+      "source_offset": 161768,
+      "source_sha256": "9508887dff928477e73729d0c3dd9cb0626ee2767daa4938892a7488f6684999",
+      "reference_instructions": [
+        83178
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 24,
+      "opening_row": 264,
+      "text": "You're the one",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83198",
+      "group_ids": [
+        "00:00065:text:000277d6",
+        "00:00065:text:000277e8",
+        "00:00065:text:000277fa"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000277fa": {
+      "id": "00:00065:text:000277fa",
+      "source_offset": 161786,
+      "source_sha256": "96872cc007e0e96a098c3a23850cd15f859ecc6cc77774def702c404295b7ac4",
+      "reference_instructions": [
+        83186
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 25,
+      "opening_row": 265,
+      "text": "I'm speaking to.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83198",
+      "group_ids": [
+        "00:00065:text:000277d6",
+        "00:00065:text:000277e8",
+        "00:00065:text:000277fa"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027806": {
+      "id": "00:00065:text:00027806",
+      "source_offset": 161798,
+      "source_sha256": "d8d1e3594882da80d0a554ce4df7ac78a349a3c2a93d4f26e4f989dd6c9009f1",
+      "reference_instructions": [
+        83224
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 26,
+      "opening_row": 266,
+      "text": "Who is this child?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2044. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_83236",
+      "group_ids": [
+        "00:00065:text:00027806"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002781a": {
+      "id": "00:00065:text:0002781a",
+      "source_offset": 161818,
+      "source_sha256": "c264785c48ed62238dfad6eee1ba1db42437d64abc9357df2c04bc0a440d7236",
+      "reference_instructions": [
+        83254
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 27,
+      "opening_row": 267,
+      "text": "Who might this child be?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2044. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_83266",
+      "group_ids": [
+        "00:00065:text:0002781a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002782e": {
+      "id": "00:00065:text:0002782e",
+      "source_offset": 161838,
+      "source_sha256": "460f985929ec79f31b9d18fb9e7fccf02ec1283accec3fbcb0ac9601f277c392",
+      "reference_instructions": [
+        83270
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 28,
+      "opening_row": 268,
+      "text": "Or rather...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2044.",
+      "sentence_group": "opening003_display_83282",
+      "group_ids": [
+        "00:00065:text:0002782e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027840": {
+      "id": "00:00065:text:00027840",
+      "source_offset": 161856,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "reference_instructions": [
+        83304
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 29,
+      "opening_row": 269,
+      "text": "......",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83316",
+      "group_ids": [
+        "00:00065:text:00027840"
+      ],
+      "notes": [
+        "Silent six-dot pause retained; no spoken words added."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002784e": {
+      "id": "00:00065:text:0002784e",
+      "source_offset": 161870,
+      "source_sha256": "ae87610f1b2e3a15bc67a441bc2665f1a919d30a2b2e37daf92806bb455e737b",
+      "reference_instructions": [
+        83344
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 30,
+      "opening_row": 270,
+      "text": "Somehow, that stare",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_83364",
+      "group_ids": [
+        "00:00065:text:0002784e",
+        "00:00065:text:00027862"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027862": {
+      "id": "00:00065:text:00027862",
+      "source_offset": 161890,
+      "source_sha256": "1ecbb7a9f16012f3a81e2e9e161d5896159759bfc293ae2a643e73c8b3763b74",
+      "reference_instructions": [
+        83352
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 31,
+      "opening_row": 271,
+      "text": "feels awfully piercing.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_83364",
+      "group_ids": [
+        "00:00065:text:0002784e",
+        "00:00065:text:00027862"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027878": {
+      "id": "00:00065:text:00027878",
+      "source_offset": 161912,
+      "source_sha256": "ae87610f1b2e3a15bc67a441bc2665f1a919d30a2b2e37daf92806bb455e737b",
+      "reference_instructions": [
+        83384
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 32,
+      "opening_row": 272,
+      "text": "That stare",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_83404",
+      "group_ids": [
+        "00:00065:text:00027878",
+        "00:00065:text:0002788c"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002788c": {
+      "id": "00:00065:text:0002788c",
+      "source_offset": 161932,
+      "source_sha256": "c8d18d6620b3e309516509eda36ec07c08bb052a0ce5a9fa192aebcb573a3191",
+      "reference_instructions": [
+        83392
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 33,
+      "opening_row": 273,
+      "text": "is awfully piercing.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_83404",
+      "group_ids": [
+        "00:00065:text:00027878",
+        "00:00065:text:0002788c"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002789e": {
+      "id": "00:00065:text:0002789e",
+      "source_offset": 161950,
+      "source_sha256": "8c47e64e0e3fbfb4192c3af4518f7789b5ef0a4b0e6635ff93d8e2181f89dc47",
+      "reference_instructions": [
+        83428
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 34,
+      "opening_row": 274,
+      "text": "Well, putting aside",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83456",
+      "group_ids": [
+        "00:00065:text:0002789e",
+        "00:00065:text:000278b4",
+        "00:00065:text:000278ca"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000278b4": {
+      "id": "00:00065:text:000278b4",
+      "source_offset": 161972,
+      "source_sha256": "e35fabafd1d3cc422910f7c54f99fd4c40ff2ab0f942a2a22e370e71f4e65ada",
+      "reference_instructions": [
+        83436
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 35,
+      "opening_row": 275,
+      "text": "what you're wearing, the rest of you",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83456",
+      "group_ids": [
+        "00:00065:text:0002789e",
+        "00:00065:text:000278b4",
+        "00:00065:text:000278ca"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000278ca": {
+      "id": "00:00065:text:000278ca",
+      "source_offset": 161994,
+      "source_sha256": "6c97c3c4d60c91208db26300e8133fded5b42baf11e5f66f711134a0793f69c1",
+      "reference_instructions": [
+        83444
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 36,
+      "opening_row": 276,
+      "text": "seems to pass muster.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83456",
+      "group_ids": [
+        "00:00065:text:0002789e",
+        "00:00065:text:000278b4",
+        "00:00065:text:000278ca"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000278e0": {
+      "id": "00:00065:text:000278e0",
+      "source_offset": 162016,
+      "source_sha256": "387e8b9eb668e62f7aacb1c5df4f60b6dd646a7e7992ff1f9f13b5d8a0328cd4",
+      "reference_instructions": [
+        83490
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 37,
+      "opening_row": 277,
+      "text": "Though that air",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030. Additional group only when global[60] == 1.",
+      "sentence_group": "opening003_display_83518",
+      "group_ids": [
+        "00:00065:text:000278e0",
+        "00:00065:text:000278f6",
+        "00:00065:text:0002790a"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000278f6": {
+      "id": "00:00065:text:000278f6",
+      "source_offset": 162038,
+      "source_sha256": "df56743cf4b76022dce7975fe0ac4e1528ee82bd2294e85ffa3c9df9cc10811b",
+      "reference_instructions": [
+        83498
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 38,
+      "opening_row": 278,
+      "text": "of having grown up in the country",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030. Additional group only when global[60] == 1.",
+      "sentence_group": "opening003_display_83518",
+      "group_ids": [
+        "00:00065:text:000278e0",
+        "00:00065:text:000278f6",
+        "00:00065:text:0002790a"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002790a": {
+      "id": "00:00065:text:0002790a",
+      "source_offset": 162058,
+      "source_sha256": "455de86ee0b13ea805d5799853d104cc0d2c2e5035c031db5d8034668543048d",
+      "reference_instructions": [
+        83506
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 39,
+      "opening_row": 279,
+      "text": "is rather unacceptable...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030. Additional group only when global[60] == 1.",
+      "sentence_group": "opening003_display_83518",
+      "group_ids": [
+        "00:00065:text:000278e0",
+        "00:00065:text:000278f6",
+        "00:00065:text:0002790a"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002791e": {
+      "id": "00:00065:text:0002791e",
+      "source_offset": 162078,
+      "source_sha256": "d0e1c4b000556c1c19e0debd4b010615b2c6ea5a63471c25862a3a91bd838ecd",
+      "reference_instructions": [
+        83592
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 40,
+      "opening_row": 280,
+      "text": "What?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2030.",
+      "sentence_group": "opening003_display_83604",
+      "group_ids": [
+        "00:00065:text:0002791e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027924": {
+      "id": "00:00065:text:00027924",
+      "source_offset": 162084,
+      "source_sha256": "8f66cc7ef691d44277eb2b62230502269228d8270e433596e4e45110105de584",
+      "reference_instructions": [
+        83628
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 41,
+      "opening_row": 281,
+      "text": "Let me make this clear from the start.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83656",
+      "group_ids": [
+        "00:00065:text:00027924",
+        "00:00065:text:00027940",
+        "00:00065:text:00027958"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027940": {
+      "id": "00:00065:text:00027940",
+      "source_offset": 162112,
+      "source_sha256": "4bf01b1fa23c11c6f70ef7ef1da7645fa2e5cd6ba7f90b290373ff498c7c651f",
+      "reference_instructions": [
+        83636
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 42,
+      "opening_row": 282,
+      "text": "Before you are my teacher,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83656",
+      "group_ids": [
+        "00:00065:text:00027924",
+        "00:00065:text:00027940",
+        "00:00065:text:00027958"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027958": {
+      "id": "00:00065:text:00027958",
+      "source_offset": 162136,
+      "source_sha256": "bee7585b8475a3960612a7e3932befa002300603d94e3bb2367acf5afbd94b97",
+      "reference_instructions": [
+        83644
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 43,
+      "opening_row": 283,
+      "text": "you are my servant.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83656",
+      "group_ids": [
+        "00:00065:text:00027924",
+        "00:00065:text:00027940",
+        "00:00065:text:00027958"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027970": {
+      "id": "00:00065:text:00027970",
+      "source_offset": 162160,
+      "source_sha256": "9625e35badd656de4b91e8ef6498b215b503a7ccab5ca664919a17fadb5cbd6d",
+      "reference_instructions": [
+        83680
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 44,
+      "opening_row": 284,
+      "text": "I expect you",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83708",
+      "group_ids": [
+        "00:00065:text:00027970",
+        "00:00065:text:00027984",
+        "00:00065:text:00027998"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027984": {
+      "id": "00:00065:text:00027984",
+      "source_offset": 162180,
+      "source_sha256": "d01d0f25255c804d858caa34eafe9bcae452aaae0162ff704622ac5bd229152d",
+      "reference_instructions": [
+        83688
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 45,
+      "opening_row": 285,
+      "text": "to keep that firmly in mind",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83708",
+      "group_ids": [
+        "00:00065:text:00027970",
+        "00:00065:text:00027984",
+        "00:00065:text:00027998"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027998": {
+      "id": "00:00065:text:00027998",
+      "source_offset": 162200,
+      "source_sha256": "d1c98c614b12071e1f46a4033b084ca18a7927a8c8db04d5a4454e6e7f7a0213",
+      "reference_instructions": [
+        83696
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 46,
+      "opening_row": 286,
+      "text": "and behave accordingly.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_83708",
+      "group_ids": [
+        "00:00065:text:00027970",
+        "00:00065:text:00027984",
+        "00:00065:text:00027998"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000279ac": {
+      "id": "00:00065:text:000279ac",
+      "source_offset": 162220,
+      "source_sha256": "12c73e10cf56034d32296fc00fe060fde1d21235dba62dd3c568bc80a1cdf556",
+      "reference_instructions": [
+        83782
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 47,
+      "opening_row": 287,
+      "text": "C-could it be...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2044.",
+      "sentence_group": "opening003_display_83802",
+      "group_ids": [
+        "00:00065:text:000279ac",
+        "00:00065:text:000279bc"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000279bc": {
+      "id": "00:00065:text:000279bc",
+      "source_offset": 162236,
+      "source_sha256": "dd7da63e10c3a76cb278816078c715da426ab66748cfb1274e04600c449e2a82",
+      "reference_instructions": [
+        83790
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 48,
+      "opening_row": 288,
+      "text": "this child!?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2044.",
+      "sentence_group": "opening003_display_83802",
+      "group_ids": [
+        "00:00065:text:000279ac",
+        "00:00065:text:000279bc"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000279ca": {
+      "id": "00:00065:text:000279ca",
+      "source_offset": 162250,
+      "source_sha256": "c50dc33161222471cf6f0b71355ade74d22f7553f42c9e57302ecfc095384ac2",
+      "reference_instructions": [
+        83814
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 49,
+      "opening_row": 289,
+      "text": "Young miss!?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor303; helper word2030.",
+      "sentence_group": "opening003_display_83842",
+      "group_ids": [
+        "00:00065:text:000279ca",
+        "00:00065:text:000279dc",
+        "00:00065:text:000279fa"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000279dc": {
+      "id": "00:00065:text:000279dc",
+      "source_offset": 162268,
+      "source_sha256": "ed8107f5a8efc739fa01cc1f1c87b1a16a1df047893cb2b7243851740397fa73",
+      "reference_instructions": [
+        83822
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 50,
+      "opening_row": 290,
+      "text": "I've told you time and again",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor303; helper word2030.",
+      "sentence_group": "opening003_display_83842",
+      "group_ids": [
+        "00:00065:text:000279ca",
+        "00:00065:text:000279dc",
+        "00:00065:text:000279fa"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000279fa": {
+      "id": "00:00065:text:000279fa",
+      "source_offset": 162298,
+      "source_sha256": "0c6e83d76ffc641e4b42479aaba854df2a88cfaedb4df610ae7d140581090ab8",
+      "reference_instructions": [
+        83830
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 51,
+      "opening_row": 291,
+      "text": "that you mustn't go off on your own!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor303; helper word2030.",
+      "sentence_group": "opening003_display_83842",
+      "group_ids": [
+        "00:00065:text:000279ca",
+        "00:00065:text:000279dc",
+        "00:00065:text:000279fa"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027a14": {
+      "id": "00:00065:text:00027a14",
+      "source_offset": 162324,
+      "source_sha256": "48fc5cdb778fa1237243b706a68e98c2b3a62f02f155a147625ea5b3ed73d3b2",
+      "reference_instructions": [
+        83916
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 52,
+      "opening_row": 292,
+      "text": "Ah, ha ha ha...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2030.",
+      "sentence_group": "opening003_display_83936",
+      "group_ids": [
+        "00:00065:text:00027a14",
+        "00:00065:text:00027a28"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027a28": {
+      "id": "00:00065:text:00027a28",
+      "source_offset": 162344,
+      "source_sha256": "95acba085913be7c53e3d84b25ed0b23438eabf0c13cc5b8463603b32571ae1d",
+      "reference_instructions": [
+        83924
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 53,
+      "opening_row": 293,
+      "text": "Just as I thought...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 2. Display actor200; helper word2030.",
+      "sentence_group": "opening003_display_83936",
+      "group_ids": [
+        "00:00065:text:00027a14",
+        "00:00065:text:00027a28"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027a38": {
+      "id": "00:00065:text:00027a38",
+      "source_offset": 162360,
+      "source_sha256": "92b78b123fe2f4911a90c62f82c9584bc3d120f46c8b05e0a379df3514046717",
+      "reference_instructions": [
+        84002
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 54,
+      "opening_row": 294,
+      "text": "U-um...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_84014",
+      "group_ids": [
+        "00:00065:text:00027a38"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027a4a": {
+      "id": "00:00065:text:00027a4a",
+      "source_offset": 162378,
+      "source_sha256": "aad930b62c57b98c3eef6a2f53093ba6b477bd165c065c6b06cf7fcf7ecfb57c",
+      "reference_instructions": [
+        84040
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 55,
+      "opening_row": 295,
+      "text": "Huh?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_84052",
+      "group_ids": [
+        "00:00065:text:00027a4a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027a50": {
+      "id": "00:00065:text:00027a50",
+      "source_offset": 162384,
+      "source_sha256": "cba28379e34f8cdc7b3f5f22176278568b785587032a05c3b1fe846657114def",
+      "reference_instructions": [
+        84070
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 56,
+      "opening_row": 296,
+      "text": "Yes?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_84082",
+      "group_ids": [
+        "00:00065:text:00027a50"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027a58": {
+      "id": "00:00065:text:00027a58",
+      "source_offset": 162392,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "reference_instructions": [
+        84106
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 57,
+      "opening_row": 297,
+      "text": "......",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_84118",
+      "group_ids": [
+        "00:00065:text:00027a58"
+      ],
+      "notes": [
+        "Silent six-dot pause retained; no spoken words added."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027a66": {
+      "id": "00:00065:text:00027a66",
+      "source_offset": 162406,
+      "source_sha256": "29ab3891f04fefe82a3161975be766c31ecfae76087588edc1621da71b83cdaa",
+      "reference_instructions": [
+        84144
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 58,
+      "opening_row": 298,
+      "text": "Do you need something from me?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_84156",
+      "group_ids": [
+        "00:00065:text:00027a66"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027a7c": {
+      "id": "00:00065:text:00027a7c",
+      "source_offset": 162428,
+      "source_sha256": "65588c1fbc44af9f178bc660fe1fa1eb9b4b41aaca9c6ffd2351533188d720d6",
+      "reference_instructions": [
+        84176
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 59,
+      "opening_row": 299,
+      "text": "Is there something I can do for you?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_84188",
+      "group_ids": [
+        "00:00065:text:00027a7c"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027a92": {
+      "id": "00:00065:text:00027a92",
+      "source_offset": 162450,
+      "source_sha256": "9c829d5d39169b4e1c579c6edcedf779e8c09247e78e1039c0b29e6e1a6ad5be",
+      "reference_instructions": [
+        84212
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 60,
+      "opening_row": 300,
+      "text": "Ah... um...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_84232",
+      "group_ids": [
+        "00:00065:text:00027a92",
+        "00:00065:text:00027aa8"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027aa8": {
+      "id": "00:00065:text:00027aa8",
+      "source_offset": 162472,
+      "source_sha256": "3da8e2d27e5f32495d91f7387d17c36f66024225b562ec1b25263921d23942db",
+      "reference_instructions": [
+        84220
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 61,
+      "opening_row": 301,
+      "text": "Well...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_84232",
+      "group_ids": [
+        "00:00065:text:00027a92",
+        "00:00065:text:00027aa8"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027ab6": {
+      "id": "00:00065:text:00027ab6",
+      "source_offset": 162486,
+      "source_sha256": "958ef802f4d07dfdab3ae00099b93dfc759c5d73059a7e756276051894591bc0",
+      "reference_instructions": [
+        84260
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 62,
+      "opening_row": 302,
+      "text": "Did you get separated from someone?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_84288",
+      "group_ids": [
+        "00:00065:text:00027ab6",
+        "00:00065:text:00027aca",
+        "00:00065:text:00027ae0"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027aca": {
+      "id": "00:00065:text:00027aca",
+      "source_offset": 162506,
+      "source_sha256": "622ebfa41f27587bffd69ede1bf731a0c8b5c03cc14f60cf6d101eac3a1660fe",
+      "reference_instructions": [
+        84268
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 63,
+      "opening_row": 303,
+      "text": "If so, I'll help you",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_84288",
+      "group_ids": [
+        "00:00065:text:00027ab6",
+        "00:00065:text:00027aca",
+        "00:00065:text:00027ae0"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027ae0": {
+      "id": "00:00065:text:00027ae0",
+      "source_offset": 162528,
+      "source_sha256": "080a7f34f9d73116895abf4ba16f2f3421702a1ab3cad21b3b8610ec61955761",
+      "reference_instructions": [
+        84276
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 64,
+      "opening_row": 304,
+      "text": "look for them.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_84288",
+      "group_ids": [
+        "00:00065:text:00027ab6",
+        "00:00065:text:00027aca",
+        "00:00065:text:00027ae0"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027af0": {
+      "id": "00:00065:text:00027af0",
+      "source_offset": 162544,
+      "source_sha256": "49c47172980b57658afbf4f5228330293dd7492dde762761b0ac8da42c51e061",
+      "reference_instructions": [
+        84308
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 65,
+      "opening_row": 305,
+      "text": "Are you lost, by any chance?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_84336",
+      "group_ids": [
+        "00:00065:text:00027af0",
+        "00:00065:text:00027b04",
+        "00:00065:text:00027b1a"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027b04": {
+      "id": "00:00065:text:00027b04",
+      "source_offset": 162564,
+      "source_sha256": "dcf6ae8e33ff9b2c45f6ae42b0c5720634ade59ab9c8fa0c88b65ffbcb2174c7",
+      "reference_instructions": [
+        84316
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 66,
+      "opening_row": 306,
+      "text": "If so, shall we",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_84336",
+      "group_ids": [
+        "00:00065:text:00027af0",
+        "00:00065:text:00027b04",
+        "00:00065:text:00027b1a"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027b1a": {
+      "id": "00:00065:text:00027b1a",
+      "source_offset": 162586,
+      "source_sha256": "c6cdc7169c133478d53d429497b1c2162aebec7b141d8472593a973f28cafffd",
+      "reference_instructions": [
+        84324
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 67,
+      "opening_row": 307,
+      "text": "look together?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_84336",
+      "group_ids": [
+        "00:00065:text:00027af0",
+        "00:00065:text:00027b04",
+        "00:00065:text:00027b1a"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027b2c": {
+      "id": "00:00065:text:00027b2c",
+      "source_offset": 162604,
+      "source_sha256": "aad930b62c57b98c3eef6a2f53093ba6b477bd165c065c6b06cf7fcf7ecfb57c",
+      "reference_instructions": [
+        84360
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 68,
+      "opening_row": 308,
+      "text": "Huh?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_84372",
+      "group_ids": [
+        "00:00065:text:00027b2c"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027b32": {
+      "id": "00:00065:text:00027b32",
+      "source_offset": 162610,
+      "source_sha256": "39127cc75e485ef6127e0ded84c311283970f0557199982485a350a51d7e699e",
+      "reference_instructions": [
+        84446
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 69,
+      "opening_row": 309,
+      "text": "Your dad?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030.",
+      "sentence_group": "opening003_display_84466",
+      "group_ids": [
+        "00:00065:text:00027b32",
+        "00:00065:text:00027b42"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027b42": {
+      "id": "00:00065:text:00027b42",
+      "source_offset": 162626,
+      "source_sha256": "50d168b8a067d61d02a20461057f90b90f970c87a0812aad65b8f6c96606b9aa",
+      "reference_instructions": [
+        84454
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 70,
+      "opening_row": 310,
+      "text": "Or your mom?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030.",
+      "sentence_group": "opening003_display_84466",
+      "group_ids": [
+        "00:00065:text:00027b32",
+        "00:00065:text:00027b42"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027b58": {
+      "id": "00:00065:text:00027b58",
+      "source_offset": 162648,
+      "source_sha256": "507dad1a06a39a15b1647287d261a2afcf8eaf0341dd768ba93b6f12f276ffc1",
+      "reference_instructions": [
+        84490
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 71,
+      "opening_row": 311,
+      "text": "N-no...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_84518",
+      "group_ids": [
+        "00:00065:text:00027b58",
+        "00:00065:text:00027b6c",
+        "00:00065:text:00027b7e"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027b6c": {
+      "id": "00:00065:text:00027b6c",
+      "source_offset": 162668,
+      "source_sha256": "acf5beda7b145fe5b4c2415d8babfaa390a9586dc98cbe8cf076bdb08419fb96",
+      "reference_instructions": [
+        84498
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 72,
+      "opening_row": 312,
+      "text": "That's not it.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_84518",
+      "group_ids": [
+        "00:00065:text:00027b58",
+        "00:00065:text:00027b6c",
+        "00:00065:text:00027b7e"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027b7e": {
+      "id": "00:00065:text:00027b7e",
+      "source_offset": 162686,
+      "source_sha256": "788441f03e50074e2f56c57d1687cd3918cda623af6e1c3bc6470de28d5a1766",
+      "reference_instructions": [
+        84506
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 73,
+      "opening_row": 313,
+      "text": "Um, um...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor212; helper word2030.",
+      "sentence_group": "opening003_display_84518",
+      "group_ids": [
+        "00:00065:text:00027b58",
+        "00:00065:text:00027b6c",
+        "00:00065:text:00027b7e"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027b92": {
+      "id": "00:00065:text:00027b92",
+      "source_offset": 162706,
+      "source_sha256": "83130ee009eb70115ddacd0b2109579c86ebfad883391519025c781434683f6d",
+      "reference_instructions": [
+        84546
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 74,
+      "opening_row": 314,
+      "text": "Whoa, hang on!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_84566",
+      "group_ids": [
+        "00:00065:text:00027b92",
+        "00:00065:text:00027ba4"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027ba4": {
+      "id": "00:00065:text:00027ba4",
+      "source_offset": 162724,
+      "source_sha256": "46cc65fbea8929944153c3448984bca33725b8da097d2db26e396a3342bcd5e9",
+      "reference_instructions": [
+        84554
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 75,
+      "opening_row": 315,
+      "text": "Please don't cry...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] == 0.",
+      "sentence_group": "opening003_display_84566",
+      "group_ids": [
+        "00:00065:text:00027b92",
+        "00:00065:text:00027ba4"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027bb6": {
+      "id": "00:00065:text:00027bb6",
+      "source_offset": 162742,
+      "source_sha256": "bec1f2d6b9ec5ea70ef60fb9972888a8e5ab410599eabb0811409463c0814720",
+      "reference_instructions": [
+        84586
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 76,
+      "opening_row": 316,
+      "text": "There, there. Don't cry, all right?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_84606",
+      "group_ids": [
+        "00:00065:text:00027bb6",
+        "00:00065:text:00027bca"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027bca": {
+      "id": "00:00065:text:00027bca",
+      "source_offset": 162762,
+      "source_sha256": "206afc4427a707a4939cfb1823bcbcc8d1e0aafb1acc404c40e6dfe55d28185d",
+      "reference_instructions": [
+        84594
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 77,
+      "opening_row": 317,
+      "text": "Don't worry...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030. Protagonist alternative global[60] != 0.",
+      "sentence_group": "opening003_display_84606",
+      "group_ids": [
+        "00:00065:text:00027bb6",
+        "00:00065:text:00027bca"
+      ],
+      "notes": [
+        "English meaning is coordinated across this complete display group; review and insert group_ids together.",
+        "Reassurance remains interrupted by the attendant in the next display; exact phrasing needs independent review."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027bd8": {
+      "id": "00:00065:text:00027bd8",
+      "source_offset": 162776,
+      "source_sha256": "c50dc33161222471cf6f0b71355ade74d22f7553f42c9e57302ecfc095384ac2",
+      "reference_instructions": [
+        84618
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 78,
+      "opening_row": 318,
+      "text": "Young miss!?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor303; helper word2030.",
+      "sentence_group": "opening003_display_84630",
+      "group_ids": [
+        "00:00065:text:00027bd8"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027bea": {
+      "id": "00:00065:text:00027bea",
+      "source_offset": 162794,
+      "source_sha256": "aad930b62c57b98c3eef6a2f53093ba6b477bd165c065c6b06cf7fcf7ecfb57c",
+      "reference_instructions": [
+        84702
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 79,
+      "opening_row": 319,
+      "text": "Huh?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Student introduction variant global[64] == 3. Display actor200; helper word2030.",
+      "sentence_group": "opening003_display_84714",
+      "group_ids": [
+        "00:00065:text:00027bea"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    }
+  }
+}

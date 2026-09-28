@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-09-26",
+  "reviewer": "independent_setup_ui_meaning_review",
+  "status": "meaning_review_complete_with_two_provisional_function_labels",
+  "target_path": "work/translation/en/setup_ui.screenshot_drafts.json",
+  "target_sha256": "b98060f9593900f0e22c5670c4cb102e9e2777209eda4cc91b3f2eb9093b10d1",
+  "proposed_glossary_path": "work/glossary/setup_ui.proposed.json",
+  "proposed_glossary_sha256": "47a0fdee8f084e5f3ca56dd09fdca6a2858461f049410560ed65abd0eb868958",
+  "original_elf_path": "work/source/EBOOT.elf",
+  "original_elf_sha256": "82cc184377986d90d298ee4918fb11bd0e3524659e5c6f8b7b3c859f4d232684",
+  "coverage": {
+    "records_assigned": 32,
+    "records_examined": 32,
+    "screenshots_examined": 5,
+    "visible_unique_records": 26,
+    "supplementary_binary_only_records": 6,
+    "exact_binary_fragments_checked": 12,
+    "meaning_pass": 30,
+    "provisional_function_labels": 2,
+    "required_translation_corrections": 0,
+    "glossary_proposals_examined": 9
+  },
+  "screenshots": [
+    {
+      "id": 1,
+      "path": "C:/Users/Binh/AppData/Local/Temp/codex-clipboard-239a0ac2-4e55-422b-b060-7a71a3e30e72.png",
+      "width": 960,
+      "height": 544,
+      "sha256": "f28f3a9ae165502edea1e7c80d0c60d8d789a8803d1ea9d07dba76474fd015c1"
+    },
+    {
+      "id": 2,
+      "path": "C:/Users/Binh/AppData/Local/Temp/codex-clipboard-bcffc253-6f7e-43d8-a947-c013d3cc83d3.png",
+      "width": 960,
+      "height": 544,
+      "sha256": "2e463e177992079f8799aacaab0e973f7493ac903a7663ae25fafcbbfb9b5ec6"
+    },
+    {
+      "id": 3,
+      "path": "C:/Users/Binh/AppData/Local/Temp/codex-clipboard-d5e4adcd-8c25-47a6-93a0-0e256cc5bb53.png",
+      "width": 960,
+      "height": 544,
+      "sha256": "48565053e05966b9ac7e0f78a3cf76625e1503d5302a67983a8b016552104b30"
+    },
+    {
+      "id": 4,
+      "path": "C:/Users/Binh/AppData/Local/Temp/codex-clipboard-bf3361a0-a1d8-4328-94d3-8f0fa5b3a0fb.png",
+      "width": 960,
+      "height": 544,
+      "sha256": "7b568ab194bb1476af36a3c31b342f9dd65cdd86de1bc229bd65e1fcefb9dfef"
+    },
+    {
+      "id": 5,
+      "path": "C:/Users/Binh/AppData/Local/Temp/codex-clipboard-d72912c4-b449-4ff1-ae58-c0157f416bfa.png",
+      "width": 462,
+      "height": 149,
+      "sha256": "ef04d0b43e440bd5c8e31eba85dfeda8ded24bf992d716eda2806ba222abf401"
+    }
+  ],
+  "binary_checks": [
+    {
+      "id": "options.bgm_help",
+      "offset": "0x21ca58",
+      "exact_match": true
+    },
+    {
+      "id": "name.default_rexx",
+      "offset": "0x21c978",
+      "exact_match": true
+    },
+    {
+      "id": "name.confirm_prompt",
+      "offset": "0x21c990",
+      "exact_match": true
+    },
+    {
+      "id": "name.confirm_prompt",
+      "offset": "0x21c994",
+      "exact_match": true
+    },
+    {
+      "id": "common.yes",
+      "offset": "0x21c9ac",
+      "exact_match": true
+    },
+    {
+      "id": "common.no",
+      "offset": "0x21c9b4",
+      "exact_match": true
+    },
+    {
+      "id": "options.voices_help",
+      "offset": "0x21ca7c",
+      "exact_match": true
+    },
+    {
+      "id": "options.forecast_help",
+      "offset": "0x21caa0",
+      "exact_match": true
+    },
+    {
+      "id": "options.cursor_help",
+      "offset": "0x21cac8",
+      "exact_match": true
+    },
+    {
+      "id": "options.lr_help",
+      "offset": "0x21caf0",
+      "exact_match": true
+    },
+    {
+      "id": "name.empty_prompt",
+      "offset": "0x21c9bc",
+      "exact_match": true
+    },
+    {
+      "id": "name.default_aty",
+      "offset": "0x21c984",
+      "exact_match": true
+    }
+  ],
+  "required_fixes": [],
+  "release_conditions": [
+    {
+      "id": "name.auto",
+      "action": "Verify the native handler or live behavior; retain provisional status until then."
+    },
+    {
+      "id": "name.convert",
+      "action": "Verify the unblurred native text asset and actual conversion behavior before approving a final label."
+    },
+    {
+      "id": "name.confirm_prompt",
+      "action": "Verify runtime-name composition and maximum expanded-name width at the insertion callsites."
+    },
+    {
+      "id": "all",
+      "action": "Meaning approval does not establish layout fit, texture boundaries, relocation safety, or in-game rendering; validate those separately."
+    }
+  ],
+  "records": [
+    {
+      "id": "options.title",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "options.bgm",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "options.voices",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "options.forecast",
+      "result": "pass",
+      "note": "Damage is supported by the exact ELF help; not an unsupported expansion of the shorter visible label."
+    },
+    {
+      "id": "options.cursor",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "options.lr",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "options.bgm_help",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "common.confirm",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "options.exit",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "setup.select_prompt",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "setup.spirit_affinity",
+      "result": "pass",
+      "note": "Spirit Affinity is a valid terminology choice, with wiki support; retain the separate styled affinity glyph and adjacent label as needed."
+    },
+    {
+      "id": "setup.spirit_realm",
+      "result": "pass",
+      "note": "Sapureth follows the researched wiki spelling. Colon styling is a presentation choice, not a meaning defect."
+    },
+    {
+      "id": "setup.spirit_lore",
+      "result": "pass",
+      "note": "Pass: includes angels and demons, and explicitly limits immortality to the Spirit World. Do not broaden this into universal invulnerability."
+    },
+    {
+      "id": "setup.spirit_gameplay",
+      "result": "pass",
+      "note": "Pass: preserves recovery/healing, status ailments, possession effects, and suitability for beginners. Source does not identify recovery/healing as a precise HP/status-cure split. Possession must remain distinct from ailments and is not limited to beneficial buffs."
+    },
+    {
+      "id": "name.prompt",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "name.default_rexx",
+      "result": "pass",
+      "note": "Pass: existing glossary spelling is fixed; the screenshot cursor is not part of the name."
+    },
+    {
+      "id": "name.delete",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "name.auto",
+      "result": "provisional_function_label",
+      "note": "Acceptable provisional meaning, but production label remains conditional. The screenshot does not distinguish restoring a default from random generation. Auto-Name avoids choosing either specific behavior; verify the handler or live behavior before finalizing."
+    },
+    {
+      "id": "name.hiragana",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "name.katakana",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "name.alnum",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "name.symbols",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "name.convert",
+      "result": "provisional_function_label",
+      "note": "Hold for source and behavior verification. The screenshot plausibly reads the supplied two-character label, but its small blurred first glyph and actual function are not sufficiently certain for release. Convert is provisional; do not claim uppercase/lowercase or kana conversion without evidence."
+    },
+    {
+      "id": "name.confirm_prompt",
+      "result": "pass",
+      "note": "Pass: the literal-name screenshot instance is accompanied by a correct literal/runtime-name/literal composition. Preserve the existing runtime insertion; never insert the example name as a fixed value."
+    },
+    {
+      "id": "common.yes",
+      "result": "pass",
+      "note": "Pass: the original full-width spacing is visual formatting, not a token requiring a corresponding English internal space."
+    },
+    {
+      "id": "common.no",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "options.voices_help",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "options.forecast_help",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "options.cursor_help",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "options.lr_help",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "name.empty_prompt",
+      "result": "pass",
+      "note": "Meaning matches the supplied screenshot or independently verified ELF source; no correction required."
+    },
+    {
+      "id": "name.default_aty",
+      "result": "pass",
+      "note": "Pass: exact original ELF spelling independently matched, and established English glossary spelling is preserved."
+    }
+  ],
+  "glossary_review": {
+    "result": "proposals_acceptable_for_consistent_project_use",
+    "entries": [
+      {
+        "id": "realm.loreilal",
+        "target_name": "Loreilal",
+        "result": "pass_proposal"
+      },
+      {
+        "id": "realm.silturn",
+        "target_name": "Silturn",
+        "result": "pass_proposal"
+      },
+      {
+        "id": "realm.sapureth",
+        "target_name": "Sapureth",
+        "result": "pass_proposal"
+      },
+      {
+        "id": "realm.maetropa",
+        "target_name": "Maetropa",
+        "result": "pass_proposal"
+      },
+      {
+        "id": "affinity.machine",
+        "target_name": "Machine",
+        "result": "pass_proposal"
+      },
+      {
+        "id": "affinity.yokai",
+        "target_name": "Yokai",
+        "result": "pass_proposal"
+      },
+      {
+        "id": "affinity.spirit",
+        "target_name": "Spirit",
+        "result": "pass_proposal"
+      },
+      {
+        "id": "affinity.beast",
+        "target_name": "Beast",
+        "result": "pass_proposal"
+      },
+      {
+        "id": "mechanic.possession",
+        "target_name": "Possession",
+        "result": "pass_proposal"
+      }
+    ],
+    "notes": [
+      "Loreilal and Silturn match wiki names; official SN5 manual instead prints Loirelal and Silturan. These are recorded variants, not justification to silently rename approved project terms.",
+      "The four world titles and Sapureth/Maetropa spellings are independently supported by the official SN5 manual search extract. This is naming evidence, not proof of an official English SN3 translation.",
+      "Wiki.gg Air Colthearts search extract lists all four proposed affinity names. Yokai is accepted over the older Youkai/Oni variants for consistency with the chosen source.",
+      "Possession is a defensible literal mechanic term. Japanese SN3 wiki distinguishes timed beneficial and harmful possession effects from status ailments; this does not independently prove an official English label.",
+      "Several direct wiki/manual fetches were blocked; their search-indexed extracts were checked instead. Direct Maetropa page title verification was unavailable; its spelling and Beast World title were independently supported by the official manual and other wiki entries.",
+      "Do not automatically replace every occurrence of a single Japanese affinity glyph in running prose; normalize only classified term usages."
+    ]
+  },
+  "preferences_not_required_fixes": [
+    "Event Voices versus Story Voices is a stylistic choice; the present draft is faithful.",
+    "Choose your protagonist versus Select a character is a stylistic choice; do not rewrite on preference alone.",
+    "Recovery and healing may be refined after mechanic evidence, but the current wording does not omit source meaning."
+  ],
+  "sources_checked": [
+    {
+      "url": "https://summonnight.fandom.com/wiki/Loreilal",
+      "access": "search_index_extract",
+      "supports": "Loreilal; Machine World"
+    },
+    {
+      "url": "https://summonnight.fandom.com/wiki/Silturn",
+      "access": "search_index_extract",
+      "supports": "Silturn; Yokai World"
+    },
+    {
+      "url": "https://summonnight.fandom.com/wiki/Piar",
+      "access": "search_index_extract",
+      "supports": "Sapureth; Spirit affinity"
+    },
+    {
+      "url": "https://summonnight.wiki.gg/wiki/Air_Colthearts",
+      "access": "search_index_extract",
+      "supports": "Machine, Yokai, Spirit, Beast affinity names"
+    },
+    {
+      "url": "https://www.gaijinworks.com/OnlineManuals/SN5/SummonNight5_USA.pdf",
+      "access": "search_index_extract",
+      "supports": "Four world titles and official SN5 spelling variants"
+    },
+    {
+      "url": "https://w.atwiki.jp/sn3psp/pages/112.html",
+      "access": "direct_page",
+      "supports": "Distinct status-ailment and possession categories; positive/negative timed possession effects"
+    }
+  ],
+  "scope_limits": [
+    "This review covers exactly the submitted 32-record draft and 9 proposed terms, not all related UI resources subsequently discovered.",
+    "Japanese keyboard characters are input data; leaving them available is correct and does not require translating each character.",
+    "No translator file, glossary, image, game data, or emulator state was modified by this review.",
+    "After any required meaning corrections or final function-label resolution, run scripted glossary normalization separately as required by BASE_RULES.md."
+  ]
+}

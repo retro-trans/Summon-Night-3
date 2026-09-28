@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "build_version": "0.1.21",
+  "language": "en",
+  "review_type": "Summon Index selected-spell description review",
+  "source": {
+    "build": "work/output/0.1.20/Summon_Night_3_EN_0.1.20.iso",
+    "table_id": "02:00003/00013",
+    "resource_path": [
+      3,
+      13
+    ],
+    "current_table_sha256": "c8f8a093c1a9a4267251b9c34860ae9084aa50d7ba9f19cb3bd55457e9e8f962",
+    "slot": 9,
+    "source_policy": "Source rows and hashes are the original index identities verified against the current 0.1.20 table. Existing spell names are intentionally omitted and unchanged."
+  },
+  "scope": "All twelve nonempty slot-9 pointer groups, with immediately adjacent unreferenced continuation rows where present. No names, other slots, build inputs, or patch code were changed.",
+  "entries": [
+    {
+      "record": 6,
+      "root_id": "02:00003/00013:ui:00002566",
+      "source_sha256": "759256487ca3233053a8ddda5533a1ea6033fa62977a0dc6ee48a6b00a453461",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:00002566",
+          "source_sha256": "759256487ca3233053a8ddda5533a1ea6033fa62977a0dc6ee48a6b00a453461",
+          "source_control_tokens": []
+        },
+        {
+          "id": "02:00003/00013:ui:00002584",
+          "source_sha256": "815757e60858aa4655e07154e58f97359afe49669a4842b8fecbbc35e7581771",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Inflicts sleep, charm, or berserk on one target; its effect varies by screen.",
+      "proposed_display_lines": [
+        "Sleep, Charm, Berserk",
+        "1 target; varies by screen"
+      ],
+      "display_line_lengths": [
+        21,
+        23
+      ],
+      "uncertainty": "Screen is retained literally. The source does not establish whether it means battle map, UI state, or a Trip Vision presentation."
+    },
+    {
+      "record": 221,
+      "root_id": "02:00003/00013:ui:000031c2",
+      "source_sha256": "cc1aa0ed37cfe0388a462ecec7ba2af52003a146d0fce57c37d5466ddb5209b5",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:000031c2",
+          "source_sha256": "cc1aa0ed37cfe0388a462ecec7ba2af52003a146d0fce57c37d5466ddb5209b5",
+          "source_control_tokens": []
+        },
+        {
+          "id": "02:00003/00013:ui:000031e4",
+          "source_sha256": "c93fd62754bf0702570617230b12b6ee3260df096c112bd40e0fdb4ddd072cf8",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Attacks one target with power 8-12; its power varies with the falling object.",
+      "proposed_display_lines": [
+        "Power 8-12; 1 target",
+        "Falling object sets power"
+      ],
+      "display_line_lengths": [
+        20,
+        25
+      ],
+      "uncertainty": null
+    },
+    {
+      "record": 224,
+      "root_id": "02:00003/00013:ui:00003230",
+      "source_sha256": "20e8089d0488dae6916482a1edf747f4b1bfe7fd2545ad207362569e08a8b880",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:00003230",
+          "source_sha256": "20e8089d0488dae6916482a1edf747f4b1bfe7fd2545ad207362569e08a8b880",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Creates a three-level-high platform that physical attacks can destroy.",
+      "proposed_display_lines": [
+        "3-level platform",
+        "Physical attacks break it"
+      ],
+      "display_line_lengths": [
+        16,
+        25
+      ],
+      "uncertainty": null
+    },
+    {
+      "record": 225,
+      "root_id": "02:00003/00013:ui:00003268",
+      "source_sha256": "20e8089d0488dae6916482a1edf747f4b1bfe7fd2545ad207362569e08a8b880",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:00003268",
+          "source_sha256": "20e8089d0488dae6916482a1edf747f4b1bfe7fd2545ad207362569e08a8b880",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Creates a three-level-high platform that physical attacks can destroy.",
+      "proposed_display_lines": [
+        "3-level platform",
+        "Physical attacks break it"
+      ],
+      "display_line_lengths": [
+        16,
+        25
+      ],
+      "uncertainty": null
+    },
+    {
+      "record": 226,
+      "root_id": "02:00003/00013:ui:000032a0",
+      "source_sha256": "eb9c88a30730813402418d536229ae9ffd5e10daa1b244b9838d0bd6d48b2e85",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:000032a0",
+          "source_sha256": "eb9c88a30730813402418d536229ae9ffd5e10daa1b244b9838d0bd6d48b2e85",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Creates a two-level-high platform that physical attacks can destroy.",
+      "proposed_display_lines": [
+        "2-level platform",
+        "Physical attacks break it"
+      ],
+      "display_line_lengths": [
+        16,
+        25
+      ],
+      "uncertainty": null
+    },
+    {
+      "record": 227,
+      "root_id": "02:00003/00013:ui:000032d8",
+      "source_sha256": "eb9c88a30730813402418d536229ae9ffd5e10daa1b244b9838d0bd6d48b2e85",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:000032d8",
+          "source_sha256": "eb9c88a30730813402418d536229ae9ffd5e10daa1b244b9838d0bd6d48b2e85",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Creates a two-level-high platform that physical attacks can destroy.",
+      "proposed_display_lines": [
+        "2-level platform",
+        "Physical attacks break it"
+      ],
+      "display_line_lengths": [
+        16,
+        25
+      ],
+      "uncertainty": null
+    },
+    {
+      "record": 228,
+      "root_id": "02:00003/00013:ui:00003310",
+      "source_sha256": "eb9c88a30730813402418d536229ae9ffd5e10daa1b244b9838d0bd6d48b2e85",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:00003310",
+          "source_sha256": "eb9c88a30730813402418d536229ae9ffd5e10daa1b244b9838d0bd6d48b2e85",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Creates a two-level-high platform that physical attacks can destroy.",
+      "proposed_display_lines": [
+        "2-level platform",
+        "Physical attacks break it"
+      ],
+      "display_line_lengths": [
+        16,
+        25
+      ],
+      "uncertainty": null
+    },
+    {
+      "record": 229,
+      "root_id": "02:00003/00013:ui:00003348",
+      "source_sha256": "08ebec549abd448c4e41ffcd42808a0f25ec62fa647930666784250ef494299c",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:00003348",
+          "source_sha256": "08ebec549abd448c4e41ffcd42808a0f25ec62fa647930666784250ef494299c",
+          "source_control_tokens": []
+        },
+        {
+          "id": "02:00003/00013:ui:0000337e",
+          "source_sha256": "d14b53b02c76278938d3be82242ca41724810a3ccb8f476f6c755b5f3bd4f8f7",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Creates a one-level-high platform that nullifies status effects, including adjacent cells. Physical attacks can destroy it; Cheer, Charge, and Stealth are excluded.",
+      "proposed_display_lines": [
+        "H1 adj: no ailments",
+        "Phys.break;ex.Cheer/Chg/Stl"
+      ],
+      "display_line_lengths": [
+        19,
+        27
+      ],
+      "uncertainty": "All source conditions are retained using UI abbreviations: H1 = one-level height; adj = adjacent cells; Phys.break = breakable by physical attacks; ex = except; Chg = Charge; Stl = Stealth. Add these abbreviations to release notes or the UI glossary before insertion."
+    },
+    {
+      "record": 230,
+      "root_id": "02:00003/00013:ui:000033c0",
+      "source_sha256": "9bbff2560eeda72ba7f6e91cc12a6fd73911c7d916f71eebf750267c7cf4088c",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:000033c0",
+          "source_sha256": "9bbff2560eeda72ba7f6e91cc12a6fd73911c7d916f71eebf750267c7cf4088c",
+          "source_control_tokens": []
+        },
+        {
+          "id": "02:00003/00013:ui:000033f6",
+          "source_sha256": "d14b53b02c76278938d3be82242ca41724810a3ccb8f476f6c755b5f3bd4f8f7",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Creates a one-level-high platform that nullifies possession effects, including adjacent cells. Physical attacks can destroy it; Cheer, Charge, and Stealth are excluded.",
+      "proposed_display_lines": [
+        "H1 adj: no possession",
+        "Phys.break;ex.Cheer/Chg/Stl"
+      ],
+      "display_line_lengths": [
+        21,
+        27
+      ],
+      "uncertainty": "All source conditions are retained using UI abbreviations: H1 = one-level height; adj = adjacent cells; Phys.break = breakable by physical attacks; ex = except; Chg = Charge; Stl = Stealth. Add these abbreviations to release notes or the UI glossary before insertion."
+    },
+    {
+      "record": 231,
+      "root_id": "02:00003/00013:ui:00003436",
+      "source_sha256": "c7c6a06bbbe1eb5113c19f6c71bafb812d72529a7c65a2f3b51c476e61cdd42c",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:00003436",
+          "source_sha256": "c7c6a06bbbe1eb5113c19f6c71bafb812d72529a7c65a2f3b51c476e61cdd42c",
+          "source_control_tokens": []
+        },
+        {
+          "id": "02:00003/00013:ui:0000346e",
+          "source_sha256": "d14b53b02c76278938d3be82242ca41724810a3ccb8f476f6c755b5f3bd4f8f7",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Creates a ZOC-producing obstacle on adjacent cells that physical attacks can destroy.",
+      "proposed_display_lines": [
+        "H1 adj: no ail./possession",
+        "Phys.break;ex.Cheer/Chg/Stl"
+      ],
+      "display_line_lengths": [
+        26,
+        27
+      ],
+      "uncertainty": "All source conditions are retained using UI abbreviations: H1 = one-level height; adj = adjacent cells; Phys.break = breakable by physical attacks; ex = except; Chg = Charge; Stl = Stealth. Add these abbreviations to release notes or the UI glossary before insertion."
+    },
+    {
+      "record": 232,
+      "root_id": "02:00003/00013:ui:000034ac",
+      "source_sha256": "e1aae546d3c554ba24c64a0799c3f8f9afd155769152b005f236a98a3652d194",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:000034ac",
+          "source_sha256": "e1aae546d3c554ba24c64a0799c3f8f9afd155769152b005f236a98a3652d194",
+          "source_control_tokens": []
+        },
+        {
+          "id": "02:00003/00013:ui:000034ca",
+          "source_sha256": "040e4b6b0fb5d1489d11c74a62c31d3360f880fb87ecec76d8728f01ea8d11f1",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Creates an obstacle that creates a ZOC on adjacent cells and can be destroyed by physical attacks.",
+      "proposed_display_lines": [
+        "Creates ZOC adjacent",
+        "Physical attacks break it"
+      ],
+      "display_line_lengths": [
+        20,
+        25
+      ],
+      "uncertainty": null
+    },
+    {
+      "record": 235,
+      "root_id": "02:00003/00013:ui:00003510",
+      "source_sha256": "c4d0b112eb0a6d433fbf5ccf1a9ff4411b76b7bfbcd8a719359b0c4dec0b29fc",
+      "rows": [
+        {
+          "id": "02:00003/00013:ui:00003510",
+          "source_sha256": "c4d0b112eb0a6d433fbf5ccf1a9ff4411b76b7bfbcd8a719359b0c4dec0b29fc",
+          "source_control_tokens": []
+        },
+        {
+          "id": "02:00003/00013:ui:0000353c",
+          "source_sha256": "009c1d43d98c44985d49c8566e0cc922de7b1a53be367d3a4d416b352eccd2a0",
+          "source_control_tokens": []
+        }
+      ],
+      "full_english_meaning": "Creates an obstacle that reduces the power of summon effects and ranged attacks on adjacent cells; physical attacks can destroy it.",
+      "proposed_display_lines": [
+        "Weakens summon/ranged power",
+        "Nearby; physical hits break"
+      ],
+      "display_line_lengths": [
+        27,
+        27
+      ],
+      "uncertainty": null
+    }
+  ],
+  "coverage": {
+    "slot_9_pointer_groups_examined": 12,
+    "slot_9_pointer_groups_remaining": 0,
+    "source_rows_examined": 19,
+    "source_rows_remaining_in_scope": 0,
+    "display_constraints": "Every proposed line is ASCII and no more than 27 characters; each entry has no more than two lines (54 characters total)."
+  }
+}

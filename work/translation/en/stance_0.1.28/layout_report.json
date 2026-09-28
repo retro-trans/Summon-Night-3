@@ -1,0 +1,463 @@
+{
+  "units": [],
+  "tables": [
+    {
+      "child": 31,
+      "changes": [
+        {
+          "id": "02:00003/00031:ui:0000621a",
+          "record": 100,
+          "lines": [
+            "Counter type: retaliate",
+            "when hit within range."
+          ],
+          "full_translation": "Counter type. Counterattack when attacked from within range.",
+          "source_sha256": "c0a2ea69844cf6194efbee8196bdd75b9ac7523b6a55141c5337b7a1ea0af00f",
+          "previous_offset": 34832,
+          "new_offset": 40960,
+          "pointer_fields": [
+            4840
+          ],
+          "glyph_counts": [
+            23,
+            22
+          ],
+          "total_glyphs": 45,
+          "advance_pixels": [
+            164.5,
+            158.375
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:00006250",
+          "record": 101,
+          "lines": [
+            "Guard type: reduces normal",
+            "physical attack damage."
+          ],
+          "full_translation": "Defense type. Reduces damage from normal physical attacks.",
+          "source_sha256": "ddb8a2b33746b0bc7cd9c18e20cbeb3e97b71af1cd389214205e3667fd049d45",
+          "previous_offset": 34968,
+          "new_offset": 41056,
+          "pointer_fields": [
+            4888
+          ],
+          "glyph_counts": [
+            26,
+            23
+          ],
+          "total_glyphs": 49,
+          "advance_pixels": [
+            198.625,
+            173.25
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:00006292",
+          "record": 102,
+          "lines": [
+            "Counter type: counter dmg",
+            "+5% per Skill Lv."
+          ],
+          "full_translation": "Counter type. Counter damage rises by Skill Lv x 5%.",
+          "source_sha256": "b66ced76958b6076ddf8d7501ec6a8ace2db69ce9472229c2362e164a862a366",
+          "previous_offset": 35102,
+          "new_offset": 41160,
+          "pointer_fields": [
+            4936
+          ],
+          "glyph_counts": [
+            25,
+            17
+          ],
+          "total_glyphs": 42,
+          "advance_pixels": [
+            193.375,
+            118.125
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:000062ec",
+          "record": 107,
+          "lines": [
+            "Cntr: physical hits in range",
+            "20%/Lv first; no special."
+          ],
+          "full_translation": "Counter type. When hit by a physical attack from within range, Skill Lv x 20% chance to strike first. Ineffective against special attacks.",
+          "source_sha256": "e67008c7e3bb303c8dfe582e69c5453bd8b3f5ef07a92501dd197cdf59fa8009",
+          "previous_offset": 35224,
+          "new_offset": 41250,
+          "pointer_fields": [
+            5176
+          ],
+          "glyph_counts": [
+            28,
+            25
+          ],
+          "total_glyphs": 53,
+          "advance_pixels": [
+            192.5,
+            182.0
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:0000636e",
+          "record": 111,
+          "lines": [
+            "Counter: strike first vs.",
+            "physical hits in range."
+          ],
+          "full_translation": "Counter type. Strike first when hit by a physical attack in range.",
+          "source_sha256": "ccf9ca9099260052dd233f7b5bbc06bd42111b8a90577a422e784853e051defe",
+          "previous_offset": 35476,
+          "new_offset": 41362,
+          "pointer_fields": [
+            5368
+          ],
+          "glyph_counts": [
+            25,
+            23
+          ],
+          "total_glyphs": 48,
+          "advance_pixels": [
+            167.125,
+            155.75
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:000063c8",
+          "record": 112,
+          "lines": [
+            "Counter type: block normal",
+            "attacks; 7% per Skill Lv."
+          ],
+          "full_translation": "Counter type. Negates normal physical attacks with a Skill Lv x 7% chance.",
+          "source_sha256": "106dac697a1c457fe06b778a3ffe382ef98be05878cc4b7b2e001ee9052a761f",
+          "previous_offset": 35688,
+          "new_offset": 41464,
+          "pointer_fields": [
+            5416
+          ],
+          "glyph_counts": [
+            26,
+            25
+          ],
+          "total_glyphs": 51,
+          "advance_pixels": [
+            191.625,
+            169.75
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:00006420",
+          "record": 117,
+          "lines": [
+            "Guard type: dmg reduction",
+            "+5% per Skill Lv."
+          ],
+          "full_translation": "Defense type. Damage reduction rises by Skill Lv x 5%.",
+          "source_sha256": "099af6ec115efe9151bbfda5c96752d30494f8fa7555a6b9b5294011eb9ded64",
+          "previous_offset": 35858,
+          "new_offset": 41572,
+          "pointer_fields": [
+            5656
+          ],
+          "glyph_counts": [
+            25,
+            17
+          ],
+          "total_glyphs": 42,
+          "advance_pixels": [
+            189.875,
+            118.125
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:00006484",
+          "record": 122,
+          "lines": [
+            "Guard type: evade throws,",
+            "bows, guns +5% per Lv."
+          ],
+          "full_translation": "Defense type. Evasion against throws, bows, and guns rises by Skill Lv x 5%.",
+          "source_sha256": "ac006c75fe744265971b99a56ab5f0bf8811bd34cbcf1bca61863ae5fd4441f2",
+          "previous_offset": 35992,
+          "new_offset": 41662,
+          "pointer_fields": [
+            5896
+          ],
+          "glyph_counts": [
+            25,
+            22
+          ],
+          "total_glyphs": 47,
+          "advance_pixels": [
+            191.625,
+            171.5
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:000064e2",
+          "record": 127,
+          "lines": [
+            "Guard type: evade direct",
+            "attacks +5% per Skill Lv."
+          ],
+          "full_translation": "Defense type. Evasion against all direct attacks rises by Skill Lv x 5%.",
+          "source_sha256": "c5e17e6deaa46f0eeb77de97e2fa755a98bee668a68e70c7204c3a5842b05637",
+          "previous_offset": 36174,
+          "new_offset": 41762,
+          "pointer_fields": [
+            6136
+          ],
+          "glyph_counts": [
+            24,
+            25
+          ],
+          "total_glyphs": 49,
+          "advance_pixels": [
+            180.25,
+            177.625
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:00006544",
+          "record": 132,
+          "lines": [
+            "Summon dmg -8%/Lv.",
+            "Phys. dmg as Guard."
+          ],
+          "full_translation": "Guard type. Reduces summon damage by Skill Lv x 8%. Physical damage received is the same as Guard.",
+          "source_sha256": "4b5c51107a00fae698f97d7f797da750691c26680491fac8efc19824e04147dd",
+          "previous_offset": 36362,
+          "new_offset": 41866,
+          "pointer_fields": [
+            6376
+          ],
+          "glyph_counts": [
+            18,
+            19
+          ],
+          "total_glyphs": 37,
+          "advance_pixels": [
+            165.375,
+            144.375
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:000065bc",
+          "record": 137,
+          "lines": [
+            "Summon dmg may hit MP.",
+            "Phys. dmg as Guard."
+          ],
+          "full_translation": "Guard type. Summon damage may be received as MP damage. Physical damage received is the same as Guard.",
+          "source_sha256": "0fc89f7753bd8637c0870bba2b77adabf88d7644d652d7eafb88c404b995db6e",
+          "previous_offset": 36584,
+          "new_offset": 41946,
+          "pointer_fields": [
+            6616
+          ],
+          "glyph_counts": [
+            22,
+            19
+          ],
+          "total_glyphs": 41,
+          "advance_pixels": [
+            180.25,
+            144.375
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:0000663c",
+          "record": 142,
+          "lines": [
+            "Always counter in range.",
+            "Dmg as Counter."
+          ],
+          "full_translation": "Counter type. Always counterattack when attacked from within range. Damage dealt is the same as Counter.",
+          "source_sha256": "cc773eedbea43be65224b63f422d47918ab0197f3080c4010f5ee317c240d704",
+          "previous_offset": 36800,
+          "new_offset": 42034,
+          "pointer_fields": [
+            6856
+          ],
+          "glyph_counts": [
+            24,
+            15
+          ],
+          "total_glyphs": 39,
+          "advance_pixels": [
+            179.375,
+            119.875
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:000066b6",
+          "record": 147,
+          "lines": [
+            "Guard: Phys. dmg reduction",
+            "+10% per Skill Lv."
+          ],
+          "full_translation": "Guard type. Physical damage reduction increases by Skill Lv x 10%.",
+          "source_sha256": "7c0123dec7df0cd05073e3b6bf5e7aad93ef67462adf79e3a238193433f17de3",
+          "previous_offset": 37014,
+          "new_offset": 42118,
+          "pointer_fields": [
+            7096
+          ],
+          "glyph_counts": [
+            26,
+            18
+          ],
+          "total_glyphs": 44,
+          "advance_pixels": [
+            195.125,
+            123.375
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:00006726",
+          "record": 152,
+          "lines": [
+            "Guard: Special ZOC shape.",
+            "Dmg as Guard."
+          ],
+          "full_translation": "Guard type. Wait with a specially shaped ZOC. Damage received is the same as Guard.",
+          "source_sha256": "1cbfd8d28c70b2b5c8c81cd95bbd9ccb1835ad2fff8e732efdb6509dd2c3cac2",
+          "previous_offset": 37196,
+          "new_offset": 42212,
+          "pointer_fields": [
+            7336
+          ],
+          "glyph_counts": [
+            25,
+            13
+          ],
+          "total_glyphs": 38,
+          "advance_pixels": [
+            192.5,
+            104.125
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:0000679a",
+          "record": 157,
+          "lines": [
+            "Cntr: Draw more enemy attacks",
+            "Dmg as Counter."
+          ],
+          "full_translation": "Counter type. More likely to be targeted by enemies. Damage dealt is the same as Counter.",
+          "source_sha256": "0157d82963af9b4131a44d09c6f0158efb76fe155d9d8f1441f25e82a5e473f6",
+          "previous_offset": 37370,
+          "new_offset": 42294,
+          "pointer_fields": [
+            7576
+          ],
+          "glyph_counts": [
+            29,
+            15
+          ],
+          "total_glyphs": 44,
+          "advance_pixels": [
+            231.875,
+            119.875
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:00006806",
+          "record": 162,
+          "lines": [
+            "Take hits for adjacent ally.",
+            "Dmg as Guard."
+          ],
+          "full_translation": "Guard type. Take attacks in place of adjacent allies. Damage received is the same as Guard.",
+          "source_sha256": "bce66dc74f1d7a371e2a55d19c7559cebee7fae20d301dd379b5086bc119c395",
+          "previous_offset": 37578,
+          "new_offset": 42388,
+          "pointer_fields": [
+            7816
+          ],
+          "glyph_counts": [
+            28,
+            13
+          ],
+          "total_glyphs": 41,
+          "advance_pixels": [
+            191.625,
+            104.125
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:00006878",
+          "record": 167,
+          "lines": [
+            "Null normal phys.: 7%/Lv.",
+            "Else: Guard damage."
+          ],
+          "full_translation": "Guard type. Skill Lv x 7% chance to nullify normal physical attacks. Otherwise damage received is the same as Guard.",
+          "source_sha256": "10d7f62ab87ed47dafebf741dca79bb9666916d45c88f277b23be2721ca03736",
+          "previous_offset": 37764,
+          "new_offset": 42476,
+          "pointer_fields": [
+            8056
+          ],
+          "glyph_counts": [
+            25,
+            19
+          ],
+          "total_glyphs": 44,
+          "advance_pixels": [
+            180.25,
+            143.5
+          ],
+          "explicit_empty_line": true
+        },
+        {
+          "id": "02:00003/00031:ui:000068f8",
+          "record": 172,
+          "lines": [
+            "Return 1/2 thrown/bow/gun dmg",
+            "Other phys.: Guard."
+          ],
+          "full_translation": "Guard type. Return half the damage that would be received from thrown weapons, bows and guns to the attacker. Other physical damage received is the same as Guard.",
+          "source_sha256": "b440abbe1de56306c8028d4f87e0fd851a9701a4023deec050c6c929443c8933",
+          "previous_offset": 38028,
+          "new_offset": 42570,
+          "pointer_fields": [
+            8296
+          ],
+          "glyph_counts": [
+            29,
+            19
+          ],
+          "total_glyphs": 48,
+          "advance_pixels": [
+            255.5,
+            137.375
+          ],
+          "explicit_empty_line": true
+        }
+      ]
+    }
+  ],
+  "line_capacity": 29,
+  "glyph_capacity": 54,
+  "maximum_lines": 2
+}

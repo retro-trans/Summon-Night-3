@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "version": "0.1.14",
+  "entries": [
+    {
+      "source_name": "ウルゴーラ",
+      "target_name": "Ulgorla",
+      "category": "place",
+      "status": "wiki_confirmed",
+      "notes": "English wiki explicitly names the imperial capital in the Inherited Flames story; root researched.",
+      "evidence": [
+        {
+          "source_id": "00:00134:text:00034a1c",
+          "source_physical_row": 3067
+        },
+        {
+          "source_id": "00:00134:text:00034a74",
+          "source_physical_row": 3071
+        },
+        {
+          "url": "https://summonnight.fandom.com/wiki/Summon_Night_3_~_Inherited_Flames",
+          "researcher": "root"
+        }
+      ]
+    },
+    {
+      "source_name": "集いの泉",
+      "target_name": "Gathering Spring",
+      "category": "place",
+      "status": "provisional",
+      "notes": "Provisional translation; Japanese name confirmed in walkthrough.",
+      "evidence": [
+        {
+          "source_id": "00:00134:text:00034584",
+          "source_physical_row": 3005
+        },
+        {
+          "source_id": "00:00134:text:00035106",
+          "source_physical_row": 3158
+        },
+        {
+          "source_id": "00:00134:text:00036260",
+          "source_physical_row": 3387
+        },
+        {
+          "url": "https://w.atwiki.jp/sn3psp/pages/18.html",
+          "researcher": "root"
+        }
+      ]
+    },
+    {
+      "source_name": "バウナス",
+      "target_name": "Bawnas",
+      "category": "creature_species",
+      "status": "provisional",
+      "notes": "Provisional romanization. Panashe describes own species; no gender inferred from the name.",
+      "evidence": [
+        {
+          "source_id": "00:00134:text:000365d8",
+          "source_physical_row": 3437
+        }
+      ]
+    },
+    {
+      "source_name": "トライドラ",
+      "target_name": "Lendora",
+      "category": "place_and_sword_style",
+      "status": "provisional",
+      "notes": "English wiki names the city where Forte trained with Shamrock Lendora; contextual mapping to Japanese Tridora, not directly bilingual-attested.",
+      "evidence": [
+        {
+          "source_id": "00:00134:text:0003170a",
+          "source_physical_row": 2340
+        },
+        {
+          "url": "https://summonnight.fandom.com/wiki/Forte",
+          "researcher": "root"
+        },
+        {
+          "url": "https://w.atwiki.jp/storytellermirror/pages/608.html",
+          "supports": "Japanese city name in same Forte/Shamrock history; root research"
+        }
+      ]
+    }
+  ]
+}

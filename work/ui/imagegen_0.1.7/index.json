@@ -1,0 +1,124 @@
+{
+  "version": "0.1.7",
+  "method": "built-in image_gen",
+  "records": [
+    {
+      "pack": 28,
+      "sprite": 0,
+      "asset_id": "character_banner",
+      "native_image": "02_00028_00001_sprite_000.png",
+      "generated_sha256": "3a6f9faa9953ddb578eaea04aef899dd37eff096e4f4f11e8fd5a3c14e50e176",
+      "generated_alpha_bounds": [
+        0,
+        103,
+        2115,
+        583
+      ],
+      "native_bounds": [
+        0,
+        1,
+        258,
+        61
+      ],
+      "native_size": [
+        264,
+        64
+      ],
+      "modified_pixels": 15210,
+      "native_rgba_sha256": "0a85bfa87184d4eae1e8f610c9ad1070b9f0004312d907c506ba01194731711c"
+    },
+    {
+      "pack": 28,
+      "sprite": 4,
+      "asset_id": "confirm_button",
+      "native_image": "02_00028_00001_sprite_004.png",
+      "generated_sha256": "2c91fcd3fafdc1681375e049cb3b68d2b9622bd3b2028b6d4be0cd003b72e12c",
+      "generated_alpha_bounds": [
+        13,
+        68,
+        1761,
+        814
+      ],
+      "native_bounds": [
+        8,
+        1,
+        102,
+        54
+      ],
+      "native_size": [
+        112,
+        56
+      ],
+      "modified_pixels": 4574,
+      "native_rgba_sha256": "c5e6a5f47555a917262d8a2bbb67c4b9a09afa75eb4bf2643456a2763793db16"
+    },
+    {
+      "pack": 29,
+      "sprite": 0,
+      "asset_id": "character_banner",
+      "native_image": "02_00029_00001_sprite_000.png",
+      "generated_sha256": "3a6f9faa9953ddb578eaea04aef899dd37eff096e4f4f11e8fd5a3c14e50e176",
+      "generated_alpha_bounds": [
+        0,
+        103,
+        2115,
+        583
+      ],
+      "native_bounds": [
+        0,
+        1,
+        258,
+        61
+      ],
+      "native_size": [
+        264,
+        64
+      ],
+      "modified_pixels": 15210,
+      "native_rgba_sha256": "0a85bfa87184d4eae1e8f610c9ad1070b9f0004312d907c506ba01194731711c"
+    },
+    {
+      "pack": 29,
+      "sprite": 4,
+      "asset_id": "confirm_button",
+      "native_image": "02_00029_00001_sprite_004.png",
+      "generated_sha256": "2c91fcd3fafdc1681375e049cb3b68d2b9622bd3b2028b6d4be0cd003b72e12c",
+      "generated_alpha_bounds": [
+        13,
+        68,
+        1761,
+        814
+      ],
+      "native_bounds": [
+        8,
+        1,
+        102,
+        54
+      ],
+      "native_size": [
+        112,
+        56
+      ],
+      "modified_pixels": 4574,
+      "native_rgba_sha256": "c5e6a5f47555a917262d8a2bbb67c4b9a09afa75eb4bf2643456a2763793db16"
+    }
+  ],
+  "scope": "Two complete generated assets, each used in both protagonist packs.",
+  "imports": "Crop alpha padding; downsample; map to original native palette. No text drawing or paint-over patches.",
+  "inputs_sha256": {
+    "work/ui/imagegen_0.1.7/prompts.json": "65c40c46e6c383a005d2e60aec004f5afa5ebdd2dfa56b13466f9302557ef159",
+    "tools/build_imagegen_ui.py": "f92d94265038ae7f0173bec44eb3c200e320521eb716239acd67b9ac2151aafb"
+  },
+  "native_packs": [
+    {
+      "number": 28,
+      "sha256": "b44dfc71cf918f622e2bf52fa2df0a8a69be43126f8fa33b62897c59250c691a",
+      "bytes": 317047
+    },
+    {
+      "number": 29,
+      "sha256": "9b1bc2321bd634f726434a27f3ed49e379678c8b9f5d3d28b295c79b0b8fc88f",
+      "bytes": 290848
+    }
+  ]
+}

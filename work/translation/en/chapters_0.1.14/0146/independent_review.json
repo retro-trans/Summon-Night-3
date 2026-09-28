@@ -1,0 +1,40 @@
+{
+  "resource_id": "00:00146",
+  "review_type": "independent_meaning_review",
+  "semantic_complete": true,
+  "independent_review": true,
+  "reviewed_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "reviewed_slices": [
+    {
+      "target_file": "work/translation/en/chapters_0.1.14/0146/slice_0011.targets.json",
+      "target_file_sha256": "9aa763b9206ba0a9baff1ef03dab9f76dc4db406802c09c92d747b692c534786",
+      "assigned_range": [
+        11,
+        18
+      ],
+      "translation_count": 8
+    }
+  ],
+  "corrections": [],
+  "rows_examined": {
+    "physical_range_inclusive": [
+      6,
+      18
+    ],
+    "count": 13
+  },
+  "uncertainties": [],
+  "method": "Read and compared every assigned source/target row in slices of at most 80, with adjacent context. Reviewer did not author these drafts. Structural checks do not substitute for that meaning review.",
+  "change_log": [
+    "Build 0.1.14: independently reviewed all optional/night dialogue rows in this resource."
+  ]
+}

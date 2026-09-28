@@ -1,0 +1,498 @@
+{
+  "profile": "menu_text_0.1.15",
+  "baseline_elf_sha256": "c3d459c4ae1cdc7d51c6da27f2418eee3467a16c1978f0331e9275db3fbaf421",
+  "patched_elf_sha256": "831277325d0460770417cec5a967aa5d5ec628a278999e570d839f4663b13c03",
+  "source_bytes": 4099024,
+  "patched_bytes": 4119840,
+  "targets_total": 21,
+  "targets_patched": 19,
+  "targets_skipped": 2,
+  "skipped": [
+    {
+      "id": "elf:ui:00217bd6",
+      "module_address": "0x217b16",
+      "reason": "no_relocation_backed_start_reference"
+    },
+    {
+      "id": "elf:ui:00217c1c",
+      "module_address": "0x217b5c",
+      "reason": "no_relocation_backed_start_reference"
+    }
+  ],
+  "entries": [
+    {
+      "id": "elf:ui:002176fc",
+      "module_address": "0x21763c",
+      "source_offset": 2193148,
+      "source_sha256": "6801e0134d9f596c41ba34856caf600dd4c16c689e599bd8fe3f7f66d4ca96af",
+      "target_variant": "full",
+      "target_text": "V. Slash",
+      "display_text": "\uff36\uff0e\u3000\uff33\uff4c\uff41\uff53\uff48",
+      "encoded_bytes": 18,
+      "bundle_bytes": 18,
+      "unreferenced_tails": [],
+      "new_address": "0x3337b8",
+      "new_file_offset": 3504376,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x228214"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217704",
+      "module_address": "0x217644",
+      "source_offset": 2193156,
+      "source_sha256": "881db565e17c0b40ab7917cfd2c58eeee1f4bd129605f9f9606f690d502252a0",
+      "target_variant": "full",
+      "target_text": "H. Slash",
+      "display_text": "\uff28\uff0e\u3000\uff33\uff4c\uff41\uff53\uff48",
+      "encoded_bytes": 18,
+      "bundle_bytes": 18,
+      "unreferenced_tails": [],
+      "new_address": "0x3337cc",
+      "new_file_offset": 3504396,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x228218"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:0021770c",
+      "module_address": "0x21764c",
+      "source_offset": 2193164,
+      "source_sha256": "7cf63a24262a30fef458a1a1d482511701287d5ba37876cb3105a23886037c24",
+      "target_variant": "full",
+      "target_text": "Thrust",
+      "display_text": "\uff34\uff48\uff52\uff55\uff53\uff54",
+      "encoded_bytes": 14,
+      "bundle_bytes": 16,
+      "unreferenced_tails": [],
+      "new_address": "0x3337e0",
+      "new_file_offset": 3504416,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x22821c"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217714",
+      "module_address": "0x217654",
+      "source_offset": 2193172,
+      "source_sha256": "867d6089c886f6e6e5d65b097256a2abc89427cbb8d742d22c3dc219fd5c2d58",
+      "target_variant": "full",
+      "target_text": "Strike",
+      "display_text": "\uff33\uff54\uff52\uff49\uff4b\uff45",
+      "encoded_bytes": 14,
+      "bundle_bytes": 16,
+      "unreferenced_tails": [],
+      "new_address": "0x3337f0",
+      "new_file_offset": 3504432,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x228220"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:0021771c",
+      "module_address": "0x21765c",
+      "source_offset": 2193180,
+      "source_sha256": "18decfff01de88b950ba37e4dc8feddd1a0ddfdef131a0afed85a00c5ea68e89",
+      "target_variant": "full",
+      "target_text": "Fire",
+      "display_text": "\uff26\uff49\uff52\uff45",
+      "encoded_bytes": 10,
+      "bundle_bytes": 12,
+      "unreferenced_tails": [],
+      "new_address": "0x333800",
+      "new_file_offset": 3504448,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x228224"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217724",
+      "module_address": "0x217664",
+      "source_offset": 2193188,
+      "source_sha256": "c92d7fbc9faa1f6908dd7507461dc4a6396f3cf03571ecbd8757c86f283ecaba",
+      "target_variant": "full",
+      "target_text": "Throw",
+      "display_text": "\uff34\uff48\uff52\uff4f\uff57",
+      "encoded_bytes": 12,
+      "bundle_bytes": 14,
+      "unreferenced_tails": [],
+      "new_address": "0x33380c",
+      "new_file_offset": 3504460,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x228228"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:0021772c",
+      "module_address": "0x21766c",
+      "source_offset": 2193196,
+      "source_sha256": "2c56a922be2c65c94c6c6910b146e823e22ce0a34bf4f0001a7918e78fa08123",
+      "target_variant": "full",
+      "target_text": "Special",
+      "display_text": "\uff33\uff50\uff45\uff43\uff49\uff41\uff4c",
+      "encoded_bytes": 16,
+      "bundle_bytes": 18,
+      "unreferenced_tails": [],
+      "new_address": "0x33381c",
+      "new_file_offset": 3504476,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x22822c"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217734",
+      "module_address": "0x217674",
+      "source_offset": 2193204,
+      "source_sha256": "0cbd98c84e3fd66029c6e638de03ac0b3d328c7b37242ed6e79aeca0d97c564a",
+      "target_variant": "full",
+      "target_text": "V. Throw",
+      "display_text": "\uff36\uff0e\u3000\uff34\uff48\uff52\uff4f\uff57",
+      "encoded_bytes": 18,
+      "bundle_bytes": 18,
+      "unreferenced_tails": [],
+      "new_address": "0x333830",
+      "new_file_offset": 3504496,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x228230"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:0021773c",
+      "module_address": "0x21767c",
+      "source_offset": 2193212,
+      "source_sha256": "8ed1961bd87281273e9dd0c8fd0f2cd575cb15bf2e7d59219135fa706d46b469",
+      "target_variant": "full",
+      "target_text": "H. Throw",
+      "display_text": "\uff28\uff0e\u3000\uff34\uff48\uff52\uff4f\uff57",
+      "encoded_bytes": 18,
+      "bundle_bytes": 1158,
+      "unreferenced_tails": [],
+      "new_address": "0x333844",
+      "new_file_offset": 3504516,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x228234"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217bb8",
+      "module_address": "0x217af8",
+      "source_offset": 2194360,
+      "source_sha256": "398abf4851d9075fc4d396a5fd85ddf65f953d0d7a246abc2b152c925e1ef28a",
+      "target_variant": "full",
+      "target_text": "Select units to deploy.",
+      "display_text": "\uff33\uff45\uff4c\uff45\uff43\uff54\u3000\uff55\uff4e\uff49\uff54\uff53\u3000\uff54\uff4f\u3000\uff44\uff45\uff50\uff4c\uff4f\uff59\uff0e",
+      "encoded_bytes": 48,
+      "bundle_bytes": 122,
+      "unreferenced_tails": [
+        {
+          "id": "elf:ui:00217bd6",
+          "module_address": 2194198,
+          "source_sha256": "fe4246ab69ffe0431e198abd7c08142195614743b7cca866e4d0a2aa8d1ca648",
+          "text": "Check status and change equipment.",
+          "display_text": "\uff23\uff48\uff45\uff43\uff4b\u3000\uff53\uff54\uff41\uff54\uff55\uff53\u3000\uff41\uff4e\uff44\u3000\uff43\uff48\uff41\uff4e\uff47\uff45\u3000\uff45\uff51\uff55\uff49\uff50\uff4d\uff45\uff4e\uff54\uff0e",
+          "encoded_bytes": 70,
+          "variant": "full"
+        }
+      ],
+      "new_address": "0x333ccc",
+      "new_file_offset": 3505676,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x228388"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217bf8",
+      "module_address": "0x217b38",
+      "source_offset": 2194424,
+      "source_sha256": "3aa91f1db4db4e7d169fa06a6c0895aca67df7506825bbaf7ed09fa9ede64e16",
+      "target_variant": "full",
+      "target_text": "View Party Abilities and change",
+      "display_text": "\uff36\uff49\uff45\uff57\u3000\uff30\uff41\uff52\uff54\uff59\u3000\uff21\uff42\uff49\uff4c\uff49\uff54\uff49\uff45\uff53\u3000\uff41\uff4e\uff44\u3000\uff43\uff48\uff41\uff4e\uff47\uff45",
+      "encoded_bytes": 64,
+      "bundle_bytes": 124,
+      "unreferenced_tails": [
+        {
+          "id": "elf:ui:00217c1c",
+          "module_address": 2194268,
+          "source_sha256": "92609e04faa8485c5302a5f9c7bdc08646423f00f50db9fdcd505b91a151644a",
+          "text": "which ones to use in battle.",
+          "display_text": "\uff57\uff48\uff49\uff43\uff48\u3000\uff4f\uff4e\uff45\uff53\u3000\uff54\uff4f\u3000\uff55\uff53\uff45\u3000\uff49\uff4e\u3000\uff42\uff41\uff54\uff54\uff4c\uff45\uff0e",
+          "encoded_bytes": 58,
+          "variant": "full"
+        }
+      ],
+      "new_address": "0x333d48",
+      "new_file_offset": 3505800,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x22838c"
+        },
+        {
+          "kind": "pointer",
+          "instruction": "0x22846c"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217c3c",
+      "module_address": "0x217b7c",
+      "source_offset": 2194492,
+      "source_sha256": "3209afd46cc5f9653d99cf015e0cc5e9f2d20c0d77c4f6ab69ea2aca4b0eb927",
+      "target_variant": "full",
+      "target_text": "Check the victory and defeat conditions.",
+      "display_text": "\uff23\uff48\uff45\uff43\uff4b\u3000\uff54\uff48\uff45\u3000\uff56\uff49\uff43\uff54\uff4f\uff52\uff59\u3000\uff41\uff4e\uff44\u3000\uff44\uff45\uff46\uff45\uff41\uff54\u3000\uff43\uff4f\uff4e\uff44\uff49\uff54\uff49\uff4f\uff4e\uff53\uff0e",
+      "encoded_bytes": 82,
+      "bundle_bytes": 86,
+      "unreferenced_tails": [],
+      "new_address": "0x333dc4",
+      "new_file_offset": 3505924,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x228390"
+        },
+        {
+          "kind": "pointer",
+          "instruction": "0x228478"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217c60",
+      "module_address": "0x217ba0",
+      "source_offset": 2194528,
+      "source_sha256": "77318124a4798fec5b8b62f18d5d5da9d3a7d3ec1abfad23ce2e93941167292f",
+      "target_variant": "full",
+      "target_text": "View your inventory.",
+      "display_text": "\uff36\uff49\uff45\uff57\u3000\uff59\uff4f\uff55\uff52\u3000\uff49\uff4e\uff56\uff45\uff4e\uff54\uff4f\uff52\uff59\uff0e",
+      "encoded_bytes": 42,
+      "bundle_bytes": 46,
+      "unreferenced_tails": [],
+      "new_address": "0x333e1c",
+      "new_file_offset": 3506012,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x228394"
+        },
+        {
+          "kind": "pointer",
+          "instruction": "0x22845c"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217c7c",
+      "module_address": "0x217bbc",
+      "source_offset": 2194556,
+      "source_sha256": "9b79cf9934f5b17ade15a0a7b8cf31a4240c906881952aa127fc379955d60e0d",
+      "target_variant": "full",
+      "target_text": "View summon details and combination results.",
+      "display_text": "\uff36\uff49\uff45\uff57\u3000\uff53\uff55\uff4d\uff4d\uff4f\uff4e\u3000\uff44\uff45\uff54\uff41\uff49\uff4c\uff53\u3000\uff41\uff4e\uff44\u3000\uff43\uff4f\uff4d\uff42\uff49\uff4e\uff41\uff54\uff49\uff4f\uff4e\u3000\uff52\uff45\uff53\uff55\uff4c\uff54\uff53\uff0e",
+      "encoded_bytes": 90,
+      "bundle_bytes": 96,
+      "unreferenced_tails": [],
+      "new_address": "0x333e4c",
+      "new_file_offset": 3506060,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x228398"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217cb4",
+      "module_address": "0x217bf4",
+      "source_offset": 2194612,
+      "source_sha256": "e0d46db2552a8ad1965f11567fb138bebedcfa47870543cd75545bb54237d5bd",
+      "target_variant": "full",
+      "target_text": "Change game settings.",
+      "display_text": "\uff23\uff48\uff41\uff4e\uff47\uff45\u3000\uff47\uff41\uff4d\uff45\u3000\uff53\uff45\uff54\uff54\uff49\uff4e\uff47\uff53\uff0e",
+      "encoded_bytes": 44,
+      "bundle_bytes": 50,
+      "unreferenced_tails": [],
+      "new_address": "0x333eac",
+      "new_file_offset": 3506156,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x22839c"
+        },
+        {
+          "kind": "pointer",
+          "instruction": "0x228460"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217cd4",
+      "module_address": "0x217c14",
+      "source_offset": 2194644,
+      "source_sha256": "42e85b4432468b4580049f61e1a347eece59d036ea5a9c2b650b9ba5fa5bf8db",
+      "target_variant": "full",
+      "target_text": "Save the game.",
+      "display_text": "\uff33\uff41\uff56\uff45\u3000\uff54\uff48\uff45\u3000\uff47\uff41\uff4d\uff45\uff0e",
+      "encoded_bytes": 30,
+      "bundle_bytes": 36,
+      "unreferenced_tails": [],
+      "new_address": "0x333ee0",
+      "new_file_offset": 3506208,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x2283a0"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217cf4",
+      "module_address": "0x217c34",
+      "source_offset": 2194676,
+      "source_sha256": "e5845067babf380d831a98e3fe4dc56093ef3adb2dd25b349ea57b0ab7245a2a",
+      "target_variant": "full",
+      "target_text": "Load a saved game.",
+      "display_text": "\uff2c\uff4f\uff41\uff44\u3000\uff41\u3000\uff53\uff41\uff56\uff45\uff44\u3000\uff47\uff41\uff4d\uff45\uff0e",
+      "encoded_bytes": 38,
+      "bundle_bytes": 308,
+      "unreferenced_tails": [],
+      "new_address": "0x333f04",
+      "new_file_offset": 3506244,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x2283a4"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:00217e1c",
+      "module_address": "0x217d5c",
+      "source_offset": 2194972,
+      "source_sha256": "bba4477671c41b283105b8d68bd94a665415634fa6cb111f1b6b34bcb59353b7",
+      "target_variant": "full",
+      "target_text": "Start the battle.",
+      "display_text": "\uff33\uff54\uff41\uff52\uff54\u3000\uff54\uff48\uff45\u3000\uff42\uff41\uff54\uff54\uff4c\uff45\uff0e",
+      "encoded_bytes": 36,
+      "bundle_bytes": 18614,
+      "unreferenced_tails": [],
+      "new_address": "0x334038",
+      "new_file_offset": 3506552,
+      "references": [
+        {
+          "kind": "pointer",
+          "instruction": "0x2283c4"
+        }
+      ]
+    },
+    {
+      "id": "elf:ui:0021c6c0",
+      "module_address": "0x21c600",
+      "source_offset": 2213568,
+      "source_sha256": "baa3c3f49a046e096b029c0576faadffda60ec214c36d88b761d6de377268f66",
+      "target_variant": "full",
+      "target_text": "Replay",
+      "display_text": "\uff32\uff45\uff50\uff4c\uff41\uff59",
+      "encoded_bytes": 14,
+      "bundle_bytes": 14,
+      "unreferenced_tails": [],
+      "new_address": "0x3388f0",
+      "new_file_offset": 3525168,
+      "references": [
+        {
+          "kind": "hilo",
+          "high": "0xfe47c",
+          "low": "0xfe48c",
+          "register": "0x5"
+        }
+      ]
+    }
+  ],
+  "added_segment": {
+    "index": 3,
+    "module_address": "0x32dbc0",
+    "file_offset": 3480832,
+    "old_bytes": 23544,
+    "new_bytes": 44360,
+    "appended_bytes": 20816
+  },
+  "relocation_segment": {
+    "index": 2,
+    "records_unchanged": true,
+    "old_file_offset": 3504384,
+    "new_file_offset": 3525200
+  },
+  "audit": {
+    "mapped_start_reference_count": 23,
+    "interior_reference_targets_skipped": 0,
+    "shared_hi16_pairs_proven_safe": 1,
+    "bundled_unreferenced_tail_count": 2,
+    "all_differences_allowlisted": true,
+    "allowed_changed_byte_count": 15890
+  },
+  "structural_checks": {
+    "program_header_count": 4,
+    "section_header_count": 58,
+    "load_ranges": [
+      {
+        "index": 0,
+        "start": "0x0",
+        "end": "0x22d37c"
+      },
+      {
+        "index": 1,
+        "start": "0x22d380",
+        "end": "0x32db8c"
+      },
+      {
+        "index": 3,
+        "start": "0x32dbc0",
+        "end": "0x338908"
+      }
+    ]
+  },
+  "change_log": [
+    "Relocated only source-hash-verified battle literals with proven direct relocation references; preserved opaque prefixes/control tokens, existing hooks, and all existing relocation records."
+  ],
+  "translated_strings": 21,
+  "meaning_review": "Independent agent reviewed screenshot labels and exact source strings; compact Replay retains voice action context.",
+  "consumer_proof": {
+    "help_getter": "0x67da8",
+    "help_setter": "0x632a0",
+    "copy_loop": "0x649dc..0x64a34",
+    "max_lines": 3,
+    "staging_bytes": 174,
+    "longest_help_group_bytes": 124
+  }
+}

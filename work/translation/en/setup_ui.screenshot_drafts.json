@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "category": "options_and_new_game_setup_ui",
+  "status": "draft_requires_independent_meaning_review",
+  "created_on": "2026-09-26",
+  "source_type": "user_provided_screenshots_and_original_elf",
+  "scope_notes": [
+    "UI transcriptions come from the five screenshots. Supplementary options help and name-entry strings were independently decoded from original EBOOT.elf at root-supplied offsets. Texture transcription whitespace is not proof of encoded spaces.",
+    "Full meaning drafts precede layout fitting. No translated image, runtime patch, or source token replacement is claimed.",
+    "Japanese name-entry keyboard characters are user-selectable input data and are preserved, not translated one by one. An English-first input-page default is a separate implementation choice.",
+    "Related unseen options, values, other summon descriptions, and name variants must be sourced from game resources; glossary research is not source-text discovery."
+  ],
+  "counts": {
+    "screenshots_examined": 5,
+    "unique_screenshot_translation_records": 26,
+    "visible_record_occurrences": 33,
+    "supplementary_binary_only_records": 6,
+    "total_translation_records": 32,
+    "verified_binary_source_fragments": 12
+  },
+  "screenshots": [
+    {
+      "id": 1,
+      "path": "C:/Users/Binh/AppData/Local/Temp/codex-clipboard-239a0ac2-4e55-422b-b060-7a71a3e30e72.png",
+      "width": 960,
+      "height": 544
+    },
+    {
+      "id": 2,
+      "path": "C:/Users/Binh/AppData/Local/Temp/codex-clipboard-bcffc253-6f7e-43d8-a947-c013d3cc83d3.png",
+      "width": 960,
+      "height": 544
+    },
+    {
+      "id": 3,
+      "path": "C:/Users/Binh/AppData/Local/Temp/codex-clipboard-d5e4adcd-8c25-47a6-93a0-0e256cc5bb53.png",
+      "width": 960,
+      "height": 544
+    },
+    {
+      "id": 4,
+      "path": "C:/Users/Binh/AppData/Local/Temp/codex-clipboard-bf3361a0-a1d8-4328-94d3-8f0fa5b3a0fb.png",
+      "width": 960,
+      "height": 544
+    },
+    {
+      "id": 5,
+      "path": "C:/Users/Binh/AppData/Local/Temp/codex-clipboard-d72912c4-b449-4ff1-ae58-c0157f416bfa.png",
+      "width": 462,
+      "height": 149
+    }
+  ],
+  "unchanged_visible_text": [
+    {
+      "source": "Min",
+      "screenshots": [
+        1
+      ]
+    },
+    {
+      "source": "Max",
+      "screenshots": [
+        1
+      ]
+    },
+    {
+      "source": "Character Select",
+      "screenshots": [
+        2,
+        3
+      ]
+    },
+    {
+      "source": "CHECK",
+      "screenshots": [
+        5
+      ]
+    }
+  ],
+  "unchanged_controls": "Keep the actual controller button icons and L/R/START labels, and the name cursor, as UI controls.",
+  "entries": [
+    {
+      "id": "options.title",
+      "source_visible": "オプション",
+      "target_full": "Options",
+      "screenshot_occurrences": [
+        1
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "options.bgm",
+      "source_visible": "BGMボリューム",
+      "target_full": "Music Volume",
+      "screenshot_occurrences": [
+        1
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "options.voices",
+      "source_visible": "イベント音声",
+      "target_full": "Event Voices",
+      "screenshot_occurrences": [
+        1
+      ],
+      "status": "draft",
+      "notes": "Binary help at 0x21ca7c confirms the option toggles event voices on/off."
+    },
+    {
+      "id": "options.forecast",
+      "source_visible": "予測表示",
+      "target_full": "Damage Forecast",
+      "screenshot_occurrences": [
+        1
+      ],
+      "status": "draft",
+      "notes": "Binary help at 0x21caa0 explicitly identifies damage prediction and an on/off setting."
+    },
+    {
+      "id": "options.cursor",
+      "source_visible": "カーソル移動方向",
+      "target_full": "Cursor Movement Direction",
+      "screenshot_occurrences": [
+        1
+      ],
+      "status": "draft",
+      "notes": "Binary help at 0x21cac8 specifies movement of the battle cursor."
+    },
+    {
+      "id": "options.lr",
+      "source_visible": "LRボタン機能",
+      "target_full": "L/R Button Function",
+      "screenshot_occurrences": [
+        1
+      ],
+      "status": "draft",
+      "notes": "Binary help at 0x21caf0 specifies L/R button operation during battle."
+    },
+    {
+      "id": "options.bgm_help",
+      "source_visible": "BGMのボリュームを変更します",
+      "target_full": "Adjust the background music volume.",
+      "screenshot_occurrences": [
+        1
+      ],
+      "status": "draft",
+      "binary_sources": [
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21ca58",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "ＢＧＭのボリュームを変更します"
+        }
+      ]
+    },
+    {
+      "id": "common.confirm",
+      "source_visible": "決定",
+      "target_full": "Confirm",
+      "screenshot_occurrences": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "status": "draft",
+      "notes": "Image 4 contains both the upper Confirm button and the START footer label."
+    },
+    {
+      "id": "options.exit",
+      "source_visible": "オプション画面終了",
+      "target_full": "Exit Options",
+      "screenshot_occurrences": [
+        1
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "setup.select_prompt",
+      "source_visible": "主人公を選択して下さい",
+      "target_full": "Choose your protagonist.",
+      "screenshot_occurrences": [
+        2,
+        3
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "setup.spirit_affinity",
+      "source_visible": "霊 属性",
+      "target_full": "Spirit Affinity",
+      "screenshot_occurrences": [
+        3
+      ],
+      "status": "draft",
+      "notes": "The styled glyph 霊 and following 属性 are visually separated; binary resource boundaries are not yet known."
+    },
+    {
+      "id": "setup.spirit_realm",
+      "source_visible": "「霊界サプレス」",
+      "target_full": "Spirit World: Sapureth",
+      "screenshot_occurrences": [
+        3
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "setup.spirit_lore",
+      "source_visible": "天使や悪魔といった\n霊的生命体が暮らしている。\n彼らは霊界では不死の存在。",
+      "target_full": "Home to spiritual beings such as angels and demons. They are immortal in the Spirit World.",
+      "screenshot_occurrences": [
+        3
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "setup.spirit_gameplay",
+      "source_visible": "回復・治癒に優れている属性。\n異常、憑依効果も多い。\n初心者向きの属性。",
+      "target_full": "An affinity that excels at recovery and healing, with many status ailment and possession effects. Well suited to beginners.",
+      "screenshot_occurrences": [
+        3
+      ],
+      "status": "draft",
+      "notes": "Possession is a distinct timed summon effect, including beneficial and harmful effects. Do not reduce this to 'buffs' or confuse it with controlling a character. The source does not explicitly define recovery versus healing as HP versus status cures."
+    },
+    {
+      "id": "name.prompt",
+      "source_visible": "主人公の\n名前を決めて下さい",
+      "target_full": "Choose your protagonist's name.",
+      "screenshot_occurrences": [
+        4
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "name.default_rexx",
+      "source_visible": "レックス",
+      "target_full": "Rexx",
+      "screenshot_occurrences": [
+        4
+      ],
+      "status": "draft",
+      "notes": "Existing glossary spelling is fixed. The underscore is the name-entry cursor, not part of the name.",
+      "binary_sources": [
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21c978",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "レックス"
+        }
+      ]
+    },
+    {
+      "id": "name.delete",
+      "source_visible": "削除",
+      "target_full": "Delete",
+      "screenshot_occurrences": [
+        4,
+        4
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "name.auto",
+      "source_visible": "おまかせ",
+      "target_full": "Auto-Name",
+      "screenshot_occurrences": [
+        4,
+        4
+      ],
+      "status": "draft_with_open_question",
+      "notes": "Provisional functional label: source means leaving the choice to the game. Screenshot alone cannot establish random-name generation versus restoring the default name. Do not call it Random or Default before checking."
+    },
+    {
+      "id": "name.hiragana",
+      "source_visible": "かな",
+      "target_full": "Hiragana",
+      "screenshot_occurrences": [
+        4
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "name.katakana",
+      "source_visible": "カナ",
+      "target_full": "Katakana",
+      "screenshot_occurrences": [
+        4
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "name.alnum",
+      "source_visible": "英数",
+      "target_full": "Letters & Numbers",
+      "screenshot_occurrences": [
+        4
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "name.symbols",
+      "source_visible": "記号",
+      "target_full": "Symbols",
+      "screenshot_occurrences": [
+        4
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "name.convert",
+      "source_visible": "転字",
+      "target_full": "Convert",
+      "screenshot_occurrences": [
+        4
+      ],
+      "status": "draft_with_open_question",
+      "notes": "Provisional transcription and functional translation. Appears as 転字 in screenshot; inspect source asset and behavior. Could toggle kana variants rather than generic conversion. Do not claim case switching without checking."
+    },
+    {
+      "id": "name.confirm_prompt",
+      "source_visible": "「レックス」でよろしいですか？",
+      "target_full": "Use the name \"Rexx\"?",
+      "screenshot_occurrences": [
+        5
+      ],
+      "status": "draft",
+      "notes": "Two constant fragments bracket a runtime name. Full screenshot instance is translated for review; target composition preserves the variable name. Root must verify actual assembly callsites and layout before insertion.",
+      "binary_sources": [
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21c990",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "「"
+        },
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21c994",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "」でよろしいですか？"
+        }
+      ],
+      "target_composition": [
+        {
+          "kind": "literal",
+          "source_offset": "0x21c990",
+          "text": "Use the name \""
+        },
+        {
+          "kind": "runtime_name",
+          "notes": "Keep the existing runtime name insertion; do not hardcode Rexx."
+        },
+        {
+          "kind": "literal",
+          "source_offset": "0x21c994",
+          "text": "\"?"
+        }
+      ]
+    },
+    {
+      "id": "common.yes",
+      "source_visible": "は　い",
+      "target_full": "Yes",
+      "screenshot_occurrences": [
+        5
+      ],
+      "status": "draft",
+      "notes": "Full-width source space independently verified from the original ELF.",
+      "binary_sources": [
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21c9ac",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "は　い"
+        }
+      ]
+    },
+    {
+      "id": "common.no",
+      "source_visible": "いいえ",
+      "target_full": "No",
+      "screenshot_occurrences": [
+        5
+      ],
+      "status": "draft",
+      "binary_sources": [
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21c9b4",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "いいえ"
+        }
+      ]
+    },
+    {
+      "id": "options.voices_help",
+      "source_exact": "イベント音声の有無を設定します",
+      "target_full": "Turn event voices on or off.",
+      "screenshot_occurrences": [],
+      "status": "draft",
+      "binary_sources": [
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21ca7c",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "イベント音声の有無を設定します"
+        }
+      ]
+    },
+    {
+      "id": "options.forecast_help",
+      "source_exact": "ダメージ予測表示の有無を設定します",
+      "target_full": "Turn the damage forecast display on or off.",
+      "screenshot_occurrences": [],
+      "status": "draft",
+      "binary_sources": [
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21caa0",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "ダメージ予測表示の有無を設定します"
+        }
+      ]
+    },
+    {
+      "id": "options.cursor_help",
+      "source_exact": "戦闘カーソルの移動方向を変更します",
+      "target_full": "Change the battle cursor's movement direction.",
+      "screenshot_occurrences": [],
+      "status": "draft",
+      "binary_sources": [
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21cac8",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "戦闘カーソルの移動方向を変更します"
+        }
+      ]
+    },
+    {
+      "id": "options.lr_help",
+      "source_exact": "戦闘中のＬＲボタンの操作方法を変更します",
+      "target_full": "Change how the L/R buttons work in battle.",
+      "screenshot_occurrences": [],
+      "status": "draft",
+      "binary_sources": [
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21caf0",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "戦闘中のＬＲボタンの操作方法を変更します"
+        }
+      ]
+    },
+    {
+      "id": "name.empty_prompt",
+      "source_exact": "名前を入力して下さい",
+      "target_full": "Please enter a name.",
+      "screenshot_occurrences": [],
+      "status": "draft",
+      "binary_sources": [
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21c9bc",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "名前を入力して下さい"
+        }
+      ]
+    },
+    {
+      "id": "name.default_aty",
+      "source_exact": "アティ",
+      "target_full": "Aty",
+      "screenshot_occurrences": [],
+      "status": "draft",
+      "binary_sources": [
+        {
+          "path": "work/source/EBOOT.elf",
+          "file_offset": "0x21c984",
+          "encoding": "cp932",
+          "termination": "nul",
+          "source_exact": "アティ"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://summonnight.fandom.com/wiki/Piar",
+      "supports": [
+        "Sapureth spelling",
+        "Spirit affinity spelling"
+      ]
+    },
+    {
+      "url": "https://w.atwiki.jp/sn3psp/pages/112.html",
+      "supports": [
+        "Possession effects are distinct from status ailments and include positive and negative effects"
+      ],
+      "note": "Used to disambiguate the mechanic, not to copy a translation."
+    }
+  ]
+}

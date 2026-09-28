@@ -1,0 +1,185 @@
+{
+  "resource_id": "00:00088",
+  "semantic_complete": true,
+  "reviewed_targets": [
+    {
+      "target_file": "slice_0560.targets.json",
+      "reviewed_rows": [
+        [
+          560,
+          639
+        ]
+      ],
+      "context_ranges": [
+        [
+          540,
+          659
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        560,
+        639
+      ],
+      "target_sha256": "a9e152f1c7cb62a223c3566f4c8fdbccbbde7265ba2c3d87152571e64f4ecea7",
+      "semantic_complete": true
+    },
+    {
+      "target_file": "slice_0640.targets.json",
+      "reviewed_rows": [
+        [
+          640,
+          719
+        ]
+      ],
+      "context_ranges": [
+        [
+          620,
+          739
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        640,
+        719
+      ],
+      "target_sha256": "51ce61ddfa0c76ff6fdc3144d1b6d5bce01a1c82b988180751ca81644a3f6c53",
+      "semantic_complete": true
+    },
+    {
+      "target_file": "slice_0720.targets.json",
+      "reviewed_rows": [
+        [
+          720,
+          799
+        ]
+      ],
+      "context_ranges": [
+        [
+          700,
+          819
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        720,
+        799
+      ],
+      "target_sha256": "e58cc220fc25d3ebf50b58b5d2fa38f545f472911ae7e85542bedf4083a8af0d",
+      "semantic_complete": true
+    },
+    {
+      "target_file": "slice_0800.targets.json",
+      "reviewed_rows": [
+        [
+          800,
+          879
+        ]
+      ],
+      "context_ranges": [
+        [
+          780,
+          899
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        800,
+        879
+      ],
+      "target_sha256": "3d3629e1f790c5ccc72fdb0c843b35eae6c0ac0311a74e815fb6a674e0c850a1",
+      "semantic_complete": true
+    },
+    {
+      "target_file": "slice_0880.targets.json",
+      "reviewed_rows": [
+        [
+          880,
+          959
+        ]
+      ],
+      "context_ranges": [
+        [
+          860,
+          979
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        880,
+        959
+      ],
+      "target_sha256": "07d3b2a704f90236ec521ddcded4a6461806c7e4e05ddcb6e7ea784fa0fe9f44",
+      "semantic_complete": true
+    },
+    {
+      "target_file": "slice_0960.targets.json",
+      "reviewed_rows": [
+        [
+          960,
+          1039
+        ]
+      ],
+      "context_ranges": [
+        [
+          940,
+          1059
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        960,
+        1039
+      ],
+      "target_sha256": "fa48001b7351cd79cc1c078bfccf5b3c25255b2e90ca9255f682a96bc6440d18",
+      "semantic_complete": true
+    },
+    {
+      "target_file": "slice_1040.targets.json",
+      "reviewed_rows": [
+        [
+          1040,
+          1119
+        ]
+      ],
+      "context_ranges": [
+        [
+          1020,
+          1139
+        ]
+      ],
+      "context_count": 120,
+      "assigned_range": [
+        1040,
+        1119
+      ],
+      "target_sha256": "f3d42d6ea4f642110e135c2904018ca8d09218593e695a60c74988530d6a9d52",
+      "semantic_complete": true
+    }
+  ],
+  "required_fixes": [],
+  "uncertainties": [
+    {
+      "resource_rows": [
+        855,
+        857,
+        860
+      ],
+      "finding": "The runtime pupil-name token is preserved; the source establishes the protective instruction without requiring a gender inference."
+    },
+    {
+      "resource_rows": [
+        1093,
+        1098
+      ],
+      "finding": "Yard's invitation is understood as a cautious appeal despite the pirates' identity; the target keeps that condition."
+    }
+  ],
+  "change_log": [
+    {
+      "version": "0.1.12",
+      "date": "2026-09-27",
+      "change": "Completed source-Japanese versus English semantic review of Chapter 2 rows 560\u20131119 without modifying drafts."
+    }
+  ]
+}

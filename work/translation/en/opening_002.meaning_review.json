@@ -1,0 +1,1075 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "resource_id": "00:00065",
+  "target_file": "opening_002.targets.json",
+  "review_type": "independent_agent_meaning_review",
+  "independent_review": true,
+  "reviewer": "/root/opening_pilot_translation",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "reviewed_target_sha256": "9e7fa4f6fe7e2f9b71197cdfa509c2e94e0cf85441a4dbd95dcccda86214743c",
+  "rows_in_slice": 80,
+  "rows_examined": 111,
+  "context_rows_before": 15,
+  "context_rows_after": 16,
+  "opening_row_range": [
+    160,
+    239
+  ],
+  "examined_opening_row_range": [
+    145,
+    255
+  ],
+  "assigned_instruction_range": [
+    80114,
+    82476
+  ],
+  "context_instruction_range": [
+    79562,
+    82846
+  ],
+  "ordering": "Sort resource strings by min(reference_instructions), then take the suffix beginning ID 00:00065:text:0002646e, sorted-resource index 1808. Opening row 0 has reference 76240. Source order contains alternate branches, not one unconditional playthrough.",
+  "method": "Independently read fresh original source145-255 in memory and compared all80 target rows as complete display groups. Verified per-row IDs/hashes/references,43 display call metadata entries, protagonist/student branches, choice IDs, helper2058, music-note preservation and incoming boundary. No target edits or Japanese transcript saved.",
+  "verdict": {
+    "existing_draft_rows_reviewed": 80,
+    "existing_draft_rows_requiring_meaning_correction": 0,
+    "unresolved_rows_as_found": 0,
+    "coordinated_completion_proposals": 1,
+    "meaning": "No required meaning correction found. Incoming boundary158-160 passes only as an atomic group. Preference-only wording remains unchanged.",
+    "target_edits_applied": false,
+    "final_translation_acceptance": false
+  },
+  "required_meaning_edits": [],
+  "coordinated_completion_proposals": [
+    {
+      "proposal_id": "coordinated_group_75",
+      "sentence_group": 75,
+      "status": "meaning_accepted_for_coordinated_integration_only",
+      "apply_together": true,
+      "opening_rows": [
+        158,
+        159,
+        160
+      ],
+      "group_ids": [
+        "00:00065:text:00027016",
+        "00:00065:text:00027024",
+        "00:00065:text:00027036"
+      ],
+      "rows": [
+        {
+          "id": "00:00065:text:00027016",
+          "opening_row": 158,
+          "source_sha256": "483e8473ba746c169ed293050a0815442e3fe7920acab7e44fdd7524f15716b4",
+          "reference_instructions": [
+            80098
+          ],
+          "proposed_text": "Still,",
+          "outside_assigned_slice": true
+        },
+        {
+          "id": "00:00065:text:00027024",
+          "opening_row": 159,
+          "source_sha256": "34b88a22a4d4bb7cb6ad05fd44e82737b1b0f77438bede31b40e3fa04e64e8f0",
+          "reference_instructions": [
+            80106
+          ],
+          "proposed_text": "it all happened so suddenly",
+          "outside_assigned_slice": true
+        },
+        {
+          "id": "00:00065:text:00027036",
+          "opening_row": 160,
+          "source_sha256": "1063451c4395f3464cfbd28510fcc268c5b6ff7c578c87d891d3a2bf284aab17",
+          "reference_instructions": [
+            80114
+          ],
+          "proposed_text": "that it really surprised me.",
+          "outside_assigned_slice": false
+        }
+      ],
+      "whole_sentence": "Still, it all happened so suddenly that it really surprised me.",
+      "source_display_instruction": 80126,
+      "source_display_helper_word": 2044,
+      "reason": "One source display queue states genuine surprise caused by sudden events. All three targets preserve the full sentence without expanding the event or adding identity.",
+      "integration_condition": "Apply row160 with preserved001 rows158-159 as a single group, or exclude all three. Prior target must match hash7492d262918e492818bec6038b6227d179d48d12e2d3d31bc73406ebcf9fba3d.",
+      "edits_applied": false
+    }
+  ],
+  "uncertainty_notes": [
+    {
+      "opening_rows": [
+        164,
+        165,
+        166,
+        173,
+        174,
+        175
+      ],
+      "decision": "Keep one of the Empires greatest trading families.",
+      "uncertainty": "The source describes prominence among the leading merchants, not a unique single largest firm. Current glossary verifies Martini; family status is retained."
+    },
+    {
+      "opening_rows": [
+        188,
+        189,
+        195,
+        196,
+        197
+      ],
+      "decision": "Keep unable to stay/continue military work.",
+      "uncertainty": "The reason and agency of departure are unstated; the targets do not claim dismissal, voluntary resignation, combat cowardice or a specific failure."
+    },
+    {
+      "opening_rows": [
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ],
+      "decision": "Keep pauses, attack exclamation, reactions and playful saw-that wording.",
+      "uncertainty": "No unseen physical detail or named speaker is added. Actor302 remains unidentified; music note and helper2058 require separate layout/runtime handling."
+    },
+    {
+      "opening_rows": [
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        216,
+        217,
+        218
+      ],
+      "decision": "Keep the rude childs insults and father reference.",
+      "uncertainty": "Useless, inability to dodge, doubt about military service and disappointment in the fathers recommendation are explicit. The draft does not infer gender merely from this rudeness."
+    },
+    {
+      "opening_rows": [
+        219,
+        220,
+        224,
+        225
+      ],
+      "decision": "Keep the unfinished recognition.",
+      "uncertainty": "The source omits a completed identification; the targets do not supply my pupil or a character name."
+    },
+    {
+      "opening_rows": [
+        231,
+        232,
+        233
+      ],
+      "decision": "Keep law on foreign exchange rates to be issued at the end of next month.",
+      "uncertainty": "The target preserves the future promulgation date; it does not claim the law is already effective."
+    },
+    {
+      "opening_rows": [
+        236,
+        237,
+        238
+      ],
+      "decision": "Keep national-army defensive formation and Old Kingdoms recent invasion.",
+      "uncertainty": "Defensive/interception formation is the intended military context. The target does not invent a named tactic, winner, or exact country name for the home-country army."
+    }
+  ],
+  "required_metadata_corrections": [
+    {
+      "location": "coordinated_completion_proposals[0].rows[*].outside_assigned_slice",
+      "reason": "Draft copied flags from001. For002 scope160-239, rows158 and159 are outside and160 is inside. This review proposal records corrected flags; target text is unaffected."
+    }
+  ],
+  "integration_readiness": {
+    "meaning_review_ready": true,
+    "boundary_rows_requiring_atomic_integration": [
+      160
+    ],
+    "within_slice_complete_group_opening_rows": [
+      161,
+      239
+    ],
+    "within_slice_complete_group_row_count": 79,
+    "ordering": "Meaning review first, then scripted glossary normalization; no script-driven name edits performed.",
+    "layout_or_runtime_acceptance": false,
+    "production_ready": false,
+    "layout_followups": [
+      {
+        "opening_rows": [
+          177,
+          178,
+          180,
+          181
+        ],
+        "finding": "Choice IDs0/1 and leading U+3000 verified; menu width and control behavior still need their own layout validation."
+      },
+      {
+        "opening_rows": [
+          200,
+          201,
+          202
+        ],
+        "finding": "Display helper2058 atword2058/byte4116 invokes native0x3052 at4136 with its own argument mode. Do not assume ordinary2030 layout/reflow handling."
+      },
+      {
+        "opening_rows": [
+          203,
+          204
+        ],
+        "finding": "Source204 and draft retain U+266A exactly. Verify the glyph and full group203-204 dimensions; meaning review is not font acceptance."
+      }
+    ]
+  },
+  "terminology": {
+    "glossary_file": "work\\glossary\\opening_harbor.json",
+    "glossary_sha256": "f7524803992a3cd45ba7577580c2868ec0b549a903f8b7f649dd8f250719941b",
+    "additional_glossary_file": "work/glossary/entities.json",
+    "additional_glossary_sha256": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+    "verified_ids": [
+      "organization.empire",
+      "family.martini",
+      "polity.old_kingdom"
+    ],
+    "names_modified": false,
+    "name_normalization_applied": false,
+    "person_gender_inferred": false,
+    "metadata_followup": "Replace draft pending glossary note with current known IDs during integration, after preserving this reviewed target hash."
+  },
+  "tokens": {
+    "control_characters_found_in_assigned_source": 0,
+    "runtime_placeholders_found_in_assigned_source": [],
+    "source_target_token_sequences_match": true,
+    "preserved_symbols": {
+      "U+3000": [
+        177,
+        178,
+        180,
+        181
+      ],
+      "U+266A": [
+        204
+      ]
+    },
+    "cp932_roundtrip_rows": 80,
+    "cross_slice_proposal_rows_roundtrip_checked": 3
+  },
+  "coverage": [
+    {
+      "slice_row": 0,
+      "opening_row": 160,
+      "id": "00:00065:text:00027036",
+      "source_sha256": "1063451c4395f3464cfbd28510fcc268c5b6ff7c578c87d891d3a2bf284aab17",
+      "reference_instructions": [
+        80114
+      ],
+      "verdict": "meaning_checked_coordinated_integration_required"
+    },
+    {
+      "slice_row": 1,
+      "opening_row": 161,
+      "id": "00:00065:text:00027046",
+      "source_sha256": "ab29706d3343fe63ff479fd0d91cdfae63b75240594cebd4eddf221ad30b663f",
+      "reference_instructions": [
+        80140
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 2,
+      "opening_row": 162,
+      "id": "00:00065:text:00027058",
+      "source_sha256": "4b6978b9f0ed66d628392058da9e0695eb179ec0bdb6ed05143263b5a0da8592",
+      "reference_instructions": [
+        80148
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 3,
+      "opening_row": 163,
+      "id": "00:00065:text:0002706e",
+      "source_sha256": "79e1fea46ca454cdbe5518356cfe313abad6f59cbdc0a4314ddc033d18ca0feb",
+      "reference_instructions": [
+        80156
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 4,
+      "opening_row": 164,
+      "id": "00:00065:text:0002707a",
+      "source_sha256": "08ce88285e07d3779339721ee57cd61a3cb073cc486bc8de4f166b30b100da33",
+      "reference_instructions": [
+        80182
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 5,
+      "opening_row": 165,
+      "id": "00:00065:text:00027098",
+      "source_sha256": "11a9cb6312d6fab2d1315c39223a00a4c219d461a4bcb8170ff93746df6678c4",
+      "reference_instructions": [
+        80190
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 6,
+      "opening_row": 166,
+      "id": "00:00065:text:000270b2",
+      "source_sha256": "efb670ae4be4db7c5b19c816b9a6d6d70ad13b1d5eda6a09f83c3d0c331a5ee7",
+      "reference_instructions": [
+        80198
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 7,
+      "opening_row": 167,
+      "id": "00:00065:text:000270c4",
+      "source_sha256": "66c91c88f737b99d0c8d25137abf111f43b64895ac6ad78410cac25b6fce46c0",
+      "reference_instructions": [
+        80240
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 8,
+      "opening_row": 168,
+      "id": "00:00065:text:000270d2",
+      "source_sha256": "944a55b098786d3b4ccf3b92737baa0efc68ef8ae1c78cd275b93ffb2bae46a3",
+      "reference_instructions": [
+        80248
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 9,
+      "opening_row": 169,
+      "id": "00:00065:text:000270e4",
+      "source_sha256": "78ac0494d96a6a07e444e24d95912322b66f16b86c54316b20a73087a46dc8e0",
+      "reference_instructions": [
+        80256
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 10,
+      "opening_row": 170,
+      "id": "00:00065:text:000270f6",
+      "source_sha256": "6eb19a36ebc62535121ad0d8e6477b910c88028e79f89bfee5c48da6ad4c276f",
+      "reference_instructions": [
+        80282
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 11,
+      "opening_row": 171,
+      "id": "00:00065:text:00027106",
+      "source_sha256": "4b6978b9f0ed66d628392058da9e0695eb179ec0bdb6ed05143263b5a0da8592",
+      "reference_instructions": [
+        80290
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 12,
+      "opening_row": 172,
+      "id": "00:00065:text:0002711c",
+      "source_sha256": "1ce5723a01612710edd1da5d4a53c753ea5994800c6dd9003b64f5baee046432",
+      "reference_instructions": [
+        80298
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 13,
+      "opening_row": 173,
+      "id": "00:00065:text:00027130",
+      "source_sha256": "08ce88285e07d3779339721ee57cd61a3cb073cc486bc8de4f166b30b100da33",
+      "reference_instructions": [
+        80324
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 14,
+      "opening_row": 174,
+      "id": "00:00065:text:0002714e",
+      "source_sha256": "11a9cb6312d6fab2d1315c39223a00a4c219d461a4bcb8170ff93746df6678c4",
+      "reference_instructions": [
+        80332
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 15,
+      "opening_row": 175,
+      "id": "00:00065:text:00027168",
+      "source_sha256": "636b477cb00ac271a703ec972d24ccd85e13ae59344687e5d23a4ee2814dcda0",
+      "reference_instructions": [
+        80340
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 16,
+      "opening_row": 176,
+      "id": "00:00065:text:0002717c",
+      "source_sha256": "da287040c5638a1c11aad5f9c97533382fa5ac9bc72e07f8f10b35be6510ade7",
+      "reference_instructions": [
+        80374
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 17,
+      "opening_row": 177,
+      "id": "00:00065:text:0002718a",
+      "source_sha256": "f25cda99232de9c1b2ff8223102970fecf80c961facf386066f422279ad03c6a",
+      "reference_instructions": [
+        80382
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 18,
+      "opening_row": 178,
+      "id": "00:00065:text:000271a0",
+      "source_sha256": "e3bc864a7c1f0262d202f729cbf94c815480d78598dcf3d894206882482efb4c",
+      "reference_instructions": [
+        80392
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 19,
+      "opening_row": 179,
+      "id": "00:00065:text:000271b6",
+      "source_sha256": "da287040c5638a1c11aad5f9c97533382fa5ac9bc72e07f8f10b35be6510ade7",
+      "reference_instructions": [
+        80406
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 20,
+      "opening_row": 180,
+      "id": "00:00065:text:000271c4",
+      "source_sha256": "f25cda99232de9c1b2ff8223102970fecf80c961facf386066f422279ad03c6a",
+      "reference_instructions": [
+        80414
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 21,
+      "opening_row": 181,
+      "id": "00:00065:text:000271da",
+      "source_sha256": "3892175ded4142d11323cfbfe713e847868f443e9ec026a025d0965c8ffc42e1",
+      "reference_instructions": [
+        80424
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 22,
+      "opening_row": 182,
+      "id": "00:00065:text:000271f0",
+      "source_sha256": "b082a0c0d987143c6aa19ae32c143f13ef8b340498e8df1ad55e48948efe2482",
+      "reference_instructions": [
+        80542
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 23,
+      "opening_row": 183,
+      "id": "00:00065:text:000271fc",
+      "source_sha256": "efe0cb144b27f3385798266b100f294794982689edd01e51caf84066e55fd7c3",
+      "reference_instructions": [
+        80582
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 24,
+      "opening_row": 184,
+      "id": "00:00065:text:00027206",
+      "source_sha256": "196271f641f30ce1cc2125c1f65aabb36713fb405b4f59ed576d98fd55525617",
+      "reference_instructions": [
+        80590
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 25,
+      "opening_row": 185,
+      "id": "00:00065:text:00027216",
+      "source_sha256": "976e69b7fd1e2dd4b77411794c2a74f43f64d99a25b91e4a8079b53f894ebdb4",
+      "reference_instructions": [
+        80618
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 26,
+      "opening_row": 186,
+      "id": "00:00065:text:0002722a",
+      "source_sha256": "014f8cfbfe578f5918fb90ac658199ab3b30715fb1c2340a443b95db788d50ad",
+      "reference_instructions": [
+        80626
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 27,
+      "opening_row": 187,
+      "id": "00:00065:text:00027238",
+      "source_sha256": "241edec6b1261ac192ea66c604e280ff40ff8732c76e67a714a0cb2ad79df765",
+      "reference_instructions": [
+        80634
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 28,
+      "opening_row": 188,
+      "id": "00:00065:text:0002724c",
+      "source_sha256": "c8d6dd8866aec21dcd97c0876e7063df648efbd57849720da22f6ff949597d14",
+      "reference_instructions": [
+        80662
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 29,
+      "opening_row": 189,
+      "id": "00:00065:text:00027262",
+      "source_sha256": "55771376a2aec92b7937eafd8e3aee64c39d4022cf135439c9375f7bd7636f89",
+      "reference_instructions": [
+        80670
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 30,
+      "opening_row": 190,
+      "id": "00:00065:text:00027274",
+      "source_sha256": "efe0cb144b27f3385798266b100f294794982689edd01e51caf84066e55fd7c3",
+      "reference_instructions": [
+        80702
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 31,
+      "opening_row": 191,
+      "id": "00:00065:text:0002727e",
+      "source_sha256": "fa8d7588a598c2edab97ab713d3eef1240883ac0ba9cd7fe700499822be21d1e",
+      "reference_instructions": [
+        80710
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 32,
+      "opening_row": 192,
+      "id": "00:00065:text:0002728e",
+      "source_sha256": "76b522be34c485eff1c5432fbb00bdf88c6b2eb4c0fa06226efabea928b122a1",
+      "reference_instructions": [
+        80738
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 33,
+      "opening_row": 193,
+      "id": "00:00065:text:000272a2",
+      "source_sha256": "e06c400996e0b068aa3d714a6d34334a5a57d37176c0948b9b4f177eaf657d33",
+      "reference_instructions": [
+        80746
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 34,
+      "opening_row": 194,
+      "id": "00:00065:text:000272b6",
+      "source_sha256": "45cdbf62df0f287ccf38083943c9870f7de4e79c99b430f8bf5d3ec84af05740",
+      "reference_instructions": [
+        80754
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 35,
+      "opening_row": 195,
+      "id": "00:00065:text:000272c6",
+      "source_sha256": "1870257500a02c76e1e016c35ccaadd0e67f5a251b36a4355675deaff1aaff88",
+      "reference_instructions": [
+        80782
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 36,
+      "opening_row": 196,
+      "id": "00:00065:text:000272dc",
+      "source_sha256": "fcb726c60c836f5d80c60fae762d35416a41674dc1bbe49559837ffc8be68a6a",
+      "reference_instructions": [
+        80790
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 37,
+      "opening_row": 197,
+      "id": "00:00065:text:000272ee",
+      "source_sha256": "781295f1a7a30842948f96f6ec4ca9682ed04932c2c488812d4a2d04dea073dd",
+      "reference_instructions": [
+        80798
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 38,
+      "opening_row": 198,
+      "id": "00:00065:text:000272fa",
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "reference_instructions": [
+        80938
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 39,
+      "opening_row": 199,
+      "id": "00:00065:text:00027308",
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "reference_instructions": [
+        81100
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 40,
+      "opening_row": 200,
+      "id": "00:00065:text:00027316",
+      "source_sha256": "55dd7e390270b8215e0b68a74487b06829999bd4f61456ec84fa15bf0f370e8b",
+      "reference_instructions": [
+        81124
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 41,
+      "opening_row": 201,
+      "id": "00:00065:text:0002732c",
+      "source_sha256": "19fd509ecaae724c0217da332bba8cdfbf063a42d59d197e1f7a3f16342300d1",
+      "reference_instructions": [
+        81282
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 42,
+      "opening_row": 202,
+      "id": "00:00065:text:0002733e",
+      "source_sha256": "8fc18afc87d720122575ea8fb7c128b208ea6b5436d3438d4bb8ddd4b46ac87a",
+      "reference_instructions": [
+        81314
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 43,
+      "opening_row": 203,
+      "id": "00:00065:text:0002734c",
+      "source_sha256": "dff994ce68ba6d46dcbacd2a1dffb0f034545fb21c8a88522e203dee5e6b6d24",
+      "reference_instructions": [
+        81422
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 44,
+      "opening_row": 204,
+      "id": "00:00065:text:00027356",
+      "source_sha256": "55d30f6b337068fefcc278f307717f1433c064acb075a5142525015deef4f3cb",
+      "reference_instructions": [
+        81430
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 45,
+      "opening_row": 205,
+      "id": "00:00065:text:0002736a",
+      "source_sha256": "aa715f4a898d3dd49776e92721021df2ce09f4bff9abea69dc4f686545274674",
+      "reference_instructions": [
+        81458
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 46,
+      "opening_row": 206,
+      "id": "00:00065:text:0002737e",
+      "source_sha256": "ac003fba57558d1a83e71b1369f82df98e62288aadde4568b5fa77df7b6d70aa",
+      "reference_instructions": [
+        81478
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 47,
+      "opening_row": 207,
+      "id": "00:00065:text:00027392",
+      "source_sha256": "fcd21b8d7ad0b6976bb423e8f02a6290d4446bc37abb757f582426d37ce1d24c",
+      "reference_instructions": [
+        81524
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 48,
+      "opening_row": 208,
+      "id": "00:00065:text:000273a4",
+      "source_sha256": "def32e9fdd75ecb75fab749bbe7974503e1018c75cd97d1a9184d7e0b768792e",
+      "reference_instructions": [
+        81532
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 49,
+      "opening_row": 209,
+      "id": "00:00065:text:000273b4",
+      "source_sha256": "a5616dbce3ce1cdd7a05dc39607683dcecc653dabc6236955d6e9979983efeec",
+      "reference_instructions": [
+        81540
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 50,
+      "opening_row": 210,
+      "id": "00:00065:text:000273c8",
+      "source_sha256": "a11abca541d2e14ef7c7bbfd2d0b66f2247b91c7fb9980d7f1cd082d26708e0f",
+      "reference_instructions": [
+        81576
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 51,
+      "opening_row": 211,
+      "id": "00:00065:text:000273dc",
+      "source_sha256": "d254477eea776cd31634939f41af43b4d63b09b51fd9a19a246a16f010fdce3f",
+      "reference_instructions": [
+        81584
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 52,
+      "opening_row": 212,
+      "id": "00:00065:text:000273f4",
+      "source_sha256": "1654310c3b14fe60348342cf888fffb73bdfee2ef0eeadf5c15ac4263ac356ea",
+      "reference_instructions": [
+        81592
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 53,
+      "opening_row": 213,
+      "id": "00:00065:text:0002740c",
+      "source_sha256": "6f32df2697d6cbcd6a4bdf451fae53a36eb09e289ac828086406de75dc318b22",
+      "reference_instructions": [
+        81634
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 54,
+      "opening_row": 214,
+      "id": "00:00065:text:00027416",
+      "source_sha256": "a2a42d8b31d7850c55a15c408ce6890ef276c3e0f6a41f3495d0c71222222f16",
+      "reference_instructions": [
+        81668
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 55,
+      "opening_row": 215,
+      "id": "00:00065:text:0002742a",
+      "source_sha256": "901b0ee46069f075b877a16c3edbbbd50c839940bc5d90b023dd92f31e5e3ff3",
+      "reference_instructions": [
+        81676
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 56,
+      "opening_row": 216,
+      "id": "00:00065:text:0002743c",
+      "source_sha256": "ab974e7b51c297cc7db1f11732aa21d960a6c868de42bf7f16a6588e4ce9d845",
+      "reference_instructions": [
+        81712
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 57,
+      "opening_row": 217,
+      "id": "00:00065:text:00027454",
+      "source_sha256": "328dec561d164d9a3c006ba1241f72de75d6bacb525f07cb889776a198ec8873",
+      "reference_instructions": [
+        81720
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 58,
+      "opening_row": 218,
+      "id": "00:00065:text:0002746e",
+      "source_sha256": "08bf6600aba6a296d692698395c9cb9433557db4662be178cc527d62a20886f1",
+      "reference_instructions": [
+        81728
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 59,
+      "opening_row": 219,
+      "id": "00:00065:text:0002747c",
+      "source_sha256": "12c73e10cf56034d32296fc00fe060fde1d21235dba62dd3c568bc80a1cdf556",
+      "reference_instructions": [
+        81814
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 60,
+      "opening_row": 220,
+      "id": "00:00065:text:0002748c",
+      "source_sha256": "dd7da63e10c3a76cb278816078c715da426ab66748cfb1274e04600c449e2a82",
+      "reference_instructions": [
+        81822
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 61,
+      "opening_row": 221,
+      "id": "00:00065:text:0002749a",
+      "source_sha256": "cc79b14a2040f1552ae477ba2bfd3d4a3e1acd2de8bf6f04e71d9f8916e2b37f",
+      "reference_instructions": [
+        81846
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 62,
+      "opening_row": 222,
+      "id": "00:00065:text:000274ac",
+      "source_sha256": "ed8107f5a8efc739fa01cc1f1c87b1a16a1df047893cb2b7243851740397fa73",
+      "reference_instructions": [
+        81854
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 63,
+      "opening_row": 223,
+      "id": "00:00065:text:000274ca",
+      "source_sha256": "0c6e83d76ffc641e4b42479aaba854df2a88cfaedb4df610ae7d140581090ab8",
+      "reference_instructions": [
+        81862
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 64,
+      "opening_row": 224,
+      "id": "00:00065:text:000274e4",
+      "source_sha256": "48fc5cdb778fa1237243b706a68e98c2b3a62f02f155a147625ea5b3ed73d3b2",
+      "reference_instructions": [
+        81948
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 65,
+      "opening_row": 225,
+      "id": "00:00065:text:000274f8",
+      "source_sha256": "95acba085913be7c53e3d84b25ed0b23438eabf0c13cc5b8463603b32571ae1d",
+      "reference_instructions": [
+        81956
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 66,
+      "opening_row": 226,
+      "id": "00:00065:text:00027508",
+      "source_sha256": "5db8fb02f9481c6919b833cb41d0fd72dd1940eae8a7cc718117da50f03e360e",
+      "reference_instructions": [
+        82030
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 67,
+      "opening_row": 227,
+      "id": "00:00065:text:00027516",
+      "source_sha256": "89cd21741df6a607312d52ebcb94e4c6ad423faf9c519052213e21f0a089fb0a",
+      "reference_instructions": [
+        82038
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 68,
+      "opening_row": 228,
+      "id": "00:00065:text:0002752a",
+      "source_sha256": "c8d7bcce70d3cfdc7c7979e68d058cf0db60faa174e8a4be3da9143836428663",
+      "reference_instructions": [
+        82046
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 69,
+      "opening_row": 229,
+      "id": "00:00065:text:0002753c",
+      "source_sha256": "c9b846160d36315f5de8ed876ab4ace0883f455a0805d4375daa63f80cfa9d73",
+      "reference_instructions": [
+        82132
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 70,
+      "opening_row": 230,
+      "id": "00:00065:text:00027546",
+      "source_sha256": "053ff0b3c4695d07a316b3e0c6c732939a61073daa4ab00a9e7ddb2a20bd10a2",
+      "reference_instructions": [
+        82218
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 71,
+      "opening_row": 231,
+      "id": "00:00065:text:0002755a",
+      "source_sha256": "eb0ffab613d73b33e671d32506fd72be5b875b8a07129b5859719decfc4d3f94",
+      "reference_instructions": [
+        82252
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 72,
+      "opening_row": 232,
+      "id": "00:00065:text:0002756e",
+      "source_sha256": "387aa8fa231a57d28abdff502f85e6fdc8868b0d5aa18a4f9ae80724682654bb",
+      "reference_instructions": [
+        82260
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 73,
+      "opening_row": 233,
+      "id": "00:00065:text:0002758c",
+      "source_sha256": "d3887193371802a531973bc46092920ad2764222e0d61c0a19a0301a65378e65",
+      "reference_instructions": [
+        82268
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 74,
+      "opening_row": 234,
+      "id": "00:00065:text:000275a6",
+      "source_sha256": "a5afcabde8a7bfb9f8d010aa7fd25866857369dc0da619c0882f3abb773e51b4",
+      "reference_instructions": [
+        82308
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 75,
+      "opening_row": 235,
+      "id": "00:00065:text:000275b0",
+      "source_sha256": "3cd75443f30c9b7dd0be2cf2e2ec847130c52f584802460ff4d9c612e29916f9",
+      "reference_instructions": [
+        82340
+      ],
+      "verdict": "meaning_checked_no_change"
+    },
+    {
+      "slice_row": 76,
+      "opening_row": 236,
+      "id": "00:00065:text:000275bc",
+      "source_sha256": "348e730569d4e16f4e04f48ab0e7371dacaf1a4bb50297b6c1674a1ca52e93a7",
+      "reference_instructions": [
+        82374
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 77,
+      "opening_row": 237,
+      "id": "00:00065:text:000275d8",
+      "source_sha256": "6b8c461d3c21345608082c3f64b43fcfe4725dfed012135d76fbb7a64182c87b",
+      "reference_instructions": [
+        82382
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 78,
+      "opening_row": 238,
+      "id": "00:00065:text:000275f2",
+      "source_sha256": "5caf55468256cf8d33a2ce1537604424fdd0e2c8f5a1d38402c752bafc21c95e",
+      "reference_instructions": [
+        82390
+      ],
+      "verdict": "meaning_checked_with_uncertainty"
+    },
+    {
+      "slice_row": 79,
+      "opening_row": 239,
+      "id": "00:00065:text:00027602",
+      "source_sha256": "a2a42d8b31d7850c55a15c408ce6890ef276c3e0f6a41f3495d0c71222222f16",
+      "reference_instructions": [
+        82476
+      ],
+      "verdict": "meaning_checked_no_change"
+    }
+  ],
+  "acceptance_limits": {
+    "scripted_name_normalization": false,
+    "in_game_validation": false,
+    "font_validation": false,
+    "layout_validation": false,
+    "runtime_memory_validation": false,
+    "voice_timing_validation": false,
+    "branch_playthrough_validation": false,
+    "full_game_translation": false
+  },
+  "write_scope": "Only opening_002.meaning_review.json is written. Targets, glossary and prior reviews unchanged; orchestrator owns changelog."
+}

@@ -1,0 +1,47 @@
+{
+  "version": "0.1.14",
+  "resource_id": "00:00180",
+  "section": "main-tail",
+  "status": "draft_self_check_only_not_independent_review",
+  "translated_relative_range": [160, 1871],
+  "translated_rows": 1712,
+  "physical_ordered_index_range": [4117, 5828],
+  "unique_rows_examined_relative": [150, 1871],
+  "unique_rows_examined_count": 1722,
+  "new_slice_files": 22,
+  "complete_tail_including_preexisting_slices": 1872,
+  "checks": {
+    "exact_relative_row_coverage": "pass: 0-1871 including existing 0-159",
+    "source_id_hash_offset_byte_length_reference_instructions": "pass",
+    "control_token_order": "pass",
+    "two_byte_cp932_encoding": "pass",
+    "direct_and_menu_width": "pass after row258 wording adjustment",
+    "draft_compiler": "Passed full resource180 preview after coordinating agent implemented lossless pool compaction: all5829 source rows covered; decoded385224 bytes; earlier allocation failure resolved.",
+    "independent_meaning_review": "pending",
+    "in_game_validation": "pending"
+  },
+  "uncertainties": [
+    "Food and species spellings follow provisional chapter6_terms_0.1.14.json: Restro Menier, Ginema, Nauba, Shildo, Dalima, Fubars, Lionel, Orful, Rebit, Hellmole. Metral is externally verified. These are not claims of official English localization.",
+    "Rikuto and Gate of Evocation remain provisional working spellings/terminology, as reported to the root agent.",
+    "The unvoiced internal narration near1755 is translated without naming the speaker; source does not name that speaker in the extracted text.",
+    "Final narration preserves the unnamed person leaving the feast, without introducing a gender or identity.",
+    "The five demi-human tribe epithets are literal working translations, not independently established English titles.",
+    "Source onomatopoeia is rendered as phonetic English cries. Row1773 uses Quiupy for its own cry."
+  ],
+  "changes": [
+    "Translated all remaining Chapter6 main-tail dialogue from160 through1871 in full, without a source byte budget.",
+    "Replaced the previously unrun, misaligned160-239 draft; disabled its obsolete writer to prevent accidental reintroduction.",
+    "Used current character-name overlay including Ardylia, Fariel, Phlaiz, Kunon, Ishlar, Yafha and Scarrel.",
+    "Used Shartos after root confirmed official furigana and the existing glossary.",
+    "Preserved player-entered-name controls and all source control-token ordering.",
+    "Adjusted the row258 choice to 'You like Falzen?' after a concrete single-line menu width failure; no dialogue meaning was removed."
+  ],
+  "draft_tool": "tools/draft_c6_remaining_014.py",
+  "draft_sources": [
+    "work/translation/en/chapters_0.1.14/0180/draft_0160_0479.txt",
+    "work/translation/en/chapters_0.1.14/0180/draft_0480_0799.txt",
+    "work/translation/en/chapters_0.1.14/0180/draft_0800_1119.txt",
+    "work/translation/en/chapters_0.1.14/0180/draft_1120_1439.txt",
+    "work/translation/en/chapters_0.1.14/0180/draft_1440_1871.txt"
+  ]
+}

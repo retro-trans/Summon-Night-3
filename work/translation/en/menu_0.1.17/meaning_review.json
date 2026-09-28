@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "build_version": "0.1.17",
+  "language": "en",
+  "reviewer": "ui015_meaning_review independent agent",
+  "scope": "Crash-fix compact help groups only: Deployment and Party Abilities, plus semantic approval of options-help word wrapping.",
+  "status": "approved",
+  "source_review_path": "work\\translation\\en\\menu_0.1.16\\meaning_review.json",
+  "source_review_sha256": "0e9d420af9a920a08d48e504fb2cbb33e94cb087d0312bbea650c67025973eef",
+  "entries": [
+    {
+      "id": "elf:ui:00217bb8",
+      "source_sha256": "398abf4851d9075fc4d396a5fd85ddf65f953d0d7a246abc2b152c925e1ef28a",
+      "source_control_tokens": [],
+      "target_compact": "Select units for battle.",
+      "character_count": 24,
+      "meaning_status": "independently_reviewed"
+    },
+    {
+      "id": "elf:ui:00217bd6",
+      "source_sha256": "fe4246ab69ffe0431e198abd7c08142195614743b7cca866e4d0a2aa8d1ca648",
+      "source_control_tokens": [],
+      "target_compact": "View status; change gear.",
+      "character_count": 25,
+      "meaning_status": "independently_reviewed"
+    },
+    {
+      "id": "elf:ui:00217bf8",
+      "source_sha256": "3aa91f1db4db4e7d169fa06a6c0895aca67df7506825bbaf7ed09fa9ede64e16",
+      "source_control_tokens": [],
+      "target_compact": "View Party Abilities;",
+      "character_count": 21,
+      "meaning_status": "independently_reviewed"
+    },
+    {
+      "id": "elf:ui:00217c1c",
+      "source_sha256": "92609e04faa8485c5302a5f9c7bdc08646423f00f50db9fdcd505b91a151644a",
+      "source_control_tokens": [],
+      "target_compact": "choose abilities for battle.",
+      "character_count": 28,
+      "meaning_status": "independently_reviewed"
+    }
+  ],
+  "groups": [
+    {
+      "key": "deployment",
+      "source_ids": [
+        "elf:ui:00217bb8",
+        "elf:ui:00217bd6"
+      ],
+      "lines": [
+        "Select units for battle.",
+        "View status; change gear."
+      ],
+      "notes": "Select units for battle accurately preserves selecting units that participate. View status preserves status inspection. Change gear preserves changing equipment; no gameplay function is omitted.",
+      "character_counts": [
+        24,
+        25
+      ],
+      "total_characters": 49,
+      "result": "approved"
+    },
+    {
+      "key": "party_abilities",
+      "source_ids": [
+        "elf:ui:00217bf8",
+        "elf:ui:00217c1c"
+      ],
+      "lines": [
+        "View Party Abilities;",
+        "choose abilities for battle."
+      ],
+      "notes": "The source is one sentence over two strings. These lines preserve viewing Party Abilities and choosing/changing which abilities are used in battle. The shared Party Abilities context makes repeating Party before abilities unnecessary.",
+      "character_counts": [
+        21,
+        28
+      ],
+      "total_characters": 49,
+      "result": "approved"
+    }
+  ],
+  "options_rewrap": {
+    "result": "approved_without_wording_change",
+    "conditions": [
+      "Preserve every word, punctuation mark and controller/control token in its original order.",
+      "Wrap at a word boundary; the removed interword space is represented by the line break. Do not clip the line or discard a continuation.",
+      "Recompute actual per-line encoded U16 capacity and total glyph objects after wrapping; semantic approval is not a memory-safety guarantee."
+    ],
+    "note": "Rewrapping an existing 30-character help line into shorter complete word groups does not change meaning. This review does not approve exceeding the native total-object limit or adding an unsupported line count."
+  },
+  "validation_limits": "Source meanings were re-read with index_interface.source_text and compared against prior independent review. Counts here are Python string characters including spaces and punctuation, excluding terminators. Parent must independently verify actual encoded glyph/object counts and renderer capacities. No runtime test performed.",
+  "historical_inputs_modified": false
+}

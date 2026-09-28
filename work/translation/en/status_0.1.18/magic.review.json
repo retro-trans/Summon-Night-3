@@ -1,0 +1,39 @@
+{
+  "build_version": "0.1.18",
+  "category": "summon_and_equipped_magic_names",
+  "source": "work/translation/en/interface.index.json",
+  "source_tables": ["02:00003/00012", "02:00003/00013"],
+  "field_classification": {
+    "02:00003/00012": {
+      "record_count": 89,
+      "record_stride": 52,
+      "name_pointer_slots": [9, 10, 11],
+      "excluded_pointer_slots": {"12": "long encyclopedia description"},
+      "nonempty_name_references": 258,
+      "excluded_long_descriptions": 87
+    },
+    "02:00003/00013": {
+      "record_count": 237,
+      "record_stride": 40,
+      "name_pointer_slots": [8],
+      "empty_or_non-name_pointer_slots": [9],
+      "nonempty_name_references": 235
+    }
+  },
+  "coverage": {
+    "name_references_required": 493,
+    "description_references_excluded": 87,
+    "ambiguous_slots": []
+  },
+  "locked_or_provisional_names": [
+    {"record": 6, "slot": 9, "target": "Dritol", "status": "provisional_project_transliteration", "evidence": "work/glossary/menu_0.1.16.json"},
+    {"record": 84, "slot": 9, "target": "Shine Saber", "status": "screenshot_confirmed"}
+  ],
+  "compact_attack_style_meaning_review": {
+    "approved": [
+      ["Vertical Slash", "VSlash"], ["Horizontal Slash", "HSlash"], ["Thrust", "Thrust"], ["Strike", "Strike"], ["Fire", "Fire"], ["Throw", "Throw"], ["Special", "Spec."], ["Vertical Throw", "VThrow"], ["Horizontal Throw", "HThrow"], ["Guard", "Guard"], ["Counterattack", "Cntr"]
+    ],
+    "note": "These compact forms retain their source action/style meaning. Use Cntr only for counterattack, not a generic counter. Guard is the correct action-menu noun for defend. Parent approval is still needed for the compact presentation policy."
+  },
+  "self_review": "Source pointers were inspected directly through GameSource, child, and interface.index. Child 12 slots 9–11 consistently form the listed summon name, alternate name, and alias/title sequence; slot 12 consistently follows as a long description. Child 13 slot 8 is the populated spell-name field."
+}

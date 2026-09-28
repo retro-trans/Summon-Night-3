@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "version": "0.1.21",
+  "source_elf": "work/output/0.1.20/EBOOT.elf",
+  "scope": "Bounded spell-detail template literals at 0x21727c-0x2173a0; full meaning reviewed before compact fragments.",
+  "entries": [
+    {"id":"elf:ui:0021727c","source_sha256":"14be01457865a8d01ad27a48e5bf794a2290349eff3e7a74577b54e1716d57fc","source":"特殊能力「ユニット召喚」で戦闘ユニットとして召喚可能","full":"Can be summoned as a battle unit with the Unit Summon special ability.","compact":"Deploy using Unit Summon.","joining":"Describes eligibility to deploy this summon as a battle unit through its Unit Summon special ability."},
+    {"id":"elf:ui:002172b4","source_sha256":"0d3ac9cd38d8903fa07f55cd4bf1dec2199d50f06c618c2c049bd85d0be5688e","source":"攻撃　威力：","full":"Attack  Power:","compact":"ATK Pwr:","joining":"The two spaces stand for the source full-width separator; a numeric value follows at runtime."},
+    {"id":"elf:ui:002172c4","source_sha256":"2258408e897ca0b297f047f10647f8114aaef1764dafea59d3e548debf5a4099","source":"＋","full":"+","compact":"+","joining":"Prefix joined to the following effect."},
+    {"id":"elf:ui:002172c8","source_sha256":"77da39ebdc8c9b45f999d2d087d62c20667399017ccc35a6d560ca015aec806a","source":"ＨＰ回復　威力：","full":"HP Restore  Power:","compact":"HP Heal:","joining":"The two spaces stand for the source full-width separator; a numeric value follows at runtime."},
+    {"id":"elf:ui:002172dc","source_sha256":"9a54a0ec4402f6b25d1f1b00fc568ad2de39edef198641529f7989ea3e441c61","source":"＋治療？","full":"+Cure?","compact":"+Cure?","joining":"Question mark is source uncertainty and must remain."},
+    {"id":"elf:ui:002172e8","source_sha256":"fca63f103db0423621d11362e55348309ffbbcc9a416f267e1d784d838e6a702","source":"＋治療","full":"+Cure","compact":"+Cure","joining":"Prefix joined to the preceding/following effect."},
+    {"id":"elf:ui:002172f0","source_sha256":"83f7c68a1af16054431192c8be30ae18a0403914e32ad650109ba5e5f5657639","source":"異常付加：","full":"Inflicts Ailment:","compact":"Ail: ","joining":"A status ailment name follows at runtime; the compact prefix is fixed at five cells and must not be relocated."},
+    {"id":"elf:ui:002172fc","source_sha256":"bc66baac2d64f112475fa69644d3eb1a5f69f5d623c6da9d1789b06d56dd6449","source":"憑依","full":"Possession","compact":"Possess.","joining":"Uses the established battle-status term Possession."},
+    {"id":"elf:ui:00217304","source_sha256":"864e5e1f0b9d10790bfe488eaaa526b3e243476b72430c2f1c91d6f1506104ff","source":"？？？","full":"???","compact":"???","joining":"Unknown/hidden effect marker; preserve three question marks."},
+    {"id":"elf:ui:0021730c","source_sha256":"1ba8a9c56b640459f1abafca471bfb4778c6bb27b35e29aa7591f1d3cfcdcaf2","source":"範囲：単体","full":"Area: Single","compact":"Single","joining":"Target-area template."},
+    {"id":"elf:ui:00217318","source_sha256":"a510a79d8a8266f9247692d3c0af5ec8b7752cc0bb4fd8f0c92136089622fb74","source":"範囲：小","full":"Area: Small","compact":"Small","joining":"Target-area template."},
+    {"id":"elf:ui:00217324","source_sha256":"e2e62aea93b5ab374bfea1a04b486bfa605ae20cbe499a5634da4e94974ab741","source":"範囲：中","full":"Area: Medium","compact":"Med.","joining":"Target-area template."},
+    {"id":"elf:ui:00217330","source_sha256":"06c0b5689e9c5c174ca6aa6279867fbd451dcb6474f101d9f13800e30095b22f","source":"範囲：大","full":"Area: Large","compact":"Lrg.","joining":"Target-area template."},
+    {"id":"elf:ui:0021733c","source_sha256":"221a9cceedc2979386544362a7aa1d8c86c097007c2cc51d486b16e61554426c","source":"範囲：縦５","full":"Area: Line 5","compact":"Line 5","joining":"Vertical five-cell geometry rendered as a line of five."},
+    {"id":"elf:ui:00217348","source_sha256":"3d144adf5679e9ec070c26be0f688a81b8e18756f06c81cd84cb8f57466e0b1b","source":"範囲：縦３","full":"Area: Line 3","compact":"Line 3","joining":"Vertical three-cell geometry rendered as a line of three."},
+    {"id":"elf:ui:00217354","source_sha256":"af52fcb22ef8c946edfe0f1eadf9e5530bbc90fab9eac695d1f36aa440dbfe06","source":"範囲：十字横２","full":"Area: Cross H2","compact":"Cross H2","joining":"Geometry notation intentionally retained; source alone does not establish whether H2 counts arms, width, or a cross overlay.","uncertainty":"Do not replace with a guessed English shape until a rendered target-area diagram confirms it."},
+    {"id":"elf:ui:00217364","source_sha256":"a5792b408e00f8d726d8487baeee1e7352dda1271e62c13f4fc48c93b3e4da74","source":"範囲：横３","full":"Area: Horizontal 3","compact":"Horiz 3","joining":"Horizontal three-cell geometry."},
+    {"id":"elf:ui:00217370","source_sha256":"05ae60803a6575ed54e7c561d0f7ed20f47ef102398847f504ef73e112ab3276","source":"範囲：縦横３","full":"Area: V/H3","compact":"V/H3","joining":"Retains the source's vertical/horizontal notation rather than assuming a cross or square.","uncertainty":"Diagram verification is required to name the exact shape."},
+    {"id":"elf:ui:00217380","source_sha256":"4b0af7622e936fd3ca84e6bcc0d32179f7a819cca8a59c51e2f40d4b029c32a8","source":"お気に入り専用","full":"Favorites Only","compact":"Fav. Only","joining":"Restriction label for favorite summons."},
+    {"id":"elf:ui:00217390","source_sha256":"41bc8f8f8a0fe4ceecd66cbb613b2781dcda6f069c9b0d2ef29a28d3657424d6","source":"アシスト専用　Вアシストメンバー確認","full":"Assist Only  ВView Assist Members","compact":"Assist only ВAssist members","joining":"Preserve the source full-width separator and controller glyph В; the glyph joins the following action label.","source_control_hex":"8442"}
+  ],
+  "review_notes":["Full entries preserve source labels and exact source hashes. Compact fields are presentation candidates only; final buffer/layout work belongs to the integrating build.","The V/H3 geometry remains deliberately unresolved pending a target-area render."]
+}

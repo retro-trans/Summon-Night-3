@@ -1,0 +1,162 @@
+{
+  "build_version": "0.1.24",
+  "review_kind": "independent_meaning_review",
+  "source": "work/output/0.1.23/Summon_Night_3_EN_0.1.23.iso, 01.DAT V4 SCRIPT child 1",
+  "draft_inputs_sha256": {
+    "work/translation/en/battle_0.1.24/slice_0160.targets.json": "c384dc751d00fd61f745b526b0ba9a1d74d99d84e462a04e34d1e7aaf25e1a34",
+    "work/translation/en/battle_0.1.24/slice_0240.targets.json": "c1a0d20de12e29e24796a1da4408d07dfb555a1de83e975485a92886a9de0f17"
+  },
+  "slice_ranges_inclusive": [
+    [
+      160,
+      239
+    ],
+    [
+      240,
+      319
+    ]
+  ],
+  "examined_rows": {
+    "ranges_inclusive": [
+      [
+        155,
+        324
+      ]
+    ],
+    "assigned_row_count": 160,
+    "context_rows_each_side": 5,
+    "total_row_count": 170
+  },
+  "review_policy": "Compared each draft row with its CP932 source and adjacent staged lines. Corrections preserve meaning and the existing line/page structure; none are made merely to shorten text.",
+  "corrections": [
+    {
+      "resource": 124,
+      "resource_row": 18,
+      "source_sha256": "e0bcfecb4115d48aaf769cf81ae411407ed042323093017ab35712e8aff67a85",
+      "text": "cursecraft or sorcery.",
+      "reason": "The source compares the power to cursecraft or sorcery; it does not state that the stone itself is a curse."
+    },
+    {
+      "resource": 127,
+      "resource_row": 12,
+      "source_sha256": "4f4d80d83b8e67c98dde78c3a09ed879344baf78661a4bb579895c451d6ee08e",
+      "text": "...I'll make you pay!",
+      "reason": "Restores the source's punitive threat rather than the milder instruction to put someone in their place."
+    }
+  ],
+  "proposed_corrections": [
+    {
+      "resource": 124,
+      "resource_row": 14,
+      "source_sha256": "b86a97c5a0bf24ebafb02fd203ce1f8a52b790311f38fa3ae4f6f38a266eac72",
+      "text": "There's just one thing",
+      "reason": "Restores the speaker's stated singular point of curiosity and keeps the thought incomplete for the next source line."
+    },
+    {
+      "resource": 124,
+      "resource_row": 15,
+      "source_sha256": "7393bd07b2c12ca73bbb487f081b0deb69649cec8fc23a19bf7f071e3d793548",
+      "text": "about that oddly colored stone...",
+      "reason": "Completes the preceding thought and retains the source's uncertainty about the unusual-colored stone."
+    },
+    {
+      "resource": 124,
+      "resource_row": 17,
+      "source_sha256": "ccc232fa9fc3688829901f550dc450e2d0f8a437d3a266e06b3214f5730b748f",
+      "text": "It seems to hold some kind of",
+      "reason": "Retains the source's tentative statement and leaves the described power to the following line."
+    },
+    {
+      "resource": 124,
+      "resource_row": 18,
+      "source_sha256": "e0bcfecb4115d48aaf769cf81ae411407ed042323093017ab35712e8aff67a85",
+      "text": "cursecraft or sorcery.",
+      "reason": "The source compares the power to cursecraft or sorcery; it does not state that the stone itself is a curse."
+    },
+    {
+      "resource": 125,
+      "resource_row": 6,
+      "source_sha256": "6de5e80c28c12bd99c2a74a49544ab09a46fe6346235c455ad393ae01bd9e338",
+      "text": "Then you can make up for it",
+      "reason": "Preserves the causal link to the preceding bad luck rather than introducing a dazzling performance."
+    },
+    {
+      "resource": 125,
+      "resource_row": 7,
+      "source_sha256": "7895d81ad04da4d5af4708688e1ef84fdf62fc9565031e91b0ea3f1efdd8fbe2",
+      "text": "by doing your part, can't you?",
+      "reason": "Restores the source's suggestion that the listener contribute their share."
+    },
+    {
+      "resource": 127,
+      "resource_row": 12,
+      "source_sha256": "4f4d80d83b8e67c98dde78c3a09ed879344baf78661a4bb579895c451d6ee08e",
+      "text": "...I'll make you pay!",
+      "reason": "Restores the source's punitive threat rather than the milder instruction to put someone in their place."
+    },
+    {
+      "resource": 127,
+      "resource_row": 17,
+      "source_sha256": "52cd4f98e3a8ce409e2f677746ada23ffed42283cb7fbfec33d2628654bd5fd9",
+      "text": "...I WILL NOT FORGIVE YOU!",
+      "reason": "Preserves the all-caps source emphasis and its direct refusal to forgive."
+    },
+    {
+      "resource": 127,
+      "resource_row": 24,
+      "source_sha256": "aa6625973ec7d0073bfb4d563d32589206129f30e21752624a14c3fc112c2b35",
+      "text": "I'll take this prey.",
+      "reason": "The source claims the prey for the speaker; it does not delegate it to someone else."
+    },
+    {
+      "resource": 127,
+      "resource_row": 31,
+      "source_sha256": "c37112a4b3ae1cfec627d552586b910a8769997d0b99acf2f9ffc07c84a1634f",
+      "text": "Then let's make them",
+      "reason": "Keeps the source's plan directed at the enemies and preserves the line continuation."
+    },
+    {
+      "resource": 127,
+      "resource_row": 32,
+      "source_sha256": "c150d9251823f1b1b76b49bce3870214a2109ebf753c2dc55e93be64e7952602",
+      "text": "taste the poison!",
+      "reason": "Corrects the previous implication that the speakers themselves take poison; the source intends to poison the enemies."
+    },
+    {
+      "resource": 128,
+      "resource_row": 4,
+      "source_sha256": "dcabb9f5653e918c39bf88b0a493ab57cafd1bade76a0de9f9580e7d514aad78",
+      "text": "I told you",
+      "reason": "Restores the speaker's completed complaint and preserves the split sentence."
+    },
+    {
+      "resource": 128,
+      "resource_row": 5,
+      "source_sha256": "54037d61a7a01fc2b81540ce5dff73362313121d3383a4c51046c27079443b25",
+      "text": "to listen to me!",
+      "reason": "Completes the source's demand to listen, avoiding the unidiomatic hear me out paraphrase."
+    },
+    {
+      "resource": 128,
+      "resource_row": 20,
+      "source_sha256": "681ae0857357710724b8c05259559280fbded59e93321fbcfcfad953f74fbb80",
+      "text": "Oh no... Just because I said",
+      "reason": "Restores the causal regret in the source and keeps the sentence open."
+    },
+    {
+      "resource": 128,
+      "resource_row": 21,
+      "source_sha256": "6e90f65bb698aff5c62a5ee8e1342004f2c8a10c20aeffbdf136469d3dec9564",
+      "text": "something like that, this terrible",
+      "reason": "Restores the unspecified earlier remark; the source does not say that the speaker told someone to go."
+    },
+    {
+      "resource": 128,
+      "resource_row": 22,
+      "source_sha256": "33c69ab6f629eb8203bd889ae9d1b14d66432479a7a2c44e17d1f1d55d8cecbf",
+      "text": "tragedy... *sob*",
+      "reason": "Completes the regretful sentence and preserves the source's sobbing sound."
+    }
+  ],
+  "root_adjudication": "Accepted removal of unsourced powerful and clearer punitive threat. Rejected the other proposed changes: one oddly colored stone is not one point of curiosity; dazzling performance preserves dai-katsuyaku better than doing your part; leave this prey to me claims it for the speaker; make them take poison clearly refers to enemies; hear me out is idiomatic; told you to go is established in preceding dialogue. Keep correct wording rather than rewrite preferences."
+}

@@ -1,0 +1,3176 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "resource_id": "00:00065",
+  "scope": "Bounded opening dialogue draft: exactly 80 consecutive source occurrences, opening rows320-399. No runtime build or insertion.",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "rows_in_slice": 80,
+  "rows_examined": 116,
+  "context_rows_before": 20,
+  "context_rows_after": 16,
+  "opening_row_range": [
+    320,
+    399
+  ],
+  "examined_opening_row_range": [
+    300,
+    415
+  ],
+  "reference_instruction_range": [
+    84788,
+    87190
+  ],
+  "context_instruction_range": [
+    84212,
+    87534
+  ],
+  "vm_branch_instruction_range_examined": [
+    84620,
+    87560
+  ],
+  "ordering": "Resource strings sorted by minimum reference instruction; suffix starting at 00:00065:text:0002646e (sorted global index1808) is opening row0. Branch alternatives remain distinct; not one unconditional playthrough.",
+  "slice_row_convention": "Local slice_row0-79 corresponds to opening_row320-399; IDs are authoritative.",
+  "drafted_rows": 80,
+  "unresolved_rows": 0,
+  "draft_rows_requiring_cross_slice_integration": [
+    398,
+    399
+  ],
+  "method": "Read original source in memory via GameSource/decompress; verified resource, decoded and 116 per-row hashes. Read adjacent source and VM branch context. Queue groups derived from2003/2012 and display calls, checked against all160 prior000/001 records. No Japanese dialogue transcript saved.",
+  "provenance": {
+    "preserved_input_sha256": {
+      "work/translation/en/opening_000.meaning_review.json": "7a82442692213a839ed876073151f65f8ddcf1b399c3a254fa648bb97027df4b",
+      "work/translation/en/opening_000.review.json": "034fbc2e1427f62cf71861aa1094d2ff419d82d0f7a8158ae65429203b55ef53",
+      "work/translation/en/opening_000.targets.json": "70b2fabc0b8410a719b98499781a7e469ed2440c4f999e5c09d1349d3534995a",
+      "work/translation/en/opening_001.meaning_review.json": "82c038c80bd2d86c49e57bef0f84468c0916703a2d7294260da8b6baf0350321",
+      "work/translation/en/opening_001.targets.json": "7492d262918e492818bec6038b6227d179d48d12e2d3d31bc73406ebcf9fba3d",
+      "work/translation/en/setup_ui.auto_name_review.json": "d5a14ebd0f861731ebbcd42a61da5e18bc539aac8a83157f64698301aa59d6d7",
+      "work/translation/en/setup_ui.meaning_review.json": "b3e62f023e966d40eab272ca090343a5f8cf6916913a31dca1a11f2c9ac90d82",
+      "work/translation/en/setup_ui.related_drafts.json": "1b042cec3b1a603885814fd77d04bb4ab9b98186eda9d5ec97e7b8cd8fea5c8b",
+      "work/translation/en/setup_ui.related_meaning_review.json": "50ba4d6afe6d0cb3b2f9ba8db45f22681307533017b7757c70ee4f1e8114b8eb",
+      "work/translation/en/setup_ui.screenshot_drafts.json": "b98060f9593900f0e22c5670c4cb102e9e2777209eda4cc91b3f2eb9093b10d1",
+      "work/translation/en/setup_ui.targets.json": "74378102a1c2d8e2e27f4959bfacfacbd959b61f1f2573ea04484eb4e2241afc",
+      "work/glossary/entities.json": "4ad1d415c072fa4b10b6fafc07686a3e04523ffd9aabe06a78a0929743dc3855",
+      "work/glossary/opening_harbor.json": "f7524803992a3cd45ba7577580c2868ec0b549a903f8b7f649dd8f250719941b",
+      "work/glossary/setup_ui.json": "9403c571041ad53d9c428033a5d11930004f7684a335dee82929c4c73fd43ed6",
+      "work/glossary/setup_ui.proposed.json": "47a0fdee8f084e5f3ca56dd09fdca6a2858461f049410560ed65abd0eb868958"
+    },
+    "source_index_schema_version": 2
+  },
+  "glossary": {
+    "base_path": "work/glossary/entities.json",
+    "additional_path": "work/glossary/opening_harbor.json",
+    "additional_status": "Parent glossary read",
+    "parent_confirmed_spellings": [
+      "Martini",
+      "Salome",
+      "Nup",
+      "Will",
+      "Alieze",
+      "Belfrau"
+    ],
+    "evidence": [
+      {
+        "url": "https://summonnight.wiki.gg/wiki/Summon_Night_3",
+        "supports": "Parent-verified roster spellings, including Salome despite source discrepancy."
+      },
+      {
+        "url": "https://summonnight.fandom.com/wiki/Rexx",
+        "supports": "Existing base glossary; parent-verified Martini family."
+      },
+      {
+        "url": "https://summonnight.fandom.com/wiki/Aty",
+        "supports": "Existing base glossary and parent-verified Martini family."
+      }
+    ],
+    "scripted_name_normalization_applied": false,
+    "normalization_order": "Independent meaning review first; scripted normalization afterward. Fixed glossary names must then be on the reviewer do-not-touch list."
+  },
+  "token_review": {
+    "control_bytes_in_slice": 0,
+    "runtime_placeholder_symbols_in_slice": [
+      "●"
+    ],
+    "runtime_placeholder_opening_rows": [
+      331
+    ],
+    "preserved_layout_characters": {
+      "U+3000 leading choice indentation": [
+        395,
+        396
+      ]
+    },
+    "source_target_token_sequences_match": true,
+    "cp932_display_roundtrip_rows": 80,
+    "runtime_name_width": "Not represented by one glyph for layout; expanded runtime name width needs measurement."
+  },
+  "uncertainties": [
+    {
+      "opening_rows": [
+        330,
+        331,
+        332
+      ],
+      "kind": "fragment_alignment",
+      "finding": "The runtime token remains in its original331 occurrence. Row332 contains a period only; group163 must be reflowed as one complete sentence before layout acceptance."
+    },
+    {
+      "opening_rows": [
+        335
+      ],
+      "kind": "source_wiki_disagreement",
+      "finding": "Salome follows parent-verified current wiki roster per BASE_RULES despite different source romanization. No old glossary is changed."
+    },
+    {
+      "opening_rows": [
+        336,
+        337,
+        338,
+        339,
+        340,
+        341
+      ],
+      "kind": "caretaker_relationship",
+      "finding": "The text identifies caretaker duties in place of the late mistress. Draft does not add that she is a grandmother or replace mistress with mother."
+    },
+    {
+      "opening_rows": [
+        358,
+        359,
+        375,
+        376
+      ],
+      "kind": "speaker_identity",
+      "finding": "Speaker argument302 is observed; semantic mapping is unconfirmed. Polite, gender-neutral interruption translated without adding a name or gender."
+    },
+    {
+      "opening_rows": [
+        389,
+        390,
+        391,
+        395,
+        396,
+        397
+      ],
+      "kind": "discipline_terminology",
+      "finding": "Martial arts encompasses the martial skill choice, not an assertion of unarmed combat; summoning is the parallel magical discipline."
+    },
+    {
+      "opening_rows": [
+        398,
+        399
+      ],
+      "kind": "cross_slice_group",
+      "finding": "Group199 continues through400. Whole-group coordination is required; the following401-402 group supplies the lifelong-belief framing."
+    }
+  ],
+  "glossary_research_needs": [],
+  "coordinated_completion_proposals": [
+    {
+      "group": 199,
+      "status": "proposal_only_not_assigned_translation",
+      "outside_slice_opening_row": 400,
+      "outside_slice_id": "00:00065:text:0002820a",
+      "outside_slice_source_sha256": "290f455857f52cec1106727e79487414c16bdcdb5baeb7d51c8d9b53a121d6db",
+      "proposed_text": "everyone...",
+      "full_group_target": "If I learned how to fight, I could protect everyone...",
+      "coordination": "Agreed with opening005 translator via parent before write:398 If I learned how to fight, /399 I could protect /400 everyone...",
+      "following_context": "Coordinated005 rows401-402: That's what I'd / always believed."
+    }
+  ],
+  "display_groups": [
+    {
+      "group": 159,
+      "opening_rows": [
+        320,
+        321
+      ],
+      "group_ids": [
+        "00:00065:text:00027bf0",
+        "00:00065:text:00027c00"
+      ],
+      "reference_instructions": [
+        84788,
+        84796
+      ],
+      "display_instruction": 84808,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 160,
+      "opening_rows": [
+        322,
+        324
+      ],
+      "group_ids": [
+        "00:00065:text:00027c0e",
+        "00:00065:text:00027c20",
+        "00:00065:text:00027c3e"
+      ],
+      "reference_instructions": [
+        84820,
+        84828,
+        84836
+      ],
+      "display_instruction": 84848,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 161,
+      "opening_rows": [
+        325,
+        326
+      ],
+      "group_ids": [
+        "00:00065:text:00027c58",
+        "00:00065:text:00027c6c"
+      ],
+      "reference_instructions": [
+        84922,
+        84930
+      ],
+      "display_instruction": 84942,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 162,
+      "opening_rows": [
+        327,
+        329
+      ],
+      "group_ids": [
+        "00:00065:text:00027c7c",
+        "00:00065:text:00027c88",
+        "00:00065:text:00027ca4"
+      ],
+      "reference_instructions": [
+        85178,
+        85186,
+        85194
+      ],
+      "display_instruction": 85206,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 163,
+      "opening_rows": [
+        330,
+        332
+      ],
+      "group_ids": [
+        "00:00065:text:00027cbc",
+        "00:00065:text:00027cc6",
+        "00:00065:text:00027ccc"
+      ],
+      "reference_instructions": [
+        85280,
+        85288,
+        85296
+      ],
+      "display_instruction": 85308,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 164,
+      "opening_rows": [
+        333,
+        335
+      ],
+      "group_ids": [
+        "00:00065:text:00027cd6",
+        "00:00065:text:00027cf2",
+        "00:00065:text:00027d0a"
+      ],
+      "reference_instructions": [
+        85330,
+        85338,
+        85346
+      ],
+      "display_instruction": 85358,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 165,
+      "opening_rows": [
+        336,
+        338
+      ],
+      "group_ids": [
+        "00:00065:text:00027d1e",
+        "00:00065:text:00027d32",
+        "00:00065:text:00027d4e"
+      ],
+      "reference_instructions": [
+        85412,
+        85420,
+        85428
+      ],
+      "display_instruction": 85440,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 166,
+      "opening_rows": [
+        339,
+        341
+      ],
+      "group_ids": [
+        "00:00065:text:00027d62",
+        "00:00065:text:00027d76",
+        "00:00065:text:00027d92"
+      ],
+      "reference_instructions": [
+        85466,
+        85474,
+        85482
+      ],
+      "display_instruction": 85494,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 167,
+      "opening_rows": [
+        342,
+        342
+      ],
+      "group_ids": [
+        "00:00065:text:00027da6"
+      ],
+      "reference_instructions": [
+        85520
+      ],
+      "display_instruction": 85532,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 168,
+      "opening_rows": [
+        343,
+        344
+      ],
+      "group_ids": [
+        "00:00065:text:00027dbc",
+        "00:00065:text:00027dc6"
+      ],
+      "reference_instructions": [
+        85550,
+        85558
+      ],
+      "display_instruction": 85570,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 169,
+      "opening_rows": [
+        345,
+        345
+      ],
+      "group_ids": [
+        "00:00065:text:00027dd6"
+      ],
+      "reference_instructions": [
+        85592
+      ],
+      "display_instruction": 85604,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 170,
+      "opening_rows": [
+        346,
+        348
+      ],
+      "group_ids": [
+        "00:00065:text:00027dea",
+        "00:00065:text:00027df4",
+        "00:00065:text:00027e0a"
+      ],
+      "reference_instructions": [
+        85672,
+        85680,
+        85688
+      ],
+      "display_instruction": 85700,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 171,
+      "opening_rows": [
+        349,
+        351
+      ],
+      "group_ids": [
+        "00:00065:text:00027e26",
+        "00:00065:text:00027e3c",
+        "00:00065:text:00027e58"
+      ],
+      "reference_instructions": [
+        85724,
+        85732,
+        85740
+      ],
+      "display_instruction": 85752,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 172,
+      "opening_rows": [
+        352,
+        354
+      ],
+      "group_ids": [
+        "00:00065:text:00027e74",
+        "00:00065:text:00027e8e",
+        "00:00065:text:00027ea0"
+      ],
+      "reference_instructions": [
+        85776,
+        85784,
+        85792
+      ],
+      "display_instruction": 85804,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 173,
+      "opening_rows": [
+        355,
+        355
+      ],
+      "group_ids": [
+        "00:00065:text:00027eb0"
+      ],
+      "reference_instructions": [
+        85828
+      ],
+      "display_instruction": 85840,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 174,
+      "opening_rows": [
+        356,
+        357
+      ],
+      "group_ids": [
+        "00:00065:text:00027ebc",
+        "00:00065:text:00027ed0"
+      ],
+      "reference_instructions": [
+        85864,
+        85872
+      ],
+      "display_instruction": 85884,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 175,
+      "opening_rows": [
+        358,
+        359
+      ],
+      "group_ids": [
+        "00:00065:text:00027ee4",
+        "00:00065:text:00027ef4"
+      ],
+      "reference_instructions": [
+        85888,
+        85896
+      ],
+      "display_instruction": 85908,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 176,
+      "opening_rows": [
+        360,
+        360
+      ],
+      "group_ids": [
+        "00:00065:text:00027f08"
+      ],
+      "reference_instructions": [
+        85932
+      ],
+      "display_instruction": 85944,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 177,
+      "opening_rows": [
+        361,
+        363
+      ],
+      "group_ids": [
+        "00:00065:text:00027f18",
+        "00:00065:text:00027f24",
+        "00:00065:text:00027f3a"
+      ],
+      "reference_instructions": [
+        86050,
+        86058,
+        86066
+      ],
+      "display_instruction": 86078,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 178,
+      "opening_rows": [
+        364,
+        366
+      ],
+      "group_ids": [
+        "00:00065:text:00027f56",
+        "00:00065:text:00027f6c",
+        "00:00065:text:00027f88"
+      ],
+      "reference_instructions": [
+        86102,
+        86110,
+        86118
+      ],
+      "display_instruction": 86130,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 179,
+      "opening_rows": [
+        367,
+        367
+      ],
+      "group_ids": [
+        "00:00065:text:00027fa4"
+      ],
+      "reference_instructions": [
+        86154
+      ],
+      "display_instruction": 86166,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 180,
+      "opening_rows": [
+        368,
+        370
+      ],
+      "group_ids": [
+        "00:00065:text:00027fba",
+        "00:00065:text:00027fd0",
+        "00:00065:text:00027fe8"
+      ],
+      "reference_instructions": [
+        86190,
+        86198,
+        86206
+      ],
+      "display_instruction": 86218,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 181,
+      "opening_rows": [
+        371,
+        371
+      ],
+      "group_ids": [
+        "00:00065:text:00027ff6"
+      ],
+      "reference_instructions": [
+        86242
+      ],
+      "display_instruction": 86254,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 182,
+      "opening_rows": [
+        372,
+        373
+      ],
+      "group_ids": [
+        "00:00065:text:00028004",
+        "00:00065:text:00028018"
+      ],
+      "reference_instructions": [
+        86278,
+        86286
+      ],
+      "display_instruction": 86298,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 183,
+      "opening_rows": [
+        374,
+        374
+      ],
+      "group_ids": [
+        "00:00065:text:0002802c"
+      ],
+      "reference_instructions": [
+        86322
+      ],
+      "display_instruction": 86334,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 184,
+      "opening_rows": [
+        375,
+        376
+      ],
+      "group_ids": [
+        "00:00065:text:00028034",
+        "00:00065:text:00028044"
+      ],
+      "reference_instructions": [
+        86338,
+        86346
+      ],
+      "display_instruction": 86358,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 185,
+      "opening_rows": [
+        377,
+        377
+      ],
+      "group_ids": [
+        "00:00065:text:00028058"
+      ],
+      "reference_instructions": [
+        86382
+      ],
+      "display_instruction": 86394,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 186,
+      "opening_rows": [
+        378,
+        380
+      ],
+      "group_ids": [
+        "00:00065:text:00028068",
+        "00:00065:text:0002807e",
+        "00:00065:text:0002809a"
+      ],
+      "reference_instructions": [
+        86456,
+        86464,
+        86472
+      ],
+      "display_instruction": 86484,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 187,
+      "opening_rows": [
+        381,
+        382
+      ],
+      "group_ids": [
+        "00:00065:text:000280b4",
+        "00:00065:text:000280c6"
+      ],
+      "reference_instructions": [
+        86512,
+        86520
+      ],
+      "display_instruction": 86532,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 188,
+      "opening_rows": [
+        383,
+        384
+      ],
+      "group_ids": [
+        "00:00065:text:000280d6",
+        "00:00065:text:000280e8"
+      ],
+      "reference_instructions": [
+        86552,
+        86560
+      ],
+      "display_instruction": 86572,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 189,
+      "opening_rows": [
+        385,
+        385
+      ],
+      "group_ids": [
+        "00:00065:text:000280f8"
+      ],
+      "reference_instructions": [
+        86632
+      ],
+      "display_instruction": 86644,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 190,
+      "opening_rows": [
+        386,
+        386
+      ],
+      "group_ids": [
+        "00:00065:text:0002810c"
+      ],
+      "reference_instructions": [
+        86710
+      ],
+      "display_instruction": 86722,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 191,
+      "opening_rows": [
+        387,
+        387
+      ],
+      "group_ids": [
+        "00:00065:text:0002811e"
+      ],
+      "reference_instructions": [
+        86798
+      ],
+      "display_instruction": 86810,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 192,
+      "opening_rows": [
+        388,
+        388
+      ],
+      "group_ids": [
+        "00:00065:text:00028132"
+      ],
+      "reference_instructions": [
+        86890
+      ],
+      "display_instruction": 86902,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 193,
+      "opening_rows": [
+        389,
+        391
+      ],
+      "group_ids": [
+        "00:00065:text:0002813a",
+        "00:00065:text:0002814c",
+        "00:00065:text:00028162"
+      ],
+      "reference_instructions": [
+        86978,
+        86986,
+        86994
+      ],
+      "display_instruction": 87006,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 194,
+      "opening_rows": [
+        392,
+        393
+      ],
+      "group_ids": [
+        "00:00065:text:0002817a",
+        "00:00065:text:0002818c"
+      ],
+      "reference_instructions": [
+        87030,
+        87038
+      ],
+      "display_instruction": 87050,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 195,
+      "opening_rows": [
+        394,
+        394
+      ],
+      "group_ids": [
+        "00:00065:text:0002819e"
+      ],
+      "reference_instructions": [
+        87074
+      ],
+      "display_instruction": 87106,
+      "display_helper_word": 2315,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 196,
+      "opening_rows": [
+        395,
+        395
+      ],
+      "group_ids": [
+        "00:00065:text:000281b6"
+      ],
+      "reference_instructions": [
+        87082
+      ],
+      "display_instruction": 87088,
+      "display_helper_word": 2012,
+      "all_rows_in_slice": true,
+      "choice_id": 0
+    },
+    {
+      "group": 197,
+      "opening_rows": [
+        396,
+        396
+      ],
+      "group_ids": [
+        "00:00065:text:000281c2"
+      ],
+      "reference_instructions": [
+        87092
+      ],
+      "display_instruction": 87098,
+      "display_helper_word": 2012,
+      "all_rows_in_slice": true,
+      "choice_id": 1
+    },
+    {
+      "group": 198,
+      "opening_rows": [
+        397,
+        397
+      ],
+      "group_ids": [
+        "00:00065:text:000281d2"
+      ],
+      "reference_instructions": [
+        87144
+      ],
+      "display_instruction": 87156,
+      "display_helper_word": 2030,
+      "all_rows_in_slice": true
+    },
+    {
+      "group": 199,
+      "opening_rows": [
+        398,
+        400
+      ],
+      "group_ids": [
+        "00:00065:text:000281e0",
+        "00:00065:text:000281f6",
+        "00:00065:text:0002820a"
+      ],
+      "reference_instructions": [
+        87182,
+        87190,
+        87198
+      ],
+      "display_instruction": 87210,
+      "display_helper_word": 2044,
+      "all_rows_in_slice": false
+    }
+  ],
+  "translations": {
+    "00:00065:text:00027bf0": {
+      "id": "00:00065:text:00027bf0",
+      "source_offset": 162800,
+      "source_sha256": "12c73e10cf56034d32296fc00fe060fde1d21235dba62dd3c568bc80a1cdf556",
+      "reference_instructions": [
+        84788
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 0,
+      "opening_row": 320,
+      "text": "C-could this...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist's internal realization in the Alieze introduction variant; identity is suggested by the caretaker's call in row318, without explicitly naming the child.",
+      "sentence_group": 159,
+      "group_ids": [
+        "00:00065:text:00027bf0",
+        "00:00065:text:00027c00"
+      ],
+      "notes": [
+        "Hesitation and unfinished recognition retained; the student relationship is not inserted into the source's elliptical wording."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027c00": {
+      "id": "00:00065:text:00027c00",
+      "source_offset": 162816,
+      "source_sha256": "dd7da63e10c3a76cb278816078c715da426ab66748cfb1274e04600c449e2a82",
+      "reference_instructions": [
+        84796
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 1,
+      "opening_row": 321,
+      "text": "be the child!?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist's internal realization in the Alieze introduction variant; identity is suggested by the caretaker's call in row318, without explicitly naming the child.",
+      "sentence_group": 159,
+      "group_ids": [
+        "00:00065:text:00027bf0",
+        "00:00065:text:00027c00"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027c0e": {
+      "id": "00:00065:text:00027c0e",
+      "source_offset": 162830,
+      "source_sha256": "c50dc33161222471cf6f0b71355ade74d22f7553f42c9e57302ecfc095384ac2",
+      "reference_instructions": [
+        84820
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 2,
+      "opening_row": 322,
+      "text": "Young miss!?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome addresses the young lady who went ahead alone.",
+      "sentence_group": 160,
+      "group_ids": [
+        "00:00065:text:00027c0e",
+        "00:00065:text:00027c20",
+        "00:00065:text:00027c3e"
+      ],
+      "notes": [
+        "Young miss preserves the caretaker's polite form of address without inventing a personal name."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027c20": {
+      "id": "00:00065:text:00027c20",
+      "source_offset": 162848,
+      "source_sha256": "ed8107f5a8efc739fa01cc1f1c87b1a16a1df047893cb2b7243851740397fa73",
+      "reference_instructions": [
+        84828
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 3,
+      "opening_row": 323,
+      "text": "I told you over and over",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome addresses the young lady who went ahead alone.",
+      "sentence_group": 160,
+      "group_ids": [
+        "00:00065:text:00027c0e",
+        "00:00065:text:00027c20",
+        "00:00065:text:00027c3e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027c3e": {
+      "id": "00:00065:text:00027c3e",
+      "source_offset": 162878,
+      "source_sha256": "0c6e83d76ffc641e4b42479aaba854df2a88cfaedb4df610ae7d140581090ab8",
+      "reference_instructions": [
+        84836
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 4,
+      "opening_row": 324,
+      "text": "not to wander off on your own!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome addresses the young lady who went ahead alone.",
+      "sentence_group": 160,
+      "group_ids": [
+        "00:00065:text:00027c0e",
+        "00:00065:text:00027c20",
+        "00:00065:text:00027c3e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027c58": {
+      "id": "00:00065:text:00027c58",
+      "source_offset": 162904,
+      "source_sha256": "48fc5cdb778fa1237243b706a68e98c2b3a62f02f155a147625ea5b3ed73d3b2",
+      "reference_instructions": [
+        84922
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 5,
+      "opening_row": 325,
+      "text": "Ahaha... ha ha...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist's awkward laugh and confirmation of the preceding realization.",
+      "sentence_group": 161,
+      "group_ids": [
+        "00:00065:text:00027c58",
+        "00:00065:text:00027c6c"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027c6c": {
+      "id": "00:00065:text:00027c6c",
+      "source_offset": 162924,
+      "source_sha256": "95acba085913be7c53e3d84b25ed0b23438eabf0c13cc5b8463603b32571ae1d",
+      "reference_instructions": [
+        84930
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 6,
+      "opening_row": 326,
+      "text": "Just as I thought...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist's awkward laugh and confirmation of the preceding realization.",
+      "sentence_group": 161,
+      "group_ids": [
+        "00:00065:text:00027c58",
+        "00:00065:text:00027c6c"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027c7c": {
+      "id": "00:00065:text:00027c7c",
+      "source_offset": 162940,
+      "source_sha256": "b68c076688165927b4f74e60667ea11c720fa49b66d872bcef8018435bdf9b3d",
+      "reference_instructions": [
+        85178
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 7,
+      "opening_row": 327,
+      "text": "So, you must be",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome identifies the newly arrived private tutor.",
+      "sentence_group": 162,
+      "group_ids": [
+        "00:00065:text:00027c7c",
+        "00:00065:text:00027c88",
+        "00:00065:text:00027ca4"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027c88": {
+      "id": "00:00065:text:00027c88",
+      "source_offset": 162952,
+      "source_sha256": "3d711c13b7cfb03149a61deb1acf7de24e083a423cd4eab73e12257ce641fa11",
+      "reference_instructions": [
+        85186
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 8,
+      "opening_row": 328,
+      "text": "the new private tutor",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome identifies the newly arrived private tutor.",
+      "sentence_group": 162,
+      "group_ids": [
+        "00:00065:text:00027c7c",
+        "00:00065:text:00027c88",
+        "00:00065:text:00027ca4"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027ca4": {
+      "id": "00:00065:text:00027ca4",
+      "source_offset": 162980,
+      "source_sha256": "874bfab30bf6d67257e86450472cc68f9df2a4b83d4a957282dc4b0cbe812cf2",
+      "reference_instructions": [
+        85194
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 9,
+      "opening_row": 329,
+      "text": "the master told me about.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome identifies the newly arrived private tutor.",
+      "sentence_group": 162,
+      "group_ids": [
+        "00:00065:text:00027c7c",
+        "00:00065:text:00027c88",
+        "00:00065:text:00027ca4"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027cbc": {
+      "id": "00:00065:text:00027cbc",
+      "source_offset": 163004,
+      "source_sha256": "c9b846160d36315f5de8ed876ab4ace0883f455a0805d4375daa63f80cfa9d73",
+      "reference_instructions": [
+        85280
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 10,
+      "opening_row": 330,
+      "text": "Ah, yes.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist introduces themself using the runtime name token.",
+      "sentence_group": 163,
+      "group_ids": [
+        "00:00065:text:00027cbc",
+        "00:00065:text:00027cc6",
+        "00:00065:text:00027ccc"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027cc6": {
+      "id": "00:00065:text:00027cc6",
+      "source_offset": 163014,
+      "source_sha256": "fc2277f452cb2621a625f5dcfc2371710ea306f420a85575640852dcd70116da",
+      "reference_instructions": [
+        85288
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 11,
+      "opening_row": 331,
+      "text": "My name is ●",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist introduces themself using the runtime name token.",
+      "sentence_group": 163,
+      "group_ids": [
+        "00:00065:text:00027cbc",
+        "00:00065:text:00027cc6",
+        "00:00065:text:00027ccc"
+      ],
+      "notes": [
+        "Preserve runtime placeholder ● exactly; its expanded name width must be measured during layout."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [
+          "●"
+        ],
+        "target_tokens": [
+          "●"
+        ],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027ccc": {
+      "id": "00:00065:text:00027ccc",
+      "source_offset": 163020,
+      "source_sha256": "1d8c1921cc7f6c3c06c54c984739bfdf8469091cf82417defad82d704e4ebc22",
+      "reference_instructions": [
+        85296
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 12,
+      "opening_row": 332,
+      "text": ".",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist introduces themself using the runtime name token.",
+      "sentence_group": 163,
+      "group_ids": [
+        "00:00065:text:00027cbc",
+        "00:00065:text:00027cc6",
+        "00:00065:text:00027ccc"
+      ],
+      "notes": [
+        "Punctuation-only source-fragment alignment is deliberate: reflow group163 into 'Ah, yes. My name is ●.' as a whole. Do not render this period as an isolated visual line."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027cd6": {
+      "id": "00:00065:text:00027cd6",
+      "source_offset": 163030,
+      "source_sha256": "4f0bbbe851b5452610b1d0bffe8f93997bdae5db494c8e555bbdab7d56b497ec",
+      "reference_instructions": [
+        85330
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 13,
+      "opening_row": 333,
+      "text": "I serve as head maid",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome introduces herself and her position with the Martini family.",
+      "sentence_group": 164,
+      "group_ids": [
+        "00:00065:text:00027cd6",
+        "00:00065:text:00027cf2",
+        "00:00065:text:00027d0a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027cf2": {
+      "id": "00:00065:text:00027cf2",
+      "source_offset": 163058,
+      "source_sha256": "da5190ff1e9373fae9cf7826ec9ce7f61c58630595bcfbe0effb63d813c4c480",
+      "reference_instructions": [
+        85338
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 14,
+      "opening_row": 334,
+      "text": "to the Martini family.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome introduces herself and her position with the Martini family.",
+      "sentence_group": 164,
+      "group_ids": [
+        "00:00065:text:00027cd6",
+        "00:00065:text:00027cf2",
+        "00:00065:text:00027d0a"
+      ],
+      "notes": [],
+      "glossary_ids": [
+        "family.martini"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027d0a": {
+      "id": "00:00065:text:00027d0a",
+      "source_offset": 163082,
+      "source_sha256": "a54616eea8e3217b5445d6c0618d470278ea65b280a2da9c9367505277cbf7e4",
+      "reference_instructions": [
+        85346
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 15,
+      "opening_row": 335,
+      "text": "My name is Salome.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome introduces herself and her position with the Martini family.",
+      "sentence_group": 164,
+      "group_ids": [
+        "00:00065:text:00027cd6",
+        "00:00065:text:00027cf2",
+        "00:00065:text:00027d0a"
+      ],
+      "notes": [
+        "Wiki roster spelling Salome is used per BASE_RULES; source romanization would differ. Parent-provided research is the authority; scripted normalization remains pending independent review."
+      ],
+      "glossary_ids": [
+        "character.salome"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027d1e": {
+      "id": "00:00065:text:00027d1e",
+      "source_offset": 163102,
+      "source_sha256": "6d8a89d05b9fa5a5138686a9375fd94ee1bb3fca9625d08112ef95e7f9a88d4d",
+      "reference_instructions": [
+        85412
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 16,
+      "opening_row": 336,
+      "text": "In place of the late mistress,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome's caretaker introduction for male student alternatives: global64 in {1,4}, Nup or Will.",
+      "sentence_group": 165,
+      "group_ids": [
+        "00:00065:text:00027d1e",
+        "00:00065:text:00027d32",
+        "00:00065:text:00027d4e"
+      ],
+      "notes": [
+        "Late mistress is retained rather than silently replacing the relationship with mother."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027d32": {
+      "id": "00:00065:text:00027d32",
+      "source_offset": 163122,
+      "source_sha256": "13a5cb97df0173f26e5616d60d2af5dce583ec6ed7aa141e7394d43d49979a0f",
+      "reference_instructions": [
+        85420
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 17,
+      "opening_row": 337,
+      "text": "as the young master's caretaker,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome's caretaker introduction for male student alternatives: global64 in {1,4}, Nup or Will.",
+      "sentence_group": 165,
+      "group_ids": [
+        "00:00065:text:00027d1e",
+        "00:00065:text:00027d32",
+        "00:00065:text:00027d4e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027d4e": {
+      "id": "00:00065:text:00027d4e",
+      "source_offset": 163150,
+      "source_sha256": "09990401f938ecdb16f5f1c5dcdd4eb373b1f717c27d42705773efadb47ffbc9",
+      "reference_instructions": [
+        85428
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 18,
+      "opening_row": 338,
+      "text": "I have come to see him off.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome's caretaker introduction for male student alternatives: global64 in {1,4}, Nup or Will.",
+      "sentence_group": 165,
+      "group_ids": [
+        "00:00065:text:00027d1e",
+        "00:00065:text:00027d32",
+        "00:00065:text:00027d4e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027d62": {
+      "id": "00:00065:text:00027d62",
+      "source_offset": 163170,
+      "source_sha256": "6d8a89d05b9fa5a5138686a9375fd94ee1bb3fca9625d08112ef95e7f9a88d4d",
+      "reference_instructions": [
+        85466
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 19,
+      "opening_row": 339,
+      "text": "In place of the late mistress,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome's caretaker introduction for female student alternatives: global64 in {2,3}, Belfrau or Alieze.",
+      "sentence_group": 166,
+      "group_ids": [
+        "00:00065:text:00027d62",
+        "00:00065:text:00027d76",
+        "00:00065:text:00027d92"
+      ],
+      "notes": [
+        "Late mistress is retained rather than silently replacing the relationship with mother."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027d76": {
+      "id": "00:00065:text:00027d76",
+      "source_offset": 163190,
+      "source_sha256": "9ff90e37f67e01df7ad82673346cb77a23c660b5dbb341dcdbcdaded6c238d89",
+      "reference_instructions": [
+        85474
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 20,
+      "opening_row": 340,
+      "text": "as the young lady's caretaker,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome's caretaker introduction for female student alternatives: global64 in {2,3}, Belfrau or Alieze.",
+      "sentence_group": 166,
+      "group_ids": [
+        "00:00065:text:00027d62",
+        "00:00065:text:00027d76",
+        "00:00065:text:00027d92"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027d92": {
+      "id": "00:00065:text:00027d92",
+      "source_offset": 163218,
+      "source_sha256": "09990401f938ecdb16f5f1c5dcdd4eb373b1f717c27d42705773efadb47ffbc9",
+      "reference_instructions": [
+        85482
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 21,
+      "opening_row": 341,
+      "text": "I have come to see her off.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome's caretaker introduction for female student alternatives: global64 in {2,3}, Belfrau or Alieze.",
+      "sentence_group": 166,
+      "group_ids": [
+        "00:00065:text:00027d62",
+        "00:00065:text:00027d76",
+        "00:00065:text:00027d92"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027da6": {
+      "id": "00:00065:text:00027da6",
+      "source_offset": 163238,
+      "source_sha256": "615661a57cf6e43e07d4daad6832700e263ab1502dc71911afaf31b3000a1246",
+      "reference_instructions": [
+        85520
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 22,
+      "opening_row": 342,
+      "text": "Ah, thank you for coming.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist acknowledgment, global60==0 (Rexx).",
+      "sentence_group": 167,
+      "group_ids": [
+        "00:00065:text:00027da6"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027dbc": {
+      "id": "00:00065:text:00027dbc",
+      "source_offset": 163260,
+      "source_sha256": "792d9bd43c009e3919cc55afd04e58039a2bfff3bc25a09eea861f1687b3f0b0",
+      "reference_instructions": [
+        85550
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 23,
+      "opening_row": 343,
+      "text": "Thank you",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist acknowledgment, alternate protagonist branch (Aty).",
+      "sentence_group": 168,
+      "group_ids": [
+        "00:00065:text:00027dbc",
+        "00:00065:text:00027dc6"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027dc6": {
+      "id": "00:00065:text:00027dc6",
+      "source_offset": 163270,
+      "source_sha256": "a7de8aef0a2158b7f1a8315ebfc7d114dedc147e46fa1577a795b642e21794e5",
+      "reference_instructions": [
+        85558
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 24,
+      "opening_row": 344,
+      "text": "for coming all this way.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist acknowledgment, alternate protagonist branch (Aty).",
+      "sentence_group": 168,
+      "group_ids": [
+        "00:00065:text:00027dbc",
+        "00:00065:text:00027dc6"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027dd6": {
+      "id": "00:00065:text:00027dd6",
+      "source_offset": 163286,
+      "source_sha256": "5bd2771f0e00980c7e60546e4fdf2ace5a460b95be8c9b71149a6d3c47ab2380",
+      "reference_instructions": [
+        85592
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 25,
+      "opening_row": 345,
+      "text": "But really...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome turns from introductions to admonishing the child.",
+      "sentence_group": 169,
+      "group_ids": [
+        "00:00065:text:00027dd6"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027dea": {
+      "id": "00:00065:text:00027dea",
+      "source_offset": 163306,
+      "source_sha256": "8e68033bc3b16c1c90e89c93b1e33a5a3722ea66c5090b3fd39937ba26e3c259",
+      "reference_instructions": [
+        85672
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 26,
+      "opening_row": 346,
+      "text": "Master Nup,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Nup, selected-student global64==1.",
+      "sentence_group": 170,
+      "group_ids": [
+        "00:00065:text:00027dea",
+        "00:00065:text:00027df4",
+        "00:00065:text:00027e0a"
+      ],
+      "notes": [],
+      "glossary_ids": [
+        "character.nup"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027df4": {
+      "id": "00:00065:text:00027df4",
+      "source_offset": 163316,
+      "source_sha256": "40c37612866a7499cb5de68e573d4e71a70acd5a844800b34dc6b466ea33159a",
+      "reference_instructions": [
+        85680
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 27,
+      "opening_row": 347,
+      "text": "why did you go on ahead",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Nup, selected-student global64==1.",
+      "sentence_group": 170,
+      "group_ids": [
+        "00:00065:text:00027dea",
+        "00:00065:text:00027df4",
+        "00:00065:text:00027e0a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027e0a": {
+      "id": "00:00065:text:00027e0a",
+      "source_offset": 163338,
+      "source_sha256": "52f313d2fa08f81b049f8d0048fb807c083fbefb4915229ad383fbf1bb82f279",
+      "reference_instructions": [
+        85688
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 28,
+      "opening_row": 348,
+      "text": "all by yourself?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Nup, selected-student global64==1.",
+      "sentence_group": 170,
+      "group_ids": [
+        "00:00065:text:00027dea",
+        "00:00065:text:00027df4",
+        "00:00065:text:00027e0a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027e26": {
+      "id": "00:00065:text:00027e26",
+      "source_offset": 163366,
+      "source_sha256": "8579044c12acb9ed4c51283cdbf307eee64da6cb74810f78bec5b524fc49f974",
+      "reference_instructions": [
+        85724
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 29,
+      "opening_row": 349,
+      "text": "I specifically",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Nup, selected-student global64==1.",
+      "sentence_group": 171,
+      "group_ids": [
+        "00:00065:text:00027e26",
+        "00:00065:text:00027e3c",
+        "00:00065:text:00027e58"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027e3c": {
+      "id": "00:00065:text:00027e3c",
+      "source_offset": 163388,
+      "source_sha256": "bb3368a4afbc424ddf206116766535aeb392a8e4379ccb7ef972d7315550e7c1",
+      "reference_instructions": [
+        85732
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 30,
+      "opening_row": 350,
+      "text": "asked you",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Nup, selected-student global64==1.",
+      "sentence_group": 171,
+      "group_ids": [
+        "00:00065:text:00027e26",
+        "00:00065:text:00027e3c",
+        "00:00065:text:00027e58"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027e58": {
+      "id": "00:00065:text:00027e58",
+      "source_offset": 163416,
+      "source_sha256": "cea4d18dccdf6ce3f13cf4df1fba9ec6a5ade3d35cdccff136dce85126d43548",
+      "reference_instructions": [
+        85740
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 31,
+      "opening_row": 351,
+      "text": "to wait for me...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Nup, selected-student global64==1.",
+      "sentence_group": 171,
+      "group_ids": [
+        "00:00065:text:00027e26",
+        "00:00065:text:00027e3c",
+        "00:00065:text:00027e58"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027e74": {
+      "id": "00:00065:text:00027e74",
+      "source_offset": 163444,
+      "source_sha256": "f4f36bb386f04562376daf93d86071d22721b00b445bffae4a68c5e2438394d8",
+      "reference_instructions": [
+        85776
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 32,
+      "opening_row": 352,
+      "text": "If I waited for you to finish your errands, Nanny,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup replies impatiently to his caretaker.",
+      "sentence_group": 172,
+      "group_ids": [
+        "00:00065:text:00027e74",
+        "00:00065:text:00027e8e",
+        "00:00065:text:00027ea0"
+      ],
+      "notes": [
+        "Nanny is a form of address to the caretaker, not a newly established legal/family relationship; sunset complaint retains the source hyperbole."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027e8e": {
+      "id": "00:00065:text:00027e8e",
+      "source_offset": 163470,
+      "source_sha256": "c3916662e48a3f7ac2f75e3b09880ad7932c0978e7e0c6bf74f1ce2c62e5acf3",
+      "reference_instructions": [
+        85784
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 33,
+      "opening_row": 353,
+      "text": "the sun would be down",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup replies impatiently to his caretaker.",
+      "sentence_group": 172,
+      "group_ids": [
+        "00:00065:text:00027e74",
+        "00:00065:text:00027e8e",
+        "00:00065:text:00027ea0"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027ea0": {
+      "id": "00:00065:text:00027ea0",
+      "source_offset": 163488,
+      "source_sha256": "348d32774bb95dff4525553e6ffdc99a607e22579fdb5851ea92b49b03faff06",
+      "reference_instructions": [
+        85792
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 34,
+      "opening_row": 354,
+      "text": "by then!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup replies impatiently to his caretaker.",
+      "sentence_group": 172,
+      "group_ids": [
+        "00:00065:text:00027e74",
+        "00:00065:text:00027e8e",
+        "00:00065:text:00027ea0"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027eb0": {
+      "id": "00:00065:text:00027eb0",
+      "source_offset": 163504,
+      "source_sha256": "ef85bce147ef1a5dd9a2e58b76761c4c8222cb656a10ce52e3fdd0675c7e0ef2",
+      "reference_instructions": [
+        85828
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 35,
+      "opening_row": 355,
+      "text": "Master Nup!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome sharply addresses Nup.",
+      "sentence_group": 173,
+      "group_ids": [
+        "00:00065:text:00027eb0"
+      ],
+      "notes": [],
+      "glossary_ids": [
+        "character.nup"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027ebc": {
+      "id": "00:00065:text:00027ebc",
+      "source_offset": 163516,
+      "source_sha256": "d07f0c661b4dcb1e78afed3bcd0f0b92de1d038da9ee0de6450cd211c6d7fa74",
+      "reference_instructions": [
+        85864
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 36,
+      "opening_row": 356,
+      "text": "All right, all right.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup reluctantly yields and complains.",
+      "sentence_group": 174,
+      "group_ids": [
+        "00:00065:text:00027ebc",
+        "00:00065:text:00027ed0"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027ed0": {
+      "id": "00:00065:text:00027ed0",
+      "source_offset": 163536,
+      "source_sha256": "d40747657bf916514eca38dd0f3f61ca9abbfeae23772d345bf3c6922ae74aae",
+      "reference_instructions": [
+        85872
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 37,
+      "opening_row": 357,
+      "text": "Quit nagging already.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup reluctantly yields and complains.",
+      "sentence_group": 174,
+      "group_ids": [
+        "00:00065:text:00027ebc",
+        "00:00065:text:00027ed0"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027ee4": {
+      "id": "00:00065:text:00027ee4",
+      "source_offset": 163556,
+      "source_sha256": "5263ffe504887b0d55ebeffdb11791d8b8e6e5d63228e76b0c119706a09b5120",
+      "reference_instructions": [
+        85888
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 38,
+      "opening_row": 358,
+      "text": "Um, excuse me...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Polite intervention in the Nup branch. Display helper2030 receives speaker argument302; semantic speaker identity not independently resolved.",
+      "sentence_group": 175,
+      "group_ids": [
+        "00:00065:text:00027ee4",
+        "00:00065:text:00027ef4"
+      ],
+      "notes": [
+        "Speaker argument302 differs from the usual protagonist argument200. Neutral wording avoids introducing an unsupported speaker identity."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027ef4": {
+      "id": "00:00065:text:00027ef4",
+      "source_offset": 163572,
+      "source_sha256": "4e1eddc841fad925a2fd776dca31e26122ddb0f8df159230b0842099d79b464b",
+      "reference_instructions": [
+        85896
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 39,
+      "opening_row": 359,
+      "text": "Perhaps that's enough...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Polite intervention in the Nup branch. Display helper2030 receives speaker argument302; semantic speaker identity not independently resolved.",
+      "sentence_group": 175,
+      "group_ids": [
+        "00:00065:text:00027ee4",
+        "00:00065:text:00027ef4"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027f08": {
+      "id": "00:00065:text:00027f08",
+      "source_offset": 163592,
+      "source_sha256": "3a50da5176e010256955e77e5062c93d39871f11a6e0b476d9377d3e9c14ae82",
+      "reference_instructions": [
+        85932
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 40,
+      "opening_row": 360,
+      "text": "...Ahem!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome clears her throat after the interruption in the Nup branch.",
+      "sentence_group": 176,
+      "group_ids": [
+        "00:00065:text:00027f08"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027f18": {
+      "id": "00:00065:text:00027f18",
+      "source_offset": 163608,
+      "source_sha256": "0a4c5846283b1b8be7c9c7bfa2bd38f1004d882e456503e9c774c5d4cb93c6a8",
+      "reference_instructions": [
+        86050
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 41,
+      "opening_row": 361,
+      "text": "Miss Alieze,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Alieze, selected-student global64==3.",
+      "sentence_group": 177,
+      "group_ids": [
+        "00:00065:text:00027f18",
+        "00:00065:text:00027f24",
+        "00:00065:text:00027f3a"
+      ],
+      "notes": [],
+      "glossary_ids": [
+        "character.alieze"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027f24": {
+      "id": "00:00065:text:00027f24",
+      "source_offset": 163620,
+      "source_sha256": "40c37612866a7499cb5de68e573d4e71a70acd5a844800b34dc6b466ea33159a",
+      "reference_instructions": [
+        86058
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 42,
+      "opening_row": 362,
+      "text": "why did you go on ahead",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Alieze, selected-student global64==3.",
+      "sentence_group": 177,
+      "group_ids": [
+        "00:00065:text:00027f18",
+        "00:00065:text:00027f24",
+        "00:00065:text:00027f3a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027f3a": {
+      "id": "00:00065:text:00027f3a",
+      "source_offset": 163642,
+      "source_sha256": "52f313d2fa08f81b049f8d0048fb807c083fbefb4915229ad383fbf1bb82f279",
+      "reference_instructions": [
+        86066
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 43,
+      "opening_row": 363,
+      "text": "all by yourself?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Alieze, selected-student global64==3.",
+      "sentence_group": 177,
+      "group_ids": [
+        "00:00065:text:00027f18",
+        "00:00065:text:00027f24",
+        "00:00065:text:00027f3a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027f56": {
+      "id": "00:00065:text:00027f56",
+      "source_offset": 163670,
+      "source_sha256": "8579044c12acb9ed4c51283cdbf307eee64da6cb74810f78bec5b524fc49f974",
+      "reference_instructions": [
+        86102
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 44,
+      "opening_row": 364,
+      "text": "I specifically",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Alieze, selected-student global64==3.",
+      "sentence_group": 178,
+      "group_ids": [
+        "00:00065:text:00027f56",
+        "00:00065:text:00027f6c",
+        "00:00065:text:00027f88"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027f6c": {
+      "id": "00:00065:text:00027f6c",
+      "source_offset": 163692,
+      "source_sha256": "bb3368a4afbc424ddf206116766535aeb392a8e4379ccb7ef972d7315550e7c1",
+      "reference_instructions": [
+        86110
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 45,
+      "opening_row": 365,
+      "text": "asked you",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Alieze, selected-student global64==3.",
+      "sentence_group": 178,
+      "group_ids": [
+        "00:00065:text:00027f56",
+        "00:00065:text:00027f6c",
+        "00:00065:text:00027f88"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027f88": {
+      "id": "00:00065:text:00027f88",
+      "source_offset": 163720,
+      "source_sha256": "cea4d18dccdf6ce3f13cf4df1fba9ec6a5ade3d35cdccff136dce85126d43548",
+      "reference_instructions": [
+        86118
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 46,
+      "opening_row": 366,
+      "text": "to wait for me...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome admonishes Alieze, selected-student global64==3.",
+      "sentence_group": 178,
+      "group_ids": [
+        "00:00065:text:00027f56",
+        "00:00065:text:00027f6c",
+        "00:00065:text:00027f88"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027fa4": {
+      "id": "00:00065:text:00027fa4",
+      "source_offset": 163748,
+      "source_sha256": "f07cac27db491602976ab69d1be130acc430ea2f53e764dfdfed4deb09b7f032",
+      "reference_instructions": [
+        86154
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 47,
+      "opening_row": 367,
+      "text": "I'm sorry, Nanny.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Alieze apologizes to her caretaker.",
+      "sentence_group": 179,
+      "group_ids": [
+        "00:00065:text:00027fa4"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027fba": {
+      "id": "00:00065:text:00027fba",
+      "source_offset": 163770,
+      "source_sha256": "352a5521671312c04b79bb886f92d75b208453c6239f4eb9486e567d7bae117b",
+      "reference_instructions": [
+        86190
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 48,
+      "opening_row": 368,
+      "text": "But I wanted",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Alieze explains that she was eager to meet her teacher.",
+      "sentence_group": 180,
+      "group_ids": [
+        "00:00065:text:00027fba",
+        "00:00065:text:00027fd0",
+        "00:00065:text:00027fe8"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027fd0": {
+      "id": "00:00065:text:00027fd0",
+      "source_offset": 163792,
+      "source_sha256": "b4b6bf4519756f5b0df137c6ed011fcfe64ed63c25f3b4ac576ef278d4abb653",
+      "reference_instructions": [
+        86198
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 49,
+      "opening_row": 369,
+      "text": "to meet my teacher as soon as I could,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Alieze explains that she was eager to meet her teacher.",
+      "sentence_group": 180,
+      "group_ids": [
+        "00:00065:text:00027fba",
+        "00:00065:text:00027fd0",
+        "00:00065:text:00027fe8"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027fe8": {
+      "id": "00:00065:text:00027fe8",
+      "source_offset": 163816,
+      "source_sha256": "a8c6aaac3d69b61e6a4e42f276e5dbae8d72e1c4cdf3940b8ca842c871252387",
+      "reference_instructions": [
+        86206
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 50,
+      "opening_row": 370,
+      "text": "so...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Alieze explains that she was eager to meet her teacher.",
+      "sentence_group": 180,
+      "group_ids": [
+        "00:00065:text:00027fba",
+        "00:00065:text:00027fd0",
+        "00:00065:text:00027fe8"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00027ff6": {
+      "id": "00:00065:text:00027ff6",
+      "source_offset": 163830,
+      "source_sha256": "587d137c06d5caed9ce3c9febd3816f58be2ff2355b6b4a43fa4d454eb28ebdb",
+      "reference_instructions": [
+        86242
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 51,
+      "opening_row": 371,
+      "text": "Miss Alieze!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome sharply addresses Alieze.",
+      "sentence_group": 181,
+      "group_ids": [
+        "00:00065:text:00027ff6"
+      ],
+      "notes": [],
+      "glossary_ids": [
+        "character.alieze"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028004": {
+      "id": "00:00065:text:00028004",
+      "source_offset": 163844,
+      "source_sha256": "a44b7b3be5d4bf44ee6a1d441219cf08ee16a56fe66d40e786346dcd99568778",
+      "reference_instructions": [
+        86278
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 52,
+      "opening_row": 372,
+      "text": "...I'm sorry.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Alieze apologizes and promises to take care.",
+      "sentence_group": 182,
+      "group_ids": [
+        "00:00065:text:00028004",
+        "00:00065:text:00028018"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028018": {
+      "id": "00:00065:text:00028018",
+      "source_offset": 163864,
+      "source_sha256": "2ff2b021af2399fa9dd5c9bad22c5839dee9f5ab00db5b0385a727bbb3b6d4d1",
+      "reference_instructions": [
+        86286
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 53,
+      "opening_row": 373,
+      "text": "I'll be more careful from now on.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Alieze apologizes and promises to take care.",
+      "sentence_group": 182,
+      "group_ids": [
+        "00:00065:text:00028004",
+        "00:00065:text:00028018"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002802c": {
+      "id": "00:00065:text:0002802c",
+      "source_offset": 163884,
+      "source_sha256": "413aff369068644f046e9f743a939b7df369a7adb0a63dfdc0e47d5f73d0b7ef",
+      "reference_instructions": [
+        86322
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 54,
+      "opening_row": 374,
+      "text": "...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome's silent pause after the apology.",
+      "sentence_group": 183,
+      "group_ids": [
+        "00:00065:text:0002802c"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028034": {
+      "id": "00:00065:text:00028034",
+      "source_offset": 163892,
+      "source_sha256": "5263ffe504887b0d55ebeffdb11791d8b8e6e5d63228e76b0c119706a09b5120",
+      "reference_instructions": [
+        86338
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 55,
+      "opening_row": 375,
+      "text": "Um, excuse me...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Polite intervention in the Alieze branch. Display helper2030 receives speaker argument302; semantic speaker identity not independently resolved.",
+      "sentence_group": 184,
+      "group_ids": [
+        "00:00065:text:00028034",
+        "00:00065:text:00028044"
+      ],
+      "notes": [
+        "Speaker argument302 differs from the usual protagonist argument200. Neutral wording avoids introducing an unsupported speaker identity."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028044": {
+      "id": "00:00065:text:00028044",
+      "source_offset": 163908,
+      "source_sha256": "4e1eddc841fad925a2fd776dca31e26122ddb0f8df159230b0842099d79b464b",
+      "reference_instructions": [
+        86346
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 56,
+      "opening_row": 376,
+      "text": "Perhaps that's enough...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Polite intervention in the Alieze branch. Display helper2030 receives speaker argument302; semantic speaker identity not independently resolved.",
+      "sentence_group": 184,
+      "group_ids": [
+        "00:00065:text:00028034",
+        "00:00065:text:00028044"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028058": {
+      "id": "00:00065:text:00028058",
+      "source_offset": 163928,
+      "source_sha256": "3a50da5176e010256955e77e5062c93d39871f11a6e0b476d9377d3e9c14ae82",
+      "reference_instructions": [
+        86382
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 57,
+      "opening_row": 377,
+      "text": "...Ahem!",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome clears her throat after the interruption in the Alieze branch.",
+      "sentence_group": 185,
+      "group_ids": [
+        "00:00065:text:00028058"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028068": {
+      "id": "00:00065:text:00028068",
+      "source_offset": 163944,
+      "source_sha256": "5351bc48cd3e4cdb0606c59dfb535aba178733df9b743cb347ef6edb38cdb571",
+      "reference_instructions": [
+        86456
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 58,
+      "opening_row": 378,
+      "text": "According to the master,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome asks about the tutor's military academy grades, citing her employer.",
+      "sentence_group": 186,
+      "group_ids": [
+        "00:00065:text:00028068",
+        "00:00065:text:0002807e",
+        "00:00065:text:0002809a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002807e": {
+      "id": "00:00065:text:0002807e",
+      "source_offset": 163966,
+      "source_sha256": "2756370d4de0e76532ccb600b413ea0a704aa7499284aef981e62ae838f1de96",
+      "reference_instructions": [
+        86464
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 59,
+      "opening_row": 379,
+      "text": "you graduated from the military academy",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome asks about the tutor's military academy grades, citing her employer.",
+      "sentence_group": 186,
+      "group_ids": [
+        "00:00065:text:00028068",
+        "00:00065:text:0002807e",
+        "00:00065:text:0002809a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002809a": {
+      "id": "00:00065:text:0002809a",
+      "source_offset": 163994,
+      "source_sha256": "0f443bf61c61ecef9e794d3bd4d54ce1ac268a84e20b4e296d81987c81349d04",
+      "reference_instructions": [
+        86472
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 60,
+      "opening_row": 380,
+      "text": "with very impressive grades?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome asks about the tutor's military academy grades, citing her employer.",
+      "sentence_group": 186,
+      "group_ids": [
+        "00:00065:text:00028068",
+        "00:00065:text:0002807e",
+        "00:00065:text:0002809a"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000280b4": {
+      "id": "00:00065:text:000280b4",
+      "source_offset": 164020,
+      "source_sha256": "90e58b9a61c61f23bfa89c979eca034a327f8116884ed9787f6d05651b4725b0",
+      "reference_instructions": [
+        86512
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 61,
+      "opening_row": 381,
+      "text": "Well... I did",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist describes graduating first in the class, global60==0 (Rexx).",
+      "sentence_group": 187,
+      "group_ids": [
+        "00:00065:text:000280b4",
+        "00:00065:text:000280c6"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000280c6": {
+      "id": "00:00065:text:000280c6",
+      "source_offset": 164038,
+      "source_sha256": "77ca8ff7084e38491511055c310cb8c5a05cfcc0910e763debe17981973888c6",
+      "reference_instructions": [
+        86520
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 62,
+      "opening_row": 382,
+      "text": "graduate at the top of my class.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist describes graduating first in the class, global60==0 (Rexx).",
+      "sentence_group": 187,
+      "group_ids": [
+        "00:00065:text:000280b4",
+        "00:00065:text:000280c6"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000280d6": {
+      "id": "00:00065:text:000280d6",
+      "source_offset": 164054,
+      "source_sha256": "ac41189e2a1bbde87383d1dc359bf35d911e2203b6554220d63fa23dda7abd2c",
+      "reference_instructions": [
+        86552
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 63,
+      "opening_row": 383,
+      "text": "Yes... I did",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Alternate protagonist describes graduating first in the class (Aty).",
+      "sentence_group": 188,
+      "group_ids": [
+        "00:00065:text:000280d6",
+        "00:00065:text:000280e8"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000280e8": {
+      "id": "00:00065:text:000280e8",
+      "source_offset": 164072,
+      "source_sha256": "77ca8ff7084e38491511055c310cb8c5a05cfcc0910e763debe17981973888c6",
+      "reference_instructions": [
+        86560
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 64,
+      "opening_row": 384,
+      "text": "graduate at the top of my class.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Alternate protagonist describes graduating first in the class (Aty).",
+      "sentence_group": 188,
+      "group_ids": [
+        "00:00065:text:000280d6",
+        "00:00065:text:000280e8"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000280f8": {
+      "id": "00:00065:text:000280f8",
+      "source_offset": 164088,
+      "source_sha256": "d6fd1cc7a3e1343d31424cf1821671c6a4b90d94609a335e7890557268e9f605",
+      "reference_instructions": [
+        86632
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 65,
+      "opening_row": 385,
+      "text": "Tch. An honor student, huh?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Nup's reaction to the tutor's academic record, global64==1.",
+      "sentence_group": 189,
+      "group_ids": [
+        "00:00065:text:000280f8"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002810c": {
+      "id": "00:00065:text:0002810c",
+      "source_offset": 164108,
+      "source_sha256": "e4326234636a7bb572da11fffbb62d6c6a6aeee2977d815c5cc33ec433922973",
+      "reference_instructions": [
+        86710
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 66,
+      "opening_row": 386,
+      "text": "Top of the class, eh...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Will's reaction to the tutor's academic record, global64==4.",
+      "sentence_group": 190,
+      "group_ids": [
+        "00:00065:text:0002810c"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002811e": {
+      "id": "00:00065:text:0002811e",
+      "source_offset": 164126,
+      "source_sha256": "4d1fed32e29d075c27943f204163c1c50e40fdb58fc3d85fbebd3bba0406fe8d",
+      "reference_instructions": [
+        86798
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 67,
+      "opening_row": 387,
+      "text": "Oh, is that so?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Belfrau's reaction to the tutor's academic record, global64==2.",
+      "sentence_group": 191,
+      "group_ids": [
+        "00:00065:text:0002811e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028132": {
+      "id": "00:00065:text:00028132",
+      "source_offset": 164146,
+      "source_sha256": "413aff369068644f046e9f743a939b7df369a7adb0a63dfdc0e47d5f73d0b7ef",
+      "reference_instructions": [
+        86890
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 68,
+      "opening_row": 388,
+      "text": "...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Alieze's silent reaction to the tutor's academic record, global64==3.",
+      "sentence_group": 192,
+      "group_ids": [
+        "00:00065:text:00028132"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002813a": {
+      "id": "00:00065:text:0002813a",
+      "source_offset": 164154,
+      "source_sha256": "607df66ddf40b8b30dfa5e6657eebf3c77c67ca0b85263e5025be6ea7dcec642",
+      "reference_instructions": [
+        86978
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 69,
+      "opening_row": 389,
+      "text": "I understand that soldiers of the Empire",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome refers to the expected martial and summoning abilities of the Empire's soldiers.",
+      "sentence_group": 193,
+      "group_ids": [
+        "00:00065:text:0002813a",
+        "00:00065:text:0002814c",
+        "00:00065:text:00028162"
+      ],
+      "notes": [],
+      "glossary_ids": [
+        "organization.empire"
+      ],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002814c": {
+      "id": "00:00065:text:0002814c",
+      "source_offset": 164172,
+      "source_sha256": "639f574f82c33485c82682d98f34b2d1d22bcce86a5a41e7ff723bb9258e18e0",
+      "reference_instructions": [
+        86986
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 70,
+      "opening_row": 390,
+      "text": "excel in both martial arts",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome refers to the expected martial and summoning abilities of the Empire's soldiers.",
+      "sentence_group": 193,
+      "group_ids": [
+        "00:00065:text:0002813a",
+        "00:00065:text:0002814c",
+        "00:00065:text:00028162"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:00028162": {
+      "id": "00:00065:text:00028162",
+      "source_offset": 164194,
+      "source_sha256": "6122c037533c2cf36b389bda80c15d7c60d19d817ce3b7514a027609b1d28143",
+      "reference_instructions": [
+        86994
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 71,
+      "opening_row": 391,
+      "text": "and summoning.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome refers to the expected martial and summoning abilities of the Empire's soldiers.",
+      "sentence_group": 193,
+      "group_ids": [
+        "00:00065:text:0002813a",
+        "00:00065:text:0002814c",
+        "00:00065:text:00028162"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002817a": {
+      "id": "00:00065:text:0002817a",
+      "source_offset": 164218,
+      "source_sha256": "dac609b5c38b0ff9015ff5acb746138155ca03d09293db381a41d24f1e4f7cdc",
+      "reference_instructions": [
+        87030
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 72,
+      "opening_row": 392,
+      "text": "Which of the two",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome asks which discipline the tutor is better at.",
+      "sentence_group": 194,
+      "group_ids": [
+        "00:00065:text:0002817a",
+        "00:00065:text:0002818c"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002818c": {
+      "id": "00:00065:text:0002818c",
+      "source_offset": 164236,
+      "source_sha256": "2729fe3aa19f0762ea2612085a2d02795994e974fe2cc3dc74edf95565a0662d",
+      "reference_instructions": [
+        87038
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 73,
+      "opening_row": 393,
+      "text": "are you better at?",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Salome asks which discipline the tutor is better at.",
+      "sentence_group": 194,
+      "group_ids": [
+        "00:00065:text:0002817a",
+        "00:00065:text:0002818c"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:0002819e": {
+      "id": "00:00065:text:0002819e",
+      "source_offset": 164254,
+      "source_sha256": "72fd195202d5e6ca3ced4e5aeeee74cc4fbd30b7771c005b99ceafbf2cdf8184",
+      "reference_instructions": [
+        87074
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 74,
+      "opening_row": 394,
+      "text": "If I had to choose...",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist's prompt preceding two choice labels; helper2315 resolves the choice.",
+      "sentence_group": 195,
+      "group_ids": [
+        "00:00065:text:0002819e"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000281b6": {
+      "id": "00:00065:text:000281b6",
+      "source_offset": 164278,
+      "source_sha256": "501717472891b7e677b7734e5c0b290527bcc8fa5bd87c3816b11fe2e2233451",
+      "reference_instructions": [
+        87082
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 75,
+      "opening_row": 395,
+      "text": "　Martial arts.",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "Choice0: martial arts. The branch stores global62=0.",
+      "sentence_group": 196,
+      "group_ids": [
+        "00:00065:text:000281b6"
+      ],
+      "notes": [
+        "Leading U+3000 choice indentation retained; choice0 identity verified from immediate VM argument."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "choice_id": 0
+    },
+    "00:00065:text:000281c2": {
+      "id": "00:00065:text:000281c2",
+      "source_offset": 164290,
+      "source_sha256": "fcb130d7d7921767108b82c016f7a419da5c5aa716f7387c2df63fdd4bf65aea",
+      "reference_instructions": [
+        87092
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 76,
+      "opening_row": 396,
+      "text": "　Summoning.",
+      "status": "draft",
+      "text_role": "choice_label",
+      "context": "Choice1: summoning. The branch stores global62=1.",
+      "sentence_group": 197,
+      "group_ids": [
+        "00:00065:text:000281c2"
+      ],
+      "notes": [
+        "Leading U+3000 choice indentation retained; choice1 identity verified from immediate VM argument."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "choice_id": 1
+    },
+    "00:00065:text:000281d2": {
+      "id": "00:00065:text:000281d2",
+      "source_offset": 164306,
+      "source_sha256": "3341727b45c0ebf8cd472ce0f30e4e0e3804b39b6705ee3ff1a99db4a06ac26d",
+      "reference_instructions": [
+        87144
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 77,
+      "opening_row": 397,
+      "text": "Martial arts.",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Protagonist's spoken answer in the martial arts choice branch.",
+      "sentence_group": 198,
+      "group_ids": [
+        "00:00065:text:000281d2"
+      ],
+      "notes": [],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      }
+    },
+    "00:00065:text:000281e0": {
+      "id": "00:00065:text:000281e0",
+      "source_offset": 164320,
+      "source_sha256": "64ef38bc8b08e75247acb9d24e699a152c7d2c09d7fcc49fdb497b7edd8a4fb7",
+      "reference_instructions": [
+        87182
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 78,
+      "opening_row": 398,
+      "text": "If I learned how to fight,",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Rexx-only inner reflection after choosing martial arts; group199 continues through row400, and the retrospective belief is completed by group200 rows401-402.",
+      "sentence_group": 199,
+      "group_ids": [
+        "00:00065:text:000281e0",
+        "00:00065:text:000281f6",
+        "00:00065:text:0002820a"
+      ],
+      "notes": [
+        "Requires out-of-slice row400 and coordinated reflow of group199. The belief framing also continues into group200 rows401-402."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "integration_requires": "coordinated_group_199"
+    },
+    "00:00065:text:000281f6": {
+      "id": "00:00065:text:000281f6",
+      "source_offset": 164342,
+      "source_sha256": "524ffd447cde8a3f30f645c69f8c9e70e5f36769df5f7fb439e3d8f121859b92",
+      "reference_instructions": [
+        87190
+      ],
+      "resource_id": "00:00065",
+      "slice_row": 79,
+      "opening_row": 399,
+      "text": "I could protect",
+      "status": "draft",
+      "text_role": "queued_dialogue_line",
+      "context": "Rexx-only inner reflection after choosing martial arts; group199 continues through row400, and the retrospective belief is completed by group200 rows401-402.",
+      "sentence_group": 199,
+      "group_ids": [
+        "00:00065:text:000281e0",
+        "00:00065:text:000281f6",
+        "00:00065:text:0002820a"
+      ],
+      "notes": [
+        "Requires out-of-slice row400; do not insert this incomplete group alone."
+      ],
+      "glossary_ids": [],
+      "token_preservation": {
+        "source_tokens": [],
+        "target_tokens": [],
+        "verified": true
+      },
+      "integration_requires": "coordinated_group_199"
+    }
+  },
+  "change_log": [
+    {
+      "date": "2026-09-26",
+      "change": "Added opening004 draft with80 assigned rows, source/hash/token checks, VM queue and branch metadata, and one cross-slice completion proposal. No prior artifacts changed."
+    }
+  ],
+  "acceptance": {
+    "meaning": "Translator self-reviewed draft; independent review pending.",
+    "names": "Parent research decisions and available glossary consulted; scripted normalization not yet run.",
+    "layout": "Full meaning drafted without byte/line limits; relocation and whole-group reflow required. No width acceptance.",
+    "branches": "Separate protagonist and student alternatives retained; identical lines not deduplicated.",
+    "runtime": "No ISO, emulator, insertion, or runtime work performed.",
+    "production_ready": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "candidate_version": "0.1.4",
+  "candidate_sha256": "e02b88d37938c35b45339229e4e62541b08c76cfd492c10412615e4820ef3777",
+  "build_acceptance": "font_pool_crash_regression_passed; broader_technical_gate_incomplete",
+  "native_resolution": [480, 272],
+  "capture_method": "Software PSP framebuffer at sceDisplaySetFrameBuf",
+  "screens": [
+    {"id": "setup.movie", "screenshot": "0.1.4_boot.png", "role": "Opening movie after clean launch; not translated coverage"},
+    {"id": "setup.title", "screenshot": "0.1.4_setup_01.png", "role": "Title and Push START prompt"},
+    {"id": "dialogue.centered", "screenshot": "0.1.4_centered.png", "text_ids": ["00:00065:text:0002646e"], "target_lines": ["...waken."], "visual_check": "Complete centered green text, readable at native size, with a clear advance icon"},
+    {"id": "dialogue.regression69", "screenshot": "0.1.4_regression_69.png", "layout_group_id": "opening_000:group:33", "page_index": 0, "target_lines": ["And this scenery... No", "matter how I look at it,", "nothing looks familiar."], "display_units": [22, 24, 23], "visual_check": "The exact previously crashing 69-glyph page renders all words with no clipping and a clear advance icon"},
+    {"id": "dialogue.choice", "screenshot": "0.1.4_choice.png", "text_ids": ["00:00065:text:0002691a", "00:00065:text:0002692a", "00:00065:text:00026946"], "target_lines": ["Let's see...", "About myself", "Trivial things"], "visual_check": "Prompt and both currently enabled options fit the choice box"},
+    {"id": "dialogue.choice.selected", "screenshot": "0.1.4_choice_selected.png", "selected_label": "About myself", "selected_value": 0, "visual_check": "Selection highlight encloses the complete label; confirmed with Circle and reached group 40"},
+    {"id": "dialogue.backstory72", "screenshot": "0.1.4_backstory_72.png", "layout_group_id": "opening_000:group:40", "page_index": 0, "target_lines": ["I was born in the Empire.", "...Though, to be precise,", "it was a small country"], "display_units": [25, 25, 22], "visual_check": "All 72 glyphs readable; no clipping; advance icon clear"},
+    {"id": "dialogue.backstory.end", "screenshot": "0.1.4_backstory_end.png", "layout_group_id": "opening_000:group:40", "page_index": 1, "target_lines": ["village."], "visual_check": "Complete continuation after one advance; sentence meaning retained across the page break"},
+    {"id": "dialogue.continuation68", "screenshot": "0.1.4_continuation_68.png", "layout_group_id": "opening_000:group:42", "page_index": 0, "target_lines": ["Even though it was in", "the south, snow would", "fall there in winter, as I"], "display_units": [21, 21, 26], "visual_check": "All 68 glyphs readable; no clipping; advance icon clear"},
+    {"id": "dialogue.continuation.end", "screenshot": "0.1.4_continuation_end.png", "layout_group_id": "opening_000:group:42", "page_index": 1, "target_lines": ["recall."], "visual_check": "Complete continuation after one advance; final CPU held for inspection"}
+  ],
+  "complete_logical_visual_rows_this_build": 13,
+  "complete_logical_visual_groups": ["opening_000:group:33", "opening_000:group:40", "opening_000:group:42"],
+  "new_distinct_complete_visual_rows": 9,
+  "cumulative_distinct_complete_visual_rows": 17,
+  "counting_method": "One previously checked centered row plus three previously checked choice rows, and three source rows each in fully captured groups 33, 40 and 42. The latter nine are new relative to the eight complete rows from 0.1.1/0.1.2. Repeated choice-selection imagery adds no row.",
+  "scope_limit": "Selected pages on Rexx/Machine/Normal and About myself. Other routes, label graphics, styles, runtime substitutions, save/load and all text categories remain incomplete. One-word continuation pages remain a pagination-quality issue."
+}

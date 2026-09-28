@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "build_version": "0.1.16",
+  "language": "en",
+  "reviewer": "ui015_meaning_review independent agent",
+  "scope": "Additional compact wording for traced class, battle-condition overflow, related menu labels, options help, support strip and Dritol description.",
+  "status": "meaning_review_complete_with_two_menu_label_corrections",
+  "entries": [
+    {
+      "key": "class_tutor",
+      "source_id": "char_label:0000620e",
+      "target_compact": "Tutor",
+      "result": "approved",
+      "note": "Accurate compact rendering of a private/home tutor. Retain wiki-sourced Family Teacher as the full class title in metadata; this is a display abbreviation, not a canonical-title override.",
+      "visible_character_count": 5
+    },
+    {
+      "key": "defeat_protagonist",
+      "source_id": "elf:ui:00218750",
+      "target_compact": "Protagonist KO",
+      "result": "approved",
+      "note": "KO is an established compact equivalent of incapacitated; preserve the protagonist referent rather than naming a fixed protagonist.",
+      "visible_character_count": 14
+    },
+    {
+      "key": "defeat_allies",
+      "source_id": "elf:ui:00218764",
+      "target_compact": "All allies KO",
+      "result": "approved",
+      "note": "Retains the all-allies requirement.",
+      "visible_character_count": 13
+    },
+    {
+      "key": "battle_conditions",
+      "source_id": null,
+      "target_compact": "Win/Lose",
+      "result": "correction",
+      "note": "Preferred to Battle Goals: source covers both victory and defeat conditions. Battle Conditions remains the full menu label.",
+      "visible_character_count": 8
+    },
+    {
+      "key": "support_abilities",
+      "source_id": null,
+      "target_compact": "Support Skills",
+      "result": "approved",
+      "note": "Source ability and skill are equivalent here, and the existing status panel says SUPPORT SKILL. Do not merge with Party Abilities.",
+      "visible_character_count": 14
+    },
+    {
+      "key": "brave_conditions",
+      "source_id": null,
+      "target_compact": "Brave Goals",
+      "result": "approved",
+      "note": "Acceptable compact label for Brave Conditions; retains the Brave mechanic.",
+      "visible_character_count": 11
+    },
+    {
+      "key": "train_summons",
+      "source_id": null,
+      "target_compact": "Train Summons",
+      "result": "approved",
+      "note": "Accurate compact form of summon raising/training.",
+      "visible_character_count": 13
+    },
+    {
+      "key": "retreat",
+      "source_id": null,
+      "target_compact": "Retreat",
+      "result": "approved",
+      "note": "Direct source meaning.",
+      "visible_character_count": 7
+    },
+    {
+      "key": "suspend_data",
+      "source_id": null,
+      "target_compact": "Suspend Data",
+      "result": "correction",
+      "note": "Replace proposed Resume Data. The source means suspended-game data. Suspend Save is also acceptable if the button loads that save.",
+      "visible_character_count": 12
+    },
+    {
+      "key": "game_data",
+      "source_id": null,
+      "target_compact": "Game Data",
+      "result": "approved",
+      "note": "Direct source meaning.",
+      "visible_character_count": 9
+    },
+    {
+      "key": "system_data",
+      "source_id": null,
+      "target_compact": "System",
+      "result": "approved_contextual",
+      "note": "Acceptable short label where neighboring data categories establish that this means System Data. Retain System Data for a standalone dialog.",
+      "visible_character_count": 6
+    },
+    {
+      "key": "buy",
+      "source_id": null,
+      "target_compact": "Buy",
+      "result": "approved",
+      "note": "Direct purchasing action.",
+      "visible_character_count": 3
+    },
+    {
+      "key": "sell",
+      "source_id": null,
+      "target_compact": "Sell",
+      "result": "approved",
+      "note": "Direct selling action.",
+      "visible_character_count": 4
+    },
+    {
+      "key": "option_volume",
+      "source_id": "elf:ui:0021ca58",
+      "target_compact": "Adjust music volume.",
+      "result": "approved",
+      "note": "Music means background music here.",
+      "visible_character_count": 20
+    },
+    {
+      "key": "option_event_voices",
+      "source_id": "elf:ui:0021ca7c",
+      "target_compact": "Turn event voices on or off.",
+      "result": "approved",
+      "note": "Preserves both settings and event-voice scope.",
+      "visible_character_count": 28
+    },
+    {
+      "key": "option_forecast",
+      "source_id": "elf:ui:0021caa0",
+      "target_compact": "Turn damage forecast on/off.",
+      "result": "approved",
+      "note": "Forecast and prediction are equivalent here.",
+      "visible_character_count": 28
+    },
+    {
+      "key": "option_cursor",
+      "source_id": "elf:ui:0021cac8",
+      "target_compact": "Set battle cursor directions.",
+      "result": "approved",
+      "note": "Retains battlefield-cursor directional mapping without inventing setting values.",
+      "visible_character_count": 29
+    },
+    {
+      "key": "option_lr",
+      "source_id": "elf:ui:0021caf0",
+      "target_compact": "Set L/R controls in battle.",
+      "result": "approved",
+      "note": "Preserves restriction to battle L/R behavior.",
+      "visible_character_count": 27
+    },
+    {
+      "key": "support_ingredient_strip",
+      "source_id": null,
+      "target_compact": "Search for ingredients.",
+      "result": "approved",
+      "note": "Searching the surrounding area is implicit in Search. Appropriate compact description of the ingredient-gathering support action.",
+      "visible_character_count": 23
+    },
+    {
+      "key": "deployment_help",
+      "source_id": "elf:ui:0021700c",
+      "target_compact": [
+        "АDeploy  ВStatus & Equipment",
+        "БBack to Map"
+      ],
+      "result": "approved",
+      "note": "Two native display lines preserve source controller-token order A, V, B (Cyrillic game tokens). Reflow does not change any action.",
+      "visible_character_count": [
+        28,
+        12
+      ]
+    }
+  ],
+  "dritol": {
+    "source_ids": [
+      "02:00003/00012:ui:0000147e",
+      "02:00003/00012:ui:000014b4"
+    ],
+    "preferred_explicit_lines": [
+      "Large-drill land-development unit.",
+      "Built for long polar work."
+    ],
+    "preferred_character_counts": [
+      34,
+      26
+    ],
+    "accepted_under_30_lines": [
+      "Large-drill land developer.",
+      "Built for long polar work."
+    ],
+    "accepted_under_30_character_counts": [
+      27,
+      26
+    ],
+    "result": "approved_contextual_compression",
+    "note": "The <=30 wording retains the large drill, land-development purpose, extended work endurance and polar setting. It relies on the displayed machine/summon illustration and full retained catalog description to establish machine identity. Prefer the 34-character first line if measured width permits. Do not use Land unit with a large drill, which removes the development purpose.",
+    "full_meaning": "A machine equipped with a large drill for land development. It is built to withstand long hours of work even in polar regions."
+  },
+  "evidence": {
+    "class": "Existing character_labels.review.json independently records six class-slot references for char_label:0000620e and identifies Family Teacher as wiki terminology. Parent additionally traced current raw ASCII pointer at 0x8376 in character table 01:1/0.",
+    "other_sources": "Exact source/help IDs were read and hash-verified in the preceding meaning_review.json. Additional graphical/menu labels were supplied with source wording by parent.",
+    "layout": "Meaning review only. Character counts do not establish rendered pixel width or validate the glyph path; parent measures/reflows and checks runtime."
+  },
+  "unchanged_inputs": [
+    "work/translation/en/menu_0.1.16/meaning_review.json",
+    "work/translation/en/character_labels.review.json"
+  ]
+}

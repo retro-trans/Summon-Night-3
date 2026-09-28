@@ -1,0 +1,29 @@
+{
+  "iso_sha256": "25c7b0ff2e2f54e088e305a130627c844d96785ba86e6f78149263ca3510990f",
+  "fresh_launch": true,
+  "in_game_save": true,
+  "save_state": false,
+  "emulator": "PPSSPP 1.20.4, isolated software rendering",
+  "verified": [
+    "Fresh save load and map VWF",
+    "Kyle opening speech with VWF",
+    "Aty long dialogue split across two pages with correct speaker",
+    "Protect line and continuation into battle tutorials",
+    "Return to interactive unit commands after the tutorials"
+  ],
+  "evidence_sha256": {
+    "work/ui/battle_0.1.24/runtime/final_load.png": "45ec32fb01447791b449d2f03b11d7478d28b974cc927212954f841a0a90cd26",
+    "work/ui/battle_0.1.24/runtime/final_load.json": "79c9bb39d2855fb779fd08dec4165feb30ec4ac33f357ac74d9a7d875ad516c7",
+    "work/ui/battle_0.1.24/runtime/final_kyle.png": "d224d7929031c617b5bf327f41b0987fdec77cf60815c1532d7a6dedead8c203",
+    "work/ui/battle_0.1.24/runtime/final_kyle.json": "b63eaa0b8ca3516e1d1dded1fc10f8ebce127f128852c2b05a77ebe19336211e",
+    "work/ui/battle_0.1.24/runtime/final_health_first.png": "bae1d7ba5341fc40030858798599f6aafa2097ca87a6e82192f3b0f5149424cb",
+    "work/ui/battle_0.1.24/runtime/final_health_first.json": "c7d7009bbf92b3ec762222ca84fc27942e8e397841ad87785bf28eaa4a207836",
+    "work/ui/battle_0.1.24/runtime/final_health_second.png": "77dfb09253758277ab7a1ce5fada11365d933e06999bb67ded8fa8b45804c31b",
+    "work/ui/battle_0.1.24/runtime/final_health_second.json": "68c041312ce8cc486b052f64038679d319a0ca44d785ee075d6c9ad6cdfad951",
+    "work/ui/battle_0.1.24/runtime/final_protect.png": "fbeec6596204882792dd9e8c5593ab3fb8a0504ec7c989c80d6f40b1f5605af8",
+    "work/ui/battle_0.1.24/runtime/final_protect.json": "f81e37620fbe44124a65e201285f59d4990ade801e615e38f0450e4693cdce59",
+    "work/ui/battle_0.1.24/runtime/final_after_tutorial.png": "2571aafee4f8c78f64a8af3f0516f63a74f8b8700f448740eb6f2e104c82fc02",
+    "work/ui/battle_0.1.24/runtime/final_after_tutorial.json": "b1cc3142083bb8b7e83e941d941628296e452d95b78e8f0681c2db27bb7afb6c"
+  },
+  "all_routes_tested": false
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "build_version": "0.1.20",
+  "review_type": "source-bound UI label meaning review",
+  "source": "work/output/0.1.17/EBOOT.elf; original native texture inventory",
+  "scope": "Requested menu, Summon Index, and attack-diagram labels. No build input was edited.",
+  "elf_literals": [
+    {"source":"キーアイテム","full":"Key Item","compact":"Key Item","source_sha256":"437da894da8cc74b52554f5dfa4d199af9df8c0ffc82ceb03737790ad43db3cd","offsets":["0x21726c","0x35cdd2"],"review":"Exact inventory category; singular English UI label."},
+    {"source":"ありません","full":"None","compact":"None","source_sha256":"26a7e5e6598b528c293370f25ad52ff41fc0f4758443a0e3cb165a8f3df32edb","offsets":["0x218aa8","0x218acc","0x218af0","0x21a4e8","0x21e1d4","0x21e290","0x21ef68","0x353960","0x353984","0x3539a8","0x35568a","0x35788e","0x358e16","0x358e3a","0x358e5e","0x35a856","0x35e674","0x35e698","0x35e6bc","0x3600b4","0x363e06"],"review":"Absence/empty-slot response; None is correct."},
+    {"source":"召喚魔法","full":"Summon Magic","compact":"Summon Magic","source_sha256":"535fc029d9db3b2499339456c12f078dda647fb2949761d1bed9ec8f945273de","offsets":["0x21817c","0x2191d4","0x3584ea","0x359542","0x35dd48","0x35eda0"],"review":"Established project terminology."},
+    {"source":"組み合わせ","full":"Combination","compact":"Combine","source_sha256":"d702e14af679773431009ccc397e17417076cf72b5c71bad1df209eadb2e8add","offsets":["0x217c8a","0x21824a","0x218f88","0x3585b8","0x3592f6","0x35d7f0","0x35de16","0x35eb54"],"review":"Summon Index tab for combining materials/summons. Use Combination as full tab name; Combine only where width requires a verb-style compact label."},
+    {"source":"範囲表示","full":"Show Range","compact":"Range","source_sha256":"39dacf6812fb2499f9513e173c93b971b3487017ef601bc58900f7c3c6647f7d","offsets":["0x21afbc","0x35b32a","0x360b88"],"review":"Command that displays affected tiles; Show Range preserves the action."},
+    {"source":"射程","full":"Range","compact":"Range","source_sha256":"88f59e064d397faf59e42445a6c58e98a6e2b2ee1ee9d34fc08ec09479ceeb9e","offsets":["0x217210","0x2177c8","0x2177e8","0x217808","0x217828","0x217864","0x2178a0","0x2178e0","0x217908","0x217aa8","0x217aec","0x357a1a","0x357a3a","0x357a5a","0x357a7a","0x357ab6","0x357af2","0x357b32","0x357b5a","0x357cfa","0x357d3e","0x35cd76","0x35d32e","0x35d34e","0x35d36e","0x35d38e","0x35d3ca","0x35d406","0x35d446","0x35d46e","0x35d60e","0x35d652"],"review":"Attack reach/range label. Use Range consistently with Show Range."},
+    {"source":"効果","full":"Effect","compact":"Effect","source_sha256":"6394d98e20669570ef7ebf3613c282aa80f067004e06c285a8f91b3729bd9f09","offsets":["0x217460","0x35cfc6"],"review":"Effect/result heading."},
+    {"source":"上段","full":"Above","compact":"Above","source_sha256":"6bc4667bb3c07d704f86ca20615dfec9633746a2ffb0e84aa97870d020f2b32f","offsets":["0x2171e0","0x35cd46"],"review":"Upper elevation offset in the range diagram; Above is clearer than Upper."},
+    {"source":"下段","full":"Below","compact":"Below","source_sha256":"e627ff83936e6b97fa5ba70cc87a12a3e95e260a64e713c7fd4d5dd5ff03255b","offsets":["0x2171d2","0x2171ec","0x217446","0x35cd38","0x35cd52","0x35cfac"],"review":"Lower elevation offset in the range diagram; Below pairs with Above."}
+  ],
+  "native_textures": [
+    {"id":"02:02952/00002:sprite:011","role":"small Summon Index label sprite; visual text needs inspection before replacement","dimensions":[64,24],"descriptor_offset":804,"image_sha256":"83a5b73e564d50b23efc658d10f9da5a41977abdf67d804fbbc4b94e4150e084"},
+    {"id":"02:02952/00002:sprite:012","role":"small Summon Index label sprite; visual text needs inspection before replacement","dimensions":[64,24],"descriptor_offset":836,"image_sha256":"e99d9f571df0a648a189988cb491bf282ff1f452013cf9163e48a594b2af2b17"},
+    {"id":"02:02952/00002:sprite:013","role":"wide Summon Index label sprite; visual text needs inspection before replacement","dimensions":[72,24],"descriptor_offset":868,"image_sha256":"b1903f4fd668ee0b2b7725974856c402eebdb9830e84446d1fc2c8552244848a"},
+    {"id":"02:02952/00002:sprite:014","role":"wide Summon Index label sprite; visual text needs inspection before replacement","dimensions":[72,24],"descriptor_offset":900,"image_sha256":"f2132deff55dde976f90b603e16e2ccc2cafbae143d97d6e6c6ebdcff3c6c965"},
+    {"id":"02:02952/00002:sprite:015","role":"large Summon Index/attack-range diagram panel; contains the requested visual-only labels","dimensions":[256,64],"descriptor_offset":932,"image_sha256":"b7c1664809588a559674ee186953f00e25c6c700437d30058fcb075d466294a5"},
+    {"id":"02:02952/00002:sprite:016","role":"Summon Index/attack-range diagram panel strip; inspect alongside sprite 015","dimensions":[256,16],"descriptor_offset":964,"image_sha256":"e8a406838915f56adac01a5eb6111f58aae589398b1f9b9a27184eec9321a266"}
+  ],
+  "texture_pack_sha256":"aaf4d590b2871c29047f7a027f0d0cd2bff7c042085afc5fe75e47fd64294895",
+  "notes":["Sprites 11-16 are an adjacent native-texture category within 02.DAT resource 2952 child 2. They should be treated as a coordinated graphical replacement set, with no claim that a single individual sprite corresponds to a particular literal until visual inspection confirms it.","The listed ELF offsets include duplicate resident/cache copies; replace through the established relocation/patch mechanism rather than modifying literals in place."]
+}

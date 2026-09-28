@@ -1,0 +1,71 @@
+{
+  "resource_id": "00:00170",
+  "review_type": "independent_meaning_review",
+  "semantic_complete": true,
+  "independent_review": true,
+  "reviewed_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "reviewed_slices": [
+    {
+      "target_file": "work/translation/en/chapters_0.1.14/0170/slice_0011.targets.json",
+      "target_file_sha256": "2c897335675ec0124784b2db5d7a233a47448c2f18075cc705bdd3d43fbbeae5",
+      "assigned_range": [
+        11,
+        41
+      ],
+      "translation_count": 31
+    }
+  ],
+  "corrections": [
+    {
+      "resource_row": 19,
+      "source_sha256": "da9bdbf7810c08a30b41b2e411e28f60ab3b17b7fd045bd54092929c24c7cea8",
+      "text": "Your pupil deserves credit for enduring it this long."
+    }
+  ],
+  "rows_examined": {
+    "physical_range_inclusive": [
+      6,
+      41
+    ],
+    "count": 36
+  },
+  "uncertainties": [
+    "Scarrel praises the pupil for enduring the difficult situation; the original target made this an abstract claim about things holding together."
+  ],
+  "method": "Read and compared every assigned source/target row in slices of at most 80, with adjacent context. Reviewer did not author these drafts. Structural checks do not substitute for that meaning review.",
+  "change_log": [
+    "Build 0.1.14: independently reviewed all optional/night dialogue rows in this resource."
+  ]
+}

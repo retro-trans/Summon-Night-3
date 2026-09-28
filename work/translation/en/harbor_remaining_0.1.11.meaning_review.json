@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "version": "0.1.11",
+  "reviewer": "review_remaining_harbor",
+  "review_type": "independent_agent_meaning_review",
+  "scope": "Review of 17 previously excluded source rows, not a new translation slice.",
+  "resource_id": "00:00065",
+  "source_resource_sha256": "43075b4b389aeb81b1c539239a45c0db57b483207149d3ca62e9ed472cf4f2d4",
+  "source_decoded_sha256": "420430e031d5cd45771871f516ad850de53b65c789e009f5a49caae70643ffa7",
+  "input_sha256": {
+    "work/translation/en/opening_harbor.reviewed.json": "ca697e7ece450cfc3521c71cbf4e4c5c85d6fd78d9e2966a3b7972d280ec11f8",
+    "work/translation/en/opening_harbor_0.1.10.targets.json": "f92dcfec550196123a90b9c40ca651b34681b327fe092233e1145a208fd8c674",
+    "work/glossary/opening_harbor.json": "f7524803992a3cd45ba7577580c2868ec0b549a903f8b7f649dd8f250719941b"
+  },
+  "rows_examined": {
+    "ranges_inclusive": [
+      [
+        176,
+        268
+      ],
+      [
+        553,
+        624
+      ]
+    ],
+    "count": 165
+  },
+  "target_rows": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    240,
+    241,
+    242,
+    585,
+    586,
+    587,
+    591,
+    592,
+    593,
+    594,
+    595,
+    596
+  ],
+  "target_row_count": 17,
+  "accepted_target_rows": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    240,
+    241,
+    242,
+    585,
+    586,
+    587,
+    591,
+    592,
+    593,
+    594,
+    595,
+    596
+  ],
+  "accepted_count": 17,
+  "unresolved_rows": [],
+  "accepted_with_uncertainty_rows": [
+    240,
+    241,
+    242
+  ],
+  "locked_glossary_names": [
+    "Rexx",
+    "Aty",
+    "Nup",
+    "Belfrau",
+    "Alieze",
+    "Will",
+    "Salome"
+  ],
+  "method": "Read original source transiently with opening_source and compare full neighboring conversation, both pupil-gender continuations, existing catalog and prior quiz review. No extensive source-language transcript persisted. Existing sound wording is retained instead of rewritten for style.",
+  "additional_lookup": {
+    "queries": [
+      "exact game name plus the disputed classification term",
+      "exact classification phrase plus summoning"
+    ],
+    "outcome": "No relevant corroboration; returned pages did not support either interpretation and were not used as translation evidence."
+  },
+  "uncertainties": [
+    "The quiz is accepted as a close surface-scope rendering. The intended mathematical set remains uncorroborated; neither a causal reason for omission nor an answer has been invented.",
+    "Special display helpers and musical-note rendering require separate integration and runtime validation.",
+    "The pupil variants are alternate execution branches; compiled source-reference order is not one unconditional sequence of appearances."
+  ],
+  "items": [
+    {
+      "opening_row": 200,
+      "id": "00:00065:text:00027316",
+      "source_offset": 160534,
+      "source_sha256": "55dd7e390270b8215e0b68a74487b06829999bd4f61456ec84fa15bf0f370e8b",
+      "reference_instructions": [
+        81124
+      ],
+      "existing_text": "...You're wide open!!",
+      "reviewed_text": "...You're wide open!!",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 201,
+      "id": "00:00065:text:0002732c",
+      "source_offset": 160556,
+      "source_sha256": "19fd509ecaae724c0217da332bba8cdfbf063a42d59d197e1f7a3f16342300d1",
+      "reference_instructions": [
+        81282
+      ],
+      "existing_text": "W-whoooa!?",
+      "reviewed_text": "W-whoooa!?",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 202,
+      "id": "00:00065:text:0002733e",
+      "source_offset": 160574,
+      "source_sha256": "8fc18afc87d720122575ea8fb7c128b208ea6b5436d3438d4bb8ddd4b46ac87a",
+      "reference_instructions": [
+        81314
+      ],
+      "existing_text": "Eeeek!?",
+      "reviewed_text": "Eeeek!?",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 203,
+      "id": "00:00065:text:0002734c",
+      "source_offset": 160588,
+      "source_sha256": "dff994ce68ba6d46dcbacd2a1dffb0f034545fb21c8a88522e203dee5e6b6d24",
+      "reference_instructions": [
+        81422
+      ],
+      "existing_text": "Heh heh!",
+      "reviewed_text": "Heh heh!",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 204,
+      "id": "00:00065:text:00027356",
+      "source_offset": 160598,
+      "source_sha256": "55d30f6b337068fefcc278f307717f1433c064acb075a5142525015deef4f3cb",
+      "reference_instructions": [
+        81430
+      ],
+      "existing_text": "I saaaw that!♪",
+      "reviewed_text": "I saaaw that!♪",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": [
+        "♪"
+      ]
+    },
+    {
+      "opening_row": 240,
+      "id": "00:00065:text:00027616",
+      "source_offset": 161302,
+      "source_sha256": "a73af9b0f1a17f942e043e84af9220f164d371e726a2ff9e907cdd329884d459",
+      "reference_instructions": [
+        82510
+      ],
+      "existing_text": null,
+      "reviewed_text": "How many summoning arts",
+      "status": "meaning_accepted_close_literal_with_scope_uncertainty",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 241,
+      "id": "00:00065:text:00027634",
+      "source_offset": 161332,
+      "source_sha256": "5ce28936ae5c31263119729e7e6bb5c65a6d9643bb01f22577af70b0d838ed1c",
+      "reference_instructions": [
+        82518
+      ],
+      "existing_text": null,
+      "reviewed_text": "are not listed as exceptions",
+      "status": "meaning_accepted_close_literal_with_scope_uncertainty",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 242,
+      "id": "00:00065:text:00027646",
+      "source_offset": 161350,
+      "source_sha256": "d6e88e4f551a6f8d607cc2d45d4883262e48b70ac14734d9bb1be2b0ee6c656b",
+      "reference_instructions": [
+        82526
+      ],
+      "existing_text": null,
+      "reviewed_text": "in the elementary summoning textbook?",
+      "status": "meaning_accepted_close_literal_with_scope_uncertainty",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 585,
+      "id": "00:00065:text:00028fc0",
+      "source_offset": 167872,
+      "source_sha256": "40371146cd15c3da8c78b67fe72ffbe5d5242228010e01150bd65de4511d251f",
+      "reference_instructions": [
+        91648
+      ],
+      "existing_text": "But this time,",
+      "reviewed_text": "But this time,",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 586,
+      "id": "00:00065:text:00028fd6",
+      "source_offset": 167894,
+      "source_sha256": "7de00b8b5e2b2fcb7b69562bff1a4eb591042552038f57c4d0b45539d887c99c",
+      "reference_instructions": [
+        91656
+      ],
+      "existing_text": "we cannot allow",
+      "reviewed_text": "we cannot allow",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 587,
+      "id": "00:00065:text:00028fe8",
+      "source_offset": 167912,
+      "source_sha256": "7c51d8524285057a53eedb0917351b7534591ad677ffd29eb3270e12ec5c2250",
+      "reference_instructions": [
+        91664
+      ],
+      "existing_text": "that to happen!",
+      "reviewed_text": "that to happen!",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 591,
+      "id": "00:00065:text:00029036",
+      "source_offset": 167990,
+      "source_sha256": "15989e82c31df95f59d080f70c827678717e7e8bbe89472dd3b5fbbced338567",
+      "reference_instructions": [
+        91770
+      ],
+      "existing_text": "is absolutely essential",
+      "reviewed_text": "is absolutely essential",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 592,
+      "id": "00:00065:text:00029046",
+      "source_offset": 168006,
+      "source_sha256": "c862b15fe2467636c3f0a6f8fb0772209985bb209f668854764972919f03d5b0",
+      "reference_instructions": [
+        91778
+      ],
+      "existing_text": "for the young master's",
+      "reviewed_text": "for the young master's",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 593,
+      "id": "00:00065:text:0002905a",
+      "source_offset": 168026,
+      "source_sha256": "5f06d54daa471c22225c53c435040148ba0b31ab304cb25bfa6fd98e047c5ac5",
+      "reference_instructions": [
+        91786
+      ],
+      "existing_text": "future!",
+      "reviewed_text": "future!",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 594,
+      "id": "00:00065:text:0002906a",
+      "source_offset": 168042,
+      "source_sha256": "a4bf975446542d87a764db0c5d4bf457895956d7c231a9ad2d4afb9ef1b41fd6",
+      "reference_instructions": [
+        91824
+      ],
+      "existing_text": "is absolutely essential",
+      "reviewed_text": "is absolutely essential",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 595,
+      "id": "00:00065:text:0002907a",
+      "source_offset": 168058,
+      "source_sha256": "c862b15fe2467636c3f0a6f8fb0772209985bb209f668854764972919f03d5b0",
+      "reference_instructions": [
+        91832
+      ],
+      "existing_text": "for the young lady's",
+      "reviewed_text": "for the young lady's",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    },
+    {
+      "opening_row": 596,
+      "id": "00:00065:text:0002908e",
+      "source_offset": 168078,
+      "source_sha256": "5f06d54daa471c22225c53c435040148ba0b31ab304cb25bfa6fd98e047c5ac5",
+      "reference_instructions": [
+        91840
+      ],
+      "existing_text": "future!",
+      "reviewed_text": "future!",
+      "status": "meaning_accepted_existing_wording",
+      "preserve_tokens": []
+    }
+  ],
+  "groups": [
+    {
+      "opening_rows": [
+        200
+      ],
+      "ids": [
+        "00:00065:text:00027316"
+      ],
+      "source_hashes": [
+        "55dd7e390270b8215e0b68a74487b06829999bd4f61456ec84fa15bf0f370e8b"
+      ],
+      "context": "Nup announces an opening before attacking; do not invent the attack type.",
+      "reviewed_text": "...You're wide open!!",
+      "status": "meaning_accepted_existing_wording",
+      "layout_acceptance": false
+    },
+    {
+      "opening_rows": [
+        201
+      ],
+      "ids": [
+        "00:00065:text:0002732c"
+      ],
+      "source_hashes": [
+        "19fd509ecaae724c0217da332bba8cdfbf063a42d59d197e1f7a3f16342300d1"
+      ],
+      "context": "Rexx startled reaction, alternative to row202.",
+      "reviewed_text": "W-whoooa!?",
+      "status": "meaning_accepted_existing_wording",
+      "layout_acceptance": false
+    },
+    {
+      "opening_rows": [
+        202
+      ],
+      "ids": [
+        "00:00065:text:0002733e"
+      ],
+      "source_hashes": [
+        "8fc18afc87d720122575ea8fb7c128b208ea6b5436d3438d4bb8ddd4b46ac87a"
+      ],
+      "context": "Aty startled reaction, alternative to row201.",
+      "reviewed_text": "Eeeek!?",
+      "status": "meaning_accepted_existing_wording",
+      "layout_acceptance": false
+    },
+    {
+      "opening_rows": [
+        203,
+        204
+      ],
+      "ids": [
+        "00:00065:text:0002734c",
+        "00:00065:text:00027356"
+      ],
+      "source_hashes": [
+        "dff994ce68ba6d46dcbacd2a1dffb0f034545fb21c8a88522e203dee5e6b6d24",
+        "55d30f6b337068fefcc278f307717f1433c064acb075a5142525015deef4f3cb"
+      ],
+      "context": "Playful taunt; retain the musical note and leave what was seen unspecified.",
+      "reviewed_text": "Heh heh! I saaaw that!♪",
+      "status": "meaning_accepted_existing_wording",
+      "layout_acceptance": false
+    },
+    {
+      "opening_rows": [
+        240,
+        241,
+        242
+      ],
+      "ids": [
+        "00:00065:text:00027616",
+        "00:00065:text:00027634",
+        "00:00065:text:00027646"
+      ],
+      "source_hashes": [
+        "a73af9b0f1a17f942e043e84af9220f164d371e726a2ff9e907cdd329884d459",
+        "5ce28936ae5c31263119729e7e6bb5c65a6d9643bb01f22577af70b0d838ed1c",
+        "d6e88e4f551a6f8d607cc2d45d4883262e48b70ac14734d9bb1be2b0ee6c656b"
+      ],
+      "context": "Will asks a rapid series of specialist questions. Adjacent economics and military questions establish the demanding tone, but do not define the disputed summoning classification.",
+      "reviewed_text": "How many summoning arts are not listed as exceptions in the elementary summoning textbook?",
+      "status": "meaning_accepted_close_literal_with_scope_uncertainty",
+      "layout_acceptance": false,
+      "acceptance_reason": "The close rendering follows the surface negative relative clause without inventing a causal explanation for omission or a numeric answer. How many conveys the request for a total. The whole classification and textbook qualification are preserved.",
+      "residual_uncertainty": "This preserves the direct surface reading, not proof of the intended mathematical set. An alternative causal parse treats the arts as omitted because outside the textbook scope. Adjacent questions do not settle that distinction. The chosen English does not add that causal interpretation."
+    },
+    {
+      "opening_rows": [
+        585,
+        586,
+        587
+      ],
+      "ids": [
+        "00:00065:text:00028fc0",
+        "00:00065:text:00028fd6",
+        "00:00065:text:00028fe8"
+      ],
+      "source_hashes": [
+        "40371146cd15c3da8c78b67fe72ffbe5d5242228010e01150bd65de4511d251f",
+        "7de00b8b5e2b2fcb7b69562bff1a4eb591042552038f57c4d0b45539d887c99c",
+        "7c51d8524285057a53eedb0917351b7534591ad677ffd29eb3270e12ec5c2250"
+      ],
+      "context": "Salome insists that the next tutor must not leave quickly like the previous tutors.",
+      "reviewed_text": "But this time, we cannot allow that to happen!",
+      "status": "meaning_accepted_existing_wording",
+      "layout_acceptance": false
+    },
+    {
+      "opening_rows": [
+        591,
+        592,
+        593
+      ],
+      "ids": [
+        "00:00065:text:00029036",
+        "00:00065:text:00029046",
+        "00:00065:text:0002905a"
+      ],
+      "source_hashes": [
+        "15989e82c31df95f59d080f70c827678717e7e8bbe89472dd3b5fbbced338567",
+        "c862b15fe2467636c3f0a6f8fb0772209985bb209f668854764972919f03d5b0",
+        "5f06d54daa471c22225c53c435040148ba0b31ab304cb25bfa6fd98e047c5ac5"
+      ],
+      "context": "Continuation of rows588-590: admission to the academy is essential for the young master, Nup or Will.",
+      "reviewed_text": "is absolutely essential for the young master's future!",
+      "status": "meaning_accepted_existing_wording",
+      "layout_acceptance": false,
+      "complete_sentence_with_preceding_display": "Gaining admission to the military academy, renowned as the imperial capital's finest in prestige and teaching staff, is absolutely essential for the young master's future!",
+      "preceding_display_rows": [
+        588,
+        589,
+        590
+      ]
+    },
+    {
+      "opening_rows": [
+        594,
+        595,
+        596
+      ],
+      "ids": [
+        "00:00065:text:0002906a",
+        "00:00065:text:0002907a",
+        "00:00065:text:0002908e"
+      ],
+      "source_hashes": [
+        "a4bf975446542d87a764db0c5d4bf457895956d7c231a9ad2d4afb9ef1b41fd6",
+        "c862b15fe2467636c3f0a6f8fb0772209985bb209f668854764972919f03d5b0",
+        "5f06d54daa471c22225c53c435040148ba0b31ab304cb25bfa6fd98e047c5ac5"
+      ],
+      "context": "Alternative continuation of rows588-590: admission to the academy is essential for the young lady, Belfrau or Alieze.",
+      "reviewed_text": "is absolutely essential for the young lady's future!",
+      "status": "meaning_accepted_existing_wording",
+      "layout_acceptance": false,
+      "complete_sentence_with_preceding_display": "Gaining admission to the military academy, renowned as the imperial capital's finest in prestige and teaching staff, is absolutely essential for the young lady's future!",
+      "preceding_display_rows": [
+        588,
+        589,
+        590
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "resource_id": "00:00065",
+  "review_type": "menu_layout_meaning_review",
+  "reviewed_target_file": "work/translation/en/stages_0.1.12/slice_961.targets.json",
+  "reviewed_target_file_sha256": "72775d7e96a2799e88768d06abd37528438bafd45f2d74f1eccc30bb633552a5",
+  "rows_examined": {
+    "ranges_inclusive": [
+      [
+        996,
+        1018
+      ]
+    ],
+    "count": 23
+  },
+  "approved_replacements": {
+    "00:00065:text:0002aca4": {
+      "opening_row": 1004,
+      "source_sha256": "5e1a3ff286c1ba263af487debc12f3e6a7928f667bbffe1c8ab35325eb5b466c",
+      "current_text": "　There's only one thing to do: act.",
+      "approved_replacement_text": "　All I can do is act!",
+      "rationale": "Conveys the source's decisive-action choice while fitting the 31-cell menu limit."
+    },
+    "00:00065:text:0002acd4": {
+      "opening_row": 1007,
+      "source_sha256": "b013b19bcb988e4635b4654632d03e6b39009a98ea4bb76e214d5fe8f00c78e2",
+      "current_text": "　There's only one thing to do: act.",
+      "approved_replacement_text": "　All I can do is act!",
+      "rationale": "Conveys the source's decisive-action choice while fitting the 31-cell menu limit."
+    }
+  },
+  "verified_unchanged_choices": {
+    "00:00065:text:0002acb6": {
+      "opening_row": 1005,
+      "source_sha256": "0feeff75707701872d13dbcaa7033f1293fb32e148bd051a5d3f2a849750ff8f",
+      "current_text": "　Let's proceed cautiously.",
+      "finding": "Retain: this is the cautious-proceed alternative to immediate action."
+    },
+    "00:00065:text:0002ace8": {
+      "opening_row": 1008,
+      "source_sha256": "60c4ff8116cc1950ae01bdf3668a07ebf04f93ab32d7d16617deac74807aaace",
+      "current_text": "　Let's see what happens.",
+      "finding": "Retain: this is the wait-and-observe alternative to immediate action."
+    }
+  },
+  "uncertainties": []
+}

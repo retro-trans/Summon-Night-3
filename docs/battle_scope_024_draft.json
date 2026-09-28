@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "build_version": "0.1.24",
+  "purpose": "Read-only scope map for battle dialogue reached during Chapters 1 through 8. It contains metadata only and no source-script transcript.",
+  "source_catalog": "work/translation/en/script_strings.index.json",
+  "change_log": [
+    "0.1.24: Identified the specific Chapter 1–8 battle-dialogue family, documented its evidence and limits, and recorded two provisional side-battle candidates separately from the primary scope."
+  ],
+  "primary_scope": {
+    "bank": "01.DAT",
+    "script_child": 1,
+    "resources": [116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135],
+    "resource_count": 20,
+    "row_count": 528,
+    "stage_id_rule": "The low 16 bits of V4 child 0's first U32 are consecutive 301 through 320 for resources 116 through 135.",
+    "chapters": [
+      {"chapter": 1, "resources": [116, 117], "stage_ids": [301, 302], "rows": 53},
+      {"chapter": 2, "resources": [118], "stage_ids": [303], "rows": 17},
+      {"chapter": 3, "resources": [119, 120, 121, 122, 123, 124, 125, 126, 127], "stage_ids": [304, 305, 306, 307, 308, 309, 310, 311, 312], "rows": 227},
+      {"chapter": 4, "resources": [128], "stage_ids": [313], "rows": 33},
+      {"chapter": 5, "resources": [129, 130], "stage_ids": [314, 315], "rows": 64},
+      {"chapter": 6, "resources": [131], "stage_ids": [316], "rows": 30},
+      {"chapter": 7, "resources": [132], "stage_ids": [317], "rows": 23},
+      {"chapter": 8, "resources": [133, 134, 135], "stage_ids": [318, 319, 320], "rows": 81}
+    ]
+  },
+  "battle_dialogue_evidence": [
+    "Every one of the 528 indexed child-1 strings is immediately followed in the VM by native 0x20c7.",
+    "The 0x20c7 handler is EBOOT address 0x26118; it appends a string display request to the battle-dialogue queue. docs/battle_renderer_024.json traces its synchronous 0x20c9 page construction and renderer path.",
+    "The twenty parent resources are V4 containers with stage data in child 0, the battle dialogue script in child 1, and map/asset children. This distinguishes them from normal story dialogue resources.",
+    "The resource sequence and battle-script contents align with the Chapter 1–8 story progression. Chapter 8 has exactly the three resource variants 133–135, consistent with the three Chapter-8 battle outcomes in the supplied guide."
+  ],
+  "chapter8_external_correlation": {
+    "url": "https://w.atwiki.jp/sn3psp/pages/16.html",
+    "guide_outcomes": ["Azlier-led Imperial force", "Vijue-led Imperial unit", "Imperial Army"],
+    "corresponding_resources": [133, 134, 135],
+    "status": "External/semantic correlation; no runtime loader capture has yet bound these individual packs to route flags."
+  },
+  "loader_limit": {
+    "tested_native": "0x1019 (4121)",
+    "handler": "EBOOT 0x312c0",
+    "finding": "This handler consumes five VM arguments and configures battle state by selector ranges. It does not look up 01.DAT archive resources.",
+    "example": "00:00088 at decoded VM offset 0x1353c passes [301, -1, -1, -1, -1] to 0x1019. This is configuration evidence only; it cannot establish a direct or offset resource-number mapping.",
+    "consequence": "The chapter partition is suitable for the translation queue based on the convergent structural and narrative evidence above, but it is not a per-route runtime-loader proof."
+  },
+  "excluded_from_first_eight": {
+    "later_or_optional_battle_scripts": {
+      "resources": [136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 157, 158, 159, 160, 161, 165, 166, 167, 168, 169, 170, 171, 172],
+      "reason": "Content checks identify later main-story, optional, or extra scenarios; for example resource 157 is the later Cunnon confrontation, not the Chapter-7 Jilcooda medicine event. Stage-ID order is contextual only and is not runtime proof of chapter order."
+    },
+    "provisional_chapter_1_8_side_candidates": {
+      "resources": [155, 156],
+      "row_counts": {"155": 3, "156": 5},
+      "reason": "Their small generic battle exchanges are fully translated in side_0155_0156.targets.json. They are retained as provisional candidates based on the supplied Chapter-7 side-battle guidance; no loader call or unique dialogue proves their chapter binding."
+    }
+  },
+  "shared_repeatable_battle_dialogue": {
+    "canonical_resource": 175,
+    "canonical_stage_id": 360,
+    "rows": 1140,
+    "duplicate_resources": [175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210],
+    "duplicate_count": 31,
+    "proof": "All listed child-1 scripts have the same 43,280-byte payload and SHA-256 5d47c5640306…; their child-0 IDs cover 360–374 and 380–395.",
+    "handling": "Translate the 1,140 physical rows once against resource 175 and mirror only after a separate replacement path verifies the identical payload family."
+  }
+}

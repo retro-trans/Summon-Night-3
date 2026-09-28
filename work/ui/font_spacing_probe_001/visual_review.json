@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "visual and restoration review of temporary RAM experiment",
+  "candidate_version": "0.1.2",
+  "production_patch": false,
+  "reviewed_images": ["before.png", "after.png", "restored.png"],
+  "checks": {
+    "all_three_png_hashes_match_saved_metadata": true,
+    "changed_page_readable": true,
+    "word_spaces_visible": true,
+    "glyph_size_unchanged": true,
+    "advance_icon_clear": true,
+    "existing_page_breaks_unchanged": true,
+    "restored_text_rectangle_pixel_identical": true,
+    "same_processed_dialogue_after_restore": true,
+    "same_glyph_coordinates_after_restore": true,
+    "complete_candidate_script_revalidated": true,
+    "cpu_left_stepping": true,
+    "breakpoints_after_restore": []
+  },
+  "restored_pixel_comparison_rectangle_xyxy_exclusive": [178, 198, 389, 255],
+  "glyphs_on_page": 35,
+  "distinct_characters_on_page": 15,
+  "complete_logical_rows_added_to_visual_coverage": 0,
+  "scope_limit": "One partial portrait page, Latin geometry only. No ISO patch, new wrapping, centered/choice layout, token behavior, style changes, or save/load acceptance."
+}

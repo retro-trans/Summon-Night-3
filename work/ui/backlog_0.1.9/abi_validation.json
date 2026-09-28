@@ -1,0 +1,17 @@
+{
+  "cases": 202,
+  "load_bases": 2,
+  "maximum_instructions": 93390,
+  "coverage": [
+    "All 93 supported Latin glyphs",
+    "16-cell strips",
+    "Spaces and punctuation",
+    "Mixed Japanese fallback",
+    "Native pixels and transparent tail",
+    "Cache invalidation",
+    "Stack and callee-saved registers",
+    "Chunk advance and volatile registers",
+    "No writes outside allocated texture strips"
+  ],
+  "patched_elf_sha256": "c1e5fec7b051dd081d83812395cd79c00f9991b005d2919c017182dbeec9c823"
+}

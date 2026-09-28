@@ -1,0 +1,89 @@
+{
+  "build_version": "0.1.24",
+  "review_kind": "independent_meaning_review",
+  "source": "work/source/original.iso, 01.DAT V4 SCRIPT child 1",
+  "draft_inputs_sha256": {
+    "work/translation/en/battle_0.1.24/slice_0000.targets.json": "1ef8854f85b3fb6cf2917cfe188f77c9b7d06b7cf1de195fae993a513ab4ab37",
+    "work/translation/en/battle_0.1.24/slice_0080.targets.json": "19d7bf4f98b7cf2d723336f6b99a50518f4d64cdb48c2d2ca9a6210e39695097"
+  },
+  "slice_ranges_inclusive": [[0, 79], [80, 159]],
+  "examined_rows": {
+    "ranges_inclusive": [[0, 164]],
+    "assigned_row_count": 160,
+    "context_rows_each_side": 5,
+    "total_row_count": 165
+  },
+  "review_policy": "Compared each draft line with its CP932 source and adjacent staged lines. Corrections preserve meaning, player markers, and existing line/page structure; they are not made merely to shorten text.",
+  "corrections": [
+    {
+      "resource": 116,
+      "resource_row": 5,
+      "source_sha256": "7e553e39e3c15b2de8deeb4ca2c982ca71b86dd2376da3b6bebce4c741b6435c",
+      "text": "\"Lessons for Battle\"...",
+      "reason": "Repairs the malformed quotation characters while retaining the displayed lesson-title phrasing."
+    },
+    {
+      "resource": 116,
+      "resource_row": 11,
+      "source_sha256": "49415dd71ba40d89dafc45dc2a38b31f369f7e5922873cdc21c27536e4ced7cc",
+      "text": "Protect ▲!",
+      "reason": "Restores the literal player marker that was replaced by a decoding-replacement character."
+    },
+    {
+      "resource": 117,
+      "resource_row": 6,
+      "source_sha256": "7e553e39e3c15b2de8deeb4ca2c982ca71b86dd2376da3b6bebce4c741b6435c",
+      "text": "\"Lessons for Battle\"...",
+      "reason": "Repairs the malformed quotation characters in the duplicated lesson title."
+    },
+    {
+      "resource": 117,
+      "resource_row": 12,
+      "source_sha256": "49415dd71ba40d89dafc45dc2a38b31f369f7e5922873cdc21c27536e4ced7cc",
+      "text": "Protect ▲!",
+      "reason": "Restores the literal player marker in the duplicated instruction."
+    },
+    {
+      "resource": 119,
+      "resource_row": 1,
+      "source_sha256": "9275217cadd9687b85c9467558a2c3db034b04a898e41d2c63715470d3031c2c",
+      "text": "Are you going to",
+      "reason": "Makes the split question grammatical while retaining its continuation in the next source line."
+    },
+    {
+      "resource": 119,
+      "resource_row": 4,
+      "source_sha256": "4d94eb482a981a6c685391b2040e30ad4ec118a0fd8de43a1b9cd8428c16b84d",
+      "text": "Are you going to",
+      "reason": "Makes the polite variant's split question grammatical while retaining its continuation."
+    },
+    {
+      "resource": 119,
+      "resource_row": 17,
+      "source_sha256": "faa9b6a0057b4c3a8125b7024f6b49afea585d76dd7a5685086ae8070220682b",
+      "text": "the long-awaited one-on-one!",
+      "reason": "Restores the source's emphasis that the one-on-one fight has been eagerly awaited."
+    },
+    {
+      "resource": 120,
+      "resource_row": 1,
+      "source_sha256": "9275217cadd9687b85c9467558a2c3db034b04a898e41d2c63715470d3031c2c",
+      "text": "Are you going to",
+      "reason": "Matches the identical source line in the parallel battle script."
+    },
+    {
+      "resource": 120,
+      "resource_row": 4,
+      "source_sha256": "4d94eb482a981a6c685391b2040e30ad4ec118a0fd8de43a1b9cd8428c16b84d",
+      "text": "Are you going to",
+      "reason": "Matches the identical polite-source context in the parallel battle script."
+    },
+    {
+      "resource": 121,
+      "resource_row": 3,
+      "source_sha256": "87e7d9b30cdacf58ea2d32230d5523dec5363020c0eb5c0264c48e153db26325",
+      "text": "All right, don't you dare die",
+      "reason": "Corrects the contracted imperative in the line that continues with 'before I get there!'"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "status": "accepted_for_setup_ui_after_independent_meaning_review",
+  "created_on": "2026-09-26",
+  "policy": "Keep established Rexx/Aty entries unchanged. Proposed realm spellings follow the game wiki, with inconsistent official localization variants recorded for research rather than silently mixed.",
+  "entries": [
+    {
+      "id": "realm.loreilal",
+      "category": "realm",
+      "source_name": "ロレイラル",
+      "target_name": "Loreilal",
+      "world_title": "Machine World",
+      "aliases": [
+        "Loirelal",
+        "Lorilal"
+      ],
+      "status": "wiki_verified",
+      "evidence": [
+        {
+          "url": "https://summonnight.fandom.com/wiki/Loreilal",
+          "supports": [
+            "name",
+            "world_title"
+          ],
+          "checked_on": "2026-09-26"
+        },
+        {
+          "url": "https://www.gaijinworks.com/OnlineManuals/SN5/SummonNight5_USA.pdf",
+          "supports": [
+            "official_world_title",
+            "official_localization_variant"
+          ],
+          "checked_on": "2026-09-26",
+          "notes": "Official SN5 manual prints Loirelal, Silturan, Sapureth, Maetropa. This source does not establish identical English naming across every series release."
+        }
+      ],
+      "prior_proposal_status": "wiki_verified_proposal"
+    },
+    {
+      "id": "realm.silturn",
+      "category": "realm",
+      "source_name": "シルターン",
+      "target_name": "Silturn",
+      "world_title": "Yokai World",
+      "aliases": [
+        "Silturan"
+      ],
+      "status": "wiki_verified",
+      "evidence": [
+        {
+          "url": "https://summonnight.fandom.com/wiki/Silturn",
+          "supports": [
+            "name",
+            "world_title"
+          ],
+          "checked_on": "2026-09-26"
+        },
+        {
+          "url": "https://www.gaijinworks.com/OnlineManuals/SN5/SummonNight5_USA.pdf",
+          "supports": [
+            "official_world_title",
+            "official_localization_variant"
+          ],
+          "checked_on": "2026-09-26",
+          "notes": "Official SN5 manual prints Loirelal, Silturan, Sapureth, Maetropa. This source does not establish identical English naming across every series release."
+        }
+      ],
+      "prior_proposal_status": "wiki_verified_proposal"
+    },
+    {
+      "id": "realm.sapureth",
+      "category": "realm",
+      "source_name": "サプレス",
+      "target_name": "Sapureth",
+      "world_title": "Spirit World",
+      "aliases": [],
+      "status": "wiki_verified",
+      "evidence": [
+        {
+          "url": "https://summonnight.fandom.com/wiki/Piar",
+          "supports": [
+            "name"
+          ],
+          "checked_on": "2026-09-26"
+        },
+        {
+          "url": "https://www.gaijinworks.com/OnlineManuals/SN5/SummonNight5_USA.pdf",
+          "supports": [
+            "official_world_title",
+            "official_localization_variant"
+          ],
+          "checked_on": "2026-09-26",
+          "notes": "Official SN5 manual prints Loirelal, Silturan, Sapureth, Maetropa. This source does not establish identical English naming across every series release."
+        }
+      ],
+      "prior_proposal_status": "wiki_verified_proposal"
+    },
+    {
+      "id": "realm.maetropa",
+      "category": "realm",
+      "source_name": "メイトルパ",
+      "target_name": "Maetropa",
+      "world_title": "Beast World",
+      "aliases": [],
+      "status": "wiki_verified",
+      "evidence": [
+        {
+          "url": "https://summonnight.fandom.com/wiki/Maetropa",
+          "supports": [
+            "name",
+            "world_title"
+          ],
+          "checked_on": "2026-09-26"
+        },
+        {
+          "url": "https://www.gaijinworks.com/OnlineManuals/SN5/SummonNight5_USA.pdf",
+          "supports": [
+            "official_world_title",
+            "official_localization_variant"
+          ],
+          "checked_on": "2026-09-26",
+          "notes": "Official SN5 manual prints Loirelal, Silturan, Sapureth, Maetropa. This source does not establish identical English naming across every series release."
+        }
+      ],
+      "prior_proposal_status": "wiki_verified_proposal"
+    },
+    {
+      "id": "affinity.machine",
+      "category": "summon_affinity",
+      "source_name": "機",
+      "target_name": "Machine",
+      "status": "wiki_verified",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Air_Colthearts",
+          "supports": [
+            "affinity_spelling"
+          ],
+          "checked_on": "2026-09-26"
+        }
+      ],
+      "prior_proposal_status": "wiki_verified_proposal"
+    },
+    {
+      "id": "affinity.yokai",
+      "category": "summon_affinity",
+      "source_name": "鬼",
+      "target_name": "Yokai",
+      "status": "wiki_verified",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Air_Colthearts",
+          "supports": [
+            "affinity_spelling"
+          ],
+          "checked_on": "2026-09-26"
+        }
+      ],
+      "notes": "Fandom sometimes spells Youkai and older localizations use Oni. Newer Wiki.gg affinity spelling is Yokai. Do not use Demon, which blurs this category with demons of Sapureth.",
+      "prior_proposal_status": "wiki_verified_proposal"
+    },
+    {
+      "id": "affinity.spirit",
+      "category": "summon_affinity",
+      "source_name": "霊",
+      "target_name": "Spirit",
+      "status": "wiki_verified",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Air_Colthearts",
+          "supports": [
+            "affinity_spelling"
+          ],
+          "checked_on": "2026-09-26"
+        }
+      ],
+      "prior_proposal_status": "wiki_verified_proposal"
+    },
+    {
+      "id": "affinity.beast",
+      "category": "summon_affinity",
+      "source_name": "獣",
+      "target_name": "Beast",
+      "status": "wiki_verified",
+      "evidence": [
+        {
+          "url": "https://summonnight.wiki.gg/wiki/Air_Colthearts",
+          "supports": [
+            "affinity_spelling"
+          ],
+          "checked_on": "2026-09-26"
+        }
+      ],
+      "prior_proposal_status": "wiki_verified_proposal"
+    },
+    {
+      "id": "mechanic.possession",
+      "category": "battle_mechanic",
+      "source_name": "憑依",
+      "target_name": "Possession",
+      "status": "project_translation_meaning_reviewed",
+      "notes": "Literal mechanic label; timed beneficial or harmful summon effects. No official English SN3 localization established. Preserve distinction from status ailments.",
+      "evidence": [
+        {
+          "url": "https://w.atwiki.jp/sn3psp/pages/112.html",
+          "supports": [
+            "mechanic_definition"
+          ],
+          "checked_on": "2026-09-26"
+        }
+      ],
+      "prior_proposal_status": "translation_proposal_requires_review"
+    }
+  ],
+  "source_proposal": {
+    "path": "work/glossary/setup_ui.proposed.json",
+    "sha256": "47a0fdee8f084e5f3ca56dd09fdca6a2858461f049410560ed65abd0eb868958"
+  },
+  "do_not_touch": [
+    "Loreilal",
+    "Silturn",
+    "Sapureth",
+    "Maetropa",
+    "Machine",
+    "Yokai",
+    "Spirit",
+    "Beast",
+    "Possession"
+  ]
+}

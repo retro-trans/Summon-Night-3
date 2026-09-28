@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "entries": [
+    {
+      "id": "organization.empire",
+      "category": "polity",
+      "source_name": "帝国",
+      "target_name": "Empire",
+      "aliases": ["the Empire"],
+      "status": "wiki_verified",
+      "notes": "The wiki calls Rexx's homeland and army the Empire. Do not invent a longer state name or insert one where the dialogue uses only this term. Imperial capital and military academy remain descriptive unless a source names them.",
+      "evidence": [{"url": "https://summonnight.fandom.com/wiki/Rexx", "supports": ["name", "protagonist_homeland"], "checked_on": "2026-09-26"}]
+    },
+    {
+      "id": "character.rexx",
+      "category": "character",
+      "source_name": "レックス",
+      "target_name": "Rexx",
+      "aliases": ["Teacher"],
+      "gender": "male",
+      "personality": "Compassionate, hopeful, and overly trusting.",
+      "role": "Selectable protagonist; former soldier who becomes a private tutor.",
+      "status": "wiki_verified",
+      "evidence": [{"url": "https://summonnight.fandom.com/wiki/Rexx", "supports": ["name", "alias", "gender", "personality", "role"], "checked_on": "2026-09-26"}]
+    },
+    {
+      "id": "character.aty",
+      "category": "character",
+      "source_name": "アティ",
+      "target_name": "Aty",
+      "aliases": ["Teacher"],
+      "gender": "female",
+      "personality": "Compassionate, hopeful, and overly trusting.",
+      "role": "Selectable protagonist; former soldier who becomes a private tutor.",
+      "status": "wiki_verified",
+      "evidence": [{"url": "https://summonnight.fandom.com/wiki/Aty", "supports": ["name", "alias", "gender", "personality", "role"], "checked_on": "2026-09-26"}]
+    },
+    {
+      "id": "class.family_teacher",
+      "category": "class_title",
+      "source_name": "家庭教師",
+      "target_name": "Family Teacher",
+      "status": "wiki_verified",
+      "notes": "Uses the wiki class-title label. Ordinary dialogue may describe the occupation as a private tutor when context calls for that wording.",
+      "evidence": [{"url": "https://summonnight.fandom.com/wiki/Rexx", "supports": ["class_title"], "checked_on": "2026-09-26"}, {"url": "https://summonnight.fandom.com/wiki/Aty", "supports": ["class_title"], "checked_on": "2026-09-26"}]
+    }
+  ]
+}
