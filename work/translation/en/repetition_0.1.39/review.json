@@ -1,0 +1,34 @@
+{
+  "version": "0.1.39",
+  "resource_id": "00:00065",
+  "group_id": "stages_1119_1120_1121",
+  "reference_group_id": "stages_1116_1117_1118",
+  "prior_decoded_sha256": "edce3ae14584541fc412d62d33d2c544ac657639ebe093dc8b28c48855ea3ab2",
+  "previous_text": "Come on, while we can, let's hurry to the boat Let's hurry to the boat.",
+  "target": "Come on, while we can, let's hurry to the boat.",
+  "source_rows": [
+    {
+      "row": 1119,
+      "id": "00:00065:text:0002b41e",
+      "sha256": "02be8c374f4f927e67597ba11481e427ef54d0a2b0adeb43a497a73ee51f76ac"
+    },
+    {
+      "row": 1120,
+      "id": "00:00065:text:0002b430",
+      "sha256": "96cd1fd6abfe38df6836c913956b602f77ca12c2ca5771d26e88f451818b2c67"
+    },
+    {
+      "row": 1121,
+      "id": "00:00065:text:0002b444",
+      "sha256": "b6d681305e1d182a24c0e5335fe20f06e7c63b7aac53caceecd11caf7a70e08a"
+    }
+  ],
+  "meaning_review": "Read the three source fragments together and the adjacent protagonist variant. The source contains one request to hurry to the boat while the opportunity remains. The duplicate English phrase crosses the 1041/1121 translation-batch boundary and has no second occurrence in the source.",
+  "audit": {
+    "resource": "00:00065",
+    "method": "Case-insensitive repeated four-word sequences within each translated display group.",
+    "unintended_candidates": [
+      "stages_1119_1120_1121"
+    ]
+  }
+}

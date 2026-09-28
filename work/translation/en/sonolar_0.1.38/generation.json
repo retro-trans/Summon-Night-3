@@ -1,0 +1,8 @@
+{
+  "tool": "image_gen",
+  "mode": "built-in",
+  "prompt": "Localize this transparent PSP dialogue name sprite. Replace the Japanese lettering with the exact English name 'Sonolar'. Preserve the original visual style: moderately bold italic rounded sans-serif letters, warm ivory-pink interiors, dark burgundy-purple outline, small darker purple edge shadow. Only the isolated word, no nameplate panel, no ornaments, no extra text. True transparent alpha background, tight clean glyph edges with NO diffuse glow, no background color. Center a single-line 'Sonolar' on a transparent wide 4.5:1 canvas with comfortable margins, high resolution for native 144x32 downsampling. Exact capitalization and spelling Sonolar.",
+  "asset": "work/ui/sonolar_0.1.38/sonolar_generated.png",
+  "reference": "work/ui/sonolar_0.1.38/sonolar_source.png",
+  "import": "Preserve generated alpha; crop ink bounds, aspect-preserving downsample to native geometry and unchanged native palette; derive shadow layer from matching alpha."
+}

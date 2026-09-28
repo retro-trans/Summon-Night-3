@@ -1,5 +1,60 @@
 # Changelog
 
+## 0.1.41 — Learn Skills localization and VWF (test build), 2026-09-28
+
+- Publish the cumulative 0.1.37–0.1.41 changes with a full Japanese-source patch
+  and an upgrade from public 0.1.36, in the Retro Trans release format.
+  See `docs/RELEASE_0.1.41.md` for release scope and remaining test limits.
+
+- Translate Learn Skills, Common/Unique tabs, footer controls and 31 common or
+  reported skill-name entries. Enable scoped VWF for skill cards and footer text.
+- Shorten Pact titles to fit the card renderer. Wrap crafting descriptions at
+  affinity boundaries so the closing bracket stays with its text.
+- Pass 15 native name cases, 31 description cases, 108 relocated VWF checks,
+  ISO integrity checks and a fresh boot. Exact unlocked-screen verification is
+  pending because the screenshot was submitted by another user without a save.
+- See `docs/SKILLS_0.1.41.md` for scope, assets and verification limits.
+
+## 0.1.40 — Accessories and Deployment prompts (test build), 2026-09-28
+
+- Translate the 25 remaining accessory names, including all Japanese entries
+  shown in Dritol's Combine list, and shared equipment-effect wording.
+- Fix missed branch references for Learn Skills and Key Item.
+- Prevent long ailment groups from overrunning their native scratch buffer;
+  preserve item stats, recipes and native stat-symbol spacing.
+- Pass 240 native formatter cases and archive checks. Fresh boot, copied-save
+  load and early Deployment layout verified. Exact unlocked UI and long-effect
+  visual layout remain pending. See `docs/ACCESSORIES_0.1.40.md`.
+
+## 0.1.39 — Repeated boat dialogue (test build), 2026-09-28
+
+- Removed the unintended repeated request to hurry to the boat in Aty's
+  Chapter 1 dialogue. Two adjacent translation batches had translated the
+  same phrase; the Japanese contains it only once.
+- Reused the correct two-line wording, preserving this branch's speaker and
+  continuation. Verified all other 619 dialogue groups in the script unchanged.
+- Kept prior nameplate and Night Talk fixes. See `docs/REPETITION_0.1.39.md`.
+
+## 0.1.38 — Sonolar nameplates (test build), 2026-09-28
+
+- Translated Sonolar's ordinary dialogue and battle nameplates, including both
+  text and shadow layers. The selected SN6 character reference supplies the spelling.
+- Preserved portraits, expressions, native palettes, and the 0.1.37 Night Talk fixes.
+- Verified the imported sprites at native size and checked archive repacking,
+  compression round trips and untouched resources. See `docs/SONOLAR_0.1.38.md`.
+
+## 0.1.37 — Night Talk layout and names (test build), 2026-09-28
+
+- Identify Night Talk by native display modes 4/5 and reflow 1,348 translated
+  dialogue groups in 76 scene resources to two lines per page.
+- Use the wider Night Talk text area while retaining the 31 expanded-cell
+  limit, control tokens, speaker arguments, and original scene continuation.
+- Translate all 19 blue Night Talk nameplates, using the selected character
+  reference (including Belfraw). Portraits and unrelated dialogue are preserved.
+- Static script, archive, and native-image checks passed. Normal Night Talk
+  playthrough verification is pending a suitable save; this is a local test
+  build, not a published release. See `docs/NIGHT_TALK_0.1.37.md`.
+
 ## 0.1.36 — Gallery tutorial list, 2026-09-28
 
 - Translated all 22 tutorial title records as Review Basics with proportional spacing.
