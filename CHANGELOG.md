@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.36 — Gallery tutorial list, 2026-09-28
+
+- Translated all 22 tutorial title records as Review Basics with proportional spacing.
+- Shortened Weapons & Range to prevent Comment/Page column overlap.
+- Translated Illustrations/Sound headings and the View, Sound Mode, Exit,
+  Play and Artwork mode controls in native graphics.
+- Preserved locked entries and unrelated assets. See `docs/GALLERY_0.1.36.md`
+  for verification and the remaining Gallery translation scope.
+
 ## 0.1.35 — Menu descriptions and generic enemy names, 2026-09-28
 
 - Updated release metadata to the Retro Trans v1 contract without changing the

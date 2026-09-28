@@ -1,0 +1,18 @@
+{
+  "tool": "Built-in image_gen",
+  "assets": [
+    {
+      "file": "frame_generated.png",
+      "prompt": "Preserve the native brown parchment frame; localize its bottom legend to circle View, L/R Sound Mode, cross Exit. Match cream lettering and retain layout."
+    },
+    {
+      "file": "headings_generated.png",
+      "prompt": "Transparent two-row proportional fantasy game heading sprites: Illustrations and Sound, cream letters with brown outline; readable at 80x24."
+    },
+    {
+      "file": "modes_generated.png",
+      "prompt": "Transparent two-row tiny proportional UI labels: Play and Artwork, bold ivory sans-serif with thin brown outline; readable at 32x16 and 64x16."
+    }
+  ],
+  "conversion": "Crop and resize generated lettering; palette-encode native sprites. Preserve pixels outside the footer box and unrelated sprites."
+}
