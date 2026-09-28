@@ -32,7 +32,8 @@ select your original ISO, the downloaded patch and a new output filename.
 For **Automatic** mode, refresh the patch catalog, select your clean Japanese
 ISO (or verified English v0.1.36) and choose **Latest** or **0.1.41**.
 Both release patches are built and round-trip verified with Retro Trans.
-See the [release report](docs/RELEASE_0.1.41.md).
+See the [release report](docs/RELEASE_0.1.41.md) and
+[public Automatic verification](docs/RETRO_TRANS_0.1.41.md).
 
 **Alternative:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
 accepts the same `.xdelta` file. Keep checksum verification enabled.

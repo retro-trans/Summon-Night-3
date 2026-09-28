@@ -5,6 +5,8 @@
 - Publish the cumulative 0.1.37–0.1.41 changes with a full Japanese-source patch
   and an upgrade from public 0.1.36, in the Retro Trans release format.
   See `docs/RELEASE_0.1.41.md` for release scope and remaining test limits.
+- Verify public Retro Trans 0.3.1 catalog discovery, Latest routing, real asset
+  download and Automatic upgrade output hash. See `docs/RETRO_TRANS_0.1.41.md`.
 
 - Translate Learn Skills, Common/Unique tabs, footer controls and 31 common or
   reported skill-name entries. Enable scoped VWF for skill cards and footer text.
