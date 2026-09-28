@@ -28,9 +28,10 @@ Use your own clean Japanese ISO with the source hash listed below.
 **Desktop patcher:** [Retro Trans](https://github.com/retro-trans/retro-trans-tools)
 **0.3.1** has been tested with this patch. In manual **Apply xdelta** mode,
 select your original ISO, the downloaded patch and a new output filename.
-Both manual patching and the Automatic patching code produced the verified
-output. Live Automatic discovery is not enabled while this repository is private
-and v0.1.35 is a prerelease. See the [compatibility report](docs/RETRO_TRANS_0.1.35.md).
+For **Automatic** mode, refresh the patch catalog, select your clean Japanese
+ISO and choose **Latest** or **0.1.35**. Public catalog discovery, patch download
+and the complete output hash have been verified. Manual patching also passed.
+See the [compatibility report](docs/RETRO_TRANS_0.1.35.md).
 
 **Alternative:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
 accepts the same `.xdelta` file. Keep checksum verification enabled.

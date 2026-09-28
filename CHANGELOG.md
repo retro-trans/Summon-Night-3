@@ -6,8 +6,9 @@
   published patch or game bytes. Tested Retro Trans 0.3.1 manual patching,
   catalog import, recognition, version routing and Automatic patching with
   locally staged assets; both outputs match the complete target SHA-256.
-  Live catalog discovery still requires a public repository and an eligible
-  release. See `docs/RETRO_TRANS_0.1.35.md`.
+  Made the repository public with maintainer approval and enabled catalog
+  discovery. Verified public catalog refresh, real patch download and full
+  Automatic output hash. See `docs/RETRO_TRANS_0.1.35.md`.
 
 - Prepared the initial GitHub source snapshot and full Japanese-to-English
   xdelta release, with SRW-Z-style instructions, checksums and build metadata.

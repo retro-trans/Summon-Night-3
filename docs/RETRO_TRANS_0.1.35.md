@@ -20,10 +20,12 @@ used unchanged. The game source tag remains
 - Recognition identified the output as 0.1.35 with no further Latest upgrade.
 - An existing output was rejected; the original ISO and delta were unchanged.
 
-The catalog test supplied locally staged assets through a transport adapter.
-It tests the real importer, planner, engine and verification code, but does
-not establish public catalog discovery or download access. No visible GUI,
-CHD conversion or additional gameplay testing was performed in this check.
+The initial catalog test supplied locally staged assets through a transport
+adapter. A subsequent live test used the real GitHub client and a fresh cache:
+public catalog refresh, source recognition, release asset download, Automatic
+patching and target recognition all passed with the same complete target hash.
+See `retro_trans_live_035.json` for that result. No visible GUI, CHD conversion
+or additional gameplay testing was performed in these checks.
 
 ## Release contract
 
@@ -33,9 +35,11 @@ preserved as `BUILD-DETAILS-v0.1.35.json` so it cannot be mistaken for a second
 protocol manifest. Original build inputs and the published patch are unchanged.
 
 The [Retro Trans release standard](https://github.com/retro-trans/retro-trans-tools/blob/main/docs/RELEASE_STANDARD.md)
-requires a public game repository and a non-prerelease for discovery. At test
-time this repository was private and v0.1.35 was a prerelease. Automatic
-catalog availability has not been claimed. Manual Apply xdelta is verified.
+requires a public game repository and a non-prerelease for discovery. With
+maintainer approval, the repository is now public and v0.1.35 is catalog-eligible.
+The [scoped catalog refresh](https://github.com/retro-trans/retro-trans-tools/actions/runs/36370778355)
+succeeded. Both Automatic and manual Apply xdelta are verified. This publishing
+status does not imply the translation is complete or fully playtested.
 
 ## Reproducing the local test
 
@@ -45,3 +49,6 @@ writes machine-readable evidence. It requires the local original ISO, the
 historical release assets and a Retro Trans checkout; `--patcher` selects the
 checkout. Keep the checkout at the tested commit to reproduce these results.
 The script refuses to replace existing test outputs.
+
+`tools/verify_retro_trans_live_035.py` reproduces the public catalog/download
+check using a fresh output directory and the same Retro Trans checkout.
