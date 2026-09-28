@@ -2,6 +2,13 @@
 
 ## 0.1.35 — Menu descriptions and generic enemy names, 2026-09-28
 
+- Updated release metadata to the Retro Trans v1 contract without changing the
+  published patch or game bytes. Tested Retro Trans 0.3.1 manual patching,
+  catalog import, recognition, version routing and Automatic patching with
+  locally staged assets; both outputs match the complete target SHA-256.
+  Live catalog discovery still requires a public repository and an eligible
+  release. See `docs/RETRO_TRANS_0.1.35.md`.
+
 - Prepared the initial GitHub source snapshot and full Japanese-to-English
   xdelta release, with SRW-Z-style instructions, checksums and build metadata.
   Reworked the README around installation, contribution and coverage limits.
