@@ -12,7 +12,7 @@ screenshot. State whether you loaded an in-game save or an emulator save state.
 
 ## Play it
 
-The latest test release is **[v0.1.35](https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.35)**.
+The latest test release is **[v0.1.36](https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.36)**.
 It includes identified story and battle-dialogue resources through Chapter 8,
 along with ongoing menu, item, summon, enemy-name and variable-width font work.
 **It is not a complete translation or a fully playtested eight-chapter build.**
@@ -23,15 +23,16 @@ Use your own clean Japanese ISO with the source hash listed below.
 
 | Your source image | Patch |
 |---|---|
-| Japanese PSP release, NPJH50380 | `SN3-English-v0.1.35.xdelta` |
+| Japanese PSP release, NPJH50380 | `SN3-English-v0.1.36.xdelta` |
+| English v0.1.35 | `SN3-English-v0.1.35-to-v0.1.36.xdelta` |
 
 **Desktop patcher:** [Retro Trans](https://github.com/retro-trans/retro-trans-tools)
 **0.3.1** has been tested with this patch. In manual **Apply xdelta** mode,
 select your original ISO, the downloaded patch and a new output filename.
 For **Automatic** mode, refresh the patch catalog, select your clean Japanese
-ISO and choose **Latest** or **0.1.35**. Public catalog discovery, patch download
-and the complete output hash have been verified. Manual patching also passed.
-See the [compatibility report](docs/RETRO_TRANS_0.1.35.md).
+ISO (or verified English v0.1.35) and choose **Latest** or **0.1.36**.
+Both release patches are built and round-trip verified with Retro Trans.
+See the [Gallery update report](docs/GALLERY_0.1.36.md).
 
 **Alternative:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
 accepts the same `.xdelta` file. Keep checksum verification enabled.
@@ -39,22 +40,23 @@ accepts the same `.xdelta` file. Keep checksum verification enabled.
 **Command line:** use [xdelta3](https://github.com/jmacd/xdelta):
 
 ```sh
-xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.35.xdelta" "Summon Night 3 English v0.1.35.iso"
+xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.36.xdelta" "Summon Night 3 English v0.1.36.iso"
 ```
 
 | Image | SHA-256 |
 |---|---|
 | Clean Japanese source — 1,658,159,104 bytes | `00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda` |
-| English v0.1.35 output | `01ae84776c9ad3d5e57bdb6f35291f79b0377f9c1322636703cd6b8544c062db` |
+| English v0.1.36 output | `9bfe8d6411492e86f58847bd58a9bd8f1581c30f83759b984c899dd1c1ff6edf` |
 
 Use an unpacked ISO; this patch does not apply directly to ZIP, CSO or CHD files.
 A checksum mismatch means the source is different. Check its hash instead of
-disabling verification. This is a full patch from Japanese, not an upgrade patch
-for an older English build.
+disabling verification. Choose the full patch for Japanese or the separate
+upgrade patch for the exact v0.1.35 English image.
 
 Start the new ISO fresh and load an **in-game save**. Emulator save states keep
 the old executable and resources. The first-battle Suspend save from v0.1.34
-was tested with v0.1.35; broad save compatibility is not yet established.
+was tested with v0.1.35; v0.1.36 Gallery checks used copied in-game system data.
+Broad save compatibility is not yet established.
 
 ## Check the translation
 
@@ -62,7 +64,7 @@ English targets and source identities are in [work/translation/en](work/translat
 Records use resource IDs, offsets and source hashes so the Japanese can be read
 from your own game image without publishing a full Japanese script dump.
 
-The latest [coverage and test report](docs/MENU_ENEMIES_0.1.35.md) distinguishes
+The latest [coverage and test report](docs/GALLERY_0.1.36.md) distinguishes
 in-game checks from static checks. Broader scope is documented in
 [Chapters 1–3](docs/BUILD_0.1.12.md), [Chapters 4–8](docs/CHAPTERS_0.1.14.md),
 and [battle dialogue](docs/BATTLE_DIALOGUE_0.1.24.md).
@@ -127,10 +129,11 @@ distributed here.
 
 ## Status
 
-**v0.1.35 is a test release.** It adds 24 menu-help groups and 39 generic enemy
-labels, while retaining earlier story, battle, artwork and VWF changes.
-The latest runtime checks cover the first battle's Summon Index description
-and Pirate name in the compact card and full status screen.
+**v0.1.36 is a test release.** It translates 22 Gallery tutorial title records,
+fixes the Weapons & Range comment width, and localizes the Illustrations/Sound
+headings and controls. The list, scrolling and mode switching were checked
+after a fresh emulator launch. Gallery tutorial-page artwork, music titles
+and the parent Gallery menu remain outside this update's translation scope.
 
 Other routes, later chapters, some classes, equipment text, named creatures
 and graphical labels still need translation or playtesting. Original PSP
