@@ -1,0 +1,51 @@
+{
+  "version": "0.1.42",
+  "table": 45,
+  "entries": [
+    {
+      "record": 0,
+      "title": "Use up to 3 healing items.",
+      "lines": [
+        "Use up to 3 healing items.",
+        "Except food/support uses."
+      ],
+      "meaning": "Use no more than three recovery items in battle; exclude cooking items and uses by support units."
+    },
+    {
+      "record": 1,
+      "title": "Land the first hit.",
+      "lines": [
+        "An ally must land",
+        "the first hit of battle."
+      ],
+      "meaning": "An allied unit must land the first attack across both sides."
+    },
+    {
+      "record": 2,
+      "title": "Summon Assist: defeat foe.",
+      "lines": [
+        "Defeat at least one foe",
+        "with Summon Assist."
+      ],
+      "meaning": "Defeat at least one enemy with Summon Assist."
+    },
+    {
+      "record": 3,
+      "title": "No KOs below your level.",
+      "lines": [
+        "No KOs below your level.",
+        "Excl. SPOT/Assist levels."
+      ],
+      "meaning": "Do not defeat enemies below the attacker level; equal level allowed. SPOT and Assist participants do not count for the level comparison."
+    },
+    {
+      "record": 4,
+      "title": "No allies knocked out.",
+      "lines": [
+        "No KOs; auto-Awaken counts.",
+        "KO saves/manual exempt."
+      ],
+      "meaning": "No allied incapacitations. Automatic Blade Awakening counts. Voluntary Blade Awakening and incapacitation avoided through Utsusemi or support do not count. KO saves means incapacitation prevention; manual means voluntary Blade Awakening."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "version": "0.1.49",
+  "iso_sha256": "18fa469319174bce9635a84e8a5d3e1bd910548e6cd037ff43b7e77e391da935",
+  "created_at_utc": "2026-09-29T05:15:59.310429+00:00",
+  "passed": true,
+  "elapsed_seconds": 59.41,
+  "checks": [
+    {
+      "name": "ISO identity",
+      "passed": true,
+      "details": {
+        "iso_sha256": "18fa469319174bce9635a84e8a5d3e1bd910548e6cd037ff43b7e77e391da935"
+      }
+    },
+    {
+      "name": "Archive and cached-table consistency",
+      "passed": true,
+      "details": {
+        "bank_indexes": 23,
+        "cache_copies_equal": true,
+        "executable_matches_iso": true
+      }
+    },
+    {
+      "name": "All referenced unit-name/class encodings",
+      "passed": true,
+      "details": {
+        "records": 784,
+        "unique_labels": 753,
+        "references": 2312,
+        "all_referenced_labels_two_byte": true
+      }
+    },
+    {
+      "name": "Brave Goal termination and native staging",
+      "passed": true,
+      "details": {
+        "cases": 10,
+        "glyph_capacity": 54
+      }
+    },
+    {
+      "name": "All equipment formatter and staging variants",
+      "passed": true,
+      "details": {
+        "cases": 1434,
+        "max_cells": 54,
+        "max_glyph_slot": 53,
+        "failures": []
+      }
+    },
+    {
+      "name": "All populated spell help formatter and staging variants",
+      "passed": true,
+      "details": {
+        "cases": 235,
+        "max_cells": 54,
+        "failures": []
+      }
+    },
+    {
+      "name": "Skill labels and dynamic Pact help",
+      "passed": true,
+      "details": {
+        "pact_names": 15,
+        "pact_help": 31,
+        "vwf_call_sites": 5
+      }
+    },
+    {
+      "name": "Cooking text, native staging, positioning and System menu",
+      "passed": true,
+      "details": {
+        "text_entries": 137,
+        "native_staging_cases": 29,
+        "position_cases": 3044,
+        "load_bases": 2,
+        "system_menu_regression": true
+      }
+    },
+    {
+      "name": "Shared renderer guards and relocation",
+      "passed": true,
+      "details": {
+        "relocated_help_cases": 24,
+        "glyph_cases": 131072,
+        "load_bases": 2,
+        "native_staging": [
+          {
+            "lengths": [
+              27,
+              27
+            ],
+            "rejected": false,
+            "glyphs": 54,
+            "rows": 2,
+            "max_slot": 53
+          },
+          {
+            "lengths": [
+              18,
+              18,
+              18
+            ],
+            "rejected": false,
+            "glyphs": 54,
+            "rows": 3,
+            "max_slot": 53
+          },
+          {
+            "lengths": [
+              28
+            ],
+            "rejected": true,
+            "glyphs": 10,
+            "rows": 1,
+            "max_slot": 9
+          },
+          {
+            "lengths": [
+              27,
+              27,
+              1
+            ],
+            "rejected": true,
+            "glyphs": 10,
+            "rows": 1,
+            "max_slot": 9
+          },
+          {
+            "lengths": [
+              1
+            ],
+            "rejected": false,
+            "glyphs": 1,
+            "rows": 1,
+            "max_slot": 0
+          },
+          {
+            "lengths": [],
+            "rejected": false,
+            "glyphs": 0,
+            "rows": 1,
+            "max_slot": -1
+          }
+        ],
+        "diagnostic_address": "0x351c90",
+        "limitations": "Guards cover two text paths, not all pointers or allocations."
+      }
+    }
+  ],
+  "limits": [
+    "Known rendering paths only; other menus and story paths remain outside this audit.",
+    "Native formatter/staging execution uses boundary stubs for graphics calls.",
+    "A pass does not replace fresh-boot PPSSPP tests or a playthrough."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "version": "0.1.49",
+  "created_at_utc": "2026-09-29T05:28:00.201001+00:00",
+  "iso_sha256": "18fa469319174bce9635a84e8a5d3e1bd910548e6cd037ff43b7e77e391da935",
+  "fresh_boot": true,
+  "normal_save": true,
+  "emulator": "PPSSPP 1.20.4",
+  "cpu": "JIT",
+  "graphics": "software",
+  "ignore_bad_memory_access": false,
+  "live_hooks_match": true,
+  "cases": {
+    "continue_late_battle": {
+      "status": "passed",
+      "scope": "Fresh boot, Continue, normal Chapter 15 battle save"
+    },
+    "brave_goals": {
+      "status": "passed",
+      "scope": "Open Battle Info and Brave Goals"
+    },
+    "equipment": {
+      "status": "passed",
+      "scope": "Inventory browse and Black Rose Knife description"
+    },
+    "summon_index": {
+      "status": "passed",
+      "scope": "Dritol list and Drill Blow description"
+    },
+    "puppet_shop": {
+      "status": "pending",
+      "reason": "No fresh-boot replay of this path on v0.1.49 yet"
+    },
+    "room_skills": {
+      "status": "pending",
+      "reason": "No fresh-boot replay of this path on v0.1.49 yet"
+    },
+    "cooking": {
+      "status": "pending",
+      "reason": "No fresh-boot replay of this path on v0.1.49 yet"
+    },
+    "save_reload": {
+      "status": "pending",
+      "reason": "No fresh-boot replay of this path on v0.1.49 yet"
+    },
+    "early_chapter": {
+      "status": "pending",
+      "reason": "No fresh-boot replay of this path on v0.1.49 yet"
+    },
+    "night_talk": {
+      "status": "pending",
+      "reason": "No fresh-boot replay of this path on v0.1.49 yet"
+    }
+  },
+  "guard_counters_before_fault_injection": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "guard_counters_after_fault_injection": [
+    1,
+    1,
+    3,
+    25938
+  ],
+  "negative_tests": [
+    {
+      "input": "28 two-byte cells in one shared help row",
+      "result": "Rejected; counter incremented once; game continued"
+    },
+    {
+      "input": "ASCII Re (0x6552) as a two-byte font cell",
+      "result": "Invalid glyph counter incremented once; game continued"
+    }
+  ],
+  "memory_faults_in_log": false,
+  "evidence": [
+    {
+      "path": "work/ui/stability_0.1.49/battle_ready.png",
+      "sha256": "4cc406b0097a31092560a9614bf8cde6ed599a602569fc11448beafab7e8ff9c"
+    },
+    {
+      "path": "work/ui/stability_0.1.49/battle_menu.png",
+      "sha256": "18ca655f09043885b78cc59c7458d2ebb4f57f3cf11211055c60b1a734c05097"
+    },
+    {
+      "path": "work/ui/stability_0.1.49/brave.png",
+      "sha256": "3295f8533a9eb23ac428b0c8ad1caded0a0b4766f1d5645d613f0ceefb799fd0"
+    },
+    {
+      "path": "work/ui/stability_0.1.49/inventory.png",
+      "sha256": "76a828ffff10e249d7d9254a97f7624967e477fb4b8399a9682b539aa797dde7"
+    },
+    {
+      "path": "work/ui/stability_0.1.49/black_rose.png",
+      "sha256": "23f19da78cdc394ad8b446d757f4c1a609be411b40c9b6a2d81df1ddb3a0064c"
+    },
+    {
+      "path": "work/ui/stability_0.1.49/dritol.png",
+      "sha256": "1f5af9cfae7a0b688e11d6b4c03514582564598b706e167d0f7fe124d4d5fb3b"
+    },
+    {
+      "path": "work/ui/stability_0.1.49/spell.png",
+      "sha256": "fa6d4838c11965d110acc066d355e0dfb1a8e26387bcf0a64d397551e0c14fad"
+    },
+    {
+      "path": "work/ui/stability_0.1.49/injected_help.png",
+      "sha256": "65b81d8cc538db19ec53dc39453a328e6f196c48f8f38135146af349db9939d9"
+    },
+    {
+      "path": "work/ui/stability_0.1.49/injected_glyph.png",
+      "sha256": "ffbe61a6dc068e3f560c1a18eead1d924952619a0cd7b5d07ddfe4e50fd2a685"
+    }
+  ],
+  "limitations": [
+    "Fault injection changed only the isolated process RAM; no ISO or save was modified.",
+    "The imported older state session became unavailable when attempting Save; no normal hub save was produced.",
+    "Some screen text remains untranslated; this build changes guards only.",
+    "No full-game playthrough, mobile test, hardware test, or broad stable-release approval."
+  ]
+}

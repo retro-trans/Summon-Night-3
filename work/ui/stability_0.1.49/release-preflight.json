@@ -1,0 +1,35 @@
+{
+  "test": {
+    "version": "0.1.49",
+    "channel": "test",
+    "passed": true,
+    "errors": [],
+    "pending_runtime": [
+      "puppet_shop",
+      "room_skills",
+      "cooking",
+      "save_reload",
+      "early_chapter",
+      "night_talk"
+    ],
+    "iso_sha256": "18fa469319174bce9635a84e8a5d3e1bd910548e6cd037ff43b7e77e391da935"
+  },
+  "stable": {
+    "version": "0.1.49",
+    "channel": "stable",
+    "passed": false,
+    "errors": [
+      "Stable release coverage incomplete: puppet_shop, room_skills, cooking, save_reload, early_chapter, night_talk"
+    ],
+    "pending_runtime": [
+      "puppet_shop",
+      "room_skills",
+      "cooking",
+      "save_reload",
+      "early_chapter",
+      "night_talk"
+    ],
+    "iso_sha256": "18fa469319174bce9635a84e8a5d3e1bd910548e6cd037ff43b7e77e391da935"
+  },
+  "expected_stable_rejection": true
+}

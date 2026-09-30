@@ -1,0 +1,390 @@
+{
+  "units": [],
+  "tables": [
+    {
+      "child": 31,
+      "changes": [
+        {
+          "id": "02:00003/00031:ui:000065b2",
+          "previous": "Mana Guard",
+          "text": "MP Guard",
+          "new_offset": 45056,
+          "references": [
+            {
+              "record": 137,
+              "slot": 8,
+              "pointer_field_offset": 6612
+            }
+          ]
+        },
+        {
+          "id": "02:00003/00031:ui:0000653e",
+          "previous": "Magic Resist",
+          "text": "M. Resist",
+          "new_offset": 45076,
+          "references": [
+            {
+              "record": 132,
+              "slot": 8,
+              "pointer_field_offset": 6372
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gameplay_fields_unchanged": true,
+  "verification": {
+    "stance_names": [
+      {
+        "id": "02:00003/00031:ui:00006214",
+        "text": "Cntr",
+        "advance_pixels": 32.375,
+        "right_edge": 248.375,
+        "records": [
+          100
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:0000624a",
+        "text": "Guard",
+        "advance_pixels": 42.875,
+        "right_edge": 258.875,
+        "records": [
+          101
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:00006286",
+        "text": "Riposte",
+        "advance_pixels": 56.0,
+        "right_edge": 272.0,
+        "records": [
+          102
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:000062e6",
+        "text": "Preempt",
+        "advance_pixels": 62.125,
+        "right_edge": 278.125,
+        "records": [
+          107
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:000063be",
+        "text": "Block",
+        "advance_pixels": 38.5,
+        "right_edge": 254.5,
+        "records": [
+          112
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:0000641a",
+        "text": "Iron Wall",
+        "advance_pixels": 58.625,
+        "right_edge": 274.625,
+        "records": [
+          117
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:0000647e",
+        "text": "Dodge",
+        "advance_pixels": 47.25,
+        "right_edge": 263.25,
+        "records": [
+          122
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:000064dc",
+        "text": "Agility",
+        "advance_pixels": 45.5,
+        "right_edge": 261.5,
+        "records": [
+          127
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:0000653e",
+        "text": "M. Resist",
+        "advance_pixels": 66.5,
+        "right_edge": 282.5,
+        "records": [
+          132
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:000065b2",
+        "text": "MP Guard",
+        "advance_pixels": 69.125,
+        "right_edge": 285.125,
+        "records": [
+          137
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:00006636",
+        "text": "Retort",
+        "advance_pixels": 47.25,
+        "right_edge": 263.25,
+        "records": [
+          142
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:000066aa",
+        "text": "P. Barrier",
+        "advance_pixels": 67.375,
+        "right_edge": 283.375,
+        "records": [
+          147
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:00006720",
+        "text": "Intimidate",
+        "advance_pixels": 70.0,
+        "right_edge": 286.0,
+        "records": [
+          152
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:00006794",
+        "text": "Provoke",
+        "advance_pixels": 59.5,
+        "right_edge": 275.5,
+        "records": [
+          157
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:000067fe",
+        "text": "Cover",
+        "advance_pixels": 44.625,
+        "right_edge": 260.625,
+        "records": [
+          162
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:0000686e",
+        "text": "Brace",
+        "advance_pixels": 43.75,
+        "right_edge": 259.75,
+        "records": [
+          167
+        ]
+      },
+      {
+        "id": "02:00003/00031:ui:000068ee",
+        "text": "Reflect",
+        "advance_pixels": 53.375,
+        "right_edge": 269.375,
+        "records": [
+          172
+        ]
+      }
+    ],
+    "records_checked": 17,
+    "max_advance_pixels": 70,
+    "executable_unchanged": true,
+    "prior_regression": {
+      "native_system_help": [
+        {
+          "skills": false,
+          "summon": 0,
+          "lines": [
+            "View status; change gear."
+          ],
+          "guards": true
+        },
+        {
+          "skills": false,
+          "summon": 1,
+          "lines": [
+            "View status; change gear.",
+            "View summoned unit status."
+          ],
+          "guards": true
+        },
+        {
+          "skills": false,
+          "summon": 2,
+          "lines": [
+            "View status; change gear.",
+            "Train summoned units."
+          ],
+          "guards": true
+        },
+        {
+          "skills": true,
+          "summon": 0,
+          "lines": [
+            "Status/gear; learn skills."
+          ],
+          "guards": true
+        },
+        {
+          "skills": true,
+          "summon": 1,
+          "lines": [
+            "Status/gear; learn skills.",
+            "View summoned unit status."
+          ],
+          "guards": true
+        },
+        {
+          "skills": true,
+          "summon": 2,
+          "lines": [
+            "Status/gear; learn skills.",
+            "Train summoned units."
+          ],
+          "guards": true
+        }
+      ],
+      "brave_regression": {
+        "native_copy_cases": [
+          {
+            "record": 0,
+            "slot": 7,
+            "lines": [
+              "Use up to 3 healing items."
+            ],
+            "counts": [
+              26
+            ],
+            "total": 26,
+            "staging_guard": true
+          },
+          {
+            "record": 0,
+            "slot": 8,
+            "lines": [
+              "Use up to 3 healing items.",
+              "Except food/support uses."
+            ],
+            "counts": [
+              26,
+              25
+            ],
+            "total": 51,
+            "staging_guard": true
+          },
+          {
+            "record": 1,
+            "slot": 7,
+            "lines": [
+              "Land the first hit."
+            ],
+            "counts": [
+              19
+            ],
+            "total": 19,
+            "staging_guard": true
+          },
+          {
+            "record": 1,
+            "slot": 8,
+            "lines": [
+              "An ally must land",
+              "the first hit of battle."
+            ],
+            "counts": [
+              17,
+              24
+            ],
+            "total": 41,
+            "staging_guard": true
+          },
+          {
+            "record": 2,
+            "slot": 7,
+            "lines": [
+              "Summon Assist: defeat foe."
+            ],
+            "counts": [
+              26
+            ],
+            "total": 26,
+            "staging_guard": true
+          },
+          {
+            "record": 2,
+            "slot": 8,
+            "lines": [
+              "Defeat at least one foe",
+              "with Summon Assist."
+            ],
+            "counts": [
+              23,
+              19
+            ],
+            "total": 42,
+            "staging_guard": true
+          },
+          {
+            "record": 3,
+            "slot": 7,
+            "lines": [
+              "No KOs below your level."
+            ],
+            "counts": [
+              24
+            ],
+            "total": 24,
+            "staging_guard": true
+          },
+          {
+            "record": 3,
+            "slot": 8,
+            "lines": [
+              "No KOs below your level.",
+              "Excl. SPOT/Assist levels."
+            ],
+            "counts": [
+              24,
+              25
+            ],
+            "total": 49,
+            "staging_guard": true
+          },
+          {
+            "record": 4,
+            "slot": 7,
+            "lines": [
+              "No allies knocked out."
+            ],
+            "counts": [
+              22
+            ],
+            "total": 22,
+            "staging_guard": true
+          },
+          {
+            "record": 4,
+            "slot": 8,
+            "lines": [
+              "No KOs; auto-Awaken counts.",
+              "KO saves/manual exempt."
+            ],
+            "counts": [
+              27,
+              23
+            ],
+            "total": 50,
+            "staging_guard": true
+          }
+        ],
+        "glyph_capacity": 54,
+        "max_line_cells": 27,
+        "staging_bytes": 174
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "version": "0.1.48",
+  "created_at_utc": "2026-09-29T04:19:49.061238+00:00",
+  "passed": true,
+  "elapsed_seconds": 33.66,
+  "checks": [
+    {
+      "name": "ISO identity",
+      "passed": true,
+      "details": {
+        "iso_sha256": "76d4cad7b5b8ded395b2e5601a590dce07d737a46111c430f12f3b907fe27850"
+      }
+    },
+    {
+      "name": "Archive and cached-table consistency",
+      "passed": true,
+      "details": {
+        "bank_indexes": 23,
+        "cache_copies_equal": true,
+        "executable_matches_iso": true
+      }
+    },
+    {
+      "name": "All referenced unit-name/class encodings",
+      "passed": true,
+      "details": {
+        "records": 784,
+        "unique_labels": 753,
+        "references": 2312,
+        "all_referenced_labels_two_byte": true
+      }
+    },
+    {
+      "name": "Brave Goal termination and native staging",
+      "passed": true,
+      "details": {
+        "cases": 10,
+        "glyph_capacity": 54
+      }
+    },
+    {
+      "name": "All equipment formatter and staging variants",
+      "passed": true,
+      "details": {
+        "cases": 1434,
+        "max_cells": 54,
+        "max_glyph_slot": 53,
+        "failures": []
+      }
+    },
+    {
+      "name": "All populated spell help formatter and staging variants",
+      "passed": true,
+      "details": {
+        "cases": 235,
+        "max_cells": 54,
+        "failures": []
+      }
+    }
+  ],
+  "limits": [
+    "Known rendering paths only; other menus and story paths remain outside this audit.",
+    "Native formatter/staging execution uses boundary stubs for graphics calls.",
+    "A pass does not replace fresh-boot PPSSPP tests or a playthrough."
+  ]
+}

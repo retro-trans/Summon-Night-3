@@ -1,0 +1,18 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Edit the most recently shown image: the isolated open Cooking book UI background with MENU on the left and Japanese 材料 on the lower-right orange strip. Text localization only. Replace the small white Japanese word 材料 in that lower-right orange heading strip with the exact centered English word \"Ingredients\", in a compact light ivory serif face, legible at native resolution. Preserve all other artwork: book geometry, borders, paper texture, blank lines, square placeholders, MENU text, upper-right empty orange strip, and transparency around the book. Do not add any other words or elements. Return the same composition with no margin expansion. Native source 480 by 248 pixels; preserve its aspect ratio.",
+  "image": "ingredients_generated.png",
+  "generated_crop": [
+    1004,
+    542,
+    1544,
+    603
+  ],
+  "native_book_rect": [
+    276,
+    148,
+    424,
+    164
+  ],
+  "title_reused": "work/ui/system_0.1.44/native/cooking_0.png"
+}

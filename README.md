@@ -12,52 +12,41 @@ screenshot. State whether you loaded an in-game save or an emulator save state.
 
 ## Play it
 
-The latest test release is **[v0.1.41](https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.41)**.
-It includes identified story and battle-dialogue resources through Chapter 8,
-along with ongoing menu, item, summon, enemy-name and variable-width font work.
-**It is not a complete translation or a fully playtested eight-chapter build.**
+The latest test release is **[v0.1.52](https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.52)**.
+It includes the cumulative crash guards, Inventory translations and layout fixes,
+and Cooking localization with centered recipe titles. Story and battle-resource
+coverage through Chapter 8 remains incomplete and is not fully playtested.
 
 ### Apply
 
-Use your own clean Japanese ISO with the source hash listed below.
+Use [Retro Trans](https://github.com/retro-trans/retro-trans-tools), refresh its
+catalog, and select your unpacked source ISO. Manual Apply xdelta and
+[DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher) also work.
 
 | Your source image | Patch |
 |---|---|
-| Japanese PSP release, NPJH50380 | `SN3-English-v0.1.41.xdelta` |
-| English v0.1.36 | `SN3-English-v0.1.36-to-v0.1.41.xdelta` |
+| Clean Japanese NPJH50380 | `SN3-English-v0.1.52.xdelta` |
+| English v0.1.41 | `SN3-English-v0.1.41-to-v0.1.52.xdelta` |
+| English v0.1.42 | `SN3-English-v0.1.42-to-v0.1.52.xdelta` |
+| English v0.1.51 | `SN3-English-v0.1.51-to-v0.1.52.xdelta` |
 
-**Desktop patcher:** [Retro Trans](https://github.com/retro-trans/retro-trans-tools)
-**0.3.1** has been tested with this patch. In manual **Apply xdelta** mode,
-select your original ISO, the downloaded patch and a new output filename.
-For **Automatic** mode, refresh the patch catalog, select your clean Japanese
-ISO (or verified English v0.1.36) and choose **Latest** or **0.1.41**.
-Both release patches are built and round-trip verified with Retro Trans.
-See the [release report](docs/RELEASE_0.1.41.md) and
-[public Automatic verification](docs/RETRO_TRANS_0.1.41.md).
-
-**Alternative:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
-accepts the same `.xdelta` file. Keep checksum verification enabled.
-
-**Command line:** use [xdelta3](https://github.com/jmacd/xdelta):
+Use the exact source version and keep checksum verification enabled.
+All four patches are round-trip verified with the Retro Trans engine.
 
 ```sh
-xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.41.xdelta" "Summon Night 3 English v0.1.41.iso"
+xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.52.xdelta" "Summon Night 3 English v0.1.52.iso"
 ```
 
 | Image | SHA-256 |
 |---|---|
 | Clean Japanese source — 1,658,159,104 bytes | `00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda` |
-| English v0.1.41 output | `56dd6bac4296cb25467dde3d1536928fed42f977f5cce4ed8d6ea79cb5b8e4fa` |
+| English v0.1.52 — 1,676,666,880 bytes | `cfb7e7171e87b528ac91ea345c3ac37853eb345b3486fffd2c0a47c99b2f38f7` |
 
-Use an unpacked ISO; this patch does not apply directly to ZIP, CSO or CHD files.
-A checksum mismatch means the source is different. Check its hash instead of
-disabling verification. Choose the full patch for Japanese or the separate
-upgrade patch for the exact v0.1.36 English image.
-
-Start the new ISO fresh and load an **in-game save**. Emulator save states keep
-the old executable and resources. Fresh boot passed on v0.1.41; v0.1.40 also loaded a copied early-battle save.
-Exact unlocked Learn Skills and normal Night Talk playthrough checks remain pending.
-Broad save compatibility is not yet established.
+Start the new ISO fresh and load an **in-game save**. Emulator save states retain
+old code and resources. See the [release report](docs/RELEASE_0.1.52.md) for exact
+coverage. Cooking title alignment has pixel-level native-code validation; the
+Cooking screen still needs a live gameplay check. Broad save compatibility and
+complete route coverage are not established.
 
 ## Check the translation
 
@@ -65,7 +54,7 @@ English targets and source identities are in [work/translation/en](work/translat
 Records use resource IDs, offsets and source hashes so the Japanese can be read
 from your own game image without publishing a full Japanese script dump.
 
-The latest [coverage and test report](docs/RELEASE_0.1.41.md) distinguishes
+The latest [coverage and test report](docs/RELEASE_0.1.52.md) distinguishes
 in-game checks from static checks. Broader scope is documented in
 [Chapters 1–3](docs/BUILD_0.1.12.md), [Chapters 4–8](docs/CHAPTERS_0.1.14.md),
 and [battle dialogue](docs/BATTLE_DIALOGUE_0.1.24.md).
@@ -130,21 +119,15 @@ distributed here.
 
 ## Status
 
-**v0.1.41 is a test release.** It includes the changes since v0.1.36:
-Night Talk text reflow and 19 nameplates, Sonolar's ordinary/battle nameplates,
-a repeated Chapter 1 line fix, 25 accessory names and shared effect text,
-and Learn Skills headings, 31 skill names, controls and proportional spacing.
-Pact titles and crafting-description wrapping are also corrected.
+**v0.1.52 is a test release.** It includes crash repairs and shared text safety
+checks, weapon and armor translations, two-row equipment descriptions, corrected
+stat spacing, System menu translations, and Cooking localization and alignment.
 
-Automated checks and a fresh emulator boot passed. The reported unlocked
-Learn Skills screen and normal Night Talk scenes still need in-game verification.
-Some unique skill names/descriptions and long accessory-effect layouts remain
-unfinished or unverified. See the release report for the precise scope.
-
-Other routes, later chapters, some classes, equipment text, named creatures
-and graphical labels still need translation or playtesting. Original PSP
-hardware has not been tested. Structural checks do not establish complete
-gameplay coverage or translation accuracy.
+Automated checks cover known rendering paths; they do not establish a crash-free
+game or complete translation accuracy. Exact runtime coverage and outstanding
+checks are listed in the release report. Other routes, later chapters, some
+classes, named creatures and graphical labels still need translation or testing.
+Original PSP hardware has not been tested.
 
 ### Human proofreading
 

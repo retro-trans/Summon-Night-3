@@ -1,0 +1,121 @@
+{
+  "version": "0.1.52",
+  "iso_sha256": "cfb7e7171e87b528ac91ea345c3ac37853eb345b3486fffd2c0a47c99b2f38f7",
+  "fresh_boot": true,
+  "normal_save": true,
+  "save_state_used": false,
+  "emulator": "PPSSPP 1.20.4",
+  "cpu": "JIT",
+  "graphics": "software",
+  "ignore_bad_memory_access": false,
+  "cases": {
+    "continue_late_battle": {
+      "status": "passed",
+      "scope": "Fresh-boot menu opening and navigation without memory fault, not complete text accuracy."
+    },
+    "brave_goals": {
+      "status": "passed",
+      "scope": "Fresh-boot menu opening and navigation without memory fault, not complete text accuracy."
+    },
+    "equipment": {
+      "status": "passed",
+      "scope": "Fresh-boot menu opening and navigation without memory fault, not complete text accuracy."
+    },
+    "summon_index": {
+      "status": "passed",
+      "scope": "Fresh-boot menu opening and navigation without memory fault, not complete text accuracy."
+    },
+    "puppet_shop": {
+      "status": "pending",
+      "reason": "Not exercised in the final candidate fresh-boot session."
+    },
+    "room_skills": {
+      "status": "pending",
+      "reason": "Not exercised in the final candidate fresh-boot session."
+    },
+    "cooking": {
+      "status": "pending",
+      "reason": "All 29 title pixel layouts pass native-code checks; a normal save that opens Cooking is unavailable."
+    },
+    "save_reload": {
+      "status": "pending",
+      "reason": "Not exercised in the final candidate fresh-boot session."
+    },
+    "early_chapter": {
+      "status": "pending",
+      "reason": "Not exercised in the final candidate fresh-boot session."
+    },
+    "night_talk": {
+      "status": "pending",
+      "reason": "Not exercised in the final candidate fresh-boot session."
+    }
+  },
+  "guard_counters": {
+    "help_rejections": 0,
+    "invalid_glyphs": 150,
+    "last_reason": 3,
+    "last_value": 133
+  },
+  "hook_identity": [
+    {
+      "module_address": "0x1227a0",
+      "expected": "0xe2d329f",
+      "actual": "0xe2d329f"
+    },
+    {
+      "module_address": "0x642c0",
+      "expected": "0xe2d595c",
+      "actual": "0xe2d595c"
+    },
+    {
+      "module_address": "0x658bc",
+      "expected": "0xe2d572e",
+      "actual": "0xe2d572e"
+    },
+    {
+      "module_address": "0x64820",
+      "expected": "0xa2d56c8",
+      "actual": "0xa2d56c8"
+    },
+    {
+      "module_address": "0x1d8f58",
+      "expected": "0xe2d56ff",
+      "actual": "0xe2d56ff"
+    }
+  ],
+  "no_bad_memory_access_in_log": true,
+  "evidence": [
+    {
+      "path": "work/ui/cooking_title_0.1.52/release052_load.png",
+      "sha256": "774d127e718358e4c92ed493241e47294fa117a9a67d556c7a93f7917e57f381"
+    },
+    {
+      "path": "work/ui/cooking_title_0.1.52/release052_menu.png",
+      "sha256": "8ec896bbadf516568ee0c98c5666baf6454611f6c8bafe7027f5fcf6973bbfb8"
+    },
+    {
+      "path": "work/ui/cooking_title_0.1.52/release052_brave.png",
+      "sha256": "7fbc031481d75311b739b58dde6c4f037ed700a733de3289ba8477c6b3668e34"
+    },
+    {
+      "path": "work/ui/cooking_title_0.1.52/release052_brave_last.png",
+      "sha256": "98e28ac32f218472cf1fd8a7c16f82c79bf90432b0b3e1a52fe08c5ce7391a42"
+    },
+    {
+      "path": "work/ui/cooking_title_0.1.52/release052_black_rose.png",
+      "sha256": "2daf62c7a529a1520a6ee1ae21b267c1a7d14347641770e2739ae047bc35c3b6"
+    },
+    {
+      "path": "work/ui/cooking_title_0.1.52/release052_dritol.png",
+      "sha256": "7377192c80429ce4b3ae1c23c49b15a07a497230eb05fcd4b471631faa63c412"
+    },
+    {
+      "path": "work/ui/cooking_title_0.1.52/release052_spell.png",
+      "sha256": "e4e23c9b95f01f9da032a9e7d9ca3a6f6f73363c322923f3219927e7d1a7a0e5"
+    }
+  ],
+  "known_issues": [
+    "Extra Brave Goal mystery row displays an overlong placeholder line.",
+    "The glyph guard handled 150 malformed cells during the session; the exact source was not traced. Last input was 0x85."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": "0.1.51",
+  "iso_sha256": "9bc40ad1556187abad2b4235880e316780b11841903595547a409376c91a12db",
+  "emulator": "PPSSPP 1.20.4",
+  "cpu": "JIT",
+  "graphics": "software",
+  "ignore_bad_memory_access": false,
+  "fresh_boot": true,
+  "save": "Normal Chapter 15 battle save",
+  "checks": {
+    "continue": true,
+    "armor_tab": true,
+    "reported_eight_names_translated": true,
+    "reported_amenokoyane_stats_separated": true,
+    "black_rose_two_line_regression": true,
+    "no_bad_memory_access_in_log": true
+  },
+  "screenshots": [
+    {
+      "file": "armor051_report_verified.png",
+      "sha256": "78b0514dab9205be599283a11d8e912d55560d2c56edce9e714a60ea1d7e8137"
+    },
+    {
+      "file": "armor051_weapon_regression.png",
+      "sha256": "7d979ca18f352d0f30e56a93b099f83d90733fc793dc8f19bd2f2f60a14a2d1b"
+    }
+  ],
+  "limitations": [
+    "Tested battle Inventory; no fresh normal hub save available.",
+    "No full playthrough or mobile validation.",
+    "Live guard counters were not collected before closing the test emulator."
+  ]
+}

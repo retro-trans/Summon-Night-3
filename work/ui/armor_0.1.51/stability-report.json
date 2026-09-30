@@ -1,0 +1,946 @@
+{
+  "version": "0.1.51",
+  "iso_sha256": "9bc40ad1556187abad2b4235880e316780b11841903595547a409376c91a12db",
+  "created_at_utc": "2026-09-30T01:26:56.663244+00:00",
+  "passed": true,
+  "elapsed_seconds": 121.58,
+  "checks": [
+    {
+      "name": "ISO identity",
+      "passed": true,
+      "details": {
+        "iso_sha256": "9bc40ad1556187abad2b4235880e316780b11841903595547a409376c91a12db"
+      }
+    },
+    {
+      "name": "Archive and cached-table consistency",
+      "passed": true,
+      "details": {
+        "bank_indexes": 23,
+        "cache_copies_equal": true,
+        "executable_matches_iso": true
+      }
+    },
+    {
+      "name": "All referenced unit-name/class encodings",
+      "passed": true,
+      "details": {
+        "records": 784,
+        "unique_labels": 753,
+        "references": 2312,
+        "all_referenced_labels_two_byte": true
+      }
+    },
+    {
+      "name": "Brave Goal termination and native staging",
+      "passed": true,
+      "details": {
+        "cases": 10,
+        "glyph_capacity": 54
+      }
+    },
+    {
+      "name": "All equipment formatter and staging variants",
+      "passed": true,
+      "details": {
+        "cases": 1434,
+        "max_cells": 53,
+        "max_glyph_slot": 52,
+        "failures": []
+      }
+    },
+    {
+      "name": "All populated spell help formatter and staging variants",
+      "passed": true,
+      "details": {
+        "cases": 235,
+        "max_cells": 54,
+        "failures": []
+      }
+    },
+    {
+      "name": "Skill labels and dynamic Pact help",
+      "passed": true,
+      "details": {
+        "pact_names": 15,
+        "pact_help": 31,
+        "vwf_call_sites": 5
+      }
+    },
+    {
+      "name": "Cooking text, native staging, positioning and System menu",
+      "passed": true,
+      "details": {
+        "text_entries": 137,
+        "native_staging_cases": 29,
+        "position_cases": 3044,
+        "load_bases": 2,
+        "system_menu_regression": true
+      }
+    },
+    {
+      "name": "Shared renderer guards and relocation",
+      "passed": true,
+      "details": {
+        "relocated_help_cases": 24,
+        "glyph_cases": 131072,
+        "load_bases": 2,
+        "native_staging": [
+          {
+            "lengths": [
+              27,
+              27
+            ],
+            "rejected": false,
+            "glyphs": 54,
+            "rows": 2,
+            "max_slot": 53
+          },
+          {
+            "lengths": [
+              18,
+              18,
+              18
+            ],
+            "rejected": false,
+            "glyphs": 54,
+            "rows": 3,
+            "max_slot": 53
+          },
+          {
+            "lengths": [
+              28
+            ],
+            "rejected": true,
+            "glyphs": 10,
+            "rows": 1,
+            "max_slot": 9
+          },
+          {
+            "lengths": [
+              27,
+              27,
+              1
+            ],
+            "rejected": true,
+            "glyphs": 10,
+            "rows": 1,
+            "max_slot": 9
+          },
+          {
+            "lengths": [
+              1
+            ],
+            "rejected": false,
+            "glyphs": 1,
+            "rows": 1,
+            "max_slot": 0
+          },
+          {
+            "lengths": [],
+            "rejected": false,
+            "glyphs": 0,
+            "rows": 1,
+            "max_slot": -1
+          }
+        ],
+        "diagnostic_address": "0x351c90",
+        "limitations": "Guards cover two text paths, not all pointers or allocations."
+      }
+    },
+    {
+      "name": "Two-row equipment help and weapon-name coverage",
+      "passed": true,
+      "details": {
+        "equipment_cases": 1434,
+        "changed": [
+          {
+            "kind": 0,
+            "record": 21,
+            "key_item": true,
+            "before": [
+              "\u0395 109 \u039d 10 \u039f 10 \u250f 10%",
+              "Paralysis On Hit20%",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 109 \u039d 10 \u039f 10 \u250f 10%",
+              "Paralysis Hit20% Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 23,
+            "key_item": true,
+            "before": [
+              "\u0395 126 \u0399 33",
+              "Paralysis On Hit20%",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 126 \u0399 33",
+              "Paralysis Hit20% Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 24,
+            "key_item": false,
+            "before": [
+              "\u0395 130 \u0399 10 \u039f 20 \u250f 30%",
+              "Sleep Hit35% B Atk",
+              "Female"
+            ],
+            "after": [
+              "\u0395 130 \u0399 10 \u039f 20 \u250f 30%",
+              "Slp Hit35% B Atk Female"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 24,
+            "key_item": true,
+            "before": [
+              "\u0395 130 \u0399 10 \u039f 20 \u250f 30%",
+              "Sleep Hit35% B Atk",
+              "Female Key"
+            ],
+            "after": [
+              "\u0395 130 \u0399 10 \u039f 20 \u250f 30%",
+              "Slp Hit35% B Atk Female Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 26,
+            "key_item": false,
+            "before": [
+              "\u0395 140 \u0399 15 \u039f 20 \u250f 40%",
+              "Blind Hit30% B Atk",
+              "Female"
+            ],
+            "after": [
+              "\u0395 140 \u0399 15 \u039f 20 \u250f 40%",
+              "Blind Hit30% B Atk Female"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 26,
+            "key_item": true,
+            "before": [
+              "\u0395 140 \u0399 15 \u039f 20 \u250f 40%",
+              "Blind Hit30% B Atk",
+              "Female Key"
+            ],
+            "after": [
+              "\u0395 140 \u0399 15 \u039f 20 \u250f 40% Blind",
+              "Hit30% B Atk Female Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 28,
+            "key_item": false,
+            "before": [
+              "\u0395 161 \u0399 20 \u250f 30%",
+              "Paralysis On Hit20%",
+              "B Attack"
+            ],
+            "after": [
+              "\u0395 161 \u0399 20 \u250f 30%",
+              "Paralysis Hit20% B Atk"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 28,
+            "key_item": true,
+            "before": [
+              "\u0395 161 \u0399 20 \u250f 30%",
+              "Paralysis Hit20%",
+              "B Atk Key"
+            ],
+            "after": [
+              "\u0395 161 \u0399 20 \u250f 30%",
+              "Paralysis Hit20% B Atk Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 51,
+            "key_item": true,
+            "before": [
+              "\u0395 85 \u0399 15",
+              "Paralysis On Hit25%",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 85 \u0399 15",
+              "Paralysis Hit25% Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 115,
+            "key_item": true,
+            "before": [
+              "\u0395 49 \u0399 12 \u250f 10%",
+              "Sleep On Hit10% O Attack",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 49 \u0399 12 \u250f 10%",
+              "Slp Hit10% O Atk Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 133,
+            "key_item": false,
+            "before": [
+              "\u0395 175 \u0399 38 \u250f 30%",
+              "Summon Seal On Hit30%",
+              "O Attack"
+            ],
+            "after": [
+              "\u0395 175 \u0399 38 \u250f 30%",
+              "Summon Seal Hit30% O Atk"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 133,
+            "key_item": true,
+            "before": [
+              "\u0395 175 \u0399 38 \u250f 30%",
+              "Summon Seal Hit30%",
+              "O Atk Key"
+            ],
+            "after": [
+              "\u0395 175 \u0399 38 \u250f 30% Summon",
+              "Seal Hit30% O Atk Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 180,
+            "key_item": false,
+            "before": [
+              "\u0395 50 \u0399 24 \u039f 10",
+              "Charm On Hit20% B Attack",
+              "Female Only"
+            ],
+            "after": [
+              "\u0395 50 \u0399 24 \u039f 10",
+              "Chrm Hit20% B Atk F only"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 180,
+            "key_item": true,
+            "before": [
+              "\u0395 50 \u0399 24 \u039f 10",
+              "Charm Hit20% B Atk",
+              "Female Key"
+            ],
+            "after": [
+              "\u0395 50 \u0399 24 \u039f 10 Chrm Hit20%",
+              "B Atk Female Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 221,
+            "key_item": true,
+            "before": [
+              "\u0395 123 \u0399 18",
+              "Paralysis On Hit5% S Attack",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 123 \u0399 18",
+              "Paralysis Hit5% S Atk Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 223,
+            "key_item": true,
+            "before": [
+              "\u0395 138 \u0399 22 Charm On Hit10%",
+              "S Attack Female Only",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 138 \u0399 22 Chrm Hit10%",
+              "S Atk F only Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 274,
+            "key_item": true,
+            "before": [
+              "\u0395 86 \u0399 5",
+              "Summon Seal On Hit10%",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 86 \u0399 5",
+              "Summon Seal Hit10% Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 276,
+            "key_item": false,
+            "before": [
+              "\u0395 98 \u0399 10",
+              "Summon Seal On Hit10%",
+              "S Attack"
+            ],
+            "after": [
+              "\u0395 98 \u0399 10",
+              "Summon Seal Hit10% S Atk"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 276,
+            "key_item": true,
+            "before": [
+              "\u0395 98 \u0399 10",
+              "Summon Seal On Hit10%",
+              "S Attack        Key Item"
+            ],
+            "after": [
+              "\u0395 98 \u0399 10 Summon Seal",
+              "Hit10% S Atk Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 287,
+            "key_item": true,
+            "before": [
+              "\u0395 182 \u250f 10%",
+              "Summon Seal On Hit15%",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 182 \u250f 10%",
+              "Summon Seal Hit15% Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 315,
+            "key_item": true,
+            "before": [
+              "\u0395 39 \u039d 8",
+              "Paralysis On Hit30%",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 39 \u039d 8",
+              "Paralysis Hit30% Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 331,
+            "key_item": true,
+            "before": [
+              "\u0395 123 \u039d 5 \u039f 10",
+              "Paralysis On Hit30%",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 123 \u039d 5 \u039f 10",
+              "Paralysis Hit30% Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 333,
+            "key_item": true,
+            "before": [
+              "\u0395 125 \u0399 10",
+              "Petrify On Hit30% B Attack",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 125 \u0399 10",
+              "Petrify Hit30% B Atk Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 334,
+            "key_item": true,
+            "before": [
+              "\u0395 131 \u0399 32 Charm On Hit30%",
+              "S Attack Female Only",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 131 \u0399 32 Chrm Hit30%",
+              "S Atk F only Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 357,
+            "key_item": true,
+            "before": [
+              "\u0395 95 \u039d 10",
+              "Summon Seal On Hit70%",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 95 \u039d 10",
+              "Summon Seal Hit70% Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 363,
+            "key_item": true,
+            "before": [
+              "\u0395 125 \u0399 45 \u039f 5",
+              "Sleep On Hit5% B Attack",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 125 \u0399 45 \u039f 5",
+              "Slp Hit5% B Atk Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 391,
+            "key_item": false,
+            "before": [
+              "\u0395 185 \u0399 20 \u039d 15",
+              "Charm On Hit30% M Attack",
+              "Female Only"
+            ],
+            "after": [
+              "\u0395 185 \u0399 20 \u039d 15",
+              "Chrm Hit30% M Atk F only"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 391,
+            "key_item": true,
+            "before": [
+              "\u0395 185 \u0399 20 \u039d 15",
+              "Charm Hit30% M Atk",
+              "Female Key"
+            ],
+            "after": [
+              "\u0395 185 \u0399 20 \u039d 15 Chrm Hit30%",
+              "M Atk Female Key"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 393,
+            "key_item": false,
+            "before": [
+              "\u0395 190 \u0399 20",
+              "Paralysis On Hit50%",
+              "M Attack Male Only"
+            ],
+            "after": [
+              "\u0395 190 \u0399 20 Paralysis Hit50%",
+              "M Atk M only"
+            ]
+          },
+          {
+            "kind": 0,
+            "record": 393,
+            "key_item": true,
+            "before": [
+              "\u0395 190 \u0399 20",
+              "Paralysis Hit50%",
+              "M Atk Male Key"
+            ],
+            "after": [
+              "\u0395 190 \u0399 20 Paralysis Hit50%",
+              "M Atk Male Key"
+            ]
+          },
+          {
+            "kind": 1,
+            "record": 40,
+            "key_item": true,
+            "before": [
+              "\u2501 72 \u039b 14 Res M\u30fbS5%",
+              "Res O\u30fbB10% Male Only",
+              "Key Item"
+            ],
+            "after": [
+              "\u2501 72 \u039b 14 Res M\u30fbS5%",
+              "Res O\u30fbB10% M only Key"
+            ]
+          },
+          {
+            "kind": 1,
+            "record": 41,
+            "key_item": true,
+            "before": [
+              "\u2501 72 \u039b 13 Res M\u30fbB10%",
+              "Res O\u30fbS5% Female Only",
+              "Key Item"
+            ],
+            "after": [
+              "\u2501 72 \u039b 13 Res M\u30fbB10%",
+              "Res O\u30fbS5% F only Key"
+            ]
+          },
+          {
+            "kind": 1,
+            "record": 129,
+            "key_item": true,
+            "before": [
+              "\u2501 85 \u039b 80 \u039f 10 Res S10%",
+              "Res B5% Female Only",
+              "Key Item"
+            ],
+            "after": [
+              "\u2501 85 \u039b 80 \u039f 10 Res S10%",
+              "Res B5% F only Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 4,
+            "key_item": true,
+            "before": [
+              "Res M\u30fbS10%",
+              "Psn\u30fbPara\u30fbBld\u30fbSeal Half",
+              "Key Item"
+            ],
+            "after": [
+              "Res M\u30fbS10%",
+              "Psn\u30fbPara\u30fbBld\u30fbSeal Half Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 7,
+            "key_item": true,
+            "before": [
+              "Res M15%",
+              "Petrify\u30fbParalysis Proof",
+              "Key Item"
+            ],
+            "after": [
+              "Res M15%",
+              "Petrify\u30fbParalysis Imm Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 17,
+            "key_item": false,
+            "before": [
+              "\u0393 8 \u0399 3 \u039b 3 Res O10%",
+              "Poison\u30fbSleep Half",
+              "Female Only"
+            ],
+            "after": [
+              "\u0393 8 \u0399 3 \u039b 3 Res O10%",
+              "Psn\u30fbSlp Half F only"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 17,
+            "key_item": true,
+            "before": [
+              "\u0393 8 \u0399 3 \u039b 3 Res O10%",
+              "Poison\u30fbSleep Half",
+              "Female Key"
+            ],
+            "after": [
+              "\u0393 8 \u0399 3 \u039b 3 Res O10%",
+              "Psn\u30fbSlp Half Female Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 18,
+            "key_item": false,
+            "before": [
+              "\u0395 8 \u2501 5 Res O10%",
+              "Chrm\u30fbRge\u30fbSleep Half",
+              "Male Only"
+            ],
+            "after": [
+              "\u0395 8 \u2501 5 Res O10%",
+              "Chrm\u30fbRge\u30fbSlp Half M only"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 18,
+            "key_item": true,
+            "before": [
+              "\u0395 8 \u2501 5 Res O10%",
+              "Chrm\u30fbRge\u30fbSleep Half",
+              "Male Key"
+            ],
+            "after": [
+              "\u0395 8 \u2501 5 Res O10%",
+              "Chrm\u30fbRge\u30fbSlp Half Male Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 19,
+            "key_item": true,
+            "before": [
+              "\u0393 10 \u039b 9 Res O10%",
+              "Stone\u30fbChrm\u30fbSeal Proof",
+              "Key Item"
+            ],
+            "after": [
+              "\u0393 10 \u039b 9 Res O10%",
+              "Stn\u30fbChrm\u30fbSeal Imm Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 23,
+            "key_item": true,
+            "before": [
+              "\u0395 5 \u0399 5 \u039d 10 \u250f 5%",
+              "Res O\u30fbS10% Female Only",
+              "Key Item"
+            ],
+            "after": [
+              "\u0395 5 \u0399 5 \u039d 10 \u250f 5%",
+              "Res O\u30fbS10% F only Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 33,
+            "key_item": true,
+            "before": [
+              "Res O15%",
+              "Stone\u30fbPsn\u30fbPara\u30fbBld Half",
+              "Key Item"
+            ],
+            "after": [
+              "Res O15%",
+              "Stn\u30fbPsn\u30fbPara\u30fbBld Half Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 35,
+            "key_item": true,
+            "before": [
+              "\u0393 10 \u0399 5 Res S15%",
+              "Chrm\u30fbPara\u30fbSleep Half",
+              "Key Item"
+            ],
+            "after": [
+              "\u0393 10 \u0399 5 Res S15%",
+              "Chrm\u30fbPara\u30fbSlp Half Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 36,
+            "key_item": true,
+            "before": [
+              "\u0393 15 \u039f 5 Res S\u30fbB10%",
+              "Stone\u30fbPsn\u30fbPara Proof",
+              "Key Item"
+            ],
+            "after": [
+              "\u0393 15 \u039f 5 Res S\u30fbB10%",
+              "Stn\u30fbPsn\u30fbPara Imm Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 61,
+            "key_item": true,
+            "before": [
+              "\u2501 2 \u039b 2 Res B10%",
+              "Poison\u30fbParalysis Half",
+              "Key Item"
+            ],
+            "after": [
+              "\u2501 2 \u039b 2 Res B10%",
+              "Psn\u30fbParalysis Half Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 63,
+            "key_item": true,
+            "before": [
+              "Res M\u30fbO\u30fbS\u30fbB10%",
+              "Ailment Proof Poss. Proof",
+              "Key Item"
+            ],
+            "after": [
+              "Res M\u30fbO\u30fbS\u30fbB10%",
+              "Ailment Imm NoPoss Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 67,
+            "key_item": true,
+            "before": [
+              "\u0399 2 \u039b 2 Hit+10% Eva+10%",
+              "Res S10% Charm\u30fbBerserk Half",
+              "Key"
+            ],
+            "after": [
+              "\u0399 2 \u039b 2 Hit+10% Eva+10%",
+              "Res S10% Chrm\u30fbBsrk Half Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 71,
+            "key_item": false,
+            "before": [
+              "\u0393 100 Res M\u30fbO\u30fbS\u30fbB20%",
+              "No Poss.",
+              "Stone\u30fbChrm\u30fbPsn\u30fbPara Imm"
+            ],
+            "after": [
+              "\u0393 100 Res M\u30fbO\u30fbS\u30fbB20% NoPoss",
+              "Stn\u30fbChrm\u30fbPsn\u30fbPara Imm"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 71,
+            "key_item": true,
+            "before": [
+              "\u0393 100 Res M\u30fbO\u30fbS\u30fbB20%",
+              "No Poss.",
+              "Stone\u30fbChrm\u30fbPsn\u30fbPara Imm",
+              "Key"
+            ],
+            "after": [
+              "\u0393 100 Res M\u30fbO\u30fbS\u30fbB20% NoPoss",
+              "Stn\u30fbChrm\u30fbPsn\u30fbPara Imm Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 74,
+            "key_item": true,
+            "before": [
+              "\u0393 8 \u0399 8",
+              "Berserk\u30fbSummon Seal Proof",
+              "Key Item"
+            ],
+            "after": [
+              "\u0393 8 \u0399 8",
+              "Bsrk\u30fbSummon Seal Imm Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 82,
+            "key_item": true,
+            "before": [
+              "\u0393 15 \u039b 9",
+              "Petrify\u30fbParalysis Proof",
+              "Key Item"
+            ],
+            "after": [
+              "\u0393 15 \u039b 9",
+              "Petrify\u30fbParalysis Imm Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 85,
+            "key_item": false,
+            "before": [
+              "\u0393 9 \u2501 5 \u039b 5 Res B5%",
+              "Charm\u30fbPoison Half",
+              "Female Only"
+            ],
+            "after": [
+              "\u0393 9 \u2501 5 \u039b 5 Res B5%",
+              "Chrm\u30fbPsn Half F only"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 85,
+            "key_item": true,
+            "before": [
+              "\u0393 9 \u2501 5 \u039b 5 Res B5%",
+              "Charm\u30fbPoison Half",
+              "Female Key"
+            ],
+            "after": [
+              "\u0393 9 \u2501 5 \u039b 5 Res B5%",
+              "Chrm\u30fbPsn Half Female Key"
+            ]
+          },
+          {
+            "kind": 2,
+            "record": 95,
+            "key_item": true,
+            "before": [
+              "Res M10%",
+              "Berserk\u30fbSleep Proof",
+              "Key Item"
+            ],
+            "after": [
+              "Res M10% Bsrk\u30fbSlp Imm Key"
+            ]
+          }
+        ],
+        "max_rows": 2,
+        "max_cells": 53,
+        "weapon_references": 263,
+        "translated_names": 76,
+        "all_weapon_names_english": true
+      }
+    },
+    {
+      "name": "Armor names and symbolic stat placement",
+      "passed": true,
+      "details": {
+        "translated_names": 92,
+        "armor_name_references": 155,
+        "widest_new_name": {
+          "text": "Yagurumatsubaki",
+          "width": 123.375,
+          "new_translation": true
+        },
+        "all_armor_names_english": true,
+        "equipment_outputs_unchanged": 1434,
+        "dispatch_cases": 131072,
+        "non_stat_mode_cases": 320,
+        "load_bases": 2,
+        "callback_arguments_registers_and_float_positions_preserved": true
+      }
+    }
+  ],
+  "limits": [
+    "Known rendering paths only; other menus and story paths remain outside this audit.",
+    "Native formatter/staging execution uses boundary stubs for graphics calls.",
+    "A pass does not replace fresh-boot PPSSPP tests or a playthrough."
+  ]
+}

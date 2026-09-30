@@ -1,6 +1,170 @@
 # Changelog
 
+## 0.1.52 - Cooking title alignment, 2026-09-30
+
+- Center Pirate Lunch and all 29 recipe titles by their proportional ink width
+  inside the existing orange banner. Only the recipe-title renderer call changes.
+- Execute the existing centered packer for every title at two relocated load
+  addresses; verify exact pixels, banner bounds, cache and stack boundaries.
+- Retain the cumulative crash guards, Inventory fixes and translations from
+  v0.1.42 through v0.1.51. See `docs/RELEASE_0.1.52.md` for test coverage.
+
+## 0.1.51 - Armor names and stat spacing (test build), 2026-09-30
+
+- Translate all 92 remaining Japanese armor names, including the eight
+  untranslated names on the reported Inventory screen.
+- Recognize the two omitted native stat symbols when positioning help rows;
+  preserve normal text VWF, description bytes and equipment values.
+- Check 155 armor-name references, 1,434 unchanged equipment outputs and
+  131,072 relocated stat-prefix cases, plus the cumulative safety audit.
+- Fresh-boot PPSSPP verification passes for the reported armor selection and
+  Black Rose Knife; all three xdelta patches round-trip to the verified ISO.
+- See `docs/ARMOR_0.1.51.md` for the cause, verification and test limits.
+
+## 0.1.50 - Inventory names and description layout (test build), 2026-09-30
+
+- Translate all 76 remaining Japanese weapon names, including Glass Edge,
+  Chinese Cleaver, Harsneil and Ragres Saber from the reported screen.
+- Reflow equipment descriptions that need more than two rows into the
+  Inventory help panel. Preserve stats, effects, restrictions and key labels;
+  retain existing one- and two-row output unchanged.
+- Check all 1,434 equipment/key-item variants against the two-row limit,
+  native glyph pool, output buffer and stack boundaries, and content retention.
+- Preserve the v0.1.49 shared help and malformed-glyph guards.
+- Verify the weapon list and two-row Black Rose Knife description in a fresh
+  PPSSPP 1.20.4 session; round-trip check original, 0.1.42 and 0.1.49 patches.
+- See `docs/INVENTORY_0.1.50.md` and the build's validation reports for scope.
+
+## 0.1.49 - Shared text safety guards (test build), 2026-09-29
+
+- Guard shared help staging against oversized rows, glyph-pool overflow and
+  invalid source addresses before copying text into native buffers.
+- Guard the native font-map lookup against malformed two-byte glyph cells.
+  Use bounded fallback text/glyphs and record diagnostic rejection counters.
+- Require combined candidate audits in the new build and patch packaging
+  workflow; extend coverage to skills, Cooking and System menu checks.
+- Pass nine audit groups, including 1,434 equipment variants, 235 spells,
+  753 unit labels and 131,072 relocated glyph-input cases.
+- Fresh-boot PPSSPP 1.20.4: normal Chapter 15 Continue, Brave Goals,
+  inventory/Black Rose Knife and Summon Index spell help pass. Live overlong
+  text and malformed-glyph injections are contained without a memory fault.
+- Add an ISO-bound runtime coverage report and release preflight. Stable
+  release checks reject remaining untested hub, save/reload and story paths.
+- Provide round-trip verified original, v0.1.42 and v0.1.48 input patches.
+  Historical hashed inputs are unchanged. See `docs/STABILITY.md` for scope.
+
+## Unreleased - Stability tooling, 2026-09-29
+
+- Add a read-only combined regression audit for a selected built ISO.
+- Validate actual ISO identity, executable and cached-table consistency,
+  unit-label encoding, Brave Goal termination, and native equipment/spell
+  formatter and staging bounds. Exit unsuccessfully if any check fails.
+- Audit v0.1.48: 753 unique labels, 1,434 equipment variants, 235 spell
+  descriptions and ten Brave Goal title/help cases pass. Historical broken
+  cases from v0.1.41, v0.1.46 and v0.1.47 are rejected.
+- Document coverage gaps and the proposed release stability process.
+  No ISO or previously hashed build input changes.
+
+## 0.1.48 - Summon Puppet name crash fix (test build), 2026-09-29
+
+- Correct Rexx and Aty default unit names from single-byte ASCII to the
+  two-byte encoding required by the puppet/status text renderer.
+- Update all eight default-name references in both resident and bank copies.
+  Preserve spellings, player-entered names, gameplay data and executable code.
+- Audit 753 unique labels and 2,312 references across 784 unit records.
+- Verify the reported state resumes after the name-only correction, Rexx
+  selection works, and the puppet menu can exit and reopen showing Aty.
+- Provide verified upgrades from v0.1.47 and v0.1.42, plus the original-source
+  patch. See `docs/PUPPET_CRASH_0.1.48.md` for evidence and test scope.
+
+## 0.1.47 - Equipment description crash fix (test build), 2026-09-29
+
+- Add a direct v0.1.42-to-v0.1.47 upgrade patch; verify exact ISO reconstruction.
+- Fix Black Rose Knife help overflowing the native 54-glyph object pool
+  when browsing weapons in the protagonist's room.
+- Compact only over-budget equipment descriptions, including Sleep Rose
+  Knife and an accessory with several immunities. Preserve numeric stats,
+  effects, restrictions, native stat symbols, and descriptions already fitting.
+- Check all 717 nonzero equipment records with both key-item states through
+  the native formatter and help staging loops (1,434 cases). Reproduce the
+  previous build's overflow at object index 54 before checking the fix.
+- Preserve prior localization and crash fixes. See
+  `docs/EQUIPMENT_CRASH_0.1.47.md` for evidence, patch inputs, and test limits.
+
+## 0.1.46 - Cooking localization (test build), 2026-09-29
+
+- Translate 29 recipes, their inventory name copies, 25 ingredient names
+  and ingredient descriptions, Cooking controls and quantity prompts.
+- Add concise six-row recipe descriptions; keep full English meanings in
+  the translation catalog. Preserve the existing 78-object text allocation.
+- Add proportional recipe text with the original food-icon indentation,
+  plus proportional headings, ingredient names and controls.
+- Translate the Cooking title and Ingredients book/list artwork. Preserve
+  every book pixel outside the Ingredients heading replacement.
+- Keep recipe costs, quantities, effects and gameplay data unchanged.
+- Verify all 29 native recipe-loading cases, 3,044 relocated text-position
+  cases and both original-source / 0.1.45-upgrade patch round trips.
+  Live Cooking-screen verification awaits a suitable normal save; see
+  `docs/COOKING_0.1.46.md` for evidence and limits.
+
+## 0.1.45 - Status stance label width (test build), 2026-09-29
+
+- Shorten Mana Guard to MP Guard and Magic Resist to M. Resist so their
+  names fit the shared status field without covering the DF statistics.
+- Check all 17 distinct stance labels against the 70-pixel field using the
+  game font metrics at the native status scale.
+- Preserve stance effects, descriptions, executable code and prior fixes.
+- Provide verified original-source and 0.1.44-upgrade xdelta patches.
+  See `docs/STANCE_WIDTH_0.1.45.md` for measurements and runtime limits.
+
+## 0.1.44 - System menu localization (test build), 2026-09-29
+
+- Translate Status, Cooking and Gallery graphics in both selection states,
+  including matching copies of each resource.
+- Translate all four conditional Status help strings for equipment, skills
+  and summoned-unit status/training.
+- Check all six unlock combinations through the native text writer, with
+  two-line bounds and buffer guards; retain the Brave Goals regression checks.
+- Preserve all prior build inputs and fixes.
+- Provide full and 0.1.43-upgrade patches with exact reconstruction checks.
+  Fresh Continue passes; exact System hub runtime verification remains open.
+  See `docs/SYSTEM_MENU_0.1.44.md` for evidence and artwork provenance.
+
+## 0.1.43 — Ishlar weapon menu translation (test build), 2026-09-28
+
+- Translate Generasneil, Fell Wildfire, Tyrant's Rampage and Ishlar's two
+  shared battle-name references, following the current name glossary.
+- Translate all 16 copies of the adjacent-target sword-art help description
+  into two bounded lines, with explicit empty-line termination.
+- Enable the existing safe VWF wrapper at the weapon heading's separate
+  renderer call so Generasneil displays in full.
+- Preserve gameplay values and the 0.1.42 Brave Goals fix. Native staging,
+  heading fallback/relocation, archive and cumulative input checks pass.
+- Supply original-source and 0.1.42-upgrade xdelta patches, each verified
+  against the final ISO. See `docs/WEAPON_REPORT_0.1.43.md` for runtime evidence.
+
+## 0.1.42 — Brave Goals crash fix (test build), 2026-09-28
+
+- Package full Japanese-source and 0.1.41-upgrade xdelta patches; verify
+  that both reconstruct the exact 0.1.42 ISO.
+- Fix all five translated Brave Goal help bundles: add empty-line terminators
+  and keep descriptions within two 27-cell lines and the 54-glyph pool.
+- Shorten the five associated goal labels to fit their list rows.
+- Reproduce the reported `0x29` memory fault on 0.1.41 from both the supplied
+  state and a fresh Continue load followed by Battle Info > Brave Goals.
+- Verify 0.1.42 Continue, all five goal selections and menu exit with strict
+  memory checks in PPSSPP 1.20.4. Native copy guards and ISO checks pass.
+- Gameplay conditions and executable code are unchanged. Fresh-boot and load
+  the in-game save; a pre-fix emulator state retains old data.
+- See `docs/BRAVE_FIX_0.1.42.md` for evidence and test limits.
+
 ## 0.1.41 — Learn Skills localization and VWF (test build), 2026-09-28
+
+- Diagnose a reported Continue crash: release CRC matches; the fault maps to
+  a native text-renderer object. Copied-save fresh boots also pass with strict
+  memory-error handling. Subsequent state analysis confirmed a Brave Goals
+  text overflow, repaired in 0.1.42; see `docs/CRASH_CONTINUE_0.1.41.md`.
+  No 0.1.41 release bytes changed.
 
 - Publish the cumulative 0.1.37–0.1.41 changes with a full Japanese-source patch
   and an upgrade from public 0.1.36, in the Retro Trans release format.

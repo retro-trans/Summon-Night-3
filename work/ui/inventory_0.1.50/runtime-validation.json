@@ -1,0 +1,57 @@
+{
+  "version": "0.1.50",
+  "iso_sha256": "9040522514c77f8701e41e064ad1ca9402b3ec8b640db41167bcb10a47bbe507",
+  "emulator": "PPSSPP 1.20.4",
+  "cpu": "JIT",
+  "graphics": "software",
+  "ignore_bad_memory_access": false,
+  "fresh_boot": true,
+  "save": "Normal Chapter 15 battle save",
+  "checks": {
+    "continue": true,
+    "inventory_opens": true,
+    "reported_names_english": true,
+    "quantity_columns_clear": true,
+    "black_rose_stats_first_row": true,
+    "black_rose_effects_second_row": true,
+    "no_third_row_overflow": true,
+    "no_bad_memory_access_in_log": true
+  },
+  "guard_counters": {
+    "help_rejections": 0,
+    "invalid_glyphs": 0,
+    "last_reason": 0,
+    "last_value": 0
+  },
+  "hook_identity": [
+    {
+      "module_address": "0x658bc",
+      "expected": "0xe2d572e",
+      "actual": "0xe2d572e"
+    },
+    {
+      "module_address": "0x64820",
+      "expected": "0xa2d56c8",
+      "actual": "0xa2d56c8"
+    },
+    {
+      "module_address": "0x1d8f58",
+      "expected": "0xe2d56ff",
+      "actual": "0xe2d56ff"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "inventory050_final_names.png",
+      "sha256": "132701ecf159da269e3eea059a7e822c3125511893080fc692f1d537737b8c44"
+    },
+    {
+      "file": "inventory050_final_black_rose.png",
+      "sha256": "1338c4639419828186921585045c2f82716f56935ffb7cecc75af4633f9904c6"
+    }
+  ],
+  "limitations": [
+    "Tested in battle Inventory; no fresh normal hub save available.",
+    "No full playthrough or mobile validation."
+  ]
+}

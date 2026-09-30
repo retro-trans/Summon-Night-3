@@ -1,0 +1,66 @@
+{
+  "texture_copies": 44,
+  "native_help": [
+    {
+      "skills": false,
+      "summon": 0,
+      "lines": [
+        "View status; change gear."
+      ],
+      "guards": true
+    },
+    {
+      "skills": false,
+      "summon": 1,
+      "lines": [
+        "View status; change gear.",
+        "View summoned unit status."
+      ],
+      "guards": true
+    },
+    {
+      "skills": false,
+      "summon": 2,
+      "lines": [
+        "View status; change gear.",
+        "Train summoned units."
+      ],
+      "guards": true
+    },
+    {
+      "skills": true,
+      "summon": 0,
+      "lines": [
+        "Status/gear; learn skills."
+      ],
+      "guards": true
+    },
+    {
+      "skills": true,
+      "summon": 1,
+      "lines": [
+        "Status/gear; learn skills.",
+        "View summoned unit status."
+      ],
+      "guards": true
+    },
+    {
+      "skills": true,
+      "summon": 2,
+      "lines": [
+        "Status/gear; learn skills.",
+        "Train summoned units."
+      ],
+      "guards": true
+    }
+  ],
+  "native_sprites_visually_checked": true,
+  "runtime": {
+    "emulator": "PPSSPP 1.20.4",
+    "fresh_boot_continue": true,
+    "copied_chapter15_save_loaded": true,
+    "system_hub_screen_verified": false,
+    "reason": "The supplied save is in a story battle and Retreat does not leave it."
+  },
+  "iso_sha256": "a8f9093ab0ee8783e72cd61630ecb746d40acb9b13f34713d476adaa40497ef3"
+}

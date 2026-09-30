@@ -1,0 +1,31 @@
+{
+  "version": "0.1.48",
+  "iso_sha256": "76d4cad7b5b8ded395b2e5601a590dce07d737a46111c430f12f3b907fe27850",
+  "cause": "Single-byte ASCII default unit names passed to a two-byte CP932 glyph renderer.",
+  "name_table_audit": {
+    "records": 784,
+    "unique_labels": 753,
+    "references": 2312,
+    "all_referenced_labels_two_byte": true
+  },
+  "corrected_names": [
+    "Rexx",
+    "Aty"
+  ],
+  "default_name_references": 8,
+  "executable_unchanged": true,
+  "runtime": {
+    "emulator": "PPSSPP 1.20.4",
+    "ignore_bad_memory_access": false,
+    "method": "Private copy of supplied v0.1.47 state with only the two default name strings converted to the same encoding as v0.1.48. No PC, registers, or renderer code edits.",
+    "passed": [
+      "State resumes without the 0x508 fault",
+      "Rexx displays after leaving and returning to the selection",
+      "Puppet menu exits to shop",
+      "Puppet menu reopens and displays Aty",
+      "Puppet creation can be cancelled"
+    ],
+    "fresh_boot_v048_verified": false
+  },
+  "patch_validation": "work/output/0.1.48/XDELTA-VALIDATION.json"
+}

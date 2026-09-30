@@ -1,0 +1,650 @@
+{
+  "version": "0.1.47",
+  "iso_sha256": "2d816b329109bee51e6e078e96e35e5c4743a3d7d3ac76214049ef0bdba72632",
+  "native_checks": {
+    "cases": 1434,
+    "native_staging_cases": 1434,
+    "baseline_failure_slot": 54,
+    "max_cells": 54,
+    "max_glyph_slot": 53,
+    "changed": [
+      {
+        "kind": 0,
+        "record": 24,
+        "key_item": false,
+        "before": {
+          "record": 24,
+          "lines": [
+            "\u0395 130 \u0399 10 \u039f 20 \u250f 30%",
+            "Sleep On Hit35% B Attack",
+            "Female Only"
+          ],
+          "lengths": [
+            21,
+            24,
+            11
+          ],
+          "total": 56,
+          "max_concat": 15
+        },
+        "after": {
+          "record": 24,
+          "lines": [
+            "\u0395 130 \u0399 10 \u039f 20 \u250f 30%",
+            "Sleep Hit35% B Atk",
+            "Female"
+          ],
+          "lengths": [
+            21,
+            18,
+            6
+          ],
+          "total": 45,
+          "max_concat": 15,
+          "kind": 0,
+          "key_item": false,
+          "staging": {
+            "glyphs": 45,
+            "rows": 3,
+            "max_slot": 44
+          }
+        }
+      },
+      {
+        "kind": 0,
+        "record": 24,
+        "key_item": true,
+        "before": {
+          "record": 24,
+          "lines": [
+            "\u0395 130 \u0399 10 \u039f 20 \u250f 30%",
+            "Sleep On Hit35% B Attack",
+            "Female Only     Key Item"
+          ],
+          "lengths": [
+            21,
+            24,
+            24
+          ],
+          "total": 69,
+          "max_concat": 15
+        },
+        "after": {
+          "record": 24,
+          "lines": [
+            "\u0395 130 \u0399 10 \u039f 20 \u250f 30%",
+            "Sleep Hit35% B Atk",
+            "Female Key"
+          ],
+          "lengths": [
+            21,
+            18,
+            10
+          ],
+          "total": 49,
+          "max_concat": 15,
+          "kind": 0,
+          "key_item": true,
+          "staging": {
+            "glyphs": 49,
+            "rows": 3,
+            "max_slot": 48
+          }
+        }
+      },
+      {
+        "kind": 0,
+        "record": 26,
+        "key_item": false,
+        "before": {
+          "record": 26,
+          "lines": [
+            "\u0395 140 \u0399 15 \u039f 20 \u250f 40%",
+            "Blind On Hit30% B Attack",
+            "Female Only"
+          ],
+          "lengths": [
+            21,
+            24,
+            11
+          ],
+          "total": 56,
+          "max_concat": 15
+        },
+        "after": {
+          "record": 26,
+          "lines": [
+            "\u0395 140 \u0399 15 \u039f 20 \u250f 40%",
+            "Blind Hit30% B Atk",
+            "Female"
+          ],
+          "lengths": [
+            21,
+            18,
+            6
+          ],
+          "total": 45,
+          "max_concat": 15,
+          "kind": 0,
+          "key_item": false,
+          "staging": {
+            "glyphs": 45,
+            "rows": 3,
+            "max_slot": 44
+          }
+        }
+      },
+      {
+        "kind": 0,
+        "record": 26,
+        "key_item": true,
+        "before": {
+          "record": 26,
+          "lines": [
+            "\u0395 140 \u0399 15 \u039f 20 \u250f 40%",
+            "Blind On Hit30% B Attack",
+            "Female Only     Key Item"
+          ],
+          "lengths": [
+            21,
+            24,
+            24
+          ],
+          "total": 69,
+          "max_concat": 15
+        },
+        "after": {
+          "record": 26,
+          "lines": [
+            "\u0395 140 \u0399 15 \u039f 20 \u250f 40%",
+            "Blind Hit30% B Atk",
+            "Female Key"
+          ],
+          "lengths": [
+            21,
+            18,
+            10
+          ],
+          "total": 49,
+          "max_concat": 15,
+          "kind": 0,
+          "key_item": true,
+          "staging": {
+            "glyphs": 49,
+            "rows": 3,
+            "max_slot": 48
+          }
+        }
+      },
+      {
+        "kind": 0,
+        "record": 28,
+        "key_item": true,
+        "before": {
+          "record": 28,
+          "lines": [
+            "\u0395 161 \u0399 20 \u250f 30%",
+            "Paralysis On Hit20%",
+            "B Attack        Key Item"
+          ],
+          "lengths": [
+            16,
+            19,
+            24
+          ],
+          "total": 59,
+          "max_concat": 19
+        },
+        "after": {
+          "record": 28,
+          "lines": [
+            "\u0395 161 \u0399 20 \u250f 30%",
+            "Paralysis Hit20%",
+            "B Atk Key"
+          ],
+          "lengths": [
+            16,
+            16,
+            9
+          ],
+          "total": 41,
+          "max_concat": 19,
+          "kind": 0,
+          "key_item": true,
+          "staging": {
+            "glyphs": 41,
+            "rows": 3,
+            "max_slot": 40
+          }
+        }
+      },
+      {
+        "kind": 0,
+        "record": 133,
+        "key_item": true,
+        "before": {
+          "record": 133,
+          "lines": [
+            "\u0395 175 \u0399 38 \u250f 30%",
+            "Summon Seal On Hit30%",
+            "O Attack        Key Item"
+          ],
+          "lengths": [
+            16,
+            21,
+            24
+          ],
+          "total": 61,
+          "max_concat": 21
+        },
+        "after": {
+          "record": 133,
+          "lines": [
+            "\u0395 175 \u0399 38 \u250f 30%",
+            "Summon Seal Hit30%",
+            "O Atk Key"
+          ],
+          "lengths": [
+            16,
+            18,
+            9
+          ],
+          "total": 43,
+          "max_concat": 21,
+          "kind": 0,
+          "key_item": true,
+          "staging": {
+            "glyphs": 43,
+            "rows": 3,
+            "max_slot": 42
+          }
+        }
+      },
+      {
+        "kind": 0,
+        "record": 180,
+        "key_item": true,
+        "before": {
+          "record": 180,
+          "lines": [
+            "\u0395 50 \u0399 24 \u039f 10",
+            "Charm On Hit20% B Attack",
+            "Female Only     Key Item"
+          ],
+          "lengths": [
+            14,
+            24,
+            24
+          ],
+          "total": 62,
+          "max_concat": 15
+        },
+        "after": {
+          "record": 180,
+          "lines": [
+            "\u0395 50 \u0399 24 \u039f 10",
+            "Charm Hit20% B Atk",
+            "Female Key"
+          ],
+          "lengths": [
+            14,
+            18,
+            10
+          ],
+          "total": 42,
+          "max_concat": 15,
+          "kind": 0,
+          "key_item": true,
+          "staging": {
+            "glyphs": 42,
+            "rows": 3,
+            "max_slot": 41
+          }
+        }
+      },
+      {
+        "kind": 0,
+        "record": 391,
+        "key_item": true,
+        "before": {
+          "record": 391,
+          "lines": [
+            "\u0395 185 \u0399 20 \u039d 15",
+            "Charm On Hit30% M Attack",
+            "Female Only     Key Item"
+          ],
+          "lengths": [
+            15,
+            24,
+            24
+          ],
+          "total": 63,
+          "max_concat": 15
+        },
+        "after": {
+          "record": 391,
+          "lines": [
+            "\u0395 185 \u0399 20 \u039d 15",
+            "Charm Hit30% M Atk",
+            "Female Key"
+          ],
+          "lengths": [
+            15,
+            18,
+            10
+          ],
+          "total": 43,
+          "max_concat": 15,
+          "kind": 0,
+          "key_item": true,
+          "staging": {
+            "glyphs": 43,
+            "rows": 3,
+            "max_slot": 42
+          }
+        }
+      },
+      {
+        "kind": 0,
+        "record": 393,
+        "key_item": true,
+        "before": {
+          "record": 393,
+          "lines": [
+            "\u0395 190 \u0399 20",
+            "Paralysis On Hit50%",
+            "M Attack Male Only Key Item"
+          ],
+          "lengths": [
+            10,
+            19,
+            27
+          ],
+          "total": 56,
+          "max_concat": 19
+        },
+        "after": {
+          "record": 393,
+          "lines": [
+            "\u0395 190 \u0399 20",
+            "Paralysis Hit50%",
+            "M Atk Male Key"
+          ],
+          "lengths": [
+            10,
+            16,
+            14
+          ],
+          "total": 40,
+          "max_concat": 19,
+          "kind": 0,
+          "key_item": true,
+          "staging": {
+            "glyphs": 40,
+            "rows": 3,
+            "max_slot": 39
+          }
+        }
+      },
+      {
+        "kind": 2,
+        "record": 17,
+        "key_item": true,
+        "before": {
+          "record": 17,
+          "lines": [
+            "\u0393 8 \u0399 3 \u039b 3 Res O10%",
+            "Poison\u30fbSleep Half",
+            "Female Only     Key Item"
+          ],
+          "lengths": [
+            20,
+            17,
+            24
+          ],
+          "total": 61,
+          "max_concat": 17
+        },
+        "after": {
+          "record": 17,
+          "lines": [
+            "\u0393 8 \u0399 3 \u039b 3 Res O10%",
+            "Poison\u30fbSleep Half",
+            "Female Key"
+          ],
+          "lengths": [
+            20,
+            17,
+            10
+          ],
+          "total": 47,
+          "max_concat": 17,
+          "kind": 2,
+          "key_item": true,
+          "staging": {
+            "glyphs": 47,
+            "rows": 3,
+            "max_slot": 46
+          }
+        }
+      },
+      {
+        "kind": 2,
+        "record": 18,
+        "key_item": true,
+        "before": {
+          "record": 18,
+          "lines": [
+            "\u0395 8 \u2501 5 Res O10%",
+            "Chrm\u30fbRge\u30fbSleep Half",
+            "Male Only       Key Item"
+          ],
+          "lengths": [
+            16,
+            19,
+            24
+          ],
+          "total": 59,
+          "max_concat": 19
+        },
+        "after": {
+          "record": 18,
+          "lines": [
+            "\u0395 8 \u2501 5 Res O10%",
+            "Chrm\u30fbRge\u30fbSleep Half",
+            "Male Key"
+          ],
+          "lengths": [
+            16,
+            19,
+            8
+          ],
+          "total": 43,
+          "max_concat": 19,
+          "kind": 2,
+          "key_item": true,
+          "staging": {
+            "glyphs": 43,
+            "rows": 3,
+            "max_slot": 42
+          }
+        }
+      },
+      {
+        "kind": 2,
+        "record": 67,
+        "key_item": true,
+        "before": {
+          "record": 67,
+          "lines": [
+            "\u0399 2 \u039b 2 Hit+10% Evade+10%",
+            "Res S10% Charm\u30fbBerserk Half",
+            "Key Item"
+          ],
+          "lengths": [
+            25,
+            27,
+            8
+          ],
+          "total": 60,
+          "max_concat": 18
+        },
+        "after": {
+          "record": 67,
+          "lines": [
+            "\u0399 2 \u039b 2 Hit+10% Eva+10%",
+            "Res S10% Charm\u30fbBerserk Half",
+            "Key"
+          ],
+          "lengths": [
+            23,
+            27,
+            3
+          ],
+          "total": 53,
+          "max_concat": 18,
+          "kind": 2,
+          "key_item": true,
+          "staging": {
+            "glyphs": 53,
+            "rows": 3,
+            "max_slot": 52
+          }
+        }
+      },
+      {
+        "kind": 2,
+        "record": 71,
+        "key_item": false,
+        "before": {
+          "record": 71,
+          "lines": [
+            "\u0393 100 Res M\u30fbO\u30fbS\u30fbB20%",
+            "Poss. Proof",
+            "Stone\u30fbChrm\u30fbPsn\u30fbPara Proof"
+          ],
+          "lengths": [
+            20,
+            11,
+            25
+          ],
+          "total": 56,
+          "max_concat": 25
+        },
+        "after": {
+          "record": 71,
+          "lines": [
+            "\u0393 100 Res M\u30fbO\u30fbS\u30fbB20%",
+            "No Poss.",
+            "Stone\u30fbChrm\u30fbPsn\u30fbPara Imm"
+          ],
+          "lengths": [
+            20,
+            8,
+            23
+          ],
+          "total": 51,
+          "max_concat": 25,
+          "kind": 2,
+          "key_item": false,
+          "staging": {
+            "glyphs": 51,
+            "rows": 3,
+            "max_slot": 50
+          }
+        }
+      },
+      {
+        "kind": 2,
+        "record": 71,
+        "key_item": true,
+        "before": {
+          "record": 71,
+          "lines": [
+            "\u0393 100 Res M\u30fbO\u30fbS\u30fbB20%",
+            "Poss. Proof",
+            "Stone\u30fbChrm\u30fbPsn\u30fbPara Proof",
+            "Key Item"
+          ],
+          "lengths": [
+            20,
+            11,
+            25,
+            8
+          ],
+          "total": 64,
+          "max_concat": 25
+        },
+        "after": {
+          "record": 71,
+          "lines": [
+            "\u0393 100 Res M\u30fbO\u30fbS\u30fbB20%",
+            "No Poss.",
+            "Stone\u30fbChrm\u30fbPsn\u30fbPara Imm",
+            "Key"
+          ],
+          "lengths": [
+            20,
+            8,
+            23,
+            3
+          ],
+          "total": 54,
+          "max_concat": 25,
+          "kind": 2,
+          "key_item": true,
+          "staging": {
+            "glyphs": 51,
+            "rows": 3,
+            "max_slot": 50
+          }
+        }
+      },
+      {
+        "kind": 2,
+        "record": 85,
+        "key_item": true,
+        "before": {
+          "record": 85,
+          "lines": [
+            "\u0393 9 \u2501 5 \u039b 5 Res B5%",
+            "Charm\u30fbPoison Half",
+            "Female Only     Key Item"
+          ],
+          "lengths": [
+            19,
+            17,
+            24
+          ],
+          "total": 60,
+          "max_concat": 17
+        },
+        "after": {
+          "record": 85,
+          "lines": [
+            "\u0393 9 \u2501 5 \u039b 5 Res B5%",
+            "Charm\u30fbPoison Half",
+            "Female Key"
+          ],
+          "lengths": [
+            19,
+            17,
+            10
+          ],
+          "total": 46,
+          "max_concat": 17,
+          "kind": 2,
+          "key_item": true,
+          "staging": {
+            "glyphs": 46,
+            "rows": 3,
+            "max_slot": 45
+          }
+        }
+      }
+    ]
+  },
+  "runtime_menu_verified": false,
+  "reported_weapon_record": 26,
+  "reported_weapon": "Black Rose Knife"
+}
