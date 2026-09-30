@@ -19,7 +19,7 @@ def main():
     commit=subprocess.check_output(['git','-c','safe.directory='+ROOT.as_posix(),'rev-parse','HEAD'],text=True).strip()
     config=dict(game_id='summon-night-3',game_name='Summon Night 3',platform='PSP',version='0.1.52',source_commit=commit,patches=[])
     sources=[('original',ROOT/'work/source/original.iso','SN3-English-v0.1.52.xdelta')]
-    sources += [(v,ROOT/f'work/output/{v}/Summon_Night_3_EN_{v}.iso',f'SN3-English-v{v}-to-v0.1.52.xdelta') for v in ('0.1.41','0.1.42','0.1.51')]
+    sources += [(v,ROOT/f'work/output/{v}/Summon_Night_3_EN_{v}.iso',f'SN3-English-v{v}-to-v0.1.52.xdelta') for v in ('0.1.41',)]
     for version,source,name in sources:
         config['patches'].append(dict(patch=name,edition='Japanese NPJH50380',language='en',source_version=version,source_format='iso',target_format='iso',source=str(source),target=str(target)))
     out=ROOT/'work/output/release-v0.1.52'
@@ -30,6 +30,6 @@ def main():
     config_path=ROOT/'work/scratch/release052-config.json';config_path.write_text(json.dumps(config,indent=2),encoding='utf8')
     build_release(config_path,out,cache=ROOT/'work/scratch/release041-cache')
     validate_directory(out)
-    print('All four patches passed full round-trip verification.',flush=True)
+    print('Both release patches passed full round-trip verification.',flush=True)
 
 if __name__=='__main__':main()

@@ -48,7 +48,8 @@ remains tied to its original build.
 ## Release artifacts
 
 The canonical Retro Trans release workflow creates patches from the clean
-Japanese source, published v0.1.41, and local test builds v0.1.42 and v0.1.51.
+Japanese source and the preceding published release, v0.1.41.
+Local test-build upgrades were withdrawn from the release on 2026-09-30.
 Each patch is decoded and the complete target SHA-256 checked. The public
 BUILD-MANIFEST.json records source/target hashes, patch hashes and source commit;
 VALIDATION.json records the round trips. Versioned README, changelog and

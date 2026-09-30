@@ -24,3 +24,16 @@ This is an ISO/catalog/engine test, not a GUI or CHD test. Gameplay limitations
 remain those in RELEASE_0.1.52.md. The immutable release tag points to source
 commit `1df372420f4dae509fc63eeec73f1350867dec82`; this post-publication report
 is a later repository update.
+
+## Release asset cleanup, 2026-09-30
+
+The original publication checks above describe the initial four-patch package.
+The release now retains only the original patch and the preceding published
+release upgrade (v0.1.41). The v0.1.42 and v0.1.51 upgrade assets are withdrawn;
+their catalog identities remain recorded as withdrawn. The two retained patches
+and target ISO are unchanged. Release metadata and checksum lists are updated.
+
+All nine remaining public assets match the prepared package by size and
+SHA-256. The targeted catalog validation passed after withdrawal:
+https://github.com/retro-trans/retro-trans-tools/actions/runs/36661548093 .
+The release cleanup preserves the earlier retained-patch round-trip evidence.

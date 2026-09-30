@@ -27,11 +27,9 @@ catalog, and select your unpacked source ISO. Manual Apply xdelta and
 |---|---|
 | Clean Japanese NPJH50380 | `SN3-English-v0.1.52.xdelta` |
 | English v0.1.41 | `SN3-English-v0.1.41-to-v0.1.52.xdelta` |
-| English v0.1.42 | `SN3-English-v0.1.42-to-v0.1.52.xdelta` |
-| English v0.1.51 | `SN3-English-v0.1.51-to-v0.1.52.xdelta` |
 
 Use the exact source version and keep checksum verification enabled.
-All four patches are round-trip verified with the Retro Trans engine.
+Both release patches are round-trip verified with the Retro Trans engine.
 [Public Automatic-mode verification](docs/RETRO_TRANS_0.1.52.md) also passed
 for the v0.1.41-to-v0.1.52 upgrade.
 

@@ -2,6 +2,9 @@
 
 ## 0.1.52 - Cooking title alignment, 2026-09-30
 
+- Release packaging: retain only original-to-v0.1.52 and published v0.1.41-to-v0.1.52 patches; withdraw local-test upgrade assets and synchronize the catalog and checksums.
+- Add a local v0.1.47 to v0.1.52 upgrade xdelta; verify both input ISO hashes
+  and the complete reconstructed v0.1.52 ISO against its released SHA-256.
 - Center Pirate Lunch and all 29 recipe titles by their proportional ink width
   inside the existing orange banner. Only the recipe-title renderer call changes.
 - Execute the existing centered packer for every title at two relocated load
