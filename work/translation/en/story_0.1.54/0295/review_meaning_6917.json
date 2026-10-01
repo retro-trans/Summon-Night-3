@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_6917.targets.json",
+  "target_file_sha256": "36607648f002be05c58fec781f5eacf4793db7366d7130db8f9e87fb1f6942fa",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6917,
+      6996
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6916,
+      6997
+    ]
+  ],
+  "rows_examined": 82,
+  "vm_group_verification": {
+    "method": "Every row was checked against reference-instruction groups. Consecutive instructions spaced by 8 form one group; all proposed text is self-contained within its group."
+  },
+  "corrections": [
+    {
+      "resource_row": 6944,
+      "source_sha256": "de84ed08ff155469e12c117553307365b0d324696d4fabedc9c8a1df6a847e71",
+      "before": "I do not wish",
+      "text": "I do not wish",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 6945,
+      "source_sha256": "afac040c049a4f81997614d0ec3ab761ef388568542c48213132e296d9465990",
+      "before": "to keep wasting time,",
+      "text": "to keep wasting time,",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 6946,
+      "source_sha256": "d0fac9ebbbc5982a47f8edd77f31e078b16a1c65207cdb04b0b931b88060110b",
+      "before": "so today",
+      "text": "so I cannot tolerate it.",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 6947,
+      "source_sha256": "056e4bab0a9a67dc728a6ee1cdc234cbcec1b8bc55b585b7842dbb451872083f",
+      "before": "I will take the sword",
+      "text": "Today, I will take the sword",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 6948,
+      "source_sha256": "306c9e1d4d71b72195f05a99e23a83822a74db21fd13bf2355aec1e5c7433af8",
+      "before": "back from you!",
+      "text": "back from you!",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 6970,
+      "source_sha256": "091d4c3750edc2eb33c0b27fe0156059edaf08f166a9dbb0b0025de7e30223f2",
+      "before": "If that is true,",
+      "text": "If that is true,",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 6971,
+      "source_sha256": "f6d0fbfca5e9c17320ee30f60e139645517a202a7314bdccd94d2a73c2f53d91",
+      "before": "then all the more",
+      "text": "then...",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 6972,
+      "source_sha256": "bb86760adfffec3fdaa582079cfe704c0e0a273a7f72cc7d4f5ea1fefa2d1128",
+      "before": "we cannot",
+      "text": "all the more, we",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 6973,
+      "source_sha256": "9fb1f4941d53c753eb908d46875c7c31abf04ad53952e4b8229db71720de7d3d",
+      "before": "forgive you!!",
+      "text": "cannot forgive",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 6974,
+      "source_sha256": "75f920c034d45cec869c8eadda96c6a773fe28b48a8cc9e588b2731c444f9418",
+      "before": "What!?",
+      "text": "you!!",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 6975,
+      "source_sha256": "d42d59c438a2947cef1dd04b88329ccfdde4851ac6c3f30b4ca4f9b85a198383",
+      "before": "What!?",
+      "text": "What!?",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 6976,
+      "source_sha256": "ab6a75b27bd21dd55945944651be9c578693c73eb57145a52d9c5b75749d6497",
+      "before": "Of course.",
+      "text": "What!?",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        6917,
+        6918,
+        6919,
+        6920,
+        6921,
+        6922,
+        6923,
+        6924,
+        6925,
+        6926,
+        6927,
+        6928,
+        6929,
+        6930,
+        6931,
+        6932,
+        6933,
+        6934,
+        6935,
+        6936,
+        6937,
+        6938,
+        6939,
+        6940,
+        6941,
+        6942,
+        6943,
+        6944,
+        6945,
+        6946,
+        6947,
+        6948,
+        6949,
+        6950,
+        6951,
+        6952,
+        6953,
+        6954,
+        6955,
+        6956,
+        6957,
+        6958,
+        6959,
+        6960,
+        6961,
+        6962,
+        6963,
+        6964,
+        6965,
+        6966,
+        6967,
+        6968,
+        6969,
+        6970,
+        6971,
+        6972,
+        6973,
+        6974,
+        6975,
+        6976,
+        6977,
+        6978,
+        6979,
+        6980,
+        6981,
+        6982,
+        6983,
+        6984,
+        6985,
+        6986,
+        6987,
+        6988,
+        6989,
+        6990,
+        6991,
+        6992,
+        6993,
+        6994,
+        6995,
+        6996
+      ],
+      "reason": "Full English utterances, stammers, pauses, and reactions were checked by VM display group; unchanged rows retain their source function."
+    }
+  ],
+  "notes": "Independent source, speaker-direction, and VM display-group review. This proof does not accept the resource or authorize a build."
+}

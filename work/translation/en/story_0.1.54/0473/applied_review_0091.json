@@ -1,0 +1,32 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0473/review_meaning_0091.json",
+  "review_sha256": "40ffcbacb4d262e63c0b531ea53a64c95ca8fa083b78ae6919567eaa70407c5a",
+  "target_file": "work/translation/en/story_0.1.54/0473/slice_0091.targets.json",
+  "target_before_sha256": "835861fa5ad0b7cee35fd917a22c259d7fde3c429dd0b337f4a5c8920fa060a3",
+  "target_after_sha256": "1d43f417d2c78dca8782cfb59fac9fcbfe6280fbbaf66ba0c05769d2817c5038",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      122
+    ],
+    "count": 32
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 91,
+      "before": "When that time comes, I'll go with you and help persuade them.",
+      "after": "",
+      "reason": "Row 91 is the internal continuation of the row 90-91 VM box. The complete English belongs to row 90; repeating it here duplicates the line."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        90,
+        91
+      ],
+      "issue": "The retained row 90 future promise says the protagonist will accompany Subaru and help persuade the parents. It is not an immediate-trip reading; row 91 is removed only because it duplicates that same VM box."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

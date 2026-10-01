@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00398",
+  "source_sha256": "a973ddf0afb84f2420a8487fa9c6114ac56be25757854b0cb31369694ef18d4d",
+  "target_file": "work/translation/en/story_0.1.54/0398/slice_0011.targets.json",
+  "target_file_sha256": "9d73d1ad738dd177b1c4faafd1e60765f3e4921e3bb517bc044ee9753f6e3537",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      151
+    ]
+  ],
+  "rows_examined": 142,
+  "corrections": [
+    {
+      "resource_row": 18,
+      "source_sha256": "2822617a09ab06f9cedf468b7a5ec4cb7e38dfa7ec1dc8f6f80f4ca26f04d3ed",
+      "text": "After all those lectures about not being reckless, why did you do something so reckless yourself?",
+      "reason": "Source is speaker being lectured; everyone unsupported."
+    },
+    {
+      "resource_row": 20,
+      "source_sha256": "2822617a09ab06f9cedf468b7a5ec4cb7e38dfa7ec1dc8f6f80f4ca26f04d3ed",
+      "text": "After all those lectures about not being reckless, why did you do something so reckless yourself?",
+      "reason": "Same direct complaint in female variant."
+    },
+    {
+      "resource_row": 39,
+      "source_sha256": "b6903c9dc68cf7b64ed764a43a3b75e7bafd1baf701d25b038143b41c1bf3c5d",
+      "text": "We can't properly protect each other unless we stay close...",
+      "reason": "Restore reciprocal object."
+    },
+    {
+      "resource_row": 84,
+      "source_sha256": "779ec39c755271394a53e7d285a2ae7146194cea40f6ba29ffc271c553742c61",
+      "text": "Now that the crew's scattered, we've got less tying us down. It's a good opportunity...",
+      "reason": "Free of them wrongly implies dislike of crew; source means greater freedom of movement."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared every full source/English VM box including both protagonist variants and slice boundaries. Correct copied variant dialogue, missing full boxes and omitted subjects before name normalization. No Japanese transcript retained."
+}

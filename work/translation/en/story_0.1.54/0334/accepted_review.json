@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00334",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0334/slice_0011.targets.json": "4f08c26e6cfb62af8abf8cc70d5d5e09e09a84c0439f4d46b1b4fadf4297e2f6"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0334/review_meaning_0011.json": "fbac020793c4dc7989b44584a56a6cd87f4612a7e24cae08c42c076725407de8",
+    "work/translation/en/story_0.1.54/0334/applied_review_0011.json": "6229ce505bca8b49dd96ea6a220e3d03eedc61b28cdfc588f3d8fe6ca0db330a"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [
+    {
+      "review": "review_meaning_0011.json",
+      "rows": [
+        37,
+        38
+      ],
+      "note": "Second independent full-scene source review by Terra chapter12_review supports Kyuuma and Subaru sharing Misumi's feelings; the protagonist's following plural acceptance supports retaining this reading. Root's alternative interpretation was rejected."
+    }
+  ],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness.",
+  "author_uncertainties": [
+    {
+      "target": "slice_0011.targets.json",
+      "note": "Row 13-14 of 334 uses beloved ones for an unnamed plural reference; no gendered English is inferred."
+    }
+  ]
+}

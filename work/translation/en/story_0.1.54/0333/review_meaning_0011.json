@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00333",
+  "source_sha256": "68f393b9db8daffedb4415b45edad5b41c9c6cf4ca142c0b3985eb4199ebd2b2",
+  "target_file": "work/translation/en/story_0.1.54/0333/slice_0011.targets.json",
+  "target_file_sha256": "d3d524c5795a0385dc0b1a55f9ba06eb40191deb89a5aff0615b3b9c4a7b7990",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      45
+    ],
+    "count": 35
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      45
+    ]
+  ],
+  "rows_examined": 36,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "note": "Explicit source pauses, cries and genuinely interrupted thought are retained, not filled out with invented conclusions."
+    }
+  ],
+  "notes": "Root independently compared every full VM group in the assigned dialogue and its boundary context. All correction groups reconstructed in memory before accepting the change."
+}

@@ -1,0 +1,60 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_4037.json",
+  "review_sha256": "0464fc819cedaeb26f32d5eecae23307973fb3aa6f263d1107f6b6a15a5e30e9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4037.targets.json",
+  "target_before_sha256": "6605b7b858a11b5d7ab2377d5d3c5583ce52398e1e2b2e4312f42e8b7911ebcf",
+  "target_after_sha256": "293073700108d8df57fc91e5c9365e96ed61786d5558965f6a31cbf6c9fd0565",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4037,
+      4116
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4045,
+      "before": "Perhaps I should",
+      "after": "Maybe",
+      "reason": "Restore the past-regret construction in the same box."
+    },
+    {
+      "resource_row": 4046,
+      "before": "investigate it with you",
+      "after": "I should have investigated it",
+      "reason": "Source regrets not joining the investigation already performed."
+    },
+    {
+      "resource_row": 4047,
+      "before": "after all...?",
+      "after": "with you after all...",
+      "reason": "Complete the past-regret sentence."
+    },
+    {
+      "resource_row": 4081,
+      "before": "We should keep watch on the Imperial Army",
+      "after": "I'm more concerned about the Imperial Army's",
+      "reason": "This is the speaker's concern, not an instruction to keep watch."
+    },
+    {
+      "resource_row": 4082,
+      "before": "at the moment.",
+      "after": "movements right now.",
+      "reason": "Restore the stated object of concern."
+    },
+    {
+      "resource_row": 4105,
+      "before": "feel indebted",
+      "after": "feel guilty",
+      "reason": "The betrayal context gives guilt, not gratitude or a debt."
+    },
+    {
+      "resource_row": 4106,
+      "before": "to all of you.",
+      "after": "toward all of you.",
+      "reason": "Complete the guilt construction with the correct English preposition."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

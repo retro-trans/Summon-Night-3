@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "root source consolidation after independent agent review",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_5328.targets.json",
+  "target_file_sha256": "2a3cb57419dde2ebec9fea16d5ead15a1dd86617008b6a00817ce4c24c6df059",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5328,
+      5407
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5325,
+      5410
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [
+    {
+      "resource_row": 5329,
+      "source_sha256": "fe700a0ad12e0b8e97e3d7c69ef4cb0cece03420b973dc46dbfe109455d1f859",
+      "text": "Become zero, neither",
+      "reason": "The paired sei/fu around zero is positive/negative, not life/death."
+    },
+    {
+      "resource_row": 5330,
+      "source_sha256": "dc2b2bd0d3b4fd88ec844d3c95616749bd46ac5b010817d511dc1243e91a1936",
+      "text": "positive nor negative...",
+      "reason": "Restores the positive/negative contrast around zero."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Full source VM groups read through EOF5825, including cross-slice groups. Original controls and physical music rows retained. Name-only changes deferred to scripted glossary normalization."
+}

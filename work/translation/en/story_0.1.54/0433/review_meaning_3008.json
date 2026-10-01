@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3008.targets.json",
+  "target_file_sha256": "041de5cd118e14d9a06a5e3b547f861fe1533e6a7830bcbdf12bb6a666c64420",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3008,
+      3087
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3005,
+      3090
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [
+    {
+      "resource_row": 3012,
+      "source_sha256": "18bfe0b874617f52d72872a70d6950ff6c474132340b357af9469ed12768f5d5",
+      "text": "my will, then it would be better",
+      "reason": "Dielgo is asserting his own will; second-person address reverses the possessor."
+    },
+    {
+      "resource_row": 3055,
+      "source_sha256": "a4aea51880b856dba2c95e19d38dd664b4365b1216189ea516c3e4f214c2c59a",
+      "text": "Why couldn't you keep believing in us",
+      "reason": "The reproach is failure to sustain trust, not belief withheld until a later time."
+    },
+    {
+      "resource_row": 3056,
+      "source_sha256": "392cdb6af31047cce1d4fcd30f816cb3874d6262792929a5286af00a76311f91",
+      "text": "to the very end...?",
+      "reason": "Keep the time span with the corrected predicate."
+    },
+    {
+      "resource_row": 3058,
+      "source_sha256": "a4834712858c291c05ae70196a182d5d84c1f54bdc921fb9c625e70f53cc82b2",
+      "text": "Why couldn't you keep believing in us",
+      "reason": "Same female-protagonist reproach; preserve sustained-trust meaning."
+    },
+    {
+      "resource_row": 3059,
+      "source_sha256": "392cdb6af31047cce1d4fcd30f816cb3874d6262792929a5286af00a76311f91",
+      "text": "to the very end...?",
+      "reason": "Keep the time span with the corrected predicate."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        3054
+      ],
+      "reason": "Why is developed in the next protagonist-variant box."
+    },
+    {
+      "rows": [
+        3086,
+        3087
+      ],
+      "reason": "Unfinished alarm about Teacher's intent."
+    }
+  ],
+  "notes": "Independent source-first review of every actual VM group and both-side context. Proper-name and world-concept normalization follows meaning fixes. Internal continuations retain text only within their own source VM box."
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3248.targets.json",
+  "target_file_sha256": "1d0790b3d5a2bbfba587a4faec5e054d7a6b1cd15e8242ca41ba27d6bc5c892e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3248,
+      3327
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3245,
+      3328
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [
+    {
+      "resource_row": 3300,
+      "source_sha256": "04ed990b4fb2b657a0dd6e7d85826a070020a69f1b44d4686b4434b41d1df600",
+      "text": "to the master",
+      "reason": "The one familiar is being sent back to its one beloved master; plural masters is unsupported."
+    },
+    {
+      "resource_row": 3326,
+      "source_sha256": "21bbf9c0ff77a2d4d1889c9a9690096eb32e3772daa525ffb8dc548f8f051d53",
+      "text": "Please let me come...",
+      "reason": "Restore explicit request to accompany, settled by3319–3325."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        3248,
+        3249,
+        3250,
+        3251,
+        3252,
+        3253
+      ],
+      "reason": "Same unfinished realization about familiar's presence."
+    },
+    {
+      "rows": [
+        3316,
+        3317,
+        3318
+      ],
+      "reason": "Completes the thanks from previous box."
+    }
+  ],
+  "notes": "Independent source-first review of every actual VM group and both-side context. Proper-name and world-concept normalization follows meaning fixes. Internal continuations retain text only within their own source VM box."
+}

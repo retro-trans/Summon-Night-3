@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00279",
+  "source_sha256": "2e7f951c17e9c5a631202f46d2dd8b27e72321de39137de100b2334f4def1661",
+  "target_file": "work/translation/en/story_0.1.54/0279/slice_0011.targets.json",
+  "target_file_sha256": "ea97e4475640a95b96d477dec765f2ce8945b2d6b9aacdc776ddad67a91824f3",
+  "reviewed_rows": {"range_inclusive": [28, 35], "count": 8},
+  "source_ranges_examined": [[28, 35]],
+  "rows_examined": 8,
+  "corrections": [
+    {"resource_row": 32, "source_sha256": "c17a07e74801c88f437ead57ba2ade3e3c20c168111c927d888998fe5ade9f19", "text": "I cannot very well tell the truth,", "reason": "The inner thought omits an indirect object. Although the listener asked the preceding question, the source does not direct this thought to them; current 'you' adds an unsupported recipient."},
+    {"resource_row": 34, "source_sha256": "625729218fc9910d111025caf57850ae87b03daf6136d820c75df1c98a9f883d", "text": "I cannot very well tell the truth,", "reason": "The paired protagonist branch has the same omitted recipient; retain that omission in English."}
+  ],
+  "uncertainties": [],
+  "omissions": [{"rows": [32, 33, 34, 35], "reason": "Physical thought continuation. The subject is known, but the source omits a recipient; the correction keeps that recipient unspoken."}],
+  "notes": "Supplemental consistency review. The original source, not target wording, establishes that neither branch names a recipient."
+}

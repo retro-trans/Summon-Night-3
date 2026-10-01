@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00253",
+  "source_sha256": "338ecd4c8ea61476b9d4b58f3cceb041a64860f35f9ff49f545a0bc80674cf3e",
+  "target_file": "work/translation/en/story_0.1.54/0253/slice_0091.targets.json",
+  "target_file_sha256": "65a6e69f403fdc01d9d114e903ae65704f05dc9dbc471dd0c638a67bb12b9ee1",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [91, 99],
+    "count": 9
+  },
+  "source_ranges_examined": [[0, 99]],
+  "rows_examined": 100,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [94, 95, 96, 97, 98, 99],
+      "issue": "The closing reassurance uses parallel protagonist variants without a supplied gender marker. The targets keep both variants aligned and do not add unsupported gender information."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [91, 93, 94, 96, 97, 99],
+      "reason": "The authored English retains the pauses and emotional continuation in the closing reassurance."
+    },
+    {
+      "rows": [92, 93, 95, 96, 98, 99],
+      "reason": "Physical continuation rows were checked as complete adjacent statements; the English joins each statement without omitting its conclusion."
+    }
+  ],
+  "notes": "Reviewed the original resource with full 0-99 context. No meaning correction is required. This proof is bound only to the tail target file and does not accept the resource or bind any separate slice."
+}

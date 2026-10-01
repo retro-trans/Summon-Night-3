@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2048.targets.json",
+  "target_file_sha256": "7dc5eb50ae6b1c3d963bbbc99cba32bd2f086b20890e01046197d9c054272abf",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2048,
+      2127
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2046,
+      2129
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        2048,
+        2050,
+        2053,
+        2054,
+        2056,
+        2057,
+        2059,
+        2061,
+        2062,
+        2064,
+        2065,
+        2067,
+        2068,
+        2074,
+        2075,
+        2077,
+        2079,
+        2080,
+        2082,
+        2083,
+        2085,
+        2087,
+        2089,
+        2091,
+        2093,
+        2095,
+        2097,
+        2099,
+        2101,
+        2103,
+        2104,
+        2106,
+        2107,
+        2113,
+        2114,
+        2116,
+        2117,
+        2119,
+        2120
+      ],
+      "reason": "Physical VM continuation fragments; each complete source-box meaning is retained in its first aligned English fragment."
+    }
+  ],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context. The current English preserves the final-lesson challenge, graduation-test threshold, protagonist/pupil variants, and the lesson that anyone may have to fight an opponent they cannot beat. Group2046–2048 remains owned at row2046; row2128 is future-slice content. No correction is proposed."
+}

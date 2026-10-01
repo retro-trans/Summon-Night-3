@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_1968.targets.json",
+  "target_file_sha256": "1ff3cc0a55d7eff900de82d34bf5b702bf9a55f1d7e5cf92443368c0f6fd3e87",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1968,
+      2047
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1967,
+      2048
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 2000,
+      "source_sha256": "42166124ac8539363efc975fafedab63a9aa23e9ed811653bbd308e37e2d3789",
+      "text": "I was asked to come fetch you both.",
+      "reason": "Speaker approaches the pair to take them back to the requester; 'bring you both here' wrongly fixes destination at current location."
+    },
+    {
+      "resource_row": 2047,
+      "source_sha256": "9103aa8b14085871b875016cf76954c07732a95de327428cdcec20c60c59b7ca",
+      "text": "What are you doing?",
+      "reason": "Postposed Japanese subject completes the question; it does not begin an unfinished second utterance. Parallel group2027–2028 confirms."
+    }
+  ],
+  "name_normalization_requested": [
+    {
+      "rows": [
+        1984,
+        1986
+      ],
+      "from": "Barler",
+      "to": "Bulrell",
+      "reason": "Primary gallery spelling normalization only."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        1969,
+        1972,
+        1984,
+        1996,
+        2010,
+        2016
+      ],
+      "issue": "Hasaha, Bulrell, Resi, Forte, and Keina use primary-gallery spellings; no gender is inferred from names."
+    }
+  ],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM groups and boundary context. No meaning correction found.",
+  "root_source_review": {
+    "reviewer": "root",
+    "source_ranges_examined": [
+      [
+        1967,
+        2049
+      ]
+    ],
+    "notes": "All complete VM groups read against source, including both boundaries; meaning corrections added before any application or name normalization."
+  }
+}

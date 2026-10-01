@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "root source consolidation after independent agent review",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_5248.targets.json",
+  "target_file_sha256": "1c3af07fbabd38a090cbef1b164e9a1eb806b2b2661f14412307b22a2529fcbb",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5248,
+      5327
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5245,
+      5330
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [
+    {
+      "resource_row": 5325,
+      "source_sha256": "6c7fc7237314a350262bcee4bbf51abdd2b0c14b1c11362e6a21be832a434520",
+      "text": "Light and darkness are always one.",
+      "reason": "Restores the explicit oneness clause, followed by inability to separate them."
+    },
+    {
+      "resource_row": 5326,
+      "source_sha256": "a02d1ac7ad07b1d01d03c3d1a8fee969a9e2bb29028f9b20009a6a7192ad2d6d",
+      "text": "They can never",
+      "reason": "Continue the same original VM box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Full source VM groups read through EOF5825, including cross-slice groups. Original controls and physical music rows retained. Name-only changes deferred to scripted glossary normalization."
+}

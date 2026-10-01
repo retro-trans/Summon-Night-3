@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_1968.json",
+  "review_sha256": "f6dd5f2a1721a8149436146acd48eabd7878cb6e898536fa72dfecec3f3d176b",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_1968.targets.json",
+  "target_before_sha256": "1ff3cc0a55d7eff900de82d34bf5b702bf9a55f1d7e5cf92443368c0f6fd3e87",
+  "target_after_sha256": "cc0ec2055082dd31424f81c97d8a4beb73eaf876bbfbce6e3b9f6e61b9f94bf1",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1968,
+      2047
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2000,
+      "before": "I was asked to bring you both here.",
+      "after": "I was asked to come fetch you both.",
+      "reason": "Speaker approaches the pair to take them back to the requester; 'bring you both here' wrongly fixes destination at current location."
+    },
+    {
+      "resource_row": 2047,
+      "before": "What are you doing? You...",
+      "after": "What are you doing?",
+      "reason": "Postposed Japanese subject completes the question; it does not begin an unfinished second utterance. Parallel group2027–2028 confirms."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        1969,
+        1972,
+        1984,
+        1996,
+        2010,
+        2016
+      ],
+      "issue": "Hasaha, Bulrell, Resi, Forte, and Keina use primary-gallery spellings; no gender is inferred from names."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

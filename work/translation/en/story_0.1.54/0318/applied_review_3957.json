@@ -1,0 +1,46 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_3957.json",
+  "review_sha256": "04a064c72c59c06628493f16eac90389d1d4c9ac292b64be57e4f462cc33ac28",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_3957.targets.json",
+  "target_before_sha256": "59c43430772b4291025e7d396af0b418f4426f6b6b6c71c7b78a48b509b01693",
+  "target_after_sha256": "e407ee66fd0e8f8651c8521147c589cb42af6999be2adcc6801f27a6e5e3ae88",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3957,
+      4036
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3960,
+      "before": "To be frank, I have to give up.",
+      "after": "Frankly,",
+      "reason": "Remove redundant surrender statement; the source has only one admission of being at a loss."
+    },
+    {
+      "resource_row": 3961,
+      "before": "We should abandon it.",
+      "after": "I'm at my wits' end.",
+      "reason": "Source is an admission, not an order to abandon the objective."
+    },
+    {
+      "resource_row": 4012,
+      "before": "Unless we use a sword like yours",
+      "after": "Unless you use the power of your sword",
+      "reason": "Restore the listener's sword use rather than changing the acting party to the Guardians."
+    },
+    {
+      "resource_row": 4013,
+      "before": "to exert power on them",
+      "after": "to act on the ruins",
+      "reason": "Retain the explicit object of direct interference."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "note": "The will of the ruins is descriptive rather than a verified named term; singular Guardian in4264–4266 is retained because the source does not establish a plural correction."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

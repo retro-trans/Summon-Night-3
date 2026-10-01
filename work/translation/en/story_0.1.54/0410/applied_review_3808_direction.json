@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_3808_direction.json",
+  "review_sha256": "3d4316e1dfd07ee568ce6013d38002b1f3a11a1efdc2274907dcc71010226c2e",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3808.targets.json",
+  "target_before_sha256": "848aabef9fc379e018ef93221a8c6f1be76a01b445de1e6ae9d59d650ceca773",
+  "target_after_sha256": "ae4d21d5c83050cca59fcddc1a69ff10115979043095539d76d7de466d3a5e1c",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3808,
+      3808
+    ],
+    "count": 1
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3808,
+      "before": "were chosen as candidates...",
+      "after": "",
+      "reason": "The preceding supplemental correction at row 3807 now contains the complete VM-box translation; clear this continuation to prevent duplicate text."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,31 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0268/review_meaning_0011.json",
+  "review_sha256": "e88230f668f017cfe8d7461ce203243131e60cca5fd7cf9f655872b25df21dd5",
+  "target_file": "work/translation/en/story_0.1.54/0268/slice_0011.targets.json",
+  "target_before_sha256": "63a5354fd881686a0d11e5274d3f250c1b106f5eb5b67977066b5901ccaa336e",
+  "target_after_sha256": "7009c915833159257dbcc8f3fdd3c1db73be155bf0a14603bae5c1af30e02e7f",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      51
+    ],
+    "count": 41
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 32,
+      "before": "he said.",
+      "after": "Yafha said.",
+      "reason": "The source identifies Yafha as the speaker but supplies no pronoun. story_context_0.1.54_part_c records Yafha's gender as unknown with no source evidence, so a name preserves the established referent without unsupported gender."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        32
+      ],
+      "issue": "Yafha is the explicit source referent. The consulted part_c context records gender as unknown, so the correction uses the name rather than an inferred pronoun."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

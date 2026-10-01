@@ -1,0 +1,29 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_4448_root_final.json",
+  "review_sha256": "9ac260b34441604621b54ddd70026309c9ce9de3d37cde50fda0e65370726972",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4448.targets.json",
+  "target_before_sha256": "a2deb7d461231e518f4f51af798a808fc4264d269b2268c0f2fbdd161aa490a1",
+  "target_after_sha256": "aeae75839a4a81ef57cbbae7688b9d629416c9875a4fdd54baaa43a5e0c8ce90",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4448,
+      4527
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4519,
+      "before": "Do you two Piko-Piko dislike lively things?",
+      "after": "Piko-Piko, do you and the others dislike lively things?",
+      "reason": "The source addresses a nicknamed person and their companions, not two people with the same nickname."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "resource_row": 4519,
+      "issue": "Piko-Piko nickname identity remains for terminology review; plural companions resolved from context, no duplicated nickname holders assumed."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

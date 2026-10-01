@@ -1,0 +1,33 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_groups_4757.json",
+  "review_sha256": "cffc72a022379d0ed7f912bea5eb66f72e94503fab8f9430f2400cfbc5045c15",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4757.targets.json",
+  "target_before_sha256": "12a94c97387946cfe068befce5c6c0811498c90c8eb1e94ac28447b091f00469",
+  "target_after_sha256": "e21efd94b25a892f52714f735e3114d2c2a29449a212be233a7abcc490093a91",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4757,
+      4836
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4758,
+      "before": "do not tell her",
+      "after": "do not tell Big Bro",
+      "reason": "Ohkini asks that Jakini not be told, not Sharry. Compare resource341 rows3351–3361 and364 rows3557–3571, where the same address is directed at his sworn elder brother/captain."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        4757,
+        4758,
+        4759
+      ],
+      "reason": "The dialect address is resolved as the sworn elder brother Jakini using repeated source scenes and the character relationship reference, not the nearby female name."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

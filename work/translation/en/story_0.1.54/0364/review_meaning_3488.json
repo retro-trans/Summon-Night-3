@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_3488.targets.json",
+  "target_file_sha256": "17e7b4303af6c283faf206769d4be21cb84e921104d3a5180ed1a151ef3a70f1",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3488,
+      3567
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    3478,
+    3578
+  ],
+  "rows_examined": 101,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        3507,
+        3510
+      ],
+      "issue": "Teacher honorific is naturally represented as Mister or Miss Teacher in the paired protagonist variants."
+    }
+  ],
+  "omissions": [],
+  "notes": "Independent reviewer compared source and authored English with neighboring context. No semantic corrections are needed."
+}

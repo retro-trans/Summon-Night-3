@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6997.targets.json",
+  "target_file_sha256": "784b38204db1cbc1a118c19c50eac520ac793f27deb11c93c19ea0967e3caf1b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6997,
+      7072
+    ],
+    "count": 76
+  },
+  "source_ranges_examined": [
+    [
+      6995,
+      7072
+    ]
+  ],
+  "rows_examined": 78,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independently compared each actual VM dialogue group with both-side context; preserved source control tokens per row and reported only semantic corrections.",
+  "metadata_repair": {
+    "reason": "Resource ends at row7072; correct inherited 80-row template metadata to the actual 76-row tail. Translation changes and target hashes are unchanged.",
+    "previous_record": "work/translation/en/story_0.1.54/0318/review_history/review_meaning_6997.json",
+    "previous_record_sha256": "d6418eb8cc42d0b8d004fda88c7e38b3331b74dbf8ace5c0ae221931cb45ccd5"
+  }
+}

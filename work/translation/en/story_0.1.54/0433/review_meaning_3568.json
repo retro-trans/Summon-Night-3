@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3568.targets.json",
+  "target_file_sha256": "0336f8462a513c56462684f66a05c4aada404a809892a780ffc9a016b4fb3e86",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3568,
+      3647
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3567,
+      3648
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 3610,
+      "source_sha256": "c742aa54de1ca29f17968cf227494b0844eb789c4b2dc6642540e187e5a78fb2",
+      "text": "It is not impossible to fulfill the dream you desire without giving anything up.",
+      "reason": "Separates the 3610–3612 wish-fulfillment statement from the following hope box."
+    },
+    {
+      "resource_row": 3613,
+      "source_sha256": "7a8a1587361b2fb6896a33550c7f028d386ef404072cf016ed914626e4e6d6fd",
+      "text": "You showed a light of hope to my despairing heart.",
+      "reason": "Restores the wholly blank 3613–3615 hope box."
+    },
+    {
+      "resource_row": 3643,
+      "source_sha256": "57f9ebcf0dd246ccda1c1198578288f4c9aabec4a0a14871b686b40115a74315",
+      "text": "If you keep moping, I will not be able to go to the other side in peace...",
+      "reason": "Restores Rikuto as the speaker who cannot depart in peace while Kyuuma keeps wavering."
+    },
+    {
+      "resource_row": 3646,
+      "source_sha256": "3a4487753af380fb4b5a05715e4da357c565ce645e1d4f104243830bd24fa490",
+      "text": "And tell my wife and child to live well, too.",
+      "reason": "Restores Rikuto’s final request, including the additive も (too), without adding unsupported tone."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        3592,
+        3593,
+        3594
+      ],
+      "issue": "Terminology-only: source 核識 appears as “Core Mark”; current story_core_terms_0.1.54 locks Core Cognizance. Defer to scoped normalization."
+    },
+    {
+      "rows": [
+        3640,
+        3641,
+        3649
+      ],
+      "issue": "Name-only: リクト appears as Rikto; chapter48_additions_0.1.14 locks Rikuto. Defer to scoped normalization."
+    }
+  ],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context. Restores separate 3610–3612 and 3613–3615 VM-box meanings. Rows 3643–3648 are Rikuto’s quoted message relayed to Kyuuma; speaker and family referents were checked against chapter48_additions_0.1.14."
+}

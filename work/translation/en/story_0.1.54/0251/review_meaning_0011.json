@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00251",
+  "source_sha256": "b1490a1a9ee300bee93bfc934be2bf37196b3f9d981b34f6f57b26382a241e1e",
+  "target_file": "work/translation/en/story_0.1.54/0251/slice_0011.targets.json",
+  "target_file_sha256": "b0229e51f84c24aa0dba6a4e168766c6d7ce34ba799c185ca7935c474ca1f979",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [11, 90],
+    "count": 80
+  },
+  "source_ranges_examined": [[0, 101]],
+  "rows_examined": 102,
+  "corrections": [
+    {
+      "resource_row": 71,
+      "source_sha256": "50548b893c3750eee948e3e244eb2982b7a208202e2173318811bf95c5b922c5",
+      "before": "Maybe it's okay",
+      "text": "Isn't it okay",
+      "after": "Isn't it okay",
+      "reason": "The source is an affirmative rhetorical question that reassures the listener that self-direction is acceptable. 'Maybe' weakens that reassurance; the parallel variant immediately below confirms the intended sense."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [62, 63, 64, 65, 66, 67, 68, 69],
+      "issue": "The speaker's resolve is expressed broadly, without specifying a particular future regret or outcome. The existing generic plural wording preserves that breadth, so no additional correction is proposed."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [23, 24, 25, 27, 31, 40, 42, 43, 45, 61, 67, 70, 83],
+      "reason": "Pauses, repetitions, reactions, and hesitation are retained in English with their conversational function intact."
+    },
+    {
+      "rows": [11, 12, 13, 14, 17, 18, 21, 22, 24, 25, 28, 29, 30, 31, 32, 33, 36, 37, 38, 39, 40, 41, 43, 44, 47, 48, 50, 51, 53, 54, 55, 56, 57, 58, 59, 60, 62, 63, 64, 65, 66, 67, 68, 69, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 84, 85, 86, 87, 88, 89, 90],
+      "reason": "Physical continuation rows were reviewed as complete adjacent statements. The English restores necessary subjects and verbs without dropping the ending of a thought."
+    },
+    {
+      "rows": [15, 16, 17, 18, 19, 20, 21, 22, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 58, 59, 60, 62, 63, 64, 65, 66, 67, 68, 69, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 84, 85, 86, 87, 88, 89, 90],
+      "reason": "Parallel protagonist variants and teacher variants were checked together. The targets preserve their distinct forms without adding unsupported gender information."
+    }
+  ],
+  "notes": "Reviewed the original resource with full 0-101 context. Row 71 requires one meaning correction; terminology and established character spellings were preserved. This review does not accept the resource or authorize a build."
+}

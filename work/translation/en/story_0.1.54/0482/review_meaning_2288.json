@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2288.targets.json",
+  "target_file_sha256": "640fcd5efd8a3bd943ac06bb5c9b3c412748149416d05654b03caca80c7f350a",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2288,
+      2367
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2285,
+      2368
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [],
+  "name_normalization_requested": [],
+  "uncertainties": [
+    {
+      "rows": [
+        2313,
+        2327
+      ],
+      "issue": "The player placeholder and Teacher are preserved on their source rows; no name normalization was proposed."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        2316,
+        2320
+      ],
+      "issue": "The speaker's warning deliberately carries across adjacent complete VM boxes; both boxes retain their own English text."
+    }
+  ],
+  "notes": "Independent source-first review of full VM groups and both boundary groups. No meaning correction found."
+}

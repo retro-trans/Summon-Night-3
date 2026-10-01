@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_4437.json",
+  "review_sha256": "216cd2106256fe9f1e17889e95b1d20d996c25b84c8cf008d42da510e29dd91b",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4437.targets.json",
+  "target_before_sha256": "890aa9c7752c6644699cb000a0df9d652e115298a1d2db4ee6909068ef786a8b",
+  "target_after_sha256": "e561d4a4df950db139dd98eecf3155de57f303d3bd006ecd30cb3f755aa87e7e",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4437,
+      4516
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4447,
+      "before": "what we wanted...",
+      "after": "about our circumstances...",
+      "reason": "The source says Kyuuma left without asking about the group’s circumstances; the current wording changes that to their wishes."
+    },
+    {
+      "resource_row": 4456,
+      "before": "to stay there?",
+      "after": "to keep this up?",
+      "reason": "The source asks how long Kyuuma intends to continue acting this way, rather than how long they will remain in a place."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

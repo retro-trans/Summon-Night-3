@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_5248_root_final.json",
+  "review_sha256": "f4f1ace3e19e9a56a31299ddc97ebff4cfb2612a94a1e2306290470af3b3760c",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_5248.targets.json",
+  "target_before_sha256": "1c3af07fbabd38a090cbef1b164e9a1eb806b2b2661f14412307b22a2529fcbb",
+  "target_after_sha256": "d4b7fd8e72904e25b5ad7cfdfe052bcd6e880ef5abb529fd67d1f736e6dedc18",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5248,
+      5327
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5325,
+      "before": "Light and darkness",
+      "after": "Light and darkness are always one.",
+      "reason": "Restores the explicit oneness clause, followed by inability to separate them."
+    },
+    {
+      "resource_row": 5326,
+      "before": "can never",
+      "after": "They can never",
+      "reason": "Continue the same original VM box."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

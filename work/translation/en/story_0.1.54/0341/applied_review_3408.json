@@ -1,0 +1,28 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0341/review_meaning_3408.json",
+  "review_sha256": "5e6dd3a033d8acb2d5c92dccabc54359c93ba23b5596b292bc3685675d893de1",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_3408.targets.json",
+  "target_before_sha256": "d387e7ac027515ee0bf806d677b45b7772fdf77d2b1136b8cd7f14c26b5310f0",
+  "target_after_sha256": "3dbd062bfad8117d38a9f10212a7abf875e07a7512f58405988c131435ba92d1",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3408,
+      3487
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3439,
+      "before": "Still, you did not choose this fate either, did you, \"Prince of Thorns\"...",
+      "after": "Still, you did not choose this fate either, did you, \"Lady of Thorns\"...",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "note": "Lady of Thorns and Coral Viper are provisional English title renderings. Japanese titles and Hazel identity are corroborated by https://w.atwiki.jp/sn3psp/pages/21.html and https://w.atwiki.jp/aniwotawiki/pages/16123.html; no authoritative English title found."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

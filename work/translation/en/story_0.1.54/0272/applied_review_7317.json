@@ -1,0 +1,40 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0272/review_meaning_7317.json",
+  "review_sha256": "569f2f3c9c946f86d891d641425c06528c4eda381b1eceee35952eec6e3370c8",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_7317.targets.json",
+  "target_before_sha256": "f3fa540ed19fd0d8f3695a9cb4ce5b8ee5fbcf411d5e40374f3bcaa31c932bf5",
+  "target_after_sha256": "bee8f03a3d5ff0333cc28158f3f8fbda1d2d4aad156632564ed4c8acce21978e",
+  "reviewed_rows": {
+    "range_inclusive": [
+      7317,
+      7396
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 7351,
+      "before": "Shall we go back?",
+      "after": "Shall we go back?",
+      "reason": "The source says to return and convey Subaru's true feelings to his mother. The current English instead makes Subaru the recipient of an explanation of his own feelings."
+    },
+    {
+      "resource_row": 7352,
+      "before": "Let us go back and tell",
+      "after": "Let us go back and tell",
+      "reason": "The source says to return and convey Subaru's true feelings to his mother. The current English instead makes Subaru the recipient of an explanation of his own feelings."
+    },
+    {
+      "resource_row": 7353,
+      "before": "Subaru how you really feel.",
+      "after": "your mother how you truly feel, Subaru.",
+      "reason": "The source says to return and convey Subaru's true feelings to his mother. The current English instead makes Subaru the recipient of an explanation of his own feelings."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

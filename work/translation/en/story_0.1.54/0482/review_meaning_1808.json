@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_1808.targets.json",
+  "target_file_sha256": "17a7417e7c0d368479f81d49405eef604462518f5d827bde7d87de9ff726736d",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1808,
+      1887
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1806,
+      1888
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 1819,
+      "source_sha256": "28cb71b9de6fc977999e78ac4b90c53c2fbe9e021659f7d1be23a708a5da4bdd",
+      "text": "Please... live.",
+      "reason": "The line is Azlier's remembered plea that the protagonist live, not the protagonist asking whether they are alive."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups. Proper names deferred to normalizer. Corrected Azlier's plea at row 1819 after re-reading its scene context.",
+  "name_normalization_requested": [
+    {
+      "rows": [
+        1835,
+        1836
+      ],
+      "source_term": "適格者",
+      "requested_term": "the Qualified",
+      "note": "Name/term normalization must run after meaning review."
+    }
+  ]
+}

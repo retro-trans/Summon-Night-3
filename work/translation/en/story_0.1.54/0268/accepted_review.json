@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00268",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0268/slice_0011.targets.json": "7009c915833159257dbcc8f3fdd3c1db73be155bf0a14603bae5c1af30e02e7f"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0268/review_meaning_0011.json": "e88230f668f017cfe8d7461ce203243131e60cca5fd7cf9f655872b25df21dd5",
+    "work/translation/en/story_0.1.54/0268/applied_review_0011.json": "a70ea71939d0f47b722fd321f469c7d1dc89240633fd3bba8dec9b5fa88eb487"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [
+    {
+      "review": "review_meaning_0011.json",
+      "rows": [
+        32
+      ],
+      "issue": "Yafha is the explicit source referent. The consulted part_c context records gender as unknown, so the correction uses the name rather than an inferred pronoun."
+    }
+  ],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness."
+}

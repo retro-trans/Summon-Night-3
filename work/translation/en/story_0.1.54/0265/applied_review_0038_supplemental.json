@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0265/review_meaning_0038_supplemental.json",
+  "review_sha256": "30f57a696f4bb6d5a2a46e69a7d65be6130b64fe27796ced7129356c88335607",
+  "target_file": "work/translation/en/story_0.1.54/0265/slice_0011.targets.json",
+  "target_before_sha256": "3cd125e76630f9761d865268a6ce990daba35813108c18c6cbb517f79c19b76e",
+  "target_after_sha256": "042e24bfa751c5395210f879ad0379086730e876256b5b989f9fd4d74d5fd97f",
+  "reviewed_rows": {
+    "range_inclusive": [
+      38,
+      42
+    ],
+    "count": 5
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 40,
+      "before": "Kyuuma puts duty to their sovereign first,",
+      "after": "I cannot ask Kyuuma, who puts a retainer's duties first,",
+      "reason": "The source says the speaker cannot expect a father role from Kyuuma because retainer etiquette comes first."
+    },
+    {
+      "resource_row": 41,
+      "before": "and I cannot expect that of an elder,",
+      "after": "or an elder to take on that role,",
+      "reason": "Restores the parallel impossibility that applies to both Kyuuma and the elder."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

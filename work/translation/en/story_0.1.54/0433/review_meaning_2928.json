@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_2928.targets.json",
+  "target_file_sha256": "4f12c56d1ddd6e01a4f54d8405a8ac83c003cde4e4fb1aae933a34541a6ab105",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2928,
+      3007
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2926,
+      3010
+    ]
+  ],
+  "rows_examined": 85,
+  "corrections": [
+    {
+      "resource_row": 2928,
+      "source_sha256": "2f1f0c8ac6d15292bb26546e1cfb8bd8738b3dc18b1e97bfe4a30583a9c04021",
+      "text": "I don't mind if I'm never rewarded,",
+      "reason": "Restore explicit acceptance of receiving no reward; the following row completes the parallel condition."
+    },
+    {
+      "resource_row": 2938,
+      "source_sha256": "e797d9ab857911275e39290169e84126d212cfb4b660d2a94e0f2cf5b9fb52c5",
+      "text": "",
+      "reason": "Remove duplicated whole sentence inside one VM box;2937 already translates the entire source statement."
+    },
+    {
+      "resource_row": 2969,
+      "source_sha256": "038f0b29a8d0491d8ec44d98f2e4326be3cb66878c1c59a3a334449ee941218f",
+      "text": "G... Gah...!",
+      "reason": "Restore the wounded groan before the laughter."
+    },
+    {
+      "resource_row": 2970,
+      "source_sha256": "27d1aa76fd66039f625364e65e1f9105f6b08bc8c2051b8b8ae479f3079d1c14",
+      "text": "G... Hahahaha...!",
+      "reason": "Retain interrupted laughter in the complete VM group."
+    },
+    {
+      "resource_row": 2971,
+      "source_sha256": "38cb9be2c2d48c380487ce7349a0ef1eb080296ba5c9434791b9ad999ae52ce2",
+      "text": "Gwahahahahaha!",
+      "reason": "Retain the final burst of laughter in the same group."
+    },
+    {
+      "resource_row": 2979,
+      "source_sha256": "9a5a6320a3777fbb2e547d1076b0a9ebda39ddfdcbcbdaff0ccd9ee1a4ab9419",
+      "text": "What do you mean!?",
+      "reason": "Restore spoken question incorrectly replaced with a sound effect."
+    },
+    {
+      "resource_row": 2980,
+      "source_sha256": "2e7555248abc3f9a037bb65c37d29d94be326e66a46dd47a12cfafc119b9feaf",
+      "text": "The rumbling is getting even worse...",
+      "reason": "Restore spoken observation that the rumbling is intensifying."
+    },
+    {
+      "resource_row": 2982,
+      "source_sha256": "aec3bc6bcf062574cfe195697db9d7098766121abb401b75d24376c7d03b7a4a",
+      "text": "...Impossible!",
+      "reason": "Restore source disbelief; intensifying rumbling belongs to the preceding box."
+    },
+    {
+      "resource_row": 2983,
+      "source_sha256": "6c45635224bac849e602983671b2bd5cbd980514ad40eb6351303e83e699905f",
+      "text": "Why hasn't the rumbling stopped!?",
+      "reason": "Restore the question in this box."
+    },
+    {
+      "resource_row": 2987,
+      "source_sha256": "9e4ebbcb8347eec756af30af118456db8299d8a750f6518d3cd13276871677f8",
+      "text": "The rumbling is worse than before...",
+      "reason": "Restore comparative worsening instead of an invented sound effect."
+    },
+    {
+      "resource_row": 2988,
+      "source_sha256": "e0a982f659101bde3699d20bc26f4366f07837f331085e0e51541dca56cfb5af",
+      "text": "It's as though the earth itself is screaming...",
+      "reason": "Preserve the earth-screaming simile."
+    },
+    {
+      "resource_row": 3002,
+      "source_sha256": "8ada41a16d62cd8a4c0b737f4aaf27ad46ed7cee7144fdf7241ebe24409a01de",
+      "text": "Of course the island will cease to exist.",
+      "reason": "Supply the island subject within the answering speaker's own box."
+    },
+    {
+      "resource_row": 3005,
+      "source_sha256": "342323157ba58277a9e9af5a1d90bade04fa44a4ead11e3963b4fae01877cd0a",
+      "text": "You...!",
+      "reason": "Retain accusatory exclamation."
+    },
+    {
+      "resource_row": 3006,
+      "source_sha256": "b9fa89a0b61ced98ca1b9dba8f6653c3b97988b3fb543c945f98e8096ef23814",
+      "text": "You knew that, and you deliberately made us...",
+      "reason": "Source leaves the deliberate action unfinished; do not invent leading the party to this location."
+    },
+    {
+      "resource_row": 3007,
+      "source_sha256": "9b7a097983bfa025b53acb113396d4d22dadd2299dde5e248df7c796d52da9b4",
+      "text": "",
+      "reason": "Avoid completing the source's unfinished accusation with an unsupported action."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        2948,
+        2949,
+        2950
+      ],
+      "reason": "Question is completed by the following challenge box."
+    },
+    {
+      "rows": [
+        3000,
+        3001
+      ],
+      "reason": "Speaker trails off before the next speaker supplies the consequence."
+    },
+    {
+      "rows": [
+        3005,
+        3006,
+        3007
+      ],
+      "reason": "Angry accusation leaves deliberate action unfinished; no location invented."
+    }
+  ],
+  "notes": "Independent source-first review of every actual VM group and both-side context. Proper-name and world-concept normalization follows meaning fixes. Internal continuations retain text only within their own source VM box."
+}

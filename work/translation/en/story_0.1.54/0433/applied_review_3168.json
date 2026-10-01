@@ -1,0 +1,48 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_3168.json",
+  "review_sha256": "2cc052ccacf97d8188fa1537648d1ae65512845d4952f638a99760addec9a6d3",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3168.targets.json",
+  "target_before_sha256": "43d692e5d35562c964e093ac377aca1e5dd3bf68de3aba6f9c065c03f478cf83",
+  "target_after_sha256": "12b50f9bb796070a2726af78a6e9fb5335dd6ab83bc19a14c339751ee3a57243",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3168,
+      3247
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3169,
+      "before": "▲",
+      "after": "▲!",
+      "reason": "Restore source exclamation on the exact original runtime-name row."
+    },
+    {
+      "resource_row": 3172,
+      "before": "▲",
+      "after": "▲?",
+      "reason": "Restore source question on the exact original runtime-name row."
+    },
+    {
+      "resource_row": 3201,
+      "before": "Think strongly, strongly,",
+      "after": "Think of this island, of everyone,",
+      "reason": "The island and people are objects of thought."
+    },
+    {
+      "resource_row": 3202,
+      "before": "of your wish to protect this island,",
+      "after": "of everything you want to protect,",
+      "reason": "Restore the broader category of everything the listener wishes to protect."
+    },
+    {
+      "resource_row": 3203,
+      "before": "and everyone here...",
+      "after": "with all your heart...",
+      "reason": "Retain intensity of the wish without narrowing it to island and people alone."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

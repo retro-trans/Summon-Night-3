@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0344/review_meaning_0011.json",
+  "review_sha256": "414c12240da1dc878f73802bf7ff64d6148ecc3c8f12786400b3a94b1e6da521",
+  "target_file": "work/translation/en/story_0.1.54/0344/slice_0011.targets.json",
+  "target_before_sha256": "b20eb5d187c3e30d0388b609ab5ed2bfbb0f6c4868266cf79941288376223da6",
+  "target_after_sha256": "5bda2dff2ee0763419afee8d20fca8cb9a5b9096126e37932de5900495721204",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      43
+    ],
+    "count": 33
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 13,
+      "before": "Making us wait, striking a pose,",
+      "after": "Putting on airs and trying to look cool,",
+      "reason": "Restore the original VM box meaning and speaker, correcting shifted clauses or reversed action while retaining the entire source message."
+    },
+    {
+      "resource_row": 21,
+      "before": "We can win, right?",
+      "after": "You can win, right?",
+      "reason": "Restore the original VM box meaning and speaker, correcting shifted clauses or reversed action while retaining the entire source message."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

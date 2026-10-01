@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2448.targets.json",
+  "target_file_sha256": "f6aa89e45bd4881bb21c57f01ccc188e0e83275a35758afded196c66d88e778b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2448,
+      2527
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2446,
+      2608
+    ]
+  ],
+  "rows_examined": 163,
+  "corrections": [
+    {
+      "resource_row": 2480,
+      "source_sha256": "e856c3845350bbbf6ee16601317c5c2c97ed2b1ddaf5e5f1b3904cafd9103564",
+      "text": "it was crispy outside and gooey inside. It was delicious!",
+      "reason": "Musical note belongs at source row2482, which already retains it. Remove this duplicated note at2480."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared source and English at full VM box boundaries, including both slice boundaries and protagonist/pupil alternatives. Name normalization follows meaning fixes."
+}

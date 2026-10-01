@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "scope": "Frozen second Chapter18 terminology snapshot, resources461/462/463/468/469. Applied after meaning corrections.",
+  "entries": [
+    {
+      "target_name": "shipbuilding city",
+      "status": "Provisional descriptive rendering of source city epithet; source omits proper name Pastis, so translation also omits it.",
+      "references": [
+        "https://ja.wikid.org/%E3%82%B5%E3%83%A2%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+        "work/glossary/opening_harbor.json"
+      ],
+      "notes": "Source references a naval city, not an explicitly mechanical realm. No official English epithet verified."
+    },
+    {
+      "target_name": "Lady Misumi",
+      "status": "Known female Oni princess; same title used in472"
+    },
+    {
+      "target_name": "Rikuto",
+      "status": "Reuse provisional romanization and relationships in chapter48_additions_0.1.14.json"
+    }
+  ],
+  "evidence_files": [
+    "work/glossary/character_reference_sn6_vita.json",
+    "work/glossary/chapter48_additions_0.1.14.json",
+    "work/glossary/terminology_preferences.json",
+    "work/glossary/opening_harbor.json"
+  ],
+  "normalization_by_resource": {
+    "461": [
+      {
+        "resource_row": 53,
+        "source_sha256": "2bf29f7acbf8ded809085c879071e625795c7f7837f8bdfb23ab2245758d60a8",
+        "from": "Teacher",
+        "to": "teacher"
+      },
+      {
+        "resource_row": 134,
+        "source_sha256": "2ccc334284eafdfc453e20b08a4c10a294f2541647ed5495e7c4742ae9ae89f4",
+        "from": "Teacher",
+        "to": "teacher"
+      }
+    ],
+    "462": [
+      {
+        "resource_row": 78,
+        "source_sha256": "cc04cea204e27274a234baba9484685d4b86d107866809b1bdc1027b5b7615ba",
+        "from": "Mechanical City",
+        "to": "shipbuilding city"
+      },
+      {
+        "resource_row": 82,
+        "source_sha256": "cc04cea204e27274a234baba9484685d4b86d107866809b1bdc1027b5b7615ba",
+        "from": "Mechanical City",
+        "to": "shipbuilding city"
+      }
+    ],
+    "463": [
+      {
+        "resource_row": 82,
+        "source_sha256": "ee1694ba1ce567842009fd6fac3809596aef78b3a0b2a50b36675660bcaafc17",
+        "from": "Mechanical City",
+        "to": "shipbuilding city"
+      },
+      {
+        "resource_row": 86,
+        "source_sha256": "292c2467fb853eb3bffcbd1d57c44b63cbe876bf2f6dd9de36a05ff9a1a10c2a",
+        "from": "Mechanical City",
+        "to": "shipbuilding city"
+      },
+      {
+        "resource_row": 136,
+        "source_sha256": "ced3350eeb5e73bceccd1912f8a16e0e0a5b1112c46d601a1e81cd8c685dce28",
+        "from": "Lord Misumi",
+        "to": "Lady Misumi"
+      },
+      {
+        "resource_row": 180,
+        "source_sha256": "3341bb47104575ea5702ccb8f44a7b28d1e85b45d8628676797589b80f9a6df1",
+        "from": "Rikt",
+        "to": "Rikuto"
+      }
+    ],
+    "468": [
+      {
+        "resource_row": 148,
+        "source_sha256": "cd6ee3711c23acb48dc274aae37bf8bea92daf3682cfb2fc41055c1b58e37b93",
+        "from": "Teacher",
+        "to": "teacher"
+      }
+    ],
+    "469": [
+      {
+        "resource_row": 99,
+        "source_sha256": "9fa52582f9e3e43e02dacf84294aa9193f4f9745413d5018e7216f8fd248bf2b",
+        "from": "Teacher",
+        "to": "teacher"
+      },
+      {
+        "resource_row": 101,
+        "source_sha256": "43204e6ffe158d76271c2ee51d45193153e8b1a4f94692f005e57ca7cb6d4741",
+        "from": "Teacher",
+        "to": "teacher"
+      },
+      {
+        "resource_row": 108,
+        "source_sha256": "bb45864673e9c2412d3cccc78ea59572e3a1ec64f475650990ae9c571d689bc8",
+        "from": "Teacher",
+        "to": "teacher"
+      },
+      {
+        "resource_row": 109,
+        "source_sha256": "43204e6ffe158d76271c2ee51d45193153e8b1a4f94692f005e57ca7cb6d4741",
+        "from": "Teacher",
+        "to": "teacher"
+      },
+      {
+        "resource_row": 121,
+        "source_sha256": "0e7f294bd14b00e768d3b48da166dd472ab6bd001bbd4374b026d80c2cbb9cad",
+        "from": "Teacher",
+        "to": "teacher"
+      }
+    ]
+  }
+}

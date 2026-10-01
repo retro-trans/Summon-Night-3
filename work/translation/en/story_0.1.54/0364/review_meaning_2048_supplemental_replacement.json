@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "fresh_independent_meaning_replacement_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2048.targets.json",
+  "target_file_sha256": "eb03c306ffb3315b3df63560f840f28b24edb3a92030a1121c0ebe582ef0148d",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2048,
+      2054
+    ],
+    "count": 7
+  },
+  "source_ranges_examined": [
+    [
+      2046,
+      2055
+    ]
+  ],
+  "rows_examined": 10,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        2046,
+        2047,
+        2048,
+        2052,
+        2053,
+        2054
+      ],
+      "issue": "The actor is established only by surrounding scene context; current singular-they wording retains the source relationship without assigning gender."
+    }
+  ],
+  "omissions": [],
+  "notes": "Fresh independent source-first review of complete VM groups on both sides of the supplemental range. The current English preserves the spared-spy cause, railway hostage outcome, and responsibility-driven departure; no correction is proposed.",
+  "supersedes_untrusted_review": "work/translation/en/story_0.1.54/0364/review_meaning_2048_supplemental.json"
+}

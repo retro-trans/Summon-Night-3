@@ -1,0 +1,58 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0332/review_meaning_0011.json",
+  "review_sha256": "a11a92427d5d6b3df677babef82d657bbfda48e234632d77e3a5fc6833c4d708",
+  "target_file": "work/translation/en/story_0.1.54/0332/slice_0011.targets.json",
+  "target_before_sha256": "12fb9c40d6e6a00441be93c98f60b8387ebf67e355e9391a790756fdd0528287",
+  "target_after_sha256": "7037adc7d25fba5a1dfd16f669c938ac281a4013d74faaaad37ad04e925f61a1",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      50
+    ],
+    "count": 40
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 32,
+      "before": "They look at things outside",
+      "after": "When it comes to the outside world,",
+      "reason": "Preserve concern with self-interest in both gains and losses, not just financial profit."
+    },
+    {
+      "resource_row": 33,
+      "before": "only with an interest in profit.",
+      "after": "all they care about is their own interests.",
+      "reason": "The source means advantages and disadvantages to themselves."
+    },
+    {
+      "resource_row": 36,
+      "before": "But Yard",
+      "after": "But you",
+      "reason": "The protagonist addresses Yard directly; the following first-person answer confirms the referent."
+    },
+    {
+      "resource_row": 37,
+      "before": "realized it, did he not?",
+      "after": "realized it, didn't you, Yard?",
+      "reason": "Restore the direct second-person question."
+    },
+    {
+      "resource_row": 38,
+      "before": "But Yard",
+      "after": "But you",
+      "reason": "Same direct address in the alternate protagonist version."
+    },
+    {
+      "resource_row": 39,
+      "before": "realized it, did he not?",
+      "after": "realized it, didn't you, Yard?",
+      "reason": "Preserve the direct question."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "note": "The radical wing's unnamed leader remains unnamed; no character identity is supplied beyond this dialogue."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

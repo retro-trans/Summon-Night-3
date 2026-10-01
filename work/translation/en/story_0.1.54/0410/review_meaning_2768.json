@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2768.targets.json",
+  "target_file_sha256": "2c5d9313e16e8757dad38af5d7f19ce96d5118aa21de82b8b1d353ecfb11b5e2",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2768,
+      2847
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2686,
+      2880
+    ]
+  ],
+  "rows_examined": 195,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        2814,
+        2815,
+        2816
+      ],
+      "issue": "Singular they preserves the departing player-selected protagonist without gender assignment."
+    },
+    {
+      "rows": [
+        2840,
+        2843,
+        2846
+      ],
+      "issue": "Name/gluttony setup leads into Ohkini/overeating pun at2851–2852; setup retained. English punchline adaptation will be reviewed with following slice."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared source and English at full VM box boundaries, including both slice boundaries and protagonist/pupil alternatives. Name normalization follows meaning fixes."
+}

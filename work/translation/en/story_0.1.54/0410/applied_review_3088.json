@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_3088.json",
+  "review_sha256": "e8872c080bbced0f73e324757631e7f8595e7b8b17cce1100738c8ec4a791417",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3088.targets.json",
+  "target_before_sha256": "f4bde6f59978b8dd11dbeb7e1d00ad90ad11dc2a541c06404e5df5d581c3798b",
+  "target_after_sha256": "3df49c9bc923a1999583ecd3a7e3b9ba8ed920a05a08e7dbf02e638570eaf22c",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3088,
+      3167
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3165,
+      "before": "From the moment he was born, that child",
+      "after": "From the moment he was born, that child literally wandered between life and death.",
+      "reason": "The complete source box explicitly says that he wandered in the space between life and death; the current English loses that complement."
+    },
+    {
+      "resource_row": 3166,
+      "before": "literally wandered",
+      "after": "",
+      "reason": "Physical VM continuation fragment; the restored complete source-box meaning is held at row 3165."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00254",
+  "source_sha256": "ffa3b4acbd58e1e17db8b73fb0c0bcfcc5a5b3b7050ce36668f06648e4515c7b",
+  "target_file": "work/translation/en/story_0.1.54/0254/slice_0091.targets.json",
+  "target_file_sha256": "9336ba23374a132c0598d9dc2a2919c82a20b929d0cd61b52b3bfac013c7235a",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [91, 96],
+    "count": 6
+  },
+  "source_ranges_examined": [[0, 96]],
+  "rows_examined": 97,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [91, 92, 93, 94, 95, 96],
+      "issue": "The closing vow has parallel protagonist variants. The English preserves their parallel promise without attributing an unsupported gender."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [91, 92, 93, 94, 95, 96],
+      "reason": "Each promise is split across physical continuation rows. The authored English retains the distinction between a spoken promise and its hesitant assurance."
+    }
+  ],
+  "notes": "Reviewed the original resource with full 0-96 context. No meaning correction is required. This proof is bound only to the tail target file and does not accept the resource or authorize a build."
+}

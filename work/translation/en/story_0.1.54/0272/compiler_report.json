@@ -1,0 +1,809 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00272",
+  "input_hashes": {
+    "work/translation/en/story_0.1.54/scope.json": "a67e52d2ab125b26fd57208aacbef1b03426321d85ccfb2d7ead868e726d3a24",
+    "work/translation/en/story_0.1.54/shared_library.targets.json": "610007ac1481e189167cd3d944e755e2bb92f29d597f60f988c74061f4dfa163",
+    "work/translation/en/story_0.1.54/0272/slice_3957.targets.json": "76ae2f13ae3004d02d04d75e39c68833df013cf1284c37b29612d919a5c84b0a",
+    "work/translation/en/story_0.1.54/0272/slice_4037.targets.json": "ada4c12edf89f5369e58c3109240d50ff002707dec8564395b825125853d49d9",
+    "work/translation/en/story_0.1.54/0272/slice_4117.targets.json": "6e311da798a5a0efb175f7b8dd0fe350b5f59ad179f186a54adfe2f1b48f75e3",
+    "work/translation/en/story_0.1.54/0272/slice_4197.targets.json": "ec6610bf72040e1faef94e9ab8e8f31011071bee99b48f166afeb2856d816b4b",
+    "work/translation/en/story_0.1.54/0272/slice_4277.targets.json": "230c5d260c0a2a947032e082d8efec0135652bd80ac309409952145b35a27c53",
+    "work/translation/en/story_0.1.54/0272/slice_4357.targets.json": "f1f72d86e880f66c5c73d515f2caee4ef25672014bb59c29c1f9114bbdbde72c",
+    "work/translation/en/story_0.1.54/0272/slice_4437.targets.json": "575ae5123a9ffbcd12f8685e3c85d569ec498976864dd053e77f3ce5e3d7e5a8",
+    "work/translation/en/story_0.1.54/0272/slice_4517.targets.json": "32b1a5ef114dda39f4f8ee8aeb1186c9c9c3a18911264da887d39d4f8417fe32",
+    "work/translation/en/story_0.1.54/0272/slice_4597.targets.json": "6252d59417bfa1cd18a7f5209e37d5ce21e1040a4e7967112ab8a4a72232a90c",
+    "work/translation/en/story_0.1.54/0272/slice_4677.targets.json": "88c5fb723eddfb57dec1295210cb66d0b32196324732d3ffbb7b2a59902f328e",
+    "work/translation/en/story_0.1.54/0272/slice_4757.targets.json": "32680ef72aab4e3bb962cd9abe4328e2503b1f5f64f39a27c9d91fd2902433e5",
+    "work/translation/en/story_0.1.54/0272/slice_4837.targets.json": "34e577ac406968f5badc874eea5e66218e5d438348825c1094fa73751ae96313",
+    "work/translation/en/story_0.1.54/0272/slice_4917.targets.json": "fff54ce984a23e181d43112521cb94522c851d446dcd9aa4d66adb4d77ab336d",
+    "work/translation/en/story_0.1.54/0272/slice_4997.targets.json": "b32d1d05232c73fcf74e15c75976baec2829779b25558a760839ebfbc64cc1e8",
+    "work/translation/en/story_0.1.54/0272/slice_5077.targets.json": "8c3074a5e7a0a76d92d076b436731c7eb3910c043fd66686a35bea15ffa6eaa1",
+    "work/translation/en/story_0.1.54/0272/slice_5157.targets.json": "c4d1e691e117bda2f274890040ca8e8354d80d57f15f76b3cd8f8f3e34b251c7",
+    "work/translation/en/story_0.1.54/0272/slice_5237.targets.json": "3d8149eb8a912f26159b09597c5d4112b1c0d4d16c2bfc21f946e0c996b2593f",
+    "work/translation/en/story_0.1.54/0272/slice_5317.targets.json": "8c72f793ddb1d9e96492205c9929be655f0b653c9b6842c687d1692981f466de",
+    "work/translation/en/story_0.1.54/0272/slice_5397.targets.json": "7eb4034bae4ecb222f37b3ccdff7fad3c23c5b48356c9d5b4e0b299dc72657f1",
+    "work/translation/en/story_0.1.54/0272/slice_5477.targets.json": "f61c5b1458aaf6e6262a9a1744f07262ca537ae33f1c8a79fba5e0c016511de0",
+    "work/translation/en/story_0.1.54/0272/slice_5557.targets.json": "2ef2d5b668464c76d540d1ecfd73f39d488a760b65ebe6f00249359323515638",
+    "work/translation/en/story_0.1.54/0272/slice_5637.targets.json": "009beda31f542e0cc7aa8c45bda8218ea0a64863891fbd44479d3b3bd261a9f5",
+    "work/translation/en/story_0.1.54/0272/slice_5717.targets.json": "08b12381205ab7e6d23c82ac6e7680e74f77c989725306431290febd5b7a2e56",
+    "work/translation/en/story_0.1.54/0272/slice_5797.targets.json": "97f8ec8d75866791658785b589c771e47e63d1717deee6b51a41db687e4fdee1",
+    "work/translation/en/story_0.1.54/0272/slice_5877.targets.json": "76bf0c7dd7e8046444513219a7ae17013f89f6e13a164c278c766c03017a79f4",
+    "work/translation/en/story_0.1.54/0272/slice_5957.targets.json": "4a05bea791d1689c79f16f24b0c3729098609cbc61a13d2b937405d4e4b656c2",
+    "work/translation/en/story_0.1.54/0272/slice_6037.targets.json": "ae3710b85ca4018dcf7ae85dcb82349f8dae23dd77d2780598c49e0efbb9cb97",
+    "work/translation/en/story_0.1.54/0272/slice_6117.targets.json": "df2bb976789e2cfbfc4e9450a8c36d63cdd4df33ef8db397aa51b1f21cdb9378",
+    "work/translation/en/story_0.1.54/0272/slice_6197.targets.json": "697464ed5cd7c50bdf45a6b153af4bc1c8e6a23eab7325ff84bae37f5604b23e",
+    "work/translation/en/story_0.1.54/0272/slice_6277.targets.json": "c537d63b9e50805fc778e933db1ee52d13d4c61f7960af36d5637adef96a7c1d",
+    "work/translation/en/story_0.1.54/0272/slice_6357.targets.json": "da60b5bd53324e9d072c0043bdc486faba60e451808d4fa84b20c1aba4a2c0de",
+    "work/translation/en/story_0.1.54/0272/slice_6437.targets.json": "3f818b25e7f679edc6b52ff26857a050ef88346cb96bf995f3a92d9b429e123d",
+    "work/translation/en/story_0.1.54/0272/slice_6517.targets.json": "54886bd62d639dd6634b726a234980c9533e0f61f82ae40c7be0506b5276175e",
+    "work/translation/en/story_0.1.54/0272/slice_6597.targets.json": "2316861f60061a8acef9258a991c311558b9e03b73fef745aaec188dd35bc638",
+    "work/translation/en/story_0.1.54/0272/slice_6677.targets.json": "08172de901e69223e6c1f29847bb585c184ea82c06ce23622aca0940800d175e",
+    "work/translation/en/story_0.1.54/0272/slice_6757.targets.json": "6f102000535c20348fe0b62f0dfc51369efb3866c2ce7467f7a9a69be735a1be",
+    "work/translation/en/story_0.1.54/0272/slice_6837.targets.json": "9292a405d0e8ab5f97c5b6d51db7a5574e9c3464ff115b54f3b5d8d993ca9d9e",
+    "work/translation/en/story_0.1.54/0272/slice_6917.targets.json": "0888485b06d0432cc13e1913b38d45a5c2d7cfa723391cc7e27244fcc347f1eb",
+    "work/translation/en/story_0.1.54/0272/slice_6997.targets.json": "7b67c7af04c5d80f88e453efec2e747f233157621d63ca1586fc382b74238237",
+    "work/translation/en/story_0.1.54/0272/slice_7077.targets.json": "c11bbf8c45b469f20e0c21794a55cf28e2740e78959b467f4ebd8e3b4dd89de1",
+    "work/translation/en/story_0.1.54/0272/slice_7157.targets.json": "479d5aedd44fb689a3a34d1d642a2ecfda7daa1b6874544955487345e56bb089",
+    "work/translation/en/story_0.1.54/0272/slice_7237.targets.json": "66ad346368f3ed28277bd7fd0458f6dca0c66cc97ce1f556bc47cf062fa0702f",
+    "work/translation/en/story_0.1.54/0272/slice_7317.targets.json": "bee8f03a3d5ff0333cc28158f3f8fbda1d2d4aad156632564ed4c8acce21978e",
+    "work/translation/en/story_0.1.54/0272/slice_7397.targets.json": "11707e52ec17e96b01206a2346caa75dfc637ab89d44718ac8785e31139cf378",
+    "work/translation/en/story_0.1.54/0272/slice_7477.targets.json": "3bd7860de692f98070f8152e7ef86ae8d70f2c778ec73b0d1d2672a3ab5f52fc",
+    "work/translation/en/story_0.1.54/0272/slice_7557.targets.json": "452ef5a943b395bfd398a748c8fd4bd86c1e5b33659475b0b0872a9b5c5531bb",
+    "work/translation/en/story_0.1.54/0272/slice_7637.targets.json": "cc7d1a8f42177e117d125f89b8b7ed4e40a5c3b10edda48d616e5b3db01c8513",
+    "work/translation/en/story_0.1.54/0272/review_meaning_3957.json": "00951407d99a06492c08e5993f1aa8dd5535e06606e0a16d33dd283f577c5d3d",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4037.json": "dae8d15eb771ccfe095b551164dde72ed38848d27306c4428a5b85f0bf6c4025",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4117.json": "6915589d9d6cd649e69cfa9200a4f7be7390d88f57f1fb0e27b809656fa6fa72",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4197.json": "af4ef76cedb1d32a1500e09efa8909d7831620efae466c3537a4d85d0cf7e149",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4277.json": "fade09dc0b480ad365f3b87cbb72ab0bb01266aa57e8d87e2d9668cca85679c1",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4357.json": "c61272d9190ab590cd511de7f523a93867d79f32cf548a63d4ce5ac17d791220",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4437.json": "f783d9fb71c7eccb63f29cbce32897c70554ef064a551a96086780b5d70e90ec",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4517.json": "5c462d288dd8b93bc08e0637fd1c313270c8d36b9c41d5d3af960ed6cf1fd895",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4597.json": "b49405fabb9a499344de906aa31c4d49c6f73b5a434a586e02473d187b5bb14c",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4677.json": "c807452f907f8470357672c05a3947182379942d44a87b78d4853aa6243809a1",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4757.json": "36ad47d5b0ed2dda461c7517b4cf15faa289ac73d999a4e7f800a0690805c016",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4837.json": "2f6c87788bf4a274c50540e60cf1e862cb3d7655d9ffc5d4702458e2ca8d0cfe",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4917.json": "ea86a21ae0429b3c142a2be4e9bbfe989d1c14cc8380cb8db532f377cee7042d",
+    "work/translation/en/story_0.1.54/0272/review_meaning_4997.json": "a39d91bc10c04ba63a2f459882e4ef36603334a2e14e190e5285407c8666c601",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5077.json": "1e080e9b0dd2f62e86c7505cdd9c648c7d5f82ddd521443c90f51f528029f17f",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5157.json": "476a261f77f7fb4862b23cc803d568260b79eecc034baf055936bb69796e43b3",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5237.json": "c5b006cbf2baa2850c3f83f06befd5a12efefae01dcbea950db07fa9f51140ae",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5317.json": "959c46b55324809905f9333c30bc62095c599193bc8ad8aeebd4b48e142dd43a",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5397.json": "c7d37321fb2099b2cd3d892b8b01e9080a48eda6f70b72f3f2ffe7447c6c5121",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5477.json": "7e5b2075b43039e530ee615ffb3054bc6b98ed0373ad66787685fd1d98a6954b",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5557.json": "22ba310a4c5fa30be07cd885623282e34d42e368d5801fe26c5f73c90de51ac1",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5637.json": "0032762f3be97a3a21536dd7dc93985ead0e0a48fd4416071e731e99750edf57",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5717.json": "e74d3522941a2fb6a7ba5347db9efc9527ac319b0d32f8833316fe3ec158dc9b",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5797.json": "ec2c43c3ffe5abd836b62d7a0d1c508426d71f0a91934da323bfa35f3677af06",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5877.json": "aa9c2fc4c7c86ffd1e55d3c2cf8505c3414cec12a929d882624214e0ee3cdad7",
+    "work/translation/en/story_0.1.54/0272/review_meaning_5957.json": "f1b2d3f43de8b215b5d0545537f2c19667aedd73dee8ef4b16ea65e083da96a2",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6037.json": "91a09857fb1304d12f89db9482fbb0cb6814632650391ecc9d0e62855c6aa343",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6117.json": "a7aa74b7996752ccef888be1d438d0a97a3d4886f7145cabe7b4c697cc321d6c",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6197.json": "c3524b3e12c6f1a090b2242f5344d774c28175ba2e065dcd3c43a58feb212d1a",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6277.json": "414685a1a36252a375f5f3496ac89e9d8ea4ec950960c2a3c4ee5542874bf2ce",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6357.json": "741aa5d514283eb0e083e1677b9d57250dfb9099958c51aae8dd7aab7a8cb117",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6437.json": "a99feabd9e4308ee6af859ae33d145fcd360501e1d0c86a8c8c79f0a7f82db35",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6517.json": "4097577fc832aef8c4bf2e98394201bfdf6dd3acc22fcbc097c7de9f2a482085",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6597.json": "8f0404ded1d100f140789435311fd62b80a347f463686e733ae0e38148378353",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6677.json": "2d194990229f53325db0e5b3a1154b60a8a32addbc5144fe52aa383fc062dd49",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6757.json": "e7a07ed4f15d6cd94388e66af4972e2e1e92520579130c7f10336f2a69c71f37",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6837.json": "fab05bed7feb3c4502f608f6a900456a1322105ef734d4e4c2f62fde019cfc30",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6917.json": "36c914f9c4c2314dddb9eadd79983575a210901ed9d44a7c271fffbc5af04492",
+    "work/translation/en/story_0.1.54/0272/review_meaning_6997.json": "880de7507589c411e23c3c25b3acb8bfa6ce720ce414ce565da26adca7887286",
+    "work/translation/en/story_0.1.54/0272/review_meaning_7077.json": "b6d19ab923a43c7176fa8d7eca3fe30e5c9965bbaf914f362f720b3ddda2c365",
+    "work/translation/en/story_0.1.54/0272/review_meaning_7157.json": "5ae8d4b16e56c9938d18b4d782c512d0c1860685cb6a04d846776e9e17e85d2b",
+    "work/translation/en/story_0.1.54/0272/review_meaning_7237.json": "3260ee3b6a687c66fa4c5acda250ad6406d6441593bf4f577434071260af9b23",
+    "work/translation/en/story_0.1.54/0272/review_meaning_7317.json": "569f2f3c9c946f86d891d641425c06528c4eda381b1eceee35952eec6e3370c8",
+    "work/translation/en/story_0.1.54/0272/review_meaning_7397.json": "04b726b7c1a185260c8a740a334f88f4fec8011fe667e5a0026ccb2c8f43b64a",
+    "work/translation/en/story_0.1.54/0272/review_meaning_7477.json": "35b1f7559a823316de148b1ce78e5d16c1e438fe81a62f82691d6d938986528a",
+    "work/translation/en/story_0.1.54/0272/review_meaning_7557.json": "721735eccda5e7d5a7197a89ce8b70186ec37785c65a95ada75626f045c039b5",
+    "work/translation/en/story_0.1.54/0272/review_meaning_7637.json": "85d9d72c8cc94246df13306a838fec41ab6664721fe11d42dbb3565d6079ea83",
+    "work/translation/en/story_0.1.54/0272/applied_review_4757.json": "a7c5ff0e6f6d2de871a5c5cf019be99533f654ec41b8bfbea313d6b21de86e91",
+    "work/translation/en/story_0.1.54/0272/applied_review_5237.json": "63b2e068a1c0309ded934cc754ea86b420e8560ce502a2c215945570cc624187",
+    "work/translation/en/story_0.1.54/0272/applied_review_5397.json": "a386ca1908ddb5c7bc025218ac4df2242c2baf775a564b69a144db876984832d",
+    "work/translation/en/story_0.1.54/0272/applied_review_5557.json": "6d4822edaa4e82b91237e5671e5a5e9819c1381cea12779ccfb72fc8e31f6952",
+    "work/translation/en/story_0.1.54/0272/applied_review_5877.json": "a9aeb133351cd0ce66483a719fccb21b86d54da4aa7e7e6868c8b8d72e0fbc31",
+    "work/translation/en/story_0.1.54/0272/applied_review_5957.json": "5d153d7acb314b649cbde60d0113a5e5426bfc770c7c94f93489929c5f0ab6df",
+    "work/translation/en/story_0.1.54/0272/applied_review_6037.json": "c5d5a6cd67d47df46d13a1b57a6f53993abe30e581df0c58c9471dda0c9fea94",
+    "work/translation/en/story_0.1.54/0272/applied_review_6597.json": "5fcf71e49876560dbc5ae2e528f02b9335b27e94afe2b7be9c5315f301c55c00",
+    "work/translation/en/story_0.1.54/0272/applied_review_6677.json": "d5b4fad2935891df165af99cdc16efc1af1c8da5c1dff98f66b97a2f029c50de",
+    "work/translation/en/story_0.1.54/0272/applied_review_6757.json": "047a1a66a47c500ab863c90b9f6dfc60fc34f24ea51d24e722f11d0abaa2a67e",
+    "work/translation/en/story_0.1.54/0272/applied_review_6837.json": "deb35bde8a3a773468277d0de2dc9bfbd28dd7ae8c953e7d02e7e54f4f4e3410",
+    "work/translation/en/story_0.1.54/0272/applied_review_6917.json": "36af15f36332bdef2df7e77aacb070b4ed86a64e878ed4bdca61b1c8edb94e19",
+    "work/translation/en/story_0.1.54/0272/applied_review_7237.json": "a87c009ac2d0160e0352c92e6049e64f262cacaa9706904aeb6da8ce7707e375",
+    "work/translation/en/story_0.1.54/0272/applied_review_7317.json": "6dfc30e5964f76cf50ee1d0efae5585e27ddb1871cbf4d1146021c2a663f5498",
+    "work/translation/en/story_0.1.54/0272/name_normalization.json": "f268d5feb321d7e2204513ca442ecfbb4f6fa20956b5e403d0fc835bbaa08cfc",
+    "work/glossary/character_reference_sn6_vita.json": "0a284426ad3d1aac837df75fc283570718c32ca3a584d6b2662e71839a47eb92",
+    "work/glossary/terminology_preferences.json": "8bb5a15998b681ce0c8282b11758078bbdeba875b462b650e809ae64db4526ae",
+    "work/glossary/story_additions_0.1.54.json": "0c5bae73e20c1b4ff1f84cd7180f3988c64bc5af9b4e23c353ff8efb7c88c879",
+    "work/glossary/chapter6_terms_0.1.14.json": "11d512bb209f149682987c1cf70700a695836cb1cb2c8a82c8ee15946eb68211",
+    "work/glossary/chapter48_story_terms_0.1.14.json": "e5af344cfe3be399347764cbc9db1a6019beef242008a03eb766789b08ab9d06",
+    "work/glossary/setup_ui.json": "9403c571041ad53d9c428033a5d11930004f7684a335dee82929c4c73fd43ed6",
+    "work/glossary/story_core_terms_0.1.54.json": "864936e8de7b8aabe2926fedc4d8b1ed2843c40f73faf59fcd35589a384fcce0",
+    "work/glossary/island_0.1.12.json": "71891dc5bd9224a7feba41c3f80ed214551af48a3df68190df96d8a1c5e4f9a2",
+    "work/glossary/chapter13_titles_0.1.54.json": "14ef1d318e0765d190e2e29d7f0d9135c1c24bc12291419dd96c77652d608de5",
+    "work/translation/en/story_0.1.54/0272/accepted_review.json": "fb922e65147dcc127f53703c29c3f84ee8472e62b26e86ab01b962723c01cd27",
+    "tools/story_patch_054.py": "efb30bf799e5d4ef05f6a2a7d6dd6ef587240bd4b70bbb11915181cd762c0159",
+    "tools/story_compiler_054.py": "3cbe86584b5519c352696db29f105d9556d315c53e411a8432c81e6a5f42f8b3",
+    "tools/conditional_layout_054.py": "ff0af598af0de48e8be4e8f2fcd0e426ca9159433edb4f9099797cbea3d8caa7",
+    "tools/story_branch485_layout_054.py": "2524d6ed84681947d1501eef65b4fbfe340416e687b20bf9d2f50b32352de021",
+    "tools/story_source_054.py": "31bd0150436e1391da3fede343a4bb021541f46987e0c020fc5eef18d3a30372",
+    "tools/chapter_patch_014.py": "c04d8f932c504ab3d071e8216cdedd3fb967bdb09882062009c05845c2354232",
+    "tools/chapter_source_014.py": "16ccdf1d1d0ee1621b3fde61bd43cea7436c743e4ddc4bc0179696585a290d1e",
+    "tools/script_compact_014.py": "59246e9c47b02a9fb0447a83feff43ac8914f7103652627197a35c3fa67a602d",
+    "tools/story_storage_054.py": "e58942ba3476938c78a20e1e7d6589a6fec978551dba0beb35d105546fc2d6f0",
+    "tools/font_metrics_014.py": "bb7d3d3f14233a55141aa2d385d32fec30dc9c7a55213cf44ede4b9aad1786f1",
+    "tools/night_talk_037.py": "2b4cc9a6fbf4152106780034a875fc64f4a3d759f4eac56c2bfffb2be5e9165b",
+    "tools/story_display_054.py": "3b4df497fa050415535068d09274e61faefc9c6f4b9cd3ff8f087e5e8223e8b2"
+  },
+  "checks": {
+    "resource_id": "00:00272",
+    "covered_source_rows": 7647,
+    "remaining_in_scope": 0,
+    "excluded_shared_library_rows": 0,
+    "groups": 3688,
+    "pages": 4105,
+    "code_growth": 12752,
+    "decoded_script_bytes": 489972,
+    "direct_rows": [
+      {
+        "row": 0,
+        "text": "\"Learn Skills\"",
+        "reference": 3038,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1,
+        "text": "is now available!",
+        "reference": 3046,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2,
+        "text": "\"Party Abilities\"",
+        "reference": 3080,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3,
+        "text": "is now available!",
+        "reference": 3088,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4,
+        "text": "\"Cooking\"",
+        "reference": 3122,
+        "pixel_limit": 280
+      },
+      {
+        "row": 5,
+        "text": "is now available!",
+        "reference": 3130,
+        "pixel_limit": 280
+      },
+      {
+        "row": 6,
+        "text": "Puppet Summoning",
+        "reference": 3166,
+        "pixel_limit": 280
+      },
+      {
+        "row": 7,
+        "text": "at Meimei's shop unlocks",
+        "reference": 3174,
+        "pixel_limit": 280
+      },
+      {
+        "row": 8,
+        "text": "on later playthroughs!",
+        "reference": 3182,
+        "pixel_limit": 280
+      },
+      {
+        "row": 9,
+        "text": "\"Summon Training\"",
+        "reference": 3220,
+        "pixel_limit": 280
+      },
+      {
+        "row": 10,
+        "text": "is now available!",
+        "reference": 3228,
+        "pixel_limit": 280
+      },
+      {
+        "row": 17,
+        "text": "What should I do...?",
+        "reference": 10988,
+        "pixel_limit": 280
+      },
+      {
+        "row": 18,
+        "text": "　Go fishing.",
+        "reference": 10996,
+        "pixel_limit": 280
+      },
+      {
+        "row": 19,
+        "text": "　Never mind.",
+        "reference": 11006,
+        "pixel_limit": 280
+      },
+      {
+        "row": 206,
+        "text": "That's enough",
+        "reference": 19988,
+        "pixel_limit": 280
+      },
+      {
+        "row": 207,
+        "text": "for today.",
+        "reference": 19996,
+        "pixel_limit": 280
+      },
+      {
+        "row": 208,
+        "text": "Let's call it",
+        "reference": 20008,
+        "pixel_limit": 280
+      },
+      {
+        "row": 209,
+        "text": "a day.",
+        "reference": 20016,
+        "pixel_limit": 280
+      },
+      {
+        "row": 275,
+        "text": "Watch over the field?",
+        "reference": 22138,
+        "pixel_limit": 280
+      },
+      {
+        "row": 276,
+        "text": "　Accept.",
+        "reference": 22146,
+        "pixel_limit": 280
+      },
+      {
+        "row": 277,
+        "text": "　Decline.",
+        "reference": 22156,
+        "pixel_limit": 280
+      },
+      {
+        "row": 331,
+        "text": "All right...",
+        "reference": 24712,
+        "pixel_limit": 280
+      },
+      {
+        "row": 332,
+        "text": "　Let's do this!",
+        "reference": 24732,
+        "pixel_limit": 280
+      },
+      {
+        "row": 333,
+        "text": "　Never mind.",
+        "reference": 24742,
+        "pixel_limit": 280
+      },
+      {
+        "row": 334,
+        "text": "　I challenge you!",
+        "reference": 24756,
+        "pixel_limit": 280
+      },
+      {
+        "row": 335,
+        "text": "　I've changed my mind.",
+        "reference": 24766,
+        "pixel_limit": 280
+      },
+      {
+        "row": 404,
+        "text": "All right...",
+        "reference": 27620,
+        "pixel_limit": 280
+      },
+      {
+        "row": 405,
+        "text": "　I'll give it a try!",
+        "reference": 27640,
+        "pixel_limit": 280
+      },
+      {
+        "row": 406,
+        "text": "　Another time.",
+        "reference": 27650,
+        "pixel_limit": 280
+      },
+      {
+        "row": 407,
+        "text": "　I'll give it a try!",
+        "reference": 27664,
+        "pixel_limit": 280
+      },
+      {
+        "row": 408,
+        "text": "　Maybe next time.",
+        "reference": 27674,
+        "pixel_limit": 280
+      },
+      {
+        "row": 450,
+        "text": "Wait, huh?",
+        "reference": 30100,
+        "pixel_limit": 280
+      },
+      {
+        "row": 451,
+        "text": "Where did",
+        "reference": 30108,
+        "pixel_limit": 280
+      },
+      {
+        "row": 452,
+        "text": "everyone go...?",
+        "reference": 30116,
+        "pixel_limit": 280
+      },
+      {
+        "row": 453,
+        "text": "Wait, huh?",
+        "reference": 30140,
+        "pixel_limit": 280
+      },
+      {
+        "row": 454,
+        "text": "Where did",
+        "reference": 30148,
+        "pixel_limit": 280
+      },
+      {
+        "row": 455,
+        "text": "everyone go?",
+        "reference": 30156,
+        "pixel_limit": 280
+      },
+      {
+        "row": 458,
+        "text": "What should I do?",
+        "reference": 30364,
+        "pixel_limit": 280
+      },
+      {
+        "row": 459,
+        "text": "　Give it a try.",
+        "reference": 30384,
+        "pixel_limit": 280
+      },
+      {
+        "row": 460,
+        "text": "　Never mind.",
+        "reference": 30394,
+        "pixel_limit": 280
+      },
+      {
+        "row": 461,
+        "text": "　Let's try it.",
+        "reference": 30408,
+        "pixel_limit": 280
+      },
+      {
+        "row": 462,
+        "text": "　Never mind.",
+        "reference": 30418,
+        "pixel_limit": 280
+      },
+      {
+        "row": 464,
+        "text": "Now, today's lesson...",
+        "reference": 30912,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1022,
+        "text": "All right, then...",
+        "reference": 52626,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1023,
+        "text": "　Basic physical training.",
+        "reference": 52634,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1024,
+        "text": "　Basic magic training.",
+        "reference": 52644,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1025,
+        "text": "All right, then...",
+        "reference": 52658,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1026,
+        "text": "　Basic physical training.",
+        "reference": 52666,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1027,
+        "text": "　Basic magic training.",
+        "reference": 52676,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1032,
+        "text": "All right, then...",
+        "reference": 52916,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1033,
+        "text": "　Basic physical training.",
+        "reference": 52924,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1034,
+        "text": "　Basic magic training.",
+        "reference": 52934,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1035,
+        "text": "All right, then...",
+        "reference": 52948,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1036,
+        "text": "　Basic physical training.",
+        "reference": 52956,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1037,
+        "text": "　Basic magic training.",
+        "reference": 52966,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2103,
+        "text": "Whoa?!",
+        "reference": 88964,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2104,
+        "text": "Eek?!",
+        "reference": 88976,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2399,
+        "text": "Karma",
+        "reference": 99344,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2400,
+        "text": "decreased!",
+        "reference": 99352,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2401,
+        "text": "Error",
+        "reference": 100312,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2402,
+        "text": "　Let's draw.",
+        "reference": 100362,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2403,
+        "text": "　Let's try drawing.",
+        "reference": 100374,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2404,
+        "text": "　Visit the settlements.",
+        "reference": 100426,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2405,
+        "text": "　Visit the settlements.",
+        "reference": 100438,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2406,
+        "text": "　Practice the basics.",
+        "reference": 100490,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2407,
+        "text": "　Practice the basics.",
+        "reference": 100502,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2408,
+        "text": "　Work on weak points.",
+        "reference": 100542,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2409,
+        "text": "　Work on weak points.",
+        "reference": 100554,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2410,
+        "text": "　Reward your hard work.",
+        "reference": 100594,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2411,
+        "text": "　Reward your hard work.",
+        "reference": 100606,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2412,
+        "text": "　Fight together.",
+        "reference": 100646,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2413,
+        "text": "　Fight together.",
+        "reference": 100658,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2414,
+        "text": "　Help the settlements.",
+        "reference": 100698,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2415,
+        "text": "　Help the settlements.",
+        "reference": 100710,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2649,
+        "text": "Hey, Meimei.",
+        "reference": 112248,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2655,
+        "text": "Meimei,",
+        "reference": 112340,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2693,
+        "text": "In that case...",
+        "reference": 113094,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2694,
+        "text": "　What's \"Wheel of Fate\"?",
+        "reference": 113102,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2695,
+        "text": "　What's this paper?",
+        "reference": 113112,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3395,
+        "text": "What will you do?",
+        "reference": 133864,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3396,
+        "text": "What should I do?",
+        "reference": 133876,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3397,
+        "text": "What will you do?",
+        "reference": 133914,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3398,
+        "text": "What should I do?",
+        "reference": 133938,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3399,
+        "text": "　I can keep going!",
+        "reference": 133966,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3400,
+        "text": "　Keep going.",
+        "reference": 133980,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3401,
+        "text": "　Head back.",
+        "reference": 133990,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4906,
+        "text": "▲",
+        "reference": 178230,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4907,
+        "text": "▲",
+        "reference": 178242,
+        "pixel_limit": 280
+      },
+      {
+        "row": 5139,
+        "text": "Huh...",
+        "reference": 185092,
+        "pixel_limit": 280
+      },
+      {
+        "row": 5140,
+        "text": "Hmm...",
+        "reference": 185104,
+        "pixel_limit": 280
+      },
+      {
+        "row": 5141,
+        "text": "Can you really read it?",
+        "reference": 185112,
+        "pixel_limit": 280
+      },
+      {
+        "row": 5142,
+        "text": "What are you reading?",
+        "reference": 185122,
+        "pixel_limit": 280
+      },
+      {
+        "row": 6498,
+        "text": "▲...",
+        "reference": 233326,
+        "pixel_limit": 280
+      },
+      {
+        "row": 6499,
+        "text": "▲...",
+        "reference": 233338,
+        "pixel_limit": 280
+      },
+      {
+        "row": 7110,
+        "text": "What should I do...?",
+        "reference": 256802,
+        "pixel_limit": 280
+      },
+      {
+        "row": 7111,
+        "text": "　Go after Subaru",
+        "reference": 256822,
+        "pixel_limit": 280
+      },
+      {
+        "row": 7112,
+        "text": "　Calm Misumi down",
+        "reference": 256832,
+        "pixel_limit": 280
+      },
+      {
+        "row": 7113,
+        "text": "　Go after Subaru",
+        "reference": 256846,
+        "pixel_limit": 280
+      },
+      {
+        "row": 7114,
+        "text": "　Calm Misumi down",
+        "reference": 256856,
+        "pixel_limit": 280
+      }
+    ],
+    "source_pool_preserved": false,
+    "live_pool_text_preserved": true,
+    "unrelated_code_preserved": true,
+    "all_group_calls_simulated": true,
+    "reviewed": true,
+    "samples": [
+      {
+        "rows": [
+          11,
+          12,
+          13
+        ],
+        "pages": [
+          [
+            "Maybe I'll go catch some",
+            "fish for dinner."
+          ]
+        ]
+      },
+      {
+        "rows": [
+          14,
+          15,
+          16
+        ],
+        "pages": [
+          [
+            "Shall I go catch some",
+            "fish for dinner?"
+          ]
+        ]
+      },
+      {
+        "rows": [
+          20,
+          21
+        ],
+        "pages": [
+          [
+            "Except I don't have any",
+            "bait..."
+          ]
+        ]
+      }
+    ],
+    "pool_compaction": {
+      "before_bytes": 999402,
+      "after_bytes": 489972,
+      "saved_bytes": 509430,
+      "exact_dedup_bytes": 496292,
+      "suffix_saved_bytes": 6320,
+      "suffix_shared_strings": 332,
+      "live_string_references": 7704,
+      "unique_live_strings": 5402,
+      "all_live_string_bytes_preserved": true,
+      "all_non_string_instructions_preserved": true
+    },
+    "meaning_review_verified": true,
+    "conditional_or_menu_rows": 99,
+    "night_talk_groups": 0
+  },
+  "report_summary": {
+    "layout_groups": 3688,
+    "selection_count": 4
+  }
+}

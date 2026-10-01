@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0479/review_meaning_0091.json",
+  "review_sha256": "2f159ab9a3d6175b89fdd77986ac8763a69a750dc46793ee5314a1c468fd5eab",
+  "target_file": "work/translation/en/story_0.1.54/0479/slice_0091.targets.json",
+  "target_before_sha256": "50cc22d6edbbbd9af02898f8b6f7d2bb919b96549d3d3bf6a18537cf611d9354",
+  "target_after_sha256": "f91bef3a8fbc94bf168563c21dcd9cdc2071e006cb8626a78048cb645291e5e8",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      103
+    ],
+    "count": 13
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 91,
+      "before": "Um... please hurry to the deck!",
+      "after": "",
+      "reason": "Restore the stammer and deck request inside their source VM box; the existing target shifts the complete meaning to its last row."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

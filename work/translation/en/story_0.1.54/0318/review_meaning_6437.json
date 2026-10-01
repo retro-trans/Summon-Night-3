@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6437.targets.json",
+  "target_file_sha256": "8f214418c5f1dfea6b3f1f85da36de8fa6bcbe348aa8cf67cd54075e34dd3f8f",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6437,
+      6516
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6353,
+      6518
+    ]
+  ],
+  "rows_examined": 166,
+  "corrections": [
+    {
+      "resource_row": 6437,
+      "source_sha256": "6b2640b65a2c8dd6fa39aea10ade0a652f6f3e74d8a4cdfe4f921a8625ad0adc",
+      "text": "what mattered to me...",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6447,
+      "source_sha256": "754a24874ad0921eff62a6d35cc33d693748281e5d25cc6f495971836681a220",
+      "text": "I thought I had gained",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6450,
+      "source_sha256": "32ed5faf59eee344605acdd3acb3d44396855acd89e9aba8e4d6213a4b5d19cf",
+      "text": "Once again, I couldn't protect",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6451,
+      "source_sha256": "6b2640b65a2c8dd6fa39aea10ade0a652f6f3e74d8a4cdfe4f921a8625ad0adc",
+      "text": "what mattered to me...",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6478,
+      "source_sha256": "c26999a9a0fdc338839a6a86b4f5f95962708b8cdf6ac117cf4806fe13f3dbfd",
+      "text": "I'LL KILL YOU...!",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6479,
+      "source_sha256": "0aeb7d8559e740e2016a238a8db38554b52ffc0196025de4d8dce8bbb543e085",
+      "text": "CRUSH YOU!!",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6480,
+      "source_sha256": "9883dd8486543c358eaeddf5d861bf8fd3442b140a79704337dda618b0df2470",
+      "text": "DESTROY YOU!?",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared Japanese source and English in complete VM groups, including adjacent slice boundaries. Correct meaning only; spelling normalization follows."
+}

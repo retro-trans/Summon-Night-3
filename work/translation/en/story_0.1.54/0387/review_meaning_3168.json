@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3168.targets.json",
+  "target_file_sha256": "b00d37457f22e72eb01db1b5af421a135ad011245ca08605fc0c45bf9ecf2127",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3168,
+      3247
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3007,
+      3409
+    ]
+  ],
+  "rows_examined": 403,
+  "corrections": [
+    {
+      "resource_row": 3208,
+      "source_sha256": "3afd7d5d8cea926a39d8ca20ba6890f58e8549d238f11f68ba4ca8e9c52f13da",
+      "text": "Only you, with the Azure Wise Emperor, could defeat him. But...",
+      "reason": "Source says only the protagonist wielding this sword can win, not conditional possession by anyone."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independent full Japanese/English VM-box review3007–3409. Restored missing greeting, sword comparison, route-neutral student references and watch direction. Name normalization follows meaning fixes."
+}

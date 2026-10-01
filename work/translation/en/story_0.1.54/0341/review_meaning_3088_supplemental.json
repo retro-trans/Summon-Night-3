@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00341",
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_3088.targets.json",
+  "target_file_sha256": "6b50d6ccd6208331a7274d58cc74814bcf5907faf38f1b476b4d40c5ce40ae30",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3088,
+      3167
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3085,
+      3168
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [
+    "Row 3127 uses the incorrect male title \"Lord Misumi\". Misumi is female; the current glossary and source context establish \"Lady Misumi\". This is a glossary-normalization correction, not a proposed meaning-edit application."
+  ],
+  "omissions": [],
+  "name_normalization_requested": [
+    {
+      "resource_row": 3127,
+      "from": "Lord Misumi",
+      "to": "Lady Misumi",
+      "reason": "Source ミスミ殿 is an honorific address, and the frozen glossary/source context identify Misumi as Subaru's mother. Resource 485 rows 3817 and 3844 corroborate the established title and her husband relationship."
+    }
+  ],
+  "notes": "Supplemental independent Japanese/English meaning review with both-side context. The shelter arrangement at rows 3127-3129 is semantically correct. Its male title is a glossary-normalization defect: normalize Lord Misumi to Lady Misumi after meaning-review processing; do not treat this metadata-only request as an applied meaning correction."
+}

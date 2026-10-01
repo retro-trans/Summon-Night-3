@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_1888.targets.json",
+  "target_file_sha256": "551d459384e031b2647f611944ef4f02deffd2854a65be10e15ecc741968c5af",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1888,
+      1967
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1885,
+      1968
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Final independent source-first recheck. The adjacent duplicate-anchor issue begins at row1886 and is outside this proof’s reviewed range; its approved repair belongs to the prior boundary row. No additional meaning correction is required in1888–1967.",
+  "semantic_complete": true,
+  "independent_review": true,
+  "reviewer": "ch18_b; explicit final message confirms full reviewed range and adjacent VM context"
+}

@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0296/review_meaning_0011.json",
+  "review_sha256": "a5689cd2522f12c893a53672343bc29699233a1263783f1299e5e5c7839407ef",
+  "target_file": "work/translation/en/story_0.1.54/0296/slice_0011.targets.json",
+  "target_before_sha256": "fb3da02d447176c42b53860adb5f1cc965f09c45cf5ea4017f4440f55d7fe12a",
+  "target_after_sha256": "66630c2df6479e257f7373cb64cd393d242d46ff6d1e12c485abb93e853448eb",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 42,
+      "before": "In the battle long ago, I became a core mark",
+      "after": "In the battle long ago, I became the Core Cognizance",
+      "reason": "核識 is the established Core Cognizance term; “core mark” is an inconsistent literal rendering."
+    },
+    {
+      "resource_row": 55,
+      "before": "Once I became a core mark,",
+      "after": "Once I became the Core Cognizance,",
+      "reason": "Uses the established Core Cognizance term for 核識."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

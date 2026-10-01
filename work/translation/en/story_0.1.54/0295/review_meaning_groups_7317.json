@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7317.targets.json",
+  "target_file_sha256": "6c702787c03ce79aeb57f09dfad6dd5f2ccfd6f75cafcd3f239e8f6ad7dcae8f",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      7317,
+      7396
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      7316,
+      7397
+    ]
+  ],
+  "rows_examined": 82,
+  "vm_group_verification": {
+    "method": "Reviewed consecutive reference instructions spaced by 8 as one VM group; corrections keep each group self-contained."
+  },
+  "corrections": [
+    {
+      "resource_row": 7329,
+      "source_sha256": "d1ba99ff2ad48ae94669e987756a2ab50355816d033127b6c61a815b0154850d",
+      "before": ".",
+      "text": "",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7335,
+      "source_sha256": "94f604a8e4a9580a48e7c6dce2ea6d41bfacd99ec213b834595d0a2f926d1102",
+      "before": "She is trying to abandon her regret at failing to save her brother, and her reason",
+      "text": "She is trying to abandon",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7336,
+      "source_sha256": "3d8f19dae1b87f04b3d731c84dc08f3dda398b0cb4d94996689c9766ea463e1a",
+      "before": "for remaining in this world.",
+      "text": "her regret at failing to save her brother,",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7337,
+      "source_sha256": "d20d026c5b71b8d6b86dceb2308065b42c02d27c739fbca09e89a09ad32af0a9",
+      "before": ".",
+      "text": "and her reason for remaining in this world.",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7345,
+      "source_sha256": "d32edbca39fa1a641b565ecb1181c0247d1451a8bbfbde397641e0a1c8c857ec",
+      "before": "I cannot selfishly let my death",
+      "text": "I am already dead.",
+      "reason": "Root verifies the complete source group: preserve the dead speaker's agency or the separate rhetorical denial without added padding."
+    },
+    {
+      "resource_row": 7346,
+      "source_sha256": "8cc2f083c9b2de12207c26b1df4c228fd8365ea526da00ab722832d173d3e1db",
+      "before": "trouble those who are alive.",
+      "text": "I cannot let my selfish wishes",
+      "reason": "Root verifies the complete source group: preserve the dead speaker's agency or the separate rhetorical denial without added padding."
+    },
+    {
+      "resource_row": 7347,
+      "source_sha256": "03e4d49ef31b2999865cef077d872db0e778ac24ff8cb1139418fb56a1312231",
+      "before": ".",
+      "text": "trouble those who are still alive.",
+      "reason": "Root verifies the complete source group: preserve the dead speaker's agency or the separate rhetorical denial without added padding."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Final-slice VM-group review; no target edit or acceptance.",
+  "integration_note": "Root consolidated all pending corrections against current targets and checked the resulting complete VM dialogue groups; superseded partial proposals are archived and are not applicable reviews.",
+  "superseded_proposals": [
+    {
+      "file": "work/translation/en/story_0.1.54/0295/review_history/review_meaning_groups_7317.json",
+      "sha256": "91374809e283e456458cb2b0fdad96a59c6305735e865149bf0289dba6324557"
+    },
+    {
+      "file": "work/translation/en/story_0.1.54/0295/review_history/review_meaning_groups_7317_supplemental.json",
+      "sha256": "42b0f543928d2c09066694becc32ccd6a9a00e66f6211f67196acae88f6f73b2"
+    },
+    {
+      "file": "work/translation/en/story_0.1.54/0295/review_history/review_meaning_groups_7317_supplemental_v2.json",
+      "sha256": "82a551691e56690e91ce55d6cb94e9edc9a889be7ab6b6d1cfd139398cb80a94"
+    }
+  ]
+}

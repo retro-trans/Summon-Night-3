@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00337",
+  "source_sha256": "d8a0bf2546b75bfd233a082b9b3350e1d73c79f2fd330b194e6b94df670ac586",
+  "target_file": "work/translation/en/story_0.1.54/0337/slice_0011.targets.json",
+  "target_file_sha256": "f000eb24cebc9fe24456d1f630bc4178c6c47b1fad25d1bfff405d6e49c56dd7",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      47
+    ],
+    "count": 37
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      47
+    ]
+  ],
+  "rows_examined": 38,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        39,
+        40,
+        42,
+        43
+      ],
+      "note": "Marurur's use of her own name and Teacher as direct address is retained as a speech mannerism, not a third-party identity."
+    }
+  ],
+  "omissions": [
+    {
+      "note": "Explicit source pauses, cries and genuinely interrupted thought are retained, not filled out with invented conclusions."
+    }
+  ],
+  "notes": "Root independently compared every full VM group in the assigned dialogue and its boundary context. All correction groups reconstructed in memory before accepting the change."
+}

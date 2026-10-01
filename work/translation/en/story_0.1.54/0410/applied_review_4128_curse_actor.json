@@ -1,0 +1,41 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_4128_curse_actor.json",
+  "review_sha256": "26e1c4d940549f32cb2f4168065125db3803f6f8075215ecd62dec09332733c5",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4128.targets.json",
+  "target_before_sha256": "b00de890ffa4710969797273060fe5c7a4428c2ed1088923c5db28b3ec7f7299",
+  "target_after_sha256": "981fa6b4b4db529fedded9dc400ece23699f499b48eb742273adcd821d95da27",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4204,
+      4205
+    ],
+    "count": 2
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4204,
+      "before": "Of course, I can't kill myself.",
+      "after": "Of course, even suicide is impossible.",
+      "reason": "The explanatory clause does not identify the speaker as the curse victim; avoid falsely making this observer's first-person claim."
+    },
+    {
+      "resource_row": 4205,
+      "before": "If I died, the curse",
+      "after": "If the victim died, the curse",
+      "reason": "Keep the curse's general mechanism distinct from an unsupported first-person actor."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        4204,
+        4205,
+        4208,
+        4209,
+        4210
+      ],
+      "issue": "The source does not name an actor in these explanatory clauses; victim-neutral wording preserves the general mechanism without imposing a speaker identity."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

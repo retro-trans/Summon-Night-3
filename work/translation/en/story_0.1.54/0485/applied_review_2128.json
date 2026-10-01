@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_2128.json",
+  "review_sha256": "fa243df3bbb0a3c59dd71a5aa9c4125ea090aa34f8db528c09b9db1706f4dea7",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2128.targets.json",
+  "target_before_sha256": "f4b9ccd447c4cce760c48c7eb325f8bf6aa9b692b62e0be95386e2c5305d818e",
+  "target_after_sha256": "83763e24d6013d9a8e5d07b3792cfd4f7d3e9e952fa3d4bfb0d218a8ec8c81eb",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2128,
+      2207
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2133,
+      "before": "How dare you!!",
+      "after": "Do be quiet!!",
+      "reason": "Imperative tells the listener to be quiet, not merely expressing offense."
+    },
+    {
+      "resource_row": 2134,
+      "before": "I could have been traveling the road of love with Lord Kazamine...",
+      "after": "I wanted to be traveling the road of love with Lord Kazamine...",
+      "reason": "Source expresses the speaker's unfulfilled wish, not only a hypothetical possibility."
+    },
+    {
+      "resource_row": 2204,
+      "before": "Keep watch...",
+      "after": "I'll keep watch...",
+      "reason": "Hasaha volunteers to keep watch; bare imperative reverses speaker/listener direction."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

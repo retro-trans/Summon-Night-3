@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_5717_vm_groups.json",
+  "review_sha256": "32d7550ab647b03263ee15277a7b3b91f5264fe065ee41c64b38ad3a909aae0c",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_5717.targets.json",
+  "target_before_sha256": "afd24e98476dda37dd6651271e96a8af7e07d6b4129817dd1ed54022b0fce73e",
+  "target_after_sha256": "2511c313fa5b351d7192fb61822e24a5b7d063b72fa1b1a4b8501726cb64e7eb",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5717,
+      5796
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5796,
+      "before": "As a Guardian of the island,",
+      "after": "Not as Falzen,",
+      "reason": "The 5796–5798 VM group is Falzen’s unfinished “not as … but” clause; “Fariel” belongs to the following group."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

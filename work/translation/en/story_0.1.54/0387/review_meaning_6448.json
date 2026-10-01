@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_6448.targets.json",
+  "target_file_sha256": "39d7dc86bce280fb2a06e219be407b44ef7aad7cf9c81f0e9aa49035b72e5469",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [6448, 6527], "count": 80},
+  "source_ranges_examined": [[6447, 6528]],
+  "rows_examined": 82,
+  "corrections": [
+    {"resource_row":6512,"source_sha256":"f5d3c83126896f8248d6cf538a5981b63bb4c1c73b042c908d90c56aadfab4be","text":"Hazel, the \"Lady of Thorns.\"","reason":"Hazel's verified source title is Lady of Thorns, not Thorn Lord."},
+    {"resource_row":6513,"source_sha256":"b57c29f50ba674e5553af88d24ad1805a1269291b6a6dac24447ac87d78d98b3","text":"That is what she was called","reason":"The preceding source line identifies Hazel; her known gender is female."},
+    {"resource_row":6517,"source_sha256":"fc402968071120248997347a8d3681c264e62f699bf75eebd348e12c4e96621d","text":"Her leg is broken...","reason":"Hazel is the established female referent."},
+    {"resource_row":6518,"source_sha256":"a58a378c808e7241fe99df5c3a10ed505304846dea95e19ea685fbc777a5beb7","text":"And she has injuries","reason":"Hazel is the established female referent."},
+    {"resource_row":6520,"source_sha256":"982447d999c0c0826f326388c44124b3ec85e931a89ca4dea959116540ddfdf9","text":"Her leg is broken...","reason":"Hazel is the established female referent."},
+    {"resource_row":6521,"source_sha256":"a58a378c808e7241fe99df5c3a10ed505304846dea95e19ea685fbc777a5beb7","text":"And she has injuries","reason":"Hazel is the established female referent."},
+    {"resource_row":6524,"source_sha256":"1dd88ad152eb92910bafca3f974f08dbdc11db4601d55f0fac6b79847516a0b9","text":"she was abandoned","reason":"Hazel is the established female referent."}
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first meaning review of full VM boxes and both-side context; source read transiently. Hazel's title and gender follow the verified Chapter 13 reference. No correction was applied and no normalization was performed."
+}

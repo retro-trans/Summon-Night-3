@@ -1,0 +1,28 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_4608.json",
+  "review_sha256": "a6ffd77a85ab3129216d85999b6a8503284f101a45d5470c91ca8515b27d2dc8",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4608.targets.json",
+  "target_before_sha256": "c03c469a2d86b0de351955150629a04009710be454ca16bfa0397456e8dba9e6",
+  "target_after_sha256": "14b695b856203838fe4b0b4b93dfbe8bdd3d52decb51a17e92918c63925392ac",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4608,
+      4687
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4671,
+      "before": "Strong and kind Sword-drawers are protecting this island! ♪",
+      "after": "Strong and kind Sword-drawers are protecting this island!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Unverified names and specialized terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

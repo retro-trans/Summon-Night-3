@@ -1,0 +1,38 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_1888.json",
+  "review_sha256": "56b7b061ef91f4cc8694ecec7bfc3d492b317052826d8d0ab13e675d22fb911f",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_1888.targets.json",
+  "target_before_sha256": "e3512b91d8233c51846c7afbd98b8ad256ac3da1dfbcd50b709eb9eec31fe174",
+  "target_after_sha256": "27acffc2c1c73f23054f340fa66a7a5bc3fb9937884ea423de6bbd42e7010344",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1888,
+      1967
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 1946,
+      "before": "When this mission is over, let's go see them at Zelam's estate for the first time in a while.",
+      "after": "When this mission is over, let's go see them at the estate in Zelam for the first time in a while.",
+      "reason": "Zelam is a city, not the owner of the estate."
+    },
+    {
+      "resource_row": 1950,
+      "before": "When this mission is over, shall we go see them at Zelam's estate for the first time in a while?",
+      "after": "When this mission is over, shall we go see them at the estate in Zelam for the first time in a while?",
+      "reason": "Zelam is a city, not the owner of the estate."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        1963,
+        1965
+      ],
+      "issue": "Le-O-LD is a verified primary-gallery alias; no gender is inferred from the name."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

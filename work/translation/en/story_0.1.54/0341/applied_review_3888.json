@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0341/review_meaning_3888.json",
+  "review_sha256": "af5be4efd9442d07cb14fd73ccc0b99366194af2efadfd689102332cb664a457",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_3888.targets.json",
+  "target_before_sha256": "779859a08164fc48cc9e4317c64960b03c7d74e8f714c4b1663a5a357ce72ef6",
+  "target_after_sha256": "08dac2819b195db4130aea37191643c4c99baa24173eb1830fb8b2b6b645e87e",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3888,
+      3945
+    ],
+    "count": 58
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3915,
+      "before": "So I will smile. I will face them with all the strength I have.",
+      "after": "So I'll smile. I'll face them with the bravest smile I can muster.",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    },
+    {
+      "resource_row": 3920,
+      "before": "I could only watch them leave with relaxed smiles on their faces...",
+      "after": "With confident smiles on their faces, they walked away...",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    },
+    {
+      "resource_row": 3922,
+      "before": "I could only watch them leave with relaxed smiles on their faces...",
+      "after": "I could only stand there and watch them go...",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

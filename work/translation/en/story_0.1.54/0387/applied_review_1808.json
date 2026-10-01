@@ -1,0 +1,113 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_1808.json",
+  "review_sha256": "78e8d5127d19069ecf5b580e9f47fa92adc8243acda7f7847cdd743b84d7a042",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_1808.targets.json",
+  "target_before_sha256": "3cd1a08d7b0e7483f1a5770d77ee6f8b218b8dad599a490d1195a6a59e0a5d6e",
+  "target_after_sha256": "1fbcd03fddd33614dd51b0cd5ce4aa1a8082d41b01f4a44b91721e82b09fca78",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1808,
+      1887
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 1812,
+      "before": "From sorrow,",
+      "after": "I wanted to protect them",
+      "reason": "Restore protection verb in this box."
+    },
+    {
+      "resource_row": 1813,
+      "before": "from suffering...",
+      "after": "from sorrow and suffering...",
+      "reason": "Restore complete wish within the original box."
+    },
+    {
+      "resource_row": 1814,
+      "before": "I wanted them",
+      "after": "All I wished was for them",
+      "reason": "Restore that this was the only wish."
+    },
+    {
+      "resource_row": 1817,
+      "before": "Neither enemies",
+      "after": "Not a single person or thing,",
+      "reason": "Keep the source object in its own box."
+    },
+    {
+      "resource_row": 1818,
+      "before": "nor allies...",
+      "after": "from either my enemies or my allies...",
+      "reason": "Keep source enemies/allies relation."
+    },
+    {
+      "resource_row": 1819,
+      "before": "I wanted to protect them,",
+      "after": "Without taking anything away,",
+      "reason": "Keep the taking/protecting opposition."
+    },
+    {
+      "resource_row": 1820,
+      "before": "without taking anyone or anything away...",
+      "after": "I only wanted to protect...",
+      "reason": "Keep the protection verb."
+    },
+    {
+      "resource_row": 1860,
+      "before": "How is she?",
+      "after": "How are they?",
+      "reason": "Shared protagonist reference must cover Rex and Aty."
+    },
+    {
+      "resource_row": 1862,
+      "before": "She hasn't even touched",
+      "after": "They haven't even touched",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1864,
+      "before": "She's gone without food or drink",
+      "after": "They've gone without food or drink",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1865,
+      "before": "and shut herself in her room",
+      "after": "and shut themselves in their room",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1867,
+      "before": "Her wounds haven't even been",
+      "after": "Their wounds haven't even been",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1872,
+      "before": "her a meal...",
+      "after": "them a meal...",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1878,
+      "before": "Just leave her be.",
+      "after": "Just leave them be.",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1887,
+      "before": "Do mechanical dolls",
+      "after": "Do Veiger women",
+      "reason": "Restore the race and women, not mechanical dolls."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 1860,
+      "note": "Common dialogue serves both protagonist genders; explicit male/female variants1906–1913 retained."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

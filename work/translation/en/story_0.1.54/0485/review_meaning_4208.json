@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4208.targets.json",
+  "target_file_sha256": "5d51277be4036f69521d1ff8162df105338fdd4e5ff2ac2b60e266421ea6d41c",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4208,
+      4287
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4207,
+      4289
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 4211,
+      "source_sha256": "cf113410458463b2aa6f7a39cd01cc62385ce835df6919f57b0faf302fafe936",
+      "text": "Even if I were to lose the power to work miracles,",
+      "reason": "Hypothetical future loss, not remaining powerless; prior source4188 explicitly denies loss."
+    },
+    {
+      "resource_row": 4255,
+      "source_sha256": "47b9057c26ceae9177933bb83939a79fb442783f414aa9c7c2868ca71e909d57",
+      "text": "I would like to hear an angel scream again after all this time...",
+      "reason": "Restores the speaker's explicit desire/threat, not just elapsed time."
+    },
+    {
+      "resource_row": 4259,
+      "source_sha256": "fdf2e5c40c198bbc1a6b07d762075fe979ae9de3da94d4514e4a5863b95276f2",
+      "text": "I'm not listening to you.",
+      "reason": "Refusal to obey the stop command, not inability to hear."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Unverified names, groups, and technical terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning/control review only; no target applied. Root read complete groups4205–4450 and both slice boundaries; supplementary meaning review.",
+  "name_normalization_requested": [
+    {
+      "resource_row": 4273,
+      "from_text": "Lady Phlaiz",
+      "to_text": "Phlaiz",
+      "reason": "Source uses neutral san, not Lady. Remove unsupported gendered title during glossary pass."
+    }
+  ]
+}

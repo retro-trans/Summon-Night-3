@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00470",
+  "source_sha256": "3581f7b134c77bfa499956b3e1562c4f3957fb9d37faf4fcadb78a8b207f00b6",
+  "target_file": "work/translation/en/story_0.1.54/0470/slice_0011.targets.json",
+  "target_file_sha256": "43b358496e92139102b1f8b82ee66a1086d5880ea0f57c58aa5291d50f1ce0df",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      126
+    ]
+  ],
+  "rows_examined": 117,
+  "corrections": [
+    {
+      "resource_row": 17,
+      "source_sha256": "f4ad9973a3f43253af73506ac8f5492a53ab257caef9453c39ef6f10566c3bfb",
+      "text": "But if we don't split them exactly in half,",
+      "reason": "Retain the pupil’s literal “halves” question; “evenly” silently corrects the misunderstanding."
+    },
+    {
+      "resource_row": 18,
+      "source_sha256": "1f2e08aa55a9568dfb49819be7e0cba823982fa022c2da957c49c8e5b7ea2506",
+      "text": "won't they start fighting?",
+      "reason": "Retain the pupil’s literal “halves” question; “evenly” silently corrects the misunderstanding."
+    },
+    {
+      "resource_row": 19,
+      "source_sha256": "dce553e9cc8375e823e3be5aee9f98becd9e6ac327a20daf235b81fdcff42f1e",
+      "text": "",
+      "reason": "Retain the pupil’s literal “halves” question; “evenly” silently corrects the misunderstanding."
+    },
+    {
+      "resource_row": 21,
+      "source_sha256": "1ed927d486012931d972f0e34c71047de39dd5f54b9b2997c06b3bc9991a43b9",
+      "text": "If three people share five Dalima fruits,",
+      "reason": "The source counts the contents of the fruit without identifying them as seeds."
+    },
+    {
+      "resource_row": 22,
+      "source_sha256": "f78c0d9b18d77b70b7cd5c35d75bb8fc4991add73c5b1e7596700d0b95868f2e",
+      "text": "they should count the pieces inside as well!",
+      "reason": "The source counts the contents of the fruit without identifying them as seeds."
+    },
+    {
+      "resource_row": 23,
+      "source_sha256": "b26374101b0d38f4a42a72a18f75ac23faa0fd2f2fbc74128f2ae04f9ab7d98b",
+      "text": "",
+      "reason": "The source counts the contents of the fruit without identifying them as seeds."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "The promised answer is intentionally left implied by the reciprocal statements of present happiness; no explicit acceptance or rejection should be invented."
+    }
+  ],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups and full scene context. Proper-name and teacher-case normalization are deferred to the name script."
+}

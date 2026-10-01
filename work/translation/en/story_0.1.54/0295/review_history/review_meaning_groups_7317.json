@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7317.targets.json",
+  "target_file_sha256": "6c702787c03ce79aeb57f09dfad6dd5f2ccfd6f75cafcd3f239e8f6ad7dcae8f",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      7317,
+      7396
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      7316,
+      7397
+    ]
+  ],
+  "rows_examined": 82,
+  "vm_group_verification": {
+    "method": "Reviewed consecutive reference instructions spaced by 8 as one VM group; corrections keep each group self-contained."
+  },
+  "corrections": [
+    {
+      "resource_row": 7327,
+      "source_sha256": "2fbb164518dbfb14411228db17fa670773b3bc2221ff7e242fcd613637b52f0d",
+      "before": "You take her",
+      "text": "You lead her",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7328,
+      "source_sha256": "e1150f9f5b0ead002554a29e6d873178423ededa563d19547210ad32b625ce3b",
+      "before": "into danger.",
+      "text": "into danger.",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7329,
+      "source_sha256": "d1ba99ff2ad48ae94669e987756a2ab50355816d033127b6c61a815b0154850d",
+      "before": ".",
+      "text": "",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7335,
+      "source_sha256": "94f604a8e4a9580a48e7c6dce2ea6d41bfacd99ec213b834595d0a2f926d1102",
+      "before": "She is trying to abandon her regret at failing to save her brother, and her reason",
+      "text": "She is trying to abandon",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7336,
+      "source_sha256": "3d8f19dae1b87f04b3d731c84dc08f3dda398b0cb4d94996689c9766ea463e1a",
+      "before": "for remaining in this world.",
+      "text": "her regret at failing to save her brother,",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7337,
+      "source_sha256": "d20d026c5b71b8d6b86dceb2308065b42c02d27c739fbca09e89a09ad32af0a9",
+      "before": ".",
+      "text": "and her reason for remaining in this world.",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7347,
+      "source_sha256": "03e4d49ef31b2999865cef077d872db0e778ac24ff8cb1139418fb56a1312231",
+      "before": ".",
+      "text": "",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Final-slice VM-group review; no target edit or acceptance."
+}

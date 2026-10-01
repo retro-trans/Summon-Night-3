@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_boundary_review",
+  "reviewer": "root",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2688.targets.json",
+  "target_file_sha256": "430341d1c02c0f632faaaf158156f1a1d797f217ee67f39b55b53bb9abb9f78d",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2767,
+      2767
+    ],
+    "count": 1
+  },
+  "source_ranges_examined": [
+    [
+      2758,
+      2775
+    ]
+  ],
+  "rows_examined": 18,
+  "corrections": [
+    {
+      "resource_row": 2767,
+      "source_sha256": "aea29cc4033d4ef25f17c7a61b09068946a9fb2cc8d9b2a99e813b41b36c79a8",
+      "text": "It took a little work, but compared to those demons, it was nothing.",
+      "reason": "Restore missing anchor of whole VM group2767–2769; next slice correctly leaves its two internal continuation rows blank."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Narrow boundary repair only. Rest of slice2688 still needs independent meaning review."
+}

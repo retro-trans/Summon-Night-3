@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "reviewer": "root independent of author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2528.targets.json",
+  "target_file_sha256": "142ac4e07a89386272b302d5f63a71c99763b868793bfbf9af468d5cb206cb8a",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2528,
+      2607
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2525,
+      2610
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        2543,
+        2551,
+        2554
+      ],
+      "issue": "Source sensory noun phrase and unfinished nap wish preserved as deliberate trailing utterances."
+    }
+  ],
+  "notes": "Read all source groups and target groups plus both boundaries. Preserve unfinished source utterances; name normalization follows all meaning corrections."
+}

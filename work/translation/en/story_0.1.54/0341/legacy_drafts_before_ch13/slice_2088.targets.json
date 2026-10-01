@@ -1,0 +1,61 @@
+{
+  "resource_id": "00:00341",
+  "range_inclusive": [
+    2088,
+    2090
+  ],
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "review_status": "author self-check; no independent meaning review",
+  "source_ranges_examined": [
+    [
+      2088,
+      2089,
+      2090
+    ]
+  ],
+  "notes": "Exact source-identity reuse from existing author-self-checked story translation; context checked.",
+  "translations": {
+    "00:00341:text:0002d8c6": {
+      "source_offset": 186566,
+      "pool_word_offset": 19690,
+      "source_byte_length": 10,
+      "source_sha256": "a397b09a5d5bd1070fb86a354211f46bf5e010b0eedb4ad8cd06962a3b726c66",
+      "contains_japanese": true,
+      "reference_instructions": [
+        83460
+      ],
+      "id": "00:00341:text:0002d8c6",
+      "resource_row": 2088,
+      "text": "No matter what,",
+      "status": "translated_author_self_check"
+    },
+    "00:00341:text:0002d8d2": {
+      "source_offset": 186578,
+      "pool_word_offset": 19696,
+      "source_byte_length": 4,
+      "source_sha256": "9b8ab10290b97f649e2562f91274705ae63bf9a1ed1fb3b4a5c31279837241a7",
+      "contains_japanese": true,
+      "reference_instructions": [
+        83498
+      ],
+      "id": "00:00341:text:0002d8d2",
+      "resource_row": 2089,
+      "text": "Hmm?",
+      "status": "translated_author_self_check"
+    },
+    "00:00341:text:0002d8d8": {
+      "source_offset": 186584,
+      "pool_word_offset": 19699,
+      "source_byte_length": 12,
+      "source_sha256": "8d879d1a30621ca617b795b6487f9df99fd77a9036ece3732fc9e37af086d140",
+      "contains_japanese": true,
+      "reference_instructions": [
+        83528
+      ],
+      "id": "00:00341:text:0002d8d8",
+      "resource_row": 2090,
+      "text": "Kunon?",
+      "status": "translated_author_self_check"
+    }
+  }
+}

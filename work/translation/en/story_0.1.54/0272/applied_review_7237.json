@@ -1,0 +1,34 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0272/review_meaning_7237.json",
+  "review_sha256": "3260ee3b6a687c66fa4c5acda250ad6406d6441593bf4f577434071260af9b23",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_7237.targets.json",
+  "target_before_sha256": "0a75e6052cd7b9be30e7c2497bae9f58e96a75b340548aaa5331d71e9840c6e6",
+  "target_after_sha256": "66ad346368f3ed28277bd7fd0458f6dca0c66cc97ce1f556bc47cf062fa0702f",
+  "reviewed_rows": {
+    "range_inclusive": [
+      7237,
+      7316
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 7237,
+      "before": "You say Lady Misumi doesn't",
+      "after": "",
+      "reason": "Remove duplicated internal continuation; the entire source proposition is already at7236."
+    },
+    {
+      "resource_row": 7238,
+      "before": "understand how you feel,",
+      "after": "",
+      "reason": "Remove duplicated internal continuation; no source meaning omitted from the complete box."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

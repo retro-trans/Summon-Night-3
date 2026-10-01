@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "root source consolidation after independent agent review",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json",
+  "target_file_sha256": "fde9ab8c9da836ab8f00d6685c21a26fb1d3ef897bc0814f5f3fa8c655327854",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5568,
+      5647
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5565,
+      5650
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "resource_row": 5626,
+      "issue": "Foyaldia summon spelling remains provisional until glossary research."
+    }
+  ],
+  "omissions": [],
+  "notes": "Full source VM groups read through EOF5825, including cross-slice groups. Original controls and physical music rows retained. Name-only changes deferred to scripted glossary normalization."
+}

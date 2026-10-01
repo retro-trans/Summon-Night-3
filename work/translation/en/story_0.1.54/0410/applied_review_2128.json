@@ -1,0 +1,45 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_2128.json",
+  "review_sha256": "8d03ed828c526e437ee070b7c710f744a0faedee45c4b821f9a918d7bba29e79",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2128.targets.json",
+  "target_before_sha256": "07df19e019bd675fbe7079a98aa813a53dc2aa9a602b522b4ae40afe455f09de",
+  "target_after_sha256": "436a381a0c790289b4021fa37cd46303916fa5c4a97f82b236267784e301c996",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2128,
+      2207
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2186,
+      "before": "If I don't believe...",
+      "after": "Without belief...",
+      "reason": "Special unattributed VM path is distinct from adjacent pupil display. First-person actor was not established."
+    },
+    {
+      "resource_row": 2187,
+      "before": "then none of my wishes can ever come true...",
+      "after": "no wish can ever",
+      "reason": "Removes unsupported possessive 'my' while retaining conditional meaning."
+    },
+    {
+      "resource_row": 2188,
+      "before": "",
+      "after": "come true...",
+      "reason": "Completes source claim without assigning the unproven speaker."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2186,
+        2187,
+        2188
+      ],
+      "issue": "Special VM helper does not establish direct speaker. Surrounding pupil reactions do not prove Teacher; actor-neutral formulation deliberately retains this uncertainty."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

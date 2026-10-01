@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "reviewer": "root independent of author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2768.targets.json",
+  "target_file_sha256": "a211e58568db4f163678c071cd08dfb0ee7d738bc2b2b183af112cc04e2e3d7b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2768,
+      2847
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2766,
+      2850
+    ]
+  ],
+  "rows_examined": 85,
+  "corrections": [
+    {
+      "resource_row": 2827,
+      "source_sha256": "28c9ebb86366352966c1daab4a3fdf10d1daa89205715d1e717ec7f80494dbdb",
+      "text": "If saying it was a joke made everything all right...",
+      "reason": "Conditional rebuke continues across next VM box; not a request for a joke."
+    },
+    {
+      "resource_row": 2828,
+      "source_sha256": "0970e26022f5d2f540cb69075199144df95c8c4df93a4cc82f9a0163d678f9fe",
+      "text": "...there'd be no need for Guardians!!",
+      "reason": "Completes source conditional idiom, not a ban on Guardians."
+    },
+    {
+      "resource_row": 2845,
+      "source_sha256": "ba96e7f8b15e64551ab5a2d19bf44dd141724946ba28785727d7e510d3d2415b",
+      "text": "We've taken the hostage back now.",
+      "reason": "Guardian has just rescued Marurur; this is not a claim of voluntary return by the visitors."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2833,
+        2839
+      ],
+      "issue": "Mechanical model role and technique title are provisional literal translations; consult terminology after meaning review."
+    }
+  ],
+  "omissions": [],
+  "notes": "Read all source groups and target groups plus both boundaries. Preserve unfinished source utterances; name normalization follows all meaning corrections."
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4197.targets.json",
+  "target_file_sha256": "952090979d877eb4c40688eb6ee4e05572460f04866a2a5c0bf8b900e9156959",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4197,
+      4276
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3955,
+      4599
+    ]
+  ],
+  "rows_examined": 645,
+  "corrections": [
+    {
+      "resource_row": 4218,
+      "source_sha256": "b61d32438aa0240178db0ae12824282315f83c86b79c0d646e3d71ea3295431d",
+      "text": "If you do not forget",
+      "reason": "The whole source box is one unfinished conditional."
+    },
+    {
+      "resource_row": 4219,
+      "source_sha256": "a0dd6b28dba91a83ae489decd0d88e6ae1f8c7a3ead8ae4bbd8420a6efa74831",
+      "text": "what you just said...",
+      "reason": "Complete the conditional without adding an independent assertion."
+    },
+    {
+      "resource_row": 4220,
+      "source_sha256": "aa48fb403948193f536be318101647ced3e171108d3f90ff017ffd7a085e0f70",
+      "text": "",
+      "reason": "Remove a filler ellipsis; same box's full meaning is retained."
+    },
+    {
+      "resource_row": 4245,
+      "source_sha256": "d6972fa4b8ee9b678129ab6016e27db7430c69dc50801acb4b877b978c088ca5",
+      "text": "Yeah...",
+      "reason": "Preserve the subdued acknowledgement."
+    },
+    {
+      "resource_row": 4274,
+      "source_sha256": "126f24bc7956a7acc723df0f0b8ede413c1bd0e336b2600a7ca1d7673b81300a",
+      "text": "",
+      "reason": "Remove filler ellipsis after the complete sentence in the same group."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "note": "Silence, cries and explicitly interrupted speech remain fragments; internal blanks never erase complete dialogue boxes."
+    }
+  ],
+  "notes": "Source-based read-only independent review by Terra chapter12_review covered3957–4596 and boundary context. Root reconciled corrections against original VM boxes, rejected a flawed proposed extra conditional, and previewed merged results. Root saves this current review record under the user's continuing translation task.",
+  "superseded_proposals": [
+    {
+      "file": "work/translation/en/story_0.1.54/0318/review_history/review_meaning_4197_initial_proposal.json",
+      "sha256": "4025737f210adc9278b0fc3ed9632afa99f78f3948019237543a643e8dc30767"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_2768.targets.json",
+  "target_file_sha256": "5500085cbf25f8628dee3fcc7bbb62161c7664386918b903e20df4164fa95482",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2768,
+      2847
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2767,
+      2850
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [
+    {
+      "resource_row": 2826,
+      "source_sha256": "ddc74e5c598995096dc8f54fbb9d02229cd275be0b0e82262f23af3e8d3df73f",
+      "text": "What else can we do!?",
+      "reason": "Source is a complete standalone dialogue box; the draft leaves it empty."
+    },
+    {
+      "resource_row": 2827,
+      "source_sha256": "c4eef08d56fd65e8aad8aaee89ec01438e15b5cb68d32eeebd84b6807d78de7a",
+      "text": "We cannot possibly understand the feelings of grass, trees, or the earth!",
+      "reason": "Restores the complete 2827–2829 source box at its first row."
+    },
+    {
+      "resource_row": 2828,
+      "source_sha256": "ffda7bbc25f065099f3c4d547a44fe2ac35094d3f26a7580fe4aeec959a3ba28",
+      "text": "",
+      "reason": "Clears spill text after moving the full 2827–2829 box to row 2827."
+    },
+    {
+      "resource_row": 2829,
+      "source_sha256": "f948276ec42211e12e46e4d19cb377d32ace86b04d940f7064321358057bd647",
+      "text": "",
+      "reason": "Clears spill text after moving the full 2827–2829 box to row 2827."
+    },
+    {
+      "resource_row": 2830,
+      "source_sha256": "4e3613ad2e7393ad30385ddbb60954fdb11f0f9944920c5ea16658bc9a57bb1e",
+      "text": "You cannot just suddenly say something like that...",
+      "reason": "Restores the complete 2830–2831 source box at its first row."
+    },
+    {
+      "resource_row": 2831,
+      "source_sha256": "def82e7422b75d2d3cf515b4048a67298b581fee8f342d8ef347c6c76cc96739",
+      "text": "",
+      "reason": "Clears spill text after moving the full 2830–2831 box to row 2830."
+    },
+    {
+      "resource_row": 2832,
+      "source_sha256": "820264d00efdc3a80eaeed56652abc151405fe468fc1defcaa23e3bb94d7679f",
+      "text": "We cannot possibly understand the feelings of grass, trees, or the earth!",
+      "reason": "Restores the complete 2832–2834 source box at its first row."
+    },
+    {
+      "resource_row": 2833,
+      "source_sha256": "261c17be54197fa2b432f8b4dcc6da1edf0ad47e58abaeeb7d7621267d395e71",
+      "text": "",
+      "reason": "Clears spill text after moving the full 2832–2834 box to row 2832."
+    },
+    {
+      "resource_row": 2834,
+      "source_sha256": "de5f4d6ad15b5c60e890105a9678116803c277d035459617eca55b97bd70edc2",
+      "text": "",
+      "reason": "Clears spill text after moving the full 2832–2834 box to row 2832."
+    },
+    {
+      "resource_row": 2835,
+      "source_sha256": "3fb62046bad1cdddecb35b13979dd2feea8b9a1e427603a435d415b7295d079f",
+      "text": "If their cries cannot be heard, does that mean you may ignore them and trample them!?",
+      "reason": "Restores the complete 2835–2837 source box at its first row."
+    },
+    {
+      "resource_row": 2836,
+      "source_sha256": "19799ae5573ed9bf511f9f29e9c1efb95a27dea2cad591f44a4046038d202571",
+      "text": "",
+      "reason": "Clears spill text after moving the full 2835–2837 box to row 2835."
+    },
+    {
+      "resource_row": 2837,
+      "source_sha256": "9096fdfa127183f780f4c3c0cd60c9dc2d435e0840d1d7bea28cefe47da3a92f",
+      "text": "",
+      "reason": "Clears spill text after moving the full 2835–2837 box to row 2835."
+    },
+    {
+      "resource_row": 2838,
+      "source_sha256": "a150ae98694fd3ba6338908d41ba7351682fff7cd44f9d54a153ce4e28289394",
+      "text": "That is...",
+      "reason": "Restores the standalone 2838 source box, which is not a continuation of the preceding 2835–2837 box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        2826
+      ],
+      "reason": "Physical VM continuation fragments; complete box meaning is retained in aligned fragments except where corrected."
+    }
+  ],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context. Target file was not edited."
+}

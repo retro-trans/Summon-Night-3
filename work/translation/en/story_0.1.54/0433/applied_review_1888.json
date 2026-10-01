@@ -1,0 +1,58 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_1888.json",
+  "review_sha256": "081446e0e95b6cface5ecaf389ba32abed8c4795f631dfe0a6ebbac3e73a98f6",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_1888.targets.json",
+  "target_before_sha256": "61e9cf8605fc33500bb45221d40bab6e7b7344c73ee5afcfc0c0684287dd6afa",
+  "target_after_sha256": "ab2ce2b872bd69d8b9425475060d1010ca311654d45ce93c0e06be9041fa3b2b",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1888,
+      1967
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 1906,
+      "before": "The master who summoned Ardylia and the others,",
+      "after": "The master who summoned Ardylia and the others, and Fariel's older brother.",
+      "reason": "Restore actual sibling relationship, not merely regarded-as; repair malformed causal sentence. Elgo naming at1890/1893 deferred to script."
+    },
+    {
+      "resource_row": 1907,
+      "before": "and the person Fariel",
+      "after": "",
+      "reason": "Restore actual sibling relationship, not merely regarded-as; repair malformed causal sentence. Elgo naming at1890/1893 deferred to script."
+    },
+    {
+      "resource_row": 1908,
+      "before": "regarded as an older brother.",
+      "after": "",
+      "reason": "Restore actual sibling relationship, not merely regarded-as; repair malformed causal sentence. Elgo naming at1890/1893 deferred to script."
+    },
+    {
+      "resource_row": 1958,
+      "before": "We saw it:",
+      "after": "We saw how becoming the Core Cognizance gradually broke down his mind.",
+      "reason": "Restore actual sibling relationship, not merely regarded-as; repair malformed causal sentence. Elgo naming at1890/1893 deferred to script."
+    },
+    {
+      "resource_row": 1959,
+      "before": "as becoming a Core Cognizance, Hainel's mind",
+      "after": "",
+      "reason": "Restore actual sibling relationship, not merely regarded-as; repair malformed causal sentence. Elgo naming at1890/1893 deferred to script."
+    },
+    {
+      "resource_row": 1960,
+      "before": "gradually broke down.",
+      "after": "",
+      "reason": "Restore actual sibling relationship, not merely regarded-as; repair malformed causal sentence. Elgo naming at1890/1893 deferred to script."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Proper name Elgo was paraphrased as world will or romanized Erugo; normalize exact source instances after meaning review."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

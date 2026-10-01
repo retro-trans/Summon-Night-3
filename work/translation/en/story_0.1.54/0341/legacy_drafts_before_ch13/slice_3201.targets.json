@@ -1,0 +1,46 @@
+{
+  "resource_id": "00:00341",
+  "range_inclusive": [
+    3201,
+    3202
+  ],
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "review_status": "author self-check; no independent meaning review",
+  "source_ranges_examined": [
+    [
+      3201,
+      3202
+    ]
+  ],
+  "notes": "Exact source-identity reuse from existing author-self-checked story translation; context checked.",
+  "translations": {
+    "00:00341:text:00032eac": {
+      "source_offset": 208556,
+      "pool_word_offset": 30685,
+      "source_byte_length": 10,
+      "source_sha256": "b082a0c0d987143c6aa19ae32c143f13ef8b340498e8df1ad55e48948efe2482",
+      "contains_japanese": true,
+      "reference_instructions": [
+        115154
+      ],
+      "id": "00:00341:text:00032eac",
+      "resource_row": 3201,
+      "text": "But...",
+      "status": "translated_author_self_check"
+    },
+    "00:00341:text:00032eb8": {
+      "source_offset": 208568,
+      "pool_word_offset": 30691,
+      "source_byte_length": 12,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        115182
+      ],
+      "id": "00:00341:text:00032eb8",
+      "resource_row": 3202,
+      "text": "......",
+      "status": "translated_author_self_check"
+    }
+  }
+}

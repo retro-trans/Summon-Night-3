@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_5328_root_final.json",
+  "review_sha256": "27c6a34f1fce719e000c71f8cb83d8e674f9d5653af02e9e01540f086637ac08",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_5328.targets.json",
+  "target_before_sha256": "2a3cb57419dde2ebec9fea16d5ead15a1dd86617008b6a00817ce4c24c6df059",
+  "target_after_sha256": "af725a25d9b60020a5e790e7afd8fb8b3c309b7532e48238bbf861a6fce4bc45",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5328,
+      5407
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5329,
+      "before": "Become zero, without",
+      "after": "Become zero, neither",
+      "reason": "The paired sei/fu around zero is positive/negative, not life/death."
+    },
+    {
+      "resource_row": 5330,
+      "before": "life or death...",
+      "after": "positive nor negative...",
+      "reason": "Restores the positive/negative contrast around zero."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

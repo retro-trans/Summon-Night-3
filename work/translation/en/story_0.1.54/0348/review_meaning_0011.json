@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00348",
+  "source_sha256": "4d16f559fe493a6914776ebeb4556e6f4656591be43f7dd4945010586d002ed4",
+  "target_file": "work/translation/en/story_0.1.54/0348/slice_0011.targets.json",
+  "target_file_sha256": "f77e860e200941ea6df900bcada041406a718c8b1e33e2f91ebe5bc7a63585ba",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      90
+    ]
+  ],
+  "rows_examined": 81,
+  "corrections": [
+    {
+      "resource_row": 54,
+      "source_sha256": "8ab325d2722218cea14ef21b6d6935d1bcc4bb488eabba6b2698490891cfa5d6",
+      "text": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 53."
+    },
+    {
+      "resource_row": 56,
+      "source_sha256": "c2fe68f7ba8e89e0fea118ec2fffa43aa3df170e8589d2e7aa972c497c3bc728",
+      "text": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 55."
+    },
+    {
+      "resource_row": 60,
+      "source_sha256": "3fec24e50772516f4176ec608b93818c36628a25ee43b9480107ad0a7596fb81",
+      "text": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 59."
+    },
+    {
+      "resource_row": 62,
+      "source_sha256": "b8a83da3694b8ae60d8ffb408a80c4bc15b8e04968431cc78d5f10b4ca14befb",
+      "text": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 61."
+    },
+    {
+      "resource_row": 65,
+      "source_sha256": "f5fb2c3baea91a976a02fecdf0b2b82985251d31b48f5b58417c3416144c25d6",
+      "text": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 64."
+    },
+    {
+      "resource_row": 67,
+      "source_sha256": "f5fb2c3baea91a976a02fecdf0b2b82985251d31b48f5b58417c3416144c25d6",
+      "text": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 66."
+    },
+    {
+      "resource_row": 74,
+      "source_sha256": "c75daa7febdf2894357881ad04469a77a7d609cd0d6eb0bd20bd8f650aabba60",
+      "text": "",
+      "reason": "Physical continuation incorrectly repeats the prior answer; row 73 begins the following island-life statement."
+    },
+    {
+      "resource_row": 78,
+      "source_sha256": "2cabb9138600aa494128efb1294c5b69afe83cfdb2fc393884ad7993aded594e",
+      "text": "",
+      "reason": "Remove an extra statement that belongs to the next standalone box79. Group77–78 is fully translated at77."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Full VM-group review; the listed internal continuations duplicate prior English. Root reviewed all10–90 and confirms corrections, including duplicate row78."
+}

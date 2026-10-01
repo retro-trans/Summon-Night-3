@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2128.targets.json",
+  "target_file_sha256": "9a6a7beb635ee0ed77da1c4e9a321821733ed474cfa8240f99748e344930316e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2128,
+      2207
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2127,
+      2209
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 2199,
+      "source_sha256": "507b6b862c9abecbf1204f81e55e54b7239749d3d816edea05a60e260bc9107f",
+      "text": "That's impossible! No one could ever...",
+      "reason": "The source rejects the possibility of enduring all that suffering; the existing wording drops the impossibility and leaves the opening unintelligible."
+    },
+    {
+      "resource_row": 2185,
+      "source_sha256": "37e099741725cb7c87fdb841a0ae50e0f79c0ab5f427ec0aa9246809ed3c7cbf",
+      "text": "He felt it too.",
+      "reason": "The following dialogue explicitly identifies Hainel and his words as the male referent."
+    },
+    {
+      "resource_row": 2187,
+      "source_sha256": "3407040c5cc4fa75173e78d37b22f896ac22b15e4d843081190adbf2a5b25b35",
+      "text": "By merging his consciousness with the island, he perceived everything that happened here.",
+      "reason": "The following dialogue explicitly identifies Hainel and his words as the male referent."
+    },
+    {
+      "resource_row": 2203,
+      "source_sha256": "abc5e46408b3d0aa525c39b2b7923f0bf9ea15d6bcfc7605adedc00ab8bc1378",
+      "text": "That's right... He couldn't.",
+      "reason": "The following dialogue explicitly identifies Hainel and his words as the male referent."
+    },
+    {
+      "resource_row": 2205,
+      "source_sha256": "044b518b7cf174eab362f8c8b8eb677cf7177daeb127d02dba9186fc12a97792",
+      "text": "Just before the Sealing Sword defeated him, his mind had collapsed.",
+      "reason": "The following dialogue explicitly identifies Hainel and his words as the male referent."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups, including both boundary groups. Re-read rows 2217 onward resolves the earlier referent as Hainel; male pronouns are required."
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3968.targets.json",
+  "target_file_sha256": "f59fb8188db78b8f933864a3c7627f036111ea32b61eb0f0cbc13ac9fd9ffdce",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3968,
+      4047
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3967,
+      4049
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 3995,
+      "source_sha256": "808f8de93f856726327f5b2f1b427c7fa44930d26b82932a231bc01b1de53f32",
+      "before": "It will be all right! I'm used to being scolded by now! ♪",
+      "text": "It will be all right! I am used to being scolded by now!",
+      "after": "It will be all right! I am used to being scolded by now!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    },
+    {
+      "resource_row": 4007,
+      "source_sha256": "049915400b5b0cd512b124e490f874a91fd2f01322c43e1da49b445a690cf57e",
+      "before": "Yes! Marurur will wait eagerly! ♪",
+      "text": "Yes! Marurur will wait eagerly!",
+      "after": "Yes! Marurur will wait eagerly!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    },
+    {
+      "resource_row": 3992,
+      "source_sha256": "9b5d5524fd7ed734d60e80b0a6d3da1575061f23922ac0565ccf2293bb809032",
+      "text": "Besides, I want to meet Teacher and the others who are away too.",
+      "reason": "Teacher and companions, not multiple teachers."
+    },
+    {
+      "resource_row": 3998,
+      "source_sha256": "9b5d5524fd7ed734d60e80b0a6d3da1575061f23922ac0565ccf2293bb809032",
+      "text": "Besides, I want to meet Teacher and the others who are away too.",
+      "reason": "Teacher and companions, not multiple teachers."
+    },
+    {
+      "resource_row": 4017,
+      "source_sha256": "4009ab52877a453dd6b9a48e96d377f6716f368a066ff14ed42d06e233efb771",
+      "text": "She is currently away in the outside world with Teacher and the others on some business,",
+      "reason": "Teacher and companions, not multiple teachers."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Unverified names, groups, and technical terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning/control review only; no target applied. Root independently rechecked complete VM groups and both neighboring boundaries, 3487–4210; added only concrete meaning corrections."
+}

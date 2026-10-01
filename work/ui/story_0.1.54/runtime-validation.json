@@ -1,0 +1,126 @@
+{
+  "version": "0.1.54",
+  "iso_sha256": "cdf3899bb3aeec87e03cc979b203c56edcbcd1b270036397dfdd37b00488b8c5",
+  "fresh_boot": true,
+  "normal_save": true,
+  "save_state_used": false,
+  "emulator": "PPSSPP 1.20.4",
+  "cpu": "JIT",
+  "graphics": "software",
+  "ignore_bad_memory_access": false,
+  "cases": {
+    "continue_late_battle": {
+      "status": "passed",
+      "scope": "Fresh-boot Chapter 15 normal-save menu opening/navigation without a memory fault; not complete text accuracy or route coverage."
+    },
+    "brave_goals": {
+      "status": "passed",
+      "scope": "Fresh-boot Chapter 15 normal-save menu opening/navigation without a memory fault; not complete text accuracy or route coverage."
+    },
+    "equipment": {
+      "status": "passed",
+      "scope": "Fresh-boot Chapter 15 normal-save menu opening/navigation without a memory fault; not complete text accuracy or route coverage."
+    },
+    "summon_index": {
+      "status": "passed",
+      "scope": "Fresh-boot Chapter 15 normal-save menu opening/navigation without a memory fault; not complete text accuracy or route coverage."
+    },
+    "puppet_shop": {
+      "status": "pending",
+      "reason": "Not exercised in this exact candidate session."
+    },
+    "room_skills": {
+      "status": "pending",
+      "reason": "Not exercised in this exact candidate session."
+    },
+    "cooking": {
+      "status": "pending",
+      "reason": "Not exercised in this exact candidate session."
+    },
+    "save_reload": {
+      "status": "pending",
+      "reason": "Not exercised in this exact candidate session."
+    },
+    "early_chapter": {
+      "status": "pending",
+      "reason": "Not exercised in this exact candidate session."
+    },
+    "night_talk": {
+      "status": "pending",
+      "reason": "Not exercised in this exact candidate session."
+    }
+  },
+  "evidence": [
+    {
+      "path": "work/ui/story_0.1.54/runtime/normal_save.png",
+      "sha256": "1ac3a4f2a39098d99085219b0c6291591c5d353bc4d8f1bf21d6a4866006ce66"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/normal_save.json",
+      "sha256": "eab390748dc65fb10d744fae49919b6faf024473e9606bba33d33c8ee48a647d"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/battle_ready.png",
+      "sha256": "4920050c1d071825b0ec5078bd5eb189e40d65772a589c568e7f43153778c49c"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/battle_ready.json",
+      "sha256": "d70779ab21c7fafd6663686085ad15dc2bf5376ac4c7941ead5bfd42a9ee9e63"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/battle_menu.png",
+      "sha256": "59ffa867f56509eb72cfed5969e5f4c7a36f48546ed8f92016ab4880067e2508"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/battle_menu.json",
+      "sha256": "e1f9da1896ffce99c2e2a315961ad373aeaf548c50c5590f64d40937010ad903"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/brave_goals.png",
+      "sha256": "7372eb23475550cd99c405b8156474a4f6622d33270b8d2f2f6c1fd2feae20dd"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/brave_goals.json",
+      "sha256": "2cfe0e6cf5268b9a07e80ae6c9f3cc70afc902f338158686b02737ed833f8a9c"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/inventory.png",
+      "sha256": "055dfc2d36a0f930a032e00c4552574017e36141a98aef1d36f55a8353820617"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/inventory.json",
+      "sha256": "4c6c894448dd4b4ecdf75fa321462b4218d9530862b2c59fe9e5a67120b0205d"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/black_rose.png",
+      "sha256": "03a075dca915b3e56340525ab7b93b55dc5334b05b6cdbb0c22bbc4b5a71f465"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/black_rose.json",
+      "sha256": "3c19339cc75a5ea714a905b0f35ed75881b45a20004f5de3bc41d038ebb59aa8"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/summon_index.png",
+      "sha256": "4b0b0b79bd969a80a4254cff91ba515b8441f4e9a60e7aa73924d49225c5d615"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/summon_index.json",
+      "sha256": "3f14e193f0d12d7e8b27ec10bf4509b28d8cfa845474154bb702e588e8f0ae11"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/dritol.png",
+      "sha256": "8a57524b5bc002bff3078bc6b75904d0e2c315c766cb4cd46d3ebd5a1968f5bf"
+    },
+    {
+      "path": "work/ui/story_0.1.54/runtime/dritol.json",
+      "sha256": "115ad440b3e1828d211122911b16ba5974743c1e9f4cdb2d38935e9b6b1e6441"
+    }
+  ],
+  "no_bad_memory_access_in_log": true,
+  "log_sha256": "461f5b5667c2c3f93013c428faf6d481dee786fd0e67f24223e912fcf41c0d38",
+  "notes": [
+    "Debugger stops at the display-buffer import were intentional screenshot pauses, not crashes.",
+    "Existing Extra Brave Goal mystery row still overflows; untranslated Summon Index descriptions remain.",
+    "All 134 new story resources passed static compilation; their individual runtime allocations and full routes remain unverified."
+  ]
+}

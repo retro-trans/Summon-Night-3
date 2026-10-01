@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6917.targets.json",
+  "target_file_sha256": "51f3925d85fbb071c4934737523bfdd67a8bfc0f774142354694db182567c199",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6917,
+      6996
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6916,
+      6997
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6929,
+      "source_sha256": "2cde3d84eaabbcb00cdc7618b2bea8dbf184850626bfa6b9b9c493f72c20a186",
+      "text": "...!",
+      "reason": "Restore the complete startled-silence box."
+    },
+    {
+      "resource_row": 6923,
+      "source_sha256": "1c23bc5d32f29695407cf79711228a117b1a0706e109598dbf1a3564b3934ef2",
+      "text": "Even at the very end,",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6924,
+      "source_sha256": "138f512f34c457ccdab5cf8a8400ab23282d9126c93862f0e28d6915404068a0",
+      "text": "you still didn't understand...",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Fresh supplemental review compared complete VM dialogue groups with both-side context. Reports only missed complete-box restorations; no target file was edited. Root additionally compared all closing-scene source groups 6517–7072 and added substantive actor, meaning, and duplicated-filler corrections."
+}

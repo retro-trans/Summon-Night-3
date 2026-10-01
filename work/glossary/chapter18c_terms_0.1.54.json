@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "scope": "Frozen final Chapter18 companion terminology rules after independent meaning corrections.",
+  "entries": [
+    {
+      "target_name": "Fariel",
+      "status": "Canonical gallery short name, correcting draft typo Faliel"
+    },
+    {
+      "target_name": "Panashe",
+      "status": "Canonical gallery name, correcting draft typo Panache"
+    },
+    {
+      "target_name": "Toris",
+      "status": "Reuse Tris-to-Toris spelling lock from battle_0.1.24.json"
+    },
+    {
+      "target_name": "Class Rep",
+      "category": "nickname",
+      "character": "player-selected pupil",
+      "source_alias": "Iinchou-san",
+      "status": "Provisional descriptive English nickname; source47564 and47368",
+      "evidence": [
+        "https://readonly.wiki/w/%EB%A7%88%EB%A3%A8%EB%A3%A8",
+        "https://note.com/mimoza1931_0212/n/nd4c14bbe162d"
+      ]
+    },
+    {
+      "target_name": "Knuckles",
+      "category": "nickname",
+      "character": "Kyle",
+      "source_alias": "Genkotsu-san",
+      "status": "Provisional English nickname; source47568 retains nickname instead of full name",
+      "evidence": [
+        "https://readonly.wiki/w/%EB%A7%88%EB%A3%A8%EB%A3%A8"
+      ]
+    },
+    {
+      "target_name": "Boo-Boo",
+      "category": "nickname",
+      "character": "Sonolar",
+      "source_alias": "Buu-buu-san",
+      "status": "Provisional English nickname; source47568. No official English nickname found.",
+      "evidence": [
+        "https://readonly.wiki/w/%EB%A7%88%EB%A3%A8%EB%A3%A8"
+      ]
+    }
+  ],
+  "evidence_files": [
+    "work/glossary/character_reference_sn6_vita.json",
+    "work/glossary/battle_0.1.24.json",
+    "work/glossary/chapter18b_terms_0.1.54.json",
+    "work/glossary/chapter15_terms_0.1.54.json",
+    "work/glossary/story_additions_0.1.54.json"
+  ],
+  "normalization_by_resource": {
+    "465": [
+      {
+        "resource_row": 83,
+        "source_sha256": "af430d463e5d7650487ae22ce3c75ef314c263074b15666621fde47b6c9d0daf",
+        "from": "Would you like to come with me to the shipbuilding city to meet them, Faliel?",
+        "to": "Would you like to come with me to the shipbuilding city to meet them, Fariel?"
+      },
+      {
+        "resource_row": 87,
+        "source_sha256": "af430d463e5d7650487ae22ce3c75ef314c263074b15666621fde47b6c9d0daf",
+        "from": "If you'd like, Faliel, let's go to the shipbuilding city to meet them together.",
+        "to": "If you'd like, Fariel, let's go to the shipbuilding city to meet them together."
+      },
+      {
+        "resource_row": 166,
+        "source_sha256": "8c208496c62c4a957de14eab81376819adf5cda1590ec1c5b0c36b52ca478d02",
+        "from": "Faliel...",
+        "to": "Fariel..."
+      },
+      {
+        "resource_row": 183,
+        "source_sha256": "8c208496c62c4a957de14eab81376819adf5cda1590ec1c5b0c36b52ca478d02",
+        "from": "Faliel...",
+        "to": "Fariel..."
+      }
+    ],
+    "473": [
+      {
+        "resource_row": 68,
+        "source_sha256": "370cbb5750ffb24f9bce5e1e5a7b0ad4cd2a4ff34813db2251fa3ff9f1c85f1c",
+        "from": "By the way, will the class representative still be unable to come back for a while?",
+        "to": "By the way, will Class Rep still be unable to come back for a while?"
+      }
+    ],
+    "475": [
+      {
+        "resource_row": 32,
+        "source_sha256": "365af7e219e12c272b5b6bdd730baf7702b8b3d887094fa9da59e7fb43491940",
+        "from": "Sorry, Panache. Just give me a little longer...",
+        "to": "Sorry, Panashe. Just give me a little longer..."
+      },
+      {
+        "resource_row": 35,
+        "source_sha256": "534dabe34752ba78f5767639dfa8b7e63a8c779e63cfffeb896fd173581b2de1",
+        "from": "Sorry, Panache. Just wait a little longer...",
+        "to": "Sorry, Panashe. Just wait a little longer..."
+      },
+      {
+        "resource_row": 38,
+        "source_sha256": "31690c96c11c93be22d4647915d6c87563662db880ddf7768b8a4246cfb72fd8",
+        "from": "I'll help Panache.",
+        "to": "I'll help Panashe."
+      },
+      {
+        "resource_row": 44,
+        "source_sha256": "8a2f17115bd5da959db4ceb97d31cd847032ed3fd870639487d7d5c36506eb44",
+        "from": "Could you show me, Panache?",
+        "to": "Could you show me, Panashe?"
+      }
+    ],
+    "479": [
+      {
+        "resource_row": 43,
+        "source_sha256": "a8d95b265da9cb9eafb0fb744ac7ef8ed687ea0f247e3890bf8fd35446723490",
+        "from": "Tris...",
+        "to": "Toris..."
+      },
+      {
+        "resource_row": 62,
+        "source_sha256": "ec072445ff1325d7ecf5db8e0e30e6c4ae4a7f567ecb570e1db57ad6576c520b",
+        "from": "Thank you... Tris...",
+        "to": "Thank you... Toris..."
+      }
+    ]
+  },
+  "corpus_scan": "Faliel only465; Panache only475; Tris only479 in active0.1.54 target slices. No historical published inputs changed."
+}

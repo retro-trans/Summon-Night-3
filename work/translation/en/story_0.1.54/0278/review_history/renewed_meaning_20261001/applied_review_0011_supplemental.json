@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0278/review_meaning_0011_supplemental.json",
+  "review_sha256": "25a50aa0960260f06ddcea4d1636c249090144f51027b09b1f6c4421903d9c3b",
+  "target_file": "work/translation/en/story_0.1.54/0278/slice_0011.targets.json",
+  "target_before_sha256": "e24d49feaa5629fa2abf7e4828db9e93ca2ab1d43d1db526c269d232abf1ec4b",
+  "target_after_sha256": "65440f9f71cdde835ae11f2760bab0b2da716af3f0bfcd94f855e979d3d88f34",
+  "reviewed_rows": {
+    "range_inclusive": [
+      28,
+      35
+    ],
+    "count": 8
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 32,
+      "before": "I cannot tell them the truth,",
+      "after": "I cannot very well tell the truth,",
+      "reason": "The inner thought omits an indirect object. The earlier question does not establish a recipient, so the current 'them' adds an unsupported referent."
+    },
+    {
+      "resource_row": 34,
+      "before": "I cannot tell them the truth,",
+      "after": "I cannot very well tell the truth,",
+      "reason": "The paired protagonist branch has the same omitted recipient; retain that omission in English."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2048.targets.json",
+  "target_file_sha256": "aa742613359e91a8fb1658acd225a83bf5fd27720376c6504706e53b32ae46bf",
+  "reviewed_rows": {"range_inclusive": [2048, 2054], "count": 7},
+  "source_ranges_examined": [[2046, 2054]],
+  "rows_examined": 9,
+  "corrections": [
+    {"resource_row": 2049, "source_sha256": "50dd89c3af63bf93effc560ac1b4d572126177798ccdae472f2183e3b279752e", "text": "a Summoning Railway train was hijacked,", "reason": "In the continuing source sentence, the seized 召喚鉄道 is carrying important Imperial figures, who are then taken hostage. English needs the passenger-carrying train to make that contextual metonymy explicit; 'the Summoning Railway was stolen' inaccurately treats the railway itself as the stolen object."}
+  ],
+  "uncertainties": [
+    {"rows": [2049, 2050, 2051], "issue": "Summoning Railway remains the project descriptor for 召喚鉄道. The source does not name the train, so the correction uses the descriptor with a lower-case generic vehicle noun."}
+  ],
+  "omissions": [
+    {"rows": [2048, 2049, 2050, 2051, 2052, 2053, 2054], "reason": "Physical continuation rows form one complete explanation. The correction preserves the causal sequence: a spared spy, a hijacked passenger train, hostages, and Teacher's sense of responsibility."}
+  ],
+  "notes": "Supplemental context review. The original source's passengers and hostage-taking establish the vehicle reading; this correction concerns meaning, not style."
+}

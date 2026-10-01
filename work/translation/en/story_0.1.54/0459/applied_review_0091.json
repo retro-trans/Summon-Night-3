@@ -1,0 +1,60 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0459/review_meaning_0091.json",
+  "review_sha256": "9fa892dee33dadf803014910303101808442c69c2b7dc6eaa887fdfb15070b84",
+  "target_file": "work/translation/en/story_0.1.54/0459/slice_0091.targets.json",
+  "target_before_sha256": "c0c0657706cadb14ce64fe204cfc4e6063878fd129d54798cd385cc0a7270083",
+  "target_after_sha256": "5c1e057130a2eeab6617a4815602d24843e69386cc3a4f08824d1edda8bf8fbe",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      165
+    ],
+    "count": 75
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 91,
+      "before": "that he was right.",
+      "after": "",
+      "reason": "Restore omitted choice of private tutor; remove garbled duplicate assertion."
+    },
+    {
+      "resource_row": 102,
+      "before": "I hated being looked at",
+      "after": "I hated being seen that way. That's why I wanted to be able to do everything myself.",
+      "reason": "Restore the omitted resulting ambition."
+    },
+    {
+      "resource_row": 103,
+      "before": "that way.",
+      "after": "",
+      "reason": "Restore the omitted resulting ambition."
+    },
+    {
+      "resource_row": 115,
+      "before": "Even if I tell you that you were the first person",
+      "after": "Even if I tell you that you were the first person he asked to stay by my side as a private tutor?",
+      "reason": "Constant attendance does not itself establish a live-in arrangement."
+    },
+    {
+      "resource_row": 116,
+      "before": "he asked to be a live-in private tutor?",
+      "after": "",
+      "reason": "Constant attendance does not itself establish a live-in arrangement."
+    },
+    {
+      "resource_row": 126,
+      "before": "Yes... I will. I look forward to it!",
+      "after": "Yes... I'm counting on you too, Belfraw!",
+      "reason": "Restore reciprocal request rather than changing it into an offer."
+    },
+    {
+      "resource_row": 127,
+      "before": "Belfraw...",
+      "after": "",
+      "reason": "Restore reciprocal request rather than changing it into an offer."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

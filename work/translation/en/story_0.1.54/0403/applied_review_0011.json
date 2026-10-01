@@ -1,0 +1,35 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0403/review_meaning_0011.json",
+  "review_sha256": "d89cea9a27dddfe00dc600ddf7083f3d37f16a223ff07e3844c3e9141feaac96",
+  "target_file": "work/translation/en/story_0.1.54/0403/slice_0011.targets.json",
+  "target_before_sha256": "3450fce97b8f57abb435a749d7c39d6ec43e3e62f5b78505b1485cd9299f6aa0",
+  "target_after_sha256": "12a6b0425f55abee0a97b7ce278188dfe6ac83e801c45797acf1de749182581b",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 17,
+      "before": "Misumi, Subaru, and everyone who encouraged me when I lost heart gave me the strength to win.",
+      "after": "You, Subaru, and everyone else showed me such kindness when I lost heart...",
+      "reason": "Remove premature duplicate victory conclusion; original common continuation23 supplies it."
+    },
+    {
+      "resource_row": 21,
+      "before": "Misumi, Subaru, and everyone who encouraged me when I lost heart gave me the strength to win.",
+      "after": "You, Subaru, and everyone else showed me such kindness when I lost heart...",
+      "reason": "Same female variant; victory conclusion belongs to23."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 49,
+      "note": "Misumi title needs canonical provisional Oni Princess of the Summer Wind fromchapter8_fiction; apply name script after semantic fixes. Rikuto also replaces Richt."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

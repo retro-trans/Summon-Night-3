@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00268",
+  "source_sha256": "b70d2ac168874aaf0e12a691251a86891f9e75e42d50798f3031a125e7290b2f",
+  "target_file": "work/translation/en/story_0.1.54/0268/slice_0011.targets.json",
+  "target_file_sha256": "63a5354fd881686a0d11e5274d3f250c1b106f5eb5b67977066b5901ccaa336e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      51
+    ],
+    "count": 41
+  },
+  "source_ranges_examined": [
+    [
+      0,
+      51
+    ]
+  ],
+  "rows_examined": 52,
+  "corrections": [
+    {
+      "resource_row": 32,
+      "source_sha256": "0da6ec43dd66f69ffd8a78a96a55d6e43e68fd7f99a7752414f5833a08ee73a6",
+      "before": "he said.",
+      "text": "Yafha said.",
+      "after": "Yafha said.",
+      "reason": "The source identifies Yafha as the speaker but supplies no pronoun. story_context_0.1.54_part_c records Yafha's gender as unknown with no source evidence, so a name preserves the established referent without unsupported gender."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        32
+      ],
+      "issue": "Yafha is the explicit source referent. The consulted part_c context records gender as unknown, so the correction uses the name rather than an inferred pronoun."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        24,
+        25,
+        29,
+        30,
+        31,
+        32,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "reason": "Joined statements and route variants were reviewed in full; speaker and request direction are preserved."
+    }
+  ],
+  "notes": "Full source and requested Yafha context evidence reviewed. One sourced-referent correction required."
+}

@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_2848.json",
+  "review_sha256": "7dc032d67c7ee58bed8efa8ba1b1e002f5ca7dc31122249b1e246b3af3068119",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_2848.targets.json",
+  "target_before_sha256": "21e2a576f38d8a1fb7d5670b607d89b95a501d15d5f01b12f5226a83289c991a",
+  "target_after_sha256": "67d120d41c2dff0b935d29ba852df6d13a4671e0b1b39c71e77e003a2f39e61b",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2848,
+      2927
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2885,
+      "before": "its will... the strongest weapon...",
+      "after": "its wielder's will... the strongest weapon...",
+      "reason": "Will belongs to the wielder, as2876 states."
+    },
+    {
+      "resource_row": 2925,
+      "before": "She's right.",
+      "after": "He's right.",
+      "reason": "Both protagonist branches refer to male Vizel."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

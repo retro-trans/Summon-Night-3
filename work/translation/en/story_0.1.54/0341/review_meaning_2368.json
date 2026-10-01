@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00341",
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_2368.targets.json",
+  "target_file_sha256": "a5ee0bfa52b70421ed8bb1e316704c82e57f076d64a2d84d4829efeab351c383",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2368,
+      2447
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1806,
+      2449
+    ]
+  ],
+  "rows_examined": 644,
+  "corrections": [
+    {
+      "resource_row": 2385,
+      "source_sha256": "aba3b54cd33c73243f04d8b8ad60d48c7922e6e7c7258b71a296e57921598e99",
+      "text": "You had to keep the hostages safe when even protecting yourself was difficult...",
+      "reason": "Restore source meaning to its own VM dialogue box, removing cross-box drift, duplicate continuation, or incorrect English referent."
+    },
+    {
+      "resource_row": 2416,
+      "source_sha256": "876cdd0edd46a437c7eaa0ddb608d52a3de60cf2e01bfcac89c9c525bc1bbe9a",
+      "text": "Ah...",
+      "reason": "Restore source meaning to its own VM dialogue box, removing cross-box drift, duplicate continuation, or incorrect English referent."
+    },
+    {
+      "resource_row": 2417,
+      "source_sha256": "876cdd0edd46a437c7eaa0ddb608d52a3de60cf2e01bfcac89c9c525bc1bbe9a",
+      "text": "Ah...",
+      "reason": "Restore source meaning to its own VM dialogue box, removing cross-box drift, duplicate continuation, or incorrect English referent."
+    },
+    {
+      "resource_row": 2418,
+      "source_sha256": "876cdd0edd46a437c7eaa0ddb608d52a3de60cf2e01bfcac89c9c525bc1bbe9a",
+      "text": "Ah...",
+      "reason": "Restore source meaning to its own VM dialogue box, removing cross-box drift, duplicate continuation, or incorrect English referent."
+    },
+    {
+      "resource_row": 2419,
+      "source_sha256": "876cdd0edd46a437c7eaa0ddb608d52a3de60cf2e01bfcac89c9c525bc1bbe9a",
+      "text": "Ah...",
+      "reason": "Restore source meaning to its own VM dialogue box, removing cross-box drift, duplicate continuation, or incorrect English referent."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independent source/English comparison in complete VM groups, including route variants and adjacent context. Root supplemental review confirms source meaning and restores misplaced or missing boxes where listed."
+}

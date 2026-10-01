@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00249",
+  "source_sha256": "e3c0ac50ec01fb9606a8cf187d24791b3e787ee38da5f8d48c733777bbb2cc6e",
+  "target_file": "work/translation/en/story_0.1.54/0249/slice_3633.targets.json",
+  "target_file_sha256": "e1ea01dacf80081579acb1072ea986a4061d64024eb17bc2094bfc1092a71a94",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [3633, 3712], "count": 80},
+  "source_ranges_examined": [[3623, 3722]],
+  "rows_examined": 100,
+  "corrections": [],
+  "uncertainties": [
+    {"rows": [3646, 3647, 3648], "issue": "Less dignified is a register-sensitive rendering of the source's judgment that refusing to acknowledge facts looks worse; no correction is required."},
+    {"rows": [3701], "issue": "Riding excursions preserves the source's formal outing context without assuming a vehicle."}
+  ],
+  "omissions": [
+    {"rows": [3643, 3649, 3650, 3663, 3664, 3668, 3669, 3673, 3679, 3683, 3684, 3687, 3691, 3692, 3695, 3711], "reason": "Laughter, acknowledgements, interrupted replies, pauses, and brief reactions retain their source function in English."},
+    {"rows": [3633, 3634, 3635, 3637, 3638, 3639, 3640, 3641, 3642, 3644, 3645, 3647, 3648, 3651, 3652, 3653, 3654, 3655, 3656, 3657, 3658, 3659, 3660, 3661, 3662, 3665, 3666, 3667, 3670, 3671, 3672, 3674, 3675, 3676, 3677, 3678, 3681, 3682, 3685, 3686, 3688, 3689, 3690, 3693, 3694, 3696, 3697, 3698, 3699, 3700, 3701, 3702, 3703, 3704, 3705, 3706, 3707, 3708, 3709, 3710, 3712], "reason": "Physical continuation rows; adjacent English fragments preserve complete meaning. Row 3712 continues into the next source row."}
+  ],
+  "notes": "Independent reviewer compared every assigned source and authored English row with surrounding context. No meaning correction is required; valid contractions, ellipses, and register choices were retained."
+}

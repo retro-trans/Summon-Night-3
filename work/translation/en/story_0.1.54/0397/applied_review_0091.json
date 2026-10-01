@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0397/review_meaning_0091.json",
+  "review_sha256": "e4e2db9bc8498d60f38781ec6c5f59db70f98e0df05e63964fd98257efa1bc0c",
+  "target_file": "work/translation/en/story_0.1.54/0397/slice_0091.targets.json",
+  "target_before_sha256": "08bbdb527d3d248971eaeac96ae01d393e16520f28de3206ecdd4a2d49a984c3",
+  "target_after_sha256": "d92af5101cd6c6506aaa281a2eda5d318225cbe1fcc88dd38ded28da9273b9fa",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      119
+    ],
+    "count": 29
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 111,
+      "before": "Someone has to look after a lazybones like you, Yafha--not just Marurur.",
+      "after": "A lazybones like you needs me looking after you too, Yafha, not just Marurur.",
+      "reason": "Restore explicit I as additional caretaker instead of unspecified someone."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

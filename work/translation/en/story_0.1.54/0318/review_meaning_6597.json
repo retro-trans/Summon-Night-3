@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6597.targets.json",
+  "target_file_sha256": "28540230a5bc7026ce9be3c661bde7ba12ea25a2a52fe8b31eac7f37649ab607",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6597,
+      6676
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6596,
+      6677
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6615,
+      "source_sha256": "0fb25c14fcfb723caeb5427809977f0edec70dd79227314726b274156f1871f2",
+      "text": "Instructor...",
+      "reason": "The source is 教官殿 (instructor), not 先生 (Teacher)."
+    },
+    {
+      "resource_row": 6640,
+      "source_sha256": "e545b4c0dd278f18d1548acdc825bfa232ee93493a934241d6ebc15efbbb3cd9",
+      "text": "Instructor...",
+      "reason": "The source is 教官殿 (instructor), not 先生 (Teacher)."
+    },
+    {
+      "resource_row": 6664,
+      "source_sha256": "575587b44fc324fe13e12b83d869614b0868a14de6455779bc37916dbfae1754",
+      "text": "my kind instructor.",
+      "reason": "The source is 教官殿; preserve the role as instructor rather than applying the 先生 terminology rule."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independently compared each actual VM dialogue group with both-side context; preserved source control tokens per row and reported only semantic corrections."
+}

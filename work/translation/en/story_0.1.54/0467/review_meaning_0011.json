@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00467",
+  "source_sha256": "9de0d3ddea077b58a88417c53fd3a228b543e728441f0266fa5161d38eaafcbd",
+  "target_file": "work/translation/en/story_0.1.54/0467/slice_0011.targets.json",
+  "target_file_sha256": "fe5b61795ad9abc924b55c5ed47ee6b6ea84652b49c9a4352bc6dfd9ae5fd068",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      91
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        83,
+        84,
+        85
+      ],
+      "issue": "The source explicitly refers to becoming a woman; the absent subject could be the returning pupil or Sonolar. Retained she without adding a name."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "issue": "Source assessment completed by nextbox; English repeats nice to make secondboxgrammatical, no new event."
+    }
+  ],
+  "notes": "Root independent comparison against complete source and VM boundaries, including context on both sides. No wholly blank boxes or cross-box shifts."
+}

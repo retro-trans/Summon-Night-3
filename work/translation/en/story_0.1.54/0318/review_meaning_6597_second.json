@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6597.targets.json",
+  "target_file_sha256": "e59d8b4e3f5c3df3f61f10ebddefc4b26d548a0e9989e5f162bd546d4bab44b1",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6597,
+      6676
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6596,
+      6677
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6612,
+      "source_sha256": "afc22e55b586df933070adbb608193357b272b65b6de2c2214d137e46d41f1fc",
+      "text": "...!",
+      "reason": "Restore the complete startled-silence box."
+    },
+    {
+      "resource_row": 6671,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "text": "...",
+      "reason": "Restore the complete silent ellipsis box."
+    },
+    {
+      "resource_row": 6674,
+      "source_sha256": "2f451552fd4a768ae273b958f6c2d694a1e2476324d68e651a24860754d52133",
+      "text": "...",
+      "reason": "Restore the complete silent ellipsis box."
+    },
+    {
+      "resource_row": 6618,
+      "source_sha256": "ba322f8349fb81a5adcba836e34ad9be6147a21d5afa51f18118b684dc432750",
+      "text": "",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6645,
+      "source_sha256": "e6650d8dacdb06d72129db589ee906faafbe4723bdc5536ad5414d78a1083b53",
+      "text": "The personality speaking",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6646,
+      "source_sha256": "774733f135e9f4716cf020d5176f0afdb4edf42e6ecebab9a987190310c2cdda",
+      "text": "to you right now",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6647,
+      "source_sha256": "ba322f8349fb81a5adcba836e34ad9be6147a21d5afa51f18118b684dc432750",
+      "text": "is a bug...",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6649,
+      "source_sha256": "fd285fad4ea1fc626c328b80f187b912ed44f3eec0fb0afcd25c88a26f7064c9",
+      "text": "I am an impossible personality...",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6650,
+      "source_sha256": "a48fd5b98c1d30a3853b589b707249c28cf544bb1ccb89816b977b0f26e83328",
+      "text": "born by chance...",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6651,
+      "source_sha256": "adeee37e8186f6a7a2362db3f4bf99e1ccf3f421766d2cdd7dcc7f99b06d6ab2",
+      "text": "when this unit was destroyed...",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6665,
+      "source_sha256": "8dae1eb102e95212c770f7ec6171ef75057132587e0e57cb977d79b2f31f4f0c",
+      "text": "",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6670,
+      "source_sha256": "42b42460ab2f40478d7c01eeeda5d5fa457485939126f6fed2efef566d2d3473",
+      "text": "Instructor...",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Fresh supplemental review compared complete VM dialogue groups with both-side context. Reports only missed complete-box restorations; no target file was edited. Root additionally compared all closing-scene source groups 6517–7072 and added substantive actor, meaning, and duplicated-filler corrections."
+}

@@ -1,0 +1,41 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_3728_choice_layout.json",
+  "review_sha256": "d711f90607fdf16859b5604b094adf228173c7119e55813cdf9e276249f25a78",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3728.targets.json",
+  "target_before_sha256": "5c55f66e1f3e8225ee4c2355100a6b6d3a419d9b72e00d1d83fcf3eba4e341fc",
+  "target_after_sha256": "e7f4fe130ab8c21e7bb1aff9363a934b5be90a5940349db4bf9d7c2b95b4f015",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3758,
+      3761
+    ],
+    "count": 4
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3758,
+      "before": "Let's end this now, all right?",
+      "after": "Let's end this, okay?",
+      "reason": "Measured 208px choice label: preserve request to end fighting or reveal true wish; full dialogue remains unchanged."
+    },
+    {
+      "resource_row": 3759,
+      "before": "I want to know what you truly want!",
+      "after": "Tell me your true wish!",
+      "reason": "Measured 208px choice label: preserve request to end fighting or reveal true wish; full dialogue remains unchanged."
+    },
+    {
+      "resource_row": 3761,
+      "before": "Tell me what you truly want!",
+      "after": "Tell me your true wish!",
+      "reason": "Measured 208px choice label: preserve request to end fighting or reveal true wish; full dialogue remains unchanged."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 3759,
+      "issue": "Choice compacts the desire to know into an explicit request to tell the speaker; retains true wish and request direction."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

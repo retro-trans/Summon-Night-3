@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4048.targets.json",
+  "target_file_sha256": "51de7ba3b7ac1a175ffa1750853cd17292b19d1171f3135fd4b8bfb241bb1aec",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4116,
+      4121
+    ],
+    "count": 6
+  },
+  "source_ranges_examined": [
+    [
+      4108,
+      4142
+    ]
+  ],
+  "rows_examined": 35,
+  "corrections": [
+    {
+      "resource_row": 4116,
+      "source_sha256": "1e820794168f94327299fb90deaf29c1ba17b4bcb352899cf43bd2fbc4a738ed",
+      "text": "N...!",
+      "reason": "The isolated initial sound must begin the localized punchline without revealing it."
+    },
+    {
+      "resource_row": 4117,
+      "source_sha256": "4dc8abee4f28cf9fef91a3041d4016bbda053a4aa34396a19b79aca5b881e56c",
+      "text": "N?",
+      "reason": "The listener repeats the initial sound, preserving the failed-joke setup."
+    },
+    {
+      "resource_row": 4118,
+      "source_sha256": "4dc8abee4f28cf9fef91a3041d4016bbda053a4aa34396a19b79aca5b881e56c",
+      "text": "N?",
+      "reason": "The parallel listener branch repeats the same initial sound."
+    },
+    {
+      "resource_row": 4119,
+      "source_sha256": "299c29aeb9e75f4f2323d18317108b4adc016e74c6460c3be5eb8482a167c70b",
+      "text": "No offense! Th-The neighbors just put up a new fence!!",
+      "reason": "The source intentionally blurts the punchline before the fence setup. This English fence-pun keeps that reversed order so the following complaint that the punchline came first remains meaningful."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        4120,
+        4121
+      ],
+      "reason": "Already-empty physical continuation rows. The complete localized setup remains anchored at row 4119 in the same VM box."
+    }
+  ],
+  "notes": "Independent localization review of the botched fence joke. The source requires a joke whose punchline is delivered before its setup; the proposed English uses the conventional phrase “No offense” as the fence-pun punchline, then supplies the setup, matching the following dialogue reaction."
+}

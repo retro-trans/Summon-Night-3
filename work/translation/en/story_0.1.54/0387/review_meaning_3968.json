@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3968.targets.json",
+  "target_file_sha256": "f2b3dfccf519a861b0ce39bf2b20a9b7c34d8037a7eebcf6a86fcd19c6f00cd7",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3968,
+      4047
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3967,
+      4048
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 4046,
+      "source_sha256": "7a9d53baf9ef40d1ddc4271adacf173c6c7a681fe37d14b2f60a24a360c42ffd",
+      "text": "That is why I want you to keep smiling, Teacher.",
+      "reason": "This full box only asks Teacher to remain smiling; the following box's meaning was appended here."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first meaning review of full VM boxes and both-side context; source read transiently. No correction was applied and no normalization was performed."
+}

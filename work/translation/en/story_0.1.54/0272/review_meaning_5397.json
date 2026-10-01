@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_5397.targets.json",
+  "target_file_sha256": "572f69d60efb0d093919fa901cac64219a9683fb7b14c1fc939742fab7576ebc",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5397,
+      5476
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5396,
+      5477
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 5398,
+      "source_sha256": "819a4f47b561925492275c03f894e5a805ca8e0e871e513321056f408b14ef9d",
+      "before": "Huh? But don't we",
+      "text": "Huh? But then",
+      "after": "Huh? But then",
+      "reason": "The source asks whether the subunit is unnecessary in this situation. The current English instead asks whether it is needed, reversing the question."
+    },
+    {
+      "resource_row": 5399,
+      "source_sha256": "cb6c4c0b9557eece1633f1a82609c0804bb6d883228088dc57d496a0abc1eb12",
+      "before": "need the subunit",
+      "text": "we don't need the",
+      "after": "we don't need the",
+      "reason": "The source asks whether the subunit is unnecessary in this situation. The current English instead asks whether it is needed, reversing the question."
+    },
+    {
+      "resource_row": 5400,
+      "source_sha256": "d098b4a8d3ecd87770d534ab092e101c21d804f436f3fc13a10b9951d6a3e4b8",
+      "before": "to install it?",
+      "text": "subunit, do we?",
+      "after": "subunit, do we?",
+      "reason": "The source asks whether the subunit is unnecessary in this situation. The current English instead asks whether it is needed, reversing the question."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied."
+}

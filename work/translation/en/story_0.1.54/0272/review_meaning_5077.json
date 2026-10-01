@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_5077.targets.json",
+  "target_file_sha256": "8c3074a5e7a0a76d92d076b436731c7eb3910c043fd66686a35bea15ffa6eaa1",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5077,
+      5156
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5076,
+      5157
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied."
+}

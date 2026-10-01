@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4117.targets.json",
+  "target_file_sha256": "32a34b980e3a0b0f7d0c153b92ca28f50c30d85e998971bfe2390795a611c161",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4117,
+      4196
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3957,
+      5156
+    ]
+  ],
+  "rows_examined": 1200,
+  "dialogue_group_boundaries_verified": true,
+  "reviewer": "root: independent source and VM-group review",
+  "corrections": [
+    {
+      "resource_row": 4126,
+      "source_sha256": "c9bdbdc2585805c2108b00e28d7c691d8bece87bcca8f3fc64f2d68c016b2176",
+      "before": "start speaking to each other?",
+      "text": "start speaking to us?",
+      "reason": "The two Guardians refuse to speak to the party; they are not refusing to speak to each other. The earlier parallel student branch confirms the direction."
+    },
+    {
+      "resource_row": 4147,
+      "source_sha256": "700ecb11f3c6665ffb75fc37cbdc51f96dd4fae17a91ea8abedb9cd0d242c9b4",
+      "before": "Are you really going to keep waiting",
+      "text": "Are you really going to keep",
+      "reason": "Restore the recipient in the parallel student branch; not a conversation between the two Guardians."
+    },
+    {
+      "resource_row": 4148,
+      "source_sha256": "64b8cc1ffb7fc36e5ba491909218155188e39607f314700d0118ccbe9364cda1",
+      "before": "for those two",
+      "text": "waiting for those two",
+      "reason": "Restore the recipient in the parallel student branch; not a conversation between the two Guardians."
+    },
+    {
+      "resource_row": 4149,
+      "source_sha256": "1709027bdba4ce35d77b57b9a179faf33f3da146845a0372ff2725fcb0d71c7c",
+      "before": "to speak to each other...",
+      "text": "to speak to us...",
+      "reason": "Restore the recipient in the parallel student branch; not a conversation between the two Guardians."
+    },
+    {
+      "resource_row": 4181,
+      "source_sha256": "d85007dbad8a964cb0c0062314185bda8cbda952aec776a3574c6cb9338566dc",
+      "before": "We aren't the only ones",
+      "text": "Those two aren't the only ones",
+      "reason": "The source explicitly says those two, not we; the party must resolve itself as well."
+    },
+    {
+      "resource_row": 4183,
+      "source_sha256": "6bd13f487fb2fae1cfefa2bdbe3d24430f839f3013908f95ba5f415d110089dd",
+      "before": "make up our minds.",
+      "text": "make up their minds.",
+      "reason": "The source explicitly says those two, not we; the party must resolve itself as well."
+    },
+    {
+      "resource_row": 4184,
+      "source_sha256": "d85007dbad8a964cb0c0062314185bda8cbda952aec776a3574c6cb9338566dc",
+      "before": "We aren't the only ones",
+      "text": "Those two aren't the only ones",
+      "reason": "Restore the same comparison in the female protagonist route."
+    },
+    {
+      "resource_row": 4186,
+      "source_sha256": "fb37e092fbec5367ba7b163af9c394f388a7358e0d559873af535b7a7b54126f",
+      "before": "make up our minds.",
+      "text": "make up their minds.",
+      "reason": "Restore the same comparison in the female protagonist route."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "reason": "Original pauses and explicitly interrupted utterances retained; continuous same-speaker clauses remain across separate source boxes where already faithful."
+    }
+  ]
+}

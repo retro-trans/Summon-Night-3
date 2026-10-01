@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00398",
+  "source_sha256": "a973ddf0afb84f2420a8487fa9c6114ac56be25757854b0cb31369694ef18d4d",
+  "target_file": "work/translation/en/story_0.1.54/0398/slice_0091.targets.json",
+  "target_file_sha256": "07a929281deb3aa2c81284ee237b3032a59a084f9af2a7e153fabe239f5acddf",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      151
+    ],
+    "count": 61
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      151
+    ]
+  ],
+  "rows_examined": 142,
+  "corrections": [
+    {
+      "resource_row": 116,
+      "source_sha256": "583d658ee64bb0c02a56ae5c82e0f904026a0e5a1783ce44a4e1ebee3c0d4591",
+      "text": "Think about it... You'd be welcome aboard, even if you just showed up at the last minute.",
+      "reason": "Restore invitation allowing spontaneous last-minute joining."
+    },
+    {
+      "resource_row": 132,
+      "source_sha256": "0b71fef5fd77d7f529b2fb55f20958a80cfdf69366d1f10bf46cf0eef0c01de3",
+      "text": "Truth is, I love you so much I feel like carrying you off by force.",
+      "reason": "Desire expressed by love-so-much construction; do not turn into promise to abduct if necessary."
+    }
+  ],
+  "uncertainties": [
+    {
+      "row": 148,
+      "note": "Willingly following is retained; love also colors context, but no added declaration beyond source."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared every full source/English VM box including both protagonist variants and slice boundaries. Correct copied variant dialogue, missing full boxes and omitted subjects before name normalization. No Japanese transcript retained."
+}

@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_3248.json",
+  "review_sha256": "465955cee5a8c14ce918a66d3c1ca2176333f87542355d28c1f59895faddeb0e",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3248.targets.json",
+  "target_before_sha256": "d70c921002a664d992f65acf909fca08766d3ed06be1633393feb3eebdaa4ac7",
+  "target_after_sha256": "9e6c63bfbf7e3ba0c48fddcdf9f8a22c4ee0c70550957819c3a667f0d9350aa3",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3248,
+      3327
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3254,
+      "before": "Just call me Nup.",
+      "after": "You don't have to be so formal.",
+      "reason": "Source asks to drop honorific; English prior thanks already uses first name, so asking same first name again loses register change."
+    },
+    {
+      "resource_row": 3271,
+      "before": "Just call me Will.",
+      "after": "You don't have to be so formal.",
+      "reason": "Preserve invitation to drop honorific rather than repeat already-used first name."
+    },
+    {
+      "resource_row": 3290,
+      "before": "Just call me Belfraw.",
+      "after": "You don't have to be so formal.",
+      "reason": "Preserve invitation to drop honorific rather than repeat already-used first name."
+    },
+    {
+      "resource_row": 3307,
+      "before": "You may call me Alieze.",
+      "after": "You don't have to be so formal with me.",
+      "reason": "Preserve invitation to drop honorific rather than repeat already-used first name."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

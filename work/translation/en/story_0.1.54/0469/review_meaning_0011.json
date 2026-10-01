@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00469",
+  "source_sha256": "25c5ef166f8eb3910b8322c8809b767f0d47ce30d30dae622becd42b51449029",
+  "target_file": "work/translation/en/story_0.1.54/0469/slice_0011.targets.json",
+  "target_file_sha256": "9d6e669228a55a4333cd1dea7ddf1784fc0133cf661b50e985da1dd5c502a03c",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      166
+    ]
+  ],
+  "rows_examined": 157,
+  "corrections": [
+    {
+      "resource_row": 36,
+      "source_sha256": "42b1ef31f9799e324809757bdbcfc7e58a4b45c662f1460a886c9c455a110795",
+      "text": "They say that standing there makes the surrounding sea",
+      "reason": "The source says the sea feels as though it wraps around the observer; “closing in” changes that image."
+    },
+    {
+      "resource_row": 37,
+      "source_sha256": "b12d99d5fc6f81dbf057f10aa05115873a349da70cba34d9cc96a9558bb6b7f0",
+      "text": "feel as though it is wrapping around",
+      "reason": "The source says the sea feels as though it wraps around the observer; “closing in” changes that image."
+    },
+    {
+      "resource_row": 38,
+      "source_sha256": "acf8a653530ebc239a1970c92ee60d0ea82c684d8fcbecc45d1bb8f791e4be8b",
+      "text": "and embracing them.",
+      "reason": "The source says the sea feels as though it wraps around the observer; “closing in” changes that image."
+    },
+    {
+      "resource_row": 45,
+      "source_sha256": "210fc230654eb7862ee130510598e076c73722d511c7bc78c5fd3f16791d925d",
+      "text": "In Sonolar's case, is it simply that",
+      "reason": "Restore the source’s “simply/only” tease; the existing negative reverses its force."
+    },
+    {
+      "resource_row": 46,
+      "source_sha256": "789d67c9979638cf1f1a18a1c1900b12e5a7001ed9cfd13fc101c84ec2970476",
+      "text": "she likes high places?",
+      "reason": "Restore the source’s “simply/only” tease; the existing negative reverses its force."
+    },
+    {
+      "resource_row": 47,
+      "source_sha256": "d61ddcc9f27f9c5093803ea89d020c5f74eedca06b60963f240a0139dd2fdcb3",
+      "text": "",
+      "reason": "Restore the source’s “simply/only” tease; the existing negative reverses its force."
+    },
+    {
+      "resource_row": 75,
+      "source_sha256": "d3bd5deb02b2c4278f48c3e6dc92e708d842b44315992bfbb02d79802ae4a699",
+      "text": "I would lose to them",
+      "reason": "Sonolar is speaking about herself losing to the pupil; the following box directly addresses Sonolar."
+    },
+    {
+      "resource_row": 76,
+      "source_sha256": "1adc72a5ab9696b62a404158ac497a14416ee9d477fedd5f7af6df53aba6292c",
+      "text": "in a fight now, too, right?",
+      "reason": "Sonolar is speaking about herself losing to the pupil; the following box directly addresses Sonolar."
+    },
+    {
+      "resource_row": 77,
+      "source_sha256": "ba13672c1d36c8dbc2adae404477a9ebd1ac3c2eba8106009431e8f2b24bdb38",
+      "text": "Oh, no...",
+      "reason": "Sonolar is speaking about herself losing to the pupil; the following box directly addresses Sonolar."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups and both-side context. No whole dialogue box is blank; corrections retain their source-box meaning."
+}

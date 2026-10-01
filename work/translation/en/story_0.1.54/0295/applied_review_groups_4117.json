@@ -1,0 +1,66 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_groups_4117.json",
+  "review_sha256": "9a293f38a033e7499322153c8ed536f055fd4d25de0e1d26a5d2d6da2d73158c",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4117.targets.json",
+  "target_before_sha256": "32a34b980e3a0b0f7d0c153b92ca28f50c30d85e998971bfe2390795a611c161",
+  "target_after_sha256": "6773460a53d766005584c258bd97aabd3e11ab3c15b6e2ded25b98f6c3ce4c6b",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4117,
+      4196
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4126,
+      "before": "start speaking to each other?",
+      "after": "start speaking to us?",
+      "reason": "The two Guardians refuse to speak to the party; they are not refusing to speak to each other. The earlier parallel student branch confirms the direction."
+    },
+    {
+      "resource_row": 4147,
+      "before": "Are you really going to keep waiting",
+      "after": "Are you really going to keep",
+      "reason": "Restore the recipient in the parallel student branch; not a conversation between the two Guardians."
+    },
+    {
+      "resource_row": 4148,
+      "before": "for those two",
+      "after": "waiting for those two",
+      "reason": "Restore the recipient in the parallel student branch; not a conversation between the two Guardians."
+    },
+    {
+      "resource_row": 4149,
+      "before": "to speak to each other...",
+      "after": "to speak to us...",
+      "reason": "Restore the recipient in the parallel student branch; not a conversation between the two Guardians."
+    },
+    {
+      "resource_row": 4181,
+      "before": "We aren't the only ones",
+      "after": "Those two aren't the only ones",
+      "reason": "The source explicitly says those two, not we; the party must resolve itself as well."
+    },
+    {
+      "resource_row": 4183,
+      "before": "make up our minds.",
+      "after": "make up their minds.",
+      "reason": "The source explicitly says those two, not we; the party must resolve itself as well."
+    },
+    {
+      "resource_row": 4184,
+      "before": "We aren't the only ones",
+      "after": "Those two aren't the only ones",
+      "reason": "Restore the same comparison in the female protagonist route."
+    },
+    {
+      "resource_row": 4186,
+      "before": "make up our minds.",
+      "after": "make up their minds.",
+      "reason": "Restore the same comparison in the female protagonist route."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

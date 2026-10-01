@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_1968.json",
+  "review_sha256": "848739a6f30533d6126825d4d93f3ecccaba42853a16600ebc3cd51284e69e8a",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_1968.targets.json",
+  "target_before_sha256": "2aa2ad3f234d71ab93d09fd2df0cb161366a60dfccc415e722864bea0e5c2cec",
+  "target_after_sha256": "6e194977026c210f1bc75b7c3d4c061468dad7b6e1292d54313117e38683930b",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1968,
+      2047
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 1968,
+      "before": "I agree with Mr. Scarrel.",
+      "after": "",
+      "reason": "Remove agreement duplicated within1966–1968."
+    },
+    {
+      "resource_row": 1970,
+      "before": "So that's it... You too,",
+      "after": "So that's it... You're just like the Colorless:",
+      "reason": "Source compares listener to the Colorless."
+    },
+    {
+      "resource_row": 1971,
+      "before": "just see the Colorless as useless,",
+      "after": "you have no use for anyone",
+      "reason": "Restore direction: both reject people they consider useless."
+    },
+    {
+      "resource_row": 1972,
+      "before": "and have no use for us...",
+      "after": "who's no longer useful...",
+      "reason": "Restore the rejected object."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

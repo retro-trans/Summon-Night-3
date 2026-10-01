@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0463/review_meaning_0171.json",
+  "review_sha256": "ae07036fea945b4bfbe6d94d9c99db57e9636a8b1b9bfcb29029ceca865b41cc",
+  "target_file": "work/translation/en/story_0.1.54/0463/slice_0171.targets.json",
+  "target_before_sha256": "37a4ed7409e78f02ead2097b06fa2a302f2468dbf735071066487dbb2be59bbb",
+  "target_after_sha256": "3e3362025429c03ea9d2cadb21827b85b5deb51ccb003d45db4e7fa1b5a68d43",
+  "reviewed_rows": {
+    "range_inclusive": [
+      171,
+      190
+    ],
+    "count": 20
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 171,
+      "before": "I finally understood my feelings...",
+      "after": "",
+      "reason": "The source has one sentence across rows 170–171; row 171 duplicates the completed English meaning and must remain an internal continuation."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

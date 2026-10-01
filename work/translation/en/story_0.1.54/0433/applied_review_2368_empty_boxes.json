@@ -1,0 +1,96 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_2368_empty_boxes.json",
+  "review_sha256": "0c4bcec25abd9326a3607f38ac377a0cd943886b092195a51124f302c13c57a2",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_2368.targets.json",
+  "target_before_sha256": "59c026a5a1c2e8deedc6ddd656415aee34ef483f00c20ae0e428a6a36a0cbc0e",
+  "target_after_sha256": "8c7e3f1f73db60abd78257379a650f4708832464cd48ee70babba6e0de89f8f3",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2368,
+      2447
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2368,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2366 contains only its own VM box."
+    },
+    {
+      "resource_row": 2369,
+      "before": "",
+      "after": "Do your best to make sure it doesn't come to that.",
+      "reason": "Restore the omitted complete VM box 2369–2370; its meaning was incorrectly moved into 2366–2368."
+    },
+    {
+      "resource_row": 2370,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2369 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2416,
+      "before": "Don't worry about it. If I were in your position, I'd be much more upset...",
+      "after": "Don't worry about it.",
+      "reason": "Remove the following VM box's comparison from the preceding box."
+    },
+    {
+      "resource_row": 2417,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2416 contains only its own VM box."
+    },
+    {
+      "resource_row": 2418,
+      "before": "",
+      "after": "If I were in your position, I think I'd be much more upset...",
+      "reason": "Restore the omitted complete VM box 2418–2420."
+    },
+    {
+      "resource_row": 2419,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2418 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2420,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2418 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2421,
+      "before": "Don't worry about it... If I were in your position, I'd be sobbing and causing everyone trouble...",
+      "after": "Don't worry about it...",
+      "reason": "Remove the following VM box's hypothetical reaction from the preceding box."
+    },
+    {
+      "resource_row": 2422,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2421 contains only its own VM box."
+    },
+    {
+      "resource_row": 2423,
+      "before": "",
+      "after": "If I were in your position, I think I'd be sobbing and causing everyone trouble...",
+      "reason": "Restore the omitted complete VM box 2423–2425."
+    },
+    {
+      "resource_row": 2424,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2423 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2425,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2423 contains the complete VM-box translation once."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

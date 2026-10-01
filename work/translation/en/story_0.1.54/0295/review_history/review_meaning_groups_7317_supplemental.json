@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7317.targets.json",
+  "target_file_sha256": "6c702787c03ce79aeb57f09dfad6dd5f2ccfd6f75cafcd3f239e8f6ad7dcae8f",
+  "reviewed_rows": {
+    "range_inclusive": [
+      7317,
+      7396
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      7316,
+      7397
+    ]
+  ],
+  "rows_examined": 82,
+  "vm_group_verification": {
+    "method": "Simulated each complete display group after all replacements. Reactions stay standalone; route variants each retain one complete utterance and endpoint; no following display group supplies a clause."
+  },
+  "corrections": [
+    {
+      "resource_row": 7345,
+      "source_sha256": "d32edbca39fa1a641b565ecb1181c0247d1451a8bbfbde397641e0a1c8c857ec",
+      "before": "I cannot selfishly let my death",
+      "text": "My selfish wish, now that I am dead,",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    },
+    {
+      "resource_row": 7346,
+      "source_sha256": "8cc2f083c9b2de12207c26b1df4c228fd8365ea526da00ab722832d173d3e1db",
+      "before": "trouble those who are alive.",
+      "text": "cannot trouble",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    },
+    {
+      "resource_row": 7347,
+      "source_sha256": "03e4d49ef31b2999865cef077d872db0e778ac24ff8cb1139418fb56a1312231",
+      "before": ".",
+      "text": "those who are alive.",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Revised supplemental proof only. Dialogue target files remain unchanged."
+}

@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0260/review_meaning_0041_supplemental.json",
+  "review_sha256": "b69dfd96eaf88b991c1c8cdb7f8ae3fbab3f0a05116794a1ee24a22fbd138309",
+  "target_file": "work/translation/en/story_0.1.54/0260/slice_0011.targets.json",
+  "target_before_sha256": "5af7a99a7794429a5190a673761cd6ecfde21677c093af4f8c5e25bebc4e64fb",
+  "target_after_sha256": "2832077ed65daf9757709f73b6ad3681ce6341b09b95de63d361301247cc78f1",
+  "reviewed_rows": {
+    "range_inclusive": [
+      41,
+      50
+    ],
+    "count": 10
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 47,
+      "before": "That is so like Kyle.",
+      "after": "That way of thinking",
+      "reason": "The source’s thought/character order is reversed in English; this row must begin the joined statement."
+    },
+    {
+      "resource_row": 48,
+      "before": "That way of thinking is",
+      "after": "is so like Kyle.",
+      "reason": "Completes the male-protagonist variant; the source ends at row 50, so the existing fragment cannot continue elsewhere."
+    },
+    {
+      "resource_row": 49,
+      "before": "That is so like Kyle.",
+      "after": "That way of thinking",
+      "reason": "Begins the female-protagonist variant of the completed statement."
+    },
+    {
+      "resource_row": 50,
+      "before": "That way of thinking is",
+      "after": "is so like Kyle.",
+      "reason": "Completes the female-protagonist variant; the source ends here."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

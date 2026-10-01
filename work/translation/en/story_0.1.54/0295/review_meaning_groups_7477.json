@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7477.targets.json",
+  "target_file_sha256": "ccb03aa36218c86a5fda8f21ff7b28ec9a1408c4dfe671a1858362374a75031f",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      7477,
+      7556
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      7476,
+      7557
+    ]
+  ],
+  "rows_examined": 82,
+  "vm_group_verification": {
+    "method": "Reviewed consecutive reference instructions spaced by 8 as one VM group; corrections keep each group self-contained."
+  },
+  "corrections": [
+    {
+      "resource_row": 7538,
+      "source_sha256": "9bdff4e8fe8eaacd93ad194f3816e71e749cb2b7ee929e0380a92d0c3268ff1b",
+      "before": "Is that",
+      "text": "Is that wrong?",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    },
+    {
+      "resource_row": 7539,
+      "source_sha256": "66eae1375e500cf2ea092116cc6534ec502852e2614f06d3d1e3b4edf4cc4143",
+      "before": "all right?",
+      "text": "No...!",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    },
+    {
+      "resource_row": 7540,
+      "source_sha256": "0bdb82b6b9b2005015e73e60a229cbec2868da04a95b14e0a9d0e8f0a7bf4a6b",
+      "before": "No...",
+      "text": "Phlaiz...",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Final-slice VM-group review; no target edit or acceptance.",
+  "integration_note": "Root consolidated all pending corrections against current targets and checked the resulting complete VM dialogue groups; superseded partial proposals are archived and are not applicable reviews.",
+  "superseded_proposals": [
+    {
+      "file": "work/translation/en/story_0.1.54/0295/review_history/review_meaning_groups_7477.json",
+      "sha256": "24b31b6b6c1d314aa9789660f7500447cb76d004c07467aa496e4111e9b8e992"
+    },
+    {
+      "file": "work/translation/en/story_0.1.54/0295/review_history/review_meaning_groups_7477_supplemental.json",
+      "sha256": "dff90bdc694687969bf023912854e592767fb0a457d163bb1fb1f877d1e3a024"
+    },
+    {
+      "file": "work/translation/en/story_0.1.54/0295/review_history/review_meaning_groups_7477_supplemental_v2.json",
+      "sha256": "902285839eb67b2e5e26dca30a27d0a778bb5b8b32df6bd964d0256a422f1fee"
+    }
+  ]
+}

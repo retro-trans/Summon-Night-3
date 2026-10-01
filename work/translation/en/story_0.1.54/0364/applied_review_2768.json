@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0364/review_meaning_2768.json",
+  "review_sha256": "1c7b93235452b81f5bd171b189507a8052a0eb245ebbaa9b1425df3df2ac10db",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2768.targets.json",
+  "target_before_sha256": "94fa6a6025e1b2dee2e8b38d1b363a23f057bb5405095df6eaaa7fbc1889000b",
+  "target_after_sha256": "22e8fffbfeb604ed0adc359ff1b2d938c32c4156e4d555abc1b8e52542fdab59",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2768,
+      2847
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2827,
+      "before": "I tried desperately to smile.",
+      "after": "I tried desperately to laugh.",
+      "reason": "笑おうとした is an attempt to laugh. The preceding source specifically frames laughing as the way to deny reality; 'smile' changes that action."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

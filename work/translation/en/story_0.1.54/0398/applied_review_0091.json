@@ -1,0 +1,35 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0398/review_meaning_0091.json",
+  "review_sha256": "ddf4185cf81fb321684da8a553016e02ec7ceeac893a3372a72f4724f887cad8",
+  "target_file": "work/translation/en/story_0.1.54/0398/slice_0091.targets.json",
+  "target_before_sha256": "07a929281deb3aa2c81284ee237b3032a59a084f9af2a7e153fabe239f5acddf",
+  "target_after_sha256": "e6b456a8be9ccdf55f4516353d2fbc13c7775bb70a20c4e1bddce1b4026a072c",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      151
+    ],
+    "count": 61
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 116,
+      "before": "Think about it... If it's you, you'd be more than welcome aboard.",
+      "after": "Think about it... You'd be welcome aboard, even if you just showed up at the last minute.",
+      "reason": "Restore invitation allowing spontaneous last-minute joining."
+    },
+    {
+      "resource_row": 132,
+      "before": "Truth is, I love you so much I'd even drag you away if I had to.",
+      "after": "Truth is, I love you so much I feel like carrying you off by force.",
+      "reason": "Desire expressed by love-so-much construction; do not turn into promise to abduct if necessary."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 148,
+      "note": "Willingly following is retained; love also colors context, but no added declaration beyond source."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

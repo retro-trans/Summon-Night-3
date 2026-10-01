@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_layout_followup",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6437.targets.json",
+  "target_file_sha256": "6c7482f8ee4f69d1749c772868e91dfd0de4e11c9c18203ef536a8c48e8a9b5b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6437,
+      6516
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6353,
+      6518
+    ]
+  ],
+  "rows_examined": 166,
+  "corrections": [
+    {
+      "resource_row": 6463,
+      "source_sha256": "b0c44c7fda4a16463cde94cb3d7a035bf8306f950a34a89367e081258122f354",
+      "text": "Power to crush them...",
+      "reason": "Remove the optional article from the shouted noun phrase to meet the same208px limit on its first fragment; full meaning remains."
+    },
+    {
+      "resource_row": 6466,
+      "source_sha256": "b0c44c7fda4a16463cde94cb3d7a035bf8306f950a34a89367e081258122f354",
+      "text": "Power to crush them...",
+      "reason": "Remove the optional article from the shouted noun phrase to meet the same208px limit on its first fragment; full meaning remains."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Full source review preceded this compiler-directed adjustment. Both direct fragments are now under208px and31units; no meaning or control token removed."
+}

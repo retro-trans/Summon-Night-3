@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00322",
+  "source_sha256": "3ec44ee887322d004c0479f9fbbccc82b27e33f1e86b224251993a5a2751b886",
+  "target_file": "work/translation/en/story_0.1.54/0322/slice_0011.targets.json",
+  "target_file_sha256": "54937dd2262e302505aa4c5fc696c5de6cb9500b64d01331beb277073821af11",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      49
+    ],
+    "count": 39
+  },
+  "source_ranges_examined": [
+    [
+      11,
+      49
+    ]
+  ],
+  "rows_examined": 39,
+  "dialogue_group_boundaries_verified": true,
+  "reviewer": "root",
+  "corrections": [
+    {
+      "resource_row": 30,
+      "source_sha256": "31619d89e80d965f7ace19648ba79edaac934e83f1e18e924a690648fea0dc53",
+      "before": "Alieze...",
+      "text": "Ali...",
+      "reason": "Preserve the interrupted short name rather than completing Alieze before the reply interrupts it."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        30
+      ],
+      "reason": "The source stops midway through the name; retain that interruption."
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_6677.targets.json",
+  "target_file_sha256": "5db5bce694c2ef0263e4473e4436a798f65b05dff62674135ad0f19f1e48f491",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6677,
+      6756
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6676,
+      6757
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6677,
+      "source_sha256": "9c41b7fdd080e58e3eebe1a4560bf9f5b0ea3dd1744d5780e483584c03ec8c23",
+      "before": "to just die if you fail",
+      "text": "when you fail is not",
+      "after": "when you fail is not",
+      "reason": "The current row repeats the condition already expressed in the prior fragment; the source completes the statement that such a choice is not resolve."
+    },
+    {
+      "resource_row": 6678,
+      "source_sha256": "e3936aad95ba27ab551c7d7b4bc3edf263345aff2158665c79d39f37b9e05c9b",
+      "before": "is not resolve at all!!",
+      "text": "resolve at all!!",
+      "after": "resolve at all!!",
+      "reason": "The current row repeats the condition already expressed in the prior fragment; the source completes the statement that such a choice is not resolve."
+    },
+    {
+      "resource_row": 6707,
+      "source_sha256": "a82548a2f0f97cc9d98296fd31c522af8f3e46c6c05dac7bd24c989fcec2f640",
+      "before": "Even after you gave",
+      "text": "Even after I gave",
+      "after": "Even after I gave",
+      "reason": "Source passive identifies the speaker as the one who inflicted the pain; the target reverses attacker and victim."
+    },
+    {
+      "resource_row": 6708,
+      "source_sha256": "5f858a3e105e75e78b7d993cc897211fcef67d2f07d38f5a2aa6d35288dee557",
+      "before": "me such a beating...",
+      "text": "you such a beating...",
+      "after": "you such a beating...",
+      "reason": "Restore attacker/victim direction with full same-box context."
+    },
+    {
+      "resource_row": 6709,
+      "source_sha256": "b8a8c9d16cab93cd01a13bc99e376930cb7eb3dc9541d2877ae103461e963216",
+      "before": "You still",
+      "text": "",
+      "after": "",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6710,
+      "source_sha256": "cf46222965cd9d8970895aceb2521acb4ee0bd232e04f4c40b6f0e423feb5122",
+      "before": "love being friends",
+      "text": "You still love being",
+      "after": "You still love being",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6711,
+      "source_sha256": "0720219da012ff2485690628edfcb1a0887ce588a88b5ce032bf00ac051a6742",
+      "before": "with everyone, do you not?",
+      "text": "friends with everyone,",
+      "after": "friends with everyone,",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6712,
+      "source_sha256": "f43786c3ebc0c160b4557aa56287b0b5b78dd434b8c3d686143083e29c3a5716",
+      "before": "Ishlar...",
+      "text": "don't you?",
+      "after": "don't you?",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6713,
+      "source_sha256": "877ba2902ce1356e16a7d3084be444f5ad43b9c6b53767cc0e0b7ba68d229300",
+      "before": "Ishlar...",
+      "text": "Ishlar...",
+      "after": "Ishlar...",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6714,
+      "source_sha256": "877ba2902ce1356e16a7d3084be444f5ad43b9c6b53767cc0e0b7ba68d229300",
+      "before": "I was watching, hoping",
+      "text": "Ishlar...",
+      "after": "Ishlar...",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6715,
+      "source_sha256": "43f6d195c04d5a68c914812948ea4dc6835031f5040d6ed613a511018365db12",
+      "before": "you would take each other down,",
+      "text": "I was watching, hoping",
+      "after": "I was watching, hoping",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6716,
+      "source_sha256": "ba4fc1e7a808566668b20bb25f0c7a396e26a38af78963de8d09fe7b44d9c014",
+      "before": "but...",
+      "text": "you would take each other down,",
+      "after": "you would take each other down,",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6717,
+      "source_sha256": "5255c05e9d78ff2e06abf5020486cb5f796ec39bd9de8b82eca99c9c002da111",
+      "before": "I guess things never work out",
+      "text": "but...",
+      "after": "but...",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6718,
+      "source_sha256": "3f34d299fffa23bf94d5e00f5794ccae0527d370b2e6b6bffe7dd49fdac0bffc",
+      "before": "that conveniently.",
+      "text": "I guess things never work out",
+      "after": "I guess things never work out",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6719,
+      "source_sha256": "a2f88534801400aff19156c97b141e38d6a29d3b4ecc94229bd1542db22e3e57",
+      "before": "You...",
+      "text": "that conveniently.",
+      "after": "that conveniently.",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6720,
+      "source_sha256": "deb4dbaa352de14acbc0a97e31153579eeb52ec7e98bea32753293a2c61f3d4c",
+      "before": "Still, I learned quite a bit",
+      "text": "You...",
+      "after": "You...",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6721,
+      "source_sha256": "1a0ccc5805ba52fb328ce933ba4c180558c90b6ec880b74a78932b75d73f815c",
+      "before": "thanks to you.",
+      "text": "Still, I learned quite a bit",
+      "after": "Still, I learned quite a bit",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6722,
+      "source_sha256": "c85570660b9e13eaf8e1456a6e16f37078982a4099fee69cf60da477669cb746",
+      "before": "If I take control of these ruins,",
+      "text": "thanks to you.",
+      "after": "thanks to you.",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6723,
+      "source_sha256": "1b5b6045d7a3f26afbccd0ad8e60987c6032cc62bf4d54a8aab27c9e7e77082a",
+      "before": "I will have this entire island",
+      "text": "If I take control",
+      "after": "If I take control",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6724,
+      "source_sha256": "89fa20e4c50f4ff99b0822113db2fc1de51ff4aa95d73562bdcfcd4ae437b2a4",
+      "before": "in my hands...",
+      "text": "of these ruins, I will have",
+      "after": "of these ruins, I will have",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6725,
+      "source_sha256": "9a415274cdd1b341cf3f23c1168591a5b3f65d2840bdf2e9f150675259c11d8e",
+      "before": "I cannot just",
+      "text": "this entire island in my hands...",
+      "after": "this entire island in my hands...",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6726,
+      "source_sha256": "7ae2f0b074abe1e242bd559751d6393e907b864b5bff9160eff7a18aca8c368b",
+      "before": "let this valuable information",
+      "text": "I cannot just",
+      "after": "I cannot just",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6727,
+      "source_sha256": "3447f70f39aa7552afcf505e623bd45989250cf0273026e1d66c2b50e5ae080a",
+      "before": "go to waste, can I?",
+      "text": "let this valuable information",
+      "after": "let this valuable information",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6728,
+      "source_sha256": "0a5d6c677e8446e2ddf5ce63233be3bebeea21b7f9dfdf65bfc8e209f9fb487e",
+      "before": "I will never let you",
+      "text": "go to waste, can I?",
+      "after": "go to waste, can I?",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6729,
+      "source_sha256": "25dd631274c1bd9d116e175d40e292cf5997fe7164b3673fe52c2f280a97de7e",
+      "before": "do that!",
+      "text": "I will never let you",
+      "after": "I will never let you",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6730,
+      "source_sha256": "77bf76c1700ebc5489f52c7f46ad8592b6f9bf801a2d52e0e952119480fe5435",
+      "before": "I will never let you",
+      "text": "do that!",
+      "after": "do that!",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6731,
+      "source_sha256": "25dd631274c1bd9d116e175d40e292cf5997fe7164b3673fe52c2f280a97de7e",
+      "before": "do that!",
+      "text": "I will never let you",
+      "after": "I will never let you",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6732,
+      "source_sha256": "5269950d78fc2f981288c2c15af2a9b0c85d8cf1f1fe59e94c58eaaa02c8bcc3",
+      "before": "Ahahahaha!",
+      "text": "do that!",
+      "after": "do that!",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6733,
+      "source_sha256": "19e310d19ed340c971ecbec3dc145a5bebca83dce9165fb9a06898be2233eec0",
+      "before": "You are beaten to a pulp,",
+      "text": "Ahahahaha!",
+      "after": "Ahahahaha!",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6734,
+      "source_sha256": "a138cce3d2b493eca070b772c5abe8afeddd38482c8503e25679c943caaf1d7e",
+      "before": "but you still talk big.",
+      "text": "You are beaten to a pulp,",
+      "after": "You are beaten to a pulp,",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6735,
+      "source_sha256": "cf80b449222273d7b8e08b826b1a50fd292ebcb93b79a8a4c781d39a868779d8",
+      "before": "This is a good chance...",
+      "text": "but you still talk big.",
+      "after": "but you still talk big.",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6736,
+      "source_sha256": "c309baf0594b86333314d56f09e62c906ea5319739571f376ba0e439f8cec584",
+      "before": "So while we are here, that sword",
+      "text": "This is a good chance...",
+      "after": "This is a good chance...",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6737,
+      "source_sha256": "c11bb41e633cfc5745db99ed0f474ebf5221b41cde56787c524b28a4d264f1ee",
+      "before": "will be mine!!",
+      "text": "So while we're here,",
+      "after": "So while we're here,",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6738,
+      "source_sha256": "c2e5036cf06691135f279b84a3523b74b078ef93ec5fbd393000012c2ad87f4e",
+      "before": "...!",
+      "text": "that sword will be mine!!",
+      "after": "that sword will be mine!!",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6739,
+      "source_sha256": "ddacbf2324b8e081d3a59a41080b6277feebc23a46f293b4e20767411444692b",
+      "before": "Until the rewrite is complete,",
+      "text": "...!",
+      "after": "...!",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6740,
+      "source_sha256": "0973a417eadee168eca02af525b55823aa339e840817906a7db59d5feb732234",
+      "before": "I must not allow",
+      "text": "Until the rewrite is complete,",
+      "after": "Until the rewrite is complete,",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6741,
+      "source_sha256": "becc6ebfc3eab8274a64323dbe9b28e3ec199e78429f11dbc52cab558efa30d2",
+      "before": "anyone to interfere.",
+      "text": "I must not allow",
+      "after": "I must not allow",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6742,
+      "source_sha256": "d521e6c1aeeaf692ac1f3a15e1ea005c43c146af59c5ed6b967a14de6a97730e",
+      "before": "That is my...",
+      "text": "anyone to interfere.",
+      "after": "anyone to interfere.",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6743,
+      "source_sha256": "08d32f9f3d36568930bc8d1a509f608592bc5d1eed0d7176214472950baa18db",
+      "before": "highest-priority mission...",
+      "text": "That is my",
+      "after": "That is my",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6744,
+      "source_sha256": "cec8966ce8757e5954c85f21436d5b0d29f80e9ad0c9262554a34dc12aa561ad",
+      "before": "What...",
+      "text": "highest-priority mission...",
+      "after": "highest-priority mission...",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6745,
+      "source_sha256": "fd2782eed23dc99d65923cde26572001443917227846eb2ba930118640acf2ad",
+      "before": "What are you",
+      "text": "What...",
+      "after": "What...",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6746,
+      "source_sha256": "d204887c46b296e63ead4117c223567ccc651cc96d84703b5608bdf32d9104cf",
+      "before": "talking about!?",
+      "text": "What are you",
+      "after": "What are you",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6747,
+      "source_sha256": "1ff506bcf9fcca7c4c4da19ef160458480d21a85c82aa5fcce88b40e3793aac8",
+      "before": "A rewrite...?",
+      "text": "talking about!?",
+      "after": "talking about!?",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6748,
+      "source_sha256": "166d380d2dd0ac5353236a835b507efa539632d6913e9c3a40fc2d6b09a75917",
+      "before": "Sister...?",
+      "text": "A rewrite...?",
+      "after": "A rewrite...?",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6749,
+      "source_sha256": "d83940538aa63ab3cf353e11a4fc02885c78d773d713d9b2eb14ae63b07d0869",
+      "before": "Why are you",
+      "text": "Sister...?",
+      "after": "Sister...?",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6750,
+      "source_sha256": "e43cee8abe6f523abb98d27b4cfdd26b331e891b3913f6d60a6a5a96beb610cc",
+      "before": "here!?",
+      "text": "Why are you",
+      "after": "Why are you",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6751,
+      "source_sha256": "01e2c21da61c316caa92a4df3541a0c1773edb6f0bd4737e1631e0aab3236036",
+      "before": "Using the Qualified's mind as a core",
+      "text": "here!?",
+      "after": "here!?",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6752,
+      "source_sha256": "b2d0661b8240f5a1daa849ee44ba50fa6fed3e394abe585b3c8713517e2b80ee",
+      "before": "to build a new network",
+      "text": "Using the Qualified's mind",
+      "after": "Using the Qualified's mind",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6753,
+      "source_sha256": "830d8e43fe07372b452dc6f60caa7cfdd85dcd6074d17778f11795fe1b0dc7d1",
+      "before": "will restore the ruins' functions.",
+      "text": "as a core to build a new network",
+      "after": "as a core to build a new network",
+      "reason": "Retain source new-network qualification while repairing shifted dialogue."
+    },
+    {
+      "resource_row": 6754,
+      "source_sha256": "58570b00a762f6284b93b843503391d3c378005446a733e79732df316176f72d",
+      "before": "Delete the unnecessary personality",
+      "text": "will restore the ruins' functions.",
+      "after": "will restore the ruins' functions.",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6755,
+      "source_sha256": "112eb3d492d1b213b2cfcc920a70b5c43808fa440f65df4969fe1d1b5f51edb0",
+      "before": "and optimize it for the system.",
+      "text": "Delete the unnecessary personality",
+      "after": "Delete the unnecessary personality",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    },
+    {
+      "resource_row": 6756,
+      "source_sha256": "d03f712a982343d68c968ad1829ac45a22ada642140109054848a92ec94fd1bf",
+      "before": "That is inheritance...",
+      "text": "and optimize it for the system.",
+      "after": "and optimize it for the system.",
+      "reason": "A sustained target-row shift replaces multiple complete source boxes with text from following boxes. These replacements restore the source sequence, speakers, and sentence boundaries."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied.",
+  "root_consolidation": "Root compared full VM groups and neighboring source; supplementary actor/addressee and duplication corrections retained."
+}

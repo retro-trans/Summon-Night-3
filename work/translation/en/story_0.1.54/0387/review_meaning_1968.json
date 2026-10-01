@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_1968.targets.json",
+  "target_file_sha256": "2aa2ad3f234d71ab93d09fd2df0cb161366a60dfccc415e722864bea0e5c2cec",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1968,
+      2047
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1804,
+      2134
+    ]
+  ],
+  "rows_examined": 331,
+  "corrections": [
+    {
+      "resource_row": 1968,
+      "source_sha256": "b773ab86d15c8d46c530cb99b48f5b090b1e7ea6cb41a11585a6079e337f9e4b",
+      "text": "",
+      "reason": "Remove agreement duplicated within1966–1968."
+    },
+    {
+      "resource_row": 1970,
+      "source_sha256": "583cd3bd0202e4e799f7920fda1141606e26d803b95f293055c1388dde47a6ff",
+      "text": "So that's it... You're just like the Colorless:",
+      "reason": "Source compares listener to the Colorless."
+    },
+    {
+      "resource_row": 1971,
+      "source_sha256": "c1e2b95fc861aa19ac593fb9a27ffdd801c4a405f1d1670a2e8644741189aeac",
+      "text": "you have no use for anyone",
+      "reason": "Restore direction: both reject people they consider useless."
+    },
+    {
+      "resource_row": 1972,
+      "source_sha256": "b21b2f2863db096cb68068613f192e9f0f972714f4943eca81dfb52bc49700c7",
+      "text": "who's no longer useful...",
+      "reason": "Restore the rejected object."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared full VM boxes with Japanese source, including both-side context and cross-slice boxes. Correct meaning before normalization; no source transcript saved."
+}

@@ -1,0 +1,178 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_6037.json",
+  "review_sha256": "8532183b1ea1cb8e42a346fa2c62194c88d154a4862ebd6d2ccab5b39fd8bd1b",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6037.targets.json",
+  "target_before_sha256": "e81bced699bfd83fd7530538b5857f0a6023957c81c60094109655c52624c6a5",
+  "target_after_sha256": "d95c525cf8b0cbbca21cb5fa1f051b37f516c541429d2ef2bdad17e7d806c402",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6037,
+      6116
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6039,
+      "before": "The great power",
+      "after": "The wielder of great power",
+      "reason": "The source identifies the possessor of the power, not the power itself."
+    },
+    {
+      "resource_row": 6042,
+      "before": "The guest of honor",
+      "after": "The guest of honor of this bloodstained feast",
+      "reason": "Keep the entire arrival statement in its own two-fragment box."
+    },
+    {
+      "resource_row": 6043,
+      "before": "of this bloodstained feast",
+      "after": "is making an appearance.",
+      "reason": "Complete this speaker's sentence without borrowing the next box."
+    },
+    {
+      "resource_row": 6044,
+      "before": "is making an appearance.",
+      "after": "They're coming...",
+      "reason": "Restore the separate arrival reaction."
+    },
+    {
+      "resource_row": 6045,
+      "before": "They're coming...",
+      "after": "Someone is coming...",
+      "reason": "Restore the observer's two-fragment perception."
+    },
+    {
+      "resource_row": 6046,
+      "before": "Someone is coming",
+      "after": "from beyond the sunset...",
+      "reason": "Finish the perception in its original box."
+    },
+    {
+      "resource_row": 6047,
+      "before": "from beyond the sunset...",
+      "after": "Beep...",
+      "reason": "Restore original creature reaction; the flat draft shifted all following cries."
+    },
+    {
+      "resource_row": 6048,
+      "before": "Beep...",
+      "after": "Ngh...",
+      "reason": "Restore original human reaction."
+    },
+    {
+      "resource_row": 6049,
+      "before": "Ngh...",
+      "after": "Mew...",
+      "reason": "Restore original creature reaction."
+    },
+    {
+      "resource_row": 6050,
+      "before": "Mew...",
+      "after": "Ngh...",
+      "reason": "Restore original human reaction."
+    },
+    {
+      "resource_row": 6051,
+      "before": "Ngh...",
+      "after": "Bii...",
+      "reason": "Restore original creature reaction."
+    },
+    {
+      "resource_row": 6052,
+      "before": "Bii...",
+      "after": "Ngh...",
+      "reason": "Restore original human reaction."
+    },
+    {
+      "resource_row": 6053,
+      "before": "Ngh...",
+      "after": "Kyuu...",
+      "reason": "Restore original creature reaction."
+    },
+    {
+      "resource_row": 6054,
+      "before": "Kyuu...",
+      "after": "Ngh...",
+      "reason": "Restore original human reaction."
+    },
+    {
+      "resource_row": 6055,
+      "before": "Ngh...",
+      "after": "So you've finally",
+      "reason": "Restore the villain's whole opening line to its own box."
+    },
+    {
+      "resource_row": 6056,
+      "before": "So you've finally",
+      "after": "made it this far...",
+      "reason": "Finish his opening line without moving it into the next box."
+    },
+    {
+      "resource_row": 6057,
+      "before": "made it this far...",
+      "after": "Dealing with that trash",
+      "reason": "Restore the following reproach to its original box."
+    },
+    {
+      "resource_row": 6058,
+      "before": "Dealing with that trash",
+      "after": "took you longer than I expected.",
+      "reason": "Retain the stated delay."
+    },
+    {
+      "resource_row": 6059,
+      "before": "took you longer than I expected.",
+      "after": "I've been waiting, you know?",
+      "reason": "Restore impatience to this speaker, not the subordinate's apology."
+    },
+    {
+      "resource_row": 6060,
+      "before": "I've been waiting, you know?",
+      "after": "My apologies.",
+      "reason": "Restore the subordinate's apology as a separate box."
+    },
+    {
+      "resource_row": 6061,
+      "before": "My apologies.",
+      "after": "",
+      "reason": "Internal continuation left empty; the whole apology is in6060."
+    },
+    {
+      "resource_row": 6101,
+      "before": "Ishlar spoke of",
+      "after": "Ishlar spoke to",
+      "reason": "They are the pendant conversation partners, not people he merely mentioned."
+    },
+    {
+      "resource_row": 6104,
+      "before": "Ishlar spoke of",
+      "after": "Ishlar spoke to",
+      "reason": "Same partner reference in the alternate protagonist version."
+    },
+    {
+      "resource_row": 6112,
+      "before": "Colorless Faction, head of",
+      "after": "Colorless Faction,",
+      "reason": "Remove unsupported addition that he is the head of the family."
+    },
+    {
+      "resource_row": 6113,
+      "before": "House Servolt: Lord Ordreik!",
+      "after": "Lord Ordreik of House Servolt!",
+      "reason": "The source names his family; it does not state headship in this line."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        6047,
+        6049,
+        6051,
+        6053
+      ],
+      "note": "Creature cries remain nonlexical sounds; no lexical meaning or character gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

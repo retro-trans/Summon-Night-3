@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00274",
+  "source_sha256": "8b978b8bc69f073e05b72777b181b62cebf461ea2f6880d56a51684d33c060e4",
+  "target_file": "work/translation/en/story_0.1.54/0274/slice_0011.targets.json",
+  "target_file_sha256": "5f0b843dfd8feeff0ce92c1588116d77bc10a2c009d7ae5b36f1a09d1a5e5b66",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      52
+    ],
+    "count": 42
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      52
+    ]
+  ],
+  "rows_examined": 43,
+  "corrections": [
+    {
+      "resource_row": 11,
+      "source_sha256": "0003786a35b8906fa07e9531dbb254a27de74695de62f326ac9007565d9a63ea",
+      "text": "\"Taking lives, and throwing them away...",
+      "reason": "Explicit quotation keeps the pupil from appearing to assert the teacher's first-person declaration as their own."
+    },
+    {
+      "resource_row": 12,
+      "source_sha256": "037d34b0a645caebbeb006267e16477cb4182ed200edec366f754a066e2c9a20",
+      "text": "I won't accept either of those,\" huh...",
+      "reason": "Explicit quotation keeps the pupil from appearing to assert the teacher's first-person declaration as their own."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        43,
+        44
+      ],
+      "reason": "Pupil echoes the ideal of growing stronger to protect others; a quoted proposition rather than an omitted actor."
+    }
+  ],
+  "notes": "Fresh independent root review of every actual source VM group and current English through EOF. Earlier incomplete proof and receipt retained byte-for-byte in review_history/renewed_meaning_20261001. Corrected earlier negations verified in context; no stylistic rewrites."
+}

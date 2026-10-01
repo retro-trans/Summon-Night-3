@@ -1,0 +1,72 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_3088.json",
+  "review_sha256": "a5d6c4050f9770b2f533b8c9df17c2d1ed5cd8b698b88c10357a9ec3b82a5b2b",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3088.targets.json",
+  "target_before_sha256": "1418f5e29f514c0d3a418a079d206056118c859a4ae849097f206e82a0c97557",
+  "target_after_sha256": "62d360a7419ace697c94903ba43eb9e597537948154f6f0aa674420cced5f55c",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3088,
+      3167
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3131,
+      "before": "I want to help!",
+      "after": "I want to help you, Teacher!",
+      "reason": "Teacher is the object of wanting to help, not the reason being discussed."
+    },
+    {
+      "resource_row": 3132,
+      "before": "It's Teacher we're talking about,",
+      "after": "Right to the very end!",
+      "reason": "Retain the full duration of the offered help."
+    },
+    {
+      "resource_row": 3133,
+      "before": "until the very end...",
+      "after": "So...",
+      "reason": "Preserve the source's unfinished plea."
+    },
+    {
+      "resource_row": 3139,
+      "before": "I want to help!!",
+      "after": "I want to help you, Teacher!!",
+      "reason": "Restore helping Teacher as the object."
+    },
+    {
+      "resource_row": 3140,
+      "before": "It's Teacher we're talking about,",
+      "after": "Right to the very end!",
+      "reason": "Retain the duration of help."
+    },
+    {
+      "resource_row": 3141,
+      "before": "until the very end...",
+      "after": "So...",
+      "reason": "Preserve unfinished plea."
+    },
+    {
+      "resource_row": 3155,
+      "before": "I want to help!",
+      "after": "I want to help you, Teacher!",
+      "reason": "Restore helping Teacher as the object."
+    },
+    {
+      "resource_row": 3156,
+      "before": "It's Teacher we're talking about,",
+      "after": "Right to the very end!",
+      "reason": "Retain the duration of help."
+    },
+    {
+      "resource_row": 3157,
+      "before": "until the very end...",
+      "after": "So...",
+      "reason": "Preserve unfinished plea."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

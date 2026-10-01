@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3808.targets.json",
+  "target_file_sha256": "848aabef9fc379e018ef93221a8c6f1be76a01b445de1e6ae9d59d650ceca773",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3808,
+      3808
+    ],
+    "count": 1
+  },
+  "source_ranges_examined": [
+    [
+      3807,
+      3809
+    ]
+  ],
+  "rows_examined": 3,
+  "corrections": [
+    {
+      "resource_row": 3808,
+      "source_sha256": "90eedd27e08b5b1030c15d7307f1bfb6eb0d39cc3dc2d7ee283f401dd1b6b70e",
+      "text": "",
+      "reason": "The preceding supplemental correction at row 3807 now contains the complete VM-box translation; clear this continuation to prevent duplicate text."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Supplemental VM-box continuation cleanup following the third-person qualified-bearers correction."
+}

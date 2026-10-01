@@ -1,0 +1,53 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0477/review_meaning_0011.json",
+  "review_sha256": "a8821dd637810606ddf6685d4ff5952274ae81f720a49d8f8a21f66f9e78f7a4",
+  "target_file": "work/translation/en/story_0.1.54/0477/slice_0011.targets.json",
+  "target_before_sha256": "be57262a47173a68c3f892c80b4e2ae6e3ff5016018cf258de444c1470d57945",
+  "target_after_sha256": "1e019148049e53ecffd44fb1c355b15b796f0d7624ea29ab40ef963d32e89bb4",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      46
+    ],
+    "count": 36
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 14,
+      "before": "Her unfamiliar skirt and slightly longer hair fluttering",
+      "after": "I let the gentle breeze stir my unfamiliar skirt and the hair I have grown a little longer...",
+      "reason": "Rows 14-16 describe the first-person narrator, Azlier, not the child. The existing English incorrectly assigns the skirt and hair to the child."
+    },
+    {
+      "resource_row": 17,
+      "before": "as she laughs happily with the island's residents among the colorful flowers...",
+      "after": "...as I watch him laughing happily with the islanders among the colorful flowers.",
+      "reason": "Rows 17-19 identify the narrator as watching the child, Ishlar, laugh with the islanders. The existing English drops the watching action and attaches the preceding description to him."
+    },
+    {
+      "resource_row": 26,
+      "before": "and I, who abandoned my home and the military under the pretext of caring for Ishlar's younger sibling,",
+      "after": "and I, who abandoned my family and the military under the pretext of caring for my younger brother,",
+      "reason": "The younger brother is the narrator Azlier's brother, Ishlar. The existing English reverses that relationship by calling him Ishlar's younger sibling. Preserve the subject/relative construction completed by29-30."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        14,
+        19,
+        23,
+        28
+      ],
+      "issue": "Full-scene context resolves the narrator as Azlier and the child as Ishlar. The corrections restore those source-established actors without making any gender inference from the skirt."
+    },
+    {
+      "rows": [
+        23,
+        29
+      ],
+      "issue": "Ishlar is spelled according to the current character reference. This review does not normalize names."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,47 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0282/review_meaning_0011.json",
+  "review_sha256": "c3cf522ef3c9b35f95d5894d711cb5eac56fd2372abe63e6d18b02d5d6333c5c",
+  "target_file": "work/translation/en/story_0.1.54/0282/slice_0011.targets.json",
+  "target_before_sha256": "5874f8ec4c5f3a5093c642e40b87f2a8b0c0dbfbb4f5bf10b153b13598e7f3c2",
+  "target_after_sha256": "3732360cea0dca2f723b70f9f1b14f0a9f0f9c4edf9c7765df39c2aafebce4cc",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      61
+    ],
+    "count": 51
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 32,
+      "before": "I cannot tell him the truth,",
+      "after": "I cannot very well tell the truth,",
+      "reason": "The inner thought omits an indirect object. Yafha's preceding question does not establish a recipient, and the authored masculine pronoun adds unsupported reference and gender."
+    },
+    {
+      "resource_row": 34,
+      "before": "I cannot tell him the truth,",
+      "after": "I cannot very well tell the truth,",
+      "reason": "The paired protagonist branch has the same omitted recipient; preserve that omission in English."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        11,
+        12,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        25,
+        26,
+        27
+      ],
+      "issue": "The person who needs time to sort out their feelings remains unnamed and ungendered. Singular they is retained; no correction proposed."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

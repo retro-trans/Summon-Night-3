@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6277.targets.json",
+  "target_file_sha256": "1ca6d3066ea66de433c9023f7b7238ecfb9c37a2a8bcb2e6dad8396ec213960c",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6277,
+      6356
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6196,
+      6358
+    ]
+  ],
+  "rows_examined": 163,
+  "corrections": [
+    {
+      "resource_row": 6291,
+      "source_sha256": "43d87560e7bdf56987677c3583399d29a5004b5c4e70d63316bee214b23dd3ff",
+      "text": "The rudimentary summoning arts",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6292,
+      "source_sha256": "0333a9fda59d6b3ff41562d6cd5d78ab2e161b06d224f039f2d8054ae62e299e",
+      "text": "you've picked up",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6293,
+      "source_sha256": "26ae89df0105ed8986047fb170268048321acdab86a919520dd9fbfbc3e41b63",
+      "text": "are no match for ours.",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6331,
+      "source_sha256": "aafd70681a45a4557b6d02fd78f2c46d44c4d9dfd575213920b89564ce008e50",
+      "text": "hasn't helped me",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6332,
+      "source_sha256": "44e2877b9136e7e21658bf0f40a3a078ea9467e108f79bde71c34c8f5b84b6da",
+      "text": "in the slightest.",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared Japanese source and English in complete VM groups, including adjacent slice boundaries. Correct meaning only; spelling normalization follows."
+}

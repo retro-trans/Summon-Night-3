@@ -1,0 +1,48 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_4197.json",
+  "review_sha256": "2a00ed6d91c3f045e0c41777642ae71e02f455267f6a4fa2320d27e4d63e79b1",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4197.targets.json",
+  "target_before_sha256": "952090979d877eb4c40688eb6ee4e05572460f04866a2a5c0bf8b900e9156959",
+  "target_after_sha256": "a259c35b8f2ce5ad3e12bbfc9ce096972c01f079188f5236b3a9b3638338112b",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4197,
+      4276
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4218,
+      "before": "If you remember those words,",
+      "after": "If you do not forget",
+      "reason": "The whole source box is one unfinished conditional."
+    },
+    {
+      "resource_row": 4219,
+      "before": "...",
+      "after": "what you just said...",
+      "reason": "Complete the conditional without adding an independent assertion."
+    },
+    {
+      "resource_row": 4220,
+      "before": "...",
+      "after": "",
+      "reason": "Remove a filler ellipsis; same box's full meaning is retained."
+    },
+    {
+      "resource_row": 4245,
+      "before": "Right!",
+      "after": "Yeah...",
+      "reason": "Preserve the subdued acknowledgement."
+    },
+    {
+      "resource_row": 4274,
+      "before": "...",
+      "after": "",
+      "reason": "Remove filler ellipsis after the complete sentence in the same group."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,38 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0251/review_meaning_0011.json",
+  "review_sha256": "d348d3120bda9cd39d7b7a59110278e1aa80854374f5ebc8fbebe39110c344c5",
+  "target_file": "work/translation/en/story_0.1.54/0251/slice_0011.targets.json",
+  "target_before_sha256": "b0229e51f84c24aa0dba6a4e168766c6d7ce34ba799c185ca7935c474ca1f979",
+  "target_after_sha256": "b9288098694b47b8c38710e890ecbe4c8b6c94be527f002f6d811fe5d92395bf",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 71,
+      "before": "Maybe it's okay",
+      "after": "Isn't it okay",
+      "reason": "The source is an affirmative rhetorical question that reassures the listener that self-direction is acceptable. 'Maybe' weakens that reassurance; the parallel variant immediately below confirms the intended sense."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "issue": "The speaker's resolve is expressed broadly, without specifying a particular future regret or outcome. The existing generic plural wording preserves that breadth, so no additional correction is proposed."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

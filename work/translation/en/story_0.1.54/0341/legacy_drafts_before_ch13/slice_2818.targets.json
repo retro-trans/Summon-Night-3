@@ -1,0 +1,46 @@
+{
+  "resource_id": "00:00341",
+  "range_inclusive": [
+    2818,
+    2819
+  ],
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "review_status": "author self-check; no independent meaning review",
+  "source_ranges_examined": [
+    [
+      2818,
+      2819
+    ]
+  ],
+  "notes": "Exact source-identity reuse from existing author-self-checked story translation; context checked.",
+  "translations": {
+    "00:00341:text:00031134": {
+      "source_offset": 201012,
+      "pool_word_offset": 26913,
+      "source_byte_length": 12,
+      "source_sha256": "0ac0ec7d3cbd4bdf7dba9af10974e490096ff71031ed296f94059d92f5962548",
+      "contains_japanese": true,
+      "reference_instructions": [
+        104420
+      ],
+      "id": "00:00341:text:00031134",
+      "resource_row": 2818,
+      "text": "That time...",
+      "status": "translated_author_self_check"
+    },
+    "00:00341:text:00031142": {
+      "source_offset": 201026,
+      "pool_word_offset": 26920,
+      "source_byte_length": 4,
+      "source_sha256": "aad930b62c57b98c3eef6a2f53093ba6b477bd165c065c6b06cf7fcf7ecfb57c",
+      "contains_japanese": true,
+      "reference_instructions": [
+        104506
+      ],
+      "id": "00:00341:text:00031142",
+      "resource_row": 2819,
+      "text": "Huh?",
+      "status": "translated_author_self_check"
+    }
+  }
+}

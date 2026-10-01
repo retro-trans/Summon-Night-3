@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_4608_root_final.json",
+  "review_sha256": "a2e687ea56178b550955d676de3bb16d5fcd5c826c7e40bd0d56ca2be5856d8f",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4608.targets.json",
+  "target_before_sha256": "14b695b856203838fe4b0b4b93dfbe8bdd3d52decb51a17e92918c63925392ac",
+  "target_after_sha256": "c404fd1a3cc8152be1cf40a512c2d75b46a309bd2b449b654a23936c664513f3",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4608,
+      4687
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4620,
+      "before": "I am sorry... You had to hear something so awful...",
+      "after": "I'm sorry... I shouldn't have asked about something so painful...",
+      "reason": "The visitor apologizes for asking about the experiment history, not for making the listener hear it."
+    },
+    {
+      "resource_row": 4623,
+      "before": "I am sorry... You had to hear something so awful...",
+      "after": "I'm sorry... I shouldn't have asked about something so painful...",
+      "reason": "Parallel visitor branch; restores who asked about the painful history."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

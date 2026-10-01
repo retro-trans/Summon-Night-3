@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00335",
+  "source_sha256": "2dd1e89be0335cdd5394e75774a867a386bce03c20a04932c9831ccbfcbb70d5",
+  "target_file": "work/translation/en/story_0.1.54/0335/slice_0011.targets.json",
+  "target_file_sha256": "46faefa318dc6540899851c42c9996cc4994672805677ae38cd2d3d5b54f814a",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      47
+    ],
+    "count": 37
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      47
+    ]
+  ],
+  "rows_examined": 38,
+  "corrections": [
+    {
+      "resource_row": 29,
+      "source_sha256": "75b08589caaf6a1a2d60f4d1a1825e2555c4e5d05f6d63a845079f6cf731b134",
+      "text": "It'll be all right. If they come back,",
+      "reason": "This reassures Teacher about enemy danger, not merely Subaru's own health."
+    },
+    {
+      "resource_row": 41,
+      "source_sha256": "590108f5fe11012f2d18e04256975e7ea1d2475bca9ab2bf1c33ddba6697a9f0",
+      "text": "You really are",
+      "reason": "Subaru's immediate laugh answers a compliment addressed to him."
+    },
+    {
+      "resource_row": 42,
+      "source_sha256": "7d7f16bd66f0866ab345e4fc8d35c171057cadfbbb0c210e16e79ca1b2bb7774",
+      "text": "a strong child, Subaru...",
+      "reason": "Restore second-person address in this protagonist variant."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "note": "Explicit source pauses, cries and genuinely interrupted thought are retained, not filled out with invented conclusions."
+    }
+  ],
+  "notes": "Root independently compared every full VM group in the assigned dialogue and its boundary context. All correction groups reconstructed in memory before accepting the change."
+}

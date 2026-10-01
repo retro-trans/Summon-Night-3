@@ -1,0 +1,59 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_3568.json",
+  "review_sha256": "1a030788c00ce998c840e2ecb33b87050315d554b4cf30bb5f7209bfd855f1f7",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3568.targets.json",
+  "target_before_sha256": "0336f8462a513c56462684f66a05c4aada404a809892a780ffc9a016b4fb3e86",
+  "target_after_sha256": "1cac69fd005ed3a53db436209aa9285af4bf1d4e4c70227faf8c2ee5cb98983c",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3568,
+      3647
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3610,
+      "before": "You showed my despairing heart that it isn't impossible to fulfill your dream without giving anything up.",
+      "after": "It is not impossible to fulfill the dream you desire without giving anything up.",
+      "reason": "Separates the 3610–3612 wish-fulfillment statement from the following hope box."
+    },
+    {
+      "resource_row": 3613,
+      "before": "",
+      "after": "You showed a light of hope to my despairing heart.",
+      "reason": "Restores the wholly blank 3613–3615 hope box."
+    },
+    {
+      "resource_row": 3643,
+      "before": "If you keep moping, you won't be able to leave for the other side in peace...",
+      "after": "If you keep moping, I will not be able to go to the other side in peace...",
+      "reason": "Restores Rikuto as the speaker who cannot depart in peace while Kyuuma keeps wavering."
+    },
+    {
+      "resource_row": 3646,
+      "before": "",
+      "after": "And tell my wife and child to live well, too.",
+      "reason": "Restores Rikuto’s final request, including the additive も (too), without adding unsupported tone."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        3592,
+        3593,
+        3594
+      ],
+      "issue": "Terminology-only: source 核識 appears as “Core Mark”; current story_core_terms_0.1.54 locks Core Cognizance. Defer to scoped normalization."
+    },
+    {
+      "rows": [
+        3640,
+        3641,
+        3649
+      ],
+      "issue": "Name-only: リクト appears as Rikto; chapter48_additions_0.1.14 locks Rikuto. Defer to scoped normalization."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

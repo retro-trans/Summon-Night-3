@@ -1,0 +1,29 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0394/review_meaning_0091.json",
+  "review_sha256": "9a266bcca67a10c813843927e910284a965a700494417a13441bfed72117be14",
+  "target_file": "work/translation/en/story_0.1.54/0394/slice_0091.targets.json",
+  "target_before_sha256": "876757bafea5a3acfb913ef529ced6548e538bd843c204b4f015d6394f85f48b",
+  "target_after_sha256": "fb7045fe9f161cda66eba8c3f519f46558b271fb31bd85356a192e3fec088cde",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      170
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 135,
+      "before": "",
+      "after": "!!",
+      "reason": "Restore wholly empty surprise box."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 96,
+      "note": "Oni Demon Realm is a naming variant awaiting glossary normalization to Silturn after meaning fixes."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

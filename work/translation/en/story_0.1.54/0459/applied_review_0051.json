@@ -1,0 +1,60 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0459/review_meaning_0051.json",
+  "review_sha256": "000c7aee7d4e3ecef0dd924883667dd1e979a34b6766ec14a587ea9a5315d22a",
+  "target_file": "work/translation/en/story_0.1.54/0459/slice_0051.targets.json",
+  "target_before_sha256": "6e2d58dc895d80ca2fe6657327e903aa0b1487d78b3412c5b21bfe6b3a389023",
+  "target_after_sha256": "e536e16f9d1fbbb645cc95f902540e0ae44a3f69bd977a7a5e84d38124b724e8",
+  "reviewed_rows": {
+    "range_inclusive": [
+      51,
+      90
+    ],
+    "count": 40
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 64,
+      "before": "Even without being taught by a",
+      "after": "Even without your teaching, I think I probably would have managed...",
+      "reason": "Teacher is the addressee, not an indefinite unspecified teacher."
+    },
+    {
+      "resource_row": 65,
+      "before": "Teacher, I think I probably would have managed...",
+      "after": "",
+      "reason": "Teacher is the addressee, not an indefinite unspecified teacher."
+    },
+    {
+      "resource_row": 69,
+      "before": "I was glad, but I also wondered why",
+      "after": "I was glad, but I also wondered why you needed a private tutor...",
+      "reason": "Teacher is speaking about the pupil's diligence, not Teacher needing lessons."
+    },
+    {
+      "resource_row": 70,
+      "before": "I needed a private tutor...",
+      "after": "",
+      "reason": "Teacher is speaking about the pupil's diligence, not Teacher needing lessons."
+    },
+    {
+      "resource_row": 74,
+      "before": "I was glad, but I also wondered why",
+      "after": "I was glad, but I also wondered why you needed a private tutor...",
+      "reason": "Same female-protagonist branch; restore pupil as the one who might need a tutor."
+    },
+    {
+      "resource_row": 75,
+      "before": "I needed a private tutor...",
+      "after": "",
+      "reason": "Same female-protagonist branch; restore pupil as the one who might need a tutor."
+    },
+    {
+      "resource_row": 90,
+      "before": "That Father was not wrong",
+      "after": "Father wasn't wrong to choose you as my private tutor.",
+      "reason": "Restore omitted choice of private tutor; remove garbled duplicate assertion."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

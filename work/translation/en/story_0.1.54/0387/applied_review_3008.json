@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_3008.json",
+  "review_sha256": "0c5dab5acec346143275f6edadb6752b7fe37afe9d2fad112dd4c38392519f30",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3008.targets.json",
+  "target_before_sha256": "bfa5c62a4f0bec3fdd39405d738a687d18b20bb13c16e26d404e5da2557fccdb",
+  "target_after_sha256": "697a857050e2824b8044930e6ef5d0ad89642f219a318694361dc216c4002577",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3008,
+      3087
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3012,
+      "before": "Nyahahaha!",
+      "after": "Nyahahaha! Now there's a face I haven't seen in ages!",
+      "reason": "Restore the omitted familiar-face greeting, not just laughter."
+    },
+    {
+      "resource_row": 3063,
+      "before": "Oh, that's a maiden's secret♪",
+      "after": "Oh, that's a maiden's secret",
+      "reason": "Remove duplicate music token; original token remains on3064."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

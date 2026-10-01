@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "independent_review": true,
+  "reviewer": "independent reviewer; draft author fresh",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_3008.targets.json",
+  "target_file_sha256": "b6b0b9701265660c9b44b7fc3624238df31e8fbaa68dc244f91ad24f09902473",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3008,
+      3087
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3007,
+      3088
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 3054,
+      "source_sha256": "35a5d2f341b3623b92570b013926f9399d96b4441ae281826e501cd14342d19b",
+      "before": "Vizel!? Zeline!?",
+      "text": "Vizel!? Ohhh... Zeline!?",
+      "after": "Vizel!? Ohhh... Zeline!?",
+      "reason": "Restores the anguished middle cry omitted from the source sequence; names remain subject to later scoped normalization."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Source-first VM-group review. Corrections proposed only; no apply."
+}

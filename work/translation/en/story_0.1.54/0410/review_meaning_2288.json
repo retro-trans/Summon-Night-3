@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2288.targets.json",
+  "target_file_sha256": "821cfacbb6272ce7745d4621c5e5348142d356889d01fea7535e0a0a163e7758",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2288,
+      2367
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2284,
+      2448
+    ]
+  ],
+  "rows_examined": 165,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        2339,
+        2343
+      ],
+      "issue": "Known Ishlar identity, masculine pronouns explicitly supported by subsequent sister reference. Draft Isla spelling must normalize to canonical Ishlar after meaning review."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared source and English at full VM box boundaries, including both slice boundaries and protagonist/pupil alternatives. Name normalization follows meaning fixes."
+}

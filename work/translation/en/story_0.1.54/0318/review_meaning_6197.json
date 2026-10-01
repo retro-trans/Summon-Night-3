@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6197.targets.json",
+  "target_file_sha256": "b508d3a8b5db8fc3945f0436ab39fc2f0cbd5a4c8ac71e8a83b22faa765aa8c6",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6197,
+      6276
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6196,
+      6358
+    ]
+  ],
+  "rows_examined": 163,
+  "corrections": [
+    {
+      "resource_row": 6207,
+      "source_sha256": "6592fb6bedd6bf741b9887fed211aa3ea09ffdbdbc1273590f9107d94f602ff6",
+      "text": "It is precisely because",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6208,
+      "source_sha256": "5e7c94a45157d230f181ee73086e7afdc2abeb0d02a252e58a91a9121291934a",
+      "text": "the sword's immense power is so familiar to",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6216,
+      "source_sha256": "7d13f5fd7fd4662139fea7147b49790b67c88cd39a2e828d2abbcf7cccdf296a",
+      "text": "Someone like them...",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6217,
+      "source_sha256": "043ea953a49a9bddb9c400cddb02ba2facd36dcc008e4f8bc3db11164c39e1c8",
+      "text": "just can't do it...",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6218,
+      "source_sha256": "a6fe4bc27ee4d93deede399764f246a9c09ff27c61c85171da16240e2003771e",
+      "text": "Even an opponent's safety",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6219,
+      "source_sha256": "b368a6dbf0954c91b2ba06e053edbf20ae55a23083ee50b3d92a847c3369d978",
+      "text": "matters to someone as kind as",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6230,
+      "source_sha256": "8fd9536f23539ea5a3fafa133aa78ce5fdea6fe6161b041db7a1f9b293da7d6c",
+      "text": "No one has treasured life",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6231,
+      "source_sha256": "e099ae0b1269d7576dabec6a9d3d2c1bc0b1c52e1620691451cf6d6d1275cfe7",
+      "text": "more than",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6242,
+      "source_sha256": "2302b2a0ce06e0bd8dd418706a465aa879e1ecd6779bae13eb3c82ab511fb951",
+      "text": "Hating battle and hesitating even to hurt others,",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6243,
+      "source_sha256": "904034bea975bd150470d250c10b69d8129c907b9fc1e6602a2a847b99cd6a02",
+      "text": "that's the kind of person",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6244,
+      "source_sha256": "b5097e3abe96c7a0ec4dd2809a771b6ce087b298a889298b8cf245b1387eb258",
+      "text": "● is...",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6255,
+      "source_sha256": "9003af30e716634c5d02eec112c2839ab09c39a38b82d0d565dcae98ecdfe8d7",
+      "text": "Then let us help!",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        6207,
+        6247
+      ],
+      "note": "Named and unnamed protagonist branches share responses. Gender-neutral references preserve both protagonist routes; runtime name markers remain in their source row."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared Japanese source and English in complete VM groups, including adjacent slice boundaries. Correct meaning only; spelling normalization follows."
+}

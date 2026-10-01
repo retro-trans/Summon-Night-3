@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00394",
+  "source_sha256": "7e04fe4e490ec96ffed7bb0478f79e3630292ef4f05929b72255e79a6a706bcd",
+  "target_file": "work/translation/en/story_0.1.54/0394/slice_0011.targets.json",
+  "target_file_sha256": "b5fe8e7f1fe0a46721469638ab8b1f5ab9c26f5dc35547625577e53cb3694534",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      175
+    ]
+  ],
+  "rows_examined": 166,
+  "corrections": [
+    {
+      "resource_row": 18,
+      "source_sha256": "5880217e0ec31b5ec5a815b2709d1fd2656fa6ce2479f090a249503d6ce2989d",
+      "text": "Why did you do something so reckless?",
+      "reason": "Remove unsupported claim that Kyuuma lectured the speaker; absent from this variant."
+    },
+    {
+      "resource_row": 20,
+      "source_sha256": "5880217e0ec31b5ec5a815b2709d1fd2656fa6ce2479f090a249503d6ce2989d",
+      "text": "Why did you do something so reckless?",
+      "reason": "Same absent lecturing clause in female variant."
+    },
+    {
+      "resource_row": 39,
+      "source_sha256": "b6903c9dc68cf7b64ed764a43a3b75e7bafd1baf701d25b038143b41c1bf3c5d",
+      "text": "We can't properly protect each other unless we stay close...",
+      "reason": "Restore grammatical object; source is reciprocal protection."
+    },
+    {
+      "resource_row": 63,
+      "source_sha256": "fdede6bbddf05598bdb642f33a89363080e01f55d8dfeb5c99849bb8e3028e07",
+      "text": "It's okay. I won't let that happen...",
+      "reason": "Replace duplicated sword-taking line with this box's reassurance."
+    }
+  ],
+  "uncertainties": [
+    {
+      "row": 88,
+      "note": "Death refers to lord Rikuto, not Kyuuma; English even after death retained in context of late lord."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared every full source/English VM box including both protagonist variants and slice boundaries. Correct copied variant dialogue, missing full boxes and omitted subjects before name normalization. No Japanese transcript retained."
+}

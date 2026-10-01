@@ -1,0 +1,53 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_2928.json",
+  "review_sha256": "8901ed24f8c388b0b4a66daa4c55ac54fa21cdbb3ae22fc4f0027c42b016643f",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_2928.targets.json",
+  "target_before_sha256": "050cc0517c3b63a675c4446025a21fd9c8ee7ce7981a14d8affa91e2856b8629",
+  "target_after_sha256": "290e374e02afe4860b97ddd79fe433e313ac2d70011ca27eb58f3709aa79a5ba",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2928,
+      3007
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2932,
+      "before": "I don't want to lose anymore. I don't want to hide behind a vague smile anymore.",
+      "after": "I don't want to lose anymore. I don't want to fool myself with an empty smile.",
+      "reason": "Restore self-deception rather than hiding from others."
+    },
+    {
+      "resource_row": 2935,
+      "before": "I don't want to lose anymore. I don't want to hide behind a vague smile anymore.",
+      "after": "I don't want to lose anymore. I don't want to fool myself with an empty smile.",
+      "reason": "Female variant retains same self-deception."
+    },
+    {
+      "resource_row": 2957,
+      "before": "With a word from me, this sword could end up in the Colorless Faction's hands.",
+      "after": "This sword could end up in the Colorless Faction's hands if I so choose, you know?",
+      "reason": "Restore Vizels choice, not unspecified spoken word."
+    },
+    {
+      "resource_row": 2970,
+      "before": "Even if you become my enemy...",
+      "after": "Even if that sword ends up turned against me...",
+      "reason": "Referent is the sword from2957–2969, not Vizel who already opposes them."
+    },
+    {
+      "resource_row": 2980,
+      "before": "Please.",
+      "after": "I'm counting on you.",
+      "reason": "Restore subject and direction of the entrusting request."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 2970,
+      "note": "Implicit referent interpreted as sword on enemy side, supported by preceding four boxes on losing/possessing it."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

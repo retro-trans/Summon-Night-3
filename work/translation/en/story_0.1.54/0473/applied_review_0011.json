@@ -1,0 +1,54 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0473/review_meaning_0011.json",
+  "review_sha256": "edea53e412e88cd69c2e36495b4e256cb98eabb2f674e2d23ef56f9194af1f79",
+  "target_file": "work/translation/en/story_0.1.54/0473/slice_0011.targets.json",
+  "target_before_sha256": "0ec4725b7c4be33d0c1eedc134bf2a6e706aa9daa46a6eeaa3e667a60cda20b3",
+  "target_after_sha256": "3d7727d3f91ce794c1ce22be4c978273bb0eea2f8e79c599b9b6e5c05acfb9c2",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 11,
+      "before": "So, Subaru, division doesn't always",
+      "after": "So, Subaru, division doesn't always come out evenly...",
+      "reason": "The source completes the statement that division does not always divide evenly; the existing English stops mid-sentence."
+    },
+    {
+      "resource_row": 14,
+      "before": "So, Subaru, division doesn't always",
+      "after": "So, Subaru, division doesn't always come out evenly...",
+      "reason": "The alternate protagonist variant has the same completed division statement; the existing English stops mid-sentence."
+    },
+    {
+      "resource_row": 17,
+      "before": "But if we don't divide them evenly, won't",
+      "after": "But if we don't split them in half properly, won't they start fighting?",
+      "reason": "Subaru literally proposes splitting the fruit in half; the existing English stops before the result of that proposal."
+    },
+    {
+      "resource_row": 21,
+      "before": "If three people share five Dalima fruits, we should count even the seeds inside!",
+      "after": "If three people share five Dalima fruits, we should count even the pieces inside!",
+      "reason": "The source says to count the contents inside the fruit. It does not establish that they are seeds, so the translation keeps the contents neutral."
+    },
+    {
+      "resource_row": 68,
+      "before": "By the way, will the class representative",
+      "after": "By the way, will the class representative still be unable to come back for a while?",
+      "reason": "The source asks whether the class representative cannot return for some time; the existing English stops after the subject."
+    },
+    {
+      "resource_row": 70,
+      "before": "By the way, will Nup",
+      "after": "By the way, will Big Bro Nup still be unable to come back for a while?",
+      "reason": "The alternate question asks whether Nup cannot return for some time and uses the familiar older-brother address; the existing English stops after the name."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

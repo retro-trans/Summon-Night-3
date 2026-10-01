@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "fresh_independent_meaning_replacement_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2368.targets.json",
+  "target_file_sha256": "fda025c533f8c1051334ae8673a914bed0e941c2e8c110455454cb8a3f74aac8",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2368,
+      2447
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2365,
+      2448
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        2383,
+        2384,
+        2385,
+        2386,
+        2387,
+        2388
+      ],
+      "issue": "The protected player marker was checked as the name of the sun, distinct from its light; current group wording preserves that syntax without assigning an identity."
+    }
+  ],
+  "omissions": [],
+  "notes": "Fresh independent source-first VM-group review with both-side context. The current grouped English retains the sun/light metaphor, player-marker protection, and Teacher-directed causation; no correction is proposed.",
+  "supersedes_untrusted_review": "work/translation/en/story_0.1.54/0364/review_meaning_2368.json"
+}

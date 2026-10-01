@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4117.targets.json",
+  "target_file_sha256": "6dc33a91bed1498e85ee07ff9327183c30cb2a9243d91303e27a080fc893a372",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4117,
+      4196
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3955,
+      4599
+    ]
+  ],
+  "rows_examined": 645,
+  "corrections": [
+    {
+      "resource_row": 4135,
+      "source_sha256": "6e376197e648669410cb44322c2aa1846b8d2859103e27a3b7c5c1522e05bf88",
+      "text": "of your own accord.",
+      "reason": "Remove duplicate choice predicate while preserving the correct comparison to judgment by others."
+    },
+    {
+      "resource_row": 4136,
+      "source_sha256": "b17d7f7d8ca86113954dad6c21a4355269311eb10f07321aeed644eaf9cae7cc",
+      "text": "Then show us",
+      "reason": "Preserve the direction: the listener must demonstrate resolve to the speakers."
+    },
+    {
+      "resource_row": 4137,
+      "source_sha256": "a5f05ab0324d26a87338c05325801298572a7261d2ec82975ae3edc9b9ce2857",
+      "text": "that resolve",
+      "reason": "Same box's demonstrative refers to the listener's resolve."
+    },
+    {
+      "resource_row": 4138,
+      "source_sha256": "9434dfacea33ace790f22fba0e03c982acef6bbf1dd0696283f9a32a04cf5da2",
+      "text": "all the way to the end.",
+      "reason": "Complete the request."
+    },
+    {
+      "resource_row": 4149,
+      "source_sha256": "e95eb13df7ef429501bdbe977f16c06f3b5346b97ef212da8b4e12bca393412f",
+      "text": "Whether my sins are condemned",
+      "reason": "Ardylia reflects on her own guilt, not judging somebody else."
+    },
+    {
+      "resource_row": 4150,
+      "source_sha256": "ebe59ef5f67d2bae82993b2e71a2997aa464f299433f439933f5f3211b5278af",
+      "text": "or forgiven, from now on,",
+      "reason": "Preserve the paired alternatives about her own sin."
+    },
+    {
+      "resource_row": 4151,
+      "source_sha256": "2af3d502664f62923a50f43a0cd6636a02eab4f03dd1b6a763eb0a719707f1fe",
+      "text": "that rests with me alone.",
+      "reason": "Her future actions determine her atonement."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "note": "Silence, cries and explicitly interrupted speech remain fragments; internal blanks never erase complete dialogue boxes."
+    }
+  ],
+  "notes": "Source-based read-only independent review by Terra chapter12_review covered3957–4596 and boundary context. Root reconciled corrections against original VM boxes, rejected a flawed proposed extra conditional, and previewed merged results. Root saves this current review record under the user's continuing translation task.",
+  "superseded_proposals": [
+    {
+      "file": "work/translation/en/story_0.1.54/0318/review_history/review_meaning_4117_initial_proposal.json",
+      "sha256": "5702e460d55bd0bc9e393407c9f27fae9c343302cd6e2935c74d3e656577cb4a"
+    }
+  ]
+}

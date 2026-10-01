@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0466/review_meaning_0091.json",
+  "review_sha256": "a09ec72b4f4a55ffb6477a0bb3352f9579e7757e45f6801fb4fb65fcc077247d",
+  "target_file": "work/translation/en/story_0.1.54/0466/slice_0091.targets.json",
+  "target_before_sha256": "04c43e725e57abc7bd8c6c3e4ef8120aa23b1c43a6a696d31120e3feaa207095",
+  "target_after_sha256": "57a18321964b7d25a3b7290a4c5f46a88525c44ea082400315bebd2ef43dd835",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      141
+    ],
+    "count": 51
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 136,
+      "before": "Let's stay together from now on too, all right?",
+      "after": "Let's keep taking care of each other, okay?",
+      "reason": "Restore the reciprocal request for the relationship to continue; “stay together” adds a promise not stated in the source."
+    },
+    {
+      "resource_row": 139,
+      "before": "Please stay with me from now on too, all right?",
+      "after": "Let's keep taking care of each other,",
+      "reason": "Restore the reciprocal request for the relationship to continue; “stay together” adds a promise not stated in the source."
+    },
+    {
+      "resource_row": 140,
+      "before": "",
+      "after": "okay?",
+      "reason": "Restore the reciprocal request for the relationship to continue; “stay together” adds a promise not stated in the source."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

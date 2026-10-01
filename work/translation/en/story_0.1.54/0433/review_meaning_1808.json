@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_1808.targets.json",
+  "target_file_sha256": "ba864b2d2d47023625610514729122fbdb19b0496f63975763f2d059a10abd19",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1808,
+      1887
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1806,
+      1890
+    ]
+  ],
+  "rows_examined": 85,
+  "corrections": [
+    {
+      "resource_row": 1850,
+      "source_sha256": "6ca96673cb209d226ec9cd5e0fe2d63c78ada270dae4479303b448bbd90d89e6",
+      "text": "I hear everyone from the village made it here safely.",
+      "reason": "The source’s ってさ reports received information; the target presents it as direct knowledge."
+    },
+    {
+      "resource_row": 1851,
+      "source_sha256": "68f0ff79ccf96ec48d48392ce860813c07b7d45f4cd0d2cbe1819fbe916161ed",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 1852,
+      "source_sha256": "8b94758888a64b327937458f1579fd85629e31d2a1e9fa1615b3bd7d901dbb93",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 1869,
+      "source_sha256": "50153a2ad7cf4b63c65af5a9007f3a409bb9206d1fc4e5e5b7c630ad9ff6395f",
+      "text": "We only got off this lightly because the seal was renewed in the nick of time.",
+      "reason": "The Japanese source leaves the actor of the resealing unstated; current scene context attributes the action to the group working through the protagonist, so the target must not assert first-person singular."
+    },
+    {
+      "resource_row": 1870,
+      "source_sha256": "d24b8de76925479b3669c5746b0893c14a1076bfc400a493d3bbe6531c648ef3",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 1871,
+      "source_sha256": "299f9cbf22e8b9347e299402c7654bd3152439a3c40796b06e743177fbdb22ac",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM boxes and both-side context, including reported information and the unstated resealing actor."
+}

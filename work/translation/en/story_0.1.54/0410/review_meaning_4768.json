@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4768.targets.json",
+  "target_file_sha256": "5ab3a6e3c8fc1a79ab87225b7767182c3a3e02b2f653c2b12fda0fa26c7800c4",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4768,
+      4847
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4764,
+      4848
+    ]
+  ],
+  "rows_examined": 85,
+  "corrections": [
+    {
+      "resource_row": 4817,
+      "source_sha256": "a0dc864142e2d78ef4373191c22416fd0ce878c0ad53649c4c0900cd9b9fefb0",
+      "text": "Let me see it through to the end, okay? Let me see the same dream you saw, too...",
+      "reason": "Restores the speaker asking to see the listener’s dream through to its end; the draft changes the second request into sharing the dream."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        4768,
+        4770,
+        4772,
+        4773,
+        4775,
+        4776,
+        4779,
+        4780,
+        4785,
+        4790,
+        4793,
+        4795,
+        4796,
+        4798,
+        4799,
+        4805,
+        4806,
+        4808,
+        4810,
+        4811,
+        4814,
+        4815,
+        4818,
+        4819,
+        4822,
+        4823,
+        4825,
+        4826,
+        4828,
+        4830,
+        4831,
+        4833,
+        4837,
+        4840,
+        4844,
+        4845
+      ],
+      "reason": "Physical VM continuation fragments; the complete source-box meaning is retained in its non-empty aligned fragment."
+    }
+  ],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context. Target file was not edited by this review."
+}

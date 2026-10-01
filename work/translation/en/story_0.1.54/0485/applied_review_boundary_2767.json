@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_boundary_2767.json",
+  "review_sha256": "b7e2983573a7c45fb0579fd4cafb82f8bc8ea2d72c10944a7d13a4713727ae02",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2688.targets.json",
+  "target_before_sha256": "430341d1c02c0f632faaaf158156f1a1d797f217ee67f39b55b53bb9abb9f78d",
+  "target_after_sha256": "6d4bc62737a7dec366d713d924b9d0b7637fd066c4bdee9bc6d18849e263e2af",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2767,
+      2767
+    ],
+    "count": 1
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2767,
+      "before": "",
+      "after": "It took a little work, but compared to those demons, it was nothing.",
+      "reason": "Restore missing anchor of whole VM group2767–2769; next slice correctly leaves its two internal continuation rows blank."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

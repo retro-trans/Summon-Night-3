@@ -1,0 +1,40 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0272/review_meaning_5557.json",
+  "review_sha256": "22ba310a4c5fa30be07cd885623282e34d42e368d5801fe26c5f73c90de51ac1",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_5557.targets.json",
+  "target_before_sha256": "0f4fd08daf98d9d07b9795ff8d3ec2d537b84960e7e3b5f54865c3e4a2257626",
+  "target_after_sha256": "2ef2d5b668464c76d540d1ecfd73f39d488a760b65ebe6f00249359323515638",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5557,
+      5636
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5557,
+      "before": "She has a duty",
+      "after": "The one responsible",
+      "reason": "The source identifies the woman as the cause of the situation before saying she has a duty to know the truth. The current English omits that causal responsibility."
+    },
+    {
+      "resource_row": 5558,
+      "before": "to know the truth,",
+      "after": "has a duty to know",
+      "reason": "The source identifies the woman as the cause of the situation before saying she has a duty to know the truth. The current English omits that causal responsibility."
+    },
+    {
+      "resource_row": 5559,
+      "before": "doesn't she!?",
+      "after": "the truth, doesn't she!?",
+      "reason": "The source identifies the woman as the cause of the situation before saying she has a duty to know the truth. The current English omits that causal responsibility."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

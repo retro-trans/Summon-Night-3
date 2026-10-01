@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3728.targets.json",
+  "target_file_sha256": "695846f96ff05dda17c9d0335fa86384abe56edc194496e5ccf333973485fa15",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3807,
+      3807
+    ],
+    "count": 1
+  },
+  "source_ranges_examined": [
+    [
+      3799,
+      3809
+    ]
+  ],
+  "rows_examined": 11,
+  "corrections": [
+    {
+      "resource_row": 3807,
+      "source_sha256": "00e0dd3fc6ff7f099a474a9b10abe2bf563019c3a22cb02f785d5e4b7cdeccd3",
+      "text": "That is why the two of you were chosen as qualified bearers...",
+      "reason": "The speaker is confirming the protagonist’s statement about Ishlar and the protagonist; source 二人とも is third-person “the two of you,” not “the two of us.”"
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Supplemental source-first direction review of the complete local VM context."
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00276",
+  "source_sha256": "f68282381dd259c11e35846fa1feb3ffe9fcce326723fac8727b09f28fab21c0",
+  "target_file": "work/translation/en/story_0.1.54/0276/slice_0011.targets.json",
+  "target_file_sha256": "3b9b837e7f17ce69e77d98caeb5ef50c8c44095eae5f88731d1b02f4014ac7d5",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      63
+    ],
+    "count": 53
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      63
+    ]
+  ],
+  "rows_examined": 54,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "reason": "Concessive sentence continues from the first dialogue group into the next, as in the source."
+    },
+    {
+      "rows": [
+        46,
+        47
+      ],
+      "reason": "Threatening lecture trails off when the protagonist interrupts."
+    }
+  ],
+  "notes": "Fresh independent root review of every actual source VM group and current English through EOF. Earlier incomplete proof and receipt retained byte-for-byte in review_history/renewed_meaning_20261001. Corrected earlier negations verified in context; no stylistic rewrites."
+}

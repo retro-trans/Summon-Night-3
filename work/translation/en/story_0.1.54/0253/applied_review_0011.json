@@ -1,0 +1,39 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0253/review_meaning_0011.json",
+  "review_sha256": "1d654ef2830a78912457f939b56b9fa74352f31aa0dc7a409323f857292404cb",
+  "target_file": "work/translation/en/story_0.1.54/0253/slice_0011.targets.json",
+  "target_before_sha256": "8349a1ffb233d55c92679a87bc315a1e4179f4d1bc0568986842a13695695bb7",
+  "target_after_sha256": "99c2db9c3722d5c35f042e4c27dd114bba393b777f54decfd90c3aa90d7e6894",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 59,
+      "before": "that would be running away, don't you?",
+      "after": "you're being selfish, don't you?",
+      "reason": "The source calls the wish self-indulgence or dependence, not running away. Later rows separately use the distinct idea of running away, so this male-variant line needs the separate meaning restored."
+    },
+    {
+      "resource_row": 61,
+      "before": "You know that would be running away,",
+      "after": "You know you're being selfish,",
+      "reason": "The source calls the wish self-indulgence or dependence, not running away. This is the matching female-variant line and must preserve the same distinction."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        40,
+        41,
+        42
+      ],
+      "issue": "The family group named after Father is not individually identified in this resource. The existing plural wording preserves that unresolved referent, so no correction is proposed."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

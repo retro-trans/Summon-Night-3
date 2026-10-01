@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_2448.json",
+  "review_sha256": "6f8584c62a18d64043b17133a26963dcf5b6ffbcfc6ece20ca451d2264883c5f",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_2448.targets.json",
+  "target_before_sha256": "69b85177a230e07807b2f919012d0e4a3623dba3f095ffbb3915fdd67dfec602",
+  "target_after_sha256": "c80e2eecd9734485b5e361960ad7861df0dbb58ffeceecf5044d017fb5237f77",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2448,
+      2527
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2470,
+      "before": "we won't understand anything!",
+      "after": "I won't understand anything!",
+      "reason": "Protagonist is addressing the pupil; restore the listener as I."
+    },
+    {
+      "resource_row": 2472,
+      "before": "we won't understand anything!",
+      "after": "I won't understand anything!",
+      "reason": "Same protagonist question, female variant."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

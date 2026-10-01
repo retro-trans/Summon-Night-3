@@ -1,0 +1,66 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0348/review_meaning_0011.json",
+  "review_sha256": "738c72c28e0a11215137eb4f9ded16cd5e5facec71c1343c48c88804d1974736",
+  "target_file": "work/translation/en/story_0.1.54/0348/slice_0011.targets.json",
+  "target_before_sha256": "f77e860e200941ea6df900bcada041406a718c8b1e33e2f91ebe5bc7a63585ba",
+  "target_after_sha256": "3f1b018fb848cc7d5268606396898f1ab86a5d20a747caf52722ef3a211e9829",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 54,
+      "before": "Do not worry. I only need to fight while holding back my power as much as possible.",
+      "after": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 53."
+    },
+    {
+      "resource_row": 56,
+      "before": "Please do not worry. I only need to hold back my power as much as possible.",
+      "after": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 55."
+    },
+    {
+      "resource_row": 60,
+      "before": "But if I do not, I cannot protect everyone on this island.",
+      "after": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 59."
+    },
+    {
+      "resource_row": 62,
+      "before": "But if I do not, I will not be able to protect everyone on this island.",
+      "after": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 61."
+    },
+    {
+      "resource_row": 65,
+      "before": "Then I will do it. I swear...",
+      "after": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 64."
+    },
+    {
+      "resource_row": 67,
+      "before": "Then I will do it. I swear...",
+      "after": "",
+      "reason": "Physical continuation repeats the complete English already placed at row 66."
+    },
+    {
+      "resource_row": 74,
+      "before": "Because I love it.",
+      "after": "",
+      "reason": "Physical continuation incorrectly repeats the prior answer; row 73 begins the following island-life statement."
+    },
+    {
+      "resource_row": 78,
+      "before": "They matter to me...",
+      "after": "",
+      "reason": "Remove an extra statement that belongs to the next standalone box79. Group77–78 is fully translated at77."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

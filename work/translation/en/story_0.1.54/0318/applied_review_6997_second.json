@@ -1,0 +1,29 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_6997_second.json",
+  "review_sha256": "87e7ea2dca984dbabfe47ec3fa666bae4518ed915825c5130302e8a0dd8da4cc",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6997.targets.json",
+  "target_before_sha256": "784b38204db1cbc1a118c19c50eac520ac793f27deb11c93c19ea0967e3caf1b",
+  "target_after_sha256": "5281d87ec241d493cf2c000e92c825ceec159d6e55ff604c192a3593c0a4f675",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6997,
+      7072
+    ],
+    "count": 76
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 7044,
+      "before": "",
+      "after": "...",
+      "reason": "Restore the complete silent ellipsis box."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending.",
+  "metadata_repair": {
+    "reason": "Resource ends at row7072; correct inherited 80-row template metadata to the actual 76-row tail. Translation changes and target hashes are unchanged.",
+    "previous_record": "work/translation/en/story_0.1.54/0318/review_history/applied_review_6997_second.json",
+    "previous_record_sha256": "3f44360d152118b6d7e08d1e1bdbb3b776341f135768e0854df487985323e4d1"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_3728.json",
+  "review_sha256": "96a0fee86f74df9f0bd6475ed41eae64991d10d4c1da0a69cc0ae67f90f332c7",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3728.targets.json",
+  "target_before_sha256": "8a9e323592537e4d681fe44b092ac70578611557b57e9c7cbb8571853f51e176",
+  "target_after_sha256": "7e2bd0a969e32be6e06c34ead3acf859e60da84b76d318954c3aa61b1a375f8c",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3728,
+      3807
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3741,
+      "before": "All right, young ones! No more eavesdropping! ♪",
+      "after": "All right, young ones! No more eavesdropping!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    },
+    {
+      "resource_row": 3730,
+      "before": "Do not worry! Teacher and Kyle are staying with them.",
+      "after": "Do not worry! Teacher, Kyle, and the others are staying with them.",
+      "reason": "Restores the source's companions."
+    },
+    {
+      "resource_row": 3735,
+      "before": "Do not worry. Teacher and Yard are staying with them.",
+      "after": "Do not worry. Teacher, Yard, and the others are staying with them.",
+      "reason": "Restores the source's companions."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Unverified names and world terms are retained as authored; no identity or gender inferred from spelling."
+    },
+    {
+      "resource_row": 3757,
+      "issue": "Oni race versus Oni gods is intentionally distinguished in the following explanation; consistent world terminology is deferred to glossary review."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

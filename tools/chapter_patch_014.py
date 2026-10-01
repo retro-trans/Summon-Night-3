@@ -105,7 +105,8 @@ def targets(number, rows, data, reviewed=True, partial=False):
         inputs[str(p.relative_to(ROOT)).replace('\\','/')]=sha(p.read_bytes())
     return result,inputs
 
-def direct_rows(rows,data,selected):
+def direct_rows(rows,data,selected,profiles=None):
+    profiles=PROFILES if profiles is None else profiles
     at={i['offset']:i for i in instructions(data)}
     destinations={i['target_word']*2 for i in at.values() if 'target_word' in i}|{struct.unpack_from('<I',data,16)[0]*2}
     done=set();direct=set()
@@ -124,7 +125,7 @@ def direct_rows(rows,data,selected):
             if at[end]['mode'] not in (2,5,9,10):break
             argc+=1;end+=at[end]['size']
         inst=at[end];helper=inst.get('target_word',-0x3052 if inst['opcode']==8 and inst['operands']==[0x3052] else None)
-        good=(inst['opcode']==7 or helper==-0x3052) and helper in PROFILES and inst['mode']==argc==PROFILES[helper][1]
+        good=(inst['opcode']==7 or helper==-0x3052) and helper in profiles and inst['mode']==argc==profiles[helper][1]
         if good:good=not any(start<x<end+inst['size'] for x in destinations)
         if not good:direct.update(ns)
         done.update(ns)

@@ -1,0 +1,61 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_3088.json",
+  "review_sha256": "d5bd180da5b4a1432be67095943f91b33e1dc296bea390560baee599e35e394e",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3088.targets.json",
+  "target_before_sha256": "83e4bd08b65cf47a730ad9d8ba5731daf884266a1b7a7a7dcfef524acc32a13c",
+  "target_after_sha256": "9c13fde478aefff3f0bf056cfc4e3dfb57be09313d81f35c17d34e69cec16637",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3088,
+      3167
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3088,
+      "before": "Melgitos...",
+      "after": "",
+      "reason": "Remove duplicate name; entire original group3087–3088 already anchored at3087. Spelling normalized later."
+    },
+    {
+      "resource_row": 3139,
+      "before": "",
+      "after": "We would not let the past bind us, but keep striving with hope for the future.",
+      "reason": "Restore whole thought at VM group's first row; 'connect hope' distorts natural meaning of hope directed toward future."
+    },
+    {
+      "resource_row": 3140,
+      "before": "We would not be bound by the past's consequences, but work to connect hope to the future.",
+      "after": "",
+      "reason": "Continuation of3139–3141, restored at3139."
+    },
+    {
+      "resource_row": 3142,
+      "before": "My ancestors do not change who I am. Ness, Amel, all of us are the same.",
+      "after": "No matter who my ancestors were, I'm still me. The same goes for Ness and Amel.",
+      "reason": "Same refers to ancestry not defining identity, not all three having identical identities."
+    },
+    {
+      "resource_row": 3146,
+      "before": "My ancestors do not change who I am. Ness, Amel, all of us are the same...",
+      "after": "No matter who my ancestors were, I'm still me. The same goes for Ness and Amel...",
+      "reason": "Preserve parallel source meaning of individual identity despite ancestry."
+    },
+    {
+      "resource_row": 3155,
+      "before": "That's right, that's right! Smiling faces are best! ♪",
+      "after": "That's right, that's right! Smiling faces are best!",
+      "reason": "Remove duplicate note at anchor; original physical row3157 retains its note."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        3120
+      ],
+      "issue": "Last machine-person is provisional designation for fusion-human category. Research lore before final terminology acceptance."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

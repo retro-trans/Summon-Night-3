@@ -1,0 +1,41 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_3328.json",
+  "review_sha256": "62f184144636f68ddc122c619092f09a43076d9343211d99b08d8b40464aaabc",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3328.targets.json",
+  "target_before_sha256": "68588b715fe326f8cc1f29b03ff285b6a4b1c5889bf743ba40d28b71c9584f2e",
+  "target_after_sha256": "74660f392158dbcfb3022872e6292c0e7d9946f29cf875355cf37fd43ac79523",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3328,
+      3407
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3339,
+      "before": "Yeah, and he really let me have it.",
+      "after": "Yeah, and they really let me have it.",
+      "reason": "Student route is independent of protagonist gender; neutral reference safe across routes."
+    },
+    {
+      "resource_row": 3344,
+      "before": "Yeah... She scolded me...",
+      "after": "Yeah... I got scolded...",
+      "reason": "Female protagonist does not imply female pupil."
+    },
+    {
+      "resource_row": 3367,
+      "before": "Sure, compared to you teachers, I'm much weaker...",
+      "after": "Sure, compared to you and the others, I'm much weaker...",
+      "reason": "Teacher and companions, not multiple teachers."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 3336,
+      "note": "Class representative label retained without assigning an unverified pupil gender."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

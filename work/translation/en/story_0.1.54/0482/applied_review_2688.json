@@ -1,0 +1,72 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_2688.json",
+  "review_sha256": "f38ba4a5af07347318b30151d25d08897837f24df3347bbd76c133d337a1496f",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2688.targets.json",
+  "target_before_sha256": "e4cafba42a3ada260b1b0d1fcf5ca6cf69bba18d030b21ea4b3efddaf474a9bd",
+  "target_after_sha256": "0ceeabf9b872186968b30f328b53c65caf34aa2682afb7b4337740b70cbbb469",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2688,
+      2767
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2697,
+      "before": "Because if you draw the sword again, Teacher will stop being Teacher, won't you!?",
+      "after": "Because if you draw the sword again, you'll stop being yourself, won't you!?",
+      "reason": "The speaker addresses Teacher directly; the existing English mixes third-person Teacher with a second-person tag."
+    },
+    {
+      "resource_row": 2704,
+      "before": "It will be all right...",
+      "after": "It'll be all right. Nothing like that...",
+      "reason": "The source retains the interrupted reassurance fragment."
+    },
+    {
+      "resource_row": 2706,
+      "before": "It will be all right...",
+      "after": "It'll be all right. Nothing like that...",
+      "reason": "The alternate source retains the interrupted reassurance fragment."
+    },
+    {
+      "resource_row": 2711,
+      "before": "Teacher taught me that I should say no to things I do not want, didn't you!?",
+      "after": "You taught me to say no to things I don't want, didn't you, Teacher!?",
+      "reason": "The source is a direct address to Teacher."
+    },
+    {
+      "resource_row": 2735,
+      "before": "They were a little like me.",
+      "after": "He was a little like me.",
+      "reason": "The dream person is Hainel, established as male by prior scene context."
+    },
+    {
+      "resource_row": 2741,
+      "before": "They were a little like me.",
+      "after": "He was a little like me.",
+      "reason": "The dream person is Hainel, established as male by prior scene context."
+    },
+    {
+      "resource_row": 2750,
+      "before": "they had no regrets.",
+      "after": "he had no regrets.",
+      "reason": "The dream person is Hainel, established as male by prior scene context."
+    },
+    {
+      "resource_row": 2760,
+      "before": "They said that if they could protect the smiles of everyone they loved, that was enough.",
+      "after": "He said that if he could protect the smiles of everyone he loved, that was enough.",
+      "reason": "The dream person is Hainel, established as male by prior scene context."
+    },
+    {
+      "resource_row": 2765,
+      "before": "They said that if they could protect the smiles of everyone they loved, that was enough.",
+      "after": "He said that if he could protect the smiles of everyone he loved, that was enough.",
+      "reason": "The dream person is Hainel, established as male by prior scene context."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

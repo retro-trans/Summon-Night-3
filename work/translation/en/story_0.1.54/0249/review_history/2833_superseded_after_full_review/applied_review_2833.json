@@ -1,0 +1,39 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0249/review_meaning_2833.json",
+  "review_sha256": "822de1ca923f3bbafae7ea7d30e3b26bf21672dca240b352377e26b0cbe4dda9",
+  "target_file": "work/translation/en/story_0.1.54/0249/slice_2833.targets.json",
+  "target_before_sha256": "63726ab62187be3027cf88f89732fd7dd851b72a277421b3de2f0263f7b0b7dd",
+  "target_after_sha256": "cae8eee71ea9c1086b8566d706de06854febb44a44a18094c257bed77365f651",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2833,
+      2912
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2912,
+      "source_sha256": "082cc8a680629364a59b753422394c3ba3dda18e5d84249c07f30e489bb66ed8",
+      "text": "　The beach, I guess.",
+      "reason": "The source’s かな marks the choice as tentative. The authored target names the beach but drops that hedge."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2870
+      ],
+      "issue": "Isuadora’s Warm Sea is a provisional romanization. The Japanese location is confirmed by https://w.atwiki.jp/sn3psp/pages/17.html; no established English form was located. No correction proposed."
+    },
+    {
+      "rows": [
+        2905,
+        2906,
+        2907
+      ],
+      "issue": "自由行動 is a free-exploration/free-action instruction. ‘Split up and explore’ is a defensible contextual rendering, though it is more specific than a literal ‘free time.’ No correction proposed."
+    }
+  ],
+  "status": "Reviewer correction applied, names normalized afterward; whole-resource acceptance pending"
+}

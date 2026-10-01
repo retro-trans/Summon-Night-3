@@ -1,0 +1,55 @@
+{
+  "status": "Names normalized after meaning corrections; historic receipt chain retained; Diergo spelling normalized to Dielgo from source-bound terminology rules.",
+  "resource": 468,
+  "glossary_inputs_sha256": {
+    "work/glossary/character_reference_sn6_vita.json": "0a284426ad3d1aac837df75fc283570718c32ca3a584d6b2662e71839a47eb92",
+    "work/glossary/terminology_preferences.json": "8bb5a15998b681ce0c8282b11758078bbdeba875b462b650e809ae64db4526ae",
+    "work/glossary/story_additions_0.1.54.json": "0c5bae73e20c1b4ff1f84cd7180f3988c64bc5af9b4e23c353ff8efb7c88c879",
+    "work/glossary/chapter6_terms_0.1.14.json": "11d512bb209f149682987c1cf70700a695836cb1cb2c8a82c8ee15946eb68211",
+    "work/glossary/chapter48_story_terms_0.1.14.json": "e5af344cfe3be399347764cbc9db1a6019beef242008a03eb766789b08ab9d06",
+    "work/glossary/setup_ui.json": "9403c571041ad53d9c428033a5d11930004f7684a335dee82929c4c73fd43ed6",
+    "work/glossary/story_core_terms_0.1.54.json": "864936e8de7b8aabe2926fedc4d8b1ed2843c40f73faf59fcd35589a384fcce0",
+    "work/glossary/island_0.1.12.json": "71891dc5bd9224a7feba41c3f80ed214551af48a3df68190df96d8a1c5e4f9a2",
+    "work/glossary/chapter13_titles_0.1.54.json": "14ef1d318e0765d190e2e29d7f0d9135c1c24bc12291419dd96c77652d608de5",
+    "work/glossary/chapter15_terms_0.1.54.json": "74d9f34f523f44e97229fa88e36b164ef048dc324ecf7b07e64e75c9584c4173",
+    "work/glossary/chapter48_additions_0.1.14.json": "36792487d776bef4e7833c7db4ed0051df532d76aa47e1150e6c900dfc490e87",
+    "work/glossary/chapter8_fiction_0.1.14.json": "f820543b344b0738ac3f27dfe2f4d56465f96444384ccb22c66880726d1a5046",
+    "work/glossary/chapter18b_terms_0.1.54.json": "97ba8776e0f5ff036984859c7da7a51ba0a9fafa312b3dcb098d1422813485b8",
+    "work/glossary/story_branch467_469_dielgo_terms_0.1.54.json": "8c0200008fe6eb6b9f415ec3dfa31a8b26ead4355dbbf674fbe63b71dab93dd3"
+  },
+  "files": [
+    {
+      "target_file": "work/translation/en/story_0.1.54/0468/slice_0091.targets.json",
+      "target_before_sha256": "2751359629906ad89ffd0398cdca28102f6275ec00b09ae4fa290e7da538e44a",
+      "target_after_sha256": "2509fd6d3c335e11286f74b2020004b8b6a6025b58c272f481729edf65bb6d4b",
+      "changes": [
+        {
+          "resource_row": 148,
+          "before": "But... You are not the kind of Teacher",
+          "after": "But... You are not the kind of teacher"
+        }
+      ]
+    },
+    {
+      "target_file": "work/translation/en/story_0.1.54/0468/slice_0091.targets.json",
+      "target_before_sha256": "2509fd6d3c335e11286f74b2020004b8b6a6025b58c272f481729edf65bb6d4b",
+      "target_after_sha256": "90df26139b320f1faea085813e1c85bf969a14d922ae466bc61b204fccf9b7ea",
+      "changes": [
+        {
+          "resource_row": 132,
+          "before": "I forced Diergo into submission.",
+          "after": "I forced Dielgo into submission.",
+          "source_sha256": "332350c111c51544b3e785023ffe5ba0dc0a4c4d42e8d9e1f96a41867a5ecf83",
+          "basis": "Dielgo terminology lock; identical source identity is the named opponent in this ending."
+        },
+        {
+          "resource_row": 134,
+          "before": "I forced Diergo into submission.",
+          "after": "I forced Dielgo into submission.",
+          "source_sha256": "c2f925951ccfaee257779b007d400a3f1720741b001faff2f5569516aa545d17",
+          "basis": "Dielgo terminology lock; identical source identity is the named opponent in this ending."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0396/review_meaning_0011.json",
+  "review_sha256": "9902c9c49de52ccc2953e9cdca205827200c05830de282d552c79c75a834eb9b",
+  "target_file": "work/translation/en/story_0.1.54/0396/slice_0011.targets.json",
+  "target_before_sha256": "78bc7baad4863ff387311dc1826fdce78091ab3df4c756c44113780f46bf9085",
+  "target_after_sha256": "1f345a7e95066981697c529f24f3af3718da8f800dfff12db219bd465434640d",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 18,
+      "before": "After lecturing everyone not to be reckless, why did you do something so reckless?",
+      "after": "After all those lectures about not being reckless, why did you do something so reckless yourself?",
+      "reason": "Source speaker complains about being lectured; not unsupported everyone."
+    },
+    {
+      "resource_row": 20,
+      "before": "After lecturing everyone not to be reckless, why did you do something so reckless?",
+      "after": "After all those lectures about not being reckless, why did you do something so reckless yourself?",
+      "reason": "Same direct complaint in female variant."
+    },
+    {
+      "resource_row": 22,
+      "before": "Heh...",
+      "after": "Oh... Well, you see... Ahahaha...",
+      "reason": "Restore hesitant attempted explanation before laughter."
+    },
+    {
+      "resource_row": 38,
+      "before": "If we aren't right beside each other, we can't properly protect--or be protected...",
+      "after": "We can't properly protect each other unless we stay close...",
+      "reason": "Restore reciprocal object."
+    },
+    {
+      "resource_row": 62,
+      "before": "That's why I took up that sword again!",
+      "after": "It's okay. I won't let that happen...",
+      "reason": "Replace copied sword-taking line with source reassurance."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00321",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0321/slice_0011.targets.json": "97f4583caea14d5e82f0f2b2dbda971c5d2b999070f9812b9f8b8e7701cdb17e"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0321/review_meaning_0011.json": "803a9c4f338c761b649cfa6479c74a31864c47c6bafae2fb27496168b7d58137"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness.",
+  "author_uncertainties": [
+    {
+      "target": "slice_0011.targets.json",
+      "note": "Rows 43-46 are rendered as a promise to become someone the speaker can count on; the source's target of reliance is clear from rows 39-40."
+    }
+  ]
+}

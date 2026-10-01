@@ -1,0 +1,76 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0249/review_meaning_2354_renewed_0011.json",
+  "review_sha256": "691a2b5c9f9c5cc88e682400848b12c71403f374db76a4557e721758274d9713",
+  "target_file": "work/translation/en/story_0.1.54/0249/slice_2293.targets.json",
+  "target_before_sha256": "c531902e29efb11a427232495437f98264c23981cb19abe2db6bfa402b2f4f95",
+  "target_after_sha256": "eb3a14daffaeb76f6ea7b6f5766a2eb9f02c25e4969751d32c8ac34056276fc1",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2354,
+      2433
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2415,
+      "before": "That's why I want",
+      "after": "That is why I want to solve it...",
+      "reason": "Both protagonist branches state the purpose of resolving the problem. The current English says only that the speaker wants to help her, dropping that stated purpose; the correction retains the source’s deliberately unelaborated referent."
+    },
+    {
+      "resource_row": 2416,
+      "before": "to help her...",
+      "after": "",
+      "reason": "Both protagonist branches state the purpose of resolving the problem. The current English says only that the speaker wants to help her, dropping that stated purpose; the correction retains the source’s deliberately unelaborated referent."
+    },
+    {
+      "resource_row": 2417,
+      "before": "That's why I want",
+      "after": "That is why I want to solve it...",
+      "reason": "Both protagonist branches state the purpose of resolving the problem. The current English says only that the speaker wants to help her, dropping that stated purpose; the correction retains the source’s deliberately unelaborated referent."
+    },
+    {
+      "resource_row": 2418,
+      "before": "to help her...",
+      "after": "",
+      "reason": "Both protagonist branches state the purpose of resolving the problem. The current English says only that the speaker wants to help her, dropping that stated purpose; the correction retains the source’s deliberately unelaborated referent."
+    },
+    {
+      "resource_row": 2406,
+      "before": "Are you going to tell her",
+      "after": "Take off your mask and live as Fariel, not Falzen.",
+      "reason": "The source imperative is a complete three-row VM dialogue box. The current English shifts “not Falzen” into the next VM box, breaking box-boundary meaning."
+    },
+    {
+      "resource_row": 2407,
+      "before": "to take off her mask and live",
+      "after": "",
+      "reason": "Physical continuation moved to row 2406 within this same complete source box."
+    },
+    {
+      "resource_row": 2408,
+      "before": "as Fariel,",
+      "after": "",
+      "reason": "Physical continuation moved to row 2406 within this same complete source box."
+    },
+    {
+      "resource_row": 2409,
+      "before": "rather than Falzen?",
+      "after": "Is that what you intend to tell her?",
+      "reason": "This is a separate source dialogue box asking whether the preceding imperative is what the protagonist intends to say. The current English holds the prior box’s final clause here instead."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2415,
+        2416,
+        2417,
+        2418
+      ],
+      "issue": "The source leaves the problem’s precise referent implicit. The proposed “it” preserves that omission rather than assigning a more specific problem."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

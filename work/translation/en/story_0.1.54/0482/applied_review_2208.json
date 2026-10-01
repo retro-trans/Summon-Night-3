@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_2208.json",
+  "review_sha256": "8340c6f0c301a4a60c84bc4055671801da146b6fc9bb666730ef6173ab69aa48",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2208.targets.json",
+  "target_before_sha256": "54e9383f44afa7988639b01801f9fae5290b18b59b0bdc9144cbf8af9129c4b0",
+  "target_after_sha256": "dae49888e16b7472d5105bcd5149272d8bc3a52d8fe72892d13df6ed3c293d3c",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2208,
+      2287
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2211,
+      "before": "A union of vengeful spirits centered on their shattered mind...",
+      "after": "A union of vengeful spirits centered on his shattered mind...",
+      "reason": "Rows 2217 onward explicitly identify Hainel as the male referent."
+    },
+    {
+      "resource_row": 2230,
+      "before": "But they are gone!!",
+      "after": "But he is gone!!",
+      "reason": "Rows 2217 onward explicitly identify Hainel as the male referent."
+    },
+    {
+      "resource_row": 2233,
+      "before": "Knowing them, they must have saved you with all their strength.",
+      "after": "Knowing him, he must have saved you with all his strength.",
+      "reason": "Rows 2217 onward explicitly identify Hainel as the male referent."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

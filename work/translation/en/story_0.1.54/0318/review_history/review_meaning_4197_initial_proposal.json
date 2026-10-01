@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4197.targets.json",
+  "target_file_sha256": "952090979d877eb4c40688eb6ee4e05572460f04866a2a5c0bf8b900e9156959",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [4197, 4276], "count": 80},
+  "source_ranges_examined": [[4196, 4277]],
+  "rows_examined": 82,
+  "corrections": [
+    {"resource_row": 4219, "source_sha256": "aa48fb403948193f536be318101647ced3e171108d3f90ff017ffd7a085e0f70", "before": "...", "text": "you will not forget...", "after": "you will not forget...", "reason": "The first two fragments form the condition 'If you remember what you just said'; replacing a placeholder restores the omitted verb and complete conditional."},
+    {"resource_row": 4245, "source_sha256": "d6972fa4b8ee9b678129ab6016e27db7430c69dc50801acb4b877b978c088ca5", "before": "Right!", "text": "Yeah...", "after": "Yeah...", "reason": "The source is a subdued acknowledgement, not a firm agreement."}
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Reviewed full VM dialogue boxes with adjacent context; the 4218-4220 conditional was checked as one merged box."
+}

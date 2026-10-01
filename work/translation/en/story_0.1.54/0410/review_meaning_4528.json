@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4528.targets.json",
+  "target_file_sha256": "275a63c6c2e466b98c362674ae6d35caeeae66a36c4b68a742edbea11f9da0f3",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4528,
+      4607
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4524,
+      4609
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [
+    {
+      "resource_row": 4569,
+      "source_sha256": "6e91b47f4e132caefb04862f105dd83bf00a227602ac416c936bda526a789b71",
+      "text": "That boy was already under a curse placed upon him by a former master of the Great Faction.",
+      "reason": "Source identifies a singular former master of the Great Faction; the draft changes this to one of several masters of the speaker’s faction."
+    }
+  ],
+  "uncertainties": [
+    "Disease Demon and Queen of the Dead remain descriptive provisional renderings in this review, as directed."
+  ],
+  "omissions": [
+    {
+      "rows": [
+        4530,
+        4531,
+        4537,
+        4538,
+        4540,
+        4541,
+        4543,
+        4545,
+        4548,
+        4552,
+        4553,
+        4555,
+        4557,
+        4559,
+        4561,
+        4563,
+        4564,
+        4567,
+        4568,
+        4570,
+        4571,
+        4575,
+        4576,
+        4578,
+        4579,
+        4581,
+        4582,
+        4584,
+        4585,
+        4588,
+        4589,
+        4591,
+        4592,
+        4594,
+        4595,
+        4597,
+        4601,
+        4602,
+        4604
+      ],
+      "reason": "Physical VM continuation fragments or an agreed boundary continuation; the complete source-box meaning is retained in its non-empty aligned fragment."
+    }
+  ],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context. Target files were not edited by this review."
+}

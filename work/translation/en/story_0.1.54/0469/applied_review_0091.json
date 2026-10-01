@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0469/review_meaning_0091.json",
+  "review_sha256": "82761fb5110f9a25d1ab66673d0f4782ed7504e890e079f850439b3fb2e53ff0",
+  "target_file": "work/translation/en/story_0.1.54/0469/slice_0091.targets.json",
+  "target_before_sha256": "20794f1ddedaa4e426c81594d7eb701df64c0c09dd1b3bb6dca3333f4ee9416d",
+  "target_after_sha256": "287eb6371aaa20cedc694b938584c267cee16a64d1fb0e38abcf9819f9dcbb3b",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      166
+    ],
+    "count": 76
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 155,
+      "before": "Was that not",
+      "after": "Wasn't that",
+      "reason": "Scarrel directly addresses Teacher in the source; retain the second-person addressee."
+    },
+    {
+      "resource_row": 156,
+      "before": "what Teacher said?",
+      "after": "what you said, Teacher?",
+      "reason": "Scarrel directly addresses Teacher in the source; retain the second-person addressee."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,48 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_6277.json",
+  "review_sha256": "bdc0bede047376d019e64a9a7d002e5fe370a89936bcbe6fdea5b043cb22a862",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6277.targets.json",
+  "target_before_sha256": "1ca6d3066ea66de433c9023f7b7238ecfb9c37a2a8bcb2e6dad8396ec213960c",
+  "target_after_sha256": "86b712ffab6f0bf9b2a49b8b48b820a43b1275dd1eb6550d87cd02308e800a37",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6277,
+      6356
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6291,
+      "before": "Your summoning arts",
+      "after": "The rudimentary summoning arts",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6292,
+      "before": "are merely what you learned in practice;",
+      "after": "you've picked up",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6293,
+      "before": "they are far beneath ours.",
+      "after": "are no match for ours.",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6331,
+      "before": "was never",
+      "after": "hasn't helped me",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6332,
+      "before": "for my sake.",
+      "after": "in the slightest.",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

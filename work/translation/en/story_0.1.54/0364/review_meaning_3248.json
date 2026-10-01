@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_3248.targets.json",
+  "target_file_sha256": "76ed14b36666c0d7f1dffeb88bd63605baff7b0f3291692a5fdb96e424a8834f",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3248,
+      3327
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3246,
+      3329
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [
+    {
+      "resource_row": 3292,
+      "source_sha256": "c1a0f48645e94e51eddbe6975e49aad26148a3ca1e6891457394d93212666873",
+      "text": "I refuse to accept",
+      "reason": "The current target duplicates the end-everything idea across the sentence. The source has one refusal to accept ending everything by killing the listener."
+    },
+    {
+      "resource_row": 3293,
+      "source_sha256": "f6a8ae90fb82d805278aefae578ba3f915cbffa1fd48954c1d41ec15c77d35e1",
+      "text": "ending everything by killing",
+      "reason": "Carries the source's means clause without repetition."
+    },
+    {
+      "resource_row": 3294,
+      "source_sha256": "aae6815a2ef129607895eced54a08dbed461c3135b9fbe22b15e83b173fea154",
+      "text": "you!!",
+      "reason": "Completes the source's refused outcome."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        3301,
+        3303
+      ],
+      "issue": "● is a protected marker and is retained exactly; no identity is inferred."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        3254,
+        3257,
+        3258,
+        3264,
+        3271,
+        3280,
+        3285,
+        3288,
+        3295,
+        3301,
+        3302,
+        3303,
+        3304,
+        3305,
+        3306,
+        3307,
+        3309,
+        3310,
+        3312,
+        3313,
+        3314,
+        3315,
+        3316,
+        3325,
+        3326,
+        3327
+      ],
+      "reason": "Hesitation, cries, impacts, surprise, and reaction fragments retain their non-propositional source function."
+    },
+    {
+      "rows": [
+        3248,
+        3250,
+        3251,
+        3252,
+        3253,
+        3254,
+        3255,
+        3256,
+        3259,
+        3260,
+        3261,
+        3262,
+        3263,
+        3265,
+        3266,
+        3267,
+        3268,
+        3269,
+        3270,
+        3272,
+        3273,
+        3274,
+        3275,
+        3276,
+        3277,
+        3278,
+        3279,
+        3281,
+        3282,
+        3283,
+        3284,
+        3286,
+        3287,
+        3289,
+        3290,
+        3291,
+        3292,
+        3293,
+        3294,
+        3296,
+        3297,
+        3298,
+        3299,
+        3300,
+        3311,
+        3317,
+        3318,
+        3319,
+        3320,
+        3321,
+        3322,
+        3323,
+        3324
+      ],
+      "reason": "Physical continuation rows complete their English sentence in adjacent fragments. The cries at rows 3325–3327 continue into the next slice."
+    }
+  ],
+  "notes": "Reassessed against wider scene context (rows 3060–3259). The companions' collective reactions at rows 3248–3258 are settled by the scene and retain their intended direction. The remaining corrections at rows 3292–3294 restore the source's single refusal clause; no cosmetic alternatives were recorded."
+}

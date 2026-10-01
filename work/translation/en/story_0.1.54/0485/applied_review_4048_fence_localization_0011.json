@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_4048_fence_localization_0011.json",
+  "review_sha256": "3458417e173d5362d99dc2e97b5e8ef954d88f1fc26680d0b791f0fe137d82c0",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4048.targets.json",
+  "target_before_sha256": "51de7ba3b7ac1a175ffa1750853cd17292b19d1171f3135fd4b8bfb241bb1aec",
+  "target_after_sha256": "ca9a23b5d5de0ac427d1a82f2e10e195a03f9bb8885f4474a591391cb9d78994",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4116,
+      4121
+    ],
+    "count": 6
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4116,
+      "before": "T...!",
+      "after": "N...!",
+      "reason": "The isolated initial sound must begin the localized punchline without revealing it."
+    },
+    {
+      "resource_row": 4117,
+      "before": "T?",
+      "after": "N?",
+      "reason": "The listener repeats the initial sound, preserving the failed-joke setup."
+    },
+    {
+      "resource_row": 4118,
+      "before": "T?",
+      "after": "N?",
+      "reason": "The parallel listener branch repeats the same initial sound."
+    },
+    {
+      "resource_row": 4119,
+      "before": "A fence was built on the vacant lot next door! Heh... a fence, you see!!",
+      "after": "No offense! Th-The neighbors just put up a new fence!!",
+      "reason": "The source intentionally blurts the punchline before the fence setup. This English fence-pun keeps that reversed order so the following complaint that the punchline came first remains meaningful."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

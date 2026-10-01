@@ -1,0 +1,60 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_4117.json",
+  "review_sha256": "45c0424674f314107610716c0fb84b93456f24029e875cd8487a5d23c03b21fc",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4117.targets.json",
+  "target_before_sha256": "6dc33a91bed1498e85ee07ff9327183c30cb2a9243d91303e27a080fc893a372",
+  "target_after_sha256": "1e68fea0aa67bfeaaef7aa6aaa9026f5c644d3db062e4bf544039e95bdfe83bf",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4117,
+      4196
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4135,
+      "before": "and chose it yourself.",
+      "after": "of your own accord.",
+      "reason": "Remove duplicate choice predicate while preserving the correct comparison to judgment by others."
+    },
+    {
+      "resource_row": 4136,
+      "before": "Then let us see",
+      "after": "Then show us",
+      "reason": "Preserve the direction: the listener must demonstrate resolve to the speakers."
+    },
+    {
+      "resource_row": 4137,
+      "before": "your resolve",
+      "after": "that resolve",
+      "reason": "Same box's demonstrative refers to the listener's resolve."
+    },
+    {
+      "resource_row": 4138,
+      "before": "through to the end.",
+      "after": "all the way to the end.",
+      "reason": "Complete the request."
+    },
+    {
+      "resource_row": 4149,
+      "before": "Whether I condemn you or forgive you,",
+      "after": "Whether my sins are condemned",
+      "reason": "Ardylia reflects on her own guilt, not judging somebody else."
+    },
+    {
+      "resource_row": 4150,
+      "before": "from here on, that choice",
+      "after": "or forgiven, from now on,",
+      "reason": "Preserve the paired alternatives about her own sin."
+    },
+    {
+      "resource_row": 4151,
+      "before": "will be mine alone.",
+      "after": "that rests with me alone.",
+      "reason": "Her future actions determine her atonement."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

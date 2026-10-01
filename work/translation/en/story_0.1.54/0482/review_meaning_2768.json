@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "independent_review": true,
+  "reviewer": "independent reviewer; draft author fresh",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2768.targets.json",
+  "target_file_sha256": "292af9649f6caa747b731225ada867f08cc6ca356a3d2a308c28d23f1c62101b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2768,
+      2847
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2765,
+      2848
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [
+    {
+      "resource_row": 2817,
+      "source_sha256": "667ef982749c2e93a8dbd498ee05ad4bac6d8d067e2bfa582811b9944747a2a5",
+      "before": "You don't need to blame yourself.",
+      "text": "You don't need to thank me.",
+      "after": "You don't need to thank me.",
+      "reason": "The preceding thanks to Meimei make this a gratitude response; the draft incorrectly adds self-blame."
+    },
+    {
+      "resource_row": 2841,
+      "source_sha256": "d1ff92f9860a6f0d31bc29484ef22daadf3ba43bd86858142d38e65e16ef93d7",
+      "before": "See them off. I'm sure it will give them strength.",
+      "text": "See this through with them. I'm sure it will give them strength.",
+      "after": "See this through with them. I'm sure it will give them strength.",
+      "reason": "The direction is to accompany and witness the outcome, not merely see the person off; following context confirms the pupil remains present."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Source-first review of complete VM groups and adjacent context. No meaning corrections proposed; no apply."
+}

@@ -1,0 +1,31 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_4197.json",
+  "review_sha256": "b2f8f33ab6ec108ec8d11040c74cf604d6236fab31b96cd7d342125184bdb1cc",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4197.targets.json",
+  "target_before_sha256": "ce476af063ff31b03bddb141b46584c94723b965bf06b3168ad7a44df4b9a7b9",
+  "target_after_sha256": "b1a006110ec26cf08f36e02f11797e07cf2e4b5feb42137c96f640ccc82a887a",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4197,
+      4276
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4197,
+      "before": "You knew Falzen's secret?",
+      "after": "secret from the start?",
+      "reason": "The preceding target row already supplies the subject and object. This continuation must complete the joined question and retain the source's 'from the start' meaning without duplicating it."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        4276
+      ],
+      "issue": "The final source statement completes in the next slice; this proof does not alter its unfinished target fragment."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

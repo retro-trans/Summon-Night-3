@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_3488.json",
+  "review_sha256": "4396f20e39a7806dc62a650327b6f4f3b6331bedb4e0d3b8b9f4596cd2c1b895",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3488.targets.json",
+  "target_before_sha256": "1b5c39742e9b6af404b6f6ba98b17a5223382eb5db0c0bfff053088e2312349f",
+  "target_after_sha256": "830a040bf0ddf59fb13a9760b2dddb3a45aff4ba4a748edd9911c61d165138b6",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3488,
+      3567
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3503,
+      "before": "It's all right... Because... because I can see you again...",
+      "after": "It's all right... Because... because I can see you again, Brother...",
+      "reason": "Restores 兄さん (Brother), which was omitted from Fariel’s reunion line."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

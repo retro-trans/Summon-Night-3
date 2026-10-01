@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_6677_second.json",
+  "review_sha256": "eb3b83ca79ed0e7d4e30d4bd1beb58ec98ddd14c95590d89f08ef9ad99e2367a",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6677.targets.json",
+  "target_before_sha256": "54f03b6a8a9854853637920daf096b5066ab6425ef5652f7554ce4691a9d7c3b",
+  "target_after_sha256": "3689e877a858d94a2e48ba98518416e176c91d252da01529b5325714c79f50b0",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6677,
+      6756
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6682,
+      "before": "",
+      "after": "...",
+      "reason": "Restore the complete silent ellipsis box."
+    },
+    {
+      "resource_row": 6695,
+      "before": "You would not give it your all",
+      "after": "You refused to give it your all,",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6696,
+      "before": "until the very end,",
+      "after": "even at the very end,",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

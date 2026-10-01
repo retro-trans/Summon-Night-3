@@ -1,0 +1,4396 @@
+{
+  "schema_version": 2,
+  "resource_id": "00:00273",
+  "mode": "in_memory_accepted_compiler_validation",
+  "input_hashes": {
+    "work/translation/en/story_0.1.54/scope.json": "a67e52d2ab125b26fd57208aacbef1b03426321d85ccfb2d7ead868e726d3a24",
+    "work/translation/en/story_0.1.54/shared_library.targets.json": "610007ac1481e189167cd3d944e755e2bb92f29d597f60f988c74061f4dfa163",
+    "work/translation/en/story_0.1.54/0273/slice_0011.targets.json": "65a59b8c0dda01bee6685fad7a32e496d185d3edc407a361c5084a29a1d22dd7",
+    "work/translation/en/story_0.1.54/0273/review_meaning_0011.json": "816c96a622212fda539fef1e1b9ce27cf10cdb34cb413e5b27d54054a56d4ff6",
+    "work/glossary/character_reference_sn6_vita.json": "0a284426ad3d1aac837df75fc283570718c32ca3a584d6b2662e71839a47eb92",
+    "work/glossary/terminology_preferences.json": "8bb5a15998b681ce0c8282b11758078bbdeba875b462b650e809ae64db4526ae",
+    "work/translation/en/story_0.1.54/0273/accepted_review.json": "510185ccf4e4b7bf61449a5f4290ffc1f014cd4a5b949bc4affbee253b003322",
+    "tools/story_patch_054.py": "c8415ee7e6851fbfc16e35fbc6eda7badb8adf62144ba28a9478b48883588978",
+    "tools/story_compiler_054.py": "3cbe86584b5519c352696db29f105d9556d315c53e411a8432c81e6a5f42f8b3",
+    "tools/conditional_layout_054.py": "ff0af598af0de48e8be4e8f2fcd0e426ca9159433edb4f9099797cbea3d8caa7",
+    "tools/story_source_054.py": "31bd0150436e1391da3fede343a4bb021541f46987e0c020fc5eef18d3a30372",
+    "tools/chapter_patch_014.py": "c04d8f932c504ab3d071e8216cdedd3fb967bdb09882062009c05845c2354232",
+    "tools/chapter_source_014.py": "16ccdf1d1d0ee1621b3fde61bd43cea7436c743e4ddc4bc0179696585a290d1e",
+    "tools/script_compact_014.py": "59246e9c47b02a9fb0447a83feff43ac8914f7103652627197a35c3fa67a602d",
+    "tools/story_storage_054.py": "e58942ba3476938c78a20e1e7d6589a6fec978551dba0beb35d105546fc2d6f0",
+    "tools/font_metrics_014.py": "bb7d3d3f14233a55141aa2d385d32fec30dc9c7a55213cf44ede4b9aad1786f1",
+    "tools/night_talk_037.py": "2b4cc9a6fbf4152106780034a875fc64f4a3d759f4eac56c2bfffb2be5e9165b",
+    "tools/story_display_054.py": "15a713054c862c520721cf9c074bf3cce1dea9f035c9868c0f2372f61048ac3d"
+  },
+  "accepted_review_sha256": "510185ccf4e4b7bf61449a5f4290ffc1f014cd4a5b949bc4affbee253b003322",
+  "compiler_report": {
+    "resource_id": "00:00273",
+    "resource": "00:00273",
+    "bank": "00.DAT",
+    "index": 273,
+    "source_sha256": "59e52671437c60e7b3e8c489bcb86aa097bda52c701a2132857da03884cbebe3",
+    "original_decoded_sha256": "e2e83b0cadc9b0f3dc32cbc36c41d91e549407d69d31a726f5f4af057505fb3c",
+    "decoded_size": 16034,
+    "encoded_size": 6683,
+    "decoded_sha256": "d25f51d191670962451fde81d8ee8577cf5949171b1c8e5ee928020dab6f6f9b",
+    "changes": [
+      {
+        "old_offset": 13106,
+        "new_offset": 15582,
+        "text": "\"Learn Skills\"",
+        "display_text": "”Ｌｅａｒｎ　Ｓｋｉｌｌｓ”",
+        "encoding_profile": "dialogue_fullwidth_cp932",
+        "source_sha256": "9779f308843ae79bfda50091fde3d26ccbfb469736fd5ca23218da019c25f98c",
+        "old_byte_length": 24,
+        "new_byte_length": 28,
+        "pool_word_offset": 1179,
+        "reference_instructions": [
+          3038
+        ],
+        "id": "00:00273:text:00003332",
+        "owned_reference_instructions": [
+          3038
+        ]
+      },
+      {
+        "old_offset": 13132,
+        "new_offset": 15310,
+        "text": "is now available!",
+        "display_text": "ｉｓ　ｎｏｗ　ａｖａｉｌａｂｌｅ！",
+        "encoding_profile": "dialogue_fullwidth_cp932",
+        "source_sha256": "d46efc542fa2362375dfafdb45d622230ef4fec5a5ab3483797c18b6bb643576",
+        "old_byte_length": 28,
+        "new_byte_length": 34,
+        "pool_word_offset": 1043,
+        "reference_instructions": [
+          3046,
+          3088,
+          3130,
+          3228
+        ],
+        "id": "00:00273:text:0000334c",
+        "owned_reference_instructions": [
+          3046
+        ]
+      },
+      {
+        "old_offset": 13162,
+        "new_offset": 15238,
+        "text": "\"Party Abilities\"",
+        "display_text": "”Ｐａｒｔｙ　Ａｂｉｌｉｔｉｅｓ”",
+        "encoding_profile": "dialogue_fullwidth_cp932",
+        "source_sha256": "63aa9d8972296b5b2a54229a6f2c0c7ad36d1e607d6208bb8979de756f692479",
+        "old_byte_length": 26,
+        "new_byte_length": 34,
+        "pool_word_offset": 1007,
+        "reference_instructions": [
+          3080
+        ],
+        "id": "00:00273:text:0000336a",
+        "owned_reference_instructions": [
+          3080
+        ]
+      },
+      {
+        "old_offset": 13190,
+        "new_offset": 15310,
+        "text": "is now available!",
+        "display_text": "ｉｓ　ｎｏｗ　ａｖａｉｌａｂｌｅ！",
+        "encoding_profile": "dialogue_fullwidth_cp932",
+        "source_sha256": "d46efc542fa2362375dfafdb45d622230ef4fec5a5ab3483797c18b6bb643576",
+        "old_byte_length": 28,
+        "new_byte_length": 34,
+        "pool_word_offset": 1043,
+        "reference_instructions": [
+          3046,
+          3088,
+          3130,
+          3228
+        ],
+        "id": "00:00273:text:00003386",
+        "owned_reference_instructions": [
+          3088
+        ]
+      },
+      {
+        "old_offset": 13220,
+        "new_offset": 15822,
+        "text": "\"Cooking\"",
+        "display_text": "”Ｃｏｏｋｉｎｇ”",
+        "encoding_profile": "dialogue_fullwidth_cp932",
+        "source_sha256": "79006bfb23c758c1e65c7916076f50bdd92d113dc1b794c8181f89c71df6da12",
+        "old_byte_length": 18,
+        "new_byte_length": 18,
+        "pool_word_offset": 1299,
+        "reference_instructions": [
+          3122
+        ],
+        "id": "00:00273:text:000033a4",
+        "owned_reference_instructions": [
+          3122
+        ]
+      },
+      {
+        "old_offset": 13240,
+        "new_offset": 15310,
+        "text": "is now available!",
+        "display_text": "ｉｓ　ｎｏｗ　ａｖａｉｌａｂｌｅ！",
+        "encoding_profile": "dialogue_fullwidth_cp932",
+        "source_sha256": "d46efc542fa2362375dfafdb45d622230ef4fec5a5ab3483797c18b6bb643576",
+        "old_byte_length": 28,
+        "new_byte_length": 34,
+        "pool_word_offset": 1043,
+        "reference_instructions": [
+          3046,
+          3088,
+          3130,
+          3228
+        ],
+        "id": "00:00273:text:000033b8",
+        "owned_reference_instructions": [
+          3130
+        ]
+      },
+      {
+        "old_offset": 13270,
+        "new_offset": 15382,
+        "text": "Puppet Summoning",
+        "display_text": "Ｐｕｐｐｅｔ　Ｓｕｍｍｏｎｉｎｇ",
+        "encoding_profile": "dialogue_fullwidth_cp932",
+        "source_sha256": "74af33fefa9d97eb55e0d37964c3bc9e945a0a98dbf3481cc93c1cc0d8e43176",
+        "old_byte_length": 30,
+        "new_byte_length": 32,
+        "pool_word_offset": 1079,
+        "reference_instructions": [
+          3166
+        ],
+        "id": "00:00273:text:000033d6",
+        "owned_reference_instructions": [
+          3166
+        ]
+      },
+      {
+        "old_offset": 13302,
+        "new_offset": 13906,
+        "text": "at Meimei's shop unlocks",
+        "display_text": "ａｔ　Ｍｅｉｍｅｉ’ｓ　ｓｈｏｐ　ｕｎｌｏｃｋｓ",
+        "encoding_profile": "dialogue_fullwidth_cp932",
+        "source_sha256": "e9ce3483885214d47a16b250511555b8ef6e9e25d871da238a27e3f06999b1ac",
+        "old_byte_length": 22,
+        "new_byte_length": 48,
+        "pool_word_offset": 341,
+        "reference_instructions": [
+          3174
+        ],
+        "id": "00:00273:text:000033f6",
+        "owned_reference_instructions": [
+          3174
+        ]
+      },
+      {
+        "old_offset": 13326,
+        "new_offset": 14478,
+        "text": "on later playthroughs!",
+        "display_text": "ｏｎ　ｌａｔｅｒ　ｐｌａｙｔｈｒｏｕｇｈｓ！",
+        "encoding_profile": "dialogue_fullwidth_cp932",
+        "source_sha256": "d46efc542fa2362375dfafdb45d622230ef4fec5a5ab3483797c18b6bb643576",
+        "old_byte_length": 28,
+        "new_byte_length": 44,
+        "pool_word_offset": 627,
+        "reference_instructions": [
+          3182
+        ],
+        "id": "00:00273:text:0000340e",
+        "owned_reference_instructions": [
+          3182
+        ]
+      },
+      {
+        "old_offset": 13356,
+        "new_offset": 15274,
+        "text": "\"Summon Training\"",
+        "display_text": "”Ｓｕｍｍｏｎ　Ｔｒａｉｎｉｎｇ”",
+        "encoding_profile": "dialogue_fullwidth_cp932",
+        "source_sha256": "5086d87b07544599f198a043a7bd5dff192da190d5a3b948c28797f0f60eef08",
+        "old_byte_length": 24,
+        "new_byte_length": 34,
+        "pool_word_offset": 1025,
+        "reference_instructions": [
+          3220
+        ],
+        "id": "00:00273:text:0000342c",
+        "owned_reference_instructions": [
+          3220
+        ]
+      },
+      {
+        "old_offset": 13382,
+        "new_offset": 15310,
+        "text": "is now available!",
+        "display_text": "ｉｓ　ｎｏｗ　ａｖａｉｌａｂｌｅ！",
+        "encoding_profile": "dialogue_fullwidth_cp932",
+        "source_sha256": "d46efc542fa2362375dfafdb45d622230ef4fec5a5ab3483797c18b6bb643576",
+        "old_byte_length": 28,
+        "new_byte_length": 34,
+        "pool_word_offset": 1043,
+        "reference_instructions": [
+          3046,
+          3088,
+          3130,
+          3228
+        ],
+        "id": "00:00273:text:00003446",
+        "owned_reference_instructions": [
+          3228
+        ]
+      }
+    ],
+    "layout_groups": [
+      {
+        "id": "chapter_273_11_12_13",
+        "resource_rows": [
+          11,
+          12,
+          13
+        ],
+        "source_offsets": [
+          13412,
+          13426,
+          13444
+        ],
+        "original_span": [
+          10570,
+          10602
+        ],
+        "original_span_sha256": "e9cfb03b5977f261e5a8b3493afa323f4da9119fa6051ba664c38dcd3d7cdb4a",
+        "display_helper_word": 2044,
+        "text": "That time... when the ruins' power nearly erased me...",
+        "code_size": 0,
+        "inline_prefix_size": 32,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 10602,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_11_12_13:page:0:line:0",
+              "text": "That time... when the",
+              "display_text": "Ｔｈａｔ　ｔｉｍｅ．．．　ｗｈｅｎ　ｔｈｅ",
+              "new_offset": 14614,
+              "new_byte_length": 42,
+              "pool_word_offset": 695,
+              "reference_instructions": [
+                10570,
+                10628
+              ],
+              "expanded_units": 21,
+              "owned_reference_instructions": [
+                10570
+              ]
+            },
+            {
+              "id": "chapter_273_11_12_13:page:0:line:1",
+              "text": "ruins' power nearly",
+              "display_text": "ｒｕｉｎｓ’　ｐｏｗｅｒ　ｎｅａｒｌｙ",
+              "new_offset": 15122,
+              "new_byte_length": 38,
+              "pool_word_offset": 949,
+              "reference_instructions": [
+                10578,
+                10636
+              ],
+              "expanded_units": 19,
+              "owned_reference_instructions": [
+                10578
+              ]
+            },
+            {
+              "id": "chapter_273_11_12_13:page:0:line:2",
+              "text": "erased me...",
+              "display_text": "ｅｒａｓｅｄ　ｍｅ．．．",
+              "new_offset": 15728,
+              "new_byte_length": 24,
+              "pool_word_offset": 1252,
+              "reference_instructions": [
+                10586,
+                10644
+              ],
+              "expanded_units": 12,
+              "owned_reference_instructions": [
+                10586
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 174
+      },
+      {
+        "id": "chapter_273_14_15_16",
+        "resource_rows": [
+          14,
+          15,
+          16
+        ],
+        "source_offsets": [
+          13466,
+          13480,
+          13498
+        ],
+        "original_span": [
+          10628,
+          10660
+        ],
+        "original_span_sha256": "d2f50bab6a90086f889570d4411f084a2f25b440a054d35310116aad45da3ba6",
+        "display_helper_word": 2044,
+        "text": "That time... when the ruins' power nearly erased me...",
+        "code_size": 0,
+        "inline_prefix_size": 32,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 10660,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_14_15_16:page:0:line:0",
+              "text": "That time... when the",
+              "display_text": "Ｔｈａｔ　ｔｉｍｅ．．．　ｗｈｅｎ　ｔｈｅ",
+              "new_offset": 14614,
+              "new_byte_length": 42,
+              "pool_word_offset": 695,
+              "reference_instructions": [
+                10570,
+                10628
+              ],
+              "expanded_units": 21,
+              "owned_reference_instructions": [
+                10628
+              ]
+            },
+            {
+              "id": "chapter_273_14_15_16:page:0:line:1",
+              "text": "ruins' power nearly",
+              "display_text": "ｒｕｉｎｓ’　ｐｏｗｅｒ　ｎｅａｒｌｙ",
+              "new_offset": 15122,
+              "new_byte_length": 38,
+              "pool_word_offset": 949,
+              "reference_instructions": [
+                10578,
+                10636
+              ],
+              "expanded_units": 19,
+              "owned_reference_instructions": [
+                10636
+              ]
+            },
+            {
+              "id": "chapter_273_14_15_16:page:0:line:2",
+              "text": "erased me...",
+              "display_text": "ｅｒａｓｅｄ　ｍｅ．．．",
+              "new_offset": 15728,
+              "new_byte_length": 24,
+              "pool_word_offset": 1252,
+              "reference_instructions": [
+                10586,
+                10644
+              ],
+              "expanded_units": 12,
+              "owned_reference_instructions": [
+                10644
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 174
+      },
+      {
+        "id": "chapter_273_17_18",
+        "resource_rows": [
+          17,
+          18
+        ],
+        "source_offsets": [
+          13520,
+          13542
+        ],
+        "original_span": [
+          10730,
+          10754
+        ],
+        "original_span_sha256": "517f1ddf759bf1567019044ff132b4dc0a34b71161795a9dfb5137a28697b42a",
+        "display_helper_word": 2044,
+        "text": "I heard a voice unlike the sword's will...",
+        "code_size": 0,
+        "inline_prefix_size": 24,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 10754,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_17_18:page:0:line:0",
+              "text": "I heard a voice unlike the",
+              "display_text": "Ｉ　ｈｅａｒｄ　ａ　ｖｏｉｃｅ　ｕｎｌｉｋｅ　ｔｈｅ",
+              "new_offset": 13392,
+              "new_byte_length": 52,
+              "pool_word_offset": 84,
+              "reference_instructions": [
+                10730
+              ],
+              "expanded_units": 26,
+              "owned_reference_instructions": [
+                10730
+              ]
+            },
+            {
+              "id": "chapter_273_17_18:page:0:line:1",
+              "text": "sword's will...",
+              "display_text": "ｓｗｏｒｄ’ｓ　ｗｉｌｌ．．．",
+              "new_offset": 15550,
+              "new_byte_length": 30,
+              "pool_word_offset": 1163,
+              "reference_instructions": [
+                10738
+              ],
+              "expanded_units": 15,
+              "owned_reference_instructions": [
+                10738
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 207
+      },
+      {
+        "id": "chapter_273_19_20",
+        "resource_rows": [
+          19,
+          20
+        ],
+        "source_offsets": [
+          13562,
+          13576
+        ],
+        "original_span": [
+          10754,
+          10778
+        ],
+        "original_span_sha256": "8850c01e37bf61008bb2b325a779ae2095bc5f92dfd59758abb998d355ade520",
+        "display_helper_word": 2030,
+        "text": "Just whose voice was that?",
+        "code_size": 0,
+        "inline_prefix_size": 24,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 10778,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_19_20:page:0:line:0",
+              "text": "Just whose voice was",
+              "display_text": "Ｊｕｓｔ　ｗｈｏｓｅ　ｖｏｉｃｅ　ｗａｓ",
+              "new_offset": 14832,
+              "new_byte_length": 40,
+              "pool_word_offset": 804,
+              "reference_instructions": [
+                10754
+              ],
+              "expanded_units": 20,
+              "owned_reference_instructions": [
+                10754
+              ]
+            },
+            {
+              "id": "chapter_273_19_20:page:0:line:1",
+              "text": "that?",
+              "display_text": "ｔｈａｔ？",
+              "new_offset": 16012,
+              "new_byte_length": 10,
+              "pool_word_offset": 1394,
+              "reference_instructions": [
+                10762
+              ],
+              "expanded_units": 5,
+              "owned_reference_instructions": [
+                10762
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 186
+      },
+      {
+        "id": "chapter_273_21_22",
+        "resource_rows": [
+          21,
+          22
+        ],
+        "source_offsets": [
+          13598,
+          13620
+        ],
+        "original_span": [
+          10802,
+          10826
+        ],
+        "original_span_sha256": "c73efbf264f6bde14905538cba373031d6ad6b397b7077c35bdc69839d20cef5",
+        "display_helper_word": 2030,
+        "text": "Why did it save me?",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 10826,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_21_22:page:0:line:0",
+              "text": "Why did it save me?",
+              "display_text": "Ｗｈｙ　ｄｉｄ　ｉｔ　ｓａｖｅ　ｍｅ？",
+              "new_offset": 15042,
+              "new_byte_length": 38,
+              "pool_word_offset": 909,
+              "reference_instructions": [
+                10802,
+                10842
+              ],
+              "expanded_units": 19,
+              "owned_reference_instructions": [
+                10802
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 169
+      },
+      {
+        "id": "chapter_273_23_24",
+        "resource_rows": [
+          23,
+          24
+        ],
+        "source_offsets": [
+          13638,
+          13660
+        ],
+        "original_span": [
+          10842,
+          10866
+        ],
+        "original_span_sha256": "16c84d4795cb5fba82d57081476f340ebffc895dbe0397ec2bf0528c9b0f2179",
+        "display_helper_word": 2030,
+        "text": "Why did it save me?",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 10866,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_23_24:page:0:line:0",
+              "text": "Why did it save me?",
+              "display_text": "Ｗｈｙ　ｄｉｄ　ｉｔ　ｓａｖｅ　ｍｅ？",
+              "new_offset": 15042,
+              "new_byte_length": 38,
+              "pool_word_offset": 909,
+              "reference_instructions": [
+                10802,
+                10842
+              ],
+              "expanded_units": 19,
+              "owned_reference_instructions": [
+                10842
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 169
+      },
+      {
+        "id": "chapter_273_25_26",
+        "resource_rows": [
+          25,
+          26
+        ],
+        "source_offsets": [
+          13678,
+          13698
+        ],
+        "original_span": [
+          10902,
+          10926
+        ],
+        "original_span_sha256": "64dff44e3d612e9443624917d755aa9ae7d44892f27ebdb5e9b9d15653187b0f",
+        "display_helper_word": 2030,
+        "text": "What a nuisance. It really takes the cake, doesn't it?",
+        "code_size": 16,
+        "inline_prefix_size": 20,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": 13104,
+        "return_instruction": 10926,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_25_26:page:0:line:0",
+              "text": "What a nuisance. It really",
+              "display_text": "Ｗｈａｔ　ａ　ｎｕｉｓａｎｃｅ．　Ｉｔ　ｒｅａｌｌｙ",
+              "new_offset": 13446,
+              "new_byte_length": 52,
+              "pool_word_offset": 111,
+              "reference_instructions": [
+                10902
+              ],
+              "expanded_units": 26,
+              "owned_reference_instructions": [
+                10902
+              ]
+            },
+            {
+              "id": "chapter_273_25_26:page:0:line:1",
+              "text": "takes the cake, doesn't",
+              "display_text": "ｔａｋｅｓ　ｔｈｅ　ｃａｋｅ，　ｄｏｅｓｎ’ｔ",
+              "new_offset": 14196,
+              "new_byte_length": 46,
+              "pool_word_offset": 486,
+              "reference_instructions": [
+                10910
+              ],
+              "expanded_units": 23,
+              "owned_reference_instructions": [
+                10910
+              ]
+            },
+            {
+              "id": "chapter_273_25_26:page:0:line:2",
+              "text": "it?",
+              "display_text": "ｉｔ？",
+              "new_offset": 13996,
+              "new_byte_length": 6,
+              "pool_word_offset": 386,
+              "reference_instructions": [
+                10918
+              ],
+              "expanded_units": 3,
+              "owned_reference_instructions": [
+                10918
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 206
+      },
+      {
+        "id": "chapter_273_27",
+        "resource_rows": [
+          27
+        ],
+        "source_offsets": [
+          13718
+        ],
+        "original_span": [
+          10992,
+          11008
+        ],
+        "original_span_sha256": "be46fe8574a4bbd4629ff8eb787e18330682633ba0114cd49f303fbaa2b44fce",
+        "display_helper_word": 2058,
+        "text": "!?",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 11008,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_27:page:0:line:0",
+              "text": "!?",
+              "display_text": "！？",
+              "new_offset": 15544,
+              "new_byte_length": 4,
+              "pool_word_offset": 1160,
+              "reference_instructions": [
+                10992
+              ],
+              "expanded_units": 2,
+              "owned_reference_instructions": [
+                10992
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 15
+      },
+      {
+        "id": "chapter_273_28_29",
+        "resource_rows": [
+          28,
+          29
+        ],
+        "source_offsets": [
+          13724,
+          13754
+        ],
+        "original_span": [
+          11068,
+          11092
+        ],
+        "original_span_sha256": "ae4c21af2a63acb9a0ae943d9036538027fbced94f8b9acb80a55d7d97d77a21",
+        "display_helper_word": 2030,
+        "text": "If you had vanished then, there would have been less trouble for me.",
+        "code_size": 16,
+        "inline_prefix_size": 20,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": 13120,
+        "return_instruction": 11092,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_28_29:page:0:line:0",
+              "text": "If you had vanished then,",
+              "display_text": "Ｉｆ　ｙｏｕ　ｈａｄ　ｖａｎｉｓｈｅｄ　ｔｈｅｎ，",
+              "new_offset": 13552,
+              "new_byte_length": 50,
+              "pool_word_offset": 164,
+              "reference_instructions": [
+                11068
+              ],
+              "expanded_units": 25,
+              "owned_reference_instructions": [
+                11068
+              ]
+            },
+            {
+              "id": "chapter_273_28_29:page:0:line:1",
+              "text": "there would have been",
+              "display_text": "ｔｈｅｒｅ　ｗｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ",
+              "new_offset": 14702,
+              "new_byte_length": 42,
+              "pool_word_offset": 739,
+              "reference_instructions": [
+                11076
+              ],
+              "expanded_units": 21,
+              "owned_reference_instructions": [
+                11076
+              ]
+            },
+            {
+              "id": "chapter_273_28_29:page:0:line:2",
+              "text": "less trouble for me.",
+              "display_text": "ｌｅｓｓ　ｔｒｏｕｂｌｅ　ｆｏｒ　ｍｅ．",
+              "new_offset": 14958,
+              "new_byte_length": 40,
+              "pool_word_offset": 867,
+              "reference_instructions": [
+                11084
+              ],
+              "expanded_units": 20,
+              "owned_reference_instructions": [
+                11084
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 208
+      },
+      {
+        "id": "chapter_273_30",
+        "resource_rows": [
+          30
+        ],
+        "source_offsets": [
+          13782
+        ],
+        "original_span": [
+          11158,
+          11174
+        ],
+        "original_span_sha256": "fa52bc6c0919848d6422854c0af206dc7129d11596d0a6472f8128303bd5ecde",
+        "display_helper_word": 2030,
+        "text": "Ishlar...",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 11174,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_30:page:0:line:0",
+              "text": "Ishlar...",
+              "display_text": "Ｉｓｈｌａｒ．．．",
+              "new_offset": 15842,
+              "new_byte_length": 18,
+              "pool_word_offset": 1309,
+              "reference_instructions": [
+                11158
+              ],
+              "expanded_units": 9,
+              "owned_reference_instructions": [
+                11158
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 54
+      },
+      {
+        "id": "chapter_273_31_32_33",
+        "resource_rows": [
+          31,
+          32,
+          33
+        ],
+        "source_offsets": [
+          13796,
+          13824,
+          13850
+        ],
+        "original_span": [
+          11194,
+          11226
+        ],
+        "original_span_sha256": "5597f4b3700e6fbb4528064767bc1311e1a7854e2f6f323f761a3b7a1d1f0165",
+        "display_helper_word": 2030,
+        "text": "Though then I couldn't retrieve the demonic sword, and Sis would be troubled, wouldn't she?",
+        "code_size": 24,
+        "inline_prefix_size": 28,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": 13136,
+        "return_instruction": 11226,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_31_32_33:page:0:line:0",
+              "text": "Though then I couldn't",
+              "display_text": "Ｔｈｏｕｇｈ　ｔｈｅｎ　Ｉ　ｃｏｕｌｄｎ’ｔ",
+              "new_offset": 14432,
+              "new_byte_length": 44,
+              "pool_word_offset": 604,
+              "reference_instructions": [
+                11194
+              ],
+              "expanded_units": 22,
+              "owned_reference_instructions": [
+                11194
+              ]
+            },
+            {
+              "id": "chapter_273_31_32_33:page:0:line:1",
+              "text": "retrieve the demonic",
+              "display_text": "ｒｅｔｒｉｅｖｅ　ｔｈｅ　ｄｅｍｏｎｉｃ",
+              "new_offset": 15000,
+              "new_byte_length": 40,
+              "pool_word_offset": 888,
+              "reference_instructions": [
+                11202
+              ],
+              "expanded_units": 20,
+              "owned_reference_instructions": [
+                11202
+              ]
+            },
+            {
+              "id": "chapter_273_31_32_33:page:0:line:2",
+              "text": "sword, and Sis would be",
+              "display_text": "ｓｗｏｒｄ，　ａｎｄ　Ｓｉｓ　ｗｏｕｌｄ　ｂｅ",
+              "new_offset": 14148,
+              "new_byte_length": 46,
+              "pool_word_offset": 462,
+              "reference_instructions": [
+                11210
+              ],
+              "expanded_units": 23,
+              "owned_reference_instructions": [
+                11210
+              ]
+            }
+          ],
+          [
+            {
+              "id": "chapter_273_31_32_33:page:1:line:0",
+              "text": "troubled, wouldn't she?",
+              "display_text": "ｔｒｏｕｂｌｅｄ，　ｗｏｕｌｄｎ’ｔ　ｓｈｅ？",
+              "new_offset": 14244,
+              "new_byte_length": 46,
+              "pool_word_offset": 510,
+              "reference_instructions": [
+                13140
+              ],
+              "expanded_units": 23,
+              "owned_reference_instructions": [
+                13140
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 200
+      },
+      {
+        "id": "chapter_273_34_35",
+        "resource_rows": [
+          34,
+          35
+        ],
+        "source_offsets": [
+          13876,
+          13898
+        ],
+        "original_span": [
+          11246,
+          11270
+        ],
+        "original_span_sha256": "930e7af98cc0f4776bf1b8527d0b6ab5147d604d8d1e456fd1dbfd4932faf79b",
+        "display_helper_word": 2030,
+        "text": "That would be inconvenient for me too...",
+        "code_size": 16,
+        "inline_prefix_size": 20,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": 13160,
+        "return_instruction": 11270,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_34_35:page:0:line:0",
+              "text": "That would be",
+              "display_text": "Ｔｈａｔ　ｗｏｕｌｄ　ｂｅ",
+              "new_offset": 15672,
+              "new_byte_length": 26,
+              "pool_word_offset": 1224,
+              "reference_instructions": [
+                11246
+              ],
+              "expanded_units": 13,
+              "owned_reference_instructions": [
+                11246
+              ]
+            },
+            {
+              "id": "chapter_273_34_35:page:0:line:1",
+              "text": "inconvenient for me",
+              "display_text": "ｉｎｃｏｎｖｅｎｉｅｎｔ　ｆｏｒ　ｍｅ",
+              "new_offset": 15082,
+              "new_byte_length": 38,
+              "pool_word_offset": 929,
+              "reference_instructions": [
+                11254
+              ],
+              "expanded_units": 19,
+              "owned_reference_instructions": [
+                11254
+              ]
+            },
+            {
+              "id": "chapter_273_34_35:page:0:line:2",
+              "text": "too...",
+              "display_text": "ｔｏｏ．．．",
+              "new_offset": 15962,
+              "new_byte_length": 12,
+              "pool_word_offset": 1369,
+              "reference_instructions": [
+                11262
+              ],
+              "expanded_units": 6,
+              "owned_reference_instructions": [
+                11262
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 168
+      },
+      {
+        "id": "chapter_273_36_37",
+        "resource_rows": [
+          36,
+          37
+        ],
+        "source_offsets": [
+          13914,
+          13932
+        ],
+        "original_span": [
+          11294,
+          11318
+        ],
+        "original_span_sha256": "eab5bdb014aaf91e75e2ee8098b5dc9731bbd8173f6f4cdf3f650db4599be231",
+        "display_helper_word": 2058,
+        "text": "What exactly have you come here for!?",
+        "code_size": 0,
+        "inline_prefix_size": 24,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 11318,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_36_37:page:0:line:0",
+              "text": "What exactly have you",
+              "display_text": "Ｗｈａｔ　ｅｘａｃｔｌｙ　ｈａｖｅ　ｙｏｕ",
+              "new_offset": 14658,
+              "new_byte_length": 42,
+              "pool_word_offset": 717,
+              "reference_instructions": [
+                11294,
+                11334
+              ],
+              "expanded_units": 21,
+              "owned_reference_instructions": [
+                11294
+              ]
+            },
+            {
+              "id": "chapter_273_36_37:page:0:line:1",
+              "text": "come here for!?",
+              "display_text": "ｃｏｍｅ　ｈｅｒｅ　ｆｏｒ！？",
+              "new_offset": 15518,
+              "new_byte_length": 30,
+              "pool_word_offset": 1147,
+              "reference_instructions": [
+                11302,
+                11342
+              ],
+              "expanded_units": 15,
+              "owned_reference_instructions": [
+                11302
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 191
+      },
+      {
+        "id": "chapter_273_38_39",
+        "resource_rows": [
+          38,
+          39
+        ],
+        "source_offsets": [
+          13946,
+          13964
+        ],
+        "original_span": [
+          11334,
+          11358
+        ],
+        "original_span_sha256": "0149d7172d90dbdefa7722ae9760ca9197ddcf99b8312782eecef9a778ee8b92",
+        "display_helper_word": 2058,
+        "text": "What exactly have you come here for!?",
+        "code_size": 0,
+        "inline_prefix_size": 24,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 11358,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_38_39:page:0:line:0",
+              "text": "What exactly have you",
+              "display_text": "Ｗｈａｔ　ｅｘａｃｔｌｙ　ｈａｖｅ　ｙｏｕ",
+              "new_offset": 14658,
+              "new_byte_length": 42,
+              "pool_word_offset": 717,
+              "reference_instructions": [
+                11294,
+                11334
+              ],
+              "expanded_units": 21,
+              "owned_reference_instructions": [
+                11334
+              ]
+            },
+            {
+              "id": "chapter_273_38_39:page:0:line:1",
+              "text": "come here for!?",
+              "display_text": "ｃｏｍｅ　ｈｅｒｅ　ｆｏｒ！？",
+              "new_offset": 15518,
+              "new_byte_length": 30,
+              "pool_word_offset": 1147,
+              "reference_instructions": [
+                11302,
+                11342
+              ],
+              "expanded_units": 15,
+              "owned_reference_instructions": [
+                11342
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 191
+      },
+      {
+        "id": "chapter_273_40",
+        "resource_rows": [
+          40
+        ],
+        "source_offsets": [
+          13980
+        ],
+        "original_span": [
+          11376,
+          11392
+        ],
+        "original_span_sha256": "3abf358a3641a23fb277fb1598078d0e68ac1bb7096d1adccdd147fddb315864",
+        "display_helper_word": 2030,
+        "text": "What a greeting.",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 11392,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_40:page:0:line:0",
+              "text": "What a greeting.",
+              "display_text": "Ｗｈａｔ　ａ　ｇｒｅｅｔｉｎｇ．",
+              "new_offset": 15416,
+              "new_byte_length": 32,
+              "pool_word_offset": 1096,
+              "reference_instructions": [
+                11376
+              ],
+              "expanded_units": 16,
+              "owned_reference_instructions": [
+                11376
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 138
+      },
+      {
+        "id": "chapter_273_41_42_43",
+        "resource_rows": [
+          41,
+          42,
+          43
+        ],
+        "source_offsets": [
+          13996,
+          14022,
+          14038
+        ],
+        "original_span": [
+          11476,
+          11508
+        ],
+        "original_span_sha256": "9e1d7c10adc795539f9ba80c7e9b0c4c0b5e06d6d4c2ff2914a70e46b797cdd6",
+        "display_helper_word": 2030,
+        "text": "I only came because I was worried about you all, to see how you were doing.",
+        "code_size": 24,
+        "inline_prefix_size": 28,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": 13176,
+        "return_instruction": 11508,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_41_42_43:page:0:line:0",
+              "text": "I only came because I",
+              "display_text": "Ｉ　ｏｎｌｙ　ｃａｍｅ　ｂｅｃａｕｓｅ　Ｉ",
+              "new_offset": 14570,
+              "new_byte_length": 42,
+              "pool_word_offset": 673,
+              "reference_instructions": [
+                11476
+              ],
+              "expanded_units": 21,
+              "owned_reference_instructions": [
+                11476
+              ]
+            },
+            {
+              "id": "chapter_273_41_42_43:page:0:line:1",
+              "text": "was worried about you",
+              "display_text": "ｗａｓ　ｗｏｒｒｉｅｄ　ａｂｏｕｔ　ｙｏｕ",
+              "new_offset": 14746,
+              "new_byte_length": 42,
+              "pool_word_offset": 761,
+              "reference_instructions": [
+                11484
+              ],
+              "expanded_units": 21,
+              "owned_reference_instructions": [
+                11484
+              ]
+            },
+            {
+              "id": "chapter_273_41_42_43:page:0:line:2",
+              "text": "all, to see how you were",
+              "display_text": "ａｌｌ，　ｔｏ　ｓｅｅ　ｈｏｗ　ｙｏｕ　ｗｅｒｅ",
+              "new_offset": 13856,
+              "new_byte_length": 48,
+              "pool_word_offset": 316,
+              "reference_instructions": [
+                11492
+              ],
+              "expanded_units": 24,
+              "owned_reference_instructions": [
+                11492
+              ]
+            }
+          ],
+          [
+            {
+              "id": "chapter_273_41_42_43:page:1:line:0",
+              "text": "doing.",
+              "display_text": "ｄｏｉｎｇ．",
+              "new_offset": 15948,
+              "new_byte_length": 12,
+              "pool_word_offset": 1362,
+              "reference_instructions": [
+                13180
+              ],
+              "expanded_units": 6,
+              "owned_reference_instructions": [
+                13180
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 202
+      },
+      {
+        "id": "chapter_273_44_45_46",
+        "resource_rows": [
+          44,
+          45,
+          46
+        ],
+        "source_offsets": [
+          14054,
+          14072,
+          14094
+        ],
+        "original_span": [
+          11528,
+          11560
+        ],
+        "original_span_sha256": "af92dc204f61f58a7d9ff01ff97578f08d0d69193678ca25fa13173db830a179",
+        "display_helper_word": 2030,
+        "text": "So, how did it go? Did you properly settle the dispute?",
+        "code_size": 0,
+        "inline_prefix_size": 32,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 11560,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_44_45_46:page:0:line:0",
+              "text": "So, how did it go? Did",
+              "display_text": "Ｓｏ，　ｈｏｗ　ｄｉｄ　ｉｔ　ｇｏ？　Ｄｉｄ",
+              "new_offset": 14340,
+              "new_byte_length": 44,
+              "pool_word_offset": 558,
+              "reference_instructions": [
+                11528
+              ],
+              "expanded_units": 22,
+              "owned_reference_instructions": [
+                11528
+              ]
+            },
+            {
+              "id": "chapter_273_44_45_46:page:0:line:1",
+              "text": "you properly settle the",
+              "display_text": "ｙｏｕ　ｐｒｏｐｅｒｌｙ　ｓｅｔｔｌｅ　ｔｈｅ",
+              "new_offset": 14292,
+              "new_byte_length": 46,
+              "pool_word_offset": 534,
+              "reference_instructions": [
+                11536
+              ],
+              "expanded_units": 23,
+              "owned_reference_instructions": [
+                11536
+              ]
+            },
+            {
+              "id": "chapter_273_44_45_46:page:0:line:2",
+              "text": "dispute?",
+              "display_text": "ｄｉｓｐｕｔｅ？",
+              "new_offset": 15900,
+              "new_byte_length": 16,
+              "pool_word_offset": 1338,
+              "reference_instructions": [
+                11544
+              ],
+              "expanded_units": 8,
+              "owned_reference_instructions": [
+                11544
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 191
+      },
+      {
+        "id": "chapter_273_47",
+        "resource_rows": [
+          47
+        ],
+        "source_offsets": [
+          14112
+        ],
+        "original_span": [
+          11630,
+          11646
+        ],
+        "original_span_sha256": "83d1da81af0d6ccdb096d34b99dcd062fc3e64bba14a85896da9a7c12a25fc20",
+        "display_helper_word": 2030,
+        "text": "...!",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 11646,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_47:page:0:line:0",
+              "text": "...!",
+              "display_text": "．．．！",
+              "new_offset": 15924,
+              "new_byte_length": 8,
+              "pool_word_offset": 1350,
+              "reference_instructions": [
+                11630
+              ],
+              "expanded_units": 4,
+              "owned_reference_instructions": [
+                11630
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 14
+      },
+      {
+        "id": "chapter_273_48_49_50",
+        "resource_rows": [
+          48,
+          49,
+          50
+        ],
+        "source_offsets": [
+          14124,
+          14144,
+          14166
+        ],
+        "original_span": [
+          11666,
+          11698
+        ],
+        "original_span_sha256": "11ecf7f30a80cd40031623e5689caa03bab43d13172fefe9c35aad6c2c5f952b",
+        "display_helper_word": 2030,
+        "text": "From that expression, it seems nothing has been resolved at all.",
+        "code_size": 0,
+        "inline_prefix_size": 32,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 11698,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_48_49_50:page:0:line:0",
+              "text": "From that expression, it",
+              "display_text": "Ｆｒｏｍ　ｔｈａｔ　ｅｘｐｒｅｓｓｉｏｎ，　ｉｔ",
+              "new_offset": 13656,
+              "new_byte_length": 48,
+              "pool_word_offset": 216,
+              "reference_instructions": [
+                11666
+              ],
+              "expanded_units": 24,
+              "owned_reference_instructions": [
+                11666
+              ]
+            },
+            {
+              "id": "chapter_273_48_49_50:page:0:line:1",
+              "text": "seems nothing has been",
+              "display_text": "ｓｅｅｍｓ　ｎｏｔｈｉｎｇ　ｈａｓ　ｂｅｅｎ",
+              "new_offset": 14524,
+              "new_byte_length": 44,
+              "pool_word_offset": 650,
+              "reference_instructions": [
+                11674
+              ],
+              "expanded_units": 22,
+              "owned_reference_instructions": [
+                11674
+              ]
+            },
+            {
+              "id": "chapter_273_48_49_50:page:0:line:2",
+              "text": "resolved at all.",
+              "display_text": "ｒｅｓｏｌｖｅｄ　ａｔ　ａｌｌ．",
+              "new_offset": 15484,
+              "new_byte_length": 32,
+              "pool_word_offset": 1130,
+              "reference_instructions": [
+                11682
+              ],
+              "expanded_units": 16,
+              "owned_reference_instructions": [
+                11682
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 206
+      },
+      {
+        "id": "chapter_273_51_52_53",
+        "resource_rows": [
+          51,
+          52,
+          53
+        ],
+        "source_offsets": [
+          14180,
+          14198,
+          14222
+        ],
+        "original_span": [
+          11718,
+          11750
+        ],
+        "original_span_sha256": "2ee98874aacc6b825fbb5fe8ac892438de4ef21aeae8ee6d4c5021838e3424bf",
+        "display_helper_word": 2030,
+        "text": "That won't do, will it? That hardly suits you, who loves everyone getting along...",
+        "code_size": 24,
+        "inline_prefix_size": 28,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": 13200,
+        "return_instruction": 11750,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_51_52_53:page:0:line:0",
+              "text": "That won't do, will it?",
+              "display_text": "Ｔｈａｔ　ｗｏｎ’ｔ　ｄｏ，　ｗｉｌｌ　ｉｔ？",
+              "new_offset": 13956,
+              "new_byte_length": 46,
+              "pool_word_offset": 366,
+              "reference_instructions": [
+                11718
+              ],
+              "expanded_units": 23,
+              "owned_reference_instructions": [
+                11718
+              ]
+            },
+            {
+              "id": "chapter_273_51_52_53:page:0:line:1",
+              "text": "That hardly suits you,",
+              "display_text": "Ｔｈａｔ　ｈａｒｄｌｙ　ｓｕｉｔｓ　ｙｏｕ，",
+              "new_offset": 14386,
+              "new_byte_length": 44,
+              "pool_word_offset": 581,
+              "reference_instructions": [
+                11726
+              ],
+              "expanded_units": 22,
+              "owned_reference_instructions": [
+                11726
+              ]
+            },
+            {
+              "id": "chapter_273_51_52_53:page:0:line:2",
+              "text": "who loves everyone",
+              "display_text": "ｗｈｏ　ｌｏｖｅｓ　ｅｖｅｒｙｏｎｅ",
+              "new_offset": 15200,
+              "new_byte_length": 36,
+              "pool_word_offset": 988,
+              "reference_instructions": [
+                11734
+              ],
+              "expanded_units": 18,
+              "owned_reference_instructions": [
+                11734
+              ]
+            }
+          ],
+          [
+            {
+              "id": "chapter_273_51_52_53:page:1:line:0",
+              "text": "getting along...",
+              "display_text": "ｇｅｔｔｉｎｇ　ａｌｏｎｇ．．．",
+              "new_offset": 15450,
+              "new_byte_length": 32,
+              "pool_word_offset": 1113,
+              "reference_instructions": [
+                13204
+              ],
+              "expanded_units": 16,
+              "owned_reference_instructions": [
+                13204
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 179
+      },
+      {
+        "id": "chapter_273_54",
+        "resource_rows": [
+          54
+        ],
+        "source_offsets": [
+          14244
+        ],
+        "original_span": [
+          11770,
+          11786
+        ],
+        "original_span_sha256": "3b94d4adc4aa5e8d700c985e82402a276e74b7c87aa11f783e903081df981df3",
+        "display_helper_word": 2030,
+        "text": "Ahahahahaha! ♪",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 11786,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_54:page:0:line:0",
+              "text": "Ahahahahaha! ♪",
+              "display_text": "Ａｈａｈａｈａｈａｈａ！　♪",
+              "new_offset": 15642,
+              "new_byte_length": 28,
+              "pool_word_offset": 1209,
+              "reference_instructions": [
+                11770
+              ],
+              "expanded_units": 14,
+              "owned_reference_instructions": [
+                11770
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 140
+      },
+      {
+        "id": "chapter_273_55",
+        "resource_rows": [
+          55
+        ],
+        "source_offsets": [
+          14264
+        ],
+        "original_span": [
+          11998,
+          12014
+        ],
+        "original_span_sha256": "54d54cd20f46a1d3c83c1acc6975e5580b7a89fea4622d19d57618396f75da7c",
+        "display_helper_word": 2058,
+        "text": "Ishlar...!!",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12014,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_55:page:0:line:0",
+              "text": "Ishlar...!!",
+              "display_text": "Ｉｓｈｌａｒ．．．！！",
+              "new_offset": 15754,
+              "new_byte_length": 22,
+              "pool_word_offset": 1265,
+              "reference_instructions": [
+                11998
+              ],
+              "expanded_units": 11,
+              "owned_reference_instructions": [
+                11998
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 60
+      },
+      {
+        "id": "chapter_273_56_57",
+        "resource_rows": [
+          56,
+          57
+        ],
+        "source_offsets": [
+          14284,
+          14304
+        ],
+        "original_span": [
+          12032,
+          12056
+        ],
+        "original_span_sha256": "66457d40a4e5bffe992f578886156413fe0f39d429b30a8b116b59a2c7bfcc34",
+        "display_helper_word": 2030,
+        "text": "Are you going to cut me? Me...?",
+        "code_size": 0,
+        "inline_prefix_size": 24,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12056,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_56_57:page:0:line:0",
+              "text": "Are you going to cut",
+              "display_text": "Ａｒｅ　ｙｏｕ　ｇｏｉｎｇ　ｔｏ　ｃｕｔ",
+              "new_offset": 14790,
+              "new_byte_length": 40,
+              "pool_word_offset": 783,
+              "reference_instructions": [
+                12032
+              ],
+              "expanded_units": 20,
+              "owned_reference_instructions": [
+                12032
+              ]
+            },
+            {
+              "id": "chapter_273_56_57:page:0:line:1",
+              "text": "me? Me...?",
+              "display_text": "ｍｅ？　Ｍｅ．．．？",
+              "new_offset": 15800,
+              "new_byte_length": 20,
+              "pool_word_offset": 1288,
+              "reference_instructions": [
+                12040
+              ],
+              "expanded_units": 10,
+              "owned_reference_instructions": [
+                12040
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 170
+      },
+      {
+        "id": "chapter_273_58",
+        "resource_rows": [
+          58
+        ],
+        "source_offsets": [
+          14316
+        ],
+        "original_span": [
+          12124,
+          12140
+        ],
+        "original_span_sha256": "3731c81ba8e4a707c6590a87aac773bd6721c43d6612600df9d38a476748607d",
+        "display_helper_word": 2058,
+        "text": "...!?",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12140,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_58:page:0:line:0",
+              "text": "...!?",
+              "display_text": "．．．！？",
+              "new_offset": 15976,
+              "new_byte_length": 10,
+              "pool_word_offset": 1376,
+              "reference_instructions": [
+                12124
+              ],
+              "expanded_units": 5,
+              "owned_reference_instructions": [
+                12124
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 24
+      },
+      {
+        "id": "chapter_273_59_60",
+        "resource_rows": [
+          59,
+          60
+        ],
+        "source_offsets": [
+          14330,
+          14346
+        ],
+        "original_span": [
+          12274,
+          12298
+        ],
+        "original_span_sha256": "c00a3bcd947feee25cc7088786be8e5c610eb5952f901211c400fae3dbf87083",
+        "display_helper_word": 2030,
+        "text": "...See? You can't.",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12298,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_59_60:page:0:line:0",
+              "text": "...See? You can't.",
+              "display_text": "．．．Ｓｅｅ？　Ｙｏｕ　ｃａｎ’ｔ．",
+              "new_offset": 15162,
+              "new_byte_length": 36,
+              "pool_word_offset": 969,
+              "reference_instructions": [
+                12274
+              ],
+              "expanded_units": 18,
+              "owned_reference_instructions": [
+                12274
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 141
+      },
+      {
+        "id": "chapter_273_61_62_63",
+        "resource_rows": [
+          61,
+          62,
+          63
+        ],
+        "source_offsets": [
+          14366,
+          14384,
+          14406
+        ],
+        "original_span": [
+          12318,
+          12350
+        ],
+        "original_span_sha256": "9066882729b211c25e3e1de418d05f59be9c1096ab0473cd4752ecccc9abd6bd",
+        "display_helper_word": 2030,
+        "text": "You're not suited for it. You have no right to wield that sword.",
+        "code_size": 0,
+        "inline_prefix_size": 32,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12350,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_61_62_63:page:0:line:0",
+              "text": "You're not suited for it.",
+              "display_text": "Ｙｏｕ’ｒｅ　ｎｏｔ　ｓｕｉｔｅｄ　ｆｏｒ　ｉｔ．",
+              "new_offset": 13604,
+              "new_byte_length": 50,
+              "pool_word_offset": 190,
+              "reference_instructions": [
+                12318
+              ],
+              "expanded_units": 25,
+              "owned_reference_instructions": [
+                12318
+              ]
+            },
+            {
+              "id": "chapter_273_61_62_63:page:0:line:1",
+              "text": "You have no right to",
+              "display_text": "Ｙｏｕ　ｈａｖｅ　ｎｏ　ｒｉｇｈｔ　ｔｏ",
+              "new_offset": 14916,
+              "new_byte_length": 40,
+              "pool_word_offset": 846,
+              "reference_instructions": [
+                12326
+              ],
+              "expanded_units": 20,
+              "owned_reference_instructions": [
+                12326
+              ]
+            },
+            {
+              "id": "chapter_273_61_62_63:page:0:line:2",
+              "text": "wield that sword.",
+              "display_text": "ｗｉｅｌｄ　ｔｈａｔ　ｓｗｏｒｄ．",
+              "new_offset": 15346,
+              "new_byte_length": 34,
+              "pool_word_offset": 1061,
+              "reference_instructions": [
+                12334
+              ],
+              "expanded_units": 17,
+              "owned_reference_instructions": [
+                12334
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 192
+      },
+      {
+        "id": "chapter_273_64",
+        "resource_rows": [
+          64
+        ],
+        "source_offsets": [
+          14428
+        ],
+        "original_span": [
+          12350,
+          12366
+        ],
+        "original_span_sha256": "a4b1167b24de6c5d91000c8a83ed8ef7b0ce61de45a7dbd1575082590b27fa81",
+        "display_helper_word": 2030,
+        "text": "......",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12366,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_64:page:0:line:0",
+              "text": "......",
+              "display_text": "．．．．．．",
+              "new_offset": 15934,
+              "new_byte_length": 12,
+              "pool_word_offset": 1355,
+              "reference_instructions": [
+                12350,
+                12588
+              ],
+              "expanded_units": 6,
+              "owned_reference_instructions": [
+                12350
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 20
+      },
+      {
+        "id": "chapter_273_65_66",
+        "resource_rows": [
+          65,
+          66
+        ],
+        "source_offsets": [
+          14442,
+          14464
+        ],
+        "original_span": [
+          12384,
+          12408
+        ],
+        "original_span_sha256": "3d847ec8f27c61d6d0e6fbe4cc5c6c8017805960e55b85c10da82b38d45ebc5a",
+        "display_helper_word": 2030,
+        "text": "Take my advice. Give me the sword.",
+        "code_size": 0,
+        "inline_prefix_size": 24,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12408,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_65_66:page:0:line:0",
+              "text": "Take my advice. Give",
+              "display_text": "Ｔａｋｅ　ｍｙ　ａｄｖｉｃｅ．　Ｇｉｖｅ",
+              "new_offset": 14874,
+              "new_byte_length": 40,
+              "pool_word_offset": 825,
+              "reference_instructions": [
+                12384
+              ],
+              "expanded_units": 20,
+              "owned_reference_instructions": [
+                12384
+              ]
+            },
+            {
+              "id": "chapter_273_65_66:page:0:line:1",
+              "text": "me the sword.",
+              "display_text": "ｍｅ　ｔｈｅ　ｓｗｏｒｄ．",
+              "new_offset": 15700,
+              "new_byte_length": 26,
+              "pool_word_offset": 1238,
+              "reference_instructions": [
+                12392
+              ],
+              "expanded_units": 13,
+              "owned_reference_instructions": [
+                12392
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 179
+      },
+      {
+        "id": "chapter_273_67_68",
+        "resource_rows": [
+          67,
+          68
+        ],
+        "source_offsets": [
+          14484,
+          14502
+        ],
+        "original_span": [
+          12426,
+          12450
+        ],
+        "original_span_sha256": "0fd8c0ce3247e5897b2d497b06b8f7c530b73c3e7fcd9e18941acae542c4c22c",
+        "display_helper_word": 2030,
+        "text": "You're too kind. You...",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12450,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_67_68:page:0:line:0",
+              "text": "You're too kind. You...",
+              "display_text": "Ｙｏｕ’ｒｅ　ｔｏｏ　ｋｉｎｄ．　Ｙｏｕ．．．",
+              "new_offset": 14052,
+              "new_byte_length": 46,
+              "pool_word_offset": 414,
+              "reference_instructions": [
+                12426
+              ],
+              "expanded_units": 23,
+              "owned_reference_instructions": [
+                12426
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 175
+      },
+      {
+        "id": "chapter_273_69_70",
+        "resource_rows": [
+          69,
+          70
+        ],
+        "source_offsets": [
+          14514,
+          14532
+        ],
+        "original_span": [
+          12470,
+          12494
+        ],
+        "original_span_sha256": "2e31bc301d9a9e1ebf6a739f293d8e83c6eb9414273e32585a9b9e40e3b5534c",
+        "display_helper_word": 2030,
+        "text": "You'll never become like me.",
+        "code_size": 0,
+        "inline_prefix_size": 24,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12494,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_69_70:page:0:line:0",
+              "text": "You'll never become like",
+              "display_text": "Ｙｏｕ’ｌｌ　ｎｅｖｅｒ　ｂｅｃｏｍｅ　ｌｉｋｅ",
+              "new_offset": 13806,
+              "new_byte_length": 48,
+              "pool_word_offset": 291,
+              "reference_instructions": [
+                12470
+              ],
+              "expanded_units": 24,
+              "owned_reference_instructions": [
+                12470
+              ]
+            },
+            {
+              "id": "chapter_273_69_70:page:0:line:1",
+              "text": "me.",
+              "display_text": "ｍｅ．",
+              "new_offset": 14992,
+              "new_byte_length": 6,
+              "pool_word_offset": 884,
+              "reference_instructions": [
+                12478
+              ],
+              "expanded_units": 3,
+              "owned_reference_instructions": [
+                12478
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 201
+      },
+      {
+        "id": "chapter_273_71",
+        "resource_rows": [
+          71
+        ],
+        "source_offsets": [
+          14552
+        ],
+        "original_span": [
+          12560,
+          12576
+        ],
+        "original_span_sha256": "b25a67cfc65f2e0a03d175f1804b0bab62a06cf989e5926114bf665745a21287",
+        "display_helper_word": 2030,
+        "text": "Eh...",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12576,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_71:page:0:line:0",
+              "text": "Eh...",
+              "display_text": "Ｅｈ．．．",
+              "new_offset": 16000,
+              "new_byte_length": 10,
+              "pool_word_offset": 1388,
+              "reference_instructions": [
+                12560
+              ],
+              "expanded_units": 5,
+              "owned_reference_instructions": [
+                12560
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 31
+      },
+      {
+        "id": "chapter_273_72",
+        "resource_rows": [
+          72
+        ],
+        "source_offsets": [
+          14562
+        ],
+        "original_span": [
+          12588,
+          12604
+        ],
+        "original_span_sha256": "334225010a62de338351fd150c45cb7dddbc2c7d3def323f236cab95be8ee9cc",
+        "display_helper_word": 2030,
+        "text": "......",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12604,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_72:page:0:line:0",
+              "text": "......",
+              "display_text": "．．．．．．",
+              "new_offset": 15934,
+              "new_byte_length": 12,
+              "pool_word_offset": 1355,
+              "reference_instructions": [
+                12350,
+                12588
+              ],
+              "expanded_units": 6,
+              "owned_reference_instructions": [
+                12588
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 20
+      },
+      {
+        "id": "chapter_273_73",
+        "resource_rows": [
+          73
+        ],
+        "source_offsets": [
+          14576
+        ],
+        "original_span": [
+          12622,
+          12638
+        ],
+        "original_span_sha256": "ed55d704e9a44127833ab6ce8d01da9904ae2a957e55c73cf048c2821c03a2a2",
+        "display_helper_word": 2030,
+        "text": "Come on...",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12638,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_73:page:0:line:0",
+              "text": "Come on...",
+              "display_text": "Ｃｏｍｅ　ｏｎ．．．",
+              "new_offset": 15778,
+              "new_byte_length": 20,
+              "pool_word_offset": 1277,
+              "reference_instructions": [
+                12622
+              ],
+              "expanded_units": 10,
+              "owned_reference_instructions": [
+                12622
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 84
+      },
+      {
+        "id": "chapter_273_74_75",
+        "resource_rows": [
+          74,
+          75
+        ],
+        "source_offsets": [
+          14588,
+          14606
+        ],
+        "original_span": [
+          12660,
+          12684
+        ],
+        "original_span_sha256": "6c0f8ed87794808a550ec404f2eb73548232692c18c766f198bb20035cd0e54c",
+        "display_helper_word": 2030,
+        "text": "I can't give it to you... Never...",
+        "code_size": 0,
+        "inline_prefix_size": 24,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12684,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_74_75:page:0:line:0",
+              "text": "I can't give it to you...",
+              "display_text": "Ｉ　ｃａｎ’ｔ　ｇｉｖｅ　ｉｔ　ｔｏ　ｙｏｕ．．．",
+              "new_offset": 13500,
+              "new_byte_length": 50,
+              "pool_word_offset": 138,
+              "reference_instructions": [
+                12660
+              ],
+              "expanded_units": 25,
+              "owned_reference_instructions": [
+                12660
+              ]
+            },
+            {
+              "id": "chapter_273_74_75:page:0:line:1",
+              "text": "Never...",
+              "display_text": "Ｎｅｖｅｒ．．．",
+              "new_offset": 15882,
+              "new_byte_length": 16,
+              "pool_word_offset": 1329,
+              "reference_instructions": [
+                12668,
+                12750
+              ],
+              "expanded_units": 8,
+              "owned_reference_instructions": [
+                12668
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 172
+      },
+      {
+        "id": "chapter_273_76_77_78",
+        "resource_rows": [
+          76,
+          77,
+          78
+        ],
+        "source_offsets": [
+          14620,
+          14638,
+          14664
+        ],
+        "original_span": [
+          12696,
+          12728
+        ],
+        "original_span_sha256": "3beeb01fd7fbdaee98fca13ed1721a1fffaffb449b680be9818f81a5eca741f3",
+        "display_helper_word": 2058,
+        "text": "Even if I'm not suited for it, even if I have no right, I still have to do this!",
+        "code_size": 0,
+        "inline_prefix_size": 32,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12728,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_76_77_78:page:0:line:0",
+              "text": "Even if I'm not suited for",
+              "display_text": "Ｅｖｅｎ　ｉｆ　Ｉ’ｍ　ｎｏｔ　ｓｕｉｔｅｄ　ｆｏｒ",
+              "new_offset": 13284,
+              "new_byte_length": 52,
+              "pool_word_offset": 30,
+              "reference_instructions": [
+                12696,
+                12778
+              ],
+              "expanded_units": 26,
+              "owned_reference_instructions": [
+                12696
+              ]
+            },
+            {
+              "id": "chapter_273_76_77_78:page:0:line:1",
+              "text": "it, even if I have no right,",
+              "display_text": "ｉｔ，　ｅｖｅｎ　ｉｆ　Ｉ　ｈａｖｅ　ｎｏ　ｒｉｇｈｔ，",
+              "new_offset": 13226,
+              "new_byte_length": 56,
+              "pool_word_offset": 1,
+              "reference_instructions": [
+                12704,
+                12786
+              ],
+              "expanded_units": 28,
+              "owned_reference_instructions": [
+                12704
+              ]
+            },
+            {
+              "id": "chapter_273_76_77_78:page:0:line:2",
+              "text": "I still have to do this!",
+              "display_text": "Ｉ　ｓｔｉｌｌ　ｈａｖｅ　ｔｏ　ｄｏ　ｔｈｉｓ！",
+              "new_offset": 13756,
+              "new_byte_length": 48,
+              "pool_word_offset": 266,
+              "reference_instructions": [
+                12712,
+                12794
+              ],
+              "expanded_units": 24,
+              "owned_reference_instructions": [
+                12712
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 206
+      },
+      {
+        "id": "chapter_273_79_80",
+        "resource_rows": [
+          79,
+          80
+        ],
+        "source_offsets": [
+          14690,
+          14708
+        ],
+        "original_span": [
+          12742,
+          12766
+        ],
+        "original_span_sha256": "31e61370638f9afa1c655a0776201da52746e456feb88381c8d7ea91f6675adf",
+        "display_helper_word": 2030,
+        "text": "I cannot give it to you... Never...",
+        "code_size": 0,
+        "inline_prefix_size": 24,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12766,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_79_80:page:0:line:0",
+              "text": "I cannot give it to you...",
+              "display_text": "Ｉ　ｃａｎｎｏｔ　ｇｉｖｅ　ｉｔ　ｔｏ　ｙｏｕ．．．",
+              "new_offset": 13338,
+              "new_byte_length": 52,
+              "pool_word_offset": 57,
+              "reference_instructions": [
+                12742
+              ],
+              "expanded_units": 26,
+              "owned_reference_instructions": [
+                12742
+              ]
+            },
+            {
+              "id": "chapter_273_79_80:page:0:line:1",
+              "text": "Never...",
+              "display_text": "Ｎｅｖｅｒ．．．",
+              "new_offset": 15882,
+              "new_byte_length": 16,
+              "pool_word_offset": 1329,
+              "reference_instructions": [
+                12668,
+                12750
+              ],
+              "expanded_units": 8,
+              "owned_reference_instructions": [
+                12750
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 188
+      },
+      {
+        "id": "chapter_273_81_82_83",
+        "resource_rows": [
+          81,
+          82,
+          83
+        ],
+        "source_offsets": [
+          14722,
+          14740,
+          14766
+        ],
+        "original_span": [
+          12778,
+          12810
+        ],
+        "original_span_sha256": "3e6c38b6e58e1203a73768b574a46c09eb58d83dae799dccf4099f584d8d50ab",
+        "display_helper_word": 2058,
+        "text": "Even if I'm not suited for it, even if I have no right, I still have to do this!",
+        "code_size": 0,
+        "inline_prefix_size": 32,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12810,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_81_82_83:page:0:line:0",
+              "text": "Even if I'm not suited for",
+              "display_text": "Ｅｖｅｎ　ｉｆ　Ｉ’ｍ　ｎｏｔ　ｓｕｉｔｅｄ　ｆｏｒ",
+              "new_offset": 13284,
+              "new_byte_length": 52,
+              "pool_word_offset": 30,
+              "reference_instructions": [
+                12696,
+                12778
+              ],
+              "expanded_units": 26,
+              "owned_reference_instructions": [
+                12778
+              ]
+            },
+            {
+              "id": "chapter_273_81_82_83:page:0:line:1",
+              "text": "it, even if I have no right,",
+              "display_text": "ｉｔ，　ｅｖｅｎ　ｉｆ　Ｉ　ｈａｖｅ　ｎｏ　ｒｉｇｈｔ，",
+              "new_offset": 13226,
+              "new_byte_length": 56,
+              "pool_word_offset": 1,
+              "reference_instructions": [
+                12704,
+                12786
+              ],
+              "expanded_units": 28,
+              "owned_reference_instructions": [
+                12786
+              ]
+            },
+            {
+              "id": "chapter_273_81_82_83:page:0:line:2",
+              "text": "I still have to do this!",
+              "display_text": "Ｉ　ｓｔｉｌｌ　ｈａｖｅ　ｔｏ　ｄｏ　ｔｈｉｓ！",
+              "new_offset": 13756,
+              "new_byte_length": 48,
+              "pool_word_offset": 266,
+              "reference_instructions": [
+                12712,
+                12794
+              ],
+              "expanded_units": 24,
+              "owned_reference_instructions": [
+                12794
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 206
+      },
+      {
+        "id": "chapter_273_84_85",
+        "resource_rows": [
+          84,
+          85
+        ],
+        "source_offsets": [
+          14794,
+          14808
+        ],
+        "original_span": [
+          12830,
+          12854
+        ],
+        "original_span_sha256": "d2c4dee64d291e67764593da076eae0d91a18d8131ed36331ff893ce0e6abbaa",
+        "display_helper_word": 2030,
+        "text": "Hmm... You \"have to,\" do you?",
+        "code_size": 0,
+        "inline_prefix_size": 24,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12854,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_84_85:page:0:line:0",
+              "text": "Hmm... You \"have to,\" do",
+              "display_text": "Ｈｍｍ．．．　Ｙｏｕ　”ｈａｖｅ　ｔｏ，”　ｄｏ",
+              "new_offset": 13706,
+              "new_byte_length": 48,
+              "pool_word_offset": 241,
+              "reference_instructions": [
+                12830
+              ],
+              "expanded_units": 24,
+              "owned_reference_instructions": [
+                12830
+              ]
+            },
+            {
+              "id": "chapter_273_84_85:page:0:line:1",
+              "text": "you?",
+              "display_text": "ｙｏｕ？",
+              "new_offset": 16024,
+              "new_byte_length": 8,
+              "pool_word_offset": 1400,
+              "reference_instructions": [
+                12838
+              ],
+              "expanded_units": 4,
+              "owned_reference_instructions": [
+                12838
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 197
+      },
+      {
+        "id": "chapter_273_86",
+        "resource_rows": [
+          86
+        ],
+        "source_offsets": [
+          14830
+        ],
+        "original_span": [
+          12924,
+          12940
+        ],
+        "original_span_sha256": "e4cc2174752702748b7939201729601b1ea6bd32cac5ad61a51686e8e49b2ae1",
+        "display_helper_word": 2030,
+        "text": "Ah...",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12940,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_86:page:0:line:0",
+              "text": "Ah...",
+              "display_text": "Ａｈ．．．",
+              "new_offset": 15988,
+              "new_byte_length": 10,
+              "pool_word_offset": 1382,
+              "reference_instructions": [
+                12924
+              ],
+              "expanded_units": 5,
+              "owned_reference_instructions": [
+                12924
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 35
+      },
+      {
+        "id": "chapter_273_87_88_89",
+        "resource_rows": [
+          87,
+          88,
+          89
+        ],
+        "source_offsets": [
+          14840,
+          14856,
+          14876
+        ],
+        "original_span": [
+          12960,
+          12992
+        ],
+        "original_span_sha256": "4f9d0442bae7d02b2a4cda145ae8065752f8f16d20c333d5da34721d4abe7dc4",
+        "display_helper_word": 2030,
+        "text": "Then suffer to the end, suffer and struggle all you like.",
+        "code_size": 0,
+        "inline_prefix_size": 32,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 12992,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_87_88_89:page:0:line:0",
+              "text": "Then suffer to the end,",
+              "display_text": "Ｔｈｅｎ　ｓｕｆｆｅｒ　ｔｏ　ｔｈｅ　ｅｎｄ，",
+              "new_offset": 14004,
+              "new_byte_length": 46,
+              "pool_word_offset": 390,
+              "reference_instructions": [
+                12960
+              ],
+              "expanded_units": 23,
+              "owned_reference_instructions": [
+                12960
+              ]
+            },
+            {
+              "id": "chapter_273_87_88_89:page:0:line:1",
+              "text": "suffer and struggle all",
+              "display_text": "ｓｕｆｆｅｒ　ａｎｄ　ｓｔｒｕｇｇｌｅ　ａｌｌ",
+              "new_offset": 14100,
+              "new_byte_length": 46,
+              "pool_word_offset": 438,
+              "reference_instructions": [
+                12968
+              ],
+              "expanded_units": 23,
+              "owned_reference_instructions": [
+                12968
+              ]
+            },
+            {
+              "id": "chapter_273_87_88_89:page:0:line:2",
+              "text": "you like.",
+              "display_text": "ｙｏｕ　ｌｉｋｅ．",
+              "new_offset": 15862,
+              "new_byte_length": 18,
+              "pool_word_offset": 1319,
+              "reference_instructions": [
+                12976
+              ],
+              "expanded_units": 9,
+              "owned_reference_instructions": [
+                12976
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 196
+      },
+      {
+        "id": "chapter_273_90",
+        "resource_rows": [
+          90
+        ],
+        "source_offsets": [
+          14896
+        ],
+        "original_span": [
+          13012,
+          13028
+        ],
+        "original_span_sha256": "00a7702fdfbaa496ed2caf5e1bcfb7a3b1ed64acbdf81bbf74fb4aa447e2bb44",
+        "display_helper_word": 2030,
+        "text": "Ahahahahaha...",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 13028,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_90:page:0:line:0",
+              "text": "Ahahahahaha...",
+              "display_text": "Ａｈａｈａｈａｈａｈａ．．．",
+              "new_offset": 15612,
+              "new_byte_length": 28,
+              "pool_word_offset": 1194,
+              "reference_instructions": [
+                13012
+              ],
+              "expanded_units": 14,
+              "owned_reference_instructions": [
+                13012
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 125
+      },
+      {
+        "id": "chapter_273_91",
+        "resource_rows": [
+          91
+        ],
+        "source_offsets": [
+          14918
+        ],
+        "original_span": [
+          13076,
+          13092
+        ],
+        "original_span_sha256": "8b59a0a78dc6a6cf5a01e788f504bf7ff1d2965d416c77512b747a4655238eeb",
+        "display_helper_word": 2030,
+        "text": "......!",
+        "code_size": 0,
+        "inline_prefix_size": 16,
+        "measured_pixel_limit": 208,
+        "max_lines": 3,
+        "trampoline_offset": null,
+        "return_instruction": 13092,
+        "pages": [
+          [
+            {
+              "id": "chapter_273_91:page:0:line:0",
+              "text": "......!",
+              "display_text": "．．．．．．！",
+              "new_offset": 15918,
+              "new_byte_length": 14,
+              "pool_word_offset": 1347,
+              "reference_instructions": [
+                13076
+              ],
+              "expanded_units": 7,
+              "owned_reference_instructions": [
+                13076
+              ]
+            }
+          ]
+        ],
+        "max_display_units": 31,
+        "max_lines_per_page": 3,
+        "layout_profile": "story_expanded_tokens_054",
+        "maximum_measured_pixels": 23
+      }
+    ],
+    "runtime_allocation_verified": false,
+    "pool_compaction": {
+      "before_bytes": 21394,
+      "after_bytes": 16034,
+      "saved_bytes": 5360,
+      "exact_dedup_bytes": 16066,
+      "suffix_saved_bytes": 32,
+      "suffix_shared_strings": 4,
+      "live_string_references": 94,
+      "unique_live_strings": 81,
+      "all_live_string_bytes_preserved": true,
+      "all_non_string_instructions_preserved": true,
+      "archived_logical_changes": [
+        {
+          "old_offset": 13412,
+          "new_offset": 15450,
+          "text": "That time...",
+          "display_text": "Ｔｈａｔ　ｔｉｍｅ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "0ac0ec7d3cbd4bdf7dba9af10974e490096ff71031ed296f94059d92f5962548",
+          "old_byte_length": 12,
+          "new_byte_length": 24,
+          "pool_word_offset": 1113,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003464",
+          "original_reference_instructions": [
+            10570
+          ],
+          "layout_group_id": "chapter_273_11_12_13"
+        },
+        {
+          "old_offset": 13426,
+          "new_offset": 15476,
+          "text": "when the ruins' power nearly",
+          "display_text": "ｗｈｅｎ　ｔｈｅ　ｒｕｉｎｓ’　ｐｏｗｅｒ　ｎｅａｒｌｙ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "60d29678e8c8850396f408938fb5e631da44a581864fa312f73e814c1e7720f5",
+          "old_byte_length": 16,
+          "new_byte_length": 56,
+          "pool_word_offset": 1126,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003472",
+          "original_reference_instructions": [
+            10578
+          ],
+          "layout_group_id": "chapter_273_11_12_13"
+        },
+        {
+          "old_offset": 13444,
+          "new_offset": 15534,
+          "text": "erased me...",
+          "display_text": "ｅｒａｓｅｄ　ｍｅ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "72f23efccdcc041cccf7f3cd722c7603809c5da7a84c858143c137d4c310db7b",
+          "old_byte_length": 20,
+          "new_byte_length": 24,
+          "pool_word_offset": 1155,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003484",
+          "original_reference_instructions": [
+            10586
+          ],
+          "layout_group_id": "chapter_273_11_12_13"
+        },
+        {
+          "old_offset": 13466,
+          "new_offset": 15560,
+          "text": "That time...",
+          "display_text": "Ｔｈａｔ　ｔｉｍｅ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "0ac0ec7d3cbd4bdf7dba9af10974e490096ff71031ed296f94059d92f5962548",
+          "old_byte_length": 12,
+          "new_byte_length": 24,
+          "pool_word_offset": 1168,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000349a",
+          "original_reference_instructions": [
+            10628
+          ],
+          "layout_group_id": "chapter_273_14_15_16"
+        },
+        {
+          "old_offset": 13480,
+          "new_offset": 15586,
+          "text": "when the ruins' power nearly",
+          "display_text": "ｗｈｅｎ　ｔｈｅ　ｒｕｉｎｓ’　ｐｏｗｅｒ　ｎｅａｒｌｙ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "3ffebc0e1c79b42a6394a02edb56c7293de1e1f0bb18ca2a4cb1694e2eabf904",
+          "old_byte_length": 16,
+          "new_byte_length": 56,
+          "pool_word_offset": 1181,
+          "reference_instructions": [],
+          "id": "00:00273:text:000034a8",
+          "original_reference_instructions": [
+            10636
+          ],
+          "layout_group_id": "chapter_273_14_15_16"
+        },
+        {
+          "old_offset": 13498,
+          "new_offset": 15644,
+          "text": "erased me...",
+          "display_text": "ｅｒａｓｅｄ　ｍｅ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "72f23efccdcc041cccf7f3cd722c7603809c5da7a84c858143c137d4c310db7b",
+          "old_byte_length": 20,
+          "new_byte_length": 24,
+          "pool_word_offset": 1210,
+          "reference_instructions": [],
+          "id": "00:00273:text:000034ba",
+          "original_reference_instructions": [
+            10644
+          ],
+          "layout_group_id": "chapter_273_14_15_16"
+        },
+        {
+          "old_offset": 13520,
+          "new_offset": 15670,
+          "text": "I heard a voice unlike",
+          "display_text": "Ｉ　ｈｅａｒｄ　ａ　ｖｏｉｃｅ　ｕｎｌｉｋｅ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "365ed14d93a6063e6145dadd92a36d67908090ccf99545cee2ec8d694fb6fd73",
+          "old_byte_length": 20,
+          "new_byte_length": 44,
+          "pool_word_offset": 1223,
+          "reference_instructions": [],
+          "id": "00:00273:text:000034d0",
+          "original_reference_instructions": [
+            10730
+          ],
+          "layout_group_id": "chapter_273_17_18"
+        },
+        {
+          "old_offset": 13542,
+          "new_offset": 15716,
+          "text": "the sword's will...",
+          "display_text": "ｔｈｅ　ｓｗｏｒｄ’ｓ　ｗｉｌｌ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "bcdd9e7351ab43093b7a378d40571b581bc886891f86973a9b066e5f2e705e0e",
+          "old_byte_length": 18,
+          "new_byte_length": 38,
+          "pool_word_offset": 1246,
+          "reference_instructions": [],
+          "id": "00:00273:text:000034e6",
+          "original_reference_instructions": [
+            10738
+          ],
+          "layout_group_id": "chapter_273_17_18"
+        },
+        {
+          "old_offset": 13562,
+          "new_offset": 15756,
+          "text": "Just whose voice",
+          "display_text": "Ｊｕｓｔ　ｗｈｏｓｅ　ｖｏｉｃｅ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "4bb04f445828757b68731ff7b938b1e84d98bcfb14a9d65f4397d0cbde46d21d",
+          "old_byte_length": 12,
+          "new_byte_length": 32,
+          "pool_word_offset": 1266,
+          "reference_instructions": [],
+          "id": "00:00273:text:000034fa",
+          "original_reference_instructions": [
+            10754
+          ],
+          "layout_group_id": "chapter_273_19_20"
+        },
+        {
+          "old_offset": 13576,
+          "new_offset": 15790,
+          "text": "was that?",
+          "display_text": "ｗａｓ　ｔｈａｔ？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "143bb9b2b977e905ead9ac71bd3828a32e5c0832b64c5f666c323f2dcdc515ec",
+          "old_byte_length": 20,
+          "new_byte_length": 18,
+          "pool_word_offset": 1283,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003508",
+          "original_reference_instructions": [
+            10762
+          ],
+          "layout_group_id": "chapter_273_19_20"
+        },
+        {
+          "old_offset": 13598,
+          "new_offset": 15810,
+          "text": "Why did it",
+          "display_text": "Ｗｈｙ　ｄｉｄ　ｉｔ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "d4be2432957f657f26dc567c24591cfc9b14d97a9b2f7b14d27d2dad607ed80e",
+          "old_byte_length": 20,
+          "new_byte_length": 20,
+          "pool_word_offset": 1293,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000351e",
+          "original_reference_instructions": [
+            10802
+          ],
+          "layout_group_id": "chapter_273_21_22"
+        },
+        {
+          "old_offset": 13620,
+          "new_offset": 15832,
+          "text": "save me?",
+          "display_text": "ｓａｖｅ　ｍｅ？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "66889a38fbb34bc46fabd9a8af149ed1f78a13cbb28adecfd602b7214b3bdbff",
+          "old_byte_length": 16,
+          "new_byte_length": 16,
+          "pool_word_offset": 1304,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003534",
+          "original_reference_instructions": [
+            10810
+          ],
+          "layout_group_id": "chapter_273_21_22"
+        },
+        {
+          "old_offset": 13638,
+          "new_offset": 15850,
+          "text": "Why did it",
+          "display_text": "Ｗｈｙ　ｄｉｄ　ｉｔ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "c258fa466f1cb9f506505be2f9066e9ab859af8cb7352a42f77aaa42ddeb4213",
+          "old_byte_length": 20,
+          "new_byte_length": 20,
+          "pool_word_offset": 1313,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003546",
+          "original_reference_instructions": [
+            10842
+          ],
+          "layout_group_id": "chapter_273_23_24"
+        },
+        {
+          "old_offset": 13660,
+          "new_offset": 15872,
+          "text": "save me?",
+          "display_text": "ｓａｖｅ　ｍｅ？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "66889a38fbb34bc46fabd9a8af149ed1f78a13cbb28adecfd602b7214b3bdbff",
+          "old_byte_length": 16,
+          "new_byte_length": 16,
+          "pool_word_offset": 1324,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000355c",
+          "original_reference_instructions": [
+            10850
+          ],
+          "layout_group_id": "chapter_273_23_24"
+        },
+        {
+          "old_offset": 13678,
+          "new_offset": 15890,
+          "text": "What a nuisance.",
+          "display_text": "Ｗｈａｔ　ａ　ｎｕｉｓａｎｃｅ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "7a6e39d11e02424d410b4c82150450aed0b2154f86a06281e32684a72ecc150e",
+          "old_byte_length": 18,
+          "new_byte_length": 32,
+          "pool_word_offset": 1333,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000356e",
+          "original_reference_instructions": [
+            10902
+          ],
+          "layout_group_id": "chapter_273_25_26"
+        },
+        {
+          "old_offset": 13698,
+          "new_offset": 15924,
+          "text": "It really takes the cake, doesn't it?",
+          "display_text": "Ｉｔ　ｒｅａｌｌｙ　ｔａｋｅｓ　ｔｈｅ　ｃａｋｅ，　ｄｏｅｓｎ’ｔ　ｉｔ？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "10b7175b19e87cc3ef9e7805cb46fa474e972732a6cbd83623abca9a22c8f4fe",
+          "old_byte_length": 18,
+          "new_byte_length": 74,
+          "pool_word_offset": 1350,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003582",
+          "original_reference_instructions": [
+            10910
+          ],
+          "layout_group_id": "chapter_273_25_26"
+        },
+        {
+          "old_offset": 13718,
+          "new_offset": 16000,
+          "text": "!?",
+          "display_text": "！？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "3c4a100d9c796f7a7a83c9a3588a19e46d5dba776f1861254eaeb3e3c7f8badd",
+          "old_byte_length": 4,
+          "new_byte_length": 4,
+          "pool_word_offset": 1388,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003596",
+          "original_reference_instructions": [
+            10992
+          ],
+          "layout_group_id": "chapter_273_27"
+        },
+        {
+          "old_offset": 13724,
+          "new_offset": 16006,
+          "text": "If you had vanished then,",
+          "display_text": "Ｉｆ　ｙｏｕ　ｈａｄ　ｖａｎｉｓｈｅｄ　ｔｈｅｎ，",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "eebd58f9c0373a45f75d2019ef1b81fd2fe63f16973558d2c23ee8699f8cdfa6",
+          "old_byte_length": 28,
+          "new_byte_length": 50,
+          "pool_word_offset": 1391,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000359c",
+          "original_reference_instructions": [
+            11068
+          ],
+          "layout_group_id": "chapter_273_28_29"
+        },
+        {
+          "old_offset": 13754,
+          "new_offset": 16058,
+          "text": "there would have been less trouble for me.",
+          "display_text": "ｔｈｅｒｅ　ｗｏｕｌｄ　ｈａｖｅ　ｂｅｅｎ　ｌｅｓｓ　ｔｒｏｕｂｌｅ　ｆｏｒ　ｍｅ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "ba91af79164372d7a4e2e007114ad52d4bcb2cd2921fdf5337f1abfee59a25cc",
+          "old_byte_length": 26,
+          "new_byte_length": 84,
+          "pool_word_offset": 1417,
+          "reference_instructions": [],
+          "id": "00:00273:text:000035ba",
+          "original_reference_instructions": [
+            11076
+          ],
+          "layout_group_id": "chapter_273_28_29"
+        },
+        {
+          "old_offset": 13782,
+          "new_offset": 16144,
+          "text": "Ishlar...",
+          "display_text": "Ｉｓｈｌａｒ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "877ba2902ce1356e16a7d3084be444f5ad43b9c6b53767cc0e0b7ba68d229300",
+          "old_byte_length": 12,
+          "new_byte_length": 18,
+          "pool_word_offset": 1460,
+          "reference_instructions": [],
+          "id": "00:00273:text:000035d6",
+          "original_reference_instructions": [
+            11158
+          ],
+          "layout_group_id": "chapter_273_30"
+        },
+        {
+          "old_offset": 13796,
+          "new_offset": 16164,
+          "text": "Though then I couldn't retrieve",
+          "display_text": "Ｔｈｏｕｇｈ　ｔｈｅｎ　Ｉ　ｃｏｕｌｄｎ’ｔ　ｒｅｔｒｉｅｖｅ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "9c18a4a0368df57398bfb75e9b6a35ca966e2cc88586639c0b863d2b61fdc24e",
+          "old_byte_length": 26,
+          "new_byte_length": 62,
+          "pool_word_offset": 1470,
+          "reference_instructions": [],
+          "id": "00:00273:text:000035e4",
+          "original_reference_instructions": [
+            11194
+          ],
+          "layout_group_id": "chapter_273_31_32_33"
+        },
+        {
+          "old_offset": 13824,
+          "new_offset": 16228,
+          "text": "the demonic sword, and Sis",
+          "display_text": "ｔｈｅ　ｄｅｍｏｎｉｃ　ｓｗｏｒｄ，　ａｎｄ　Ｓｉｓ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "efca7d74eaab170bfe666684834bf1c9f9b501c4ba3216cdb4c0b888c711e170",
+          "old_byte_length": 24,
+          "new_byte_length": 52,
+          "pool_word_offset": 1502,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003600",
+          "original_reference_instructions": [
+            11202
+          ],
+          "layout_group_id": "chapter_273_31_32_33"
+        },
+        {
+          "old_offset": 13850,
+          "new_offset": 16282,
+          "text": "would be troubled, wouldn't she?",
+          "display_text": "ｗｏｕｌｄ　ｂｅ　ｔｒｏｕｂｌｅｄ，　ｗｏｕｌｄｎ’ｔ　ｓｈｅ？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "9c84b7cb513a735ec6db02ce1c5ba079cba87b7f809f2cf20ba2cf93ab63068b",
+          "old_byte_length": 24,
+          "new_byte_length": 64,
+          "pool_word_offset": 1529,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000361a",
+          "original_reference_instructions": [
+            11210
+          ],
+          "layout_group_id": "chapter_273_31_32_33"
+        },
+        {
+          "old_offset": 13876,
+          "new_offset": 16348,
+          "text": "That would be inconvenient",
+          "display_text": "Ｔｈａｔ　ｗｏｕｌｄ　ｂｅ　ｉｎｃｏｎｖｅｎｉｅｎｔ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "9f06cc00ef6e521e40382eb68b379a4ddc508c8b02b52c84b190e2acbe2e2fed",
+          "old_byte_length": 20,
+          "new_byte_length": 52,
+          "pool_word_offset": 1562,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003634",
+          "original_reference_instructions": [
+            11246
+          ],
+          "layout_group_id": "chapter_273_34_35"
+        },
+        {
+          "old_offset": 13898,
+          "new_offset": 16402,
+          "text": "for me too...",
+          "display_text": "ｆｏｒ　ｍｅ　ｔｏｏ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "9e525666b379ccc4eca2284b4a124853e05e23798a34c7af9fb96ab8d1c8b68e",
+          "old_byte_length": 14,
+          "new_byte_length": 26,
+          "pool_word_offset": 1589,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000364a",
+          "original_reference_instructions": [
+            11254
+          ],
+          "layout_group_id": "chapter_273_34_35"
+        },
+        {
+          "old_offset": 13914,
+          "new_offset": 16430,
+          "text": "What exactly have you",
+          "display_text": "Ｗｈａｔ　ｅｘａｃｔｌｙ　ｈａｖｅ　ｙｏｕ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "eea13c3b2f5560dbfff357532bd4e6a3258266fcd1794ec2772b01f7dee802f6",
+          "old_byte_length": 16,
+          "new_byte_length": 42,
+          "pool_word_offset": 1603,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000365a",
+          "original_reference_instructions": [
+            11294
+          ],
+          "layout_group_id": "chapter_273_36_37"
+        },
+        {
+          "old_offset": 13932,
+          "new_offset": 16474,
+          "text": "come here for!?",
+          "display_text": "ｃｏｍｅ　ｈｅｒｅ　ｆｏｒ！？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "7e157f0510722ea33dcc933aa60d87f525972def0cedd20809a44086f8609fa9",
+          "old_byte_length": 12,
+          "new_byte_length": 30,
+          "pool_word_offset": 1625,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000366c",
+          "original_reference_instructions": [
+            11302
+          ],
+          "layout_group_id": "chapter_273_36_37"
+        },
+        {
+          "old_offset": 13946,
+          "new_offset": 16506,
+          "text": "What exactly have you",
+          "display_text": "Ｗｈａｔ　ｅｘａｃｔｌｙ　ｈａｖｅ　ｙｏｕ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "eea13c3b2f5560dbfff357532bd4e6a3258266fcd1794ec2772b01f7dee802f6",
+          "old_byte_length": 16,
+          "new_byte_length": 42,
+          "pool_word_offset": 1641,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000367a",
+          "original_reference_instructions": [
+            11334
+          ],
+          "layout_group_id": "chapter_273_38_39"
+        },
+        {
+          "old_offset": 13964,
+          "new_offset": 16550,
+          "text": "come here for!?",
+          "display_text": "ｃｏｍｅ　ｈｅｒｅ　ｆｏｒ！？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "c5e428402aacf90a6637991a17cea10dd0ff5a3c97ec30d6ba9947583ad47f73",
+          "old_byte_length": 14,
+          "new_byte_length": 30,
+          "pool_word_offset": 1663,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000368c",
+          "original_reference_instructions": [
+            11342
+          ],
+          "layout_group_id": "chapter_273_38_39"
+        },
+        {
+          "old_offset": 13980,
+          "new_offset": 16582,
+          "text": "What a greeting.",
+          "display_text": "Ｗｈａｔ　ａ　ｇｒｅｅｔｉｎｇ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "1e0d8e401b3985bc4fa99659156bc6ecdd66b522eb71d97f2898f70ac516939c",
+          "old_byte_length": 14,
+          "new_byte_length": 32,
+          "pool_word_offset": 1679,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000369c",
+          "original_reference_instructions": [
+            11376
+          ],
+          "layout_group_id": "chapter_273_40"
+        },
+        {
+          "old_offset": 13996,
+          "new_offset": 16616,
+          "text": "I only came because I was worried",
+          "display_text": "Ｉ　ｏｎｌｙ　ｃａｍｅ　ｂｅｃａｕｓｅ　Ｉ　ｗａｓ　ｗｏｒｒｉｅｄ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "cdbaa2f499d310d76129552ed8be004d8387f70492e506f704767f9e3b15249a",
+          "old_byte_length": 24,
+          "new_byte_length": 66,
+          "pool_word_offset": 1696,
+          "reference_instructions": [],
+          "id": "00:00273:text:000036ac",
+          "original_reference_instructions": [
+            11476
+          ],
+          "layout_group_id": "chapter_273_41_42_43"
+        },
+        {
+          "old_offset": 14022,
+          "new_offset": 16684,
+          "text": "about you all,",
+          "display_text": "ａｂｏｕｔ　ｙｏｕ　ａｌｌ，",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "dbe1ef4b2301c32ae03750e596e96ece59db249a011e58aa520b5cd348730c6b",
+          "old_byte_length": 14,
+          "new_byte_length": 28,
+          "pool_word_offset": 1730,
+          "reference_instructions": [],
+          "id": "00:00273:text:000036c6",
+          "original_reference_instructions": [
+            11484
+          ],
+          "layout_group_id": "chapter_273_41_42_43"
+        },
+        {
+          "old_offset": 14038,
+          "new_offset": 16714,
+          "text": "to see how you were doing.",
+          "display_text": "ｔｏ　ｓｅｅ　ｈｏｗ　ｙｏｕ　ｗｅｒｅ　ｄｏｉｎｇ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "98592bf6937b5bdd9df0ec4ac67e9082d8d650b205ef8d2904c18594b57862e5",
+          "old_byte_length": 14,
+          "new_byte_length": 52,
+          "pool_word_offset": 1745,
+          "reference_instructions": [],
+          "id": "00:00273:text:000036d6",
+          "original_reference_instructions": [
+            11492
+          ],
+          "layout_group_id": "chapter_273_41_42_43"
+        },
+        {
+          "old_offset": 14054,
+          "new_offset": 16768,
+          "text": "So, how did it go?",
+          "display_text": "Ｓｏ，　ｈｏｗ　ｄｉｄ　ｉｔ　ｇｏ？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "d3b5644c6a0c799c8528887955e789693f4768e57b4c36e96449a2a0e56a8596",
+          "old_byte_length": 16,
+          "new_byte_length": 36,
+          "pool_word_offset": 1772,
+          "reference_instructions": [],
+          "id": "00:00273:text:000036e6",
+          "original_reference_instructions": [
+            11528
+          ],
+          "layout_group_id": "chapter_273_44_45_46"
+        },
+        {
+          "old_offset": 14072,
+          "new_offset": 16806,
+          "text": "Did you properly",
+          "display_text": "Ｄｉｄ　ｙｏｕ　ｐｒｏｐｅｒｌｙ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "09dda6e038a347e683bee163f68c1cbe157abd4fa5ea6534187f713970b00223",
+          "old_byte_length": 20,
+          "new_byte_length": 32,
+          "pool_word_offset": 1791,
+          "reference_instructions": [],
+          "id": "00:00273:text:000036f8",
+          "original_reference_instructions": [
+            11536
+          ],
+          "layout_group_id": "chapter_273_44_45_46"
+        },
+        {
+          "old_offset": 14094,
+          "new_offset": 16840,
+          "text": "settle the dispute?",
+          "display_text": "ｓｅｔｔｌｅ　ｔｈｅ　ｄｉｓｐｕｔｅ？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "92efd6db369b58dd326f43a8d39d25865da65194e5d2cba54f81e67ac6a8cb5a",
+          "old_byte_length": 16,
+          "new_byte_length": 38,
+          "pool_word_offset": 1808,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000370e",
+          "original_reference_instructions": [
+            11544
+          ],
+          "layout_group_id": "chapter_273_44_45_46"
+        },
+        {
+          "old_offset": 14112,
+          "new_offset": 16880,
+          "text": "...!",
+          "display_text": "．．．！",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "2cde3d84eaabbcb00cdc7618b2bea8dbf184850626bfa6b9b9c493f72c20a186",
+          "old_byte_length": 10,
+          "new_byte_length": 8,
+          "pool_word_offset": 1828,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003720",
+          "original_reference_instructions": [
+            11630
+          ],
+          "layout_group_id": "chapter_273_47"
+        },
+        {
+          "old_offset": 14124,
+          "new_offset": 16890,
+          "text": "From that expression,",
+          "display_text": "Ｆｒｏｍ　ｔｈａｔ　ｅｘｐｒｅｓｓｉｏｎ，",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "745fb4ef4ef84a1c61b70c21700edb3a3244c7af98d6e895a5a77e9b1806426b",
+          "old_byte_length": 18,
+          "new_byte_length": 42,
+          "pool_word_offset": 1833,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000372c",
+          "original_reference_instructions": [
+            11666
+          ],
+          "layout_group_id": "chapter_273_48_49_50"
+        },
+        {
+          "old_offset": 14144,
+          "new_offset": 16934,
+          "text": "it seems nothing has been",
+          "display_text": "ｉｔ　ｓｅｅｍｓ　ｎｏｔｈｉｎｇ　ｈａｓ　ｂｅｅｎ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "429ce6f93bcf7110494a7f1e6907d343ff1a2186cb9063d0a96ca47dcc5ca32e",
+          "old_byte_length": 20,
+          "new_byte_length": 50,
+          "pool_word_offset": 1855,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003740",
+          "original_reference_instructions": [
+            11674
+          ],
+          "layout_group_id": "chapter_273_48_49_50"
+        },
+        {
+          "old_offset": 14166,
+          "new_offset": 16986,
+          "text": "resolved at all.",
+          "display_text": "ｒｅｓｏｌｖｅｄ　ａｔ　ａｌｌ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "82a6b310c1ef01adadd0e888c55d9aecbd593c2042b611d756bab01560490984",
+          "old_byte_length": 12,
+          "new_byte_length": 32,
+          "pool_word_offset": 1881,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003756",
+          "original_reference_instructions": [
+            11682
+          ],
+          "layout_group_id": "chapter_273_48_49_50"
+        },
+        {
+          "old_offset": 14180,
+          "new_offset": 17020,
+          "text": "That won't do, will it?",
+          "display_text": "Ｔｈａｔ　ｗｏｎ’ｔ　ｄｏ，　ｗｉｌｌ　ｉｔ？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "424da5bee6952af50dc48653d92cd819de91f533add0a2c7efe009a289a6653f",
+          "old_byte_length": 16,
+          "new_byte_length": 46,
+          "pool_word_offset": 1898,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003764",
+          "original_reference_instructions": [
+            11718
+          ],
+          "layout_group_id": "chapter_273_51_52_53"
+        },
+        {
+          "old_offset": 14198,
+          "new_offset": 17068,
+          "text": "That hardly suits you,",
+          "display_text": "Ｔｈａｔ　ｈａｒｄｌｙ　ｓｕｉｔｓ　ｙｏｕ，",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "355418b83f80d00e37d8d5d29d7dac0287e16609444c450d9214eedc1f984598",
+          "old_byte_length": 22,
+          "new_byte_length": 44,
+          "pool_word_offset": 1922,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003776",
+          "original_reference_instructions": [
+            11726
+          ],
+          "layout_group_id": "chapter_273_51_52_53"
+        },
+        {
+          "old_offset": 14222,
+          "new_offset": 17114,
+          "text": "who loves everyone getting along...",
+          "display_text": "ｗｈｏ　ｌｏｖｅｓ　ｅｖｅｒｙｏｎｅ　ｇｅｔｔｉｎｇ　ａｌｏｎｇ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "efcd2948984efc7ccf20c1c523e50278894201d33c9cd827f82bf3e304cb6e8f",
+          "old_byte_length": 20,
+          "new_byte_length": 70,
+          "pool_word_offset": 1945,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000378e",
+          "original_reference_instructions": [
+            11734
+          ],
+          "layout_group_id": "chapter_273_51_52_53"
+        },
+        {
+          "old_offset": 14244,
+          "new_offset": 17186,
+          "text": "Ahahahahaha! ♪",
+          "display_text": "Ａｈａｈａｈａｈａｈａ！　♪",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "5f932e8fbfa958a67c3c76b363a4793f36cb7bb90f280d18ba6cf1f556cafef9",
+          "old_byte_length": 18,
+          "new_byte_length": 28,
+          "pool_word_offset": 1981,
+          "reference_instructions": [],
+          "id": "00:00273:text:000037a4",
+          "original_reference_instructions": [
+            11770
+          ],
+          "layout_group_id": "chapter_273_54"
+        },
+        {
+          "old_offset": 14264,
+          "new_offset": 17216,
+          "text": "Ishlar...!!",
+          "display_text": "Ｉｓｈｌａｒ．．．！！",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "f9d8a5bad36d6e77748f1b1a10b177790dec4eb18596ba3961f9acd5218c9ee9",
+          "old_byte_length": 18,
+          "new_byte_length": 22,
+          "pool_word_offset": 1996,
+          "reference_instructions": [],
+          "id": "00:00273:text:000037b8",
+          "original_reference_instructions": [
+            11998
+          ],
+          "layout_group_id": "chapter_273_55"
+        },
+        {
+          "old_offset": 14284,
+          "new_offset": 17240,
+          "text": "Are you going to cut me?",
+          "display_text": "Ａｒｅ　ｙｏｕ　ｇｏｉｎｇ　ｔｏ　ｃｕｔ　ｍｅ？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "83e725f068557f732351c0a7b11286faccbaca8535282b7fc3e67eaa13a204cc",
+          "old_byte_length": 18,
+          "new_byte_length": 48,
+          "pool_word_offset": 2008,
+          "reference_instructions": [],
+          "id": "00:00273:text:000037cc",
+          "original_reference_instructions": [
+            12032
+          ],
+          "layout_group_id": "chapter_273_56_57"
+        },
+        {
+          "old_offset": 14304,
+          "new_offset": 17290,
+          "text": "Me...?",
+          "display_text": "Ｍｅ．．．？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "ddc8ac9864330fc398ab1a4c90b6f83a8728028eb298baea3c229526a0422123",
+          "old_byte_length": 10,
+          "new_byte_length": 12,
+          "pool_word_offset": 2033,
+          "reference_instructions": [],
+          "id": "00:00273:text:000037e0",
+          "original_reference_instructions": [
+            12040
+          ],
+          "layout_group_id": "chapter_273_56_57"
+        },
+        {
+          "old_offset": 14316,
+          "new_offset": 17304,
+          "text": "...!?",
+          "display_text": "．．．！？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "6eccaeaa3f774f227e649ca3d1879ec3d9166eae8f8d320ecf21558664262774",
+          "old_byte_length": 12,
+          "new_byte_length": 10,
+          "pool_word_offset": 2040,
+          "reference_instructions": [],
+          "id": "00:00273:text:000037ec",
+          "original_reference_instructions": [
+            12124
+          ],
+          "layout_group_id": "chapter_273_58"
+        },
+        {
+          "old_offset": 14330,
+          "new_offset": 17316,
+          "text": "...See?",
+          "display_text": "．．．Ｓｅｅ？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "934e41c4284a1bb4be12baaf9da3789796a61c9954bde3d4bf8d5580707b595e",
+          "old_byte_length": 14,
+          "new_byte_length": 14,
+          "pool_word_offset": 2046,
+          "reference_instructions": [],
+          "id": "00:00273:text:000037fa",
+          "original_reference_instructions": [
+            12274
+          ],
+          "layout_group_id": "chapter_273_59_60"
+        },
+        {
+          "old_offset": 14346,
+          "new_offset": 17332,
+          "text": "You can't.",
+          "display_text": "Ｙｏｕ　ｃａｎ’ｔ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "1daeb7936bdb91fb5f8dccdcd6f2dbdb4e297b44bf5c086ee3d9f09b0d4f7daf",
+          "old_byte_length": 18,
+          "new_byte_length": 20,
+          "pool_word_offset": 2054,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000380a",
+          "original_reference_instructions": [
+            12282
+          ],
+          "layout_group_id": "chapter_273_59_60"
+        },
+        {
+          "old_offset": 14366,
+          "new_offset": 17354,
+          "text": "You're not suited for it.",
+          "display_text": "Ｙｏｕ’ｒｅ　ｎｏｔ　ｓｕｉｔｅｄ　ｆｏｒ　ｉｔ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "85d9481e5dd51d781b006b1b04bef94a949668b706ead9ebc70fa4206c713615",
+          "old_byte_length": 16,
+          "new_byte_length": 50,
+          "pool_word_offset": 2065,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000381e",
+          "original_reference_instructions": [
+            12318
+          ],
+          "layout_group_id": "chapter_273_61_62_63"
+        },
+        {
+          "old_offset": 14384,
+          "new_offset": 17406,
+          "text": "You have no right",
+          "display_text": "Ｙｏｕ　ｈａｖｅ　ｎｏ　ｒｉｇｈｔ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "72eafc60d4892b67e2d8ea95dd2b5746e131c5a2ebe691ccfd45b63b943eba06",
+          "old_byte_length": 20,
+          "new_byte_length": 34,
+          "pool_word_offset": 2091,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003830",
+          "original_reference_instructions": [
+            12326
+          ],
+          "layout_group_id": "chapter_273_61_62_63"
+        },
+        {
+          "old_offset": 14406,
+          "new_offset": 17442,
+          "text": "to wield that sword.",
+          "display_text": "ｔｏ　ｗｉｅｌｄ　ｔｈａｔ　ｓｗｏｒｄ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "2fadbb5e352a6baff328282daa3fc0934a5c97007ec4ef0c13afae9b37369fb6",
+          "old_byte_length": 20,
+          "new_byte_length": 40,
+          "pool_word_offset": 2109,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003846",
+          "original_reference_instructions": [
+            12334
+          ],
+          "layout_group_id": "chapter_273_61_62_63"
+        },
+        {
+          "old_offset": 14428,
+          "new_offset": 17484,
+          "text": "......",
+          "display_text": "．．．．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+          "old_byte_length": 12,
+          "new_byte_length": 12,
+          "pool_word_offset": 2130,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000385c",
+          "original_reference_instructions": [
+            12350
+          ],
+          "layout_group_id": "chapter_273_64"
+        },
+        {
+          "old_offset": 14442,
+          "new_offset": 17498,
+          "text": "Take my advice.",
+          "display_text": "Ｔａｋｅ　ｍｙ　ａｄｖｉｃｅ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "9eac67525d93e318cbf7a0422bec34de46bbe3bcc4c6c9b3c6780feda2645e8e",
+          "old_byte_length": 20,
+          "new_byte_length": 30,
+          "pool_word_offset": 2137,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000386a",
+          "original_reference_instructions": [
+            12384
+          ],
+          "layout_group_id": "chapter_273_65_66"
+        },
+        {
+          "old_offset": 14464,
+          "new_offset": 17530,
+          "text": "Give me the sword.",
+          "display_text": "Ｇｉｖｅ　ｍｅ　ｔｈｅ　ｓｗｏｒｄ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "52e9a3d58b4246b7f7ddfc8c1d7015d19da2bc1eb4191c04549255f765e5cc65",
+          "old_byte_length": 18,
+          "new_byte_length": 36,
+          "pool_word_offset": 2153,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003880",
+          "original_reference_instructions": [
+            12392
+          ],
+          "layout_group_id": "chapter_273_65_66"
+        },
+        {
+          "old_offset": 14484,
+          "new_offset": 17568,
+          "text": "You're too kind.",
+          "display_text": "Ｙｏｕ’ｒｅ　ｔｏｏ　ｋｉｎｄ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "bedf4e9b2c2a2eb63dba40dd5b95cdc5eb68843526c2438e03a3ff4a2d16abc1",
+          "old_byte_length": 16,
+          "new_byte_length": 32,
+          "pool_word_offset": 2172,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003894",
+          "original_reference_instructions": [
+            12426
+          ],
+          "layout_group_id": "chapter_273_67_68"
+        },
+        {
+          "old_offset": 14502,
+          "new_offset": 17602,
+          "text": "You...",
+          "display_text": "Ｙｏｕ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "72a96afe93e3d21030150e9cfe760a8a66b0d5aeeb2866c7c41a8dc386c0be60",
+          "old_byte_length": 10,
+          "new_byte_length": 12,
+          "pool_word_offset": 2189,
+          "reference_instructions": [],
+          "id": "00:00273:text:000038a6",
+          "original_reference_instructions": [
+            12434
+          ],
+          "layout_group_id": "chapter_273_67_68"
+        },
+        {
+          "old_offset": 14514,
+          "new_offset": 17616,
+          "text": "You'll never become",
+          "display_text": "Ｙｏｕ’ｌｌ　ｎｅｖｅｒ　ｂｅｃｏｍｅ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "5f2d8f48342a08b78ad331954252fdc73fb5a5c12ddee124cebb1c856d5d7648",
+          "old_byte_length": 16,
+          "new_byte_length": 38,
+          "pool_word_offset": 2196,
+          "reference_instructions": [],
+          "id": "00:00273:text:000038b2",
+          "original_reference_instructions": [
+            12470
+          ],
+          "layout_group_id": "chapter_273_69_70"
+        },
+        {
+          "old_offset": 14532,
+          "new_offset": 17656,
+          "text": "like me.",
+          "display_text": "ｌｉｋｅ　ｍｅ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "02d25b36970ffe27f72d22e76c3261e82c1da4342c5140c8674f83062c4cbdcf",
+          "old_byte_length": 18,
+          "new_byte_length": 16,
+          "pool_word_offset": 2216,
+          "reference_instructions": [],
+          "id": "00:00273:text:000038c4",
+          "original_reference_instructions": [
+            12478
+          ],
+          "layout_group_id": "chapter_273_69_70"
+        },
+        {
+          "old_offset": 14552,
+          "new_offset": 17674,
+          "text": "Eh...",
+          "display_text": "Ｅｈ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "c78371f53a096181278d025f6b7efed6b7de25052be159b2ac222810f6a4e09f",
+          "old_byte_length": 8,
+          "new_byte_length": 10,
+          "pool_word_offset": 2225,
+          "reference_instructions": [],
+          "id": "00:00273:text:000038d8",
+          "original_reference_instructions": [
+            12560
+          ],
+          "layout_group_id": "chapter_273_71"
+        },
+        {
+          "old_offset": 14562,
+          "new_offset": 17686,
+          "text": "......",
+          "display_text": "．．．．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+          "old_byte_length": 12,
+          "new_byte_length": 12,
+          "pool_word_offset": 2231,
+          "reference_instructions": [],
+          "id": "00:00273:text:000038e2",
+          "original_reference_instructions": [
+            12588
+          ],
+          "layout_group_id": "chapter_273_72"
+        },
+        {
+          "old_offset": 14576,
+          "new_offset": 17700,
+          "text": "Come on...",
+          "display_text": "Ｃｏｍｅ　ｏｎ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "5e762a12d76ebb9c8327407236305a057ec8f1f120511e73fe74b05e20e96477",
+          "old_byte_length": 10,
+          "new_byte_length": 20,
+          "pool_word_offset": 2238,
+          "reference_instructions": [],
+          "id": "00:00273:text:000038f0",
+          "original_reference_instructions": [
+            12622
+          ],
+          "layout_group_id": "chapter_273_73"
+        },
+        {
+          "old_offset": 14588,
+          "new_offset": 17722,
+          "text": "I can't give it to you...",
+          "display_text": "Ｉ　ｃａｎ’ｔ　ｇｉｖｅ　ｉｔ　ｔｏ　ｙｏｕ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "a7707c06748a9e94ff962bde21358762cec6bf36f2c960fdf000e24ec2dbc9ca",
+          "old_byte_length": 16,
+          "new_byte_length": 50,
+          "pool_word_offset": 2249,
+          "reference_instructions": [],
+          "id": "00:00273:text:000038fc",
+          "original_reference_instructions": [
+            12660
+          ],
+          "layout_group_id": "chapter_273_74_75"
+        },
+        {
+          "old_offset": 14606,
+          "new_offset": 17774,
+          "text": "Never...",
+          "display_text": "Ｎｅｖｅｒ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "f5fb2c3baea91a976a02fecdf0b2b82985251d31b48f5b58417c3416144c25d6",
+          "old_byte_length": 12,
+          "new_byte_length": 16,
+          "pool_word_offset": 2275,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000390e",
+          "original_reference_instructions": [
+            12668
+          ],
+          "layout_group_id": "chapter_273_74_75"
+        },
+        {
+          "old_offset": 14620,
+          "new_offset": 17792,
+          "text": "Even if I'm not suited for it,",
+          "display_text": "Ｅｖｅｎ　ｉｆ　Ｉ’ｍ　ｎｏｔ　ｓｕｉｔｅｄ　ｆｏｒ　ｉｔ，",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "61abd95c9456dc613fa99e5b2153a2294f8e5913f23ccb062e3d90a97a132892",
+          "old_byte_length": 16,
+          "new_byte_length": 60,
+          "pool_word_offset": 2284,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000391c",
+          "original_reference_instructions": [
+            12696
+          ],
+          "layout_group_id": "chapter_273_76_77_78"
+        },
+        {
+          "old_offset": 14638,
+          "new_offset": 17854,
+          "text": "even if I have no right, I still",
+          "display_text": "ｅｖｅｎ　ｉｆ　Ｉ　ｈａｖｅ　ｎｏ　ｒｉｇｈｔ，　Ｉ　ｓｔｉｌｌ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "7eff4de5ce0e2c2be98029e674e8485864f7fbf629ba2f91ad69bc85da43e925",
+          "old_byte_length": 24,
+          "new_byte_length": 64,
+          "pool_word_offset": 2315,
+          "reference_instructions": [],
+          "id": "00:00273:text:0000392e",
+          "original_reference_instructions": [
+            12704
+          ],
+          "layout_group_id": "chapter_273_76_77_78"
+        },
+        {
+          "old_offset": 14664,
+          "new_offset": 17920,
+          "text": "have to do this!",
+          "display_text": "ｈａｖｅ　ｔｏ　ｄｏ　ｔｈｉｓ！",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "6b84012387e18081d50735afe61006dbe730265eb5c30521428a2edfc571c7fd",
+          "old_byte_length": 24,
+          "new_byte_length": 32,
+          "pool_word_offset": 2348,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003948",
+          "original_reference_instructions": [
+            12712
+          ],
+          "layout_group_id": "chapter_273_76_77_78"
+        },
+        {
+          "old_offset": 14690,
+          "new_offset": 17954,
+          "text": "I cannot give it to you...",
+          "display_text": "Ｉ　ｃａｎｎｏｔ　ｇｉｖｅ　ｉｔ　ｔｏ　ｙｏｕ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "e5ec833ea32fb6bca290ad0e3f46bfc9c37b949fd164a564b47d307c3e6531ef",
+          "old_byte_length": 16,
+          "new_byte_length": 52,
+          "pool_word_offset": 2365,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003962",
+          "original_reference_instructions": [
+            12742
+          ],
+          "layout_group_id": "chapter_273_79_80"
+        },
+        {
+          "old_offset": 14708,
+          "new_offset": 18008,
+          "text": "Never...",
+          "display_text": "Ｎｅｖｅｒ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "f5fb2c3baea91a976a02fecdf0b2b82985251d31b48f5b58417c3416144c25d6",
+          "old_byte_length": 12,
+          "new_byte_length": 16,
+          "pool_word_offset": 2392,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003974",
+          "original_reference_instructions": [
+            12750
+          ],
+          "layout_group_id": "chapter_273_79_80"
+        },
+        {
+          "old_offset": 14722,
+          "new_offset": 18026,
+          "text": "Even if I'm not suited for it,",
+          "display_text": "Ｅｖｅｎ　ｉｆ　Ｉ’ｍ　ｎｏｔ　ｓｕｉｔｅｄ　ｆｏｒ　ｉｔ，",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "61abd95c9456dc613fa99e5b2153a2294f8e5913f23ccb062e3d90a97a132892",
+          "old_byte_length": 16,
+          "new_byte_length": 60,
+          "pool_word_offset": 2401,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003982",
+          "original_reference_instructions": [
+            12778
+          ],
+          "layout_group_id": "chapter_273_81_82_83"
+        },
+        {
+          "old_offset": 14740,
+          "new_offset": 18088,
+          "text": "even if I have no right, I still",
+          "display_text": "ｅｖｅｎ　ｉｆ　Ｉ　ｈａｖｅ　ｎｏ　ｒｉｇｈｔ，　Ｉ　ｓｔｉｌｌ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "7eff4de5ce0e2c2be98029e674e8485864f7fbf629ba2f91ad69bc85da43e925",
+          "old_byte_length": 24,
+          "new_byte_length": 64,
+          "pool_word_offset": 2432,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003994",
+          "original_reference_instructions": [
+            12786
+          ],
+          "layout_group_id": "chapter_273_81_82_83"
+        },
+        {
+          "old_offset": 14766,
+          "new_offset": 18154,
+          "text": "have to do this!",
+          "display_text": "ｈａｖｅ　ｔｏ　ｄｏ　ｔｈｉｓ！",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "20b4edf5307c6a17676a37faac9ede2b19c44f80bb155d15af8f6a7539782dae",
+          "old_byte_length": 26,
+          "new_byte_length": 32,
+          "pool_word_offset": 2465,
+          "reference_instructions": [],
+          "id": "00:00273:text:000039ae",
+          "original_reference_instructions": [
+            12794
+          ],
+          "layout_group_id": "chapter_273_81_82_83"
+        },
+        {
+          "old_offset": 14794,
+          "new_offset": 18188,
+          "text": "Hmm...",
+          "display_text": "Ｈｍｍ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "5d3a384d8707e696126ab34945347d209c3ca58be36eb739326beceb4013b629",
+          "old_byte_length": 12,
+          "new_byte_length": 12,
+          "pool_word_offset": 2482,
+          "reference_instructions": [],
+          "id": "00:00273:text:000039ca",
+          "original_reference_instructions": [
+            12830
+          ],
+          "layout_group_id": "chapter_273_84_85"
+        },
+        {
+          "old_offset": 14808,
+          "new_offset": 18202,
+          "text": "You \"have to,\" do you?",
+          "display_text": "Ｙｏｕ　”ｈａｖｅ　ｔｏ，”　ｄｏ　ｙｏｕ？",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "61f4505f2f84ac1e1e6f950a1b5fe9879554da5330db431067d32e2cdca7a916",
+          "old_byte_length": 20,
+          "new_byte_length": 44,
+          "pool_word_offset": 2489,
+          "reference_instructions": [],
+          "id": "00:00273:text:000039d8",
+          "original_reference_instructions": [
+            12838
+          ],
+          "layout_group_id": "chapter_273_84_85"
+        },
+        {
+          "old_offset": 14830,
+          "new_offset": 18248,
+          "text": "Ah...",
+          "display_text": "Ａｈ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "876cdd0edd46a437c7eaa0ddb608d52a3de60cf2e01bfcac89c9c525bc1bbe9a",
+          "old_byte_length": 8,
+          "new_byte_length": 10,
+          "pool_word_offset": 2512,
+          "reference_instructions": [],
+          "id": "00:00273:text:000039ee",
+          "original_reference_instructions": [
+            12924
+          ],
+          "layout_group_id": "chapter_273_86"
+        },
+        {
+          "old_offset": 14840,
+          "new_offset": 18260,
+          "text": "Then suffer to the end,",
+          "display_text": "Ｔｈｅｎ　ｓｕｆｆｅｒ　ｔｏ　ｔｈｅ　ｅｎｄ，",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "e3a8ff20889abc33abeedc76eb5706d5992422086dcbcc0523c1d298f3ad3375",
+          "old_byte_length": 14,
+          "new_byte_length": 46,
+          "pool_word_offset": 2518,
+          "reference_instructions": [],
+          "id": "00:00273:text:000039f8",
+          "original_reference_instructions": [
+            12960
+          ],
+          "layout_group_id": "chapter_273_87_88_89"
+        },
+        {
+          "old_offset": 14856,
+          "new_offset": 18308,
+          "text": "suffer and",
+          "display_text": "ｓｕｆｆｅｒ　ａｎｄ",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "173f1c8315f7fd45ceb762bc8d2c17c3c12c2c71aafe5d73047d8211a3c0312c",
+          "old_byte_length": 18,
+          "new_byte_length": 20,
+          "pool_word_offset": 2542,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003a08",
+          "original_reference_instructions": [
+            12968
+          ],
+          "layout_group_id": "chapter_273_87_88_89"
+        },
+        {
+          "old_offset": 14876,
+          "new_offset": 18330,
+          "text": "struggle all you like.",
+          "display_text": "ｓｔｒｕｇｇｌｅ　ａｌｌ　ｙｏｕ　ｌｉｋｅ．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "8793cae40f6f809bf2d2d6d62746fbd1a34e8a6aa9883c0deb48eba9191263a1",
+          "old_byte_length": 18,
+          "new_byte_length": 44,
+          "pool_word_offset": 2553,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003a1c",
+          "original_reference_instructions": [
+            12976
+          ],
+          "layout_group_id": "chapter_273_87_88_89"
+        },
+        {
+          "old_offset": 14896,
+          "new_offset": 18376,
+          "text": "Ahahahahaha...",
+          "display_text": "Ａｈａｈａｈａｈａｈａ．．．",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "293ab3a6d6ecba6331fb609cf0ed86093f63deaa188e858e9d82706069a0e090",
+          "old_byte_length": 20,
+          "new_byte_length": 28,
+          "pool_word_offset": 2576,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003a30",
+          "original_reference_instructions": [
+            13012
+          ],
+          "layout_group_id": "chapter_273_90"
+        },
+        {
+          "old_offset": 14918,
+          "new_offset": 18406,
+          "text": "......!",
+          "display_text": "．．．．．．！",
+          "encoding_profile": "dialogue_fullwidth_cp932",
+          "source_sha256": "844e6abd67a262c03986013685035f48779a46797087a1127d3fa8014a408460",
+          "old_byte_length": 14,
+          "new_byte_length": 14,
+          "pool_word_offset": 2591,
+          "reference_instructions": [],
+          "id": "00:00273:text:00003a46",
+          "original_reference_instructions": [
+            13076
+          ],
+          "layout_group_id": "chapter_273_91"
+        }
+      ]
+    }
+  },
+  "checks": {
+    "resource_id": "00:00273",
+    "covered_source_rows": 92,
+    "remaining_in_scope": 0,
+    "excluded_shared_library_rows": 0,
+    "groups": 42,
+    "pages": 45,
+    "code_growth": 120,
+    "decoded_script_bytes": 16034,
+    "direct_rows": [
+      {
+        "row": 0,
+        "text": "\"Learn Skills\"",
+        "reference": 3038,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1,
+        "text": "is now available!",
+        "reference": 3046,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2,
+        "text": "\"Party Abilities\"",
+        "reference": 3080,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3,
+        "text": "is now available!",
+        "reference": 3088,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4,
+        "text": "\"Cooking\"",
+        "reference": 3122,
+        "pixel_limit": 280
+      },
+      {
+        "row": 5,
+        "text": "is now available!",
+        "reference": 3130,
+        "pixel_limit": 280
+      },
+      {
+        "row": 6,
+        "text": "Puppet Summoning",
+        "reference": 3166,
+        "pixel_limit": 280
+      },
+      {
+        "row": 7,
+        "text": "at Meimei's shop unlocks",
+        "reference": 3174,
+        "pixel_limit": 280
+      },
+      {
+        "row": 8,
+        "text": "on later playthroughs!",
+        "reference": 3182,
+        "pixel_limit": 280
+      },
+      {
+        "row": 9,
+        "text": "\"Summon Training\"",
+        "reference": 3220,
+        "pixel_limit": 280
+      },
+      {
+        "row": 10,
+        "text": "is now available!",
+        "reference": 3228,
+        "pixel_limit": 280
+      }
+    ],
+    "source_pool_preserved": false,
+    "live_pool_text_preserved": true,
+    "unrelated_code_preserved": true,
+    "all_group_calls_simulated": true,
+    "reviewed": true,
+    "samples": [
+      {
+        "rows": [
+          11,
+          12,
+          13
+        ],
+        "pages": [
+          [
+            "That time... when the",
+            "ruins' power nearly",
+            "erased me..."
+          ]
+        ]
+      },
+      {
+        "rows": [
+          14,
+          15,
+          16
+        ],
+        "pages": [
+          [
+            "That time... when the",
+            "ruins' power nearly",
+            "erased me..."
+          ]
+        ]
+      },
+      {
+        "rows": [
+          17,
+          18
+        ],
+        "pages": [
+          [
+            "I heard a voice unlike the",
+            "sword's will..."
+          ]
+        ]
+      }
+    ],
+    "pool_compaction": {
+      "before_bytes": 21394,
+      "after_bytes": 16034,
+      "saved_bytes": 5360,
+      "exact_dedup_bytes": 16066,
+      "suffix_saved_bytes": 32,
+      "suffix_shared_strings": 4,
+      "live_string_references": 94,
+      "unique_live_strings": 81,
+      "all_live_string_bytes_preserved": true,
+      "all_non_string_instructions_preserved": true
+    },
+    "meaning_review_verified": true,
+    "conditional_or_menu_rows": 11,
+    "night_talk_groups": 0
+  },
+  "selection_sha256": "8c378df2011f8fb9ae90f52a3542bd763f730f58bbd9f7d7b39ac78a68a160bb",
+  "notes": "Read-only in-memory compiler validation; no script or build artifact written. Inputs are the exact accepted compiler inputs returned by read_inputs."
+}

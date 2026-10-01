@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00335",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0335/slice_0011.targets.json": "b63d848d0e4f2a4f47d04c62c0e140f3d8e375a3d5bba083d85b9c2c7ae6c58a"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0335/review_meaning_0011.json": "3a26ca71192f2bacb61ce4ad331851c95e053add106aa38371d577c4bb9f7736",
+    "work/translation/en/story_0.1.54/0335/applied_review_0011.json": "40fbb10a2c60fee24b3cedd9f48737a4a6e5ce2536ca5a31bafcd8b901711b5e"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness.",
+  "author_uncertainties": [
+    {
+      "target": "slice_0011.targets.json",
+      "note": "Row 13-14 of 334 uses beloved ones for an unnamed plural reference; no gendered English is inferred."
+    }
+  ]
+}

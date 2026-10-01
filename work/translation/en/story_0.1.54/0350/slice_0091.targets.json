@@ -1,0 +1,64 @@
+{
+  "resource_id": "00:00350",
+  "range_inclusive": [
+    91,
+    93
+  ],
+  "source_sha256": "ce92f5a28cae224a12cb58d444439e14e8694fb12066106efdd194e311a8e937",
+  "review_status": "author self-check; no independent meaning review",
+  "source_ranges_examined": [
+    [
+      10,
+      93
+    ]
+  ],
+  "rows_examined": 84,
+  "rows_in_slice": 3,
+  "uncertainties": [],
+  "preserved_source_omissions": [],
+  "notes": "Fresh-source companion dialogue; complete VM groups and both-side context read.",
+  "translations": {
+    "00:00350:text:00003908": {
+      "source_offset": 14600,
+      "pool_word_offset": 1137,
+      "source_byte_length": 12,
+      "source_sha256": "ea26ee160d8ec17ec35d8aa400b262ad138d86c65f4db198a8cc37953a186421",
+      "contains_japanese": true,
+      "reference_instructions": [
+        12290
+      ],
+      "id": "00:00350:text:00003908",
+      "resource_row": 91,
+      "text": "It will be all right. I will make it work somehow.",
+      "status": "translated_author_self_check"
+    },
+    "00:00350:text:00003916": {
+      "source_offset": 14614,
+      "pool_word_offset": 1144,
+      "source_byte_length": 16,
+      "source_sha256": "66efdd49befda5ba49148d122bd9729f308a18e0a47e8d60d94be927922be13a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        12298
+      ],
+      "id": "00:00350:text:00003916",
+      "resource_row": 92,
+      "text": "",
+      "status": "translated_author_self_check"
+    },
+    "00:00350:text:00003928": {
+      "source_offset": 14632,
+      "pool_word_offset": 1153,
+      "source_byte_length": 14,
+      "source_sha256": "efc01f77091313784b583d26698dd636f1bdc8b0c67444d7085169a7dc5c626b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        12306
+      ],
+      "id": "00:00350:text:00003928",
+      "resource_row": 93,
+      "text": "",
+      "status": "translated_author_self_check"
+    }
+  }
+}

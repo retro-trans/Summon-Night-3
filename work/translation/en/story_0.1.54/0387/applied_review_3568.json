@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_3568.json",
+  "review_sha256": "70ce76062b5a1738f8bb7ddfc6fe895ee293d1801e6930f40e9c473d02fb55ae",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3568.targets.json",
+  "target_before_sha256": "5c15d71923d4e0db745720090494fafafa454e68243e74c7238271306f961e4e",
+  "target_after_sha256": "5ea0d9708e2aea87050c2116432c55731e370088de9555a75ae8c86c6d884bad",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3568,
+      3647
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3595,
+      "before": "Yeah. Teacher is at your best when you are smiling!",
+      "after": "Yeah. You're at your best when you're smiling, Teacher!",
+      "reason": "Fix contradictory third/second-person English grammar."
+    },
+    {
+      "resource_row": 3613,
+      "before": "Well, it is about what you said earlier...",
+      "after": "Well, it's about what I was told earlier...",
+      "reason": "Following route names Vizel as prior speaker."
+    },
+    {
+      "resource_row": 3633,
+      "before": "I told you before: clever methods do not suit someone like you, Teacher.",
+      "after": "I told you before: trying to be clever doesn't suit someone like you, Teacher.",
+      "reason": "Retain source criticism of affected cleverness rather than intelligence itself."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

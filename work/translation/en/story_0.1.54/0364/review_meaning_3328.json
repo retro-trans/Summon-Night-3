@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_3328.targets.json",
+  "target_file_sha256": "2b42f4c5a3e9a965bad968eb3ea492cf854446901e5cc855bd7afb3bdf619c60",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3328,
+      3407
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    3318,
+    3418
+  ],
+  "rows_examined": 101,
+  "corrections": [
+    {
+      "resource_row": 3359,
+      "text": "deploy across the entire area!!",
+      "reason": "The source says full-area deployment; across the field narrows the scope.",
+      "source_sha256": "ccadaa8815bc57af6b532a0c566b62796cab1a51b2cbbf163fb71b015ef8ea98"
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        3351
+      ],
+      "issue": "The summoned attack name is retained as authored; this review found no source-context reason to alter it."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        3335,
+        3337,
+        3340,
+        3347,
+        3353,
+        3355,
+        3358,
+        3361,
+        3365,
+        3366,
+        3368,
+        3371,
+        3375,
+        3378,
+        3380,
+        3395,
+        3398,
+        3404,
+        3407
+      ],
+      "reason": "Continuation rows preserve complete sentence groups."
+    },
+    {
+      "rows": [
+        3328,
+        3329,
+        3330,
+        3331,
+        3332,
+        3333,
+        3342,
+        3343,
+        3344,
+        3345,
+        3346,
+        3350,
+        3360,
+        3363,
+        3364,
+        3373,
+        3386,
+        3387,
+        3388,
+        3389,
+        3390,
+        3391,
+        3392,
+        3393,
+        3394,
+        3400,
+        3401,
+        3402,
+        3403
+      ],
+      "reason": "Reactions, calls, and pauses retain their source function."
+    }
+  ],
+  "notes": "Independent reviewer compared every assigned source and authored English row with neighboring context. One correction restores the full-area scope of the barrier deployment; no cosmetic rewrites are proposed."
+}

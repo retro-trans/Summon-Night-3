@@ -1,0 +1,34 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0272/review_meaning_6917.json",
+  "review_sha256": "36c914f9c4c2314dddb9eadd79983575a210901ed9d44a7c271fffbc5af04492",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_6917.targets.json",
+  "target_before_sha256": "410124be9d9e1a016af43a597e7d6aecefb27624d7871ce0b905011deb024df2",
+  "target_after_sha256": "0888485b06d0432cc13e1913b38d45a5c2d7cfa723391cc7e27244fcc347f1eb",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6917,
+      6996
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6917,
+      "before": "their soul will be devoured",
+      "after": "that person's soul will be devoured",
+      "reason": "A sustained target-row shift assigns following dialogue to earlier source boxes. These replacements restore the source sequence and speakers."
+    },
+    {
+      "resource_row": 6918,
+      "before": "by these ruins!",
+      "after": "by these ruins!",
+      "reason": "A sustained target-row shift assigns following dialogue to earlier source boxes. These replacements restore the source sequence and speakers."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0461/review_meaning_rootfix_0045.json",
+  "review_sha256": "0a141a4c0f0e76f92755b2185159e891a2dd9e018ab2049b5f6d0ec6074c1562",
+  "target_file": "work/translation/en/story_0.1.54/0461/slice_0011.targets.json",
+  "target_before_sha256": "3134a701652f72ddae82f478d8f043669ab1ff131eb00e68739992a1f8a60f08",
+  "target_after_sha256": "56643520ada18731964b30a50052ef3b9632b50a972365a55c6f1416744474e4",
+  "reviewed_rows": {
+    "range_inclusive": [
+      45,
+      46
+    ],
+    "count": 2
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 45,
+      "before": "You passed both the written exam",
+      "after": "I passed both the written exam and the combat practical with better scores than I expected...",
+      "reason": "Will reports his own results; the surrounding dialogue confirms Teacher's reply urges him to stay focused, so second-person wording reverses the speaker."
+    },
+    {
+      "resource_row": 46,
+      "before": "and combat practical with better scores than expected...",
+      "after": "",
+      "reason": "Continuation of Will's first-row anchor in the same VM box."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

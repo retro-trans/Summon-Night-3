@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0350/review_meaning_0011_supplemental.json",
+  "review_sha256": "f69b739007c7ebbcc0190bbd186e0aeaac23be1811ba278cc4a64b610dfb13bb",
+  "target_file": "work/translation/en/story_0.1.54/0350/slice_0011.targets.json",
+  "target_before_sha256": "d0d2d06f9ce0c6dc1fbc529a1e404953542fbc1910c6af1ae92a45f802da65d5",
+  "target_after_sha256": "5178b54e5fec4fbbf8dedc44a70328f0c19eaf9e2c65bff828dc24a782191e83",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 69,
+      "before": "Why...? You were only dragged into this, were you not!?",
+      "after": "Why...?",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    },
+    {
+      "resource_row": 70,
+      "before": "",
+      "after": "You were only dragged into this, weren't you!?",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

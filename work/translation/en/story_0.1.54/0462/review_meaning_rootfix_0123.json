@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00462",
+  "source_sha256": "e21b8c61ef795441b98d70c39a6a86159de311661a1737601667a625ee772b2b",
+  "target_file": "work/translation/en/story_0.1.54/0462/slice_0091.targets.json",
+  "target_file_sha256": "e73d47db20e11715514475c49b62eff95a3a36002336b82d13304b91ddc59207",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      123,
+      126
+    ],
+    "count": 4
+  },
+  "source_ranges_examined": [
+    [
+      121,
+      129
+    ]
+  ],
+  "rows_examined": 9,
+  "corrections": [
+    {
+      "resource_row": 123,
+      "source_sha256": "a1166e4ae89106da364d9cc0a10945a1faea03161fdd37c0c673d754f9720aef",
+      "text": "Kunon had her hands full",
+      "reason": "Kunon is an established female character; retain the specific reference."
+    },
+    {
+      "resource_row": 124,
+      "source_sha256": "a418ecc7819467e8861dc511e77d52d807118d257f3dd216dfc8d56be6342369",
+      "text": "looking after all the men who drank themselves unconscious.",
+      "reason": "Continuation of Kunon's sentence in the same VM box."
+    },
+    {
+      "resource_row": 125,
+      "source_sha256": "f7be48a6879eaa0aa7ddd3a225ec6b8a47bdda08de8fe3d49f7b344f3600b4e8",
+      "text": "Should we go check on her later?",
+      "reason": "The source asks whether to check specifically on Kunon, not the men generically."
+    },
+    {
+      "resource_row": 126,
+      "source_sha256": "669dc921b8e8305efd30ad2e8c9f14e6df3050a58ed3e3c2dd3d3503cca990fd",
+      "text": "",
+      "reason": "Continuation of the question's first-row anchor in the same VM box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Supplemental root-directed review. Do not apply automatically. Root reread123-128; rebind after verified zero-correction formatting-only application receipt."
+}

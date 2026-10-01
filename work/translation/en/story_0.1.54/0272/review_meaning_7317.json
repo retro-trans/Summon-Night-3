@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_7317.targets.json",
+  "target_file_sha256": "f3fa540ed19fd0d8f3695a9cb4ce5b8ee5fbcf411d5e40374f3bcaa31c932bf5",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      7317,
+      7396
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      7316,
+      7397
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 7351,
+      "source_sha256": "3b4cbb4850dffa529b940bb16d9801946db55157a6351c438e830a8ff5f30ac5",
+      "before": "Shall we go back?",
+      "text": "Shall we go back?",
+      "after": "Shall we go back?",
+      "reason": "The source says to return and convey Subaru's true feelings to his mother. The current English instead makes Subaru the recipient of an explanation of his own feelings."
+    },
+    {
+      "resource_row": 7352,
+      "source_sha256": "41f5cb2dc1d691a3b2f9476a570be5de0d24492d58a2b27bc7a9edc7cd3b6f6b",
+      "before": "Let us go back and tell",
+      "text": "Let us go back and tell",
+      "after": "Let us go back and tell",
+      "reason": "The source says to return and convey Subaru's true feelings to his mother. The current English instead makes Subaru the recipient of an explanation of his own feelings."
+    },
+    {
+      "resource_row": 7353,
+      "source_sha256": "d053ed087bb0167ad5b226856cfec7c1dc0cb3d14cbe8e36dcefaa983402450c",
+      "before": "Subaru how you really feel.",
+      "text": "your mother how you truly feel, Subaru.",
+      "after": "your mother how you truly feel, Subaru.",
+      "reason": "The source says to return and convey Subaru's true feelings to his mother. The current English instead makes Subaru the recipient of an explanation of his own feelings."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied."
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00479",
+  "source_sha256": "b8bf82322db1bff21779b47c44ee2effaedc2ab100b7f8ab4c1368d85490afd0",
+  "target_file": "work/translation/en/story_0.1.54/0479/slice_0011.targets.json",
+  "target_file_sha256": "4d40bce1ea0938e1649d4335278bf43c36e81b94dbc38c64f61084b8a06dfbee",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      103
+    ]
+  ],
+  "rows_examined": 94,
+  "corrections": [
+    {
+      "resource_row": 50,
+      "source_sha256": "b1b37079cf4fc930f7c6e732b25980bcca9574a6ef9e5ee75a9879df628f1e4c",
+      "text": "Y-yes, it is, isn't it?",
+      "reason": "Keep the laughter and its song mark on their original physical source row."
+    },
+    {
+      "resource_row": 51,
+      "source_sha256": "1322c35545558e9cd11e61053041a8703698b36adc600db659e3611edf0fc124",
+      "text": "Ahahahaha! ♪",
+      "reason": "Keep the laughter and its song mark on their original physical source row."
+    },
+    {
+      "resource_row": 89,
+      "source_sha256": "9b9f0b69e4f7adf1527803cf01bce1b907601f38756c3a31a6a3d4a12dab300e",
+      "text": "Um...!?",
+      "reason": "Restore the stammer and deck request inside their source VM box; the existing target shifts the complete meaning to its last row."
+    },
+    {
+      "resource_row": 90,
+      "source_sha256": "fb0ab67c975a2ac4a74f850a67afcec2a7f6a9883c640fb084d55d2cca907c8b",
+      "text": "Please hurry to the deck!",
+      "reason": "Restore the stammer and deck request inside their source VM box; the existing target shifts the complete meaning to its last row."
+    },
+    {
+      "resource_row": 58,
+      "source_sha256": "f27d944c35e91304c551353b0d7d858ec8017c4fed7405f1ba4b9da1f2f8f4b9",
+      "text": "You're so kind...",
+      "reason": "The source addresses one kind child/person, not multiple children."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups and full scene context. Proper-name normalization is deferred to the name script."
+}

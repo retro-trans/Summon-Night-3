@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0393/review_meaning_0091.json",
+  "review_sha256": "14ef2b01efa06fa0953fe40fe437cc849c549ef2f6bea20dd073cd61ece06d04",
+  "target_file": "work/translation/en/story_0.1.54/0393/slice_0091.targets.json",
+  "target_before_sha256": "f782366a7938d8ff5af48cc301768c7779a42afe98c54355fd69ebb4d20560b2",
+  "target_after_sha256": "e40b52ac287e229260751465338b073ce1803379a7a54ad1917dd00311ebcc1c",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      156
+    ],
+    "count": 66
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 112,
+      "before": "Everything concerning ▲ and everyone back home...",
+      "after": "Everything concerning ▲ and everyone back home,",
+      "reason": "This is one of two conditional beginnings that converges on row 114; restore its shared construction."
+    },
+    {
+      "resource_row": 113,
+      "before": "Once I've settled everything concerning ▲ and everyone back home...",
+      "after": "Everything concerning ▲ and everyone back home,",
+      "reason": "This is the parallel conditional beginning that also converges on row 114; match row 112."
+    },
+    {
+      "resource_row": 114,
+      "before": "",
+      "after": "once that is all settled...",
+      "reason": "Common conclusion for the separate row 112 and row 113 conditional starts, as indicated by the VM references."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

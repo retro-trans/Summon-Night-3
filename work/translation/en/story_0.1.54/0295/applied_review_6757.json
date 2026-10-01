@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_6757.json",
+  "review_sha256": "ecf818f0daf4586327231125709baefe47fc152b2c18442ba75656d3e85ddd61",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_6757.targets.json",
+  "target_before_sha256": "7b5721aa4572eed1a056411f9ed073ecde0b5e8f207e2e20e72e8ac607bbeb1c",
+  "target_after_sha256": "622543f6a097204656714bc2c9cf88ca5ce62760bbfebfaf7350228c04cc5709",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6757,
+      6836
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6813,
+      "before": "Yafha...",
+      "after": "Ya... fha...",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

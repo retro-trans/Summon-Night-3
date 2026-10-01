@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_4688_root_final.json",
+  "review_sha256": "ae5651ba44d34d495af8c0044dd0034cdec6aa0f3f7a7c1030db96a936d0df6f",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4688.targets.json",
+  "target_before_sha256": "6d6904a636b73d75427edddee994d83bec5b40538ee80f1c1ec9b88a0c8f7a1e",
+  "target_after_sha256": "8abf84663a382d9b3995f1c04fa48f8c0f5abfe95c30766d414eec5dfcfe6688",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4688,
+      4767
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4692,
+      "before": "It means Teacher. Everyone on the island calls her that.",
+      "after": "It means Teacher. Everyone on the island calls them that.",
+      "reason": "Female speech ending identifies the speaker, not the route-dependent Teacher's gender."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

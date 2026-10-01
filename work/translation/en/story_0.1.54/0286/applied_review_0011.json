@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0286/review_meaning_0011.json",
+  "review_sha256": "ae0cb347298f490ee35d10de4d7b99389c4b66b67db8b719109dc0a34dd2beda",
+  "target_file": "work/translation/en/story_0.1.54/0286/slice_0011.targets.json",
+  "target_before_sha256": "e5d216067759e72274a4311bc26bf36e09654b7bfc800a595bce00123764a4ae",
+  "target_after_sha256": "63189c60dd6a3fec5b2eb400b0c6f6d28cf0cb56badfa0a6f61b6143cabd1d77",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      52
+    ],
+    "count": 42
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 49,
+      "before": "Not to the very end...",
+      "after": "Not ever...",
+      "reason": "This source fragment intensifies the preceding vow for its entire duration. The authored continuation is ungrammatical in English; 'Not ever' preserves the emphatic repeated denial."
+    },
+    {
+      "resource_row": 52,
+      "before": "Not to the very end...",
+      "after": "Not ever...",
+      "reason": "This is the matching protagonist variant and needs the same source-faithful grammatical completion."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

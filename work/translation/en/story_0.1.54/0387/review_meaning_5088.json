@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_5088.targets.json",
+  "target_file_sha256": "07a8a26caaaf80b78ec70daece4e32bc3bb5d2c1e91b063c61b66e49af28034a",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5088,
+      5167
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5087,
+      5168
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first meaning review of full VM boxes and both-side context; source read transiently. No correction was applied and no normalization was performed. Root independently checked source/English5106–5117 and rejected the proposed grammar change at5112; existing noun will correctly takes reaches.",
+  "rejected_proposals": [
+    {
+      "resource_row": 5112,
+      "source_sha256": "7c447e26c772f1c39ef1532b7f025c410766fc84b0f6f6635595e00fe1219982",
+      "text": "reach",
+      "reason": "The plural subject 'will' requires the verb 'reach'; the source says the commander's firm will reaches the soldiers.",
+      "rejection_reason": "Root checked original group5111–5113. Here will is the singular noun in the leaders firm will, not a plural subject or auxiliary. Existing reaches is correct."
+    }
+  ],
+  "superseded_proposals": [
+    {
+      "file": "work/translation/en/story_0.1.54/0387/review_superseded_proposals/review_meaning_5088.json",
+      "sha256": "d4fda705f012d088515aa7a8bb7852a5c17a9ff87d393155aec3b39484928e8f"
+    }
+  ]
+}

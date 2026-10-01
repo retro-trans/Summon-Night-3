@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2208.targets.json",
+  "target_file_sha256": "54e9383f44afa7988639b01801f9fae5290b18b59b0bdc9144cbf8af9129c4b0",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2208,
+      2287
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2207,
+      2289
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 2211,
+      "source_sha256": "275caa02fe3bb52d24f656493eedc0d86de8d68377d7074f82d5eafdf3af3871",
+      "text": "A union of vengeful spirits centered on his shattered mind...",
+      "reason": "Rows 2217 onward explicitly identify Hainel as the male referent."
+    },
+    {
+      "resource_row": 2230,
+      "source_sha256": "7e49cb4038b5e06fe52a616137ccb611bd5054a32d33337df5b3a7dd20f98699",
+      "text": "But he is gone!!",
+      "reason": "Rows 2217 onward explicitly identify Hainel as the male referent."
+    },
+    {
+      "resource_row": 2233,
+      "source_sha256": "d7c986f5208f1abba3ff42889643cfd2882d3348cf4f2bb98f99a9156ddef91e",
+      "text": "Knowing him, he must have saved you with all his strength.",
+      "reason": "Rows 2217 onward explicitly identify Hainel as the male referent."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups, including both boundary groups. Proper-name normalization is deferred to the name script. Re-read rows 2217 onward resolves the referent as Hainel; male pronouns are required."
+}

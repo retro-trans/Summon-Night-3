@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_6997.targets.json",
+  "target_file_sha256": "437e0fa31bf26a84119db2326608b2ca5905ae802227ccca4c798dec6eba95d0",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6997,
+      7076
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6996,
+      7077
+    ]
+  ],
+  "rows_examined": 82,
+  "vm_group_verification": {
+    "method": "Simulated each complete display group after all replacements. Reactions stay standalone; route variants each retain one complete utterance and endpoint; no following display group supplies a clause."
+  },
+  "corrections": [
+    {
+      "resource_row": 7036,
+      "source_sha256": "22183a8ac73e50902376c40b3f5b838de7a8524a329469349249ff780d5b2a93",
+      "before": "That is",
+      "text": "That is a Guardian's duty.",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    },
+    {
+      "resource_row": 7037,
+      "source_sha256": "05dc89c8feedf7516e8db657a1f0c86f13de3c16769fad4e73015ec72aeb56e2",
+      "before": "a Guardian's duty. You acknowledge that, right?",
+      "text": "You acknowledge that, right?",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Superseding supplemental proof only. Dialogue target files remain unchanged."
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00334",
+  "source_sha256": "eb38ad559ee201f8713a2f58f4a8064b4b892f3be6e2cd6591505e3a7a8d2e01",
+  "target_file": "work/translation/en/story_0.1.54/0334/slice_0011.targets.json",
+  "target_file_sha256": "28b6d3f2eb4087aa8adb3400d7527671fac5420c0e742d1de3e691c80af6f409",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      48
+    ],
+    "count": 38
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      48
+    ]
+  ],
+  "rows_examined": 39,
+  "corrections": [
+    {
+      "resource_row": 13,
+      "source_sha256": "0e571fb9f3cd61facd8b54e70d09e61c8a8c4224d804b49462b8a8afeb7b8c79",
+      "text": "The last battle where my husband and the others fought",
+      "reason": "The term denotes Misumi's husband, corroborated by chapter48_additions glossary and the grief context; it is not generic beloved ones."
+    },
+    {
+      "resource_row": 39,
+      "source_sha256": "a7e837c2633a0057d519ef1a5ea8a62c1f0c81b15e761ad22843ae06b33c84e3",
+      "text": "You'll let us fight, won't you,",
+      "reason": "She asks consent to participate, not merely whether her feelings are understood."
+    },
+    {
+      "resource_row": 41,
+      "source_sha256": "a7e837c2633a0057d519ef1a5ea8a62c1f0c81b15e761ad22843ae06b33c84e3",
+      "text": "You'll let us fight, won't you?",
+      "reason": "Same permission request in the alternate protagonist branch."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        37,
+        38
+      ],
+      "note": "Second independent full-scene source review by Terra chapter12_review supports Kyuuma and Subaru sharing Misumi's feelings; the protagonist's following plural acceptance supports retaining this reading. Root's alternative interpretation was rejected."
+    }
+  ],
+  "omissions": [
+    {
+      "note": "Explicit source pauses, cries and genuinely interrupted thought are retained, not filled out with invented conclusions."
+    }
+  ],
+  "notes": "Root independently compared every full VM group in the assigned dialogue and its boundary context. All correction groups reconstructed in memory before accepting the change."
+}

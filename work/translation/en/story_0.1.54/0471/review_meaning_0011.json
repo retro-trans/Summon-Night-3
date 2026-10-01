@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00471",
+  "source_sha256": "8b0d51a7651021054e4761e7187c99388a896fb87d66bced5e6041371b01dc17",
+  "target_file": "work/translation/en/story_0.1.54/0471/slice_0011.targets.json",
+  "target_file_sha256": "199b3342aa11d07ba87f9b6f3652cc327eca2046ba7fa8816390cbebbd769ebd",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [11, 90],
+    "count": 80
+  },
+  "source_ranges_examined": [[10, 91]],
+  "rows_examined": 82,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "issue": "Rows 86–89 are two complete adjacent boxes: the first deliberately trails into the comparison in the second. Meaning remains within its respective box; no complete box is empty."
+    }
+  ],
+  "notes": "Independent source-first review using actual VM dialogue groups and both-side slice context. No meaning, control-token, complete-box, or placement defect found. Proper-name normalization is intentionally deferred."
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "root source consolidation after independent agent review",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4848.targets.json",
+  "target_file_sha256": "3f34a610f6aec5bcd97b06aec1d21aeb36a69b09df57e2a447cf89c7e519d1cc",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4848,
+      4927
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4845,
+      4930
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Full source VM groups read through EOF5825, including cross-slice groups. Original controls and physical music rows retained. Name-only changes deferred to scripted glossary normalization."
+}

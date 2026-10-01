@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3328.targets.json",
+  "target_file_sha256": "fa6d8d2a835d8600b9e5d840402b3c3193d6158ffad1ea0594a25877a05ca87f",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3328,
+      3407
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3308,
+      3411
+    ]
+  ],
+  "rows_examined": 104,
+  "corrections": [
+    {
+      "resource_row": 3334,
+      "source_sha256": "e94a53b29545a4a979ecc492296036944548bebe5d2760a661147c974825bb72",
+      "text": "Make sure you help them for all of us.",
+      "reason": "The departing representative is being asked to help; this is not an explicit rescue. Keep the deictic referent neutral rather than inventing danger."
+    },
+    {
+      "resource_row": 3358,
+      "source_sha256": "f283e1eacaa4938fe0b5446fcc15fc9e7a8257ea7a144ab72a8bc591717ca0cf",
+      "text": "Yafha...",
+      "reason": "The respectful peer address does not establish that Yafha holds the rank of lord."
+    },
+    {
+      "resource_row": 3389,
+      "source_sha256": "e94a53b29545a4a979ecc492296036944548bebe5d2760a661147c974825bb72",
+      "text": "Make sure you help them for all of us.",
+      "reason": "Parallel farewell request asks for help on behalf of the others, not an explicit rescue."
+    },
+    {
+      "resource_row": 3407,
+      "source_sha256": "b5bdfe23ddca101e9ccabc9bc34a71fe12ff06023defd55eae42d883b2750a0c",
+      "text": "Please let me come...",
+      "reason": "Restore the request settled by the preceding wish to accompany the protagonist and the following request that he be allowed along."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        3352
+      ],
+      "reason": "Source trails off after 'this time'; the preceding resolve supplies the meaning."
+    },
+    {
+      "rows": [
+        3381,
+        3382
+      ],
+      "reason": "Continuation of the preceding wish to see events through, in the brother's place."
+    }
+  ],
+  "notes": "Read every source and English VM group plus context. In 3334 and 3389, retain a neutral deictic pronoun: the source request establishes helping, but adjacent text alone does not label the addressee of this turn. Internal continuation blanks are box organization, not source omissions. Names will be normalized after meaning reviews."
+}

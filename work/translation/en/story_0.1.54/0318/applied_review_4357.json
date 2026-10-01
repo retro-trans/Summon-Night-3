@@ -1,0 +1,72 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_4357.json",
+  "review_sha256": "81e1ad9530a436e8eef11dad6b455a67f65c13be3d8b1461a3a5cce8af6942f7",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4357.targets.json",
+  "target_before_sha256": "b8d90c12d2c54e8f86faf475bb90bc1469000f2a1a666eca2eaed288aa197afc",
+  "target_after_sha256": "6d403b15adf608ac496dc445321d314a165e1a9175f74145d1450ee87dfc1693",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4357,
+      4436
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4380,
+      "before": "Do not try to bear everything alone. We are comrades.",
+      "after": "Do not try to bear everything alone.",
+      "reason": "Retain admonition in its original box."
+    },
+    {
+      "resource_row": 4381,
+      "before": "",
+      "after": "We...",
+      "reason": "The thought explicitly continues into the next original box."
+    },
+    {
+      "resource_row": 4383,
+      "before": "",
+      "after": "are comrades, after all.",
+      "reason": "Restore this complete original box instead of consuming it into the preceding box."
+    },
+    {
+      "resource_row": 4402,
+      "before": "Still, I was honestly surprised that Lord Falzen was Lady Fariel.",
+      "after": "Still...",
+      "reason": "Separate the identity statement from the following speaker box's surprise."
+    },
+    {
+      "resource_row": 4403,
+      "before": "",
+      "after": "Falzen's true identity",
+      "reason": "Use peer name, without inferring a feudal title from dono."
+    },
+    {
+      "resource_row": 4404,
+      "before": "",
+      "after": "was Lady Fariel.",
+      "reason": "Keep identity reveal in the original group."
+    },
+    {
+      "resource_row": 4405,
+      "before": "",
+      "after": "That honestly surprised me.",
+      "reason": "Restore the separate surprise-reaction box."
+    },
+    {
+      "resource_row": 4435,
+      "before": "Uh, yes... Is that really how it is?",
+      "after": "U-um...",
+      "reason": "Restore the hesitant question in its own group."
+    },
+    {
+      "resource_row": 4436,
+      "before": "",
+      "after": "Is that how",
+      "reason": "Keep the complete question inside the original box."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4197.targets.json",
+  "target_file_sha256": "b1a006110ec26cf08f36e02f11797e07cf2e4b5feb42137c96f640ccc82a887a",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4197,
+      4276
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3957,
+      5156
+    ]
+  ],
+  "rows_examined": 1200,
+  "dialogue_group_boundaries_verified": true,
+  "reviewer": "root: independent source and VM-group review",
+  "corrections": [
+    {
+      "resource_row": 4235,
+      "source_sha256": "d21300143e33a9416cc27c433a651b356c61d0f6e3f8e1beb298d2d111a37856",
+      "before": "Yes...",
+      "text": "Yes... I can tell",
+      "reason": "This is the protagonist answer ending before the next speaker explains Ardylia; retain the recoverable verb rather than attach a dangling English clause to the following speaker."
+    },
+    {
+      "resource_row": 4236,
+      "source_sha256": "023798aaf915c51f86db48ed6386780ceda5f49c3f5cab5a53ae27eacb73417d",
+      "before": "When you look at her,",
+      "text": "from watching her.",
+      "reason": "This is the protagonist answer ending before the next speaker explains Ardylia; retain the recoverable verb rather than attach a dangling English clause to the following speaker."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "reason": "Original pauses and explicitly interrupted utterances retained; continuous same-speaker clauses remain across separate source boxes where already faithful."
+    }
+  ]
+}

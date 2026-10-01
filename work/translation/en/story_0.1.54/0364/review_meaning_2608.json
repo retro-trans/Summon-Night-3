@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2608.targets.json",
+  "target_file_sha256": "cda361b83bb94fa905267cd4feaa81b2973dd8729e43413c82c329a47e71c4c3",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [2608, 2687], "count": 80},
+  "source_ranges_examined": [[2606, 2689]],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [
+    {"rows": [2612, 2613, 2614, 2616, 2617, 2618, 2620, 2621, 2622, 2623, 2624, 2625, 2626, 2627, 2628, 2629, 2630, 2631, 2632, 2635, 2636, 2637, 2640, 2641, 2644, 2652, 2653, 2654, 2655, 2657, 2658, 2659, 2660, 2661, 2662, 2663, 2664, 2665, 2666, 2667, 2683, 2684, 2686, 2687], "issue": "Teacher is player-selected. The target preserves the settled role without gender inference; direct address remains second person."}
+  ],
+  "omissions": [
+    {"rows": [2615, 2619, 2625, 2633, 2634, 2639, 2645, 2646, 2650, 2651, 2656, 2662, 2670, 2671, 2682], "reason": "Acknowledgment, silence, hesitation, and emotional-reaction fragments retain their non-propositional source function."},
+    {"rows": [2609, 2610, 2611, 2612, 2613, 2614, 2616, 2617, 2618, 2620, 2621, 2622, 2623, 2624, 2625, 2626, 2627, 2628, 2629, 2630, 2631, 2632, 2635, 2636, 2637, 2647, 2648, 2649, 2652, 2653, 2654, 2655, 2657, 2658, 2659, 2660, 2661, 2662, 2663, 2664, 2665, 2666, 2667, 2668, 2669, 2672, 2673, 2675, 2676, 2677, 2678, 2679, 2680, 2683, 2684], "reason": "Physical continuation rows complete their English sentence in adjacent fragments. The Belfraw exchange beginning at row 2683 continues beyond this slice."}
+  ],
+  "notes": "Reviewed original Japanese against the authored target with immediate preceding and following context. The target preserves speaker roles, the conditional responsibility statement, and the conclusion that Teacher's actions saved the listener's father. No meaning correction is required; wording differences were not recorded as cosmetic changes."
+}

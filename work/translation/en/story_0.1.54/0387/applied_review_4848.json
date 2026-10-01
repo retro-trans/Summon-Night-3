@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_4848.json",
+  "review_sha256": "b48d32eeec6ba4138d6a2259e7401d6748b28d01dd9bf019ea990d795c861d54",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_4848.targets.json",
+  "target_before_sha256": "987368422336d0493291ab0cec861e502b7382bd9fd1b92f69accb8ff16daa54",
+  "target_after_sha256": "596c81589496482d968639f06311d1e3cdc4181af21fbd08919d11b3453c1a40",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4848,
+      4927
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4901,
+      "before": "It does not matter if they laugh at you...",
+      "after": "It does not matter if they laugh at you or mock you.",
+      "reason": "Preserve both ridicule verbs AND source reassurance that it does not matter; proposed fragment omitted reassurance."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

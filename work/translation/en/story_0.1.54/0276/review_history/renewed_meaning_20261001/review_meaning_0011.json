@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00276",
+  "source_sha256": "f68282381dd259c11e35846fa1feb3ffe9fcce326723fac8727b09f28fab21c0",
+  "target_file": "work/translation/en/story_0.1.54/0276/slice_0011.targets.json",
+  "target_file_sha256": "f03bb2263f905d2929461ea78a06dee6908005e92d5d889732bcf718fd8a2e2c",
+  "semantic_complete": false,
+  "reviewed_rows": {
+    "range_inclusive": [11, 63],
+    "count": 53
+  },
+  "source_ranges_examined": [[0, 63]],
+  "rows_examined": 64,
+  "corrections": [
+    {
+      "resource_row": 46,
+      "source_sha256": "a7caa9ef0ae9332653fdf84ed4976eb07c89e194d799dd7c9ccf273bb7793c10",
+      "text": "Unless I do that, I'm sure it won't have any effect",
+      "reason": "The source uses an idiom meaning the proposed warning would have no effect on someone like the Teacher. The authored text changes that into a claim about learning a lesson or being cured."
+    },
+    {
+      "resource_row": 47,
+      "source_sha256": "2f2805bd4c3f89f61ce451f124f9dafaa83eeabcaa953547dd04f23826f39a20",
+      "text": "on someone like you...",
+      "reason": "Completes the preceding correction: the source directs the idiom at the Teacher, not at a lesson or cure."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [13, 14],
+      "issue": "The authored \"forever\" makes explicit the feared lasting loss of self. The source expresses this through a completion form rather than a separate temporal word; no correction proposed."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [15, 17, 23, 29, 31, 34, 35, 48, 49, 51, 52, 53, 54, 56, 57],
+      "reason": "Acknowledgements, pauses, apology, and brief reactions. The authored English retains their conversational function."
+    },
+    {
+      "rows": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 36, 37, 38, 39, 42, 43, 44, 45, 46, 47, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63],
+      "reason": "Physical continuation rows. The authored English joins each with adjacent source fragments; corrections are limited to the idiom in rows 46-47."
+    }
+  ],
+  "notes": "Reviewed original Japanese against the authored target across full resource context. One paired meaning correction is required; wording differences were not recorded as cosmetic changes."
+}

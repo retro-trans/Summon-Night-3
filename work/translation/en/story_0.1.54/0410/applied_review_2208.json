@@ -1,0 +1,40 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_2208.json",
+  "review_sha256": "fb2310d8c9f5ae76a0c535fcca3c35f862ab1f48fe5fba5eb4ce17e62296313d",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2208.targets.json",
+  "target_before_sha256": "49e1434779b3de2d162f0e2cd438e1b0579f3076bf455681ed3c4c0815a7a943",
+  "target_after_sha256": "2d6dc2049ead90d9cb402b8ad22c17e1ecc7870ca93ab87ce2abe1b4e3844e9f",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2208,
+      2287
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2257,
+      "before": "with the summoning spell,",
+      "after": "in time with the summoning spell,",
+      "reason": "Source describes timing sword-drawing in response to summoning magic, not using the spell as the means of drawing."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2251,
+        2254,
+        2256,
+        2261
+      ],
+      "issue": "Sword drawing describes the source action; it is the established special power, not a newly named move."
+    },
+    {
+      "rows": [
+        2279
+      ],
+      "issue": "Source uses short Bel. Current expanded Belfraw must be normalized by source identity after meaning review."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

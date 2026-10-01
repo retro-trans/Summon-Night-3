@@ -1,0 +1,35 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_3088.json",
+  "review_sha256": "b2db6823532f34055a6b3e5e14b14d72a2cb74dc2903096420a94b135d5eae57",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3088.targets.json",
+  "target_before_sha256": "3683186a213cfdfcfd443672d5da3e4182ee3205b17deabc2815c345dc18561c",
+  "target_after_sha256": "2cef17f8802f764a2b90fea30c43aacf45c04b8ecad693e0b78692c2e8d1ea59",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3088,
+      3167
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3098,
+      "before": "The sword I'll forge now is unlike anything made before.",
+      "after": "The sword I'm about to forge will resemble your old one, but it will be something different.",
+      "reason": "Source contrasts new sword with previous one: similar but different, not unprecedented in history."
+    },
+    {
+      "resource_row": 3120,
+      "before": "Don't worry. I'll keep watch right beside you.",
+      "after": "Don't worry. I'll stay right beside him and keep an eye on him.",
+      "reason": "Pupil stays with Vizel while Teacher leaves to find an answer; watch target is smith, not departing Teacher."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 3120,
+      "note": "Object of keeping watch is Vizel, inferred from pupil remaining to help repair sword while Teacher leaves. Parallel Belfraw variant confirms distrust."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

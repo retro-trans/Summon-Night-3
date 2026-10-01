@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_6597.json",
+  "review_sha256": "ddd32c034b411873b0036a436df2dcf44ce89c71c5d4babc01e9da9d9c9df94e",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_6597.targets.json",
+  "target_before_sha256": "fc21404755375b1bd76d0deb3b374652392fb8586680e59754d04f52fa714089",
+  "target_after_sha256": "180f9dd3d2dcf39240706ad564d55311a814bbb28dc45faa591e4cb015e8e395",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6597,
+      6676
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6669,
+      "before": "the Core Cognizance,",
+      "after": "the Core Cognizance, as we did before...",
+      "reason": "昔のように belongs to the 6668–6669 VM group; it was moved into the separate 6670 group."
+    },
+    {
+      "resource_row": 6670,
+      "before": "as we did before...",
+      "after": "Ah... Aah...",
+      "reason": "6670 is a separate source dialogue group containing only the stammer あ、ああ・・・."
+    },
+    {
+      "resource_row": 6671,
+      "before": "I love you...",
+      "after": "I love...",
+      "reason": "The source starts an interrupted declaration without its object; the current English supplies a complete “I love you” twice across the next row."
+    },
+    {
+      "resource_row": 6672,
+      "before": "I love you...",
+      "after": "you...",
+      "reason": "Completes the interrupted declaration’s object once, matching 君のことを."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

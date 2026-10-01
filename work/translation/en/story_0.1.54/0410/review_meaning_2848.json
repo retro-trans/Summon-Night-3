@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2848.targets.json",
+  "target_file_sha256": "311bca00e4c4730ddd2305a7a30b7c7ba8cbdcb93618543ca8a78c5461e5050c",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2848,
+      2927
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2846,
+      3008
+    ]
+  ],
+  "rows_examined": 163,
+  "corrections": [
+    {
+      "resource_row": 2905,
+      "source_sha256": "ec6af5309818ebc06ca5ce4eebb91d055820ea15a4b9cdcd7707d75a72e8398c",
+      "text": "Waiting for Ishlar to make a move before we act",
+      "reason": "Restores the explicit second action after waiting; source strategy is responding after Ishlar moves."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2851,
+        2852
+      ],
+      "issue": "Ohkini/overeating wordplay adapted as Oh can he eat to retain canonical name and deliberately corny joke; literal kana pun would not work in English."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared source and English at full VM box boundaries, including both slice boundaries and protagonist/pupil alternatives. Name normalization follows meaning fixes."
+}

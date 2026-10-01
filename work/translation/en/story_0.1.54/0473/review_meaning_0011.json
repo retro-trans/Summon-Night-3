@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00473",
+  "source_sha256": "4f48f8c5bd69b7f5f02f39c68677ee39811a52c37b7692c44cef60ee0ce4a729",
+  "target_file": "work/translation/en/story_0.1.54/0473/slice_0011.targets.json",
+  "target_file_sha256": "0ec4725b7c4be33d0c1eedc134bf2a6e706aa9daa46a6eeaa3e667a60cda20b3",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      122
+    ]
+  ],
+  "rows_examined": 113,
+  "corrections": [
+    {
+      "resource_row": 11,
+      "source_sha256": "ae76b90a78a54105b364230a0a2be94cfd6f0584951eca5ad50aa47cd7f76af5",
+      "text": "So, Subaru, division doesn't always come out evenly...",
+      "reason": "The source completes the statement that division does not always divide evenly; the existing English stops mid-sentence."
+    },
+    {
+      "resource_row": 14,
+      "source_sha256": "af4355a38d6410549025f66145ad35bbfd1df9139f5a4f53d295bde5c0640524",
+      "text": "So, Subaru, division doesn't always come out evenly...",
+      "reason": "The alternate protagonist variant has the same completed division statement; the existing English stops mid-sentence."
+    },
+    {
+      "resource_row": 17,
+      "source_sha256": "f4ad9973a3f43253af73506ac8f5492a53ab257caef9453c39ef6f10566c3bfb",
+      "text": "But if we don't split them in half properly, won't they start fighting?",
+      "reason": "Subaru literally proposes splitting the fruit in half; the existing English stops before the result of that proposal."
+    },
+    {
+      "resource_row": 21,
+      "source_sha256": "1ed927d486012931d972f0e34c71047de39dd5f54b9b2997c06b3bc9991a43b9",
+      "text": "If three people share five Dalima fruits, we should count even the pieces inside!",
+      "reason": "The source says to count the contents inside the fruit. It does not establish that they are seeds, so the translation keeps the contents neutral."
+    },
+    {
+      "resource_row": 68,
+      "source_sha256": "370cbb5750ffb24f9bce5e1e5a7b0ad4cd2a4ff34813db2251fa3ff9f1c85f1c",
+      "text": "By the way, will the class representative still be unable to come back for a while?",
+      "reason": "The source asks whether the class representative cannot return for some time; the existing English stops after the subject."
+    },
+    {
+      "resource_row": 70,
+      "source_sha256": "b91a451e236e38fc3c2e1a35d96f898b7d98424536c8216d3b86ab16b2f699d3",
+      "text": "By the way, will Big Bro Nup still be unable to come back for a while?",
+      "reason": "The alternate question asks whether Nup cannot return for some time and uses the familiar older-brother address; the existing English stops after the name."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first comparison against complete VM groups and context on both sides. Variant boxes remain separate; no source text was saved."
+}

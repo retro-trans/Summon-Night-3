@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00249",
+  "source_sha256": "e3c0ac50ec01fb9606a8cf187d24791b3e787ee38da5f8d48c733777bbb2cc6e",
+  "target_file": "work/translation/en/story_0.1.54/0249/slice_2293.targets.json",
+  "target_file_sha256": "c531902e29efb11a427232495437f98264c23981cb19abe2db6bfa402b2f4f95",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2354,
+      2433
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2351,
+      2436
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [
+    {
+      "resource_row": 2415,
+      "source_sha256": "2065586945b77873ab7a1f546312c37567bbc264ba290c3b689ea5a90b4aa332",
+      "text": "That is why I want to solve it...",
+      "reason": "Both protagonist branches state the purpose of resolving the problem. The current English says only that the speaker wants to help her, dropping that stated purpose; the correction retains the source’s deliberately unelaborated referent."
+    },
+    {
+      "resource_row": 2416,
+      "source_sha256": "87d0941c56377d0c797f3545b2aeb109ca9136ae2d8cc3a5e36a974668d00104",
+      "text": "",
+      "reason": "Both protagonist branches state the purpose of resolving the problem. The current English says only that the speaker wants to help her, dropping that stated purpose; the correction retains the source’s deliberately unelaborated referent."
+    },
+    {
+      "resource_row": 2417,
+      "source_sha256": "2065586945b77873ab7a1f546312c37567bbc264ba290c3b689ea5a90b4aa332",
+      "text": "That is why I want to solve it...",
+      "reason": "Both protagonist branches state the purpose of resolving the problem. The current English says only that the speaker wants to help her, dropping that stated purpose; the correction retains the source’s deliberately unelaborated referent."
+    },
+    {
+      "resource_row": 2418,
+      "source_sha256": "87d0941c56377d0c797f3545b2aeb109ca9136ae2d8cc3a5e36a974668d00104",
+      "text": "",
+      "reason": "Both protagonist branches state the purpose of resolving the problem. The current English says only that the speaker wants to help her, dropping that stated purpose; the correction retains the source’s deliberately unelaborated referent."
+    },
+    {
+      "resource_row": 2406,
+      "source_sha256": "3e3ea636d88d306c60e2e8d8962408cb7e1888a485dc6e53e9bb35cac63d8030",
+      "text": "Take off your mask and live as Fariel, not Falzen.",
+      "reason": "The source imperative is a complete three-row VM dialogue box. The current English shifts “not Falzen” into the next VM box, breaking box-boundary meaning."
+    },
+    {
+      "resource_row": 2407,
+      "source_sha256": "3b4fc2b49eacd901ab23c15d681b60a4a5298d16723cff4dd64ab0d6158a6b5f",
+      "text": "",
+      "reason": "Physical continuation moved to row 2406 within this same complete source box."
+    },
+    {
+      "resource_row": 2408,
+      "source_sha256": "83371acc3576b5629f21da41302be5e64b53521ae6b45736b4adffdf457248b8",
+      "text": "",
+      "reason": "Physical continuation moved to row 2406 within this same complete source box."
+    },
+    {
+      "resource_row": 2409,
+      "source_sha256": "7ebf8bfd801db00209c6c00683136fcafb510e02f948cf258d2fab446422daff",
+      "text": "Is that what you intend to tell her?",
+      "reason": "This is a separate source dialogue box asking whether the preceding imperative is what the protagonist intends to say. The current English holds the prior box’s final clause here instead."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2415,
+        2416,
+        2417,
+        2418
+      ],
+      "issue": "The source leaves the problem’s precise referent implicit. The proposed “it” preserves that omission rather than assigning a more specific problem."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        2407,
+        2408
+      ],
+      "reason": "Physical continuation rows. Their complete imperative is anchored at row 2406 in the same source VM box."
+    }
+  ],
+  "notes": "Independent source-first review of every assigned row and complete adjacent VM groups. Source-meaning defects restore the stated resolve-it purpose and keep the imperative and its follow-up question in their original separate VM boxes."
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4608.targets.json",
+  "target_file_sha256": "d96f1fee8c4a87ef2b763a2f570c4f7adc71b014b7e8f56ed213c29de226e2d7",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4608,
+      4687
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4607,
+      4688
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 4683,
+      "source_sha256": "f4d183bd67e4d213c9dc5e526b2e425924c9fb0277f30489cded8ea91a62d8db",
+      "text": "I will destroy it! I will kill everything... everyone!!",
+      "reason": "The source escalates from destroying the world to killing everything and everyone; the target’s “kill them” loses the explicit all-inclusive object."
+    },
+    {
+      "resource_row": 4684,
+      "source_sha256": "093d246e978c53f42952b3333e73c4ec7f6bc51f50a17cecac31fa96f325f075",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 4685,
+      "source_sha256": "19be7d2c7c33c59d0f56c9ae4134fae19d8c837094fcf20af7aac697320eb4f3",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context, including the adjacent first and last VM boxes."
+}

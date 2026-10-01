@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00463",
+  "source_sha256": "b615d220136328cd9a606b71413c1369dfabc42cf03a022c1ff18469a933e94d",
+  "target_file": "work/translation/en/story_0.1.54/0463/slice_0011.targets.json",
+  "target_file_sha256": "072334d344df77a52f21a2445cb9d0c9c54769d94a26a85107e388b86ba0cfee",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      190
+    ]
+  ],
+  "rows_examined": 181,
+  "corrections": [
+    {
+      "resource_row": 50,
+      "source_sha256": "ae8d94c5e467546804525f8c367873cb47eca3f388c7b73312ec5aadf90f2f78",
+      "text": "Thank you... Though the one who worked hard wasn't me,",
+      "reason": "Restore the child as the person who worked hard; the existing translation leaves the contrast incomplete."
+    },
+    {
+      "resource_row": 51,
+      "source_sha256": "c90a1fa026a53672ce03dece327d5273255aa55258ea770b506a870a8a7966dd",
+      "text": "but that child.",
+      "reason": "Restore the child as the person who worked hard; the existing translation leaves the contrast incomplete."
+    },
+    {
+      "resource_row": 52,
+      "source_sha256": "ae8d94c5e467546804525f8c367873cb47eca3f388c7b73312ec5aadf90f2f78",
+      "text": "Thank you... Though the one who worked hard wasn't me,",
+      "reason": "Restore the child as the person who worked hard; the existing translation leaves the contrast incomplete."
+    },
+    {
+      "resource_row": 53,
+      "source_sha256": "bc52ca8c5e4f8e4c612ca38f215c31d8d28a4063b9e30fa881d0c8dcab2448a9",
+      "text": "but that child.",
+      "reason": "Restore the child as the person who worked hard; the existing translation leaves the contrast incomplete."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of the full resource and actual VM dialogue groups. Cross-slice dialogue box checked on both sides. Proper-name normalization, including Rikt, is deferred to the name script."
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_5877.targets.json",
+  "target_file_sha256": "c608b5fd7116d81fe678898d664c0e13116d4f682eda12311bf11b93e55a3bf0",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5877,
+      5956
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5876,
+      5957
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 5955,
+      "source_sha256": "822052a28bf841afac82289ecb0e00c09a9cfaac8e6e12857427ec7ff454ccdb",
+      "before": "than your own...",
+      "text": "than your own... Isn't that right?",
+      "after": "than your own... Isn't that right?",
+      "reason": "The rhetorical question belongs to the preceding line. The following source box is Kyle's name, which the current target omits."
+    },
+    {
+      "resource_row": 5956,
+      "source_sha256": "21aeab28c3a1476df3c17befdfff2528c8775115734bbd2cfb03b9de4307be2e",
+      "before": "Isn't that right?",
+      "text": "Kyle...",
+      "after": "Kyle...",
+      "reason": "The rhetorical question belongs to the preceding line. The following source box is Kyle's name, which the current target omits."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied."
+}

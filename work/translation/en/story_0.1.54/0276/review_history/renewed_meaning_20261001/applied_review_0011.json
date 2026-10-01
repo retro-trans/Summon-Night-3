@@ -1,0 +1,38 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0276/review_meaning_0011.json",
+  "review_sha256": "ceff895ad2ff6c619e399541de37c301cb81bd0d985ea768139df3fee1f7220d",
+  "target_file": "work/translation/en/story_0.1.54/0276/slice_0011.targets.json",
+  "target_before_sha256": "f03bb2263f905d2929461ea78a06dee6908005e92d5d889732bcf718fd8a2e2c",
+  "target_after_sha256": "3b9b837e7f17ce69e77d98caeb5ef50c8c44095eae5f88731d1b02f4014ac7d5",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      63
+    ],
+    "count": 53
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 46,
+      "before": "Unless I do that, I am certain someone like you",
+      "after": "Unless I do that, I'm sure it won't have any effect",
+      "reason": "The source uses an idiom meaning the proposed warning would have no effect on someone like the Teacher. The authored text changes that into a claim about learning a lesson or being cured."
+    },
+    {
+      "resource_row": 47,
+      "before": "will learn neither lesson nor cure...",
+      "after": "on someone like you...",
+      "reason": "Completes the preceding correction: the source directs the idiom at the Teacher, not at a lesson or cure."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        13,
+        14
+      ],
+      "issue": "The authored \"forever\" makes explicit the feared lasting loss of self. The source expresses this through a completion form rather than a separate temporal word; no correction proposed."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

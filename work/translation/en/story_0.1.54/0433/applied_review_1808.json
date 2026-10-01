@@ -1,0 +1,54 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_1808.json",
+  "review_sha256": "a4fe07abbf2adf575c854acdfab1cbb75983c7c89111f83ef66edab4bad2646b",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_1808.targets.json",
+  "target_before_sha256": "ba864b2d2d47023625610514729122fbdb19b0496f63975763f2d059a10abd19",
+  "target_after_sha256": "2f4d4920ad4d03a786938a7f311e8f06281b65be69e250bf078b75747ffcbf6e",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1808,
+      1887
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 1850,
+      "before": "Everyone from the village",
+      "after": "I hear everyone from the village made it here safely.",
+      "reason": "The source’s ってさ reports received information; the target presents it as direct knowledge."
+    },
+    {
+      "resource_row": 1851,
+      "before": "made it here",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 1852,
+      "before": "safely.",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 1869,
+      "before": "We only got off this lightly because",
+      "after": "We only got off this lightly because the seal was renewed in the nick of time.",
+      "reason": "The Japanese source leaves the actor of the resealing unstated; current scene context attributes the action to the group working through the protagonist, so the target must not assert first-person singular."
+    },
+    {
+      "resource_row": 1870,
+      "before": "I renewed the seal",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 1871,
+      "before": "in the nick of time.",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

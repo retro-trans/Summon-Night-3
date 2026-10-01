@@ -1,0 +1,72 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0468/review_meaning_0011.json",
+  "review_sha256": "92edef8e2aec8616dc356297d54da9245a3550d055d0703a34dfc79af325ec7e",
+  "target_file": "work/translation/en/story_0.1.54/0468/slice_0011.targets.json",
+  "target_before_sha256": "ccd498e6519c40df1d2f4bb5f65f792eef110d4d0f4b800a08ed5a2f424e7146",
+  "target_after_sha256": "a14bf43444b3ecd43270a6a5f2ed4e17f63e8a89974dc6f9acaf94ded7db2004",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 36,
+      "before": "They say that when they stand there, the sea around them",
+      "after": "They say that standing there makes the surrounding sea",
+      "reason": "The source says the sea feels as though it wraps around the observer; “closing in” changes that image."
+    },
+    {
+      "resource_row": 37,
+      "before": "feels like it is closing in",
+      "after": "feel as though it is wrapping around",
+      "reason": "The source says the sea feels as though it wraps around the observer; “closing in” changes that image."
+    },
+    {
+      "resource_row": 38,
+      "before": "and embracing them.",
+      "after": "and embracing them.",
+      "reason": "The source says the sea feels as though it wraps around the observer; “closing in” changes that image."
+    },
+    {
+      "resource_row": 45,
+      "before": "In Sonolar's case, it is not just that",
+      "after": "In Sonolar's case, is it simply that",
+      "reason": "Restore the source’s “simply/only” tease; the existing negative reverses its force."
+    },
+    {
+      "resource_row": 46,
+      "before": "she likes high places,",
+      "after": "she likes high places?",
+      "reason": "Restore the source’s “simply/only” tease; the existing negative reverses its force."
+    },
+    {
+      "resource_row": 47,
+      "before": "is it?",
+      "after": "",
+      "reason": "Restore the source’s “simply/only” tease; the existing negative reverses its force."
+    },
+    {
+      "resource_row": 75,
+      "before": "You would lose to them",
+      "after": "I would lose to them",
+      "reason": "Sonolar is speaking about herself losing to the pupil; the following box directly addresses Sonolar."
+    },
+    {
+      "resource_row": 76,
+      "before": "in a fight now, too, right?",
+      "after": "in a fight now, too, right?",
+      "reason": "Sonolar is speaking about herself losing to the pupil; the following box directly addresses Sonolar."
+    },
+    {
+      "resource_row": 77,
+      "before": "Oh, no...",
+      "after": "Oh, no...",
+      "reason": "Sonolar is speaking about herself losing to the pupil; the following box directly addresses Sonolar."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

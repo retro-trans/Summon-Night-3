@@ -1,0 +1,47 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0281/review_meaning_0011.json",
+  "review_sha256": "4b4372399c13ab4b53ee517da29c07003d4fc840d373839fb5fcb02997a9d897",
+  "target_file": "work/translation/en/story_0.1.54/0281/slice_0011.targets.json",
+  "target_before_sha256": "86a1043edb4d9348a0fe648fcc8886da68994831aca3c655cf9c84af7457b8ba",
+  "target_after_sha256": "1425c590824307ed86cc948da5dbcbd89425ae6fb1fe555755efe6d1f1f604d2",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      61
+    ],
+    "count": 51
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 32,
+      "before": "I cannot tell her the truth,",
+      "after": "I cannot very well tell the truth,",
+      "reason": "The inner thought omits an indirect object. The preceding question does not establish a recipient, and the authored feminine pronoun adds unsupported gender and reference."
+    },
+    {
+      "resource_row": 34,
+      "before": "I cannot tell her the truth,",
+      "after": "I cannot very well tell the truth,",
+      "reason": "The paired protagonist branch has the same omitted recipient; preserve that omission in English."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        11,
+        12,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        25,
+        26,
+        27
+      ],
+      "issue": "The person who needs time to sort out their feelings remains unnamed and ungendered. Singular they is retained; no correction proposed."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

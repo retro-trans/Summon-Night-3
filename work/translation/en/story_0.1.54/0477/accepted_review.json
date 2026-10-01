@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00477",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0477/slice_0011.targets.json": "1e019148049e53ecffd44fb1c355b15b796f0d7624ea29ab40ef963d32e89bb4"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0477/review_meaning_0011.json": "a8821dd637810606ddf6685d4ff5952274ae81f720a49d8f8a21f66f9e78f7a4",
+    "work/translation/en/story_0.1.54/0477/applied_review_0011.json": "dd9635f31affce886dc14fbc9efc4114b78320be934503d32bbc5acef650c009",
+    "work/glossary/chapter18c_terms_0.1.54.json": "824428bc32520517c874bd72eed5cb3400a78bdea58a789c0fa0f74d1149d147",
+    "work/glossary/chapter18b_terms_0.1.54.json": "97ba8776e0f5ff036984859c7da7a51ba0a9fafa312b3dcb098d1422813485b8"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [
+    {
+      "proof": "review_meaning_0011.json",
+      "note": {
+        "rows": [
+          14,
+          19,
+          23,
+          28
+        ],
+        "issue": "Full-scene context resolves the narrator as Azlier and the child as Ishlar. The corrections restore those source-established actors without making any gender inference from the skirt."
+      }
+    },
+    {
+      "proof": "review_meaning_0011.json",
+      "note": {
+        "rows": [
+          23,
+          29
+        ],
+        "issue": "Ishlar is spelled according to the current character reference. This review does not normalize names."
+      }
+    }
+  ],
+  "author_uncertainties": [
+    {
+      "target": "slice_0011.targets.json",
+      "note": {
+        "rows": [
+          26,
+          28
+        ],
+        "issue": "The source identifies Ishlar's sibling without a name or gender; translated as gender-neutral."
+      }
+    }
+  ],
+  "decision": "All new rows independently compared against source and actual dialogue boundaries. Meaning corrections applied before source-bound terminology normalization. No empty complete boxes. Meaning acceptance only; compiler and gameplay verification separate."
+}

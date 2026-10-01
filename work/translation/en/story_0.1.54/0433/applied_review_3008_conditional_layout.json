@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_3008_conditional_layout.json",
+  "review_sha256": "af556aa459592d4bd69616d8ffbf25716416213920194da4f19975d0e335334c",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3008.targets.json",
+  "target_before_sha256": "831a1d9b60893dcecd662df9db87d650533d050ae9b1e15b1926ca75709cd182",
+  "target_after_sha256": "5e18342e0b194d8713d44a9d87cfbba2e2f9765edf7979ccff474bf8cd37e656",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3025,
+      3028
+    ],
+    "count": 4
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3025,
+      "before": "Don't screw with us!!!",
+      "after": "Don't screw with",
+      "reason": "Distribute the already reviewed complete cry across the two original physical rows of this conditional path; neither path may leave a direct string empty."
+    },
+    {
+      "resource_row": 3026,
+      "before": "",
+      "after": "us!!!",
+      "reason": "Distribute the already reviewed complete cry across the two original physical rows of this conditional path; neither path may leave a direct string empty."
+    },
+    {
+      "resource_row": 3027,
+      "before": "Aaaaaaah!!!",
+      "after": "Aaaaa",
+      "reason": "Distribute the already reviewed complete cry across the two original physical rows of this conditional path; neither path may leave a direct string empty."
+    },
+    {
+      "resource_row": 3028,
+      "before": "",
+      "after": "aaaah!!!",
+      "reason": "Distribute the already reviewed complete cry across the two original physical rows of this conditional path; neither path may leave a direct string empty."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "scope": "Only unpublished Chapter 17 resource433 after independent meaning corrections. Existing glossary snapshots are unchanged.",
+  "entries": [
+    {
+      "source_name": "召鬼・風刃",
+      "target_name": "Oni Summon: Wind Blade",
+      "status": "provisional descriptive translation of the spell call; no official English full name located",
+      "notes": "Use the established Oni term, not Demon. Source4331813 provides the complete call; nearby context and the recorded UI Wind Blade move supply interpretation. External search found no exact English name."
+    },
+    {
+      "source_name": "エルゴ",
+      "target_name": "Elgo",
+      "status": "established project proper name; do not replace with generic world will when the proper name is explicit"
+    },
+    {
+      "source_name": "共界線",
+      "target_name": "Clyps",
+      "status": "reuse provisional reading documented in story_core_terms_0.1.54.json"
+    },
+    {
+      "source_name": "リクト",
+      "target_name": "Rikuto",
+      "status": "reuse provisional romanization and documented relationships in chapter48_additions_0.1.14.json"
+    }
+  ],
+  "evidence_files": [
+    "work/glossary/story_core_terms_0.1.54.json",
+    "work/glossary/chapter48_additions_0.1.14.json",
+    "work/glossary/character_reference_sn6_vita.json"
+  ],
+  "normalization_by_resource": {
+    "433": [
+      {
+        "resource_row": 1813,
+        "source_sha256": "e64a16fcd0794114ba23290249312712d0d6b150ac66055b45f86667fb4a09aa",
+        "from": "Summon Demon",
+        "to": "Oni Summon"
+      },
+      {
+        "resource_row": 1890,
+        "source_sha256": "c45a889a9eaba0fce97669d751a2e1365671177c2b00bdcedee3fc956c211996",
+        "from": "the world's will",
+        "to": "Elgo"
+      },
+      {
+        "resource_row": 1893,
+        "source_sha256": "3cc03ab9421a4f068c16b66075d52f1f8475e7c80fbcf9ca689a8c1f4b8791e0",
+        "from": "the world's will",
+        "to": "Elgo"
+      },
+      {
+        "resource_row": 2009,
+        "source_sha256": "00bb1ced5f119945e01655913a7e90cea48a65785775ca4755525cfe284709a7",
+        "from": "Erugo",
+        "to": "Elgo"
+      },
+      {
+        "resource_row": 2029,
+        "source_sha256": "c45a889a9eaba0fce97669d751a2e1365671177c2b00bdcedee3fc956c211996",
+        "from": "the will of the world",
+        "to": "Elgo"
+      },
+      {
+        "resource_row": 2032,
+        "source_sha256": "3cc03ab9421a4f068c16b66075d52f1f8475e7c80fbcf9ca689a8c1f4b8791e0",
+        "from": "the will of the world",
+        "to": "Elgo"
+      },
+      {
+        "resource_row": 3089,
+        "source_sha256": "4c6e267a0ab1cb72a97b0bba02925c67e4210864d97eac974298a0384c37f106",
+        "from": "the boundary between worlds",
+        "to": "Clyps"
+      },
+      {
+        "resource_row": 3094,
+        "source_sha256": "4c6e267a0ab1cb72a97b0bba02925c67e4210864d97eac974298a0384c37f106",
+        "from": "the boundary between worlds",
+        "to": "Clyps"
+      },
+      {
+        "resource_row": 3182,
+        "source_sha256": "358050f3a969d723b518fb903b4f7689cf95d9b379eea1ca720cbba01d9b8c06",
+        "from": "the boundaries between worlds",
+        "to": "Clyps"
+      },
+      {
+        "resource_row": 3184,
+        "source_sha256": "358050f3a969d723b518fb903b4f7689cf95d9b379eea1ca720cbba01d9b8c06",
+        "from": "the boundaries between worlds",
+        "to": "Clyps"
+      },
+      {
+        "resource_row": 3186,
+        "source_sha256": "358050f3a969d723b518fb903b4f7689cf95d9b379eea1ca720cbba01d9b8c06",
+        "from": "the boundaries between worlds",
+        "to": "Clyps"
+      },
+      {
+        "resource_row": 3188,
+        "source_sha256": "358050f3a969d723b518fb903b4f7689cf95d9b379eea1ca720cbba01d9b8c06",
+        "from": "the boundaries between worlds",
+        "to": "Clyps"
+      },
+      {
+        "resource_row": 3428,
+        "source_sha256": "c2e012da76d7c55c4d3a9cd4804af866eb393d65270090112aa17d22922bdb0e",
+        "from": "Boundary Lines",
+        "to": "Clyps"
+      },
+      {
+        "resource_row": 3640,
+        "source_sha256": "d9c6dfe57a8d70f4c635988b8feccea524e7ab4dda71086c7708761fc2c7d967",
+        "from": "Rikto",
+        "to": "Rikuto"
+      },
+      {
+        "resource_row": 3649,
+        "source_sha256": "6dc1cfcdf80df0b926f4684fe3e45f63b011436fa892769b0250bc5a1d63c0d9",
+        "from": "Rikto",
+        "to": "Rikuto"
+      },
+      {
+        "resource_row": 3692,
+        "source_sha256": "f269d6de21914e467ebc3f097384bf214a160706d4acf7ccb11715d78ecdece7",
+        "from": "Rikto",
+        "to": "Rikuto"
+      }
+    ]
+  }
+}

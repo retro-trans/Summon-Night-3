@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3328.targets.json",
+  "target_file_sha256": "68588b715fe326f8cc1f29b03ff285b6a4b1c5889bf743ba40d28b71c9584f2e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3328,
+      3407
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3007,
+      3409
+    ]
+  ],
+  "rows_examined": 403,
+  "corrections": [
+    {
+      "resource_row": 3339,
+      "source_sha256": "d629fbc5c8cfec023958c692b808b8015c1c7ace8579e697f466313e44c51b01",
+      "text": "Yeah, and they really let me have it.",
+      "reason": "Student route is independent of protagonist gender; neutral reference safe across routes."
+    },
+    {
+      "resource_row": 3344,
+      "source_sha256": "ab01ae8ae2a52efbc83cd5b7565359d37f9358be65bbd6a3534617ff6629315f",
+      "text": "Yeah... I got scolded...",
+      "reason": "Female protagonist does not imply female pupil."
+    },
+    {
+      "resource_row": 3367,
+      "source_sha256": "3ee7175a721eeafbbbb8239c0023f0211946f58773781e582b3cea39793c871b",
+      "text": "Sure, compared to you and the others, I'm much weaker...",
+      "reason": "Teacher and companions, not multiple teachers."
+    }
+  ],
+  "uncertainties": [
+    {
+      "row": 3336,
+      "note": "Class representative label retained without assigning an unverified pupil gender."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independent full Japanese/English VM-box review3007–3409. Restored missing greeting, sword comparison, route-neutral student references and watch direction. Name normalization follows meaning fixes."
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_2448.targets.json",
+  "target_file_sha256": "69b85177a230e07807b2f919012d0e4a3623dba3f095ffbb3915fdd67dfec602",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2448,
+      2527
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2447,
+      2691
+    ]
+  ],
+  "rows_examined": 245,
+  "corrections": [
+    {
+      "resource_row": 2470,
+      "source_sha256": "a29a6c6e10f16577d3dcf461775df44a4c19e583887f295c3d675c30ac81eda3",
+      "text": "I won't understand anything!",
+      "reason": "Protagonist is addressing the pupil; restore the listener as I."
+    },
+    {
+      "resource_row": 2472,
+      "source_sha256": "22d2640a42adb08d2dcd37e57409e30b6c3fba9fb0cde5f42ff98b52cfd7ffe4",
+      "text": "I won't understand anything!",
+      "reason": "Same protagonist question, female variant."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independent review against full Japanese VM boxes. Corrected row drift2583–2607 without moving meaning across boxes. Cross-slice2687–2689 read and coordinated with2688 author. No normalization yet."
+}

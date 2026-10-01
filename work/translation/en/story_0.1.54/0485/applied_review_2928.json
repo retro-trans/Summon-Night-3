@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_2928.json",
+  "review_sha256": "9769f416f1edaec2465bc0c7acd3ff16cfbc011566efb0fb1bb3774e0ffd18b3",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2928.targets.json",
+  "target_before_sha256": "29a7d79b3735c1a340489ac3e0fcd80abaa95797c827a5929364f8742868408f",
+  "target_after_sha256": "ff617d68fb9658e990f6662877768f0bd475d0d676792be037db3963cd8a006d",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2928,
+      3007
+    ],
+    "count": 80
+  },
+  "corrections_applied": [],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2936
+      ],
+      "issue": "Little Teacher is a source nickname, not substitution for the normal name; preserve short/nickname convention during scripted normalization."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

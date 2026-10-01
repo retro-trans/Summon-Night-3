@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "reviewer": "root independent of author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2848.targets.json",
+  "target_file_sha256": "9db9f5d04c555d714d29bb09e7e783c746f2633874d07e2a9f300016aeabd93e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2848,
+      2927
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2847,
+      2932
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [
+    {
+      "resource_row": 2896,
+      "source_sha256": "b59cf11f9788de6a26aa626bd96543723165fcb4ef3cf56a3647321d497798cb",
+      "text": "Young lady... No human could radiate as much magical power as you do.",
+      "reason": "Source addresses the young lady directly, not describing her to a third person."
+    },
+    {
+      "resource_row": 2900,
+      "source_sha256": "98a39ea6e52c6b14a073aa57401411d32bb741596fc9770eabd7d930d3d2b74d",
+      "text": "You, the summoner... No human could radiate as much magical power as you do.",
+      "reason": "Source directly addresses the summoner, not an unidentified third person."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        2883,
+        2889,
+        2927
+      ],
+      "issue": "Halting self-defense explanation and interrupted introduction preserved."
+    }
+  ],
+  "notes": "Read all source groups and target groups plus both boundaries. Preserve unfinished source utterances; name normalization follows all meaning corrections."
+}

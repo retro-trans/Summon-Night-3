@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00254",
+  "source_sha256": "ffa3b4acbd58e1e17db8b73fb0c0bcfcc5a5b3b7050ce36668f06648e4515c7b",
+  "target_file": "work/translation/en/story_0.1.54/0254/slice_0011.targets.json",
+  "target_file_sha256": "60b88f98575eb82eabe0759d3e60fffa63c52a744e0afcb101d4af556302b183",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [11, 90],
+    "count": 80
+  },
+  "source_ranges_examined": [[0, 96]],
+  "rows_examined": 97,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [37],
+      "issue": "The source refers only to a sword and does not identify it by name in this resource. The existing broad wording preserves that scope, so no correction is proposed."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [21, 30, 31, 32, 35, 45, 56, 65, 76, 80, 81, 85, 86, 88],
+      "reason": "Name calls, pauses, hesitations, and reactions remain present in the authored English with their conversational effect intact."
+    },
+    {
+      "rows": [11, 12, 13, 14, 15, 16, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 33, 34, 38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 77, 78, 79, 82, 83, 84, 87, 88],
+      "reason": "Physical continuation rows were checked as complete statements across adjacent text boxes; the English retains each endpoint."
+    },
+    {
+      "rows": [13, 14, 15, 16, 18, 19, 20, 26, 27, 28, 29, 31, 32, 38, 39, 40, 41, 42, 48, 49, 50, 51, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 82, 83, 84, 89, 90],
+      "reason": "Parallel protagonist and teacher variants were reviewed together. The target keeps their distinct delivery without adding unsupported gender information."
+    }
+  ],
+  "notes": "Reviewed the original resource with full 0-96 context. No meaning correction is required; established terminology and character spellings were preserved. This review does not accept the resource or authorize a build."
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_1968.targets.json",
+  "target_file_sha256": "32278a83a5b5fe16f86be12d1504ed527f2881207f94f4893377e2d8ce3c22e3",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1968,
+      2047
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1965,
+      2049
+    ]
+  ],
+  "rows_examined": 85,
+  "corrections": [
+    {
+      "resource_row": 1969,
+      "source_sha256": "421a0bb390fef2813335e8fc2ebe1e5285e75e8952c09ba65b540a4aa826e849",
+      "text": "You'd been asleep all that time, so...",
+      "reason": "The speaker addresses the waking protagonist directly; this is the same Teacher-address context as rows 1965–1967."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups. Boundary box at 2047 continues into the next slice. Re-read waking-scene context confirms direct address at row 1969."
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_6597.targets.json",
+  "target_file_sha256": "00e5c0efafe46c57cb04fec97c9115f006c08d25f55d668622c53632c56792b9",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6597,
+      6676
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6596,
+      6677
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6676,
+      "source_sha256": "eab1c86ca528fc18aefdbde26d73bc4ea2702bd5d83d663960e7ef3839d084e7",
+      "before": "Thinking you can just die if you fail",
+      "text": "Thinking you'll just die",
+      "after": "Thinking you'll just die",
+      "reason": "This is the first row of the three-row source statement continued in the following reviewed slice. The current wording duplicates the condition in its continuation."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied."
+}

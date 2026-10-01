@@ -1,0 +1,28 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_5488.json",
+  "review_sha256": "47d8883b6eb35e945c075a6ead818c1ec8145d567d4691c829e3cdb6b825e380",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_5488.targets.json",
+  "target_before_sha256": "74952ab4aae73fc4a91ac437074976c6b1ea6aadaf44d0de28ca400a498102e9",
+  "target_after_sha256": "ecc91fe5a7b239803d79504ba45ffd034c0c42dd76fa06aaa3613ac57d2698da",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5488,
+      5567
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5488,
+      "before": "",
+      "after": "Primal Sin...",
+      "reason": "Restores the omitted final noun phrase of the source VM box: humans are described as a mass of Primal Sin."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Casra and Foyaldia spellings are provisional and retained for later scoped normalization; no identity or gender inferred from spelling."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00402",
+  "source_sha256": "83acdd0216b83c5131df0bc4a51751c5cbc3beac831d0ba26eef02dc1debb6a1",
+  "target_file": "work/translation/en/story_0.1.54/0402/slice_0091.targets.json",
+  "target_file_sha256": "0055a8c6e5e497db22d593b6986b24f0c00e0503ef254e7ebbf8cdb6cf7dcb66",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      144
+    ],
+    "count": 54
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      144
+    ]
+  ],
+  "rows_examined": 135,
+  "corrections": [
+    {
+      "resource_row": 143,
+      "source_sha256": "8fce0493c5e526cc7f95e0b190981ccc5a33a9b2840fe6daa78218c9db709bad",
+      "text": "Please teach me...",
+      "reason": "Remove duplicated Teacher address; original separate box144 already contains it."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared every full source/English VM box and both protagonist variants. Correct cross-box drift at12–13 and duplicate address at143–144 before normalization."
+}

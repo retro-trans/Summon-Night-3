@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3568.targets.json",
+  "target_file_sha256": "78fcd5734fd41a395ac7b9b22eaea5d125b83b592f9e49208b5beb99ffd82b46",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3568,
+      3647
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3566,
+      3649
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [
+    {
+      "resource_row": 3588,
+      "source_sha256": "ebbb51741b83dc571ee1f167c08ece07dc08739ca03d29ba2bee43d6cda74a43",
+      "text": "In response to the sword’s light, spiritual energy is pouring out with incredible force...",
+      "reason": "The source says spiritual energy is pouring out in response to the sword’s light; the target reverses that causal direction."
+    },
+    {
+      "resource_row": 3589,
+      "source_sha256": "64898c556b47444140e22deccfbe67679b43b0b9334c6234633b0bc20fa76e47",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 3590,
+      "source_sha256": "98e323013e20cb1936b0ab79a3ef099b0b488a0fc4fa988b35d35f5d4594970f",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM dialogue groups with both-side context, including actor, action, negation, alternate protagonist wording, and control markers."
+}

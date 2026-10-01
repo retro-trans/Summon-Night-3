@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_5808.json",
+  "review_sha256": "0c5e94363551c4a8935dff7a4a742069c08fce6a8a291883dd05a481ba153971",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_5808.targets.json",
+  "target_before_sha256": "4fe50885852d19ed2fbbc94626d071c2f1f094e59ec3e1520a41f1d7c9a3dab3",
+  "target_after_sha256": "3068b856de1bc8fe42160b0ae6e60b3bc2556f29bbecefe3e76e99862ceb1c00",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5808,
+      5887
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5808,
+      "before": "give that feeling life",
+      "after": "that feeling into the new sword",
+      "reason": "Restores the direction and object of the forging instruction."
+    },
+    {
+      "resource_row": 5809,
+      "before": "as a new sword.",
+      "after": "as its life.",
+      "reason": "Restores the source's 'as the new sword's life' result."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

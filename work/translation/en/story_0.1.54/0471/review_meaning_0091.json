@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00471",
+  "source_sha256": "8b0d51a7651021054e4761e7187c99388a896fb87d66bced5e6041371b01dc17",
+  "target_file": "work/translation/en/story_0.1.54/0471/slice_0091.targets.json",
+  "target_file_sha256": "5ad72cc3d59423b2dee433818ec352b28dd9a9f25ef9e26b8bc1a735b014fd76",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [91, 115],
+    "count": 25
+  },
+  "source_ranges_examined": [[90, 115]],
+  "rows_examined": 26,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "issue": "Foolproof Dating remains the requested provisional English title of the in-story introductory guidebook."
+    }
+  ],
+  "omissions": [
+    {
+      "issue": "Rows 99–102 are a deliberate setup-and-completion across two separate VM boxes; rows 112–114 likewise retain the hesitant question across boxes. No meaning crosses a box in English and no complete box is empty."
+    }
+  ],
+  "notes": "Independent source-first review using actual VM dialogue groups and preceding context. No meaning, control-token, complete-box, or placement defect found. Proper-name normalization is intentionally deferred."
+}

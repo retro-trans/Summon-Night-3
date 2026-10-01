@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2208.targets.json",
+  "target_file_sha256": "49e1434779b3de2d162f0e2cd438e1b0579f3076bf455681ed3c4c0815a7a943",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2208,
+      2287
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2125,
+      2290
+    ]
+  ],
+  "rows_examined": 166,
+  "corrections": [
+    {
+      "resource_row": 2257,
+      "source_sha256": "336f095c4ddac2dc65ee98a1d7d8d53f72709fce330f0e6f7c6183283f49b951",
+      "text": "in time with the summoning spell,",
+      "reason": "Source describes timing sword-drawing in response to summoning magic, not using the spell as the means of drawing."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2251,
+        2254,
+        2256,
+        2261
+      ],
+      "issue": "Sword drawing describes the source action; it is the established special power, not a newly named move."
+    },
+    {
+      "rows": [
+        2279
+      ],
+      "issue": "Source uses short Bel. Current expanded Belfraw must be normalized by source identity after meaning review."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared source and English at full VM box boundaries, including both slice boundaries and protagonist/pupil alternatives. Name normalization follows meaning fixes."
+}

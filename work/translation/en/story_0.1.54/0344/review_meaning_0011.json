@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00344",
+  "source_sha256": "ed625c8a415b370f09d6b0b6a9e6d8570600b939fc6be1bc90aa89bab6a503e3",
+  "target_file": "work/translation/en/story_0.1.54/0344/slice_0011.targets.json",
+  "target_file_sha256": "b20eb5d187c3e30d0388b609ab5ed2bfbb0f6c4868266cf79941288376223da6",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      43
+    ],
+    "count": 33
+  },
+  "source_ranges_examined": [
+    [
+      11,
+      43
+    ]
+  ],
+  "rows_examined": 33,
+  "corrections": [
+    {
+      "resource_row": 13,
+      "source_sha256": "9afe0f03b475930fd17f7a751d374f84484c142d96374fa0e71609667c1c8dfd",
+      "text": "Putting on airs and trying to look cool,",
+      "reason": "Restore the original VM box meaning and speaker, correcting shifted clauses or reversed action while retaining the entire source message."
+    },
+    {
+      "resource_row": 21,
+      "source_sha256": "2954d67ed46b6d6a3559fb04beebda8571908adf5ed93b192a353834177fffc8",
+      "text": "You can win, right?",
+      "reason": "Restore the original VM box meaning and speaker, correcting shifted clauses or reversed action while retaining the entire source message."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently reviewed every complete Japanese source box and target in this companion resource. Legacy author metadata remains historical; this proof records the current complete meaning review. Apply spelling normalization afterward."
+}

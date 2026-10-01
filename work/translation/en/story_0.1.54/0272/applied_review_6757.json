@@ -1,0 +1,28 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0272/review_meaning_6757.json",
+  "review_sha256": "e7a07ed4f15d6cd94388e66af4972e2e1e92520579130c7f10336f2a69c71f37",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_6757.targets.json",
+  "target_before_sha256": "84b57d2e8f6405f53d6934bdcd45c49fc524a1796c3a62b2cf31cb62d0ce4620",
+  "target_after_sha256": "6f102000535c20348fe0b62f0dfc51369efb3866c2ce7467f7a9a69be735a1be",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6757,
+      6836
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6757,
+      "before": "That is inheritance...",
+      "after": "That is inheritance...",
+      "reason": "This line completes the preceding source group defining inheritance; it is duplicated at the prior row and absent from its own source row."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2288.targets.json",
+  "target_file_sha256": "0d4bbdf1b2f6cf8135087a336690e4fedfe18a59b64fa3840c3c1c632d832ec6",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [2288, 2367], "count": 80},
+  "source_ranges_examined": [[2286, 2369]],
+  "rows_examined": 84,
+  "corrections": [
+    {"resource_row": 2349, "source_sha256": "38741265cd42008f0c7a92d6140cb5abbc50c4e40ebd85938c1e0ee45cd64a70", "text": "Even though unavoidable", "reason": "The source's のに sets a contrast: unavoidable reality is present despite Teacher turning away. Current 'When' changes that relationship into a temporal condition."},
+    {"resource_row": 2350, "source_sha256": "3994e1bf8457446fa45ce3dd2d51ed3d5efc501092c7f27693ef876093c5fc43", "text": "reality lies before them, they look away", "reason": "Continues the restored concessive clause and retains Teacher as the subject of looking away."}
+  ],
+  "uncertainties": [
+    {"rows": [2288, 2289, 2290, 2306, 2307, 2308, 2325, 2326, 2327, 2329, 2330, 2331, 2332, 2333, 2334, 2335, 2336, 2337, 2347, 2348, 2349, 2350, 2351, 2352, 2353, 2354, 2358, 2359, 2360, 2365, 2366, 2367], "issue": "Teacher is player-selected. Singular-they language preserves the established referent without gender inference."}
+  ],
+  "omissions": [
+    {"rows": [2291, 2292, 2303, 2309, 2310, 2311, 2312, 2323, 2324, 2338, 2346, 2364], "reason": "Acknowledgments, hesitation, and surprise-reaction fragments retain their non-propositional source function."},
+    {"rows": [2288, 2289, 2290, 2293, 2294, 2295, 2296, 2297, 2299, 2300, 2301, 2302, 2303, 2304, 2305, 2306, 2307, 2308, 2314, 2315, 2317, 2318, 2319, 2320, 2321, 2322, 2325, 2326, 2327, 2329, 2330, 2331, 2332, 2333, 2334, 2335, 2336, 2340, 2341, 2342, 2343, 2344, 2345, 2347, 2348, 2349, 2350, 2351, 2352, 2353, 2354, 2355, 2356, 2358, 2359, 2360, 2361, 2362, 2363, 2365, 2366, 2367], "reason": "Physical continuation rows complete their English sentence in adjacent fragments. The accusation at rows 2365–2367 continues beyond the slice."}
+  ],
+  "notes": "Reviewed original Japanese against the authored target with immediate preceding and following context. Only the concessive relation at rows 2349–2350 changes meaning; no cosmetic alternatives were recorded."
+}

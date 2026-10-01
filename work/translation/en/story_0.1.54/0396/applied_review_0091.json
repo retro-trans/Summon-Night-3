@@ -1,0 +1,29 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0396/review_meaning_0091.json",
+  "review_sha256": "05e65ee9ed1cb09d67c0c2f2e06ceede2739ba287dab954767bdf23da25bd221",
+  "target_file": "work/translation/en/story_0.1.54/0396/slice_0091.targets.json",
+  "target_before_sha256": "cd53d2c6be44c8572fe07e3c55938a8e9abfee3638d7d631d5871d08c775992a",
+  "target_after_sha256": "4ef4d37b9e5f93082fb59019dd062e5c3955f953e279dbb838f98d90af2f8d75",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      149
+    ],
+    "count": 59
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 91,
+      "before": "Unless I settle things properly, I'll only make everyone worry about me again.",
+      "after": "Unless I settle things properly, it'll keep bothering me, and I'll make everyone worry about me again.",
+      "reason": "Restore omitted speaker's own nagging concern leading to others' worry."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 140,
+      "note": "Feel it refers to affection conveyed despite ghost body; literal feel preserves touch/emotional overlap."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

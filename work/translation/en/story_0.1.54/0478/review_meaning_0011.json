@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00478",
+  "source_sha256": "ea699fa19d8af4e653ddd9ad0c6d8f767b23f99f7a8a3a81daaafc0dab39650d",
+  "target_file": "work/translation/en/story_0.1.54/0478/slice_0011.targets.json",
+  "target_file_sha256": "b0e0b29c6abbdecdea9c1634d2f89c7778eab55ac7d4da001c3bed3d373cb977",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      82
+    ],
+    "count": 72
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      82
+    ]
+  ],
+  "rows_examined": 73,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        12,
+        82
+      ],
+      "issue": "The missing person remains unnamed in every variant. The existing English uses gender-neutral reference and does not infer identity or gender."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        21,
+        27,
+        39,
+        45,
+        57,
+        63,
+        75,
+        81
+      ],
+      "issue": "Each repeated statement intentionally continues across adjacent complete VM boxes; the delivery action and its destination remain within the paired boxes."
+    }
+  ],
+  "notes": "Independent source-first review of complete VM groups and surrounding context. Actual actors, variants, and placeholders were retained; name normalization was not run."
+}

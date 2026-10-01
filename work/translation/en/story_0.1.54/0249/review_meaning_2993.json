@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00249",
+  "source_sha256": "e3c0ac50ec01fb9606a8cf187d24791b3e787ee38da5f8d48c733777bbb2cc6e",
+  "target_file": "work/translation/en/story_0.1.54/0249/slice_2993.targets.json",
+  "target_file_sha256": "e369e1bda712eb12337870eccc2be97e3a171069c377a460aca39a816ce7e931",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2993,
+      3072
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2984,
+      3081
+    ]
+  ],
+  "rows_examined": 98,
+  "corrections": [
+    {
+      "resource_row": 3035,
+      "text": "I figured this would happen",
+      "reason": "The original says the group was discovered by the children.",
+      "source_sha256": "a14d3f03de3849b9aca8bc8d743186629f0c1e53d7b90fd22ec45c1a386f7219"
+    },
+    {
+      "resource_row": 3036,
+      "text": "once the children",
+      "reason": "The original says the group was discovered by the children.",
+      "source_sha256": "93e50e180264b253a3b9700ca102eac4ae930ac17670b63c5dfc0e5e5086874a"
+    },
+    {
+      "resource_row": 3037,
+      "text": "found us.",
+      "reason": "Found out leaves what was learned unstated and removes the group as the object.",
+      "source_sha256": "ca07b1d9fbfcaa946ee09ac4d46c3a373b2f43f2a1e3ecf52c000ed61fde0813"
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2993,
+        2994,
+        2995,
+        2996
+      ],
+      "issue": "The grabas and its Jewel of the Southern Seas sobriquet are fictional setting material. Grabas is a provisional glossary romanization, and this review found no source reason to change it."
+    },
+    {
+      "rows": [
+        3053,
+        3054,
+        3055
+      ],
+      "issue": "Marurur uses third-person self-reference for herself and her companions. The authored we carries the same referent in natural English; retaining the name would be a stylistic option, not a meaning correction."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        3001,
+        3002,
+        3009,
+        3017,
+        3021,
+        3025,
+        3027,
+        3033,
+        3034,
+        3040,
+        3049,
+        3058,
+        3059,
+        3062,
+        3071
+      ],
+      "reason": "Acknowledgements, calls, laughter, hesitation, and reassurance fragments retain their source function in English."
+    },
+    {
+      "rows": [
+        2993,
+        2994,
+        2995,
+        2996,
+        2997,
+        2998,
+        2999,
+        3000,
+        3003,
+        3004,
+        3005,
+        3006,
+        3011,
+        3012,
+        3013,
+        3015,
+        3016,
+        3018,
+        3019,
+        3020,
+        3022,
+        3023,
+        3024,
+        3029,
+        3030,
+        3031,
+        3032,
+        3035,
+        3036,
+        3037,
+        3038,
+        3039,
+        3041,
+        3042,
+        3043,
+        3044,
+        3045,
+        3046,
+        3047,
+        3048,
+        3050,
+        3051,
+        3052,
+        3053,
+        3054,
+        3055,
+        3056,
+        3057,
+        3059,
+        3060,
+        3061,
+        3063,
+        3064,
+        3065,
+        3066,
+        3067,
+        3068,
+        3069,
+        3070,
+        3071,
+        3072
+      ],
+      "reason": "Physical continuation rows; adjacent English fragments preserve complete meaning. Rows 2993-2994 continue the preceding description, and 3071-3072 continue into row 3073."
+    }
+  ],
+  "notes": "Independent reviewer compared every assigned source and authored English row with preceding and following scene context. Corrections address meaning only; no cosmetic rewrites are proposed. The Marurur third-person self-reference at rows 3053-3055 is accurately rendered as we."
+}

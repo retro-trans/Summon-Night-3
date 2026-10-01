@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00470",
+  "source_sha256": "3581f7b134c77bfa499956b3e1562c4f3957fb9d37faf4fcadb78a8b207f00b6",
+  "target_file": "work/translation/en/story_0.1.54/0470/slice_0091.targets.json",
+  "target_file_sha256": "032bc7d0d815c4aa3042b017b1b18b8278fc78237c2c082c3351c09c7f87f2a7",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      126
+    ],
+    "count": 36
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      126
+    ]
+  ],
+  "rows_examined": 117,
+  "corrections": [
+    {
+      "resource_row": 101,
+      "source_sha256": "cebc65288877ea5a50e7b485dccc2274c842640603867651503c558c3a8df31f",
+      "text": "You said you wanted to pass the summoning arts you learned on to disciples, so they could use them properly...",
+      "reason": "Restore the stated purpose: disciples are to use the taught summoning arts properly."
+    },
+    {
+      "resource_row": 102,
+      "source_sha256": "b508481cbb790e2ebfe90302d860a42a3ec39ef90da49cfd271fb0c122b10b47",
+      "text": "",
+      "reason": "Restore the stated purpose within the same VM box."
+    },
+    {
+      "resource_row": 117,
+      "source_sha256": "917fc1da4afbac4ee109c068dfa6776703015f922edfdf68dddf3d67085cc3db",
+      "text": "Um... about the answer I promised you...",
+      "reason": "The female protagonist refers to the answer she promised Yard; the existing English reverses that direction."
+    },
+    {
+      "resource_row": 118,
+      "source_sha256": "bcc54de50055ea82355fa1af207043a63da09a94ee2cf1f645b4b4edd6dc7e40",
+      "text": "",
+      "reason": "Keep the promised-answer clause in its original VM box without expanding its implied outcome."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "The promised answer is intentionally left implied by the reciprocal statements of present happiness; no explicit acceptance or rejection should be invented."
+    }
+  ],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups and full scene context. Proper-name and teacher-case normalization are deferred to the name script."
+}

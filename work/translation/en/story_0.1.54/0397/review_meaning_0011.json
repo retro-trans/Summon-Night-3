@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00397",
+  "source_sha256": "f40774545c0e2719a36855df5b5d4ac79edc6134dd47b72cd2bfa2621c0efe93",
+  "target_file": "work/translation/en/story_0.1.54/0397/slice_0011.targets.json",
+  "target_file_sha256": "54f22364aa9fca530a73a8834f6ccd0c834aaa8de6c522d5932f74650f16210f",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      119
+    ]
+  ],
+  "rows_examined": 110,
+  "corrections": [
+    {
+      "resource_row": 38,
+      "source_sha256": "b6903c9dc68cf7b64ed764a43a3b75e7bafd1baf701d25b038143b41c1bf3c5d",
+      "text": "We can't properly protect each other unless we stay close...",
+      "reason": "Restore reciprocal object."
+    },
+    {
+      "resource_row": 63,
+      "source_sha256": "fdede6bbddf05598bdb642f33a89363080e01f55d8dfeb5c99849bb8e3028e07",
+      "text": "It's okay. I won't let that happen...",
+      "reason": "Replace copied sword-taking line with source reassurance."
+    },
+    {
+      "resource_row": 80,
+      "source_sha256": "5b96fb1f6afa9e523445ca8f2e38b738cdad55de82676f36ed3cb86bb843899f",
+      "text": "I have various things to take care of, like ▲'s future...",
+      "reason": "Pupil is an example among obligations; not all obligations concern pupil."
+    },
+    {
+      "resource_row": 82,
+      "source_sha256": "abbaac8041ad9c4f6969130d378a8817e95b1202ed3c1835e6ce0dfcfaa3e466",
+      "text": "I have various things to take care of, like ▲'s future...",
+      "reason": "Same scope correction in alternate pupil branch."
+    },
+    {
+      "resource_row": 84,
+      "source_sha256": "5b96fb1f6afa9e523445ca8f2e38b738cdad55de82676f36ed3cb86bb843899f",
+      "text": "I have various things to take care of, like ▲'s future...",
+      "reason": "Same scope correction in alternate pupil branch."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared every full source/English VM box including both protagonist variants and slice boundaries. Correct copied variant dialogue, missing full boxes and omitted subjects before name normalization. No Japanese transcript retained."
+}

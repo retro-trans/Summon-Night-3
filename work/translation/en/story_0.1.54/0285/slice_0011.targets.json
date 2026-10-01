@@ -1,0 +1,573 @@
+{
+  "resource_id": "00:00285",
+  "range_inclusive": [
+    11,
+    47
+  ],
+  "source_sha256": "bf4892c1f71e2f40972ab07a789f7faa4174723e7975feea5570582621127950",
+  "review_status": "author self-check; no independent meaning review",
+  "source_ranges_examined": [
+    [
+      0,
+      47
+    ]
+  ],
+  "rows_examined": 48,
+  "rows_in_slice": 37,
+  "uncertainties": [
+    {
+      "rows": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "issue": "The source does not name the village; the translation does not add a location name. Student is singular in the teacher context; no student gender or selected name is added."
+    }
+  ],
+  "preserved_source_omissions": [
+    {
+      "rows": [
+        13,
+        14
+      ],
+      "reason": "Scarrel deliberately responds to the quoted declaration with an exclamation and evaluative fragment, preserving the teasing tone."
+    },
+    {
+      "rows": [
+        30,
+        35,
+        40,
+        44
+      ],
+      "reason": "Punctuation-only reaction, silence, and laughter are retained as expressive utterances."
+    },
+    {
+      "rows": [
+        32
+      ],
+      "reason": "The source explicitly pauses after But; the following two rows complete the contrast."
+    }
+  ],
+  "notes": "Complete short Chapter 10 conversation. Quoted opening checked against the response; protagonist variants retain casual/polite forms. Current Scarrel spelling retained. Author draft pending independent meaning review.",
+  "translations": {
+    "00:00285:text:00002cca": {
+      "source_offset": 11466,
+      "pool_word_offset": 154,
+      "source_byte_length": 24,
+      "source_sha256": "20382d690f5b03ad39b2014dbaf91b16df8039ab974e44f8c135d5f5f34c6922",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10498
+      ],
+      "id": "00:00285:text:00002cca",
+      "resource_row": 11,
+      "text": "I won't allow anyone to take a life",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002ce4": {
+      "source_offset": 11492,
+      "pool_word_offset": 167,
+      "source_byte_length": 16,
+      "source_sha256": "68df6b0de8907bed5faf701f06a2e14f611778eb3e191773db9cb3c16245219c",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10506
+      ],
+      "id": "00:00285:text:00002ce4",
+      "resource_row": 12,
+      "text": "or throw their own away!",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002cf6": {
+      "source_offset": 11510,
+      "pool_word_offset": 176,
+      "source_byte_length": 26,
+      "source_sha256": "301aa2f955f0b2883d82069ad6eb1622a5116ad8147035f7273968fd6800f2f7",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10542
+      ],
+      "id": "00:00285:text:00002cf6",
+      "resource_row": 13,
+      "text": "Oh, Teacher, really!",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002d12": {
+      "source_offset": 11538,
+      "pool_word_offset": 190,
+      "source_byte_length": 30,
+      "source_sha256": "14ac839ffbc440ad9e34f6788640b3653a32f70cf50bffd381cc40d51832fff6",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10550
+      ],
+      "id": "00:00285:text:00002d12",
+      "resource_row": 14,
+      "text": "So dashing... and so embarrassing!",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002d32": {
+      "source_offset": 11570,
+      "pool_word_offset": 206,
+      "source_byte_length": 10,
+      "source_sha256": "e6a54dabd9ac14c3e36426c02c0f3103bdd6451b07ada62370e1787d976b464f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10578
+      ],
+      "id": "00:00285:text:00002d32",
+      "resource_row": 15,
+      "text": "Don't tease me.",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002d3e": {
+      "source_offset": 11582,
+      "pool_word_offset": 212,
+      "source_byte_length": 18,
+      "source_sha256": "e61f9e0b61a4afbd113306813b07122de747f389a1d91701d73e213b2c909985",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10606
+      ],
+      "id": "00:00285:text:00002d3e",
+      "resource_row": 16,
+      "text": "I didn't say that",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002d52": {
+      "source_offset": 11602,
+      "pool_word_offset": 222,
+      "source_byte_length": 34,
+      "source_sha256": "9abcb9400e8d06d647262576dc3c85140a084931bd6dccecc60daf24b429561a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10614
+      ],
+      "id": "00:00285:text:00002d52",
+      "resource_row": 17,
+      "text": "just to show off.",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002d76": {
+      "source_offset": 11638,
+      "pool_word_offset": 240,
+      "source_byte_length": 20,
+      "source_sha256": "6a677c203d7c5794a8566148696a68076d0c040958ab66cdf4fa3d5634e51b08",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10634
+      ],
+      "id": "00:00285:text:00002d76",
+      "resource_row": 18,
+      "text": "Please don't tease me.",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002d8c": {
+      "source_offset": 11660,
+      "pool_word_offset": 251,
+      "source_byte_length": 18,
+      "source_sha256": "e61f9e0b61a4afbd113306813b07122de747f389a1d91701d73e213b2c909985",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10662
+      ],
+      "id": "00:00285:text:00002d8c",
+      "resource_row": 19,
+      "text": "I didn't say that",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002da0": {
+      "source_offset": 11680,
+      "pool_word_offset": 261,
+      "source_byte_length": 36,
+      "source_sha256": "4af75b074822f48c4c099a8f58381458b8deb761a7baa5534e18493595014364",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10670
+      ],
+      "id": "00:00285:text:00002da0",
+      "resource_row": 20,
+      "text": "just to show off.",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002dc6": {
+      "source_offset": 11718,
+      "pool_word_offset": 280,
+      "source_byte_length": 16,
+      "source_sha256": "28c1064144d72d536748cf4a08d6d6f91cdba69818bf7101b7c5b42ac62cde7f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10706
+      ],
+      "id": "00:00285:text:00002dc6",
+      "resource_row": 21,
+      "text": "Of course",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002dd8": {
+      "source_offset": 11736,
+      "pool_word_offset": 289,
+      "source_byte_length": 16,
+      "source_sha256": "10f4f7c4ebf74c5d3d97529a17dedb7860a69e19a6ac8c6a9538b1718e283d6e",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10714
+      ],
+      "id": "00:00285:text:00002dd8",
+      "resource_row": 22,
+      "text": "I know that.",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002dea": {
+      "source_offset": 11754,
+      "pool_word_offset": 298,
+      "source_byte_length": 14,
+      "source_sha256": "cc062c3f04d24107ba271984e02827fae4e15b7f4041f3f4b38ddf8d7c243e63",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10750
+      ],
+      "id": "00:00285:text:00002dea",
+      "resource_row": 23,
+      "text": "But what about",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002dfa": {
+      "source_offset": 11770,
+      "pool_word_offset": 306,
+      "source_byte_length": 18,
+      "source_sha256": "aaec10668133f01947e7ad8c8a9624676d5f10f97dbb2b75235c0fe86ff2294f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10758
+      ],
+      "id": "00:00285:text:00002dfa",
+      "resource_row": 24,
+      "text": "you, hmm?",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002e0e": {
+      "source_offset": 11790,
+      "pool_word_offset": 316,
+      "source_byte_length": 4,
+      "source_sha256": "aad930b62c57b98c3eef6a2f53093ba6b477bd165c065c6b06cf7fcf7ecfb57c",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10774
+      ],
+      "id": "00:00285:text:00002e0e",
+      "resource_row": 25,
+      "text": "Huh?",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002e14": {
+      "source_offset": 11796,
+      "pool_word_offset": 319,
+      "source_byte_length": 14,
+      "source_sha256": "0ce8bf1088951144e38e73a06b936f3cd1dad52a1e065ed720a86640ba2f264b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10808
+      ],
+      "id": "00:00285:text:00002e14",
+      "resource_row": 26,
+      "text": "To protect your student,",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002e24": {
+      "source_offset": 11812,
+      "pool_word_offset": 327,
+      "source_byte_length": 20,
+      "source_sha256": "561c6e8b911faf2d3028224f6a75190fa3be88686a5a940830699fe759634e46",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10816
+      ],
+      "id": "00:00285:text:00002e24",
+      "resource_row": 27,
+      "text": "to protect everyone in the village...",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002e3a": {
+      "source_offset": 11834,
+      "pool_word_offset": 338,
+      "source_byte_length": 26,
+      "source_sha256": "6d97c284699891e69983691d256bce8c500339e6f390e9a3846f6868078a27dc",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10840
+      ],
+      "id": "00:00285:text:00002e3a",
+      "resource_row": 28,
+      "text": "Now, who was it who kept saying that",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002e56": {
+      "source_offset": 11862,
+      "pool_word_offset": 352,
+      "source_byte_length": 38,
+      "source_sha256": "00b8ca752a9f3c9e062e4e9ee6f5ffdfbef7bd10fe90b7c90b737bf6f60f6cfa",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10848
+      ],
+      "id": "00:00285:text:00002e56",
+      "resource_row": 29,
+      "text": "and readily offering up their own life?",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002e7e": {
+      "source_offset": 11902,
+      "pool_word_offset": 372,
+      "source_byte_length": 2,
+      "source_sha256": "51825c32bf188d6f7e7aca4c6d8608a9a7298c2b0d02cf8c262e96e8580b9533",
+      "contains_japanese": false,
+      "reference_instructions": [
+        10864
+      ],
+      "id": "00:00285:text:00002e7e",
+      "resource_row": 30,
+      "text": "!",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002e82": {
+      "source_offset": 11906,
+      "pool_word_offset": 374,
+      "source_byte_length": 34,
+      "source_sha256": "c0852013811564d04df7717e8a352dd45592f50337c11f0e2f9274a7882460b9",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10900
+      ],
+      "id": "00:00285:text:00002e82",
+      "resource_row": 31,
+      "text": "You know how much other people's lives matter.",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002ea6": {
+      "source_offset": 11942,
+      "pool_word_offset": 392,
+      "source_byte_length": 12,
+      "source_sha256": "b7d6c329eb6cdfe5cd02d7e4bd2acdd20c5fa5c5362e031dc5559371c0ed92c0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10908
+      ],
+      "id": "00:00285:text:00002ea6",
+      "resource_row": 32,
+      "text": "But...",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002eb4": {
+      "source_offset": 11956,
+      "pool_word_offset": 399,
+      "source_byte_length": 18,
+      "source_sha256": "ff23cb8502a45a21a0ee142f11e270ce8e2851cbfcaac63466b50594f7fb9e75",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10944
+      ],
+      "id": "00:00285:text:00002eb4",
+      "resource_row": 33,
+      "text": "aren't you treating your own",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002ec8": {
+      "source_offset": 11976,
+      "pool_word_offset": 409,
+      "source_byte_length": 20,
+      "source_sha256": "49b5b51eeec96ce8093ad025567b96784b33149bf26dca5ced91ff1300f40d99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10952
+      ],
+      "id": "00:00285:text:00002ec8",
+      "resource_row": 34,
+      "text": "as if it hardly matters?",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002ede": {
+      "source_offset": 11998,
+      "pool_word_offset": 420,
+      "source_byte_length": 12,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        10968
+      ],
+      "id": "00:00285:text:00002ede",
+      "resource_row": 35,
+      "text": "...",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002eec": {
+      "source_offset": 12012,
+      "pool_word_offset": 427,
+      "source_byte_length": 34,
+      "source_sha256": "7c9f7e6973ef1cd666058352b0751afd8f24eabf0a1f5489af1c30cac0269b26",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11002
+      ],
+      "id": "00:00285:text:00002eec",
+      "resource_row": 36,
+      "text": "If you're going to preach the value of life,",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002f10": {
+      "source_offset": 12048,
+      "pool_word_offset": 445,
+      "source_byte_length": 36,
+      "source_sha256": "8def974368dc93745c0e8f579669c6cfbd4b717310e1283805834b4657e90957",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11010
+      ],
+      "id": "00:00285:text:00002f10",
+      "resource_row": 37,
+      "text": "you need to understand it better than anyone.",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002f36": {
+      "source_offset": 12086,
+      "pool_word_offset": 464,
+      "source_byte_length": 34,
+      "source_sha256": "c261fa5043ed5f45c78d202e20fd66d6cff98b377aa7183e00022849e9d8b5a4",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11034
+      ],
+      "id": "00:00285:text:00002f36",
+      "resource_row": 38,
+      "text": "Especially when the slightest malice",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002f5a": {
+      "source_offset": 12122,
+      "pool_word_offset": 482,
+      "source_byte_length": 32,
+      "source_sha256": "f6892a2ba9f53b4af4dfdf59e8f055f9d33962b67762697b077d79fcfd80bcf2",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11042
+      ],
+      "id": "00:00285:text:00002f5a",
+      "resource_row": 39,
+      "text": "can snuff a life out so easily.",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002f7c": {
+      "source_offset": 12156,
+      "pool_word_offset": 499,
+      "source_byte_length": 16,
+      "source_sha256": "1da0b86710ba357bba09651f58b24d854d6dc7ce6c1700ea9b1470fa47aa4c3f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11074
+      ],
+      "id": "00:00285:text:00002f7c",
+      "resource_row": 40,
+      "text": "H-ha ha ha...",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002f8e": {
+      "source_offset": 12174,
+      "pool_word_offset": 508,
+      "source_byte_length": 20,
+      "source_sha256": "e4d3be03880171ec19d028371ca24d72d6731cc20088b4c60ffbb6cc6afbba25",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11082
+      ],
+      "id": "00:00285:text:00002f8e",
+      "resource_row": 41,
+      "text": "That's Scarrel for you.",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002fa4": {
+      "source_offset": 12196,
+      "pool_word_offset": 519,
+      "source_byte_length": 20,
+      "source_sha256": "ef9c8c260a13b4f900692b2e8bd8e4ad1aea6d99dcd4b47ef6a0d2eabfab7fef",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11090
+      ],
+      "id": "00:00285:text:00002fa4",
+      "resource_row": 42,
+      "text": "You really know how",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002fba": {
+      "source_offset": 12218,
+      "pool_word_offset": 530,
+      "source_byte_length": 20,
+      "source_sha256": "21eff51e852c5435a61a9201d3eaefeadc8a5d06308ac6a7c0851c43a0020e73",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11098
+      ],
+      "id": "00:00285:text:00002fba",
+      "resource_row": 43,
+      "text": "to hit a sore spot...",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002fd0": {
+      "source_offset": 12240,
+      "pool_word_offset": 541,
+      "source_byte_length": 12,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11114
+      ],
+      "id": "00:00285:text:00002fd0",
+      "resource_row": 44,
+      "text": "...",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002fde": {
+      "source_offset": 12254,
+      "pool_word_offset": 548,
+      "source_byte_length": 14,
+      "source_sha256": "955cedeecdb4c3de766130b8638275fa1d4cd47d93817b6bb785d83a4ff30693",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11122
+      ],
+      "id": "00:00285:text:00002fde",
+      "resource_row": 45,
+      "text": "Scarrel,",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00002fee": {
+      "source_offset": 12270,
+      "pool_word_offset": 556,
+      "source_byte_length": 20,
+      "source_sha256": "ef9c8c260a13b4f900692b2e8bd8e4ad1aea6d99dcd4b47ef6a0d2eabfab7fef",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11130
+      ],
+      "id": "00:00285:text:00002fee",
+      "resource_row": 46,
+      "text": "you really do know how",
+      "status": "translated_author_self_check"
+    },
+    "00:00285:text:00003004": {
+      "source_offset": 12292,
+      "pool_word_offset": 567,
+      "source_byte_length": 22,
+      "source_sha256": "fe87e1845a48c89ca46319529943186d02ee18206c483eedf17f63b8bd6939dc",
+      "contains_japanese": true,
+      "reference_instructions": [
+        11138
+      ],
+      "id": "00:00285:text:00003004",
+      "resource_row": 47,
+      "text": "to hit a sore spot...",
+      "status": "translated_author_self_check"
+    }
+  }
+}

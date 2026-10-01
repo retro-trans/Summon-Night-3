@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_6917_second.json",
+  "review_sha256": "0119294b7018d94a40d6d857dbf3468b4bb94c3cb5011037461e194f9db3cc19",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6917.targets.json",
+  "target_before_sha256": "51f3925d85fbb071c4934737523bfdd67a8bfc0f774142354694db182567c199",
+  "target_after_sha256": "40c4acb8a32f6ed282d5f32c01547b81d96777195af20563ee6e49576511e60c",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6917,
+      6996
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6929,
+      "before": "",
+      "after": "...!",
+      "reason": "Restore the complete startled-silence box."
+    },
+    {
+      "resource_row": 6923,
+      "before": "You never understood",
+      "after": "Even at the very end,",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6924,
+      "before": "until the very end...",
+      "after": "you still didn't understand...",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

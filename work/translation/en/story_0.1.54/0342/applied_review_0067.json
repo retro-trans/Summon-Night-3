@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0342/review_meaning_0067.json",
+  "review_sha256": "5ff2fed84214618a3f7fe913e3e3a8533ccbfc957cde12da73ef71bd6ecd574d",
+  "target_file": "work/translation/en/story_0.1.54/0342/slice_0067.targets.json",
+  "target_before_sha256": "4568fed4a549d5f77a81a037a5f58389961d126e8454b4dba74c1cbaf7003f31",
+  "target_after_sha256": "169ba4e4a3ee11485fe94befecb60e8c124295a7b3496d78496a3a8f9f95dc7d",
+  "reviewed_rows": {
+    "range_inclusive": [
+      67,
+      108
+    ],
+    "count": 42
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 67,
+      "before": "the more new things you see.",
+      "after": "Whatever it is, the more you do it,",
+      "reason": "Restore the original VM box meaning and speaker, correcting shifted clauses or reversed action while retaining the entire source message."
+    },
+    {
+      "resource_row": 68,
+      "before": "Even things that look like",
+      "after": "the more new things you discover.",
+      "reason": "Restore the original VM box meaning and speaker, correcting shifted clauses or reversed action while retaining the entire source message."
+    },
+    {
+      "resource_row": 69,
+      "before": "the same thing over and over",
+      "after": "Even things that seem like mere repetition",
+      "reason": "Restore the original VM box meaning and speaker, correcting shifted clauses or reversed action while retaining the entire source message."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4757.targets.json",
+  "target_file_sha256": "653f30b28c24fe25e92bb7d7bf87bbfd9ee2a8f75b19c36515ed55145df03335",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4757,
+      4836
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4596,
+      4918
+    ]
+  ],
+  "rows_examined": 323,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        4768,
+        4769
+      ],
+      "note": "The interrupted realization about Ishlar is not completed early; the following speaker states death and revival."
+    }
+  ],
+  "omissions": [
+    {
+      "note": "Cries, silence, interrupted questions and dependent clauses continuing across adjacent boxes retain their source function."
+    }
+  ],
+  "notes": "Root independently compared every full VM dialogue group and both-side context. Proposed fixes assessed with the full current group text, including adjacent slices. No stylistic rewrites."
+}

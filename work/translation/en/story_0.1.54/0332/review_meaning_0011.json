@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00332",
+  "source_sha256": "c78efedba176fc314d4335b6a0db3ccec13806def1feeadb40045dab89c9e1e4",
+  "target_file": "work/translation/en/story_0.1.54/0332/slice_0011.targets.json",
+  "target_file_sha256": "12fb9c40d6e6a00441be93c98f60b8387ebf67e355e9391a790756fdd0528287",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      50
+    ],
+    "count": 40
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      50
+    ]
+  ],
+  "rows_examined": 41,
+  "corrections": [
+    {
+      "resource_row": 32,
+      "source_sha256": "5bd2cee61283525fecffe462d5354e3a84c4470328e6350092b261363c28286c",
+      "text": "When it comes to the outside world,",
+      "reason": "Preserve concern with self-interest in both gains and losses, not just financial profit."
+    },
+    {
+      "resource_row": 33,
+      "source_sha256": "38b585a01889ea0340848b81237d1f58ebe499fa7271c4a07daf8882d6e33b4e",
+      "text": "all they care about is their own interests.",
+      "reason": "The source means advantages and disadvantages to themselves."
+    },
+    {
+      "resource_row": 36,
+      "source_sha256": "b9f4af0d4322760117c40ab91b243b2e1f270f7eee1751f3db67072f37d0e555",
+      "text": "But you",
+      "reason": "The protagonist addresses Yard directly; the following first-person answer confirms the referent."
+    },
+    {
+      "resource_row": 37,
+      "source_sha256": "0dc4650fe526f4ab487f1f7de833a2ecb20801e9a654ddd775622dc46303a644",
+      "text": "realized it, didn't you, Yard?",
+      "reason": "Restore the direct second-person question."
+    },
+    {
+      "resource_row": 38,
+      "source_sha256": "8424893a84f454922bfde66c05122bc547775d87a276be7408123e030abcef1c",
+      "text": "But you",
+      "reason": "Same direct address in the alternate protagonist version."
+    },
+    {
+      "resource_row": 39,
+      "source_sha256": "e3dce6889a61db470a375d714421081b94eded4a4c5d789b67a035ecb7f31ea7",
+      "text": "realized it, didn't you, Yard?",
+      "reason": "Preserve the direct question."
+    }
+  ],
+  "uncertainties": [
+    {
+      "note": "The radical wing's unnamed leader remains unnamed; no character identity is supplied beyond this dialogue."
+    }
+  ],
+  "omissions": [
+    {
+      "note": "Explicit source pauses, cries and genuinely interrupted thought are retained, not filled out with invented conclusions."
+    }
+  ],
+  "notes": "Root independently compared every full VM group in the assigned dialogue and its boundary context. All correction groups reconstructed in memory before accepting the change."
+}

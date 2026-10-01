@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3488.targets.json",
+  "target_file_sha256": "f0c9eec2f65458227090dc7e41b8aa4ad5b651e812f982bc8793134e0d3f488f",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3488,
+      3567
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3403,
+      3809
+    ]
+  ],
+  "rows_examined": 407,
+  "corrections": [
+    {
+      "resource_row": 3491,
+      "source_sha256": "2fa5b90c11e5fb6ff6ac219ecf67aece92cd4edbaccbfcf51ef81df06223f0d1",
+      "text": "Well, it's about what I was told earlier...",
+      "reason": "The following route variant names Vizel as the earlier speaker, not this listener."
+    },
+    {
+      "resource_row": 3503,
+      "source_sha256": "bc99b30f289bfc7b7b37bb8b358e112d82d8314a01e3e80922e862404437cc81",
+      "text": "But aren't you probably the only one who thinks that?",
+      "reason": "Source says only Teacher thinks the action wrong; draft reversed the rhetorical negation."
+    },
+    {
+      "resource_row": 3548,
+      "source_sha256": "4c821dfcac44235277c0cd1d8ebdbec57d338c92c7866f2d489a1e05658997f9",
+      "text": "I first decided to become a soldier because of someone in a story Dad told me...",
+      "reason": "Restore split at original VM box; next box gives the admired soldier's details."
+    },
+    {
+      "resource_row": 3551,
+      "source_sha256": "d7ce3ed668500ae4cc24873277c3f17fcc282dfec6888e7ed6dd02117c59c03b",
+      "text": "I looked up to the young red-haired soldier who protected the hostages despite being wounded.",
+      "reason": "Restore this complete box, whose meaning had been moved into previous box3548."
+    },
+    {
+      "resource_row": 3563,
+      "source_sha256": "d0e982182269ebf48e86198e53ef8cb8c59c858dd80b9d5bcd5df09a15743715",
+      "text": "It's because I found something I wanted to protect. I'm sure of it...",
+      "reason": "Nup answers why he kept fighting and wanted to be like Teacher; speaker I, not listener you."
+    }
+  ],
+  "uncertainties": [
+    {
+      "row": 3563,
+      "note": "Nup's protected thing/person stays broad; context fixes speaker but does not name the object."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independent meaning review of full Japanese/English VM boxes; source read transiently. Box3486–3488 and3807–3809 checked across slice boundaries. No normalization performed."
+}

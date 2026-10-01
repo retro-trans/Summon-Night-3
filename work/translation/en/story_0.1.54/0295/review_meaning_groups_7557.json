@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7557.targets.json",
+  "target_file_sha256": "ae116801c7fbeed9a575889dfaa3aa3f174a02b02acab6898df4bbadeab8b4cf",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      7557,
+      7561
+    ],
+    "count": 5
+  },
+  "source_ranges_examined": [
+    [
+      7556,
+      7562
+    ]
+  ],
+  "rows_examined": 7,
+  "vm_group_verification": {
+    "method": "Reviewed consecutive reference instructions spaced by 8 as one VM group; corrections keep each group self-contained."
+  },
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Final-slice VM-group review; no target edit or acceptance."
+}

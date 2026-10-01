@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00285",
+  "source_sha256": "bf4892c1f71e2f40972ab07a789f7faa4174723e7975feea5570582621127950",
+  "target_file": "work/translation/en/story_0.1.54/0285/slice_0011.targets.json",
+  "target_file_sha256": "273b052b02667311266a8385f63db28bb0df0abbda08accc6f57e81bb76c5e3b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [11, 47],
+    "count": 37
+  },
+  "source_ranges_examined": [[0, 47]],
+  "rows_examined": 48,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [26, 27, 28, 29],
+      "issue": "The source names neither the village nor the student. The target preserves these broad referents without supplying a location, a character name, or a gender."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [13, 14, 30, 32, 35, 40, 44],
+      "reason": "The teasing reaction, punctuation-only response, pauses, and laugh are retained with their intended scene function."
+    },
+    {
+      "rows": [11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 31, 33, 34, 36, 37, 38, 39, 41, 42, 43, 45, 46, 47],
+      "reason": "Physical continuation rows were reviewed as complete adjacent statements; the English preserves each challenge and response without dropping a conclusion."
+    },
+    {
+      "rows": [15, 16, 17, 18, 19, 20, 41, 42, 43, 45, 46, 47],
+      "reason": "The casual and polite protagonist variants were compared in parallel. Their target wording retains the branch distinction without unsupported gender inference."
+    }
+  ],
+  "notes": "Reviewed the complete short source with full 0-47 context. No meaning correction is required; Teacher terminology and the established Scarrel spelling were preserved. This review does not accept the resource or authorize a build."
+}

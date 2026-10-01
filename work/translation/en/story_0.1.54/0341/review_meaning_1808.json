@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00341",
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_1808.targets.json",
+  "target_file_sha256": "9f8c49f1f4f5052e4d7f4ad7af3f449c354907fe8542b9295c0038070615e082",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1808,
+      1887
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1806,
+      2128
+    ]
+  ],
+  "rows_examined": 323,
+  "corrections": [
+    {
+      "resource_row": 1821,
+      "source_sha256": "bcca271b680f6fe1857d1a464f1dcf2c9807c97e6cc08735cfa2b0915f51c04b",
+      "text": "Yes...",
+      "reason": "Restore the affirmative response and retain its original one-row VM box."
+    },
+    {
+      "resource_row": 1880,
+      "source_sha256": "6480b50c9fc5af5523fec65d58201331f59a731804a3f452833ed22a63d7c757",
+      "text": "It's just... Teacher, you seem like you're having a really hard time right now...",
+      "reason": "Restore source meaning to its own VM dialogue box, removing cross-box drift, duplicate continuation, or incorrect English referent."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent Japanese/English meaning review in complete VM dialogue groups including both-side context. Root supplemental review confirms source meaning and restores misplaced or missing boxes where listed."
+}

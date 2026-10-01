@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "scope": "Post-meaning source-bound spelling normalization for Dielgo only; no semantic rewrites.",
+  "evidence": [
+    "Japanese source name uses ディエルゴ in resource 467 rows128/130, 468 rows132/134, and 469 rows134/136.",
+    "Existing terminology research identifies the spelling Dielgo."
+  ],
+  "normalization_by_resource": {
+    "467": [
+      {
+        "resource_row": 128,
+        "source_sha256": "e7ab6446ed4492eb4931e70184183a21b97b51d8974905a7350772e5002a9d50",
+        "target_file": "work/translation/en/story_0.1.54/0467/slice_0091.targets.json",
+        "replacements": [
+          {
+            "from": "Diergo",
+            "to": "Dielgo"
+          }
+        ]
+      },
+      {
+        "resource_row": 130,
+        "source_sha256": "e7ab6446ed4492eb4931e70184183a21b97b51d8974905a7350772e5002a9d50",
+        "target_file": "work/translation/en/story_0.1.54/0467/slice_0091.targets.json",
+        "replacements": [
+          {
+            "from": "Diergo",
+            "to": "Dielgo"
+          }
+        ]
+      }
+    ],
+    "468": [
+      {
+        "resource_row": 132,
+        "source_sha256": "332350c111c51544b3e785023ffe5ba0dc0a4c4d42e8d9e1f96a41867a5ecf83",
+        "target_file": "work/translation/en/story_0.1.54/0468/slice_0091.targets.json",
+        "replacements": [
+          {
+            "from": "Diergo",
+            "to": "Dielgo"
+          }
+        ]
+      },
+      {
+        "resource_row": 134,
+        "source_sha256": "c2f925951ccfaee257779b007d400a3f1720741b001faff2f5569516aa545d17",
+        "target_file": "work/translation/en/story_0.1.54/0468/slice_0091.targets.json",
+        "replacements": [
+          {
+            "from": "Diergo",
+            "to": "Dielgo"
+          }
+        ]
+      }
+    ],
+    "469": [
+      {
+        "resource_row": 134,
+        "source_sha256": "332350c111c51544b3e785023ffe5ba0dc0a4c4d42e8d9e1f96a41867a5ecf83",
+        "target_file": "work/translation/en/story_0.1.54/0469/slice_0091.targets.json",
+        "replacements": [
+          {
+            "from": "Diergo",
+            "to": "Dielgo"
+          }
+        ]
+      },
+      {
+        "resource_row": 136,
+        "source_sha256": "c2f925951ccfaee257779b007d400a3f1720741b001faff2f5569516aa545d17",
+        "target_file": "work/translation/en/story_0.1.54/0469/slice_0091.targets.json",
+        "replacements": [
+          {
+            "from": "Diergo",
+            "to": "Dielgo"
+          }
+        ]
+      }
+    ]
+  }
+}

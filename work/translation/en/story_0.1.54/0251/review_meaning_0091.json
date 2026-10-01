@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00251",
+  "source_sha256": "b1490a1a9ee300bee93bfc934be2bf37196b3f9d981b34f6f57b26382a241e1e",
+  "target_file": "work/translation/en/story_0.1.54/0251/slice_0091.targets.json",
+  "target_file_sha256": "6c738b543fcf6bc9877362c878fe22cd5e0ef7a5da3d2151c7335dba5c9cbab6",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [91, 101],
+    "count": 11
+  },
+  "source_ranges_examined": [[0, 101]],
+  "rows_examined": 102,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [94, 95, 96, 97, 98, 99, 100, 101],
+      "issue": "The closing self-assessment leaves the referent of 'this' broad. The authored English retains that broad referent rather than narrowing it to a specific decision or response."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [92, 96, 100],
+      "reason": "The source pauses and trailing hesitation remain visible in English."
+    },
+    {
+      "rows": [94, 95, 96, 98, 99, 100],
+      "reason": "Physical continuation rows form two complete parallel thoughts; the authored English preserves their conditional contrast without omitting an endpoint."
+    },
+    {
+      "rows": [90, 91, 94, 95, 96, 97, 98, 99, 100, 101],
+      "reason": "The two protagonist variants are preserved as parallel forms. The target does not infer gender beyond the branch structure."
+    }
+  ],
+  "notes": "Reviewed the original resource with full 0-101 context. No meaning correction is required. This review is proof of independent semantic review only and does not accept the resource or authorize a build."
+}

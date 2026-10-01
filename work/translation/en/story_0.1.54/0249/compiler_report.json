@@ -1,0 +1,983 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00249",
+  "mode": "in_memory_accepted_compiler_validation",
+  "input_hashes": {
+    "work/translation/en/story_0.1.54/scope.json": "a67e52d2ab125b26fd57208aacbef1b03426321d85ccfb2d7ead868e726d3a24",
+    "work/translation/en/story_0.1.54/shared_library.targets.json": "610007ac1481e189167cd3d944e755e2bb92f29d597f60f988c74061f4dfa163",
+    "work/translation/en/story_0.1.54/0249/slice_1808.targets.json": "f5a658f64610c25138b4c2b2105dd6a113b241d7adfb9a5ca2bc80da5179f931",
+    "work/translation/en/story_0.1.54/0249/slice_2034.targets.json": "2a060c49f3b92c6feeba4abd39c16ee8646590b5622632fa364e605ef713abf3",
+    "work/translation/en/story_0.1.54/0249/slice_2293.targets.json": "eb3a14daffaeb76f6ea7b6f5766a2eb9f02c25e4969751d32c8ac34056276fc1",
+    "work/translation/en/story_0.1.54/0249/slice_2533.targets.json": "dfc04f0df65056ffac209de702e94b1bc11034d15b0258020b826bd4df7c7a0b",
+    "work/translation/en/story_0.1.54/0249/slice_2833.targets.json": "cae8eee71ea9c1086b8566d706de06854febb44a44a18094c257bed77365f651",
+    "work/translation/en/story_0.1.54/0249/slice_2913.targets.json": "20c32e28fda66eabd4edce6d8405988047e261594ba0fbb0627d3253f77afde3",
+    "work/translation/en/story_0.1.54/0249/slice_2993.targets.json": "cfe4cf103efeb3af7e6a04a7a7d727b34f5b209b1135a0b3b516bebec485b8c1",
+    "work/translation/en/story_0.1.54/0249/slice_3073.targets.json": "144946a35ffed0940c4a7d9de9bd3e059557d6cfc8b46321229493c18095b462",
+    "work/translation/en/story_0.1.54/0249/slice_3153.targets.json": "3c3b1402c8c600e86ddc9df65b0042ebddc9c079939c2d8856b89c2d418934ef",
+    "work/translation/en/story_0.1.54/0249/slice_3233.targets.json": "b85f3e0952148784e071a25b2548ef02c95aa8f6bf000f813bd4257900e28298",
+    "work/translation/en/story_0.1.54/0249/slice_3313.targets.json": "abb431e28563f816fd1b7a093a219ba883cb2e95aa007684f1704d43be1ab662",
+    "work/translation/en/story_0.1.54/0249/slice_3393.targets.json": "8187587bb39ad7e36afb875fad216e9316f109969f08f9eff8168eb7b1a134c0",
+    "work/translation/en/story_0.1.54/0249/slice_3473.targets.json": "b2cfafa1ef9f1fa2da440be9c719c9cece5464055134bd8d4b0cef226dbed743",
+    "work/translation/en/story_0.1.54/0249/slice_3553.targets.json": "25fe82a4c3fed4c525ba735f4921c77c525ac450e84d03a717838c69d7e5a78b",
+    "work/translation/en/story_0.1.54/0249/slice_3633.targets.json": "e1ea01dacf80081579acb1072ea986a4061d64024eb17bc2094bfc1092a71a94",
+    "work/translation/en/story_0.1.54/0249/slice_3713.targets.json": "d05f1d02bff2636159868f489fdb7cb2feec08970ccc4f444b2704746b847eab",
+    "work/translation/en/story_0.1.54/0249/slice_3793.targets.json": "e87338ad41524171f81625daa1b03208a8577b4f727492d75bb5a5225b04409a",
+    "work/translation/en/story_0.1.54/0249/slice_3873.targets.json": "21926267900c8ab0960948cc7d6af59996d7f9ec15b36afed9703de7cd4481a8",
+    "work/translation/en/story_0.1.54/0249/slice_3953.targets.json": "c2096ae5e9e2ecff21e4ab710f03700fdeaaa3e168bb8e8da2f75b4d2054913b",
+    "work/translation/en/story_0.1.54/0249/slice_4033.targets.json": "474d62d6cd24f6ca6c8fe9974a964bdc20a40f0ff878afa20cd47a8d89265ef7",
+    "work/translation/en/story_0.1.54/0249/slice_4113.targets.json": "1bed20b307f1e371317dd8aa52d7c8b9bc6e111d586ff09c6e22d8271b62b520",
+    "work/translation/en/story_0.1.54/0249/slice_4193.targets.json": "51504a2927750228a7ac224c116452d64ec889391df5486281ba798b32b1f77b",
+    "work/translation/en/story_0.1.54/0249/slice_4273.targets.json": "8f03ffb4ac947767c4814c085114700c56772fa68862fceed5e0826015805935",
+    "work/translation/en/story_0.1.54/0249/slice_4353.targets.json": "eed2de71406d90e4df0d06f480a52c2085ab22818aa96a079a79741847870ac9",
+    "work/translation/en/story_0.1.54/0249/slice_4433.targets.json": "9c35c6f9a3013529f68299c07cfd4f0e49893958cd8c2b007b86a145a55a3118",
+    "work/translation/en/story_0.1.54/0249/slice_4513.targets.json": "47b9b3ac103e6b201eaf66a502a5f4888e7bf51974032423aa1cc401400403cf",
+    "work/translation/en/story_0.1.54/0249/slice_4593.targets.json": "4ed328caf30372b97fd08f1a9513abc7282f15840c34777ab848cfe353ff02d2",
+    "work/translation/en/story_0.1.54/0249/slice_4673.targets.json": "282165f3bfca546eb3c150e1f31c4b406d661bb7802c850cb71079b2725a6f40",
+    "work/translation/en/story_0.1.54/0249/slice_4753.targets.json": "c77ce336bbdeef5b19c3c0d61ce20846227bf721c8f877471cb6ff9cf98f38af",
+    "work/translation/en/story_0.1.54/0249/slice_4833.targets.json": "57db583c5560bba60c8e32855bc90123e946d4cd27a1f41a6c6b9f183c24cff1",
+    "work/translation/en/story_0.1.54/0249/slice_4913.targets.json": "0810d8d53c9162e48b200617431ab915c7bad2faee068a9f7782d4c36130250e",
+    "work/translation/en/story_0.1.54/0249/slice_4993.targets.json": "3def66c0b5b3ce4e690c9d6930cfd0bdd6674238a29d52f63ec39b3c5df1864b",
+    "work/translation/en/story_0.1.54/0249/slice_5073.targets.json": "a313e6e228fc3dcf335fbb6ac08e82e80dc8e449b4eedc35902499a06f7c7b37",
+    "work/translation/en/story_0.1.54/0249/slice_5153.targets.json": "18b5c73ed17f1569573aacc695d05e302dddadb695e65a6d490bfe2f95766270",
+    "work/translation/en/story_0.1.54/0249/slice_5233.targets.json": "b6f54226b9a6a0085b569d2675a321d47c8db9ff260de48fa38005e0572904ff",
+    "work/translation/en/story_0.1.54/0249/review_meaning_1808_renewed_0011.json": "06a9b9636bfceff6ae4bcb8da7d91dcdb81d0424d87ba977685d2fe301a223ed",
+    "work/translation/en/story_0.1.54/0249/review_meaning_1888_renewed_0011.json": "a8f93f2b01b04b81af21289d312a37a42d2a493a5663a59fca2604e9cad5f864",
+    "work/translation/en/story_0.1.54/0249/review_meaning_1968_renewed_0011.json": "8c2902639a1b2c479827d1e54456987586a76cca29cc3b9440669ad5fe13270a",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2034_renewed_0011.json": "7ee34584b7cabd9a35102c8ec0c92a29d998fc8ac1d66146a7beb1123d188f62",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2114_renewed_0011.json": "a99527745969b17441a62e67e80facf516811180311871038cf7d01cbefad922",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2194_renewed_0011.json": "8b84314f66c9471e011f63a97125e3c67478efca5bbdbe2bf1cb465d8ccbc3dc",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2274_renewed_0011.json": "9c08cbf159f988557e4ec7257d425a84dc8be930ab886ea7afeab11bd0142d28",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2293_renewed_0011.json": "59bf26ef6657776a7af7868daa54f345d73411535cb716f7d6c3454bbeb6493e",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2354_renewed_0011.json": "691a2b5c9f9c5cc88e682400848b12c71403f374db76a4557e721758274d9713",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2434_renewed_0011.json": "26cc656fa78c646b58a727773cc824df7d7a3276b7aba1a992cffadaa5abdc56",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2514_renewed_0011.json": "80dcc190b4ecf1de5107d8120b7e4f51e694b975ee572a56f1441477915e7fee",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2533_renewed_0011.json": "af1599efba29bbf0e4657cec3aa22b656d4b975536a32a976c9b30c482687543",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2594_renewed_0011.json": "1f6059959f9a130a7eec08986de976ad9373bab91e3a93f512c68f91a02a7e5f",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2674_renewed_0011.json": "26db789ee3e976bc13807ea500421d86e3b6119bf519d0ac99abb205fa69a01f",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2754_renewed_0011.json": "7d9038e5e6ecb3826567c02a18f1033f481ad5bc2964be789a392f10e6a02d23",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2833_renewed_0011.json": "840f50066123f5bc7075c1229b87fe1668de3cd9bfa5a93f731050d32e31d7c9",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2834_renewed_0011.json": "51fa569e486f866a1657883f6d7564ac4f37d24bc6cec0713d6f7058bc8f42d7",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2913.json": "119f720d1889056b8876862edb3ec7a5f9f94f8d361d93bf5d7912ca59d53a06",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2913_renewed_0011.json": "09787b4946caf79b569c8c429517216a1c8e048b6733eb3580969f48c0e42e62",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2914_renewed_0011.json": "41ee2bfba144d65500e70a4bdf2da18bae843ed8e7585612c6dcda96271a2345",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2993.json": "a0b87e1078e2d427f3450d456a906fbb1d7a8b4255d6010730efa71c5af7119f",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2993_renewed_0011.json": "7d7e66f4fff2f988b7ad8d06ea8f9b6305d7ba8b0fdc4039fb4be07fd497075f",
+    "work/translation/en/story_0.1.54/0249/review_meaning_2994_renewed_0011.json": "37b08a95ee5f9e850f370a9dbeb0445a7086fe2975cd27a508243b04d803ee34",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3073.json": "786fe89baa3c5396f478f6c5e20051f76221d2c46c2a4daaa6d056015a263273",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3073_renewed_0011.json": "d22bccf0d1f863ddf314c76836760b2dcda3609098d03d3f682496bbbb512d33",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3153.json": "e1a9b316fd5c71b4d5a8542be759ac2389923afd7b0ecb5ac8d4a26bc04d7348",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3153_renewed_0011.json": "90a3ada37577c08125ff495a32a3cd244a9b6fbaefe3ba19ecdada444ed5787e",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3233.json": "36046f98c68c88ea274e922f0f7831724a6ee6277cd2d0a37fdbcd3ec35f9861",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3233_renewed_0011.json": "78b313d2d467466fb687ddf54182c3f3471a9188234c56592aeed3778c8d9ea8",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3313.json": "b1a33f2ba883365d571c7234ecd8e25ed008621d3482c213a2ae2abfd842937f",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3313_renewed_0011.json": "54767e352061c74b5fbf928e560253b92352442988bed1d460e2b8b7eaa1c3d2",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3393.json": "4bb9d014ac169472d7ef1318aea859c078fa9a901ec64e349a73cfb2fa866218",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3393_renewed_0011.json": "d4af357bb6c70e68d5af5112ee7b72118d792690d7902b47ab9080da1d23e731",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3473.json": "ecee1d6f85a207dc1b45cc48e35d6ef9a85a7703c416c65f1936d21d8cb72d6a",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3473_renewed_0011.json": "076416a5a9839b667a764f9e9e6af6e47ac30200eae40a4504da7388c77ef337",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3474_renewed_0011.json": "fdadaff2f6c0c902878df4daccfaaccb90de98cebec565436cadd0183367d0fc",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3553.json": "f9c66844442b0fe997ae11134346ca36f2a169b89d7344520519ef4d47043edf",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3633.json": "02fe761f6f37bc4bff1cd046ed5ffe1aa3bcfdf9cbed216dee6beceeef3fcaad",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3713_renewed_0011.json": "a691b755034fd3ceeecb763146b635071194bc04a8cf119ba43bed46ce783bfe",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3793_renewed_0011.json": "e5c20b47d0075e1772e3543a04b7fadb08747ea390df93c2cbbac6bb92837996",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3873_renewed_0011.json": "c5c97c27f320dc6e73214d7fc9aacf18647d8a181e73c3f35c44f5ebcf851f63",
+    "work/translation/en/story_0.1.54/0249/review_meaning_3953.json": "baeb68c57fe8fb3c4cbff3501b257d5fe8e8f5b9b1c152da669b5bc630467214",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4033.json": "4296e0ced55351deae2f8c7111b6cfd10fee4b48c95a742a97744186b5e61794",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4113.json": "6e9135fd8ab0e3aef1231dc117beec0020dedbc58be013e26b53eb1d56cb2114",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4193.json": "8321c174213de7a35d30dfdadfe19f06f37c727b426d7ea647e53e91b6ee7bc8",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4273.json": "e68ba2cf17d6ea08b722bf2b5c9ed42244b594c8e73869b1d6a203383b8bdb12",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4353.json": "7eef4ec5753afe29c90b880a44890cd57662ea374ebd126f0c9715ded48c4685",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4433.json": "0baa451ee4d6fec2db919ca7febca0946047fb9211a43dd7f73424d956827d19",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4513.json": "8adcabb7c2b22d9bfcc1a0c348b1ddfb5c49a9a6f927f4ba97a519ec03a238e9",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4593.json": "8dabb043332ce186807d7730f21ed6598c69af2ef5cee7600f111ac67092c371",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4673.json": "61ba091ec6addd8875fc01f77d7b77b6f4b2e2b54ce70423d9a3a8e0b5ab2371",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4753.json": "105311567ad54fc99bfc4ba380abc235a9afa8c39a88393eb6bef8dfb38aa337",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4833.json": "8c6a07e982e6897f0aab51336372243c669358e7ba7c4b29be383db932185796",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4913.json": "aec2e8b8047dc0d2647649ac3b6008195ccad5965708218b73dbc9f6c131a7d8",
+    "work/translation/en/story_0.1.54/0249/review_meaning_4993.json": "c32bd2e2f0e30ad0375b6742e8768bb8a6ab0faf58f558f229bbbeee9b9a09db",
+    "work/translation/en/story_0.1.54/0249/review_meaning_5073.json": "72a98bb7f3a6a86e8d2d262ea14c13f1b744b594a8c82b61758e8e26c24e7670",
+    "work/translation/en/story_0.1.54/0249/review_meaning_5153.json": "d781ab11ca0f5a336f0804cde4c08951c3b5fdbabe57fe1783fa2f76d9c8a1da",
+    "work/translation/en/story_0.1.54/0249/review_meaning_5233.json": "ac2f6a3e15696b0353cc58694d25e0278fc2b670105e11ca641b7961aa7e9ce4",
+    "work/translation/en/story_0.1.54/0249/applied_review_2354_renewed_0011.json": "0d43734bd35f2c24599d9c41a67f308cf582319473b1a7329d58961e9ddfa767",
+    "work/translation/en/story_0.1.54/0249/applied_review_2833.json": "0baee0bb6488e54d31e060de928d440696d2c5d54d185d48611705a64973d680",
+    "work/translation/en/story_0.1.54/0249/applied_review_2993.json": "7ee977d25f2f79e912583cc6319636f846f777f443c1b1f3b0c2f734a6065652",
+    "work/glossary/character_reference_sn6_vita.json": "0a284426ad3d1aac837df75fc283570718c32ca3a584d6b2662e71839a47eb92",
+    "work/glossary/terminology_preferences.json": "8bb5a15998b681ce0c8282b11758078bbdeba875b462b650e809ae64db4526ae",
+    "work/glossary/story_additions_0.1.54.json": "0c5bae73e20c1b4ff1f84cd7180f3988c64bc5af9b4e23c353ff8efb7c88c879",
+    "work/glossary/chapter6_terms_0.1.14.json": "11d512bb209f149682987c1cf70700a695836cb1cb2c8a82c8ee15946eb68211",
+    "work/glossary/chapter48_story_terms_0.1.14.json": "e5af344cfe3be399347764cbc9db1a6019beef242008a03eb766789b08ab9d06",
+    "work/glossary/setup_ui.json": "9403c571041ad53d9c428033a5d11930004f7684a335dee82929c4c73fd43ed6",
+    "work/glossary/story_core_terms_0.1.54.json": "864936e8de7b8aabe2926fedc4d8b1ed2843c40f73faf59fcd35589a384fcce0",
+    "work/glossary/island_0.1.12.json": "71891dc5bd9224a7feba41c3f80ed214551af48a3df68190df96d8a1c5e4f9a2",
+    "work/glossary/chapter13_titles_0.1.54.json": "14ef1d318e0765d190e2e29d7f0d9135c1c24bc12291419dd96c77652d608de5",
+    "work/translation/en/story_0.1.54/0249/accepted_review.json": "8fa35c62da192bd55d066f31f7b036ed77f6b224a1359daf6865c8f8a3c6f164",
+    "tools/story_patch_054.py": "efb30bf799e5d4ef05f6a2a7d6dd6ef587240bd4b70bbb11915181cd762c0159",
+    "tools/story_compiler_054.py": "3cbe86584b5519c352696db29f105d9556d315c53e411a8432c81e6a5f42f8b3",
+    "tools/conditional_layout_054.py": "ff0af598af0de48e8be4e8f2fcd0e426ca9159433edb4f9099797cbea3d8caa7",
+    "tools/story_branch485_layout_054.py": "2524d6ed84681947d1501eef65b4fbfe340416e687b20bf9d2f50b32352de021",
+    "tools/story_source_054.py": "31bd0150436e1391da3fede343a4bb021541f46987e0c020fc5eef18d3a30372",
+    "tools/chapter_patch_014.py": "c04d8f932c504ab3d071e8216cdedd3fb967bdb09882062009c05845c2354232",
+    "tools/chapter_source_014.py": "16ccdf1d1d0ee1621b3fde61bd43cea7436c743e4ddc4bc0179696585a290d1e",
+    "tools/script_compact_014.py": "59246e9c47b02a9fb0447a83feff43ac8914f7103652627197a35c3fa67a602d",
+    "tools/story_storage_054.py": "e58942ba3476938c78a20e1e7d6589a6fec978551dba0beb35d105546fc2d6f0",
+    "tools/font_metrics_014.py": "bb7d3d3f14233a55141aa2d385d32fec30dc9c7a55213cf44ede4b9aad1786f1",
+    "tools/night_talk_037.py": "2b4cc9a6fbf4152106780034a875fc64f4a3d759f4eac56c2bfffb2be5e9165b",
+    "tools/story_display_054.py": "3b4df497fa050415535068d09274e61faefc9c6f4b9cd3ff8f087e5e8223e8b2"
+  },
+  "accepted_review_sha256": "8fa35c62da192bd55d066f31f7b036ed77f6b224a1359daf6865c8f8a3c6f164",
+  "checks": {
+    "resource_id": "00:00249",
+    "covered_source_rows": 5289,
+    "remaining_in_scope": 0,
+    "excluded_shared_library_rows": 0,
+    "groups": 2397,
+    "pages": 2658,
+    "code_growth": 9128,
+    "decoded_script_bytes": 353372,
+    "direct_rows": [
+      {
+        "row": 0,
+        "text": "\"Learn Skills\"",
+        "reference": 3038,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1,
+        "text": "is now available!",
+        "reference": 3046,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2,
+        "text": "\"Party Abilities\"",
+        "reference": 3080,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3,
+        "text": "is now available!",
+        "reference": 3088,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4,
+        "text": "\"Cooking\"",
+        "reference": 3122,
+        "pixel_limit": 280
+      },
+      {
+        "row": 5,
+        "text": "is now available!",
+        "reference": 3130,
+        "pixel_limit": 280
+      },
+      {
+        "row": 6,
+        "text": "Puppet Summoning",
+        "reference": 3166,
+        "pixel_limit": 280
+      },
+      {
+        "row": 7,
+        "text": "at Meimei's shop unlocks",
+        "reference": 3174,
+        "pixel_limit": 280
+      },
+      {
+        "row": 8,
+        "text": "on later playthroughs!",
+        "reference": 3182,
+        "pixel_limit": 280
+      },
+      {
+        "row": 9,
+        "text": "\"Summon Training\"",
+        "reference": 3220,
+        "pixel_limit": 280
+      },
+      {
+        "row": 10,
+        "text": "is now available!",
+        "reference": 3228,
+        "pixel_limit": 280
+      },
+      {
+        "row": 17,
+        "text": "What should I do...?",
+        "reference": 10988,
+        "pixel_limit": 280
+      },
+      {
+        "row": 18,
+        "text": "　Go fishing.",
+        "reference": 10996,
+        "pixel_limit": 280
+      },
+      {
+        "row": 19,
+        "text": "　Never mind.",
+        "reference": 11006,
+        "pixel_limit": 280
+      },
+      {
+        "row": 206,
+        "text": "That's enough",
+        "reference": 19988,
+        "pixel_limit": 280
+      },
+      {
+        "row": 207,
+        "text": "for today.",
+        "reference": 19996,
+        "pixel_limit": 280
+      },
+      {
+        "row": 208,
+        "text": "Let's call it",
+        "reference": 20008,
+        "pixel_limit": 280
+      },
+      {
+        "row": 209,
+        "text": "a day.",
+        "reference": 20016,
+        "pixel_limit": 280
+      },
+      {
+        "row": 275,
+        "text": "Watch over the field?",
+        "reference": 22138,
+        "pixel_limit": 280
+      },
+      {
+        "row": 276,
+        "text": "　Accept.",
+        "reference": 22146,
+        "pixel_limit": 280
+      },
+      {
+        "row": 277,
+        "text": "　Decline.",
+        "reference": 22156,
+        "pixel_limit": 280
+      },
+      {
+        "row": 331,
+        "text": "All right...",
+        "reference": 24712,
+        "pixel_limit": 280
+      },
+      {
+        "row": 332,
+        "text": "　Let's do this!",
+        "reference": 24732,
+        "pixel_limit": 280
+      },
+      {
+        "row": 333,
+        "text": "　Never mind.",
+        "reference": 24742,
+        "pixel_limit": 280
+      },
+      {
+        "row": 334,
+        "text": "　I challenge you!",
+        "reference": 24756,
+        "pixel_limit": 280
+      },
+      {
+        "row": 335,
+        "text": "　I've changed my mind.",
+        "reference": 24766,
+        "pixel_limit": 280
+      },
+      {
+        "row": 404,
+        "text": "All right...",
+        "reference": 27620,
+        "pixel_limit": 280
+      },
+      {
+        "row": 405,
+        "text": "　I'll give it a try!",
+        "reference": 27640,
+        "pixel_limit": 280
+      },
+      {
+        "row": 406,
+        "text": "　Another time.",
+        "reference": 27650,
+        "pixel_limit": 280
+      },
+      {
+        "row": 407,
+        "text": "　I'll give it a try!",
+        "reference": 27664,
+        "pixel_limit": 280
+      },
+      {
+        "row": 408,
+        "text": "　Maybe next time.",
+        "reference": 27674,
+        "pixel_limit": 280
+      },
+      {
+        "row": 450,
+        "text": "Wait, huh?",
+        "reference": 30100,
+        "pixel_limit": 280
+      },
+      {
+        "row": 451,
+        "text": "Where did",
+        "reference": 30108,
+        "pixel_limit": 280
+      },
+      {
+        "row": 452,
+        "text": "everyone go...?",
+        "reference": 30116,
+        "pixel_limit": 280
+      },
+      {
+        "row": 453,
+        "text": "Wait, huh?",
+        "reference": 30140,
+        "pixel_limit": 280
+      },
+      {
+        "row": 454,
+        "text": "Where did",
+        "reference": 30148,
+        "pixel_limit": 280
+      },
+      {
+        "row": 455,
+        "text": "everyone go?",
+        "reference": 30156,
+        "pixel_limit": 280
+      },
+      {
+        "row": 458,
+        "text": "What should I do?",
+        "reference": 30364,
+        "pixel_limit": 280
+      },
+      {
+        "row": 459,
+        "text": "　Give it a try.",
+        "reference": 30384,
+        "pixel_limit": 280
+      },
+      {
+        "row": 460,
+        "text": "　Never mind.",
+        "reference": 30394,
+        "pixel_limit": 280
+      },
+      {
+        "row": 461,
+        "text": "　Let's try it.",
+        "reference": 30408,
+        "pixel_limit": 280
+      },
+      {
+        "row": 462,
+        "text": "　Never mind.",
+        "reference": 30418,
+        "pixel_limit": 280
+      },
+      {
+        "row": 500,
+        "text": "Hey, Meimei.",
+        "reference": 33492,
+        "pixel_limit": 280
+      },
+      {
+        "row": 506,
+        "text": "Meimei,",
+        "reference": 33584,
+        "pixel_limit": 280
+      },
+      {
+        "row": 544,
+        "text": "In that case...",
+        "reference": 34338,
+        "pixel_limit": 280
+      },
+      {
+        "row": 545,
+        "text": "　What's \"Wheel of Fate\"?",
+        "reference": 34346,
+        "pixel_limit": 280
+      },
+      {
+        "row": 546,
+        "text": "　What's this paper?",
+        "reference": 34356,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1246,
+        "text": "What will you do?",
+        "reference": 55108,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1247,
+        "text": "What should I do?",
+        "reference": 55120,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1248,
+        "text": "What will you do?",
+        "reference": 55158,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1249,
+        "text": "What should I do?",
+        "reference": 55182,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1250,
+        "text": "　I can keep going!",
+        "reference": 55210,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1251,
+        "text": "　Keep going.",
+        "reference": 55224,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1252,
+        "text": "　Head back.",
+        "reference": 55234,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2005,
+        "text": "Ask ▲...",
+        "reference": 81974,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2006,
+        "text": "Ask ▲...",
+        "reference": 82008,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2007,
+        "text": "Ask ▲...",
+        "reference": 82020,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2008,
+        "text": "Invite them",
+        "reference": 82028,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2009,
+        "text": "Don't invite them",
+        "reference": 82038,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2088,
+        "text": "Ask Kyle...",
+        "reference": 85028,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2089,
+        "text": "Ask Kyle...",
+        "reference": 85040,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2090,
+        "text": "Invite him",
+        "reference": 85048,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2091,
+        "text": "Don't invite him",
+        "reference": 85058,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2120,
+        "text": "Ask Sonolar...",
+        "reference": 86028,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2121,
+        "text": "Invite her",
+        "reference": 86036,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2122,
+        "text": "Don't invite her",
+        "reference": 86046,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2153,
+        "text": "Ask Yard...",
+        "reference": 87102,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2154,
+        "text": "Ask Yard...",
+        "reference": 87114,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2155,
+        "text": "Invite him",
+        "reference": 87122,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2156,
+        "text": "Don't invite him",
+        "reference": 87132,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2188,
+        "text": "Ask Scarrel...",
+        "reference": 88252,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2189,
+        "text": "Invite him",
+        "reference": 88260,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2190,
+        "text": "Don't invite him",
+        "reference": 88270,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2223,
+        "text": "Ask Ardylia...",
+        "reference": 89274,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2224,
+        "text": "Invite her",
+        "reference": 89282,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2225,
+        "text": "Don't invite her",
+        "reference": 89292,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2254,
+        "text": "Ask Lady Misumi...",
+        "reference": 90276,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2255,
+        "text": "Invite her",
+        "reference": 90284,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2256,
+        "text": "Don't invite her",
+        "reference": 90294,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2286,
+        "text": "Ask Kyuuma...",
+        "reference": 91344,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2287,
+        "text": "Ask Kyuuma...",
+        "reference": 91356,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2288,
+        "text": "Invite him",
+        "reference": 91364,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2289,
+        "text": "Don't invite him",
+        "reference": 91374,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2321,
+        "text": "Ask Fariel...",
+        "reference": 92448,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2322,
+        "text": "Invite her",
+        "reference": 92456,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2323,
+        "text": "Don't invite her",
+        "reference": 92466,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2375,
+        "text": "Well...",
+        "reference": 94102,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2376,
+        "text": "That's not it!",
+        "reference": 94122,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2377,
+        "text": "You're right...",
+        "reference": 94132,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2378,
+        "text": "That's not it!",
+        "reference": 94146,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2379,
+        "text": "You're right...",
+        "reference": 94156,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2430,
+        "text": "Ask Yafha...",
+        "reference": 95382,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2431,
+        "text": "Ask Yafha...",
+        "reference": 95394,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2432,
+        "text": "Invite him",
+        "reference": 95402,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2433,
+        "text": "Don't invite him",
+        "reference": 95412,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2465,
+        "text": "Ask Marurur...",
+        "reference": 96408,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2466,
+        "text": "Invite her",
+        "reference": 96416,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2467,
+        "text": "Don't invite her",
+        "reference": 96426,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2706,
+        "text": "Who should I talk to...?",
+        "reference": 104342,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2707,
+        "text": "Ardylia's group",
+        "reference": 104350,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2708,
+        "text": "Yafha's group",
+        "reference": 104360,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2709,
+        "text": "The children",
+        "reference": 104370,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2710,
+        "text": "Who should I talk to...?",
+        "reference": 104384,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2711,
+        "text": "Ardylia's group",
+        "reference": 104392,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2712,
+        "text": "Yafha's group",
+        "reference": 104402,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2713,
+        "text": "The children",
+        "reference": 104412,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2910,
+        "text": "Let me think...",
+        "reference": 111728,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2911,
+        "text": "Let me think...",
+        "reference": 111740,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2912,
+        "text": "　The beach, I guess.",
+        "reference": 111748,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2913,
+        "text": "　The flower field, I guess.",
+        "reference": 111758,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3128,
+        "text": "Who should I talk to...?",
+        "reference": 121580,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3129,
+        "text": "　Kyuuma's group.",
+        "reference": 121588,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3130,
+        "text": "　Falzen's group.",
+        "reference": 121598,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3131,
+        "text": "　The children.",
+        "reference": 121608,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3132,
+        "text": "Who should I talk to...?",
+        "reference": 121622,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3133,
+        "text": "　Kyuuma's group.",
+        "reference": 121630,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3134,
+        "text": "　Falzen's group.",
+        "reference": 121640,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3135,
+        "text": "　The children.",
+        "reference": 121650,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3434,
+        "text": "Let me think...",
+        "reference": 133950,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3435,
+        "text": "Let me think...",
+        "reference": 133962,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3436,
+        "text": "　See the blue ice trees.",
+        "reference": 133970,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3437,
+        "text": "　See the waterfall.",
+        "reference": 133980,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4430,
+        "text": "!?",
+        "reference": 160196,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4431,
+        "text": "!?",
+        "reference": 160244,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4432,
+        "text": "!?",
+        "reference": 160292,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4433,
+        "text": "!?",
+        "reference": 160340,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4963,
+        "text": "I'll...",
+        "reference": 179194,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4964,
+        "text": "I'll...",
+        "reference": 179222,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4965,
+        "text": "　Stay with Kunon.",
+        "reference": 179238,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4966,
+        "text": "　Stay with Ardylia.",
+        "reference": 179248,
+        "pixel_limit": 280
+      }
+    ],
+    "source_pool_preserved": false,
+    "live_pool_text_preserved": true,
+    "unrelated_code_preserved": true,
+    "all_group_calls_simulated": true,
+    "reviewed": true,
+    "samples": [
+      {
+        "rows": [
+          11,
+          12,
+          13
+        ],
+        "pages": [
+          [
+            "Maybe I'll go catch some",
+            "fish for dinner."
+          ]
+        ]
+      },
+      {
+        "rows": [
+          14,
+          15,
+          16
+        ],
+        "pages": [
+          [
+            "Shall I go catch some",
+            "fish for dinner?"
+          ]
+        ]
+      },
+      {
+        "rows": [
+          20,
+          21
+        ],
+        "pages": [
+          [
+            "Except I don't have any",
+            "bait..."
+          ]
+        ]
+      }
+    ],
+    "pool_compaction": {
+      "before_bytes": 702958,
+      "after_bytes": 353372,
+      "saved_bytes": 349586,
+      "exact_dedup_bytes": 357448,
+      "suffix_saved_bytes": 4076,
+      "suffix_shared_strings": 220,
+      "live_string_references": 5415,
+      "unique_live_strings": 4069,
+      "all_live_string_bytes_preserved": true,
+      "all_non_string_instructions_preserved": true
+    },
+    "meaning_review_verified": true,
+    "conditional_or_menu_rows": 130,
+    "night_talk_groups": 0
+  },
+  "limitations": [
+    "No ISO produced; runtime allocation and gameplay not tested."
+  ]
+}

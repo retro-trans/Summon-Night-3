@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_5088_root_final.json",
+  "review_sha256": "66b88854a9f92d17e813981d4c43aa6a935c690bfc1e4866b8d46918148530f8",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_5088.targets.json",
+  "target_before_sha256": "98634ef5ead26df061b0693bff304e645d2c32c1e70da07e0fd3e340e260f02e",
+  "target_after_sha256": "499cfe7b23a4d019ae8ef5265677c3a27616019d40189b93945c20ab2bc4ad25",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5088,
+      5167
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5158,
+      "before": "Behind you...",
+      "after": "Get behind me...",
+      "reason": "Le-O-LD uses self-reference and asks Amer to take shelter behind him; not behind the listener."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

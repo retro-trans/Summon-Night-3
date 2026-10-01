@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_2368.targets.json",
+  "target_file_sha256": "59c026a5a1c2e8deedc6ddd656415aee34ef483f00c20ae0e428a6a36a0cbc0e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2368,
+      2447
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2366,
+      2448
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 2368,
+      "source_sha256": "58e239e76ca683d1995c96da059ab84270ed3c77832f51ab35ff23a41c4ab3d7",
+      "text": "",
+      "reason": "Continuation cleared so row 2366 contains only its own VM box."
+    },
+    {
+      "resource_row": 2369,
+      "source_sha256": "a8d048f3b32e5574c6bb9dfeaa63bfb619a6c3ae2549b94fdde01706782086f6",
+      "text": "Do your best to make sure it doesn't come to that.",
+      "reason": "Restore the omitted complete VM box 2369–2370; its meaning was incorrectly moved into 2366–2368."
+    },
+    {
+      "resource_row": 2370,
+      "source_sha256": "85f589ea39050bfdf6d61e6d8cadc2ea49b4e733d669b163e8c64a78a5e2927f",
+      "text": "",
+      "reason": "Continuation cleared so row 2369 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2416,
+      "source_sha256": "e194fa686eaefa2673c8d687ca711147732dd23efcac30a5d715337e1d0ec63d",
+      "text": "Don't worry about it.",
+      "reason": "Remove the following VM box's comparison from the preceding box."
+    },
+    {
+      "resource_row": 2417,
+      "source_sha256": "3977899b8fb67ef78897018c0523357dbf39c0bea6879368f62e304f46ca5bca",
+      "text": "",
+      "reason": "Continuation cleared so row 2416 contains only its own VM box."
+    },
+    {
+      "resource_row": 2418,
+      "source_sha256": "e77a814ee17f7588e26f69a69c51a358297386a5d3142748c6b78e24254cb378",
+      "text": "If I were in your position, I think I'd be much more upset...",
+      "reason": "Restore the omitted complete VM box 2418–2420."
+    },
+    {
+      "resource_row": 2419,
+      "source_sha256": "c3a65914ac32c2f65102fc1ed54ec38c254d67b32657f7270c69cb66f2892c99",
+      "text": "",
+      "reason": "Continuation cleared so row 2418 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2420,
+      "source_sha256": "50a57ead49aca331f887154ede59a28fec6f47f6898fa044d90332603c95341c",
+      "text": "",
+      "reason": "Continuation cleared so row 2418 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2421,
+      "source_sha256": "455a947330730d00bb0115a78e21639627e6885c3e9ad5edebe0d44979f921c3",
+      "text": "Don't worry about it...",
+      "reason": "Remove the following VM box's hypothetical reaction from the preceding box."
+    },
+    {
+      "resource_row": 2422,
+      "source_sha256": "3a3790c4ae8c0210d2eb18f8f4a1fc0228e05570dfc74641694e0d62acb89fcb",
+      "text": "",
+      "reason": "Continuation cleared so row 2421 contains only its own VM box."
+    },
+    {
+      "resource_row": 2423,
+      "source_sha256": "babe094e5e33d5465b1474dedb95e1eef221e738b483205166c213918aae29b7",
+      "text": "If I were in your position, I think I'd be sobbing and causing everyone trouble...",
+      "reason": "Restore the omitted complete VM box 2423–2425."
+    },
+    {
+      "resource_row": 2424,
+      "source_sha256": "e8ef8423d9b49b019b484d71dcc997e7efaa1a71b5a772d62ec5e44019de9136",
+      "text": "",
+      "reason": "Continuation cleared so row 2423 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2425,
+      "source_sha256": "5dd253700e30c1b3f6864d0ee9b3ef367bece4074328e2fe6cafcfacade83817",
+      "text": "",
+      "reason": "Continuation cleared so row 2423 contains the complete VM-box translation once."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first supplemental review of all 80 target rows and complete VM-box context. Rows 2366–2370 cross the preceding target-slice boundary; corrections deliberately remove moved meaning from 2366–2368 before restoring it to the source box at 2369–2370. Corrections2366–2367 are bound separately to the preceding target file; the apply tool must not cross target files."
+}

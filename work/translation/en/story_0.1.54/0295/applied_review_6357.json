@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_6357.json",
+  "review_sha256": "6f8376beefcbedea242c51eb4b1cb0fd02c2cc83165f82665e6789ac8e3da485",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_6357.targets.json",
+  "target_before_sha256": "e4cbd622253331ada0ba76e94ee7f39e49b2705129d2bc9f10470be128f62dd5",
+  "target_after_sha256": "3ea5ef017782effef1b226e2f3d28495fd037d4ae20943b8c81eb456ffb385e9",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6357,
+      6436
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6429,
+      "before": "I understand that you wish",
+      "after": "It is not that I do not",
+      "reason": "The Japanese has one clause of understanding, while the current English repeats that meaning in two adjacent clauses. This replacement retains the intended statement once."
+    },
+    {
+      "resource_row": 6430,
+      "before": "to fulfill the last request.",
+      "after": "understand your wish to fulfill",
+      "reason": "The Japanese has one clause of understanding, while the current English repeats that meaning in two adjacent clauses. This replacement retains the intended statement once."
+    },
+    {
+      "resource_row": 6431,
+      "before": "It is not that I do not understand your feelings.",
+      "after": "that last request.",
+      "reason": "The Japanese has one clause of understanding, while the current English repeats that meaning in two adjacent clauses. This replacement retains the intended statement once."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

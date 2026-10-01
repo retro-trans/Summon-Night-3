@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0322/review_meaning_groups_0011.json",
+  "review_sha256": "135844e37a55d3f3ec98887b655e316a41d5d18961258aa23901c967deead17c",
+  "target_file": "work/translation/en/story_0.1.54/0322/slice_0011.targets.json",
+  "target_before_sha256": "54937dd2262e302505aa4c5fc696c5de6cb9500b64d01331beb277073821af11",
+  "target_after_sha256": "a38683c025d036dc62d100ae9e871ec11269fe6aa9317556d5248c18e542de90",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      49
+    ],
+    "count": 39
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 30,
+      "before": "Alieze...",
+      "after": "Ali...",
+      "reason": "Preserve the interrupted short name rather than completing Alieze before the reply interrupts it."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

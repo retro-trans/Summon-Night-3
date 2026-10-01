@@ -1,0 +1,101 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_2048.json",
+  "review_sha256": "2d3a54f7b48deff90a486e21644016ba008b2b540f78c4c768eae6687ad8138f",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_2048.targets.json",
+  "target_before_sha256": "af418a88bc91c49499f631ed618ca795f3357afab757358957dfe75c49c23f4e",
+  "target_after_sha256": "af611a3d176c8db8248c9cf05278d92676ac05ce7c5172333e43ccf51b955438",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2048,
+      2127
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2052,
+      "before": "come here, has he?",
+      "after": "come here, have they?",
+      "reason": "Pupil gender independent of protagonist route."
+    },
+    {
+      "resource_row": 2054,
+      "before": "He's not here,",
+      "after": "They're not here,",
+      "reason": "Pupil gender not established."
+    },
+    {
+      "resource_row": 2057,
+      "before": "The others...",
+      "after": "Big Brother and the others...",
+      "reason": "Restore explicit brother relation."
+    },
+    {
+      "resource_row": 2065,
+      "before": "looking for him now, so I think",
+      "after": "looking for them now, so I think",
+      "reason": "Pupil gender not established."
+    },
+    {
+      "resource_row": 2066,
+      "before": "they'll find him soon...",
+      "after": "they'll find them soon...",
+      "reason": "Pupil gender not established."
+    },
+    {
+      "resource_row": 2073,
+      "before": "I have to...",
+      "after": "To find them...",
+      "reason": "Restore searching, not generic obligation."
+    },
+    {
+      "resource_row": 2074,
+      "before": "I have to go look for him,",
+      "after": "I have to go look for them,",
+      "reason": "Male protagonist can have any pupil."
+    },
+    {
+      "resource_row": 2076,
+      "before": "I have to go look for her,",
+      "after": "I have to go look for them,",
+      "reason": "Female protagonist can have any pupil."
+    },
+    {
+      "resource_row": 2079,
+      "before": "he's my",
+      "after": "they're my",
+      "reason": "Pupil gender independent of protagonist gender."
+    },
+    {
+      "resource_row": 2081,
+      "before": "she's my",
+      "after": "they're my",
+      "reason": "Pupil gender independent of protagonist gender."
+    },
+    {
+      "resource_row": 2112,
+      "before": "I don't care if you become",
+      "after": "I don't care if you lose your nerve",
+      "reason": "Restore losing nerve and remove duplicated indifference."
+    },
+    {
+      "resource_row": 2113,
+      "before": "a useless shell",
+      "after": "and become useless.",
+      "reason": "Complete2112–2114 without repeated phrase."
+    },
+    {
+      "resource_row": 2114,
+      "before": "for all I care.",
+      "after": "",
+      "reason": "Remove duplicated for all I care."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 2050,
+      "note": "Student placeholder can denote any of four pupils; singular they preserves route validity."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

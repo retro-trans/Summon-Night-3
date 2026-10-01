@@ -1,0 +1,32 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_2848.json",
+  "review_sha256": "5374e61a40910092fd3378b3ed8d7540f697f03b624477fa1ca6aa57022f0a59",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2848.targets.json",
+  "target_before_sha256": "311bca00e4c4730ddd2305a7a30b7c7ba8cbdcb93618543ca8a78c5461e5050c",
+  "target_after_sha256": "ab3d6f346934413f7cc2d485c9215abf73a137a0c9b081b12139ec26ed43cd2d",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2848,
+      2927
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2905,
+      "before": "Waiting for Ishlar to make a move",
+      "after": "Waiting for Ishlar to make a move before we act",
+      "reason": "Restores the explicit second action after waiting; source strategy is responding after Ishlar moves."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2851,
+        2852
+      ],
+      "issue": "Ohkini/overeating wordplay adapted as Oh can he eat to retain canonical name and deliberately corny joke; literal kana pun would not work in English."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

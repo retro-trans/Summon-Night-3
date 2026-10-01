@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4517.targets.json",
+  "target_file_sha256": "c8cf34bcbeb6dfca0467a87e8d626cb5a9850d0246c02fffa50e6916cc81c0ac",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4517,
+      4596
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3955,
+      4599
+    ]
+  ],
+  "rows_examined": 645,
+  "corrections": [
+    {
+      "resource_row": 4517,
+      "source_sha256": "a76b45cd031c2c0477d8cd264695973ce8277e73c2e45b70a1fca8a800ad8d63",
+      "text": "",
+      "reason": "Remove the next protagonist variant's reply from this box;4516alreadycontains its complete source."
+    },
+    {
+      "resource_row": 4518,
+      "source_sha256": "c0900f342fe2af83bb1e4786320832562a02825c8e42962c5fa713a0eb10bdcd",
+      "text": "Yes, I think",
+      "reason": "Restore the alternate reply to its own box."
+    },
+    {
+      "resource_row": 4519,
+      "source_sha256": "3cff64fa0f2f7b95790eb316e4fb58039589b5582b9fa6e87d1d6b24998c86de",
+      "text": "that would be best too.",
+      "reason": "Complete its original reply."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "note": "Silence, cries and explicitly interrupted speech remain fragments; internal blanks never erase complete dialogue boxes."
+    }
+  ],
+  "notes": "Source-based read-only independent review by Terra chapter12_review covered3957–4596 and boundary context. Root reconciled corrections against original VM boxes, rejected a flawed proposed extra conditional, and previewed merged results. Root saves this current review record under the user's continuing translation task."
+}

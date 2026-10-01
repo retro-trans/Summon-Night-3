@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0341/review_meaning_2288.json",
+  "review_sha256": "af790c345188dce0cc411aa983b07c249e72d7052fe30fd1372e0000c8b2da7c",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_2288.targets.json",
+  "target_before_sha256": "006216793f52422005b067b14ce74272047936cb45436adce2007a2222f0d293",
+  "target_after_sha256": "c58a4e440f7420d7bd66c28a2b45e2ddbb7bc14b88e9f909ab473b7a3b1386fc",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2288,
+      2367
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2367,
+      "before": "",
+      "after": "You fought in that cramped train while protecting the hostages, right?",
+      "reason": "Restore source meaning to its own VM dialogue box, removing cross-box drift, duplicate continuation, or incorrect English referent."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,25 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_4048.json",
+  "review_sha256": "66c0d6dffa88e6dbe5e01efd7c7f3fe9ac85c0644f5889a5e252bced4473240b",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4048.targets.json",
+  "target_before_sha256": "100e7322396986ffa0e5b807bf9f5cd96368d794aa8d391b42353454079c2c3d",
+  "target_after_sha256": "51de7ba3b7ac1a175ffa1750853cd17292b19d1171f3135fd4b8bfb241bb1aec",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4048,
+      4127
+    ],
+    "count": 80
+  },
+  "corrections_applied": [],
+  "remaining_uncertainties": [
+    {
+      "issue": "Unverified names, groups, and technical terms are retained as authored; no identity or gender inferred from spelling."
+    },
+    {
+      "resource_row": 4119,
+      "issue": "Japanese fence joke relies on a hei/heh pun and intentionally bungled delivery. Literal draft preserves the fence and failure reaction, but English wordplay needs a dedicated localization pass; not resolved as clean."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

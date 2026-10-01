@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7077.targets.json",
+  "target_file_sha256": "b26d2abd5120061a2609cca2eac2adde5b4d492ae1bc4b2057a5bc42cabfd892",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      7077,
+      7156
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      7075,
+      7318
+    ]
+  ],
+  "rows_examined": 244,
+  "dialogue_group_boundaries_verified": true,
+  "reviewer": "root: independent source and VM-group review",
+  "corrections": [
+    {
+      "resource_row": 7084,
+      "source_sha256": "bbd4b358dcedc8a8191a42178a3e778ccd6acab42521b49ef4f28c22dca0cf11",
+      "before": "An earthquake!?",
+      "text": "E-earthquake!?",
+      "reason": "Restore the startled stammer."
+    },
+    {
+      "resource_row": 7088,
+      "source_sha256": "b143b41ce2e44a04b6e8200ba30d4ff9907b2d589c351542736f318490d7816c",
+      "before": "what happened on the ship,",
+      "text": "Isn't this exactly",
+      "reason": "This is a separate protagonist reaction, not a dependent continuation of the previous speaker."
+    },
+    {
+      "resource_row": 7089,
+      "source_sha256": "70fb8da455aed31aeb197104908567f38855aad96b4552efae42457d09060b1c",
+      "before": "exactly the same!?",
+      "text": "what happened on the ship!?",
+      "reason": "This is a separate protagonist reaction, not a dependent continuation of the previous speaker."
+    },
+    {
+      "resource_row": 7090,
+      "source_sha256": "b143b41ce2e44a04b6e8200ba30d4ff9907b2d589c351542736f318490d7816c",
+      "before": "What happened on the ship,",
+      "text": "Isn't this exactly",
+      "reason": "This is a separate protagonist reaction, not a dependent continuation of the previous speaker."
+    },
+    {
+      "resource_row": 7091,
+      "source_sha256": "70fb8da455aed31aeb197104908567f38855aad96b4552efae42457d09060b1c",
+      "before": "exactly the same!?",
+      "text": "what happened on the ship!?",
+      "reason": "This is a separate protagonist reaction, not a dependent continuation of the previous speaker."
+    },
+    {
+      "resource_row": 7117,
+      "source_sha256": "66ed8281b2cc86675e92c1fdd0695d5174f3bc2b698a2204372ae4c891fb4c8f",
+      "before": "It is the color of blood...",
+      "text": "It's just like...",
+      "reason": "The source compares the light to blood; almost is not the meaning of the trailing comparison here."
+    },
+    {
+      "resource_row": 7118,
+      "source_sha256": "0738c33c96f69646459b88d96dde30fba0e8863aeed8e3f338466cdf3b98abc6",
+      "before": "Almost...",
+      "text": "the color of blood...",
+      "reason": "The source compares the light to blood; almost is not the meaning of the trailing comparison here."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        7100,
+        7101,
+        7102,
+        7103,
+        7104,
+        7105,
+        7127,
+        7128,
+        7129,
+        7130
+      ],
+      "reason": "Source interruptions and same-speaker continuing narration remain; no named reaction is used as padding."
+    }
+  ]
+}

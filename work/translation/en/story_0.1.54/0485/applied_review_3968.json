@@ -1,0 +1,52 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_3968.json",
+  "review_sha256": "9d6fa11b168c34360f506fcd3d0ca3254dee21181684d79a4d487323abaab5ec",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3968.targets.json",
+  "target_before_sha256": "f59fb8188db78b8f933864a3c7627f036111ea32b61eb0f0cbc13ac9fd9ffdce",
+  "target_after_sha256": "ed022b6ebd8ee86ee175fa6aebba66ad68a2a8c6b487cd61daf2c41656d29e61",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3968,
+      4047
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3995,
+      "before": "It will be all right! I'm used to being scolded by now! ♪",
+      "after": "It will be all right! I am used to being scolded by now!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    },
+    {
+      "resource_row": 4007,
+      "before": "Yes! Marurur will wait eagerly! ♪",
+      "after": "Yes! Marurur will wait eagerly!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    },
+    {
+      "resource_row": 3992,
+      "before": "Besides, I want to meet the Teachers who are away too.",
+      "after": "Besides, I want to meet Teacher and the others who are away too.",
+      "reason": "Teacher and companions, not multiple teachers."
+    },
+    {
+      "resource_row": 3998,
+      "before": "Besides, I want to meet the Teachers who are away too.",
+      "after": "Besides, I want to meet Teacher and the others who are away too.",
+      "reason": "Teacher and companions, not multiple teachers."
+    },
+    {
+      "resource_row": 4017,
+      "before": "She is currently away in the outside world with the Teachers on some business,",
+      "after": "She is currently away in the outside world with Teacher and the others on some business,",
+      "reason": "Teacher and companions, not multiple teachers."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Unverified names, groups, and technical terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

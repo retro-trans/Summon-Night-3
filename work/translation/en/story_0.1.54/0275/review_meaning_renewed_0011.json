@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00275",
+  "source_sha256": "8260d670b9294fbe19819564df81477a81825f3dc64975fe8b95baba867f913a",
+  "target_file": "work/translation/en/story_0.1.54/0275/slice_0011.targets.json",
+  "target_file_sha256": "35a0849257b2f1ffe4c8562dbcf78425e6a51e56d1b3b570d6a4801a0b585971",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      54
+    ],
+    "count": 44
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      54
+    ]
+  ],
+  "rows_examined": 45,
+  "corrections": [
+    {
+      "resource_row": 11,
+      "source_sha256": "0003786a35b8906fa07e9531dbb254a27de74695de62f326ac9007565d9a63ea",
+      "text": "\"Taking lives, and throwing them away...",
+      "reason": "Clarify the quoted teacher declaration and restore a complete compliment statement instead of an unsupported when-clause."
+    },
+    {
+      "resource_row": 12,
+      "source_sha256": "037d34b0a645caebbeb006267e16477cb4182ed200edec366f754a066e2c9a20",
+      "text": "I won't accept either of those,\" huh...",
+      "reason": "Clarify the quoted teacher declaration and restore a complete compliment statement instead of an unsupported when-clause."
+    },
+    {
+      "resource_row": 19,
+      "source_sha256": "e9938193cfb9e23d09166f8c8e4515fdc0cc174c5b0b6885625fccd3b72f631a",
+      "text": "Oh my, I was only",
+      "reason": "Clarify the quoted teacher declaration and restore a complete compliment statement instead of an unsupported when-clause."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        42,
+        43,
+        44
+      ],
+      "reason": "Echoed phrase Like me is intentional in the source."
+    },
+    {
+      "rows": [
+        49,
+        50
+      ],
+      "reason": "From the outside qualifies the preceding statement of approval; the source leaves it as an afterthought."
+    }
+  ],
+  "notes": "Fresh independent root review of every actual source VM group and current English through EOF. Earlier incomplete proof and receipt retained byte-for-byte in review_history/renewed_meaning_20261001. Corrected earlier negations verified in context; no stylistic rewrites."
+}

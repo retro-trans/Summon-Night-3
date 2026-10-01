@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "reviewer": "root independent of author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3168.targets.json",
+  "target_file_sha256": "bedcb176a8e176f1fd64ec5f50e5aa271385b6ab49b6449a1c28733c29185a97",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3168,
+      3247
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3165,
+      3249
+    ]
+  ],
+  "rows_examined": 85,
+  "corrections": [
+    {
+      "resource_row": 3193,
+      "source_sha256": "b80202873cb30bbe663bfd8f38ff081e7dd7c9e600a74dd0dc0e614be81eea43",
+      "text": "If Teacher and the others were here, they might know something.",
+      "reason": "Associative plural means Teacher with companions, not multiple teachers;3210 onward consistently one Teacher."
+    },
+    {
+      "resource_row": 3196,
+      "source_sha256": "b80202873cb30bbe663bfd8f38ff081e7dd7c9e600a74dd0dc0e614be81eea43",
+      "text": "If Teacher and the others were here, they might know something.",
+      "reason": "Preserve one Teacher and companions."
+    },
+    {
+      "resource_row": 3199,
+      "source_sha256": "b80202873cb30bbe663bfd8f38ff081e7dd7c9e600a74dd0dc0e614be81eea43",
+      "text": "If Teacher and the others were here, they might know something.",
+      "reason": "Preserve one Teacher and companions."
+    },
+    {
+      "resource_row": 3202,
+      "source_sha256": "b80202873cb30bbe663bfd8f38ff081e7dd7c9e600a74dd0dc0e614be81eea43",
+      "text": "If Teacher and the others were here, they might have figured something out.",
+      "reason": "Preserve one Teacher and companions."
+    },
+    {
+      "resource_row": 3205,
+      "source_sha256": "8c52ceb8305d3075e8e38984cd46893a8f8bc8d1c684c9506f1104dfa51d1f8d",
+      "text": "Teacher?",
+      "reason": "Singular title in source follow-up question."
+    },
+    {
+      "resource_row": 3206,
+      "source_sha256": "8c52ceb8305d3075e8e38984cd46893a8f8bc8d1c684c9506f1104dfa51d1f8d",
+      "text": "Teacher?",
+      "reason": "Singular title in source follow-up question."
+    },
+    {
+      "resource_row": 3241,
+      "source_sha256": "76edd36171082858540c927148dd1925bdbd9874cea3d7fd0e7468e3aac109a9",
+      "text": "I swear on my liquor that these children aren't bad people! Nyahahaha!",
+      "reason": "Remove duplicate note at anchor; original row3243 retains it."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        3193,
+        3196,
+        3199,
+        3202
+      ],
+      "issue": "Associative plural read as Teacher and companions from one-teacher exposition3210–3231. Teacher identity can vary by route; no gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All original VM groups, target groups and both boundaries independently read. No name-only corrections; normalization later."
+}

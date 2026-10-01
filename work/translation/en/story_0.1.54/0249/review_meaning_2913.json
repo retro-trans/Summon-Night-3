@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00249",
+  "source_sha256": "e3c0ac50ec01fb9606a8cf187d24791b3e787ee38da5f8d48c733777bbb2cc6e",
+  "target_file": "work/translation/en/story_0.1.54/0249/slice_2913.targets.json",
+  "target_file_sha256": "20c32e28fda66eabd4edce6d8405988047e261594ba0fbb0627d3253f77afde3",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [2913, 2992],
+    "count": 80
+  },
+  "source_ranges_examined": [[2904, 3001]],
+  "rows_examined": 98,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [2913, 2989, 2990, 2991, 2992],
+      "issue": "Isuadora's Warm Sea (preceding scene context) and grabas are project-approved provisional terms; the draft uses grabas correctly, and no unsupported official spelling is asserted."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [2914, 2918, 2919, 2921, 2926, 2927, 2928, 2941, 2942, 2943, 2944, 2945, 2946, 2952, 2953, 2954, 2955, 2956, 2957, 2959, 2961, 2986],
+      "reason": "Laughter, surprise, pain, exertion, acknowledgement, and cheering reactions retain their non-propositional source function in English."
+    },
+    {
+      "rows": [2915, 2916, 2922, 2923, 2924, 2925, 2933, 2934, 2935, 2936, 2937, 2938, 2939, 2940, 2948, 2949, 2950, 2951, 2953, 2954, 2955, 2956, 2957, 2958, 2959, 2960, 2963, 2964, 2965, 2966, 2967, 2968, 2969, 2970, 2971, 2972, 2973, 2974, 2975, 2976, 2977, 2978, 2979, 2980, 2981, 2982, 2983, 2984, 2985, 2987, 2988, 2989, 2990, 2991, 2992],
+      "reason": "Physical continuation rows; adjacent English fragments preserve the complete meaning. Row 2992 intentionally continues into the following source rows."
+    }
+  ],
+  "notes": "Independent reviewer compared each assigned source and authored English row with preceding and following scene context. No meaning correction is required; wording differences were not recorded as cosmetic changes. Isuadora's Warm Sea is confirmed from preceding context and grabas is confirmed at rows 2989-2991 as a provisional glossary term."
+}

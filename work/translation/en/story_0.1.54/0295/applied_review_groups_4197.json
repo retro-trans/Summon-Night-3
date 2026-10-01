@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_groups_4197.json",
+  "review_sha256": "6c5dc79545fb9a2f7d706dd187df2134c10611347f2a960361687b3498eca966",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4197.targets.json",
+  "target_before_sha256": "b1a006110ec26cf08f36e02f11797e07cf2e4b5feb42137c96f640ccc82a887a",
+  "target_after_sha256": "03ae384710aa2b0972883d052fe458018aae618d1a5947783f5691aa6af2cee4",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4197,
+      4276
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4235,
+      "before": "Yes...",
+      "after": "Yes... I can tell",
+      "reason": "This is the protagonist answer ending before the next speaker explains Ardylia; retain the recoverable verb rather than attach a dangling English clause to the following speaker."
+    },
+    {
+      "resource_row": 4236,
+      "before": "When you look at her,",
+      "after": "from watching her.",
+      "reason": "This is the protagonist answer ending before the next speaker explains Ardylia; retain the recoverable verb rather than attach a dangling English clause to the following speaker."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

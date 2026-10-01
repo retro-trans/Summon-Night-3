@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_6608.json",
+  "review_sha256": "3862d3ff473a8a82981dd096563485cf7b6de88b72e3224ca1d7f98d5c83d5e0",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_6608.targets.json",
+  "target_before_sha256": "d843e22a35880534801b59117ea373577de53c3ed7bb277c81422bb4eecae4a3",
+  "target_after_sha256": "63f0a93430d4da3c64db4f22f91cd8c626a1e48d7dc238208741d22933c5869f",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6608,
+      6687
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6648,
+      "before": "The thorns of the \"Thorn Lord\"",
+      "after": "The thorns of the \"Lady of Thorns\"",
+      "reason": "Hazel's verified source title is Lady of Thorns, not Thorn Lord."
+    },
+    {
+      "resource_row": 6655,
+      "before": "\"Thorn Lord\"...",
+      "after": "\"Lady of Thorns\"...",
+      "reason": "Hazel's verified source title is Lady of Thorns, not Thorn Lord."
+    },
+    {
+      "resource_row": 6659,
+      "before": "They were taught",
+      "after": "She was taught",
+      "reason": "Hazel is the established female referent."
+    },
+    {
+      "resource_row": 6671,
+      "before": "of their title.",
+      "after": "of her title.",
+      "reason": "Hazel is the established female referent."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

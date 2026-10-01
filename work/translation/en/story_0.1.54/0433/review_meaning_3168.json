@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3168.targets.json",
+  "target_file_sha256": "43d692e5d35562c964e093ac377aca1e5dd3bf68de3aba6f9c065c03f478cf83",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3168,
+      3247
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3166,
+      3250
+    ]
+  ],
+  "rows_examined": 85,
+  "corrections": [
+    {
+      "resource_row": 3169,
+      "source_sha256": "b73a6d3c3b22b0f8ecfeb78392139dec94467b1f35b22491b4deb8311b64763a",
+      "text": "▲!",
+      "reason": "Restore source exclamation on the exact original runtime-name row."
+    },
+    {
+      "resource_row": 3172,
+      "source_sha256": "c16ae87053f73f1805730c5d11c589a3052a7dea9fbd382f4acbb54c52ece304",
+      "text": "▲?",
+      "reason": "Restore source question on the exact original runtime-name row."
+    },
+    {
+      "resource_row": 3201,
+      "source_sha256": "b1c31b5c44eecf66e3094b84255f81ab37479fa3965a7ce410c2a04204d78301",
+      "text": "Think of this island, of everyone,",
+      "reason": "The island and people are objects of thought."
+    },
+    {
+      "resource_row": 3202,
+      "source_sha256": "be4dae985d00e1169d8ef9b54179a0dd69463213f3a71eca18792d58243a75a1",
+      "text": "of everything you want to protect,",
+      "reason": "Restore the broader category of everything the listener wishes to protect."
+    },
+    {
+      "resource_row": 3203,
+      "source_sha256": "e609b37ce3257c4f0761389c7e78687b9463b34da88d7e0acb23c50787f8c698",
+      "text": "with all your heart...",
+      "reason": "Retain intensity of the wish without narrowing it to island and people alone."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        3214
+      ],
+      "reason": "Recognition trails off before named identification."
+    },
+    {
+      "rows": [
+        3242,
+        3243,
+        3244,
+        3245,
+        3246,
+        3247
+      ],
+      "reason": "Student begins realizing why the familiar stayed close and leaves the inference unfinished."
+    }
+  ],
+  "notes": "Independent source-first review of every actual VM group and both-side context. Proper-name and world-concept normalization follows meaning fixes. Internal continuations retain text only within their own source VM box."
+}

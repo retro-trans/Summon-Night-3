@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00403",
+  "source_sha256": "af9b0f7a353c42b99313069197aa25d6ef6bfaab0b88aff9b98f4ed276407afd",
+  "target_file": "work/translation/en/story_0.1.54/0403/slice_0011.targets.json",
+  "target_file_sha256": "3450fce97b8f57abb435a749d7c39d6ec43e3e62f5b78505b1485cd9299f6aa0",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      175
+    ]
+  ],
+  "rows_examined": 166,
+  "corrections": [
+    {
+      "resource_row": 17,
+      "source_sha256": "ae3860b6c280a18b0577450c45ae172db26701bd02becc72dc07e78d8ecfa48e",
+      "text": "You, Subaru, and everyone else showed me such kindness when I lost heart...",
+      "reason": "Remove premature duplicate victory conclusion; original common continuation23 supplies it."
+    },
+    {
+      "resource_row": 21,
+      "source_sha256": "d34e48dad6606132345b04e7abbb4968b9388c064aa5c238d3af3cce88254218",
+      "text": "You, Subaru, and everyone else showed me such kindness when I lost heart...",
+      "reason": "Same female variant; victory conclusion belongs to23."
+    }
+  ],
+  "uncertainties": [
+    {
+      "row": 49,
+      "note": "Misumi title needs canonical provisional Oni Princess of the Summer Wind fromchapter8_fiction; apply name script after semantic fixes. Rikuto also replaces Richt."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root compared every full source/English VM box, all variants and boundaries. Correct duplicated common continuation, inverted condition about retaining classroom furniture, and final purpose clause. Names normalized after meaning."
+}

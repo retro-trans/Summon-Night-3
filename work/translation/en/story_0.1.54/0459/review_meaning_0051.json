@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00459",
+  "source_sha256": "b56acd0c21a1a040c1b4d78d5cb8f3d4bcb718e2f5537b23e5e0c26e7db9774d",
+  "target_file": "work/translation/en/story_0.1.54/0459/slice_0051.targets.json",
+  "target_file_sha256": "6e2d58dc895d80ca2fe6657327e903aa0b1487d78b3412c5b21bfe6b3a389023",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      51,
+      90
+    ],
+    "count": 40
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      165
+    ]
+  ],
+  "rows_examined": 156,
+  "corrections": [
+    {
+      "resource_row": 64,
+      "source_sha256": "95a8e1543668c65bab1dea8a3c063453d6aa9204e4d0856721c4d20bdec3822b",
+      "text": "Even without your teaching, I think I probably would have managed...",
+      "reason": "Teacher is the addressee, not an indefinite unspecified teacher."
+    },
+    {
+      "resource_row": 65,
+      "source_sha256": "5c28ba7fd12b039d1131c87e662ad4aded8bba678d462b1774f16d2e793ec6f9",
+      "text": "",
+      "reason": "Teacher is the addressee, not an indefinite unspecified teacher."
+    },
+    {
+      "resource_row": 69,
+      "source_sha256": "051ab5b0feecf493f5067b55321e9276266da09756a0539cb5a76a74dca3b436",
+      "text": "I was glad, but I also wondered why you needed a private tutor...",
+      "reason": "Teacher is speaking about the pupil's diligence, not Teacher needing lessons."
+    },
+    {
+      "resource_row": 70,
+      "source_sha256": "19e9e6446ba7805796058a3bba0e56933c461a23f4bed8e19d0d906441142767",
+      "text": "",
+      "reason": "Teacher is speaking about the pupil's diligence, not Teacher needing lessons."
+    },
+    {
+      "resource_row": 74,
+      "source_sha256": "36ed1b0dfb28134953987985ef11873b3a3bec22a597e8e4079ebc0a990fb048",
+      "text": "I was glad, but I also wondered why you needed a private tutor...",
+      "reason": "Same female-protagonist branch; restore pupil as the one who might need a tutor."
+    },
+    {
+      "resource_row": 75,
+      "source_sha256": "44f986521a71cbd28f5d523540708b004e2dd05d43427e8068c249ad5faaceeb",
+      "text": "",
+      "reason": "Same female-protagonist branch; restore pupil as the one who might need a tutor."
+    },
+    {
+      "resource_row": 90,
+      "source_sha256": "2cadc08e294446e22d94071f8a9230b9597370a7efe73d3294c158189b7a34f0",
+      "text": "Father wasn't wrong to choose you as my private tutor.",
+      "reason": "Restore omitted choice of private tutor; remove garbled duplicate assertion."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        79,
+        80,
+        81,
+        82
+      ],
+      "issue": "Teacher's question about the initial defiance trails off in source."
+    },
+    {
+      "rows": [
+        141,
+        142
+      ],
+      "issue": "Reply trails off before Belfraw anticipates objections."
+    }
+  ],
+  "notes": "Independent root source-first review of the complete resource and actual VM groups. Legacy slice sizes retained as historical author metadata, fully reviewed here. Cross-slice group corrections are separately bound to the files that own their rows. Proper names and common-noun teacher case normalize afterward."
+}

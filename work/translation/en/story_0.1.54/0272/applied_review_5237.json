@@ -1,0 +1,28 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0272/review_meaning_5237.json",
+  "review_sha256": "c5b006cbf2baa2850c3f83f06befd5a12efefae01dcbea950db07fa9f51140ae",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_5237.targets.json",
+  "target_before_sha256": "df0ba6256360c53c4029e6e7a085616faef2a3c5a9e55303967fe6d16b2aaad4",
+  "target_after_sha256": "be84a435dfd96b7952391096baa58cf4cb748e2a5b35e804bc565b8fcb1e5f23",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5237,
+      5316
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5247,
+      "before": "I set off",
+      "after": "Fariel set off",
+      "reason": "The prior question establishes Fariel as the person being discussed; this line says she set out to go to the player. The current text incorrectly makes the responding speaker depart."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

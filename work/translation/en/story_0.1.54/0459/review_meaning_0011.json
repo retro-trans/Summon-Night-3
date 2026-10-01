@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00459",
+  "source_sha256": "b56acd0c21a1a040c1b4d78d5cb8f3d4bcb718e2f5537b23e5e0c26e7db9774d",
+  "target_file": "work/translation/en/story_0.1.54/0459/slice_0011.targets.json",
+  "target_file_sha256": "dc2c2fcfb55136a10e815f23de5220bd4b986487442f24f4a75c70a204a6e841",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      50
+    ],
+    "count": 40
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      165
+    ]
+  ],
+  "rows_examined": 156,
+  "corrections": [
+    {
+      "resource_row": 47,
+      "source_sha256": "169ad760b70bc988e4daa7eec3fb8df2474610f193d5dcce95e5688698a2b3cb",
+      "text": "I achieved results I'm satisfied with in both the written exams and the practical combat test...",
+      "reason": "Belfraw addresses Teacher about her own entrance-test results; Teacher is not the examinee."
+    },
+    {
+      "resource_row": 48,
+      "source_sha256": "cafd7211cecd93b1467479400a257d99f67bcc7ecd0eb3231b2421ba0638a537",
+      "text": "",
+      "reason": "Belfraw addresses Teacher about her own entrance-test results; Teacher is not the examinee."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        79,
+        80,
+        81,
+        82
+      ],
+      "issue": "Teacher's question about the initial defiance trails off in source."
+    },
+    {
+      "rows": [
+        141,
+        142
+      ],
+      "issue": "Reply trails off before Belfraw anticipates objections."
+    }
+  ],
+  "notes": "Independent root source-first review of the complete resource and actual VM groups. Legacy slice sizes retained as historical author metadata, fully reviewed here. Cross-slice group corrections are separately bound to the files that own their rows. Proper names and common-noun teacher case normalize afterward."
+}

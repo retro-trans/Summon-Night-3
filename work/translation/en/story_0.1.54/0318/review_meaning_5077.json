@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_5077.targets.json",
+  "target_file_sha256": "698c184b87b9710e5db20188774f86c91fef5a95701f258b2e585a8315016224",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5077,
+      5156
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4996,
+      5557
+    ]
+  ],
+  "rows_examined": 562,
+  "corrections": [
+    {
+      "resource_row": 5114,
+      "source_sha256": "4217596fc9c8dee3c8ed7030aad9d4b264e56dd0e251bb92ba1fcb8348480f79",
+      "text": "This one's been dropping by",
+      "reason": "The source identifies one member as a recurring visitor, not a plural group."
+    },
+    {
+      "resource_row": 5115,
+      "source_sha256": "bd827c14b9d20798905d7b5675e3745366174005f14a1fb6002e0f14f2a75d5a",
+      "text": "every now and then",
+      "reason": "Retain the frequency in the same dialogue group."
+    },
+    {
+      "resource_row": 5116,
+      "source_sha256": "0459780235f272d2af3343ed2c6f38f84659c2e4404d9e4a43b258bd4058be0f",
+      "text": "for a while.",
+      "reason": "Restore that the visits have been happening for some time."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "note": "Only source-marked interruptions, silence and natural reactions retain fragmentary wording."
+    }
+  ],
+  "notes": "Read-only independent Terra chapter12_review checked all full VM boxes and both-side context; root compared each proposed change against source and complete English groups. Root records the reconciled findings. No complete dialogue box may be empty."
+}

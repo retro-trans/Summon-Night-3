@@ -1,0 +1,28 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_4128.json",
+  "review_sha256": "86e4e59882180160a99d9e3edb26127b60aa9f6acf3d9833ce6328c992bd5c56",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4128.targets.json",
+  "target_before_sha256": "bb03cedf965e52b2155f36d53320f3dfa35459cbceaf1701ce87e5c820cb3b31",
+  "target_after_sha256": "36bff4cd50269154fe38f7ba95349a569854b66f196a9d51133c21a308efe895",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4128,
+      4207
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4137,
+      "before": "That was funny...",
+      "after": "They laughed...",
+      "reason": "The performer observes that the joke went over with the audience; not their own assessment that it was funny."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Unverified names, groups, and technical terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

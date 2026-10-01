@@ -1,0 +1,50 @@
+{
+  "resource_id": "00:00351",
+  "range_inclusive": [
+    91,
+    92
+  ],
+  "source_sha256": "edc5ecc975c273fb392f20a3b3a306aee8d3ee7d577e9662ec264e215f8ed36e",
+  "review_status": "author self-check; no independent meaning review",
+  "source_ranges_examined": [
+    [
+      10,
+      92
+    ]
+  ],
+  "rows_examined": 83,
+  "rows_in_slice": 2,
+  "uncertainties": [],
+  "preserved_source_omissions": [],
+  "notes": "Fresh-source companion dialogue; complete VM groups and both-side context read.",
+  "translations": {
+    "00:00351:text:000038b6": {
+      "source_offset": 14518,
+      "pool_word_offset": 1119,
+      "source_byte_length": 16,
+      "source_sha256": "66efdd49befda5ba49148d122bd9729f308a18e0a47e8d60d94be927922be13a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        12252
+      ],
+      "id": "00:00351:text:000038b6",
+      "resource_row": 91,
+      "text": "",
+      "status": "translated_author_self_check"
+    },
+    "00:00351:text:000038c8": {
+      "source_offset": 14536,
+      "pool_word_offset": 1128,
+      "source_byte_length": 14,
+      "source_sha256": "efc01f77091313784b583d26698dd636f1bdc8b0c67444d7085169a7dc5c626b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        12260
+      ],
+      "id": "00:00351:text:000038c8",
+      "resource_row": 92,
+      "text": "",
+      "status": "translated_author_self_check"
+    }
+  }
+}

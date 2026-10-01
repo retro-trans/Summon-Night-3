@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00459",
+  "source_sha256": "b56acd0c21a1a040c1b4d78d5cb8f3d4bcb718e2f5537b23e5e0c26e7db9774d",
+  "target_file": "work/translation/en/story_0.1.54/0459/slice_0091.targets.json",
+  "target_file_sha256": "c0c0657706cadb14ce64fe204cfc4e6063878fd129d54798cd385cc0a7270083",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      165
+    ],
+    "count": 75
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      165
+    ]
+  ],
+  "rows_examined": 156,
+  "corrections": [
+    {
+      "resource_row": 91,
+      "source_sha256": "94c6b339a666fd5eda14c17484f0b5976b16fde5634b653e896736691a027c6f",
+      "text": "",
+      "reason": "Restore omitted choice of private tutor; remove garbled duplicate assertion."
+    },
+    {
+      "resource_row": 102,
+      "source_sha256": "b02d6aa5f05845c406af9a92cebb5dda361c390499b9c5cd32b8934c940b4481",
+      "text": "I hated being seen that way. That's why I wanted to be able to do everything myself.",
+      "reason": "Restore the omitted resulting ambition."
+    },
+    {
+      "resource_row": 103,
+      "source_sha256": "c8f00ec853e9ef3d70c9222ab8b61afab04a4cbca93e5cf8d99444faeedf97f7",
+      "text": "",
+      "reason": "Restore the omitted resulting ambition."
+    },
+    {
+      "resource_row": 115,
+      "source_sha256": "95866aca5f37658f6f43cefd15ad0ba8bd9610aa20ae52ceb7341fee0a890ac9",
+      "text": "Even if I tell you that you were the first person he asked to stay by my side as a private tutor?",
+      "reason": "Constant attendance does not itself establish a live-in arrangement."
+    },
+    {
+      "resource_row": 116,
+      "source_sha256": "996b6ea0601eeca92780852d0a94b666323e9724e6fe831a8734a574eb1b834a",
+      "text": "",
+      "reason": "Constant attendance does not itself establish a live-in arrangement."
+    },
+    {
+      "resource_row": 126,
+      "source_sha256": "43ad0865aba0abc4324ec774d1cacc114f1af5e7f21dac0fc2a5325b5dc6b392",
+      "text": "Yes... I'm counting on you too, Belfraw!",
+      "reason": "Restore reciprocal request rather than changing it into an offer."
+    },
+    {
+      "resource_row": 127,
+      "source_sha256": "900d300ab291270aacf7b608e420ea2954807f366e91b3754f22af48203ab44c",
+      "text": "",
+      "reason": "Restore reciprocal request rather than changing it into an offer."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        79,
+        80,
+        81,
+        82
+      ],
+      "issue": "Teacher's question about the initial defiance trails off in source."
+    },
+    {
+      "rows": [
+        141,
+        142
+      ],
+      "issue": "Reply trails off before Belfraw anticipates objections."
+    }
+  ],
+  "notes": "Independent root source-first review of the complete resource and actual VM groups. Legacy slice sizes retained as historical author metadata, fully reviewed here. Cross-slice group corrections are separately bound to the files that own their rows. Proper names and common-noun teacher case normalize afterward."
+}

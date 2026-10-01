@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3648.targets.json",
+  "target_file_sha256": "cffae1581f4fa6d346ec5ee742db6c38946b385aad79830e237c78596a87947b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3648,
+      3727
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3647,
+      3728
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 3727,
+      "source_sha256": "2330b66d361fb632711cc847d1aa070b29b8e7e90dad88ff667f5c5c5fd91717",
+      "text": "avoid completely destroying it",
+      "reason": "Removes the period before the next-slice continuation “at the last second,” restoring the source sentence’s grammar."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM dialogue groups with both-side context, including actor, action, negation, alternate protagonist wording, and control markers."
+}

@@ -1,0 +1,48 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_6528.json",
+  "review_sha256": "cd58a6ec83ac320fae52f48cc02542d9127494278e72f9d88155863725d69bd8",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_6528.targets.json",
+  "target_before_sha256": "19ed28fdf4444a78ce8154c6851cf2871a7020ef1fd9f7e26ae24662a960a794",
+  "target_after_sha256": "32b0d259fb502e6bdc1951eb5655dbceef60060640d79c8e11639697000e658f",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6528,
+      6607
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6530,
+      "before": "They are still",
+      "after": "She is still",
+      "reason": "Hazel is the established female referent."
+    },
+    {
+      "resource_row": 6534,
+      "before": "treat them...",
+      "after": "treat her...",
+      "reason": "Hazel is the established female referent."
+    },
+    {
+      "resource_row": 6537,
+      "before": "You want to help them,",
+      "after": "You want to help her,",
+      "reason": "Hazel is the established female referent."
+    },
+    {
+      "resource_row": 6543,
+      "before": "You want to help them, right?",
+      "after": "You want to help her, right?",
+      "reason": "Hazel is the established female referent."
+    },
+    {
+      "resource_row": 6548,
+      "before": "I'll carry them",
+      "after": "I'll carry her",
+      "reason": "Hazel is the established female referent."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

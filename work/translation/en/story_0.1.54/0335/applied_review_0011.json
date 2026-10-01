@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0335/review_meaning_0011.json",
+  "review_sha256": "3a26ca71192f2bacb61ce4ad331851c95e053add106aa38371d577c4bb9f7736",
+  "target_file": "work/translation/en/story_0.1.54/0335/slice_0011.targets.json",
+  "target_before_sha256": "46faefa318dc6540899851c42c9996cc4994672805677ae38cd2d3d5b54f814a",
+  "target_after_sha256": "b63d848d0e4f2a4f47d04c62c0e140f3d8e375a3d5bba083d85b9c2c7ae6c58a",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      47
+    ],
+    "count": 37
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 29,
+      "before": "I am fine. If they come back,",
+      "after": "It'll be all right. If they come back,",
+      "reason": "This reassures Teacher about enemy danger, not merely Subaru's own health."
+    },
+    {
+      "resource_row": 41,
+      "before": "Subaru really is",
+      "after": "You really are",
+      "reason": "Subaru's immediate laugh answers a compliment addressed to him."
+    },
+    {
+      "resource_row": 42,
+      "before": "a strong child...",
+      "after": "a strong child, Subaru...",
+      "reason": "Restore second-person address in this protagonist variant."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

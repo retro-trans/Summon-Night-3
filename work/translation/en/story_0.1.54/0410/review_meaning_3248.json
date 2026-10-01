@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3248.targets.json",
+  "target_file_sha256": "cc1ac1d78bba703ac8a70697d2536a6248eb7e0ec059ddeeabd440de1a1291ed",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [3248, 3327], "count": 80},
+  "source_ranges_examined": [[3245, 3330]],
+  "rows_examined": 86,
+  "corrections": [
+    {"resource_row": 3283, "source_sha256": "7967edd34501d0ecc150e0ab46d51734d0eab94ed8ada00aebd1baf63c5882ae", "text": "Azlier!?", "reason": "The source box is only an address to Azlier; the current target contains the next box's opening clause."},
+    {"resource_row": 3284, "source_sha256": "9f5b4df938f5e3093d589b2da273b127b88d3938dc3eae9105d5b2c24d68a004", "text": "The disease curse deprived Ishlar of the freedom", "reason": "Restore the first fragment of the following source box."},
+    {"resource_row": 3285, "source_sha256": "a345a61f73f1ea98b2b05276a44d6283de9645b0bf89a5f79f5ea8ba04eac4fb", "text": "to make decisions for himself.", "reason": "Restore the complete source meaning."},
+    {"resource_row": 3286, "source_sha256": "eb83c3282b6461b0f537d15f6686b3e1ad15689ad41a3b649023fa21df2c0b94", "text": "", "reason": "Physical VM continuation fragment; the full source-box meaning is retained in preceding aligned English fragments."},
+    {"resource_row": 3287, "source_sha256": "b95cb82b2bb412c6056d2afa68dbb2ab2b15669a9aaffc964ba2445e93e2f184", "text": "That is why, now that he has acquired", "reason": "Restore the opening of the next source box."},
+    {"resource_row": 3288, "source_sha256": "0f28061930a035adc846515cfa72c84f13416fe829c7f4f29f7fec93c51b28a7", "text": "the incomparable power of the Crimson Tyrant,", "reason": "Restore the complete source clause."},
+    {"resource_row": 3289, "source_sha256": "e6a9820e493cda58fb4eeabc8468ee3a4da333c28252b672d194c9e720b40897", "text": "I think he became intoxicated with that power", "reason": "Restore the final source box at its correct VM boundary."}
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side boundary context. No target edits were made."
+}

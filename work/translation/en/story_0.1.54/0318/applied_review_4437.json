@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_4437.json",
+  "review_sha256": "21c5be276f288927ac7886bb409ade44244cedec462efc4fce8d695a21bd9b14",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4437.targets.json",
+  "target_before_sha256": "a3183fa1a37a1c89be5d8b06e7542c32e43b03b287ceb2c156e8913ebb68f341",
+  "target_after_sha256": "3b4aefb49235d19c1b9d0b700ae8fefd3fa12ef5e23ecf7a0852cc6188cc7b07",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4437,
+      4516
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4437,
+      "before": "...",
+      "after": "it is...?",
+      "reason": "Complete the question instead of inserting the next box's silence."
+    },
+    {
+      "resource_row": 4438,
+      "before": "",
+      "after": "...",
+      "reason": "Restore the separate silence box."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

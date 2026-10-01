@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4117.targets.json",
+  "target_file_sha256": "e167813f507cadf1909e01b7355c4ad2c0db15a8779f3f2d151dacef3bfeebbf",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4117,
+      4196
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4116,
+      4197
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 4118,
+      "source_sha256": "cc607417d602b03d29553eda845e3985df12d5c2a403a9cd61a0dc9f85024ab3",
+      "before": "empty words,",
+      "text": "verbal evasions,",
+      "after": "verbal evasions,",
+      "reason": "The preceding physical row begins the English sentence; this row supplies the source verbal-evasion meaning and keeps the joined sentence grammatical."
+    },
+    {
+      "resource_row": 4157,
+      "source_sha256": "68d833529d02049e72881c38eea825ecc9e3bce98c59eb11f189fb05da414d68",
+      "before": "try to do something!? Why won't you",
+      "text": "try to do something!? Why won't any of you",
+      "after": "try to do something!? Why won't any of you",
+      "reason": "Both linked rhetorical questions address the group. The authored singular-looking continuation narrows the second question; this restores the collective addressee before the next row's 'do what you can.'"
+    },
+    {
+      "resource_row": 4189,
+      "source_sha256": "4588066616ccb5a2e5f6bb050181f94732c46249af9ba9b391afae650d9f907d",
+      "before": "the courage",
+      "text": "our courage",
+      "after": "our courage",
+      "reason": "This protagonist variant explicitly makes the courage collective. The later variant separately expresses the equivalent collective subject, so the possessive must not be omitted here."
+    },
+    {
+      "resource_row": 4193,
+      "source_sha256": "bb98a0cd0305276be3f4975ada2c1a91f9c9440e020d7c2ed0635958cf7575c2",
+      "before": "the courage for all of us",
+      "text": "for all of us to have the courage",
+      "after": "for all of us to have the courage",
+      "reason": "The source says every member of the group must possess the courage; this restores that collective subject in the joined English sentence."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        4196
+      ],
+      "issue": "The final row continues into the following source row, which identifies a secret. This review leaves the unfinished target fragment unchanged because its completion is outside this slice."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        4123,
+        4130,
+        4134,
+        4138,
+        4146,
+        4152,
+        4159,
+        4163,
+        4171,
+        4174,
+        4195
+      ],
+      "reason": "Reactions, pauses, and emotional emphasis are retained in English with their conversational function intact."
+    },
+    {
+      "rows": [
+        4117,
+        4118,
+        4119,
+        4120,
+        4121,
+        4122,
+        4124,
+        4125,
+        4126,
+        4127,
+        4128,
+        4129,
+        4131,
+        4132,
+        4133,
+        4135,
+        4136,
+        4137,
+        4139,
+        4140,
+        4141,
+        4142,
+        4143,
+        4144,
+        4145,
+        4147,
+        4148,
+        4149,
+        4150,
+        4151,
+        4153,
+        4154,
+        4155,
+        4156,
+        4157,
+        4158,
+        4161,
+        4162,
+        4164,
+        4165,
+        4166,
+        4167,
+        4168,
+        4169,
+        4170,
+        4172,
+        4173,
+        4175,
+        4176,
+        4177,
+        4178,
+        4179,
+        4180,
+        4181,
+        4182,
+        4183,
+        4184,
+        4185,
+        4186,
+        4187,
+        4188,
+        4189,
+        4190,
+        4191,
+        4192,
+        4193,
+        4194,
+        4196
+      ],
+      "reason": "Long logical statements and physical continuation rows were checked as complete adjacent sentences. The corrections preserve their speaker, direction, and conclusion."
+    },
+    {
+      "rows": [
+        4164,
+        4165,
+        4166,
+        4167,
+        4168,
+        4169,
+        4170,
+        4171,
+        4172,
+        4173,
+        4174,
+        4175,
+        4176,
+        4177,
+        4178,
+        4179,
+        4180,
+        4181,
+        4182,
+        4183,
+        4184,
+        4185,
+        4186,
+        4187,
+        4188,
+        4189,
+        4190,
+        4191,
+        4192,
+        4193,
+        4194
+      ],
+      "reason": "Route variants were reviewed in parallel. Name placeholders were preserved, and the collective subject remains explicit where supplied by each variant."
+    }
+  ],
+  "notes": "Reviewed original rows 4117-4196 with adjacent source rows 4116 and 4197. Four meaning corrections are required; each was checked across the authored English continuation rows. Terminology, placeholders, and route variants were preserved. This review does not accept the resource or authorize a build."
+}

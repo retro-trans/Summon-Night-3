@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_5557.json",
+  "review_sha256": "8511e4b50e5c57b9554b8362200541b1f67bd9836432b84a9cf3db2b5f0f5e99",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_5557.targets.json",
+  "target_before_sha256": "5f9db10a70fc64a7ad276f23d04e4d82e6b7071073d321981b434c62ad0b415d",
+  "target_after_sha256": "8ab242a92e3866f8410259fcf93276234a9aa2b66e419bd28f4a7a968b75c4bc",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5557,
+      5636
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5602,
+      "before": "You have been enduring humiliation",
+      "after": "I have been enduring humiliation",
+      "reason": "Kyuuma speaks of his own continued shame; the current second-person subject reverses the speaker."
+    },
+    {
+      "resource_row": 5603,
+      "before": "to fulfill your lord's",
+      "after": "to fulfill my lord's",
+      "reason": "Completes the corrected first-person possessive phrase."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,25 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_2288.json",
+  "review_sha256": "f04ef8854262929851b1de490be8b10ffa9be3aa6df0ec70cba09ed89af745bb",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2288.targets.json",
+  "target_before_sha256": "640fcd5efd8a3bd943ac06bb5c9b3c412748149416d05654b03caca80c7f350a",
+  "target_after_sha256": "1c0ad10993dab29f891ede5a11f32208147865ddff13d5e0ba1a0fd9de7c59f4",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2288,
+      2367
+    ],
+    "count": 80
+  },
+  "corrections_applied": [],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2313,
+        2327
+      ],
+      "issue": "The player placeholder and Teacher are preserved on their source rows; no name normalization was proposed."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,108 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_2928.json",
+  "review_sha256": "3fbc0a522f71e71910cfc71f983abc2907c7170e6617848ca4d75f712665cee5",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_2928.targets.json",
+  "target_before_sha256": "4f12c56d1ddd6e01a4f54d8405a8ac83c003cde4e4fb1aae933a34541a6ab105",
+  "target_after_sha256": "c5f48508a210254ae7d8b446bf8a6e3f889882d6a377b5a320e0465c5cc2921e",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2928,
+      3007
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2928,
+      "before": "Even if it is never rewarded,",
+      "after": "I don't mind if I'm never rewarded,",
+      "reason": "Restore explicit acceptance of receiving no reward; the following row completes the parallel condition."
+    },
+    {
+      "resource_row": 2938,
+      "before": "I will never let that happen!!",
+      "after": "",
+      "reason": "Remove duplicated whole sentence inside one VM box;2937 already translates the entire source statement."
+    },
+    {
+      "resource_row": 2969,
+      "before": "Hehehehehe...",
+      "after": "G... Gah...!",
+      "reason": "Restore the wounded groan before the laughter."
+    },
+    {
+      "resource_row": 2970,
+      "before": "Hehehehehehehe...",
+      "after": "G... Hahahaha...!",
+      "reason": "Retain interrupted laughter in the complete VM group."
+    },
+    {
+      "resource_row": 2971,
+      "before": "",
+      "after": "Gwahahahahaha!",
+      "reason": "Retain the final burst of laughter in the same group."
+    },
+    {
+      "resource_row": 2979,
+      "before": "Rrrrrrrumble...",
+      "after": "What do you mean!?",
+      "reason": "Restore spoken question incorrectly replaced with a sound effect."
+    },
+    {
+      "resource_row": 2980,
+      "before": "Rrrrrrrrrrrumble...",
+      "after": "The rumbling is getting even worse...",
+      "reason": "Restore spoken observation that the rumbling is intensifying."
+    },
+    {
+      "resource_row": 2982,
+      "before": "It is shaking even harder!",
+      "after": "...Impossible!",
+      "reason": "Restore source disbelief; intensifying rumbling belongs to the preceding box."
+    },
+    {
+      "resource_row": 2983,
+      "before": "Why has it not stopped!?",
+      "after": "Why hasn't the rumbling stopped!?",
+      "reason": "Restore the question in this box."
+    },
+    {
+      "resource_row": 2987,
+      "before": "Rrrrrrrrrumble...",
+      "after": "The rumbling is worse than before...",
+      "reason": "Restore comparative worsening instead of an invented sound effect."
+    },
+    {
+      "resource_row": 2988,
+      "before": "The ground is shaking like the earth itself is screaming!",
+      "after": "It's as though the earth itself is screaming...",
+      "reason": "Preserve the earth-screaming simile."
+    },
+    {
+      "resource_row": 3002,
+      "before": "will naturally cease to exist...",
+      "after": "Of course the island will cease to exist.",
+      "reason": "Supply the island subject within the answering speaker's own box."
+    },
+    {
+      "resource_row": 3005,
+      "before": "You...",
+      "after": "You...!",
+      "reason": "Retain accusatory exclamation."
+    },
+    {
+      "resource_row": 3006,
+      "before": "You knew that, and you deliberately",
+      "after": "You knew that, and you deliberately made us...",
+      "reason": "Source leaves the deliberate action unfinished; do not invent leading the party to this location."
+    },
+    {
+      "resource_row": 3007,
+      "before": "led us here...",
+      "after": "",
+      "reason": "Avoid completing the source's unfinished accusation with an unsupported action."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

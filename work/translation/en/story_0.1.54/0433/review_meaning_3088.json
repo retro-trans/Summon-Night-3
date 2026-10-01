@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3088.targets.json",
+  "target_file_sha256": "1418f5e29f514c0d3a418a079d206056118c859a4ae849097f206e82a0c97557",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3088,
+      3167
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3086,
+      3169
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [
+    {
+      "resource_row": 3131,
+      "source_sha256": "fa419f7f9523ab01b16582649f9c315f93e951ad16a6793d55c18fa30690e269",
+      "text": "I want to help you, Teacher!",
+      "reason": "Teacher is the object of wanting to help, not the reason being discussed."
+    },
+    {
+      "resource_row": 3132,
+      "source_sha256": "3c1acdc438c0245e2c27cd2d471f476da7633d980b035b482d0597ed9fc15a3c",
+      "text": "Right to the very end!",
+      "reason": "Retain the full duration of the offered help."
+    },
+    {
+      "resource_row": 3133,
+      "source_sha256": "cc4cf9aa65010dba9b3179769ee0269215c6e68b43a6c24ce7addd55e42c7c1f",
+      "text": "So...",
+      "reason": "Preserve the source's unfinished plea."
+    },
+    {
+      "resource_row": 3139,
+      "source_sha256": "114a030bdbfb869e992be580e5e29c5f1100eb5fbbfd370c6975d87f868804b6",
+      "text": "I want to help you, Teacher!!",
+      "reason": "Restore helping Teacher as the object."
+    },
+    {
+      "resource_row": 3140,
+      "source_sha256": "3c1acdc438c0245e2c27cd2d471f476da7633d980b035b482d0597ed9fc15a3c",
+      "text": "Right to the very end!",
+      "reason": "Retain the duration of help."
+    },
+    {
+      "resource_row": 3141,
+      "source_sha256": "cc4cf9aa65010dba9b3179769ee0269215c6e68b43a6c24ce7addd55e42c7c1f",
+      "text": "So...",
+      "reason": "Preserve unfinished plea."
+    },
+    {
+      "resource_row": 3155,
+      "source_sha256": "05fa69b58cc94c07a6ca00cb84809968483dbc53fe7487a492922a507934ed7a",
+      "text": "I want to help you, Teacher!",
+      "reason": "Restore helping Teacher as the object."
+    },
+    {
+      "resource_row": 3156,
+      "source_sha256": "3c1acdc438c0245e2c27cd2d471f476da7633d980b035b482d0597ed9fc15a3c",
+      "text": "Right to the very end!",
+      "reason": "Retain the duration of help."
+    },
+    {
+      "resource_row": 3157,
+      "source_sha256": "cc4cf9aa65010dba9b3179769ee0269215c6e68b43a6c24ce7addd55e42c7c1f",
+      "text": "So...",
+      "reason": "Preserve unfinished plea."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        3133,
+        3141,
+        3157
+      ],
+      "reason": "Source trails off on the student plea after explaining desire to help."
+    }
+  ],
+  "notes": "Independent source-first review of every actual VM group and both-side context. Proper-name and world-concept normalization follows meaning fixes. Internal continuations retain text only within their own source VM box."
+}

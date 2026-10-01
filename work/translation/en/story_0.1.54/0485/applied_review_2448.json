@@ -1,0 +1,55 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_2448.json",
+  "review_sha256": "58335cbbcc6f0cc1033eaeaebeb90fa80bc01f4cae7142443ed055fb18d53e23",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2448.targets.json",
+  "target_before_sha256": "444a9dedd4f995cb3188057b999c1a05ae94bb1dcfd9e5199e3984c765d63596",
+  "target_after_sha256": "7c0f8fc838af2af10252037603d03ee7a9a7d4f57455b1c38514e254bd0a98ba",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2448,
+      2527
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2467,
+      "before": "As for me, I have mixed feelings that someone with so little knowledge was using summoning arts of that level:",
+      "after": "As for me, the fact that you were using such powerful summoning arts with so little knowledge...",
+      "reason": "Preserve direct addressee; leave reaction to following original VM group."
+    },
+    {
+      "resource_row": 2470,
+      "before": "surprise, frustration, and concern... It is complicated.",
+      "after": "...leaves me amazed, frustrated, and worried about the risks. My feelings are complicated.",
+      "reason": "Preserve all stated reactions in this original group."
+    },
+    {
+      "resource_row": 2480,
+      "before": "You can see... something...",
+      "after": "I can see... something...",
+      "reason": "Lookout reports own observation to people below; not listener's perception."
+    },
+    {
+      "resource_row": 2515,
+      "before": "I hope we can meet again... one more time.",
+      "after": "I hope you get to see them again... one more time.",
+      "reason": "Meimei addresses Paffel after her hesitation; source next box is Paffel's remembered person, not a shared 'we' reunion."
+    },
+    {
+      "resource_row": 2517,
+      "before": "The person I was the first to wish I could believe in...",
+      "after": "The first person I ever wanted to believe in...",
+      "reason": "First modifies the person trusted, not the speaker being first among others to trust."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2515
+      ],
+      "issue": "Addressee Paffel inferred from2500–2519; reunion person gender not specified here."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

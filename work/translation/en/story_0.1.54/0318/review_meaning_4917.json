@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4917.targets.json",
+  "target_file_sha256": "030da46a9293b70f5532837c106191a01bb175dd4e4b3a3f8917d057cccc9f2a",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4917,
+      4996
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4915,
+      4999
+    ]
+  ],
+  "rows_examined": 85,
+  "corrections": [
+    {
+      "resource_row": 4918,
+      "source_sha256": "5b79cddbe82e4a8bed40c068ba1a4dbfbb014333f1d973308f3dd8f833721531",
+      "text": "I'm counting on you.",
+      "reason": "The speaker requests the listener's attendance; 'count on me' reversed who asks whom."
+    },
+    {
+      "resource_row": 4941,
+      "source_sha256": "85f319bec493aa2a1cf951e535a22c1c29ddad0d83b2e1f532ff77fa0efb171d",
+      "text": "this youngster.",
+      "reason": "The source refers to the single protagonist, not multiple children."
+    },
+    {
+      "resource_row": 4944,
+      "source_sha256": "91b547c854a604656bf67623a301f8bdaf9bbe25f2fbe53ad22c8fe7f0993174",
+      "text": "as a teacher...",
+      "reason": "Common-noun usage follows the user's terminology preference."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        4979,
+        4980,
+        4981,
+        4982,
+        4983
+      ],
+      "note": "The images and reverent exclamations deliberately continue the preceding description across separate boxes; no unspoken content invented."
+    }
+  ],
+  "omissions": [
+    {
+      "note": "Explicit source pauses, cries and genuinely interrupted thought are retained, not filled out with invented conclusions."
+    }
+  ],
+  "notes": "Root independently compared every full VM group in the assigned dialogue and its boundary context. All correction groups reconstructed in memory before accepting the change."
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2048.targets.json",
+  "target_file_sha256": "aa742613359e91a8fb1658acd225a83bf5fd27720376c6504706e53b32ae46bf",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [2048, 2127], "count": 80},
+  "source_ranges_examined": [[2046, 2139]],
+  "rows_examined": 94,
+  "corrections": [],
+  "uncertainties": [
+    {"rows": [2049, 2050, 2051], "issue": "The project glossary locks 召喚鉄道 as Summoning Railway. The source describes that named railway being seized, with important Imperial figures who happened to be aboard taken hostage; it does not identify a separate train."},
+    {"rows": [2052, 2053, 2054, 2059, 2060, 2061, 2062, 2063, 2064, 2065, 2066, 2071, 2072, 2073, 2078, 2079, 2083, 2084, 2085, 2086, 2087, 2088, 2093, 2094, 2095, 2096, 2097, 2098, 2099, 2100, 2101, 2112, 2113, 2114, 2115, 2116, 2117, 2118, 2121, 2122, 2123, 2124, 2125, 2126, 2127], "issue": "Teacher is player-selected. Singular-they language preserves the established referent without gender inference."}
+  ],
+  "omissions": [
+    {"rows": [2055, 2056, 2057, 2058, 2067, 2068, 2069, 2070, 2098, 2102, 2103, 2104, 2105, 2106, 2107, 2108, 2109, 2120], "reason": "Surprise reactions, silence, creature calls, and emotional-reaction fragments retain their non-propositional source function."},
+    {"rows": [2048, 2049, 2050, 2051, 2052, 2053, 2054, 2060, 2061, 2062, 2063, 2064, 2065, 2066, 2071, 2072, 2073, 2074, 2075, 2076, 2078, 2079, 2080, 2081, 2082, 2083, 2084, 2085, 2086, 2087, 2088, 2089, 2090, 2091, 2092, 2093, 2094, 2095, 2096, 2097, 2099, 2100, 2101, 2112, 2113, 2114, 2115, 2116, 2117, 2118, 2122, 2123, 2124, 2125, 2126, 2127], "reason": "Physical continuation rows complete their English sentence in adjacent fragments. The personal resolve at rows 2121–2127 continues into the following source exchange."}
+  ],
+  "notes": "Reviewed original Japanese against the authored target with preceding and following context. The Summoning Railway reference and the direction of the speakers' statements and resolve are correct. No meaning correction is required; wording differences were not recorded as cosmetic changes."
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00355",
+  "source_sha256": "00fb3af6577271d8332d2b5a5be40f28409e671892fce132ca437d8326ed8d58",
+  "target_file": "work/translation/en/story_0.1.54/0355/slice_0011.targets.json",
+  "target_file_sha256": "19356a9a8058b1023261cfbfcf60b12c25765fd5634c581ac0bc0a0638042364",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      61
+    ],
+    "count": 51
+  },
+  "source_ranges_examined": [
+    [
+      11,
+      61
+    ]
+  ],
+  "rows_examined": 51,
+  "corrections": [
+    {
+      "resource_row": 23,
+      "source_sha256": "52a96f6ebaf5d26f2b0c62eb97076451960e334df14ec3c191e8f74198533cdc",
+      "text": "I regret what I did now... I was blinded by revenge.",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    },
+    {
+      "resource_row": 32,
+      "source_sha256": "00956990937aded528589f23148900985b52a7a7b895d899cea04285ba1b20f4",
+      "text": "So that's why the two of you did something so reckless...",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    },
+    {
+      "resource_row": 35,
+      "source_sha256": "81dfed9ca49b5cd2afc1b3ee1250e1f97cea13054313c36e28205b8e357a8c31",
+      "text": "Did you tell Kyle...",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    },
+    {
+      "resource_row": 36,
+      "source_sha256": "9c87815e7cc35b06dd74ad91cab2f0de6cbdaf5648d66ae893ba69d5343f6633",
+      "text": "Did you tell Kyle...",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    },
+    {
+      "resource_row": 37,
+      "source_sha256": "6d677fe95d6c69ab0a1cd2df10e5b2305927c5ecea0b1ed8b147bfaf876655fc",
+      "text": "and the others?",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Full source/English VM group comparison after compiler failure. Scarrel male established in story_context_0.1.54_part_c.json. Earlier clean proof retained; supplemental proof takes precedence."
+}

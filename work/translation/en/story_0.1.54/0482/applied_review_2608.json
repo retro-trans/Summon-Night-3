@@ -1,0 +1,48 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_2608.json",
+  "review_sha256": "0318531ab2efeab01160df61490cbf841af5b35aa40d637eebc1acb06313b0b9",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2608.targets.json",
+  "target_before_sha256": "86a01a84b6ca545001a0a5a2d6c541341a8273cf065470be66861445213579e3",
+  "target_after_sha256": "87de0363ce2adc7f5b3a073fe7a4e2d32fbe3ce5ded0038ca173847d32ec99cc",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2608,
+      2687
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2612,
+      "before": "It will be all right...",
+      "after": "It'll be all right. Nothing like that...",
+      "reason": "The reassurance includes the interrupted 'nothing like that' fragment."
+    },
+    {
+      "resource_row": 2614,
+      "before": "It will be all right...",
+      "after": "It'll be all right. Nothing like that...",
+      "reason": "The alternate reassurance includes the interrupted fragment."
+    },
+    {
+      "resource_row": 2628,
+      "before": "I... I... love you...",
+      "after": "I... I... My feelings for you...",
+      "reason": "The source leaves the confession predicate unspoken. Retain an unfinished reference to feelings without asserting love or a completed declaration."
+    },
+    {
+      "resource_row": 2657,
+      "before": "It will be all right...",
+      "after": "It'll be all right. Nothing like that...",
+      "reason": "The source retains the interrupted reassurance fragment."
+    },
+    {
+      "resource_row": 2659,
+      "before": "It will be all right...",
+      "after": "It'll be all right. Nothing like that...",
+      "reason": "The alternate source retains the interrupted reassurance fragment."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

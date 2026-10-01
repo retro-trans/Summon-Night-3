@@ -1,0 +1,70 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_2288.json",
+  "review_sha256": "b79625b1e8b4b77cb6d7ffdb12d2c16dd54f1de1650134b63754214b0c51d4fa",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2288.targets.json",
+  "target_before_sha256": "e217fe4bf78a270f89f1755e08ba7e097335ec920cc42b21b75b259629d4407e",
+  "target_after_sha256": "22d9bd02ef41f783bf8ea7af67e37de5180d3c970bc6429d845c521c511348df",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2288,
+      2367
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2288,
+      "before": "It isn't that it was hidden--it had been hiding, in this case...",
+      "after": "We weren't hiding it. In this case, it had been hidden from view...",
+      "reason": "Contrast is our concealment versus the island's prior hidden state; context2294–2312 explains its barrier."
+    },
+    {
+      "resource_row": 2313,
+      "before": "So it is a phantom island only a few people know about? Nyahahaha! ♪",
+      "after": "So it is a phantom island only a few people know about? Nyahahaha!",
+      "reason": "Remove duplicate musical note from anchor; original physical row2315 keeps its note."
+    },
+    {
+      "resource_row": 2330,
+      "before": "The Cressment family has absolutely nothing to do with these ruins! ♪",
+      "after": "The Cressment family has absolutely nothing to do with these ruins!",
+      "reason": "Remove duplicate note from anchor; original row2332 keeps its note."
+    },
+    {
+      "resource_row": 2339,
+      "before": "They said Gibson and Elgin fought them...",
+      "after": "Gibson and the others, along with Elgin, said they'd fought them...",
+      "reason": "Restore the other companions present in the source collective."
+    },
+    {
+      "resource_row": 2342,
+      "before": "They said Mimoza and Kaina fought them...",
+      "after": "Mimoza and the others, along with Kaina, said they'd fought them...",
+      "reason": "Restore the other companions present in the source collective."
+    },
+    {
+      "resource_row": 2345,
+      "before": "I see... So that is why you asked adventurers like Keina and me, instead of Lord Shamrock and Lord Luvaid.",
+      "after": "I see... So that's why, instead of Shamrock, Lord Luvaid and the others...",
+      "reason": "Keep this box's contrast here; the adventurers clause belongs to next original VM group."
+    },
+    {
+      "resource_row": 2348,
+      "before": "",
+      "after": "...you asked adventurers like Keina and me.",
+      "reason": "Restore the entire missing VM box; meaning was improperly moved into2345."
+    },
+    {
+      "resource_row": 2354,
+      "before": "Lord Ex and the others decided we should avoid contact with the Factions for a while.",
+      "after": "Lord Ex and the others decided the knights should avoid contact with the factions for a while.",
+      "reason": "Context2350 specifies famous Free Knights; protagonist faction team is not avoiding its own factions."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Unverified new organization and character spellings remain for glossary research; no identity or gender assumed from spelling."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_3328.json",
+  "review_sha256": "c3fe5176ae142ee2d036cee537b6ce9abf0cddbe8aab9dff1975519e9db7a2be",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3328.targets.json",
+  "target_before_sha256": "fa6d8d2a835d8600b9e5d840402b3c3193d6158ffad1ea0594a25877a05ca87f",
+  "target_after_sha256": "2b4ecf4416437ca055ad710638229af9d793da91db29ba7f2b1322c0a66a922a",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3328,
+      3407
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3334,
+      "before": "Save them properly for all of us.",
+      "after": "Make sure you help them for all of us.",
+      "reason": "The departing representative is being asked to help; this is not an explicit rescue. Keep the deictic referent neutral rather than inventing danger."
+    },
+    {
+      "resource_row": 3358,
+      "before": "Lord Yafha...",
+      "after": "Yafha...",
+      "reason": "The respectful peer address does not establish that Yafha holds the rank of lord."
+    },
+    {
+      "resource_row": 3389,
+      "before": "Save them properly for all of us.",
+      "after": "Make sure you help them for all of us.",
+      "reason": "Parallel farewell request asks for help on behalf of the others, not an explicit rescue."
+    },
+    {
+      "resource_row": 3407,
+      "before": "Please...",
+      "after": "Please let me come...",
+      "reason": "Restore the request settled by the preceding wish to accompany the protagonist and the following request that he be allowed along."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

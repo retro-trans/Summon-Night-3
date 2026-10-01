@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "scope": "Research supplement only: resource 485 terminology. Does not alter targets, normalizers, or frozen glossary files.",
+  "checked_on": "2026-10-01",
+  "primary_name_reference": "https://summonnight.fandom.com/wiki/Summon_Night_6:_Lost_Borders/PS_Vita_Gallery",
+  "sources": [
+    {
+      "url": "https://summonnight.fandom.com/wiki/Summon_Night_6:_Lost_Borders/PS_Vita_Gallery",
+      "supports": "Gallery displays Pledger Linker, Saver, Magna Clesment, Toris Clesment, and the selected primary spelling rule."
+    },
+    {
+      "url": "https://w.atwiki.jp/aniwotawiki/pages/16125.html",
+      "supports": "Japanese discussion identifies 不滅の炎 with reading フォイアルディア and the Saver designation."
+    },
+    {
+      "url": "https://www.yukkun20.com/index.php/summonnight3/",
+      "supports": "SN3 extra scenario discussion calls the foe カスラのディエルゴ."
+    },
+    {
+      "url": "https://summonnight.fandom.com/wiki/Summon_Night%3A_Swordcraft_Story_2",
+      "supports": "Names Magna and Toris with the Clesment surname."
+    }
+  ],
+  "findings": [
+    {
+      "source_name": "カスラ",
+      "recommended_target": "Kasra",
+      "status": "provisional romanization, source-supported",
+      "evidence": "Japanese SN3 scenario discussion uses カスラのディエルゴ; no primary English display located.",
+      "rows": [
+        {
+          "resource_row": 5225,
+          "source_sha256": "6e1da7f67ca182c2ba2dec9749be08b008f7054f38b4f425b4f1c4afdb7fb987",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5168.targets.json"
+        },
+        {
+          "resource_row": 5229,
+          "source_sha256": "c5d863e25deaa7cea84f57b5dab13254b4a6348b6ec6f72455f014e7b0217afc",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5168.targets.json"
+        },
+        {
+          "resource_row": 5477,
+          "source_sha256": "fcbe1f769d9b476f866218b35edcad9b91b51f71ad12cedd1e1cd42990d85346",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5408.targets.json"
+        }
+      ],
+      "action": "Retain Casra only until a primary English spelling is found; do not infer identity or gender."
+    },
+    {
+      "source_name": "フォイアルディア",
+      "recommended_target": "Foyaldia",
+      "literal_title": "Immortal Flame",
+      "status": "Japanese reading and title corroborated; English romanization remains provisional",
+      "evidence": "Japanese sources explicitly pair 不滅の炎 with フォイアルディア.",
+      "rows": [
+        {
+          "resource_row": 5625,
+          "source_sha256": "8d82a2fb2a0d93e28c6da2e2355e745ba24dae4c345eeb552b9935d2ed643eaf",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5626,
+          "source_sha256": "c3a45602b195787d52a42a4394edc79a24547bb94602440935e4bfdc59e80b9c",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5627,
+          "source_sha256": "8d82a2fb2a0d93e28c6da2e2355e745ba24dae4c345eeb552b9935d2ed643eaf",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5628,
+          "source_sha256": "c3a45602b195787d52a42a4394edc79a24547bb94602440935e4bfdc59e80b9c",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5629,
+          "source_sha256": "8d82a2fb2a0d93e28c6da2e2355e745ba24dae4c345eeb552b9935d2ed643eaf",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5630,
+          "source_sha256": "c3a45602b195787d52a42a4394edc79a24547bb94602440935e4bfdc59e80b9c",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5631,
+          "source_sha256": "8d82a2fb2a0d93e28c6da2e2355e745ba24dae4c345eeb552b9935d2ed643eaf",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5632,
+          "source_sha256": "c3a45602b195787d52a42a4394edc79a24547bb94602440935e4bfdc59e80b9c",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        }
+      ],
+      "action": "Keep Foyaldia / Immortal Flame pending primary English spelling."
+    },
+    {
+      "source_name": "超律者",
+      "recommended_target": "Pledger Linker",
+      "status": "verified by selected SN6 gallery",
+      "rows": [
+        {
+          "resource_row": 5389,
+          "source_sha256": "850a653d89345e11103d6d129a6c0654feb31a2ce69694ab0fb10848b0feabb4",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5328.targets.json"
+        },
+        {
+          "resource_row": 5390,
+          "source_sha256": "d882846e2272275c531ef69677b4f5a8b3ed842529cb62543f9c46c2d0705036",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5328.targets.json"
+        },
+        {
+          "resource_row": 5398,
+          "source_sha256": "850a653d89345e11103d6d129a6c0654feb31a2ce69694ab0fb10848b0feabb4",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5328.targets.json"
+        },
+        {
+          "resource_row": 5399,
+          "source_sha256": "31627d65bd098ca7dbc56e91c0f69f2253d39618cf70ed4a958e014ad02b61aa",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5328.targets.json"
+        },
+        {
+          "resource_row": 5418,
+          "source_sha256": "71ef81606df618d53186798b4a0f24131c0bbf8e3b3f8928f3ae10fb354388f8",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5408.targets.json"
+        },
+        {
+          "resource_row": 5419,
+          "source_sha256": "23d10ff2a2f9bda48f4e9f8123d688520b057469901e0f39e43121f147950411",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5408.targets.json"
+        }
+      ],
+      "action": "No change; current terminology is correct."
+    },
+    {
+      "source_name": "融機人",
+      "recommended_target": "Veiger",
+      "status": "already locked in story_additions_0.1.54.json",
+      "action": "No resource 485 row recommendation found in current target scan; do not alter existing lock."
+    },
+    {
+      "source_name": "抜剣者",
+      "recommended_target": "Saver",
+      "status": "verified selected-gallery class spelling; current resource uses provisional Sword Wielder/Sword-drawer variants",
+      "rows": [
+        {
+          "resource_row": 5633,
+          "source_sha256": "e1a9c9ae5437ec13908f1886e3a20c43ab599345679afca68c6a3763b16d5b2a",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5634,
+          "source_sha256": "5906083ff46e20e14f652a1f1d3e4d20e1d162a95eac02189a1890aec9c462c8",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5635,
+          "source_sha256": "e1a9c9ae5437ec13908f1886e3a20c43ab599345679afca68c6a3763b16d5b2a",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5636,
+          "source_sha256": "a3520cc4396647afaec430344c3e5a7f90dc8315e7e60af5de410982eb52c40a",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5637,
+          "source_sha256": "3a443f93330343bda1f16ffb3d89a2a8cd5340eb2e79b60b99060c0a562a3179",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5568.targets.json"
+        },
+        {
+          "resource_row": 5728,
+          "source_sha256": "3e4f70d48b04ba316403ca4d6a927ef1d3a61286b503cf7223ca1cea703c09d8",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5728.targets.json"
+        },
+        {
+          "resource_row": 5729,
+          "source_sha256": "25a7ce0af36ddb62b61bb4b4e23a48f2ef3be5f1e20c4056f0c1ec83c509b4a1",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5728.targets.json"
+        }
+      ],
+      "action": "Scoped post-meaning normalization should use Saver where the technical designation is explicit."
+    },
+    {
+      "source_name": "ディエルゴ",
+      "recommended_target": "Dielgo",
+      "status": "existing chapter16 project lock; no official English spelling verified",
+      "rows": [
+        {
+          "resource_row": 4768,
+          "source_sha256": "d63f8f9f04c8cc6b4c3100be1603e519caae3f3c711a105afddd041a654fcff5",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_4768.targets.json"
+        },
+        {
+          "resource_row": 4848,
+          "source_sha256": "f92c244beff1b7f2f241253f509a34ae3ac2e53d52a91de054cf8eb043103ff3",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_4848.targets.json"
+        },
+        {
+          "resource_row": 5225,
+          "source_sha256": "6e1da7f67ca182c2ba2dec9749be08b008f7054f38b4f425b4f1c4afdb7fb987",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5168.targets.json"
+        }
+      ],
+      "action": "Normalize resource 485 Diergo variants to Dielgo after meaning review."
+    },
+    {
+      "source_name": "マグナ・クレスメント / トリス・クレスメント",
+      "recommended_target": "Magna Clesment / Toris Clesment",
+      "status": "selected SN6 gallery primary spelling verified",
+      "rows": [
+        {
+          "resource_row": 5390,
+          "source_sha256": "d882846e2272275c531ef69677b4f5a8b3ed842529cb62543f9c46c2d0705036",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5328.targets.json"
+        },
+        {
+          "resource_row": 5399,
+          "source_sha256": "31627d65bd098ca7dbc56e91c0f69f2253d39618cf70ed4a958e014ad02b61aa",
+          "target_file": "work/translation/en/story_0.1.54/0485/slice_5328.targets.json"
+        }
+      ],
+      "action": "Normalize Clement to Clesment after meaning review."
+    }
+  ],
+  "unresolved_ambiguities": [
+    "Kasra has Japanese scenario corroboration but no primary English spelling.",
+    "Foyaldia romanization is not displayed by the selected English gallery.",
+    "Dielgo remains a project-established spelling rather than an official English verification."
+  ],
+  "scan_notes": "Current resource 485 contains Diergo at rows 4768/4848, Casra at 5225 onward, Foyaldia at 5625 onward, Pledger Linker at 5389/5418, Sword Wielder/Sword-drawer variants, and Clement surname forms."
+}

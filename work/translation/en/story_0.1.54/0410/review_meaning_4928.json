@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4928.targets.json",
+  "target_file_sha256": "ec4ec260aa1d053cb447eb0cb5d8391a98623f31be5162fea6ee779f0f42afd8",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4928,
+      5007
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4925,
+      5008
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        4929,
+        4930,
+        4932,
+        4934,
+        4935,
+        4937,
+        4938,
+        4941,
+        4942,
+        4944,
+        4947,
+        4948,
+        4952,
+        4953,
+        4955,
+        4956,
+        4958,
+        4959,
+        4961,
+        4962,
+        4964,
+        4966,
+        4968,
+        4971,
+        4973,
+        4974,
+        4976,
+        4977,
+        4980,
+        4982,
+        4983,
+        4985,
+        4988,
+        4990,
+        4991,
+        4993,
+        4996,
+        4998,
+        4999,
+        5001,
+        5004,
+        5005,
+        5007
+      ],
+      "reason": "Physical VM continuation fragments; the complete source-box meaning is retained in its non-empty aligned fragment."
+    }
+  ],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context. Target file was not edited by this review."
+}

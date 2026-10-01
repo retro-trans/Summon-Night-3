@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_5397.json",
+  "review_sha256": "d7b262b8d750dd44138af0c59eef829396e8e20c4ada19d8af2be1c46b642695",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_5397.targets.json",
+  "target_before_sha256": "160552fd5ec2174595ab0ef25e26eeb36094611eb8f1da2f9854c4b6bbfd0ed8",
+  "target_after_sha256": "8306db2a0ed24fef4f6041d7c32655e6a42eceff34c804e1ccc8059389e1c47b",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5397,
+      5476
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5453,
+      "before": "to force you to talk",
+      "after": "Forcing me to talk",
+      "reason": "Ardylia is describing the protagonist forcing her to speak about her past; this natural fragment keeps the direction correct."
+    },
+    {
+      "resource_row": 5455,
+      "before": "I really am...",
+      "after": "You really are...",
+      "reason": "Ardylia continues addressing the protagonist with an unfinished appraisal; the current first-person fragment reverses that direction."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

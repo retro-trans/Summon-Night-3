@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00393",
+  "source_sha256": "f87e70db75b3e22e371667ee865908d136bee09febdf121ec2f390c4e4931f6f",
+  "target_file": "work/translation/en/story_0.1.54/0393/slice_0091.targets.json",
+  "target_file_sha256": "f782366a7938d8ff5af48cc301768c7779a42afe98c54355fd69ebb4d20560b2",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      156
+    ],
+    "count": 66
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      156
+    ]
+  ],
+  "rows_examined": 147,
+  "corrections": [
+    {
+      "resource_row": 112,
+      "source_sha256": "734d1aa559938380bcf9d445ad72145709e2deab54747deb28721294e293c740",
+      "text": "Everything concerning ▲ and everyone back home,",
+      "reason": "This is one of two conditional beginnings that converges on row 114; restore its shared construction."
+    },
+    {
+      "resource_row": 113,
+      "source_sha256": "a0670fe0224700a05f9404c9d1ab0e35f9fef1ce5ea71805fc6472dc7144ddbe",
+      "text": "Everything concerning ▲ and everyone back home,",
+      "reason": "This is the parallel conditional beginning that also converges on row 114; match row 112."
+    },
+    {
+      "resource_row": 114,
+      "source_sha256": "36f1cfe7bf976d67ec6e10e1cd2ba98093aa022ff28b84342a4569bccc00eb08",
+      "text": "once that is all settled...",
+      "reason": "Common conclusion for the separate row 112 and row 113 conditional starts, as indicated by the VM references."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first meaning review of all full VM boxes in this resource, including boundary context. No correction was applied and no normalization was performed."
+}

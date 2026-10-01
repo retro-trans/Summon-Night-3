@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4437.targets.json",
+  "target_file_sha256": "a3183fa1a37a1c89be5d8b06e7542c32e43b03b287ceb2c156e8913ebb68f341",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4437,
+      4516
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3955,
+      4599
+    ]
+  ],
+  "rows_examined": 645,
+  "corrections": [
+    {
+      "resource_row": 4437,
+      "source_sha256": "81337998d362727c740ebd4b17c20e5289653b0c31fae2907ed6540b9c106fd7",
+      "text": "it is...?",
+      "reason": "Complete the question instead of inserting the next box's silence."
+    },
+    {
+      "resource_row": 4438,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "text": "...",
+      "reason": "Restore the separate silence box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "note": "Silence, cries and explicitly interrupted speech remain fragments; internal blanks never erase complete dialogue boxes."
+    }
+  ],
+  "notes": "Source-based read-only independent review by Terra chapter12_review covered3957–4596 and boundary context. Root reconciled corrections against original VM boxes, rejected a flawed proposed extra conditional, and previewed merged results. Root saves this current review record under the user's continuing translation task."
+}

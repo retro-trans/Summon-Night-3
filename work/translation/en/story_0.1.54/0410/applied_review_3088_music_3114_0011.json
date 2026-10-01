@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_3088_music_3114_0011.json",
+  "review_sha256": "419fe78f19a2bbcc028a74c45b9d1ab3098259c2080e59fc2c976521db980748",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3088.targets.json",
+  "target_before_sha256": "60843c59153c8137d2f472850cb7b600cf4821f2fc429cf69200721c51f8e391",
+  "target_after_sha256": "f5de2c9415fbb185cfe5b921f22f4ccd7feb86a345fc2a523375354c1b991669",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3112,
+      3114
+    ],
+    "count": 3
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3114,
+      "before": "Mr. Stripes!? ♪",
+      "after": "Mr. Stripes!?",
+      "reason": "The source row has no music marker; the target adds ♪ here while physical row 3122 correctly carries the sole source marker."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

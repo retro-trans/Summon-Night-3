@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00277",
+  "source_sha256": "315c3edd9fc1d77a6629090a90980e7d1bfa8b86fdb4d841d898a7f71033e1bb",
+  "target_file": "work/translation/en/story_0.1.54/0277/slice_0011.targets.json",
+  "target_file_sha256": "020987c8966d9c459433e0cd0e409a0a3f535204a312861d5d0550daa8b9c072",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [11, 46],
+    "count": 36
+  },
+  "source_ranges_examined": [[0, 46]],
+  "rows_examined": 47,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [23, 24],
+      "issue": "The source calls the explanation unsupported. The authored \"reason with proof\" is awkward but conveys that it lacks evidentiary grounding; no correction proposed."
+    },
+    {
+      "rows": [28, 29],
+      "issue": "The source warns against treating mental resolve as sufficient to solve every problem. The authored \"resolve alone\" is a defensible contextual rendering; no correction proposed."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [15, 19, 27, 32, 37, 38, 39, 40],
+      "reason": "Acknowledgements, pause, groan, repeated assurance, and laughter. The authored English retains their conversational function."
+    },
+    {
+      "rows": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 33, 34, 35, 36, 41, 42, 44, 45, 46],
+      "reason": "Physical continuation rows. The authored English joins each with adjacent source fragments; no meaning is omitted."
+    }
+  ],
+  "notes": "Reviewed original Japanese against the authored target across full resource context. No meaning correction is required; wording differences were not recorded as cosmetic changes."
+}

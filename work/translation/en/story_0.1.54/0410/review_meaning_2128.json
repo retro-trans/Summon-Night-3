@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2128.targets.json",
+  "target_file_sha256": "07df19e019bd675fbe7079a98aa813a53dc2aa9a602b522b4ae40afe455f09de",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2128,
+      2207
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2125,
+      2290
+    ]
+  ],
+  "rows_examined": 166,
+  "corrections": [
+    {
+      "resource_row": 2186,
+      "source_sha256": "fdcc7e5be69fd66a6513b87a99d6ac3e1e8a03f897596287114bfdec2a82802e",
+      "text": "Without belief...",
+      "reason": "Special unattributed VM path is distinct from adjacent pupil display. First-person actor was not established."
+    },
+    {
+      "resource_row": 2187,
+      "source_sha256": "7e029483e9337ef29fe3ba6caf6279107d99dd0cbb149bfcf843e6de1b553157",
+      "text": "no wish can ever",
+      "reason": "Removes unsupported possessive 'my' while retaining conditional meaning."
+    },
+    {
+      "resource_row": 2188,
+      "source_sha256": "140fb8bb977477278f1878e597f0774ba32826cfe2f30ef93e3d2f97a12d4ccd",
+      "text": "come true...",
+      "reason": "Completes source claim without assigning the unproven speaker."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2186,
+        2187,
+        2188
+      ],
+      "issue": "Special VM helper does not establish direct speaker. Surrounding pupil reactions do not prove Teacher; actor-neutral formulation deliberately retains this uncertainty."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        2186,
+        2187,
+        2188
+      ],
+      "issue": "Source omits actor and VM does not identify one; actor-neutral conditional retained."
+    }
+  ],
+  "notes": "Root independently compared source and English at full VM box boundaries, including both slice boundaries and protagonist/pupil alternatives. Name normalization follows meaning fixes."
+}

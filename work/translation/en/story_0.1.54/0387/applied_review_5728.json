@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_5728.json",
+  "review_sha256": "2fdefbe12b5ebccf238e1a75461b2201b78dd7ba631d10919c92eed1b1b538e5",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_5728.targets.json",
+  "target_before_sha256": "457266049cadc7f9dab75c41da5b30561371f31e73c182cb82e5dbddc04e2c97",
+  "target_after_sha256": "e038b2315aafe4b36ee2b072e59ca2103b593c48d4f8f151edec12a069e628fd",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5728,
+      5807
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5807,
+      "before": "You yourself must",
+      "after": "You yourself must breathe",
+      "reason": "The source directs the protagonist to breathe their feeling into the sword; the current English instead makes the feeling a new sword."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

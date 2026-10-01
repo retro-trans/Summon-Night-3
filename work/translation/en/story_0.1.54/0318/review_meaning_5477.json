@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_5477.targets.json",
+  "target_file_sha256": "75eeca191ea42d1c93e7679a42560502387d1fa3e8b19a06daca6aacdb52cfb3",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5477,
+      5556
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4996,
+      5557
+    ]
+  ],
+  "rows_examined": 562,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        5555,
+        5556
+      ],
+      "note": "Full source box extends through5557; complete English is already in5555. Next author must leave5557empty. The partial chapter is not accepted for whole-resource compilation yet."
+    }
+  ],
+  "omissions": [
+    {
+      "note": "Only source-marked interruptions, silence and natural reactions retain fragmentary wording."
+    }
+  ],
+  "notes": "Read-only independent Terra chapter12_review checked all full VM boxes and both-side context; root compared each proposed change against source and complete English groups. Root records the reconciled findings. No complete dialogue box may be empty."
+}

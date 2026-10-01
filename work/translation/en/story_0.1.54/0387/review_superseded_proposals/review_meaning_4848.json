@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_4848.targets.json",
+  "target_file_sha256": "987368422336d0493291ab0cec861e502b7382bd9fd1b92f69accb8ff16daa54",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4848,
+      4927
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4847,
+      4928
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 4901,
+      "source_sha256": "a2a03afd04c65a6ecfbe24657fe29c8266b08fb9289b4fd8d8498b5b4344e62e",
+      "text": "Even if they laugh at you or mock you,",
+      "reason": "The source names both being laughed at and being ridiculed; the draft omits the latter."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first meaning review of full VM boxes and both-side context; source read transiently. No correction was applied and no normalization was performed."
+}

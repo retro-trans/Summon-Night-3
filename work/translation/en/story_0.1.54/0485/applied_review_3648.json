@@ -1,0 +1,40 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_3648.json",
+  "review_sha256": "a7f6c765d639b2e94a46ad3810c6cbe18450486909f4b00ddfca28f6aacf3f49",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3648.targets.json",
+  "target_before_sha256": "de9341b85766306003056433f58513a5d2c9a59bf1374b19dfd2601fc9fa5d07",
+  "target_after_sha256": "99acf0e4cb84e78d81853454e1688391a051506c7bd041f785087013e1c4ebbd",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3648,
+      3727
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3685,
+      "before": "Thanks to this, my dream came true! Hahaha! ♪",
+      "after": "Thanks to this, my dream came true! Hahaha!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    },
+    {
+      "resource_row": 3720,
+      "before": "Do not worry! Teacher and Kyle are staying with them.",
+      "after": "Do not worry! Teacher, Kyle, and the others are staying with them.",
+      "reason": "Restores the other companions explicitly included by the source."
+    },
+    {
+      "resource_row": 3725,
+      "before": "It will be all right. Teacher and Yard are staying with them.",
+      "after": "It will be all right. Teacher, Yard, and the others are staying with them.",
+      "reason": "Restores the source's companions."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Unverified names and world terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

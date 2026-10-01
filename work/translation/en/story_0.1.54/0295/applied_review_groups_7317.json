@@ -1,0 +1,60 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_groups_7317.json",
+  "review_sha256": "a5c2a6fbbe5c4bd1aae5f2b9b0845fe490f95b2a565e4dda608173775b127ece",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7317.targets.json",
+  "target_before_sha256": "6c702787c03ce79aeb57f09dfad6dd5f2ccfd6f75cafcd3f239e8f6ad7dcae8f",
+  "target_after_sha256": "79ea69b9bb257863ff2d8c0240ec81f81b7f29c850422f386c86d6322abe2e9d",
+  "reviewed_rows": {
+    "range_inclusive": [
+      7317,
+      7396
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 7329,
+      "before": ".",
+      "after": "",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7335,
+      "before": "She is trying to abandon her regret at failing to save her brother, and her reason",
+      "after": "She is trying to abandon",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7336,
+      "before": "for remaining in this world.",
+      "after": "her regret at failing to save her brother,",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7337,
+      "before": ".",
+      "after": "and her reason for remaining in this world.",
+      "reason": "Restores the source clause or endpoint within its actual VM display group; the authored target had padding or moved content across a boundary."
+    },
+    {
+      "resource_row": 7345,
+      "before": "I cannot selfishly let my death",
+      "after": "I am already dead.",
+      "reason": "Root verifies the complete source group: preserve the dead speaker's agency or the separate rhetorical denial without added padding."
+    },
+    {
+      "resource_row": 7346,
+      "before": "trouble those who are alive.",
+      "after": "I cannot let my selfish wishes",
+      "reason": "Root verifies the complete source group: preserve the dead speaker's agency or the separate rhetorical denial without added padding."
+    },
+    {
+      "resource_row": 7347,
+      "before": ".",
+      "after": "trouble those who are still alive.",
+      "reason": "Root verifies the complete source group: preserve the dead speaker's agency or the separate rhetorical denial without added padding."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

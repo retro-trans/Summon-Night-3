@@ -1,0 +1,32 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_3408.json",
+  "review_sha256": "3cd44972a5f435556e31226d94726612fca396f58af0d2997c68c0ed4ed54e37",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3408.targets.json",
+  "target_before_sha256": "aa5b8a398ef6dc94406e9633bddd9e81effa172023d91cb02f8238be5d02b720",
+  "target_after_sha256": "546857467da40e23f681fbe860445f59d84f13427e11c3d58481f07c907ea92f",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3408,
+      3487
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3486,
+      "before": "",
+      "after": "Because you stopped Dielgo, my imprisoned soul was saved too...",
+      "reason": "Restores the whole branch-specific 3486–3488 dialogue box, which was blank."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        3428,
+        3429
+      ],
+      "issue": "Terminology-only: source 共界線 is rendered “Boundary Lines”; current story_core_terms_0.1.54 locks canonical Clyps. Defer to scoped normalization."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

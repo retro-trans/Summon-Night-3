@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0274/review_meaning_renewed_0011.json",
+  "review_sha256": "8ef402a65b9e2094aaf206ad72eda9cc1813fa93efdf1006d7eefc23b8ec8149",
+  "target_file": "work/translation/en/story_0.1.54/0274/slice_0011.targets.json",
+  "target_before_sha256": "5f0b843dfd8feeff0ce92c1588116d77bc10a2c009d7ae5b36f1a09d1a5e5b66",
+  "target_after_sha256": "b39cc7639ae5a61bc0218ce4d1bf8e3f1b285810b1e095b1d3b4f0e34dca871e",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      52
+    ],
+    "count": 42
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 11,
+      "before": "Taking lives, and throwing them away...",
+      "after": "\"Taking lives, and throwing them away...",
+      "reason": "Explicit quotation keeps the pupil from appearing to assert the teacher's first-person declaration as their own."
+    },
+    {
+      "resource_row": 12,
+      "before": "I won't accept either of those, huh...",
+      "after": "I won't accept either of those,\" huh...",
+      "reason": "Explicit quotation keeps the pupil from appearing to assert the teacher's first-person declaration as their own."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

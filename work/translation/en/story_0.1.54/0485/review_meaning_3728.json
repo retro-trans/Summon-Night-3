@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3728.targets.json",
+  "target_file_sha256": "8a9e323592537e4d681fe44b092ac70578611557b57e9c7cbb8571853f51e176",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3728,
+      3807
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3727,
+      3809
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 3741,
+      "source_sha256": "77438a47d78190d17b802e7154d866e383fcf36b5ce5f3f7487e043fbc7a90a4",
+      "before": "All right, young ones! No more eavesdropping! ♪",
+      "text": "All right, young ones! No more eavesdropping!",
+      "after": "All right, young ones! No more eavesdropping!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    },
+    {
+      "resource_row": 3730,
+      "source_sha256": "808f8de93f856726327f5b2f1b427c7fa44930d26b82932a231bc01b1de53f32",
+      "text": "Do not worry! Teacher, Kyle, and the others are staying with them.",
+      "reason": "Restores the source's companions."
+    },
+    {
+      "resource_row": 3735,
+      "source_sha256": "9166952323e601bae44ee5f2adae26f2d6aa67ce7f77ac612932edb3a8ce7c87",
+      "text": "Do not worry. Teacher, Yard, and the others are staying with them.",
+      "reason": "Restores the source's companions."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Unverified names and world terms are retained as authored; no identity or gender inferred from spelling."
+    },
+    {
+      "resource_row": 3757,
+      "issue": "Oni race versus Oni gods is intentionally distinguished in the following explanation; consistent world terminology is deferred to glossary review."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning/control review only; no target applied. Root independently rechecked complete VM groups and both neighboring boundaries, 3487–4210; added only concrete meaning corrections."
+}

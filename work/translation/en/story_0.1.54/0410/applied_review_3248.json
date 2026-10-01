@@ -1,0 +1,60 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_3248.json",
+  "review_sha256": "e87dba81299c83ba6b924e5f67d94bfb530878155a4d1a7e81adfafaa59321cc",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3248.targets.json",
+  "target_before_sha256": "cc1ac1d78bba703ac8a70697d2536a6248eb7e0ec059ddeeabd440de1a1291ed",
+  "target_after_sha256": "02d357258c6ea9cd74df0b6146ccb8e16523176adb9f38fdb7889a85ac3699e7",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3248,
+      3327
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3283,
+      "before": "The disease curse deprived Ishlar",
+      "after": "Azlier!?",
+      "reason": "The source box is only an address to Azlier; the current target contains the next box's opening clause."
+    },
+    {
+      "resource_row": 3284,
+      "before": "of the freedom to make decisions",
+      "after": "The disease curse deprived Ishlar of the freedom",
+      "reason": "Restore the first fragment of the following source box."
+    },
+    {
+      "resource_row": 3285,
+      "before": "for himself.",
+      "after": "to make decisions for himself.",
+      "reason": "Restore the complete source meaning."
+    },
+    {
+      "resource_row": 3286,
+      "before": "That is why, now that he has gained",
+      "after": "",
+      "reason": "Physical VM continuation fragment; the full source-box meaning is retained in preceding aligned English fragments."
+    },
+    {
+      "resource_row": 3287,
+      "before": "the incomparable power of the",
+      "after": "That is why, now that he has acquired",
+      "reason": "Restore the opening of the next source box."
+    },
+    {
+      "resource_row": 3288,
+      "before": "Crimson Tyrant,",
+      "after": "the incomparable power of the Crimson Tyrant,",
+      "reason": "Restore the complete source clause."
+    },
+    {
+      "resource_row": 3289,
+      "before": "I think he became intoxicated with that power",
+      "after": "I think he became intoxicated with that power",
+      "reason": "Restore the final source box at its correct VM boundary."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

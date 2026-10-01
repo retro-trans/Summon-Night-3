@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0275/review_meaning_renewed_0011.json",
+  "review_sha256": "098dc92ded518bc5aaf3f526c89387f08d3cb3e694c83f07935e8c7c6700b595",
+  "target_file": "work/translation/en/story_0.1.54/0275/slice_0011.targets.json",
+  "target_before_sha256": "35a0849257b2f1ffe4c8562dbcf78425e6a51e56d1b3b570d6a4801a0b585971",
+  "target_after_sha256": "017a799ec352004761ea9757884f5fefef2742f13a0f97a64b5f1133056d5d90",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      54
+    ],
+    "count": 44
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 11,
+      "before": "Taking lives, and throwing them away...",
+      "after": "\"Taking lives, and throwing them away...",
+      "reason": "Clarify the quoted teacher declaration and restore a complete compliment statement instead of an unsupported when-clause."
+    },
+    {
+      "resource_row": 12,
+      "before": "I won't accept either of those, huh...",
+      "after": "I won't accept either of those,\" huh...",
+      "reason": "Clarify the quoted teacher declaration and restore a complete compliment statement instead of an unsupported when-clause."
+    },
+    {
+      "resource_row": 19,
+      "before": "Oh my, when I was just",
+      "after": "Oh my, I was only",
+      "reason": "Clarify the quoted teacher declaration and restore a complete compliment statement instead of an unsupported when-clause."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

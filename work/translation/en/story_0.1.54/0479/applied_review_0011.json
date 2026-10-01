@@ -1,0 +1,48 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0479/review_meaning_0011.json",
+  "review_sha256": "7a12ea6588f531706b7958937643d6fd038e8375d3937115a2a1416cc462370f",
+  "target_file": "work/translation/en/story_0.1.54/0479/slice_0011.targets.json",
+  "target_before_sha256": "4d40bce1ea0938e1649d4335278bf43c36e81b94dbc38c64f61084b8a06dfbee",
+  "target_after_sha256": "d0aa3ec98494f4a946edbc0bc1829fe381d327565862dd2d1a981d8cd808d9fa",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 50,
+      "before": "Y-yes, it is, isn't it? Ahahahaha! ♪",
+      "after": "Y-yes, it is, isn't it?",
+      "reason": "Keep the laughter and its song mark on their original physical source row."
+    },
+    {
+      "resource_row": 51,
+      "before": " ♪",
+      "after": "Ahahahaha! ♪",
+      "reason": "Keep the laughter and its song mark on their original physical source row."
+    },
+    {
+      "resource_row": 89,
+      "before": "",
+      "after": "Um...!?",
+      "reason": "Restore the stammer and deck request inside their source VM box; the existing target shifts the complete meaning to its last row."
+    },
+    {
+      "resource_row": 90,
+      "before": "",
+      "after": "Please hurry to the deck!",
+      "reason": "Restore the stammer and deck request inside their source VM box; the existing target shifts the complete meaning to its last row."
+    },
+    {
+      "resource_row": 58,
+      "before": "Such kind children...",
+      "after": "You're so kind...",
+      "reason": "The source addresses one kind child/person, not multiple children."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

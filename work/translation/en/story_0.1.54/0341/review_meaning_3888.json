@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00341",
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_3888.targets.json",
+  "target_file_sha256": "779859a08164fc48cc9e4317c64960b03c7d74e8f714c4b1663a5a357ce72ef6",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3888,
+      3945
+    ],
+    "count": 58
+  },
+  "source_ranges_examined": [
+    [
+      3246,
+      3945
+    ]
+  ],
+  "rows_examined": 700,
+  "corrections": [
+    {
+      "resource_row": 3915,
+      "source_sha256": "230585b7849fc63d30ab3f291772a0a3e1a64f189083943bf2a9efe2410c0c8c",
+      "text": "So I'll smile. I'll face them with the bravest smile I can muster.",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    },
+    {
+      "resource_row": 3920,
+      "source_sha256": "2730a0e3f2856741ca030b343ae3728daf035870661aa268c50a186c31983e31",
+      "text": "With confident smiles on their faces, they walked away...",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    },
+    {
+      "resource_row": 3922,
+      "source_sha256": "08b562a6e76be7c44b6561320d1007f5b19a5586bddee74d0d30e2654fcf4b0b",
+      "text": "I could only stand there and watch them go...",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared all source and English VM boxes3246–3945, including boundary and gender-alternate scenes. Spelling normalization follows meaning corrections."
+}

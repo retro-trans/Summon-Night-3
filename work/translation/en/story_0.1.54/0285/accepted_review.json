@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00285",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0285/slice_0011.targets.json": "273b052b02667311266a8385f63db28bb0df0abbda08accc6f57e81bb76c5e3b"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0285/review_meaning_0011.json": "1b679ad9125a3ce6f8ec337c1a707237d55cae4168fff812d01f728b9c065c32"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [
+    {
+      "review": "review_meaning_0011.json",
+      "rows": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "issue": "The source names neither the village nor the student. The target preserves these broad referents without supplying a location, a character name, or a gender."
+    }
+  ],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness."
+}

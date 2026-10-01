@@ -1,0 +1,32 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_1808.json",
+  "review_sha256": "2f3854ae1bb68ba5a877d1063e86b6466755eba6bb396f6345185f11af5fa3fe",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_1808.targets.json",
+  "target_before_sha256": "b31a4f696109fd5c7b79d33e742229eee4b3e1cc00a7416cdaa63ada75e6d4a5",
+  "target_after_sha256": "1620bb878dc51a6707324273f99fbb7566c2063b801f5c8412800e0bc4c338c1",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1808,
+      1887
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 1883,
+      "before": "Captain Shion, Leonard, and Kazamine are traveling all over,",
+      "after": "Boss Shion, Leonard, and Kazamine are traveling all over,",
+      "reason": "Source shopkeeper honorific is not a military captain rank; background confirms noodle-shop proprietor and shinobi."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        1856,
+        1859
+      ],
+      "issue": "Parent-child reunion referents remain general in source. Do not introduce a specific biological relationship from names alone."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

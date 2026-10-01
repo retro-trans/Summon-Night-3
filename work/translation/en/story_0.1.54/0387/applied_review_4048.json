@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_4048.json",
+  "review_sha256": "28b82d22097784d80b54249a98d296f1706b1acc80ac87acc6a0180baef17955",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_4048.targets.json",
+  "target_before_sha256": "8e3724d06237baabdab8a0d66476500a69f63ec8113cb637bf984e7b6b822b65",
+  "target_after_sha256": "ea9128634fc24c2f66c0fc2aa2c5fce5365cb9effa3a189682334871cc2d0f50",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4048,
+      4127
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4048,
+      "before": "I do not think you need to force yourself to change. Because...",
+      "after": "",
+      "reason": "Root fullbox check: this continuation contains the misplaced next box. Remove it here while restoring4049."
+    },
+    {
+      "resource_row": 4049,
+      "before": "",
+      "after": "I do not think you need to force yourself to change. Because...",
+      "reason": "Restore this complete VM box, whose English was moved into the preceding box."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

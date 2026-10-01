@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2928.targets.json",
+  "target_file_sha256": "f97b072e34cc792b7331d3375f453b4b74d4fdcbcbbeca99f35a5a53d7474b81",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2928,
+      3007
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2846,
+      3008
+    ]
+  ],
+  "rows_examined": 163,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        2928,
+        2937,
+        2940
+      ],
+      "issue": "Settling down specifically means marriage, established by family and matchmaking follow-up."
+    },
+    {
+      "rows": [
+        2981,
+        3000
+      ],
+      "issue": "Vijue explicitly called a man in3000–3002, supporting masculine pronouns."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared source and English at full VM box boundaries, including both slice boundaries and protagonist/pupil alternatives. Name normalization follows meaning fixes."
+}

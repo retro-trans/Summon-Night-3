@@ -1,0 +1,64 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0460/review_meaning_0011.json",
+  "review_sha256": "edd8b90c64797de7d0aaae2fd2e96f7896be6e32fb997e179b18a36ace092e02",
+  "target_file": "work/translation/en/story_0.1.54/0460/slice_0011.targets.json",
+  "target_before_sha256": "3b106f39364684e44d7804a63f6fc73e9883c1608bb650b856a7e8bbd4f90265",
+  "target_after_sha256": "18fba68909fa52db6232bc90ebaa3dc0b3c2be037fa66645d8ba73ef6df34ca5",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 17,
+      "before": "But if we don't divide them",
+      "after": "But if we don't split them exactly in half, won't people start fighting?",
+      "reason": "Preserve pupil's literal division misconception."
+    },
+    {
+      "resource_row": 18,
+      "before": "evenly, won't people",
+      "after": "",
+      "reason": "Preserve pupil's literal division misconception."
+    },
+    {
+      "resource_row": 19,
+      "before": "start fighting?",
+      "after": "",
+      "reason": "Preserve pupil's literal division misconception."
+    },
+    {
+      "resource_row": 46,
+      "before": "Sure, Teacher Alieze.",
+      "after": "Sure, Teacher Alieze. Please help me.",
+      "reason": "Restore request for help settled by preceding calculation question."
+    },
+    {
+      "resource_row": 47,
+      "before": "Please.",
+      "after": "",
+      "reason": "Restore request for help settled by preceding calculation question."
+    },
+    {
+      "resource_row": 75,
+      "before": "Principal Genji said",
+      "after": "It was just as Principal Genji said...",
+      "reason": "Source confirms experience matched Genji's words, not only that he said similar words."
+    },
+    {
+      "resource_row": 76,
+      "before": "the same thing...",
+      "after": "",
+      "reason": "Source confirms experience matched Genji's words, not only that he said similar words."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Dalima contents are not identified botanically; neutral pieces avoids inventing seeds. Fictional fruit spelling is already established in glossary."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

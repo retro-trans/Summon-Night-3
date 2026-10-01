@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_4608.json",
+  "review_sha256": "e8e5d3fc42d82582fb3886715f3d2f5d581e56e45c8d5f4060b61fa198cbbeda",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4608.targets.json",
+  "target_before_sha256": "d96f1fee8c4a87ef2b763a2f570c4f7adc71b014b7e8f56ed213c29de226e2d7",
+  "target_after_sha256": "e74c63643eca60e9aa3bfdde48511fae913183bbd545fcc31b4367ca934c3ddd",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4608,
+      4687
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4683,
+      "before": "I'll destroy it! Everything... I'll kill them! Everyone!!",
+      "after": "I will destroy it! I will kill everything... everyone!!",
+      "reason": "The source escalates from destroying the world to killing everything and everyone; the target’s “kill them” loses the explicit all-inclusive object."
+    },
+    {
+      "resource_row": 4684,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 4685,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

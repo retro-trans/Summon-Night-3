@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4288.targets.json",
+  "target_file_sha256": "5a86ad510ec44fbdf7631cec52101b8f66c30d23a9dd24fff6e2f4d32abc9498",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4288,
+      4367
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4287,
+      4369
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 4356,
+      "source_sha256": "39cfe203afac3eb2a7ee73b7d1ae1ea14b495226653520c89bb0e2429508f2fd",
+      "text": "W-What is this... You've grown a beard, looking so important!",
+      "reason": "The source mocks the bearded person acting important; the beard itself is not arrogant."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Unverified names, groups, and technical terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning/control review only; no target applied. Root read complete groups4205–4450 and both slice boundaries; supplementary meaning review."
+}

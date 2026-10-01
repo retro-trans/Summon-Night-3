@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "reviewer": "root independent of author ch18_b",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2448.targets.json",
+  "target_file_sha256": "444a9dedd4f995cb3188057b999c1a05ae94bb1dcfd9e5199e3984c765d63596",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2448,
+      2527
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2446,
+      2530
+    ]
+  ],
+  "rows_examined": 85,
+  "corrections": [
+    {
+      "resource_row": 2467,
+      "source_sha256": "2305c75ddf210fb76708722675e6f26a058e807abc1ed709dc4ca9799fca8c73",
+      "text": "As for me, the fact that you were using such powerful summoning arts with so little knowledge...",
+      "reason": "Preserve direct addressee; leave reaction to following original VM group."
+    },
+    {
+      "resource_row": 2470,
+      "source_sha256": "f5c7c7faf097483ad9a6bb52904f582a1a7780e510ba289b4586277e77061781",
+      "text": "...leaves me amazed, frustrated, and worried about the risks. My feelings are complicated.",
+      "reason": "Preserve all stated reactions in this original group."
+    },
+    {
+      "resource_row": 2480,
+      "source_sha256": "f01c3860e80a9f77422114ec5deeadd563f3e5f2250a6d8851484aad02b53b19",
+      "text": "I can see... something...",
+      "reason": "Lookout reports own observation to people below; not listener's perception."
+    },
+    {
+      "resource_row": 2515,
+      "source_sha256": "d54e3866a7ed5699b8917096122631112be6b63ddcd6aa692801afa71c3c6968",
+      "text": "I hope you get to see them again... one more time.",
+      "reason": "Meimei addresses Paffel after her hesitation; source next box is Paffel's remembered person, not a shared 'we' reunion."
+    },
+    {
+      "resource_row": 2517,
+      "source_sha256": "781295f1a7a30842948f96f6ec4ca9682ed04932c2c488812d4a2d04dea073dd",
+      "text": "The first person I ever wanted to believe in...",
+      "reason": "First modifies the person trusted, not the speaker being first among others to trust."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2515
+      ],
+      "issue": "Addressee Paffel inferred from2500–2519; reunion person gender not specified here."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        2502,
+        2517
+      ],
+      "issue": "Paffel hesitation and internal noun-phrase memory intentionally trail off."
+    }
+  ],
+  "notes": "All source VM groups and both slice boundaries read. No name-only edits; name normalization pending after meaning review."
+}

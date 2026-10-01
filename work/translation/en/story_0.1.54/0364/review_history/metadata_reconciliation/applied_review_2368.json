@@ -1,0 +1,85 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0364/review_meaning_2368.json",
+  "review_sha256": "7e9443a5b47161b3fa539bac943162cff68d0e54f1678c7305025eb218afee12",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2368.targets.json",
+  "target_before_sha256": "f3b4249adfcda82b0bffc215da8a83537dcb709c0e71a621e260caf6d5665f0a",
+  "target_after_sha256": "fda025c533f8c1051334ae8673a914bed0e941c2e8c110455454cb8a3f74aac8",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2368,
+      2447
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2383,
+      "before": "Unless it reflects ●,",
+      "after": "Unless it reflects the light of ●,",
+      "reason": "The protected marker names the sun in the source. Current wording makes it appositional with 'the sun's light,' which instead treats the marker as the light."
+    },
+    {
+      "resource_row": 2384,
+      "before": "the sun's light,",
+      "after": "the sun,",
+      "reason": "Explicitly completes the source metaphor: ● is the sun whose light she must reflect."
+    },
+    {
+      "resource_row": 2385,
+      "before": "it cannot shine.",
+      "after": "it cannot shine.",
+      "reason": "Finishes the source's negative result: without reflecting the sun's light, she cannot shine."
+    },
+    {
+      "resource_row": 2414,
+      "before": "No, they haven't",
+      "after": "No, they haven't",
+      "reason": "The source negates Teacher coming to the speaker's place; it does not establish that Teacher intended to see the speaker."
+    },
+    {
+      "resource_row": 2415,
+      "before": "come to see me.",
+      "after": "come by here.",
+      "reason": "Restores the locational meaning without adding the unsupported purpose 'to see me.'"
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2383,
+        2384,
+        2385
+      ],
+      "issue": "● is a protected player marker. The source explicitly calls ● the sun, rather than sunlight; the correction keeps ● as the sun and the reflected object as its light without supplying an identity."
+    },
+    {
+      "rows": [
+        2386,
+        2387,
+        2388,
+        2397,
+        2398,
+        2399,
+        2400,
+        2401,
+        2402,
+        2404,
+        2405,
+        2406,
+        2407,
+        2414,
+        2415,
+        2435,
+        2436,
+        2437,
+        2438,
+        2439,
+        2443,
+        2444,
+        2445
+      ],
+      "issue": "Teacher is player-selected. Singular-they language preserves the established referent without gender inference."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

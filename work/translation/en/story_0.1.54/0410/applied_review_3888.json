@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_3888.json",
+  "review_sha256": "bf2e455b2ad67672ebb071d7506ee6926a8065b17172462f51e238b8454471e3",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3888.targets.json",
+  "target_before_sha256": "b1204698c19d8d748142e465fd57134ee7726dc77da98119671bcc4c5e544ff5",
+  "target_after_sha256": "a4818b6f7f2b6e3ee07ac3ba810e8b658b536a9beffbdbb2e7f4df5b99c1ee52",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3888,
+      3967
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3922,
+      "before": "Don't get serious. Watch things",
+      "after": "I never get serious. I watch things from a distance, and if there is nothing in it for me, I decide not to get involved.",
+      "reason": "The source is Ishlar’s stated method of living; the target changes it into an imperative addressed to others."
+    },
+    {
+      "resource_row": 3923,
+      "before": "from a distance, and if there's",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 3924,
+      "before": "nothing in it for you, don't get involved.",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

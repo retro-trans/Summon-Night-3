@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4837.targets.json",
+  "target_file_sha256": "a943b970b57ddbc4286a8101e6d10e761369216cccba0af25730d98fb0eb8d0b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4837,
+      4916
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4596,
+      4918
+    ]
+  ],
+  "rows_examined": 323,
+  "corrections": [
+    {
+      "resource_row": 4897,
+      "source_sha256": "74be506629f953d7b3da23a2373d547d181e0b42f458b1348959699bca6088cf",
+      "text": "I discussed it with Yafha",
+      "reason": "Dono is a respectful peer address here, not evidence that Yafha is Kyuuma's feudal lord."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        4915,
+        4916
+      ],
+      "note": "The source group continues through4917 outside this slice. Its full meaning is already present in4915–4916;4917 must stay empty rather than duplicate the request. Final boundary readback remains required."
+    }
+  ],
+  "omissions": [
+    {
+      "note": "Cries, silence, interrupted questions and dependent clauses continuing across adjacent boxes retain their source function."
+    }
+  ],
+  "notes": "Root independently compared every full VM dialogue group and both-side context. Proposed fixes assessed with the full current group text, including adjacent slices. No stylistic rewrites."
+}

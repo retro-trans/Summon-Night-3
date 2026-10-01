@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_1808.targets.json",
+  "target_file_sha256": "3cd1a08d7b0e7483f1a5770d77ee6f8b218b8dad599a490d1195a6a59e0a5d6e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1808,
+      1887
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1804,
+      2134
+    ]
+  ],
+  "rows_examined": 331,
+  "corrections": [
+    {
+      "resource_row": 1812,
+      "source_sha256": "b0f5678ccf7f558c275ff8bec7c015f00f029db60a6e35865924c7f660536319",
+      "text": "I wanted to protect them",
+      "reason": "Restore protection verb in this box."
+    },
+    {
+      "resource_row": 1813,
+      "source_sha256": "7db765deb55cf16144cc617c467969e39b764220100e508d0f0b469d559557e7",
+      "text": "from sorrow and suffering...",
+      "reason": "Restore complete wish within the original box."
+    },
+    {
+      "resource_row": 1814,
+      "source_sha256": "3425adda403bfeb21c866f69b17a3eefb27519c60565a772dc8aa6cf285e1805",
+      "text": "All I wished was for them",
+      "reason": "Restore that this was the only wish."
+    },
+    {
+      "resource_row": 1817,
+      "source_sha256": "d89b132ddb5ba844954658bff35c38cedc8eaead107d51b792fb6b0497d4eb9b",
+      "text": "Not a single person or thing,",
+      "reason": "Keep the source object in its own box."
+    },
+    {
+      "resource_row": 1818,
+      "source_sha256": "0a8c818997f03565cdd97c25be9a5ccba60070728e13ea708a2b6acf9d2feb91",
+      "text": "from either my enemies or my allies...",
+      "reason": "Keep source enemies/allies relation."
+    },
+    {
+      "resource_row": 1819,
+      "source_sha256": "fd239cb580b44984a4114d51c03fb65c7cb42145bcbce183e1e64cd5f426f82c",
+      "text": "Without taking anything away,",
+      "reason": "Keep the taking/protecting opposition."
+    },
+    {
+      "resource_row": 1820,
+      "source_sha256": "7db765deb55cf16144cc617c467969e39b764220100e508d0f0b469d559557e7",
+      "text": "I only wanted to protect...",
+      "reason": "Keep the protection verb."
+    },
+    {
+      "resource_row": 1860,
+      "source_sha256": "ec0b2eb748dbe5ff0d7e5cb4a9fb1b5c169a1a6057fdc5fbb772c10e03062921",
+      "text": "How are they?",
+      "reason": "Shared protagonist reference must cover Rex and Aty."
+    },
+    {
+      "resource_row": 1862,
+      "source_sha256": "fa6a8388596dd83ad3584678df36fda3829c86679ac40bbf9eb2303dae610502",
+      "text": "They haven't even touched",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1864,
+      "source_sha256": "5962dc74990b5f9e27f48f3164f8e5f020564d2e158aa1161fff8bed703135d2",
+      "text": "They've gone without food or drink",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1865,
+      "source_sha256": "9b5159e5b188e68d65141640f4f0528ca7cea214e158953731efeb8ea4fae03a",
+      "text": "and shut themselves in their room",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1867,
+      "source_sha256": "96ed99882bc4a8a692ba9bfbbc5efbaa93f10fb410f0455617d0a876c7f6623b",
+      "text": "Their wounds haven't even been",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1872,
+      "source_sha256": "060871a1b445070c4a0f3c47476df2c8815baf23c26223212906236a43d5353d",
+      "text": "them a meal...",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1878,
+      "source_sha256": "668b0acbf38c3f3dd4939277e33fde0b0318ea3d6fd4fc5f9fcb6eb2fd7d1ad6",
+      "text": "Just leave them be.",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1887,
+      "source_sha256": "7e122c47137dac9f8d6c64e6dad6c4e038f18d57111b37107efb3a7025d4d0d9",
+      "text": "Do Veiger women",
+      "reason": "Restore the race and women, not mechanical dolls."
+    }
+  ],
+  "uncertainties": [
+    {
+      "row": 1860,
+      "note": "Common dialogue serves both protagonist genders; explicit male/female variants1906–1913 retained."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared full VM boxes with Japanese source, including both-side context and cross-slice boxes. Correct meaning before normalization; no source transcript saved."
+}

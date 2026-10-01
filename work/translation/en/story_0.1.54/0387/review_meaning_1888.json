@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_1888.targets.json",
+  "target_file_sha256": "f42a25ad0956d8835eb751243ac0615d928ad4ef1096d8b46ab6b23af08d976f",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1888,
+      1967
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1804,
+      2134
+    ]
+  ],
+  "rows_examined": 331,
+  "corrections": [
+    {
+      "resource_row": 1888,
+      "source_sha256": "b4b1ac527ee4b2230508991beba8761e5ec691a24f873acc3d83909d6584e69d",
+      "text": "have no heart!?",
+      "reason": "Source blood/tears is an idiom for compassion."
+    },
+    {
+      "resource_row": 1903,
+      "source_sha256": "a2a44b4b612fe7d33a54850cbfdccc5da623bbe34b857a4c808e03335ba121b2",
+      "text": "Unless they can stand",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1905,
+      "source_sha256": "8e4118eecb161beaaf5d01ab8be66ebb7eebb6b25720f88eac1a2945cde94da1",
+      "text": "we can do to help them.",
+      "reason": "Shared protagonist reference."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared full VM boxes with Japanese source, including both-side context and cross-slice boxes. Correct meaning before normalization; no source transcript saved."
+}

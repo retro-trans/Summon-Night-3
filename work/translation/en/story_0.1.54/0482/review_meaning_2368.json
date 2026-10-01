@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2368.targets.json",
+  "target_file_sha256": "b1f871fd1cd3e942bd602d7f024feb4f39493388117be872489c62d033848190",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2368,
+      2447
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2367,
+      2448
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 2407,
+      "source_sha256": "e19ace7ad588648283c1a1525c1819d50e53cb13aa556c02f69d4eb697529465",
+      "text": "I-is that so? I don't really...",
+      "reason": "The source begins with Belfraw's evasive 'I-is that so?' before the denial; the authored text drops that opening."
+    }
+  ],
+  "name_normalization_requested": [],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review; proposed corrections are meaning and actor/reference fixes only. No name normalization applied."
+}

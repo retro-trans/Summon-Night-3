@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00249",
+  "source_sha256": "e3c0ac50ec01fb9606a8cf187d24791b3e787ee38da5f8d48c733777bbb2cc6e",
+  "target_file": "work/translation/en/story_0.1.54/0249/slice_1808.targets.json",
+  "target_file_sha256": "f5a658f64610c25138b4c2b2105dd6a113b241d7adfb9a5ca2bc80da5179f931",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1968,
+      2033
+    ],
+    "count": 66
+  },
+  "source_ranges_examined": [
+    [
+      1967,
+      2035
+    ]
+  ],
+  "rows_examined": 69,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        2005,
+        2006,
+        2007
+      ],
+      "issue": "These source fragments provide only the prospective companion, with the invitation verb supplied by the following choice entries. The existing English Ask ▲... preserves that prompt function and the placeholder; no change proposed."
+    }
+  ],
+  "omissions": [],
+  "notes": "Independent source-first review of every row and full adjacent VM context. One source-direction correction is required at the final dialogue box.",
+  "root_consolidation": "Root checked full source groups2027-2041. If you insist correctly expresses the reluctant response and does not reverse speaker/listener direction; retained existing English under fix-wrong-not-merely-different rule."
+}

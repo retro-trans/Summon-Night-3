@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "reviewer": "root independent of author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2688.targets.json",
+  "target_file_sha256": "6d4bc62737a7dec366d713d924b9d0b7637fd066c4bdee9bc6d18849e263e2af",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2688,
+      2767
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2685,
+      2772
+    ]
+  ],
+  "rows_examined": 88,
+  "corrections": [
+    {
+      "resource_row": 2688,
+      "source_sha256": "153c8becb393754e197f8e2c8505e8bf63b99a0f30a90a6ff7014000b8363c6d",
+      "text": "",
+      "reason": "Continuation of group2687–2689; whole meaning moved back to correct first-row anchor2687."
+    },
+    {
+      "resource_row": 2718,
+      "source_sha256": "7a8c9ce0830cfdd839ab3527527196c4b2f69a937ffe87315579ec36dad5bbb0",
+      "text": "This child is a fairy from Maetropa...",
+      "reason": "Restore known subject and verb rather than ungrammatical detached fragments."
+    },
+    {
+      "resource_row": 2720,
+      "source_sha256": "bdbbc73a89c3f672b7146326b0d581872aead2ca7b3dc7053cea1fa279e64f78",
+      "text": "Yes, yes. This must be a flower fairy.",
+      "reason": "Restore subject and verb settled by immediately preceding dialogue."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2761
+      ],
+      "issue": "Battle-start declaration may command companions or announce own attack. Current generic announcement retained; do not invent a particular target or gender."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        2699,
+        2702,
+        2729,
+        2734,
+        2741,
+        2743,
+        2755,
+        2758
+      ],
+      "issue": "Source suspicions, oath, interrupted movement command, anger declaration split across boxes and interrupted attempts to explain deliberately preserved."
+    }
+  ],
+  "notes": "Read all source groups and target groups plus both boundaries. Preserve unfinished source utterances; name normalization follows all meaning corrections."
+}

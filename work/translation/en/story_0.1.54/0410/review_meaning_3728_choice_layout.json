@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3728.targets.json",
+  "target_file_sha256": "5c55f66e1f3e8225ee4c2355100a6b6d3a419d9b72e00d1d83fcf3eba4e341fc",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3758,
+      3761
+    ],
+    "count": 4
+  },
+  "source_ranges_examined": [
+    [
+      3753,
+      3764
+    ]
+  ],
+  "rows_examined": 12,
+  "corrections": [
+    {
+      "resource_row": 3758,
+      "source_sha256": "95d3fbc1c3024964a3551727674fa8586336a0525a4c061be61fba215ba10f55",
+      "text": "Let's end this, okay?",
+      "reason": "Measured 208px choice label: preserve request to end fighting or reveal true wish; full dialogue remains unchanged."
+    },
+    {
+      "resource_row": 3759,
+      "source_sha256": "d2c043ce977e63d8b9213884b9a89e081c21a4fb9de9ccbd2ea2f43771164f2c",
+      "text": "Tell me your true wish!",
+      "reason": "Measured 208px choice label: preserve request to end fighting or reveal true wish; full dialogue remains unchanged."
+    },
+    {
+      "resource_row": 3761,
+      "source_sha256": "b190f96576cb625293924fc0292fd1d5ac0c2ce1ebad3460bb3120cb55360349",
+      "text": "Tell me your true wish!",
+      "reason": "Measured 208px choice label: preserve request to end fighting or reveal true wish; full dialogue remains unchanged."
+    }
+  ],
+  "uncertainties": [
+    {
+      "row": 3759,
+      "issue": "Choice compacts the desire to know into an explicit request to tell the speaker; retains true wish and request direction."
+    }
+  ],
+  "omissions": [],
+  "notes": "Independent source-first choice review after compiler identified original choice helper2012. Does not paginate menu entries. Pixel widths173,187,187; max31 units."
+}

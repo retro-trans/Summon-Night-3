@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00463",
+  "source_sha256": "b615d220136328cd9a606b71413c1369dfabc42cf03a022c1ff18469a933e94d",
+  "target_file": "work/translation/en/story_0.1.54/0463/slice_0091.targets.json",
+  "target_file_sha256": "835ca28ab9f7eff736707a6ae846800c27250400b39530d4c3985f54073474f6",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      170
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      190
+    ]
+  ],
+  "rows_examined": 181,
+  "corrections": [
+    {
+      "resource_row": 165,
+      "source_sha256": "8967699465d3efb5f77ad9d19a0f7aec4776dde0d2d0f7c83e9f261864547971",
+      "text": "Let's keep taking care of each other, okay?",
+      "reason": "Keep the speaker’s reciprocal request for the relationship to continue, rather than adding an unsupported “stay together” promise."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of the full resource and actual VM dialogue groups. Cross-slice dialogue box checked on both sides. Proper-name normalization, including Rikt, is deferred to the name script."
+}

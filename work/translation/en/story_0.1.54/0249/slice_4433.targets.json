@@ -1,0 +1,1206 @@
+{
+  "resource_id": "00:00249",
+  "range_inclusive": [
+    4433,
+    4512
+  ],
+  "source_sha256": "e3c0ac50ec01fb9606a8cf187d24791b3e787ee38da5f8d48c733777bbb2cc6e",
+  "review_status": "author self-check; no independent meaning review",
+  "source_ranges_examined": [
+    [
+      4423,
+      4533
+    ]
+  ],
+  "rows_examined": 111,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "rows": [
+        4449,
+        4451
+      ],
+      "issue": "The speaker refers vaguely to a preferable alternative; English retains the comparative without specifying the unstated alternative."
+    },
+    {
+      "rows": [
+        4481,
+        4485
+      ],
+      "issue": "The Japanese phrase is colloquial and figurative; it is rendered as apparently drunk, preserving the observers uncertainty."
+    }
+  ],
+  "preserved_source_omissions": {
+    "continuations": [
+      4434,
+      4436,
+      4440,
+      4442,
+      4449,
+      4454,
+      4457,
+      4460,
+      4464,
+      4467,
+      4471,
+      4472,
+      4474,
+      4478,
+      4481,
+      4483,
+      4486,
+      4489,
+      4491,
+      4494,
+      4497,
+      4503,
+      4506,
+      4509,
+      4511
+    ],
+    "reactions": [
+      4433,
+      4438,
+      4439,
+      4445,
+      4446,
+      4447,
+      4448,
+      4452,
+      4453,
+      4456,
+      4463,
+      4470,
+      4493,
+      4498,
+      4499,
+      4500,
+      4501,
+      4502,
+      4508
+    ]
+  },
+  "notes": "Numbered every source row before drafting. Read surrounding rows 4423-4533. The paired protagonist variants are preserved as separately aligned sentence groups. Yukres Village and Jakini use grounded project spellings.",
+  "translations": {
+    "00:00249:text:000429c6": {
+      "source_offset": 272838,
+      "pool_word_offset": 41822,
+      "source_byte_length": 4,
+      "source_sha256": "3c4a100d9c796f7a7a83c9a3588a19e46d5dba776f1861254eaeb3e3c7f8badd",
+      "contains_japanese": false,
+      "reference_instructions": [
+        160340
+      ],
+      "id": "00:00249:text:000429c6",
+      "resource_row": 4433,
+      "text": "!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:000429cc": {
+      "source_offset": 272844,
+      "pool_word_offset": 41825,
+      "source_byte_length": 14,
+      "source_sha256": "8f1d69a98eca3283287679e037c39b516b328e839396dc566eb5715926ddb57c",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160384
+      ],
+      "id": "00:00249:text:000429cc",
+      "resource_row": 4434,
+      "text": "That explosion...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:000429dc": {
+      "source_offset": 272860,
+      "pool_word_offset": 41833,
+      "source_byte_length": 20,
+      "source_sha256": "2c588c88628a9c4ff130476c97f596bc50cb0dd0d3616785c2d88a559cb1b678",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160392
+      ],
+      "id": "00:00249:text:000429dc",
+      "resource_row": 4435,
+      "text": "came from Yukres Village!",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:000429f2": {
+      "source_offset": 272882,
+      "pool_word_offset": 41844,
+      "source_byte_length": 14,
+      "source_sha256": "8f1d69a98eca3283287679e037c39b516b328e839396dc566eb5715926ddb57c",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160422
+      ],
+      "id": "00:00249:text:000429f2",
+      "resource_row": 4436,
+      "text": "That explosion...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042a02": {
+      "source_offset": 272898,
+      "pool_word_offset": 41852,
+      "source_byte_length": 20,
+      "source_sha256": "e582bce57054eaa430aeb70bca62bd1f39f379553ec3e4460bbb3d4a7970a0d3",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160430
+      ],
+      "id": "00:00249:text:00042a02",
+      "resource_row": 4437,
+      "text": "from Yukres Village!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042a18": {
+      "source_offset": 272920,
+      "pool_word_offset": 41863,
+      "source_byte_length": 16,
+      "source_sha256": "7ee0258396c10dca34342a07ca037b46d62207f1d3e456a110974b25cb0235aa",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160656
+      ],
+      "id": "00:00249:text:00042a18",
+      "resource_row": 4438,
+      "text": "What happened!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042a2a": {
+      "source_offset": 272938,
+      "pool_word_offset": 41872,
+      "source_byte_length": 16,
+      "source_sha256": "5e792bbfba8306f9d5f0a7bc29cb58607e01e28232173731a35fb1c8c2658034",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160686
+      ],
+      "id": "00:00249:text:00042a2a",
+      "resource_row": 4439,
+      "text": "What happened!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042a3c": {
+      "source_offset": 272956,
+      "pool_word_offset": 41881,
+      "source_byte_length": 14,
+      "source_sha256": "ce64e9a9b2e14dc93f82c614af798c38a95862b66fa04df1e911990e3267861a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160744
+      ],
+      "id": "00:00249:text:00042a3c",
+      "resource_row": 4440,
+      "text": "Ah,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042a4c": {
+      "source_offset": 272972,
+      "pool_word_offset": 41889,
+      "source_byte_length": 18,
+      "source_sha256": "3007ae721209224d480ae0c32108531b90ba06bc0e8ac8e8b76b7eb92ddf50ed",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160752
+      ],
+      "id": "00:00249:text:00042a4c",
+      "resource_row": 4441,
+      "text": "you noticed after all.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042a60": {
+      "source_offset": 272992,
+      "pool_word_offset": 41899,
+      "source_byte_length": 20,
+      "source_sha256": "05002ea8c077052b5c7d28196f1865adf525bbba6acece894a7e458204b42686",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160828
+      ],
+      "id": "00:00249:text:00042a60",
+      "resource_row": 4442,
+      "text": "I would rather not have",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042a76": {
+      "source_offset": 273014,
+      "pool_word_offset": 41910,
+      "source_byte_length": 16,
+      "source_sha256": "1b49164d174eb7028bc1386fe421e87ced6c9d9b79714586b9e64d643cac9c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160836
+      ],
+      "id": "00:00249:text:00042a76",
+      "resource_row": 4443,
+      "text": "troubled you",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042a88": {
+      "source_offset": 273032,
+      "pool_word_offset": 41919,
+      "source_byte_length": 16,
+      "source_sha256": "cf465491070c4b383b26be5e3e8d9c9b8b1e9f4e85ec20805950b00bb41e0eb6",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160844
+      ],
+      "id": "00:00249:text:00042a88",
+      "resource_row": 4444,
+      "text": "with it, but...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042a9a": {
+      "source_offset": 273050,
+      "pool_word_offset": 41928,
+      "source_byte_length": 18,
+      "source_sha256": "811ed1447426cdb74d22fb5e668059af599eb56efeca06d099809da6668964fb",
+      "contains_japanese": true,
+      "reference_instructions": [
+        160942
+      ],
+      "id": "00:00249:text:00042a9a",
+      "resource_row": 4445,
+      "text": "The Imperial Army!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042aae": {
+      "source_offset": 273070,
+      "pool_word_offset": 41938,
+      "source_byte_length": 18,
+      "source_sha256": "811ed1447426cdb74d22fb5e668059af599eb56efeca06d099809da6668964fb",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161020
+      ],
+      "id": "00:00249:text:00042aae",
+      "resource_row": 4446,
+      "text": "The Imperial Army!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042ac2": {
+      "source_offset": 273090,
+      "pool_word_offset": 41948,
+      "source_byte_length": 18,
+      "source_sha256": "811ed1447426cdb74d22fb5e668059af599eb56efeca06d099809da6668964fb",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161098
+      ],
+      "id": "00:00249:text:00042ac2",
+      "resource_row": 4447,
+      "text": "The Imperial Army!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042ad6": {
+      "source_offset": 273110,
+      "pool_word_offset": 41958,
+      "source_byte_length": 18,
+      "source_sha256": "811ed1447426cdb74d22fb5e668059af599eb56efeca06d099809da6668964fb",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161176
+      ],
+      "id": "00:00249:text:00042ad6",
+      "resource_row": 4448,
+      "text": "The Imperial Army!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042aea": {
+      "source_offset": 273130,
+      "pool_word_offset": 41968,
+      "source_byte_length": 18,
+      "source_sha256": "9191da8a423a183727356dce033770da2f6644a5a8368c2e179b25cf8b8bcecd",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161304
+      ],
+      "id": "00:00249:text:00042aea",
+      "resource_row": 4449,
+      "text": "Honestly, that would have",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042afe": {
+      "source_offset": 273150,
+      "pool_word_offset": 41978,
+      "source_byte_length": 20,
+      "source_sha256": "a787261a131c7e2084ed52b6441ce3c838ad6ee8831e1049ab9c53586889f693",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161312
+      ],
+      "id": "00:00249:text:00042afe",
+      "resource_row": 4450,
+      "text": "been less complicated,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042b14": {
+      "source_offset": 273172,
+      "pool_word_offset": 41989,
+      "source_byte_length": 20,
+      "source_sha256": "dc2cd97bdc70f106bdea401958bdc0f1a8eeda4d30b35497e3cc7febff9d029a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161320
+      ],
+      "id": "00:00249:text:00042b14",
+      "resource_row": 4451,
+      "text": "though...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042b2a": {
+      "source_offset": 273194,
+      "pool_word_offset": 42000,
+      "source_byte_length": 18,
+      "source_sha256": "fc9af22c3361ee79a72bc310d21ca021da564a49222f93096df677ed41e73435",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161522
+      ],
+      "id": "00:00249:text:00042b2a",
+      "resource_row": 4452,
+      "text": "Look over there...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042b3e": {
+      "source_offset": 273214,
+      "pool_word_offset": 42010,
+      "source_byte_length": 18,
+      "source_sha256": "c3d2c8a9c8fefacf74247e7ee965949312f46e285530167342bd21c7c7419114",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161730
+      ],
+      "id": "00:00249:text:00042b3e",
+      "resource_row": 4453,
+      "text": "Mwahahahaha!",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042b52": {
+      "source_offset": 273234,
+      "pool_word_offset": 42020,
+      "source_byte_length": 28,
+      "source_sha256": "8de2a6c1f4e07ccd29aed1d44b8ca5f0a532a084fd56e07d21cfc2093323d8c7",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161738
+      ],
+      "id": "00:00249:text:00042b52",
+      "resource_row": 4454,
+      "text": "How do you like it? Have you felt",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042b70": {
+      "source_offset": 273264,
+      "pool_word_offset": 42035,
+      "source_byte_length": 22,
+      "source_sha256": "ee051ce2bade78254dadc473484f36bce21bc723badcd1912007c01fb03d5c6f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161746
+      ],
+      "id": "00:00249:text:00042b70",
+      "resource_row": 4455,
+      "text": "our anger!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042b88": {
+      "source_offset": 273288,
+      "pool_word_offset": 42047,
+      "source_byte_length": 18,
+      "source_sha256": "e4ad734fa00c3591a38de13c8460425c00d1ec34c27ce6bc9dcb03da9c3129b1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161886
+      ],
+      "id": "00:00249:text:00042b88",
+      "resource_row": 4456,
+      "text": "Jakini!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042b9c": {
+      "source_offset": 273308,
+      "pool_word_offset": 42057,
+      "source_byte_length": 26,
+      "source_sha256": "42d22dd04bdf06a8056aa8580e17377ac1cf3ef4a31b1963770c54e89d7f7063",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161956
+      ],
+      "id": "00:00249:text:00042b9c",
+      "resource_row": 4457,
+      "text": "Not long after you left,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042bb8": {
+      "source_offset": 273336,
+      "pool_word_offset": 42071,
+      "source_byte_length": 18,
+      "source_sha256": "0c9021ad670c6fb081b260f79d26e4658bbd963ecd4931be16e7848374b5765e",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161964
+      ],
+      "id": "00:00249:text:00042bb8",
+      "resource_row": 4458,
+      "text": "they suddenly started",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042bcc": {
+      "source_offset": 273356,
+      "pool_word_offset": 42081,
+      "source_byte_length": 18,
+      "source_sha256": "056a003afc795018cd2c2eab2a2df44265ae2213ac1e04aa08a54fc0f160e1c3",
+      "contains_japanese": true,
+      "reference_instructions": [
+        161972
+      ],
+      "id": "00:00249:text:00042bcc",
+      "resource_row": 4459,
+      "text": "causing trouble.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042be0": {
+      "source_offset": 273376,
+      "pool_word_offset": 42091,
+      "source_byte_length": 28,
+      "source_sha256": "ac95755d99e985c0cdd611d5f2d7e02fd0d4975cadf8d310ee0ddbec8ce62147",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162018
+      ],
+      "id": "00:00249:text:00042be0",
+      "resource_row": 4460,
+      "text": "They occupied that area and harass",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042bfe": {
+      "source_offset": 273406,
+      "pool_word_offset": 42106,
+      "source_byte_length": 24,
+      "source_sha256": "f7fcfa6609a75d4bccad228b00b600cc3f151a421c6ac5025dbd1aa7076a7804",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162026
+      ],
+      "id": "00:00249:text:00042bfe",
+      "resource_row": 4461,
+      "text": "passersby, driving them",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042c18": {
+      "source_offset": 273432,
+      "pool_word_offset": 42119,
+      "source_byte_length": 18,
+      "source_sha256": "ab0bb6cebebbbfcdb09e8cacfda29422eddba650180973e33eb9937554a751ec",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162034
+      ],
+      "id": "00:00249:text:00042c18",
+      "resource_row": 4462,
+      "text": "away.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042c2c": {
+      "source_offset": 273452,
+      "pool_word_offset": 42129,
+      "source_byte_length": 16,
+      "source_sha256": "5892f7b5fd25f2271ee2deaebda92a5e70d9946e5f14d74fd0f353f093dbf1ee",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162110
+      ],
+      "id": "00:00249:text:00042c2c",
+      "resource_row": 4463,
+      "text": "What a nuisance.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042c3e": {
+      "source_offset": 273470,
+      "pool_word_offset": 42138,
+      "source_byte_length": 18,
+      "source_sha256": "9604127d137cf9238cb9c8df8aa9ca03357f06ab8ab6ef8f683339ae8a5f3501",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162168
+      ],
+      "id": "00:00249:text:00042c3e",
+      "resource_row": 4464,
+      "text": "Not long after you left,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042c52": {
+      "source_offset": 273490,
+      "pool_word_offset": 42148,
+      "source_byte_length": 16,
+      "source_sha256": "8ad86c4f84c0b742b8576c2c79f5b46320128e23bed1009b6233379bb29607a7",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162176
+      ],
+      "id": "00:00249:text:00042c52",
+      "resource_row": 4465,
+      "text": "they suddenly started",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042c64": {
+      "source_offset": 273508,
+      "pool_word_offset": 42157,
+      "source_byte_length": 24,
+      "source_sha256": "076470b437ec947e4aa08e7fdde7ed8e4f800b4cac344f019b67878c3a689a16",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162184
+      ],
+      "id": "00:00249:text:00042c64",
+      "resource_row": 4466,
+      "text": "causing trouble.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042c7e": {
+      "source_offset": 273534,
+      "pool_word_offset": 42170,
+      "source_byte_length": 24,
+      "source_sha256": "3f7b4c3fa0643252d4e51a1146609b88feb97ad1ccc22653306c5508aeeaea63",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162230
+      ],
+      "id": "00:00249:text:00042c7e",
+      "resource_row": 4467,
+      "text": "They occupied that area and harass",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042c98": {
+      "source_offset": 273560,
+      "pool_word_offset": 42183,
+      "source_byte_length": 28,
+      "source_sha256": "42c191488dc282cd2251fdf89b6190c25fe30296ad20a6e1e6e7b1de23641c52",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162238
+      ],
+      "id": "00:00249:text:00042c98",
+      "resource_row": 4468,
+      "text": "passersby,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042cb6": {
+      "source_offset": 273590,
+      "pool_word_offset": 42198,
+      "source_byte_length": 22,
+      "source_sha256": "017deb0692bb4b4fd1f184aec532b165ca3b08c726b2986e987b3f00cf630b07",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162246
+      ],
+      "id": "00:00249:text:00042cb6",
+      "resource_row": 4469,
+      "text": "driving them away.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042cce": {
+      "source_offset": 273614,
+      "pool_word_offset": 42210,
+      "source_byte_length": 14,
+      "source_sha256": "2ddc5034ce75f855774902228fc06e21712585666a048e2a1211b2c169f2fc3b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162322
+      ],
+      "id": "00:00249:text:00042cce",
+      "resource_row": 4470,
+      "text": "What a nuisance.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042cde": {
+      "source_offset": 273630,
+      "pool_word_offset": 42218,
+      "source_byte_length": 14,
+      "source_sha256": "dcb374b83709439bb78c2098832046da7dd946a866f15f29c4cf3948394d5225",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162402
+      ],
+      "id": "00:00249:text:00042cde",
+      "resource_row": 4471,
+      "text": "That idiot...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042cee": {
+      "source_offset": 273646,
+      "pool_word_offset": 42226,
+      "source_byte_length": 18,
+      "source_sha256": "f29407d7df9b6a3248eb99134194d6d4955cecab2bc6b2958280f9f5043f4bf0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162410
+      ],
+      "id": "00:00249:text:00042cee",
+      "resource_row": 4472,
+      "text": "What is he trying to do",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042d02": {
+      "source_offset": 273666,
+      "pool_word_offset": 42236,
+      "source_byte_length": 12,
+      "source_sha256": "85d9bb45f29fb94b15b163559281e2e6edd1e822a3c28af9eb49c0b3fcfa3ff4",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162418
+      ],
+      "id": "00:00249:text:00042d02",
+      "resource_row": 4473,
+      "text": "again?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042d10": {
+      "source_offset": 273680,
+      "pool_word_offset": 42243,
+      "source_byte_length": 18,
+      "source_sha256": "f3b662f6269b547a594fc208ec571f1aa893dbccd7cc61f494aefd1141f35a95",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162506
+      ],
+      "id": "00:00249:text:00042d10",
+      "resource_row": 4474,
+      "text": "He says it is a rebellion,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042d24": {
+      "source_offset": 273700,
+      "pool_word_offset": 42253,
+      "source_byte_length": 20,
+      "source_sha256": "201024552cd6ecda374f83e49be47ecc8757745e2797428e9823660207b41752",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162514
+      ],
+      "id": "00:00249:text:00042d24",
+      "resource_row": 4475,
+      "text": "but",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042d3a": {
+      "source_offset": 273722,
+      "pool_word_offset": 42264,
+      "source_byte_length": 18,
+      "source_sha256": "778a37744376efb9403d018bb07e9954c98f6e6352209bf08455b019f01a73a0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162548
+      ],
+      "id": "00:00249:text:00042d3a",
+      "resource_row": 4476,
+      "text": "it does not look like one",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042d4e": {
+      "source_offset": 273742,
+      "pool_word_offset": 42274,
+      "source_byte_length": 16,
+      "source_sha256": "58af32ed21ec0eda39a9d1ae7b700ff359d7a4c90fd417ccdf22762c3b3bbf88",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162556
+      ],
+      "id": "00:00249:text:00042d4e",
+      "resource_row": 4477,
+      "text": "at all, does it?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042d60": {
+      "source_offset": 273760,
+      "pool_word_offset": 42283,
+      "source_byte_length": 20,
+      "source_sha256": "51bcbe77c658066ca11e85513ba1d1bb6f8f0f232012112b035da2132ccf4bf0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162636
+      ],
+      "id": "00:00249:text:00042d60",
+      "resource_row": 4478,
+      "text": "But if we leave them alone,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042d76": {
+      "source_offset": 273782,
+      "pool_word_offset": 42294,
+      "source_byte_length": 18,
+      "source_sha256": "397b33d01780c231b950edaa39ac189eb241941f5db60d1e28f49648fe70a63f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162644
+      ],
+      "id": "00:00249:text:00042d76",
+      "resource_row": 4479,
+      "text": "they look set to stay",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042d8a": {
+      "source_offset": 273802,
+      "pool_word_offset": 42304,
+      "source_byte_length": 16,
+      "source_sha256": "3227a88722b4363d66081af497ced9f36f9b5eb925411bf9fd6ce91fd775a0f6",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162652
+      ],
+      "id": "00:00249:text:00042d8a",
+      "resource_row": 4480,
+      "text": "forever...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042d9c": {
+      "source_offset": 273820,
+      "pool_word_offset": 42313,
+      "source_byte_length": 20,
+      "source_sha256": "744f227aa83c7b8a67daef3985d80b651d12a09834a0f492a9ff36d4d4856c05",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162728
+      ],
+      "id": "00:00249:text:00042d9c",
+      "resource_row": 4481,
+      "text": "He apparently means it as",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042db2": {
+      "source_offset": 273842,
+      "pool_word_offset": 42324,
+      "source_byte_length": 20,
+      "source_sha256": "7a853c6ab0c2a131f2c90d2757535fad7080d7e6c557f891c5142f7f55786b53",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162736
+      ],
+      "id": "00:00249:text:00042db2",
+      "resource_row": 4482,
+      "text": "a rebellion,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042dc8": {
+      "source_offset": 273864,
+      "pool_word_offset": 42335,
+      "source_byte_length": 16,
+      "source_sha256": "32d280ce421f16226fd5bfecc0801a86534cee15e6791b1abdcab3f1cd46a3d9",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162812
+      ],
+      "id": "00:00249:text:00042dc8",
+      "resource_row": 4483,
+      "text": "but it just",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042dda": {
+      "source_offset": 273882,
+      "pool_word_offset": 42344,
+      "source_byte_length": 20,
+      "source_sha256": "ec9ffa0679680f02a368d92c59f9db0c27d82488fdf87ad074111cb9700a6056",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162820
+      ],
+      "id": "00:00249:text:00042dda",
+      "resource_row": 4484,
+      "text": "looks like he is drunk",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042df0": {
+      "source_offset": 273904,
+      "pool_word_offset": 42355,
+      "source_byte_length": 18,
+      "source_sha256": "77e7e613e3421c787526b5b277623088d5fff918f5a35592e69f7afc1743758f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162828
+      ],
+      "id": "00:00249:text:00042df0",
+      "resource_row": 4485,
+      "text": "to me...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042e04": {
+      "source_offset": 273924,
+      "pool_word_offset": 42365,
+      "source_byte_length": 18,
+      "source_sha256": "36fc0a940f579b4d3ffa3e962b49560c48f05726f6ec50c153ff954c7a445222",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162904
+      ],
+      "id": "00:00249:text:00042e04",
+      "resource_row": 4486,
+      "text": "Even so, we cannot",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042e18": {
+      "source_offset": 273944,
+      "pool_word_offset": 42375,
+      "source_byte_length": 20,
+      "source_sha256": "64118b743cede68c7fe9d50158118c92987b397a63a86214556bc913c2010b41",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162912
+      ],
+      "id": "00:00249:text:00042e18",
+      "resource_row": 4487,
+      "text": "leave them alone",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042e2e": {
+      "source_offset": 273966,
+      "pool_word_offset": 42386,
+      "source_byte_length": 18,
+      "source_sha256": "5a5d98a02601956cd9aeb6ee195933ec8426fb68c8be172b2034508b6cc183e9",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162920
+      ],
+      "id": "00:00249:text:00042e2e",
+      "resource_row": 4488,
+      "text": "like this...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042e42": {
+      "source_offset": 273986,
+      "pool_word_offset": 42396,
+      "source_byte_length": 18,
+      "source_sha256": "bafc270867b875e9fde3654c1ae8e1b47359a3b25c5d2f3492ab657bd1d8a447",
+      "contains_japanese": true,
+      "reference_instructions": [
+        162996
+      ],
+      "id": "00:00249:text:00042e42",
+      "resource_row": 4489,
+      "text": "Then let us",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042e56": {
+      "source_offset": 274006,
+      "pool_word_offset": 42406,
+      "source_byte_length": 18,
+      "source_sha256": "0e2deee9d8c30103e859b5d8a98174c40b969ec2604da6c9bf4ff960c615a6cf",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163004
+      ],
+      "id": "00:00249:text:00042e56",
+      "resource_row": 4490,
+      "text": "move them out quickly?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042e6a": {
+      "source_offset": 274026,
+      "pool_word_offset": 42416,
+      "source_byte_length": 10,
+      "source_sha256": "1f4920852c02931d268ffe8c7faae37456aa1ee62381eb9f9652af5fe77900a8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163114
+      ],
+      "id": "00:00249:text:00042e6a",
+      "resource_row": 4491,
+      "text": "If we could,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042e76": {
+      "source_offset": 274038,
+      "pool_word_offset": 42422,
+      "source_byte_length": 18,
+      "source_sha256": "2395fb3f8280e9c20fe5d9de854507a44cabe9913bae467cd1c8501c17012e9d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163122
+      ],
+      "id": "00:00249:text:00042e76",
+      "resource_row": 4492,
+      "text": "we would have already.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042e8a": {
+      "source_offset": 274058,
+      "pool_word_offset": 42432,
+      "source_byte_length": 14,
+      "source_sha256": "22a448deba1a387e33411575f1ab9a83b443a8d18cf1ee2daf3b5d40d0496cb6",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163130
+      ],
+      "id": "00:00249:text:00042e8a",
+      "resource_row": 4493,
+      "text": "But look.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042e9a": {
+      "source_offset": 274074,
+      "pool_word_offset": 42440,
+      "source_byte_length": 18,
+      "source_sha256": "1f2ed14141542cc28d02b4ccc60b6b320f0f741b158959414f4bfa73ddf526c0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163256
+      ],
+      "id": "00:00249:text:00042e9a",
+      "resource_row": 4494,
+      "text": "If you try anything foolish,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042eae": {
+      "source_offset": 274094,
+      "pool_word_offset": 42450,
+      "source_byte_length": 20,
+      "source_sha256": "30b625339e5021497dd97e5b1e976cff346b3a81d199f31b80eb73f96ddc87bd",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163264
+      ],
+      "id": "00:00249:text:00042eae",
+      "resource_row": 4495,
+      "text": "the hostage will pay with their life,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042ec4": {
+      "source_offset": 274116,
+      "pool_word_offset": 42461,
+      "source_byte_length": 10,
+      "source_sha256": "f4f57a83e039afd54eafa4bcd06602cd1387e31011f766f856c1042371effbf4",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163272
+      ],
+      "id": "00:00249:text:00042ec4",
+      "resource_row": 4496,
+      "text": "so do not try it!",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042ed0": {
+      "source_offset": 274128,
+      "pool_word_offset": 42467,
+      "source_byte_length": 8,
+      "source_sha256": "b6a75555732631dd8642d276e5c245b969fb3020c065443608796d5816348b26",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163334
+      ],
+      "id": "00:00249:text:00042ed0",
+      "resource_row": 4497,
+      "text": "H-help...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042eda": {
+      "source_offset": 274138,
+      "pool_word_offset": 42472,
+      "source_byte_length": 18,
+      "source_sha256": "710542af5d78e19b4fbc8f203d3391e323112bf40d03487b50588705cb1da39e",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163342
+      ],
+      "id": "00:00249:text:00042eda",
+      "resource_row": 4498,
+      "text": "Help...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042eee": {
+      "source_offset": 274158,
+      "pool_word_offset": 42482,
+      "source_byte_length": 14,
+      "source_sha256": "562898988f22dd0345832aa14b6b0c4a217927c405603b749d167105fb2ef4d7",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163670
+      ],
+      "id": "00:00249:text:00042eee",
+      "resource_row": 4499,
+      "text": "That is the hostage?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042efe": {
+      "source_offset": 274174,
+      "pool_word_offset": 42490,
+      "source_byte_length": 14,
+      "source_sha256": "562898988f22dd0345832aa14b6b0c4a217927c405603b749d167105fb2ef4d7",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163726
+      ],
+      "id": "00:00249:text:00042efe",
+      "resource_row": 4500,
+      "text": "That is the hostage?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042f0e": {
+      "source_offset": 274190,
+      "pool_word_offset": 42498,
+      "source_byte_length": 14,
+      "source_sha256": "7129cacfa11612d98b2a65a1103505f46a7767ca52ae2acf744eaa586a1ef05d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163782
+      ],
+      "id": "00:00249:text:00042f0e",
+      "resource_row": 4501,
+      "text": "...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042f1e": {
+      "source_offset": 274206,
+      "pool_word_offset": 42506,
+      "source_byte_length": 14,
+      "source_sha256": "7129cacfa11612d98b2a65a1103505f46a7767ca52ae2acf744eaa586a1ef05d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163838
+      ],
+      "id": "00:00249:text:00042f1e",
+      "resource_row": 4502,
+      "text": "...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042f2e": {
+      "source_offset": 274222,
+      "pool_word_offset": 42514,
+      "source_byte_length": 22,
+      "source_sha256": "232c10f8658d90249c6667477cacdd7d62825953630d2b9b89dae7947cc387d5",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163926
+      ],
+      "id": "00:00249:text:00042f2e",
+      "resource_row": 4503,
+      "text": "I knew he was an idiot, but",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042f46": {
+      "source_offset": 274246,
+      "pool_word_offset": 42526,
+      "source_byte_length": 20,
+      "source_sha256": "5c135a87e92979cfbbefd18a2120fb853cfd18aba3160e9d576816e80ff39412",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163934
+      ],
+      "id": "00:00249:text:00042f46",
+      "resource_row": 4504,
+      "text": "I did not think he was",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042f5c": {
+      "source_offset": 274268,
+      "pool_word_offset": 42537,
+      "source_byte_length": 22,
+      "source_sha256": "bcea2645d76df2e3b91314aaaa41c092e1034aeda5dea6a56233a6ad40ebf11a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        163942
+      ],
+      "id": "00:00249:text:00042f5c",
+      "resource_row": 4505,
+      "text": "that stupid...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042f74": {
+      "source_offset": 274292,
+      "pool_word_offset": 42549,
+      "source_byte_length": 20,
+      "source_sha256": "e317cc67cbafa55e6a2122a22f6e3ed5b310e7f47ecc3484c7024ca9c2c8f3e4",
+      "contains_japanese": true,
+      "reference_instructions": [
+        164000
+      ],
+      "id": "00:00249:text:00042f74",
+      "resource_row": 4506,
+      "text": "But what will we do",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042f8a": {
+      "source_offset": 274314,
+      "pool_word_offset": 42560,
+      "source_byte_length": 20,
+      "source_sha256": "492c10065d1985248332dd5dacb3dbdc09541e2a84ef8450b3b8981ccbca8c1c",
+      "contains_japanese": true,
+      "reference_instructions": [
+        164008
+      ],
+      "id": "00:00249:text:00042f8a",
+      "resource_row": 4507,
+      "text": "if he is serious?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042fa0": {
+      "source_offset": 274336,
+      "pool_word_offset": 42571,
+      "source_byte_length": 12,
+      "source_sha256": "fe9535305cd41a47766f5d1078fd3f9040771967d49562339f46262fbcd1005e",
+      "contains_japanese": true,
+      "reference_instructions": [
+        164084
+      ],
+      "id": "00:00249:text:00042fa0",
+      "resource_row": 4508,
+      "text": "Yes...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042fae": {
+      "source_offset": 274350,
+      "pool_word_offset": 42578,
+      "source_byte_length": 22,
+      "source_sha256": "5dcbdcef62f3373a8ce93f059905058ef7baa9e865ef8e21cecb5d83b3ebd72d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        164092
+      ],
+      "id": "00:00249:text:00042fae",
+      "resource_row": 4509,
+      "text": "Considering what he does,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042fc6": {
+      "source_offset": 274374,
+      "pool_word_offset": 42590,
+      "source_byte_length": 12,
+      "source_sha256": "9406e1cd710e8ed757aeeb7ef34abbc98df9a78deebbd7b6f21df365a404d3b5",
+      "contains_japanese": true,
+      "reference_instructions": [
+        164100
+      ],
+      "id": "00:00249:text:00042fc6",
+      "resource_row": 4510,
+      "text": "we cannot rule it out.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042fd4": {
+      "source_offset": 274388,
+      "pool_word_offset": 42597,
+      "source_byte_length": 18,
+      "source_sha256": "c8e871c8d406ddcec06e89ca277e3f07efa85d4fcc0fff5ca21cc91b6fd027d0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        164180
+      ],
+      "id": "00:00249:text:00042fd4",
+      "resource_row": 4511,
+      "text": "That is why there is nothing",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:00042fe8": {
+      "source_offset": 274408,
+      "pool_word_offset": 42607,
+      "source_byte_length": 18,
+      "source_sha256": "8a7cdcb6f0802a84f77fb1faa474d7f8f7a0cc9de2021399def251de0dc7afa3",
+      "contains_japanese": true,
+      "reference_instructions": [
+        164188
+      ],
+      "id": "00:00249:text:00042fe8",
+      "resource_row": 4512,
+      "text": "we can do.",
+      "status": "translated_author_self_check"
+    }
+  }
+}

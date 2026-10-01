@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4037.targets.json",
+  "target_file_sha256": "6605b7b858a11b5d7ab2377d5d3c5583ce52398e1e2b2e4312f42e8b7911ebcf",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4037,
+      4116
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3955,
+      4599
+    ]
+  ],
+  "rows_examined": 645,
+  "corrections": [
+    {
+      "resource_row": 4045,
+      "source_sha256": "e7b7a5bcf9a30d0424c15b05c133756d75a8675d090833b754f695216b83c3de",
+      "text": "Maybe",
+      "reason": "Restore the past-regret construction in the same box."
+    },
+    {
+      "resource_row": 4046,
+      "source_sha256": "6e6eaf76c4dfe095e7a0a2151ba21019660c336f7cb59345765a8c9311429644",
+      "text": "I should have investigated it",
+      "reason": "Source regrets not joining the investigation already performed."
+    },
+    {
+      "resource_row": 4047,
+      "source_sha256": "da5e74911307da74668d796d4e30f7242f691d23f261d9703ed482847cedd8e0",
+      "text": "with you after all...",
+      "reason": "Complete the past-regret sentence."
+    },
+    {
+      "resource_row": 4081,
+      "source_sha256": "6649a078790fd227a5fbac9eafe19c21ec394cdb2231ac88ddd532ae8ee5f534",
+      "text": "I'm more concerned about the Imperial Army's",
+      "reason": "This is the speaker's concern, not an instruction to keep watch."
+    },
+    {
+      "resource_row": 4082,
+      "source_sha256": "430029250cc1516b58aded18585ab0e10f65f855532ae550e385642f3ad1ad77",
+      "text": "movements right now.",
+      "reason": "Restore the stated object of concern."
+    },
+    {
+      "resource_row": 4105,
+      "source_sha256": "24301bfe9b15b07f893254c05b5b1ab4a123a84ee9f61a57adfd25b08ea98513",
+      "text": "feel guilty",
+      "reason": "The betrayal context gives guilt, not gratitude or a debt."
+    },
+    {
+      "resource_row": 4106,
+      "source_sha256": "b2ac214b8004ae9780be516a89ee8410cf3a9c778a8445e90953c60e8084fa20",
+      "text": "toward all of you.",
+      "reason": "Complete the guilt construction with the correct English preposition."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "note": "Silence, cries and explicitly interrupted speech remain fragments; internal blanks never erase complete dialogue boxes."
+    }
+  ],
+  "notes": "Source-based read-only independent review by Terra chapter12_review covered3957–4596 and boundary context. Root reconciled corrections against original VM boxes, rejected a flawed proposed extra conditional, and previewed merged results. Root saves this current review record under the user's continuing translation task.",
+  "superseded_proposals": [
+    {
+      "file": "work/translation/en/story_0.1.54/0318/review_history/review_meaning_4037_initial_proposal.json",
+      "sha256": "f6942791e75dc40cbc63c246290ab814fd08a63a9d374603102c40c86881f76b"
+    }
+  ]
+}

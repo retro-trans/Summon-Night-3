@@ -1,0 +1,28 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_3808.json",
+  "review_sha256": "3c01ad098ad9542e1f2f61c1b39943ac91913e7df46897e7df5084c9524a37dc",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3808.targets.json",
+  "target_before_sha256": "e259ce8a8fccd690b31265f068804056ca0ba847f57345b7adb58e1a2e7c2afa",
+  "target_after_sha256": "f0cfc18281af4e74cb0b990de091db31ab16f1ece75d84d62d6e61b876bec3c0",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3808,
+      3887
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3841,
+      "before": "Even if she has transformed, she is still young. There must be times when she misses her mother.",
+      "after": "Even though she is a shapeshifter, she is still young. There must be times when she misses her mother.",
+      "reason": "The noun refers to her nature as a shapeshifting being, not to a completed transformation."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Unverified names and world terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

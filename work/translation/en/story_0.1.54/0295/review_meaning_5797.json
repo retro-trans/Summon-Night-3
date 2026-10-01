@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_5797.targets.json",
+  "target_file_sha256": "736b8f8cca767c2c2def3bc195605a83f3a8fe97e68f59e0b4e4dcea10078aee",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5797,
+      5876
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5796,
+      5877
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 5860,
+      "text": "Hainel Copse, who created this island. I was a member of the Colorless Faction.",
+      "reason": "Fariel's membership in the Colorless Faction is explicitly past-tense. The authored joined sentence makes it present-tense; the correction also restores a clean sentence boundary.",
+      "source_sha256": "7891b38a9cf4dcbdf40a444c0846e0ad9415387ef7758b762413503bb3c4c333",
+      "before": "Hainel Copse, who created this island, and a member of the Colorless Faction."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        5825,
+        5826
+      ],
+      "reason": "The player-name placeholder and pause remain visible as in the source."
+    },
+    {
+      "rows": [
+        5797,
+        5798,
+        5799,
+        5800,
+        5801,
+        5802,
+        5803,
+        5804,
+        5805,
+        5806,
+        5807,
+        5808,
+        5809,
+        5810,
+        5811,
+        5812,
+        5813,
+        5814,
+        5815,
+        5816,
+        5817,
+        5818,
+        5819,
+        5820,
+        5821,
+        5822,
+        5823,
+        5824,
+        5825,
+        5826,
+        5827,
+        5828,
+        5829,
+        5830,
+        5831,
+        5832,
+        5833,
+        5834,
+        5835,
+        5836,
+        5837,
+        5838,
+        5839,
+        5840,
+        5841,
+        5842,
+        5843,
+        5844,
+        5845,
+        5846,
+        5847,
+        5848,
+        5849,
+        5850,
+        5851,
+        5852,
+        5853,
+        5854,
+        5855,
+        5856,
+        5857,
+        5858,
+        5859,
+        5860,
+        5861,
+        5862,
+        5863,
+        5864,
+        5865,
+        5866,
+        5867,
+        5868,
+        5869,
+        5870,
+        5871,
+        5872,
+        5873,
+        5874,
+        5875,
+        5876
+      ],
+      "reason": "Physical continuation rows were checked as complete joined statements, including the two protagonist variants."
+    }
+  ],
+  "notes": "Independent review of Fariel's account against original source and adjacent context. One past-tense correction is proposed; wording differences were not recorded as cosmetic changes. This proof does not accept the resource or authorize a build."
+}

@@ -1,0 +1,48 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_2128.json",
+  "review_sha256": "0a0a743bfa26f8e2e9e077a2573f4c29fb3bea7ba245b7fadd5360467aec0d11",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2128.targets.json",
+  "target_before_sha256": "9a6a7beb635ee0ed77da1c4e9a321821733ed474cfa8240f99748e344930316e",
+  "target_after_sha256": "ac62311ba7d863343fa163348ac7cced57e6806cd5d03687a15ca52aba9c5a36",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2128,
+      2207
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2199,
+      "before": "That? No matter what, no one could...",
+      "after": "That's impossible! No one could ever...",
+      "reason": "The source rejects the possibility of enduring all that suffering; the existing wording drops the impossibility and leaves the opening unintelligible."
+    },
+    {
+      "resource_row": 2185,
+      "before": "They felt it too.",
+      "after": "He felt it too.",
+      "reason": "The following dialogue explicitly identifies Hainel and his words as the male referent."
+    },
+    {
+      "resource_row": 2187,
+      "before": "By merging their consciousness with the island, they perceived everything that happened here.",
+      "after": "By merging his consciousness with the island, he perceived everything that happened here.",
+      "reason": "The following dialogue explicitly identifies Hainel and his words as the male referent."
+    },
+    {
+      "resource_row": 2203,
+      "before": "That's right... They couldn't.",
+      "after": "That's right... He couldn't.",
+      "reason": "The following dialogue explicitly identifies Hainel and his words as the male referent."
+    },
+    {
+      "resource_row": 2205,
+      "before": "Just before the Sealing Sword defeated them, their mind had collapsed.",
+      "after": "Just before the Sealing Sword defeated him, his mind had collapsed.",
+      "reason": "The following dialogue explicitly identifies Hainel and his words as the male referent."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

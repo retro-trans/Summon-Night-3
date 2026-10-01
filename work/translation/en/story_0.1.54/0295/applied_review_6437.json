@@ -1,0 +1,84 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_6437.json",
+  "review_sha256": "486be55095d4ed873e79f9cb0f4cc562f4b659e992ad6a0d9e6b76f1f9484001",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_6437.targets.json",
+  "target_before_sha256": "fdd8554f04b7adbbd8dcca244ef47c2599925432b866884ccc62dbcf8d71a6cb",
+  "target_after_sha256": "c712508b2db6af742404bbc3e308b0b772e39f080c9085730d686c8826df4872",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6437,
+      6516
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6437,
+      "before": "I understand that you wish",
+      "after": "It is not that I do not understand",
+      "reason": "The Japanese has one clause of understanding, while the current English repeats that meaning in two adjacent clauses."
+    },
+    {
+      "resource_row": 6438,
+      "before": "to fulfill the last request.",
+      "after": "your wish to fulfill",
+      "reason": "Completes the single source clause."
+    },
+    {
+      "resource_row": 6439,
+      "before": "It is not that I do not understand your feelings.",
+      "after": "that last request.",
+      "reason": "Completes the single source clause."
+    },
+    {
+      "resource_row": 6467,
+      "before": "For a shinobi, a lord's command is",
+      "after": "For a shinobi, my lord's life is",
+      "reason": "Earlier dialogue identifies Rikuto as Kyuuma’s lord. 主君の命 is that lord’s life, not an order."
+    },
+    {
+      "resource_row": 6468,
+      "before": "the one and only thing. For it,",
+      "after": "irreplaceable. For his sake,",
+      "reason": "Keeps Kyuuma’s established lord as the reason for his resolve."
+    },
+    {
+      "resource_row": 6474,
+      "before": "Because that lapdog...",
+      "after": "My lord went into mortal danger",
+      "reason": "Kyuuma’s earlier account establishes that his lord shielded him and escaped alone; this restores the settled referent and rescue direction."
+    },
+    {
+      "resource_row": 6475,
+      "before": "was sent into mortal danger",
+      "after": "to let this lapdog",
+      "reason": "Preserves Kyuuma’s self-description and the rescue direction."
+    },
+    {
+      "resource_row": 6476,
+      "before": "to let me escape.",
+      "after": "escape...",
+      "reason": "Completes the restored causal clause."
+    },
+    {
+      "resource_row": 6477,
+      "before": "Because I could not",
+      "after": "I could not stop him,",
+      "reason": "Kyuuma condemns himself for failing to stop his lord’s act."
+    },
+    {
+      "resource_row": 6478,
+      "before": "stop them, and because",
+      "after": "and I cannot forgive",
+      "reason": "Completes the corrected first-person statement."
+    },
+    {
+      "resource_row": 6479,
+      "before": "I cannot forgive myself!",
+      "after": "myself for that!",
+      "reason": "Completes the corrected first-person statement."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -11,7 +11,9 @@ When translating dialogue:
 - If the dialogue refers to another person, do not assume their gender (so do not assume he/she) without knowing who it is. If it is someone unknown, use a gender-neutral term.
 - Do not infer gender from a name.
 - Write the line in full first and let the checker judge it. Do not shorten while drafting because you think it won't fit. After that compress the meaning or abbreviate — never drop the end of the sentence. If it still does not fit, leave the row and flag it.
-- Do not supply what the source omits. Japanese drops the subject constantly and English usually needs one, but where the scene doesn't settle who, prefer a construction that keeps the ambiguity — a passive, an imperative — over inventing "I" or "we".
+- Japanese pro-drop is grammar, not style. Where the scene settles who, English takes the subject — write it. 「頼むぜ」 is "I'm counting on you", not "Count on you". Japanese elides the verb too: 「何か理由が？」 is "Is there some reason?", not "Some reason why?" — check a verb survived, not just a subject. Only where the scene genuinely does not settle who should you keep the ambiguity, with a passive or an impersonal construction.
+- Check the DIRECTION before choosing that construction. 頼む / よろしく is the speaker asking the listener; as a bare English imperative it flips to the speaker offering themselves ("Count on us" for 「よろしく頼むぜ」). Name who is asking whom, then pick the form.
+- Restoring a subject is not padding, so do not drop one to save room. Measured across the shipped script: the median line uses 85% of its slot, and the shortest Japanese lines — where subjectless renderings cluster — use only 62%. The room is there.
 
 When translating any kind of text:
 - Do not hesitate to use abbreviations.
@@ -28,5 +30,6 @@ When proofreading:
 - Fix what is wrong; leave what is merely different. Do not rewrite a line because you would have phrased it differently.
 - An uncertainty reported is worth more than a clean report. Report the calls you were unsure of even when the row passes — a tie you had to break, a referent you inferred, an existing line that contradicted your brief. The defects that survive review are the ones no check can see, and the agent who made the call is the last person able to see them.
 
+- Flag every line where you kept the source's omission. A dropped subject leaves a line that parses, fits and reads fine alone, so no script and no reviewer reading English-only will catch it — the translator comparing against the Japanese is the last person who can.
 About scripts:
 - Dry-run every script and read the sample output before it touches the data. Check what it would change, not just how many rows.

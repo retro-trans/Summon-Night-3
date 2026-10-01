@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00350",
+  "source_sha256": "ce92f5a28cae224a12cb58d444439e14e8694fb12066106efdd194e311a8e937",
+  "target_file": "work/translation/en/story_0.1.54/0350/slice_0011.targets.json",
+  "target_file_sha256": "d0d2d06f9ce0c6dc1fbc529a1e404953542fbc1910c6af1ae92a45f802da65d5",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      11,
+      93
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 69,
+      "source_sha256": "af59d11b3328d51e0a9dabb91bbbff7b99e06cab3ccd7441c10eb0a9101c7aa8",
+      "text": "Why...?",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    },
+    {
+      "resource_row": 70,
+      "source_sha256": "e4de489a39c6da62794c2f1d7d1d6a3555014b6a9b385329f7f118dfe6765f69",
+      "text": "You were only dragged into this, weren't you!?",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Full source/English VM group comparison after compiler failure. Scarrel male established in story_context_0.1.54_part_c.json. Earlier clean proof retained; supplemental proof takes precedence."
+}

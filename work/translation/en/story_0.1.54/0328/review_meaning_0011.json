@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00328",
+  "source_sha256": "5020e40665638d0010b1f00dbd5e89dc9e07934b2775c126d2b8aef332a84acf",
+  "target_file": "work/translation/en/story_0.1.54/0328/slice_0011.targets.json",
+  "target_file_sha256": "361e8f3698b67379c872306b2069e587b29c24f0fb4d5e1b51e1c941d8987dba",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      46
+    ],
+    "count": 36
+  },
+  "source_ranges_examined": [
+    [
+      0,
+      46
+    ]
+  ],
+  "rows_examined": 47,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        29,
+        30
+      ],
+      "note": "The subject is Yafha ('I'), who opposed the unnamed man's fighting as a Core Cognizance and ultimately yielded. The antecedent is not named, so 'him' remains unexpanded."
+    }
+  ],
+  "omissions": [],
+  "notes": "Reviewed every complete VM dialogue group and adjacent system rows. No meaning corrections: the 29-30 subject and direction match the source; the uncertainty is retained only because the unnamed antecedent is not identified."
+}

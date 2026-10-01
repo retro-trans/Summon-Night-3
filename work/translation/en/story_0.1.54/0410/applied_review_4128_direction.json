@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_4128_direction.json",
+  "review_sha256": "29d45492268ac4866e67d6a5d3d62dc5212a11b5e197ff92c3f0ed0e78e4b15c",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4128.targets.json",
+  "target_before_sha256": "871bf4697d2aa83b86e6cbb2e78e83c0d2415f09a8fe02fc47d3e6d09361bcc7",
+  "target_after_sha256": "b00de890ffa4710969797273060fe5c7a4428c2ed1088923c5db28b3ec7f7299",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4151,
+      4153
+    ],
+    "count": 3
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4151,
+      "before": "Run away! Run away!",
+      "after": "I will run away! I will run away! Once I get my strength back, I will come kill you all again!",
+      "reason": "Ishlar is declaring his own repeated flight before threatening to return; the prior imperative reverses the actor and direction."
+    },
+    {
+      "resource_row": 4152,
+      "before": "Once I get my strength back, I'll come",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 4153,
+      "before": "kill you all again!",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

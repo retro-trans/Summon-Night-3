@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00249",
+  "source_sha256": "e3c0ac50ec01fb9606a8cf187d24791b3e787ee38da5f8d48c733777bbb2cc6e",
+  "target_file": "work/translation/en/story_0.1.54/0249/slice_4913.targets.json",
+  "target_file_sha256": "0810d8d53c9162e48b200617431ab915c7bad2faee068a9f7782d4c36130250e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4913,
+      4992
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4903,
+      5003
+    ]
+  ],
+  "rows_examined": 101,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        4970,
+        4971
+      ],
+      "issue": "The dynamic-name marker and respectful suffix are intentionally rendered as a gender-neutral pause; no English Sir or Madam is warranted."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        4913,
+        4914,
+        4915,
+        4918,
+        4919,
+        4921,
+        4923,
+        4926,
+        4931,
+        4935,
+        4939,
+        4943,
+        4945,
+        4950,
+        4951,
+        4953,
+        4957,
+        4959,
+        4963,
+        4964,
+        4973,
+        4976,
+        4979,
+        4980,
+        4988,
+        4989,
+        4992
+      ],
+      "reason": "Continuation fragments preserve complete English sentence groups, including row 4992 into the subsequent slice."
+    },
+    {
+      "rows": [
+        4917,
+        4938,
+        4942,
+        4949,
+        4962,
+        4967,
+        4970,
+        4971,
+        4978,
+        4986,
+        4991
+      ],
+      "reason": "Reactions, dynamic address fragments, and pauses retain their source function."
+    }
+  ],
+  "notes": "Independent reviewer compared every assigned source and authored English row with neighboring context. No semantic changes are needed; the contraction you'd overworked yourself is unambiguously past perfect because it precedes a past participle. No cosmetic rewrites are proposed."
+}

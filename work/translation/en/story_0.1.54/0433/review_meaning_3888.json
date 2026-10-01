@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3888.targets.json",
+  "target_file_sha256": "49dc23c9b5b1548b47a42a02811ac7ff6e9d36f993b0dac43c0ae2c3ade4cabe",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3888,
+      3967
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3887,
+      3968
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 3920,
+      "source_sha256": "9628c8e78c162774ca566e36ab9c2e3009a424e628e901c2cdb233b939c6dd9d",
+      "text": "Welcome back, and good work!",
+      "reason": "Moves the musical marker back to its source row 3921; row 3920 has no source marker."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context. The 3887 boundary and controls were checked. Row 3898 retains neutral ●...: 殿 is a respectful peer address here, not evidence of a Lord rank."
+}

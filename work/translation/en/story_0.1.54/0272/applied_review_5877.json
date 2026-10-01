@@ -1,0 +1,34 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0272/review_meaning_5877.json",
+  "review_sha256": "aa9c2fc4c7c86ffd1e55d3c2cf8505c3414cec12a929d882624214e0ee3cdad7",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_5877.targets.json",
+  "target_before_sha256": "c608b5fd7116d81fe678898d664c0e13116d4f682eda12311bf11b93e55a3bf0",
+  "target_after_sha256": "76bf0c7dd7e8046444513219a7ae17013f89f6e13a164c278c766c03017a79f4",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5877,
+      5956
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5955,
+      "before": "than your own...",
+      "after": "than your own... Isn't that right?",
+      "reason": "The rhetorical question belongs to the preceding line. The following source box is Kyle's name, which the current target omits."
+    },
+    {
+      "resource_row": 5956,
+      "before": "Isn't that right?",
+      "after": "Kyle...",
+      "reason": "The rhetorical question belongs to the preceding line. The following source box is Kyle's name, which the current target omits."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

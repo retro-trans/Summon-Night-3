@@ -1,0 +1,60 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_2448_empty_boxes.json",
+  "review_sha256": "199945b0b0b5fc3b59520b36573d9ba523b290668d622c2c00f2fcb878495388",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_2448.targets.json",
+  "target_before_sha256": "418137b062b2a32bca8b691d3b54ffaa6248d84cd7ff0da232a941fd3456562e",
+  "target_after_sha256": "b4bc3cd249e52da9b7025f1266d396d9158f7e6f54b047357bd50b86f7ae7fae",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2448,
+      2527
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2448,
+      "before": "I understand, Azlier. I want you to lend us your strength until the end.",
+      "after": "I understand, Azlier.",
+      "reason": "Remove the following VM box's request from the preceding box."
+    },
+    {
+      "resource_row": 2449,
+      "before": "",
+      "after": "I want you to lend us your strength until the end.",
+      "reason": "Restore the omitted complete VM box 2449–2450."
+    },
+    {
+      "resource_row": 2450,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2449 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2451,
+      "before": "I understand... Please lend us your strength a little longer, Azlier...",
+      "after": "I understand...",
+      "reason": "Remove the following VM box's request from the preceding box."
+    },
+    {
+      "resource_row": 2452,
+      "before": "",
+      "after": "Please lend us your strength a little longer, Azlier...",
+      "reason": "Restore the omitted complete VM box 2452–2454."
+    },
+    {
+      "resource_row": 2453,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2452 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2454,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2452 contains the complete VM-box translation once."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

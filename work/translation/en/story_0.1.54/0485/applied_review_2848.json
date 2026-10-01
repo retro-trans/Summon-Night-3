@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_2848.json",
+  "review_sha256": "b32764a2a76d2037eb260a7eaf19a8bda63fc3574f7c7e3793235d0d32699bdb",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2848.targets.json",
+  "target_before_sha256": "9db9f5d04c555d714d29bb09e7e783c746f2633874d07e2a9f300016aeabd93e",
+  "target_after_sha256": "ccbca3165639d6f5046ef98a7ac8e6cbbb51056dd79e8c83f7028925ac9bf9c3",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2848,
+      2927
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2896,
+      "before": "That young lady's magical power is so immense that she can hardly be called human.",
+      "after": "Young lady... No human could radiate as much magical power as you do.",
+      "reason": "Source addresses the young lady directly, not describing her to a third person."
+    },
+    {
+      "resource_row": 2900,
+      "before": "That summoner's magical power is so immense that they can hardly be called human.",
+      "after": "You, the summoner... No human could radiate as much magical power as you do.",
+      "reason": "Source directly addresses the summoner, not an unidentified third person."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

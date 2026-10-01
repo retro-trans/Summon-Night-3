@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3648.targets.json",
+  "target_file_sha256": "de9341b85766306003056433f58513a5d2c9a59bf1374b19dfd2601fc9fa5d07",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3648,
+      3727
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3647,
+      3729
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 3685,
+      "source_sha256": "da0c66959c83749a7ead46cdb33ef029a2a10469397d40e0178c323892dffed0",
+      "before": "Thanks to this, my dream came true! Hahaha! ♪",
+      "text": "Thanks to this, my dream came true! Hahaha!",
+      "after": "Thanks to this, my dream came true! Hahaha!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    },
+    {
+      "resource_row": 3720,
+      "source_sha256": "9a17431f1d72d6aa57d58330a27da00d4a7721e0553f06f2b28f5f45ca244855",
+      "text": "Do not worry! Teacher, Kyle, and the others are staying with them.",
+      "reason": "Restores the other companions explicitly included by the source."
+    },
+    {
+      "resource_row": 3725,
+      "source_sha256": "a5c44206a67158b3d0842c2d4e2657c394f20ce1d6effcbf6e2a854026b023d6",
+      "text": "It will be all right. Teacher, Yard, and the others are staying with them.",
+      "reason": "Restores the source's companions."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Unverified names and world terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning/control review only; no target applied. Root independently rechecked complete VM groups and both neighboring boundaries, 3487–4210; added only concrete meaning corrections."
+}

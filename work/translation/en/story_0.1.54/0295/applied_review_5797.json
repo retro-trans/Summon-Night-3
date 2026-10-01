@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_5797.json",
+  "review_sha256": "4cf854495eaae616c8610efcd59e3273caab6a8618feb6324b9cf84ef9889ceb",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_5797.targets.json",
+  "target_before_sha256": "736b8f8cca767c2c2def3bc195605a83f3a8fe97e68f59e0b4e4dcea10078aee",
+  "target_after_sha256": "56221b21d58a9a1211740f66dd94a3023d73ac89f505e7cd4cb64a171198af09",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5797,
+      5876
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5860,
+      "before": "Hainel Copse, who created this island, and a member of the Colorless Faction.",
+      "after": "Hainel Copse, who created this island. I was a member of the Colorless Faction.",
+      "reason": "Fariel's membership in the Colorless Faction is explicitly past-tense. The authored joined sentence makes it present-tense; the correction also restores a clean sentence boundary."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

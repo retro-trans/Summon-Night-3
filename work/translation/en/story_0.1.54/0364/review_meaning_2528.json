@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2528.targets.json",
+  "target_file_sha256": "e88eedde31c958b03af158cafa4fdde4d133a54bc10b58214fab94f2fb190d68",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [2528, 2607], "count": 80},
+  "source_ranges_examined": [[2526, 2609]],
+  "rows_examined": 84,
+  "corrections": [
+    {"resource_row": 2561, "source_sha256": "606a2cf8652b44dce93a551d914dc227bb2ca9cd90744427e419bdebd57fbd6a", "text": "I had always thought", "reason": "ずっと makes the observation ongoing, not merely a past-progressive thought."},
+    {"resource_row": 2562, "source_sha256": "6f8bee7cfce438fafb6bcdf436ee4e167321d1d25784e60f094d3da10b9233e0", "text": "they were overdoing it.", "reason": "無理してる means they were pushing themself too hard or overexerting themself. 'Forcing themself' does not carry that meaning clearly."},
+    {"resource_row": 2571, "source_sha256": "1fc1a37e0b4106419f906110dfb14509639c623d5fd2569b6fc2ce2a64221be5", "text": "You do not need to worry about it.", "reason": "気に病む means to fret or take something to heart. The source does not specifically say the listener is blaming themself."}
+  ],
+  "uncertainties": [
+    {"rows": [2528, 2537, 2538, 2539, 2540, 2541, 2542, 2543, 2544, 2545, 2546, 2547, 2548, 2549, 2558, 2559, 2560, 2561, 2562, 2574, 2575, 2576, 2581, 2582, 2583, 2590, 2591, 2592, 2593, 2594, 2595], "issue": "Teacher is player-selected. The target's neutral reference preserves the established referent without gender inference."},
+    {"rows": [2588], "issue": "▲ is a protected source marker and is retained exactly; no identity is inferred."}
+  ],
+  "omissions": [
+    {"rows": [2531, 2534, 2535, 2536, 2551, 2554, 2555, 2556, 2557, 2563, 2564, 2565, 2566, 2567, 2568, 2569, 2570, 2577, 2578, 2579, 2580, 2584, 2585, 2586, 2587, 2599, 2600, 2601, 2602, 2603], "reason": "Interjections, laughter, surprise, hesitation, and reaction fragments retain their non-propositional source function."},
+    {"rows": [2528, 2529, 2530, 2532, 2533, 2535, 2536, 2537, 2538, 2539, 2540, 2541, 2542, 2543, 2544, 2545, 2546, 2547, 2548, 2549, 2550, 2552, 2553, 2558, 2559, 2560, 2561, 2562, 2571, 2572, 2573, 2574, 2575, 2576, 2581, 2582, 2583, 2589, 2590, 2591, 2592, 2593, 2594, 2595, 2596, 2597, 2598, 2604, 2605, 2606, 2607], "reason": "Physical continuation rows complete their English sentence in adjacent fragments. The exchange beginning at row 2604 continues beyond this slice."}
+  ],
+  "notes": "Reviewed original Japanese against the authored target with immediate preceding and following context. Corrections retain the source's sense of sustained overexertion and worry, without introducing a self-blame assertion. No cosmetic alternatives were recorded."
+}

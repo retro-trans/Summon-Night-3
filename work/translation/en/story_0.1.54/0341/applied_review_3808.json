@@ -1,0 +1,35 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0341/review_meaning_3808.json",
+  "review_sha256": "d14344f7d950c933833ccd89309d4e7b16d0e3fe5783c6bf37f285b07fe655b6",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_3808.targets.json",
+  "target_before_sha256": "3559874fd647d49c1ca18bc5712b9840b315053409d6f5b3265bff6b5f243567",
+  "target_after_sha256": "199a50925cfe833bee0b3528c9e1aed3cb0ec7f05a17170f0b70336a8d0e1e8f",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3808,
+      3887
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3848,
+      "before": "Stop the despair. If his heart breaks any further...",
+      "after": "Stop the despair! If their heart breaks any further...",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    },
+    {
+      "resource_row": 3885,
+      "before": "Even so, it seems to be at its limit. This body is not accustomed to it yet...",
+      "after": "Even so, it seems I've reached my limit. My body isn't used to it yet...",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 3848,
+      "note": "The heart/despair reference concerns the sword wielder in this scene; gender-neutral wording preserves protagonist alternatives."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

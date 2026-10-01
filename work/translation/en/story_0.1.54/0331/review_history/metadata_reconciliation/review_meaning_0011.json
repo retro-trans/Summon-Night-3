@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00331",
+  "source_sha256": "f8a58f289e05590f026928acf04e766f024a4423808b886b20bd72b0286c2382",
+  "target_file": "work/translation/en/story_0.1.54/0331/slice_0011.targets.json",
+  "target_file_sha256": "499f760b8f3992a9ebc90615796911e6c23c98edcdc041bb960b38fa9d8b3530",
+  "semantic_complete": false,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      50
+    ],
+    "count": 40
+  },
+  "source_ranges_examined": [
+    [
+      0,
+      50
+    ]
+  ],
+  "rows_examined": 51,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "note": "The protagonist's interrupted 'Why...?' is preserved. Scarrel gives a personal reason for speaking this harshly, but the target correctly avoids inventing a more specific action or event."
+    }
+  ],
+  "omissions": [],
+  "notes": "Structural review only; full Japanese-versus-English semantic comparison remains pending. No semantic approval is claimed."
+}

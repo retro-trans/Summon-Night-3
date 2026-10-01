@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_5397.json",
+  "review_sha256": "edbb631829fcd171acbb860495a682a9e7558988ddf3b0a17ff056bf3a34e355",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_5397.targets.json",
+  "target_before_sha256": "26ce36d0a86e6f5b3c224cf59efa15af15380a7812e6b767e8e8ed4f66c6d97a",
+  "target_after_sha256": "b2d710f16b7bcfa15b243d5b03cb0d7b2ffae816ac6c466c3f3a2e8475b5da10",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5397,
+      5476
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5397,
+      "before": "I cannot believe she would do such a thing to her own subordinates...",
+      "after": "something like that!?",
+      "reason": "Complete the question; the next reaction belongs to its own box."
+    },
+    {
+      "resource_row": 5398,
+      "before": "",
+      "after": "I can't believe it...",
+      "reason": "Restore the original separate reaction box."
+    },
+    {
+      "resource_row": 5399,
+      "before": "",
+      "after": "She would treat her own",
+      "reason": "Preserve the object of the speaker's disbelief."
+    },
+    {
+      "resource_row": 5400,
+      "before": "",
+      "after": "subordinates that way...",
+      "reason": "Complete the reaction in its original group."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

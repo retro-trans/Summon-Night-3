@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_5877.targets.json",
+  "target_file_sha256": "ca06bf5e0675d61cb51a243646c0929da7287d72395ab0f4a46d873b77c2f82c",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5877,
+      5956
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5876,
+      5959
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        5876,
+        5877,
+        5878
+      ],
+      "note": "Source has player-name address variants (including an honorific); target preserves the placeholder/control token but English does not encode that Japanese address distinction."
+    }
+  ],
+  "omissions": [],
+  "notes": "Independent source-versus-English review of every complete VM dialogue group intersecting this slice; controls retained in proposed replacement text."
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6757.targets.json",
+  "target_file_sha256": "13b399746bf711874460d9685965bbe19d3e69b0c8b50534bfd8f3c8e4bf117c",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6757,
+      6836
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6756,
+      6837
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6826,
+      "source_sha256": "afc22e55b586df933070adbb608193357b272b65b6de2c2214d137e46d41f1fc",
+      "text": "...!",
+      "reason": "Restore the complete startled-silence box."
+    },
+    {
+      "resource_row": 6814,
+      "source_sha256": "558a698a008aeffc5d71d3c859e33e045f20942dd237e2300c101ac54c30f50f",
+      "text": "I pressed Lord Ordreik",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6815,
+      "source_sha256": "4ab5da8d2a41820175589cca46ca78ad3acdb48a4915982e49912ea6441ccc6a",
+      "text": "to let me come here.",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6816,
+      "source_sha256": "3522866c4f08ca2cd7546e18b355cccb4f3fbad3a0abf8e7be9a9ecb8608c194",
+      "text": "",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Fresh supplemental review compared complete VM dialogue groups with both-side context. Reports only missed complete-box restorations; no target file was edited. Root additionally compared all closing-scene source groups 6517–7072 and added substantive actor, meaning, and duplicated-filler corrections."
+}

@@ -1,0 +1,40 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0272/review_meaning_5397.json",
+  "review_sha256": "c7d37321fb2099b2cd3d892b8b01e9080a48eda6f70b72f3f2ffe7447c6c5121",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_5397.targets.json",
+  "target_before_sha256": "572f69d60efb0d093919fa901cac64219a9683fb7b14c1fc939742fab7576ebc",
+  "target_after_sha256": "7eb4034bae4ecb222f37b3ccdff7fad3c23c5b48356c9d5b4e0b299dc72657f1",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5397,
+      5476
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5398,
+      "before": "Huh? But don't we",
+      "after": "Huh? But then",
+      "reason": "The source asks whether the subunit is unnecessary in this situation. The current English instead asks whether it is needed, reversing the question."
+    },
+    {
+      "resource_row": 5399,
+      "before": "need the subunit",
+      "after": "we don't need the",
+      "reason": "The source asks whether the subunit is unnecessary in this situation. The current English instead asks whether it is needed, reversing the question."
+    },
+    {
+      "resource_row": 5400,
+      "before": "to install it?",
+      "after": "subunit, do we?",
+      "reason": "The source asks whether the subunit is unnecessary in this situation. The current English instead asks whether it is needed, reversing the question."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

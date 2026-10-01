@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00282",
+  "mode": "read-only accepted preview",
+  "validator": "tools/story_patch_054.py::prepare",
+  "validator_sha256": "c8415ee7e6851fbfc16e35fbc6eda7badb8adf62144ba28a9478b48883588978",
+  "accepted_review_sha256": "e81be1c7f033b1eb5cfab6bd6a2baeb0e3c0c354ee56b37083e00138251f58a0",
+  "compiler_inputs_sha256": {
+    "tools/chapter_patch_014.py": "c04d8f932c504ab3d071e8216cdedd3fb967bdb09882062009c05845c2354232",
+    "tools/chapter_source_014.py": "16ccdf1d1d0ee1621b3fde61bd43cea7436c743e4ddc4bc0179696585a290d1e",
+    "tools/conditional_layout_054.py": "ff0af598af0de48e8be4e8f2fcd0e426ca9159433edb4f9099797cbea3d8caa7",
+    "tools/font_metrics_014.py": "bb7d3d3f14233a55141aa2d385d32fec30dc9c7a55213cf44ede4b9aad1786f1",
+    "tools/night_talk_037.py": "2b4cc9a6fbf4152106780034a875fc64f4a3d759f4eac56c2bfffb2be5e9165b",
+    "tools/script_compact_014.py": "59246e9c47b02a9fb0447a83feff43ac8914f7103652627197a35c3fa67a602d",
+    "tools/story_compiler_054.py": "3cbe86584b5519c352696db29f105d9556d315c53e411a8432c81e6a5f42f8b3",
+    "tools/story_display_054.py": "15a713054c862c520721cf9c074bf3cce1dea9f035c9868c0f2372f61048ac3d",
+    "tools/story_patch_054.py": "c8415ee7e6851fbfc16e35fbc6eda7badb8adf62144ba28a9478b48883588978",
+    "tools/story_source_054.py": "31bd0150436e1391da3fede343a4bb021541f46987e0c020fc5eef18d3a30372",
+    "tools/story_storage_054.py": "e58942ba3476938c78a20e1e7d6589a6fec978551dba0beb35d105546fc2d6f0",
+    "work/glossary/character_reference_sn6_vita.json": "0a284426ad3d1aac837df75fc283570718c32ca3a584d6b2662e71839a47eb92",
+    "work/glossary/terminology_preferences.json": "8bb5a15998b681ce0c8282b11758078bbdeba875b462b650e809ae64db4526ae",
+    "work/translation/en/story_0.1.54/0282/accepted_review.json": "e81be1c7f033b1eb5cfab6bd6a2baeb0e3c0c354ee56b37083e00138251f58a0",
+    "work/translation/en/story_0.1.54/0282/applied_review_renewed_0011.json": "d7ad3b2cbb24f547a64c86c3c53946d91769c03176454496120b726d103f91c0",
+    "work/translation/en/story_0.1.54/0282/review_history/renewed_meaning_20261001/applied_review_0011.json": "c2b468261ebd2307f3c1831b0e13c5fe24a28dce82f63b39e05e66fc2775e90a",
+    "work/translation/en/story_0.1.54/0282/review_history/renewed_meaning_20261001/manifest.json": "0e9098c6e6931d9a32f6d0a1a030918f6bfa2603c32e6599c8147a3648046293",
+    "work/translation/en/story_0.1.54/0282/review_history/renewed_meaning_20261001/review_meaning_0011.json": "c3cf522ef3c9b35f95d5894d711cb5eac56fd2372abe63e6d18b02d5d6333c5c",
+    "work/translation/en/story_0.1.54/0282/review_meaning_renewed_0011.json": "f1e7c6857bf657d0343c2a107056389d8683c8895d4130d7a0b2444e437bfd6a",
+    "work/translation/en/story_0.1.54/0282/slice_0011.targets.json": "7327b3c0ddbfe48d06370a447b8b52088540c0881237c61ac4a4c4295510870c",
+    "work/translation/en/story_0.1.54/scope.json": "a67e52d2ab125b26fd57208aacbef1b03426321d85ccfb2d7ead868e726d3a24",
+    "work/translation/en/story_0.1.54/shared_library.targets.json": "610007ac1481e189167cd3d944e755e2bb92f29d597f60f988c74061f4dfa163"
+  },
+  "checks": {
+    "resource_id": "00:00282",
+    "covered_source_rows": 62,
+    "remaining_in_scope": 0,
+    "excluded_shared_library_rows": 0,
+    "groups": 26,
+    "pages": 33,
+    "code_growth": 184,
+    "decoded_script_bytes": 13764,
+    "direct_rows": [
+      {
+        "row": 0,
+        "text": "\"Learn Skills\"",
+        "reference": 3038,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1,
+        "text": "is now available!",
+        "reference": 3046,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2,
+        "text": "\"Party Abilities\"",
+        "reference": 3080,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3,
+        "text": "is now available!",
+        "reference": 3088,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4,
+        "text": "\"Cooking\"",
+        "reference": 3122,
+        "pixel_limit": 280
+      },
+      {
+        "row": 5,
+        "text": "is now available!",
+        "reference": 3130,
+        "pixel_limit": 280
+      },
+      {
+        "row": 6,
+        "text": "Puppet Summoning",
+        "reference": 3166,
+        "pixel_limit": 280
+      },
+      {
+        "row": 7,
+        "text": "at Meimei's shop unlocks",
+        "reference": 3174,
+        "pixel_limit": 280
+      },
+      {
+        "row": 8,
+        "text": "on later playthroughs!",
+        "reference": 3182,
+        "pixel_limit": 280
+      },
+      {
+        "row": 9,
+        "text": "\"Summon Training\"",
+        "reference": 3220,
+        "pixel_limit": 280
+      },
+      {
+        "row": 10,
+        "text": "is now available!",
+        "reference": 3228,
+        "pixel_limit": 280
+      }
+    ],
+    "source_pool_preserved": false,
+    "live_pool_text_preserved": true,
+    "unrelated_code_preserved": true,
+    "all_group_calls_simulated": true,
+    "reviewed": true,
+    "samples": [
+      {
+        "rows": [
+          11,
+          12
+        ],
+        "pages": [
+          [
+            "Until they can sort out",
+            "their feelings, they can't",
+            "face me yet, huh?"
+          ]
+        ]
+      },
+      {
+        "rows": [
+          13,
+          14,
+          15
+        ],
+        "pages": [
+          [
+            "It is understandable. I",
+            "hesitated many times",
+            "myself before coming"
+          ],
+          [
+            "this far..."
+          ]
+        ]
+      },
+      {
+        "rows": [
+          16,
+          17,
+          18
+        ],
+        "pages": [
+          [
+            "At least for tonight, let",
+            "us leave them alone..."
+          ]
+        ]
+      }
+    ],
+    "pool_compaction": {
+      "before_bytes": 18082,
+      "after_bytes": 13764,
+      "saved_bytes": 4318,
+      "exact_dedup_bytes": 13764,
+      "suffix_saved_bytes": 0,
+      "suffix_shared_strings": 0,
+      "live_string_references": 65,
+      "unique_live_strings": 51,
+      "all_live_string_bytes_preserved": true,
+      "all_non_string_instructions_preserved": true
+    },
+    "meaning_review_verified": true,
+    "conditional_or_menu_rows": 11,
+    "night_talk_groups": 18
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_2528.json",
+  "review_sha256": "94dced426cd1a1c8c8326dfcced94ab26221ba0292a6984d4a538117c0528ea6",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2528.targets.json",
+  "target_before_sha256": "8f113e89a3e967ca303a52be2b6204cba2be92250ae1776bdb647f2d5211a418",
+  "target_after_sha256": "dc8fad278b612f2c946b50da15f38b8a59eb760b3d401127c75145f6ff5d69dc",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2528,
+      2607
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2568,
+      "before": "It will be all right...",
+      "after": "It'll be all right. Nothing like that...",
+      "reason": "The reassurance is interrupted after 'nothing like that'; the authored line drops the fragment."
+    },
+    {
+      "resource_row": 2570,
+      "before": "It will be all right...",
+      "after": "It'll be all right. Nothing like that...",
+      "reason": "The alternate reassurance preserves the same interrupted fragment."
+    },
+    {
+      "resource_row": 2574,
+      "before": "Look me in the eyes and promise me properly!?",
+      "after": "Can you look me in the eyes and promise me that!?",
+      "reason": "The source asks whether the speaker can make that promise; it is not an imperative."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

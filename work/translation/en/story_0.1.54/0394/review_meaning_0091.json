@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00394",
+  "source_sha256": "7e04fe4e490ec96ffed7bb0478f79e3630292ef4f05929b72255e79a6a706bcd",
+  "target_file": "work/translation/en/story_0.1.54/0394/slice_0091.targets.json",
+  "target_file_sha256": "876757bafea5a3acfb913ef529ced6548e538bd843c204b4f015d6394f85f48b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      170
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      175
+    ]
+  ],
+  "rows_examined": 166,
+  "corrections": [
+    {
+      "resource_row": 135,
+      "source_sha256": "bf964f199abb9b9050810c2b17f45f77daaf1b01616f6746c04966e449e2f447",
+      "text": "!!",
+      "reason": "Restore wholly empty surprise box."
+    }
+  ],
+  "uncertainties": [
+    {
+      "row": 96,
+      "note": "Oni Demon Realm is a naming variant awaiting glossary normalization to Silturn after meaning fixes."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared every full source/English VM box including both protagonist variants and slice boundaries. Correct copied variant dialogue, missing full boxes and omitted subjects before name normalization. No Japanese transcript retained."
+}

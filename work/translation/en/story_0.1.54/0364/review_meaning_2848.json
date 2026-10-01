@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2848.targets.json",
+  "target_file_sha256": "d4a92c12866f4716d27b9409f95af7172e2c5ff464372ddfcce7ca734f3db803",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [2848, 2927], "count": 80},
+  "source_ranges_examined": [[2846, 2929]],
+  "rows_examined": 84,
+  "corrections": [
+    {"resource_row": 2894, "source_sha256": "2753b57d8e170473147dd479a7dfb2c837f7baed4991c1315bb3a242b078dea7", "text": "I want to protect", "reason": "The source postpones the direct object into the following rows. Current wording supplies 'people,' which loses the actual object."},
+    {"resource_row": 2895, "source_sha256": "8b3ddb79deed30fa1fd1afa3b8e29134fad34b2c23c8433ff89099098cdbd131", "text": "as many people's gentle", "reason": "The source modifies smiles belonging to as many people as possible, rather than making people the direct object."},
+    {"resource_row": 2896, "source_sha256": "fe65fec6197b096bc48206374bf93a50f02d9c5781a3addf990fc1d72e64c075", "text": "smiles as I can...", "reason": "Completes the source's stated object and scope: protecting as many gentle smiles as possible."}
+  ],
+  "uncertainties": [
+    {"rows": [2897, 2898, 2899, 2900, 2901, 2902, 2903, 2904, 2905, 2906, 2911, 2912, 2913, 2914, 2915, 2916, 2917, 2918, 2919, 2920, 2921, 2922, 2923, 2924, 2925, 2926, 2927], "issue": "Teacher is player-selected. The target preserves the settled role without gender inference; the female branch explicitly identifies Ishlar as the person to stop."}
+  ],
+  "omissions": [
+    {"rows": [2848, 2849, 2850, 2869, 2870, 2871, 2872, 2873, 2883, 2889, 2897, 2898, 2899, 2900, 2907, 2908, 2909, 2910, 2927], "reason": "Creature calls, acknowledgment, surprise, and hesitation fragments retain their non-propositional source function."},
+    {"rows": [2851, 2852, 2853, 2854, 2855, 2856, 2857, 2858, 2859, 2860, 2861, 2862, 2863, 2864, 2865, 2866, 2867, 2868, 2874, 2875, 2876, 2877, 2878, 2879, 2880, 2881, 2882, 2884, 2885, 2886, 2887, 2888, 2890, 2891, 2892, 2893, 2894, 2895, 2896, 2901, 2902, 2903, 2904, 2905, 2906, 2911, 2912, 2913, 2914, 2915, 2916, 2917, 2918, 2919, 2920, 2921, 2922, 2923, 2924, 2925, 2926], "reason": "Physical continuation rows complete their English sentence in adjacent fragments. The Teacher reactions continue beyond this slice."}
+  ],
+  "notes": "Reviewed original Japanese against the authored target with immediate preceding and following context. The female branch's stated object is a set of gentle smiles, not people generally. No cosmetic alternatives were recorded."
+}

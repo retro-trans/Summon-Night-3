@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "independent_review": true,
+  "reviewer": "independent reviewer; draft author root",
+  "resource_id": "00:00475",
+  "source_sha256": "1e190f3d9909155653a9d83d8ca294375f083c529e292571c28d90a534e4e7d4",
+  "target_file": "work/translation/en/story_0.1.54/0475/slice_0011.targets.json",
+  "target_file_sha256": "c3a6b33cc5beb9c15708bd5917640f702a5e8206deb38394ceff9961186b11d7",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      87
+    ],
+    "count": 77
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      87
+    ]
+  ],
+  "rows_examined": 78,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "resource_rows": [
+        64,
+        65
+      ],
+      "note": "Class Rep is a provisional source nickname for the pupil; retained without expansion."
+    },
+    {
+      "resource_rows": [
+        68,
+        69
+      ],
+      "note": "Knuckles and Boo-Boo are provisional source nicknames for Kyle and Sonolar; retained without expansion."
+    }
+  ],
+  "omissions": [],
+  "notes": "Full actual VM groups compared source-first. No meaning correction required. Runtime musical notes remain on their source rows, including the split English group at 71–72. Proof only; no apply."
+}

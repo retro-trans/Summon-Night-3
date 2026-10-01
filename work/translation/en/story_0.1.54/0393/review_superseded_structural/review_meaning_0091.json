@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00393",
+  "source_sha256": "f87e70db75b3e22e371667ee865908d136bee09febdf121ec2f390c4e4931f6f",
+  "target_file": "work/translation/en/story_0.1.54/0393/slice_0091.targets.json",
+  "target_file_sha256": "f782366a7938d8ff5af48cc301768c7779a42afe98c54355fd69ebb4d20560b2",
+  "semantic_complete": false,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      156
+    ],
+    "count": 66
+  },
+  "source_ranges_examined": [
+    [
+      0,
+      156
+    ]
+  ],
+  "rows_examined": 157,
+  "corrections": [
+    {
+      "resource_row": 112,
+      "source_sha256": "734d1aa559938380bcf9d445ad72145709e2deab54747deb28721294e293c740",
+      "text": "Everything concerning ▲ and everyone back home...",
+      "reason": "Alternative conditional beginning needs the same complete opening as row 113; its common conclusion belongs on row 114."
+    },
+    {
+      "resource_row": 113,
+      "source_sha256": "a0670fe0224700a05f9404c9d1ab0e35f9fef1ce5ea71805fc6472dc7144ddbe",
+      "text": "Everything concerning ▲ and everyone back home...",
+      "reason": "This is an alternative conditional beginning, so do not merge the common conclusion into it."
+    },
+    {
+      "resource_row": 114,
+      "source_sha256": "36f1cfe7bf976d67ec6e10e1cd2ba98093aa022ff28b84342a4569bccc00eb08",
+      "text": "Once I have settled it all...",
+      "reason": "Common continuation reached from both row 112 and row 113; restore its full conclusion here."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Layout blocker: VM rows 112 and 113 are alternative append starts that both jump to common row 114. The compiler cannot paginate this conditional structure; preserve the full proposed meaning rather than squeezing it. Semantic approval remains pending independent full review."
+}

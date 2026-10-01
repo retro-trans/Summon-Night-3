@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_4928_root_final.json",
+  "review_sha256": "feb8fe1aeb65a78605c50202c00c3fe7f32ea8d375fd4bffcc0b2660e9ed0101",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4928.targets.json",
+  "target_before_sha256": "7338b201368d6a05d51102b3633c08b48caf17736ee0a5590f53399550223271",
+  "target_after_sha256": "312e1ace22daab9cefe52f7ca537ea3013692705aea9141f06c99b41dca49b28",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4928,
+      5007
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4995,
+      "before": "He has hated doctors since he was little.",
+      "after": "He has always hated doctors.",
+      "reason": "The source says for a long time, not specifically since childhood."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3888.targets.json",
+  "target_file_sha256": "9ad218cb7bd76c8788ec5d91da65a1182e7b03aea70421fbaaba8b27c5f0b7e1",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3888,
+      3967
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3887,
+      3969
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 3915,
+      "source_sha256": "e60f1e79f79c93b93b1fbb9324d866c4d2ec99f7cc80ce33550ad8c641b9313f",
+      "before": "Now Marurur can address you two properly! ♪",
+      "text": "Now Marurur can address you two properly!",
+      "after": "Now Marurur can address you two properly!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    },
+    {
+      "resource_row": 3935,
+      "source_sha256": "3371e88f2690bf15c1aa91a15b2b2e8bbc809d05e84b37f461ab2364fcbceac9",
+      "before": "Marurur is happy that there are Maetropa companions outside this island too! ♪",
+      "text": "Marurur is happy that there are Maetropa companions outside this island too!",
+      "after": "Marurur is happy that there are Maetropa companions outside this island too!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Unverified names and world terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning/control review only; no target applied. Root independently rechecked complete VM groups and both neighboring boundaries, 3487–4210; added only concrete meaning corrections."
+}

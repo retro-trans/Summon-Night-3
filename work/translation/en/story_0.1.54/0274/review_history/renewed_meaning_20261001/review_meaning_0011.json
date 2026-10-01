@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00274",
+  "source_sha256": "8b978b8bc69f073e05b72777b181b62cebf461ea2f6880d56a51684d33c060e4",
+  "target_file": "work/translation/en/story_0.1.54/0274/slice_0011.targets.json",
+  "target_file_sha256": "05adad67ad69c362d8b6c5d7463fd5223e3bee10ed3e15fff4e37f99466ae943",
+  "semantic_complete": false,
+  "reviewed_rows": {
+    "range_inclusive": [11, 52],
+    "count": 42
+  },
+  "source_ranges_examined": [[0, 52]],
+  "rows_examined": 53,
+  "corrections": [
+    {
+      "resource_row": 11,
+      "source_sha256": "0003786a35b8906fa07e9531dbb254a27de74695de62f326ac9007565d9a63ea",
+      "text": "Taking lives, and throwing them away...",
+      "reason": "The source negates the teacher's acceptance of taking lives or throwing them away. The authored text instead negates the two actions, reversing the sense."
+    },
+    {
+      "resource_row": 13,
+      "source_sha256": "0003786a35b8906fa07e9531dbb254a27de74695de62f326ac9007565d9a63ea",
+      "text": "Taking lives, and throwing them away...",
+      "reason": "The source repeats the prior statement as a paraphrase of the teacher's position. The authored text repeats the same reversed negation."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [17, 18, 19, 20, 36, 41, 42, 47, 50],
+      "reason": "Stammers, pauses, acknowledgements, and an address/name-token line. The authored English retains their conversational function; the name token is preserved."
+    },
+    {
+      "rows": [11, 12, 13, 14, 15, 16, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52],
+      "reason": "Physical continuation rows. The authored English joins each with adjacent source fragments; corrections are limited to the reversed negation in rows 11 and 13."
+    }
+  ],
+  "notes": "Reviewed original Japanese against the authored target across full resource context. Two meaning corrections are required; wording differences were not recorded as cosmetic changes."
+}

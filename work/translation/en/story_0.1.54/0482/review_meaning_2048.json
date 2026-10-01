@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2048.targets.json",
+  "target_file_sha256": "21356851e633632379d07cffcee3e3c850cb368e68fb2a1bf578f5e8f20960ad",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2048,
+      2127
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2047,
+      2128
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 2048,
+      "source_sha256": "210211294d81474ea930c9473b3b39d138d46fb3886990a7dd24b51ae4dc3864",
+      "text": "",
+      "reason": "This is an internal continuation of the VM box anchored at row 2047; the target duplicates the box’s complete meaning."
+    },
+    {
+      "resource_row": 2074,
+      "source_sha256": "507b6b862c9abecbf1204f81e55e54b7239749d3d816edea05a60e260bc9107f",
+      "text": "That's impossible! No one could ever...",
+      "reason": "The source rejects the possibility of enduring all that suffering; the prior wording drops the impossibility and leaves the opening unintelligible."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups, including the post-slice boundary box at row 2128. Re-read scene context confirms the interrupted impossibility statement at row 2074."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_3957.targets.json",
+  "target_file_sha256": "59c43430772b4291025e7d396af0b418f4426f6b6b6c71c7b78a48b509b01693",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [3957, 4036], "count": 80},
+  "source_ranges_examined": [[3956, 4037]],
+  "rows_examined": 82,
+  "corrections": [
+    {"resource_row": 3961, "source_sha256": "94fb5fb4a2ae76e2cc8fd1343ca989aec768c2cfc378a25959d2cef8be632149", "before": "We should abandon it.", "text": "I am at my wit's end.", "after": "I am at my wit's end.", "reason": "The source is the speaker's admission of being at a loss, not an instruction to abandon an objective."},
+    {"resource_row": 4012, "source_sha256": "ac6449c850cdbfd9703f7c249223977653028ac716d42ce1f67d1c3b60669344", "before": "Unless we use a sword like yours", "text": "Unless someone like you uses a sword", "after": "Unless someone like you uses a sword", "reason": "The source addresses the listener and says only a person like them can act directly; the authored plural shifts the actor."}
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Reviewed full VM dialogue boxes with adjacent context. 'Will of the ruins' remains the descriptive literal requested by project guidance."
+}

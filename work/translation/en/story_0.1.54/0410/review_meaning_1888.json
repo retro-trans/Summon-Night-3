@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_1888.targets.json",
+  "target_file_sha256": "f48579ee703bb08b70ee0cc3ae2b06f487bc17da405461c4822dbf8e17123218",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1888,
+      1967
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1806,
+      1969
+    ]
+  ],
+  "rows_examined": 164,
+  "corrections": [
+    {
+      "resource_row": 1888,
+      "source_sha256": "1c38b26363881ebd39b8870c856b56ca10b14f522b37a20cb2395fa1111d7ee9",
+      "text": "",
+      "reason": "The complete box1887–1889 is already translated at1887; this continuation repeats its middle."
+    },
+    {
+      "resource_row": 1889,
+      "source_sha256": "b0ab71fde8dcda5792cdcbc297b49b74c676a4de9c8ba3271e15f70553027caf",
+      "text": "",
+      "reason": "The complete box1887–1889 is already translated at1887; this continuation repeats its conclusion."
+    },
+    {
+      "resource_row": 1901,
+      "source_sha256": "74bfcbdf24f0f9afa1e04eaf26157e6eef17817fd391912ed87c6e338b57c6bb",
+      "text": "I'm counting on you.",
+      "reason": "This is an alternate protagonist version, not an additional speaker; source does not say 'too'."
+    },
+    {
+      "resource_row": 1933,
+      "source_sha256": "3f198c403d02937cbeb9bd5754f1d55c91e00285de6a3dd7a2d34e35839dbe9c",
+      "text": "▲-kun.",
+      "reason": "The next conversation explicitly objects to the -kun address; preserving it here supplies the source's immediate trigger."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        1906,
+        1911,
+        1917,
+        1920
+      ],
+      "issue": "Pupil requests their own lessons from Teacher; help with my lessons is understood as requesting instruction, not pupil teaching others."
+    },
+    {
+      "rows": [
+        1933,
+        1937,
+        1963
+      ],
+      "issue": "Honorific -kun retained locally because removal of that precise address is the subject of dialogue."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared source and English at full VM box boundaries, including both slice boundaries and protagonist/pupil alternatives. Name normalization follows meaning fixes."
+}

@@ -12,41 +12,39 @@ screenshot. State whether you loaded an in-game save or an emulator save state.
 
 ## Play it
 
-The latest test release is **[v0.1.52](https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.52)**.
-It includes the cumulative crash guards, Inventory translations and layout fixes,
-and Cooking localization with centered recipe titles. Story and battle-resource
-coverage through Chapter 8 remains incomplete and is not fully playtested.
+The latest test release is **[v0.1.54](https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.54)**.
+It includes 43,668 newly translated and reviewed story fragments across 134 scripts,
+the Teacher terminology update, and all earlier crash guards and interface fixes.
+The remaining scoped story pass is complete; non-story text and full-route testing
+remain incomplete.
 
 ### Apply
 
 Use [Retro Trans](https://github.com/retro-trans/retro-trans-tools), refresh its
-catalog, and select your unpacked source ISO. Manual Apply xdelta and
-[DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher) also work.
+catalog, and select your source ISO. Manual Apply xdelta and DeltaPatcher also work.
 
 | Your source image | Patch |
 |---|---|
-| Clean Japanese NPJH50380 | `SN3-English-v0.1.52.xdelta` |
-| English v0.1.41 | `SN3-English-v0.1.41-to-v0.1.52.xdelta` |
+| Clean Japanese NPJH50380 | `SN3-English-v0.1.54.xdelta` |
+| Published English v0.1.52 | `SN3-English-v0.1.52-to-v0.1.54.xdelta` |
 
 Use the exact source version and keep checksum verification enabled.
-Both release patches are round-trip verified with the Retro Trans engine.
-[Public Automatic-mode verification](docs/RETRO_TRANS_0.1.52.md) also passed
-for the v0.1.41-to-v0.1.52 upgrade.
+Both patches are fully round-trip verified with the Retro Trans engine.
 
 ```sh
-xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.52.xdelta" "Summon Night 3 English v0.1.52.iso"
+xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.54.xdelta" "Summon Night 3 English v0.1.54.iso"
 ```
 
 | Image | SHA-256 |
 |---|---|
-| Clean Japanese source — 1,658,159,104 bytes | `00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda` |
-| English v0.1.52 — 1,676,666,880 bytes | `cfb7e7171e87b528ac91ea345c3ac37853eb345b3486fffd2c0a47c99b2f38f7` |
+| Clean Japanese source - 1,658,159,104 bytes | `00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda` |
+| English v0.1.54 - 1,676,941,312 bytes | `cdf3899bb3aeec87e03cc979b203c56edcbcd1b270036397dfdd37b00488b8c5` |
 
 Start the new ISO fresh and load an **in-game save**. Emulator save states retain
-old code and resources. See the [release report](docs/RELEASE_0.1.52.md) for exact
-coverage. Cooking title alignment has pixel-level native-code validation; the
-Cooking screen still needs a live gameplay check. Broad save compatibility and
-complete route coverage are not established.
+old code and resources. The [release report](docs/RELEASE_0.1.54.md) distinguishes
+automated checks from fresh-boot testing. Chapter 15 Continue, Brave Goals,
+Inventory and Summon Index passed; full-route and individual new-script runtime
+allocation testing remain pending.
 
 ## Check the translation
 
@@ -54,7 +52,7 @@ English targets and source identities are in [work/translation/en](work/translat
 Records use resource IDs, offsets and source hashes so the Japanese can be read
 from your own game image without publishing a full Japanese script dump.
 
-The latest [coverage and test report](docs/RELEASE_0.1.52.md) distinguishes
+The latest [coverage and test report](docs/RELEASE_0.1.54.md) distinguishes
 in-game checks from static checks. Broader scope is documented in
 [Chapters 1–3](docs/BUILD_0.1.12.md), [Chapters 4–8](docs/CHAPTERS_0.1.14.md),
 and [battle dialogue](docs/BATTLE_DIALOGUE_0.1.24.md).

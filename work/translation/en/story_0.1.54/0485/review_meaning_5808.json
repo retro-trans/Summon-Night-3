@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_5808.targets.json",
+  "target_file_sha256": "0e72757032a22b30f1bc6ebd21335c2b8f6ef42a2a5b84192219c4405e8cf547",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5808,
+      5825
+    ],
+    "count": 18
+  },
+  "source_ranges_examined": [
+    [
+      5807,
+      5825
+    ]
+  ],
+  "rows_examined": 19,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "issue": "No unresolved referent changes found. Proper-name spellings remain governed by later scoped normalization."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and available boundaries read through EOF, including final group 5824-5825. Source-first meaning review only; no target applied."
+}

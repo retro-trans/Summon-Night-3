@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_6037.targets.json",
+  "target_file_sha256": "da65fd5eaf33ccf75d3f337e4c8ca589a4c570634784e4dc868545c6140075fe",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6037,
+      6116
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6036,
+      6117
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6037,
+      "source_sha256": "b5f52990818448501ecda1852ab22da2d122b53d28e04abe50136d1ecbf6182f",
+      "before": "that they have it.",
+      "text": "they have it.",
+      "after": "they have it.",
+      "reason": "This is the final row of the three-row source sentence. It duplicates the ending already present in the preceding target row."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied."
+}

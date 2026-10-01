@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00329",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0329/slice_0011.targets.json": "50667757e44eb48fcc0b8f8739d94897e8a20db934c129a9c92da4d15e3ab7c5"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0329/review_meaning_0011_replacement.json": "253a8a063d2cf07e6393838b6d7db98dd4f4b96fc7c1b1d697802296d244abcd",
+    "work/glossary/character_reference_sn6_vita.json": "0a284426ad3d1aac837df75fc283570718c32ca3a584d6b2662e71839a47eb92",
+    "work/glossary/terminology_preferences.json": "8bb5a15998b681ce0c8282b11758078bbdeba875b462b650e809ae64db4526ae",
+    "work/glossary/chapter15_terms_0.1.54.json": "74d9f34f523f44e97229fa88e36b164ef048dc324ecf7b07e64e75c9584c4173"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [],
+  "decision": "All new rows independently compared against original source and actual dialogue boundaries; corrections applied before glossary normalization. Meaning accepted only; compiler and gameplay checks are separate.",
+  "author_uncertainties": [
+    {
+      "target": "slice_0011.targets.json",
+      "note": {
+        "rows": [
+          29,
+          30,
+          35,
+          36
+        ],
+        "note": "Singular unnamed antagonist follows the source's yarou. Kept unnamed; him follows the source masculine epithet, not a guessed character identity."
+      }
+    }
+  ]
+}

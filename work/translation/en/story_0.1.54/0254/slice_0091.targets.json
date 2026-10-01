@@ -1,0 +1,110 @@
+{
+  "resource_id": "00:00254",
+  "range_inclusive": [
+    91,
+    96
+  ],
+  "source_sha256": "ffa3b4acbd58e1e17db8b73fb0c0bcfcc5a5b3b7050ce36668f06648e4515c7b",
+  "review_status": "author self-check; no independent meaning review",
+  "source_ranges_examined": [
+    [
+      0,
+      96
+    ]
+  ],
+  "rows_examined": 97,
+  "rows_in_slice": 6,
+  "uncertainties": [
+    "Rows 91-96: the final ‘surely’ is an incomplete vow rather than a stated outcome; rendered as ‘I promise...’ to preserve that unfinished determination."
+  ],
+  "preserved_source_omissions": [
+    "Rows 93 and 96: retained the source trailing continuation in the incomplete vow; restored the first-person subject in rows 91 and 94."
+  ],
+  "notes": "Resource-end tail: duplicated protagonist variant pledges that the promise will be fulfilled.",
+  "translations": {
+    "00:00254:text:0000385e": {
+      "source_offset": 14430,
+      "pool_word_offset": 1138,
+      "source_byte_length": 16,
+      "source_sha256": "65ecc181c4913e10d373c0635a43a784fadbbd20b223061a9103564bd4101813",
+      "contains_japanese": true,
+      "reference_instructions": [
+        12086
+      ],
+      "id": "00:00254:text:0000385e",
+      "resource_row": 91,
+      "text": "I won't let it be",
+      "status": "translated_author_self_check"
+    },
+    "00:00254:text:00003870": {
+      "source_offset": 14448,
+      "pool_word_offset": 1147,
+      "source_byte_length": 14,
+      "source_sha256": "a5dd85f9c4495a95e604a916f73a7fbdc070f4ba1b02d0c242e01429a4a70803",
+      "contains_japanese": true,
+      "reference_instructions": [
+        12094
+      ],
+      "id": "00:00254:text:00003870",
+      "resource_row": 92,
+      "text": "an empty promise, okay?",
+      "status": "translated_author_self_check"
+    },
+    "00:00254:text:00003880": {
+      "source_offset": 14464,
+      "pool_word_offset": 1155,
+      "source_byte_length": 12,
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        12102
+      ],
+      "id": "00:00254:text:00003880",
+      "resource_row": 93,
+      "text": "I promise...",
+      "status": "translated_author_self_check"
+    },
+    "00:00254:text:0000388e": {
+      "source_offset": 14478,
+      "pool_word_offset": 1162,
+      "source_byte_length": 16,
+      "source_sha256": "65ecc181c4913e10d373c0635a43a784fadbbd20b223061a9103564bd4101813",
+      "contains_japanese": true,
+      "reference_instructions": [
+        12118
+      ],
+      "id": "00:00254:text:0000388e",
+      "resource_row": 94,
+      "text": "I won't let it be",
+      "status": "translated_author_self_check"
+    },
+    "00:00254:text:000038a0": {
+      "source_offset": 14496,
+      "pool_word_offset": 1171,
+      "source_byte_length": 14,
+      "source_sha256": "a5dd85f9c4495a95e604a916f73a7fbdc070f4ba1b02d0c242e01429a4a70803",
+      "contains_japanese": true,
+      "reference_instructions": [
+        12126
+      ],
+      "id": "00:00254:text:000038a0",
+      "resource_row": 95,
+      "text": "an empty promise, okay?",
+      "status": "translated_author_self_check"
+    },
+    "00:00254:text:000038b0": {
+      "source_offset": 14512,
+      "pool_word_offset": 1179,
+      "source_byte_length": 12,
+      "source_sha256": "0aefed15cc216d1315062016f942b941e4709ecf0042d6f9aecf9783231788f0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        12134
+      ],
+      "id": "00:00254:text:000038b0",
+      "resource_row": 96,
+      "text": "I promise...",
+      "status": "translated_author_self_check"
+    }
+  }
+}

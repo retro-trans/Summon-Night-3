@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00253",
+  "source_sha256": "338ecd4c8ea61476b9d4b58f3cceb041a64860f35f9ff49f545a0bc80674cf3e",
+  "target_file": "work/translation/en/story_0.1.54/0253/slice_0011.targets.json",
+  "target_file_sha256": "8349a1ffb233d55c92679a87bc315a1e4179f4d1bc0568986842a13695695bb7",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [11, 90],
+    "count": 80
+  },
+  "source_ranges_examined": [[0, 99]],
+  "rows_examined": 100,
+  "corrections": [
+    {
+      "resource_row": 59,
+      "source_sha256": "0564ed0b66f1a11e8cc2d42b28dcf1aa235d82b92c4304680bf8e9e281a49dfa",
+      "before": "that would be running away, don't you?",
+      "text": "you're being selfish, don't you?",
+      "after": "you're being selfish, don't you?",
+      "reason": "The source calls the wish self-indulgence or dependence, not running away. Later rows separately use the distinct idea of running away, so this male-variant line needs the separate meaning restored."
+    },
+    {
+      "resource_row": 61,
+      "source_sha256": "db98dd416cb000eafc7c25506040dd0195e45819ab675f3fc9cf6eec9b2b540a",
+      "before": "You know that would be running away,",
+      "text": "You know you're being selfish,",
+      "after": "You know you're being selfish,",
+      "reason": "The source calls the wish self-indulgence or dependence, not running away. This is the matching female-variant line and must preserve the same distinction."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [40, 41, 42],
+      "issue": "The family group named after Father is not individually identified in this resource. The existing plural wording preserves that unresolved referent, so no correction is proposed."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [16, 18, 32, 33, 34, 39, 43, 50, 63, 70, 75],
+      "reason": "Name calls, pauses, stammers, crying, and wordless reactions retain their conversational function in the authored English; no source omission was silently expanded or removed."
+    },
+    {
+      "rows": [11, 12, 13, 14, 20, 21, 22, 23, 24, 25, 27, 28, 30, 31, 35, 36, 37, 38, 40, 41, 42, 44, 45, 46, 47, 48, 49, 54, 55, 56, 58, 59, 61, 62, 65, 67, 68, 69, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 90],
+      "reason": "Physical continuation rows were checked as complete adjacent statements. The English joins their meaning across text boxes without dropping an endpoint."
+    },
+    {
+      "rows": [57, 58, 59, 60, 61, 62, 76, 77, 78, 79, 82, 83, 84, 85],
+      "reason": "Both protagonist variants were reviewed in parallel. The authored English supplies the needed speaker and listener roles; no unsupported gender inference was added."
+    }
+  ],
+  "notes": "Reviewed the original resource against the authored target with full-resource context. Rows 59 and 61 require meaning corrections; terminology and locked spellings were preserved. This review is proof of independent semantic review only and does not accept the resource or authorize a build."
+}

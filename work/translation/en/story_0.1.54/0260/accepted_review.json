@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00260",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0260/slice_0011.targets.json": "2832077ed65daf9757709f73b6ad3681ce6341b09b95de63d361301247cc78f1"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0260/review_meaning_0011.json": "4666c492ea1c854a49112784c6152217df1221613065aa7be0cd4cb3efcea880",
+    "work/translation/en/story_0.1.54/0260/review_meaning_0041_supplemental.json": "b69dfd96eaf88b991c1c8cdb7f8ae3fbab3f0a05116794a1ee24a22fbd138309",
+    "work/translation/en/story_0.1.54/0260/applied_review_0041_supplemental.json": "9f362f58377a44e2c9b9280191fd6f6b600f8d1438a102dd39407a78725d98e8"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness.",
+  "resolved_review_notes": [
+    {
+      "review": "review_meaning_0011.json",
+      "rows": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "resolution": "The old note claiming continuation beyond the resource was incorrect. The source ends at50; supplemental review0041 and its applied receipt complete both English variants."
+    }
+  ]
+}

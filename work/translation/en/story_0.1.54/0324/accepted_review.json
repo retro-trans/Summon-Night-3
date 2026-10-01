@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00324",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0324/slice_0011.targets.json": "1d61883a8981ae6f33d0a645b869e6b3bce97995abe8779eacd3be47c19c26b5"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0324/review_meaning_0011.json": "c21b9e712154ae087094f73fe3ed7f5fa355ce72134a75c1b3137561f515e9d9"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness.",
+  "author_uncertainties": [
+    {
+      "target": "slice_0011.targets.json",
+      "note": "Rows 25-26 retain the unnamed person's significance without supplying an identity."
+    }
+  ]
+}

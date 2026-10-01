@@ -1,0 +1,60 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_1888.json",
+  "review_sha256": "3de5ff2727dd8d36cd0c583f668841abb25d621794f549b1540b99cebabb5ed6",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_1888.targets.json",
+  "target_before_sha256": "f48579ee703bb08b70ee0cc3ae2b06f487bc17da405461c4822dbf8e17123218",
+  "target_after_sha256": "a571903a81731ac2591edde62979fbdb2b781daaefc01ed59715e13f6eb0bc07",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1888,
+      1967
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 1888,
+      "before": "really looking forward to",
+      "after": "",
+      "reason": "The complete box1887–1889 is already translated at1887; this continuation repeats its middle."
+    },
+    {
+      "resource_row": 1889,
+      "before": "seeing what story comes next.",
+      "after": "",
+      "reason": "The complete box1887–1889 is already translated at1887; this continuation repeats its conclusion."
+    },
+    {
+      "resource_row": 1901,
+      "before": "I'm counting on you, too.",
+      "after": "I'm counting on you.",
+      "reason": "This is an alternate protagonist version, not an additional speaker; source does not say 'too'."
+    },
+    {
+      "resource_row": 1933,
+      "before": "▲.",
+      "after": "▲-kun.",
+      "reason": "The next conversation explicitly objects to the -kun address; preserving it here supplies the source's immediate trigger."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        1906,
+        1911,
+        1917,
+        1920
+      ],
+      "issue": "Pupil requests their own lessons from Teacher; help with my lessons is understood as requesting instruction, not pupil teaching others."
+    },
+    {
+      "rows": [
+        1933,
+        1937,
+        1963
+      ],
+      "issue": "Honorific -kun retained locally because removal of that precise address is the subject of dialogue."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

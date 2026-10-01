@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_4448.json",
+  "review_sha256": "f2365462ae73702846ef0cbbc58ebda01d3b2d99baecc126de4ba4ef4b3905d3",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_4448.targets.json",
+  "target_before_sha256": "c02baeeb83f5eda427be7be3f09499cab66d06ea545068728a83cc1de2565c39",
+  "target_after_sha256": "ad2b96fb0256f06f3136f181d7d4e372fc7444a264eb5a88d4ba92c3effe8726",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4448,
+      4527
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4448,
+      "before": "I understand how you feel...",
+      "after": "",
+      "reason": "This continuation duplicates the complete box already preserved in row 4447."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

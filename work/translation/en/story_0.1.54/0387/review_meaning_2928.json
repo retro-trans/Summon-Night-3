@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_2928.targets.json",
+  "target_file_sha256": "050cc0517c3b63a675c4446025a21fd9c8ee7ce7981a14d8affa91e2856b8629",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2928,
+      3007
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2687,
+      3010
+    ]
+  ],
+  "rows_examined": 324,
+  "corrections": [
+    {
+      "resource_row": 2932,
+      "source_sha256": "7b2f46c3bbbb5582cbe3346221d18d36375ca88153291763475d4f9eea76a871",
+      "text": "I don't want to lose anymore. I don't want to fool myself with an empty smile.",
+      "reason": "Restore self-deception rather than hiding from others."
+    },
+    {
+      "resource_row": 2935,
+      "source_sha256": "7b2f46c3bbbb5582cbe3346221d18d36375ca88153291763475d4f9eea76a871",
+      "text": "I don't want to lose anymore. I don't want to fool myself with an empty smile.",
+      "reason": "Female variant retains same self-deception."
+    },
+    {
+      "resource_row": 2957,
+      "source_sha256": "781efac9d2443d73a8827bdb7e880688d700d7fc4bd51efe880beebea96e253d",
+      "text": "This sword could end up in the Colorless Faction's hands if I so choose, you know?",
+      "reason": "Restore Vizels choice, not unspecified spoken word."
+    },
+    {
+      "resource_row": 2970,
+      "source_sha256": "d4c3d0a02f9c644047656603d61d49bdab57d4b86f79502c0d4e6e32ac437918",
+      "text": "Even if that sword ends up turned against me...",
+      "reason": "Referent is the sword from2957–2969, not Vizel who already opposes them."
+    },
+    {
+      "resource_row": 2980,
+      "source_sha256": "6a9db85929cb3edce4d50ec479e76812d11d85027f5c2850dc1a896f4d460dfb",
+      "text": "I'm counting on you.",
+      "reason": "Restore subject and direction of the entrusting request."
+    }
+  ],
+  "uncertainties": [
+    {
+      "row": 2970,
+      "note": "Implicit referent interpreted as sword on enemy side, supported by preceding four boxes on losing/possessing it."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently read full Japanese/English VM boxes2687–3010. Confirmed request direction and branch gender; corrected sword/wielder referents. Name normalization pending."
+}

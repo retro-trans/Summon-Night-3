@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_6757.targets.json",
+  "target_file_sha256": "84b57d2e8f6405f53d6934bdcd45c49fc524a1796c3a62b2cf31cb62d0ce4620",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6757,
+      6836
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6756,
+      6837
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6757,
+      "source_sha256": "4158f7559c3811d5fd46fa4bfa154d68fba400512b24328608b8654883415364",
+      "before": "That is inheritance...",
+      "text": "That is inheritance...",
+      "after": "That is inheritance...",
+      "reason": "This line completes the preceding source group defining inheritance; it is duplicated at the prior row and absent from its own source row."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied."
+}

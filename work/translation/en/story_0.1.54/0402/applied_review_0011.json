@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0402/review_meaning_0011.json",
+  "review_sha256": "0368edb7e37536a50f0bcccc7fddb6706588e408789a7356aed52fe68b44eabc",
+  "target_file": "work/translation/en/story_0.1.54/0402/slice_0011.targets.json",
+  "target_before_sha256": "828ffd2fac49c8ea7670f83c851a4405969e5b20368acc17e195ef59e68c4f4e",
+  "target_after_sha256": "8ed853c5e0be20eaf707f3c1e81112ed991b058c8702e9f4c83b781eb4acea0c",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 12,
+      "before": "and seeing you makes me understand why.",
+      "after": "",
+      "reason": "Remove text belonging to following displayed box."
+    },
+    {
+      "resource_row": 13,
+      "before": "Your complexion is much healthier",
+      "after": "Seeing you makes me understand why. Your complexion is much healthier",
+      "reason": "Restore first sentence to its own original box, before existing row14 continuation."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

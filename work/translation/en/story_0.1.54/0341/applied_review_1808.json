@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0341/review_meaning_1808.json",
+  "review_sha256": "542c19cbb190f7b85890946c5a38865362f569581698026f3824a2810aa53ed0",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_1808.targets.json",
+  "target_before_sha256": "9f8c49f1f4f5052e4d7f4ad7af3f449c354907fe8542b9295c0038070615e082",
+  "target_after_sha256": "427a556ac4dca1fc16d4681bf281d7d5ff4f6c27a4abb3dc4c5aa3304d133427",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1808,
+      1887
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 1821,
+      "before": "I see...",
+      "after": "Yes...",
+      "reason": "Restore the affirmative response and retain its original one-row VM box."
+    },
+    {
+      "resource_row": 1880,
+      "before": "It's just... Teacher seems like you're having a really hard time right now...",
+      "after": "It's just... Teacher, you seem like you're having a really hard time right now...",
+      "reason": "Restore source meaning to its own VM dialogue box, removing cross-box drift, duplicate continuation, or incorrect English referent."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

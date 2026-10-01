@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4677.targets.json",
+  "target_file_sha256": "cbdde4e619ec0e78cf41ba40505ed48e195c6d0ac02133c82e0644e2f11c8976",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4677,
+      4756
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4596,
+      4918
+    ]
+  ],
+  "rows_examined": 323,
+  "corrections": [
+    {
+      "resource_row": 4679,
+      "source_sha256": "75bbd846a23a206232adca6847a6a3b43396d3f830706d90f7e419bcd23fe017",
+      "text": "Now, would you and the others",
+      "reason": "The initial sa is an invitation, not a stammer; sensei-ra includes the teacher's companions."
+    },
+    {
+      "resource_row": 4680,
+      "source_sha256": "58f79f493e13fc6548b23d5d77cc280676945997ccdb10c260a3dae406cdc9e3",
+      "text": "like a piece, Teacher?",
+      "reason": "Preserve the plural invitation in the same dialogue group."
+    },
+    {
+      "resource_row": 4707,
+      "source_sha256": "8ba266bc07b815d795af7314661145aa35cf740abab0ab4b6ad28c1efb839521",
+      "text": "I said the appearance was the problem.",
+      "reason": "The protagonist refers back to their own warning, not a warning delivered by the chef."
+    },
+    {
+      "resource_row": 4708,
+      "source_sha256": "fcc5043dbf2a3437066bdbe213cab21c68d852b8809007335620d03049052181",
+      "text": "You haven't learned",
+      "reason": "Preserve the failure to learn from that warning."
+    },
+    {
+      "resource_row": 4709,
+      "source_sha256": "bbabc9af39a526f127a5250f17a8134f3f3e129be5f48698899a329c23ea84b2",
+      "text": "anything from that, have you?",
+      "reason": "Complete the same question within its original group."
+    },
+    {
+      "resource_row": 4710,
+      "source_sha256": "8ba266bc07b815d795af7314661145aa35cf740abab0ab4b6ad28c1efb839521",
+      "text": "I said the appearance was the problem,",
+      "reason": "Restore the speaker of the earlier complaint in the parallel protagonist version."
+    },
+    {
+      "resource_row": 4741,
+      "source_sha256": "26a5d84703ce1e2f9b28f5e9e7980be713b0739e0254a84dc1dcb62e89a6db07",
+      "text": "Ohkini's eyes are blazing...",
+      "reason": "The immediately preceding resolve identifies Ohkini; explicit name avoids a misleading plural referent."
+    },
+    {
+      "resource_row": 4742,
+      "source_sha256": "26a5d84703ce1e2f9b28f5e9e7980be713b0739e0254a84dc1dcb62e89a6db07",
+      "text": "Ohkini's eyes are blazing...",
+      "reason": "Same identified referent in the alternate protagonist reaction."
+    },
+    {
+      "resource_row": 4744,
+      "source_sha256": "26a5d84703ce1e2f9b28f5e9e7980be713b0739e0254a84dc1dcb62e89a6db07",
+      "text": "Ohkini's eyes are blazing...",
+      "reason": "Same identified referent in the pupil's reaction."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "note": "Cries, silence, interrupted questions and dependent clauses continuing across adjacent boxes retain their source function."
+    }
+  ],
+  "notes": "Root independently compared every full VM dialogue group and both-side context. Proposed fixes assessed with the full current group text, including adjacent slices. No stylistic rewrites."
+}

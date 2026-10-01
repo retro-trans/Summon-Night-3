@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_6528.targets.json",
+  "target_file_sha256": "19ed28fdf4444a78ce8154c6851cf2871a7020ef1fd9f7e26ae24662a960a794",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [6528, 6607], "count": 80},
+  "source_ranges_examined": [[6527, 6608]],
+  "rows_examined": 82,
+  "corrections": [
+    {"resource_row":6530,"source_sha256":"61384504e550ef56387426a33caee92b2108d068994517a0485af9ec44b142ab","text":"She is still","reason":"Hazel is the established female referent."},
+    {"resource_row":6534,"source_sha256":"50b195ad7ac0c0258986df3a7700fb9166ab242a07f844331709dec3e892986d","text":"treat her...","reason":"Hazel is the established female referent."},
+    {"resource_row":6537,"source_sha256":"5b612aa88f273b7c27dd140d69689944bb8e0eb0d2d4a65d5959c8c1ba065073","text":"You want to help her,","reason":"Hazel is the established female referent."},
+    {"resource_row":6543,"source_sha256":"19911dba232e0fc49f4d263d6ec1e97aef1c8b25a5aee04e9800c1ad0a1ce894","text":"You want to help her, right?","reason":"Hazel is the established female referent."},
+    {"resource_row":6548,"source_sha256":"d9248d77503525503668b4315a7a683ace8aea38de32b95bf6956312a1e851e6","text":"I'll carry her","reason":"Hazel is the established female referent."}
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first meaning review of full VM boxes and both-side context; source read transiently. Hazel's gender follows the verified Chapter 13 reference. No correction was applied and no normalization was performed."
+}

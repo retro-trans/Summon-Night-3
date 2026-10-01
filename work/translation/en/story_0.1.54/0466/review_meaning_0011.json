@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00466",
+  "source_sha256": "901a1faf9df919044d53d28e4e40f5a36f141a0b168426010fc2645da955f5c2",
+  "target_file": "work/translation/en/story_0.1.54/0466/slice_0011.targets.json",
+  "target_file_sha256": "6e2993eb988063d888853eb51f1a4b91e0731a8edd87d380effa6d289dd257b2",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      141
+    ]
+  ],
+  "rows_examined": 132,
+  "corrections": [
+    {
+      "resource_row": 81,
+      "source_sha256": "8235425cf1922294a7c79e931c2bba9ff0a67aea2afd7aabc0a4d1227871ab1c",
+      "text": "If you'd like, Yafha, let's go to the shipbuilding city to meet them together.",
+      "reason": "Restore the explicitly named shipbuilding city, omitted from the existing English."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of the complete resource and actual VM dialogue groups. No whole dialogue box is blank and no meaning is moved across VM boxes."
+}

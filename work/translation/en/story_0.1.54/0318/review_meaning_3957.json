@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_3957.targets.json",
+  "target_file_sha256": "59c43430772b4291025e7d396af0b418f4426f6b6b6c71c7b78a48b509b01693",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3957,
+      4036
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3955,
+      4599
+    ]
+  ],
+  "rows_examined": 645,
+  "corrections": [
+    {
+      "resource_row": 3960,
+      "source_sha256": "8d8430edfd4b35c59a78e822a049dae1035448c3b9609793ec8c356b61442d3f",
+      "text": "Frankly,",
+      "reason": "Remove redundant surrender statement; the source has only one admission of being at a loss."
+    },
+    {
+      "resource_row": 3961,
+      "source_sha256": "94fb5fb4a2ae76e2cc8fd1343ca989aec768c2cfc378a25959d2cef8be632149",
+      "text": "I'm at my wits' end.",
+      "reason": "Source is an admission, not an order to abandon the objective."
+    },
+    {
+      "resource_row": 4012,
+      "source_sha256": "3c8733cefb3667c963aa63cba51b6eab5915730ba7bf9559d88740a86553cccd",
+      "text": "Unless you use the power of your sword",
+      "reason": "Restore the listener's sword use rather than changing the acting party to the Guardians."
+    },
+    {
+      "resource_row": 4013,
+      "source_sha256": "ac6449c850cdbfd9703f7c249223977653028ac716d42ce1f67d1c3b60669344",
+      "text": "to act on the ruins",
+      "reason": "Retain the explicit object of direct interference."
+    }
+  ],
+  "uncertainties": [
+    {
+      "note": "The will of the ruins is descriptive rather than a verified named term; singular Guardian in4264–4266 is retained because the source does not establish a plural correction."
+    }
+  ],
+  "omissions": [
+    {
+      "note": "Silence, cries and explicitly interrupted speech remain fragments; internal blanks never erase complete dialogue boxes."
+    }
+  ],
+  "notes": "Source-based read-only independent review by Terra chapter12_review covered3957–4596 and boundary context. Root reconciled corrections against original VM boxes, rejected a flawed proposed extra conditional, and previewed merged results. Root saves this current review record under the user's continuing translation task.",
+  "superseded_proposals": [
+    {
+      "file": "work/translation/en/story_0.1.54/0318/review_history/review_meaning_3957_initial_proposal.json",
+      "sha256": "de12d922eb56c9c814e9866d6f6bd15bbc90a77346e46a8348f84558931256aa"
+    }
+  ]
+}

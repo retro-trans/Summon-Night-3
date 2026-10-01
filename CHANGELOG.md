@@ -1,5 +1,274 @@
 # Changelog
 
+## 0.1.54 - Remaining story translation (test release, 2026-10-01)
+
+- Build all 134 accepted story scripts on v0.1.53; publish only the clean-source
+  patch and upgrade from published v0.1.52.
+- Verify unchanged ISO file contents and untouched archive entries. Pass 13
+  compiler regression tests and all 12 cumulative stability audit groups.
+- Fresh-boot PPSSPP passes Chapter 15 Continue, Brave Goals, Inventory/Black Rose
+  Knife and Summon Index/Dritol. Record existing UI defects and untested routes.
+- Verify both patches against the complete target ISO with the Retro Trans engine.
+
+### Translation completion checkpoint (before build)
+
+
+- Complete translation and independent source review of all 43,668 remaining
+  story fragments across 134 resources. All resources now have accepted reviews;
+  no undrafted rows or pending reviewed corrections remain.
+- Correct shifted dialogue boxes, missing clauses, speaker/request direction,
+  family relationships and duplicated continuations. Complete the final branch
+  review and apply canonical names afterward, preserving historical inputs.
+- Add source-locked support for the final branch's display helpers and shared
+  conditional tails. All 134 resources pass in-memory compilation; every current
+  recorded compiler input is verified. Nine regression tests and three targeted
+  negative checks pass.
+- Reopen resource 364 after the final music-marker scan revealed shifted text.
+  Recheck all 1,804 new rows, correct its first slice, and remove the extra marker
+  in resource 410. The final full-corpus scan finds no empty complete new dialogue
+  boxes or music-marker mismatches.
+- Save the final audit and progress checkpoint. Provisional lore/place spellings
+  remain documented. Runtime allocation and gameplay are unverified; no ISO,
+  release, Git push or Google Sheet update was produced.
+
+### Earlier checkpoints
+
+- Finish all remaining story drafts: 43,668 new fragments across 134 resources;
+  no undrafted fragments remain. Independent review and release validation continue.
+- Consolidate resource 485 meaning reviews through row 4447 and verify remaining
+  reported corrections. Restore missing phrases, distinguish Teacher and their
+  companions, correct hypothetical events and request direction, and remove
+  duplicated music markers. No empty complete new dialogue boxes or music-marker
+  mismatches remain in the final resource; terminology and wordplay remain flagged.
+- Renew 150 older review rows in resources 279, 281 and 282, preserve superseded
+  proof records, and accept their corrected translations. All three compile in
+  memory and every recorded compiler-input hash verifies.
+- Checkpoint (2026-10-01): 37,857 rows have current independent review proofs;
+  active proof bindings pass. Older coverage gaps, one incomplete 80-row review,
+  final-resource consolidation, name/title normalization and gameplay tests remain.
+  No ISO, release, Git push or Google Sheet update.
+
+- Complete main resource 482: all 1,383 new fragments independently reviewed,
+  corrected and accepted. Restore the plea to stay alive, fix known speakers and
+  duplicate boundary text, and preserve an unfinished confession.
+- Validate its original display helper 2246 by exact source signature and add
+  conservative pagination support while retaining conditional name paths. Four
+  display-helper tests pass. Resource 482 compiles in memory to 1,519 dialogue
+  groups / 1,653 pages (214,986 decoded bytes); runtime allocation and gameplay
+  remain unverified.
+- Renew 187 older meaning-review rows in resources 274-276 and 278, preserving
+  superseded proofs byte-for-byte. Recompile those four scripts plus 482 and
+  verify every recorded compiler-input hash.
+- Draft 2,400 fragments of final resource 485 with parallel Terra authors.
+  Review its first 720 rows and repair an additional missing boundary anchor;
+  correct request direction, place/person confusion, shifted dialogue and
+  duplicate music markers. Further meaning review and name normalization remain.
+- Checkpoint (2026-10-01): 42,050 fragments drafted; 1,618 remain, all in resource
+  485. Four older incomplete reviews still cover 190 pending rows. This is a
+  translation checkpoint only: no ISO, release, Git push or Google Sheet update.
+
+- Complete the final eleven Chapter 18 companion scripts (465-467, 470,
+  473-479): 1,228 new fragments drafted, independently reviewed and accepted.
+  All 21 Chapter 18 companions now have accepted meaning reviews.
+- Correct Azlier's narration and younger-brother relationship, Kyle's addressee,
+  Yard's promise direction, omitted summoning/shipbuilding details and duplicated
+  dialogue. Apply canonical names after meaning fixes; record provisional nicknames.
+- Validate the final eleven scripts in memory: 646 dialogue groups and 788 pages,
+  with original display calls simulated and exact input hashes verified. No ISO
+  or gameplay test was performed; runtime allocation remains unverified.
+- Checkpoint (2026-10-01): 38,267 fragments drafted; 5,401 remain in main resources
+  482 and 485. Active review bindings pass; nine older incomplete reviews still
+  cover 377 pending rows. Preserve translator-sheet edits and published inputs.
+
+- Complete and independently review ten Chapter 18 companion scripts: resources
+  458-463, 468-469 and 471-472, covering 1,526 new-text fragments. Add 1,069
+  previously undrafted fragments and review the three earlier companion drafts.
+- Correct exam-result speakers, request direction, missing child references,
+  duplicated dialogue at a slice boundary, and known character pronouns.
+  Apply frozen terminology rules after meaning corrections; preserve short Bel,
+  use teacher for the profession, and record provisional book/city terminology.
+- Verify all ten accepted scripts in memory: 841 dialogue groups and 1,081 pages;
+  every display call is simulated, live text and unrelated code are preserved,
+  and compiler-input hashes pass. No ISO or gameplay test was performed.
+- Checkpoint (2026-10-01): 37,039 fragments drafted; 6,629 remain. Active review
+  bindings pass. Continue Chapter 18 resource 465, remaining companions, and main
+  resources 482/485. Nine older incomplete reviews still cover 377 pending rows.
+
+- Complete Chapter 17 main resource 433: all 2,595 new fragments independently
+  reviewed and accepted, adding the remaining 1,475 fragments this checkpoint.
+  Restore missing dialogue boxes, remove duplicate and shifted meanings, and fix
+  request direction and Rikuto's farewell message about his own wife and child.
+- Normalize Chapter 17 Elgo, Clyps, Core Cognizance and Rikuto after meaning review;
+  record the spell call "Oni Summon: Wind Blade" as provisional. Preserve historical
+  glossary snapshots and all prior review proof chains.
+- Verify Chapter 17 in memory at 305,786 of 491,520 decoded bytes, with 2,132
+  dialogue groups and 2,377 pages. Verify exact display-wrapper signatures for
+  helpers 2154 and 2219 before paging their dialogue; retain original conditional
+  paths and display calls. Six regression checks pass; no ISO or gameplay test.
+- Checkpoint (2026-10-01): 35,970 new fragments drafted; 7,698 remain. Active review
+  bindings pass. Continue Chapter 18 support scenes, then main resources 482/485;
+  377 rows in nine older incomplete review records still require renewed review.
+
+- Complete and independently review Chapter 16 main resource 410: all 3,224 new
+  fragments. Restore omitted meanings, dialogue boundaries and actor direction;
+  normalize Chuur, Bel, Ishlar, sword titles and the descriptive disease demon's curse.
+- Verify Chapter 16 in memory at 357,482 of 491,520 decoded bytes. Bind display
+  helper 2154 to its exact source signature and preserve its original calls while
+  paging eight dialogue boxes. Keep menu choices on their original display path;
+  fit three labels and an overlong repeated laugh. Five regression checks pass.
+- Continue Chapter 17 resource 433 through row 2927: 1,120 new fragments drafted
+  and independently reviewed. Correct character relationships, a yes/no reversal,
+  unsupported speaker claims, duplicated questions and shifted dialogue boxes.
+- Checkpoint (2026-10-01): 34,495 new fragments drafted; 9,173 remain. Active review
+  bindings pass. Next row is Chapter 17 resource 433:2928; its final terminology
+  normalization and compilation remain pending. No ISO or gameplay validation.
+
+- Complete and independently review Chapter 15 main resource 387 and 18 companion
+  scripts: 7,522 new fragments. Correct missing, duplicated and shifted dialogue,
+  negation and actor direction before normalizing names.
+- Verify all 19 Chapter 15 scripts in memory. Main 387 uses 431,320 decoded bytes
+  within 491,520. Add source-bound branch pagination for resource 393 and verify
+  both original paths, display calls and live-text preservation. No ISO/gameplay test.
+- Restore 173 historical review records, including 169 by exact hash and four from
+  retained clean root records. Replace three unrecoverable proofs with fresh source
+  reviews; archive damaged records and affected acceptance snapshots. Re-review the
+  older resource 364 supplemental correction and reaccept resources 329, 331 and 364.
+  Active review bindings now pass; nine older semantic-completion records remain pending.
+- Continue Chapter 16 with 80-row slices and independent full-box review. Repair a
+  duplicated boundary sentence and preserve the honorific needed by the following
+  dialogue. Keep translator-sheet entries and released snapshots unchanged.
+- Checkpoint (2026-10-01): Chapter 16 resource 410 rows 1808–3087 add 1,280 independently
+  reviewed fragments. Restore actor-neutral phrasing where the script cannot establish
+  a speaker, fix timing and past/future meaning, and retain an English name/overeating
+  pun. Source/control audit passes; 31,431 new fragments drafted and 12,237 remain.
+  Continue at row 3088; Chapter 16 name normalization and compilation remain pending.
+
+- Complete Chapter 13 main resource 341 and all 19 in-scope companion scripts: add
+  2,647 new fragments, retranslate 332 legacy main rows, and accept 3,230 rows after
+  independent source review. Preserve the 71 replaced legacy slices and their hashes.
+- Correct misplaced/duplicated dialogue, empty boxes, reversed actions, speaker pronouns,
+  and a measured choice-label overflow. Normalize names after meaning corrections;
+  record provisional Lady of Thorns and Coral Viper title references.
+- Verify all 20 Chapter 13 scripts in memory, including two-line Night Talk layouts.
+  Main 341 compiles to 269,892 decoded bytes within 491,520; preserve live text and
+  original display calls. No ISO or gameplay validation yet.
+- Checkpoint: 22,629 new fragments drafted, 21,039 remain; next main resource is 387
+  (Chapter 15). Keep human spreadsheet edits and published snapshots unchanged.
+
+- Audit the remaining story scope and separate exact shared-library reuse from new dialogue.
+- Apply updated BASE_RULES: 80-row slices, surrounding context, sourced character facts,
+  explicit uncertainty and retained-omission notes, and dry-run previews before data writes.
+- Keep earlier unpublished drafts pending independent meaning review against the updated rules.
+- Add a separate relocation compiler with verified two-line Night Talk pages and the
+  existing decoded-script allocation limit. Draft layout checks do not imply gameplay validation.
+
+- Complete the 3,481-row new draft for story resource 249; verify full-script layout
+  and relocation at 353,352 decoded bytes within the 491,520-byte allocation limit.
+- Independently review all 1,804 new rows in story resource 364, apply verified meaning
+  corrections, then normalize Crimson Gloves. Bind acceptance to exact draft and review hashes.
+- Verify resource 364 after review at 255,344 decoded bytes and 1,931 pages;
+  preserve gameplay validation as a separate outstanding requirement.
+- Add review-proof integrity and glossary-normalization checks; reject stale reviews
+  and keep unresolved readings explicit. Complete the resource 272 draft in 80-row slices.
+- Record sourced location and organization terms with explicitly provisional plant/spell names.
+
+- Add lossless duplicate/suffix string storage; verify referenced bytes and VM instructions
+  are preserved. Resource 272 fits at 490,554 decoded bytes; gameplay remains unverified.
+- Pause translation at the user's export checkpoint: 10,791 new fragments drafted,
+  32,877 remaining; 3,212 rows have current independent review proofs.
+- Prepare a chapter-ordered Google Sheets proofreading inventory matching the reference
+  columns. Preserve source IDs and untranslated rows; keep Japanese text transient.
+  Upload 115,766 proofreading records covering 152,904 source fragments to the user-provided
+  Google Sheet. Verify every uploaded block, chapter order, 22 record tabs, reviewer notes,
+  validation controls and explicit row heights. Keep uncertain battle chapter assignments
+  in separate tabs and retain translation pause. Exclude only 620 internal ASCII setup rows.
+
+
+- Correct the proofreading export's historical dialogue matching: use original source
+  byte offsets, not compiler-dependent row numbers after shared-prefix stripping.
+- Add VM-backed speaker roles and explicit unresolved actor slots, script-event IDs,
+  and basic-block references. These identify static structure, not a verified route chronology.
+- Prepare a corrected scene index with separate shared/prelude and system sections;
+  preserve every original record and the original native tabs. Shared scripts contain
+  real opening dialogue and must not be mistaken for UI-only material.
+- Upload and read back all 115,766 corrected records across 24 record tabs; retain
+  the prior 22 record tabs and guide as hidden archives. Preserve all 203 original
+  translator/reviewer notes, verify native layout controls, and keep unresolved
+  route chronology and fixed-speaker attribution explicit. No translation or build changes.
+
+- Simplify the live translator sheet: remove free bytes, box, px / limit, budget,
+  bytes, widest, lines and fits from all 24 current record tabs. Preserve proposed
+  translations in column E, reviewer controls, notes, row counts and hidden archives;
+  update the guide to the new scene-context column positions.
+
+- Remove section, script event, branch block and source context from the 24
+  translator tabs. Preserve all 115,766 row-keyed trace records outside the sheet,
+  retain the eight translation/review columns, and update the guide.
+
+- Resume the remaining dialogue translation at the user request, using Terra
+  authors in 80-row slices and separate meaning review; retain translator-sheet
+  edits and the simplified eight-column review layout.
+
+
+- Resume checkpoint: add 5,674 new story fragments (16,465 drafted; 27,203 remaining).
+  Complete and independently review Chapter 11 main resource 295 and its companion
+  scenes; complete the remaining Chapter 9/10 companion drafts and eight Chapter 12 scenes.
+- Accept 45 additional resources after meaning corrections and glossary normalization.
+  Review complete VM dialogue groups to fix shifted clauses, replaced reactions,
+  repeated text, wrong action subjects, and an incorrectly completed interrupted name.
+  Keep unresolved author/reviewer readings in the source-bound records.
+- Add a read-only whole-dialogue preview for subsequent authors and reviewers.
+  Normalize Shartos, Crissles, Maetropa, Sapureth and Azlier after meaning review;
+  record sourced pledge/faction terminology and the provisional Elgo Inscription title.
+- Support empty internal continuation fragments when their English was consolidated
+  within the same dialogue group; still reject empty whole groups and menu labels.
+  Prevent overlapping old review proofs from hiding unapplied corrections.
+- Verify all newly accepted scenes through the compiler; resource 295 uses 485,348
+  decoded bytes and 4,032 pages, within the 491,520-byte allocation. Seven focused
+  compiler/storage tests plus the review-overlap regression pass. Gameplay remains
+  unverified; no ISO, patch, release or translator-sheet overwrite in this pass.
+
+
+- Chapter 12 checkpoint: add 2,001 independently reviewed story fragments,
+  bringing new-story draft coverage to 18,466 of 43,668 (25,202 remaining).
+  Main resource 318 now covers 3957–5556; its remaining 1,516 fragments start 5557.
+  Complete and accept all ten remaining Chapter 12 companion scenes 328–337.
+- Correct reversed requests and atonement references, duplicated sentences,
+  shifted reactions, empty complete dialogue boxes, direct-address pronouns,
+  and Misumi's reference to her late husband. Preserve exact source control
+  tokens and record unresolved readings without inventing character identities.
+- All ten newly accepted companion scripts pass in-memory compilation, allocation,
+  original display-call simulation and Night Talk paging checks. Main 318's
+  1,600 new rows pass encoding/control checks; 763 complete dialogue groups and
+  four direct labels pass nonempty/width checks. Main 318 remains incomplete
+  and has not undergone full-resource compilation or gameplay validation.
+- Preserve translator-sheet edits and released snapshots; no Google Sheet update,
+  ISO, patch or release produced at this checkpoint.
+
+
+- Complete Chapter 12 main resource 318 with 1,516 additional story fragments
+  (rows 5557–7072), bringing draft coverage to 19,982 of 43,668 new fragments;
+  23,686 remain. All Chapter 12 main and companion scenes are now accepted.
+- Independently review complete VM dialogue groups and correct shifted battle
+  lines, reversed actors, duplicate clauses, missing silent reactions, and
+  protagonist-dependent pronouns. Preserve Instructor for the military role
+  and normalize Crimson Gloves after meaning corrections.
+- Verify the complete main script at 479,716 decoded bytes within its
+  491,520-byte allocation: 7,073 source rows, 3,438 groups and 3,823 pages.
+  Original display calls, live strings, unrelated instructions and special-field
+  width checks pass. Record source-bound review and correction receipts.
+- Continue next at Chapter 13 main resource 341 row 2053. No gameplay validation,
+  Google Sheet update, ISO, patch or release is included in this checkpoint.
+
+## 0.1.53 - Teacher terminology, 2026-09-30
+
+- Investigate the reported v0.1.52 Status crash: released CRC matches; a
+  graphics metadata pointer is null. Root cause and runtime fix remain pending.
+- Replace Professor with Teacher in nine distinct battle-dialogue passages,
+  including all shared copies. Preserve casing, speakers, script flow and layout.
+- Record Teacher as the preferred term for future translations.
+- Keep published translation inputs and released patches unchanged.
+
 ## 0.1.52 - Cooking title alignment, 2026-09-30
 
 - Release packaging: retain only original-to-v0.1.52 and published v0.1.41-to-v0.1.52 patches; withdraw local-test upgrade assets and synchronize the catalog and checksums.

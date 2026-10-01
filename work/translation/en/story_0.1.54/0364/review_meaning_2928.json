@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2928.targets.json",
+  "target_file_sha256": "11c6a411b0069cdc187a101e0d5ad6684f979b4f2e9898b6d78cee33546787f5",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2928,
+      3007
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    2918,
+    3018
+  ],
+  "rows_examined": 101,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        2988,
+        2989
+      ],
+      "issue": "Red Gloves is a known pending name-normalization issue; this independent meaning review does not alter it. Crimson Gloves will be applied later by the designated name pass."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        2931,
+        2933,
+        2940,
+        2942,
+        2944,
+        2946,
+        2951,
+        2953,
+        2956,
+        2958,
+        2965,
+        2966,
+        2968,
+        2969,
+        2971,
+        2975,
+        2976,
+        2978,
+        2979,
+        2981,
+        2984,
+        2988,
+        2991,
+        2997,
+        3000,
+        3002,
+        3005
+      ],
+      "reason": "Continuation fragments preserve the complete source sentence groups."
+    },
+    {
+      "rows": [
+        2928,
+        2929,
+        2936,
+        2937,
+        2938,
+        2939,
+        2950,
+        2961,
+        2962,
+        2963,
+        2964,
+        2987,
+        2994,
+        2995,
+        2996,
+        2999
+      ],
+      "reason": "Teacher addresses, acknowledgements, pauses, and reactions retain their source function."
+    }
+  ],
+  "notes": "Independent reviewer compared every assigned source and authored English row with neighboring context. No semantic corrections are needed; no cosmetic rewrites are proposed."
+}

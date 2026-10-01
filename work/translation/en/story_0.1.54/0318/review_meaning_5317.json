@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_5317.targets.json",
+  "target_file_sha256": "e2dbfcf168bc6075111797616ec95583c74624be6523e390af42eb7188f9724b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5317,
+      5396
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4996,
+      5557
+    ]
+  ],
+  "rows_examined": 562,
+  "corrections": [
+    {
+      "resource_row": 5317,
+      "source_sha256": "3fe0cf3c705b0f778cfd8da6f2f82281c80af7e17777269c73948d256c543e2e",
+      "text": "",
+      "reason": "The complete source question is already in5316; remove the duplicated sentence inside this group."
+    },
+    {
+      "resource_row": 5376,
+      "source_sha256": "92a514bdfbd24b88d2095fdbee356537d01a8d710b5347e3b2fbb7f3d9cb7125",
+      "text": "Face us with due",
+      "reason": "Repair the source command to confront them with appropriate resolve."
+    },
+    {
+      "resource_row": 5377,
+      "source_sha256": "9f415c102b24f50e46b26b6abfd77457f7c44c28696bf6928a166b3a1a5ef9c8",
+      "text": "resolve!",
+      "reason": "Complete the command inside its original group."
+    },
+    {
+      "resource_row": 5395,
+      "source_sha256": "8397034f8f5a80cfd1607d062e49e7b8f3b53eab2f8b856388afc7a56f0c2f5d",
+      "text": "Wait!",
+      "reason": "Keep the question within its original box; do not absorb the following reaction."
+    },
+    {
+      "resource_row": 5396,
+      "source_sha256": "7f2c26be88d442c08f8c7bf35d4fa93c7706dc62bf13a9ebd2c43e7cb0d7c044",
+      "text": "Did Azlier really say",
+      "reason": "Restore question fragment within the original box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "note": "Only source-marked interruptions, silence and natural reactions retain fragmentary wording."
+    }
+  ],
+  "notes": "Read-only independent Terra chapter12_review checked all full VM boxes and both-side context; root compared each proposed change against source and complete English groups. Root records the reconciled findings. No complete dialogue box may be empty."
+}

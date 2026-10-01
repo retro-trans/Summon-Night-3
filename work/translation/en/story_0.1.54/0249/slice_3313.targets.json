@@ -1,0 +1,1214 @@
+{
+  "resource_id": "00:00249",
+  "range_inclusive": [
+    3313,
+    3392
+  ],
+  "source_sha256": "e3c0ac50ec01fb9606a8cf187d24791b3e787ee38da5f8d48c733777bbb2cc6e",
+  "review_status": "author self-check; no independent meaning review",
+  "source_ranges_examined": [
+    [
+      3307,
+      3406
+    ]
+  ],
+  "rows_examined": 100,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "rows": [
+        3349,
+        3392
+      ],
+      "reason": "Blue Ice Falls and blue ice trees are provisional descriptive translations; Japanese place confirmed by Chapter9 walkthrough https://w.atwiki.jp/sn3psp/pages/17.html. No established English form found in glossary."
+    },
+    {
+      "rows": [
+        3388,
+        3392
+      ],
+      "reason": "All-katakana delivery kept as uppercase English for armored Falzen speech, without assuming speaker gender."
+    }
+  ],
+  "preserved_source_omissions": [
+    {
+      "rows": [
+        3317,
+        3318,
+        3320,
+        3329,
+        3330,
+        3331,
+        3332,
+        3343,
+        3345,
+        3346,
+        3347,
+        3348,
+        3353,
+        3355,
+        3379,
+        3380,
+        3381,
+        3389
+      ],
+      "reason": "Reactions, silence, laughter and answer fragments retain source form;3381 answers whether view is beautiful."
+    },
+    {
+      "rows": [
+        3313,
+        3314,
+        3322,
+        3325,
+        3334,
+        3336,
+        3337,
+        3339,
+        3340,
+        3342,
+        3351,
+        3352,
+        3359,
+        3362,
+        3363,
+        3365,
+        3367,
+        3369,
+        3370,
+        3372,
+        3373,
+        3375,
+        3376,
+        3378,
+        3384,
+        3386,
+        3387,
+        3391
+      ],
+      "reason": "Physical continuations with English subject/verb in adjacent fragments;3313–3314 finish prior slice3312."
+    }
+  ],
+  "notes": "Arrival at waterfall and cold-emitting tree grove. Preserve character explanations as dialogue, without adding scientific claims.",
+  "translations": {
+    "00:00249:text:0003d6b0": {
+      "source_offset": 251568,
+      "pool_word_offset": 31187,
+      "source_byte_length": 20,
+      "source_sha256": "66a9e4977ee64c6de6323beeb9c8f7527478539eb479e6837e42942c94128621",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128342
+      ],
+      "id": "00:00249:text:0003d6b0",
+      "resource_row": 3313,
+      "text": "brought everyone closer together,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d6c6": {
+      "source_offset": 251590,
+      "pool_word_offset": 31198,
+      "source_byte_length": 16,
+      "source_sha256": "23d2e2622149892493c2801ac47b2c700b7ae781e1b91dcf8c50783e2d98fa0f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128350
+      ],
+      "id": "00:00249:text:0003d6c6",
+      "resource_row": 3314,
+      "text": "wouldn't it?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d6d8": {
+      "source_offset": 251608,
+      "pool_word_offset": 31207,
+      "source_byte_length": 8,
+      "source_sha256": "23d0e414ca24e8551b3ae139a24cc96099de4c85aed807d07a4e7d1da2215524",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128390
+      ],
+      "id": "00:00249:text:0003d6d8",
+      "resource_row": 3315,
+      "text": "You're right.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d6e2": {
+      "source_offset": 251618,
+      "pool_word_offset": 31212,
+      "source_byte_length": 14,
+      "source_sha256": "5a3c7f923537ac78ee2bda83502a46b63610800188cd5bba9514c9811d4d6d03",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128422
+      ],
+      "id": "00:00249:text:0003d6e2",
+      "resource_row": 3316,
+      "text": "Yes, you're right.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d6f2": {
+      "source_offset": 251634,
+      "pool_word_offset": 31220,
+      "source_byte_length": 8,
+      "source_sha256": "876cdd0edd46a437c7eaa0ddb608d52a3de60cf2e01bfcac89c9c525bc1bbe9a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128654
+      ],
+      "id": "00:00249:text:0003d6f2",
+      "resource_row": 3317,
+      "text": "Oh...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d6fc": {
+      "source_offset": 251644,
+      "pool_word_offset": 31225,
+      "source_byte_length": 8,
+      "source_sha256": "876cdd0edd46a437c7eaa0ddb608d52a3de60cf2e01bfcac89c9c525bc1bbe9a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128700
+      ],
+      "id": "00:00249:text:0003d6fc",
+      "resource_row": 3318,
+      "text": "Oh...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d706": {
+      "source_offset": 251654,
+      "pool_word_offset": 31230,
+      "source_byte_length": 18,
+      "source_sha256": "33635fdf045d2ae388e5f8c9a80e3069fee7b5ef2b38b3a306254c6fb4f649e2",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128774
+      ],
+      "id": "00:00249:text:0003d706",
+      "resource_row": 3319,
+      "text": "This is snow...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d71a": {
+      "source_offset": 251674,
+      "pool_word_offset": 31240,
+      "source_byte_length": 16,
+      "source_sha256": "0da4c8034ee1052b6a53524e478e98490bba4ad92fbf117bb4cf3cb9735d107a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128848
+      ],
+      "id": "00:00249:text:0003d71a",
+      "resource_row": 3320,
+      "text": "Wow, snow...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d72c": {
+      "source_offset": 251692,
+      "pool_word_offset": 31249,
+      "source_byte_length": 20,
+      "source_sha256": "63ced085cf641a4b52537295fdb2e6f762b268e27a85d9174a682471ce176321",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128886
+      ],
+      "id": "00:00249:text:0003d72c",
+      "resource_row": 3321,
+      "text": "But the sky is",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d742": {
+      "source_offset": 251714,
+      "pool_word_offset": 31260,
+      "source_byte_length": 18,
+      "source_sha256": "19e675e21fa5a51ad595cce356772238f635d8366cb89a25f93defaf6d25c33d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128894
+      ],
+      "id": "00:00249:text:0003d742",
+      "resource_row": 3322,
+      "text": "completely clear.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d756": {
+      "source_offset": 251734,
+      "pool_word_offset": 31270,
+      "source_byte_length": 10,
+      "source_sha256": "4d028803f978ebe40cf0dc4e55f0c5640a3411b3fbd64d387848bbfaa9a483ee",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128902
+      ],
+      "id": "00:00249:text:0003d756",
+      "resource_row": 3323,
+      "text": "How can that be?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d762": {
+      "source_offset": 251746,
+      "pool_word_offset": 31276,
+      "source_byte_length": 20,
+      "source_sha256": "63ced085cf641a4b52537295fdb2e6f762b268e27a85d9174a682471ce176321",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128932
+      ],
+      "id": "00:00249:text:0003d762",
+      "resource_row": 3324,
+      "text": "But the sky is",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d778": {
+      "source_offset": 251768,
+      "pool_word_offset": 31287,
+      "source_byte_length": 18,
+      "source_sha256": "19e675e21fa5a51ad595cce356772238f635d8366cb89a25f93defaf6d25c33d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128940
+      ],
+      "id": "00:00249:text:0003d778",
+      "resource_row": 3325,
+      "text": "completely clear.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d78c": {
+      "source_offset": 251788,
+      "pool_word_offset": 31297,
+      "source_byte_length": 10,
+      "source_sha256": "4d028803f978ebe40cf0dc4e55f0c5640a3411b3fbd64d387848bbfaa9a483ee",
+      "contains_japanese": true,
+      "reference_instructions": [
+        128948
+      ],
+      "id": "00:00249:text:0003d78c",
+      "resource_row": 3326,
+      "text": "How can that be?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d798": {
+      "source_offset": 251800,
+      "pool_word_offset": 31303,
+      "source_byte_length": 20,
+      "source_sha256": "093335e2dcb42bd14e775afd70801feba0d07452e816104ad6c63511214e79bc",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129046
+      ],
+      "id": "00:00249:text:0003d798",
+      "resource_row": 3327,
+      "text": "Snow isn't the only thing.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d7ae": {
+      "source_offset": 251822,
+      "pool_word_offset": 31314,
+      "source_byte_length": 18,
+      "source_sha256": "bf0eb27f77ebdb77ddef8ae7dc8660e62b6faedc5ea7e094e08c77210be976be",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129054
+      ],
+      "id": "00:00249:text:0003d7ae",
+      "resource_row": 3328,
+      "text": "Listen carefully.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d7c2": {
+      "source_offset": 251842,
+      "pool_word_offset": 31324,
+      "source_byte_length": 12,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129316
+      ],
+      "id": "00:00249:text:0003d7c2",
+      "resource_row": 3329,
+      "text": "...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d7d0": {
+      "source_offset": 251856,
+      "pool_word_offset": 31331,
+      "source_byte_length": 12,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129372
+      ],
+      "id": "00:00249:text:0003d7d0",
+      "resource_row": 3330,
+      "text": "...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d7de": {
+      "source_offset": 251870,
+      "pool_word_offset": 31338,
+      "source_byte_length": 12,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129428
+      ],
+      "id": "00:00249:text:0003d7de",
+      "resource_row": 3331,
+      "text": "...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d7ec": {
+      "source_offset": 251884,
+      "pool_word_offset": 31345,
+      "source_byte_length": 12,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129484
+      ],
+      "id": "00:00249:text:0003d7ec",
+      "resource_row": 3332,
+      "text": "...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d7fa": {
+      "source_offset": 251898,
+      "pool_word_offset": 31352,
+      "source_byte_length": 16,
+      "source_sha256": "500ce945aed77043a589e18bf00a81d47a3f9bc9fd7e45075d6d48abe09ebc0e",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129580
+      ],
+      "id": "00:00249:text:0003d7fa",
+      "resource_row": 3333,
+      "text": "That's such a beautiful",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d80c": {
+      "source_offset": 251916,
+      "pool_word_offset": 31361,
+      "source_byte_length": 14,
+      "source_sha256": "4bc79bd2309d3599be24a2317de0a76196c51b11c400667c423877db51124491",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129588
+      ],
+      "id": "00:00249:text:0003d80c",
+      "resource_row": 3334,
+      "text": "sound...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d81c": {
+      "source_offset": 251932,
+      "pool_word_offset": 31369,
+      "source_byte_length": 18,
+      "source_sha256": "681a1d9558353011942d8474d6d9bf3e066d51af0eb7d2f527fa876559780c3b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129672
+      ],
+      "id": "00:00249:text:0003d81c",
+      "resource_row": 3335,
+      "text": "It's coming from far above us,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d830": {
+      "source_offset": 251952,
+      "pool_word_offset": 31379,
+      "source_byte_length": 18,
+      "source_sha256": "f27d520e031c5b9f8616c6c9778f12fe4b94a5897bb8aec1cc311002cc6f44ca",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129680
+      ],
+      "id": "00:00249:text:0003d830",
+      "resource_row": 3336,
+      "text": "carried on",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d844": {
+      "source_offset": 251972,
+      "pool_word_offset": 31389,
+      "source_byte_length": 10,
+      "source_sha256": "d135c672a750a7ff29f93b4c30330a51319adf4244080bf7f1bb2ebcdfd1be7d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129688
+      ],
+      "id": "00:00249:text:0003d844",
+      "resource_row": 3337,
+      "text": "the wind...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d850": {
+      "source_offset": 251984,
+      "pool_word_offset": 31395,
+      "source_byte_length": 18,
+      "source_sha256": "681a1d9558353011942d8474d6d9bf3e066d51af0eb7d2f527fa876559780c3b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129742
+      ],
+      "id": "00:00249:text:0003d850",
+      "resource_row": 3338,
+      "text": "It's coming from far above us,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d864": {
+      "source_offset": 252004,
+      "pool_word_offset": 31405,
+      "source_byte_length": 18,
+      "source_sha256": "f27d520e031c5b9f8616c6c9778f12fe4b94a5897bb8aec1cc311002cc6f44ca",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129750
+      ],
+      "id": "00:00249:text:0003d864",
+      "resource_row": 3339,
+      "text": "carried on",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d878": {
+      "source_offset": 252024,
+      "pool_word_offset": 31415,
+      "source_byte_length": 10,
+      "source_sha256": "d135c672a750a7ff29f93b4c30330a51319adf4244080bf7f1bb2ebcdfd1be7d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129758
+      ],
+      "id": "00:00249:text:0003d878",
+      "resource_row": 3340,
+      "text": "the wind...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d884": {
+      "source_offset": 252036,
+      "pool_word_offset": 31421,
+      "source_byte_length": 20,
+      "source_sha256": "18227aeda3ca7a718abbcdbe22a11b9570d9596aed40fcb4cf9de1c39cd2474f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129922
+      ],
+      "id": "00:00249:text:0003d884",
+      "resource_row": 3341,
+      "text": "You'll understand everything",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d89a": {
+      "source_offset": 252058,
+      "pool_word_offset": 31432,
+      "source_byte_length": 12,
+      "source_sha256": "e5dc83af43d70152c901ec1bb59821271dbc71b0f63137ef2659de2b33cd8b25",
+      "contains_japanese": true,
+      "reference_instructions": [
+        129930
+      ],
+      "id": "00:00249:text:0003d89a",
+      "resource_row": 3342,
+      "text": "once we reach our destination.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d8a8": {
+      "source_offset": 252072,
+      "pool_word_offset": 31439,
+      "source_byte_length": 12,
+      "source_sha256": "05c2370f1df5bbc6e85208f36b4a4922c57ec43d5eaa14005dbf864feb33b7ec",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130010
+      ],
+      "id": "00:00249:text:0003d8a8",
+      "resource_row": 3343,
+      "text": "Heh heh heh...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d8b6": {
+      "source_offset": 252086,
+      "pool_word_offset": 31446,
+      "source_byte_length": 14,
+      "source_sha256": "ed1397df17f0ab578316c754ed916e3e1baa44b473bbdbd6b8264c077c9801f8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130018
+      ],
+      "id": "00:00249:text:0003d8b6",
+      "resource_row": 3344,
+      "text": "You're in for a surprise.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d8c6": {
+      "source_offset": 252102,
+      "pool_word_offset": 31454,
+      "source_byte_length": 8,
+      "source_sha256": "efd3d6f225d2c51106454c2a503f0dc9f3f5ccf1022ad67fd7cf496cfa45b5e0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130262
+      ],
+      "id": "00:00249:text:0003d8c6",
+      "resource_row": 3345,
+      "text": "A waterfall...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d8d0": {
+      "source_offset": 252112,
+      "pool_word_offset": 31459,
+      "source_byte_length": 8,
+      "source_sha256": "efd3d6f225d2c51106454c2a503f0dc9f3f5ccf1022ad67fd7cf496cfa45b5e0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130336
+      ],
+      "id": "00:00249:text:0003d8d0",
+      "resource_row": 3346,
+      "text": "A waterfall...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d8da": {
+      "source_offset": 252122,
+      "pool_word_offset": 31464,
+      "source_byte_length": 8,
+      "source_sha256": "efd3d6f225d2c51106454c2a503f0dc9f3f5ccf1022ad67fd7cf496cfa45b5e0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130410
+      ],
+      "id": "00:00249:text:0003d8da",
+      "resource_row": 3347,
+      "text": "A waterfall...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d8e4": {
+      "source_offset": 252132,
+      "pool_word_offset": 31469,
+      "source_byte_length": 8,
+      "source_sha256": "efd3d6f225d2c51106454c2a503f0dc9f3f5ccf1022ad67fd7cf496cfa45b5e0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130484
+      ],
+      "id": "00:00249:text:0003d8e4",
+      "resource_row": 3348,
+      "text": "A waterfall...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d8ee": {
+      "source_offset": 252142,
+      "pool_word_offset": 31474,
+      "source_byte_length": 16,
+      "source_sha256": "5c47154045cda1112b6e8e72fe0e18b57ddb48a96f8b1e3b6b10ce382e86ec17",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130550
+      ],
+      "id": "00:00249:text:0003d8ee",
+      "resource_row": 3349,
+      "text": "These are Blue Ice Falls.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d900": {
+      "source_offset": 252160,
+      "pool_word_offset": 31483,
+      "source_byte_length": 14,
+      "source_sha256": "5e1ba4e4a8b97bc01eb3199df429fddb26608a49dab15f26ba22020ef68018ee",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130586
+      ],
+      "id": "00:00249:text:0003d900",
+      "resource_row": 3350,
+      "text": "The snow that lies",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d910": {
+      "source_offset": 252176,
+      "pool_word_offset": 31491,
+      "source_byte_length": 22,
+      "source_sha256": "9ead29a32ad03e21996b4e831b74df62e14477c471ab44f5e89b0ea309c4a6df",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130594
+      ],
+      "id": "00:00249:text:0003d910",
+      "resource_row": 3351,
+      "text": "on the mountaintop all year melts",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d928": {
+      "source_offset": 252200,
+      "pool_word_offset": 31503,
+      "source_byte_length": 22,
+      "source_sha256": "88fe08b0e869f7798513bb5e79d2d5f92c10d4343b40bf541feea52469da8a33",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130602
+      ],
+      "id": "00:00249:text:0003d928",
+      "resource_row": 3352,
+      "text": "and flows down here.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d940": {
+      "source_offset": 252224,
+      "pool_word_offset": 31515,
+      "source_byte_length": 12,
+      "source_sha256": "e6cb00a532b0b83e6f652973b8baaf0827dd4345b6a3248531d34439819362f8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130686
+      ],
+      "id": "00:00249:text:0003d940",
+      "resource_row": 3353,
+      "text": "Incredible...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d94e": {
+      "source_offset": 252238,
+      "pool_word_offset": 31522,
+      "source_byte_length": 18,
+      "source_sha256": "c1381443ac191139261d0fc1e6514eaf75533551c425a8abac6bde20c96071ba",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130694
+      ],
+      "id": "00:00249:text:0003d94e",
+      "resource_row": 3354,
+      "text": "The water is so blue.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d962": {
+      "source_offset": 252258,
+      "pool_word_offset": 31532,
+      "source_byte_length": 12,
+      "source_sha256": "e6cb00a532b0b83e6f652973b8baaf0827dd4345b6a3248531d34439819362f8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130748
+      ],
+      "id": "00:00249:text:0003d962",
+      "resource_row": 3355,
+      "text": "Incredible...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d970": {
+      "source_offset": 252272,
+      "pool_word_offset": 31539,
+      "source_byte_length": 20,
+      "source_sha256": "caf85ab9ba25da01695e2aad281e11c69908c305b749507abf690867ec3c8bef",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130756
+      ],
+      "id": "00:00249:text:0003d970",
+      "resource_row": 3356,
+      "text": "The water is so blue.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d986": {
+      "source_offset": 252294,
+      "pool_word_offset": 31550,
+      "source_byte_length": 20,
+      "source_sha256": "ef6ec358dbc4c5474a35509a611d46ae7190d0043a223716c099f481a1f399af",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130848
+      ],
+      "id": "00:00249:text:0003d986",
+      "resource_row": 3357,
+      "text": "It's huge...!",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d99c": {
+      "source_offset": 252316,
+      "pool_word_offset": 31561,
+      "source_byte_length": 18,
+      "source_sha256": "c567df4fffed9c60e167fc8bb727ca8c4fed15fb9ccf92a3ea3d916da374ab95",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130944
+      ],
+      "id": "00:00249:text:0003d99c",
+      "resource_row": 3358,
+      "text": "It's as if the sky's color",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d9b0": {
+      "source_offset": 252336,
+      "pool_word_offset": 31571,
+      "source_byte_length": 18,
+      "source_sha256": "8b26ba09195533151da9bb41a496fc8b3afd1a8daced7c07f3bf77815a1c1a20",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130952
+      ],
+      "id": "00:00249:text:0003d9b0",
+      "resource_row": 3359,
+      "text": "has melted into the water...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d9c4": {
+      "source_offset": 252356,
+      "pool_word_offset": 31581,
+      "source_byte_length": 16,
+      "source_sha256": "b4bdaf2fb5141954772bffe23ddd1683f43df0c05b7585f2f4e92e1f38823a4e",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131060
+      ],
+      "id": "00:00249:text:0003d9c4",
+      "resource_row": 3360,
+      "text": "It's because of the low temperature.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d9d6": {
+      "source_offset": 252374,
+      "pool_word_offset": 31590,
+      "source_byte_length": 14,
+      "source_sha256": "c3bdfd4eef04f706b3f63283cf25f4e1949552cb737ad361347bbb04f5e6b676",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131084
+      ],
+      "id": "00:00249:text:0003d9d6",
+      "resource_row": 3361,
+      "text": "Water becomes",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003d9e6": {
+      "source_offset": 252390,
+      "pool_word_offset": 31598,
+      "source_byte_length": 24,
+      "source_sha256": "15a73d56b1bfd0a82d1250549f50521563cbb02b729f97808ced8290f7766faa",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131092
+      ],
+      "id": "00:00249:text:0003d9e6",
+      "resource_row": 3362,
+      "text": "more transparent",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003da00": {
+      "source_offset": 252416,
+      "pool_word_offset": 31611,
+      "source_byte_length": 22,
+      "source_sha256": "13f279eae49a68f9684ee3a0f0586b860b0f31d8f774d5d9c09c5163d746295c",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131100
+      ],
+      "id": "00:00249:text:0003da00",
+      "resource_row": 3363,
+      "text": "the colder it gets.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003da18": {
+      "source_offset": 252440,
+      "pool_word_offset": 31623,
+      "source_byte_length": 16,
+      "source_sha256": "b51adab034285572c0fd7a12742a5b75250bc7860229943fa5082496142fd18e",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131192
+      ],
+      "id": "00:00249:text:0003da18",
+      "resource_row": 3364,
+      "text": "So it's like the water's",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003da2a": {
+      "source_offset": 252458,
+      "pool_word_offset": 31632,
+      "source_byte_length": 16,
+      "source_sha256": "21a9d77e32be46a83c5a81c4ca2b2b12debc3790559e7d4e020521469131910b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131200
+      ],
+      "id": "00:00249:text:0003da2a",
+      "resource_row": 3365,
+      "text": "been sterilized.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003da3c": {
+      "source_offset": 252476,
+      "pool_word_offset": 31641,
+      "source_byte_length": 18,
+      "source_sha256": "2bfe5dd523db7c1bed518ba983315f3a5cf6ec50a71987ed6c488258965028e8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131236
+      ],
+      "id": "00:00249:text:0003da3c",
+      "resource_row": 3366,
+      "text": "Yes, you wouldn't",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003da50": {
+      "source_offset": 252496,
+      "pool_word_offset": 31651,
+      "source_byte_length": 16,
+      "source_sha256": "fd0bce53329beef22aa92e5db285a52a5b2661cc3de28849c92192b0454a22fb",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131244
+      ],
+      "id": "00:00249:text:0003da50",
+      "resource_row": 3367,
+      "text": "be wrong to say that.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003da62": {
+      "source_offset": 252514,
+      "pool_word_offset": 31660,
+      "source_byte_length": 16,
+      "source_sha256": "5a0c5bfade04577e7f83e016c547e2816e2a71358d62a196669edf6b1b4d3270",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131366
+      ],
+      "id": "00:00249:text:0003da62",
+      "resource_row": 3368,
+      "text": "Even though we call it permanent snow,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003da74": {
+      "source_offset": 252532,
+      "pool_word_offset": 31669,
+      "source_byte_length": 18,
+      "source_sha256": "00c38ba8aea9641e0f4ceeebe0ff8edecbe5a670cde971bd21a0b741aee4c841",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131374
+      ],
+      "id": "00:00249:text:0003da74",
+      "resource_row": 3369,
+      "text": "it's almost",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003da88": {
+      "source_offset": 252552,
+      "pool_word_offset": 31679,
+      "source_byte_length": 12,
+      "source_sha256": "3585ed1e4d94ca22e121547dfd5755b7791baf31113916d0c5641fac938519b9",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131382
+      ],
+      "id": "00:00249:text:0003da88",
+      "resource_row": 3370,
+      "text": "a mass of solid ice.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003da96": {
+      "source_offset": 252566,
+      "pool_word_offset": 31686,
+      "source_byte_length": 26,
+      "source_sha256": "27df0dead8cc5d2a1036e99d26cf868b06ca03de6ec6ac22f34d7fd99f839438",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131418
+      ],
+      "id": "00:00249:text:0003da96",
+      "resource_row": 3371,
+      "text": "It repeatedly melts and freezes,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dab2": {
+      "source_offset": 252594,
+      "pool_word_offset": 31700,
+      "source_byte_length": 26,
+      "source_sha256": "861d5f760b7bdfbf9dfa133390d6623112a591cd14d22ebd50e644695f013ee1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131426
+      ],
+      "id": "00:00249:text:0003dab2",
+      "resource_row": 3372,
+      "text": "slowly making its way",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dace": {
+      "source_offset": 252622,
+      "pool_word_offset": 31714,
+      "source_byte_length": 22,
+      "source_sha256": "a4db8196e980318ada2ab69cddc00ed5920b79605735ceb1a57043fffc6425c1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131434
+      ],
+      "id": "00:00249:text:0003dace",
+      "resource_row": 3373,
+      "text": "down into this valley.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dae6": {
+      "source_offset": 252646,
+      "pool_word_offset": 31726,
+      "source_byte_length": 22,
+      "source_sha256": "27269d1fa7ff9f57805ba7eb655cd1782f9614f0bcf3d7a5201b60168d0f105b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131548
+      ],
+      "id": "00:00249:text:0003dae6",
+      "resource_row": 3374,
+      "text": "So it's much like",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dafe": {
+      "source_offset": 252670,
+      "pool_word_offset": 31738,
+      "source_byte_length": 18,
+      "source_sha256": "cbcb0cdae17001e9c2314b84211bc37ecf2aacf352af3b41cdff1c240cdaed01",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131556
+      ],
+      "id": "00:00249:text:0003dafe",
+      "resource_row": 3375,
+      "text": "the glaciers you see",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003db12": {
+      "source_offset": 252690,
+      "pool_word_offset": 31748,
+      "source_byte_length": 12,
+      "source_sha256": "6a30549a14516818ac630eb88eff2cc70308c1f21e2d09a2fe37d06ec8e8282a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131564
+      ],
+      "id": "00:00249:text:0003db12",
+      "resource_row": 3376,
+      "text": "in the Old Kingdom...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003db20": {
+      "source_offset": 252704,
+      "pool_word_offset": 31755,
+      "source_byte_length": 16,
+      "source_sha256": "0efe9cd94b97516f4237dd474d569974ded11f76deaec6b1cd67a4f49c109b56",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131644
+      ],
+      "id": "00:00249:text:0003db20",
+      "resource_row": 3377,
+      "text": "It's quite a beautiful",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003db32": {
+      "source_offset": 252722,
+      "pool_word_offset": 31764,
+      "source_byte_length": 12,
+      "source_sha256": "a804bd198ccf61dfc257c2729ee5d213e93800f49487675062dbe57ea08e73b2",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131652
+      ],
+      "id": "00:00249:text:0003db32",
+      "resource_row": 3378,
+      "text": "view, isn't it?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003db40": {
+      "source_offset": 252736,
+      "pool_word_offset": 31771,
+      "source_byte_length": 10,
+      "source_sha256": "ab01ae8ae2a52efbc83cd5b7565359d37f9358be65bbd6a3534617ff6629315f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131736
+      ],
+      "id": "00:00249:text:0003db40",
+      "resource_row": 3379,
+      "text": "Yes...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003db4c": {
+      "source_offset": 252748,
+      "pool_word_offset": 31777,
+      "source_byte_length": 12,
+      "source_sha256": "f162d16e662246ead09ed7ba981878a487975cdc9fc0ad534e0c48030930b588",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131768
+      ],
+      "id": "00:00249:text:0003db4c",
+      "resource_row": 3380,
+      "text": "Yes...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003db5a": {
+      "source_offset": 252762,
+      "pool_word_offset": 31784,
+      "source_byte_length": 14,
+      "source_sha256": "1607e0a4715ba8671ea0a766804e4e22c18a90883cdd245f9f14fc2268122951",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131776
+      ],
+      "id": "00:00249:text:0003db5a",
+      "resource_row": 3381,
+      "text": "Very beautiful...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003db6a": {
+      "source_offset": 252778,
+      "pool_word_offset": 31792,
+      "source_byte_length": 14,
+      "source_sha256": "10341d3a6d81cd8337c631b91d6a0612f8df78373f3faeee0e9893492a43e3bb",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131864
+      ],
+      "id": "00:00249:text:0003db6a",
+      "resource_row": 3382,
+      "text": "It's amazing...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003db7a": {
+      "source_offset": 252794,
+      "pool_word_offset": 31800,
+      "source_byte_length": 18,
+      "source_sha256": "cf0c9409780db1520cb3ba2630720db32d195f809323a8583437d3ca19fb2efd",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131944
+      ],
+      "id": "00:00249:text:0003db7a",
+      "resource_row": 3383,
+      "text": "The waterfall isn't the only",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003db8e": {
+      "source_offset": 252814,
+      "pool_word_offset": 31810,
+      "source_byte_length": 16,
+      "source_sha256": "51c13a3785058a8c31bd01c3594a72ff3b398ac18d563d5f35270b60f1c10f7a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        131952
+      ],
+      "id": "00:00249:text:0003db8e",
+      "resource_row": 3384,
+      "text": "amazing thing here.",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dba0": {
+      "source_offset": 252832,
+      "pool_word_offset": 31819,
+      "source_byte_length": 16,
+      "source_sha256": "8ed8f35f8b731acdaf5955aed522a1631b65ddaceb97d857842bfffe8c7695b8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        132052
+      ],
+      "id": "00:00249:text:0003dba0",
+      "resource_row": 3385,
+      "text": "This is a sight you certainly",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dbb2": {
+      "source_offset": 252850,
+      "pool_word_offset": 31828,
+      "source_byte_length": 18,
+      "source_sha256": "ce0ad0b1a60abe362551a5602885b31d0c2fc9ce5205468227a81f95326665e0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        132060
+      ],
+      "id": "00:00249:text:0003dbb2",
+      "resource_row": 3386,
+      "text": "don't see every day,",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dbc6": {
+      "source_offset": 252870,
+      "pool_word_offset": 31838,
+      "source_byte_length": 12,
+      "source_sha256": "6420b6da4de0954cee93b64c27483c3583bebf4e03afb02ee833035c82b56239",
+      "contains_japanese": true,
+      "reference_instructions": [
+        132068
+      ],
+      "id": "00:00249:text:0003dbc6",
+      "resource_row": 3387,
+      "text": "isn't it...?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dbd4": {
+      "source_offset": 252884,
+      "pool_word_offset": 31845,
+      "source_byte_length": 18,
+      "source_sha256": "fc9af22c3361ee79a72bc310d21ca021da564a49222f93096df677ed41e73435",
+      "contains_japanese": true,
+      "reference_instructions": [
+        132144
+      ],
+      "id": "00:00249:text:0003dbd4",
+      "resource_row": 3388,
+      "text": "LOOK OVER THERE...",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dbe8": {
+      "source_offset": 252904,
+      "pool_word_offset": 31855,
+      "source_byte_length": 16,
+      "source_sha256": "9d1555cfd29a3c89a02e2a829cdbb88bf57089b63f9bb20bb927d94d77976771",
+      "contains_japanese": true,
+      "reference_instructions": [
+        132206
+      ],
+      "id": "00:00249:text:0003dbe8",
+      "resource_row": 3389,
+      "text": "Whoa...!",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dbfa": {
+      "source_offset": 252922,
+      "pool_word_offset": 31864,
+      "source_byte_length": 20,
+      "source_sha256": "68e7104fdc3cc9993fbd5f6ebfc8ecc6fbaee1a61ec613f6416f4bd95962ddd3",
+      "contains_japanese": true,
+      "reference_instructions": [
+        132286
+      ],
+      "id": "00:00249:text:0003dbfa",
+      "resource_row": 3390,
+      "text": "There are so many",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dc10": {
+      "source_offset": 252944,
+      "pool_word_offset": 31875,
+      "source_byte_length": 20,
+      "source_sha256": "cffb43b80fe5e42b68c3f44b9bf9128c694b2041c43920d700850c2d30a311d3",
+      "contains_japanese": true,
+      "reference_instructions": [
+        132294
+      ],
+      "id": "00:00249:text:0003dc10",
+      "resource_row": 3391,
+      "text": "ice trees growing here!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00249:text:0003dc26": {
+      "source_offset": 252966,
+      "pool_word_offset": 31886,
+      "source_byte_length": 18,
+      "source_sha256": "0bbc4c96234bc345fdb26e055e90e97d0c265f945ed4f2de4d23eb6079c51f93",
+      "contains_japanese": true,
+      "reference_instructions": [
+        132328
+      ],
+      "id": "00:00249:text:0003dc26",
+      "resource_row": 3392,
+      "text": "THEY ARE BLUE ICE TREES.",
+      "status": "translated_author_self_check"
+    }
+  }
+}

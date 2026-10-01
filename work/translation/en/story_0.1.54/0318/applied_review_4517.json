@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_4517.json",
+  "review_sha256": "7b763118c90a178ca61f4e5359db56d72c92e1b2df57ae5db8eeb4d4be143c87",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4517.targets.json",
+  "target_before_sha256": "c8cf34bcbeb6dfca0467a87e8d626cb5a9850d0246c02fffa50e6916cc81c0ac",
+  "target_after_sha256": "8840171ff702d2dae0fd4d7e97a1729594a607b6b7d304a0f998446e4c8fc1e2",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4517,
+      4596
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4517,
+      "before": "Yes, I think that would be best too.",
+      "after": "",
+      "reason": "Remove the next protagonist variant's reply from this box;4516alreadycontains its complete source."
+    },
+    {
+      "resource_row": 4518,
+      "before": "",
+      "after": "Yes, I think",
+      "reason": "Restore the alternate reply to its own box."
+    },
+    {
+      "resource_row": 4519,
+      "before": "",
+      "after": "that would be best too.",
+      "reason": "Complete its original reply."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

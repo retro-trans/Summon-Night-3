@@ -1,0 +1,65 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0278/review_meaning_renewed_0011.json",
+  "review_sha256": "2fdad8f7dd725990d550dfbf653e3d8c7eb7368cd99d41f4fbaf3c332e4e4db7",
+  "target_file": "work/translation/en/story_0.1.54/0278/slice_0011.targets.json",
+  "target_before_sha256": "65440f9f71cdde835ae11f2760bab0b2da716af3f0bfcd94f855e979d3d88f34",
+  "target_after_sha256": "49b88166d897fe338e7f436263c2591b442ba03a14726a3bce3ba8a7d9d2c451",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      58
+    ],
+    "count": 48
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 12,
+      "before": "they cannot see anyone, huh?",
+      "after": "they can't face me yet, huh?",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    },
+    {
+      "resource_row": 21,
+      "before": "cannot see anyone, huh...",
+      "after": "can't face me yet, huh...",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    },
+    {
+      "resource_row": 32,
+      "before": "I cannot very well tell the truth,",
+      "after": "I can't possibly tell them the truth...",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    },
+    {
+      "resource_row": 33,
+      "before": "not now...",
+      "after": "",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    },
+    {
+      "resource_row": 34,
+      "before": "I cannot very well tell the truth,",
+      "after": "I can't possibly tell them the truth...",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    },
+    {
+      "resource_row": 35,
+      "before": "not now...",
+      "after": "",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        11,
+        12,
+        19,
+        20,
+        21
+      ],
+      "issue": "Absent person is unnamed in this scene. Retain neutral they; the visit establishes protagonist as intended meeting partner."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

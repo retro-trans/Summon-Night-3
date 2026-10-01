@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "reviewer": "root independent of author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2608.targets.json",
+  "target_file_sha256": "b08d0bd2d3e7cdf9c8cb9632289f00dd72f3b05634f82a7d1d5bbe2c554802a0",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2608,
+      2687
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2606,
+      2690
+    ]
+  ],
+  "rows_examined": 85,
+  "corrections": [
+    {
+      "resource_row": 2608,
+      "source_sha256": "6a177f88544bdcb9aa04a407b7192c28fd57c3de3fafebfc52d1e0b59e727346",
+      "text": "",
+      "reason": "Remove duplicated whole-box text; original VM group2606–2608 already anchors at2606."
+    },
+    {
+      "resource_row": 2635,
+      "source_sha256": "cf91cdf388b3111de315a0005a518234546ce0b511e7895843532ca06752a6dd",
+      "text": "There's power from Siltarn, too...",
+      "reason": "The power source is from that world; the world itself is not on the island."
+    },
+    {
+      "resource_row": 2674,
+      "source_sha256": "4b0a78b01ebb9aa549f81e1cea8142194ff1132de181b942af9e04256041606a",
+      "text": "No, it will take time, but it would be wiser to examine them one at a time.",
+      "reason": "Restore missing finite verb in coordinated English clause."
+    },
+    {
+      "resource_row": 2687,
+      "source_sha256": "722766dfad96e7d720ab18042353b1c6694f374552125589ad747593f89692cc",
+      "text": "Probably... But it does not seem to be only that.",
+      "reason": "Anchor complete group2687–2689 at original first row;2688 cleared by companion review."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        2665
+      ],
+      "issue": "Introductory condition is completed in next original group2668."
+    }
+  ],
+  "notes": "Read all source groups and target groups plus both boundaries. Preserve unfinished source utterances; name normalization follows all meaning corrections."
+}

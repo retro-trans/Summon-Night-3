@@ -1,0 +1,28 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0272/review_meaning_6597.json",
+  "review_sha256": "8f0404ded1d100f140789435311fd62b80a347f463686e733ae0e38148378353",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_6597.targets.json",
+  "target_before_sha256": "00e5c0efafe46c57cb04fec97c9115f006c08d25f55d668622c53632c56792b9",
+  "target_after_sha256": "2316861f60061a8acef9258a991c311558b9e03b73fef745aaec188dd35bc638",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6597,
+      6676
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6676,
+      "before": "Thinking you can just die if you fail",
+      "after": "Thinking you'll just die",
+      "reason": "This is the first row of the three-row source statement continued in the following reviewed slice. The current wording duplicates the condition in its continuation."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

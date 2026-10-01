@@ -1,0 +1,54 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0249/review_meaning_2993.json",
+  "review_sha256": "a0b87e1078e2d427f3450d456a906fbb1d7a8b4255d6010730efa71c5af7119f",
+  "target_file": "work/translation/en/story_0.1.54/0249/slice_2993.targets.json",
+  "target_before_sha256": "e369e1bda712eb12337870eccc2be97e3a171069c377a460aca39a816ce7e931",
+  "target_after_sha256": "cfe4cf103efeb3af7e6a04a7a7d727b34f5b209b1135a0b3b516bebec485b8c1",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2993,
+      3072
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3035,
+      "before": "I knew this would happen",
+      "after": "I figured this would happen",
+      "reason": "The original says the group was discovered by the children."
+    },
+    {
+      "resource_row": 3036,
+      "before": "as soon as the children",
+      "after": "once the children",
+      "reason": "The original says the group was discovered by the children."
+    },
+    {
+      "resource_row": 3037,
+      "before": "found out.",
+      "after": "found us.",
+      "reason": "Found out leaves what was learned unstated and removes the group as the object."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2993,
+        2994,
+        2995,
+        2996
+      ],
+      "issue": "The grabas and its Jewel of the Southern Seas sobriquet are fictional setting material. Grabas is a provisional glossary romanization, and this review found no source reason to change it."
+    },
+    {
+      "rows": [
+        3053,
+        3054,
+        3055
+      ],
+      "issue": "Marurur uses third-person self-reference for herself and her companions. The authored we carries the same referent in natural English; retaining the name would be a stylistic option, not a meaning correction."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

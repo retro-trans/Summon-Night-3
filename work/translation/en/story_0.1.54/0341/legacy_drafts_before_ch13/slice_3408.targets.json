@@ -1,0 +1,46 @@
+{
+  "resource_id": "00:00341",
+  "range_inclusive": [
+    3408,
+    3409
+  ],
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "review_status": "author self-check; no independent meaning review",
+  "source_ranges_examined": [
+    [
+      3408,
+      3409
+    ]
+  ],
+  "notes": "Exact source-identity reuse from existing author-self-checked story translation; context checked.",
+  "translations": {
+    "00:00341:text:00033e50": {
+      "source_offset": 212560,
+      "pool_word_offset": 32687,
+      "source_byte_length": 16,
+      "source_sha256": "a5c44206a67158b3d0842c2d4e2657c394f20ce1d6effcbf6e2a854026b023d6",
+      "contains_japanese": true,
+      "reference_instructions": [
+        121234
+      ],
+      "id": "00:00341:text:00033e50",
+      "resource_row": 3408,
+      "text": "I think I finally understand why",
+      "status": "translated_author_self_check"
+    },
+    "00:00341:text:00033e62": {
+      "source_offset": 212578,
+      "pool_word_offset": 32696,
+      "source_byte_length": 14,
+      "source_sha256": "da551431a7debab0e29ed6ee656de632525c8092b448cbee3bdfb7e9ede86889",
+      "contains_japanese": true,
+      "reference_instructions": [
+        121266
+      ],
+      "id": "00:00341:text:00033e62",
+      "resource_row": 3409,
+      "text": "You'll be fine.",
+      "status": "translated_author_self_check"
+    }
+  }
+}

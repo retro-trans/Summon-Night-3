@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2608.targets.json",
+  "target_file_sha256": "86a01a84b6ca545001a0a5a2d6c541341a8273cf065470be66861445213579e3",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2608,
+      2687
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2607,
+      2688
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 2612,
+      "source_sha256": "a5c44206a67158b3d0842c2d4e2657c394f20ce1d6effcbf6e2a854026b023d6",
+      "text": "It'll be all right. Nothing like that...",
+      "reason": "The reassurance includes the interrupted 'nothing like that' fragment."
+    },
+    {
+      "resource_row": 2614,
+      "source_sha256": "da551431a7debab0e29ed6ee656de632525c8092b448cbee3bdfb7e9ede86889",
+      "text": "It'll be all right. Nothing like that...",
+      "reason": "The alternate reassurance includes the interrupted fragment."
+    },
+    {
+      "resource_row": 2628,
+      "source_sha256": "5239edf9c6bbb2990bda8c4fd68628a32c34f2f0128630e0a5525c1694794c80",
+      "text": "I... I... My feelings for you...",
+      "reason": "The source leaves the confession predicate unspoken. Retain an unfinished reference to feelings without asserting love or a completed declaration."
+    },
+    {
+      "resource_row": 2657,
+      "source_sha256": "a5c44206a67158b3d0842c2d4e2657c394f20ce1d6effcbf6e2a854026b023d6",
+      "text": "It'll be all right. Nothing like that...",
+      "reason": "The source retains the interrupted reassurance fragment."
+    },
+    {
+      "resource_row": 2659,
+      "source_sha256": "da551431a7debab0e29ed6ee656de632525c8092b448cbee3bdfb7e9ede86889",
+      "text": "It'll be all right. Nothing like that...",
+      "reason": "The alternate source retains the interrupted reassurance fragment."
+    }
+  ],
+  "name_normalization_requested": [],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review; proposed corrections are meaning and actor/reference fixes only. No name normalization applied.\nRoot also reread complete original VM groups482:1806–3190, including branch context, before applying. EOF is3190; metadata corrected to exclude nonexistent3191."
+}

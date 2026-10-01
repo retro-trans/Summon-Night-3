@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_2448.json",
+  "review_sha256": "e6267de664a19ddd57e8eba1628a02b79d32d65c943810f7a277fd91dc99cca9",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2448.targets.json",
+  "target_before_sha256": "9bb6f4bf8fb1f9ff66d14a108ebc3a47b0585f7c424cc6ca6b09def753f7593a",
+  "target_after_sha256": "6bfdc304dc434b9f7f5d6a94658c16ca775f1f4da936825d6363c6a1cb61b836",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2448,
+      2527
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2503,
+      "before": "Even all of you facing the Colorless Faction head-on is far too reckless!",
+      "after": "Even for them, taking on the Colorless Faction head-on is far too reckless!",
+      "reason": "The protagonist speaks about the absent group, not directly to them."
+    },
+    {
+      "resource_row": 2506,
+      "before": "Even all of you facing the Colorless Faction head-on is far too reckless!",
+      "after": "Even for them, taking on the Colorless Faction head-on is far too reckless!",
+      "reason": "The alternate protagonist line also refers to the absent group, not the listener."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00341",
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_3248.targets.json",
+  "target_file_sha256": "126f7c87e50e54e1f0261794e163e0524975a776b96e082ef4ffbedebe3f7291",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3248,
+      3327
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3246,
+      3945
+    ]
+  ],
+  "rows_examined": 700,
+  "corrections": [
+    {
+      "resource_row": 3264,
+      "source_sha256": "d66a79d59e7d3487a315507487563e03b4eda8cf7612d6b247d0fce166d795b8",
+      "text": "Yeah... but that doesn't mean there isn't an opening.",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared all source and English VM boxes3246–3945, including boundary and gender-alternate scenes. Spelling normalization follows meaning corrections."
+}

@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_4917.json",
+  "review_sha256": "39c3de808589e9f09533f9505a2a102471ef1d6c5fc0eb66cbb87aef62bb7c73",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4917.targets.json",
+  "target_before_sha256": "68b0b8200ca95aabdfd03a0e6d031f3e2b7cdc964c70db63d8a2e5981708ce68",
+  "target_after_sha256": "e6ed4cb29dcf6d68f68641bee65d388c04467260d1fb99713b8415e7bd7250d7",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4917,
+      4996
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4921,
+      "before": "They noticed",
+      "after": "They set their sights",
+      "reason": "そこに目をつけました means the faction deliberately targeted this idea, not merely noticed it."
+    },
+    {
+      "resource_row": 4922,
+      "before": "that.",
+      "after": "on that.",
+      "reason": "Completes the corrected joined statement from the preceding row."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

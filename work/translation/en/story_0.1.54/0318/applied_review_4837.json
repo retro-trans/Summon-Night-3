@@ -1,0 +1,32 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_4837.json",
+  "review_sha256": "784089f9d7f3a31f437fee52d23cf29abc98b459156a10e7cca00084d72861aa",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4837.targets.json",
+  "target_before_sha256": "a943b970b57ddbc4286a8101e6d10e761369216cccba0af25730d98fb0eb8d0b",
+  "target_after_sha256": "2de5f93f1a9250f763aca86f5ea0e0188a576f1171d282026e2480398e7c7b47",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4837,
+      4916
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4897,
+      "before": "I discussed it with Lord Yafha",
+      "after": "I discussed it with Yafha",
+      "reason": "Dono is a respectful peer address here, not evidence that Yafha is Kyuuma's feudal lord."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        4915,
+        4916
+      ],
+      "note": "The source group continues through4917 outside this slice. Its full meaning is already present in4915–4916;4917 must stay empty rather than duplicate the request. Final boundary readback remains required."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_5557.targets.json",
+  "target_file_sha256": "0f4fd08daf98d9d07b9795ff8d3ec2d537b84960e7e3b5f54865c3e4a2257626",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5557,
+      5636
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5556,
+      5637
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 5557,
+      "source_sha256": "307abb015e833087c2ba22cb03e15d4920908b9f388f7d98aade494b9c1eea82",
+      "before": "She has a duty",
+      "text": "The one responsible",
+      "after": "The one responsible",
+      "reason": "The source identifies the woman as the cause of the situation before saying she has a duty to know the truth. The current English omits that causal responsibility."
+    },
+    {
+      "resource_row": 5558,
+      "source_sha256": "4d070c23fdf93ce04fb7f9bbf5af0029c58bfc0d8082b027686f6821a62f89b9",
+      "before": "to know the truth,",
+      "text": "has a duty to know",
+      "after": "has a duty to know",
+      "reason": "The source identifies the woman as the cause of the situation before saying she has a duty to know the truth. The current English omits that causal responsibility."
+    },
+    {
+      "resource_row": 5559,
+      "source_sha256": "cf1f31e8df69623dae2cc2711960da9fb95094d05194edbabf3ffc0a1b4de4a3",
+      "before": "doesn't she!?",
+      "text": "the truth, doesn't she!?",
+      "after": "the truth, doesn't she!?",
+      "reason": "The source identifies the woman as the cause of the situation before saying she has a duty to know the truth. The current English omits that causal responsibility."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied."
+}

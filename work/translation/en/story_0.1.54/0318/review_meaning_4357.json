@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4357.targets.json",
+  "target_file_sha256": "b8d90c12d2c54e8f86faf475bb90bc1469000f2a1a666eca2eaed288aa197afc",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4357,
+      4436
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3955,
+      4599
+    ]
+  ],
+  "rows_examined": 645,
+  "corrections": [
+    {
+      "resource_row": 4380,
+      "source_sha256": "7b89b0ec29f2a33c0e50a3076d245c485e505459eca72bb33cbcf23d056978e1",
+      "text": "Do not try to bear everything alone.",
+      "reason": "Retain admonition in its original box."
+    },
+    {
+      "resource_row": 4381,
+      "source_sha256": "911d5cf3cc52d32ef196548c132286dd11b85e4d7d22d0c9c4c0d2c368e9dbb9",
+      "text": "We...",
+      "reason": "The thought explicitly continues into the next original box."
+    },
+    {
+      "resource_row": 4383,
+      "source_sha256": "381beba96f5471410748d0b4a05fc268ca6b46ff4917b0931854f75502b757d4",
+      "text": "are comrades, after all.",
+      "reason": "Restore this complete original box instead of consuming it into the preceding box."
+    },
+    {
+      "resource_row": 4402,
+      "source_sha256": "77ddc9539c9df39bfd6ff530256b671fb3f897b1fac42eaac8825299c5df096f",
+      "text": "Still...",
+      "reason": "Separate the identity statement from the following speaker box's surprise."
+    },
+    {
+      "resource_row": 4403,
+      "source_sha256": "d0cda1f332f770023974a06d20d8aa0aab1bb176c24b70a64544e23869de6a12",
+      "text": "Falzen's true identity",
+      "reason": "Use peer name, without inferring a feudal title from dono."
+    },
+    {
+      "resource_row": 4404,
+      "source_sha256": "70507902bca283e6c1406a8863a86b1daa4332aaa4cd6ce54f8e50c72175ead8",
+      "text": "was Lady Fariel.",
+      "reason": "Keep identity reveal in the original group."
+    },
+    {
+      "resource_row": 4405,
+      "source_sha256": "2410561a9847c1f715167198c36dc9c3aa44a57ade91e93d011b4820a87dfb49",
+      "text": "That honestly surprised me.",
+      "reason": "Restore the separate surprise-reaction box."
+    },
+    {
+      "resource_row": 4435,
+      "source_sha256": "166aef62b606f5c21266219daa2b9b04a3c640eaede4b13d44a05fbc2ef9f9db",
+      "text": "U-um...",
+      "reason": "Restore the hesitant question in its own group."
+    },
+    {
+      "resource_row": 4436,
+      "source_sha256": "dc4b6ca477ffa223525d047ac062df5f08343aae74db1856ac55b10e2fef8945",
+      "text": "Is that how",
+      "reason": "Keep the complete question inside the original box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "note": "Silence, cries and explicitly interrupted speech remain fragments; internal blanks never erase complete dialogue boxes."
+    }
+  ],
+  "notes": "Source-based read-only independent review by Terra chapter12_review covered3957–4596 and boundary context. Root reconciled corrections against original VM boxes, rejected a flawed proposed extra conditional, and previewed merged results. Root saves this current review record under the user's continuing translation task."
+}

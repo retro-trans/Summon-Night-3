@@ -1,0 +1,78 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0281/review_meaning_renewed_0011.json",
+  "review_sha256": "dbb863b301684b66a9b0acb1ced63a274c4c7b7061b843485bcf72f8b054018e",
+  "target_file": "work/translation/en/story_0.1.54/0281/slice_0011.targets.json",
+  "target_before_sha256": "1425c590824307ed86cc948da5dbcbd89425ae6fb1fe555755efe6d1f1f604d2",
+  "target_after_sha256": "860eb3f181d0eff3c963cf8d589250acb312e2f5ee9a7d6db3558d4ec0c7584a",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      61
+    ],
+    "count": 51
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 43,
+      "before": "You say that, but",
+      "after": "You say that, but you would probably overdo it.",
+      "reason": "The source predicts the listener will push themself too hard; it does not say they merely look ready to do so."
+    },
+    {
+      "resource_row": 44,
+      "before": "you look ready to do something reckless.",
+      "after": "",
+      "reason": "The corrected full meaning is anchored at row 43; this physical continuation must be blank to avoid duplicating the box."
+    },
+    {
+      "resource_row": 12,
+      "before": "they cannot see anyone, huh?",
+      "after": "they can't face me yet, huh?",
+      "reason": "The person cannot face the protagonist until sorting out their feelings; they are not unable to see anyone."
+    },
+    {
+      "resource_row": 21,
+      "before": "cannot see anyone, huh...",
+      "after": "can't face me yet, huh...",
+      "reason": "The person cannot face the protagonist until sorting out their feelings; they are not unable to see anyone."
+    },
+    {
+      "resource_row": 30,
+      "before": "Ah, well...",
+      "after": "Ah, yeah... Just a little...",
+      "reason": "The source is an evasive “a little,” not a claim that the speaker was somewhere unspecified."
+    },
+    {
+      "resource_row": 31,
+      "before": "Just somewhere...",
+      "after": "",
+      "reason": "The corrected full meaning is anchored at row 30; this continuation must be blank."
+    },
+    {
+      "resource_row": 32,
+      "before": "I cannot very well tell the truth,",
+      "after": "I can't possibly tell them the truth...",
+      "reason": "The source expresses that the truth cannot possibly be told; “not now” is not present."
+    },
+    {
+      "resource_row": 33,
+      "before": "not now...",
+      "after": "",
+      "reason": "The corrected full meaning is anchored at row 32; this continuation must be blank."
+    },
+    {
+      "resource_row": 34,
+      "before": "I cannot very well tell the truth,",
+      "after": "I can't possibly tell them the truth...",
+      "reason": "The source expresses that the truth cannot possibly be told; “not now” is not present."
+    },
+    {
+      "resource_row": 35,
+      "before": "not now...",
+      "after": "",
+      "reason": "The corrected full meaning is anchored at row 34; this continuation must be blank."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

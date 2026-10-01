@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00323",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0323/slice_0011.targets.json": "dd055b036b3e7170ddf61308b212953e9c83b86a49a5c7947b3cf48f9a2063a7"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0323/review_meaning_0011.json": "8a51592aa4ec439a51532a44a5dc7535d37fa5600629be76a8cb754dd6ec482a"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness.",
+  "author_uncertainties": [
+    {
+      "target": "slice_0011.targets.json",
+      "note": "Row 26 frames Ishlar as Will's potential ideal self; the translation preserves the reflective rather than accusatory reading."
+    }
+  ]
+}

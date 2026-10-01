@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_1888.json",
+  "review_sha256": "0190fa791774228f0c1920ad8553d82bfbd0afb62dd4b678663249227c0040ec",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_1888.targets.json",
+  "target_before_sha256": "f42a25ad0956d8835eb751243ac0615d928ad4ef1096d8b46ab6b23af08d976f",
+  "target_after_sha256": "bf62ba593b49d548f673cab31bd5f190c28c099c6d71e4cc98b5e84a18bb2078",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1888,
+      1967
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 1888,
+      "before": "have no blood or tears!?",
+      "after": "have no heart!?",
+      "reason": "Source blood/tears is an idiom for compassion."
+    },
+    {
+      "resource_row": 1903,
+      "before": "Unless she can stand",
+      "after": "Unless they can stand",
+      "reason": "Shared protagonist reference."
+    },
+    {
+      "resource_row": 1905,
+      "before": "we can do to help her.",
+      "after": "we can do to help them.",
+      "reason": "Shared protagonist reference."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

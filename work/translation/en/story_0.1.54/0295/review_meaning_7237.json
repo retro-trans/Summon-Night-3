@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7237.targets.json",
+  "target_file_sha256": "115b27e425c78e66a17151c28190f192c786524ddab127d251634349225be583",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      7237,
+      7316
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      7075,
+      7318
+    ]
+  ],
+  "rows_examined": 244,
+  "dialogue_group_boundaries_verified": true,
+  "reviewer": "root: independent source and VM-group review",
+  "corrections": [
+    {
+      "resource_row": 7247,
+      "source_sha256": "c80c7363e2f7b87c2bea86b45e14a59868c7007ca7c5c666ff60295808d77ddc",
+      "before": "I am the one who caused",
+      "text": "The one responsible",
+      "reason": "Preserve the setup separately from the following speaker confession."
+    },
+    {
+      "resource_row": 7248,
+      "source_sha256": "bddd1bf4f846004457d41dd53947489a15f306768217d82649cfb696d6b03759",
+      "before": "Lady Fariel to continue living",
+      "text": "for Lady Fariel remaining",
+      "reason": "Preserve the setup separately from the following speaker confession."
+    },
+    {
+      "resource_row": 7249,
+      "source_sha256": "0ff21008d3f40b280fbc9e33f45b222f8322aa7a8eba6da36f453292b8e0272c",
+      "before": "as a ghost.",
+      "text": "here as a ghost...",
+      "reason": "Preserve the setup separately from the following speaker confession."
+    },
+    {
+      "resource_row": 7250,
+      "source_sha256": "c694ae385f347137d24ae04631bf4f60bcb06e04111528551aabbad93f865c79",
+      "before": "me.",
+      "text": "is me.",
+      "reason": "Restore the confession rather than a repeated dangling object."
+    },
+    {
+      "resource_row": 7272,
+      "source_sha256": "afc22e55b586df933070adbb608193357b272b65b6de2c2214d137e46d41f1fc",
+      "before": "Her body had been half lost to flame;",
+      "text": "...!",
+      "reason": "Restore the separate reaction; do not substitute the next speaker description of burns."
+    },
+    {
+      "resource_row": 7273,
+      "source_sha256": "7619e800dff31e47df2042d04558372c6dc08cab861bbca13114a21e3ac456b7",
+      "before": "there was nothing",
+      "text": "Her body had been half consumed",
+      "reason": "Return the burn description to its own group and preserve the inability to help."
+    },
+    {
+      "resource_row": 7274,
+      "source_sha256": "7b710e5fad3db5771bc2b640e71322e539da8cd77a07f28ba00b7449d61ccf0c",
+      "before": "I could do...",
+      "text": "by flames, and there was",
+      "reason": "Return the burn description to its own group and preserve the inability to help."
+    },
+    {
+      "resource_row": 7275,
+      "source_sha256": "44705a3c2ef2c1eb7beab9c4c56167db8703cda8fbb8823fbce1bdcd8f1ce71c",
+      "before": "...",
+      "text": "nothing I could do...",
+      "reason": "Return the burn description to its own group and preserve the inability to help."
+    },
+    {
+      "resource_row": 7308,
+      "source_sha256": "3d36a889b8b691b1474981cf4ae5b678d16aec6a9e6c0b9a262e1582398e4051",
+      "before": "I was able to fulfill",
+      "text": "After all, I was able",
+      "reason": "Remove the duplicated wish added after the sentence."
+    },
+    {
+      "resource_row": 7309,
+      "source_sha256": "edaff8726980115e0591d6d4902fae27cb6c7079e48b797dc864672a8e0b1e52",
+      "before": "her wish to survive.",
+      "text": "to fulfill",
+      "reason": "Remove the duplicated wish added after the sentence."
+    },
+    {
+      "resource_row": 7310,
+      "source_sha256": "ed5c8e03b3a983fe7820d659c90991b7c9da33f91cfef4e5329efb8d055f72bb",
+      "before": "that wish.",
+      "text": "her wish to survive.",
+      "reason": "Remove the duplicated wish added after the sentence."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        7100,
+        7101,
+        7102,
+        7103,
+        7104,
+        7105,
+        7127,
+        7128,
+        7129,
+        7130
+      ],
+      "reason": "Source interruptions and same-speaker continuing narration remain; no named reaction is used as padding."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_6608.targets.json",
+  "target_file_sha256": "d843e22a35880534801b59117ea373577de53c3ed7bb277c81422bb4eecae4a3",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [6608, 6687], "count": 80},
+  "source_ranges_examined": [[6607, 6688]],
+  "rows_examined": 82,
+  "corrections": [
+    {"resource_row":6648,"source_sha256":"fdee560d03692f4f01376b7abbaaab70982973e9b3288b13d0e92a45358dda69","text":"The thorns of the \"Lady of Thorns\"","reason":"Hazel's verified source title is Lady of Thorns, not Thorn Lord."},
+    {"resource_row":6655,"source_sha256":"40ef9ca9030bdabcbf20f881c8e0c33e29fbdd978b3202d452b9ee313f4cc9d4","text":"\"Lady of Thorns\"...","reason":"Hazel's verified source title is Lady of Thorns, not Thorn Lord."},
+    {"resource_row":6659,"source_sha256":"d39c28b5ae1a5dc23abd91f46ca3e61f7d9ea5e14981d93419da9c709705e084","text":"She was taught","reason":"Hazel is the established female referent."},
+    {"resource_row":6671,"source_sha256":"08a96759afce121de6cb6e782d4979574dc77d223eaa90ec0650e91d3950c378","text":"of her title.","reason":"Hazel is the established female referent."}
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first meaning review of full VM boxes and both-side context; source read transiently. Hazel's title and gender follow the verified Chapter 13 reference; Scarrel is male, though no English pronoun correction was needed. No correction was applied and no normalization was performed."
+}

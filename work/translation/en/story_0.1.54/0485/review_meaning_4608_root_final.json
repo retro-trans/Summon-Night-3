@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "root source consolidation after independent agent review",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4608.targets.json",
+  "target_file_sha256": "14b695b856203838fe4b0b4b93dfbe8bdd3d52decb51a17e92918c63925392ac",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4608,
+      4687
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4605,
+      4690
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [
+    {
+      "resource_row": 4620,
+      "source_sha256": "4649152225ceea8740f78c6441f4799744a7fe4278a4c7ac72f361f11d1a76f7",
+      "text": "I'm sorry... I shouldn't have asked about something so painful...",
+      "reason": "The visitor apologizes for asking about the experiment history, not for making the listener hear it."
+    },
+    {
+      "resource_row": 4623,
+      "source_sha256": "4649152225ceea8740f78c6441f4799744a7fe4278a4c7ac72f361f11d1a76f7",
+      "text": "I'm sorry... I shouldn't have asked about something so painful...",
+      "reason": "Parallel visitor branch; restores who asked about the painful history."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Full source VM groups read through EOF5825, including cross-slice groups. Original controls and physical music rows retained. Name-only changes deferred to scripted glossary normalization."
+}

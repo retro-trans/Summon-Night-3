@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_2528.targets.json",
+  "target_file_sha256": "73db060995ee45f2a6c961dcf23081ba221928f3621b8b5c9289c588d909d7b7",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2528,
+      2607
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2525,
+      2608
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [
+    {
+      "resource_row": 2553,
+      "source_sha256": "ab01ae8ae2a52efbc83cd5b7565359d37f9358be65bbd6a3534617ff6629315f",
+      "text": "Yeah... I am okay...",
+      "reason": "The source is affirmative うん; the current “No” reverses Ishlar’s response."
+    },
+    {
+      "resource_row": 2550,
+      "source_sha256": "aab1cc273568ef9d4a5805eb6525b765ed50a902553a9eaad868a245d43e7067",
+      "text": "?",
+      "reason": "The source is a literal question marker; replace the ellipsis with the questioning reaction."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM boxes and both-side context."
+}

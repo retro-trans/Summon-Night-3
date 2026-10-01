@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_2688.targets.json",
+  "target_file_sha256": "61cafe867fb3277e8ecbfb3b04137bbe53d88d8bc1c2faf8a0297f601743f8b2",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2688,
+      2767
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2687,
+      2769
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        2688,
+        2689,
+        2766
+      ],
+      "reason": "Physical VM continuation fragments; complete box meaning is retained in aligned fragments except where corrected."
+    }
+  ],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context. Target file was not edited."
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3808.targets.json",
+  "target_file_sha256": "e259ce8a8fccd690b31265f068804056ca0ba847f57345b7adb58e1a2e7c2afa",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3808,
+      3887
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3807,
+      3889
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 3841,
+      "source_sha256": "71ab179dcec0cf7fc70fe6897b73da805d448d016cfdc06f5e61ead3c5b88cd7",
+      "text": "Even though she is a shapeshifter, she is still young. There must be times when she misses her mother.",
+      "reason": "The noun refers to her nature as a shapeshifting being, not to a completed transformation."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Unverified names and world terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning/control review only; no target applied. Root independently rechecked complete VM groups and both neighboring boundaries, 3487–4210; added only concrete meaning corrections."
+}

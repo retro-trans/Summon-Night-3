@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3088.targets.json",
+  "target_file_sha256": "f4bde6f59978b8dd11dbeb7e1d00ad90ad11dc2a541c06404e5df5d581c3798b",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [3088, 3167], "count": 80},
+  "source_ranges_examined": [[3085, 3170]],
+  "rows_examined": 86,
+  "corrections": [
+    {
+      "resource_row": 3165,
+      "source_sha256": "8d0b4c1bb5d337ed11255486249acb76e213381abc5043a4156284fa6d216f41",
+      "text": "From the moment he was born, that child literally wandered between life and death.",
+      "reason": "The complete source box explicitly says that he wandered in the space between life and death; the current English loses that complement."
+    },
+    {
+      "resource_row": 3166,
+      "source_sha256": "eeb94b9c7bd4e13f7d0bf040529fbba2566cf65fda1c144587048d119e359125",
+      "text": "",
+      "reason": "Physical VM continuation fragment; the restored complete source-box meaning is held at row 3165."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side boundary context. No target edits were made."
+}

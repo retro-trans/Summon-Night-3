@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_3888.json",
+  "review_sha256": "de26bafe4e98347ee6faf62effd154b1448069667c27d3d81c5fed7978543be3",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3888.targets.json",
+  "target_before_sha256": "edc71609dc9bb703d732329cab68c7487228abe487670b3e7a381c711b8b4a0e",
+  "target_after_sha256": "50339c252d327cfffb3fc834510dd8eaf667940aee25618710ac7b2b0f230c4a",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3888,
+      3967
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3926,
+      "before": "Well, it is about what you said earlier...",
+      "after": "Well, it is about what I was told earlier...",
+      "reason": "Source identifies an earlier statement to the speaker; it does not say the listener made it. The following route variant identifies Vizel."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

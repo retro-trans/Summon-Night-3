@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_6757_second.json",
+  "review_sha256": "d6a3d7ad76e7a4fb2187b98150a074b45b5d4c473c22bac822d9c02debd24c93",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6757.targets.json",
+  "target_before_sha256": "13b399746bf711874460d9685965bbe19d3e69b0c8b50534bfd8f3c8e4bf117c",
+  "target_after_sha256": "e6d8aa757c0637d4f8af355fbd9c38029491fbd9f2db7248a8bda7b6338c8e99",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6757,
+      6836
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6826,
+      "before": "",
+      "after": "...!",
+      "reason": "Restore the complete startled-silence box."
+    },
+    {
+      "resource_row": 6814,
+      "before": "I forced Lord Ordreik",
+      "after": "I pressed Lord Ordreik",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6815,
+      "before": "to allow it and",
+      "after": "to let me come here.",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6816,
+      "before": "came here.",
+      "after": "",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

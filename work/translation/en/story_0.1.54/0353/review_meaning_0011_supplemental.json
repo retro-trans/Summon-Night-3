@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00353",
+  "source_sha256": "e1fc9a765ad02e6dfba195b4c3eeeb799fd61f256e15390169a5e4c7a8c28c5c",
+  "target_file": "work/translation/en/story_0.1.54/0353/slice_0011.targets.json",
+  "target_file_sha256": "89fc3d09cf6452023aaf723a23d9cdc5b0edb124c9b84b818e2355738841ffd3",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      58
+    ],
+    "count": 48
+  },
+  "source_ranges_examined": [
+    [
+      11,
+      58
+    ]
+  ],
+  "rows_examined": 48,
+  "corrections": [
+    {
+      "resource_row": 14,
+      "source_sha256": "4eb08027265e1de8b3008802590b98bd6aed5030a6194e3ff2803f123882965a",
+      "text": "At first, he was quiet and had this hard-to-approach air.",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    },
+    {
+      "resource_row": 16,
+      "source_sha256": "d1ed0776a3da76b287019ade6be4ce0a7611d4fbe099fe700995863e9ebca750",
+      "text": "And dressed like that, he seemed even scarier.",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    },
+    {
+      "resource_row": 18,
+      "source_sha256": "685e1934cfddb372af9fff3ae8d701ef6d1ed9d4c460ac4acc2d2978dfbab596",
+      "text": "I could not get close to him at all.",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    },
+    {
+      "resource_row": 27,
+      "source_sha256": "9faf0481fa1cc195a654a2726faa5a4acacab8746129749887899d4c6341b1b1",
+      "text": "He stayed with me until I cried myself to sleep.",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    },
+    {
+      "resource_row": 33,
+      "source_sha256": "bfd22308505ace51d2e71bd20816cf62e1919dea70e6f6986e634890a87df605",
+      "text": "Why? Why did he keep quiet...?",
+      "reason": "Supplemental root review restores source box boundaries, direct addressee, glossary-confirmed Scarrel pronouns, or source actor. Choice label split adjusted after measured 222px >208px failure."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Full source/English VM group comparison after compiler failure. Scarrel male established in story_context_0.1.54_part_c.json. Earlier clean proof retained; supplemental proof takes precedence."
+}

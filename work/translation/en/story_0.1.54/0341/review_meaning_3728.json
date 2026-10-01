@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00341",
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_3728.targets.json",
+  "target_file_sha256": "fae8526c3ab9aad0f863802f81c6a93b193a6fed1a6604fad8c7fd50192b3580",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3728,
+      3807
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3246,
+      3945
+    ]
+  ],
+  "rows_examined": 700,
+  "corrections": [
+    {
+      "resource_row": 3728,
+      "source_sha256": "f96eead3e7eb40c0919668e056c3b8b40b0033c51e7b4c6f8c4ccffcfe67b8a0",
+      "text": "His wounds... They're disappearing...",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    },
+    {
+      "resource_row": 3731,
+      "source_sha256": "f96eead3e7eb40c0919668e056c3b8b40b0033c51e7b4c6f8c4ccffcfe67b8a0",
+      "text": "His wounds... They're disappearing...",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    },
+    {
+      "resource_row": 3734,
+      "source_sha256": "f96eead3e7eb40c0919668e056c3b8b40b0033c51e7b4c6f8c4ccffcfe67b8a0",
+      "text": "His wounds... They're disappearing...",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    },
+    {
+      "resource_row": 3765,
+      "source_sha256": "3f4d0ba1f54c938fa876b55654152fd13914c53f6400de176b7adfbde3ee08a8",
+      "text": "Then, Ishlar, you've had it from the start!?",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared all source and English VM boxes3246–3945, including boundary and gender-alternate scenes. Spelling normalization follows meaning corrections."
+}

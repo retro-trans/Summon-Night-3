@@ -1,0 +1,60 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_6448.json",
+  "review_sha256": "8c582cf8043c63894ffa95419b0dd8b23c5019f95ebea9a3aed20d36462a4d82",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_6448.targets.json",
+  "target_before_sha256": "39d7dc86bce280fb2a06e219be407b44ef7aad7cf9c81f0e9aa49035b72e5469",
+  "target_after_sha256": "ded53b0e5348ae3c1146e2e039e9822a1b81a084957687229351a2bc407d448d",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6448,
+      6527
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6512,
+      "before": "Hazel, the \"Thorn Lord.\"",
+      "after": "Hazel, the \"Lady of Thorns.\"",
+      "reason": "Hazel's verified source title is Lady of Thorns, not Thorn Lord."
+    },
+    {
+      "resource_row": 6513,
+      "before": "That is what they were called",
+      "after": "That is what she was called",
+      "reason": "The preceding source line identifies Hazel; her known gender is female."
+    },
+    {
+      "resource_row": 6517,
+      "before": "Their leg is broken...",
+      "after": "Her leg is broken...",
+      "reason": "Hazel is the established female referent."
+    },
+    {
+      "resource_row": 6518,
+      "before": "And they have injuries",
+      "after": "And she has injuries",
+      "reason": "Hazel is the established female referent."
+    },
+    {
+      "resource_row": 6520,
+      "before": "Their leg is broken...",
+      "after": "Her leg is broken...",
+      "reason": "Hazel is the established female referent."
+    },
+    {
+      "resource_row": 6521,
+      "before": "And they have injuries",
+      "after": "And she has injuries",
+      "reason": "Hazel is the established female referent."
+    },
+    {
+      "resource_row": 6524,
+      "before": "they were abandoned",
+      "after": "she was abandoned",
+      "reason": "Hazel is the established female referent."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

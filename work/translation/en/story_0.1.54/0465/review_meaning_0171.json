@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "independent reviewer; draft author root",
+  "resource_id": "00:00465",
+  "source_sha256": "298b91e6735f79ef3929e2f20760ef6bcdaaf06592e0ff9fe208fc8bd94bc9aa",
+  "target_file": "work/translation/en/story_0.1.54/0465/slice_0171.targets.json",
+  "target_file_sha256": "25b840e8eb2d6682d4f5a43e53149ffb145e5399aae40b79163527b6a4ba5864",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      171,
+      186
+    ],
+    "count": 16
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      186
+    ]
+  ],
+  "rows_examined": 177,
+  "uncertainties": [
+    {
+      "issue": "Canonical short name is Fariel; root will apply scoped spelling script after meaning review. Original proposal retained in name_normalization_requested."
+    }
+  ],
+  "omissions": [],
+  "notes": "Compared every target against full actual VM source groups and resource context. Requested directions and actors checked; row 90 retains the complete 90–91 box anchor. Shipbuilding city retained as Chapter 18 provisional rendering. Proof proposes corrections only; no apply.",
+  "name_normalization_requested": [
+    {
+      "resource_row": 183,
+      "source_sha256": "8c208496c62c4a957de14eab81376819adf5cda1590ec1c5b0c36b52ca478d02",
+      "before": "Faliel...",
+      "text": "Fariel...",
+      "after": "Fariel...",
+      "reason": "Corrects canonical Fariel Copse spelling; draft uses lookup alias Faliel."
+    }
+  ],
+  "corrections": []
+}

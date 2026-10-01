@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00403",
+  "source_sha256": "af9b0f7a353c42b99313069197aa25d6ef6bfaab0b88aff9b98f4ed276407afd",
+  "target_file": "work/translation/en/story_0.1.54/0403/slice_0171.targets.json",
+  "target_file_sha256": "4fcc5f4d0671a04145cb4d54fe981a8805c01fe3f3b5396432be4a31c2409e25",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      171,
+      175
+    ],
+    "count": 5
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      175
+    ]
+  ],
+  "rows_examined": 166,
+  "corrections": [
+    {
+      "resource_row": 172,
+      "source_sha256": "d332893a949a31cb0844b70519c101d1b55e68d8515be993ddd9a80a1d8203cc",
+      "text": "For that reason too, let's make sure we win.",
+      "reason": "Restore invitation and connection to their promised future; no source pledge to win by any means."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root compared every full source/English VM box, all variants and boundaries. Correct duplicated common continuation, inverted condition about retaining classroom furniture, and final purpose clause. Names normalized after meaning."
+}

@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_5077.json",
+  "review_sha256": "a91784c50615d708fe8490fe8f659b2c4843774a52c685e9868b11a5fcf0f00c",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_5077.targets.json",
+  "target_before_sha256": "698c184b87b9710e5db20188774f86c91fef5a95701f258b2e585a8315016224",
+  "target_after_sha256": "c4c3f84aa3f1bda0e7f785fd6b1333d8f259d4fcbd66ba2a414e366931593b33",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5077,
+      5156
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5114,
+      "before": "They've been coming",
+      "after": "This one's been dropping by",
+      "reason": "The source identifies one member as a recurring visitor, not a plural group."
+    },
+    {
+      "resource_row": 5115,
+      "before": "by now and then,",
+      "after": "every now and then",
+      "reason": "Retain the frequency in the same dialogue group."
+    },
+    {
+      "resource_row": 5116,
+      "before": "this one has.",
+      "after": "for a while.",
+      "reason": "Restore that the visits have been happening for some time."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

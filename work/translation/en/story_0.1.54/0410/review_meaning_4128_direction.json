@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4128.targets.json",
+  "target_file_sha256": "871bf4697d2aa83b86e6cbb2e78e83c0d2415f09a8fe02fc47d3e6d09361bcc7",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4151,
+      4153
+    ],
+    "count": 3
+  },
+  "source_ranges_examined": [
+    [
+      4148,
+      4160
+    ]
+  ],
+  "rows_examined": 13,
+  "corrections": [
+    {
+      "resource_row": 4151,
+      "source_sha256": "28368ab548f06797bf323254816e1d2cbade1c68736676c3b9abef8f1c00b093",
+      "text": "I will run away! I will run away! Once I get my strength back, I will come kill you all again!",
+      "reason": "Ishlar is declaring his own repeated flight before threatening to return; the prior imperative reverses the actor and direction."
+    },
+    {
+      "resource_row": 4152,
+      "source_sha256": "19eed399dde9053fcb8011dee93e58b91757983f3cf94e389c669db9f4e75981",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 4153,
+      "source_sha256": "e72ecf56b16a078585c6a8e0262b27c5742c76b30f571be68183255bee5e9c31",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Supplemental source-first actor-and-direction review; row 4160 remains the separately recorded uncertainty."
+}

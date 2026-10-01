@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_2448.json",
+  "review_sha256": "886a5fddea95160afb04e8af3c47c1d1b6f00837503d784321c6f612d7fbfff1",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2448.targets.json",
+  "target_before_sha256": "f6aa89e45bd4881bb21c57f01ccc188e0e83275a35758afded196c66d88e778b",
+  "target_after_sha256": "e364ce26b543ccf355d42aebae303839b96ae1958de2c42e3310e3d575dd2c80",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2448,
+      2527
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2480,
+      "before": "it was crispy outside and gooey inside. It was delicious! ♪",
+      "after": "it was crispy outside and gooey inside. It was delicious!",
+      "reason": "Musical note belongs at source row2482, which already retains it. Remove this duplicated note at2480."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

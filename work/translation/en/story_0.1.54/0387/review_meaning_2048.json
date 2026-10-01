@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_2048.targets.json",
+  "target_file_sha256": "af418a88bc91c49499f631ed618ca795f3357afab757358957dfe75c49c23f4e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2048,
+      2127
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1804,
+      2134
+    ]
+  ],
+  "rows_examined": 331,
+  "corrections": [
+    {
+      "resource_row": 2052,
+      "source_sha256": "ab235ee09c649b69b9ae7c4ba5d1c74b2b738816a5a86ca6ae4237d3dbb4f2f8",
+      "text": "come here, have they?",
+      "reason": "Pupil gender independent of protagonist route."
+    },
+    {
+      "resource_row": 2054,
+      "source_sha256": "7c1486ba05d250d4a18d633de4a80808f48079d3e79ab59cdf13add1118acf51",
+      "text": "They're not here,",
+      "reason": "Pupil gender not established."
+    },
+    {
+      "resource_row": 2057,
+      "source_sha256": "897d7c4edc6f06908c6c4355983f4100dd6f147091197a6b189bcf24b12e7f19",
+      "text": "Big Brother and the others...",
+      "reason": "Restore explicit brother relation."
+    },
+    {
+      "resource_row": 2065,
+      "source_sha256": "1f560e7848df2176edc8340986cad4017db15d2290a38212f7734d38e8f55cc0",
+      "text": "looking for them now, so I think",
+      "reason": "Pupil gender not established."
+    },
+    {
+      "resource_row": 2066,
+      "source_sha256": "2e5a799924203b049744b90488d8e230f9018ac729cb3f2129a8c28a314851b4",
+      "text": "they'll find them soon...",
+      "reason": "Pupil gender not established."
+    },
+    {
+      "resource_row": 2073,
+      "source_sha256": "aa0932f0165a4b2534a058380680173281af7d8035bb77d1b660000096252261",
+      "text": "To find them...",
+      "reason": "Restore searching, not generic obligation."
+    },
+    {
+      "resource_row": 2074,
+      "source_sha256": "de4004a4f0d2989904d3d472e5f23961bb6487c62344ba2c2d88a2b0d19bbe17",
+      "text": "I have to go look for them,",
+      "reason": "Male protagonist can have any pupil."
+    },
+    {
+      "resource_row": 2076,
+      "source_sha256": "de4004a4f0d2989904d3d472e5f23961bb6487c62344ba2c2d88a2b0d19bbe17",
+      "text": "I have to go look for them,",
+      "reason": "Female protagonist can have any pupil."
+    },
+    {
+      "resource_row": 2079,
+      "source_sha256": "e015851d1841f2fe5d62936f77eacaee18e6c731c670692f1d5531c1a40b0807",
+      "text": "they're my",
+      "reason": "Pupil gender independent of protagonist gender."
+    },
+    {
+      "resource_row": 2081,
+      "source_sha256": "58002f9591436bb158a169dd32b21a2e313fa2b08afbf5cc52e90ec7051579a5",
+      "text": "they're my",
+      "reason": "Pupil gender independent of protagonist gender."
+    },
+    {
+      "resource_row": 2112,
+      "source_sha256": "6084bde1b209f1414feba7a332776992c50e7461a38ed92a0fcc720c808bf47b",
+      "text": "I don't care if you lose your nerve",
+      "reason": "Restore losing nerve and remove duplicated indifference."
+    },
+    {
+      "resource_row": 2113,
+      "source_sha256": "c8640c22e2d72fe3ad8ff614c68468feecdc8f75750699218221e3527a056830",
+      "text": "and become useless.",
+      "reason": "Complete2112–2114 without repeated phrase."
+    },
+    {
+      "resource_row": 2114,
+      "source_sha256": "3d442127bedce57d12bcc63e0c7070e474864cb3e8b5bff44a68f66c100c2017",
+      "text": "",
+      "reason": "Remove duplicated for all I care."
+    }
+  ],
+  "uncertainties": [
+    {
+      "row": 2050,
+      "note": "Student placeholder can denote any of four pupils; singular they preserves route validity."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared full VM boxes with Japanese source, including both-side context and cross-slice boxes. Correct meaning before normalization; no source transcript saved."
+}

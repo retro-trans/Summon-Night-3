@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00283",
+  "accepted_review_sha256": "78d0ea15ab59e6fa99f5ab1ad4f37a9aa1c103cc63db6043f5e31fbc4477cbd9",
+  "input_hashes": {
+    "work/translation/en/story_0.1.54/scope.json": "a67e52d2ab125b26fd57208aacbef1b03426321d85ccfb2d7ead868e726d3a24",
+    "work/translation/en/story_0.1.54/shared_library.targets.json": "610007ac1481e189167cd3d944e755e2bb92f29d597f60f988c74061f4dfa163",
+    "work/translation/en/story_0.1.54/0283/slice_0011.targets.json": "f425722e42dedfa9c1a61bb171d9cdff692c5f36f7f325546b3f9752e2a4a885",
+    "work/translation/en/story_0.1.54/0283/review_meaning_0011.json": "d8c5dc0f8e3e27d397f681fd1a35afecb6a974c9715b66e204c1568ea1bf1e55",
+    "work/translation/en/story_0.1.54/0283/accepted_review.json": "78d0ea15ab59e6fa99f5ab1ad4f37a9aa1c103cc63db6043f5e31fbc4477cbd9",
+    "tools/story_patch_054.py": "efb30bf799e5d4ef05f6a2a7d6dd6ef587240bd4b70bbb11915181cd762c0159",
+    "tools/story_compiler_054.py": "3cbe86584b5519c352696db29f105d9556d315c53e411a8432c81e6a5f42f8b3",
+    "tools/conditional_layout_054.py": "ff0af598af0de48e8be4e8f2fcd0e426ca9159433edb4f9099797cbea3d8caa7",
+    "tools/story_branch485_layout_054.py": "2524d6ed84681947d1501eef65b4fbfe340416e687b20bf9d2f50b32352de021",
+    "tools/story_source_054.py": "31bd0150436e1391da3fede343a4bb021541f46987e0c020fc5eef18d3a30372",
+    "tools/chapter_patch_014.py": "c04d8f932c504ab3d071e8216cdedd3fb967bdb09882062009c05845c2354232",
+    "tools/chapter_source_014.py": "16ccdf1d1d0ee1621b3fde61bd43cea7436c743e4ddc4bc0179696585a290d1e",
+    "tools/script_compact_014.py": "59246e9c47b02a9fb0447a83feff43ac8914f7103652627197a35c3fa67a602d",
+    "tools/story_storage_054.py": "e58942ba3476938c78a20e1e7d6589a6fec978551dba0beb35d105546fc2d6f0",
+    "tools/font_metrics_014.py": "bb7d3d3f14233a55141aa2d385d32fec30dc9c7a55213cf44ede4b9aad1786f1",
+    "tools/night_talk_037.py": "2b4cc9a6fbf4152106780034a875fc64f4a3d759f4eac56c2bfffb2be5e9165b",
+    "work/glossary/character_reference_sn6_vita.json": "0a284426ad3d1aac837df75fc283570718c32ca3a584d6b2662e71839a47eb92",
+    "work/glossary/terminology_preferences.json": "8bb5a15998b681ce0c8282b11758078bbdeba875b462b650e809ae64db4526ae",
+    "tools/story_display_054.py": "3b4df497fa050415535068d09274e61faefc9c6f4b9cd3ff8f087e5e8223e8b2"
+  },
+  "checks": {
+    "resource_id": "00:00283",
+    "covered_source_rows": 52,
+    "remaining_in_scope": 0,
+    "excluded_shared_library_rows": 0,
+    "groups": 23,
+    "pages": 32,
+    "code_growth": 240,
+    "decoded_script_bytes": 13758,
+    "direct_rows": [
+      {
+        "row": 0,
+        "text": "\"Learn Skills\"",
+        "reference": 3038,
+        "pixel_limit": 280
+      },
+      {
+        "row": 1,
+        "text": "is now available!",
+        "reference": 3046,
+        "pixel_limit": 280
+      },
+      {
+        "row": 2,
+        "text": "\"Party Abilities\"",
+        "reference": 3080,
+        "pixel_limit": 280
+      },
+      {
+        "row": 3,
+        "text": "is now available!",
+        "reference": 3088,
+        "pixel_limit": 280
+      },
+      {
+        "row": 4,
+        "text": "\"Cooking\"",
+        "reference": 3122,
+        "pixel_limit": 280
+      },
+      {
+        "row": 5,
+        "text": "is now available!",
+        "reference": 3130,
+        "pixel_limit": 280
+      },
+      {
+        "row": 6,
+        "text": "Puppet Summoning",
+        "reference": 3166,
+        "pixel_limit": 280
+      },
+      {
+        "row": 7,
+        "text": "at Meimei's shop unlocks",
+        "reference": 3174,
+        "pixel_limit": 280
+      },
+      {
+        "row": 8,
+        "text": "on later playthroughs!",
+        "reference": 3182,
+        "pixel_limit": 280
+      },
+      {
+        "row": 9,
+        "text": "\"Summon Training\"",
+        "reference": 3220,
+        "pixel_limit": 280
+      },
+      {
+        "row": 10,
+        "text": "is now available!",
+        "reference": 3228,
+        "pixel_limit": 280
+      }
+    ],
+    "source_pool_preserved": false,
+    "live_pool_text_preserved": true,
+    "unrelated_code_preserved": true,
+    "all_group_calls_simulated": true,
+    "reviewed": true,
+    "samples": [
+      {
+        "rows": [
+          11,
+          12
+        ],
+        "pages": [
+          [
+            "What are you going to do? From",
+            "here on..."
+          ]
+        ]
+      },
+      {
+        "rows": [
+          13,
+          14
+        ],
+        "pages": [
+          [
+            "I do not know. Too many things",
+            "happened at once."
+          ]
+        ]
+      },
+      {
+        "rows": [
+          15,
+          16
+        ],
+        "pages": [
+          [
+            "I do not know. Too many things",
+            "happened at once."
+          ]
+        ]
+      }
+    ],
+    "pool_compaction": {
+      "before_bytes": 17686,
+      "after_bytes": 13758,
+      "saved_bytes": 3928,
+      "exact_dedup_bytes": 13826,
+      "suffix_saved_bytes": 68,
+      "suffix_shared_strings": 3,
+      "live_string_references": 61,
+      "unique_live_strings": 54,
+      "all_live_string_bytes_preserved": true,
+      "all_non_string_instructions_preserved": true
+    },
+    "meaning_review_verified": true,
+    "conditional_or_menu_rows": 11,
+    "night_talk_groups": 21
+  },
+  "report_summary": {
+    "layout_groups": 23,
+    "selection_count": 4
+  }
+}

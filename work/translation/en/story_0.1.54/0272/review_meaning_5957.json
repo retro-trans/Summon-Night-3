@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_5957.targets.json",
+  "target_file_sha256": "b02c82e1c6294e3941deb12b0ba715e1e488dc32b44f55537e6f099b9e110f3b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5957,
+      6036
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5956,
+      6037
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6036,
+      "source_sha256": "3987226ab28e4de15c55374b8de5b92e4e7e15e5a0bee8388249795295b76180",
+      "before": "it doesn't look as if they have it.",
+      "text": "it doesn't look like",
+      "after": "it doesn't look like",
+      "reason": "This is the middle row of a three-row source sentence. Its current complete clause causes the final row to repeat the ending."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied."
+}

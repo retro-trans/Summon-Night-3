@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00460",
+  "source_sha256": "b467d9813fbb31fea3e68b23e839b451bef2d9f0e6522dd33187d7f3dcea0b73",
+  "target_file": "work/translation/en/story_0.1.54/0460/slice_0091.targets.json",
+  "target_file_sha256": "d6bd209f931afe69a77c7105b870aeec37f76d680381c8f1e91c4002430425bb",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      162
+    ],
+    "count": 72
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      162
+    ]
+  ],
+  "rows_examined": 153,
+  "corrections": [
+    {
+      "resource_row": 129,
+      "source_sha256": "997768676dea3aee85f213830b410d400341126bfdb2f0664075c3681249fcad",
+      "text": "Could that explain every time you didn't answer when I spoke to you???",
+      "reason": "The question concerns all the nonresponses, not every conversation."
+    },
+    {
+      "resource_row": 130,
+      "source_sha256": "2bcaba59b10573fadf08700e1c2400030b012a4a4d6f28a1e6fdec34aab10f43",
+      "text": "",
+      "reason": "The question concerns all the nonresponses, not every conversation."
+    },
+    {
+      "resource_row": 147,
+      "source_sha256": "0d0b5d480c77f125aa3d072372bb41dc3ec230b58ad78317d6b59f64493d67b6",
+      "text": "I'm glad we both kept our promise...",
+      "reason": "Restore both parties keeping the promise."
+    },
+    {
+      "resource_row": 148,
+      "source_sha256": "00799f304ee45df63604c802c649a455abde3abfe93df2e6bd6b8d343812e78a",
+      "text": "",
+      "reason": "Restore both parties keeping the promise."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Dalima contents are not identified botanically; neutral pieces avoids inventing seeds. Fictional fruit spelling is already established in glossary."
+    }
+  ],
+  "omissions": [
+    {
+      "issue": "Several adjacent boxes form one deliberately unfinished sentence about memories, father repayment, and the final request; each retains its own clause. No missing whole dialogue box."
+    }
+  ],
+  "notes": "Independent root source-first review of the complete resource and actual VM groups. Legacy slice sizes retained as historical author metadata, fully reviewed here. Cross-slice group corrections are separately bound to the files that own their rows. Proper names and common-noun teacher case normalize afterward."
+}

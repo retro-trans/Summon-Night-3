@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "reviewer": "root independent of author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3248.targets.json",
+  "target_file_sha256": "d70c921002a664d992f65acf909fca08766d3ed06be1633393feb3eebdaa4ac7",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3248,
+      3327
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3247,
+      3330
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [
+    {
+      "resource_row": 3254,
+      "source_sha256": "0ef9ad02aaa71ffb01b749b11510dcd25acd1aac91392a773e89b89f2dc70c2f",
+      "text": "You don't have to be so formal.",
+      "reason": "Source asks to drop honorific; English prior thanks already uses first name, so asking same first name again loses register change."
+    },
+    {
+      "resource_row": 3271,
+      "source_sha256": "2614eb0c40b676a2324cc960b055fb78876aa3d731f9caebfb77357969f4f42d",
+      "text": "You don't have to be so formal.",
+      "reason": "Preserve invitation to drop honorific rather than repeat already-used first name."
+    },
+    {
+      "resource_row": 3290,
+      "source_sha256": "500742ea25362cbe40d1fddffea2044d46800606a6fc60e40ac58e61e50e557a",
+      "text": "You don't have to be so formal.",
+      "reason": "Preserve invitation to drop honorific rather than repeat already-used first name."
+    },
+    {
+      "resource_row": 3307,
+      "source_sha256": "8c6e1768779c4f2cd4a8165ec611a2e5a858dfa03288725ecc230d26c9b5287b",
+      "text": "You don't have to be so formal with me.",
+      "reason": "Preserve invitation to drop honorific rather than repeat already-used first name."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "All original VM groups, target groups and both boundaries independently read. No name-only corrections; normalization later."
+}

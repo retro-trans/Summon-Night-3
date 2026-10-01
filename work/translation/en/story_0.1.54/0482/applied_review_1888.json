@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_1888.json",
+  "review_sha256": "75f1b84b36c552717b7d57f982b62f500e036da08a8c190570771feb72f36ddc",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_1888.targets.json",
+  "target_before_sha256": "d634bc1d13257c70cd7bebc1656b83680737ed5239c09871e0cb75ff2a7cc60d",
+  "target_after_sha256": "5aad9607bb17dceae0beb9d5504cc4533dcc4ccbbde93f1ca6f2e85d8ea87ff4",
+  "reviewed_rows": {
+    "range_inclusive": [
+      1888,
+      1967
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 1888,
+      "before": "Long ago, by the regrets of souls that perished on this island...",
+      "after": "",
+      "reason": "This is the internal continuation of the VM box anchored at row 1886; the duplicate repeats that box's complete meaning."
+    },
+    {
+      "resource_row": 1965,
+      "before": "They've been asleep all this time and wouldn't wake up at all.",
+      "after": "You've been asleep all this time and wouldn't wake up at all.",
+      "reason": "The speaker addresses the protagonist directly; the source calls them Teacher rather than referring to an unspecified third person."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

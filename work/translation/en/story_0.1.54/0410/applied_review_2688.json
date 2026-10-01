@@ -1,0 +1,39 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_2688.json",
+  "review_sha256": "389a55205529a3b647e57309bd69b580902eb85a7b9494bb3993a13ab32ca98d",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2688.targets.json",
+  "target_before_sha256": "4c9311a0e80dce64b6faa131598819d531243a7865b7fc7febd3c3a904fc8336",
+  "target_after_sha256": "0c29d0c1ace4f3df2a2d775ed5f5fff10ffe1080320d512ba032aa7ffa3b8fef",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2688,
+      2767
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2740,
+      "before": "I have no choices. Not now, and not ever...",
+      "after": "I have no choices. I never have, and I never will...",
+      "reason": "Restores explicit past and future scope of the source, rather than only now and future."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2690,
+        2733
+      ],
+      "issue": "Hazel identity is established later in the same scene and her sourced gender is female."
+    },
+    {
+      "rows": [
+        2747,
+        2748
+      ],
+      "issue": "Viper retains shortened source title; do not expand to Coral Viper."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

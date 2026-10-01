@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00396",
+  "source_sha256": "e89c08d046837398e337260f71bfd02c238344ec2875e4cf8588195c8d80f8fd",
+  "target_file": "work/translation/en/story_0.1.54/0396/slice_0091.targets.json",
+  "target_file_sha256": "cd53d2c6be44c8572fe07e3c55938a8e9abfee3638d7d631d5871d08c775992a",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      149
+    ],
+    "count": 59
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      149
+    ]
+  ],
+  "rows_examined": 140,
+  "corrections": [
+    {
+      "resource_row": 91,
+      "source_sha256": "7ea087c850b34948a637514a409fcdf8dde69ed94bd279ca1cee7308b4aacf98",
+      "text": "Unless I settle things properly, it'll keep bothering me, and I'll make everyone worry about me again.",
+      "reason": "Restore omitted speaker's own nagging concern leading to others' worry."
+    }
+  ],
+  "uncertainties": [
+    {
+      "row": 140,
+      "note": "Feel it refers to affection conveyed despite ghost body; literal feel preserves touch/emotional overlap."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared every full source/English VM box including both protagonist variants and slice boundaries. Correct copied variant dialogue, missing full boxes and omitted subjects before name normalization. No Japanese transcript retained."
+}

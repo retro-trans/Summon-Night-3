@@ -1,0 +1,111 @@
+{
+  "version": "0.1.54",
+  "entries": [
+    {
+      "source_name": "ユクレス",
+      "target_name": "Yukres",
+      "category": "great tree",
+      "evidence": [
+        {
+          "url": "https://renote.net/articles/17584/page/23",
+          "supports": "Village is named for the great tree at its center"
+        },
+        {
+          "local": "work/glossary/island_0.1.12.json",
+          "supports": "Existing Yukres Village English spelling"
+        }
+      ],
+      "notes": "Prayer referent in387:2282–2289. Do not infer person or gender from honorific sama."
+    },
+    {
+      "source_name": "ベル",
+      "target_name": "Bel",
+      "category": "character nickname",
+      "character": "Belfraw",
+      "status": "provisional English short spelling; source nickname explicit",
+      "evidence": [
+        {
+          "url": "https://summonnight.fandom.com/wiki/Belfraw_Martini",
+          "supports": "Full character identity only"
+        },
+        {
+          "resource": "00:00390",
+          "rows": [
+            159,
+            165,
+            166
+          ],
+          "supports": "Source explicitly requests short form in private"
+        }
+      ],
+      "notes": "Preserve source nickname instead of expanding to Belfraw; no official English nickname established."
+    },
+    {
+      "source_name": "ウィスタリアス",
+      "source_aliases": [
+        "果てしなき蒼"
+      ],
+      "target_name": "Wistarius",
+      "category": "reforged sword",
+      "status": "provisional English romanization; Japanese identity verified",
+      "evidence": [
+        {
+          "url": "https://w.atwiki.jp/aniwotawiki/pages/16125.html",
+          "supports": "Reforged Shartos sword appears in Chapter15; source reading Wisutariasu"
+        }
+      ],
+      "notes": "English official spelling not verified. Retain existing draft spelling consistently; literal epithet Endless Blue when the written epithet itself is translated."
+    },
+    {
+      "source_name": "アルミネ",
+      "target_name": "Almine",
+      "category": "angel",
+      "title": "Angel of Abundance",
+      "gender": "female",
+      "status": "gallery spelling; title from published SN6 character details",
+      "evidence": [
+        {
+          "url": "https://summonnight.fandom.com/wiki/Summon_Night_6:_Lost_Borders/PS_Vita_Gallery",
+          "supports": "Main displayed Almine spelling"
+        },
+        {
+          "url": "https://www.gematsu.com/2015/12/summon-night-6-introduces-amer-kyle-resi-toris-bulrell-kanon-nesty-cunnon",
+          "supports": "Almine and Angel of Abundance title"
+        },
+        {
+          "resource": "00:00405",
+          "rows": [
+            132,
+            133,
+            134,
+            135
+          ],
+          "supports": "Source calls her the first fallen angel and uses a female pronoun"
+        }
+      ],
+      "notes": "Translate only facts stated in the current dialogue. Do not import additional reincarnation or plot lore."
+    },
+    {
+      "source_name": "ニコニコさん",
+      "target_name": "Smiley",
+      "category": "descriptive character nickname",
+      "character": "Ishlar",
+      "status": "provisional English rendering of source nickname; no established official English nickname found",
+      "evidence": [
+        {
+          "resource": "00:00406",
+          "rows": [
+            27,
+            28,
+            29,
+            30,
+            36,
+            37
+          ],
+          "supports": "Marurur describes the remaining foe after Colorless defeat using a smiling-person nickname"
+        }
+      ],
+      "notes": "Preserve source nickname; do not replace with full character name. Parallel source nickname for Yafha remains Stripes."
+    }
+  ]
+}

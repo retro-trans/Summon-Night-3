@@ -1,0 +1,34 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_3888.json",
+  "review_sha256": "bad7b9ce591ae191dd81a151870c2959d51dca24d2635985dc1658b44efe380c",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3888.targets.json",
+  "target_before_sha256": "9ad218cb7bd76c8788ec5d91da65a1182e7b03aea70421fbaaba8b27c5f0b7e1",
+  "target_after_sha256": "3395e692c14c0913b866a5dd9a2b7bab848b82434035c0816877b362e6eb2916",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3888,
+      3967
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3915,
+      "before": "Now Marurur can address you two properly! ♪",
+      "after": "Now Marurur can address you two properly!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    },
+    {
+      "resource_row": 3935,
+      "before": "Marurur is happy that there are Maetropa companions outside this island too! ♪",
+      "after": "Marurur is happy that there are Maetropa companions outside this island too!",
+      "reason": "Moves the music symbol off the VM-box anchor; the source music symbol is on the later physical continuation row, where the existing target retains it exactly once."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Unverified names and world terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0403/review_meaning_0091.json",
+  "review_sha256": "c9efb2eea6885ad62b1854c3d6f0b477e31c014b80aab00a47e1272886f364d5",
+  "target_file": "work/translation/en/story_0.1.54/0403/slice_0091.targets.json",
+  "target_before_sha256": "c690bab92c233168b50ecf7f5eeb9353addc7c7b662ff1910268571b0304ec27",
+  "target_after_sha256": "b73a97f9ab0c8ba938b2f568fac93a566cb1041fd4d20aa198d6e5957f709628",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      170
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 105,
+      "before": "If you preserve them as mementos, I will be in trouble.",
+      "after": "Mementos? If you don't leave them as they are, I'll be in trouble.",
+      "reason": "Correct reversed negation: speaker needs blackboard and desk kept for continued lessons."
+    },
+    {
+      "resource_row": 107,
+      "before": "If you preserve them as mementos, I will be in trouble.",
+      "after": "Mementos? If you don't leave them as they are, I'll be in trouble.",
+      "reason": "Same reversed condition in alternate protagonist route."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

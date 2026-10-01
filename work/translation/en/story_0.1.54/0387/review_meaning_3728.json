@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3728.targets.json",
+  "target_file_sha256": "63b326fc14ac33e03b581b320d5232a5ceb0c96cdbec7a1d3b27bbccabc230a3",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3728,
+      3807
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3403,
+      3809
+    ]
+  ],
+  "rows_examined": 407,
+  "corrections": [
+    {
+      "resource_row": 3767,
+      "source_sha256": "2fa5b90c11e5fb6ff6ac219ecf67aece92cd4edbaccbfcf51ef81df06223f0d1",
+      "text": "Well, it's about what I was told earlier...",
+      "reason": "Following route names Vizel as prior speaker."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independent meaning review of full Japanese/English VM boxes; source read transiently. Box3486–3488 and3807–3809 checked across slice boundaries. No normalization performed."
+}

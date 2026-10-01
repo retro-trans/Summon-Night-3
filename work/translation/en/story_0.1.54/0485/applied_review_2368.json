@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_2368.json",
+  "review_sha256": "a718cfa6f8153200d728de3d27e2f92202fc1bc9e8f0e70bc1c111150550bdf6",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2368.targets.json",
+  "target_before_sha256": "ab1762f233a6c65c83bbd3c66e07d716a07a55f79d8760c59866a6c610b319d9",
+  "target_after_sha256": "1baafe49e7045cabcc255c4e9caee98584232bf411b958e315d6abfc39a39e46",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2368,
+      2447
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2382,
+      "before": "And Meimei is another one of those people, right? Nyahahaha! ♪",
+      "after": "And Meimei is another one of those people, right? Nyahahaha!",
+      "reason": "Remove duplicate note from anchor; original row2384 retains note."
+    },
+    {
+      "resource_row": 2426,
+      "before": "Yeah, I especially put my heart into combat training! ♪",
+      "after": "Yeah, I especially put my heart into combat training!",
+      "reason": "Remove duplicate note; original row2428 retains note."
+    },
+    {
+      "resource_row": 2429,
+      "before": "Yeah, I especially put my heart into combat training! ♪",
+      "after": "Yeah, I especially put my heart into combat training!",
+      "reason": "Remove duplicate note; original row2431 retains note."
+    },
+    {
+      "resource_row": 2435,
+      "before": "Well, I will admit you did what you said you would.",
+      "after": "Well, I'll admit you've put in the work to back that up.",
+      "reason": "Acknowledges earned boast, not fulfillment of a prior promise."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_5957.targets.json",
+  "target_file_sha256": "8e5d09ce6d1aaae00d60fdca05dd6cb92800d255a6345f2c95f4e06b349b3d80",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5957,
+      6036
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5954,
+      6037
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [
+    {
+      "resource_row": 5994,
+      "source_sha256": "57f27fe49ecf50be2307507acc59fbd2a0f602c7506a9308918e6e3a98ad5049",
+      "text": "To kill a target, they will stop at nothing. They even turn their lives into weapons.",
+      "reason": "The source says assassins will use any means necessary; retain the entire three-fragment dialogue group in its current first-row allocation."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-versus-English review of every complete VM dialogue group intersecting this slice; controls retained in proposed replacement text."
+}

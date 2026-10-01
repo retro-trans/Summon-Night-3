@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_6597.json",
+  "review_sha256": "c0e5a8fffbef3f1e1f08b61b65141dceb438a6f00c77ea910ddb1ee48addfe08",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6597.targets.json",
+  "target_before_sha256": "28540230a5bc7026ce9be3c661bde7ba12ea25a2a52fe8b31eac7f37649ab607",
+  "target_after_sha256": "e59d8b4e3f5c3df3f61f10ebddefc4b26d548a0e9989e5f162bd546d4bab44b1",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6597,
+      6676
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6615,
+      "before": "Teacher...",
+      "after": "Instructor...",
+      "reason": "The source is 教官殿 (instructor), not 先生 (Teacher)."
+    },
+    {
+      "resource_row": 6640,
+      "before": "Teacher...",
+      "after": "Instructor...",
+      "reason": "The source is 教官殿 (instructor), not 先生 (Teacher)."
+    },
+    {
+      "resource_row": 6664,
+      "before": "my kind Teacher.",
+      "after": "my kind instructor.",
+      "reason": "The source is 教官殿; preserve the role as instructor rather than applying the 先生 terminology rule."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

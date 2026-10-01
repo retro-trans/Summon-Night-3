@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_1888.targets.json",
+  "target_file_sha256": "551d459384e031b2647f611944ef4f02deffd2854a65be10e15ecc741968c5af",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [1888, 1967], "count": 80},
+  "source_ranges_examined": [[1886, 1969]],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [
+    {"rows": [1889, 1890, 1891, 1892, 1893, 1894], "issue": "The source explicitly marks the alternate protagonist referent male in the first variant and female in the second. The authored him/her distinction is required, not inferred."},
+    {"rows": [1897, 1898, 1899, 1900, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1961, 1962, 1963, 1964, 1966], "issue": "Teacher/player references are preserved as neutral English or protected dynamic marker where source context does not grammatically fix gender; no correction proposed."}
+  ],
+  "omissions": [
+    {"rows": [1901, 1902, 1903, 1904, 1905, 1906, 1908, 1909, 1935, 1936, 1937, 1938, 1943, 1944, 1945, 1946, 1952, 1959, 1960, 1966], "reason": "Creature calls, hesitation, laughter, address-only reactions, and protected marker reaction retained without invented grammar."},
+    {"rows": [1889, 1890, 1892, 1893, 1897, 1898, 1899, 1900, 1911, 1912, 1913, 1914, 1915, 1916, 1917, 1918, 1919, 1920, 1922, 1923, 1924, 1926, 1927, 1928, 1929, 1931, 1932, 1933, 1934, 1939, 1940, 1941, 1942, 1947, 1948, 1949, 1950, 1951, 1953, 1954, 1955, 1956, 1957, 1958, 1961, 1962, 1963, 1964], "reason": "Physical continuation rows. The authored English joins adjacent fragments while preserving the group discussion, Teacher's decision, and companions' responses."}
+  ],
+  "notes": "Reviewed original Japanese against the authored target with immediate preceding and following context. No meaning correction is required; wording differences were not recorded as cosmetic changes."
+}

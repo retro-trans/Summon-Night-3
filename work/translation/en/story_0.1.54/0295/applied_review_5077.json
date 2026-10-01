@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_5077.json",
+  "review_sha256": "99b5f200e8c63ee40851ed9bb103db974a56c945db379c27dd5ac58811973dc8",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_5077.targets.json",
+  "target_before_sha256": "cca5be81defc6588a2867e85c91f09f91a787b8ed9ccc3f3b3b339c1086fcf42",
+  "target_after_sha256": "058d1d32c4cb024a41eaab21ad3f053b9b98c93c0b8981d9f964acfa06e78e08",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5077,
+      5156
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5155,
+      "before": "They noticed",
+      "after": "They set their sights",
+      "reason": "そこに目をつけた means they deliberately targeted this idea, not merely noticed it."
+    },
+    {
+      "resource_row": 5156,
+      "before": "that.",
+      "after": "on that.",
+      "reason": "Completes the corrected joined statement from the preceding row."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

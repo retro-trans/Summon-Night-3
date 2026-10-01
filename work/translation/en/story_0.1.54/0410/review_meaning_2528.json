@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_2528.targets.json",
+  "target_file_sha256": "139d69844153bbedd0a6efb976ad3560afb1ac001cbebff2c7e0edfdde1f244f",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2528,
+      2607
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2446,
+      2608
+    ]
+  ],
+  "rows_examined": 163,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        2562,
+        2563,
+        2564,
+        2593
+      ],
+      "issue": "Takoyaki retained as food name. Its octopus ingredient motivates the reaction and is made explicit later in2593. No English dish-name glossary entry currently exists."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared source and English at full VM box boundaries, including both slice boundaries and protagonist/pupil alternatives. Name normalization follows meaning fixes."
+}

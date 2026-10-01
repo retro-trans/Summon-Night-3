@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0402/review_meaning_0091.json",
+  "review_sha256": "9cb242a4afc44cfd20d575a7289d98dd56dde70347093d793358473b28b4617a",
+  "target_file": "work/translation/en/story_0.1.54/0402/slice_0091.targets.json",
+  "target_before_sha256": "0055a8c6e5e497db22d593b6986b24f0c00e0503ef254e7ebbf8cdb6cf7dcb66",
+  "target_after_sha256": "0dcaede5361d468b64894947f2a96377a75e25fb431214242890fab2567dc0fb",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      144
+    ],
+    "count": 54
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 143,
+      "before": "Please teach me, Teacher...",
+      "after": "Please teach me...",
+      "reason": "Remove duplicated Teacher address; original separate box144 already contains it."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_2608.json",
+  "review_sha256": "a6eb933b9898b7e2362eaefec3b339a3590484b922ee17114d49bc43f336629c",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2608.targets.json",
+  "target_before_sha256": "b08d0bd2d3e7cdf9c8cb9632289f00dd72f3b05634f82a7d1d5bbe2c554802a0",
+  "target_after_sha256": "85e1f599049549c2605063ea523cb3e7ebd4bb41270473b1ac46a9d85b1c25cf",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2608,
+      2687
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2608,
+      "before": "Thank you for waiting. I can definitely sense a strong power in the center of the island.",
+      "after": "",
+      "reason": "Remove duplicated whole-box text; original VM group2606–2608 already anchors at2606."
+    },
+    {
+      "resource_row": 2635,
+      "before": "Siltarn too... is here...",
+      "after": "There's power from Siltarn, too...",
+      "reason": "The power source is from that world; the world itself is not on the island."
+    },
+    {
+      "resource_row": 2674,
+      "before": "No, it will take time, but wiser to examine them one at a time.",
+      "after": "No, it will take time, but it would be wiser to examine them one at a time.",
+      "reason": "Restore missing finite verb in coordinated English clause."
+    },
+    {
+      "resource_row": 2687,
+      "before": "",
+      "after": "Probably... But it does not seem to be only that.",
+      "reason": "Anchor complete group2687–2689 at original first row;2688 cleared by companion review."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,77 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0364/review_meaning_2128.json",
+  "review_sha256": "eb258ad7553770e18da36bbe17a21237a180c5588bf70e6ff65843328cb179c3",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2128.targets.json",
+  "target_before_sha256": "ac6cda505b4f7add83976de6bf460757172bf53b11652dbc5b65a9b5253fdc43",
+  "target_after_sha256": "83fe86d83385510eb1a0cd5933b4be582593a948ceb9a882e958c19d37b3ad04",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2128,
+      2207
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2201,
+      "before": "That captain was awfully",
+      "after": "That was awfully",
+      "reason": "The source begins a single assessment of an action. Current wording begins a complete statement about the captain, then repeats the captain as a new fragment at row 2203."
+    },
+    {
+      "resource_row": 2202,
+      "before": "careless...",
+      "after": "careless of",
+      "reason": "Continues the source's judgment so the responsible party can appear in the final source row."
+    },
+    {
+      "resource_row": 2203,
+      "before": "That idiot captain...",
+      "after": "that idiot captain...",
+      "reason": "The source names the captain here. Together with rows 2201–2202, this restores the complete meaning: 'That was awfully careless of that idiot captain...'"
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2129,
+        2130,
+        2131,
+        2132,
+        2133,
+        2136,
+        2137,
+        2138,
+        2139,
+        2140,
+        2141,
+        2142,
+        2143,
+        2146,
+        2147,
+        2148,
+        2157,
+        2158,
+        2159,
+        2161,
+        2162,
+        2163,
+        2164,
+        2165,
+        2166,
+        2167,
+        2168,
+        2169,
+        2173,
+        2174,
+        2175,
+        2176,
+        2180,
+        2181,
+        2182
+      ],
+      "issue": "Teacher is player-selected. Singular-they language preserves the established referent without gender inference."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

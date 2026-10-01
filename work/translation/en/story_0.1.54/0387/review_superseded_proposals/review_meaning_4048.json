@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_4048.targets.json",
+  "target_file_sha256": "8e3724d06237baabdab8a0d66476500a69f63ec8113cb637bf984e7b6b822b65",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4048,
+      4127
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4047,
+      4128
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 4049,
+      "source_sha256": "d32fa1d07c456802fb42d7f017c7b731776684b51135981969acff7ee3ebe055",
+      "text": "I do not think you need to force yourself to change. Because...",
+      "reason": "Restore this complete VM box, whose English was moved into the preceding box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first meaning review of full VM boxes and both-side context; source read transiently. No correction was applied and no normalization was performed."
+}

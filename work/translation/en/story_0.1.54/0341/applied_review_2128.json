@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0341/review_meaning_2128.json",
+  "review_sha256": "e841a53971fd796d03a1f96e28ad85d6aeb8be056c620f53ae5940bae46df644",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_2128.targets.json",
+  "target_before_sha256": "2180797bfb5c13a203aa66f758bd502d6cadb5213853b06a7f89992a8269069b",
+  "target_after_sha256": "caabfbd84f699af053b389cae12eb3051686837da897dc2bf233663810688232",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2128,
+      2207
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2147,
+      "before": "I-is it really that bad?",
+      "after": "I-isn't she taking this a bit far...?",
+      "reason": "Restore source meaning to its own VM dialogue box, removing cross-box drift, duplicate continuation, or incorrect English referent."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

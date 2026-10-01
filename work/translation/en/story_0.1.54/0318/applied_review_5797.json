@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_5797.json",
+  "review_sha256": "c74d3973c04a9c4ec8ec3e00e26af41edd3e9c6db3cfd0f34e1f43a07417262b",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_5797.targets.json",
+  "target_before_sha256": "5e0c7473bc15f8021d072abbb73dff1d45f1190c0326d6ccf34ce0dd973d1c49",
+  "target_after_sha256": "822375906738f236f3861684e698d9ed68073ec81471a87b63249c4ebf91d5a9",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5797,
+      5876
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5818,
+      "before": "This is a joke... We could barely handle the battle we just had...",
+      "after": "This is no joke... We could barely handle the battle we just had...",
+      "reason": "The source rejects the situation as a joke; the existing English states the opposite."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

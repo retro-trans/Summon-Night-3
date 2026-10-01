@@ -1,0 +1,44 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0334/review_meaning_0011.json",
+  "review_sha256": "fbac020793c4dc7989b44584a56a6cd87f4612a7e24cae08c42c076725407de8",
+  "target_file": "work/translation/en/story_0.1.54/0334/slice_0011.targets.json",
+  "target_before_sha256": "28b6d3f2eb4087aa8adb3400d7527671fac5420c0e742d1de3e691c80af6f409",
+  "target_after_sha256": "4f08c26e6cfb62af8abf8cc70d5d5e09e09a84c0439f4d46b1b4fadf4297e2f6",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      48
+    ],
+    "count": 38
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 13,
+      "before": "The last battle where my beloved ones fought",
+      "after": "The last battle where my husband and the others fought",
+      "reason": "The term denotes Misumi's husband, corroborated by chapter48_additions glossary and the grief context; it is not generic beloved ones."
+    },
+    {
+      "resource_row": 39,
+      "before": "You understand that,",
+      "after": "You'll let us fight, won't you,",
+      "reason": "She asks consent to participate, not merely whether her feelings are understood."
+    },
+    {
+      "resource_row": 41,
+      "before": "You understand that, do you not?",
+      "after": "You'll let us fight, won't you?",
+      "reason": "Same permission request in the alternate protagonist branch."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        37,
+        38
+      ],
+      "note": "Second independent full-scene source review by Terra chapter12_review supports Kyuuma and Subaru sharing Misumi's feelings; the protagonist's following plural acceptance supports retaining this reading. Root's alternative interpretation was rejected."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_6917.targets.json",
+  "target_file_sha256": "410124be9d9e1a016af43a597e7d6aecefb27624d7871ce0b905011deb024df2",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6917,
+      6996
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6916,
+      6997
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6917,
+      "source_sha256": "439247fbb56e68f1c59d575303da95fd963f83a19e608d44c1487a961badb24c",
+      "before": "their soul will be devoured",
+      "text": "that person's soul will be devoured",
+      "after": "that person's soul will be devoured",
+      "reason": "A sustained target-row shift assigns following dialogue to earlier source boxes. These replacements restore the source sequence and speakers."
+    },
+    {
+      "resource_row": 6918,
+      "source_sha256": "6932aba179171a84d5b9387022d47f8d40388c5dbeba35e5c01ed9343c654fc4",
+      "before": "by these ruins!",
+      "text": "by these ruins!",
+      "after": "by these ruins!",
+      "reason": "A sustained target-row shift assigns following dialogue to earlier source boxes. These replacements restore the source sequence and speakers."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied."
+}

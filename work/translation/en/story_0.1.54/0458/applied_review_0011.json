@@ -1,0 +1,154 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0458/review_meaning_0011.json",
+  "review_sha256": "804719741acf2288f5cf1968f77e35ce3fa16b6b111d71d72239e30e9a74d31c",
+  "target_file": "work/translation/en/story_0.1.54/0458/slice_0011.targets.json",
+  "target_before_sha256": "ce9ccd2512076e59036e9ee9351bfb0afe2df02fdfa52de65850ebf429d5d80b",
+  "target_after_sha256": "bc328f0237e9a6b12b17b1ca39bf868a8650246ae81c61fa150b65ca58bc0f28",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      160
+    ],
+    "count": 150
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 17,
+      "before": "But if we do not split them",
+      "after": "But if we don't split them exactly in half, won't people start fighting?",
+      "reason": "Retain the pupil's literal halves question; do not silently fix their misunderstanding of division."
+    },
+    {
+      "resource_row": 18,
+      "before": "equally, people will",
+      "after": "",
+      "reason": "Retain the pupil's literal halves question; do not silently fix their misunderstanding of division."
+    },
+    {
+      "resource_row": 19,
+      "before": "start fighting, will they not?",
+      "after": "",
+      "reason": "Retain the pupil's literal halves question; do not silently fix their misunderstanding of division."
+    },
+    {
+      "resource_row": 21,
+      "before": "If three people share five",
+      "after": "If three people share five darima fruits, they should count the pieces inside as well!",
+      "reason": "The source counts the contents of the fruit without specifically identifying seeds."
+    },
+    {
+      "resource_row": 22,
+      "before": "darima fruits, they should count",
+      "after": "",
+      "reason": "The source counts the contents of the fruit without specifically identifying seeds."
+    },
+    {
+      "resource_row": 23,
+      "before": "the seeds inside as well!",
+      "after": "",
+      "reason": "The source counts the contents of the fruit without specifically identifying seeds."
+    },
+    {
+      "resource_row": 59,
+      "before": "When I was taking tests, I used to think, 'You make",
+      "after": "When I was taking tests, I used to think, 'You make only the students do all the hard work!'",
+      "reason": "Restore the contrast that students thought only they had to struggle."
+    },
+    {
+      "resource_row": 60,
+      "before": "your students work so hard!'",
+      "after": "",
+      "reason": "Restore the contrast that students thought only they had to struggle."
+    },
+    {
+      "resource_row": 113,
+      "before": "He told me to do what I wanted...",
+      "after": "He told you to do what you wanted... and saw you off with a smile.",
+      "reason": "Teacher comments on Nup's father sending Nup off; do not shift the father's words to Teacher."
+    },
+    {
+      "resource_row": 114,
+      "before": "and saw me off with a smile.",
+      "after": "",
+      "reason": "Teacher comments on Nup's father sending Nup off; do not shift the father's words to Teacher."
+    },
+    {
+      "resource_row": 115,
+      "before": "He told me to do what I wanted...",
+      "after": "He told you to do what you wanted... and saw you off with a smile.",
+      "reason": "Same female-protagonist variant; preserve addressee."
+    },
+    {
+      "resource_row": 116,
+      "before": "and saw me off with a smile.",
+      "after": "",
+      "reason": "Same female-protagonist variant; preserve addressee."
+    },
+    {
+      "resource_row": 134,
+      "before": "Yes, and among them,",
+      "after": "Yes... Especially the times when it was just the two of us...",
+      "reason": "Keep the starry-sky subject in the following VM box."
+    },
+    {
+      "resource_row": 135,
+      "before": "the starry sky we saw together",
+      "after": "",
+      "reason": "Keep the starry-sky subject in the following VM box."
+    },
+    {
+      "resource_row": 136,
+      "before": "on this island",
+      "after": "The starry skies we saw on this island hold so many special memories.",
+      "reason": "Restore full subject within its own source VM box."
+    },
+    {
+      "resource_row": 137,
+      "before": "holds so many special memories.",
+      "after": "",
+      "reason": "Restore full subject within its own source VM box."
+    },
+    {
+      "resource_row": 145,
+      "before": "I am glad we kept",
+      "after": "I'm glad we both kept our promise...",
+      "reason": "Retain reciprocal both of us."
+    },
+    {
+      "resource_row": 146,
+      "before": "our promise...",
+      "after": "",
+      "reason": "Retain reciprocal both of us."
+    },
+    {
+      "resource_row": 156,
+      "before": "Ah... I will. I look forward to it!",
+      "after": "Ah... I'm counting on you too, Nup!",
+      "reason": "The reciprocal request is addressed to Nup; it is not merely Teacher offering to guide."
+    },
+    {
+      "resource_row": 157,
+      "before": "Nup...",
+      "after": "",
+      "reason": "The reciprocal request is addressed to Nup; it is not merely Teacher offering to guide."
+    },
+    {
+      "resource_row": 158,
+      "before": "Yeah... I look forward to it, too.",
+      "after": "Yes... I'm counting on you too, Nup.",
+      "reason": "Same reciprocal direction in alternate protagonist branch."
+    },
+    {
+      "resource_row": 159,
+      "before": "Nup...",
+      "after": "",
+      "reason": "Same reciprocal direction in alternate protagonist branch."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Dalima contents are not identified botanically; neutral pieces avoids inventing seeds. Fictional fruit spelling is already established in glossary."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

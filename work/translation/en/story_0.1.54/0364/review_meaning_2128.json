@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2128.targets.json",
+  "target_file_sha256": "ac6cda505b4f7add83976de6bf460757172bf53b11652dbc5b65a9b5253fdc43",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [2128, 2207], "count": 80},
+  "source_ranges_examined": [[2126, 2209]],
+  "rows_examined": 84,
+  "corrections": [
+    {"resource_row": 2201, "source_sha256": "83e279412a87b6ce076952939d5f53c1aa60da4f029c4089022fce831a94b36a", "text": "That was awfully", "reason": "The source begins a single assessment of an action. Current wording begins a complete statement about the captain, then repeats the captain as a new fragment at row 2203."},
+    {"resource_row": 2202, "source_sha256": "163920a01ff14cb9bbf74d44cdf84192a69a322ed46cf600999f672700e70585", "text": "careless of", "reason": "Continues the source's judgment so the responsible party can appear in the final source row."},
+    {"resource_row": 2203, "source_sha256": "e2e450d617a3420177a03aebf791b413c5802cf5646073a32e2d501bdce11952", "text": "that idiot captain...", "reason": "The source names the captain here. Together with rows 2201–2202, this restores the complete meaning: 'That was awfully careless of that idiot captain...'"}
+  ],
+  "uncertainties": [
+    {"rows": [2129, 2130, 2131, 2132, 2133, 2136, 2137, 2138, 2139, 2140, 2141, 2142, 2143, 2146, 2147, 2148, 2157, 2158, 2159, 2161, 2162, 2163, 2164, 2165, 2166, 2167, 2168, 2169, 2173, 2174, 2175, 2176, 2180, 2181, 2182], "issue": "Teacher is player-selected. Singular-they language preserves the established referent without gender inference."}
+  ],
+  "omissions": [
+    {"rows": [2128, 2134, 2135, 2144, 2152, 2155, 2156, 2171, 2172], "reason": "Interjections, creature calls, and emotional-reaction fragments retain their non-propositional source function."},
+    {"rows": [2129, 2130, 2131, 2132, 2133, 2136, 2137, 2138, 2139, 2140, 2141, 2142, 2143, 2146, 2147, 2148, 2149, 2150, 2151, 2153, 2154, 2157, 2158, 2159, 2161, 2162, 2163, 2164, 2165, 2166, 2167, 2168, 2169, 2170, 2173, 2174, 2175, 2176, 2177, 2178, 2179, 2180, 2181, 2182, 2183, 2184, 2185, 2191, 2192, 2194, 2195, 2196, 2197, 2198, 2200, 2201, 2202, 2203, 2205, 2206, 2207], "reason": "Physical continuation rows complete their English sentence in adjacent fragments. Rows 2200–2207 continue into the following source row."}
+  ],
+  "notes": "Reviewed original Japanese against the authored target with immediate preceding and following context. Only the repeated-subject grouping at rows 2201–2203 changes meaning; no cosmetic alternatives were recorded."
+}

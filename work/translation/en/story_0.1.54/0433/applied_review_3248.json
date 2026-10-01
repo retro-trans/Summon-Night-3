@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_3248.json",
+  "review_sha256": "d13e63ef6484e006272687d6d4204d7656180704d9e49e6faa1d26d09d375d03",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3248.targets.json",
+  "target_before_sha256": "1d0790b3d5a2bbfba587a4faec5e054d7a6b1cd15e8242ca41ba27d6bc5c892e",
+  "target_after_sha256": "a262da1deaea37ce07a973bec2b952e5cea86e88a04cfe0ff723342f9dcb8acf",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3248,
+      3327
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3300,
+      "before": "to the masters",
+      "after": "to the master",
+      "reason": "The one familiar is being sent back to its one beloved master; plural masters is unsupported."
+    },
+    {
+      "resource_row": 3326,
+      "before": "Please...",
+      "after": "Please let me come...",
+      "reason": "Restore explicit request to accompany, settled by3319–3325."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

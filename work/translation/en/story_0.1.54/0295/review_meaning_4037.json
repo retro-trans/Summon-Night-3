@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4037.targets.json",
+  "target_file_sha256": "e54efada314fb276b4582e80f8d5b6e16b00b7eaa3545b8c365f2de43496f1d0",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [4037, 4116],
+    "count": 80
+  },
+  "source_ranges_examined": [[3935, 4117]],
+  "rows_examined": 183,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [4090, 4091, 4092, 4093, 4094],
+      "issue": "The source leaves the collective subject implicit while criticizing the group. The target's collective wording fits the surrounding exchange, but the source does not identify an individual subject."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [4049, 4056, 4057, 4058, 4059, 4062, 4066, 4067, 4072, 4079, 4088, 4089, 4093, 4095, 4096, 4105, 4106, 4113],
+      "reason": "Standalone punctuation, speaker placeholders, laughter, pauses, and reactions are retained in English rather than silently omitted."
+    },
+    {
+      "rows": [4037, 4038, 4039, 4040, 4041, 4042, 4043, 4044, 4045, 4046, 4047, 4048, 4050, 4051, 4052, 4053, 4054, 4055, 4060, 4061, 4064, 4065, 4069, 4070, 4071, 4073, 4074, 4075, 4076, 4077, 4078, 4082, 4083, 4084, 4085, 4086, 4087, 4090, 4091, 4092, 4097, 4098, 4099, 4100, 4101, 4102, 4103, 4104, 4107, 4108, 4109, 4110, 4111, 4112, 4114, 4115, 4116],
+      "reason": "Physical continuation rows were reviewed as complete adjacent statements. The English retains each rhetorical question, accusation, and consequence across text boxes."
+    },
+    {
+      "rows": [4037, 4038, 4039, 4040, 4041, 4042, 4056, 4057, 4058, 4059],
+      "reason": "Route variants were checked in parallel and retain the separate protagonist forms without introducing unsupported gender."
+    }
+  ],
+  "notes": "Reviewed original rows 4037-4116 with surrounding rows 3935-4117, including route variants and row alignment. No meaning or alignment correction is required. This review does not accept the resource or authorize a build."
+}

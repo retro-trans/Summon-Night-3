@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00399",
+  "source_sha256": "062f76a5e9baae96fc0019e89d63966f63be6c6f64474ff68a97899d2b88feb9",
+  "target_file": "work/translation/en/story_0.1.54/0399/slice_0011.targets.json",
+  "target_file_sha256": "94d4b856da23fefad8e2f995e1973121347b61fa61d5f525d62b4bca65e5364b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      91
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [],
+  "uncertainties": [
+    "Row 105 renders source “things you do not know” as “things you have never heard of”; this slightly strengthens the phrasing but preserves the invitation’s meaning."
+  ],
+  "omissions": [],
+  "notes": "Independent source-first meaning review of all full VM boxes in this slice, including adjacent boundary context and route variants. No target edit or normalization was performed."
+}

@@ -1,0 +1,28 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0272/review_meaning_6037.json",
+  "review_sha256": "91a09857fb1304d12f89db9482fbb0cb6814632650391ecc9d0e62855c6aa343",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_6037.targets.json",
+  "target_before_sha256": "da65fd5eaf33ccf75d3f337e4c8ca589a4c570634784e4dc868545c6140075fe",
+  "target_after_sha256": "ae3710b85ca4018dcf7ae85dcb82349f8dae23dd77d2780598c49e0efbb9cb97",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6037,
+      6116
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6037,
+      "before": "that they have it.",
+      "after": "they have it.",
+      "reason": "This is the final row of the three-row source sentence. It duplicates the ending already present in the preceding target row."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

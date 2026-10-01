@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3888.targets.json",
+  "target_file_sha256": "b1204698c19d8d748142e465fd57134ee7726dc77da98119671bcc4c5e544ff5",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3888,
+      3967
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3886,
+      3968
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 3922,
+      "source_sha256": "9426cfe5e8618937c9ddf388a19eb6c02442f0fab238f9de21a5a80962b07178",
+      "text": "I never get serious. I watch things from a distance, and if there is nothing in it for me, I decide not to get involved.",
+      "reason": "The source is Ishlar’s stated method of living; the target changes it into an imperative addressed to others."
+    },
+    {
+      "resource_row": 3923,
+      "source_sha256": "b1b0ba9a8cb48d90ac2f709662182d62728457bef093502c1a77bce57b6a9b15",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 3924,
+      "source_sha256": "c26127b5939734d49d7323c2fd5ba074b7a881d46f45c82d7d0e26b541eaf192",
+      "text": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context; names are left for post-meaning normalization."
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4037.targets.json",
+  "target_file_sha256": "e54efada314fb276b4582e80f8d5b6e16b00b7eaa3545b8c365f2de43496f1d0",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4037,
+      4116
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3957,
+      5156
+    ]
+  ],
+  "rows_examined": 1200,
+  "dialogue_group_boundaries_verified": true,
+  "reviewer": "root: independent source and VM-group review",
+  "corrections": [
+    {
+      "resource_row": 4037,
+      "source_sha256": "7983152ed004afe4c5dd21a21727cdd7e9f52000377d238b98dbd9e64b3bdfe4",
+      "before": "I don't know what",
+      "text": "None of us knows",
+      "reason": "The source makes both the speaker and everyone else uncertain, rather than only the speaker."
+    },
+    {
+      "resource_row": 4038,
+      "source_sha256": "003c2e5474bf62b540d2937435eeb0b66f1bb7f570ec369bcda2f8a6a188e5e7",
+      "before": "I or anyone else",
+      "text": "what to do",
+      "reason": "The source makes both the speaker and everyone else uncertain, rather than only the speaker."
+    },
+    {
+      "resource_row": 4039,
+      "source_sha256": "230af9a95ecd9a4a5cf592c064c2a0b2effa682455d6246757a74f5be663a9db",
+      "before": "should do...",
+      "text": "anymore...",
+      "reason": "The source makes both the speaker and everyone else uncertain, rather than only the speaker."
+    },
+    {
+      "resource_row": 4040,
+      "source_sha256": "7983152ed004afe4c5dd21a21727cdd7e9f52000377d238b98dbd9e64b3bdfe4",
+      "before": "I don't know what",
+      "text": "None of us knows",
+      "reason": "Preserve the same collective uncertainty in the female route."
+    },
+    {
+      "resource_row": 4041,
+      "source_sha256": "d0045cee18efb78f0cf633c4c44b5ab7ddc8565c13b40ed4299da68f6e870e31",
+      "before": "any of us",
+      "text": "what to do",
+      "reason": "Preserve the same collective uncertainty in the female route."
+    },
+    {
+      "resource_row": 4042,
+      "source_sha256": "230af9a95ecd9a4a5cf592c064c2a0b2effa682455d6246757a74f5be663a9db",
+      "before": "should do...",
+      "text": "anymore...",
+      "reason": "Preserve the same collective uncertainty in the female route."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "reason": "Original pauses and explicitly interrupted utterances retained; continuous same-speaker clauses remain across separate source boxes where already faithful."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3648.targets.json",
+  "target_file_sha256": "f37bccc4cb418a29f37aba96105c19ae73fc7bae1c44f99bb757a5d5e79bacaa",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3648,
+      3727
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3403,
+      3809
+    ]
+  ],
+  "rows_examined": 407,
+  "corrections": [
+    {
+      "resource_row": 3727,
+      "source_sha256": "f747b1a182134bcb914bce61ec9f1ee24a6a8d7f45df736d26b6b47dc746fad1",
+      "text": "I'm glad you were my teacher...",
+      "reason": "Restore wholly empty original box3727–3728."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independent meaning review of full Japanese/English VM boxes; source read transiently. Box3486–3488 and3807–3809 checked across slice boundaries. No normalization performed."
+}

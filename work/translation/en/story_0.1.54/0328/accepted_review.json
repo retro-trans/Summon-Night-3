@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00328",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0328/slice_0011.targets.json": "361e8f3698b67379c872306b2069e587b29c24f0fb4d5e1b51e1c941d8987dba"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0328/review_meaning_0011.json": "de50023783719b26e7605a9ddc6077c0410d735d1b7501f57a421884b8576b48"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [
+    {
+      "review": "review_meaning_0011.json",
+      "rows": [
+        29,
+        30
+      ],
+      "note": "The subject is Yafha ('I'), who opposed the unnamed man's fighting as a Core Cognizance and ultimately yielded. The antecedent is not named, so 'him' remains unexpanded."
+    }
+  ],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness.",
+  "author_uncertainties": [
+    {
+      "target": "slice_0011.targets.json",
+      "rows": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "note": "The unnamed man is kept as him; Yafha's objection concerns that man's past decision to fight, rather than a confirmed personal name."
+    }
+  ]
+}

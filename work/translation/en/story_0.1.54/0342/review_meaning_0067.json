@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00342",
+  "source_sha256": "4db224bd830891f72ce4030e77872591399bf65d41ad9d0d43aa143c991a5e50",
+  "target_file": "work/translation/en/story_0.1.54/0342/slice_0067.targets.json",
+  "target_file_sha256": "4568fed4a549d5f77a81a037a5f58389961d126e8454b4dba74c1cbaf7003f31",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      67,
+      108
+    ],
+    "count": 42
+  },
+  "source_ranges_examined": [
+    [
+      11,
+      108
+    ]
+  ],
+  "rows_examined": 98,
+  "corrections": [
+    {
+      "resource_row": 67,
+      "source_sha256": "512e1640bc479f1442016411a3b76d8f9b9a918d9889be741241c6ec01ad39ac",
+      "text": "Whatever it is, the more you do it,",
+      "reason": "Restore the original VM box meaning and speaker, correcting shifted clauses or reversed action while retaining the entire source message."
+    },
+    {
+      "resource_row": 68,
+      "source_sha256": "0b2497f4d65032b9e9b175d35a98fd8dd425b9d5b7bbdeb7af34c0c9158fc853",
+      "text": "the more new things you discover.",
+      "reason": "Restore the original VM box meaning and speaker, correcting shifted clauses or reversed action while retaining the entire source message."
+    },
+    {
+      "resource_row": 69,
+      "source_sha256": "ab4b909b013090d2c22cd55d96ff5f9c9121feaa0e1b7587020d33d835689875",
+      "text": "Even things that seem like mere repetition",
+      "reason": "Restore the original VM box meaning and speaker, correcting shifted clauses or reversed action while retaining the entire source message."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently reviewed every complete Japanese source box and target in this companion resource. Legacy author metadata remains historical; this proof records the current complete meaning review. Apply spelling normalization afterward."
+}

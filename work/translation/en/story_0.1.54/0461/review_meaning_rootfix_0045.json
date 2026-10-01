@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00461",
+  "source_sha256": "f4cd828e178303931b3b545b269e471da5a50dd0b9665e8647bd5caab3efa8e3",
+  "target_file": "work/translation/en/story_0.1.54/0461/slice_0011.targets.json",
+  "target_file_sha256": "3134a701652f72ddae82f478d8f043669ab1ff131eb00e68739992a1f8a60f08",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      45,
+      46
+    ],
+    "count": 2
+  },
+  "source_ranges_examined": [
+    [
+      43,
+      53
+    ]
+  ],
+  "rows_examined": 11,
+  "corrections": [
+    {
+      "resource_row": 45,
+      "source_sha256": "318b2bb5c6a06c2b81e8b1b9156426c22b5f80104b06f6528038f8d02d6513f5",
+      "text": "I passed both the written exam and the combat practical with better scores than I expected...",
+      "reason": "Will reports his own results; the surrounding dialogue confirms Teacher's reply urges him to stay focused, so second-person wording reverses the speaker."
+    },
+    {
+      "resource_row": 46,
+      "source_sha256": "c12ac30fdf7dc0137815a6ba04cd197287902116ba2adc82d1c3191cf1c1ea54",
+      "text": "",
+      "reason": "Continuation of Will's first-row anchor in the same VM box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Supplemental root-directed review. Rows 122–123 were also checked: 'Same to you, Will!' preserves the reciprocal direction of こちらこそよろしく and needs no correction. Do not apply automatically. Root reread43-53 and current45-46; rebound after verified zero-correction formatting-only application receipt."
+}

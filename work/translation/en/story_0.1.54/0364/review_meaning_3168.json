@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_3168.targets.json",
+  "target_file_sha256": "19c0bdc647c8812961acd174f4ca29a1afbd7c9fe8eaebd047625a7af316478e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3168,
+      3247
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3166,
+      3249
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        3185,
+        3186,
+        3187,
+        3188,
+        3190,
+        3191,
+        3192,
+        3193,
+        3194,
+        3195,
+        3196,
+        3197,
+        3198,
+        3199,
+        3200,
+        3201,
+        3202,
+        3203,
+        3204,
+        3205,
+        3206,
+        3207,
+        3208,
+        3209,
+        3210,
+        3211,
+        3212,
+        3213,
+        3214
+      ],
+      "issue": "The target's speaker and gendered boy/girl branch references follow the source's explicit wording; no extra gender is inferred."
+    },
+    {
+      "rows": [
+        3233
+      ],
+      "issue": "▲ is a protected marker and is retained exactly; no identity is inferred."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        3171,
+        3174,
+        3182,
+        3183,
+        3184,
+        3189,
+        3200,
+        3215,
+        3216,
+        3217,
+        3218,
+        3219,
+        3222,
+        3223,
+        3224,
+        3225,
+        3238
+      ],
+      "reason": "Laughter, impact, surprise, creature-call, and reaction fragments retain their non-propositional source function."
+    },
+    {
+      "rows": [
+        3168,
+        3169,
+        3170,
+        3172,
+        3173,
+        3175,
+        3176,
+        3177,
+        3178,
+        3179,
+        3180,
+        3181,
+        3185,
+        3186,
+        3187,
+        3188,
+        3190,
+        3191,
+        3192,
+        3193,
+        3194,
+        3195,
+        3196,
+        3197,
+        3201,
+        3202,
+        3203,
+        3204,
+        3205,
+        3206,
+        3207,
+        3209,
+        3210,
+        3211,
+        3212,
+        3213,
+        3214,
+        3220,
+        3221,
+        3226,
+        3227,
+        3228,
+        3229,
+        3230,
+        3231,
+        3232,
+        3234,
+        3235,
+        3239,
+        3240,
+        3241,
+        3242,
+        3243,
+        3244,
+        3245,
+        3246,
+        3247
+      ],
+      "reason": "Physical continuation rows complete their English sentence in adjacent fragments. Rows 3247–3248 continue into the next slice."
+    }
+  ],
+  "notes": "Reassessed against wider scene context (rows 3060–3259). The companions collectively react to having allowed Teacher into the fight and resolve to stop it; the target's collective subjects preserve that settled direction. No meaning correction is required; wording differences were not recorded as cosmetic changes."
+}

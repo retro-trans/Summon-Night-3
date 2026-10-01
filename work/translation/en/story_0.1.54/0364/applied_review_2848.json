@@ -1,0 +1,69 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0364/review_meaning_2848.json",
+  "review_sha256": "06ca7cfa8a96e569435a1dec46e507602fbe2fb34b05a0305adb05a531faa40b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2848.targets.json",
+  "target_before_sha256": "d4a92c12866f4716d27b9409f95af7172e2c5ff464372ddfcce7ca734f3db803",
+  "target_after_sha256": "caa236ad016f0407d572dd8a7cd83877fb2d586cbd907f7fdb9b246341c50387",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2848,
+      2927
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2894,
+      "before": "I want to protect people with it.",
+      "after": "I want to protect",
+      "reason": "The source postpones the direct object into the following rows. Current wording supplies 'people,' which loses the actual object."
+    },
+    {
+      "resource_row": 2895,
+      "before": "As many people as possible,",
+      "after": "as many people's gentle",
+      "reason": "The source modifies smiles belonging to as many people as possible, rather than making people the direct object."
+    },
+    {
+      "resource_row": 2896,
+      "before": "with their gentle smiles...",
+      "after": "smiles as I can...",
+      "reason": "Completes the source's stated object and scope: protecting as many gentle smiles as possible."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2897,
+        2898,
+        2899,
+        2900,
+        2901,
+        2902,
+        2903,
+        2904,
+        2905,
+        2906,
+        2911,
+        2912,
+        2913,
+        2914,
+        2915,
+        2916,
+        2917,
+        2918,
+        2919,
+        2920,
+        2921,
+        2922,
+        2923,
+        2924,
+        2925,
+        2926,
+        2927
+      ],
+      "issue": "Teacher is player-selected. The target preserves the settled role without gender inference; the female branch explicitly identifies Ishlar as the person to stop."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

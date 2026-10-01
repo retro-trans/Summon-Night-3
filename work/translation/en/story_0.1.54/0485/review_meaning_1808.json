@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_1808.targets.json",
+  "target_file_sha256": "b31a4f696109fd5c7b79d33e742229eee4b3e1cc00a7416cdaa63ada75e6d4a5",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1808,
+      1887
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1806,
+      1888
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 1883,
+      "source_sha256": "5d87f3056f6bc9ff50b91f984c636839377be99d083fe5663040b3cfb316ec9e",
+      "text": "Boss Shion, Leonard, and Kazamine are traveling all over,",
+      "reason": "Source shopkeeper honorific is not a military captain rank; background confirms noodle-shop proprietor and shinobi."
+    }
+  ],
+  "name_normalization_requested": [
+    {
+      "rows": [
+        1871,
+        1877
+      ],
+      "from": "Realm Village",
+      "to": "Relm Village",
+      "reason": "Glossary spelling normalization only."
+    },
+    {
+      "rows": [
+        1883
+      ],
+      "from": "Shion",
+      "to": "Sion",
+      "reason": "Glossary spelling normalization only."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        1856,
+        1859
+      ],
+      "issue": "Parent-child reunion referents remain general in source. Do not introduce a specific biological relationship from names alone."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        1871,
+        1876,
+        1877,
+        1882
+      ],
+      "issue": "The investment and resettlement statement spans complete adjacent VM boxes; existing English preserves both clauses."
+    }
+  ],
+  "notes": "Independent source-first review of full VM groups and boundary context. No meaning correction found.",
+  "root_source_review": {
+    "reviewer": "root",
+    "source_ranges_examined": [
+      [
+        1806,
+        1891
+      ]
+    ],
+    "notes": "All complete VM groups read against source, including both boundaries; meaning corrections added before any application or name normalization."
+  }
+}

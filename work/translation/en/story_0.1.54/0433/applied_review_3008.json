@@ -1,0 +1,48 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_3008.json",
+  "review_sha256": "7f1bea4d0cbdd602cf46ffc3e0ea742321d34abceaa1fb2c92181fa8b3073c26",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3008.targets.json",
+  "target_before_sha256": "041de5cd118e14d9a06a5e3b547f861fe1533e6a7830bcbdf12bb6a666c64420",
+  "target_after_sha256": "831a1d9b60893dcecd662df9db87d650533d050ae9b1e15b1926ca75709cd182",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3008,
+      3087
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3012,
+      "before": "your will, then it would be better",
+      "after": "my will, then it would be better",
+      "reason": "Dielgo is asserting his own will; second-person address reverses the possessor."
+    },
+    {
+      "resource_row": 3055,
+      "before": "Why didn't you believe in us",
+      "after": "Why couldn't you keep believing in us",
+      "reason": "The reproach is failure to sustain trust, not belief withheld until a later time."
+    },
+    {
+      "resource_row": 3056,
+      "before": "until the very end...?",
+      "after": "to the very end...?",
+      "reason": "Keep the time span with the corrected predicate."
+    },
+    {
+      "resource_row": 3058,
+      "before": "Why didn't you believe in us",
+      "after": "Why couldn't you keep believing in us",
+      "reason": "Same female-protagonist reproach; preserve sustained-trust meaning."
+    },
+    {
+      "resource_row": 3059,
+      "before": "until the very end...?",
+      "after": "to the very end...?",
+      "reason": "Keep the time span with the corrected predicate."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

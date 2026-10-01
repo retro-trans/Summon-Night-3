@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_7237.targets.json",
+  "target_file_sha256": "0a75e6052cd7b9be30e7c2497bae9f58e96a75b340548aaa5331d71e9840c6e6",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      7237,
+      7316
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      7236,
+      7317
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 7237,
+      "source_sha256": "57c2d11ebe82d4b0f1ca1bbe6064f331295237d0e7b02753629bc5e1ead7851e",
+      "before": "You say Lady Misumi doesn't",
+      "text": "",
+      "after": "",
+      "reason": "Remove duplicated internal continuation; the entire source proposition is already at7236."
+    },
+    {
+      "resource_row": 7238,
+      "source_sha256": "956ee49d4ac20cc22d3f41d3f18a4e91a80aef028448bd4388c67c0e99648149",
+      "before": "understand how you feel,",
+      "text": "",
+      "after": "",
+      "reason": "Remove duplicated internal continuation; no source meaning omitted from the complete box."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied.",
+  "root_consolidation": "Root compared full VM groups and neighboring source; supplementary actor/addressee and duplication corrections retained."
+}

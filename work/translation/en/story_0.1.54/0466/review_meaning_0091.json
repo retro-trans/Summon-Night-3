@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00466",
+  "source_sha256": "901a1faf9df919044d53d28e4e40f5a36f141a0b168426010fc2645da955f5c2",
+  "target_file": "work/translation/en/story_0.1.54/0466/slice_0091.targets.json",
+  "target_file_sha256": "04c43e725e57abc7bd8c6c3e4ef8120aa23b1c43a6a696d31120e3feaa207095",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      141
+    ],
+    "count": 51
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      141
+    ]
+  ],
+  "rows_examined": 132,
+  "corrections": [
+    {
+      "resource_row": 136,
+      "source_sha256": "8967699465d3efb5f77ad9d19a0f7aec4776dde0d2d0f7c83e9f261864547971",
+      "text": "Let's keep taking care of each other, okay?",
+      "reason": "Restore the reciprocal request for the relationship to continue; “stay together” adds a promise not stated in the source."
+    },
+    {
+      "resource_row": 139,
+      "source_sha256": "c3fb58a14c34fa6932acd3f1a98955ab138d994e841fc4dc87537a5382cf1c1b",
+      "text": "Let's keep taking care of each other,",
+      "reason": "Restore the reciprocal request for the relationship to continue; “stay together” adds a promise not stated in the source."
+    },
+    {
+      "resource_row": 140,
+      "source_sha256": "c85057b3055235b857ceb6d9f1ee17f45e44b56c2d5639053c1dcebcb35b78ff",
+      "text": "okay?",
+      "reason": "Restore the reciprocal request for the relationship to continue; “stay together” adds a promise not stated in the source."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of the complete resource and actual VM dialogue groups. No whole dialogue box is blank and no meaning is moved across VM boxes."
+}

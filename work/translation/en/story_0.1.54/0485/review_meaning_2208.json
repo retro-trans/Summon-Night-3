@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "reviewer": "root independent of author ch18_b",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2208.targets.json",
+  "target_file_sha256": "f6928db0c4055427d364261eb5360f8e7a00713e3557219da0cb3ee3a9d233ea",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2208,
+      2287
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2206,
+      2290
+    ]
+  ],
+  "rows_examined": 85,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        2281
+      ],
+      "issue": "Source deliberately trails off before explicit suspicion in2283."
+    }
+  ],
+  "notes": "All source VM groups and both slice boundaries read. No name-only edits; name normalization pending after meaning review."
+}

@@ -1,0 +1,70 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_3168.json",
+  "review_sha256": "881c7ec6701a29f5958cff38d6d930e3f9d0066d93ec4357be6305e040b5d970",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3168.targets.json",
+  "target_before_sha256": "bedcb176a8e176f1fd64ec5f50e5aa271385b6ab49b6449a1c28733c29185a97",
+  "target_after_sha256": "2fa946e98e50f1bc6ae37677d6193fd4ffabe57458bd23c894f9f44f2eb6ab34",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3168,
+      3247
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3193,
+      "before": "If the Teachers were here, they might know something.",
+      "after": "If Teacher and the others were here, they might know something.",
+      "reason": "Associative plural means Teacher with companions, not multiple teachers;3210 onward consistently one Teacher."
+    },
+    {
+      "resource_row": 3196,
+      "before": "If the Teachers were here, they might know something.",
+      "after": "If Teacher and the others were here, they might know something.",
+      "reason": "Preserve one Teacher and companions."
+    },
+    {
+      "resource_row": 3199,
+      "before": "If the Teachers were here, they might know something.",
+      "after": "If Teacher and the others were here, they might know something.",
+      "reason": "Preserve one Teacher and companions."
+    },
+    {
+      "resource_row": 3202,
+      "before": "If the Teachers were here, they might have figured something out.",
+      "after": "If Teacher and the others were here, they might have figured something out.",
+      "reason": "Preserve one Teacher and companions."
+    },
+    {
+      "resource_row": 3205,
+      "before": "Teachers?",
+      "after": "Teacher?",
+      "reason": "Singular title in source follow-up question."
+    },
+    {
+      "resource_row": 3206,
+      "before": "Teachers?",
+      "after": "Teacher?",
+      "reason": "Singular title in source follow-up question."
+    },
+    {
+      "resource_row": 3241,
+      "before": "I swear on my liquor that these children aren't bad people! Nyahahaha! ♪",
+      "after": "I swear on my liquor that these children aren't bad people! Nyahahaha!",
+      "reason": "Remove duplicate note at anchor; original row3243 retains it."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        3193,
+        3196,
+        3199,
+        3202
+      ],
+      "issue": "Associative plural read as Teacher and companions from one-teacher exposition3210–3231. Teacher identity can vary by route; no gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

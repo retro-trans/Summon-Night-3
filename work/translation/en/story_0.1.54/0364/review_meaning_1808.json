@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_1808.targets.json",
+  "target_file_sha256": "46184a323aab613f83764e083c99567483ada5883aca975fecd5484e4eca7c35",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [1808, 1887], "count": 80},
+  "source_ranges_examined": [[1806, 1889]],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [
+    {"rows": [1823, 1824, 1825, 1826, 1857, 1858, 1864, 1865, 1869], "issue": "The player-selected protagonist is not gendered by the source. The authored first-person and singular-they wording preserves the settled role without assigning gender; no correction proposed."},
+    {"rows": [1837, 1838, 1839, 1873, 1874, 1875, 1876, 1877, 1878], "issue": "Qualified, Sealing Sword, and Crissles are established project terms in this scene. No spelling correction proposed."}
+  ],
+  "omissions": [
+    {"rows": [1808, 1811, 1812, 1815, 1831, 1832, 1844, 1845, 1846, 1847, 1848, 1849, 1850, 1851, 1852, 1872, 1882, 1883, 1884, 1885], "reason": "Breaths, cries, laughter, reactions, and silence. The authored English retains their nonverbal function."},
+    {"rows": [1824, 1826, 1827], "reason": "The protagonist's intended conclusion is deliberately left unfinished; the authored ellipses retain it."},
+    {"rows": [1809, 1810, 1813, 1814, 1816, 1817, 1818, 1819, 1820, 1821, 1823, 1824, 1825, 1826, 1828, 1829, 1834, 1835, 1837, 1838, 1839, 1840, 1841, 1842, 1847, 1848, 1849, 1850, 1854, 1855, 1856, 1857, 1858, 1859, 1861, 1862, 1863, 1864, 1865, 1866, 1867, 1868, 1869, 1870, 1871, 1873, 1874, 1875, 1876, 1877, 1878, 1879, 1880, 1881, 1886, 1887], "reason": "Physical continuation rows. The authored English joins adjacent source fragments while preserving the group-level arguments and nightmare dialogue."}
+  ],
+  "notes": "Reviewed original Japanese against the authored target with immediate preceding and following context. No meaning correction is required; wording differences were not recorded as cosmetic changes."
+}

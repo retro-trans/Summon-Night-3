@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00330",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0330/slice_0011.targets.json": "de58f11673fb9df0a1b4e17559e87ca6f66e2b7b70bbec5438756162e57f53be"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0330/review_meaning_0011.json": "6164be00cda092e2678c3b321644463ed2619494beddeb6a6ec56a728f6d2b2c"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [
+    {
+      "review": "review_meaning_0011.json",
+      "rows": [
+        26,
+        27
+      ],
+      "note": "The retreating antagonist laughs as a face-saving reaction. 'Laughing to save face' retains that defensive sense; it does not present genuine amusement."
+    }
+  ],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness.",
+  "author_uncertainties": [
+    {
+      "target": "slice_0011.targets.json",
+      "rows": [
+        26,
+        27
+      ],
+      "note": "The antagonist laughs to save face after retreating; translated as defensive laughter rather than genuine amusement."
+    }
+  ]
+}

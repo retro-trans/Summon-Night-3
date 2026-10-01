@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3568.targets.json",
+  "target_file_sha256": "5c15d71923d4e0db745720090494fafafa454e68243e74c7238271306f961e4e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3568,
+      3647
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3403,
+      3809
+    ]
+  ],
+  "rows_examined": 407,
+  "corrections": [
+    {
+      "resource_row": 3595,
+      "source_sha256": "5ae1a269e1220b201f69974aca6bb95042361dedbe9b70aa92b6e5015993c91c",
+      "text": "Yeah. You're at your best when you're smiling, Teacher!",
+      "reason": "Fix contradictory third/second-person English grammar."
+    },
+    {
+      "resource_row": 3613,
+      "source_sha256": "2fa5b90c11e5fb6ff6ac219ecf67aece92cd4edbaccbfcf51ef81df06223f0d1",
+      "text": "Well, it's about what I was told earlier...",
+      "reason": "Following route names Vizel as prior speaker."
+    },
+    {
+      "resource_row": 3633,
+      "source_sha256": "80d58d3dfca90089ac04e042c697d381af6d954096ec746d7adc1b697fde1173",
+      "text": "I told you before: trying to be clever doesn't suit someone like you, Teacher.",
+      "reason": "Retain source criticism of affected cleverness rather than intelligence itself."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independent meaning review of full Japanese/English VM boxes; source read transiently. Box3486–3488 and3807–3809 checked across slice boundaries. No normalization performed."
+}

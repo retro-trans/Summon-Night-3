@@ -1,0 +1,36 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_groups_7477.json",
+  "review_sha256": "9a337d28d0e905affd4ce2a3ee5c782178add75c10447747b617db81f0acdf3f",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7477.targets.json",
+  "target_before_sha256": "ccb03aa36218c86a5fda8f21ff7b28ec9a1408c4dfe671a1858362374a75031f",
+  "target_after_sha256": "def80982a5124fac33d21ada6631ded61aea8dc18b9ee7ab5bb4902f2850ab48",
+  "reviewed_rows": {
+    "range_inclusive": [
+      7477,
+      7556
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 7538,
+      "before": "Is that",
+      "after": "Is that wrong?",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    },
+    {
+      "resource_row": 7539,
+      "before": "all right?",
+      "after": "No...!",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    },
+    {
+      "resource_row": 7540,
+      "before": "No...",
+      "after": "Phlaiz...",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

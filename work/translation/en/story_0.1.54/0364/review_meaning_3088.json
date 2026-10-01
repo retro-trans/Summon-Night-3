@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_3088.targets.json",
+  "target_file_sha256": "4e844751aae4b8ea6f522fc8818606034283d7c35d380492422f101c6a29d196",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3088,
+      3167
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    3078,
+    3178
+  ],
+  "rows_examined": 101,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        3111
+      ],
+      "issue": "Dynamic marker ● is preserved without inferring its displayed name."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        3088,
+        3090,
+        3092,
+        3095,
+        3098,
+        3102,
+        3104,
+        3111,
+        3114,
+        3122,
+        3124,
+        3127,
+        3130,
+        3135,
+        3138,
+        3141,
+        3144,
+        3152,
+        3154,
+        3159,
+        3161,
+        3163,
+        3166
+      ],
+      "reason": "Continuation rows preserve complete sentence groups."
+    },
+    {
+      "rows": [
+        3094,
+        3101,
+        3106,
+        3107,
+        3108,
+        3110,
+        3113,
+        3116,
+        3117,
+        3118,
+        3119,
+        3120,
+        3121,
+        3134,
+        3147,
+        3148,
+        3151,
+        3156,
+        3157,
+        3158
+      ],
+      "reason": "Reactions and calls retain their source function."
+    }
+  ],
+  "notes": "Independent reviewer compared every assigned source and authored English row with neighboring context. No semantic corrections are needed. The joined phrase I held back. Next time, I will not accurately means the speaker will not hold back next time. No cosmetic rewrites are proposed."
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00347",
+  "source_sha256": "03b978ce37c5d9e28f734a904e742a572aa3658d488ab376d0a5c13cb0d37ab0",
+  "target_file": "work/translation/en/story_0.1.54/0347/slice_0011.targets.json",
+  "target_file_sha256": "1ce58e19a9090d652f3e5470ff8f39249d56b1a800f5cf5d4b00d0b2e8ea80d3",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [11, 90], "count": 80},
+  "source_ranges_examined": [[10, 91]],
+  "rows_examined": 82,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [{"rows": [12,14,16,19,21,23,25,28,31,33,35,37,39,41,43,45,47,49,51,55,57,59,61,63,66,68,71,74,79,85,87,90], "reason": "Physical VM continuation fragments; the target consolidates each complete dialogue box in its first fragment."}],
+  "notes": "Reviewed Japanese and current English in full VM-group context. Row 72's collective 'it' can refer to the preceding island life, and row 73 explicitly includes everyone here; no correction is warranted."
+}

@@ -1,0 +1,60 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_7077.json",
+  "review_sha256": "0817e9da263f440b1b9c26f9bd1f80d1bb5c591bcc4f363f6f8483dbfa10566d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7077.targets.json",
+  "target_before_sha256": "b26d2abd5120061a2609cca2eac2adde5b4d492ae1bc4b2057a5bc42cabfd892",
+  "target_after_sha256": "643b40eda999f7f88ed369a4394f835da55df04c425c66d44576879ea85df14b",
+  "reviewed_rows": {
+    "range_inclusive": [
+      7077,
+      7156
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 7084,
+      "before": "An earthquake!?",
+      "after": "E-earthquake!?",
+      "reason": "Restore the startled stammer."
+    },
+    {
+      "resource_row": 7088,
+      "before": "what happened on the ship,",
+      "after": "Isn't this exactly",
+      "reason": "This is a separate protagonist reaction, not a dependent continuation of the previous speaker."
+    },
+    {
+      "resource_row": 7089,
+      "before": "exactly the same!?",
+      "after": "what happened on the ship!?",
+      "reason": "This is a separate protagonist reaction, not a dependent continuation of the previous speaker."
+    },
+    {
+      "resource_row": 7090,
+      "before": "What happened on the ship,",
+      "after": "Isn't this exactly",
+      "reason": "This is a separate protagonist reaction, not a dependent continuation of the previous speaker."
+    },
+    {
+      "resource_row": 7091,
+      "before": "exactly the same!?",
+      "after": "what happened on the ship!?",
+      "reason": "This is a separate protagonist reaction, not a dependent continuation of the previous speaker."
+    },
+    {
+      "resource_row": 7117,
+      "before": "It is the color of blood...",
+      "after": "It's just like...",
+      "reason": "The source compares the light to blood; almost is not the meaning of the trailing comparison here."
+    },
+    {
+      "resource_row": 7118,
+      "before": "Almost...",
+      "after": "the color of blood...",
+      "reason": "The source compares the light to blood; almost is not the meaning of the trailing comparison here."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

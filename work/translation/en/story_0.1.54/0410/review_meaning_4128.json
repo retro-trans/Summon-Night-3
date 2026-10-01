@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4128.targets.json",
+  "target_file_sha256": "871bf4697d2aa83b86e6cbb2e78e83c0d2415f09a8fe02fc47d3e6d09361bcc7",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4128,
+      4207
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4125,
+      4210
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        4160
+      ],
+      "issue": "The standalone “...だよ” follows Ishlar’s laughter; its exact attachment is contextually ambiguous, but the existing “...is all.” preserves the unfinished delivery without a meaning change."
+    }
+  ],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context; names are left for post-meaning normalization."
+}

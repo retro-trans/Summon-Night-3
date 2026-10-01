@@ -1,0 +1,84 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_7237.json",
+  "review_sha256": "c8daad313be634f72efa9f69453737184fbe9d29437a7bab7d63cfa95c5c0ad6",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7237.targets.json",
+  "target_before_sha256": "115b27e425c78e66a17151c28190f192c786524ddab127d251634349225be583",
+  "target_after_sha256": "84687d80511365b570bcf25d0dcce1d0beca766fdcd28df03d3e0058b0110ebe",
+  "reviewed_rows": {
+    "range_inclusive": [
+      7237,
+      7316
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 7247,
+      "before": "I am the one who caused",
+      "after": "The one responsible",
+      "reason": "Preserve the setup separately from the following speaker confession."
+    },
+    {
+      "resource_row": 7248,
+      "before": "Lady Fariel to continue living",
+      "after": "for Lady Fariel remaining",
+      "reason": "Preserve the setup separately from the following speaker confession."
+    },
+    {
+      "resource_row": 7249,
+      "before": "as a ghost.",
+      "after": "here as a ghost...",
+      "reason": "Preserve the setup separately from the following speaker confession."
+    },
+    {
+      "resource_row": 7250,
+      "before": "me.",
+      "after": "is me.",
+      "reason": "Restore the confession rather than a repeated dangling object."
+    },
+    {
+      "resource_row": 7272,
+      "before": "Her body had been half lost to flame;",
+      "after": "...!",
+      "reason": "Restore the separate reaction; do not substitute the next speaker description of burns."
+    },
+    {
+      "resource_row": 7273,
+      "before": "there was nothing",
+      "after": "Her body had been half consumed",
+      "reason": "Return the burn description to its own group and preserve the inability to help."
+    },
+    {
+      "resource_row": 7274,
+      "before": "I could do...",
+      "after": "by flames, and there was",
+      "reason": "Return the burn description to its own group and preserve the inability to help."
+    },
+    {
+      "resource_row": 7275,
+      "before": "...",
+      "after": "nothing I could do...",
+      "reason": "Return the burn description to its own group and preserve the inability to help."
+    },
+    {
+      "resource_row": 7308,
+      "before": "I was able to fulfill",
+      "after": "After all, I was able",
+      "reason": "Remove the duplicated wish added after the sentence."
+    },
+    {
+      "resource_row": 7309,
+      "before": "her wish to survive.",
+      "after": "to fulfill",
+      "reason": "Remove the duplicated wish added after the sentence."
+    },
+    {
+      "resource_row": 7310,
+      "before": "that wish.",
+      "after": "her wish to survive.",
+      "reason": "Remove the duplicated wish added after the sentence."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

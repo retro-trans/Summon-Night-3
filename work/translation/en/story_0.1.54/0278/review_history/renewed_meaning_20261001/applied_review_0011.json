@@ -1,0 +1,47 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0278/review_meaning_0011.json",
+  "review_sha256": "2a076bb894c2ad7a5ebcf2acd18ff52fb9770e434d5b80682c12d259237e1c5a",
+  "target_file": "work/translation/en/story_0.1.54/0278/slice_0011.targets.json",
+  "target_before_sha256": "077469df946f3fb70a9e9953b04a967ff41cff9d705e8baea52b94269f822d73",
+  "target_after_sha256": "e24d49feaa5629fa2abf7e4828db9e93ca2ab1d43d1db526c269d232abf1ec4b",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      58
+    ],
+    "count": 48
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 32,
+      "before": "I cannot tell her the truth,",
+      "after": "I cannot tell them the truth,",
+      "reason": "The source does not identify the person the protagonists cannot tell. Full resource context does not settle gender, so the authored feminine pronoun over-resolves the reference."
+    },
+    {
+      "resource_row": 34,
+      "before": "I cannot tell her the truth,",
+      "after": "I cannot tell them the truth,",
+      "reason": "The paired protagonist branch has the same unresolved referent. Use neutral singular they rather than inferring a feminine pronoun."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        11,
+        12,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        25,
+        26,
+        27
+      ],
+      "issue": "The person who needs time to sort out their feelings is not named or gendered in this resource. The authored singular they and the decision to leave them alone preserve that unresolved reference; no correction proposed."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

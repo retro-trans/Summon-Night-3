@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "independent reviewer; draft author root",
+  "resource_id": "00:00465",
+  "source_sha256": "298b91e6735f79ef3929e2f20760ef6bcdaaf06592e0ff9fe208fc8bd94bc9aa",
+  "target_file": "work/translation/en/story_0.1.54/0465/slice_0011.targets.json",
+  "target_file_sha256": "debf2dbafb0ea311e48d758e56ceae8fa41e45a70a9eee1f76456947c50e5955",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      186
+    ]
+  ],
+  "rows_examined": 177,
+  "uncertainties": [
+    {
+      "issue": "Canonical short name is Fariel; root will apply scoped spelling script after meaning review. Original proposal retained in name_normalization_requested."
+    }
+  ],
+  "omissions": [],
+  "notes": "Compared every target against full actual VM source groups and resource context. Requested directions and actors checked; row 90 retains the complete 90–91 box anchor. Shipbuilding city retained as Chapter 18 provisional rendering. Proof proposes corrections only; no apply.",
+  "name_normalization_requested": [
+    {
+      "resource_row": 83,
+      "source_sha256": "af430d463e5d7650487ae22ce3c75ef314c263074b15666621fde47b6c9d0daf",
+      "before": "Would you like to come with me to the shipbuilding city to meet them, Faliel?",
+      "text": "Would you like to come with me to the shipbuilding city to meet them, Fariel?",
+      "after": "Would you like to come with me to the shipbuilding city to meet them, Fariel?",
+      "reason": "Corrects canonical Fariel Copse spelling; draft uses lookup alias Faliel."
+    },
+    {
+      "resource_row": 87,
+      "source_sha256": "af430d463e5d7650487ae22ce3c75ef314c263074b15666621fde47b6c9d0daf",
+      "before": "If you'd like, Faliel, let's go to the shipbuilding city to meet them together.",
+      "text": "If you'd like, Fariel, let's go to the shipbuilding city to meet them together.",
+      "after": "If you'd like, Fariel, let's go to the shipbuilding city to meet them together.",
+      "reason": "Corrects canonical Fariel Copse spelling; draft uses lookup alias Faliel."
+    }
+  ],
+  "corrections": []
+}

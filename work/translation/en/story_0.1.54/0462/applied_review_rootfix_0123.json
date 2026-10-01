@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0462/review_meaning_rootfix_0123.json",
+  "review_sha256": "4110506550d46319c5264de26fc4b708a5fead539790bfe1295610db29177167",
+  "target_file": "work/translation/en/story_0.1.54/0462/slice_0091.targets.json",
+  "target_before_sha256": "e73d47db20e11715514475c49b62eff95a3a36002336b82d13304b91ddc59207",
+  "target_after_sha256": "2c92d458458d2e1faaffd53f7f4a851815680b9f163ed04716af959c534c490a",
+  "reviewed_rows": {
+    "range_inclusive": [
+      123,
+      126
+    ],
+    "count": 4
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 123,
+      "before": "Kunon had their hands full",
+      "after": "Kunon had her hands full",
+      "reason": "Kunon is an established female character; retain the specific reference."
+    },
+    {
+      "resource_row": 124,
+      "before": "looking after all the men who drank themselves unconscious.",
+      "after": "looking after all the men who drank themselves unconscious.",
+      "reason": "Continuation of Kunon's sentence in the same VM box."
+    },
+    {
+      "resource_row": 125,
+      "before": "Should we go",
+      "after": "Should we go check on her later?",
+      "reason": "The source asks whether to check specifically on Kunon, not the men generically."
+    },
+    {
+      "resource_row": 126,
+      "before": "check on them later?",
+      "after": "",
+      "reason": "Continuation of the question's first-row anchor in the same VM box."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

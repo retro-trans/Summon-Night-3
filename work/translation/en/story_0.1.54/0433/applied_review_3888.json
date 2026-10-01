@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_3888.json",
+  "review_sha256": "cd0df69adc7f374cb0a2b0a108229bfafd7dffff897b171eb8b150a84c51a3e1",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3888.targets.json",
+  "target_before_sha256": "49dc23c9b5b1548b47a42a02811ac7ff6e9d36f993b0dac43c0ae2c3ade4cabe",
+  "target_after_sha256": "df2e64d59bd149d732378b636bc4e618de15aaaaa8aaa2483c14797bbf702b27",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3888,
+      3967
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3920,
+      "before": "Welcome back, and good work! ♪",
+      "after": "Welcome back, and good work!",
+      "reason": "Moves the musical marker back to its source row 3921; row 3920 has no source marker."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

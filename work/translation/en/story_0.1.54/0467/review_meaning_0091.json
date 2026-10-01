@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00467",
+  "source_sha256": "9de0d3ddea077b58a88417c53fd3a228b543e728441f0266fa5161d38eaafcbd",
+  "target_file": "work/translation/en/story_0.1.54/0467/slice_0091.targets.json",
+  "target_file_sha256": "9c88b6f903947a3812cb8112bf3a966414b57f3efd2062873f691426c6b1e9e8",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      166
+    ],
+    "count": 76
+  },
+  "source_ranges_examined": [
+    [
+      90,
+      166
+    ]
+  ],
+  "rows_examined": 77,
+  "corrections": [
+    {
+      "resource_row": 95,
+      "source_sha256": "d8234dcfb4ddf82421a34dd5f5b1ef8c92cf0327893a1e8751743bad92575393",
+      "text": "Did you see anything interesting?",
+      "reason": "Kyle is the speaker asking the protagonist; addressing Kyle here reverses the roles, as97and98confirm."
+    },
+    {
+      "resource_row": 96,
+      "source_sha256": "704542e42aeb507f3bed3cd5be7bf2aea2f43e43a31a5d45dccccebb84118cdd",
+      "text": "",
+      "reason": "Internal continuation of95, no separate source box."
+    },
+    {
+      "resource_row": 98,
+      "source_sha256": "196846b19ac18a5773fb488ec0302fd90e8657f0dcfc38a89c16a2841df1cc11",
+      "text": "Well, since I invited you, I was worried you might be bored.",
+      "reason": "Source interjection introduces the reason Kyle asks; it is not a denial of the protagonist mentioning his name."
+    },
+    {
+      "resource_row": 99,
+      "source_sha256": "be8181a536adcb0e4df14bbe92d8f040745afda556968422eeb9c0843a4b1883",
+      "text": "",
+      "reason": "Internal continuation of98."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        136,
+        137,
+        140,
+        141
+      ],
+      "issue": "Both alternate subject fragments are completed by142-143; same source grouping preserved."
+    },
+    {
+      "rows": [
+        152,
+        153
+      ],
+      "issue": "Statement deliberately leads into154-155."
+    }
+  ],
+  "notes": "Root independent comparison against complete source and VM boundaries, including context on both sides. No wholly blank boxes or cross-box shifts."
+}

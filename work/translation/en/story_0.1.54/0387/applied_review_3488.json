@@ -1,0 +1,53 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_3488.json",
+  "review_sha256": "41a2ef4ed19a789ac666fc783c78a4bc8d9ef9cf97b1c325e8cd0a0c5c7de065",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_3488.targets.json",
+  "target_before_sha256": "f0c9eec2f65458227090dc7e41b8aa4ad5b651e812f982bc8793134e0d3f488f",
+  "target_after_sha256": "18100189ab78c602437654ec977081a2cccf2399030687d7107cb6775538346e",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3488,
+      3567
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3491,
+      "before": "Well, it is about what you said earlier...",
+      "after": "Well, it's about what I was told earlier...",
+      "reason": "The following route variant names Vizel as the earlier speaker, not this listener."
+    },
+    {
+      "resource_row": 3503,
+      "before": "But you are probably not the only one who thinks that, are you?",
+      "after": "But aren't you probably the only one who thinks that?",
+      "reason": "Source says only Teacher thinks the action wrong; draft reversed the rhetorical negation."
+    },
+    {
+      "resource_row": 3548,
+      "before": "The first reason I decided to become a soldier was because I admired the young red-haired soldier who protected hostages even while wounded--the one in a story my dad told me.",
+      "after": "I first decided to become a soldier because of someone in a story Dad told me...",
+      "reason": "Restore split at original VM box; next box gives the admired soldier's details."
+    },
+    {
+      "resource_row": 3551,
+      "before": "",
+      "after": "I looked up to the young red-haired soldier who protected the hostages despite being wounded.",
+      "reason": "Restore this complete box, whose meaning had been moved into previous box3548."
+    },
+    {
+      "resource_row": 3563,
+      "before": "Because you found something you wanted to protect... I bet.",
+      "after": "It's because I found something I wanted to protect. I'm sure of it...",
+      "reason": "Nup answers why he kept fighting and wanted to be like Teacher; speaker I, not listener you."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "row": 3563,
+      "note": "Nup's protected thing/person stays broad; context fixes speaker but does not name the object."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

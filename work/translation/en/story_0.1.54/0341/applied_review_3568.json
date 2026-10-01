@@ -1,0 +1,34 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0341/review_meaning_3568.json",
+  "review_sha256": "8be37ed4d8c430c4a0ab764cb26367d61bdb03fb81ed05f5e7945ebe1c79f47f",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_3568.targets.json",
+  "target_before_sha256": "460dc7ea68dc5d5cfd93fbeed5dcdc34509f4b220b8719c4e38caabf9b46056a",
+  "target_after_sha256": "1c9eb9f0a4276658ef294c4f7fd9a1ad65082d25d1594791c5857387ced0af66",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3568,
+      3647
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3590,
+      "before": "Avenge my father and mother! Die!!",
+      "after": "You killed my father and mother... You'll pay for that!!",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    },
+    {
+      "resource_row": 3609,
+      "before": "What a greeting, \"Prince of Thorns.\"",
+      "after": "What a greeting, \"Lady of Thorns.\"",
+      "reason": "Root source review restores the actor/action direction or omitted meaning and removes duplicated narration; Lady of Thorns belongs to Hazel, a woman, rather than a male prince."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "note": "Lady of Thorns and Coral Viper are provisional English title renderings. Japanese titles and Hazel identity are corroborated by https://w.atwiki.jp/sn3psp/pages/21.html and https://w.atwiki.jp/aniwotawiki/pages/16123.html; no authoritative English title found."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

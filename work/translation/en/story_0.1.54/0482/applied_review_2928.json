@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_2928.json",
+  "review_sha256": "8c4b88230eef7c48a1603668d61d1493cb87b0d5400608c66268a90f6ef1b5ea",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2928.targets.json",
+  "target_before_sha256": "e17673bda9aa845af555cfa22f7f451801a1cf466a1e107c3a8d3b38a92b760a",
+  "target_after_sha256": "69c528d27437117d8637f0bdfead55fa23d37b424e7dd245ced1328b675b0e52",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2928,
+      3007
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2998,
+      "before": "...I'll draw it, okay?",
+      "after": "...will draw it, okay?",
+      "reason": "The preceding fragment already supplies the subject (I); repeating it breaks the continuous source sentence."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

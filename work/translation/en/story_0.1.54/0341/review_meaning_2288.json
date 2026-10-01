@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00341",
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_2288.targets.json",
+  "target_file_sha256": "006216793f52422005b067b14ce74272047936cb45436adce2007a2222f0d293",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2288,
+      2367
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1806,
+      2449
+    ]
+  ],
+  "rows_examined": 644,
+  "corrections": [
+    {
+      "resource_row": 2367,
+      "source_sha256": "70cbb34f5b5d74cf90ac1b295920c29826e3d0ff0b083a9e075b3c50628a1486",
+      "text": "You fought in that cramped train while protecting the hostages, right?",
+      "reason": "Restore source meaning to its own VM dialogue box, removing cross-box drift, duplicate continuation, or incorrect English referent."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independent source/English comparison in complete VM groups, including route variants and adjacent context. Root supplemental review confirms source meaning and restores misplaced or missing boxes where listed."
+}

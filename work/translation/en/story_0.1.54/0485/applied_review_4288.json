@@ -1,0 +1,28 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_4288.json",
+  "review_sha256": "a45bdb87c16bc9b1b23610ebd7caf9dcdbdf91bd05c91fd8a1da00801f46b691",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4288.targets.json",
+  "target_before_sha256": "5a86ad510ec44fbdf7631cec52101b8f66c30d23a9dd24fff6e2f4d32abc9498",
+  "target_after_sha256": "ef6227673c88fc8e1589e7849986a563db2bf4a9393db3a61cf3e5180038d7d3",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4288,
+      4367
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4356,
+      "before": "W-What is this... growing such an arrogant beard!",
+      "after": "W-What is this... You've grown a beard, looking so important!",
+      "reason": "The source mocks the bearded person acting important; the beard itself is not arrogant."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Unverified names, groups, and technical terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

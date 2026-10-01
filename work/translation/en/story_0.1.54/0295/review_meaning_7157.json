@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_7157.targets.json",
+  "target_file_sha256": "fbc545f1a1ed5d6be990dc1c73a6f2c9141679b4bf0e3b761a094d480d0de299",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      7157,
+      7236
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      7075,
+      7318
+    ]
+  ],
+  "rows_examined": 244,
+  "dialogue_group_boundaries_verified": true,
+  "reviewer": "root: independent source and VM-group review",
+  "corrections": [
+    {
+      "resource_row": 7165,
+      "source_sha256": "bcece45e2f4faa7c6c41c09dbd8cf16a1452ef10a11fba38a011d3e56e183ed3",
+      "before": "Having said that, Azlier",
+      "text": "Having said that,",
+      "reason": "Remove the duplicated departure added to fill a source fragment."
+    },
+    {
+      "resource_row": 7166,
+      "source_sha256": "44fc1cbbfc145468594ba0c434f59321f5b1ec92391402b2202f1f55216b66dd",
+      "before": "departed into the raging wind...",
+      "text": "Azlier departed",
+      "reason": "Remove the duplicated departure added to fill a source fragment."
+    },
+    {
+      "resource_row": 7167,
+      "source_sha256": "ca3380ed315ae4ec32cd59e4141a54ee37030e650224bcecc71ea616b947171d",
+      "before": "departed.",
+      "text": "into the raging wind...",
+      "reason": "Remove the duplicated departure added to fill a source fragment."
+    },
+    {
+      "resource_row": 7173,
+      "source_sha256": "bf905b90ab499caa5884dd26c715df22731393fccc1e2760e54d9840618fb893",
+      "before": "rain lashed sideways.",
+      "text": "rain lashed down sideways,",
+      "reason": "Keep the complete image within its original dialogue group."
+    },
+    {
+      "resource_row": 7174,
+      "source_sha256": "bfb42efc1c3a483d2e25c153a3ca9dcb227c6da6b4d246acab1618ff63936bb1",
+      "before": "It seemed to carve",
+      "text": "as if to carve the start of a new storm",
+      "reason": "Keep the complete image within its original dialogue group."
+    },
+    {
+      "resource_row": 7175,
+      "source_sha256": "18ed953b16252325621caa6cd7664695172ccfa183180a8f048457c9db785038",
+      "before": "the beginning of a new storm",
+      "text": "into my heart.",
+      "reason": "Keep the complete image within its original dialogue group."
+    },
+    {
+      "resource_row": 7176,
+      "source_sha256": "99561a050f4d85f67d278cd04c72c7151817685a1af6ba46acf8f876da9f594c",
+      "before": "into my heart.",
+      "text": "Staring blankly up at the sky,",
+      "reason": "Restore the complete narration in its own display group."
+    },
+    {
+      "resource_row": 7177,
+      "source_sha256": "f8db8c68ab0e2634cf52c6caa97bf4c9791da634c30771d444884d10fa7be823",
+      "before": "Staring blankly at the sky,",
+      "text": "I murmured,",
+      "reason": "Restore the complete narration in its own display group."
+    },
+    {
+      "resource_row": 7178,
+      "source_sha256": "14923068ce65f671b16e30dc6d54c9e409191a492befc96cc3dfe7ca0fc133b3",
+      "before": "I murmured:",
+      "text": "Even so, no rain lasts forever.",
+      "reason": "Keep both parallel statements together in the original group."
+    },
+    {
+      "resource_row": 7179,
+      "source_sha256": "7139a2e7084924c9200a534f86d8d52684e2f98494b0ab95a1cf5ae4a0b954c7",
+      "before": "There is no rain that never stops.",
+      "text": "No storm goes on without end.",
+      "reason": "Keep both parallel statements together in the original group."
+    },
+    {
+      "resource_row": 7180,
+      "source_sha256": "65584d234da3d03dbe3427b7632a445b6b222a75df71b07346352f12b41f4d27",
+      "before": "There is no storm that never ends...",
+      "text": "I wanted to believe that...",
+      "reason": "Restore the omitted wish rather than replacing it with the previous group ending."
+    },
+    {
+      "resource_row": 7196,
+      "source_sha256": "b0ad76821977bc89905fbd9ba8995cb0e738e894de89ced164990a0715a78840",
+      "before": "please come with me.",
+      "text": "Please come with me,",
+      "reason": "Keep the name as the address in this request and preserve its source-row control token."
+    },
+    {
+      "resource_row": 7197,
+      "source_sha256": "bb11020f81c39f6c756d13a9cc550355a2973b122147f2f3907084154bccd415",
+      "before": "●,",
+      "text": "●.",
+      "reason": "Keep the name as the address in this request and preserve its source-row control token."
+    },
+    {
+      "resource_row": 7200,
+      "source_sha256": "e6a0b3ed223548e3d23759c84545bce9662a4bac246af7f834cde3a4ee413ff7",
+      "before": "I must tell you.",
+      "text": "I absolutely must",
+      "reason": "Remove the duplicated you and preserve the complete request."
+    },
+    {
+      "resource_row": 7201,
+      "source_sha256": "4972fef39dbc39c361f4deed271a09910a291fca551d3bb211da73c78c0b1710",
+      "before": "you.",
+      "text": "tell you.",
+      "reason": "Remove the duplicated you and preserve the complete request."
+    },
+    {
+      "resource_row": 7203,
+      "source_sha256": "2c4bead225db3450280a4686af232d4b6870e95c135e5697032d52f3a5b656a8",
+      "before": "the Crystal Plateau. The mana that fills our domain",
+      "text": "This is the Crystal Plateau.",
+      "reason": "Remove extraneous them added after the complete statement."
+    },
+    {
+      "resource_row": 7204,
+      "source_sha256": "ca3f681db4db894a114e1770a66cf7f5a35851590a04287e885d033202af6320",
+      "before": "comes from these crystals.",
+      "text": "The mana that fills our domain",
+      "reason": "Remove extraneous them added after the complete statement."
+    },
+    {
+      "resource_row": 7205,
+      "source_sha256": "885264a62df2653e07cf071f335edded0df8add7dc0a6c28ddc2fcc002863ef4",
+      "before": "them.",
+      "text": "comes from these crystals.",
+      "reason": "Remove extraneous them added after the complete statement."
+    },
+    {
+      "resource_row": 7210,
+      "source_sha256": "c76351f098fa676b0290ca2df94a87f68abe0abd37485057f63c7cd92ad35376",
+      "before": "An open space is",
+      "text": "An open space",
+      "reason": "Restore the reason without a dangling after all after a full stop."
+    },
+    {
+      "resource_row": 7211,
+      "source_sha256": "d884bb450d535f6f70a5a999ec0a8d847c83bcd0d9e96df70e986ec07cb3b550",
+      "before": "convenient for many things.",
+      "text": "is more convenient",
+      "reason": "Restore the reason without a dangling after all after a full stop."
+    },
+    {
+      "resource_row": 7212,
+      "source_sha256": "1c70a61fe33ac50aa5883f989c642bce70df9408611f420acc9b3e9f9f9e6b56",
+      "before": "after all.",
+      "text": "for various reasons.",
+      "reason": "Restore the reason without a dangling after all after a full stop."
+    },
+    {
+      "resource_row": 7214,
+      "source_sha256": "0162bfd51258c6ccb57df80f255d0fd6b0e13688963dba74858ff198ec1c607d",
+      "before": "fighting you at full strength.",
+      "text": "fighting me at full strength.",
+      "reason": "The protagonist asks about Phlaiz fighting the protagonist; the source explicitly says me, not you."
+    },
+    {
+      "resource_row": 7216,
+      "source_sha256": "3cf9f2dce0f1b8906d443bb23af300d33ce34d19b2c53ae9f6c07c6f6ab0c526",
+      "before": "fighting you at full strength.",
+      "text": "fighting me at full strength.",
+      "reason": "The protagonist asks about Phlaiz fighting the protagonist; the source explicitly says me, not you."
+    },
+    {
+      "resource_row": 7231,
+      "source_sha256": "72382ff43b98f05f1b851432c736fbc6f2bd81c54e43de3650cbafb01d25656f",
+      "before": "will you oblige me?",
+      "text": "Would you",
+      "reason": "Remove the duplicated question mark used as a continuation fragment."
+    },
+    {
+      "resource_row": 7232,
+      "source_sha256": "99da81acf864a3836463ebde73c254feb9aa60483a18cd101b5ec4b124e478e0",
+      "before": "?",
+      "text": "oblige me?",
+      "reason": "Remove the duplicated question mark used as a continuation fragment."
+    },
+    {
+      "resource_row": 7235,
+      "source_sha256": "6defd56a5a66b6ca26aa124b56cbc4c194294c8dc115a801612d330b5a2b37dc",
+      "before": "why you are willing to go so far",
+      "text": "why you would go so far",
+      "reason": "Remove the duplicated Fariel at the display group end."
+    },
+    {
+      "resource_row": 7236,
+      "source_sha256": "8b669151494aa6f9f625c1c6eb871099be87df8b6a8df70b2a918724dec8cbe8",
+      "before": "to protect Fariel?",
+      "text": "to protect",
+      "reason": "Remove the duplicated Fariel at the display group end."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        7100,
+        7101,
+        7102,
+        7103,
+        7104,
+        7105,
+        7127,
+        7128,
+        7129,
+        7130
+      ],
+      "reason": "Source interruptions and same-speaker continuing narration remain; no named reaction is used as padding."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_4677.json",
+  "review_sha256": "67561c45d0a0190f25a9e54b60f8b3cb3dacc2a026acde9c4896b109e4d2ff90",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4677.targets.json",
+  "target_before_sha256": "cbdde4e619ec0e78cf41ba40505ed48e195c6d0ac02133c82e0644e2f11c8976",
+  "target_after_sha256": "2514604e7ff3125110586664688dd068b50564defe5905d4f86c5e414146943e",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4677,
+      4756
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4679,
+      "before": "H-How about one",
+      "after": "Now, would you and the others",
+      "reason": "The initial sa is an invitation, not a stammer; sensei-ra includes the teacher's companions."
+    },
+    {
+      "resource_row": 4680,
+      "before": "for you, Teacher?",
+      "after": "like a piece, Teacher?",
+      "reason": "Preserve the plural invitation in the same dialogue group."
+    },
+    {
+      "resource_row": 4707,
+      "before": "Did you not say the appearance was",
+      "after": "I said the appearance was the problem.",
+      "reason": "The protagonist refers back to their own warning, not a warning delivered by the chef."
+    },
+    {
+      "resource_row": 4708,
+      "before": "the problem? That lesson has not",
+      "after": "You haven't learned",
+      "reason": "Preserve the failure to learn from that warning."
+    },
+    {
+      "resource_row": 4709,
+      "before": "been applied at all, has it?",
+      "after": "anything from that, have you?",
+      "reason": "Complete the same question within its original group."
+    },
+    {
+      "resource_row": 4710,
+      "before": "You said the appearance was the problem,",
+      "after": "I said the appearance was the problem,",
+      "reason": "Restore the speaker of the earlier complaint in the parallel protagonist version."
+    },
+    {
+      "resource_row": 4741,
+      "before": "Their eyes are burning...",
+      "after": "Ohkini's eyes are blazing...",
+      "reason": "The immediately preceding resolve identifies Ohkini; explicit name avoids a misleading plural referent."
+    },
+    {
+      "resource_row": 4742,
+      "before": "Their eyes are burning...",
+      "after": "Ohkini's eyes are blazing...",
+      "reason": "Same identified referent in the alternate protagonist reaction."
+    },
+    {
+      "resource_row": 4744,
+      "before": "Their eyes are burning...",
+      "after": "Ohkini's eyes are blazing...",
+      "reason": "Same identified referent in the pupil's reaction."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

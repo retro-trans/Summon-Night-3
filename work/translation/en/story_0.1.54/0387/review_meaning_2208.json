@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_2208.targets.json",
+  "target_file_sha256": "38d4107e871d61d62ad8ae3e00ba6f12931775e5d980c08c67e65e7cf1c6a4d6",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2208,
+      2287
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2127,
+      2452
+    ]
+  ],
+  "rows_examined": 326,
+  "corrections": [
+    {
+      "resource_row": 2208,
+      "source_sha256": "896341b3ba4f2cf194dbe4f5b8310a1d4fee18331e0fe4c5a0ea02864ca87b35",
+      "text": "you were still",
+      "reason": "Direct address must agree with following werent you."
+    },
+    {
+      "resource_row": 2214,
+      "source_sha256": "6a863335075a3ceaddd0939c90ee4feb8361a1c45b9bee9cb59e813e069b672b",
+      "text": "It's the same with getting angry or crying.",
+      "reason": "Source compares emotional expressions, not people."
+    },
+    {
+      "resource_row": 2215,
+      "source_sha256": "300ea457adcc09c29bbde20adec2d04778b1446088e719f0bf19f5f973d1e23d",
+      "text": "",
+      "reason": "All meaning kept within2214–2216."
+    },
+    {
+      "resource_row": 2220,
+      "source_sha256": "bbee95aefdc323b52f0ac364927e2252ee3e3d75635396a9ab66150e57b3924b",
+      "text": "brings good fortune! ♪",
+      "reason": "Remove stray j before musical token."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independent source comparison of full VM boxes. Confirmed Yukres prayer addresses the great tree using glossary chapter15_terms_0.1.54. Cross-slice groups2127–2128,2207–2209,2447–2449 read in full. Normalization pending."
+}

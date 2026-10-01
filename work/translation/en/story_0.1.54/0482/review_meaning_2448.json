@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2448.targets.json",
+  "target_file_sha256": "9bb6f4bf8fb1f9ff66d14a108ebc3a47b0585f7c424cc6ca6b09def753f7593a",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2448,
+      2527
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2447,
+      2528
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 2503,
+      "source_sha256": "83c28c6f58042abb46e3fd4076800287e7f19e69466da48392df67ebf20b21c8",
+      "text": "Even for them, taking on the Colorless Faction head-on is far too reckless!",
+      "reason": "The protagonist speaks about the absent group, not directly to them."
+    },
+    {
+      "resource_row": 2506,
+      "source_sha256": "83c28c6f58042abb46e3fd4076800287e7f19e69466da48392df67ebf20b21c8",
+      "text": "Even for them, taking on the Colorless Faction head-on is far too reckless!",
+      "reason": "The alternate protagonist line also refers to the absent group, not the listener."
+    }
+  ],
+  "name_normalization_requested": [],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review; proposed corrections are meaning and actor/reference fixes only. No name normalization applied."
+}

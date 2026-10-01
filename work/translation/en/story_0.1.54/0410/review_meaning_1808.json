@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_1808.targets.json",
+  "target_file_sha256": "8d9e40a594274eb6a5e4c5bab73e60f5ba8163014afa0a21814606a5d18aa120",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1808,
+      1887
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1806,
+      1969
+    ]
+  ],
+  "rows_examined": 164,
+  "corrections": [
+    {
+      "resource_row": 1877,
+      "source_sha256": "bcde18ea6d6160a15d381bce79ad94911c0a2407548ea27f168bb73e2f6b0bca",
+      "text": "Could I ask you again to write a story for the reading-and-writing textbook?",
+      "reason": "The source asks the listener to supply another story; 'It's a story' leaves the request's object unstated. Following reply confirms the listener authors it."
+    },
+    {
+      "resource_row": 1880,
+      "source_sha256": "bcde18ea6d6160a15d381bce79ad94911c0a2407548ea27f168bb73e2f6b0bca",
+      "text": "Could I ask you again to write a story for the reading-and-writing textbook?",
+      "reason": "Parallel protagonist variant asks the listener to author another story."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        1811,
+        1812,
+        1813
+      ],
+      "issue": "Gometi is an unverified fictional-story name; Rebit is the established tribe spelling. Research found no authoritative English spelling. Keep provisional Gometi."
+    },
+    {
+      "rows": [
+        1808,
+        1809,
+        1810
+      ],
+      "issue": "Chur requires scripted normalization to the already established Chuur after meaning corrections."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independently compared source and English at full VM box boundaries, including both slice boundaries and protagonist/pupil alternatives. Name normalization follows meaning fixes."
+}

@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0274/review_meaning_0011.json",
+  "review_sha256": "332d636bcfeaa96f0202fb43398cd710495b0383e99ba35344d295155d9dab26",
+  "target_file": "work/translation/en/story_0.1.54/0274/slice_0011.targets.json",
+  "target_before_sha256": "05adad67ad69c362d8b6c5d7463fd5223e3bee10ed3e15fff4e37f99466ae943",
+  "target_after_sha256": "5f0b843dfd8feeff0ce92c1588116d77bc10a2c009d7ae5b36f1a09d1a5e5b66",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      52
+    ],
+    "count": 42
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 11,
+      "before": "Not taking lives, and not throwing them away...",
+      "after": "Taking lives, and throwing them away...",
+      "reason": "The source negates the teacher's acceptance of taking lives or throwing them away. The authored text instead negates the two actions, reversing the sense."
+    },
+    {
+      "resource_row": 13,
+      "before": "Not taking lives, and not throwing them away...",
+      "after": "Taking lives, and throwing them away...",
+      "reason": "The source repeats the prior statement as a paraphrase of the teacher's position. The authored text repeats the same reversed negation."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

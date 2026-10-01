@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00249",
+  "source_sha256": "e3c0ac50ec01fb9606a8cf187d24791b3e787ee38da5f8d48c733777bbb2cc6e",
+  "target_file": "work/translation/en/story_0.1.54/0249/slice_2833.targets.json",
+  "target_file_sha256": "63726ab62187be3027cf88f89732fd7dd851b72a277421b3de2f0263f7b0b7dd",
+  "semantic_complete": false,
+  "reviewed_rows": {
+    "range_inclusive": [2833, 2912],
+    "count": 80
+  },
+  "source_ranges_examined": [[2825, 2920]],
+  "rows_examined": 96,
+  "corrections": [
+    {
+      "resource_row": 2912,
+      "source_sha256": "082cc8a680629364a59b753422394c3ba3dda18e5d84249c07f30e489bb66ed8",
+      "text": "　The beach, I guess.",
+      "reason": "The source’s かな marks the choice as tentative. The authored target names the beach but drops that hedge."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [2870],
+      "issue": "Isuadora’s Warm Sea is a provisional romanization. The Japanese location is confirmed by https://w.atwiki.jp/sn3psp/pages/17.html; no established English form was located. No correction proposed."
+    },
+    {
+      "rows": [2905, 2906, 2907],
+      "issue": "自由行動 is a free-exploration/free-action instruction. ‘Split up and explore’ is a defensible contextual rendering, though it is more specific than a literal ‘free time.’ No correction proposed."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [2845, 2846, 2847, 2852, 2853, 2854, 2855, 2856, 2888],
+      "reason": "Reaction, chuckle, stammer, or exclamation with no recoverable propositional subject or verb. The authored English retains their function."
+    },
+    {
+      "rows": [2836, 2838, 2841, 2843, 2849, 2851, 2858, 2860, 2861, 2864, 2865, 2868, 2872, 2873, 2875, 2877, 2879, 2880, 2885, 2887, 2890, 2894, 2895, 2897, 2898, 2900, 2902, 2904, 2906, 2907],
+      "reason": "Physical continuation rows. The authored English joins each with its adjacent source fragment; no meaning is omitted."
+    }
+  ],
+  "notes": "Reviewed original Japanese against the authored target in grouped dialogue context. One meaning correction is required; otherwise wording differences were not recorded as cosmetic changes."
+}

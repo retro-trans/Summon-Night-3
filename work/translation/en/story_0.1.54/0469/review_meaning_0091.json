@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00469",
+  "source_sha256": "25c5ef166f8eb3910b8322c8809b767f0d47ce30d30dae622becd42b51449029",
+  "target_file": "work/translation/en/story_0.1.54/0469/slice_0091.targets.json",
+  "target_file_sha256": "20794f1ddedaa4e426c81594d7eb701df64c0c09dd1b3bb6dca3333f4ee9416d",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      166
+    ],
+    "count": 76
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      166
+    ]
+  ],
+  "rows_examined": 157,
+  "corrections": [
+    {
+      "resource_row": 155,
+      "source_sha256": "a716977f5ceebd7e35dcfb4a6bdef139094d7d3984574aac791f9cbd766e1939",
+      "text": "Wasn't that",
+      "reason": "Scarrel directly addresses Teacher in the source; retain the second-person addressee."
+    },
+    {
+      "resource_row": 156,
+      "source_sha256": "384ed35a30bac427d861cf81b54831691541946858d979fce3ac1e0b724d1154",
+      "text": "what you said, Teacher?",
+      "reason": "Scarrel directly addresses Teacher in the source; retain the second-person addressee."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups and both-side context. No whole dialogue box is blank; corrections retain their source-box meaning."
+}

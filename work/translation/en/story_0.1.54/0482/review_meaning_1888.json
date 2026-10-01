@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00482",
+  "source_sha256": "9b3472cb2611372b41820a3ff8beb30e0ef0224416c7ffd9be728e136e8aac50",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_1888.targets.json",
+  "target_file_sha256": "d634bc1d13257c70cd7bebc1656b83680737ed5239c09871e0cb75ff2a7cc60d",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1888,
+      1967
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1886,
+      1968
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 1888,
+      "source_sha256": "86cdd2454c56aad95d613c190ffabd24135ba6fa3086f0eb4a8a43cb9f7c9efa",
+      "text": "",
+      "reason": "This is the internal continuation of the VM box anchored at row 1886; the duplicate repeats that box's complete meaning."
+    },
+    {
+      "resource_row": 1965,
+      "source_sha256": "19843ba6dd2fe69da9ae43cf285420d436c5693533f29795563a28b04bf69411",
+      "text": "You've been asleep all this time and wouldn't wake up at all.",
+      "reason": "The speaker addresses the protagonist directly; the source calls them Teacher rather than referring to an unspecified third person."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups, including the waking-scene context at rows 1953–1968. Proper names deferred to normalizer."
+}

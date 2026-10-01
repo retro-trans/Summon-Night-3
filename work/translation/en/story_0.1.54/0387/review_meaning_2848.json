@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00387",
+  "source_sha256": "913d3b8d5748bee8c5e63a4160668a11cdeff22c371060a53dcc867441931edf",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_2848.targets.json",
+  "target_file_sha256": "21e2a576f38d8a1fb7d5670b607d89b95a501d15d5f01b12f5226a83289c991a",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2848,
+      2927
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2687,
+      3010
+    ]
+  ],
+  "rows_examined": 324,
+  "corrections": [
+    {
+      "resource_row": 2885,
+      "source_sha256": "3503ca9376ec9e787235ed014e98e8b8f03e6225e4d09692692a44ce91fbf321",
+      "text": "its wielder's will... the strongest weapon...",
+      "reason": "Will belongs to the wielder, as2876 states."
+    },
+    {
+      "resource_row": 2925,
+      "source_sha256": "7de8b5835d43959b4227367639bc4794126455237b9e421e0b367ff87c2f623a",
+      "text": "He's right.",
+      "reason": "Both protagonist branches refer to male Vizel."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently read full Japanese/English VM boxes2687–3010. Confirmed request direction and branch gender; corrected sword/wielder referents. Name normalization pending."
+}

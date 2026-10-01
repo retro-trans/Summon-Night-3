@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4448.targets.json",
+  "target_file_sha256": "d79e2d965007cf6fd41f233a247484a7a15b974ace8ebd8c8a3936c2a5c48bb6",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4448,
+      4527
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4446,
+      4528
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 4452,
+      "source_sha256": "71dacdee501bd2c9ed59650738e517565ea307b71fbc4e74cb0ab96214b984ff",
+      "text": "You understand, Ishlar? You understand what I mean now, don't you?",
+      "reason": "Restores the speaking character’s explicit intended meaning; the draft made the statement impersonal."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        4453,
+        4454,
+        4456,
+        4457,
+        4459,
+        4461,
+        4462,
+        4464,
+        4465,
+        4467,
+        4468,
+        4470,
+        4471,
+        4473,
+        4474,
+        4476,
+        4477,
+        4479,
+        4480,
+        4482,
+        4483,
+        4485,
+        4486,
+        4488,
+        4491,
+        4493,
+        4494,
+        4496,
+        4497,
+        4501,
+        4502,
+        4504,
+        4505,
+        4507,
+        4508,
+        4513,
+        4515,
+        4517,
+        4522,
+        4523,
+        4525,
+        4526
+      ],
+      "reason": "Physical VM continuation fragments or an agreed boundary continuation; the complete source-box meaning is retained in its non-empty aligned fragment."
+    }
+  ],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context. Target files were not edited by this review."
+}

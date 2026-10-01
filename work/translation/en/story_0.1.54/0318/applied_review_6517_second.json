@@ -1,0 +1,66 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_6517_second.json",
+  "review_sha256": "9ec001fbc46373c57af2d1c3334bef23edf215e0e425841b5900190aa81fe1f3",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6517.targets.json",
+  "target_before_sha256": "075bcbc67c073750b16bfba8a03b43aa64bd72dd4c71f8ccb1869d4d099a62c1",
+  "target_after_sha256": "d4b49cb480a2f459d60db6e010215bf5ac825a3f8ddfd431bbc0f33299da7d3d",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6517,
+      6596
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6559,
+      "before": "",
+      "after": "...",
+      "reason": "Restore the complete silent ellipsis box."
+    },
+    {
+      "resource_row": 6572,
+      "before": "",
+      "after": "...",
+      "reason": "Restore the complete silent ellipsis box."
+    },
+    {
+      "resource_row": 6526,
+      "before": "Though my body was wounded,",
+      "after": "She was still wounded,",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6527,
+      "before": "I did not even blink,",
+      "after": "yet didn't even blink.",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6528,
+      "before": "beside her as she watched",
+      "after": "I stood beside her as she",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6529,
+      "before": "her subordinates' final moments in silence...",
+      "after": "bade her subordinates a final farewell...",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6556,
+      "before": "Alongside her, as she silently",
+      "after": "The sight of her silently",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6557,
+      "before": "saw off her subordinates...",
+      "after": "seeing off her subordinates told me so, too...",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

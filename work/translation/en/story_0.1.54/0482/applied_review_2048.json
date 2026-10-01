@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_2048.json",
+  "review_sha256": "8ec0c8fc746ed29b81e2883acbffd537a6b3eaaca40e6d4f47a2941ad60629da",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2048.targets.json",
+  "target_before_sha256": "21356851e633632379d07cffcee3e3c850cb368e68fb2a1bf578f5e8f20960ad",
+  "target_after_sha256": "5b6aec1db1161b40f3c79a7c3bb5022d94dd3c93c7d9e2b6d46a4ac6c1b4a3f4",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2048,
+      2127
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2048,
+      "before": "What came into me through the sword's will was overwhelming hatred.",
+      "after": "",
+      "reason": "This is an internal continuation of the VM box anchored at row 2047; the target duplicates the box’s complete meaning."
+    },
+    {
+      "resource_row": 2074,
+      "before": "That? No matter what, no one could...",
+      "after": "That's impossible! No one could ever...",
+      "reason": "The source rejects the possibility of enduring all that suffering; the prior wording drops the impossibility and leaves the opening unintelligible."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

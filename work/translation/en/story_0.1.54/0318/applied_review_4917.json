@@ -1,0 +1,47 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_4917.json",
+  "review_sha256": "328a6e25ed7d9b78f96d82f1da0fca6de557b86ad3f21b3b07b10241f685075f",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4917.targets.json",
+  "target_before_sha256": "030da46a9293b70f5532837c106191a01bb175dd4e4b3a3f8917d057cccc9f2a",
+  "target_after_sha256": "fb2dda4a677418505dae89963bd490c5079c79154812badcf56cd85a9417d794",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4917,
+      4996
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4918,
+      "before": "Please count on me.",
+      "after": "I'm counting on you.",
+      "reason": "The speaker requests the listener's attendance; 'count on me' reversed who asks whom."
+    },
+    {
+      "resource_row": 4941,
+      "before": "these youngsters.",
+      "after": "this youngster.",
+      "reason": "The source refers to the single protagonist, not multiple children."
+    },
+    {
+      "resource_row": 4944,
+      "before": "as a Teacher...",
+      "after": "as a teacher...",
+      "reason": "Common-noun usage follows the user's terminology preference."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        4979,
+        4980,
+        4981,
+        4982,
+        4983
+      ],
+      "note": "The images and reverent exclamations deliberately continue the preceding description across separate boxes; no unspoken content invented."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

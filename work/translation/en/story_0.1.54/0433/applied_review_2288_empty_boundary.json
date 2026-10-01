@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_2288_empty_boundary.json",
+  "review_sha256": "45988443a416d2e5f3214dd7d5d2b16f54765b91e97dbaca626dc24de43bb213",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_2288.targets.json",
+  "target_before_sha256": "2909c0aded256ffb39b2ed32936b2887feb3f5dcb43eb042d7832e48c5ecbd7b",
+  "target_after_sha256": "dae21d75244ee3fe2e30dba4a8bdd7e0dddaa37928bee36eafe19c15e4f1198a",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2366,
+      2367
+    ],
+    "count": 2
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2366,
+      "before": "Honestly, I don't want to ride a boat covered in your grubby handprints, so make sure it doesn't come to that.",
+      "after": "Honestly, I don't want to ride a boat covered in your grubby handprints.",
+      "reason": "Remove the next VM box's meaning from the preceding box; 2369–2370 are a separate utterance."
+    },
+    {
+      "resource_row": 2367,
+      "before": "",
+      "after": "",
+      "reason": "Continuation cleared so row 2366 contains only its own VM box."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

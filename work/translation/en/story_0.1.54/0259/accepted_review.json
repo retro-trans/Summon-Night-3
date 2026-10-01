@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00259",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0259/slice_0011.targets.json": "6b3270705b75e060df5675600e4c41c3779fd882dac9f33a267343ac76fccbc8"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0259/review_meaning_0011.json": "24974e6c15af3cc300c7851bbedb2fc50531dbfd62a2510f1aa42b7db5301397"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [
+    {
+      "review": "review_meaning_0011.json",
+      "rows": [
+        47,
+        48,
+        49
+      ],
+      "issue": "The final limited-time concern remains broad in the source; the target does not invent a deadline or object."
+    }
+  ],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness."
+}

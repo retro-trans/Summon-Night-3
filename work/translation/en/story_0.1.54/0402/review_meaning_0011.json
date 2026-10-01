@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00402",
+  "source_sha256": "83acdd0216b83c5131df0bc4a51751c5cbc3beac831d0ba26eef02dc1debb6a1",
+  "target_file": "work/translation/en/story_0.1.54/0402/slice_0011.targets.json",
+  "target_file_sha256": "828ffd2fac49c8ea7670f83c851a4405969e5b20368acc17e195ef59e68c4f4e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      144
+    ]
+  ],
+  "rows_examined": 135,
+  "corrections": [
+    {
+      "resource_row": 12,
+      "source_sha256": "0e88faa803837ddabc09359c6591e87e5196b7f28f7989c88549aafd2609078a",
+      "text": "",
+      "reason": "Remove text belonging to following displayed box."
+    },
+    {
+      "resource_row": 13,
+      "source_sha256": "84dc4e534c53625147a92aeb73bae4a9a34a30276cb105098d3d14225abc7ca2",
+      "text": "Seeing you makes me understand why. Your complexion is much healthier",
+      "reason": "Restore first sentence to its own original box, before existing row14 continuation."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Root independently compared every full source/English VM box and both protagonist variants. Correct cross-box drift at12–13 and duplicate address at143–144 before normalization."
+}

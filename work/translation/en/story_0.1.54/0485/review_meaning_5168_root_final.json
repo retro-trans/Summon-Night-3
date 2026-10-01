@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "root source consolidation after independent agent review",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_5168.targets.json",
+  "target_file_sha256": "9a1b488e1339ee712e4ae6db1f53d67936bccca6bb774642b912bc788df9cec1",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5168,
+      5247
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5165,
+      5250
+    ]
+  ],
+  "rows_examined": 86,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "resource_row": 5225,
+      "issue": "Casra and Dielgo relationship must be retained; current name spellings and Primal Sin category await glossary reconciliation."
+    }
+  ],
+  "omissions": [],
+  "notes": "Full source VM groups read through EOF5825, including cross-slice groups. Original controls and physical music rows retained. Name-only changes deferred to scripted glossary normalization."
+}

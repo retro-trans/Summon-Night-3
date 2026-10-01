@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "scope": "Proposed post-meaning glossary normalization only. This file does not alter accepted_review.json, compiler reports, target drafts, or historical receipts.",
+  "resource_id": "00:00341",
+  "target_file": "work/translation/en/story_0.1.54/0341/slice_3088.targets.json",
+  "target_file_sha256": "6b50d6ccd6208331a7274d58cc74814bcf5907faf38f1b476b4d40c5ce40ae30",
+  "source_sha256": "c6489c7682d6287e6eb91e986f39aac776240929ef939683957acf3eeb50b995",
+  "normalization_by_resource": {
+    "341": [
+      {
+        "resource_row": 3127,
+        "source_sha256": "05ea6606e40358586810769fc59c8ef2d07428febf435b0f9dfd3798d731f4e9",
+        "replacements": [
+          {
+            "from": "Lord Misumi",
+            "to": "Lady Misumi"
+          }
+        ]
+      }
+    ]
+  },
+  "required_order": [
+    "Preserve accepted_review.json and existing name_normalization.json as historical hash-bound records.",
+    "Apply this only as a new source-bound normalization stage after meaning acceptance.",
+    "Recompile resource341 in memory and bind a new report to the resulting target hash."
+  ],
+  "evidence": [
+    "Current supplemental meaning proof 0341/review_meaning_3088_supplemental.json.",
+    "Current glossary context identifies Misumi as Subaru’s mother; resource485 rows3817/3844 corroborate Lady Misumi and her husband relationship."
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2368.targets.json",
+  "target_file_sha256": "f3b4249adfcda82b0bffc215da8a83537dcb709c0e71a621e260caf6d5665f0a",
+  "semantic_complete": false,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2368,
+      2447
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2366,
+      2449
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [
+    {
+      "resource_row": 2383,
+      "source_sha256": "a58367976ecf0c19b01b5f5c3afbd3c761e9c4f691c9a2addf5ddb699fe0bcd8",
+      "text": "Unless it reflects the light of ●,",
+      "reason": "The protected marker names the sun in the source. Current wording makes it appositional with 'the sun's light,' which instead treats the marker as the light."
+    },
+    {
+      "resource_row": 2384,
+      "source_sha256": "8daf56c858a5f47eb6d528ffb5d6131bd76a3285b77900a5d33adf3bdc5f212c",
+      "text": "the sun,",
+      "reason": "Explicitly completes the source metaphor: ● is the sun whose light she must reflect."
+    },
+    {
+      "resource_row": 2385,
+      "source_sha256": "381072f7f636ca6faf28ce9aa6e9c0ce75785b580fea6531a2c8b40856cc4cbf",
+      "text": "it cannot shine.",
+      "reason": "Finishes the source's negative result: without reflecting the sun's light, she cannot shine."
+    },
+    {
+      "resource_row": 2414,
+      "source_sha256": "69d77bae1ad222a9066ca3fea1af9826166906a4d975eaf8fba6ce1624f7e4d6",
+      "text": "No, they haven't",
+      "reason": "The source negates Teacher coming to the speaker's place; it does not establish that Teacher intended to see the speaker."
+    },
+    {
+      "resource_row": 2415,
+      "source_sha256": "7a37e6ce9457451787655cc8bea03d01b18ab47dde131032ee90ba7249819402",
+      "text": "come by here.",
+      "reason": "Restores the locational meaning without adding the unsupported purpose 'to see me.'"
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2383,
+        2384,
+        2385
+      ],
+      "issue": "● is a protected player marker. The source explicitly calls ● the sun, rather than sunlight; the correction keeps ● as the sun and the reflected object as its light without supplying an identity."
+    },
+    {
+      "rows": [
+        2386,
+        2387,
+        2388,
+        2397,
+        2398,
+        2399,
+        2400,
+        2401,
+        2402,
+        2404,
+        2405,
+        2406,
+        2407,
+        2414,
+        2415,
+        2435,
+        2436,
+        2437,
+        2438,
+        2439,
+        2443,
+        2444,
+        2445
+      ],
+      "issue": "Teacher is player-selected. Singular-they language preserves the established referent without gender inference."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        2368,
+        2374,
+        2375,
+        2378,
+        2379,
+        2392,
+        2403,
+        2413,
+        2416,
+        2417,
+        2418,
+        2419,
+        2423,
+        2425,
+        2426,
+        2429,
+        2430,
+        2431,
+        2433,
+        2434,
+        2440,
+        2446
+      ],
+      "reason": "Hesitation, reaction, acknowledgment, and emotional fragments retain their non-propositional source function."
+    },
+    {
+      "rows": [
+        2369,
+        2370,
+        2371,
+        2372,
+        2373,
+        2376,
+        2377,
+        2380,
+        2381,
+        2382,
+        2383,
+        2384,
+        2385,
+        2386,
+        2387,
+        2388,
+        2389,
+        2390,
+        2391,
+        2393,
+        2394,
+        2395,
+        2396,
+        2397,
+        2398,
+        2399,
+        2400,
+        2401,
+        2402,
+        2405,
+        2406,
+        2407,
+        2408,
+        2409,
+        2410,
+        2411,
+        2412,
+        2414,
+        2415,
+        2420,
+        2421,
+        2422,
+        2425,
+        2426,
+        2427,
+        2428,
+        2429,
+        2430,
+        2431,
+        2435,
+        2436,
+        2437,
+        2438,
+        2439,
+        2441,
+        2442,
+        2443,
+        2444,
+        2445,
+        2447
+      ],
+      "reason": "Physical continuation rows complete their English sentence in adjacent fragments. The question at row 2447 continues into the following source row."
+    }
+  ],
+  "notes": "Structural review only; full Japanese-versus-English semantic comparison remains pending. No semantic approval is claimed."
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00460",
+  "source_sha256": "b467d9813fbb31fea3e68b23e839b451bef2d9f0e6522dd33187d7f3dcea0b73",
+  "target_file": "work/translation/en/story_0.1.54/0460/slice_0011.targets.json",
+  "target_file_sha256": "3b106f39364684e44d7804a63f6fc73e9883c1608bb650b856a7e8bbd4f90265",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      162
+    ]
+  ],
+  "rows_examined": 153,
+  "corrections": [
+    {
+      "resource_row": 17,
+      "source_sha256": "f4ad9973a3f43253af73506ac8f5492a53ab257caef9453c39ef6f10566c3bfb",
+      "text": "But if we don't split them exactly in half, won't people start fighting?",
+      "reason": "Preserve pupil's literal division misconception."
+    },
+    {
+      "resource_row": 18,
+      "source_sha256": "1f2e08aa55a9568dfb49819be7e0cba823982fa022c2da957c49c8e5b7ea2506",
+      "text": "",
+      "reason": "Preserve pupil's literal division misconception."
+    },
+    {
+      "resource_row": 19,
+      "source_sha256": "dce553e9cc8375e823e3be5aee9f98becd9e6ac327a20daf235b81fdcff42f1e",
+      "text": "",
+      "reason": "Preserve pupil's literal division misconception."
+    },
+    {
+      "resource_row": 46,
+      "source_sha256": "c0837a52426d3f0d4bdea45516d2c6089f82d6cb38400dcf63a93c0f6d5bfdfb",
+      "text": "Sure, Teacher Alieze. Please help me.",
+      "reason": "Restore request for help settled by preceding calculation question."
+    },
+    {
+      "resource_row": 47,
+      "source_sha256": "5b79cddbe82e4a8bed40c068ba1a4dbfbb014333f1d973308f3dd8f833721531",
+      "text": "",
+      "reason": "Restore request for help settled by preceding calculation question."
+    },
+    {
+      "resource_row": 75,
+      "source_sha256": "eeb6bd3d648f545ffd1bd5aa9ec5a250db55d09212b3229f44bd4f7698f53e34",
+      "text": "It was just as Principal Genji said...",
+      "reason": "Source confirms experience matched Genji's words, not only that he said similar words."
+    },
+    {
+      "resource_row": 76,
+      "source_sha256": "42b3280429e1dbe8427cd38b81dea0409c867b4688392503283f220889e94130",
+      "text": "",
+      "reason": "Source confirms experience matched Genji's words, not only that he said similar words."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Dalima contents are not identified botanically; neutral pieces avoids inventing seeds. Fictional fruit spelling is already established in glossary."
+    }
+  ],
+  "omissions": [
+    {
+      "issue": "Several adjacent boxes form one deliberately unfinished sentence about memories, father repayment, and the final request; each retains its own clause. No missing whole dialogue box."
+    }
+  ],
+  "notes": "Independent root source-first review of the complete resource and actual VM groups. Legacy slice sizes retained as historical author metadata, fully reviewed here. Cross-slice group corrections are separately bound to the files that own their rows. Proper names and common-noun teacher case normalize afterward."
+}

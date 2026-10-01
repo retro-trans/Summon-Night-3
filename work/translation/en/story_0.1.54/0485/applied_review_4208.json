@@ -1,0 +1,40 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_4208.json",
+  "review_sha256": "593967d63592d7c57108632a72ebe9d0439ec9562858160538933e72fa5dabd5",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_4208.targets.json",
+  "target_before_sha256": "5d51277be4036f69521d1ff8162df105338fdd4e5ff2ac2b60e266421ea6d41c",
+  "target_after_sha256": "09a67cd85310fc64e1ba5ac6865a00d61816656c2f41dda0a64725ae8f203f65",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4208,
+      4287
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4211,
+      "before": "Even if I remain without the power to work miracles,",
+      "after": "Even if I were to lose the power to work miracles,",
+      "reason": "Hypothetical future loss, not remaining powerless; prior source4188 explicitly denies loss."
+    },
+    {
+      "resource_row": 4255,
+      "before": "I have not heard an angel scream in a long time...",
+      "after": "I would like to hear an angel scream again after all this time...",
+      "reason": "Restores the speaker's explicit desire/threat, not just elapsed time."
+    },
+    {
+      "resource_row": 4259,
+      "before": "I cannot hear you.",
+      "after": "I'm not listening to you.",
+      "reason": "Refusal to obey the stop command, not inability to hear."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Unverified names, groups, and technical terms are retained as authored; no identity or gender inferred from spelling."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

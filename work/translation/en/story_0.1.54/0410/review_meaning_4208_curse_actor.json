@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4208.targets.json",
+  "target_file_sha256": "8ad4fad2b0e67462125b2214ce1065b6ff257bbce8a8d2db0f2b102955237951",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4208,
+      4210
+    ],
+    "count": 3
+  },
+  "source_ranges_examined": [
+    [
+      4198,
+      4210
+    ]
+  ],
+  "rows_examined": 13,
+  "corrections": [
+    {
+      "resource_row": 4208,
+      "source_sha256": "58fc3f76c3a1b13aedad5defb9541fda2f2ff3cba847a6d5361db507556de54b",
+      "text": "The Plague Curse is meant to leave its victim",
+      "reason": "Source explains the curse's general purpose; restore the victim explicitly."
+    },
+    {
+      "resource_row": 4209,
+      "source_sha256": "2119e85cd5824fab2d983c9cdf7f37ff0e875e7373e5742626b9c5c9f65ba043",
+      "text": "on the verge of death, so",
+      "reason": "Source namagoroshi means prolonged suffering without killing; clarify its purpose without suggesting an undead state."
+    },
+    {
+      "resource_row": 4210,
+      "source_sha256": "e1b32d20367ae550cdc928913c97e413df24447800659e8ca6ce8ad7ca4b83b0",
+      "text": "they can't even die...",
+      "reason": "Source general mechanism does not support assigning the curse to the speaking observer."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        4204,
+        4205,
+        4208,
+        4209,
+        4210
+      ],
+      "issue": "The source does not name an actor in these explanatory clauses; victim-neutral wording preserves the general mechanism without imposing a speaker identity."
+    }
+  ],
+  "omissions": [],
+  "notes": "Root independent supplemental source-first review of another author draft at actual VM boundaries; inspected surrounding curse explanation."
+}

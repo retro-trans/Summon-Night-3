@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_1888.targets.json",
+  "target_file_sha256": "e3512b91d8233c51846c7afbd98b8ad256ac3da1dfbcd50b709eb9eec31fe174",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1888,
+      1967
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      1886,
+      1968
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 1946,
+      "source_sha256": "a2594e0295129fadc2d4b8fdff2ab6507796de9d4a53dd42d758952bea028345",
+      "text": "When this mission is over, let's go see them at the estate in Zelam for the first time in a while.",
+      "reason": "Zelam is a city, not the owner of the estate."
+    },
+    {
+      "resource_row": 1950,
+      "source_sha256": "a2594e0295129fadc2d4b8fdff2ab6507796de9d4a53dd42d758952bea028345",
+      "text": "When this mission is over, shall we go see them at the estate in Zelam for the first time in a while?",
+      "reason": "Zelam is a city, not the owner of the estate."
+    }
+  ],
+  "name_normalization_requested": [
+    {
+      "rows": [
+        1931,
+        1935
+      ],
+      "from": "Mimosa",
+      "to": "Mimoza",
+      "reason": "Primary gallery spelling normalization only."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        1963,
+        1965
+      ],
+      "issue": "Le-O-LD is a verified primary-gallery alias; no gender is inferred from the name."
+    }
+  ],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM groups and boundary context. No meaning correction found.",
+  "root_source_review": {
+    "reviewer": "root",
+    "source_ranges_examined": [
+      [
+        1886,
+        1971
+      ]
+    ],
+    "notes": "All complete VM groups read against source, including both boundaries; meaning corrections added before any application or name normalization."
+  }
+}

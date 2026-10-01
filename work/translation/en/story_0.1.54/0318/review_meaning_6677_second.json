@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6677.targets.json",
+  "target_file_sha256": "54f03b6a8a9854853637920daf096b5066ab6425ef5652f7554ce4691a9d7c3b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6677,
+      6756
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6676,
+      6757
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6682,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "text": "...",
+      "reason": "Restore the complete silent ellipsis box."
+    },
+    {
+      "resource_row": 6695,
+      "source_sha256": "6fcab510999c2a252b38f8e690ec71278499f96a62d22e9244450aef9e1265d3",
+      "text": "You refused to give it your all,",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6696,
+      "source_sha256": "c91be98f922226bd374ea431dce10a5449221fbcf8bff5631f70ecfc362722ce",
+      "text": "even at the very end,",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Fresh supplemental review compared complete VM dialogue groups with both-side context. Reports only missed complete-box restorations; no target file was edited. Root additionally compared all closing-scene source groups 6517–7072 and added substantive actor, meaning, and duplicated-filler corrections."
+}

@@ -1,0 +1,68 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0364/review_meaning_2288.json",
+  "review_sha256": "77f6c849995442d6ba5e378b8305df8c0e14e6e94e0d32994db19db441152532",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2288.targets.json",
+  "target_before_sha256": "0d4bbdf1b2f6cf8135087a336690e4fedfe18a59b64fa3840c3c1c632d832ec6",
+  "target_after_sha256": "a0580cf9396f446758e4da7b828aeae05eb0d8baa232e7c1b7de93140fa74d77",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2288,
+      2367
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2349,
+      "before": "When unavoidable reality",
+      "after": "Even though unavoidable",
+      "reason": "The source's のに sets a contrast: unavoidable reality is present despite Teacher turning away. Current 'When' changes that relationship into a temporal condition."
+    },
+    {
+      "resource_row": 2350,
+      "before": "is in front of them, they look away",
+      "after": "reality lies before them, they look away",
+      "reason": "Continues the restored concessive clause and retains Teacher as the subject of looking away."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2288,
+        2289,
+        2290,
+        2306,
+        2307,
+        2308,
+        2325,
+        2326,
+        2327,
+        2329,
+        2330,
+        2331,
+        2332,
+        2333,
+        2334,
+        2335,
+        2336,
+        2337,
+        2347,
+        2348,
+        2349,
+        2350,
+        2351,
+        2352,
+        2353,
+        2354,
+        2358,
+        2359,
+        2360,
+        2365,
+        2366,
+        2367
+      ],
+      "issue": "Teacher is player-selected. Singular-they language preserves the established referent without gender inference."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

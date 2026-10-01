@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00463",
+  "source_sha256": "b615d220136328cd9a606b71413c1369dfabc42cf03a022c1ff18469a933e94d",
+  "target_file": "work/translation/en/story_0.1.54/0463/slice_0091.targets.json",
+  "target_file_sha256": "db59721e8d0d84022c0382741069915eec2bb36542447f4ddbb11fa08f7d43d4",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      108,
+      141
+    ],
+    "count": 34
+  },
+  "source_ranges_examined": [
+    [
+      106,
+      142
+    ]
+  ],
+  "rows_examined": 37,
+  "corrections": [
+    {
+      "resource_row": 108,
+      "source_sha256": "a5f759effae3de2780e6784753f1bcf31cd7622f6b8032bd287c519cfee5f99a",
+      "text": "I'll give it some serious thought.",
+      "reason": "Kyuuma answers the invitation in the first person; 'Let's try to think about it positively' reverses the response into a joint proposal."
+    },
+    {
+      "resource_row": 109,
+      "source_sha256": "91d829e382f346810e9af646828aaa57c89700e413242797385ad659d6fdf15c",
+      "text": "",
+      "reason": "Continuation within Kyuuma's VM box."
+    },
+    {
+      "resource_row": 130,
+      "source_sha256": "5a88f616d786a41d8e2524ea38491591b32b10bcfbfa8e817c8974fbe7bee3af",
+      "text": "Subaru was so excited yesterday that he could hardly fall asleep.",
+      "reason": "Subaru is an established male character."
+    },
+    {
+      "resource_row": 131,
+      "source_sha256": "ee14836094c5b734ed99888c78f5135799745b41fdbaafbb3a4a61ec37b09f96",
+      "text": "",
+      "reason": "Continuation of Subaru's sentence."
+    },
+    {
+      "resource_row": 132,
+      "source_sha256": "510287543aced81173e82bc24e0fc0efd2f303b09254994787eaca51218a7c06",
+      "text": "Ah, so that's why he fell asleep in my lap...",
+      "reason": "The sleeping child is Subaru, an established male character."
+    },
+    {
+      "resource_row": 133,
+      "source_sha256": "2fd070a7482448add1aa1cf15d457d869133487d42857900d89ea4c2ac642793",
+      "text": "",
+      "reason": "Continuation within the VM box."
+    },
+    {
+      "resource_row": 134,
+      "source_sha256": "b095b30a8acf8b95a6149bdd3008b0c26094a246f8645ffa9b0a4da01d8676e2",
+      "text": "Ah, so that's why he fell asleep in my lap...",
+      "reason": "Same alternate protagonist variant; Subaru is male."
+    },
+    {
+      "resource_row": 135,
+      "source_sha256": "f5581b29ce80efbae8fcbac07ad5878118626bf9a8648033f3ad3097fe8b98aa",
+      "text": "",
+      "reason": "Continuation within the VM box."
+    },
+    {
+      "resource_row": 136,
+      "source_sha256": "ced3350eeb5e73bceccd1912f8a16e0e0a5b1112c46d601a1e81cd8c685dce28",
+      "text": "I told Lord Misumi that I would carry him home, but...",
+      "reason": "Speaker carried Subaru home; Misumi is the person who leaves the couple alone. Name honorific normalization is deliberately deferred."
+    },
+    {
+      "resource_row": 137,
+      "source_sha256": "f20c6225cd4b2d37b67086f3ade24917dd0cc77eceaa22f29bfcfc5ddf24fe0a",
+      "text": "",
+      "reason": "Continuation within the VM box."
+    },
+    {
+      "resource_row": 138,
+      "source_sha256": "f360e2c8183396fed5f86235ddf8a74e5462626f58e5b557d0319502360bf185",
+      "text": "Maybe... she was being considerate...",
+      "reason": "The implied subject is Misumi, an established female character, leaving the couple alone."
+    },
+    {
+      "resource_row": 139,
+      "source_sha256": "743a3d429f7f858f8d53ca8c93a2a0e8cc3eca0eefd0933ff5bbae012c5bb3ac",
+      "text": "",
+      "reason": "Continuation within the VM box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Supplemental root-directed review bound to current target after prior review application. Do not apply automatically. Lord Misumi to Lady Misumi and Rikt to Rikuto are name-normalization work and intentionally omitted."
+}

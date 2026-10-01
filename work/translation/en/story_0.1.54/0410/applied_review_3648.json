@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_3648.json",
+  "review_sha256": "9c9a033f62ec69bfa1eab0db58834aa2d07e417c934f9553c4a431aec528cff6",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3648.targets.json",
+  "target_before_sha256": "cffae1581f4fa6d346ec5ee742db6c38946b385aad79830e237c78596a87947b",
+  "target_after_sha256": "6e6560ec72f3448667f928b185bb0542295fae1e1eb57265292d5e6ae7030085",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3648,
+      3727
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3727,
+      "before": "avoid completely destroying it.",
+      "after": "avoid completely destroying it",
+      "reason": "Removes the period before the next-slice continuation “at the last second,” restoring the source sentence’s grammar."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,58 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0470/review_meaning_0011.json",
+  "review_sha256": "2638dc7009084faa13d71e3acfd9408569c49c05056be8ddf03914839f1a26ee",
+  "target_file": "work/translation/en/story_0.1.54/0470/slice_0011.targets.json",
+  "target_before_sha256": "43b358496e92139102b1f8b82ee66a1086d5880ea0f57c58aa5291d50f1ce0df",
+  "target_after_sha256": "b481c20757fa0410fd9e96e33f52f518d7ca07787a291a2246c7f25eba78b763",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 17,
+      "before": "But if we don't split them evenly, won't they fight?",
+      "after": "But if we don't split them exactly in half,",
+      "reason": "Retain the pupil’s literal “halves” question; “evenly” silently corrects the misunderstanding."
+    },
+    {
+      "resource_row": 18,
+      "before": "",
+      "after": "won't they start fighting?",
+      "reason": "Retain the pupil’s literal “halves” question; “evenly” silently corrects the misunderstanding."
+    },
+    {
+      "resource_row": 19,
+      "before": "",
+      "after": "",
+      "reason": "Retain the pupil’s literal “halves” question; “evenly” silently corrects the misunderstanding."
+    },
+    {
+      "resource_row": 21,
+      "before": "If three people divide five Dalima fruits, they should count the seeds inside, too!",
+      "after": "If three people share five Dalima fruits,",
+      "reason": "The source counts the contents of the fruit without identifying them as seeds."
+    },
+    {
+      "resource_row": 22,
+      "before": "",
+      "after": "they should count the pieces inside as well!",
+      "reason": "The source counts the contents of the fruit without identifying them as seeds."
+    },
+    {
+      "resource_row": 23,
+      "before": "",
+      "after": "",
+      "reason": "The source counts the contents of the fruit without identifying them as seeds."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "The promised answer is intentionally left implied by the reciprocal statements of present happiness; no explicit acceptance or rejection should be invented."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

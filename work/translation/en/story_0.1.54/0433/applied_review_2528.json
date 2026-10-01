@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0433/review_meaning_2528.json",
+  "review_sha256": "47d76be7a7529fc77c8fb20128131a1823652af9c4b3eefb27f797bfcd19c657",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_2528.targets.json",
+  "target_before_sha256": "73db060995ee45f2a6c961dcf23081ba221928f3621b8b5c9289c588d909d7b7",
+  "target_after_sha256": "84414e0033ea96e10bb4e809aefb7c37134b9015722346dc0af8e0208c815f55",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2528,
+      2607
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2553,
+      "before": "No... I'm okay...",
+      "after": "Yeah... I am okay...",
+      "reason": "The source is affirmative うん; the current “No” reverses Ishlar’s response."
+    },
+    {
+      "resource_row": 2550,
+      "before": "...",
+      "after": "?",
+      "reason": "The source is a literal question marker; replace the ellipsis with the questioning reaction."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

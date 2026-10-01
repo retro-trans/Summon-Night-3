@@ -1,0 +1,44 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_2768.json",
+  "review_sha256": "055e0701f4c3d7e8935aace488d3055912b52d2260cdf7f5890434639c22ad5c",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2768.targets.json",
+  "target_before_sha256": "a211e58568db4f163678c071cd08dfb0ee7d738bc2b2b183af112cc04e2e3d7b",
+  "target_after_sha256": "6e322e559e6fabe103aef564d74e3e13ec404171696ac0f32c600595c9aa08ed",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2768,
+      2847
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2827,
+      "before": "If a joke is all it takes...",
+      "after": "If saying it was a joke made everything all right...",
+      "reason": "Conditional rebuke continues across next VM box; not a request for a joke."
+    },
+    {
+      "resource_row": 2828,
+      "before": "No Guardians allowed!!",
+      "after": "...there'd be no need for Guardians!!",
+      "reason": "Completes source conditional idiom, not a ban on Guardians."
+    },
+    {
+      "resource_row": 2845,
+      "before": "You certainly returned the hostage to us.",
+      "after": "We've taken the hostage back now.",
+      "reason": "Guardian has just rescued Marurur; this is not a claim of voluntary return by the visitors."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2833,
+        2839
+      ],
+      "issue": "Mechanical model role and technique title are provisional literal translations; consult terminology after meaning review."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

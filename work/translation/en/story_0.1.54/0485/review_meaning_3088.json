@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "reviewer": "root independent of author",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_3088.targets.json",
+  "target_file_sha256": "83e4bd08b65cf47a730ad9d8ba5731daf884266a1b7a7a7dcfef524acc32a13c",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3088,
+      3167
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3087,
+      3169
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [
+    {
+      "resource_row": 3088,
+      "source_sha256": "07ebeefda888355df37578bc8af0cc57fde54f22fcb47e50db58e30140cd7b94",
+      "text": "",
+      "reason": "Remove duplicate name; entire original group3087–3088 already anchored at3087. Spelling normalized later."
+    },
+    {
+      "resource_row": 3139,
+      "source_sha256": "33910fdf1f998de334a882507a95167c8e613cea6e25a2fad2f03cf98cbd2f7a",
+      "text": "We would not let the past bind us, but keep striving with hope for the future.",
+      "reason": "Restore whole thought at VM group's first row; 'connect hope' distorts natural meaning of hope directed toward future."
+    },
+    {
+      "resource_row": 3140,
+      "source_sha256": "04b3bf9877372776cb7f13adc86e478b56cadcd187d01a423577a502733880e6",
+      "text": "",
+      "reason": "Continuation of3139–3141, restored at3139."
+    },
+    {
+      "resource_row": 3142,
+      "source_sha256": "99e291b33e5a8f002d93165e50ef1a810481140a79ae3539625588cf89977ce1",
+      "text": "No matter who my ancestors were, I'm still me. The same goes for Ness and Amel.",
+      "reason": "Same refers to ancestry not defining identity, not all three having identical identities."
+    },
+    {
+      "resource_row": 3146,
+      "source_sha256": "99e291b33e5a8f002d93165e50ef1a810481140a79ae3539625588cf89977ce1",
+      "text": "No matter who my ancestors were, I'm still me. The same goes for Ness and Amel...",
+      "reason": "Preserve parallel source meaning of individual identity despite ancestry."
+    },
+    {
+      "resource_row": 3155,
+      "source_sha256": "bdbbc73a89c3f672b7146326b0d581872aead2ca7b3dc7053cea1fa279e64f78",
+      "text": "That's right, that's right! Smiling faces are best!",
+      "reason": "Remove duplicate note at anchor; original physical row3157 retains its note."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        3120
+      ],
+      "issue": "Last machine-person is provisional designation for fusion-human category. Research lore before final terminology acceptance."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        3120,
+        3136
+      ],
+      "issue": "List awaits descendants explanation in following box; hesitant But intentionally trails off."
+    }
+  ],
+  "notes": "All original VM groups, target groups and both boundaries independently read. No name-only corrections; normalization later."
+}

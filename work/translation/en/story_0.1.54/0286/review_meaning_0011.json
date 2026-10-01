@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00286",
+  "source_sha256": "f78444a53283c33c3129ba91ee108b0821531fd2c8d61fc9d4ed8e6af78284cd",
+  "target_file": "work/translation/en/story_0.1.54/0286/slice_0011.targets.json",
+  "target_file_sha256": "e5d216067759e72274a4311bc26bf36e09654b7bfc800a595bce00123764a4ae",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      52
+    ],
+    "count": 42
+  },
+  "source_ranges_examined": [
+    [
+      0,
+      52
+    ]
+  ],
+  "rows_examined": 53,
+  "corrections": [
+    {
+      "resource_row": 49,
+      "source_sha256": "8625ad0d5b4a4642258510f513966960b44402b9c72516b1e17dbbb8973a818e",
+      "before": "Not to the very end...",
+      "text": "Not ever...",
+      "after": "Not ever...",
+      "reason": "This source fragment intensifies the preceding vow for its entire duration. The authored continuation is ungrammatical in English; 'Not ever' preserves the emphatic repeated denial."
+    },
+    {
+      "resource_row": 52,
+      "source_sha256": "8625ad0d5b4a4642258510f513966960b44402b9c72516b1e17dbbb8973a818e",
+      "before": "Not to the very end...",
+      "text": "Not ever...",
+      "after": "Not ever...",
+      "reason": "This is the matching protagonist variant and needs the same source-faithful grammatical completion."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        15,
+        16,
+        33,
+        34,
+        35,
+        37,
+        40,
+        42,
+        45,
+        46,
+        49,
+        52
+      ],
+      "reason": "Pauses and incomplete emotional reactions remain visible; the final vow is corrected only to make its joined English grammatical."
+    },
+    {
+      "rows": [
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "reason": "Continuation rows and protagonist variants were reviewed as full logical statements without gender inference."
+    }
+  ],
+  "notes": "Reviewed full 0-52 source context. Two source-faithful grammatical vow corrections are required; this proof does not accept the resource or authorize a build."
+}

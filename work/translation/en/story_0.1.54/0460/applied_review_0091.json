@@ -1,0 +1,46 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0460/review_meaning_0091.json",
+  "review_sha256": "17af36861fcced18d3c4c9a3256d52921526610a13e025a899d98919f784129d",
+  "target_file": "work/translation/en/story_0.1.54/0460/slice_0091.targets.json",
+  "target_before_sha256": "d6bd209f931afe69a77c7105b870aeec37f76d680381c8f1e91c4002430425bb",
+  "target_after_sha256": "8b911df34c34a289dadf53164947eb4bf623a614fc746d9c947727157071cca7",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      162
+    ],
+    "count": 72
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 129,
+      "before": "Could that be why, whenever I spoke to you,",
+      "after": "Could that explain every time you didn't answer when I spoke to you???",
+      "reason": "The question concerns all the nonresponses, not every conversation."
+    },
+    {
+      "resource_row": 130,
+      "before": "you didn't answer me???",
+      "after": "",
+      "reason": "The question concerns all the nonresponses, not every conversation."
+    },
+    {
+      "resource_row": 147,
+      "before": "I'm glad we kept",
+      "after": "I'm glad we both kept our promise...",
+      "reason": "Restore both parties keeping the promise."
+    },
+    {
+      "resource_row": 148,
+      "before": "our promise...",
+      "after": "",
+      "reason": "Restore both parties keeping the promise."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Dalima contents are not identified botanically; neutral pieces avoids inventing seeds. Fictional fruit spelling is already established in glossary."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

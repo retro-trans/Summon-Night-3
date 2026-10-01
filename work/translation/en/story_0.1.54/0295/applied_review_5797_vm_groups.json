@@ -1,0 +1,90 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_5797_vm_groups.json",
+  "review_sha256": "e2e9a43e1d8f5204a37c28300ea2d0cf2b751b62ade1767fd16f64a64727a094",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_5797.targets.json",
+  "target_before_sha256": "56221b21d58a9a1211740f66dd94a3023d73ac89f505e7cd4cb64a171198af09",
+  "target_after_sha256": "0eaf79c6f78ad7212e6b0d69c3f7957de6827fc471e952eb30c63612a94d86d0",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5797,
+      5876
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 5797,
+      "before": "not as Falzen,",
+      "after": "the island's Guardian,",
+      "reason": "Completes the source’s Falzen group after row 5796 without moving Fariel into it."
+    },
+    {
+      "resource_row": 5798,
+      "before": "but as Fariel,",
+      "after": "but...",
+      "reason": "Retains the source group’s deliberate unfinished “not … but” ending."
+    },
+    {
+      "resource_row": 5799,
+      "before": "I will tell you",
+      "after": "As Fariel,",
+      "reason": "Fariel begins the next VM dialogue group in the source."
+    },
+    {
+      "resource_row": 5800,
+      "before": "everything I have kept",
+      "after": "I will tell you everything",
+      "reason": "Restores the full source statement within the Fariel group."
+    },
+    {
+      "resource_row": 5801,
+      "before": "hidden...",
+      "after": "I have kept hidden...",
+      "reason": "Completes the restored Fariel group."
+    },
+    {
+      "resource_row": 5854,
+      "before": "I will tell you",
+      "after": "I will tell you everything.",
+      "reason": "全部 completes the 5853–5854 group; it must remain with the group’s existing “Please listen.”"
+    },
+    {
+      "resource_row": 5855,
+      "before": "everything.",
+      "after": "Fariel...",
+      "reason": "Restores Fariel’s separate source reaction group."
+    },
+    {
+      "resource_row": 5856,
+      "before": "Fariel...",
+      "after": "My true name is",
+      "reason": "Restores the start of the 5856–5857 name group."
+    },
+    {
+      "resource_row": 5857,
+      "before": "My true name is",
+      "after": "Fariel Copse.",
+      "reason": "Completes the name within its source group."
+    },
+    {
+      "resource_row": 5858,
+      "before": "Fariel Copse.",
+      "after": "I am the sister of",
+      "reason": "Removes the misplaced name from the 5858–5860 affiliation group."
+    },
+    {
+      "resource_row": 5859,
+      "before": "I am the sister of",
+      "after": "Hainel Copse, who created this island.",
+      "reason": "Restores the affiliation group before its membership sentence."
+    },
+    {
+      "resource_row": 5860,
+      "before": "Hainel Copse, who created this island. I was a member of the Colorless Faction.",
+      "after": "I was a member of the Colorless Faction.",
+      "reason": "Keeps the applied past-tense membership sentence without duplicating the Hainel clause."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,48 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0397/review_meaning_0011.json",
+  "review_sha256": "d71203650162ba5e5b4bd9816170e862573fbe0bdc85c546fe9e4c2d98154353",
+  "target_file": "work/translation/en/story_0.1.54/0397/slice_0011.targets.json",
+  "target_before_sha256": "54f22364aa9fca530a73a8834f6ccd0c834aaa8de6c522d5932f74650f16210f",
+  "target_after_sha256": "82c20a734df067bbb044856102690683ed6b01c5c5607e2ea70c7414f9be9e5a",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 38,
+      "before": "If we aren't right beside each other, we can't properly protect--or be protected...",
+      "after": "We can't properly protect each other unless we stay close...",
+      "reason": "Restore reciprocal object."
+    },
+    {
+      "resource_row": 63,
+      "before": "That's why I took up that sword again!",
+      "after": "It's okay. I won't let that happen...",
+      "reason": "Replace copied sword-taking line with source reassurance."
+    },
+    {
+      "resource_row": 80,
+      "before": "There are various things I need to take care of regarding ▲...",
+      "after": "I have various things to take care of, like ▲'s future...",
+      "reason": "Pupil is an example among obligations; not all obligations concern pupil."
+    },
+    {
+      "resource_row": 82,
+      "before": "There are various things I need to take care of regarding ▲...",
+      "after": "I have various things to take care of, like ▲'s future...",
+      "reason": "Same scope correction in alternate pupil branch."
+    },
+    {
+      "resource_row": 84,
+      "before": "There are various things I need to take care of regarding ▲...",
+      "after": "I have various things to take care of, like ▲'s future...",
+      "reason": "Same scope correction in alternate pupil branch."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "version": "0.1.54",
+  "scope": "New unpublished Chapter16+ story inputs; released and previously accepted inputs are not rewritten.",
+  "entries": [
+    {
+      "source_name": "病魔の呪い",
+      "target_name": "disease demon's curse",
+      "category": "curse",
+      "status": "provisional descriptive translation; no official English name verified",
+      "source_aliases": [
+        "病魔"
+      ],
+      "aliases": [
+        "Plague Curse",
+        "disease curse",
+        "Disease Demon's curse"
+      ],
+      "evidence": [
+        {
+          "source_resource": "00:00410",
+          "rows": [
+            3152,
+            3284,
+            4201,
+            4208,
+            4572,
+            4573,
+            4577
+          ],
+          "supports": "The source identifies a possessing disease demon and a curse preventing death."
+        },
+        {
+          "url": "https://w.atwiki.jp/sn3psp/pages/88.html",
+          "supports": "Japanese character reference for Ishlar and the curse; not an official English naming authority."
+        }
+      ]
+    },
+    {
+      "source_name": "死霊の女王",
+      "target_name": "Queen of the Dead",
+      "category": "epithet",
+      "status": "provisional literal epithet; identity not inferred from title",
+      "evidence": [
+        {
+          "source_resource": "00:00410",
+          "supports": "Dialogue names the entity by this epithet."
+        }
+      ]
+    },
+    {
+      "source_name": "ディエルゴ",
+      "target_name": "Dielgo",
+      "category": "entity",
+      "gender": "unknown",
+      "personality": "expresses anger, sorrow and desire for domination in Chapter16",
+      "position": "island will",
+      "nickname": "unknown",
+      "status": "established project battle spelling; official English spelling not verified",
+      "evidence": [
+        {
+          "url": "https://w.atwiki.jp/sn3psp/pages/120.html",
+          "supports": "Japanese battle dialogue identity and Hainel association."
+        },
+        {
+          "source_resource": "00:00410",
+          "rows": [
+            4918,
+            4919,
+            4920,
+            4921
+          ],
+          "supports": "Self-identification and stated anger and sorrow."
+        }
+      ]
+    },
+    {
+      "source_name": "ハイネル",
+      "target_name": "Hainel",
+      "category": "character short name",
+      "authority": "work/glossary/character_reference_sn6_vita.json"
+    }
+  ],
+  "normalization_by_resource": {
+    "410": [
+      {
+        "resource_row": 1808,
+        "source_sha256": "18c455d5bdc5e5280ca4d1478a70cfd53d8eb339063b990d85c3576377e6662a",
+        "from": "Chur",
+        "to": "Chuur"
+      },
+      {
+        "resource_row": 2279,
+        "source_sha256": "7e887f6c63f343fbe49c70901ec1d885cd08a9f27924019c2e40262220be33af",
+        "from": "Belfraw",
+        "to": "Bel"
+      },
+      {
+        "resource_row": 3152,
+        "source_sha256": "26320d850a818662f7eeea17f137f4f213459a6a372a2c387d67a643dff8bac2",
+        "from": "disease spirit",
+        "to": "disease demon"
+      },
+      {
+        "resource_row": 3227,
+        "source_sha256": "45129032718dd7aa46991fe2ab4d6eba75aca1c3faa886a5e1c25bdcb7cb742f",
+        "from": "Azure Sage",
+        "to": "Azure Sage Emperor"
+      },
+      {
+        "resource_row": 3234,
+        "source_sha256": "45129032718dd7aa46991fe2ab4d6eba75aca1c3faa886a5e1c25bdcb7cb742f",
+        "from": "Azure Sage",
+        "to": "Azure Sage Emperor"
+      },
+      {
+        "resource_row": 3229,
+        "source_sha256": "aa24cc76e8788b8ca1dd4a32c0773785ec9e8874c119c9e99079fe5409a64c11",
+        "from": "Village of Wind and Thunder",
+        "to": "Land of Wind and Thunder"
+      },
+      {
+        "resource_row": 3236,
+        "source_sha256": "aa24cc76e8788b8ca1dd4a32c0773785ec9e8874c119c9e99079fe5409a64c11",
+        "from": "Village of Wind and Thunder",
+        "to": "Land of Wind and Thunder"
+      },
+      {
+        "resource_row": 3233,
+        "source_sha256": "ef6a4838a96fb87b9699cc8a7783b817fd5e6702e454e7defa9bf8a040998fff",
+        "from": "qualified wielder",
+        "to": "qualified bearer"
+      },
+      {
+        "resource_row": 3241,
+        "source_sha256": "ef6a4838a96fb87b9699cc8a7783b817fd5e6702e454e7defa9bf8a040998fff",
+        "from": "qualified wielder",
+        "to": "qualified bearer"
+      },
+      {
+        "resource_row": 3284,
+        "source_sha256": "9f5b4df938f5e3093d589b2da273b127b88d3938dc3eae9105d5b2c24d68a004",
+        "from": "disease curse",
+        "to": "disease demon's curse"
+      },
+      {
+        "resource_row": 4201,
+        "source_sha256": "e89c40a7150cb874f570b9111774af82643618e8e9255f123b29d5e56de87bc3",
+        "from": "Plague Curse",
+        "to": "disease demon's curse"
+      },
+      {
+        "resource_row": 4208,
+        "source_sha256": "58fc3f76c3a1b13aedad5defb9541fda2f2ff3cba847a6d5361db507556de54b",
+        "from": "Plague Curse",
+        "to": "disease demon's curse"
+      },
+      {
+        "resource_row": 4572,
+        "source_sha256": "2f12f1d5aeda79dab4056f4b59e8bb6749f126bf1f22f7fcdc2219c1a422adcc",
+        "from": "Disease Demon's curse",
+        "to": "disease demon's curse"
+      },
+      {
+        "resource_row": 4573,
+        "source_sha256": "11e7a6cb8766fe59a98626bf94976000280186e2e1c065e283978836ecf7c124",
+        "from": "Disease Demon's curse",
+        "to": "disease demon's curse"
+      },
+      {
+        "resource_row": 4577,
+        "source_sha256": "67b0206a2fc0c3b1b768102a6d278e2344ea2c58f8b6ad2d210e06436cd2966e",
+        "from": "Disease Demon's curse",
+        "to": "disease demon's curse"
+      }
+    ]
+  },
+  "corpus_scan_notes": [
+    "Chur occurs once in active story input, row410:1808.",
+    "Source nickname Bel is row410:2279; other Belfraw occurrences must remain full names.",
+    "Azure Sage King remains in older accepted296:47; Land of Wind and Thunder variants also occur in legacy460:82/86. Flag for later separate proof-preserving normalization, do not rewrite those accepted inputs here."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_2448.targets.json",
+  "target_file_sha256": "418137b062b2a32bca8b691d3b54ffaa6248d84cd7ff0da232a941fd3456562e",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2448,
+      2527
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2447,
+      2528
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 2448,
+      "source_sha256": "9d5a867f4230b2680517179fbeb2d2cc4f24cfc66df5049754b99412f054f441",
+      "text": "I understand, Azlier.",
+      "reason": "Remove the following VM box's request from the preceding box."
+    },
+    {
+      "resource_row": 2449,
+      "source_sha256": "8c804c39cecede4cb1401a45d93fa0317415cecf43dcfc499d2281e3248dc6b3",
+      "text": "I want you to lend us your strength until the end.",
+      "reason": "Restore the omitted complete VM box 2449–2450."
+    },
+    {
+      "resource_row": 2450,
+      "source_sha256": "cdb1b4c572623bd48d437db0e19e14c9854d746878c5dfe0aa2387ae64f88d97",
+      "text": "",
+      "reason": "Continuation cleared so row 2449 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2451,
+      "source_sha256": "75331bbcc19751bdcd3f3188733754d22312ffbdf885413315dc6d93394a4385",
+      "text": "I understand...",
+      "reason": "Remove the following VM box's request from the preceding box."
+    },
+    {
+      "resource_row": 2452,
+      "source_sha256": "cbb700c1325c929926fbdb4e6ee8e6d59fb06e684329b17d3858e70c9104ae6a",
+      "text": "Please lend us your strength a little longer, Azlier...",
+      "reason": "Restore the omitted complete VM box 2452–2454."
+    },
+    {
+      "resource_row": 2453,
+      "source_sha256": "5c0eda6570bedabf1a00828bb8f8280ab06e2b8eedb8069af5a13416cbd23c88",
+      "text": "",
+      "reason": "Continuation cleared so row 2452 contains the complete VM-box translation once."
+    },
+    {
+      "resource_row": 2454,
+      "source_sha256": "b998fde38fe08919e96d8279e38b6e0975c439632186a20df0664d23c339cef9",
+      "text": "",
+      "reason": "Continuation cleared so row 2452 contains the complete VM-box translation once."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first supplemental review of all 80 target rows and complete VM-box context. The two empty boxes were caused by their meanings being appended to the preceding boxes; corrections restore each meaning to its own source VM box."
+}

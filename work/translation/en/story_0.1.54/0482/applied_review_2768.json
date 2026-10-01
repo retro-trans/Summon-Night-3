@@ -1,0 +1,30 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_2768.json",
+  "review_sha256": "87f00219bfd7c908e8d9f37601c41d28385ec87708903ef550041aec81e9be9d",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2768.targets.json",
+  "target_before_sha256": "292af9649f6caa747b731225ada867f08cc6ca356a3d2a308c28d23f1c62101b",
+  "target_after_sha256": "5531ab3c50734943d74eca0a00c24d0b42638d8878a51e7c52a3265721b403ae",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2768,
+      2847
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2817,
+      "before": "You don't need to blame yourself.",
+      "after": "You don't need to thank me.",
+      "reason": "The preceding thanks to Meimei make this a gratitude response; the draft incorrectly adds self-blame."
+    },
+    {
+      "resource_row": 2841,
+      "before": "See them off. I'm sure it will give them strength.",
+      "after": "See this through with them. I'm sure it will give them strength.",
+      "reason": "The direction is to accompany and witness the outcome, not merely see the person off; following context confirms the pupil remains present."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

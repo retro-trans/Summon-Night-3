@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6997.targets.json",
+  "target_file_sha256": "784b38204db1cbc1a118c19c50eac520ac793f27deb11c93c19ea0967e3caf1b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6997,
+      7076
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6996,
+      7077
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 7044,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "text": "...",
+      "reason": "Restore the complete silent ellipsis box."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Fresh supplemental review compared complete VM dialogue groups with both-side context. Reports only missed complete-box restorations; no target file was edited."
+}

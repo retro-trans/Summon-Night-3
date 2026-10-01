@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "version": "0.1.54",
+  "scope": "Unpublished resource482 only; prior glossary snapshots and published inputs preserved.",
+  "entries": [
+    {
+      "target_name": "Core Cognizance",
+      "authority": "work/glossary/story_core_terms_0.1.54.json",
+      "aliases": [
+        "Core Consciousness",
+        "core knowledge"
+      ]
+    },
+    {
+      "target_name": "qualified bearer",
+      "authority": "work/glossary/chapter48_story_terms_0.1.14.json",
+      "notes": "Established grammatical prose form of the Qualified; used as direct address."
+    },
+    {
+      "target_name": "teacher",
+      "authority": "work/glossary/terminology_preferences.json",
+      "notes": "Lowercase profession/common noun; keep Teacher as direct address."
+    }
+  ],
+  "normalization_by_resource": {
+    "482": [
+      {
+        "resource_row": 1835,
+        "source_sha256": "98b51afb00a7d3e9e3a5317a6cd38ff2dc99d7bef87369bb209c43f3972da99a",
+        "from": "Candidate",
+        "to": "qualified bearer"
+      },
+      {
+        "resource_row": 1907,
+        "source_sha256": "0fb1b1e806d4e8490ef79ede52fb430eaf664c889067db919d44bf54aedb42bc",
+        "from": "Core Consciousness",
+        "to": "Core Cognizance"
+      },
+      {
+        "resource_row": 2437,
+        "source_sha256": "5b2a2ddb5d42011b8a3492ea3139192d16b4bc1170bf8da338ea65c9e7e3acac",
+        "from": "core knowledge",
+        "to": "Core Cognizance"
+      },
+      {
+        "resource_row": 2440,
+        "source_sha256": "7ae266ad9721be030f2d0844d2c10a9bb4bf11b1a14c49fe60b127ab6ade55ef",
+        "from": "core knowledge",
+        "to": "Core Cognizance"
+      },
+      {
+        "resource_row": 2130,
+        "source_sha256": "1e8e2f5ececb96d0236b37a2d07f4e6b388c2c86184c2a7f0e7d05a6efce0de4",
+        "from": "Teacher",
+        "to": "teacher"
+      },
+      {
+        "resource_row": 2671,
+        "source_sha256": "6a50f9506e850de5342316b59ed973528021f8f5141844ac44aa4482679b4683",
+        "from": "Teacher",
+        "to": "teacher"
+      }
+    ]
+  },
+  "corpus_scan": "Wrong term variants scanned across active new story slice targets; frozen accepted and released inputs not rewritten."
+}

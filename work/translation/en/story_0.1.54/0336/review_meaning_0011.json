@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00336",
+  "source_sha256": "051c368565f7663be542ad8cf0d2b74f1b42e80cf29d9cd03e6f6660cd4b9156",
+  "target_file": "work/translation/en/story_0.1.54/0336/slice_0011.targets.json",
+  "target_file_sha256": "5bd9215aac37884244cb2bfe6225bc7cca01156d4d7b598e6f88aed3a68c8408",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      72
+    ],
+    "count": 62
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      72
+    ]
+  ],
+  "rows_examined": 63,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        52,
+        53
+      ],
+      "note": "The person potentially called by the missing sword is deliberately unnamed."
+    }
+  ],
+  "omissions": [
+    {
+      "note": "Explicit source pauses, cries and genuinely interrupted thought are retained, not filled out with invented conclusions."
+    }
+  ],
+  "notes": "Root independently compared every full VM group in the assigned dialogue and its boundary context. All correction groups reconstructed in memory before accepting the change."
+}

@@ -1,0 +1,28 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0272/review_meaning_5957.json",
+  "review_sha256": "f1b2d3f43de8b215b5d0545537f2c19667aedd73dee8ef4b16ea65e083da96a2",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_5957.targets.json",
+  "target_before_sha256": "b02c82e1c6294e3941deb12b0ba715e1e488dc32b44f55537e6f099b9e110f3b",
+  "target_after_sha256": "4a05bea791d1689c79f16f24b0c3729098609cbc61a13d2b937405d4e4b656c2",
+  "reviewed_rows": {
+    "range_inclusive": [
+      5957,
+      6036
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6036,
+      "before": "it doesn't look as if they have it.",
+      "after": "it doesn't look like",
+      "reason": "This is the middle row of a three-row source sentence. Its current complete clause causes the final row to repeat the ending."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,98 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0318/review_meaning_6197.json",
+  "review_sha256": "e45c7f4222923bcd0656113a3c98033821dae231914a13cd6e373de252608eeb",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6197.targets.json",
+  "target_before_sha256": "b508d3a8b5db8fc3945f0436ab39fc2f0cbd5a4c8ac71e8a83b22faa765aa8c6",
+  "target_after_sha256": "cda5b355de720b2acf49b43fa86ca640bfc54411104c1f73c80c141ddb146ea0",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6197,
+      6276
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 6207,
+      "before": "Because he knows firsthand",
+      "after": "It is precisely because",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6208,
+      "before": "how powerful the sword is,",
+      "after": "the sword's immense power is so familiar to",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6216,
+      "before": "They cannot...",
+      "after": "Someone like them...",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6217,
+      "before": "not against that person...",
+      "after": "just can't do it...",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6218,
+      "before": "For one who is kind enough",
+      "after": "Even an opponent's safety",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6219,
+      "before": "to worry even about",
+      "after": "matters to someone as kind as",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6230,
+      "before": "For one who has valued",
+      "after": "No one has treasured life",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6231,
+      "before": "life more than",
+      "after": "more than",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6242,
+      "before": "For one who hated fighting and",
+      "after": "Hating battle and hesitating even to hurt others,",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6243,
+      "before": "even hesitated",
+      "after": "that's the kind of person",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6244,
+      "before": "●...",
+      "after": "● is...",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    },
+    {
+      "resource_row": 6255,
+      "before": "Then let us aid him!",
+      "after": "Then let us help!",
+      "reason": "Restore source meaning and actor direction, avoid unsupported protagonist gender, and keep each complete sentence within its original VM dialogue box."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        6207,
+        6247
+      ],
+      "note": "Named and unnamed protagonist branches share responses. Gender-neutral references preserve both protagonist routes; runtime name markers remain in their source row."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

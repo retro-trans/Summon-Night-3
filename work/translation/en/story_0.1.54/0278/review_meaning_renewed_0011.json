@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00278",
+  "source_sha256": "39cbc59ab63d175e081abbb6c55b674b5b6b99c9a7fa103600c86df100523137",
+  "target_file": "work/translation/en/story_0.1.54/0278/slice_0011.targets.json",
+  "target_file_sha256": "65440f9f71cdde835ae11f2760bab0b2da716af3f0bfcd94f855e979d3d88f34",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      58
+    ],
+    "count": 48
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      58
+    ]
+  ],
+  "rows_examined": 49,
+  "corrections": [
+    {
+      "resource_row": 12,
+      "source_sha256": "3aaa554e6205e1cad93af9b81b36ce27923eff19798769ea1f5da3b5ba020043",
+      "text": "they can't face me yet, huh?",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    },
+    {
+      "resource_row": 21,
+      "source_sha256": "fdc43d20d7f59ad9a9f9c790b88bedb197828d08632c5940930a1c4469516613",
+      "text": "can't face me yet, huh...",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    },
+    {
+      "resource_row": 32,
+      "source_sha256": "c17a07e74801c88f437ead57ba2ade3e3c20c168111c927d888998fe5ade9f19",
+      "text": "I can't possibly tell them the truth...",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    },
+    {
+      "resource_row": 33,
+      "source_sha256": "fd85df0eb1a45fbe8cb6b83b085fc800feb249ec95eea95ac1c277f3400806b7",
+      "text": "",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    },
+    {
+      "resource_row": 34,
+      "source_sha256": "7339eefb5ba61cd4ab8874ea4adedd872fcd2060cf1bf9be574949a7ec80442c",
+      "text": "I can't possibly tell them the truth...",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    },
+    {
+      "resource_row": 35,
+      "source_sha256": "fd85df0eb1a45fbe8cb6b83b085fc800feb249ec95eea95ac1c277f3400806b7",
+      "text": "",
+      "reason": "The meeting refusal concerns the visiting protagonist, not everyone; remove the unsupported temporary not-now restriction from the internal refusal to tell the truth."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        11,
+        12,
+        19,
+        20,
+        21
+      ],
+      "issue": "Absent person is unnamed in this scene. Retain neutral they; the visit establishes protagonist as intended meeting partner."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        30,
+        31
+      ],
+      "reason": "Evasive reply intentionally withholds the destination."
+    }
+  ],
+  "notes": "Fresh independent root review of every actual source VM group and current English through EOF. Earlier incomplete proof and receipt retained byte-for-byte in review_history/renewed_meaning_20261001. Corrected earlier negations verified in context; no stylistic rewrites."
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "scope": "Frozen normalization rules for independently reviewed Chapter18 resources458-460; future resources need separate glossary snapshots.",
+  "entries": [
+    {
+      "target_name": "Yukres Village",
+      "status": "Reuse existing Chapter15 glossary spelling"
+    },
+    {
+      "target_name": "Land of Wind and Thunder",
+      "status": "Reuse existing glossary location"
+    },
+    {
+      "target_name": "Bel",
+      "status": "Preserve short source name; full Belfraw remains unchanged"
+    },
+    {
+      "target_name": "Foolproof Dating",
+      "status": "Provisional descriptive title of in-story guidebook in471:105-106; no established English title verified"
+    }
+  ],
+  "evidence_files": [
+    "work/glossary/chapter15_terms_0.1.54.json",
+    "work/glossary/character_reference_sn6_vita.json",
+    "work/glossary/terminology_preferences.json"
+  ],
+  "normalization_by_resource": {
+    "458": [
+      {
+        "resource_row": 71,
+        "source_sha256": "9ac749876a4632fc2059f6e0f5981cb2f1448e001410f7ad792a7fe4a24b4ac8",
+        "from": "Teacher becomes impossible to give up...",
+        "to": "teacher becomes impossible to give up..."
+      },
+      {
+        "resource_row": 73,
+        "source_sha256": "b0b9a5a841d88abb380fa88d701208256c0bbb3dc30ff8a944359264853a698c",
+        "from": "Teacher becomes impossible to give up, right...?",
+        "to": "teacher becomes impossible to give up, right...?"
+      },
+      {
+        "resource_row": 81,
+        "source_sha256": "67ddbcc2e517615f381b8d0837cb546e9a2804f971d81128e99b7e62fa2abc32",
+        "from": "Yeah, the mothers from Yukures Village and the Village of Wind and Lightning",
+        "to": "Yeah, the mothers from Yukres Village and the Land of Wind and Thunder"
+      },
+      {
+        "resource_row": 85,
+        "source_sha256": "a189dd58dd20363a75cb69c4f563ae2bf5b43fd28815e8e9bab31571c278dec4",
+        "from": "Yeah, the mothers from Yukures Village and the Village of Wind and Lightning",
+        "to": "Yeah, the mothers from Yukres Village and the Land of Wind and Thunder"
+      },
+      {
+        "resource_row": 90,
+        "source_sha256": "1d6caba1f53dfd2aebb6c97fd018638a3f55233f194c19199f0252909e52309a",
+        "from": "I will be a full-fledged Teacher!",
+        "to": "I will be a full-fledged teacher!"
+      },
+      {
+        "resource_row": 120,
+        "source_sha256": "f735436b1fdd9d4f1559112938de11bda2e301762c96d3efee80b4525a285853",
+        "from": "by becoming a fine Teacher...",
+        "to": "by becoming a fine teacher..."
+      },
+      {
+        "resource_row": 151,
+        "source_sha256": "2f3877a87795ef5708b45d3a81c60e6dc5883fb5b47090e76505df1780feee8c",
+        "from": "as fine a Teacher as you.",
+        "to": "as fine a teacher as you."
+      }
+    ],
+    "459": [
+      {
+        "resource_row": 104,
+        "source_sha256": "7e887f6c63f343fbe49c70901ec1d885cd08a9f27924019c2e40262220be33af",
+        "from": "Belfraw...",
+        "to": "Bel..."
+      },
+      {
+        "resource_row": 139,
+        "source_sha256": "7e887f6c63f343fbe49c70901ec1d885cd08a9f27924019c2e40262220be33af",
+        "from": "Belfraw...",
+        "to": "Bel..."
+      },
+      {
+        "resource_row": 160,
+        "source_sha256": "7e887f6c63f343fbe49c70901ec1d885cd08a9f27924019c2e40262220be33af",
+        "from": "Belfraw...",
+        "to": "Bel..."
+      }
+    ],
+    "460": [
+      {
+        "resource_row": 82,
+        "source_sha256": "67ddbcc2e517615f381b8d0837cb546e9a2804f971d81128e99b7e62fa2abc32",
+        "from": "The mothers from Yukres Village and the Village of Wind and Thunder",
+        "to": "The mothers from Yukres Village and the Land of Wind and Thunder"
+      },
+      {
+        "resource_row": 86,
+        "source_sha256": "a189dd58dd20363a75cb69c4f563ae2bf5b43fd28815e8e9bab31571c278dec4",
+        "from": "The mothers from Yukres Village and the Village of Wind and Thunder",
+        "to": "The mothers from Yukres Village and the Land of Wind and Thunder"
+      }
+    ]
+  }
+}

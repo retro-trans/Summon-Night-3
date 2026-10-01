@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3088.targets.json",
+  "target_file_sha256": "60843c59153c8137d2f472850cb7b600cf4821f2fc429cf69200721c51f8e391",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3112,
+      3114
+    ],
+    "count": 3
+  },
+  "source_ranges_examined": [
+    [
+      3108,
+      3122
+    ]
+  ],
+  "rows_examined": 15,
+  "corrections": [
+    {
+      "resource_row": 3114,
+      "source_sha256": "1f0a44b1e83aec28c0ebf29db45769c0724433466c732c92686d63c8544ec6a1",
+      "text": "Mr. Stripes!?",
+      "reason": "The source row has no music marker; the target adds ♪ here while physical row 3122 correctly carries the sole source marker."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Exact-row music-marker supplemental review; no dialogue meaning change.",
+  "semantic_complete": true,
+  "independent_review": true,
+  "reviewer": "ch18_b; explicit final message confirms full reviewed range and adjacent VM context"
+}

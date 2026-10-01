@@ -1,0 +1,43 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0485/review_meaning_2688.json",
+  "review_sha256": "e8cb416b4fb0f3ded15c12fcafe8de0af7637a0bd41d5c4cb1535a5d6a2fe0c2",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2688.targets.json",
+  "target_before_sha256": "6d4bc62737a7dec366d713d924b9d0b7637fd066c4bdee9bc6d18849e263e2af",
+  "target_after_sha256": "fd3d8cfa14de33d351c3ade213a529ce53c5b1bdb829732463d009731b56f9c8",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2688,
+      2767
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2688,
+      "before": "Probably... But it does not seem to be only that.",
+      "after": "",
+      "reason": "Continuation of group2687–2689; whole meaning moved back to correct first-row anchor2687."
+    },
+    {
+      "resource_row": 2718,
+      "before": "A Maetropa fairy... this child...",
+      "after": "This child is a fairy from Maetropa...",
+      "reason": "Restore known subject and verb rather than ungrammatical detached fragments."
+    },
+    {
+      "resource_row": 2720,
+      "before": "Yes, yes. Surely a flower fairy.",
+      "after": "Yes, yes. This must be a flower fairy.",
+      "reason": "Restore subject and verb settled by immediately preceding dialogue."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        2761
+      ],
+      "issue": "Battle-start declaration may command companions or announce own attack. Current generic announcement retained; do not invent a particular target or gender."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

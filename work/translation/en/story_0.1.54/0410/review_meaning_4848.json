@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00410",
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_4848.targets.json",
+  "target_file_sha256": "89d1e1731340fdc1659253e6643f5311ffdefcddd7bf04153e82b9d2dbb5822b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4848,
+      4927
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4846,
+      4928
+    ]
+  ],
+  "rows_examined": 83,
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        4849,
+        4850,
+        4853,
+        4855,
+        4856,
+        4859,
+        4860,
+        4863,
+        4864,
+        4867,
+        4868,
+        4870,
+        4871,
+        4873,
+        4877,
+        4878,
+        4880,
+        4881,
+        4886,
+        4888,
+        4889,
+        4891,
+        4892,
+        4899,
+        4902,
+        4905,
+        4907,
+        4908,
+        4910,
+        4911,
+        4913,
+        4914,
+        4916,
+        4917,
+        4919,
+        4921,
+        4924,
+        4926,
+        4927
+      ],
+      "reason": "Physical VM continuation fragments; the complete source-box meaning is retained in its non-empty aligned fragment."
+    }
+  ],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context. Target file was not edited by this review."
+}

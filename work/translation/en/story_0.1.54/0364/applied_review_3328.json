@@ -1,0 +1,31 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0364/review_meaning_3328.json",
+  "review_sha256": "f44010b4824d542d9215cebfb5950386c236a63ba530c5ca79f4502cb4c41e5b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_3328.targets.json",
+  "target_before_sha256": "2b42f4c5a3e9a965bad968eb3ea492cf854446901e5cc855bd7afb3bdf619c60",
+  "target_after_sha256": "56ce1740e74dd521c82ffba0939b1483568fad13995396426616a2ea0cd4f47b",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3328,
+      3407
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3359,
+      "before": "deploy across the field!!",
+      "after": "deploy across the entire area!!",
+      "reason": "The source says full-area deployment; across the field narrows the scope."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        3351
+      ],
+      "issue": "The summoned attack name is retained as authored; this review found no source-context reason to alter it."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

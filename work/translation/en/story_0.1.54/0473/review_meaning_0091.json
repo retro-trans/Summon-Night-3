@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00473",
+  "source_sha256": "4f48f8c5bd69b7f5f02f39c68677ee39811a52c37b7692c44cef60ee0ce4a729",
+  "target_file": "work/translation/en/story_0.1.54/0473/slice_0091.targets.json",
+  "target_file_sha256": "835861fa5ad0b7cee35fd917a22c259d7fde3c429dd0b337f4a5c8920fa060a3",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      122
+    ],
+    "count": 32
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      122
+    ]
+  ],
+  "rows_examined": 113,
+  "corrections": [
+    {
+      "resource_row": 91,
+      "source_sha256": "e3291f5efd661a72c45a2ec3c2678951a929f5f19a38b9f181cf51afd6c9e7e7",
+      "text": "",
+      "reason": "Row 91 is the internal continuation of the row 90-91 VM box. The complete English belongs to row 90; repeating it here duplicates the line."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        90,
+        91
+      ],
+      "issue": "The retained row 90 future promise says the protagonist will accompany Subaru and help persuade the parents. It is not an immediate-trip reading; row 91 is removed only because it duplicates that same VM box."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        103,
+        104,
+        113,
+        114
+      ],
+      "issue": "The child deliberately names honeymoon and premarital travel in a literal but mistaken way; the existing English preserves those terms and the misunderstanding."
+    }
+  ],
+  "notes": "Independent source-first comparison against complete VM groups and context on both sides. Variant boxes remain separate; no source text was saved."
+}

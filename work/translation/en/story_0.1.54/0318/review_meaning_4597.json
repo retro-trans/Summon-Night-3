@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_4597.targets.json",
+  "target_file_sha256": "61b8a559ef80ae1fe6eefd59cfec0f1d4ff730a9244e97fe2e52d4e17b43f473",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4597,
+      4676
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      4596,
+      4918
+    ]
+  ],
+  "rows_examined": 323,
+  "corrections": [
+    {
+      "resource_row": 4619,
+      "source_sha256": "7cad6bbe2315c886bad011a68fd4fcbee7ab7fd05a8410e7f3d1606136e2979f",
+      "text": "unveil",
+      "reason": "Keep the complete predicate within this original dialogue group."
+    },
+    {
+      "resource_row": 4620,
+      "source_sha256": "9b1feb6382ce403749ce578a22abba23e77da262aafc9300b92e22b2e8885fba",
+      "text": "a new dish.",
+      "reason": "Remove a duplicated hearsay phrase; source reports it only once."
+    },
+    {
+      "resource_row": 4658,
+      "source_sha256": "bda03d3f43106bb4ce47edfb04fbb08f328d4969d90b2d63a9573ef633dc9887",
+      "text": "How could you serve something like that...?",
+      "reason": "The response expresses dismay at the food; it is not a request to identify it after it was already named."
+    },
+    {
+      "resource_row": 4668,
+      "source_sha256": "dafd70695fa832fb23b9e9c4e950753a300edc3f9e236ff46d32dec66fd0e15c",
+      "text": "That's the octopus's natural flavor.",
+      "reason": "Restore the English subject and verb that the Japanese copula construction supplies."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        4663,
+        4664
+      ],
+      "note": "The English uses singular they for the unidentified taster; no character gender is inferred from the cooking dialogue alone."
+    },
+    {
+      "rows": [
+        4609,
+        4610,
+        4611,
+        4612,
+        4651,
+        4652,
+        4653,
+        4654
+      ],
+      "note": "Creature vocalizations are localized as sounds, not assigned lexical meanings."
+    }
+  ],
+  "omissions": [
+    {
+      "note": "Cries, silence, interrupted questions and dependent clauses continuing across adjacent boxes retain their source function."
+    }
+  ],
+  "notes": "Root independently compared every full VM dialogue group and both-side context. Proposed fixes assessed with the full current group text, including adjacent slices. No stylistic rewrites."
+}

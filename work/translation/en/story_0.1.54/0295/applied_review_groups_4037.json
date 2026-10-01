@@ -1,0 +1,54 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_groups_4037.json",
+  "review_sha256": "d1cd72dd47543c120eb69b4a0862ba8c9f8583f9d48995f1ccd7cbb4be5cf92b",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4037.targets.json",
+  "target_before_sha256": "e54efada314fb276b4582e80f8d5b6e16b00b7eaa3545b8c365f2de43496f1d0",
+  "target_after_sha256": "82e8e33c1a6cfeb4c3751f4c395056db3110725ab01144b7c85cb8d9df1a1a1d",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4037,
+      4116
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4037,
+      "before": "I don't know what",
+      "after": "None of us knows",
+      "reason": "The source makes both the speaker and everyone else uncertain, rather than only the speaker."
+    },
+    {
+      "resource_row": 4038,
+      "before": "I or anyone else",
+      "after": "what to do",
+      "reason": "The source makes both the speaker and everyone else uncertain, rather than only the speaker."
+    },
+    {
+      "resource_row": 4039,
+      "before": "should do...",
+      "after": "anymore...",
+      "reason": "The source makes both the speaker and everyone else uncertain, rather than only the speaker."
+    },
+    {
+      "resource_row": 4040,
+      "before": "I don't know what",
+      "after": "None of us knows",
+      "reason": "Preserve the same collective uncertainty in the female route."
+    },
+    {
+      "resource_row": 4041,
+      "before": "any of us",
+      "after": "what to do",
+      "reason": "Preserve the same collective uncertainty in the female route."
+    },
+    {
+      "resource_row": 4042,
+      "before": "should do...",
+      "after": "anymore...",
+      "reason": "Preserve the same collective uncertainty in the female route."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

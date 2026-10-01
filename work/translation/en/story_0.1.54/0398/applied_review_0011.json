@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0398/review_meaning_0011.json",
+  "review_sha256": "a364e00215dfd77790d9d18ba3ffac0106862261d9150466633329a501fc06c5",
+  "target_file": "work/translation/en/story_0.1.54/0398/slice_0011.targets.json",
+  "target_before_sha256": "9d73d1ad738dd177b1c4faafd1e60765f3e4921e3bb517bc044ee9753f6e3537",
+  "target_after_sha256": "03da79e22d53840475c33f35e920a73e04370a7f101fc6835b26d87c35e8e994",
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      90
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 18,
+      "before": "You kept lecturing everyone about not being reckless, so why did you do something that reckless?",
+      "after": "After all those lectures about not being reckless, why did you do something so reckless yourself?",
+      "reason": "Source is speaker being lectured; everyone unsupported."
+    },
+    {
+      "resource_row": 20,
+      "before": "You kept lecturing everyone about not being reckless, so why did you do something that reckless?",
+      "after": "After all those lectures about not being reckless, why did you do something so reckless yourself?",
+      "reason": "Same direct complaint in female variant."
+    },
+    {
+      "resource_row": 39,
+      "before": "If we aren't right beside each other, we can't properly protect--or be protected...",
+      "after": "We can't properly protect each other unless we stay close...",
+      "reason": "Restore reciprocal object."
+    },
+    {
+      "resource_row": 84,
+      "before": "Now that my crew has scattered and I'm free of them, it's a good time...",
+      "after": "Now that the crew's scattered, we've got less tying us down. It's a good opportunity...",
+      "reason": "Free of them wrongly implies dislike of crew; source means greater freedom of movement."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

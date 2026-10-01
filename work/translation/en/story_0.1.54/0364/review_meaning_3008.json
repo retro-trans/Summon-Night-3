@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_3008.targets.json",
+  "target_file_sha256": "cb47c318cd1566a41da0f47bcd39776537b913911e43861ef4ace9165dffbc1a",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3008,
+      3087
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    2998,
+    3098
+  ],
+  "rows_examined": 101,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        3070,
+        3075
+      ],
+      "issue": "The dynamic marker ● and respectful suffix are retained without inventing a gendered English address."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [
+        3008,
+        3011,
+        3014,
+        3020,
+        3021,
+        3024,
+        3031,
+        3033,
+        3038,
+        3042,
+        3044,
+        3048,
+        3050,
+        3053,
+        3060,
+        3062,
+        3066,
+        3068,
+        3071,
+        3074,
+        3077
+      ],
+      "reason": "Continuation rows preserve complete sentence groups."
+    },
+    {
+      "rows": [
+        3010,
+        3016,
+        3017,
+        3018,
+        3019,
+        3023,
+        3026,
+        3027,
+        3028,
+        3029,
+        3030,
+        3036,
+        3037,
+        3047,
+        3056,
+        3057,
+        3058,
+        3059,
+        3064,
+        3065,
+        3070,
+        3073,
+        3076,
+        3080,
+        3081,
+        3082,
+        3083,
+        3084,
+        3085,
+        3086,
+        3087
+      ],
+      "reason": "Reactions, calls, pauses, and marker-address fragments retain their source function."
+    }
+  ],
+  "notes": "Independent reviewer compared every assigned source and authored English row with neighboring context. No semantic corrections are needed; no cosmetic rewrites are proposed."
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "reviewer": "root independent of author ch18_b",
+  "resource_id": "00:00485",
+  "source_sha256": "c0dbf4b04bd1cec02e230bc9dee685bdc7d8bd4401d82a016c8106d38a9cd078",
+  "target_file": "work/translation/en/story_0.1.54/0485/slice_2368.targets.json",
+  "target_file_sha256": "ab1762f233a6c65c83bbd3c66e07d716a07a55f79d8760c59866a6c610b319d9",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      2368,
+      2447
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      2367,
+      2448
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 2382,
+      "source_sha256": "90e99785f01cd921b3c3d74fc4f284f77ec5a753394cff444ffffefe2fb5cc8a",
+      "text": "And Meimei is another one of those people, right? Nyahahaha!",
+      "reason": "Remove duplicate note from anchor; original row2384 retains note."
+    },
+    {
+      "resource_row": 2426,
+      "source_sha256": "d628a956a413f507a994e465de78ea3e2f861ede1bb8289e39d8acc37175a4d2",
+      "text": "Yeah, I especially put my heart into combat training!",
+      "reason": "Remove duplicate note; original row2428 retains note."
+    },
+    {
+      "resource_row": 2429,
+      "source_sha256": "b7b6fb2902de8267e13f7a1773d10bd82b81374056b879903ba0c236b3b08d43",
+      "text": "Yeah, I especially put my heart into combat training!",
+      "reason": "Remove duplicate note; original row2431 retains note."
+    },
+    {
+      "resource_row": 2435,
+      "source_sha256": "b763e8e07d6dfc4e52d2dd8a40dc6f1c69fa2d86384d454f1be02c1ee533fb72",
+      "text": "Well, I'll admit you've put in the work to back that up.",
+      "reason": "Acknowledges earned boast, not fulfillment of a prior promise."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "rows": [
+        2423
+      ],
+      "issue": "Prompt completed by player choice; ellipsis retained."
+    }
+  ],
+  "notes": "All source VM groups and both slice boundaries read. No name-only edits; name normalization pending after meaning review."
+}

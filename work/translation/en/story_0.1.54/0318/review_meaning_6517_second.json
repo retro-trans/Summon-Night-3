@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review_supplemental",
+  "resource_id": "00:00318",
+  "source_sha256": "8aa51ea59bd85162c3a3d0b9192ded5555d4ec26d57712a720da686f6fa1aee9",
+  "target_file": "work/translation/en/story_0.1.54/0318/slice_6517.targets.json",
+  "target_file_sha256": "075bcbc67c073750b16bfba8a03b43aa64bd72dd4c71f8ccb1869d4d099a62c1",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      6517,
+      6596
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      6516,
+      6597
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 6559,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "text": "...",
+      "reason": "Restore the complete silent ellipsis box."
+    },
+    {
+      "resource_row": 6572,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "text": "...",
+      "reason": "Restore the complete silent ellipsis box."
+    },
+    {
+      "resource_row": 6526,
+      "source_sha256": "6610ca8705b9c6a59bf757f71ef7c4e6d87d4791e8de1701950bd67941ba8641",
+      "text": "She was still wounded,",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6527,
+      "source_sha256": "3d2f2998074d7dcc06e35e868481e434c4d787235156fd036472ef9debb8e9aa",
+      "text": "yet didn't even blink.",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6528,
+      "source_sha256": "b068167510bfd60e5651f8b025db99cc292facdadead703a2ad20ccb9cc952af",
+      "text": "I stood beside her as she",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6529,
+      "source_sha256": "94c4d635f130c9f57ef50d8bf589547a19bf6e1e96a1c69a4d0c959140e765d0",
+      "text": "bade her subordinates a final farewell...",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6556,
+      "source_sha256": "51f818e25b8a027b2688b0f5aab13be2824d7ef6a97eef03074cbc7608827905",
+      "text": "The sight of her silently",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    },
+    {
+      "resource_row": 6557,
+      "source_sha256": "72f0795eff303fefd383941942d37aa13941377a4b8930c23e7bf3315649cfb0",
+      "text": "seeing off her subordinates told me so, too...",
+      "reason": "Root independently checked the complete source group: restore the correct actor or temporal meaning, remove duplicated filler, and preserve the instructor role."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Fresh supplemental review compared complete VM dialogue groups with both-side context. Reports only missed complete-box restorations; no target file was edited. Root additionally compared all closing-scene source groups 6517–7072 and added substantive actor, meaning, and duplicated-filler corrections."
+}

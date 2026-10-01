@@ -1,0 +1,42 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0467/review_meaning_0091.json",
+  "review_sha256": "68cf6eed937573261520e9e99a3f183b27b6d1178a9d1b19c939cbf0a01e0290",
+  "target_file": "work/translation/en/story_0.1.54/0467/slice_0091.targets.json",
+  "target_before_sha256": "9c88b6f903947a3812cb8112bf3a966414b57f3efd2062873f691426c6b1e9e8",
+  "target_after_sha256": "ed9eddd25f2babba51f947a327a6c325c040fd526350b11ca4613e94e4b3bef2",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      166
+    ],
+    "count": 76
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 95,
+      "before": "Kyle, did you see anything interesting?",
+      "after": "Did you see anything interesting?",
+      "reason": "Kyle is the speaker asking the protagonist; addressing Kyle here reverses the roles, as97and98confirm."
+    },
+    {
+      "resource_row": 96,
+      "before": "",
+      "after": "",
+      "reason": "Internal continuation of95, no separate source box."
+    },
+    {
+      "resource_row": 98,
+      "before": "No, since I invited you, I was worried you might be bored.",
+      "after": "Well, since I invited you, I was worried you might be bored.",
+      "reason": "Source interjection introduces the reason Kyle asks; it is not a denial of the protagonist mentioning his name."
+    },
+    {
+      "resource_row": 99,
+      "before": "",
+      "after": "",
+      "reason": "Internal continuation of98."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

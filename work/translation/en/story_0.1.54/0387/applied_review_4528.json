@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0387/review_meaning_4528.json",
+  "review_sha256": "762b55e3ecc80f4080e3f250ac93f422cbafece6adce0a5db1e626a03cf51e11",
+  "target_file": "work/translation/en/story_0.1.54/0387/slice_4528.targets.json",
+  "target_before_sha256": "4881b3ae75f7c8a44d764df3e1187aac21c2791ace684c8a57c99777f79fc08b",
+  "target_after_sha256": "f1016d80a9eaff1e5949e04fcf62a7d43a75e4e82aa34ed6fec350ba6980639c",
+  "reviewed_rows": {
+    "range_inclusive": [
+      4528,
+      4607
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 4528,
+      "before": "guide you.",
+      "after": "",
+      "reason": "This continuation duplicates the complete box already preserved in row 4527."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

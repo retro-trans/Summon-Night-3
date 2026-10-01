@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00281",
+  "source_sha256": "b08c53c43a186a0076cac7c6b98b200e020fb786d1152087695853f46048b072",
+  "target_file": "work/translation/en/story_0.1.54/0281/slice_0011.targets.json",
+  "target_file_sha256": "1425c590824307ed86cc948da5dbcbd89425ae6fb1fe555755efe6d1f1f604d2",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      11,
+      61
+    ],
+    "count": 51
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      61
+    ]
+  ],
+  "rows_examined": 52,
+  "corrections": [
+    {
+      "resource_row": 43,
+      "source_sha256": "27e5a191a7c5a5b7b34d47af17cef6e0aa5a3d242d064a0c0c97f13d6413cc3e",
+      "text": "You say that, but you would probably overdo it.",
+      "reason": "The source predicts the listener will push themself too hard; it does not say they merely look ready to do so."
+    },
+    {
+      "resource_row": 44,
+      "source_sha256": "9fe54b64238fcc3fba355978e410a55fb061f4d96ff97fabf813db61fdd2e666",
+      "text": "",
+      "reason": "The corrected full meaning is anchored at row 43; this physical continuation must be blank to avoid duplicating the box."
+    },
+    {
+      "resource_row": 12,
+      "source_sha256": "3aaa554e6205e1cad93af9b81b36ce27923eff19798769ea1f5da3b5ba020043",
+      "text": "they can't face me yet, huh?",
+      "reason": "The person cannot face the protagonist until sorting out their feelings; they are not unable to see anyone."
+    },
+    {
+      "resource_row": 21,
+      "source_sha256": "fdc43d20d7f59ad9a9f9c790b88bedb197828d08632c5940930a1c4469516613",
+      "text": "can't face me yet, huh...",
+      "reason": "The person cannot face the protagonist until sorting out their feelings; they are not unable to see anyone."
+    },
+    {
+      "resource_row": 30,
+      "source_sha256": "029f670752279966eb307e6423897fba564a4da9ba0818720e6f8c819c02aebd",
+      "text": "Ah, yeah... Just a little...",
+      "reason": "The source is an evasive “a little,” not a claim that the speaker was somewhere unspecified."
+    },
+    {
+      "resource_row": 31,
+      "source_sha256": "30e941df028f9386560a0f8623fa1bb65329e71e9fbb7e18fb79bd75a3831d63",
+      "text": "",
+      "reason": "The corrected full meaning is anchored at row 30; this continuation must be blank."
+    },
+    {
+      "resource_row": 32,
+      "source_sha256": "c17a07e74801c88f437ead57ba2ade3e3c20c168111c927d888998fe5ade9f19",
+      "text": "I can't possibly tell them the truth...",
+      "reason": "The source expresses that the truth cannot possibly be told; “not now” is not present."
+    },
+    {
+      "resource_row": 33,
+      "source_sha256": "fd85df0eb1a45fbe8cb6b83b085fc800feb249ec95eea95ac1c277f3400806b7",
+      "text": "",
+      "reason": "The corrected full meaning is anchored at row 32; this continuation must be blank."
+    },
+    {
+      "resource_row": 34,
+      "source_sha256": "7339eefb5ba61cd4ab8874ea4adedd872fcd2060cf1bf9be574949a7ec80442c",
+      "text": "I can't possibly tell them the truth...",
+      "reason": "The source expresses that the truth cannot possibly be told; “not now” is not present."
+    },
+    {
+      "resource_row": 35,
+      "source_sha256": "fd85df0eb1a45fbe8cb6b83b085fc800feb249ec95eea95ac1c277f3400806b7",
+      "text": "",
+      "reason": "The corrected full meaning is anchored at row 34; this continuation must be blank."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first renewed review of the full 11–61 dialogue scene. Re-read dialogue context confirms the listener cannot face the protagonist, and the evasive/withheld-truth groups are fully box-bound."
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00278",
+  "source_sha256": "39cbc59ab63d175e081abbb6c55b674b5b6b99c9a7fa103600c86df100523137",
+  "target_file": "work/translation/en/story_0.1.54/0278/slice_0011.targets.json",
+  "target_file_sha256": "077469df946f3fb70a9e9953b04a967ff41cff9d705e8baea52b94269f822d73",
+  "semantic_complete": false,
+  "reviewed_rows": {
+    "range_inclusive": [11, 58],
+    "count": 48
+  },
+  "source_ranges_examined": [[0, 58]],
+  "rows_examined": 59,
+  "corrections": [
+    {
+      "resource_row": 32,
+      "source_sha256": "c17a07e74801c88f437ead57ba2ade3e3c20c168111c927d888998fe5ade9f19",
+      "text": "I cannot tell them the truth,",
+      "reason": "The source does not identify the person the protagonists cannot tell. Full resource context does not settle gender, so the authored feminine pronoun over-resolves the reference."
+    },
+    {
+      "resource_row": 34,
+      "source_sha256": "7339eefb5ba61cd4ab8874ea4adedd872fcd2060cf1bf9be574949a7ec80442c",
+      "text": "I cannot tell them the truth,",
+      "reason": "The paired protagonist branch has the same unresolved referent. Use neutral singular they rather than inferring a feminine pronoun."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [11, 12, 16, 17, 18, 19, 20, 21, 25, 26, 27],
+      "issue": "The person who needs time to sort out their feelings is not named or gendered in this resource. The authored singular they and the decision to leave them alone preserve that unresolved reference; no correction proposed."
+    }
+  ],
+  "omissions": [
+    {
+      "rows": [12, 13, 18, 20, 21, 22, 27, 30, 31, 33, 35, 38, 39, 40, 41, 44, 49, 51, 53, 56],
+      "reason": "Pauses, acknowledgements, brief denials, and short reactions. The authored English retains their conversational function."
+    },
+    {
+      "rows": [11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28, 29, 32, 33, 34, 35, 36, 37, 42, 43, 45, 46, 47, 48, 51, 52, 53, 54, 55, 56, 57, 58],
+      "reason": "Physical continuation rows. The authored English joins each with adjacent source fragments; corrections are limited to the unresolved pronoun in rows 32 and 34."
+    }
+  ],
+  "notes": "Reviewed original Japanese against the authored target across full resource context. Two pronoun-reference corrections are required; request direction in rows 47-48 is preserved."
+}

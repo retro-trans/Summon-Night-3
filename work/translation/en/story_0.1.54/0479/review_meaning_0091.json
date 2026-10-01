@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00479",
+  "source_sha256": "b8bf82322db1bff21779b47c44ee2effaedc2ab100b7f8ab4c1368d85490afd0",
+  "target_file": "work/translation/en/story_0.1.54/0479/slice_0091.targets.json",
+  "target_file_sha256": "50cc22d6edbbbd9af02898f8b6f7d2bb919b96549d3d3bf6a18537cf611d9354",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      103
+    ],
+    "count": 13
+  },
+  "source_ranges_examined": [
+    [
+      10,
+      103
+    ]
+  ],
+  "rows_examined": 94,
+  "corrections": [
+    {
+      "resource_row": 91,
+      "source_sha256": "2f95330331f8c9ed87ae00371478a1f3503688f4f7bf8459528aa12e0f3106b6",
+      "text": "",
+      "reason": "Restore the stammer and deck request inside their source VM box; the existing target shifts the complete meaning to its last row."
+    }
+  ],
+  "uncertainties": [],
+  "omissions": [],
+  "notes": "Independent source-first review of actual VM dialogue groups and full scene context. Proper-name normalization is deferred to the name script."
+}

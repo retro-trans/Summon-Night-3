@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00295",
+  "source_sha256": "ecb1cbdf446010206c35a63693af8836be1fb31ce3ca5d3decc4696143b53f2d",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_4997.targets.json",
+  "target_file_sha256": "869c1204153812617b59d2d7eec3216080b6ce5d554b077c150be60e55e7a39b",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      4997,
+      5076
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3957,
+      5156
+    ]
+  ],
+  "rows_examined": 1200,
+  "dialogue_group_boundaries_verified": true,
+  "reviewer": "root: independent source and VM-group review",
+  "corrections": [],
+  "uncertainties": [],
+  "omissions": [
+    {
+      "reason": "Original pauses and explicitly interrupted utterances retained; continuous same-speaker clauses remain across separate source boxes where already faithful."
+    }
+  ]
+}

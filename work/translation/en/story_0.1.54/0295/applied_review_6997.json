@@ -1,0 +1,145 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0295/review_meaning_6997.json",
+  "review_sha256": "a130e7d612bd0290bd1bd4df39a86cb594be541543bd67effbf368d2069865d7",
+  "target_file": "work/translation/en/story_0.1.54/0295/slice_6997.targets.json",
+  "target_before_sha256": "437e0fa31bf26a84119db2326608b2ca5905ae802227ccca4c798dec6eba95d0",
+  "target_after_sha256": "ceb87cd26aaf962a62e308859f48ea3390b5b77dc3f43f9dc3dee2a6c1464669",
+  "reviewed_rows": {
+    "range_inclusive": [
+      6997,
+      7076
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 7003,
+      "before": "I cannot let",
+      "after": "Those feelings...",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7004,
+      "before": "those feelings",
+      "after": "I cannot let them",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7007,
+      "before": "to finally seal away the past.",
+      "after": "to finally seal away the past,",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7008,
+      "before": "I cannot let",
+      "after": "so those feelings...",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7009,
+      "before": "those feelings",
+      "after": "I cannot let them",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7028,
+      "before": "Then we will not",
+      "after": "Then we too...",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7029,
+      "before": "lose, either. Let us",
+      "after": "will not lose,",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7030,
+      "before": "do our duty!!",
+      "after": "and will do our duty!!",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7036,
+      "before": "That is",
+      "after": "That is a Guardian's duty.",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    },
+    {
+      "resource_row": 7037,
+      "before": "a Guardian's duty. You acknowledge that, right?",
+      "after": "You acknowledge that, right?",
+      "reason": "Revised after complete in-memory VM-group simulation; restores the source meaning and keeps the full utterance within its display group."
+    },
+    {
+      "resource_row": 7064,
+      "before": "That is not right...",
+      "after": "This is not right...",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7065,
+      "before": "It should not",
+      "after": "It should not be like this...",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7066,
+      "before": "have been summoned.",
+      "after": "I did not mean",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7067,
+      "before": "I did not mean",
+      "after": "to summon it,",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7068,
+      "before": "to summon it!",
+      "after": "so why!?",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7070,
+      "before": "It should not",
+      "after": "It should not be like this...",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7071,
+      "before": "have been summoned.",
+      "after": "I did not mean",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7072,
+      "before": "I did not mean",
+      "after": "to summon it,",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7073,
+      "before": "to summon it!",
+      "after": "so why!?",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    },
+    {
+      "resource_row": 7074,
+      "before": "Until sorrow...",
+      "after": "Sorrow...",
+      "reason": "The current English moves a clause, endpoint, or reaction across a VM display-group boundary. This proposal restores the source meaning within its own group."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        7046
+      ],
+      "issue": "Azlia is a known stale spelling for Azlier; root will normalize it separately from meaning review."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

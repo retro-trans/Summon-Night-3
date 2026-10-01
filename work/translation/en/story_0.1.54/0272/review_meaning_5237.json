@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "independent_review": true,
+  "reviewer": "ch18_a, independent of target author",
+  "resource_id": "00:00272",
+  "source_sha256": "2af4abd115af6be82210ed8a5bc3825f6743d5aa763bfcb101d24f340d38a587",
+  "target_file": "work/translation/en/story_0.1.54/0272/slice_5237.targets.json",
+  "target_file_sha256": "df0ba6256360c53c4029e6e7a085616faef2a3c5a9e55303967fe6d16b2aaad4",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      5237,
+      5316
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      5236,
+      5317
+    ]
+  ],
+  "rows_examined": 82,
+  "corrections": [
+    {
+      "resource_row": 5247,
+      "source_sha256": "ae101aef42db32b189c4d70452992eb6bb1468d682c1b1aa4e5076cdaeec7545",
+      "before": "I set off",
+      "text": "Fariel set off",
+      "after": "Fariel set off",
+      "reason": "The prior question establishes Fariel as the person being discussed; this line says she set out to go to the player. The current text incorrectly makes the responding speaker depart."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "Player-marker lines are preserved as source controls; no player identity or gender inferred."
+    }
+  ],
+  "omissions": [],
+  "notes": "All source VM groups and both boundaries read. Source-first meaning review only; no target applied."
+}

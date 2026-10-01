@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_marker_audit",
+  "independent_review": true,
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_1808.targets.json",
+  "target_file_sha256": "46184a323aab613f83764e083c99567483ada5883aca975fecd5484e4eca7c35",
+  "semantic_complete": false,
+  "reviewed_rows": {
+    "range_inclusive": [
+      1836,
+      1853
+    ],
+    "count": 18
+  },
+  "source_ranges_examined": [
+    [
+      1836,
+      1853
+    ]
+  ],
+  "rows_examined": 18,
+  "corrections": [
+    {
+      "resource_row": 1845,
+      "source_sha256": "03c7632eb0165bad7d9d45f7c1baad24db2c82e164a582ad57962bd097191b95",
+      "before": "Ahahahahaha! ♪",
+      "text": "Ahahahahaha!",
+      "after": "Ahahahahaha!",
+      "reason": "The source has a single music token, on physical row 1844. The target already retains it on row 1844 and incorrectly repeats it on row 1845."
+    }
+  ],
+  "uncertainties": [
+    {
+      "issue": "The neighboring dialogue is physically shifted across several boxes (for example, the prior stop line and laughter), but this supplemental audit is scoped to marker count and placement only."
+    }
+  ],
+  "omissions": [],
+  "notes": "No target applied. Source token audit: source ♪ rows [1844]; current target ♪ rows [1844, 1845]."
+}

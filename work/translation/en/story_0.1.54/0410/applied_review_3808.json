@@ -1,0 +1,54 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0410/review_meaning_3808.json",
+  "review_sha256": "ce52956951f0e4dd8840dcb57c5b69110a6a2be1f77235d24415a25be8e2dc86",
+  "target_file": "work/translation/en/story_0.1.54/0410/slice_3808.targets.json",
+  "target_before_sha256": "27c526e773d5503c4847cf0627490397b8b8d5b933eb3c3734c3b06c53293d47",
+  "target_after_sha256": "848aabef9fc379e018ef93221a8c6f1be76a01b445de1e6ae9d59d650ceca773",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3808,
+      3887
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3817,
+      "before": "Even in how you wear",
+      "after": "Even in how we wear masks of laughter to hide our true feelings, we are alike.",
+      "reason": "The source compares both speakers; the target assigns the mask only to the listener, obscuring the stated shared trait."
+    },
+    {
+      "resource_row": 3818,
+      "before": "a mask of laughter to hide",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 3819,
+      "before": "your true feelings.",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 3821,
+      "before": "You even wear a mask of laughter",
+      "after": "Even in how we wear masks of laughter to hide our true feelings, we are alike.",
+      "reason": "The source compares both speakers; the target assigns the mask only to the listener, obscuring the stated shared trait."
+    },
+    {
+      "resource_row": 3822,
+      "before": "to hide your true feelings--",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    },
+    {
+      "resource_row": 3823,
+      "before": "you're exactly alike...",
+      "after": "",
+      "reason": "Continuation cleared so the corrected complete VM-box translation appears once."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

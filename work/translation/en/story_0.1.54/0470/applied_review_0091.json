@@ -1,0 +1,46 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0470/review_meaning_0091.json",
+  "review_sha256": "b987e2df8a6eed22778fd37ca5a788c8ff20ec92beaa689ed3559540acee715e",
+  "target_file": "work/translation/en/story_0.1.54/0470/slice_0091.targets.json",
+  "target_before_sha256": "032bc7d0d815c4aa3042b017b1b18b8278fc78237c2c082c3351c09c7f87f2a7",
+  "target_after_sha256": "661d8959af4cf7a6b0c0577cab35bbe2625bf241d4125f4c6b7683037ce6b656",
+  "reviewed_rows": {
+    "range_inclusive": [
+      91,
+      126
+    ],
+    "count": 36
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 101,
+      "before": "You said you wanted to pass the summoning arts you learned on to disciples,",
+      "after": "You said you wanted to pass the summoning arts you learned on to disciples, so they could use them properly...",
+      "reason": "Restore the stated purpose: disciples are to use the taught summoning arts properly."
+    },
+    {
+      "resource_row": 102,
+      "before": "",
+      "after": "",
+      "reason": "Restore the stated purpose within the same VM box."
+    },
+    {
+      "resource_row": 117,
+      "before": "Um... the answer you promised...",
+      "after": "Um... about the answer I promised you...",
+      "reason": "The female protagonist refers to the answer she promised Yard; the existing English reverses that direction."
+    },
+    {
+      "resource_row": 118,
+      "before": "",
+      "after": "",
+      "reason": "Keep the promised-answer clause in its original VM box without expanding its implied outcome."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "issue": "The promised answer is intentionally left implied by the reciprocal statements of present happiness; no explicit acceptance or rejection should be invented."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_source_first_meaning_review",
+  "resource_id": "00:00433",
+  "source_sha256": "e5658b4ecc8462cb5bfdaa0918e98d4cb79eed26406c8574d4459341fbccbe98",
+  "target_file": "work/translation/en/story_0.1.54/0433/slice_3648.targets.json",
+  "target_file_sha256": "2b249937b398ae4de0fa5eebc3c3e8395d0dda8a72160aedf4e7583d0fe6b903",
+  "semantic_complete": true,
+  "reviewed_rows": {
+    "range_inclusive": [
+      3648,
+      3727
+    ],
+    "count": 80
+  },
+  "source_ranges_examined": [
+    [
+      3647,
+      3730
+    ]
+  ],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        3649,
+        3692
+      ],
+      "issue": "Name-only: リクト appears as Rikto; chapter48_additions_0.1.14 locks Rikuto. Defer to scoped normalization."
+    }
+  ],
+  "omissions": [],
+  "notes": "Independent source-first review of complete VM dialogue groups and both-side context. No meaning correction is proposed."
+}

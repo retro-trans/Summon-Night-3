@@ -1,0 +1,1147 @@
+{
+  "resource_id": "00:00410",
+  "range_inclusive": [
+    4048,
+    4127
+  ],
+  "source_sha256": "54671dad8a90176afdd462435d95e6c6f0fe9580acd13edb52e8fd47d045ff86",
+  "review_status": "author self-check; no independent meaning review",
+  "source_ranges_examined": [
+    [
+      3886,
+      4289
+    ]
+  ],
+  "rows_examined": 404,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    "3888 is intentionally empty: the preceding slice owns the dialogue box that begins at 3886.",
+    "4048–4049 are intentionally empty: the preceding slice owns the box that begins at 4047.",
+    "4287 holds the full translated line for the final box; the following slice leaves its two continuations empty by boundary agreement.",
+    "病魔の呪い is rendered descriptively as the Plague Curse; no project glossary entry establishes a unique proper name."
+  ],
+  "preserved_source_omissions": [],
+  "notes": "Resource 410 rows 3888–4287. Read complete VM boxes through adjoining rows 3886 and 4289. Boundary continuations at 3888, 4048–4049, and 4288–4289 are intentionally empty where the adjacent slice owns the complete box.",
+  "translations": {
+    "00:00410:text:000422c4": {
+      "source_offset": 271044,
+      "pool_word_offset": 39460,
+      "source_byte_length": 22,
+      "source_sha256": "76b865708d1f50cc646f440cf363a7f58583c9d7bb924f105137d9eebc495b09",
+      "contains_japanese": true,
+      "reference_instructions": [
+        152746
+      ],
+      "id": "00:00410:text:000422c4",
+      "resource_row": 4048,
+      "text": "",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000422dc": {
+      "source_offset": 271068,
+      "pool_word_offset": 39472,
+      "source_byte_length": 26,
+      "source_sha256": "dbfa8cf71ac56113a140edbe237642af284c8530826dd5fa5477d722bb2e6bb2",
+      "contains_japanese": true,
+      "reference_instructions": [
+        152754
+      ],
+      "id": "00:00410:text:000422dc",
+      "resource_row": 4049,
+      "text": "",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000422f8": {
+      "source_offset": 271096,
+      "pool_word_offset": 39486,
+      "source_byte_length": 16,
+      "source_sha256": "ef439d8450b00d35d3ec22e594acb4cda22ef7295a162fbc58335c7ffb905c06",
+      "contains_japanese": true,
+      "reference_instructions": [
+        152792
+      ],
+      "id": "00:00410:text:000422f8",
+      "resource_row": 4050,
+      "text": "But...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004230a": {
+      "source_offset": 271114,
+      "pool_word_offset": 39495,
+      "source_byte_length": 20,
+      "source_sha256": "da67bef6740dbc32e54cac94575d0e7d22c4db4a0df5520caf77c1e5af6ee5b0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        152830
+      ],
+      "id": "00:00410:text:0004230a",
+      "resource_row": 4051,
+      "text": "I will never forgive you",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042320": {
+      "source_offset": 271136,
+      "pool_word_offset": 39506,
+      "source_byte_length": 18,
+      "source_sha256": "99c04a98072b6f43b403dbf5f6d409cfb3d16b5e458f7f5c2017e8f7ecc4a0e6",
+      "contains_japanese": true,
+      "reference_instructions": [
+        152838
+      ],
+      "id": "00:00410:text:00042320",
+      "resource_row": 4052,
+      "text": "for criticizing",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042334": {
+      "source_offset": 271156,
+      "pool_word_offset": 39516,
+      "source_byte_length": 18,
+      "source_sha256": "9c737297375d7a50a7ab126100d39ab33905851adc60e9751b987f3ba8ffef4d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        152846
+      ],
+      "id": "00:00410:text:00042334",
+      "resource_row": 4053,
+      "text": "the way I live!!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042348": {
+      "source_offset": 271176,
+      "pool_word_offset": 39526,
+      "source_byte_length": 12,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        152994
+      ],
+      "id": "00:00410:text:00042348",
+      "resource_row": 4054,
+      "text": "...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042356": {
+      "source_offset": 271190,
+      "pool_word_offset": 39533,
+      "source_byte_length": 22,
+      "source_sha256": "89958b343953c64e76d095981c6fdd716475acb1aca4fb51f81b0fff5044c996",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153192
+      ],
+      "id": "00:00410:text:00042356",
+      "resource_row": 4055,
+      "text": "Hey... You're really",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004236e": {
+      "source_offset": 271214,
+      "pool_word_offset": 39545,
+      "source_byte_length": 20,
+      "source_sha256": "a26a4c918a8ba11aababe4480723565376790625b28f48ac16a8dc23d6ef15f9",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153200
+      ],
+      "id": "00:00410:text:0004236e",
+      "resource_row": 4056,
+      "text": "jealous of",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042384": {
+      "source_offset": 271236,
+      "pool_word_offset": 39556,
+      "source_byte_length": 16,
+      "source_sha256": "3e80dbcb3aac7713d9e96c72fbc0fecbf0731e77df303f81cfc6b1a448064c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153208
+      ],
+      "id": "00:00410:text:00042384",
+      "resource_row": 4057,
+      "text": "Teacher, aren't you?",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042396": {
+      "source_offset": 271254,
+      "pool_word_offset": 39565,
+      "source_byte_length": 14,
+      "source_sha256": "da2a99338d0f54b49f28cb15ba352e749ea8aa1a2c556a97256c2b7522aab680",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153246
+      ],
+      "id": "00:00410:text:00042396",
+      "resource_row": 4058,
+      "text": "W-what?!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000423a6": {
+      "source_offset": 271270,
+      "pool_word_offset": 39573,
+      "source_byte_length": 20,
+      "source_sha256": "aa647abcbbc81ef69972b87c16fe0d84a385ff9c3ee35faf8bf9a2ef52dcbc08",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153284
+      ],
+      "id": "00:00410:text:000423a6",
+      "resource_row": 4059,
+      "text": "Otherwise you would not get this",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000423bc": {
+      "source_offset": 271292,
+      "pool_word_offset": 39584,
+      "source_byte_length": 18,
+      "source_sha256": "8d885d20587d7082d37d302d661f8f120a46c22443ddce5332d9f21ad1582d27",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153292
+      ],
+      "id": "00:00410:text:000423bc",
+      "resource_row": 4060,
+      "text": "worked up and push",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000423d0": {
+      "source_offset": 271312,
+      "pool_word_offset": 39594,
+      "source_byte_length": 18,
+      "source_sha256": "54f30688610cf562ee3918f1cec76ea1a567cf31ce5cff40272ec537fca27cf0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153300
+      ],
+      "id": "00:00410:text:000423d0",
+      "resource_row": 4061,
+      "text": "back so hard.",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000423e4": {
+      "source_offset": 271332,
+      "pool_word_offset": 39604,
+      "source_byte_length": 18,
+      "source_sha256": "d5cd71f5cc7ef491b756285e4ce5ad0979f3cba7d31c3897fa88aa2b065785ca",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153336
+      ],
+      "id": "00:00410:text:000423e4",
+      "resource_row": 4062,
+      "text": "Your envy is so obvious.",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000423f8": {
+      "source_offset": 271352,
+      "pool_word_offset": 39614,
+      "source_byte_length": 18,
+      "source_sha256": "c3277b34fbcca57fbcb48e1e4ad463960edfbd6bd2e0d559c894890c6cbd42fc",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153344
+      ],
+      "id": "00:00410:text:000423f8",
+      "resource_row": 4063,
+      "text": "It's pathetic...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004240c": {
+      "source_offset": 271372,
+      "pool_word_offset": 39624,
+      "source_byte_length": 20,
+      "source_sha256": "015dac599f8c0b3b8cffb8e4ec52fca3cd8f8e73b31de40ec5203365974681c2",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153380
+      ],
+      "id": "00:00410:text:0004240c",
+      "resource_row": 4064,
+      "text": "Ugh...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042422": {
+      "source_offset": 271394,
+      "pool_word_offset": 39635,
+      "source_byte_length": 26,
+      "source_sha256": "3055a7c8b845f4067e7b18d408207d2b7df3c51c712fcc682c1d55771c9281dc",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153418
+      ],
+      "id": "00:00410:text:00042422",
+      "resource_row": 4065,
+      "text": "Instead of shouting, realize",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004243e": {
+      "source_offset": 271422,
+      "pool_word_offset": 39649,
+      "source_byte_length": 28,
+      "source_sha256": "cc2bd51ca668198d33345e80ce8d9cf1813dc524afca19b363c4e23ff33b39c8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153426
+      ],
+      "id": "00:00410:text:0004243e",
+      "resource_row": 4066,
+      "text": "there are things you need to think",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004245c": {
+      "source_offset": 271452,
+      "pool_word_offset": 39664,
+      "source_byte_length": 24,
+      "source_sha256": "1584892ff2d21e7e8155571e660f615b31f4c9c930905d3f8a0ae0b2e36988a1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153434
+      ],
+      "id": "00:00410:text:0004245c",
+      "resource_row": 4067,
+      "text": "about first!!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042476": {
+      "source_offset": 271478,
+      "pool_word_offset": 39677,
+      "source_byte_length": 20,
+      "source_sha256": "18cff8bac8d3380b4f23a0b5b8cbec227f10a9af9a7fcc9f2b8f03a6dd86e093",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153510
+      ],
+      "id": "00:00410:text:00042476",
+      "resource_row": 4068,
+      "text": "Will you please",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004248c": {
+      "source_offset": 271500,
+      "pool_word_offset": 39688,
+      "source_byte_length": 14,
+      "source_sha256": "135cdbc20a1ae1b043ccfa56c30cb2e47942d8b030e0354371735e74fb770bde",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153518
+      ],
+      "id": "00:00410:text:0004248c",
+      "resource_row": 4069,
+      "text": "give it a rest?",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004249c": {
+      "source_offset": 271516,
+      "pool_word_offset": 39696,
+      "source_byte_length": 18,
+      "source_sha256": "ae812d70a11df795790202d82acf5cc15ff37d0d4d248fb1ee07e6810051bde5",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153564
+      ],
+      "id": "00:00410:text:0004249c",
+      "resource_row": 4070,
+      "text": "Just as seeing Teacher makes you",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000424b0": {
+      "source_offset": 271536,
+      "pool_word_offset": 39706,
+      "source_byte_length": 18,
+      "source_sha256": "013f3665cf53925150d29cb0001cec14f50aaf3c68cdccdc7909f63429342370",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153572
+      ],
+      "id": "00:00410:text:000424b0",
+      "resource_row": 4071,
+      "text": "so angry",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000424c4": {
+      "source_offset": 271556,
+      "pool_word_offset": 39716,
+      "source_byte_length": 20,
+      "source_sha256": "2937a186d169dd3e2d8f167efb110f85ab8484970cc2c5e8d7b0c488cb64eeed",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153580
+      ],
+      "id": "00:00410:text:000424c4",
+      "resource_row": 4072,
+      "text": "and irritated,",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000424da": {
+      "source_offset": 271578,
+      "pool_word_offset": 39727,
+      "source_byte_length": 28,
+      "source_sha256": "7b14cac2ef43af5fe7d39ac1eef53a0b173cd2afa4559fe56dd6df520f638982",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153618
+      ],
+      "id": "00:00410:text:000424da",
+      "resource_row": 4073,
+      "text": "seeing you makes me",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000424f8": {
+      "source_offset": 271608,
+      "pool_word_offset": 39742,
+      "source_byte_length": 26,
+      "source_sha256": "99d1c8be5d0ae8357fca9188cd952a148a171f3d35ac82271d850d57a26290db",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153626
+      ],
+      "id": "00:00410:text:000424f8",
+      "resource_row": 4074,
+      "text": "angry and irritated too!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042514": {
+      "source_offset": 271636,
+      "pool_word_offset": 39756,
+      "source_byte_length": 18,
+      "source_sha256": "f686abee0985f9d4709217238cfee6f6c73d2011862f1afa2c79be9bbf0178b4",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153634
+      ],
+      "id": "00:00410:text:00042514",
+      "resource_row": 4075,
+      "text": "I'm being perfectly clear!!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042528": {
+      "source_offset": 271656,
+      "pool_word_offset": 39766,
+      "source_byte_length": 12,
+      "source_sha256": "6eccaeaa3f774f227e649ca3d1879ec3d9166eae8f8d320ecf21558664262774",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153670
+      ],
+      "id": "00:00410:text:00042528",
+      "resource_row": 4076,
+      "text": "...!?",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042536": {
+      "source_offset": 271670,
+      "pool_word_offset": 39773,
+      "source_byte_length": 28,
+      "source_sha256": "aa9b43dc4db461fba275f4e86bdf29abebe80d5f18bfd83ce5241c2cc1f547d3",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153708
+      ],
+      "id": "00:00410:text:00042536",
+      "resource_row": 4077,
+      "text": "Honestly, what is your problem? Since",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042554": {
+      "source_offset": 271700,
+      "pool_word_offset": 39788,
+      "source_byte_length": 24,
+      "source_sha256": "ea36b1839a573bcb96ba4817032d7bb3d740a8c0111f2420dee21d4db18535f4",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153716
+      ],
+      "id": "00:00410:text:00042554",
+      "resource_row": 4078,
+      "text": "we've been listening, you've done nothing",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004256e": {
+      "source_offset": 271726,
+      "pool_word_offset": 39801,
+      "source_byte_length": 26,
+      "source_sha256": "fe26de41b230ec9eead9ed2352a67653427bae83db2601e25e5eb143838f36d2",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153724
+      ],
+      "id": "00:00410:text:0004256e",
+      "resource_row": 4079,
+      "text": "but rattle on about your own views...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004258a": {
+      "source_offset": 271754,
+      "pool_word_offset": 39815,
+      "source_byte_length": 22,
+      "source_sha256": "b883c3e25da5120724bdc3d3abf4b00d62f4e38243803cbf2e200131e3a401fb",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153762
+      ],
+      "id": "00:00410:text:0004258a",
+      "resource_row": 4080,
+      "text": "Because they stay silent, you think",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000425a2": {
+      "source_offset": 271778,
+      "pool_word_offset": 39827,
+      "source_byte_length": 24,
+      "source_sha256": "c09f9a2617ba1ce602db6f3709dafb37b4faf1d252745b8b4cf85371741ead2b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153770
+      ],
+      "id": "00:00410:text:000425a2",
+      "resource_row": 4081,
+      "text": "you can say whatever you like. It must",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000425bc": {
+      "source_offset": 271804,
+      "pool_word_offset": 39840,
+      "source_byte_length": 26,
+      "source_sha256": "81fd2c7b832e91a4c07a20ea9ba4c211cf157dd04e116401cfb51e435e61653f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153778
+      ],
+      "id": "00:00410:text:000425bc",
+      "resource_row": 4082,
+      "text": "feel great, huh?",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000425d8": {
+      "source_offset": 271832,
+      "pool_word_offset": 39854,
+      "source_byte_length": 8,
+      "source_sha256": "615d4cc218c2ba9fb0fa21a82176b6034947dd68f4e13995e2bcd0468c5b8923",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153942
+      ],
+      "id": "00:00410:text:000425d8",
+      "resource_row": 4083,
+      "text": "Oh, ▲?",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000425e2": {
+      "source_offset": 271842,
+      "pool_word_offset": 39859,
+      "source_byte_length": 14,
+      "source_sha256": "3d93beab0b35bdcfe736fbade601ffe6708af86eb6fb3fd96686aa0d6edd0870",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153974
+      ],
+      "id": "00:00410:text:000425e2",
+      "resource_row": 4084,
+      "text": "Hey...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000425f2": {
+      "source_offset": 271858,
+      "pool_word_offset": 39867,
+      "source_byte_length": 12,
+      "source_sha256": "3ee9fb165cdc2991845d0a65d8cff3bf21ee29ec35d907bdc11b48fba2dc1b58",
+      "contains_japanese": true,
+      "reference_instructions": [
+        153982
+      ],
+      "id": "00:00410:text:000425f2",
+      "resource_row": 4085,
+      "text": "Oh, ▲...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042600": {
+      "source_offset": 271872,
+      "pool_word_offset": 39874,
+      "source_byte_length": 18,
+      "source_sha256": "a1f007fd3f558acb57ec7fc44bd848ee501b3e51ef515f14dd4195f0dabc839a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154046
+      ],
+      "id": "00:00410:text:00042600",
+      "resource_row": 4086,
+      "text": "And Teacher, you're no better!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042614": {
+      "source_offset": 271892,
+      "pool_word_offset": 39884,
+      "source_byte_length": 8,
+      "source_sha256": "62b69e9762fade082c7389e8bbf66c8ba0a9ad5db57b4fd32f1704f72c54e9c8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154086
+      ],
+      "id": "00:00410:text:00042614",
+      "resource_row": 4087,
+      "text": "Uh...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004261e": {
+      "source_offset": 271902,
+      "pool_word_offset": 39889,
+      "source_byte_length": 14,
+      "source_sha256": "cd4098cb9a542a88ae5fc4e6a3fed43bec2d193ec2fea539e31ffc3e11535f5b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154118
+      ],
+      "id": "00:00410:text:0004261e",
+      "resource_row": 4088,
+      "text": "Y-yes?!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004262e": {
+      "source_offset": 271918,
+      "pool_word_offset": 39897,
+      "source_byte_length": 18,
+      "source_sha256": "d342b14fa025e880cfc5e565f2ea5fc15894e26c77dfe8f2111f9e02060abc5c",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154156
+      ],
+      "id": "00:00410:text:0004262e",
+      "resource_row": 4089,
+      "text": "Why are you just standing there",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042642": {
+      "source_offset": 271938,
+      "pool_word_offset": 39907,
+      "source_byte_length": 18,
+      "source_sha256": "d63746c490fe5d7b6c06e048465fe4e63698640b7ac0a9f6f8ca7501d5cf6dfd",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154164
+      ],
+      "id": "00:00410:text:00042642",
+      "resource_row": 4090,
+      "text": "letting them say whatever",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042656": {
+      "source_offset": 271958,
+      "pool_word_offset": 39917,
+      "source_byte_length": 12,
+      "source_sha256": "7d0ecea575b5c4b016be023df1ac33d8fa97b07319aa09141046042739668308",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154172
+      ],
+      "id": "00:00410:text:00042656",
+      "resource_row": 4091,
+      "text": "they want?!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042664": {
+      "source_offset": 271972,
+      "pool_word_offset": 39924,
+      "source_byte_length": 28,
+      "source_sha256": "1812d62d3a367d71d2fb3b37a6a73586dc24e303eb139ef77b98ed77508217e7",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154210
+      ],
+      "id": "00:00410:text:00042664",
+      "resource_row": 4092,
+      "text": "If you truly care about this person,",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042682": {
+      "source_offset": 272002,
+      "pool_word_offset": 39939,
+      "source_byte_length": 26,
+      "source_sha256": "5284ef89fda9dcb814ce8f6012bc8a6d1e94429b8e6efd9f35969b85b30bbbf5",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154218
+      ],
+      "id": "00:00410:text:00042682",
+      "resource_row": 4093,
+      "text": "you can't keep",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004269e": {
+      "source_offset": 272030,
+      "pool_word_offset": 39953,
+      "source_byte_length": 18,
+      "source_sha256": "b8b8b970d5438e9f2ad365f3b56584aa62dbc2b803843339ca8c4899681e6984",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154226
+      ],
+      "id": "00:00410:text:0004269e",
+      "resource_row": 4094,
+      "text": "coddling them like that, can you?",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000426b2": {
+      "source_offset": 272050,
+      "pool_word_offset": 39963,
+      "source_byte_length": 22,
+      "source_sha256": "047883a240d34461e57a2fea2062213b2e0a4dd594d35d603fda50b78308537b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154264
+      ],
+      "id": "00:00410:text:000426b2",
+      "resource_row": 4095,
+      "text": "You have to clearly tell them",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000426ca": {
+      "source_offset": 272074,
+      "pool_word_offset": 39975,
+      "source_byte_length": 28,
+      "source_sha256": "a66fe972f6ca5b49f2df3b828a5e5105fe62e274aa0a5177db93210a86b54eef",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154272
+      ],
+      "id": "00:00410:text:000426ca",
+      "resource_row": 4096,
+      "text": "what's wrong. Otherwise, it will never",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000426e8": {
+      "source_offset": 272104,
+      "pool_word_offset": 39990,
+      "source_byte_length": 18,
+      "source_sha256": "f86520676eb580c5496c091195d7d9f705aa68313625b516bb1d633c7064155d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154280
+      ],
+      "id": "00:00410:text:000426e8",
+      "resource_row": 4097,
+      "text": "help them!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000426fc": {
+      "source_offset": 272124,
+      "pool_word_offset": 40000,
+      "source_byte_length": 18,
+      "source_sha256": "65a31dc17036ab3fbaaf378f68e6ef57b369f3b313bf75f8c9802c14bcf80fbb",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154362
+      ],
+      "id": "00:00410:text:000426fc",
+      "resource_row": 4098,
+      "text": "T-this brat...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042710": {
+      "source_offset": 272144,
+      "pool_word_offset": 40010,
+      "source_byte_length": 18,
+      "source_sha256": "84c4511d9c0d79533977d905175a9e412e2e951347281c33e389c19ac1a7b5b2",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154370
+      ],
+      "id": "00:00410:text:00042710",
+      "resource_row": 4099,
+      "text": "You're just a child...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042724": {
+      "source_offset": 272164,
+      "pool_word_offset": 40020,
+      "source_byte_length": 20,
+      "source_sha256": "a32748b2a7e07eb8390cd2adf62b1df38d525c1888e1376d955493be96af3832",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154434
+      ],
+      "id": "00:00410:text:00042724",
+      "resource_row": 4100,
+      "text": "You're far more",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004273a": {
+      "source_offset": 272186,
+      "pool_word_offset": 40031,
+      "source_byte_length": 20,
+      "source_sha256": "a09c33aedd29bcfce8ecb95f16b6c81cbc4d2671e3bd9914b73dbc269978cf35",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154442
+      ],
+      "id": "00:00410:text:0004273a",
+      "resource_row": 4101,
+      "text": "childish than I am!!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042750": {
+      "source_offset": 272208,
+      "pool_word_offset": 40042,
+      "source_byte_length": 14,
+      "source_sha256": "1b963179d412127742c28593ef4081142d80ebfe82e12b5b3cb910eee014e26e",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154480
+      ],
+      "id": "00:00410:text:00042750",
+      "resource_row": 4102,
+      "text": "Am I wrong?!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042760": {
+      "source_offset": 272224,
+      "pool_word_offset": 40050,
+      "source_byte_length": 26,
+      "source_sha256": "c7d9516b227821b05df5cb3b564692f1b638ece0bcbae9b1b06c299353a0f22f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154488
+      ],
+      "id": "00:00410:text:00042760",
+      "resource_row": 4103,
+      "text": "What do you say?! Answer properly:",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004277c": {
+      "source_offset": 272252,
+      "pool_word_offset": 40064,
+      "source_byte_length": 26,
+      "source_sha256": "bc06b20d1a73262f98727d533c9c9b463e58efd8a84dcf06379d595cb1e197db",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154496
+      ],
+      "id": "00:00410:text:0004277c",
+      "resource_row": 4104,
+      "text": "yes or no?!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042798": {
+      "source_offset": 272280,
+      "pool_word_offset": 40078,
+      "source_byte_length": 16,
+      "source_sha256": "7e35f85ea8e7876d8843a84a71c9f8a725542b6b877618da91e1bee61b631a43",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154532
+      ],
+      "id": "00:00410:text:00042798",
+      "resource_row": 4105,
+      "text": "Ugh...?!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000427aa": {
+      "source_offset": 272298,
+      "pool_word_offset": 40087,
+      "source_byte_length": 26,
+      "source_sha256": "7484724bee1919b897d9e6c86957e5a1cb9dfcf0ed0720d556968a91ee24a3ec",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154570
+      ],
+      "id": "00:00410:text:000427aa",
+      "resource_row": 4106,
+      "text": "How does it feel? How does it feel",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000427c6": {
+      "source_offset": 272326,
+      "pool_word_offset": 40101,
+      "source_byte_length": 24,
+      "source_sha256": "e37e36859502ee129c3192bc7f23848d5556af9af4e502f01c378dcce6b86b57",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154578
+      ],
+      "id": "00:00410:text:000427c6",
+      "resource_row": 4107,
+      "text": "to have unpleasant things fired at you",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000427e0": {
+      "source_offset": 272352,
+      "pool_word_offset": 40114,
+      "source_byte_length": 26,
+      "source_sha256": "72ecbef90303f3ff7b529044c68693936759c95466849dd1528feb1186fa1009",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154586
+      ],
+      "id": "00:00410:text:000427e0",
+      "resource_row": 4108,
+      "text": "one after another, head-on?",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000427fc": {
+      "source_offset": 272380,
+      "pool_word_offset": 40128,
+      "source_byte_length": 24,
+      "source_sha256": "d18738dc97b47d0b766afb26d3768c3b60d1a33796c531c46c149fa7c6a7d5d8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154624
+      ],
+      "id": "00:00410:text:000427fc",
+      "resource_row": 4109,
+      "text": "Frustrating, isn't it? Sad, isn't it?",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042816": {
+      "source_offset": 272406,
+      "pool_word_offset": 40141,
+      "source_byte_length": 28,
+      "source_sha256": "a8d5e0cd34d08c02a2fa65b1aa4f3543fa9121d72358e671c6924c4df5875fd9",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154632
+      ],
+      "id": "00:00410:text:00042816",
+      "resource_row": 4110,
+      "text": "You can't help hating me,",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042834": {
+      "source_offset": 272436,
+      "pool_word_offset": 40156,
+      "source_byte_length": 22,
+      "source_sha256": "4d0a539b090d7e683483da7b7534ea8c449770efe99f9c02122d5a206abb3e12",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154640
+      ],
+      "id": "00:00410:text:00042834",
+      "resource_row": 4111,
+      "text": "can you?",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004284c": {
+      "source_offset": 272460,
+      "pool_word_offset": 40168,
+      "source_byte_length": 26,
+      "source_sha256": "1658406b674194232753c444dbf6d24dcb5c1155d6b50857a276ea7172c6e971",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154678
+      ],
+      "id": "00:00410:text:0004284c",
+      "resource_row": 4112,
+      "text": "This is the kind of cruel thing",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042868": {
+      "source_offset": 272488,
+      "pool_word_offset": 40182,
+      "source_byte_length": 24,
+      "source_sha256": "01ae6f4f9f78c280d9061fed44de354afd2cc4c00b404d88540086c4148b02ca",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154686
+      ],
+      "id": "00:00410:text:00042868",
+      "resource_row": 4113,
+      "text": "you've been doing to Teacher, your sister,",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042882": {
+      "source_offset": 272514,
+      "pool_word_offset": 40195,
+      "source_byte_length": 26,
+      "source_sha256": "9866eeb5bef29c52b32a2edab5e7629da031bce25e402c202abb02607c9c06ac",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154694
+      ],
+      "id": "00:00410:text:00042882",
+      "resource_row": 4114,
+      "text": "and everyone else!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004289e": {
+      "source_offset": 272542,
+      "pool_word_offset": 40209,
+      "source_byte_length": 18,
+      "source_sha256": "41004c96cef95590b6ff8ca3287ef9a75325607174973998f0a929e2e3af69a1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154732
+      ],
+      "id": "00:00410:text:0004289e",
+      "resource_row": 4115,
+      "text": "Is it any wonder",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000428b2": {
+      "source_offset": 272562,
+      "pool_word_offset": 40219,
+      "source_byte_length": 18,
+      "source_sha256": "fef9b82097029a8c6ae4fd835dd6816268155f03fa8e89d81f33566696a6b38b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154740
+      ],
+      "id": "00:00410:text:000428b2",
+      "resource_row": 4116,
+      "text": "they hate you?",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000428c6": {
+      "source_offset": 272582,
+      "pool_word_offset": 40229,
+      "source_byte_length": 14,
+      "source_sha256": "844e6abd67a262c03986013685035f48779a46797087a1127d3fa8014a408460",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154776
+      ],
+      "id": "00:00410:text:000428c6",
+      "resource_row": 4117,
+      "text": "...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000428d6": {
+      "source_offset": 272598,
+      "pool_word_offset": 40237,
+      "source_byte_length": 24,
+      "source_sha256": "780ef49932836f2bf26d007f2e76ea5ee58a8bb63a4f9fb639a393c6d5409b4f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154814
+      ],
+      "id": "00:00410:text:000428d6",
+      "resource_row": 4118,
+      "text": "You understand that if you hurt someone,",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000428f0": {
+      "source_offset": 272624,
+      "pool_word_offset": 40250,
+      "source_byte_length": 22,
+      "source_sha256": "7d75b371daf0d652651d5f1955099908991822c6f00221ecf2ba2af40c710ac5",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154822
+      ],
+      "id": "00:00410:text:000428f0",
+      "resource_row": 4119,
+      "text": "they might retaliate,",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042908": {
+      "source_offset": 272648,
+      "pool_word_offset": 40262,
+      "source_byte_length": 26,
+      "source_sha256": "0eafe825cbee8d094c86592cb8b65c206e0fe5306b5e4da134539243c4cfc2a3",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154830
+      ],
+      "id": "00:00410:text:00042908",
+      "resource_row": 4120,
+      "text": "don't you?",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042924": {
+      "source_offset": 272676,
+      "pool_word_offset": 40276,
+      "source_byte_length": 28,
+      "source_sha256": "f1df3a3150435c9b00d41a7ca50f85ae043dc989a869bd5bfdb3626571048ae0",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154868
+      ],
+      "id": "00:00410:text:00042924",
+      "resource_row": 4121,
+      "text": "If you don't want that... why",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042942": {
+      "source_offset": 272706,
+      "pool_word_offset": 40291,
+      "source_byte_length": 28,
+      "source_sha256": "892fc201402c026a0eb7fc9186529c608db9650d45bc6b1cca44ecdd3e759310",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154876
+      ],
+      "id": "00:00410:text:00042942",
+      "resource_row": 4122,
+      "text": "do you do things that make people",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042960": {
+      "source_offset": 272736,
+      "pool_word_offset": 40306,
+      "source_byte_length": 18,
+      "source_sha256": "3c8bbd2c516809c6a85818db8008540b085ba97776a3ccc7ef18b353aa7dc040",
+      "contains_japanese": true,
+      "reference_instructions": [
+        154884
+      ],
+      "id": "00:00410:text:00042960",
+      "resource_row": 4123,
+      "text": "hate you?!",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042974": {
+      "source_offset": 272756,
+      "pool_word_offset": 40316,
+      "source_byte_length": 12,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        155032
+      ],
+      "id": "00:00410:text:00042974",
+      "resource_row": 4124,
+      "text": "...",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:00042982": {
+      "source_offset": 272770,
+      "pool_word_offset": 40323,
+      "source_byte_length": 24,
+      "source_sha256": "795a42398500d5ff2a964a0cefcbfe1fd0e0bdb038f6c5c87aeaad013c995b0a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        155230
+      ],
+      "id": "00:00410:text:00042982",
+      "resource_row": 4125,
+      "text": "I don't know why you chose",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:0004299c": {
+      "source_offset": 272796,
+      "pool_word_offset": 40336,
+      "source_byte_length": 28,
+      "source_sha256": "237924d4559f739ed4679bda5aa44ac5c5aeafb2778a1c975b122c5b3c18bdf9",
+      "contains_japanese": true,
+      "reference_instructions": [
+        155238
+      ],
+      "id": "00:00410:text:0004299c",
+      "resource_row": 4126,
+      "text": "to live that way.",
+      "status": "translated_author_self_check"
+    },
+    "00:00410:text:000429ba": {
+      "source_offset": 272826,
+      "pool_word_offset": 40351,
+      "source_byte_length": 18,
+      "source_sha256": "13d6c02074168adddbee9ee402d4bebdb3b9d3aa60e221dffc9a33b4027854f5",
+      "contains_japanese": true,
+      "reference_instructions": [
+        155246
+      ],
+      "id": "00:00410:text:000429ba",
+      "resource_row": 4127,
+      "text": "I can't understand it.",
+      "status": "translated_author_self_check"
+    }
+  }
+}

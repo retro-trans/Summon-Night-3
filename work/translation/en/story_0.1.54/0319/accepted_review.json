@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "resource_id": "00:00319",
+  "semantic_complete": true,
+  "reviewed_new_rows": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0319/slice_0011.targets.json": "8e4d8b8d5a4aaeeadb78a666cb65e7ec0703d098406414e155aabbe5041ab026"
+  },
+  "review_inputs_sha256": {
+    "work/translation/en/story_0.1.54/0319/review_meaning_0011.json": "b3975725479bc4022df74f35225991c3c88ff936eaa15b426466175c27de365d"
+  },
+  "corrections": [],
+  "unresolved_blockers": [],
+  "retained_uncertainties": [],
+  "decision": "Root accepts the new English meaning after independent source review, applying substantiated corrections and checking the retained broad references. Naming normalization checked after meaning fixes. Acceptance permits compiler integration; it does not establish runtime or gameplay correctness.",
+  "author_uncertainties": [
+    {
+      "target": "slice_0011.targets.json",
+      "note": "Rows 35-41 break off before Azlier recognizes their grief; the translation preserves that interrupted realization."
+    }
+  ]
+}

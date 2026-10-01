@@ -1,0 +1,24 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0482/review_meaning_2368.json",
+  "review_sha256": "8f44727734b176c0cb94e0d8cf1a3b397b00d7e4fdd02a1777bcd286f214c82f",
+  "target_file": "work/translation/en/story_0.1.54/0482/slice_2368.targets.json",
+  "target_before_sha256": "b1f871fd1cd3e942bd602d7f024feb4f39493388117be872489c62d033848190",
+  "target_after_sha256": "caac0f67b47708831df731d815c9b907377082b89aa2c5ed8ab05510aa067781",
+  "reviewed_rows": {
+    "range_inclusive": [
+      2368,
+      2447
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 2407,
+      "before": "I-I do not, really...",
+      "after": "I-is that so? I don't really...",
+      "reason": "The source begins with Belfraw's evasive 'I-is that so?' before the denial; the authored text drops that opening."
+    }
+  ],
+  "remaining_uncertainties": [],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00282",
+  "source_sha256": "21b26c18653338e6d1c1070a6db0825a2229b0699be8146aafe47130578fb1ef",
+  "target_file": "work/translation/en/story_0.1.54/0282/slice_0011.targets.json",
+  "target_file_sha256": "5874f8ec4c5f3a5093c642e40b87f2a8b0c0dbfbb4f5bf10b153b13598e7f3c2",
+  "semantic_complete": false,
+  "reviewed_rows": {"range_inclusive": [11, 61], "count": 51},
+  "source_ranges_examined": [[0, 61]],
+  "rows_examined": 62,
+  "corrections": [
+    {"resource_row": 32, "source_sha256": "c17a07e74801c88f437ead57ba2ade3e3c20c168111c927d888998fe5ade9f19", "text": "I cannot very well tell the truth,", "reason": "The inner thought omits an indirect object. Yafha's preceding question does not establish a recipient, and the authored masculine pronoun adds unsupported reference and gender."},
+    {"resource_row": 34, "source_sha256": "625729218fc9910d111025caf57850ae87b03daf6136d820c75df1c98a9f883d", "text": "I cannot very well tell the truth,", "reason": "The paired protagonist branch has the same omitted recipient; preserve that omission in English."}
+  ],
+  "uncertainties": [{"rows": [11, 12, 16, 17, 18, 19, 20, 21, 25, 26, 27], "issue": "The person who needs time to sort out their feelings remains unnamed and ungendered. Singular they is retained; no correction proposed."}],
+  "omissions": [{"rows": [32, 33, 34, 35], "reason": "Physical thought continuation. The subject is known, but the source omits a recipient; the correction keeps that recipient unspoken."}, {"rows": [11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28, 29, 32, 33, 34, 35, 40, 41, 44, 45, 47, 48, 52, 53, 56, 57, 58, 59, 60, 61], "reason": "Other physical continuation rows; the authored English preserves their combined meaning."}],
+  "notes": "Reviewed original Japanese against the authored target across full resource context. Two recipient-reference corrections are required; no cosmetic rewrites recorded."
+}

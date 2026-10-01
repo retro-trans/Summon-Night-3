@@ -1,0 +1,44 @@
+{
+  "review_file": "work/translation/en/story_0.1.54/0364/review_meaning_3248.json",
+  "review_sha256": "ecb54132daf7895a4281a1eebabb1d529d76fcd5513f9c81699cae01715e4646",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_3248.targets.json",
+  "target_before_sha256": "76ed14b36666c0d7f1dffeb88bd63605baff7b0f3291692a5fdb96e424a8834f",
+  "target_after_sha256": "a96c5d624dd3d591f45c6db500799931e16282d402d3d1fcf0a726c29f079303",
+  "reviewed_rows": {
+    "range_inclusive": [
+      3248,
+      3327
+    ],
+    "count": 80
+  },
+  "corrections_applied": [
+    {
+      "resource_row": 3292,
+      "before": "Ending everything by killing you,",
+      "after": "I refuse to accept",
+      "reason": "The current target duplicates the end-everything idea across the sentence. The source has one refusal to accept ending everything by killing the listener."
+    },
+    {
+      "resource_row": 3293,
+      "before": "to end it, I",
+      "after": "ending everything by killing",
+      "reason": "Carries the source's means clause without repetition."
+    },
+    {
+      "resource_row": 3294,
+      "before": "refuse to accept that!!",
+      "after": "you!!",
+      "reason": "Completes the source's refused outcome."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "rows": [
+        3301,
+        3303
+      ],
+      "issue": "● is a protected marker and is retained exactly; no identity is inferred."
+    }
+  ],
+  "status": "Reviewer corrections applied; names normalized afterward. Whole-resource acceptance pending."
+}

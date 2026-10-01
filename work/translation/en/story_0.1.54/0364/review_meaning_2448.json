@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_meaning_review",
+  "resource_id": "00:00364",
+  "source_sha256": "ada8c4152aefc4d55a0a7b3ca89385bde32bafb8a85212cb9ba1c9505222d46b",
+  "target_file": "work/translation/en/story_0.1.54/0364/slice_2448.targets.json",
+  "target_file_sha256": "f1c3b1a7ca0a4d43572d8bb31b066911c11ce1c4a13d31f2e1a70104bc3f6cee",
+  "semantic_complete": true,
+  "reviewed_rows": {"range_inclusive": [2448, 2527], "count": 80},
+  "source_ranges_examined": [[2446, 2529]],
+  "rows_examined": 84,
+  "corrections": [],
+  "uncertainties": [
+    {"rows": [2452, 2453, 2454, 2455, 2456, 2466, 2467, 2468, 2480, 2481, 2521, 2522, 2527], "issue": "Teacher is player-selected. Singular-they language preserves the established referent without gender inference."}
+  ],
+  "omissions": [
+    {"rows": [2449, 2450, 2457, 2458, 2464, 2465, 2471, 2479, 2483, 2484, 2488, 2492, 2493, 2513, 2514, 2515, 2516, 2526], "reason": "Surprise, hesitation, acknowledgment, and emotional-reaction fragments retain their non-propositional source function."},
+    {"rows": [2448, 2451, 2452, 2453, 2454, 2455, 2456, 2459, 2460, 2462, 2463, 2466, 2467, 2468, 2469, 2470, 2472, 2473, 2474, 2475, 2476, 2477, 2478, 2480, 2481, 2485, 2486, 2487, 2489, 2490, 2491, 2494, 2495, 2496, 2497, 2498, 2499, 2500, 2501, 2507, 2508, 2509, 2510, 2511, 2512, 2517, 2518, 2519, 2521, 2522, 2523, 2524, 2525, 2527], "reason": "Physical continuation rows complete their English sentence in adjacent fragments. The request at row 2527 continues into the following source row."}
+  ],
+  "notes": "Reviewed original Japanese against the authored target with immediate preceding and following context. The target preserves the speaker roles, causal advice, and request direction. No meaning correction is required; wording differences were not recorded as cosmetic changes."
+}
