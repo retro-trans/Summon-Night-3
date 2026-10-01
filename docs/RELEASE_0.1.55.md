@@ -37,7 +37,9 @@ Public test release for Summon Night 3 PSP, Japanese NPJH50380.
   pass Chapter 15 Continue, Brave Goals, Inventory/Black Rose Knife and Summon
   Index/Dritol. No memory fault appears in the log. Display-import debugger pauses
   are intentional screenshots, not crashes.
-- Release-package round-trip and public catalog results are recorded separately.
+- Both published patches pass full round-trip verification. All nine public assets
+  match the local package, and the public Retro Trans Automatic-mode v0.1.54
+  upgrade produces the exact target image. See [public verification](RETRO_TRANS_0.1.55.md).
 
 ## Limits
 

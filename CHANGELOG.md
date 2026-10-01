@@ -2,6 +2,9 @@
 
 ## 0.1.55 - Remaining battle-event translation (test release, 2026-10-01)
 
+- Publish both verified patches; check all nine public asset hashes. Register in
+  Retro Trans and pass a public Automatic-mode upgrade from v0.1.54 with complete
+  output-hash and target-recognition checks.
 - Translate all 642 remaining indexed battle-event fragments across 27 resources,
   using nine consecutive slices and independent Japanese-source meaning reviews.
 - Apply five reviewed fragment corrections, then normalize current glossary names

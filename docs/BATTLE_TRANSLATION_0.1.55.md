@@ -2,6 +2,10 @@
 
 Completed 2026-10-01. These are reviewed translation inputs, not a published build.
 
+Subsequent delivery: [v0.1.55 was built and released](RELEASE_0.1.55.md), with
+[public Retro Trans verification](RETRO_TRANS_0.1.55.md). The checkpoint and
+its original limitations below are retained as translation-stage provenance.
+
 ## Scope and review
 
 All 642 remaining indexed battle-event fragments in 27 resources are translated.
