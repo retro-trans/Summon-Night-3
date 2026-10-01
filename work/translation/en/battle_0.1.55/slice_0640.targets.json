@@ -1,0 +1,69 @@
+{
+  "version": "0.1.55",
+  "range_inclusive": [
+    640,
+    641
+  ],
+  "rows_in_slice": 2,
+  "source_ranges_examined": [
+    [
+      628,
+      641
+    ]
+  ],
+  "rows_examined": 14,
+  "notes": "Final two fragments join639 in own preceding slice. Complete enclosing VM group and preceding alternate responses examined. Independent review required.",
+  "uncertainties": [
+    {
+      "rows": [
+        639,
+        640,
+        641
+      ],
+      "decision": "Core Cognizance functions rendered with complete control over the Core Cognizance; feared consequence remains intentionally unspoken."
+    }
+  ],
+  "preserved_source_omissions": [
+    {
+      "rows": [
+        639,
+        640,
+        641
+      ],
+      "reason": "Unfinished conditional speculation in source; does not specify its feared conclusion."
+    }
+  ],
+  "review_status": "author draft; independent review pending",
+  "translations": {
+    "01:00172/00001:text:000005b4": {
+      "source_offset": 1460,
+      "pool_word_offset": 365,
+      "source_byte_length": 16,
+      "source_sha256": "a1576c7320397b60e801ab1a7aaf4d46325adb5efbc132486804f83584264e7c",
+      "contains_japanese": true,
+      "reference_instructions": [
+        666
+      ],
+      "id": "01:00172/00001:text:000005b4",
+      "resource": 172,
+      "resource_row": 35,
+      "ordered_index": 640,
+      "text": "over the Core Cognizance,"
+    },
+    "01:00172/00001:text:000005c6": {
+      "source_offset": 1478,
+      "pool_word_offset": 374,
+      "source_byte_length": 20,
+      "source_sha256": "e964d41ca27a6b6d5ad48a7acc6f3ccc91d34d8a4915f1032fdcd7a2e7cda7a6",
+      "contains_japanese": true,
+      "reference_instructions": [
+        674
+      ],
+      "id": "01:00172/00001:text:000005c6",
+      "resource": 172,
+      "resource_row": 36,
+      "ordered_index": 641,
+      "text": "then could it...!?"
+    }
+  }
+}

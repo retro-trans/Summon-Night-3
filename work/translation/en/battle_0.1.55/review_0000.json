@@ -1,0 +1,75 @@
+{
+  "version": "0.1.55",
+  "reviewer": "independent_agent",
+  "reviewed_range_inclusive": [
+    0,
+    79
+  ],
+  "rows_in_slice": 80,
+  "rows_examined": 89,
+  "source_ranges_examined": [
+    [
+      0,
+      88
+    ]
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/battle_0.1.55/slice_0000.targets.json": "b2dd998e2600676b84643786781006f02db185599800a92c45440f26dcf3eb24",
+    "work/translation/en/battle_0.1.55/slice_0080.targets.json": "c45a68b249218abd47023753d8b09863f41dee93ec3c21c55f6631bcd4a2bd0f"
+  },
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        13,
+        14
+      ],
+      "note": "Mr. Whiskers is a descriptive bearded-pirate nickname, not a canonical personal name."
+    },
+    {
+      "rows": [
+        16,
+        17,
+        18
+      ],
+      "note": "Tiny interprets the fairy addressee appearance in context; source literally refers to that appearance."
+    },
+    {
+      "rows": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "note": "Sister renders an in-law address; reply asks the addressee to protect the loved legacy together. Neutral that person preserves the unspecified loved-person referent without reversing direction."
+    },
+    {
+      "rows": [
+        76,
+        77,
+        78
+      ],
+      "note": "Never understood restores the unfinished apology predicate from the forgiving reply79-81. The source trails off before stating the verb; not independently explicit."
+    }
+  ],
+  "preserved_source_omissions": [
+    {
+      "rows": [
+        3,
+        4
+      ],
+      "note": "Theft complaint intentionally trails off rather than becoming a complete declarative sentence."
+    },
+    {
+      "rows": [
+        26
+      ],
+      "note": "The speaker repeats the nominal phrase such a lovely day off as an angry echo of the prior complete sentence."
+    }
+  ],
+  "semantic_complete": true,
+  "blockers": [],
+  "notes": "All actual VM source groups in the examined range were read with neighbors. Reviewed English whole-box meaning, addressee direction, control-bearing name positions, canonical names and Teacher terminology; no source Japanese is persisted. Root applies corrections then compiler acceptance."
+}

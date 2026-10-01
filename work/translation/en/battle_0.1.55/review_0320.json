@@ -1,0 +1,76 @@
+{
+  "version": "0.1.55",
+  "reviewer": "independent_agent_c",
+  "reviewed_range_inclusive": [
+    320,
+    399
+  ],
+  "rows_in_slice": 80,
+  "rows_examined": 96,
+  "source_ranges_examined": [
+    [
+      312,
+      407
+    ]
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/battle_0.1.55/slice_0240.targets.json": "cf70afd4e07b61c78024eeb978294a5f9edde5a7aa7f26536f1e198056f1c9ef",
+    "work/translation/en/battle_0.1.55/slice_0320.targets.json": "42676ca24b39e5bbea58702774062805dd2625bb3cb626016f6c0d606bfbf090",
+    "work/translation/en/battle_0.1.55/slice_0400.targets.json": "b2237d7cbb1fe821b441975bb188ad330fc357607d00f13d700370bd691e9e96"
+  },
+  "corrections": [
+    {
+      "ordered_index": 374,
+      "id": "01:00148/00001:text:00000cac",
+      "resource": 148,
+      "resource_row": 54,
+      "before": "and destroy them as close together as possible.",
+      "after": "and destroy them as nearly simultaneously as possible.",
+      "reason": "Source requires simultaneous destruction in time; close together could incorrectly imply spatial proximity."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        320,
+        321
+      ],
+      "note": "Clyps follows the established provisional glossary spelling, not an independently claimed official spelling."
+    },
+    {
+      "rows": [
+        349,
+        350,
+        351,
+        352
+      ],
+      "note": "Repeated this one likely accompanies distinct visual targets. Physical versus summon-magic effectiveness preserved without inventing a camera direction."
+    },
+    {
+      "rows": [
+        373,
+        374
+      ],
+      "note": "Even damage to the two pillars is supported by preceding risk of losing control. The source explicitly requires destruction as simultaneously as possible; correction makes timing explicit."
+    },
+    {
+      "rows": [
+        396,
+        397
+      ],
+      "note": "Broken Azlier name and apology retained. Source does not finish either word; target should not silently complete them."
+    }
+  ],
+  "preserved_source_omissions": [
+    {
+      "rows": [
+        396,
+        397
+      ],
+      "note": "Interrupted name and apology preserve failed speech, with I restored in the apology."
+    }
+  ],
+  "semantic_complete": true,
+  "blockers": [],
+  "notes": "Independently reviewed author B, never own drafts. Full actual VM groups with adjacent context were compared against English. The480-487 adjoining own draft was read only as boundary context and is not independently accepted here. Root must apply recorded correction then bind compiler acceptance."
+}

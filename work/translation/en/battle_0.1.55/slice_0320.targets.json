@@ -1,0 +1,1258 @@
+{
+  "version": "0.1.55",
+  "range_inclusive": [
+    320,
+    399
+  ],
+  "rows_in_slice": 80,
+  "source_ranges_examined": [
+    [
+      312,
+      407
+    ]
+  ],
+  "rows_examined": 96,
+  "notes": "Read adjacent whole VM groups. Current Clyps/Dielgo project spellings applied. Mechanical restrictions retained without shortening. Independent review required.",
+  "uncertainties": [
+    {
+      "rows": [
+        320,
+        321
+      ],
+      "note": "Clyps uses the existing provisional project spelling from story_core_terms and chapter17_terms; it is not claimed to be an official English term."
+    },
+    {
+      "rows": [
+        349,
+        352
+      ],
+      "note": "This one appears to accompany an onscreen selection/camera cue. Both demonstratives remain this one, with distinct physical/summon magic restrictions preserved."
+    },
+    {
+      "rows": [
+        370,
+        374
+      ],
+      "note": "The context supplies control devices as the subject. Even damage followed by destruction as close together as possible preserves the simultaneous-pillar mechanic."
+    },
+    {
+      "rows": [
+        396,
+        397
+      ],
+      "note": "The protagonist is voicing a broken Azlier name and apology. Az... li... and I am sor... retain the interrupted utterance rather than complete the name/apology."
+    }
+  ],
+  "preserved_source_omissions": [
+    {
+      "rows": [
+        396,
+        397
+      ],
+      "note": "The name and apology remain deliberately interrupted, reflecting failing speech. The English apology restores I rather than leaving a subjectless complete assertion."
+    }
+  ],
+  "review_status": "author draft; independent review pending",
+  "translations": {
+    "01:00148/00001:text:0000080c": {
+      "source_offset": 2060,
+      "pool_word_offset": 1,
+      "source_byte_length": 16,
+      "source_sha256": "471cac1a04e88308b00fb0bd95ca2d11b75d400bd94ae3b7076f87f3c0f1a173",
+      "contains_japanese": true,
+      "reference_instructions": [
+        270
+      ],
+      "id": "01:00148/00001:text:0000080c",
+      "resource": 148,
+      "resource_row": 0,
+      "ordered_index": 320,
+      "text": "Those two pillars"
+    },
+    "01:00148/00001:text:0000081e": {
+      "source_offset": 2078,
+      "pool_word_offset": 10,
+      "source_byte_length": 22,
+      "source_sha256": "bd6d57cb3c4a453b1df798b238035d4664d7a8d8cd647cce4715706a925d266a",
+      "contains_japanese": true,
+      "reference_instructions": [
+        278
+      ],
+      "id": "01:00148/00001:text:0000081e",
+      "resource": 148,
+      "resource_row": 1,
+      "ordered_index": 321,
+      "text": "are the control devices for the Clyps!"
+    },
+    "01:00148/00001:text:00000836": {
+      "source_offset": 2102,
+      "pool_word_offset": 22,
+      "source_byte_length": 20,
+      "source_sha256": "52a6319c8579f3dd50347ae134a898671bddbec4e937105ee5f487137adac9e6",
+      "contains_japanese": true,
+      "reference_instructions": [
+        294
+      ],
+      "id": "01:00148/00001:text:00000836",
+      "resource": 148,
+      "resource_row": 2,
+      "ordered_index": 322,
+      "text": "If we can destroy them,"
+    },
+    "01:00148/00001:text:0000084c": {
+      "source_offset": 2124,
+      "pool_word_offset": 33,
+      "source_byte_length": 22,
+      "source_sha256": "6d6ba614609663ce06e77f7490632052be24a5eea72333f98b6336cdbd808c4d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        302
+      ],
+      "id": "01:00148/00001:text:0000084c",
+      "resource": 148,
+      "resource_row": 3,
+      "ordered_index": 323,
+      "text": "we should be able to"
+    },
+    "01:00148/00001:text:00000864": {
+      "source_offset": 2148,
+      "pool_word_offset": 45,
+      "source_byte_length": 24,
+      "source_sha256": "c146658cee82814eb3536467bcae722fcdd0f9ec5cece3bc61ca4be5fce31984",
+      "contains_japanese": true,
+      "reference_instructions": [
+        310
+      ],
+      "id": "01:00148/00001:text:00000864",
+      "resource": 148,
+      "resource_row": 4,
+      "ordered_index": 324,
+      "text": "seal Dielgo's power...!"
+    },
+    "01:00148/00001:text:0000087e": {
+      "source_offset": 2174,
+      "pool_word_offset": 58,
+      "source_byte_length": 18,
+      "source_sha256": "0be06f3af05187cd1a613de1be1dd62b2b25d6abb4de42222932940c52c18e55",
+      "contains_japanese": true,
+      "reference_instructions": [
+        326
+      ],
+      "id": "01:00148/00001:text:0000087e",
+      "resource": 148,
+      "resource_row": 5,
+      "ordered_index": 325,
+      "text": "A barrier against physical attacks"
+    },
+    "01:00148/00001:text:00000892": {
+      "source_offset": 2194,
+      "pool_word_offset": 68,
+      "source_byte_length": 26,
+      "source_sha256": "f493fcb5b66b404bf742463e69aeb687d7d10265f6961f784dd7054fb52bcedc",
+      "contains_japanese": true,
+      "reference_instructions": [
+        334
+      ],
+      "id": "01:00148/00001:text:00000892",
+      "resource": 148,
+      "resource_row": 6,
+      "ordered_index": 326,
+      "text": "and another against magic, huh...?"
+    },
+    "01:00148/00001:text:000008ae": {
+      "source_offset": 2222,
+      "pool_word_offset": 82,
+      "source_byte_length": 28,
+      "source_sha256": "7fd86e7939c78871eebdbcb749e90c53dcf5c69e8a02f33fa45aeff47b094a8b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        350
+      ],
+      "id": "01:00148/00001:text:000008ae",
+      "resource": 148,
+      "resource_row": 7,
+      "ordered_index": 327,
+      "text": "More of those damn troublesome"
+    },
+    "01:00148/00001:text:000008cc": {
+      "source_offset": 2252,
+      "pool_word_offset": 97,
+      "source_byte_length": 16,
+      "source_sha256": "2bf47a28ba630b4cdb9c63d5a3756df571e9a1fbb5fbd28f283b6475be7d3f8e",
+      "contains_japanese": true,
+      "reference_instructions": [
+        358
+      ],
+      "id": "01:00148/00001:text:000008cc",
+      "resource": 148,
+      "resource_row": 8,
+      "ordered_index": 328,
+      "text": "defensive barriers are up."
+    },
+    "01:00148/00001:text:000008de": {
+      "source_offset": 2270,
+      "pool_word_offset": 106,
+      "source_byte_length": 10,
+      "source_sha256": "90687a3406a9124cbcc136d80d5421b3a4c77ad740ddd5c2d2038791a59be9e8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        392
+      ],
+      "id": "01:00148/00001:text:000008de",
+      "resource": 148,
+      "resource_row": 9,
+      "ordered_index": 329,
+      "text": "Even so!"
+    },
+    "01:00148/00001:text:000008ea": {
+      "source_offset": 2282,
+      "pool_word_offset": 112,
+      "source_byte_length": 18,
+      "source_sha256": "e154e69e36f9bab9b0a1537524c94d90c9067ece16aee5bc78584bcfa62cc0e1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        400
+      ],
+      "id": "01:00148/00001:text:000008ea",
+      "resource": 148,
+      "resource_row": 10,
+      "ordered_index": 330,
+      "text": "With everyone's strength..."
+    },
+    "01:00148/00001:text:000008fe": {
+      "source_offset": 2302,
+      "pool_word_offset": 122,
+      "source_byte_length": 22,
+      "source_sha256": "8acfefdd1d9033aaf9481cb13de9b603d63843bf46206a4d75192a84ed59337b",
+      "contains_japanese": true,
+      "reference_instructions": [
+        408
+      ],
+      "id": "01:00148/00001:text:000008fe",
+      "resource": 148,
+      "resource_row": 11,
+      "ordered_index": 331,
+      "text": "we'll get it done!!"
+    },
+    "01:00148/00001:text:00000916": {
+      "source_offset": 2326,
+      "pool_word_offset": 134,
+      "source_byte_length": 10,
+      "source_sha256": "90687a3406a9124cbcc136d80d5421b3a4c77ad740ddd5c2d2038791a59be9e8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        446
+      ],
+      "id": "01:00148/00001:text:00000916",
+      "resource": 148,
+      "resource_row": 12,
+      "ordered_index": 332,
+      "text": "Even so!"
+    },
+    "01:00148/00001:text:00000922": {
+      "source_offset": 2338,
+      "pool_word_offset": 140,
+      "source_byte_length": 18,
+      "source_sha256": "e154e69e36f9bab9b0a1537524c94d90c9067ece16aee5bc78584bcfa62cc0e1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        454
+      ],
+      "id": "01:00148/00001:text:00000922",
+      "resource": 148,
+      "resource_row": 13,
+      "ordered_index": 333,
+      "text": "With everyone's strength..."
+    },
+    "01:00148/00001:text:00000936": {
+      "source_offset": 2358,
+      "pool_word_offset": 150,
+      "source_byte_length": 22,
+      "source_sha256": "c530df2c653925d9d1bfb83668e868e07711b0679eb075a0d99e1cb8f226baad",
+      "contains_japanese": true,
+      "reference_instructions": [
+        462
+      ],
+      "id": "01:00148/00001:text:00000936",
+      "resource": 148,
+      "resource_row": 14,
+      "ordered_index": 334,
+      "text": "we will see it through!!"
+    },
+    "01:00148/00001:text:0000094e": {
+      "source_offset": 2382,
+      "pool_word_offset": 162,
+      "source_byte_length": 10,
+      "source_sha256": "c91771a6a9e89110e075af4d0481ca930eb2c14aad27f3b94be15f7f0f62ebb1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        734
+      ],
+      "id": "01:00148/00001:text:0000094e",
+      "resource": 148,
+      "resource_row": 15,
+      "ordered_index": 335,
+      "text": "...!!"
+    },
+    "01:00148/00001:text:0000095a": {
+      "source_offset": 2394,
+      "pool_word_offset": 168,
+      "source_byte_length": 14,
+      "source_sha256": "6dc21c03a21ab17012c7d0f8643cbbae5cacbb19d7247556cf85b049b526cf60",
+      "contains_japanese": true,
+      "reference_instructions": [
+        742
+      ],
+      "id": "01:00148/00001:text:0000095a",
+      "resource": 148,
+      "resource_row": 16,
+      "ordered_index": 336,
+      "text": "Defeating that thing"
+    },
+    "01:00148/00001:text:0000096a": {
+      "source_offset": 2410,
+      "pool_word_offset": 176,
+      "source_byte_length": 18,
+      "source_sha256": "ff339771db961f5f1ebc1673b3e9f82e7100c0ca1d7e7552d2cc3bc3c81e915d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        750
+      ],
+      "id": "01:00148/00001:text:0000096a",
+      "resource": 148,
+      "resource_row": 17,
+      "ordered_index": 337,
+      "text": "weakened the barrier!?"
+    },
+    "01:00148/00001:text:0000097e": {
+      "source_offset": 2430,
+      "pool_word_offset": 186,
+      "source_byte_length": 28,
+      "source_sha256": "27a9b96682025b6e76fbf762f18fda9d16096c36b013a978bc001df3748fd8e1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        768
+      ],
+      "id": "01:00148/00001:text:0000097e",
+      "resource": 148,
+      "resource_row": 18,
+      "ordered_index": 338,
+      "text": "Yes... I'm sure we must"
+    },
+    "01:00148/00001:text:0000099c": {
+      "source_offset": 2460,
+      "pool_word_offset": 201,
+      "source_byte_length": 28,
+      "source_sha256": "72972b57d7b14c8fa6f0ab3215d40ee3e16ea61a21d3776937e21eb1d02de311",
+      "contains_japanese": true,
+      "reference_instructions": [
+        776
+      ],
+      "id": "01:00148/00001:text:0000099c",
+      "resource": 148,
+      "resource_row": 19,
+      "ordered_index": 339,
+      "text": "break down the defensive barriers that way"
+    },
+    "01:00148/00001:text:000009ba": {
+      "source_offset": 2490,
+      "pool_word_offset": 216,
+      "source_byte_length": 22,
+      "source_sha256": "247e275d78610c98fc66f44bae2a985138ef2ac32a6a3497702808d20227d7b3",
+      "contains_japanese": true,
+      "reference_instructions": [
+        784
+      ],
+      "id": "01:00148/00001:text:000009ba",
+      "resource": 148,
+      "resource_row": 20,
+      "ordered_index": 340,
+      "text": "before we can do any damage at all!"
+    },
+    "01:00148/00001:text:000009d2": {
+      "source_offset": 2514,
+      "pool_word_offset": 228,
+      "source_byte_length": 22,
+      "source_sha256": "ce9e49c791f848230c24aa60d1969ce2d53af7cdbc3965c2ce31b848d0aae910",
+      "contains_japanese": true,
+      "reference_instructions": [
+        892
+      ],
+      "id": "01:00148/00001:text:000009d2",
+      "resource": 148,
+      "resource_row": 21,
+      "ordered_index": 341,
+      "text": "That last attack seems to have"
+    },
+    "01:00148/00001:text:000009ea": {
+      "source_offset": 2538,
+      "pool_word_offset": 240,
+      "source_byte_length": 24,
+      "source_sha256": "9e80e96e5fdc532c30a9b5fc5cd8860ff22410135e818457c7d73bfdf1cceb37",
+      "contains_japanese": true,
+      "reference_instructions": [
+        900
+      ],
+      "id": "01:00148/00001:text:000009ea",
+      "resource": 148,
+      "resource_row": 22,
+      "ordered_index": 342,
+      "text": "weakened the barrier against physical attacks!"
+    },
+    "01:00148/00001:text:00000a04": {
+      "source_offset": 2564,
+      "pool_word_offset": 253,
+      "source_byte_length": 18,
+      "source_sha256": "a22c197fc0aaf0800a542c99e1d66dfcb470443018f71a827e17875b8ee8c0ad",
+      "contains_japanese": true,
+      "reference_instructions": [
+        908
+      ],
+      "id": "01:00148/00001:text:00000a04",
+      "resource": 148,
+      "resource_row": 23,
+      "ordered_index": 343,
+      "text": "Now, while we have the chance!"
+    },
+    "01:00148/00001:text:00000a18": {
+      "source_offset": 2584,
+      "pool_word_offset": 263,
+      "source_byte_length": 24,
+      "source_sha256": "3dc169ca5b3c3b28908390706737d2365c3b2d2a5221e913f75d3a9259506d2e",
+      "contains_japanese": true,
+      "reference_instructions": [
+        990
+      ],
+      "id": "01:00148/00001:text:00000a18",
+      "resource": 148,
+      "resource_row": 24,
+      "ordered_index": 344,
+      "text": "That last attack seems to have"
+    },
+    "01:00148/00001:text:00000a32": {
+      "source_offset": 2610,
+      "pool_word_offset": 276,
+      "source_byte_length": 28,
+      "source_sha256": "f3146ca55e7331129aecd35e3d3b772db5d980e62b93f8876a36e49cd811d470",
+      "contains_japanese": true,
+      "reference_instructions": [
+        998
+      ],
+      "id": "01:00148/00001:text:00000a32",
+      "resource": 148,
+      "resource_row": 25,
+      "ordered_index": 345,
+      "text": "weakened the barrier against magic..."
+    },
+    "01:00148/00001:text:00000a50": {
+      "source_offset": 2640,
+      "pool_word_offset": 291,
+      "source_byte_length": 20,
+      "source_sha256": "17876f9a96518ec05b2fc70bb6ba1404bd08c66b3ff0a47ab8689fcb73664275",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1006
+      ],
+      "id": "01:00148/00001:text:00000a50",
+      "resource": 148,
+      "resource_row": 26,
+      "ordered_index": 346,
+      "text": "Now's our chance to strike!"
+    },
+    "01:00148/00001:text:00000a66": {
+      "source_offset": 2662,
+      "pool_word_offset": 302,
+      "source_byte_length": 28,
+      "source_sha256": "9cdd316bc54f4ebd2d1d7166aea4a6c4582ee4ed434481faa98bf25dd2cb9a01",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1088
+      ],
+      "id": "01:00148/00001:text:00000a66",
+      "resource": 148,
+      "resource_row": 27,
+      "ordered_index": 347,
+      "text": "That last attack weakened the barrier!"
+    },
+    "01:00148/00001:text:00000a84": {
+      "source_offset": 2692,
+      "pool_word_offset": 317,
+      "source_byte_length": 10,
+      "source_sha256": "22dc9258293f70bf0d7893c78332496a78985d4d6849ee7ffec17d606da2ad00",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1096
+      ],
+      "id": "01:00148/00001:text:00000a84",
+      "resource": 148,
+      "resource_row": 28,
+      "ordered_index": 348,
+      "text": "But..."
+    },
+    "01:00148/00001:text:00000a90": {
+      "source_offset": 2704,
+      "pool_word_offset": 323,
+      "source_byte_length": 22,
+      "source_sha256": "8673cc93b80d782d77692d700aeef3dd337068f80f9a7b6cfa44603bd581e672",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1112
+      ],
+      "id": "01:00148/00001:text:00000a90",
+      "resource": 148,
+      "resource_row": 29,
+      "ordered_index": 349,
+      "text": "This one can only be hurt by weapons"
+    },
+    "01:00148/00001:text:00000aa8": {
+      "source_offset": 2728,
+      "pool_word_offset": 335,
+      "source_byte_length": 14,
+      "source_sha256": "6afd0bdbb055f755644719086056d458aaee0e4dc0317af3558331f6292d7f2e",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1120
+      ],
+      "id": "01:00148/00001:text:00000aa8",
+      "resource": 148,
+      "resource_row": 30,
+      "ordered_index": 350,
+      "text": "and physical attacks. And..."
+    },
+    "01:00148/00001:text:00000ab8": {
+      "source_offset": 2744,
+      "pool_word_offset": 343,
+      "source_byte_length": 20,
+      "source_sha256": "1dd2be9bd0c08b5b2a73fd7660da4ecf4dd78ae453d464202ed61b7024f05c14",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1158
+      ],
+      "id": "01:00148/00001:text:00000ab8",
+      "resource": 148,
+      "resource_row": 31,
+      "ordered_index": 351,
+      "text": "it looks like only summon magic"
+    },
+    "01:00148/00001:text:00000ace": {
+      "source_offset": 2766,
+      "pool_word_offset": 354,
+      "source_byte_length": 16,
+      "source_sha256": "77f80b2182134c699693d889fc0f84c14e5c6125452797aca5628a577bd7f77d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1166
+      ],
+      "id": "01:00148/00001:text:00000ace",
+      "resource": 148,
+      "resource_row": 32,
+      "ordered_index": 352,
+      "text": "will work on this one!"
+    },
+    "01:00148/00001:text:00000ae0": {
+      "source_offset": 2784,
+      "pool_word_offset": 363,
+      "source_byte_length": 18,
+      "source_sha256": "e1b9b29f02f49203889fe8b826e0fc7f267b29d9ced093276f1e36af03fde0e8",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1284
+      ],
+      "id": "01:00148/00001:text:00000ae0",
+      "resource": 148,
+      "resource_row": 33,
+      "ordered_index": 353,
+      "text": "Listen, everyone."
+    },
+    "01:00148/00001:text:00000af4": {
+      "source_offset": 2804,
+      "pool_word_offset": 373,
+      "source_byte_length": 20,
+      "source_sha256": "6ca271cf701058daf71b3d955a3e960c092e2cd2bcd071e315aa61e43036b41c",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1292
+      ],
+      "id": "01:00148/00001:text:00000af4",
+      "resource": 148,
+      "resource_row": 34,
+      "ordered_index": 354,
+      "text": "I'll tell you what I've learned"
+    },
+    "01:00148/00001:text:00000b0a": {
+      "source_offset": 2826,
+      "pool_word_offset": 384,
+      "source_byte_length": 20,
+      "source_sha256": "ebf38f4e0fe3bc7e1022b81008fecf64883c830d5e6617b3c490a72195aef339",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1300
+      ],
+      "id": "01:00148/00001:text:00000b0a",
+      "resource": 148,
+      "resource_row": 35,
+      "ordered_index": 355,
+      "text": "about breaking down the barriers."
+    },
+    "01:00148/00001:text:00000b20": {
+      "source_offset": 2848,
+      "pool_word_offset": 395,
+      "source_byte_length": 14,
+      "source_sha256": "a11a5f16aa4797e1bcce41e60c2ce0ccd90a38acbf5d96911b7db10bba817b3d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1316
+      ],
+      "id": "01:00148/00001:text:00000b20",
+      "resource": 148,
+      "resource_row": 36,
+      "ordered_index": 356,
+      "text": "Defeating the red enemies"
+    },
+    "01:00148/00001:text:00000b30": {
+      "source_offset": 2864,
+      "pool_word_offset": 403,
+      "source_byte_length": 28,
+      "source_sha256": "cbbcdbaa82997acbe90a59a9d36bbd7d44b7687c1c0377a47a77d860b155984c",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1324
+      ],
+      "id": "01:00148/00001:text:00000b30",
+      "resource": 148,
+      "resource_row": 37,
+      "ordered_index": 357,
+      "text": "weakens the red core's barrier"
+    },
+    "01:00148/00001:text:00000b4e": {
+      "source_offset": 2894,
+      "pool_word_offset": 418,
+      "source_byte_length": 14,
+      "source_sha256": "479b23861d1bfa7b615c33c0c7d67c6592bfc30dd93715b2f95b68ab4aa269a9",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1332
+      ],
+      "id": "01:00148/00001:text:00000b4e",
+      "resource": 148,
+      "resource_row": 38,
+      "ordered_index": 358,
+      "text": "against physical attacks..."
+    },
+    "01:00148/00001:text:00000b5e": {
+      "source_offset": 2910,
+      "pool_word_offset": 426,
+      "source_byte_length": 14,
+      "source_sha256": "ff633d6555014920c0731123f59c5d473f8921e5bfa2be0a997febc853251b95",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1348
+      ],
+      "id": "01:00148/00001:text:00000b5e",
+      "resource": 148,
+      "resource_row": 39,
+      "ordered_index": 359,
+      "text": "And defeating the green enemies"
+    },
+    "01:00148/00001:text:00000b6e": {
+      "source_offset": 2926,
+      "pool_word_offset": 434,
+      "source_byte_length": 28,
+      "source_sha256": "8233dd7f9df0e6aed57d6cf4caf789aa8ed6d2901b664685cb31221460028572",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1356
+      ],
+      "id": "01:00148/00001:text:00000b6e",
+      "resource": 148,
+      "resource_row": 40,
+      "ordered_index": 360,
+      "text": "weakens the green core's barrier"
+    },
+    "01:00148/00001:text:00000b8c": {
+      "source_offset": 2956,
+      "pool_word_offset": 449,
+      "source_byte_length": 10,
+      "source_sha256": "d20640bfdea5f09f9e589e7af381fc56bb4e1a3cd14d732751a4e5ed7d186b19",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1364
+      ],
+      "id": "01:00148/00001:text:00000b8c",
+      "resource": 148,
+      "resource_row": 41,
+      "ordered_index": 361,
+      "text": "against magic."
+    },
+    "01:00148/00001:text:00000b98": {
+      "source_offset": 2968,
+      "pool_word_offset": 455,
+      "source_byte_length": 24,
+      "source_sha256": "5ac4a307154cf99f7a80ba62f8e894a861cc92695438b0ce53ce9f4a77a68076",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1380
+      ],
+      "id": "01:00148/00001:text:00000b98",
+      "resource": 148,
+      "resource_row": 42,
+      "ordered_index": 362,
+      "text": "The purple enemies will probably"
+    },
+    "01:00148/00001:text:00000bb2": {
+      "source_offset": 2994,
+      "pool_word_offset": 468,
+      "source_byte_length": 28,
+      "source_sha256": "d68cbc2a98b2531a19795127231c5b428f046f736766405fa56fba94f9e5e4c2",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1388
+      ],
+      "id": "01:00148/00001:text:00000bb2",
+      "resource": 148,
+      "resource_row": 43,
+      "ordered_index": 363,
+      "text": "weaken both barriers when defeated."
+    },
+    "01:00148/00001:text:00000bd0": {
+      "source_offset": 3024,
+      "pool_word_offset": 483,
+      "source_byte_length": 14,
+      "source_sha256": "951a78c3f6c310ec5dfff1276b9b9539f8db6ffc25d3481af54a8bf45e708ce6",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1422
+      ],
+      "id": "01:00148/00001:text:00000bd0",
+      "resource": 148,
+      "resource_row": 44,
+      "ordered_index": 364,
+      "text": "I see...!"
+    },
+    "01:00148/00001:text:00000be0": {
+      "source_offset": 3040,
+      "pool_word_offset": 491,
+      "source_byte_length": 22,
+      "source_sha256": "b6a09a01b41e40b5ebcb8ca33a30baec54d3f616d076a6f5d2452f4f2e642879",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1430
+      ],
+      "id": "01:00148/00001:text:00000be0",
+      "resource": 148,
+      "resource_row": 45,
+      "ordered_index": 365,
+      "text": "All right, everyone, let's go!!"
+    },
+    "01:00148/00001:text:00000bf8": {
+      "source_offset": 3064,
+      "pool_word_offset": 503,
+      "source_byte_length": 22,
+      "source_sha256": "4add4d97176555d9e6e997733e15d8c93ca051d6d277aa12daed90ba5348951d",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1468
+      ],
+      "id": "01:00148/00001:text:00000bf8",
+      "resource": 148,
+      "resource_row": 46,
+      "ordered_index": 366,
+      "text": "Yes, I understand!"
+    },
+    "01:00148/00001:text:00000c10": {
+      "source_offset": 3088,
+      "pool_word_offset": 515,
+      "source_byte_length": 10,
+      "source_sha256": "c91771a6a9e89110e075af4d0481ca930eb2c14aad27f3b94be15f7f0f62ebb1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1616
+      ],
+      "id": "01:00148/00001:text:00000c10",
+      "resource": 148,
+      "resource_row": 47,
+      "ordered_index": 367,
+      "text": "...!!"
+    },
+    "01:00148/00001:text:00000c1c": {
+      "source_offset": 3100,
+      "pool_word_offset": 521,
+      "source_byte_length": 26,
+      "source_sha256": "ef4b2d260bec1a25094b882a667460f37f858f696a5765e09a86e3b483652b75",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1624
+      ],
+      "id": "01:00148/00001:text:00000c1c",
+      "resource": 148,
+      "resource_row": 48,
+      "ordered_index": 368,
+      "text": "It seems concentrating all our attacks"
+    },
+    "01:00148/00001:text:00000c38": {
+      "source_offset": 3128,
+      "pool_word_offset": 535,
+      "source_byte_length": 20,
+      "source_sha256": "45eb0cb4edeb443256491b999e3dc85aa65c50476ddd5a41fba80de3b4e61473",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1632
+      ],
+      "id": "01:00148/00001:text:00000c38",
+      "resource": 148,
+      "resource_row": 49,
+      "ordered_index": 369,
+      "text": "on just one of them is dangerous."
+    },
+    "01:00148/00001:text:00000c4e": {
+      "source_offset": 3150,
+      "pool_word_offset": 546,
+      "source_byte_length": 22,
+      "source_sha256": "ed785a6bb8bab56e55bf500187454fc568d487da7cb5072769fce50b580f398f",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1648
+      ],
+      "id": "01:00148/00001:text:00000c4e",
+      "resource": 148,
+      "resource_row": 50,
+      "ordered_index": 370,
+      "text": "If we carelessly make it lose control,"
+    },
+    "01:00148/00001:text:00000c66": {
+      "source_offset": 3174,
+      "pool_word_offset": 558,
+      "source_byte_length": 28,
+      "source_sha256": "aba3b88759621d552d480bfe2eccec593ac567956207907739ced78fac386ef3",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1656
+      ],
+      "id": "01:00148/00001:text:00000c66",
+      "resource": 148,
+      "resource_row": 51,
+      "ordered_index": 371,
+      "text": "its magic will run wild"
+    },
+    "01:00148/00001:text:00000c84": {
+      "source_offset": 3204,
+      "pool_word_offset": 573,
+      "source_byte_length": 20,
+      "source_sha256": "4a967fddeab443bf4baffa71848030210b879368291daf85e8b3068593f4fc39",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1664
+      ],
+      "id": "01:00148/00001:text:00000c84",
+      "resource": 148,
+      "resource_row": 52,
+      "ordered_index": 372,
+      "text": "and we'll have no way to stop it...!"
+    },
+    "01:00148/00001:text:00000c9a": {
+      "source_offset": 3226,
+      "pool_word_offset": 584,
+      "source_byte_length": 16,
+      "source_sha256": "036269eb96d8dc855142b2da5a75fde55bc4bc0c22070039bff762c6d594f715",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1680
+      ],
+      "id": "01:00148/00001:text:00000c9a",
+      "resource": 148,
+      "resource_row": 53,
+      "ordered_index": 373,
+      "text": "We must damage both pillars evenly"
+    },
+    "01:00148/00001:text:00000cac": {
+      "source_offset": 3244,
+      "pool_word_offset": 593,
+      "source_byte_length": 24,
+      "source_sha256": "00cf918557abe46fb7898cc9276df2760dd72d64664f99b8f49b50230ea95cee",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1688
+      ],
+      "id": "01:00148/00001:text:00000cac",
+      "resource": 148,
+      "resource_row": 54,
+      "ordered_index": 374,
+      "text": "and destroy them as close together as possible."
+    },
+    "01:00148/00001:text:00000cc6": {
+      "source_offset": 3270,
+      "pool_word_offset": 606,
+      "source_byte_length": 24,
+      "source_sha256": "bf602af2684ac91ff378d28dcb77eeff0bdf4f4b53ea64f75199acbf76042078",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1704
+      ],
+      "id": "01:00148/00001:text:00000cc6",
+      "resource": 148,
+      "resource_row": 55,
+      "ordered_index": 375,
+      "text": "It won't be easy..."
+    },
+    "01:00148/00001:text:00000ce0": {
+      "source_offset": 3296,
+      "pool_word_offset": 619,
+      "source_byte_length": 16,
+      "source_sha256": "c391281c729863d208d8c80522af2f370d45a56865be0c5b0dc66f13a48f69ec",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1712
+      ],
+      "id": "01:00148/00001:text:00000ce0",
+      "resource": 148,
+      "resource_row": 56,
+      "ordered_index": 376,
+      "text": "but we have no other choice!!"
+    },
+    "01:00148/00001:text:00000cf2": {
+      "source_offset": 3314,
+      "pool_word_offset": 628,
+      "source_byte_length": 8,
+      "source_sha256": "b7b40cab5ae51a59b0c3432033b499b1ad9c537edde92ccae5e7d17c78b30dda",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1754
+      ],
+      "id": "01:00148/00001:text:00000cf2",
+      "resource": 148,
+      "resource_row": 57,
+      "ordered_index": 377,
+      "text": "Right!!"
+    },
+    "01:00148/00001:text:00000cfc": {
+      "source_offset": 3324,
+      "pool_word_offset": 633,
+      "source_byte_length": 10,
+      "source_sha256": "48c726f8b13221c7090addcc665016dcd99589fc5c77f48f833e01928ab955a9",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1792
+      ],
+      "id": "01:00148/00001:text:00000cfc",
+      "resource": 148,
+      "resource_row": 58,
+      "ordered_index": 378,
+      "text": "That's right!"
+    },
+    "01:00148/00001:text:00000d08": {
+      "source_offset": 3336,
+      "pool_word_offset": 639,
+      "source_byte_length": 22,
+      "source_sha256": "c404c9c60c6d526d680006160cdfe221e77382850fac93e8356810660691d8af",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1800
+      ],
+      "id": "01:00148/00001:text:00000d08",
+      "resource": 148,
+      "resource_row": 59,
+      "ordered_index": 379,
+      "text": "Let's go, everyone!"
+    },
+    "01:00148/00001:text:00000d20": {
+      "source_offset": 3360,
+      "pool_word_offset": 651,
+      "source_byte_length": 4,
+      "source_sha256": "3c4a100d9c796f7a7a83c9a3588a19e46d5dba776f1861254eaeb3e3c7f8badd",
+      "contains_japanese": false,
+      "reference_instructions": [
+        1896
+      ],
+      "id": "01:00148/00001:text:00000d20",
+      "resource": 148,
+      "resource_row": 60,
+      "ordered_index": 380,
+      "text": "!?"
+    },
+    "01:00148/00001:text:00000d26": {
+      "source_offset": 3366,
+      "pool_word_offset": 654,
+      "source_byte_length": 28,
+      "source_sha256": "99c1911e4be5720475ce7c0f29e62d99a5c35cd92e4fdd3e80b24fceac5569d3",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1904
+      ],
+      "id": "01:00148/00001:text:00000d26",
+      "resource": 148,
+      "resource_row": 61,
+      "ordered_index": 381,
+      "text": "What is this awful feeling...?"
+    },
+    "01:00148/00001:text:00000d44": {
+      "source_offset": 3396,
+      "pool_word_offset": 669,
+      "source_byte_length": 10,
+      "source_sha256": "8ce66be76d5ae0bf0e26e365c2f4232fa1c6bf2d5b165e9e5a307c1a99120096",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1922
+      ],
+      "id": "01:00148/00001:text:00000d44",
+      "resource": 148,
+      "resource_row": 62,
+      "ordered_index": 382,
+      "text": "This is bad!!"
+    },
+    "01:00148/00001:text:00000d50": {
+      "source_offset": 3408,
+      "pool_word_offset": 675,
+      "source_byte_length": 28,
+      "source_sha256": "e8457397f970455da3c753bec0a20b4ca65872c8f04a577581159f75031cdef1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1930
+      ],
+      "id": "01:00148/00001:text:00000d50",
+      "resource": 148,
+      "resource_row": 63,
+      "ordered_index": 383,
+      "text": "Everyone, get away from that thing!!"
+    },
+    "01:00148/00001:text:00000d6e": {
+      "source_offset": 3438,
+      "pool_word_offset": 690,
+      "source_byte_length": 4,
+      "source_sha256": "3c4a100d9c796f7a7a83c9a3588a19e46d5dba776f1861254eaeb3e3c7f8badd",
+      "contains_japanese": false,
+      "reference_instructions": [
+        1968
+      ],
+      "id": "01:00148/00001:text:00000d6e",
+      "resource": 148,
+      "resource_row": 64,
+      "ordered_index": 384,
+      "text": "!?"
+    },
+    "01:00148/00001:text:00000d74": {
+      "source_offset": 3444,
+      "pool_word_offset": 693,
+      "source_byte_length": 26,
+      "source_sha256": "14990b41ada8d6d39993cc339985587989d66ec26917c8c4bff8254fd4c7f184",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1976
+      ],
+      "id": "01:00148/00001:text:00000d74",
+      "resource": 148,
+      "resource_row": 65,
+      "ordered_index": 385,
+      "text": "What is this awful feeling...?"
+    },
+    "01:00148/00001:text:00000d90": {
+      "source_offset": 3472,
+      "pool_word_offset": 707,
+      "source_byte_length": 12,
+      "source_sha256": "27cc770beb4e8a3a7f7a00b848d79a4649828fab9d1e07f4a3eebf436e172906",
+      "contains_japanese": true,
+      "reference_instructions": [
+        1994
+      ],
+      "id": "01:00148/00001:text:00000d90",
+      "resource": 148,
+      "resource_row": 66,
+      "ordered_index": 386,
+      "text": "Oh, no!!"
+    },
+    "01:00148/00001:text:00000d9e": {
+      "source_offset": 3486,
+      "pool_word_offset": 714,
+      "source_byte_length": 20,
+      "source_sha256": "de17b97e33f35fcbf98c4d96320373690494b285d2652ec712633a50986b1277",
+      "contains_japanese": true,
+      "reference_instructions": [
+        2002
+      ],
+      "id": "01:00148/00001:text:00000d9e",
+      "resource": 148,
+      "resource_row": 67,
+      "ordered_index": 387,
+      "text": "Everyone, run!!"
+    },
+    "01:00149/00001:text:000001d2": {
+      "source_offset": 466,
+      "pool_word_offset": 1,
+      "source_byte_length": 20,
+      "source_sha256": "5a2764667229062ab7a6769cc81d4e66ad64f25c2c9b9d41bd4aab4a056d21c1",
+      "contains_japanese": true,
+      "reference_instructions": [
+        122
+      ],
+      "id": "01:00149/00001:text:000001d2",
+      "resource": 149,
+      "resource_row": 0,
+      "ordered_index": 388,
+      "text": "Uooooooooh"
+    },
+    "01:00149/00001:text:000001e8": {
+      "source_offset": 488,
+      "pool_word_offset": 12,
+      "source_byte_length": 20,
+      "source_sha256": "cb1497e2ea4942ff0d03067e39cb9c18e77da304d30b4fad46bca618de8cdf63",
+      "contains_japanese": true,
+      "reference_instructions": [
+        130
+      ],
+      "id": "01:00149/00001:text:000001e8",
+      "resource": 149,
+      "resource_row": 1,
+      "ordered_index": 389,
+      "text": "aaaaaah!!!!"
+    },
+    "01:00149/00001:text:000001fe": {
+      "source_offset": 510,
+      "pool_word_offset": 23,
+      "source_byte_length": 26,
+      "source_sha256": "0cd6de2f22db0096f44d6a4296534880a423809412f83491856119c331ad8a90",
+      "contains_japanese": true,
+      "reference_instructions": [
+        148
+      ],
+      "id": "01:00149/00001:text:000001fe",
+      "resource": 149,
+      "resource_row": 2,
+      "ordered_index": 390,
+      "text": "What hideous magic..."
+    },
+    "01:00149/00001:text:0000021a": {
+      "source_offset": 538,
+      "pool_word_offset": 37,
+      "source_byte_length": 18,
+      "source_sha256": "fa96b5367b7a9a3a88029dfc601635d42d49969e76e730f1280c5cb2dc9949a9",
+      "contains_japanese": true,
+      "reference_instructions": [
+        156
+      ],
+      "id": "01:00149/00001:text:0000021a",
+      "resource": 149,
+      "resource_row": 3,
+      "ordered_index": 391,
+      "text": "You monster...!"
+    },
+    "01:00149/00001:text:0000022e": {
+      "source_offset": 558,
+      "pool_word_offset": 47,
+      "source_byte_length": 22,
+      "source_sha256": "fe259b42617538520b3e1a14616d05f4e8064843232b31828412f6f9dac6a8a9",
+      "contains_japanese": true,
+      "reference_instructions": [
+        172
+      ],
+      "id": "01:00149/00001:text:0000022e",
+      "resource": 149,
+      "resource_row": 4,
+      "ordered_index": 392,
+      "text": "...But that is precisely"
+    },
+    "01:00149/00001:text:00000246": {
+      "source_offset": 582,
+      "pool_word_offset": 59,
+      "source_byte_length": 20,
+      "source_sha256": "1d40248635ec67dd5f318da0d3ae422878fb22154f0f137131a897b45be6d004",
+      "contains_japanese": true,
+      "reference_instructions": [
+        180
+      ],
+      "id": "01:00149/00001:text:00000246",
+      "resource": 149,
+      "resource_row": 5,
+      "ordered_index": 393,
+      "text": "what makes it"
+    },
+    "01:00149/00001:text:0000025c": {
+      "source_offset": 604,
+      "pool_word_offset": 70,
+      "source_byte_length": 14,
+      "source_sha256": "980417a32f97fc257f0b2054e1db24c09f19c7cb0705c0dc0c336ec0793822ed",
+      "contains_japanese": true,
+      "reference_instructions": [
+        188
+      ],
+      "id": "01:00149/00001:text:0000025c",
+      "resource": 149,
+      "resource_row": 6,
+      "ordered_index": 394,
+      "text": "worth obtaining!"
+    },
+    "01:00149/00001:text:0000026c": {
+      "source_offset": 620,
+      "pool_word_offset": 78,
+      "source_byte_length": 12,
+      "source_sha256": "5d5d0a9c5fb23ec59de8f3a4a39d283b2a3344bbaddce9da2994ce3056c16c99",
+      "contains_japanese": true,
+      "reference_instructions": [
+        204
+      ],
+      "id": "01:00149/00001:text:0000026c",
+      "resource": 149,
+      "resource_row": 7,
+      "ordered_index": 395,
+      "text": "......"
+    },
+    "01:00149/00001:text:0000027a": {
+      "source_offset": 634,
+      "pool_word_offset": 85,
+      "source_byte_length": 18,
+      "source_sha256": "9edd6bc94b12ca5b1212ff77b25ae88f719537e66234f5dc224dfff418d90ab6",
+      "contains_japanese": true,
+      "reference_instructions": [
+        286
+      ],
+      "id": "01:00149/00001:text:0000027a",
+      "resource": 149,
+      "resource_row": 8,
+      "ordered_index": 396,
+      "text": "Az... li..."
+    },
+    "01:00149/00001:text:0000028e": {
+      "source_offset": 654,
+      "pool_word_offset": 95,
+      "source_byte_length": 12,
+      "source_sha256": "7df0f4800efcf9d9182c9fec346daab6eaeabfbaf47c17607651d25b8cf5fe58",
+      "contains_japanese": true,
+      "reference_instructions": [
+        294
+      ],
+      "id": "01:00149/00001:text:0000028e",
+      "resource": 149,
+      "resource_row": 9,
+      "ordered_index": 397,
+      "text": "I'm... sor..."
+    },
+    "01:00149/00001:text:0000029c": {
+      "source_offset": 668,
+      "pool_word_offset": 102,
+      "source_byte_length": 20,
+      "source_sha256": "106915098a6c500dacafd31fb7e3f2390bcd2a3a2127cf7dbc48b476d37b36ec",
+      "contains_japanese": true,
+      "reference_instructions": [
+        312
+      ],
+      "id": "01:00149/00001:text:0000029c",
+      "resource": 149,
+      "resource_row": 10,
+      "ordered_index": 398,
+      "text": "S-stay away!"
+    },
+    "01:00149/00001:text:000002b2": {
+      "source_offset": 690,
+      "pool_word_offset": 113,
+      "source_byte_length": 18,
+      "source_sha256": "9505d4a94a09e32dbf379e23f3089529e45d30b8612ef6c905ca58559a9e55ac",
+      "contains_japanese": true,
+      "reference_instructions": [
+        320
+      ],
+      "id": "01:00149/00001:text:000002b2",
+      "resource": 149,
+      "resource_row": 11,
+      "ordered_index": 399,
+      "text": "You monster!!"
+    }
+  }
+}

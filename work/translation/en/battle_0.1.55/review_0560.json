@@ -1,0 +1,143 @@
+{
+  "version": "0.1.55",
+  "reviewer": "independent_agent_b",
+  "reviewed_range_inclusive": [
+    560,
+    639
+  ],
+  "rows_in_slice": 80,
+  "rows_examined": 91,
+  "source_ranges_examined": [
+    [
+      551,
+      641
+    ]
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/battle_0.1.55/slice_0480.targets.json": "68d232243db3f98bf7ec25775bca2c16d43cdf2227ce795f6b173c3f997f820a",
+    "work/translation/en/battle_0.1.55/slice_0560.targets.json": "f9b5e6a6d345e2e17b9a36edc3f212a6b20085f4f1784ea710f7039d4e52221a",
+    "work/translation/en/battle_0.1.55/slice_0640.targets.json": "f5bc62bc88cf6e79db38956db93984c66f0288958af28d11ccfb1d2efd8a1db9"
+  },
+  "corrections": [
+    {
+      "ordered_index": 560,
+      "resource": 168,
+      "resource_row": 12,
+      "source_sha256": "ebbf7833d4555742ba6be8818139664dfc9b00d9f5ebc8abf944fbc2d0d5a63d",
+      "text": "That's more 'beaten up'",
+      "reason": "Remove the invented addressee who supposedly gets injured. The source compares the results with being lovestruck and being battered; the impersonal situation subject preserves its ambiguity."
+    },
+    {
+      "ordered_index": 561,
+      "resource": 168,
+      "resource_row": 13,
+      "source_sha256": "612d5c0c681fc58826470929a1cdd58fec3f3e7681544a211cf764595e4ff523",
+      "text": "than 'lovestruck,' isn't it?",
+      "reason": "Complete the comparison without asserting that the person addressed becomes the injured party."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        560,
+        561,
+        562
+      ],
+      "note": "The source omits who is battered in the smitten/battered joke. Prior speech concerns monsters being charmed; the draft introduced an unsupported injured you. Corrections use an impersonal situation subject without choosing who is battered."
+    },
+    {
+      "rows": [
+        570,
+        571,
+        572
+      ],
+      "note": "Berserk Summoning is the root-approved provisional term; lack of restraint accurately conveys the warning that enemies will not act responsibly."
+    },
+    {
+      "rows": [
+        574,
+        575,
+        576,
+        577,
+        578
+      ],
+      "note": "Yukres Village matches the location glossary. Beardy follows story_additions_0.1.54.json for Jakini; the next group names Jakini and resolves the nickname."
+    },
+    {
+      "rows": [
+        608,
+        609,
+        610,
+        617,
+        618,
+        619
+      ],
+      "note": "Lawler and Magna/Toris Clesment follow current root-approved terminology and existing references. The named oath is kept distinct from the enemy Dielgo."
+    },
+    {
+      "rows": [
+        628,
+        629,
+        630,
+        638
+      ],
+      "note": "Seat of Core Cognizance and Dielgo of Primal Sin are approved provisional compounds; Clyps remains an established provisional reading."
+    }
+  ],
+  "preserved_source_omissions": [
+    {
+      "rows": [
+        560,
+        561
+      ],
+      "note": "The identity of who is battered remains unspecified; corrected English uses that as a grammatical subject referring to the situation."
+    },
+    {
+      "rows": [
+        574,
+        575
+      ],
+      "note": "The alarmed names remain trailing phrases, with the exact threat unspoken."
+    },
+    {
+      "rows": [
+        581,
+        582,
+        583
+      ],
+      "note": "The gunpowder scheme is intentionally unfinished before laughter."
+    },
+    {
+      "rows": [
+        597,
+        598
+      ],
+      "note": "The shaking character leaves the disbelief unfinished."
+    },
+    {
+      "rows": [
+        599,
+        600,
+        601,
+        602,
+        603,
+        604
+      ],
+      "note": "Both protagonist variants retain the unknown sensed identity rather than naming it."
+    },
+    {
+      "rows": [
+        625,
+        626,
+        627,
+        631,
+        632,
+        633
+      ],
+      "note": "Speculative conditionals intentionally omit the feared consequences, matching the source suspense."
+    }
+  ],
+  "semantic_complete": true,
+  "blockers": [],
+  "notes": "Read every source VM group and compared English whole-box meaning with surrounding context. Reviewed direction, subjects, names, Teacher terminology, tactical claims, and intentional incomplete speech. This review is independent of the author. Root applies the corrections before acceptance; no original source script is persisted."
+}

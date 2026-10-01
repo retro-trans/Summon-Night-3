@@ -1,5 +1,38 @@
 # Changelog
 
+## 0.1.55 - Remaining battle-event translation (test release, 2026-10-01)
+
+- Translate all 642 remaining indexed battle-event fragments across 27 resources,
+  using nine consecutive slices and independent Japanese-source meaning reviews.
+- Apply five reviewed fragment corrections, then normalize current glossary names
+  and the Beardy nickname. Preserve uncertainties and intentional unfinished speech.
+- Validate 284 dialogue groups / 329 generated pages in memory: preserve speakers,
+  control tokens, branch destinations and untouched event code; enforce text-box fit.
+- Handle three verified native speaker operands and one source-locked blank append
+  without changing the historical battle compiler or published build inputs.
+- Pass eight negative acceptance/input checks, 13 story regression tests and all
+  12 cumulative stability audit groups on the built ISO.
+- Fresh-boot PPSSPP passes Chapter 15 Continue, Brave Goals, Inventory/Black Rose
+  Knife and Summon Index/Dritol with strict memory handling. Full routes and
+  individual new battle-event allocations remain unverified.
+- Build on published v0.1.54; verify 31,742 untouched archive entries. Package
+  only the clean-source patch and upgrade from published v0.1.54.
+- Update and read back all 642 battle Current English cells in the translator
+  Sheet. Preserve Proposed English, review fields, notes, formatting, row order
+  and archives; label the Read me checkpoint as unreleased v0.1.55.
+
+## Translator sheet refresh - 2026-10-01
+
+- Audit remaining blank cells: distinguish 8,913 intentional continuations,
+  363 older export-mapping omissions and 642 unmapped battle-event fragments.
+  Record the scope gap without changing translator entries.
+- Refresh 24,778 Current English cells across 12 tabs from reviewed v0.1.54
+  release inputs; match all 71,356 released story occurrences by stable key.
+- Read back every changed range and preserve Proposed English, reviewer fields,
+  notes, source text, speakers, order, formatting and hidden archives.
+- Update the Read me checkpoint and explain intentional blank continuation
+  fragments. Save the verified local refresh receipt; release files are unchanged.
+
 ## 0.1.54 - Remaining story translation (test release, 2026-10-01)
 
 - Publish the two verified patches and confirm all nine public asset hashes.

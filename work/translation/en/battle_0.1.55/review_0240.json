@@ -1,0 +1,100 @@
+{
+  "version": "0.1.55",
+  "reviewer": "independent_agent_c",
+  "reviewed_range_inclusive": [
+    240,
+    319
+  ],
+  "rows_in_slice": 80,
+  "rows_examined": 97,
+  "source_ranges_examined": [
+    [
+      232,
+      328
+    ]
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/battle_0.1.55/slice_0160.targets.json": "ac051d51073a7de64d4815f92bff3a6cefa7c989b356c7fe8d9a620e3572ec20",
+    "work/translation/en/battle_0.1.55/slice_0240.targets.json": "cf70afd4e07b61c78024eeb978294a5f9edde5a7aa7f26536f1e198056f1c9ef",
+    "work/translation/en/battle_0.1.55/slice_0320.targets.json": "42676ca24b39e5bbea58702774062805dd2625bb3cb626016f6c0d606bfbf090"
+  },
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        245,
+        246,
+        247,
+        248
+      ],
+      "note": "Unnamed organization remains generic; no faction name inferred. Cowardly motive belongs to the responding speaker."
+    },
+    {
+      "rows": [
+        276,
+        277,
+        278,
+        279,
+        280,
+        281
+      ],
+      "note": "Appearance-versus-substance taunts and mirrored speaker operands support disguise; exact mimic mechanism is not asserted."
+    },
+    {
+      "rows": [
+        292,
+        293,
+        294
+      ],
+      "note": "Source summoning invocation leaves number unspecified. Demons is a reasonable collective rendering but singular versus plural remains unresolved from dialogue alone."
+    },
+    {
+      "rows": [
+        304,
+        305,
+        306
+      ],
+      "note": "Impersonal It really was foolish avoids guessing whether this is a mirror self or a separate speaker; reciprocal hurt and added pain remain intact."
+    }
+  ],
+  "preserved_source_omissions": [
+    {
+      "rows": [
+        241,
+        242,
+        243,
+        244
+      ],
+      "note": "Victory result trails off at Now, matching both protagonist variants."
+    },
+    {
+      "rows": [
+        245,
+        246
+      ],
+      "note": "Someone as skilled as you is a deliberate nominal echo following the complete question."
+    },
+    {
+      "rows": [
+        286,
+        287,
+        288,
+        289,
+        290,
+        291
+      ],
+      "note": "The suspended first box is completed directly in the next: no other means remain."
+    },
+    {
+      "rows": [
+        304,
+        305,
+        306
+      ],
+      "note": "The source leaves the person doing the reciprocal hurting unidentified. Impersonal English retains that omission rather than inventing I/you/we."
+    }
+  ],
+  "semantic_complete": true,
+  "blockers": [],
+  "notes": "Independently reviewed author B, never own drafts. Full actual VM groups with adjacent context were compared against English. The480-487 adjoining own draft was read only as boundary context and is not independently accepted here. Root must apply recorded correction then bind compiler acceptance."
+}

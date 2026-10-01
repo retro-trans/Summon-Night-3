@@ -1,0 +1,99 @@
+{
+  "version": "0.1.55",
+  "reviewer": "independent_agent",
+  "reviewed_range_inclusive": [
+    160,
+    239
+  ],
+  "rows_in_slice": 80,
+  "rows_examined": 98,
+  "source_ranges_examined": [
+    [
+      151,
+      248
+    ]
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/battle_0.1.55/slice_0080.targets.json": "c45a68b249218abd47023753d8b09863f41dee93ec3c21c55f6631bcd4a2bd0f",
+    "work/translation/en/battle_0.1.55/slice_0160.targets.json": "ac051d51073a7de64d4815f92bff3a6cefa7c989b356c7fe8d9a620e3572ec20",
+    "work/translation/en/battle_0.1.55/slice_0240.targets.json": "cf70afd4e07b61c78024eeb978294a5f9edde5a7aa7f26536f1e198056f1c9ef"
+  },
+  "corrections": [
+    {
+      "ordered_index": 211,
+      "resource": 143,
+      "resource_row": 5,
+      "source_sha256": "febd8995300249987f681337d2bd345631db347374c02f16209cd8d5044490a9",
+      "text": "They're strong...!",
+      "reason": "The source explicitly asserts this person is strong; preserve its subject and predicate instead of dropping both into a noun fragment. Neutral they avoids inferred gender."
+    },
+    {
+      "ordered_index": 213,
+      "resource": 143,
+      "resource_row": 7,
+      "source_sha256": "febd8995300249987f681337d2bd345631db347374c02f16209cd8d5044490a9",
+      "text": "They're strong...!",
+      "reason": "The source explicitly asserts this person is strong; preserve its subject and predicate instead of dropping both into a noun fragment. Neutral they avoids inferred gender."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        179,
+        180,
+        181
+      ],
+      "note": "Queen of the Dead is glossary-backed. Strays is a plausible setting designation but glossary registration was requested from root before final acceptance."
+    },
+    {
+      "rows": [
+        201,
+        202,
+        203,
+        204,
+        205
+      ],
+      "note": "Two apparent interlocutors share an operand. Escape interprets relief from the oppressive situation, supported by the subsequent taking-flight metaphor; exact portrait identities are not asserted."
+    },
+    {
+      "rows": [
+        217,
+        218
+      ],
+      "note": "Neutral their preserves unknown combatant gender. Full strength is an idiomatic rendering of not fighting seriously."
+    },
+    {
+      "rows": [
+        228,
+        229
+      ],
+      "note": "The self-versus-self deathmatch is retained literally; no clone mechanics or identity are invented."
+    }
+  ],
+  "preserved_source_omissions": [
+    {
+      "rows": [
+        185,
+        186
+      ],
+      "note": "You... remains the source interrupted accusation."
+    },
+    {
+      "rows": [
+        188,
+        189
+      ],
+      "note": "How could I possibly...? preserves the source unfinished disbelief rather than inventing an explicit defeat assertion."
+    },
+    {
+      "rows": [
+        210,
+        212
+      ],
+      "note": "What an overwhelming presence remains a source exclamation. The following full assertion is restored by corrections211/213."
+    }
+  ],
+  "semantic_complete": true,
+  "blockers": [],
+  "notes": "All actual VM source groups in the examined range were read with neighbors. Reviewed English whole-box meaning, addressee direction, control-bearing name positions, canonical names and Teacher terminology; no source Japanese is persisted. Root applies corrections then compiler acceptance."
+}

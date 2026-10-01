@@ -12,11 +12,11 @@ screenshot. State whether you loaded an in-game save or an emulator save state.
 
 ## Play it
 
-The latest test release is **[v0.1.54](https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.54)**.
-It includes 43,668 newly translated and reviewed story fragments across 134 scripts,
-the Teacher terminology update, and all earlier crash guards and interface fixes.
-The remaining scoped story pass is complete; non-story text and full-route testing
-remain incomplete.
+The latest test release is **[v0.1.55](https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.55)**.
+It adds 642 independently reviewed battle-event fragments across 27 scripts,
+and includes the v0.1.54 story translation and all earlier crash guards and
+interface fixes. The indexed remaining story and battle-event passes are complete;
+other text, graphics and full-route testing remain incomplete.
 
 ### Apply
 
@@ -25,25 +25,24 @@ catalog, and select your source ISO. Manual Apply xdelta and DeltaPatcher also w
 
 | Your source image | Patch |
 |---|---|
-| Clean Japanese NPJH50380 | `SN3-English-v0.1.54.xdelta` |
-| Published English v0.1.52 | `SN3-English-v0.1.52-to-v0.1.54.xdelta` |
+| Clean Japanese NPJH50380 | `SN3-English-v0.1.55.xdelta` |
+| Published English v0.1.54 | `SN3-English-v0.1.54-to-v0.1.55.xdelta` |
 
 Use the exact source version and keep checksum verification enabled.
 Both patches are fully round-trip verified with the Retro Trans engine.
-[Public Automatic-mode verification](docs/RETRO_TRANS_0.1.54.md) also passed
-for the v0.1.52 upgrade.
+The release follows the Retro Trans manifest and checksum contract.
 
 ```sh
-xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.54.xdelta" "Summon Night 3 English v0.1.54.iso"
+xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.55.xdelta" "Summon Night 3 English v0.1.55.iso"
 ```
 
 | Image | SHA-256 |
 |---|---|
 | Clean Japanese source - 1,658,159,104 bytes | `00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda` |
-| English v0.1.54 - 1,676,941,312 bytes | `cdf3899bb3aeec87e03cc979b203c56edcbcd1b270036397dfdd37b00488b8c5` |
+| English v0.1.55 - 1,676,998,656 bytes | `d75654f7d9381293b8b78e8e7ddd8766bd2c518e9da05a8a7983205abd04bfe9` |
 
 Start the new ISO fresh and load an **in-game save**. Emulator save states retain
-old code and resources. The [release report](docs/RELEASE_0.1.54.md) distinguishes
+old code and resources. The [release report](docs/RELEASE_0.1.55.md) distinguishes
 automated checks from fresh-boot testing. Chapter 15 Continue, Brave Goals,
 Inventory and Summon Index passed; full-route and individual new-script runtime
 allocation testing remain pending.
@@ -54,7 +53,7 @@ English targets and source identities are in [work/translation/en](work/translat
 Records use resource IDs, offsets and source hashes so the Japanese can be read
 from your own game image without publishing a full Japanese script dump.
 
-The latest [coverage and test report](docs/RELEASE_0.1.54.md) distinguishes
+The latest [coverage and test report](docs/RELEASE_0.1.55.md) distinguishes
 in-game checks from static checks. Broader scope is documented in
 [Chapters 1–3](docs/BUILD_0.1.12.md), [Chapters 4–8](docs/CHAPTERS_0.1.14.md),
 and [battle dialogue](docs/BATTLE_DIALOGUE_0.1.24.md).

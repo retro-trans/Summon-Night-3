@@ -1,0 +1,64 @@
+{
+  "version": "0.1.55",
+  "reviewer": "independent_agent",
+  "reviewed_range_inclusive": [
+    80,
+    159
+  ],
+  "rows_in_slice": 80,
+  "rows_examined": 98,
+  "source_ranges_examined": [
+    [
+      70,
+      167
+    ]
+  ],
+  "draft_inputs_sha256": {
+    "work/translation/en/battle_0.1.55/slice_0000.targets.json": "b2dd998e2600676b84643786781006f02db185599800a92c45440f26dcf3eb24",
+    "work/translation/en/battle_0.1.55/slice_0080.targets.json": "c45a68b249218abd47023753d8b09863f41dee93ec3c21c55f6631bcd4a2bd0f",
+    "work/translation/en/battle_0.1.55/slice_0160.targets.json": "ac051d51073a7de64d4815f92bff3a6cefa7c989b356c7fe8d9a620e3572ec20"
+  },
+  "corrections": [],
+  "uncertainties": [
+    {
+      "rows": [
+        103,
+        104,
+        105
+      ],
+      "note": "The enemy is the Imperial Army in adjacent pupil alternatives; outmatched faithfully restores the direction of the overwhelming strength difference."
+    },
+    {
+      "rows": [
+        146,
+        147
+      ],
+      "note": "New beginning is an idiomatic rendering of beginning from there after the confrontation, without adding a concrete new relationship."
+    },
+    {
+      "rows": [
+        155,
+        156
+      ],
+      "note": "The unforgiven people are the attacking enemies identified by the immediately preceding order."
+    }
+  ],
+  "preserved_source_omissions": [
+    {
+      "rows": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "note": "Each first box intentionally ends I...; the predicate continues in the immediately following actual VM box. This is a dramatic source pause, not an omitted subject or lost sentence ending."
+    }
+  ],
+  "semantic_complete": true,
+  "blockers": [],
+  "notes": "All actual VM source groups in the examined range were read with neighbors. Reviewed English whole-box meaning, addressee direction, control-bearing name positions, canonical names and Teacher terminology; no source Japanese is persisted. Root applies corrections then compiler acceptance."
+}
