@@ -1,6 +1,6 @@
 {
   "version": "0.1.54",
-  "status": "story_translation_review_complete_unreleased",
+  "status": "story_translation_published_test_release",
   "counts": {
     "new_fragments_in_scope": 43668,
     "shared_occurrences": 29716,
@@ -163,9 +163,10 @@
     485
   ],
   "pending": [
-    "Build, runtime allocation validation and in-game testing remain. No new ISO or release was produced.",
-    "Provisional lore, species and place spellings remain documented in acceptance records for later terminology research.",
-    "Preserve human Proposed English edits; no Google Sheet writes in this pass."
+    "Full-route and individual new-story runtime allocation validation remain; this is a test release.",
+    "Other untranslated interface/encyclopedic/graphic content and the known Brave Goal mystery-row overflow remain.",
+    "Provisional lore, species and place spellings remain documented for follow-up proofreading.",
+    "Translator Proposed English edits are preserved; no Google Sheet update was made."
   ],
   "validation": "All 43,668 new story fragments across 134 resources have complete independent review coverage and accepted translations. All 134 resources pass in-memory compilation with current input hashes verified. No pending reviewed corrections, active review errors, empty complete new dialogue boxes or music-marker mismatches. Runtime allocation and gameplay remain unverified.",
   "review_proof_counts": {
@@ -376,7 +377,7 @@
     "author_model": "gpt-5.6-terra",
     "drafts": [],
     "independent_reviews": [],
-    "checkpoint": "Remaining story translation and source review complete; no build or release.",
+    "checkpoint": "v0.1.54 published; both patches and Retro Trans Automatic upgrade verified. Full-route playtesting remains.",
     "sheet_updates": "Preserve human proposed edits; no Google Sheet writes in this pass."
   },
   "latest_compiler_validation": {
@@ -1513,5 +1514,21 @@
     "legacy_metadata_note": "24 legacy draft files retain historical author metadata; all their new rows now have current complete review proofs. This metadata count is not pending meaning review.",
     "build_produced": false,
     "runtime_verified": false
+  },
+  "publication_0_1_54": {
+    "date": "2026-10-01",
+    "url": "https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.54",
+    "source_commit": "f97ada9eff52f1f1ed4363dcc34c8eef67e8d247",
+    "iso_sha256": "cdf3899bb3aeec87e03cc979b203c56edcbcd1b270036397dfdd37b00488b8c5",
+    "original_patch": "SN3-English-v0.1.54.xdelta",
+    "upgrade_patch": "SN3-English-v0.1.52-to-v0.1.54.xdelta",
+    "automatic_verified": true,
+    "public_asset_count": 9,
+    "smoke_tests_passed": [
+      "continue_late_battle",
+      "brave_goals",
+      "equipment",
+      "summon_index"
+    ]
   }
 }

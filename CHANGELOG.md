@@ -2,6 +2,9 @@
 
 ## 0.1.54 - Remaining story translation (test release, 2026-10-01)
 
+- Publish the two verified patches and confirm all nine public asset hashes.
+  Register the release in Retro Trans and verify a real Automatic-mode upgrade
+  from v0.1.52, including complete output hash and target recognition.
 - Build all 134 accepted story scripts on v0.1.53; publish only the clean-source
   patch and upgrade from published v0.1.52.
 - Verify unchanged ISO file contents and untouched archive entries. Pass 13
