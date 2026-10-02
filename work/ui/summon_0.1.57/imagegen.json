@@ -1,0 +1,8 @@
+{
+  "version": "0.1.57",
+  "method": "built-in image_gen",
+  "asset": "create_summons_generated.png",
+  "edit_target": "2953_0_0.png",
+  "prompt": "Text-localization edit of this flat 480x272 PSP game background. Preserve the original layout, parchment, brown top bar, ornate swirls, seal, ruled lines and every illustration exactly. Replace the Japanese top-left title 召喚作成 with exact English 'Create Summons'. Use warm ivory bold serif text matching the original title, make it fit within the existing small ornate nameplate without widening or moving its frame. Replace the small brown Japanese 属性： label near x130,y48 with exact English 'Affinity:'; fit it around x112 to164 at native size. Keep 'No.' and all blank regions as they are. Do not add other words, icons, widgets, or explanation. The output should be a faithful localized copy of the full background, same 30:17 aspect ratio, no outside borders.",
+  "native_import": "Crop generated title and affinity text regions, resample to native dimensions, and map to existing palette. All pixels outside those regions are preserved exactly."
+}

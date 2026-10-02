@@ -1,0 +1,9 @@
+{
+  "version": "0.1.57",
+  "ui_labels": [
+    {"source": "召喚作成", "target": "Create Summons", "resource": 2953, "child": 0},
+    {"source": "属性：", "target": "Affinity:", "resources": [2953,2954,2955], "child": 0},
+    {"id": "elf:ui:0021e24c", "previous": "Cast Magic", "target": "Cast", "meaning": "Same magic-casting action; compact button hint."}
+  ],
+  "hint_layout": "Reuse the shipped proportional Type wrapper for Confirm, Set Name, Cast and Dismiss. Move individual mode anchors left to keep translated hints inside 480 pixels."
+}

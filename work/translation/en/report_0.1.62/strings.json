@@ -1,0 +1,185 @@
+{
+  "version": "0.1.62",
+  "source_build": "0.1.61",
+  "spells": [
+    {
+      "record": 64,
+      "slot": 8,
+      "source": "すすオトシ",
+      "english": "Soot Drop"
+    },
+    {
+      "record": 65,
+      "slot": 8,
+      "source": "すすシバキ",
+      "english": "Soot Strike"
+    },
+    {
+      "record": 66,
+      "slot": 8,
+      "source": "双舞・闇シバキ",
+      "full_translation": "Twin Dance: Dark Strike",
+      "english": "Twin Dark Strike"
+    }
+  ],
+  "skills": [
+    {
+      "record": 0,
+      "slot": 8,
+      "source": "抜剣覚醒",
+      "english": "Blade Awakening"
+    },
+    {
+      "record": 1,
+      "slot": 8,
+      "source": "抜剣覚醒・改",
+      "english": "Blade Awakening+"
+    },
+    {
+      "record": 2,
+      "slot": 8,
+      "source": "抜剣覚醒・暴走",
+      "english": "Berserk Blade"
+    },
+    {
+      "record": 3,
+      "slot": 8,
+      "source": "抜剣覚醒",
+      "english": "Blade Awakening"
+    }
+  ],
+  "awakening": {
+    "full_translation": "Release the sword's power to awaken. Immune to all status ailments and possession; enables Berserk Summoning.",
+    "help": [
+      "Awaken; ailment immunity.",
+      "No poss.; Berserk Summon OK"
+    ]
+  },
+  "summon": {
+    "record": 23,
+    "base_name": "Mujina",
+    "alternates": [
+      {
+        "slot": 10,
+        "source": "ポン太君",
+        "english": "Ponta-kun"
+      },
+      {
+        "slot": 11,
+        "source": "チャガマ",
+        "english": "Chagama"
+      }
+    ],
+    "source": [
+      "踊り好きなたぬきの妖怪　夜な夜な宴を開いて大騒ぎをする",
+      "お風呂ぎらいで有名"
+    ],
+    "full_translation": "A tanuki yokai who loves dancing. It throws rowdy feasts every night and is famous for hating baths.",
+    "help": [
+      "Dancing tanuki yokai; noisy",
+      "night feasts. Hates baths."
+    ],
+    "compression": "The compact lore retains dancing, tanuki/yokai, noisy nightly feasts and hatred of baths; fame is implicit in this profile."
+  },
+  "set_hint": {
+    "english": "Set",
+    "icon_x": 424,
+    "text_x": 440
+  },
+  "banner_names": [
+    "Berserk Blade",
+    "Bit Shoot",
+    "Blade Awakening",
+    "Blade Awakening+",
+    "Bolt Flash",
+    "Bolt Shock",
+    "Command Press",
+    "Crush! L.Gen.Sword",
+    "Dark Flame",
+    "Drill Blow",
+    "Drill Hurricane",
+    "Drill Resist",
+    "Drill Rush",
+    "Gamma Barrier",
+    "Gear Blues",
+    "Gear Cross",
+    "Gear Metal",
+    "Gemini Shoot",
+    "Geo Pressure",
+    "Geo Quake",
+    "Gill Bit",
+    "Heal in Base",
+    "Heat Equip",
+    "Medical Heal",
+    "Mega Shoot",
+    "Metal Cannon",
+    "Metal Pitcher",
+    "Meteor Press",
+    "Poison Bio",
+    "Poison Pick",
+    "Resist Zip",
+    "Round Bit",
+    "Sledge Heat",
+    "Sledge Napalm",
+    "Soot Drop",
+    "Soot Strike",
+    "Stun Bit",
+    "Trip Vision",
+    "Twin Dark Strike",
+    "Unit Form",
+    "Zip Flame",
+    "Zip Toast"
+  ],
+  "attacks": [
+    {
+      "record": 422,
+      "source": "間接攻撃",
+      "english": "Indirect Atk",
+      "help": [
+        "Range: Adj Up2 Dn2 Machine"
+      ],
+      "element": "Machine"
+    },
+    {
+      "record": 423,
+      "source": "間接攻撃",
+      "english": "Indirect Atk",
+      "help": [
+        "Range: Adj Up2 Dn2 Yokai"
+      ],
+      "element": "Yokai"
+    },
+    {
+      "record": 424,
+      "source": "間接攻撃",
+      "english": "Indirect Atk",
+      "help": [
+        "Range: Adj Up2 Dn2 Spirit"
+      ],
+      "element": "Spirit"
+    },
+    {
+      "record": 425,
+      "source": "間接攻撃",
+      "english": "Indirect Atk",
+      "help": [
+        "Range: Adj Up2 Dn2 Beast"
+      ],
+      "element": "Beast"
+    },
+    {
+      "record": 426,
+      "source": "間接攻撃",
+      "english": "Indirect Atk",
+      "help": [
+        "Range: Adj Up2 Dn2 Neutral"
+      ],
+      "element": "Neutral"
+    }
+  ],
+  "discovery_placeholders_preserved": true,
+  "references": [
+    "https://w.atwiki.jp/sn3psp/pages/94.html",
+    "https://w.atwiki.jp/sn3psp/pages/108.html"
+  ]
+}

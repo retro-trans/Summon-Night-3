@@ -1,5 +1,180 @@
 # Changelog
 
+## 0.1.65 - Resident-table overlap fix (release, 2026-10-02)
+
+- Give the chapter-common script its own loader-owned 32 KiB buffer, preventing
+  it from overwriting expanded resident tables when a chapter loads.
+- Preserve all translations, native decoding/binding and other memory regions.
+- Verify all 20 chapter-common scripts fit, and test the relocated helper at
+  two load bases. The largest current script is 27,404 bytes.
+- Include the accumulated UI fixes from local builds 0.1.56–0.1.64.
+- Pass 16 cumulative regression groups and fresh-boot Chapter 15 Continue,
+  Extra Brave Goal, equipment and Summon Index smoke tests. Verify all 620
+  live Extra Brave table text pointers against the source data.
+- Publish only original-to-current and published 0.1.55-to-0.1.65 patches,
+  with full decoded-ISO verification through Retro Trans Tools.
+
+## 0.1.64 - UI report fixes and Learn Skills (local test build, 2026-10-02)
+
+- Translate Dash!, Fighting Spirit, Guts and Item Throw with their help and
+  mastery effects; retain the existing proportional skill-card renderer.
+- Preserve gentle-terrain/straight movement and mastery height limits, all
+  four conditions disabling ZOC, near-death penalty reduction and item range.
+- Relocate twelve selected text fields in tables 28/31 and synchronize the
+  cached static tables. Preserve all costs, levels, stats and original pools.
+- Keep the executable byte-identical to 0.1.63. Check all four help blocks
+  through native staging within the 54-object limit and measure card names.
+- Pass all 14 inherited regression groups and a fresh PPSSPP 1.20.4 boot.
+- Exact Learn Skills visual checks remain pending a matching save.
+- Verify the local 0.1.55-to-0.1.64 test upgrade with Retro Trans Tools and
+  a full decoded-ISO hash comparison.
+- Withhold publication after a broader Chapter 15 smoke test found that the
+  chapter-common script overwrote the expanded Extra Brave Goal table.
+
+## 0.1.63 - Rewards and joining messages (local test build, 2026-10-02)
+
+- Translate the Rewards obtained! banner, F Aid and all 34 Concept Art labels.
+- Translate the shared party-joining popup and its related battle/support,
+  materialization, departure and return variants. Preserve the character-name
+  field and saved/custom names rather than hard-coding Kyle.
+- Apply bounded proportional text to the banner, reward item names and popup
+  labels, and center the name within its existing rectangle. Preserve native
+  fallback for oversized popup text and all original font-object allocations.
+- Append strings and synchronize cached tables; preserve reward values,
+  statistics, quantities and original text pools.
+- Pass 14 regression groups, 32 native notification-selector cases, 20 new
+  wrapper cases and the inherited VWF pixel/bounds checks. Verify all 13 live
+  text-pointer pairs and seven helper targets in a fresh PPSSPP 1.20.4 boot.
+- Exact reward/recruitment visual checks remain pending matching saves.
+- Verify the local 0.1.55-to-0.1.63 upgrade with Retro Trans Tools validation
+  and a full decoded-ISO hash comparison.
+  This pass does not publish a release.
+
+## 0.1.62 - Blade Awakening, Mujina and Set alignment (local test build, 2026-10-02)
+
+- Translate four Blade Awakening skill variants and their help. Retain
+  ailment/possession immunity and the availability of Berserk Summoning.
+- Translate Mujina's alternate names, three spells and two-row lore; preserve
+  discovery placeholders, player names, statistics, costs and unlock conditions.
+- Use a compact proportional Set hint with its icon and text inside the right
+  screen edge. Extend the existing scoped banner VWF to the new English names.
+- Append English strings and synchronize the resident table copy. Retain all
+  prior local UI fixes and the existing bounded renderer and crash guards.
+- Pass 14 regression groups, 480 wrapper cases, 96 binder cases, 210 centered
+  pixel cases, five native description-staging cases and six native hint modes.
+- Fresh-boot PPSSPP 1.20.4 shows Mujina's name, lore and three spells without
+  clipping after loading a copied normal battle save. Exact awakening and
+  Create Summons Set visual checks still require matching saves.
+- Verify the local 0.1.55-to-0.1.62 patch with Retro Trans Tools and a complete
+  decoded ISO hash comparison. No release is published by this pass.
+
+## 0.1.61 - Spell banner VWF and reported UI (local test build, 2026-10-02)
+
+- Display the complete Zip Toast name with centered proportional lettering.
+  Convert only recognized translated spell names in single-row glyph widgets
+  to the existing bounded strip renderer; reuse one existing font object and
+  preserve native behavior for unrelated, Japanese and player-entered text.
+- Translate Yard's ordinary and battle nameplates, keeping native sprite
+  dimensions and palettes. Confirm the three backlog copies already say Yard.
+- Translate the Island Map heading in both map packages and relocate the
+  First Shore location label. Retain the original location string in its pool.
+- Translate the five related indirect-attack commands and their range/element
+  descriptions. Append their strings and synchronize the resident table copy.
+- Pass 14 inherited regression groups, 420 renderer-wrapper cases, 84 binder
+  cases, 210 centered pixel cases and five native help-staging cases.
+- Fresh-boot PPSSPP 1.20.4 loads the copied normal Chapter 15 battle save;
+  the Summon Index shows the complete Zip Toast name. Exact casting-banner,
+  map-label and Yard scene visual verification remains pending matching saves.
+- Verify the local 0.1.55-to-0.1.61 upgrade through Retro Trans Tools, including
+  a complete decoded ISO hash comparison. No release is published by this pass.
+
+## 0.1.60 - Level Up localization and alignment (local test build, 2026-10-02)
+
+- Translate the selected and unselected Level Up headings while preserving the
+  original frame, palette and sprite dimensions.
+- Translate unit selection, unavailable-unit and bonus-point allocation text,
+  plus OK, End and Confirm button hints. Reserve space after SELECT so Learn
+  Skills clears its wider icon; preserve the player-entered protagonist name.
+- Change only this screen's six text bindings and two heading textures. Keep
+  shared Learn Skills labels and previous local fixes intact.
+- Pass 14 regression groups, including all eight native Level Up formatter
+  states, guarded glyph staging and 54 positioning cases at two load bases.
+- Fresh-boot PPSSPP 1.20.4 loads the copied normal battle save. Exact Level Up
+  visual verification remains pending a matching save.
+- Package the local 0.1.55-to-0.1.60 upgrade with Retro Trans Tools and verify
+  its complete decoded ISO hash.
+
+## 0.1.59 - Shine Saber spell-name overlap (local test build, 2026-10-02)
+
+- Shorten Crush! Light Gen. Sword to Crush! L.Gen.Sword, preserving the imperative,
+  Light General title and sword reference while leaving space for the MP cost.
+- Check every already translated name in the spell table against a conservative
+  140-pixel display width. The reported skill is the only one exceeding it.
+- Change only the spell-name pointer and append its compact label. Synchronize
+  the resident table copy and retain all previous fixes without changing code.
+- Pass all 13 regression groups. Exact spell-list visual verification remains
+  pending a matching save; fit is measured against the reported layout.
+- Verify the local 0.1.55-to-0.1.59 upgrade with Retro Trans Tools and a complete
+  decoded ISO hash comparison.
+
+## 0.1.58 - Charge action label (local test build, 2026-10-02)
+
+- Translate the separate special-command entry チャージ as Charge. The status
+  label was already translated; the action banner used another table entry.
+- Relocate the command label with the existing two-byte font encoding and update
+  its resident table copy. Preserve the executable and all other table entries.
+- Retain the Magna and summon-header fixes from local builds 0.1.56–0.1.57.
+- Pass 13 regression groups and a complete Retro Trans Tools patch round trip.
+  Fresh-boot save loading and the Special menu work; the exact Charge banner
+  still needs a save with the command available.
+
+## 0.1.57 - Summon screen heading and hints (local test build, 2026-10-02)
+
+- Translate the Create Summons heading and Affinity label inside their original
+  background regions. Preserve the frame, seal and all other pixels.
+- Use the shipped proportional text wrapper for Confirm, Set Name, Cast and
+  Dismiss. Shorten Cast Magic to Cast and move each mode's hints inside the screen.
+- Retain the 0.1.56 Magna fix and earlier crash fixes. Add relocation, register,
+  stack and screen-bound checks for the changed hint calls.
+- Pass 13 regression groups and the Retro Trans upgrade-patch round trip from
+  the last published release, 0.1.55. Keep this build and patch local for testing.
+- Confirm the translated heading and complete Cast/Dismiss hints in a fresh-boot
+  PPSSPP 1.20.4 Create Summons screen using a copied normal game save.
+
+## 0.1.56 - Magna nameplate (local test build, 2026-10-02)
+
+- Translate Magna's ordinary dialogue and battle nameplates using the current
+  character-name reference. Preserve the original frames, palettes and sprite sizes.
+- Translate the matching exact-name entries in all three backlog name tables.
+- Build on 0.1.55 without changing its executable, story scripts or previous fixes.
+- Pass archive integrity, texture bounds and all 12 current regression groups; the reported
+  beach conversation still needs an in-game visual check with a matching save.
+
+## English PS2 guide 0.1.1 - Original layout (2026-10-01)
+
+- Replace the redesigned reading edition with English text in the original
+  scanned layout, following the user's correction.
+- Preserve all 35 original scans, including illustrations, screenshots, diagrams,
+  table borders, icons, page numbers, packaging, and the disc photograph.
+- Map instructional prose, captions, headings and table text to their original
+  positions. Keep text inside illustrative screenshots and official branding as
+  printed; remove explanatory notes added only for the redesigned edition.
+- Reuse the independently reviewed English translations and current glossary.
+- Check text fit, glyphs, scan coverage and embedded JPEG hashes; render and
+  inspect all spreads before delivery.
+
+## English PS2 guide 0.1.0 - 2026-10-01
+
+- Translate all 35 supplied packaging, manual and disc scans into a clean English
+  reading edition, preserving PS2 controls, original page references and statistics.
+- Independently review all scan groups against their sources; correct meaning,
+  recipe, numerical and caption errors before the final terminology pass.
+- Produce a searchable PDF with 66 source-topic bookmarks, clear tables and
+  archival publisher notices. Record source hashes and review evidence locally.
+- Disclose the unreadable fishing screenshot note, provisional minor names and
+  original data quirks. Omit decorative art and incidental screenshot statistics.
+- Render the PDF and verify translated-text coverage and page layout.
+
 ## 0.1.55 - Remaining battle-event translation (test release, 2026-10-01)
 
 - Publish both verified patches; check all nine public asset hashes. Register in

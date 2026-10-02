@@ -1,0 +1,92 @@
+{
+  "version": "0.1.64",
+  "source_build": "0.1.63",
+  "skills": [
+    {
+      "table": 28,
+      "record": 70,
+      "name": [
+        "ダッシュ!",
+        "Dash!"
+      ],
+      "help_source": [
+        "なだらかな地形での直線移動歩数が上昇(上下1段差まで)",
+        "移動歩数:5"
+      ],
+      "help": [
+        "Move 5 straight; gentle",
+        "terrain: up/down 1"
+      ],
+      "master_source": [
+        "マスター効果:上下2段差まで"
+      ],
+      "master": [
+        "Master: +/-2"
+      ]
+    },
+    {
+      "table": 31,
+      "record": 177,
+      "name": [
+        "闘気",
+        "Fighting Spirit"
+      ],
+      "help_source": [
+        "ZOC形成:小",
+        "石化、マヒ、魅了、眠り状態時は無効"
+      ],
+      "help": [
+        "ZOC:S; off if Petrif/Para/",
+        "Charm/Sleep"
+      ],
+      "master_source": [
+        "マスター効果:最大Α 15"
+      ],
+      "master": [
+        "Master: max Α 15"
+      ]
+    },
+    {
+      "table": 31,
+      "record": 190,
+      "name": [
+        "ド根性",
+        "Guts"
+      ],
+      "help_source": [
+        "瀕死によるペナルティがスキルLv×4%軽減される"
+      ],
+      "help": [
+        "Near-death penalty -4%/Lv."
+      ],
+      "master_source": [
+        "マスター効果:最大Α 15"
+      ],
+      "master": [
+        "Master: max Α 15"
+      ]
+    },
+    {
+      "table": 31,
+      "record": 294,
+      "name": [
+        "アイテムスロー",
+        "Item Throw"
+      ],
+      "help_source": [
+        "道具使用距離がスキルLv分伸びる"
+      ],
+      "help": [
+        "Item range +skill level."
+      ],
+      "master_source": [
+        "マスター効果:狙い撃ち効果付加"
+      ],
+      "master": [
+        "Master: adds Sharpshoot."
+      ]
+    }
+  ],
+  "meaning_review": "skills064_review: preserve gentle terrain, near-death penalty, and effect names; source glyph Α retained without guessing its meaning.",
+  "costs_levels_effects_unchanged": true
+}
