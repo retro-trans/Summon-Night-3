@@ -11,7 +11,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--patcher', type=Path, default=ROOT / 'work/scratch/retro-trans-tools-release041')
     parser.add_argument('--out', type=Path, default=ROOT / 'work/scratch/retro-trans-live065')
+    parser.add_argument('--execute', action='store_true')
     args = parser.parse_args()
+    print(json.dumps(dict(mode='verify' if args.execute else 'preview',
+        destination=str(args.out), repo='retro-trans/Summon-Night-3', tag='v0.1.65',
+        routes=['original -> 0.1.65', '0.1.55 -> 0.1.65'],
+        public_patch='SN3-English-v0.1.55-to-v0.1.65.xdelta',
+        expected_sha256='521824961e5441dd245b80a12940dbd4db3146fcf2d46a1df7c36909fc28ab7d'), indent=2), flush=True)
+    if not args.execute:
+        return
     sys.path.insert(0, str(args.patcher.resolve()))
     from retro_trans import __version__
     from retro_trans.catalog import refresh_catalog, recognize, apply_plan
