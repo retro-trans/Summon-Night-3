@@ -1,0 +1,77 @@
+{
+  "version": "0.1.73",
+  "iso_sha256": "79e60216dbd74b6bc1b5abe14806557b17d4544f3c6518a5f6ada6a73f3be685",
+  "passed": true,
+  "input_hashes_verified": 3143,
+  "regression_groups": 15,
+  "native_name_cases": 1220,
+  "emulator": "PPSSPP 1.20.4 Windows x64",
+  "cpu_core": "JIT",
+  "audio_enabled": true,
+  "fresh_boot": true,
+  "save_state_used": false,
+  "runtime_memory_edits": false,
+  "ignore_bad_memory_access": false,
+  "combination": [
+    "Yard",
+    "All-Purpose Pot",
+    "white Neutral Summonite Stone"
+  ],
+  "gameplay": {
+    "created_summon": true,
+    "naming_completed": true,
+    "equipped_summon": true,
+    "spell_used": "Random Hit",
+    "target": "Yard (legal self-target in isolated QA)",
+    "mp_before": 73,
+    "mp_after_crafting": 68,
+    "mp_after_spell": 53,
+    "hp_before": 66,
+    "hp_after_spell": 52,
+    "subsequent_unit_menu": true,
+    "no_bad_execution_address": true
+  },
+  "report_sha256": {
+    "stability-report.json": "e95ed8376089d66ba0c7e7bbea10e02648149abb7a330559d1146ba67d3c3ee8",
+    "runtime-validation.json": "d121ab955d3a493f7469e21ddefb88ec20f77d7c2d4fd9c661297e439e94f34f",
+    "name-cache-validation.json": "95d1faea597e886e0b46d72985473f48cdcdb07572e5641c177b6cdc11c34d01"
+  },
+  "evidence": [
+    {
+      "capture": "work/ui/pot_0.1.73/pot073-final/room.png",
+      "png_sha256": "f8e7b2fca1af7b109b56c3c53e654d9d25034ca41e3f6cfb8e626cf45badec37"
+    },
+    {
+      "capture": "work/ui/pot_0.1.73/pot073-final/white_selected.png",
+      "png_sha256": "463c3fcdc9c3085d9a8221459590053d6ca7e526adb7db44a4886c6489c5ceac"
+    },
+    {
+      "capture": "work/ui/pot_0.1.73/pot073-final/white_created.png",
+      "png_sha256": "0c573ab7d36f563d8e7d22a88714c503c5e34802eb84ae65f0ffa8dfa7da6f26"
+    },
+    {
+      "capture": "work/ui/pot_0.1.73/pot073-final/name_yes.png",
+      "png_sha256": "4ae650e35879edf9716e088dea418515f246f041efddd9385703811f2a8df97b"
+    },
+    {
+      "capture": "work/ui/pot_0.1.73/pot073-final/summon_spell.png",
+      "png_sha256": "3dc22fa56778cb77256683f3e0c85ca13360129444eccf06c56470f2d0718ef2"
+    },
+    {
+      "capture": "work/ui/pot_0.1.73/pot073-final/equip_select.png",
+      "png_sha256": "6f57a196a12bb10cadfe105006d097504fc47a84618b17d93a46cbd6896167a2"
+    },
+    {
+      "capture": "work/ui/pot_0.1.73/pot073-final/reopen.png",
+      "png_sha256": "b799643574dac94617d53029ea8eb89fe73c805608fbb8dc6c0051d9eccdd164"
+    },
+    {
+      "capture": "work/ui/pot_0.1.73/pot073-final/next_unit.png",
+      "png_sha256": "c328d9282b998d6ef44a75e26f46f44074cd963e5a7c7b35fe93a3d39deb0092"
+    }
+  ],
+  "limits": [
+    "Windows emulator run; supplied Linux host is not directly tested.",
+    "This targeted check is not a full playthrough."
+  ]
+}

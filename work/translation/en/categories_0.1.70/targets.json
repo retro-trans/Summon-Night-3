@@ -1,0 +1,232 @@
+{
+  "version": "0.1.70",
+  "source_build": "0.1.69",
+  "entries": [],
+  "menus": [
+    {
+      "source_address": 2192128,
+      "source_sha256": "0ec9b88ebf6f25f8d0f1ae116d36ee18e15afd383b4639f08ffbdf2da001a0e9",
+      "source_lines": 1,
+      "english": [
+        "Counter chance +"
+      ],
+      "full_english": "Counterattack chance +",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 419500,
+          "low": 419516,
+          "register": 7
+        }
+      ]
+    },
+    {
+      "source_address": 2192140,
+      "source_sha256": "1f53741410264e0cbbccf3c965218f926491d201ed43376951d4b2490aeebd9e",
+      "source_lines": 1,
+      "english": [
+        "Weapon ailment chance +"
+      ],
+      "full_english": "Chance to inflict a weapon's status ailment +",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 419584,
+          "low": 419600,
+          "register": 7
+        }
+      ]
+    },
+    {
+      "source_address": 2192168,
+      "source_sha256": "7ebe493b22622d6f2b1134428fb3784789b8101eea36836f5f5297cf6c836b35",
+      "source_lines": 1,
+      "english": [
+        "Ailment chance +"
+      ],
+      "full_english": "Chance to inflict status ailments +",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 419636,
+          "low": 419652,
+          "register": 7
+        }
+      ]
+    },
+    {
+      "source_address": 2192188,
+      "source_sha256": "718243f6c7d875fec4531009aa3ea883c5d1124701c096af746a79420e0e092d",
+      "source_lines": 1,
+      "english": [
+        "Rarely KOs foes on a crit."
+      ],
+      "full_english": "Critical hits have a low chance to defeat an enemy instantly.",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 419728,
+          "low": 419744,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2192224,
+      "source_sha256": "29e5fac9a9078ba55c8d1ac4cfaae86f5b6c164da1161eba5f47493443f07aea",
+      "source_lines": 1,
+      "english": [
+        "Lowers enemy counter chance"
+      ],
+      "full_english": "Reduces the enemy's counterattack chance.",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 419756,
+          "low": 419772,
+          "register": 6
+        },
+        {
+          "kind": "hilo",
+          "high": 419784,
+          "low": 419800,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2192244,
+      "source_sha256": "c36d2521cb69b615694e143ec4fd583a837303bc35fa891f3dc0ebdace9ea56d",
+      "source_lines": 1,
+      "english": [
+        "2-square piercing attack"
+      ],
+      "full_english": "A piercing attack that passes through two squares.",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 419812,
+          "low": 419828,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2192260,
+      "source_sha256": "81b1669b320d2fa53633841ec61e8e327d074cee94c86b3f77f15ac6528115d4",
+      "source_lines": 1,
+      "english": [
+        "Vertical attack range +1"
+      ],
+      "full_english": "Attack range extends one level upward and downward.",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 419840,
+          "low": 419856,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2192280,
+      "source_sha256": "ee61c512a719769265f32c390860ff6b273f0abb63eb40d1100eb33e636800f8",
+      "source_lines": 1,
+      "english": [
+        "Adds Snipe effect"
+      ],
+      "full_english": "Adds the Snipe effect.",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 419868,
+          "low": 419884,
+          "register": 6
+        },
+        {
+          "kind": "hilo",
+          "high": 419924,
+          "low": 419940,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2192300,
+      "source_sha256": "e02418fb6a0b935e0d3953472b791673d3597483046e6c65d2ae1e365b443ca0",
+      "source_lines": 1,
+      "english": [
+        "Halves distance penalty"
+      ],
+      "full_english": "Halves the reduction applied due to distance.",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 419896,
+          "low": 419912,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2192376,
+      "source_sha256": "fdb6d9a268ca4f5b99ece2d39d90618e5a9bcc4c38d60100209efa5e27d160cd",
+      "source_lines": 1,
+      "english": [
+        "Dragon/humanoid transform."
+      ],
+      "full_english": "Transforms into dragon and humanoid forms.",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 420500,
+          "low": 420516,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2192400,
+      "source_sha256": "279bb451e1b2544a499e04aeaf7ef4e4f68b8c63bda182324a896fee4d9ccb47",
+      "source_lines": 1,
+      "english": [
+        "Uses left: "
+      ],
+      "full_english": "Remaining: ",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 420548,
+          "low": 420568,
+          "register": 7
+        }
+      ]
+    },
+    {
+      "source_address": 2192408,
+      "source_sha256": "947e6be8dcfaf4a2f743d220cd6be7eab68f37051ea2f44f378b899dbb2dfcd4",
+      "source_lines": 1,
+      "english": [
+        ""
+      ],
+      "full_english": " uses",
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 420572,
+          "low": 420596,
+          "register": 8
+        }
+      ]
+    }
+  ],
+  "stat_help_note": "HP/MP, six stats and four affinity resistance helps are already English in 0.1.69; retain and verify those pointers.",
+  "startup_notice": {
+    "resource_path": [
+      25,
+      0
+    ],
+    "heading": "Notice",
+    "english": "Distributing game software online without permission from the rights holder, or knowingly downloading an illegally distributed copy, is strictly prohibited by law. Thank you for your understanding and cooperation."
+  }
+}

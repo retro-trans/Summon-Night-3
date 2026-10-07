@@ -1,5 +1,115 @@
 # Changelog
 
+## 0.1.73 - UI translations and Yard / white-stone pot crash fix (release, 2026-10-07)
+
+- Publish the cumulative translations and alignment fixes from local builds
+  0.1.66 through 0.1.70 together with the final 0.1.73 crash repair.
+- Supply only original-to-0.1.73 and published-0.1.65-to-0.1.73 patches, with
+  Retro Trans Tools manifests, checksums and decoded-image verification.
+
+- Terminate loaded cached names within the native 20-byte field.
+- Reset saved accessory bindings outside the valid 121-entry range, including
+  the CP932 text bytes left by older name overflows. Preserve every valid ID.
+- Retain full default names, custom names and the existing save record layout.
+- Pass 1,220 native name, initialization and saved-record cases at two load
+  bases, plus all 14 inherited validation groups (15 groups in total).
+- Fresh-boot the supplied normal Chapter 2 save in PPSSPP 1.20.4 with JIT,
+  audio enabled and bad-memory suppression disabled. Verify Yard's white
+  Neutral stone crafting, naming, equipping, Random Hit use and a subsequent
+  unit menu, without runtime memory edits or the old state.
+
+## 0.1.72 - Default summon-name cache bounds (diagnostic build, 2026-10-07)
+
+- Protect the default-name initializer as well as the native rename path.
+- Keep full English display names in separate storage while preserving the
+  game's 20-byte internal name field and neighboring binding records.
+- Pass 520 rename/getter cases and 192 actual default-initializer cases at
+  two load bases. Identify that the supplied save restores damaged bindings,
+  requiring the subsequent load-time repair.
+
+## 0.1.71 - Summon-name cache diagnostic (not for distribution, 2026-10-07)
+
+- Bound the native rename copy and preserve full names through a display getter.
+- Pass 520 native name cases and all 14 inherited validation groups.
+- Reproduce the white-stone crash despite those checks; identify the separate
+  default-name initialization copy for the subsequent fix.
+
+## 0.1.70 - Skill formatter help and startup notice (local test build, 2026-10-06)
+
+- Translate twelve remaining equipment and transformation help fragments,
+  including counterattack/ailment chances, critical-hit defeat, piercing,
+  elevation range, Snipe, distance penalties and remaining uses.
+- Translate the startup notice image while retaining its ornate-frame design,
+  native size, palette and sprite layout. Keep publisher logos unchanged.
+- Retain and verify all twelve existing common stat/resistance helps, including
+  `Max MP +10/level.` from 0.1.69.
+- Preserve numeric records, source pools, prior hooks and published snapshots.
+- Validate native dynamic formatting, row limits and guarded output buffers.
+- Pass all 15 validation groups. Visually verify the English startup notice
+  under strict JIT settings and load a normal battle save without a memory error.
+
+## 0.1.69 - Summon spells, stones and gallery rewards (local test build, 2026-10-06)
+
+- Translate all 191 remaining summon spell name fields, including Tamahipo's
+  Spice, Acid, Fatal and Petron Breath. Retain full names beside measured display forms.
+- Translate 333 remaining fields for Summonite Stones, consumables, fishing bait
+  and the related gallery rewards and descriptions. Include all animation art
+  numbers, summon art, promotional art, event art and ending titles.
+- Translate crafting help, dismissal and completion confirmations, favorite
+  actions and eligibility messages through 18 source-bound native text blocks.
+- Preserve runtime names, numeric favorite limits, the triangle control token,
+  spell costs and effects, source text pools and undiscovered question marks.
+- Retain the existing Takeshi profile and Rewards obtained heading fixes.
+- Keep plant romanizations, Ixellion and Reaver provisional in the glossary.
+- Pass 16 validation groups. Fresh-boot a normal Chapter 15 battle save with
+  strict JIT settings; visually verify Takeshi's profile, Tamahipo's four breath
+  names and the summon combination list. Exact early reward/dismissal states
+  remain pending a matching save.
+
+## 0.1.68 - Related UI category translations (local test build, 2026-10-06)
+
+- Translate 601 remaining fields across summon profiles, active/passive skills,
+  support descriptions and common-skill mastery effects, including level variants.
+- Translate 24 related map location labels, including Rocky Shore and the
+  sixteen Endless Halls labels; use measured short display forms where needed.
+- Reformat 12 existing English descriptions so help and mastery fit together.
+  Preserve native stat icons, numbers, costs and undiscovered-entry masks.
+- Append translated text, preserve original pools and numeric records, and
+  synchronize resident-table copies. Retain the SELECT/Learn Skills correction
+  and private chapter-script arena without changing their native code.
+- Pass the inherited regression audit, 254 native help/master combinations,
+  373 staging cases and the retained Status/SELECT/Give Food checks.
+- Fresh-boot a normal Chapter 15 save in strict PPSSPP 1.20.4 JIT; verify menu
+  browsing and Picolit's translated two-line Summon Index profile in game.
+- Exact early-story map/deployment/skill screens remain pending a matching save.
+
+## 0.1.67 - Restore Status Learn Skills hint (local test build, 2026-10-03)
+
+- Keep SELECT / Learn Skills on the visible second help row; shorten the
+  L/R hint to Switch and reserve space for the SELECT icon.
+- Place the matching SELECT icon using proportional prefix width, retaining
+  the previous Give Food handler and all nonmatching shortcut behavior.
+- Relocate the longer shortcut string; preserve adjacent descriptions,
+  buffer limits, custom player names and the private chapter-script arena.
+- Default protagonist table labels are already Rexx/Aty. Japanese names
+  stored in existing saves remain unchanged pending default/custom clarification.
+- Pass 18 cumulative regression groups and a strict PPSSPP 1.20.4 fresh-boot
+  normal-save load and battle-menu check. Exact room-screen visuals remain pending.
+
+## 0.1.66 - Summon Status labels and feeding hint (local test build, 2026-10-03)
+
+- Translate R's unit name using the current character reference.
+- Translate the shared class label as Summon Friend for R, Teco, Onibi and
+  the fourth companion, including all four class-rank slots per companion.
+- Place the SELECT icon before Give Food using the proportional width of
+  preceding text. Scope the correction to the matching second-row hint.
+- Preserve all other shortcut handlers, gameplay values and the 0.1.65
+  private chapter-script arena. Synchronize bank and resident label copies.
+- Native relocation, stack-guard and fallback checks pass at two load bases.
+- Pass 17 cumulative regression groups and a fresh-boot Chapter 15 normal-save
+  load and battle-menu check in PPSSPP 1.20.4 with strict memory checking.
+- Exact reported room-screen visual verification is pending a matching save.
+
 ## 0.1.65 - Resident-table overlap fix (release, 2026-10-02)
 
 - Give the chapter-common script its own loader-owned 32 KiB buffer, preventing
