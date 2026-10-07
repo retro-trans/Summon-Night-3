@@ -16,6 +16,7 @@ incoming - outside files that need agent to look into
 - When you commit to git, make sure no sensitive files included, for translation files must not commit original scripts for dialogues or anything that have large number of text (like encyclopedia, battle voice line), UI elements are fine, an opening naration is also fine
 
 ** REMEMBER **
+- Translation scope (user requested, 2026-10-08): when screenshots show untranslated text, translate the reported text and remaining text in the same categories. Apply this to earlier screenshot requests as well.
 - Emulator performance (user requested, 2026-10-08): keep at most one emulator instance running. Run comparisons sequentially; close only an owned QA instance before starting another.
 - Every new release must work with [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools).
 - Character-name reference (user selected, 2026-09-27): https://summonnight.fandom.com/wiki/Summon_Night_6:_Lost_Borders/PS_Vita_Gallery . Use its main displayed names as the primary spelling reference; retain parenthetical names as lookup aliases. The current SN3 name overlay is `work/glossary/character_reference_sn6_vita.json`; it takes precedence over older glossary spelling locks. Preserve short names when the source uses a short name, and preserve player-entered protagonist names. Other sources may supply character background or names absent from this gallery.

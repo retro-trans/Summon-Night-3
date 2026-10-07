@@ -1,0 +1,78 @@
+{
+  "version": "0.1.75",
+  "passed": true,
+  "iso_sha256": "5607f21cd675e3dedf7cfd22a85c60b6f2b40d8605c728164f3219b1b9201dbb",
+  "emulator": "PPSSPP 1.20.4",
+  "fresh_boot": true,
+  "normal_in_game_save": true,
+  "save_state_used": false,
+  "audio_enabled": true,
+  "single_emulator": true,
+  "runtime_memory_edits": false,
+  "screenshots": [
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/normalSave.png",
+      "sha256": "f2b721c7118e256c88406bd50b0fe0ee55417fd616ef08cce645a757d6c7b9f6",
+      "note": "Title footer shows the translated Extra Story control."
+    },
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/saveDialog.png",
+      "sha256": "9b24a5bedb5601aad61fba01351e2c65a9724cc99dcde6e350c0cbac31474f77",
+      "note": "Fresh boot followed by the normal chapter 16.6 in-game save load; no save state."
+    },
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/system.png",
+      "sha256": "7c0bb1a870fd20ffcfedaabad2ee69ec8f53031cd1b35b8ca5b8238e6f60d54e",
+      "note": "System menu and help remain readable."
+    },
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/cooking.png",
+      "sha256": "1f85246f6b1ad7861510c0e5b1bc9ae88d0897985c2aca690c5a1c977c30a525",
+      "note": "Pirate Lunch description is readable English after a normal in-game save load; no question-mark corruption."
+    },
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/party.png",
+      "sha256": "becac1e3b8fc1710db8caaa1315dc5d925b65398c3594cd45b4ad6e21f00ee08",
+      "note": "Party Ability names, toggle positions and selected help fit their native areas."
+    },
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/gear.png",
+      "sha256": "e2761b83f9b7f826738449d7a1f4ec4e39cc2e35a284c318b340b08e8fb6e10d",
+      "note": "The original default protagonist name from the existing save displays as Rexx; gear and statistics remain intact."
+    },
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/unequip.png",
+      "sha256": "31116aa16f509aedf80109b568ad128c562a3293717eceb2b0781ba7a8ee6bf8",
+      "note": "The secondary-weapon popup shows Unequip and preserves the item list and quantities."
+    },
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/warehouse.png",
+      "sha256": "b3b6c629a82eaa0bfb196fd929b08302e2481bd75b171428a1ede612bbb78be0",
+      "note": "Warehouse fits the ship map location bubble."
+    },
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/castPrompt.png",
+      "sha256": "155c56bd1360db2df4ec6ef5eff3d940b2d5e9937a0847d8574e29a471ac54e9",
+      "note": "The complete Fishing help page displays its English instructions and controls at native resolution."
+    },
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/baitMenu.png",
+      "sha256": "3c3d58ef167298185b1f9476a5bcb2d86677a940512d59b229eb88ec64a1ecc5",
+      "note": "Choose Your Bait, Worm and START to quit fit the fishing menu."
+    },
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/fishCast.png",
+      "sha256": "a02545af734346314e2122a14d3e53000a595a88deeb7637bb9a82314e767223",
+      "note": "The translated Cast line! prompt fits its original speech bubble."
+    },
+    {
+      "path": "work/ui/menus_0.1.75/menus075-verified/quitPrompt.png",
+      "sha256": "d3f993bb6c3fc84b6e5b51e06a2c4fa672267401280e61c37cb37ae9c58752a6",
+      "note": "The shared minigame Quit? confirmation and both choices display in English."
+    }
+  ],
+  "limits": [
+    "Reviewed reported screens and category examples; not a complete playthrough.",
+    "Other variants were checked through native sprite import and bounded CPU execution."
+  ]
+}

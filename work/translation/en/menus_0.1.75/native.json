@@ -1,0 +1,2985 @@
+{
+  "version": "0.1.75",
+  "entries": [
+    {
+      "source_address": 2183516,
+      "source_lines": 1,
+      "source_sha256": "000217177b9976dbf12c7fe90a8791baef253af61a5e4c50271788a0898a46f6",
+      "english": [
+        "Meimei"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 275488,
+          "low": 275492,
+          "register": 2
+        }
+      ]
+    },
+    {
+      "source_address": 2187496,
+      "source_lines": 1,
+      "source_sha256": "fa99c7ba227dd77783cefcafc9e14962598ab240a10064e605220d9ac67ad5e7",
+      "english": [
+        "Rexx"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 345796,
+          "low": 345812,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 356192,
+          "low": 356204,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 398508,
+          "low": 398512,
+          "register": 2
+        }
+      ]
+    },
+    {
+      "source_address": 2187828,
+      "source_lines": 1,
+      "source_sha256": "aae27f502ce4b82447256b198f86d343b426b30d4d329bf5aa5cbdb7d0f77e5d",
+      "english": [
+        "Aty"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 356224,
+          "low": 356236,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 366564,
+          "low": 366568,
+          "register": 2
+        },
+        {
+          "kind": "hilo",
+          "high": 398548,
+          "low": 398552,
+          "register": 2
+        }
+      ]
+    },
+    {
+      "source_address": 2187836,
+      "source_lines": 1,
+      "source_sha256": "1d845adcc3cfcef5d8c64a43781c909b7103a4fd31815280f4fd2c4ebbe24de4",
+      "english": [
+        "Magna"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 398248,
+          "low": 398252,
+          "register": 2
+        }
+      ]
+    },
+    {
+      "source_address": 2187844,
+      "source_lines": 1,
+      "source_sha256": "27e4cb47b0a7d1f9d0b74e76e20cd9d27bfc89b96f8c6b18b6d607db9f3a13f4",
+      "english": [
+        "Toris"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 356396,
+          "low": 356400,
+          "register": 2
+        },
+        {
+          "kind": "hilo",
+          "high": 398432,
+          "low": 398436,
+          "register": 2
+        }
+      ]
+    },
+    {
+      "source_address": 2187992,
+      "source_lines": 1,
+      "source_sha256": "2893b9b945110504d081aeade280b1aecf6f7f2948443eb0488f6e60c79db6f3",
+      "english": [
+        "Dismiss"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 382388,
+          "low": 382392,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2188000,
+      "source_lines": 1,
+      "source_sha256": "0c1fe571052fe1809aa562bf2f53796898a644266a13d66e8d8e828ce2c8fe13",
+      "english": [
+        "Dismiss a summon."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 382428,
+          "low": 382432,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2188040,
+      "source_lines": 1,
+      "source_sha256": "1f761328e3d2cf6533687a8b23d5196c65fd04748e13ca8dfd62093b9edaca9f",
+      "english": [
+        "Remove an obstacle."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 382456,
+          "low": 382460,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2198084,
+      "source_lines": 1,
+      "source_sha256": "de82318a8ee1315a8780e25b0d9e46c550614b1f8bcbecd258c4b1a4bfe9f9ec",
+      "english": [
+        "Nothing equipped."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262756
+        }
+      ]
+    },
+    {
+      "source_address": 2198112,
+      "source_lines": 1,
+      "source_sha256": "1f309494b56d6ef9a55e0cecccae1f3a8e62fb45eb09d7b95fedec8f01057060",
+      "english": [
+        "Same weapon equipped."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262760
+        }
+      ]
+    },
+    {
+      "source_address": 2198308,
+      "source_lines": 1,
+      "source_sha256": "67256c58ff1ad379bd217ca904173166c69b228007a8b15508213d9cf0107729",
+      "english": [
+        "Nothing held."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262784
+        }
+      ]
+    },
+    {
+      "source_address": 2198336,
+      "source_lines": 1,
+      "source_sha256": "30860a72fd9d57526da01612e3a13f1d0bc72d6fc4346eacb6dd4a775d941e8a",
+      "english": [
+        "Out of stock."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262788
+        }
+      ]
+    },
+    {
+      "source_address": 2198368,
+      "source_lines": 1,
+      "source_sha256": "9192f571aa81fe160b0d2f3d08aaa6b277f2ae26a70b334ebf078874aae7a1fe",
+      "english": [
+        "Closed."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262792
+        }
+      ]
+    },
+    {
+      "source_address": 2198504,
+      "source_lines": 1,
+      "source_sha256": "b26102a741af831a2783fb52f1819826b8f6bb4d0df513f18420de8fff6fe356",
+      "english": [
+        "Already registered."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262808
+        }
+      ]
+    },
+    {
+      "source_address": 2198524,
+      "source_lines": 1,
+      "source_sha256": "0bc877135390cb563f6d7115819e223b7ea04505f29e8dda362b76805b266b06",
+      "english": [
+        "Not enough points."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262812
+        }
+      ]
+    },
+    {
+      "source_address": 2198556,
+      "source_lines": 1,
+      "source_sha256": "b8acc79c29d0f8bb1174e70fee21f3a9582855e430c8057adbfb074ac28eedfa",
+      "english": [
+        "You do not own this summon."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262816
+        }
+      ]
+    },
+    {
+      "source_address": 2198592,
+      "source_lines": 1,
+      "source_sha256": "80f59f90c526050068078075ed08981f6d9dbda5576ac4504a1e36b39f4e415a",
+      "english": [
+        "Cannot change this name."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262820
+        }
+      ]
+    },
+    {
+      "source_address": 2198632,
+      "source_lines": 1,
+      "source_sha256": "96f38f3e3995ff39a60314268467b6bc9870731d0e106134b9b47176b5ad4667",
+      "english": [
+        "Cannot lower this level."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262824
+        }
+      ]
+    },
+    {
+      "source_address": 2198668,
+      "source_lines": 1,
+      "source_sha256": "43603ef663af18a7595dcfad7be6ddedfa628747cc7cec45ec51227338125ddd",
+      "english": [
+        "Cannot lower it further."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262828
+        }
+      ]
+    },
+    {
+      "source_address": 2198700,
+      "source_lines": 1,
+      "source_sha256": "0c81618530c6fa255de392968960cee876744269d10b28cda6e268633deb3fc1",
+      "english": [
+        "Cannot eat this food."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262832
+        }
+      ]
+    },
+    {
+      "source_address": 2198732,
+      "source_lines": 1,
+      "source_sha256": "e49c4353018499d1c2167d7f8dabd42c77564d4bdaae64f1e81d9696d7334a41",
+      "english": [
+        "Cannot eat any more."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262836
+        }
+      ]
+    },
+    {
+      "source_address": 2198764,
+      "source_lines": 1,
+      "source_sha256": "96b39b8b3037be46bfd4e0b147a524bd8b38918072cc47c88f46d812ad6a8e52",
+      "english": [
+        "No favorite summon set."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262840
+        }
+      ]
+    },
+    {
+      "source_address": 2198804,
+      "source_lines": 1,
+      "source_sha256": "1006ed302cdf71796596bf18626472e10b6325cc70ba6d3f24fad922509bcc0b",
+      "english": [
+        "Already a favorite."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262844
+        }
+      ]
+    },
+    {
+      "source_address": 2198836,
+      "source_lines": 1,
+      "source_sha256": "ef64b3e4cfac8e74ca18e5ff87ac94adb1ac1680d3e2d58b27f625ae324d27da",
+      "english": [
+        "Not enough Dragon Sake."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262848
+        }
+      ]
+    },
+    {
+      "source_address": 2198872,
+      "source_lines": 1,
+      "source_sha256": "673020351bba2383a6f494c828fdd2ff397fdd01ee187839479e227d5f90e05b",
+      "english": [
+        "Cannot favorite this summon."
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2262852
+        }
+      ]
+    },
+    {
+      "source_address": 2199948,
+      "source_lines": 2,
+      "source_sha256": "b759d4dedb7063c26e4f62bfb7369fb8898325cad9c297359d64fa0cc2fec83e",
+      "english": [
+        "Choose a unit to drain.",
+        "\u0410Select \u0411Exit \u0415\u0401Switch Unit"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 425276,
+          "low": 425284,
+          "register": 2
+        }
+      ]
+    },
+    {
+      "source_address": 2200088,
+      "source_lines": 2,
+      "source_sha256": "b61d5467ede2d6a13978d7b821bd372ccf6fcb1783ab85917b766de7616230db",
+      "english": [
+        "No unit can be drained.",
+        "\u0411Exit \u0415\u0401Switch Unit"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 425312,
+          "low": 425320,
+          "register": 2
+        }
+      ]
+    },
+    {
+      "source_address": 2200208,
+      "source_lines": 2,
+      "source_sha256": "9adf713e4ddd85e91f91ef97ad3f53fd3d29b934731873e48eb5064d43dbfa9f",
+      "english": [
+        "Choose the target level.",
+        "\u0410Confirm \u0411Cancel \u0414Change Lv"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 425336,
+          "low": 425344,
+          "register": 2
+        }
+      ]
+    },
+    {
+      "source_address": 2200272,
+      "source_lines": 2,
+      "source_sha256": "c6fc4aa9a34d23abc998f1feeee613e9fbe10485d8ad6cd420f155ee93ae2bfb",
+      "english": [
+        "Choose a puppet.",
+        "\u0410Select \u0411Exit \u0412Status \u0417Materialize"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 425360,
+          "low": 425368,
+          "register": 2
+        }
+      ]
+    },
+    {
+      "source_address": 2201876,
+      "source_lines": 1,
+      "source_sha256": "232e0d97a843e4028beef402ecd22c93cf06d3ad1c6bdb5cc7b5d2842ce83974",
+      "english": [
+        "Clear Favorite"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 451784,
+          "low": 451800,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2201904,
+      "source_lines": 1,
+      "source_sha256": "4f5f834d6911c7e81a3627c61555cb80c5ce1aee1523e583198c4d304de4e4b9",
+      "english": [
+        " "
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 453132,
+          "low": 453136,
+          "register": 4
+        },
+        {
+          "kind": "hilo",
+          "high": 453160,
+          "low": 453164,
+          "register": 4
+        },
+        {
+          "kind": "hilo",
+          "high": 453188,
+          "low": 453192,
+          "register": 4
+        },
+        {
+          "kind": "hilo",
+          "high": 456924,
+          "low": 456932,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 462136,
+          "low": 462144,
+          "register": 30
+        },
+        {
+          "kind": "hilo",
+          "high": 463884,
+          "low": 463888,
+          "register": 4
+        },
+        {
+          "kind": "hilo",
+          "high": 466976,
+          "low": 466996,
+          "register": 16
+        },
+        {
+          "kind": "hilo",
+          "high": 470324,
+          "low": 470328,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2201908,
+      "source_lines": 1,
+      "source_sha256": "6ff069cc171d34d48212f25ca937ae8156f37fc435fdea6c9529bb7ef7935f26",
+      "english": [
+        " "
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 453216,
+          "low": 453232,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 459588,
+          "low": 459604,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 469540,
+          "low": 469556,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2201912,
+      "source_lines": 1,
+      "source_sha256": "3ece2dfa03f9bc74c2d9fddb00475478a0ec9c16a963540f4eed209236432120",
+      "english": [
+        " pcs."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 453528,
+          "low": 453548,
+          "register": 7
+        },
+        {
+          "kind": "hilo",
+          "high": 453576,
+          "low": 453596,
+          "register": 7
+        },
+        {
+          "kind": "hilo",
+          "high": 453624,
+          "low": 453644,
+          "register": 7
+        }
+      ]
+    },
+    {
+      "source_address": 2201916,
+      "source_lines": 1,
+      "source_sha256": "53b86a16ff8e40819d57cec2b3931b50535921f8dc9d323579c463e082f803ab",
+      "english": [
+        " servings"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 453672,
+          "low": 453692,
+          "register": 7
+        }
+      ]
+    },
+    {
+      "source_address": 2201924,
+      "source_lines": 1,
+      "source_sha256": "b2ea50f3da2a078b463776da5f9bf32bc2b4e3cea147a7e195d6e0c55fa445ee",
+      "english": [
+        " obtained!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 453936,
+          "low": 453952,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2201936,
+      "source_lines": 1,
+      "source_sha256": "9e0d71c9822d9d7b46aafec8ee089314e232b90468490c0e5c2e99488e9bf27b",
+      "english": [
+        " received!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 453964,
+          "low": 453980,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2201948,
+      "source_lines": 1,
+      "source_sha256": "ecec1fe7cd40fecbe0f43f361ab91836b7e0e1b15668e2bdf3d13f234d8decbd",
+      "english": [
+        " used!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 453992,
+          "low": 454008,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2201960,
+      "source_lines": 1,
+      "source_sha256": "5159452301c4fab36ad71f6b74be8efda0d647f80feb1e11cb28059cc848182a",
+      "english": [
+        " made!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 454020,
+          "low": 454036,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202164,
+      "source_lines": 1,
+      "source_sha256": "d1164f41ac8433b3bf2cd133d1e4d820f39f0ce9976132db8dbf13221ad6c365",
+      "english": [
+        "\""
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 456972,
+          "low": 456988,
+          "register": 21
+        },
+        {
+          "kind": "hilo",
+          "high": 460600,
+          "low": 460624,
+          "register": 21
+        }
+      ]
+    },
+    {
+      "source_address": 2202172,
+      "source_lines": 1,
+      "source_sha256": "676084dc29ad2df3f62070ea075cf3abfc941b599b43acea780e27896176bfd5",
+      "english": [
+        "now available!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 458164,
+          "low": 458172,
+          "register": 30
+        },
+        {
+          "kind": "hilo",
+          "high": 462140,
+          "low": 462148,
+          "register": 21
+        },
+        {
+          "kind": "hilo",
+          "high": 469716,
+          "low": 469732,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 477220,
+          "low": 477236,
+          "register": 17
+        }
+      ]
+    },
+    {
+      "source_address": 2202196,
+      "source_lines": 1,
+      "source_sha256": "224cf8331209e1cadff4619b84892844cef3d786701d73765529154278acb967",
+      "english": [
+        "can now be learned!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 458188,
+          "low": 458192,
+          "register": 30
+        }
+      ]
+    },
+    {
+      "source_address": 2202216,
+      "source_lines": 1,
+      "source_sha256": "f6e77094e7adbc75ddc671b9aa6c034f489bf6ccdacdf9b6b542f6a9b174a8ee",
+      "english": [
+        "\""
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 458968,
+          "low": 458984,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202224,
+      "source_lines": 1,
+      "source_sha256": "cb7630e254410e6c6bafa17f7965cb163536d4ef849cf8ba00f30fc5597e7e4d",
+      "english": [
+        "changed to"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 460192,
+          "low": 460208,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202236,
+      "source_lines": 1,
+      "source_sha256": "afaea1767a122f987de64e6334b33daf00522efa17761d60932454be9845cdbd",
+      "english": [
+        "Skill Points"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 461168,
+          "low": 461184,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202256,
+      "source_lines": 1,
+      "source_sha256": "ae80e2373638cfd2be64cba3f74301b9361689c6f66ca023964d030ca314bad4",
+      "english": [
+        "increased!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 461532,
+          "low": 461548,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202268,
+      "source_lines": 1,
+      "source_sha256": "e5927f09466d9bc7e3723cc499457684367f1b927ffaf904451a4680f748b880",
+      "english": [
+        " "
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 462428,
+          "low": 462444,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202272,
+      "source_lines": 1,
+      "source_sha256": "5fec5c8ee21451c37db6b2af6037ffc39a52d7f49a88fd22523c7736ffcbce80",
+      "english": [
+        " "
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 463848,
+          "low": 463864,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202276,
+      "source_lines": 1,
+      "source_sha256": "c8d7bcce70d3cfdc7c7979e68d058cf0db60faa174e8a4be3da9143836428663",
+      "english": [
+        "OK?"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 464084,
+          "low": 464100,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202296,
+      "source_lines": 1,
+      "source_sha256": "82162d0785eca3ba1c6cef4cb25f582d24bb06d24a8825a30b0d3aae286eed60",
+      "english": [
+        "Give this?"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 464120,
+          "low": 464136,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202312,
+      "source_lines": 1,
+      "source_sha256": "dd87a77a2b810adc6cc82ee0131012ca24a6e49be8134e6563de3398b4996041",
+      "english": [
+        "Yes"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 463804,
+          "low": 463824,
+          "register": 19
+        },
+        {
+          "kind": "hilo",
+          "high": 470280,
+          "low": 470300,
+          "register": 16
+        }
+      ]
+    },
+    {
+      "source_address": 2202320,
+      "source_lines": 1,
+      "source_sha256": "93c28c10cad7e4252ce3ac531c73bd2a53663ff85b53eb7e1cead863a9cdf150",
+      "english": [
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 463808,
+          "low": 463828,
+          "register": 17
+        },
+        {
+          "kind": "hilo",
+          "high": 470284,
+          "low": 470304,
+          "register": 18
+        }
+      ]
+    },
+    {
+      "source_address": 2202328,
+      "source_lines": 1,
+      "source_sha256": "120263511d02bc306634ba07857f407e5ffc89546a7fb8e2d4cabb2e50be2fd4",
+      "english": [
+        "New menu"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 464788,
+          "low": 464808,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202344,
+      "source_lines": 1,
+      "source_sha256": "dc4340449eb512f8beba091ac8f043c880cb2a4336623d68923bbb04694ef748",
+      "english": [
+        " "
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 465360,
+          "low": 465376,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202348,
+      "source_lines": 1,
+      "source_sha256": "029bd5530ecf7835569310639792355110a53e57aef30e388f97e9916736f9fc",
+      "english": [
+        "recipe"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 465572,
+          "low": 465588,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202360,
+      "source_lines": 1,
+      "source_sha256": "500ee08c9a47141a85efdde15e07ee616e856c6d0cf75e8d500023333f170dde",
+      "english": [
+        "Recipe Memo"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 465608,
+          "low": 465624,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202376,
+      "source_lines": 1,
+      "source_sha256": "aff9e009d7b078deeba1d01e6df00633443bdaacc01ef2c6e2444e426d250406",
+      "english": [
+        "Inspiration!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 465800,
+          "low": 465816,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202392,
+      "source_lines": 1,
+      "source_sha256": "895809a55231083c185d8e67315371a5fdc544ab20150afe0477a21d208597ee",
+      "english": [
+        "obtained!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 465836,
+          "low": 465852,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202408,
+      "source_lines": 1,
+      "source_sha256": "9af68d0407ccc5cf4799e4fd25402cdab41c6729cb9957ed6ddcb497d0d80c6c",
+      "english": [
+        "EXP"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 466024,
+          "low": 466040,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202420,
+      "source_lines": 1,
+      "source_sha256": "45cb243afb28457ed7fbcb8f71c1f42d42339268a972e9bd6d2bf5849b48c4c9",
+      "english": [
+        "points"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 466452,
+          "low": 466468,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202432,
+      "source_lines": 1,
+      "source_sha256": "446e76e029f0d852c15fd0d0c070bff058fd669effb14b8f86dd6c6ccc4f9527",
+      "english": [
+        "refunded!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 466632,
+          "low": 466648,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202448,
+      "source_lines": 1,
+      "source_sha256": "1fc80c5ce86ed5250e41bd4050b67158b05b2fd2e0a70c225caf83f903981bfb",
+      "english": [
+        "Party ability \""
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 466804,
+          "low": 466824,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 476860,
+          "low": 476880,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202464,
+      "source_lines": 1,
+      "source_sha256": "197902c7ca1efd212959766b1248dc5d334fbd9ab82e3d94b9ae22de05f92578",
+      "english": [
+        "Pirate Lunch"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 467008,
+          "low": 467024,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202476,
+      "source_lines": 1,
+      "source_sha256": "e091428b1e4e2f4f4cd623fd29f3120b120c07e447fb5699b38d9e6484977177",
+      "english": [
+        "Stone Search"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 467044,
+          "low": 467060,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202488,
+      "source_lines": 1,
+      "source_sha256": "f3eb9dc347e37155d59ba3e987927eb4e2ec8c353849ae3616e85651a082a345",
+      "english": [
+        "\""
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 467276,
+          "low": 467292,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202500,
+      "source_lines": 1,
+      "source_sha256": "1400b082da6322a19e7dbdd8e330815f730f7042991c4d93dc3ad7ece7cbf91f",
+      "english": [
+        "obtained!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 468048,
+          "low": 468064,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202516,
+      "source_lines": 1,
+      "source_sha256": "296dc714a23fe99452638088632d789975ed9c6c0b356e6ccec41ad4f4b08901",
+      "english": [
+        "found!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 468084,
+          "low": 468100,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202532,
+      "source_lines": 1,
+      "source_sha256": "f7c7ed0c9b8260ead4620cd2ef6057fd1bf473108c39c7bda01afdfcb221e441",
+      "english": [
+        "confiscated!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 468988,
+          "low": 469000,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202552,
+      "source_lines": 1,
+      "source_sha256": "b92202e0cc95ed57fc410f864b975ae01ef845b37e41a7da8ec64905c419982b",
+      "english": [
+        "level"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 470360,
+          "low": 470376,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202564,
+      "source_lines": 1,
+      "source_sha256": "f302939c84da3bbc2d8e397d4cbb4b0932591553f241775b111789c74fc9cd75",
+      "english": [
+        "Learn this?"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 470560,
+          "low": 470576,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202580,
+      "source_lines": 1,
+      "source_sha256": "e513b5b6a3d1c342be1c4d7a9b4e5e8b6fb3f7b4636abd39ea50e9baea6342ab",
+      "english": [
+        "Raise its level?"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 470596,
+          "low": 470612,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202600,
+      "source_lines": 1,
+      "source_sha256": "b3cba4361f888749a89d3a5a2c95cf5593db6485ebed9c6118544d5981be80c4",
+      "english": [
+        "Choose an affinity to raise."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 471260,
+          "low": 471280,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202624,
+      "source_lines": 1,
+      "source_sha256": "12dc2d97c8f6dead32dea043cb221e9a070adb3e9ed37898b1022f0ef628df18",
+      "english": [
+        "Please choose."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 471424,
+          "low": 471440,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202640,
+      "source_lines": 1,
+      "source_sha256": "e606367dcd8be623898fa1e4f45c4c2e89b481ac96ccf2494dfabc357f1b9615",
+      "english": [
+        "Machine Rank +1"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 471612,
+          "low": 471616,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2202660,
+      "source_lines": 1,
+      "source_sha256": "71fad841819677562f3963d2313f879e9a2fee730b60701118f1a40e3d815f33",
+      "english": [
+        "Yokai Rank +1"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 471620,
+          "low": 471628,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202680,
+      "source_lines": 1,
+      "source_sha256": "bfb5ad696debd8230081a9c71a45f89964136ce65177d3f3dee350f3d9348b9a",
+      "english": [
+        "Spirit Rank +1"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 471636,
+          "low": 471644,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2202700,
+      "source_lines": 1,
+      "source_sha256": "5bdb3cbcf7a171719b1e07039bf68cd7423c738cba0d0a427b5a3b9be194c96a",
+      "english": [
+        "Beast Rank +1"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 471648,
+          "low": 471656,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202720,
+      "source_lines": 1,
+      "source_sha256": "02c6de1a44ab598c21af3502694d7dbcb15180cbabc7df0f82090b02ea4b3fc7",
+      "english": [
+        "Magna / Toris"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 473232,
+          "low": 473236,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2202736,
+      "source_lines": 1,
+      "source_sha256": "34ae11c3c310384e3103e372c84fe9f415c406d70c5dfe0fedab318602ede533",
+      "english": [
+        "Rexx / Aty"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 473240,
+          "low": 473248,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202756,
+      "source_lines": 1,
+      "source_sha256": "84cd1aeb149885cb9bb79fb04dee04c7964e88316beafdae5e097e5230eac25d",
+      "english": [
+        "Protagonist"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 473252,
+          "low": 473256,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2202764,
+      "source_lines": 1,
+      "source_sha256": "96bea8fc35db781fb1db93b303d1d32230bbaa6f32043d73808d3a0e855034b7",
+      "english": [
+        "Rai / Fair"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 473264,
+          "low": 473272,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202780,
+      "source_lines": 1,
+      "source_sha256": "72544079bb628ccf6941591e2191c79383fd54c832c88b66bfa36abef85212cc",
+      "english": [
+        "Young Student"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 473276,
+          "low": 473284,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2202792,
+      "source_lines": 1,
+      "source_sha256": "96a8b6f52919281ba0d0b26b56baffa516f8cb60774ceacb19c10ad103d159b6",
+      "english": [
+        "Student"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 473288,
+          "low": 473296,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202800,
+      "source_lines": 1,
+      "source_sha256": "9c492b3a8016ed62e142751e0a418fa28664ed9ef3e8b8fdd74251153cea7aa3",
+      "english": [
+        "Adult Student"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 473300,
+          "low": 473308,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2202812,
+      "source_lines": 1,
+      "source_sha256": "57c6ab5bb4413f264ad45615582082b1c9a2ff6797384cf4ded7e11b8ff1dc43",
+      "english": [
+        "Dragon Child"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 473312,
+          "low": 473320,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202820,
+      "source_lines": 1,
+      "source_sha256": "64f69cf82331c097bb2d8eac4cc9bcf9b8ede94c7ff50146643fd8693d168e68",
+      "english": [
+        "Guardian Beast"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 473324,
+          "low": 473332,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2202828,
+      "source_lines": 1,
+      "source_sha256": "dd87d49629d8744b835dab38cead51c1321642900f33cd6706c2c28bbfbfcba5",
+      "english": [
+        "Pomnit"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 473360,
+          "low": 473396,
+          "register": 30
+        }
+      ]
+    },
+    {
+      "source_address": 2202840,
+      "source_lines": 1,
+      "source_sha256": "c0389a42fd0158d64f4a7a1dc38ae26408b3afefe365367b88934ff8817d91a9",
+      "english": [
+        "Subaru"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 473372,
+          "low": 473404,
+          "register": 23
+        }
+      ]
+    },
+    {
+      "source_address": 2202848,
+      "source_lines": 1,
+      "source_sha256": "a6cc1c38ece7cfacb6bbe7f41a2fb52b378558bed31bfdb9b80890277e615ef1",
+      "english": [
+        "Required participants"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 474244,
+          "low": 474260,
+          "register": 7
+        }
+      ]
+    },
+    {
+      "source_address": 2202872,
+      "source_lines": 1,
+      "source_sha256": "c8c1ae3df5eb01911eefa8be9a3503d5e156b580a95856e826c34e02885e8709",
+      "english": [
+        "Clear favorite?"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 474568,
+          "low": 474588,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202892,
+      "source_lines": 1,
+      "source_sha256": "dcfadc0dee4ce1d624a5eb53ff8d4ae491da02a6df813c272a1d9f2c8f858db3",
+      "english": [
+        " "
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 474732,
+          "low": 474748,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202904,
+      "source_lines": 1,
+      "source_sha256": "55f6ae37e9a111ac19dfc66989c9ea3a9c1cece845d52cac1d39c5c8e02d2246",
+      "english": [
+        "Choose the"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 474904,
+          "low": 474920,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202924,
+      "source_lines": 1,
+      "source_sha256": "84c08a1614931469bdf56ce472e2028e63ecfd63060848b915a1b54fe00ab4c1",
+      "english": [
+        "summon."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 475068,
+          "low": 475084,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202932,
+      "source_lines": 1,
+      "source_sha256": "58c1a65c70ccb0e82476b13f2f20f9f0f9147d68160da5cf86988da62cc3036a",
+      "english": [
+        "Choose the"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 476016,
+          "low": 476036,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2202952,
+      "source_lines": 1,
+      "source_sha256": "57667905edea67393f5516387558a8e1e13452bf4b51fb3ca3d05d9063c7394a",
+      "english": [
+        "color."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 476204,
+          "low": 476220,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2204200,
+      "source_lines": 1,
+      "source_sha256": "2d3e0ea4139df80db538106d6bcc75814f2091a101235692771c21ddd3841aa4",
+      "english": [
+        "Miss"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 491252,
+          "low": 491256,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2204624,
+      "source_lines": 3,
+      "source_sha256": "02c41fc70f2c467a133368f18d99002956589fd66fef8ac539e9a332339d5e6a",
+      "english": [
+        "Equip the crafted stone?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 529064,
+          "low": 529076,
+          "register": 22
+        }
+      ]
+    },
+    {
+      "source_address": 2204676,
+      "source_lines": 1,
+      "source_sha256": "4a1b3b5d7ce9f26b71a242018d856a6b98db493ad1004b2a329191a71bd0806b",
+      "english": [
+        "Stone equipped."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 529192,
+          "low": 529208,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2204700,
+      "source_lines": 1,
+      "source_sha256": "e72dead6a39a57936099f2497c3e1fce33ea83a47d755d38ef5917e61fb80c01",
+      "english": [
+        "Swap Weapons"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 531292,
+          "low": 531304,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2204728,
+      "source_lines": 1,
+      "source_sha256": "2bc81d55eb8a17b65059c65c26acb5067104fee9ba18d1db20cf061f2e389d6e",
+      "english": [
+        "Choose a Summonite Stone."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 544944,
+          "low": 544960,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2204764,
+      "source_lines": 3,
+      "source_sha256": "e320201905c76042e2d11956bd2c67dc0445b63873633507b8c35a79eb82179a",
+      "english": [
+        "Change equipment?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 546808,
+          "low": 546812,
+          "register": 19
+        }
+      ]
+    },
+    {
+      "source_address": 2209880,
+      "source_lines": 1,
+      "source_sha256": "f92ae36d6f1597bd29e8ba8f3b4a7408dfdb645319adf7ed64ca26c907268d0e",
+      "english": [
+        "Not deployed."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 831352,
+          "low": 831364,
+          "register": 4
+        },
+        {
+          "kind": "hilo",
+          "high": 831792,
+          "low": 831800,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2210224,
+      "source_lines": 1,
+      "source_sha256": "b80bbb6c56dc69460b3859830be8751086a321e598ead1e3cfa737c4f0aa76fd",
+      "english": [
+        "Anti-Magic Zone"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 861108,
+          "low": 861112,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2211076,
+      "source_lines": 1,
+      "source_sha256": "9db6e9ab446ceb2ce34fbba2da38aecba689e6fc03894f7a7075be720f218aeb",
+      "english": [
+        "No ingredients remain here."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 937408,
+          "low": 937424,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2211136,
+      "source_lines": 1,
+      "source_sha256": "22f5cc4a76782d2713edf81682f49dcbf62f7826dff4594ace08adad4df6f821",
+      "english": [
+        "Elixir"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 955496,
+          "low": 955508,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2211144,
+      "source_lines": 1,
+      "source_sha256": "0f7417da8fcd0783bfcf676efab4257382d60ebff0afeb857319d12b57610947",
+      "english": [
+        "sold for b."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 955552,
+          "low": 955564,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2219504,
+      "source_lines": 1,
+      "source_sha256": "838285e048288e326c7f80cac491b51bbe22b815cc2ae25b8a4b82e7a17de766",
+      "english": [
+        "How many will you buy?"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1305772,
+          "low": 1305788,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2219524,
+      "source_lines": 1,
+      "source_sha256": "65d71293d883f583c27a1efed8d89f0b7df31a57d52ef1735eecf8a169be0774",
+      "english": [
+        "How many will you sell?"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1305828,
+          "low": 1305844,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2219544,
+      "source_lines": 1,
+      "source_sha256": "3ece2dfa03f9bc74c2d9fddb00475478a0ec9c16a963540f4eed209236432120",
+      "english": [
+        " pcs."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1306004,
+          "low": 1306020,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2219548,
+      "source_lines": 1,
+      "source_sha256": "6177a963981255056d5438ae0521dfd8a49c74f6bb52c3df63f79bc149ae21bb",
+      "english": [
+        "Price"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1306172,
+          "low": 1306188,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 1311628,
+          "low": 1311644,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2219556,
+      "source_lines": 3,
+      "source_sha256": "feb49bfd7fd51c2464789a1aec5a42b2bd2907676c3199ec7572fcd0d42b0019",
+      "english": [
+        "Is this OK?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1308036,
+          "low": 1308040,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2219600,
+      "source_lines": 1,
+      "source_sha256": "aa0c1d58fe8c5bef8bd3d9064d623fb2d5d6506a8c365fefc4b04485cac11404",
+      "english": [
+        "Buy this?"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1311468,
+          "low": 1311484,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2219616,
+      "source_lines": 1,
+      "source_sha256": "dd87a77a2b810adc6cc82ee0131012ca24a6e49be8134e6563de3398b4996041",
+      "english": [
+        "Yes"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1311796,
+          "low": 1311812,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2219624,
+      "source_lines": 1,
+      "source_sha256": "93c28c10cad7e4252ce3ac531c73bd2a53663ff85b53eb7e1cead863a9cdf150",
+      "english": [
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1311964,
+          "low": 1311980,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2219632,
+      "source_lines": 1,
+      "source_sha256": "844467ce77d35663b270d0accf3b349003bb8b27aaac383f7321b26a55f08999",
+      "english": [
+        "Required class not unlocked."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1318244,
+          "low": 1318252,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2219664,
+      "source_lines": 1,
+      "source_sha256": "ff2d9d0530d97ce6ab600efbb6eeeed40af8c914f7543d518793c45bb942f980",
+      "english": [
+        "Cannot learn this."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1318276,
+          "low": 1318296,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2219680,
+      "source_lines": 1,
+      "source_sha256": "24499e63dc977699a579fd07c319947a10c831c4d5c5d575c095550710e1112c",
+      "english": [
+        "Cannot raise this level."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1318356,
+          "low": 1318376,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 1318436,
+          "low": 1318456,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2221248,
+      "source_lines": 3,
+      "source_sha256": "35faa8a97481815f7b637bbdaefeb1437cf215a7037d4c203d940fbe41139e51",
+      "english": [
+        "Finish shopping?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1454360,
+          "low": 1454368,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2221328,
+      "source_lines": 1,
+      "source_sha256": "5e53c9d33dc9f9162d88b1e40399b0a8584c0480747288df7e9a79dcabf037d7",
+      "english": [
+        "No puppets to materialize."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1462332,
+          "low": 1462340,
+          "register": 19
+        }
+      ]
+    },
+    {
+      "source_address": 2222064,
+      "source_lines": 3,
+      "source_sha256": "a170024059d530fa66a1dd0bf2dd05544f441082865c4a31ad6fe6570cc0d1a4",
+      "english": [
+        "Level up?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1545604,
+          "low": 1545620,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222108,
+      "source_lines": 3,
+      "source_sha256": "feb49bfd7fd51c2464789a1aec5a42b2bd2907676c3199ec7572fcd0d42b0019",
+      "english": [
+        "Is this OK?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1545628,
+          "low": 1545644,
+          "register": 20
+        },
+        {
+          "kind": "hilo",
+          "high": 1545676,
+          "low": 1545692,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222152,
+      "source_lines": 3,
+      "source_sha256": "84dc4f84daa50f9214c3896deaee2a09dffdf7e50c8008ac6bbffce5a002a2ec",
+      "english": [
+        "Finish leveling up?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1545652,
+          "low": 1545668,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222200,
+      "source_lines": 3,
+      "source_sha256": "7ed16cc83ba50bc1f9090b985a2a29bf6d52151714a8f238d009a0c0a6653600",
+      "english": [
+        "Finish draining levels?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1545700,
+          "low": 1545716,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222252,
+      "source_lines": 1,
+      "source_sha256": "d0404f1aced871f2178bba6aa23c1f28c2f71caaec31d34ef7d093dfe267195c",
+      "english": [
+        "Class Change!"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1545720,
+          "low": 1545732,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222300,
+      "source_lines": 1,
+      "source_sha256": "e3a80b4731df6b9a0557a5e592d817400fa892bc6ba55fc3ffcd48c0feba4d38",
+      "english": [
+        "\" only can be equipped."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1545880,
+          "low": 1545900,
+          "register": 8
+        }
+      ]
+    },
+    {
+      "source_address": 2222320,
+      "source_lines": 1,
+      "source_sha256": "828da941cf610208eab255ec6190587e1bdf92059810b8c7bb76820e76abe992",
+      "english": [
+        "Cannot use Unit Summon."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1545940,
+          "low": 1545952,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222352,
+      "source_lines": 1,
+      "source_sha256": "0484da91b1c5a215a65f1a4c85435f167a494880bb9750cbd282ed25d99a8a9f",
+      "english": [
+        "\" only can take unit form."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546060,
+          "low": 1546080,
+          "register": 8
+        }
+      ]
+    },
+    {
+      "source_address": 2222380,
+      "source_lines": 1,
+      "source_sha256": "e98df6c10b91c6b31fd96b3e5f64224c44e81677ece3f3088706bfafca631cf4",
+      "english": [
+        "Cannot control this unit."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546100,
+          "low": 1546112,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222412,
+      "source_lines": 1,
+      "source_sha256": "7c11de44eff48d66b5af51108aa47466a3543fcc18aba790dd941a6c92c6e6e5",
+      "english": [
+        "Cannot join this battle."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546116,
+          "low": 1546128,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222444,
+      "source_lines": 2,
+      "source_sha256": "f6bbd31961553211ab645b4256f6a5fc9654903e6548226f0c7aea149acc6906",
+      "english": [
+        "Affinity and battle type",
+        "have not been set."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546132,
+          "low": 1546140,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222496,
+      "source_lines": 1,
+      "source_sha256": "bf22156c4ac810dd88f070c44360c375aca261452901013f8b62ce4492635a86",
+      "english": [
+        "Battle type not set."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546144,
+          "low": 1546152,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222532,
+      "source_lines": 5,
+      "source_sha256": "ab125074048d641e59f7a135179aff95be53a43cabf74ba70ccaa9662a00051a",
+      "english": [
+        "Choose a summon affinity.",
+        "Machine",
+        "Yokai",
+        "Spirit",
+        "Beast"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546176,
+          "low": 1546184,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222596,
+      "source_lines": 3,
+      "source_sha256": "7281acb6778deb6e0a34d3a6c4636e4d4efc9875c8739bc8a27a02bd9cf09c05",
+      "english": [
+        "Choose a battle type.",
+        "Warrior",
+        "Summoner"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546236,
+          "low": 1546244,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222684,
+      "source_lines": 1,
+      "source_sha256": "7c22aeb7a24ae997e5474c346ed8a21ec65a66a94da01cd3006d84664809158b",
+      "english": [
+        "Summon affinity: Yokai"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546324,
+          "low": 1546340,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2222768,
+      "source_lines": 1,
+      "source_sha256": "7d729fb14c569588b4b40bd0e0d38afb055cee7f23658a6310445f96a854126e",
+      "english": [
+        "Battle type: Warrior"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546460,
+          "low": 1546476,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2222912,
+      "source_lines": 3,
+      "source_sha256": "c5e57b4e890b5c9d5252c1de666706a80ca56ca538acb97e633b1bf60ea92906",
+      "english": [
+        "Materialize this puppet?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546792,
+          "low": 1546808,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2222956,
+      "source_lines": 3,
+      "source_sha256": "ef9b7c9f8409dff3620d92a6a68b273301d70ff3a482cbf7d2375802091389d4",
+      "english": [
+        "Cancel materializing?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546816,
+          "low": 1546832,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2223004,
+      "source_lines": 1,
+      "source_sha256": "a04818608760a312de8b7094dd7d7867ad65992e9501c9f0f2f4dbc61b8965bd",
+      "english": [
+        "Not enough medals."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546836,
+          "low": 1546844,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2223028,
+      "source_lines": 4,
+      "source_sha256": "3c599c1aed5ca1b23ede1061d30d2f4f51e05f5d93c902e90e6f8862cc409521",
+      "english": [
+        "Unavailable on this route.",
+        "Proceed anyway?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546856,
+          "low": 1546872,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2223112,
+      "source_lines": 3,
+      "source_sha256": "a3e42f3233454ea5dfe95fb707836ddabbc0afc7f4b9e647008d5371ce42982a",
+      "english": [
+        "Finish summon training?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1546880,
+          "low": 1546892,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2223816,
+      "source_lines": 1,
+      "source_sha256": "8cae22fbca64efccabada31137e1932f5086f34d76ff7161fb1a4a4bb9c9f265",
+      "english": [
+        "Extra usable equipment"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1631580,
+          "low": 1631596,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2223884,
+      "source_lines": 1,
+      "source_sha256": "b356a401fcb2d33b2b89a527d8b26e17f8d6ab761e9f19e33b9276ce08bb15b4",
+      "english": [
+        "Unequip"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1657244,
+          "low": 1657252,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 1658640,
+          "low": 1658648,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2223900,
+      "source_lines": 1,
+      "source_sha256": "8e95e28bb6d2b8fca1fcae05ae3d734055a4d7d475082815a380582d75aa5dd7",
+      "english": [
+        "Unset"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1662968,
+          "low": 1662972,
+          "register": 21
+        }
+      ]
+    },
+    {
+      "source_address": 2223908,
+      "source_lines": 1,
+      "source_sha256": "2835ff2cf5cc40495c535f70ba0084eea2faf9de75a958cbd11c66b16c08d37a",
+      "english": [
+        "Sub Battle"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1664120,
+          "low": 1664128,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2223920,
+      "source_lines": 1,
+      "source_sha256": "49e5898bdeec34bc9bfc1ed31865aac80e4aaad4575b7cacf2e6d6fe0ee915b0",
+      "english": [
+        "Floor "
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1664204,
+          "low": 1664224,
+          "register": 18
+        }
+      ]
+    },
+    {
+      "source_address": 2223924,
+      "source_lines": 1,
+      "source_sha256": "d325e1b8e2bf86f117122b3906f7a7d2a7fae67c6e26e98b3b2e8c72b89c92c0",
+      "english": [
+        "Halls"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1664136,
+          "low": 1664140,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2223932,
+      "source_lines": 1,
+      "source_sha256": "d4119fd04ebd9eca39e84a26432b13f5a070110e08fe58a062959849b8c0ded5",
+      "english": [
+        "Battle A"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1664144,
+          "low": 1664152,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2223940,
+      "source_lines": 1,
+      "source_sha256": "984ccb892f287995940a5d2fa73f05f986769e48fc0863d61a2a7227dba74667",
+      "english": [
+        "Battle B"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1664156,
+          "low": 1664160,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2223948,
+      "source_lines": 1,
+      "source_sha256": "ea793efbd85c1d1b968f509cdaa9b140391fa790f80e3c0d046b46920d682ef1",
+      "english": [
+        "Battle C"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1664168,
+          "low": 1664176,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2223956,
+      "source_lines": 1,
+      "source_sha256": "ac5ba09b6200df82045fa876c57c828d5fa6d7f789b0052a2eafc7b5c33eae97",
+      "english": [
+        "Battle D"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1664180,
+          "low": 1664184,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2223964,
+      "source_lines": 1,
+      "source_sha256": "e8550abfacc953fb087e38114380ac680e4b87166b0e0b7acc1665aabd33914f",
+      "english": [
+        "Battle"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1664208,
+          "low": 1664228,
+          "register": 23
+        }
+      ]
+    },
+    {
+      "source_address": 2213688,
+      "source_lines": 3,
+      "source_sha256": "f3469c5d981bcfb18bd4ccd8b669f4959de60322f31c2a113f6600ca1d7c2dae",
+      "english": [
+        "Quit?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1134396,
+          "low": 1134400,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2225840,
+      "source_lines": 3,
+      "source_sha256": "853a83697c26c87dd132c3c6d3240ab12f956a0ca98014dfbc49eab45021922d",
+      "english": [
+        "Start?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1689480,
+          "low": 1689484,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2226168,
+      "source_lines": 3,
+      "source_sha256": "853a83697c26c87dd132c3c6d3240ab12f956a0ca98014dfbc49eab45021922d",
+      "english": [
+        "Start?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1745248,
+          "low": 1745272,
+          "register": 20
+        }
+      ]
+    },
+    {
+      "source_address": 2226264,
+      "source_lines": 1,
+      "source_sha256": "de994672b60b33f1799d8456df579177725933c89046e94dda8896237bbf6472",
+      "english": [
+        "Jackpot"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266872
+        }
+      ]
+    },
+    {
+      "source_address": 2226272,
+      "source_lines": 1,
+      "source_sha256": "4a7b0bcf1f3c5caa689c1fc4ff88dd830a7dfc22c278780ed554f0edc8235d19",
+      "english": [
+        "1st Prize"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266876
+        },
+        {
+          "kind": "pointer",
+          "address": 2266896
+        }
+      ]
+    },
+    {
+      "source_address": 2226280,
+      "source_lines": 1,
+      "source_sha256": "1873a0f7127a8220a76fa2b9e894e23f1d4ea0deb97cc265fd83f7f3f5b66db2",
+      "english": [
+        "2nd Prize"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266880
+        },
+        {
+          "kind": "pointer",
+          "address": 2266900
+        }
+      ]
+    },
+    {
+      "source_address": 2226288,
+      "source_lines": 1,
+      "source_sha256": "0512f44e674f01611c045da70cb434b980e8fd5943191e12a60489e51701eb90",
+      "english": [
+        "3rd Prize"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266884
+        },
+        {
+          "kind": "pointer",
+          "address": 2266904
+        }
+      ]
+    },
+    {
+      "source_address": 2226296,
+      "source_lines": 1,
+      "source_sha256": "902e643e70cbd5e42a62d1c8d84f63391284933bd12ec84ee98e234b221867c5",
+      "english": [
+        "Miss"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266888
+        },
+        {
+          "kind": "pointer",
+          "address": 2266908
+        }
+      ]
+    },
+    {
+      "source_address": 2226304,
+      "source_lines": 1,
+      "source_sha256": "46dfca887add3de89d9d8c47b5fdab94371670b098db448ae9b5fd06f71f15d7",
+      "english": [
+        "Big Catch"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266916
+        }
+      ]
+    },
+    {
+      "source_address": 2226312,
+      "source_lines": 1,
+      "source_sha256": "2870ff3d2ccde0eaa5812ada88f848d77dbb0e350b2c852c61dc1f52b3ef2a06",
+      "english": [
+        "Big Fish"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266920
+        }
+      ]
+    },
+    {
+      "source_address": 2226320,
+      "source_lines": 1,
+      "source_sha256": "f96be7d3d2037cc946cb76913027aebc518e8cb2fac4fad1008fe70d3745241c",
+      "english": [
+        "Odd Catch"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266924
+        }
+      ]
+    },
+    {
+      "source_address": 2226332,
+      "source_lines": 1,
+      "source_sha256": "9da8173ececfcc9411ee4885881d392236cb4e20bcbaea83332d693c5e49ce25",
+      "english": [
+        "Normal"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266928
+        }
+      ]
+    },
+    {
+      "source_address": 2226340,
+      "source_lines": 1,
+      "source_sha256": "fec2cc86488747bd7291c41ba939463140d45207460cb3a79592530ac457623e",
+      "english": [
+        "No Catch"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266932
+        }
+      ]
+    },
+    {
+      "source_address": 2226348,
+      "source_lines": 1,
+      "source_sha256": "374bf2cc753b46b93caaf055daca50cafd87e4f2f15856d93a33cefe244a9e88",
+      "english": [
+        "Treasure"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266936
+        }
+      ]
+    },
+    {
+      "source_address": 2226356,
+      "source_lines": 1,
+      "source_sha256": "d85886608443bd2f5d2d904899b2a6afe8f5b3b575f3d05d4085b44c0ac78cbe",
+      "english": [
+        "Rare"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266940
+        }
+      ]
+    },
+    {
+      "source_address": 2226364,
+      "source_lines": 1,
+      "source_sha256": "c97e0d974951d7cee2fe32eae19cb203b8f58bdea84c79b591ab5b5e777b9fc3",
+      "english": [
+        "Great Success"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266948
+        },
+        {
+          "kind": "pointer",
+          "address": 2266980
+        }
+      ]
+    },
+    {
+      "source_address": 2226372,
+      "source_lines": 1,
+      "source_sha256": "b89fa156c27993d38073a7e5b43c135d524997eaa5db8a57d9d6fb65db42ea62",
+      "english": [
+        "Success"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266952
+        },
+        {
+          "kind": "pointer",
+          "address": 2266984
+        }
+      ]
+    },
+    {
+      "source_address": 2226380,
+      "source_lines": 1,
+      "source_sha256": "9d00325f36fed38d61b3833af8b1ec0b8f7e756756af178833d699c2e36c9c8f",
+      "english": [
+        "Failure"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266956
+        },
+        {
+          "kind": "pointer",
+          "address": 2266992
+        }
+      ]
+    },
+    {
+      "source_address": 2226388,
+      "source_lines": 1,
+      "source_sha256": "393504dfeb97b49ae5119d115a4bb74384954b625ec8350d0bc87dcc8119fafd",
+      "english": [
+        "Good"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266964
+        }
+      ]
+    },
+    {
+      "source_address": 2226392,
+      "source_lines": 1,
+      "source_sha256": "253aa00c2dbbb117d146347fbacae9ee27e47b32bcdef68e72f244258330c351",
+      "english": [
+        "Fair"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266968
+        }
+      ]
+    },
+    {
+      "source_address": 2226396,
+      "source_lines": 1,
+      "source_sha256": "81232f5b2ef10009208d3c9f92d4f4eb0b8c5dbdf0103db18ec53a632a3aade6",
+      "english": [
+        "Poor"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266972
+        }
+      ]
+    },
+    {
+      "source_address": 2226404,
+      "source_lines": 1,
+      "source_sha256": "6a972d653e716027eec3f67ec40744ebeaa5f131c4560b018f0486ae74e578ba",
+      "english": [
+        "Just in Time"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266988
+        }
+      ]
+    },
+    {
+      "source_address": 2226416,
+      "source_lines": 1,
+      "source_sha256": "d7e0ff3c0fcf393e29d912463a4a94e7a73f348149e9a4aa192077095a6db346",
+      "english": [
+        "Time Up"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2266996
+        }
+      ]
+    },
+    {
+      "source_address": 2226428,
+      "source_lines": 1,
+      "source_sha256": "17e35db3d42ca6240c1bf8588e4e00812be0b04ee80e9a7b8e8231a85657701d",
+      "english": [
+        "None Selected"
+      ],
+      "bindings": [
+        {
+          "kind": "pointer",
+          "address": 2267004
+        }
+      ]
+    },
+    {
+      "source_address": 2226784,
+      "source_lines": 3,
+      "source_sha256": "f3469c5d981bcfb18bd4ccd8b669f4959de60322f31c2a113f6600ca1d7c2dae",
+      "english": [
+        "Quit?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1802528,
+          "low": 1802536,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2226820,
+      "source_lines": 1,
+      "source_sha256": "53734c8aba9aed098127791fc9ef7d03f2d8ed2f432cc7b8dd271afbdf5de8f9",
+      "english": [
+        "The bait was stolen..."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1802888,
+          "low": 1802912,
+          "register": 6
+        }
+      ]
+    }
+  ]
+}

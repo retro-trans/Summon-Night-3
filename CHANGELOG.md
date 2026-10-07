@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.1.75 - Related UI category sweep (local test build, 2026-10-08)
+
+- Extend the latest and earlier screenshot requests to matching UI categories.
+- Translate 365 remaining unit/class labels and 176 native notices.
+- Display translated default names from existing saves while preserving custom names.
+- Translate location labels, Meimei's menus, conversation nameplates and matching copies.
+- Translate all seven minigame instruction pages and related controls/results,
+  including quit confirmations and native prize/rank labels.
+- Use proportional text in native item-reward messages.
+- Preserve the previous Cooking, Party Abilities, summon-index and white-stone pot fixes.
+- Keep native palettes, sprite sizes, compression codecs and numeric gameplay fields.
+- Run QA with at most one emulator instance.
+- Pass all 14 inherited regression groups and the new name/reward CPU checks.
+  Review the final image through a fresh boot and normal in-game save.
+- Package a Retro Trans Tools test upgrade from published 0.1.73, including 0.1.74.
+
 ## 0.1.74 - Cooking text recovery and related menus (local test build, 2026-10-08)
 
 - Translate and fit the title-screen Extra Story / Main Story prompts.

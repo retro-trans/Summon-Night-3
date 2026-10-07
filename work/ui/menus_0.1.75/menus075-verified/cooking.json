@@ -1,0 +1,31 @@
+{
+  "method": "software VRAM at sceDisplaySetFrameBuf",
+  "game": {
+    "id": "NPJH50380",
+    "version": "2.00",
+    "title": "\u30b5\u30e2\u30f3\u30ca\u30a4\u30c8\uff13"
+  },
+  "framebuffer_address": "0x4000000",
+  "stride_pixels": 512,
+  "pixel_format": 1,
+  "width": 480,
+  "height": 272,
+  "sync": 0,
+  "display_import_address": "0x8a17b9c",
+  "png_bytes": 88599,
+  "png_sha256": "1f85246f6b1ad7861510c0e5b1bc9ae88d0897985c2aca690c5a1c977c30a525",
+  "cpu_left_stepping": true,
+  "buttons": [
+    "down",
+    "circle"
+  ],
+  "cpu": {
+    "event": "cpu.status",
+    "ticket": "83f0eec5-22a6-409b-a8af-c57c05f48018",
+    "stepping": true,
+    "paused": true,
+    "pc": 144800668,
+    "ticks": 24637511476
+  },
+  "case": "menus075-verified"
+}
