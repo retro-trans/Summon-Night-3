@@ -1,0 +1,96 @@
+{
+  "version": "0.1.74",
+  "passed": true,
+  "iso_sha256": "6aff0fa6e49f144aa86e071d73e9fce9321eecdfaf5274439219e72ab34796e0",
+  "emulator": "PPSSPP 1.20.4",
+  "fresh_boot": true,
+  "normal_in_game_save": true,
+  "save_state_used": false,
+  "runtime_memory_edits": false,
+  "audio_enabled": true,
+  "cpu_core": "JIT",
+  "ignore_bad_memory": false,
+  "single_emulator": true,
+  "second_launch_guard_verified": true,
+  "owned_emulator_closed_after_checks": true,
+  "save_provenance": "Private room save created through the game Save menu from supplied older diagnostic state; final sessions booted normally and loaded the resulting save.",
+  "baseline": {
+    "version": "0.1.73",
+    "iso_sha256": "79e60216dbd74b6bc1b5abe14806557b17d4544f3c6518a5f6ada6a73f3be685",
+    "path": "work/ui/menus_0.1.74/menus074-cooking-base/cookBaseOpen.png",
+    "sha256": "8754d6eee6e755308d610775d2b8d7ea5416f7c81c6e0ff99ee70b7cb91e1a91",
+    "same_normal_save": true,
+    "question_marks_reproduced": true
+  },
+  "screenshots": [
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/title.png",
+      "sha256": "86b004fd26953b553fcdc36f15242bf621a52bff451b4f72fc63368987c27ced",
+      "note": "Extra Story footer fits."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/mainStory.png",
+      "sha256": "d88de810e7ebef37d1c2a94271c9921467a826c596881d111dbe7d33fa6607c9",
+      "note": "Main Story footer fits."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/load.png",
+      "sha256": "d5e519a5757e394621d311f6464c046995adb277310fa6a4960355ddca076293",
+      "note": "Normal in-game save chooser, GAME00."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/room.png",
+      "sha256": "7a4fee36d868b37759f9959c989316cb9796f3dab4775d91943aff80927dafe5",
+      "note": "Loaded normal room save."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/marurur.png",
+      "sha256": "7aa665e653bbde6c3fddd065ca47300f0eef929bb18b2632f97ba06f8a871276",
+      "note": "Marurur and Flower Fairy fit their status fields."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/cooking.png",
+      "sha256": "f8fd406d1fde244ee5eb5395ed51bf4586ae6b0d0bd6d2b0ddd7d16c5f294733",
+      "note": "Pirate Lunch has six lines of readable English instead of question marks."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/cookingSeafood.png",
+      "sha256": "2a19962546145a808d1ac8a667e75b0156f1a50a7576d5aaf951ce6b9d44e37c",
+      "note": "Pirate Hot Pot description and ingredient rows display correctly."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/party.png",
+      "sha256": "d37a60392eeaaa97b65035a1b7cb18ba6948538254b3c6f9cf3736f8d1c15b88",
+      "note": "Translated upper list clears ON/OFF controls; Pirate Lunch help is English."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/partyBottom.png",
+      "sha256": "34456aa40556127d017b4d5ac9507d56a595b3f728a5fd80909dc4c3b0aa0976",
+      "note": "Translated lower list and Mutual Support help."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/partyHero.png",
+      "sha256": "2b85b1e3ab29b8766f4fc5ed3cfd31afb894755fcf2fb9f2f1f4d728c339b32e",
+      "note": "Hero Tales 5 and EXP gained x4, matching the native level."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/unitForm.png",
+      "sha256": "bc9714e4f663a427c479e12906252dd55359b00dea5cf65465940efd853e41c9",
+      "note": "Deploy using Unit Summon. replaces the native Japanese duplicate."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/crystalSpirit.png",
+      "sha256": "ded76843bbad771322e3fc021758e4dc05fdf08bfc124effa3057be74fd0f98e",
+      "note": "Symbolic stat rows are spaced without overlap; native numbers retained."
+    },
+    {
+      "path": "work/ui/menus_0.1.74/menus074-final8/cookingReopened.png",
+      "sha256": "f8fd406d1fde244ee5eb5395ed51bf4586ae6b0d0bd6d2b0ddd7d16c5f294733",
+      "note": "Recipe descriptions remain readable after other menus are visited."
+    }
+  ],
+  "limits": [
+    "Reported screens and known rendering paths; not a complete playthrough.",
+    "Other Hero Tales levels are covered by native selector execution, not runtime save edits."
+  ]
+}

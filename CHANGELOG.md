@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.1.74 - Cooking text recovery and related menus (local test build, 2026-10-08)
+
+- Translate and fit the title-screen Extra Story / Main Story prompts.
+- Translate Marurur, Flower Fairy and related fairy class names.
+- Translate all 29 Party Ability names and descriptions and 29 food effects.
+- Fit party names beside their controls; translate all five native Hero Tales
+  volume names and all six EXP-help variants.
+- Fix Cooking descriptions overwritten by the native event-script arena;
+  protect resident table children 37–48 in a 77,824-byte private buffer.
+- Translate both Unit Form help copies and restore symbolic stat spacing
+  on Summon Index / Combine pages, preserving every numeric output.
+- Retain the 0.1.73 white-stone pot crash repair and save layout.
+- Enforce a single PPSSPP instance for new QA launches.
+- Supply a local 0.1.73-to-0.1.74 Retro Trans Tools upgrade.
+- Verify the six reported screens from a normal save, 36 Hero Tales selector
+  cases, 1,220 retained name-cache cases and all 14 inherited audit groups.
+
 ## 0.1.73 - UI translations and Yard / white-stone pot crash fix (release, 2026-10-07)
 
 - Publish the cumulative translations and alignment fixes from local builds
