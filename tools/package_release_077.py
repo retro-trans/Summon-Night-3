@@ -81,14 +81,16 @@ def complete_assets(out, summary, validate_directory):
         path = out / name
         assert not path.exists(), name
         path.write_bytes(data)
-    # Versioned sums cover every payload; generic sums also cover versioned sums.
-    payload = sorted(p for p in out.iterdir() if p.is_file() and p.name != 'SHA256SUMS.txt')
+    # The public catalog fetches only its four core files before validation.
+    # Keep generic sums limited to those files; versioned sums cover the extras.
+    core = sorted({s[2] for s in SOURCES} | {'BUILD-MANIFEST.json', 'VALIDATION.json'})
+    (out / 'SHA256SUMS.txt').write_text(''.join(digest(out / n) + '  ' + n + '\n' for n in core), encoding='utf8')
+    payload = sorted(p for p in out.iterdir() if p.is_file())
     for algorithm in ('sha1', 'sha256'):
         lines = ''.join(hashlib.new(algorithm, p.read_bytes()).hexdigest() + '  ' + p.name + '\n'
                         for p in payload)
         (out / (algorithm.upper() + 'SUMS-v0.1.77.txt')).write_text(lines, encoding='utf8')
     files = sorted(p for p in out.iterdir() if p.is_file() and p.name != 'SHA256SUMS.txt')
-    (out / 'SHA256SUMS.txt').write_text(''.join(digest(p) + '  ' + p.name + '\n' for p in files), encoding='utf8')
     assert {p.name for p in out.glob('*.xdelta')} == {s[2] for s in SOURCES}
     assert len(files) + 1 == 10 and all(p.suffix in ('.json', '.txt', '.xdelta') for p in files)
     validate_directory(out)

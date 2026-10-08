@@ -12,41 +12,45 @@ screenshot. State whether you loaded an in-game save or an emulator save state.
 
 ## Play it
 
-The latest test release is **[v0.1.55](https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.55)**.
-It adds 642 independently reviewed battle-event fragments across 27 scripts,
-and includes the v0.1.54 story translation and all earlier crash guards and
-interface fixes. The indexed remaining story and battle-event passes are complete;
-other text, graphics and full-route testing remain incomplete.
+The latest test release is **[v0.1.77](https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.77)**.
+It adds the related menu and Gallery translations, repairs Cooking descriptions
+and overlapping labels, and translates the remaining optional-battle headings.
+Blade Awakening now aligns with other skill entries. The earlier Yard pot and
+Chapter 15 crash repairs are retained. Translation and full-route testing remain
+incomplete.
 
 ### Apply
 
-Use [Retro Trans](https://github.com/retro-trans/retro-trans-tools), refresh its
-catalog, and select your source ISO. Manual Apply xdelta and DeltaPatcher also work.
+Use [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools), refresh
+its catalog, and select your source ISO. Manual Apply xdelta and DeltaPatcher
+also work.
 
 | Your source image | Patch |
 |---|---|
-| Clean Japanese NPJH50380 | `SN3-English-v0.1.55.xdelta` |
-| Published English v0.1.54 | `SN3-English-v0.1.54-to-v0.1.55.xdelta` |
+| Clean Japanese NPJH50380 | `SN3-English-v0.1.77.xdelta` |
+| Published English v0.1.73 | `SN3-English-v0.1.73-to-v0.1.77.xdelta` |
 
-Use the exact source version and keep checksum verification enabled.
-Both patches are fully round-trip verified with the Retro Trans engine.
-[Public Automatic-mode verification](docs/RETRO_TRANS_0.1.55.md) also passed
-for the v0.1.54 upgrade.
+Use the exact source version and keep checksum verification enabled. Local
+intermediate builds are not upgrade sources; use the clean Japanese image.
+Both patches are fully decoded and verified with the Retro Trans Tools engine.
+[Public Automatic-mode verification](docs/RETRO_TRANS_0.1.77.md) records the
+original-image route and the v0.1.73 upgrade.
 
 ```sh
-xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.55.xdelta" "Summon Night 3 English v0.1.55.iso"
+xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.77.xdelta" "Summon Night 3 English v0.1.77.iso"
 ```
 
 | Image | SHA-256 |
 |---|---|
 | Clean Japanese source - 1,658,159,104 bytes | `00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda` |
-| English v0.1.55 - 1,676,998,656 bytes | `d75654f7d9381293b8b78e8e7ddd8766bd2c518e9da05a8a7983205abd04bfe9` |
+| English v0.1.73 upgrade source - 1,686,472,704 bytes | `79e60216dbd74b6bc1b5abe14806557b17d4544f3c6518a5f6ada6a73f3be685` |
+| English v0.1.77 - 1,691,269,120 bytes | `d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427` |
 
 Start the new ISO fresh and load an **in-game save**. Emulator save states retain
-old code and resources. The [release report](docs/RELEASE_0.1.55.md) distinguishes
-automated checks from fresh-boot testing. Chapter 15 Continue, Brave Goals,
-Inventory and Summon Index passed; full-route and individual new-script runtime
-allocation testing remain pending.
+old code and resources. The [release report](docs/RELEASE_0.1.77.md) distinguishes
+automated checks from fresh-boot testing. Aty's skill list and Yard's white-stone
+crafting, naming and equipment flow passed on the exact release ISO; a full
+playthrough and a Linux emulator host remain untested.
 
 ## Check the translation
 
@@ -54,7 +58,7 @@ English targets and source identities are in [work/translation/en](work/translat
 Records use resource IDs, offsets and source hashes so the Japanese can be read
 from your own game image without publishing a full Japanese script dump.
 
-The latest [coverage and test report](docs/RELEASE_0.1.55.md) distinguishes
+The latest [coverage and test report](docs/RELEASE_0.1.77.md) distinguishes
 in-game checks from static checks. Broader scope is documented in
 [Chapters 1–3](docs/BUILD_0.1.12.md), [Chapters 4–8](docs/CHAPTERS_0.1.14.md),
 and [battle dialogue](docs/BATTLE_DIALOGUE_0.1.24.md).

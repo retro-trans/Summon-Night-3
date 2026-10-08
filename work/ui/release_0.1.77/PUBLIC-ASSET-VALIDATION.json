@@ -1,0 +1,67 @@
+{
+  "version": "0.1.77",
+  "passed": true,
+  "public_release": "https://github.com/retro-trans/Summon-Night-3/releases/tag/v0.1.77",
+  "source_commit": "e08b3899667dcafb5412e173b48a43afdde65797",
+  "asset_count": 10,
+  "all_public_sizes_and_sha256_match": true,
+  "patch_routes": [
+    "original -> 0.1.77",
+    "0.1.73 -> 0.1.77"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:b38d3afd987d8f6f4864b6ae6536b139e5b524251efe0a1270cb10fd133b389f",
+      "name": "BUILD-MANIFEST.json",
+      "size": 1399
+    },
+    {
+      "digest": "sha256:a367413a92efd642b069452b6edf217c738273657a8dab607273919c680ffcbb",
+      "name": "CHANGELOG-v0.1.77.txt",
+      "size": 105098
+    },
+    {
+      "digest": "sha256:5285eadcb1807942b76942d0fb05441432aa8f0c24617c57b7b0de22d84c8253",
+      "name": "GAMEPLAY-VALIDATION-v0.1.77.json",
+      "size": 4274
+    },
+    {
+      "digest": "sha256:4f87a519996d1b71a12234a8352f44254fa605828ce8c8ee9e6a312d38ff3a9f",
+      "name": "README-v0.1.77.txt",
+      "size": 4757
+    },
+    {
+      "digest": "sha256:2af7c53a2048324bb2d8e13837984bdc2b19a3ee194997f8d4f0334d1c0d82fe",
+      "name": "SHA1SUMS-v0.1.77.txt",
+      "size": 534
+    },
+    {
+      "digest": "sha256:9b1888a02fb1a928907016b6b204ec9cf8d58d578a2a0e06f4e6a6e052187ce8",
+      "name": "SHA256SUMS-v0.1.77.txt",
+      "size": 726
+    },
+    {
+      "digest": "sha256:bce8cbbb867873b8ae7df4f25d50cef86f5c624f739630e84c7d9f7c60876735",
+      "name": "SHA256SUMS.txt",
+      "size": 369
+    },
+    {
+      "digest": "sha256:926ad831cd0347d312fc660bdf83bb8355ebd6c6285afe05ce2f50a028d6c766",
+      "name": "SN3-English-v0.1.73-to-v0.1.77.xdelta",
+      "size": 4485851
+    },
+    {
+      "digest": "sha256:bd58e1a0b196464f0c586c8d68cea4ad21ac08677cadac64490ba6e8c794d08c",
+      "name": "SN3-English-v0.1.77.xdelta",
+      "size": 407197655
+    },
+    {
+      "digest": "sha256:21618c54c0dd06fa6f08aee6d4239db1b367c54c0403acb4a8defa83fac970a2",
+      "name": "VALIDATION.json",
+      "size": 509
+    }
+  ],
+  "catalog_refresh_run": "https://github.com/retro-trans/retro-trans-tools/actions/runs/37720674456",
+  "catalog_refresh_passed": true,
+  "checksum_layout": "Generic sums cover catalog core assets; versioned SHA1/SHA256 sums cover all eight payloads. Checksum files were corrected after initial catalog import rejection; patch bytes and manifest did not change."
+}
