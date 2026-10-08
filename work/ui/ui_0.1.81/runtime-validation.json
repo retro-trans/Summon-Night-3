@@ -1,0 +1,49 @@
+{
+  "version": "0.1.81",
+  "passed": true,
+  "iso_sha256": "1e574f8ec2ed2917a2ee90b7c75427a6acb2ecca64727ca1215a3c683f2f89a8",
+  "fresh_boot": true,
+  "normal_in_game_save": true,
+  "save_state_used": false,
+  "emulator": "Windows PPSSPP 1.20.4",
+  "renderer": "software",
+  "emulator_instances": 1,
+  "emulator_closed": true,
+  "game_memory_writes": false,
+  "breakpoints_removed": true,
+  "audio_enabled": true,
+  "audio_playback_validated": false,
+  "live_helper": {
+    "passed": true,
+    "iso_sha256": "1e574f8ec2ed2917a2ee90b7c75427a6acb2ecca64727ca1215a3c683f2f89a8",
+    "native_index": 12,
+    "native_row": 1,
+    "matched_text": "Assist only ",
+    "actual_helper_executed": true,
+    "memory_writes": false
+  },
+  "screenshots": [
+    {
+      "path": "work/ui/ui_0.1.81/reviewed/godAssistInfo081.png",
+      "sha256": "3c37fb0bd144538fdf0fc0e138c7d176d0109bdddf1e9e9a7f24415070cab03a",
+      "note": "Sky Torrent member list: proportional labels fit two columns.",
+      "visual_review_passed": true
+    },
+    {
+      "path": "work/ui/ui_0.1.81/reviewed/assistHint081.png",
+      "sha256": "03d0fcaf6a7b4472ee469db233bc4e94d0e2b4d5263862c506d7b1b188cf7ee1",
+      "note": "Assist hint: triangle icon aligned before its caption.",
+      "visual_review_passed": true
+    },
+    {
+      "path": "work/ui/ui_0.1.81/reviewed/heavensNetInfo081.png",
+      "sha256": "74799c3a16322fc8d8805db1f2b870551e7586272e7fd73f905e34e56b21b813",
+      "note": "Heaven's Net: alternate member list fits the same widget.",
+      "visual_review_passed": true
+    }
+  ],
+  "limitations": [
+    "Shared Assist help and INFO verified in Summon Index; exact supplied battle sequence not replayed.",
+    "No direct Android validation or full-game playthrough."
+  ]
+}

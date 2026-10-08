@@ -1,0 +1,39 @@
+{
+  "version": "0.1.81",
+  "coordinate_space": "Native 480x272 framebuffer",
+  "widgets": [
+    {
+      "id": "assist.help.button",
+      "renderer_call": "0x64490",
+      "matched_prefix": "Assist only ",
+      "native_cell_index": 12,
+      "native_rows": [0, 1, 2],
+      "old_prefix_width_pixels": 156,
+      "proportional_prefix_width_pixels": 85.75,
+      "position_rule": "Replace only index*13 X advance with the measured Latin prefix; retain native anchor and Y/Z."
+    },
+    {
+      "id": "assist.info.required_members",
+      "bind_call": "0x73b1c",
+      "label_and_name_width": "Proportional native Latin metrics",
+      "left_column": {"x": 124, "width": 112},
+      "right_column": {"x": 244, "width": 112},
+      "rows": {"y": 132, "height": 18, "count": 4},
+      "note": "Column boxes are the reviewed Summon Index layout; the renderer also handles battle INFO windows."
+    },
+    {
+      "id": "assist.info.participant_count",
+      "bind_call": "0x73cbc",
+      "label_and_name_width": "Same bounded VWF binding"
+    }
+  ],
+  "reported_screenshots": [
+    "reported/assist-button-overlap.png",
+    "reported/assist-members-fixed-font.png"
+  ],
+  "reviewed_screenshots": [
+    "reviewed/godAssistInfo081.png",
+    "reviewed/assistHint081.png",
+    "reviewed/heavensNetInfo081.png"
+  ]
+}

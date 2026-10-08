@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.81 - Assist button alignment and member-list VWF (local test build, 2026-10-08)
+
+- Place the triangle icon using the same proportional Assist-only prefix as
+  the help text; preserve all other icon handlers and button behavior.
+- Use the existing VWF binding for required-member INFO names and category
+  labels, fixing Protagonist and Magna / Toris crossing column boundaries.
+- Preserve custom names, combat requirements, existing code/data and every
+  other ISO file. Carry forward all 0.1.80 fixes.
+- Verify both relocated paths and fresh-save Sky Torrent / Heaven's Net
+  INFO windows with one emulator; package a Retro Trans Tools test upgrade
+  from the previous published release, 0.1.77.
+
 ## 0.1.80 - Skill popups, summon names and Replay help (local test build, 2026-10-08)
 
 - Translate the branch-specific Learn Skills prefix and Skill Point warning;
