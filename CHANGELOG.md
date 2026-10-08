@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.1.76 - Gallery translations and menu fitting (local test build, 2026-10-08)
+
+- Translate all 38 Sound titles, the related main Gallery title fields,
+  229 Night Talk captions and 21 Ending captions.
+- Translate matching Gallery headings, buttons, chapter tabs and nameplates.
+- Align all five Options labels at a consistent size and repair both footer states.
+- Shorten Options help to the existing safe limit, fixing the Event Voices and
+  Forecast "Text error" messages without weakening the shared text guard.
+- Use proportional text for purchase item names, questions, quantities and prices.
+- Translate the separate Try On help line shown while choosing a character.
+- Fit Gallery control labels in their existing slots and translate default
+  protagonist names for display while preserving custom names and stored save data.
+- Preserve the empty-row terminator required by gallery caption loaders;
+  check every translated caption independently to prevent adjacent titles joining.
+- Draw exact translated Gallery captions as bounded strips, preventing English
+  titles from overrunning the original per-character font allocation.
+- Include the separate Night Talks caption bank, fit visible titles to their
+  column, and translate copied default-name rows without changing saved names.
+- Carry forward the earlier Shop, Meimei, minigame, Cooking, Party Ability,
+  summon-index and white-stone pot repairs.
+- Keep native palettes, geometry, compression and numeric gameplay fields.
+- Package a local Retro Trans Tools upgrade from published 0.1.73.
+
 ## 0.1.75 - Related UI category sweep (local test build, 2026-10-08)
 
 - Extend the latest and earlier screenshot requests to matching UI categories.

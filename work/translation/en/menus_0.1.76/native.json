@@ -1,0 +1,307 @@
+{
+  "entries": [
+    {
+      "source_address": 3400932,
+      "source_lines": 1,
+      "source_sha256": "53c1d779d376bbd767144425b2914660c249301eac46e5a96267b35d7a4f1bfd",
+      "english": [
+        "Adjust music volume."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1239092,
+          "low": 1239100,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 3400980,
+      "source_lines": 1,
+      "source_sha256": "494267a4d877eacc7ed2f16f45b59a2671116b24a8c7aeaf63bb22ef6698904d",
+      "english": [
+        "Enable event voices."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1239104,
+          "low": 1239112,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 3401044,
+      "source_lines": 1,
+      "source_sha256": "0b46246bce82abe9460a8752b6a95bcd265301b170669433a1f96bf07a620b40",
+      "english": [
+        "Show damage forecasts."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1239116,
+          "low": 1239124,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 3401108,
+      "source_lines": 2,
+      "source_sha256": "1f05061b9e6852a491d35ca1ac03a9a7bb44b581bc3fbc42b3998f4bba2f1a62",
+      "english": [
+        "Set battle cursor",
+        "directions."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1239128,
+          "low": 1239136,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 3401172,
+      "source_lines": 1,
+      "source_sha256": "ac79c286dd1110c8a12915ff586c2c26ffa8169e64000e6f30198701c4a7bed5",
+      "english": [
+        "Set L/R controls in battle."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1239140,
+          "low": 1239144,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2225880,
+      "source_lines": 1,
+      "source_sha256": "e02795bbe393215e2481237ea129aa728afb4a1f26a7e52c0c62f4d4ddec6bb9",
+      "english": [
+        "Image"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1703580,
+          "low": 1703596,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2225892,
+      "source_lines": 2,
+      "source_sha256": "35d2a246af6079f6466c438f9a4493b91b16a771f7c7f72cc27e59d9de190646",
+      "english": [
+        "Event",
+        "Back"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1703716,
+          "low": 1703732,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 1704216,
+          "low": 1704232,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2225908,
+      "source_lines": 1,
+      "source_sha256": "1b1f92c9429092e6fa3cfe0983274f0763ca09241755123e8dee7f7aa1ad62ec",
+      "english": [
+        "Back"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1703844,
+          "low": 1703860,
+          "register": 5
+        },
+        {
+          "kind": "hilo",
+          "high": 1704352,
+          "low": 1704368,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2226100,
+      "source_lines": 1,
+      "source_sha256": "832505c844e27acd44056575a2522eb998d370349d0be9590c3b4eb2c932067c",
+      "english": [
+        "Move"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1734244,
+          "low": 1734248,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2226108,
+      "source_lines": 1,
+      "source_sha256": "da0e013cdfcb0e1ffd749b7c8e87447c8ee7af44ec77b959e4f18e642e9823ab",
+      "english": [
+        "Zoom"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1734256,
+          "low": 1734260,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2226116,
+      "source_lines": 1,
+      "source_sha256": "a3cf15c2f5333402208690c700080d8d0a560a0aeb78be13416351bf9dedb0c0",
+      "english": [
+        "Rotate"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1734268,
+          "low": 1734272,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2226124,
+      "source_lines": 1,
+      "source_sha256": "29fdef362a5e0845309ee87a8c045e8efdeab58fd986e34ad1f53e6bf4a89d95",
+      "english": [
+        "Prev"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1734280,
+          "low": 1734284,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2226136,
+      "source_lines": 1,
+      "source_sha256": "ff3114ebd1f5891a98d85560deab494a73ee93fdafaa04392ceb948d11930f43",
+      "english": [
+        "Next"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1734292,
+          "low": 1734296,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2226148,
+      "source_lines": 1,
+      "source_sha256": "97ed75e9d033dbbc49e8cc29170988f2e9be04406a7fcd4431cd26ad4adfc650",
+      "english": [
+        "Hide"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1734304,
+          "low": 1734308,
+          "register": 4
+        }
+      ]
+    },
+    {
+      "source_address": 2226208,
+      "source_lines": 1,
+      "source_sha256": "45db36324f35ee75e1f928e485ce6fd65ab180daf46bfa2b729a6c13e2c5fc21",
+      "english": [
+        "Confirm"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1755148,
+          "low": 1755164,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2226216,
+      "source_lines": 1,
+      "source_sha256": "1b1f92c9429092e6fa3cfe0983274f0763ca09241755123e8dee7f7aa1ad62ec",
+      "english": [
+        "Back"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1755252,
+          "low": 1755268,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2226224,
+      "source_lines": 1,
+      "source_sha256": "cfbbcb3969bbabaf2817d2a68f8f023bd883fa5b1431974af28002deacbd7285",
+      "english": [
+        "Character"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 1755348,
+          "low": 1755364,
+          "register": 5
+        }
+      ]
+    },
+    {
+      "source_address": 2191228,
+      "source_lines": 1,
+      "source_sha256": "6a82ee2d8be585cab9dc3592b8fe1340cf24bb2a8920db517be22e8cd414ae06",
+      "english": [
+        "Try on and buy equipment.",
+        "No items are sold here."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 408284,
+          "low": 408300,
+          "register": 6
+        }
+      ]
+    }
+  ]
+}
