@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.81 - Published release (2026-10-08)
+
+- Publish all UI fixes from local builds 0.1.78–0.1.81, including Options masks,
+  Night Talks, related translations, skill popups, Replay help and Assist VWF.
+- Publish only original → 0.1.81 and published 0.1.77 → 0.1.81 patches.
+- Encode the full patch with a 256 MiB source window and verify both complete
+  decoded ISOs, manifests and checksums for Retro Trans Tools compatibility.
+
+
 ## 0.1.81 - Assist button alignment and member-list VWF (local test build, 2026-10-08)
 
 - Place the triangle icon using the same proportional Assist-only prefix as
