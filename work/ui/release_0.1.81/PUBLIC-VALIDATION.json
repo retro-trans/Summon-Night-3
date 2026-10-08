@@ -1,0 +1,31 @@
+{
+  "version": "0.1.81",
+  "passed": true,
+  "retro_trans_version": "0.5.1",
+  "patcher_commit": "ddb3761e0497506a0e87bfe74b7e80c5911dc61c",
+  "public_catalog_discovery": true,
+  "prior_cached_catalog_immutable": true,
+  "routes": [
+    {
+      "source_version": "original",
+      "patch": "SN3-English-v0.1.81.xdelta",
+      "public_download": true,
+      "automatic_patch": true,
+      "target_recognition": true,
+      "target_sha256": "1e574f8ec2ed2917a2ee90b7c75427a6acb2ecca64727ca1215a3c683f2f89a8",
+      "target_bytes": 1695072256
+    },
+    {
+      "source_version": "0.1.77",
+      "patch": "SN3-English-v0.1.77-to-v0.1.81.xdelta",
+      "public_download": true,
+      "automatic_patch": true,
+      "target_recognition": true,
+      "target_sha256": "1e574f8ec2ed2917a2ee90b7c75427a6acb2ecca64727ca1215a3c683f2f89a8",
+      "target_bytes": 1695072256
+    }
+  ],
+  "target_sha256": "1e574f8ec2ed2917a2ee90b7c75427a6acb2ecca64727ca1215a3c683f2f89a8",
+  "target_bytes": 1695072256,
+  "scope": "Both public ISO/catalog/engine routes, fresh cache. No emulator, GUI or CHD test."
+}

@@ -1,0 +1,41 @@
+{
+  "version": "0.1.81",
+  "passed": true,
+  "source_commit": "ab8efaf7a6f59e3d178918b881b280bb6aa9587a",
+  "encoder_source_window_bytes": 268435456,
+  "target_sha256": "1e574f8ec2ed2917a2ee90b7c75427a6acb2ecca64727ca1215a3c683f2f89a8",
+  "target_bytes": 1695072256,
+  "two_complete_roundtrips_verified": true,
+  "versioned_checksums_verified": true,
+  "asset_count": 10,
+  "patches": [
+    {
+      "patch": "SN3-English-v0.1.81.xdelta",
+      "edition": "Japanese NPJH50380",
+      "language": "en",
+      "source_version": "original",
+      "source_format": "iso",
+      "target_format": "iso",
+      "source_sha256": "00b9fe052e7f516a2975cb3e625682640ec17edb7bd23f3a785f6c73d4bbefda",
+      "source_bytes": 1658159104,
+      "target_sha256": "1e574f8ec2ed2917a2ee90b7c75427a6acb2ecca64727ca1215a3c683f2f89a8",
+      "target_bytes": 1695072256,
+      "patch_sha256": "7be33598a9ff640a78c3d71805bbc3d16428e31f790a313c75cf7779ddb927b0",
+      "patch_bytes": 18238992
+    },
+    {
+      "patch": "SN3-English-v0.1.77-to-v0.1.81.xdelta",
+      "edition": "Japanese NPJH50380",
+      "language": "en",
+      "source_version": "0.1.77",
+      "source_format": "iso",
+      "target_format": "iso",
+      "source_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427",
+      "source_bytes": 1691269120,
+      "target_sha256": "1e574f8ec2ed2917a2ee90b7c75427a6acb2ecca64727ca1215a3c683f2f89a8",
+      "target_bytes": 1695072256,
+      "patch_sha256": "cfffade8d65b0e512dd28a26373403336bb651253a6915127a336f7b03cc2991",
+      "patch_bytes": 3814780
+    }
+  ]
+}
