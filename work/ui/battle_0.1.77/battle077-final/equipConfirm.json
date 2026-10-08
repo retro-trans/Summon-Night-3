@@ -1,0 +1,30 @@
+{
+  "method": "software VRAM at sceDisplaySetFrameBuf",
+  "game": {
+    "id": "NPJH50380",
+    "version": "2.00",
+    "title": "\u30b5\u30e2\u30f3\u30ca\u30a4\u30c8\uff13"
+  },
+  "framebuffer_address": "0x4000000",
+  "stride_pixels": 512,
+  "pixel_format": 1,
+  "width": 480,
+  "height": 272,
+  "sync": 0,
+  "display_import_address": "0x8a17b9c",
+  "png_bytes": 69405,
+  "png_sha256": "125d2b0a079df97ed43d1efb52bcc903a82d6ed75fa62147077e8e99e2b9b4b6",
+  "cpu_left_stepping": true,
+  "buttons": [
+    "circle"
+  ],
+  "cpu": {
+    "event": "cpu.status",
+    "ticket": "2f73aabf-fe16-4616-9c0a-6a6d38ba8115",
+    "stepping": true,
+    "paused": true,
+    "pc": 144800668,
+    "ticks": 120968862685
+  },
+  "case": "battle077-final"
+}

@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.1.77 - Optional battle headings and skill alignment (local test build, 2026-10-08)
+
+- Translate VS Phantom Warriors and all remaining headings in its encounter-card
+  category: 29 optional-battle sprites with 15 distinct labels.
+- Keep battle victory/defeat conditions and unrelated sprite children unchanged.
+- Align Blade Awakening and related labels with the other skills; restrict the
+  centered binder to the original animation-banner context.
+- Verify the already translated summon-equipment question, Yes/No choices and
+  related crafting notices through their live executable references.
+- Check Aty's skill list and Yard's All-Purpose Pot + white Neutral stone through
+  naming and equipment from a fresh boot and supplied normal save.
+- Preserve native palettes, dimensions, codecs, prior renderer guards and saves.
+- Package a Retro Trans Tools local test upgrade from published 0.1.73.
+
 ## 0.1.76 - Gallery translations and menu fitting (local test build, 2026-10-08)
 
 - Translate all 38 Sound titles, the related main Gallery title fields,

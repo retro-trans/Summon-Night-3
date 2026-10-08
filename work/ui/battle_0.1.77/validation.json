@@ -1,0 +1,645 @@
+{
+  "version": "0.1.77",
+  "passed": true,
+  "routing_cases": [
+    {
+      "base": "0x8804000",
+      "rows": 4,
+      "start": 0,
+      "left_context": 0,
+      "right_context": 0,
+      "centered_banner": false
+    },
+    {
+      "base": "0x8804000",
+      "rows": 1,
+      "start": 0,
+      "left_context": 0,
+      "right_context": 0,
+      "centered_banner": false
+    },
+    {
+      "base": "0x8804000",
+      "rows": 1,
+      "start": 0,
+      "left_context": 1,
+      "right_context": 0,
+      "centered_banner": false
+    },
+    {
+      "base": "0x8804000",
+      "rows": 1,
+      "start": 0,
+      "left_context": 0,
+      "right_context": 1,
+      "centered_banner": false
+    },
+    {
+      "base": "0x8804000",
+      "rows": 1,
+      "start": 0,
+      "left_context": 1,
+      "right_context": 1,
+      "centered_banner": true
+    },
+    {
+      "base": "0x8804000",
+      "rows": 1,
+      "start": 1,
+      "left_context": 1,
+      "right_context": 1,
+      "centered_banner": false
+    },
+    {
+      "base": "0x8804000",
+      "rows": 0,
+      "start": 0,
+      "left_context": 1,
+      "right_context": 1,
+      "centered_banner": false
+    },
+    {
+      "base": "0x8804000",
+      "rows": 8,
+      "start": 0,
+      "left_context": 1,
+      "right_context": 1,
+      "centered_banner": false
+    },
+    {
+      "base": "0x890c000",
+      "rows": 4,
+      "start": 0,
+      "left_context": 0,
+      "right_context": 0,
+      "centered_banner": false
+    },
+    {
+      "base": "0x890c000",
+      "rows": 1,
+      "start": 0,
+      "left_context": 0,
+      "right_context": 0,
+      "centered_banner": false
+    },
+    {
+      "base": "0x890c000",
+      "rows": 1,
+      "start": 0,
+      "left_context": 1,
+      "right_context": 0,
+      "centered_banner": false
+    },
+    {
+      "base": "0x890c000",
+      "rows": 1,
+      "start": 0,
+      "left_context": 0,
+      "right_context": 1,
+      "centered_banner": false
+    },
+    {
+      "base": "0x890c000",
+      "rows": 1,
+      "start": 0,
+      "left_context": 1,
+      "right_context": 1,
+      "centered_banner": true
+    },
+    {
+      "base": "0x890c000",
+      "rows": 1,
+      "start": 1,
+      "left_context": 1,
+      "right_context": 1,
+      "centered_banner": false
+    },
+    {
+      "base": "0x890c000",
+      "rows": 0,
+      "start": 0,
+      "left_context": 1,
+      "right_context": 1,
+      "centered_banner": false
+    },
+    {
+      "base": "0x890c000",
+      "rows": 8,
+      "start": 0,
+      "left_context": 1,
+      "right_context": 1,
+      "centered_banner": false
+    }
+  ],
+  "skill_list_left_aligned": true,
+  "animation_centering_preserved": true,
+  "crafting_messages": [
+    {
+      "source_address": 2204624,
+      "address": 3640034,
+      "english": [
+        "Equip the crafted stone?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 529064,
+          "low": 529076,
+          "register": 22
+        }
+      ]
+    },
+    {
+      "source_address": 2204676,
+      "address": 3640100,
+      "english": [
+        "Stone equipped."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 529192,
+          "low": 529208,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2204728,
+      "address": 3640162,
+      "english": [
+        "Choose a Summonite Stone."
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 544944,
+          "low": 544960,
+          "register": 6
+        }
+      ]
+    },
+    {
+      "source_address": 2204764,
+      "address": 3640216,
+      "english": [
+        "Change equipment?",
+        "Yes",
+        "No"
+      ],
+      "bindings": [
+        {
+          "kind": "hilo",
+          "high": 546808,
+          "low": 546812,
+          "register": 19
+        }
+      ]
+    }
+  ],
+  "title_import": {
+    "entries": [
+      {
+        "resource": 65,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "5e059e43039a274251a9b8a1ad340e2824d7bea4d85516654d2dd2300f511356",
+        "english": "VS Rogue Demon Beasts",
+        "atlas_cell": 0,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "814c6959c5202ae401463e31b27d4e69d682acb73dd24e41b60f6b705cd041b0",
+        "changed_pixels": 38632,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 70,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "92fa5dd8ea2d7d863fb26e6f3c59036130fa492253e2af0aa78f7afb7f34c23b",
+        "english": "VS Rogue Demon Beasts",
+        "atlas_cell": 0,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "1050883fe28d398ae3f5cc4ecf713ac84f9402021a27c27dceeade5852d49841",
+        "changed_pixels": 38632,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 66,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "21cf7deb3044182ec1dde1568a8e951c2aaa430252c952f6c0be3db807de16bb",
+        "english": "VS Rogue Summon Beasts",
+        "atlas_cell": null,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "eba43470026e3cb118cb5d43f3c1ee061a7a5b48accc667515e685ec1916c1ac",
+        "changed_pixels": 27236,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 67,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "b1962976cd518e74330431bf4d878e876d6071bc2670811e83bf0390036f104f",
+        "english": "VS Rogue Summon Beasts",
+        "atlas_cell": null,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "dba6f989e4a9e017220cbea628f5a489dea3b2c82a4c836c02ead8f83c32c47f",
+        "changed_pixels": 27236,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 68,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "9c5ae7c576c1ddc2d0ef0afcd6d79ae52558e35efa5e1714e5a4985c615db4be",
+        "english": "VS Rogue Summon Beasts",
+        "atlas_cell": null,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "cf9cf19cc705613ecced29296d523fe783c1531efab4e5d06286bf1be143eee8",
+        "changed_pixels": 27234,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 69,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "8e121c0e475f9c792b174763c74563866fd9d30cb30825c5ae5fcaf15ba0fb24",
+        "english": "VS Rogue Summon Beasts",
+        "atlas_cell": null,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "c8107947c9e7a6bb32e700aa397d82a481f90d3b29e3485134d8db229c92c488",
+        "changed_pixels": 27234,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 71,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "9e3aa83a995bb1799577a1302cf8b01ca697e3c8e7f10d63564dfe2d61c4d406",
+        "english": "VS Malevolent Spirits",
+        "atlas_cell": 1,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "0981d900e6161cb17e77fc6039f22be5ae0bed89622a5f43dceed6a735bf98ef",
+        "changed_pixels": 34951,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 72,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "e225f79cb43c2c5ac606904af12112bbf11b7537babce3e1a911cd39fa07dc98",
+        "english": "VS Rampaging Machines",
+        "atlas_cell": 2,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "66139e90671f4c98dbf51001c30be23418deb1cbc14fb59e3c8227cde8628f6a",
+        "changed_pixels": 38371,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 73,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "de28b132d6812b6c8c19e23f3a0f6c760cc0294884cfe487d6268e0f87f218c7",
+        "english": "VS Rogue Yokai",
+        "atlas_cell": 3,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "43034af13f6f78021f02142bbd2659c1beacd30cbd3aa5553cd7ad43429a3095",
+        "changed_pixels": 38742,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 74,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "1e8b6a85315675eb85e423a8f77bf7ff15b082f0c224d5236f1c1fcf1cc95e55",
+        "english": "VS Colorless Spirits",
+        "atlas_cell": 4,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "1396d14681bbd428639c8647b1c5ebaae2d2621fcedf92e3ac5845ec466a6a55",
+        "changed_pixels": 37942,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 75,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "5ff3c720987af8b1cd09b0c5bfe5edc577074b4be995b3c995a3db11dde56376",
+        "english": "VS Colorless Spirits",
+        "atlas_cell": 4,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "493f23b60aa8bfc947c4f7eaeecf08468c9e39c417f36c2ea4972525672cc9c7",
+        "changed_pixels": 37942,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 76,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "1e8b6a85315675eb85e423a8f77bf7ff15b082f0c224d5236f1c1fcf1cc95e55",
+        "english": "VS Colorless Spirits",
+        "atlas_cell": 4,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "1396d14681bbd428639c8647b1c5ebaae2d2621fcedf92e3ac5845ec466a6a55",
+        "changed_pixels": 37942,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 77,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "1e8b6a85315675eb85e423a8f77bf7ff15b082f0c224d5236f1c1fcf1cc95e55",
+        "english": "VS Colorless Spirits",
+        "atlas_cell": 4,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "1396d14681bbd428639c8647b1c5ebaae2d2621fcedf92e3ac5845ec466a6a55",
+        "changed_pixels": 37942,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 83,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "e631f6a09e333900c4d7df00444264c5a371a415c132ca0f346275bd5bb1338a",
+        "english": "VS Phantom Warriors",
+        "atlas_cell": 5,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "41295476d8667118c6596c6512edf821b4dba8911f3676158fbd5b147884c5f9",
+        "changed_pixels": 40711,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 88,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "e631f6a09e333900c4d7df00444264c5a371a415c132ca0f346275bd5bb1338a",
+        "english": "VS Phantom Warriors",
+        "atlas_cell": 5,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "41295476d8667118c6596c6512edf821b4dba8911f3676158fbd5b147884c5f9",
+        "changed_pixels": 40711,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 93,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "e631f6a09e333900c4d7df00444264c5a371a415c132ca0f346275bd5bb1338a",
+        "english": "VS Phantom Warriors",
+        "atlas_cell": 5,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "41295476d8667118c6596c6512edf821b4dba8911f3676158fbd5b147884c5f9",
+        "changed_pixels": 40711,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 98,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "e631f6a09e333900c4d7df00444264c5a371a415c132ca0f346275bd5bb1338a",
+        "english": "VS Phantom Warriors",
+        "atlas_cell": 5,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "41295476d8667118c6596c6512edf821b4dba8911f3676158fbd5b147884c5f9",
+        "changed_pixels": 40711,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 84,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "a533b044a0e5f98b11ec9344234916ef916c8f0dfe31ccdd29f933cb95c75ec2",
+        "english": "VS Loreilal's Mechanical Soldiers",
+        "atlas_cell": 6,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "f87ceee855cb48f4ed48949af8d6c73bd8a8a7de8b2dfdc52c209903d7825ecb",
+        "changed_pixels": 39307,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 89,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "a533b044a0e5f98b11ec9344234916ef916c8f0dfe31ccdd29f933cb95c75ec2",
+        "english": "VS Loreilal's Mechanical Soldiers",
+        "atlas_cell": 6,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "f87ceee855cb48f4ed48949af8d6c73bd8a8a7de8b2dfdc52c209903d7825ecb",
+        "changed_pixels": 39307,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 94,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "a533b044a0e5f98b11ec9344234916ef916c8f0dfe31ccdd29f933cb95c75ec2",
+        "english": "VS Loreilal's Mechanical Soldiers",
+        "atlas_cell": 6,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "f87ceee855cb48f4ed48949af8d6c73bd8a8a7de8b2dfdc52c209903d7825ecb",
+        "changed_pixels": 39307,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 85,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "13bd1f61f5f8744686e8a59f05209631199de2eb1544c41ef82334db4a6eacfb",
+        "english": "VS Silturn's Oni & Yokai",
+        "atlas_cell": 7,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "accae176273935ea2b936b83a87853451534868bfa3c84db75740f818b2e8edb",
+        "changed_pixels": 39322,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 90,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "13bd1f61f5f8744686e8a59f05209631199de2eb1544c41ef82334db4a6eacfb",
+        "english": "VS Silturn's Oni & Yokai",
+        "atlas_cell": 7,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "accae176273935ea2b936b83a87853451534868bfa3c84db75740f818b2e8edb",
+        "changed_pixels": 39322,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 86,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "1a373e4f4acd3c92d14f9852a5348bf26b3dd1b6d6782c9eb4670560a14d23e1",
+        "english": "VS Sapureth's Ghosts",
+        "atlas_cell": 8,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "f9556471a9849b1c35294a46c5a951aec3210d690e3319b973b955e429b066eb",
+        "changed_pixels": 38840,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 87,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "52f3946428016c3bf95fc1980e92d26e44b08fcd647f93b2f2a00316f464a727",
+        "english": "VS Maetropa's Summon Beasts",
+        "atlas_cell": 9,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "ada5de1359f084245b16729832e404ced02cd23005facac98ba79c1a86b7cd74",
+        "changed_pixels": 41196,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 92,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "52f3946428016c3bf95fc1980e92d26e44b08fcd647f93b2f2a00316f464a727",
+        "english": "VS Maetropa's Summon Beasts",
+        "atlas_cell": 9,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "ada5de1359f084245b16729832e404ced02cd23005facac98ba79c1a86b7cd74",
+        "changed_pixels": 41196,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 91,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "61a2423f377448c7cea3957f99ecab1794c243009428160bf3e3faa3b02e07c7",
+        "english": "VS Sapureth's Magic Soldiers",
+        "atlas_cell": 10,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "984bd4aff2bce3a25601bfe49a2076f03c683fcbbf325b0af2e1992ea2e0ea66",
+        "changed_pixels": 38321,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 95,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "99b05c02bb9a4280bf349880a99f5c380979a9a0a29b33ba7b4e5609209e49de",
+        "english": "VS Silturn's Evil Oni",
+        "atlas_cell": 11,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "d1e97724d767c6e3db470612137005fcd7db1e46d3285e2ca37497ede0bbaa77",
+        "changed_pixels": 39485,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 96,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "490b32cada5eb3320d62d298a52c38bbc71914d5156359af331f3dc165070b80",
+        "english": "VS Sapureth's Holy Spirits",
+        "atlas_cell": 12,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "af871c19f74373f608561b45a5b542b8ebbcb2eefe64ec278b2d43232e3a9555",
+        "changed_pixels": 39910,
+        "other_children_unchanged": true
+      },
+      {
+        "resource": 97,
+        "child": 4,
+        "texture": 0,
+        "source_sha256": "aaabad5bb60710ccc12c1cf7f0215bcecf3c3e3f3840c1f4eb5ef293455870ae",
+        "english": "VS Maetropa's Demon Beasts",
+        "atlas_cell": 13,
+        "native_size": [
+          432,
+          120
+        ],
+        "output_sha256": "818ae831840d2f641dab6e877193a52992045f218047f6d3e6e1433668a430c9",
+        "changed_pixels": 42669,
+        "other_children_unchanged": true
+      }
+    ],
+    "translated_sprites": 29,
+    "full_remaining_encounter_title_category": true,
+    "native_geometry_codec_palette_preserved": true
+  },
+  "original_pools_preserved": true
+}

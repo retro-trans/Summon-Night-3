@@ -1,0 +1,76 @@
+{
+  "version": "0.1.77",
+  "passed": true,
+  "created_at_utc": "2026-10-08T02:19:59.958933+00:00",
+  "iso_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427",
+  "emulator": "PPSSPP 1.20.4 Windows x64",
+  "fresh_boot": true,
+  "normal_in_game_save": true,
+  "save_state_used": false,
+  "audio_enabled": true,
+  "single_emulator": true,
+  "runtime_memory_edits": false,
+  "screenshots": [
+    {
+      "path": "work/ui/battle_0.1.77/battle077-final/bladeList.png",
+      "sha256": "fdb065321542f4822df82e713d69dae79bd471c3375f0b636edb99fc799ee789",
+      "note": "Blade Awakening starts at the same x coordinate as Pact, Cheer and Dash.",
+      "verified_iso_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427"
+    },
+    {
+      "path": "work/ui/battle_0.1.77/battle077-final/yardSpecial.png",
+      "sha256": "bb1de163a524bd5e7d9bf20eab0027684bf2e6d4e379e204155efcf5269e34fd",
+      "note": "Yard command labels remain aligned in the smaller skill list.",
+      "verified_iso_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427"
+    },
+    {
+      "path": "work/ui/battle_0.1.77/battle077-final/whiteSelected.png",
+      "sha256": "b0fe3c849b2b95a2c19b1c7c158f0aac33706dbad0a63ff0a4e314b65d2c2ea0",
+      "note": "Yard selects All-Purpose Pot and white Neutral Summonite Stone.",
+      "verified_iso_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427"
+    },
+    {
+      "path": "work/ui/battle_0.1.77/battle077-final/whiteCreated.png",
+      "sha256": "3539eed0c26b029df871f2c7c14371e226b94f89574388f5bcadf287a0d56cd7",
+      "note": "White-stone summon is created without a crash; unnamed summon uses intentional unknown-name placeholder.",
+      "verified_iso_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427"
+    },
+    {
+      "path": "work/ui/battle_0.1.77/battle077-final/nameConfirm.png",
+      "sha256": "6814bb3b56962ca6d172b4ae7a88b072fced10324da0700a60d6be7f5b919edd",
+      "note": "Native naming confirmation is English; an auto-generated player-editable name is preserved.",
+      "verified_iso_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427"
+    },
+    {
+      "path": "work/ui/battle_0.1.77/battle077-final/equipConfirm.png",
+      "sha256": "125d2b0a079df97ed43d1efb52bcc903a82d6ed75fa62147077e8e99e2b9b4b6",
+      "note": "Equip the crafted stone? / Yes / No fits the native confirmation window.",
+      "verified_iso_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427"
+    },
+    {
+      "path": "work/ui/battle_0.1.77/battle077-final/equipChoice.png",
+      "sha256": "20cb6d78f66069fffb3a40b95313565880a1d21c333278843362a29ae47a88a9",
+      "note": "Stone equipped. confirmation is English.",
+      "verified_iso_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427"
+    },
+    {
+      "path": "work/ui/battle_0.1.77/battle077-final/equipped.png",
+      "sha256": "0c63af287e53a07e58a3d9398e92616c27390440e7cfe4795f80445fdf2a198e",
+      "note": "Battle menu remains responsive after the white-stone crafting and equipment flow.",
+      "verified_iso_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427"
+    }
+  ],
+  "checks": {
+    "blade_awakening_list_alignment": true,
+    "white_stone_yard_crafting": true,
+    "summon_naming": true,
+    "equipment_prompt_english": true,
+    "stone_equipped": true,
+    "no_bad_execution_address": true
+  },
+  "limits": [
+    "Optional-battle titles reviewed as native decoded sprites; those battles were not played through.",
+    "Banner dispatch checked by bounded MIPS execution at two load bases; no animation capture in this run.",
+    "Targeted Windows tests, not a full playthrough or a Linux emulator test."
+  ]
+}
