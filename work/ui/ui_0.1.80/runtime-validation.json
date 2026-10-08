@@ -1,0 +1,134 @@
+{
+  "version": "0.1.80",
+  "passed": true,
+  "iso_sha256": "0369e3e8963e4e06f11bc5db1c71b1122b72f9b5df1014aa7010540c3042a5ca",
+  "emulator": "Windows PPSSPP 1.20.4",
+  "renderer": "software",
+  "cpu": "JIT",
+  "fresh_boot": true,
+  "normal_save_loaded": true,
+  "save_state_used": false,
+  "game_memory_writes": false,
+  "capture_breakpoints_removed": true,
+  "emulator_instances": 1,
+  "emulator_closed_after_validation": true,
+  "audio_enabled": true,
+  "audio_playback_validated": false,
+  "reviewed_cases": [
+    {
+      "label": "Max-level popup: English prefix and proportional spacing",
+      "screenshot": "work/ui/ui_0.1.80/reviewed/completeVwfPopup.png",
+      "png_sha256": "357e55ed2c0466284fc89bfe873fca1e8c148d64431c782bb1e6331fbb783a1c",
+      "capture_report_sha256": "b604b455d61c40afa40eede7441fcc15528ad3581f32cd0c5f7de9346b62c721",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Sonolar proficiency: bounded help, no error or duplicate mastery",
+      "screenshot": "work/ui/ui_0.1.80/reviewed/completeThrow.png",
+      "png_sha256": "1e6f98197ad6d3985881b6588937fe82123a90b6a2c94f2e8172d03063f086cc",
+      "capture_report_sha256": "116afc9490ca7295d6bdeb40b291d103de7b0176844cb3c8a2811bf04063d1ba",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Will skill cards: P. Barrier restored alongside translated labels",
+      "screenshot": "work/ui/ui_0.1.80/reviewed/completeWill.png",
+      "png_sha256": "612e185d6b586fc67771f4fb745561c704ed5902a635a91b066e6cd16324ee4c",
+      "capture_report_sha256": "25d4a16f7b2b5f262a754f975490091cf4f5b51fd0508ef397ee2a83604453e8",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Alieze skill cards: Sum. Mastery restored after character cycling",
+      "screenshot": "work/ui/ui_0.1.80/reviewed/completeAlieze.png",
+      "png_sha256": "ec004a8a01a70ace85e8db2209b25d9d525a6add6521f7f4c65a8eeb7f39e8f6",
+      "capture_report_sha256": "38e39b9790a8b1d0a755dfa0e95939c078424fa57d460dba76c3891c74f9222c",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Replay selection help and chapter labels translated",
+      "screenshot": "work/ui/ui_0.1.80/reviewed/completeReplayCatalog.png",
+      "png_sha256": "19fb716758c5bdfc7404f9f128f8ff7c1f7896e59c7d723aea0caa6bda524881",
+      "capture_report_sha256": "79eed18b1edc017bf719659608adcb0056bac29cfc52bf680b7c764a467eb8fb",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Chapter 7 Azlier condition fits its strip and complete help displays",
+      "screenshot": "work/ui/ui_0.1.80/reviewed/completeReplayAzlier.png",
+      "png_sha256": "68e4921f579cb046dcf2ab77d09b057b23b60b3858eb27c1b8f3e8ba17baa9a6",
+      "capture_report_sha256": "4493cbe91d52545d37e4937b2e3d1939ab5eff984534e82a2ce2507d59a304ab",
+      "visual_review_passed": true
+    }
+  ],
+  "static_checks": {
+    "passed": true,
+    "condition_fields": 132,
+    "mastery_fields": 13,
+    "actual_help_staging_cases": 66,
+    "relocated_dispatch_cases": 254,
+    "proficiency_reflow_cases": 12,
+    "skill_strip_allocation_cases": 12,
+    "load_bases": 2,
+    "protected_tail_cases": 2,
+    "native_translation_groups": 62,
+    "summon_name_pairs": 121,
+    "numeric_fields_and_original_pools_preserved": true,
+    "version": "0.1.80",
+    "iso_sha256": "0369e3e8963e4e06f11bc5db1c71b1122b72f9b5df1014aa7010540c3042a5ca",
+    "built_table_fields_verified": 145,
+    "built_executable_sha256": "d39123d4214afecbe22962ebd44381209cc3191759170d32e8b47b4b6bd4e6b0",
+    "replay_marker_sprites": [
+      {
+        "sprite": 4,
+        "text": "Ch",
+        "image": "marker_4.png",
+        "size": [
+          24,
+          24
+        ],
+        "image_sha256": "f3ed3950ce5b0f05269b17f0e69a57580c2f0c324088565a37716e4448172625",
+        "source_rgba_sha256": "9f581084d93c02b5aa8a1bc9db383fb67101abae2b3100d7e9f6e5111709c804",
+        "decoded_rgba_sha256": "b3094ab67f804e8b91268d41f3454b7302936160542c22118037f774db4f8acb"
+      },
+      {
+        "sprite": 5,
+        "text": "",
+        "image": "marker_5.png",
+        "size": [
+          24,
+          24
+        ],
+        "image_sha256": "73af7a37c0e1c0eb7a127ae402ea438e8e36a98b4ae5612f65400013ce836d17",
+        "source_rgba_sha256": "c0bc961a61fd0ecaf23d7bb592fc1bddec00ca435d6cd421bea3cb8aabe98922",
+        "decoded_rgba_sha256": "cfc335996cfae29fdf14fd2db7ea853366d350a5d387aa3c322616e81dacd56b"
+      },
+      {
+        "sprite": 9,
+        "text": "Extra",
+        "image": "marker_9.png",
+        "size": [
+          56,
+          24
+        ],
+        "image_sha256": "4d90996184690b0b52acb1c1db0d94df517a340f80633a88ce3f1765df3a9fe1",
+        "source_rgba_sha256": "d50cb643fd32a27ac11e3e4ac0c152c0a7919a3786c323067e95f0f9125e136a",
+        "decoded_rgba_sha256": "38b6cfae1ae6b336124378a0d2af6e27797aa5d7697caa21f25303fa8dcdfe60"
+      },
+      {
+        "sprite": 13,
+        "text": "Halls",
+        "image": "marker_13.png",
+        "size": [
+          64,
+          24
+        ],
+        "image_sha256": "778be339cb806f10783cc42ecd9df61093155801d7e1f21685f3b6d16e805420",
+        "source_rgba_sha256": "b196ddaba66931909140978f80490ccf8b3f0311affe0fa1af541d5c825aa984",
+        "decoded_rgba_sha256": "bbabe8fb25528921ade0021e0ce30b64e3c58e4c5caa7fda5a1c4e3a6848a4e4"
+      }
+    ],
+    "inherited_category_changes": "0.1.79; unchanged resources compared during build"
+  },
+  "limitations": [
+    "Exact Dritol summon-popup and Nagare battle-event paths were verified by executing the relocated name mapper, not replayed live.",
+    "No direct Android validation or full-game playthrough."
+  ]
+}

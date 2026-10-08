@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.1.80 - Skill popups, summon names and Replay help (local test build, 2026-10-08)
+
+- Translate the branch-specific Learn Skills prefix and Skill Point warning;
+  render the failure-message widget with variable-width lettering.
+- Render hidden skill-name markers as "Unknown"; compact and wrap proficiency
+  bonuses within the help box, removing identical repeated mastery rows.
+- Restore missing English skill-card names by coalescing free adjacent strips
+  when large strips are exhausted; preserve texture dimensions and memory size.
+- Translate all default summon-name text widgets used by summon popups and
+  battle banners; preserve custom names and saved name buffers.
+- Translate Replay selection help and all chapter labels and titles, keeping
+  chapter titles consistent with the translated cards and Teacher preference.
+- Translate Replay's image-based chapter prefix, extra-story marker and Halls
+  marker; retain the original digits, palettes and sprite dimensions.
+- Rebuild 132 battle-specific Brave Order fields with explicit end markers,
+  bounded help and compact labels; correct the truncated Azlier/Preempt order.
+- Apply current character-name spellings to these new inputs, preserve
+  combat data and published snapshots, and carry all 0.1.79 category fixes.
+- Check actual help staging and relocated helpers at two load bases; test
+  with one emulator and package a Retro Trans Tools upgrade from published 0.1.77.
+
 ## 0.1.79 - Related UI categories and Night Talks (local test build, 2026-10-08)
 
 - Restore the blank Chapter 7 Night Talks titles; compact both captions over
