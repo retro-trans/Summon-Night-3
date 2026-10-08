@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.1.79 - Related UI categories and Night Talks (local test build, 2026-10-08)
+
+- Restore the blank Chapter 7 Night Talks titles; compact both captions over
+  the native strip limit, keep title scaling proportional, and separate footer labels.
+- Translate remaining attack-skill names, help and mastery effects, fortune
+  messages, Fariel labels, equipment types and weapon-range descriptions.
+- Translate location entry plaques and remaining story/selection speaker-name
+  graphics, including Guardian Shrine and Misumi and their related categories.
+- Include the 0.1.78 Options selected-mask fix; preserve native asset geometry,
+  palettes, combat data, player-entered names and published build inputs.
+- Verify native text staging, relocated layout helpers, built assets and a
+  fresh boot with a normal save using one emulator; package a Retro Trans Tools
+  test upgrade from published 0.1.77.
+
 ## 0.1.78 - Options selection masks (local test build, 2026-10-08)
 
 - Remove the retained Japanese text masks behind selected Cursor Direction

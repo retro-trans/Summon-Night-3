@@ -1,0 +1,28 @@
+{
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "format": "RGBA PNG",
+  "location_atlases": [
+    {
+      "path": "work/ui/ui_0.1.79/generated/locations_0.png",
+      "prompt": "Pale icy-blue serif English location-label atlas; two columns; exact label list in atlas_spec.json; transparent background."
+    },
+    {
+      "path": "work/ui/ui_0.1.79/generated/locations_1.png",
+      "prompt": "Pale icy-blue serif English location-label atlas; two columns; exact label list in atlas_spec.json; transparent background."
+    },
+    {
+      "path": "work/ui/ui_0.1.79/generated/locations_2.png",
+      "prompt": "Generate a transparent-background English game UI typography sprite atlas. Exactly two equal columns and eleven evenly spaced rows, 22 separate labels total. Read down LEFT column first then RIGHT column. Every label is on a single line, with empty transparent space separating rows and columns. No background, no glow haze, no frames, no extra marks. Elegant slightly italic medium-bold serif text with PALE ICY BLUE/WHITE FILL (RGB approximately 209,242,249) and thin dark navy outline, like a Japanese fantasy PSP location entry title. All glyph bodies bright near white, all text precise and legible, no brown or gold. Uniform type size where possible. Exact LEFT column rows:\nBow Deck\nCentral Control\nChanting Square\nCrystal Plateau\nDawn Hill\nDragonbone Fault\nDusk Gravestone\nEvocation Gate\nFairy Flower Garden\nField\nForest\nExact RIGHT column rows:\nFruit Orchard\nGathering Spring\nGenji's Hut\nGreat Lotus Pond\nGuardian Shrine\nIllusion Forest\nJakini's Hideout\nMeditation Shrine\nMeimei's Shop\nMy Room\nOni Palace\nOnly these 22 labels, exactly spelled. 1536 by 1024 composition, no cropped letters."
+    },
+    {
+      "path": "work/ui/ui_0.1.79/generated/locations_3.png",
+      "prompt": "Generate a transparent-background English game UI typography sprite atlas. Exactly two equal columns and eleven evenly spaced rows, 22 separate labels total. Read down LEFT column first then RIGHT column. Every label is on a single line, with empty transparent space separating rows and columns. No background, no glow haze, no frames, no extra marks. Elegant slightly italic medium-bold serif text with PALE ICY BLUE/WHITE FILL (RGB approximately 209,242,249) and thin dark navy outline, like a Japanese fantasy PSP location entry title. All glyph bodies bright near white, all text precise and legible, no brown or gold. Uniform type size where possible. Exact LEFT column rows:\nOpen-Air School\nOutside Ship\nPirate Ship\nPotato Field\nPower Facility\nRepair Center\nRocky Shore\nScarrel's Room\nScrap Heap\nSignal Tower\nSlacker's Hut\nExact RIGHT column rows:\nSonolar's Room\nStarting Beach\nStern Deck\nSub Street\nSupply Dock\nTwin Crystals\nWarehouse\nWell Square\nWishing Tree\nYard's Room\nYucres Square\nOnly these 22 labels, exactly spelled. 1536 by 1024 composition, no cropped letters."
+    }
+  ],
+  "speaker_atlas": {
+    "path": "work/ui/ui_0.1.79/generated/speakers.png",
+    "prompt": "Create a transparent game UI lettering atlas. Exact TWO columns of SEVEN text rows, evenly spaced, no frames or extra symbols. Bold warm ivory fantasy serif letters, thin dark burgundy outline, easy to read tiny. LEFT COLUMN top to bottom: \"Beko\", \"Faceless Soldier\", \"Genji\", \"Ghost Soldier\", \"Hainel\", \"Imperial Soldier\", \"Mimic Master\". RIGHT COLUMN top to bottom: \"Panache\", \"Pirate\", \"Shaomei\", \"Shiari\", \"Shingen\", \"Takeshi\", \"Guard\". Exact text, single line each, same font height for all. Generous transparent margins and gutters, no overlapping labels. Real alpha transparency, no solid backdrop or checkerboard. Landscape 1536x1024."
+  },
+  "review": "All exact label spellings and native decoded samples visually reviewed; actual column-major layout and fixed row boundaries used for dense atlases."
+}

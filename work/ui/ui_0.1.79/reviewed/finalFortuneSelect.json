@@ -1,0 +1,33 @@
+{
+  "method": "software VRAM at sceDisplaySetFrameBuf",
+  "game": {
+    "id": "NPJH50380",
+    "version": "2.00",
+    "title": "\u30b5\u30e2\u30f3\u30ca\u30a4\u30c8\uff13"
+  },
+  "framebuffer_address": "0x4000000",
+  "stride_pixels": 512,
+  "pixel_format": 1,
+  "width": 480,
+  "height": 272,
+  "sync": 0,
+  "display_import_address": "0x8a17b9c",
+  "png_bytes": 83425,
+  "png_sha256": "d349709668eebf1ef7041f0080f28dc9026d422837c28e04ca2d482a395a8d3e",
+  "cpu_left_stepping": true,
+  "buttons": [
+    "down",
+    "down",
+    "circle"
+  ],
+  "hold_seconds": 0.15,
+  "session": {
+    "pid": 55220,
+    "iso": "E:\\Projects\\Summon Night 3\\work\\output\\0.1.79\\Summon_Night_3_EN_0.1.79.iso",
+    "fresh_boot": true,
+    "save_state_used": false,
+    "audio_enabled": true,
+    "port": 19444
+  },
+  "input_method": "explicit hold/release"
+}

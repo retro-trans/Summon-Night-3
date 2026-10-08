@@ -1,0 +1,130 @@
+{
+  "version": "0.1.79",
+  "passed": true,
+  "iso_sha256": "60231fef2cf0df4256aa47228a49d0bc2662aa85751051e624c3be49b4d12438",
+  "emulator": "Windows PPSSPP 1.20.4",
+  "renderer": "software",
+  "cpu": "JIT",
+  "fresh_boot": true,
+  "normal_save_loaded": true,
+  "save_state_used": false,
+  "game_memory_writes": false,
+  "capture_breakpoints_removed": true,
+  "emulator_instances": 1,
+  "emulator_closed_after_validation": true,
+  "audio_enabled": true,
+  "audio_playback_validated": false,
+  "reviewed_cases": [
+    {
+      "label": "Scarrel Chapter 7 Rexx/Aty titles and separated footer",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalChapter78.png",
+      "png_sha256": "bc63185c6354c9a8ae004f267fc928c382a1ed3cbafef038b760ee169a1ed88f",
+      "capture_report_sha256": "56c4f02d1173a77c01a4d941d4b2d63b602d08af8ef56fddabea92809818def8",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Options selected L/R label",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalOptionsLR.png",
+      "png_sha256": "4e75c99b3e88e09315e0f83a81571319975662bf09e8aa74b7d9577796ba2947",
+      "capture_report_sha256": "d396b698a9e51b7b1bea7e12455b6d555d4fe6ade8c0fd0bc82120f280a25ada",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Normal save load dialog",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalLoadMenu.png",
+      "png_sha256": "f34803adc896d06fb0b030e27742c0450e1a3b16f8b864b2fd86cb09bb59f4e5",
+      "capture_report_sha256": "900c30c0366ae789f69d75b25283b8407fe0699cf10c5d57ae7e6053a39fd0ed",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Loaded Chapter 16 save",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalRoomReady.png",
+      "png_sha256": "9eaec8009a081254af03bf349b16c02cf24727f425212152157a5f290a541fe8",
+      "capture_report_sha256": "78ce2914c229a75c0ea94ff22f9fd217b179580bf98f8fa70d3fea458e963a4c",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Fariel and translated fortune evaluation",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalFortuneSelect.png",
+      "png_sha256": "d349709668eebf1ef7041f0080f28dc9026d422837c28e04ca2d482a395a8d3e",
+      "capture_report_sha256": "28a5f6113c660cb0bcf9b1ec7818b1e328ebcd5d2f2e2153b256ba32d8089619",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Misumi fortune portrait and evaluation",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalFortuneMisumi.png",
+      "png_sha256": "00f9a02a82188fa9f87673a200f4ca42227fda20283b222c600b104645a29896",
+      "capture_report_sha256": "6aaa97b27a69f610b3170cb4a8778a500af66cb8e7dee592c5661fa3e293f8a1",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Rock Shot list alignment and level/MP description",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalRockShot.png",
+      "png_sha256": "de45ff39b9d62bb443db9bc762c52981c6eae82c9c9a467441147b2820efd98a",
+      "capture_report_sha256": "70b22244432005b18e4b45a4b89964c75bc7b18f2da63dbf87467c9caa296218",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Raging Tiger name and description",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalRagingTiger.png",
+      "png_sha256": "8baea6052d697596b5efb89e7766d35fa965af0f5b6bf87b71906438defc53e7",
+      "capture_report_sha256": "1a0424cfcccc2916e0143c507b99bc2787506d434ea3029b8c5a514edff3f759",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Magic Attack name and description",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalMagicAttack.png",
+      "png_sha256": "610393e628a747c76375088de7ef6e8088a25366c6a02d6a92ee8ba3373ff7a5",
+      "capture_report_sha256": "fc2bd1e0cbfd44223ea9ed809cb4053b60a40f8e66b29595d5332631ec21e7b1",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Spirit Strike+ name and description",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalSpiritStrike.png",
+      "png_sha256": "2a2f90df54a91991990cb84cdb55fe988de8daa9a747ea0815724b1dc76fcb2a",
+      "capture_report_sha256": "66a5603f5156160ec54ac547885ba9a1452fe73cdfe488d60e4b5ceea2734c6c",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Claws, Beast Garb and adjacent range",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalWeaponRange.png",
+      "png_sha256": "a72f5b749ef164962e4bac8ab5995bd2e3d9ad0ed34e1065017e58f83a619b98",
+      "capture_report_sha256": "051a89874d8666538a616695f92cb5855ec308d76e42a6885ce2f78ac969c4c9",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Gun, Light Armor and ranged weapon description",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalKatana.png",
+      "png_sha256": "353e92b36f9f58c4ecf042f1a7ef3a025e38c2f1531abe16e7a0f86164e4564b",
+      "capture_report_sha256": "e8f7f9178dbb50a66b5500395435da17736cf49ffa9f0be0b159408e69d50c57",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Kimono and spear range",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalMisumiEquipment.png",
+      "png_sha256": "e0bae24d6a579a50603c15a9d445b8c2f59541c9929cee4a2f74331185855048",
+      "capture_report_sha256": "0c19cff68c0c312d343c6b698ca57cff1a5505557d1bc805ab153e64229b9d5e",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Story speaker-name graphic sample: Meimei",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalShopGreeting.png",
+      "png_sha256": "fc62ca1fd014d6ef0e264ed79f86cb6d4e46f407a8e69363c24af90473d82fb5",
+      "capture_report_sha256": "7517b5a293db81618d7085fd07b0c2008f800dbcb615a8c1cca81ee94602e471",
+      "visual_review_passed": true
+    },
+    {
+      "label": "Successful return to shop services",
+      "screenshot": "work/ui/ui_0.1.79/reviewed/finalReturn.png",
+      "png_sha256": "7461fa9be84f3827209da184f1486ae95098a18fdb9604f5bea094687bb8dc16",
+      "capture_report_sha256": "4a07aaa2a1bce16d816561e816aebb37c9bec5306ed0b1d913aba2c7891dbf27",
+      "visual_review_passed": true
+    }
+  ],
+  "runtime_log_sha256": "f45c43fb3862e73dab119dadc279b8baf00190b6217d674bbc0184cbcd9a2634",
+  "limitations": [
+    "Exact Guardian Shrine entry and Misumi story scenes checked as native assets; not replayed",
+    "No direct Android test",
+    "Scoped UI checks, not full gameplay regression"
+  ]
+}
