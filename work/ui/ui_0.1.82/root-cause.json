@@ -1,0 +1,36 @@
+{
+  "version": "0.1.82",
+  "baseline_version": "0.1.81",
+  "native_row_bytes": 20,
+  "baseline_caption_bind_results": [
+    {
+      "text": "VSlash\u00d7SwoVSlash\u00d7GreHSlash\u00d7Katana",
+      "cells": 33,
+      "allocated": false
+    },
+    {
+      "text": "VSlash\u00d7GreHSlash\u00d7Katana",
+      "cells": 23,
+      "allocated": false
+    },
+    {
+      "text": "HSlash\u00d7Katana",
+      "cells": 13,
+      "allocated": true
+    },
+    {
+      "text": "Light Armor",
+      "cells": 11,
+      "allocated": true
+    },
+    {
+      "text": "Heavy Armor",
+      "cells": 11,
+      "allocated": true
+    }
+  ],
+  "baseline_screenshot": "work/ui/ui_0.1.82/reviewed/exactEquipLeft.png",
+  "fixed_screenshot": "work/ui/ui_0.1.82/reviewed/fixedExactEquip.png",
+  "game_memory_writes": false,
+  "fix": "Both consumers reference independent immutable captions of at most 15 cells."
+}

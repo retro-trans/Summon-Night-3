@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.82 - Equipment-type row isolation (local test build, 2026-10-09)
+
+- Fix blank Equip Type rows caused by English captions overflowing the native
+  ten-cell row buffers. Both consumers now use separate immutable captions.
+- Cover all 150 attack/weapon combinations and preserve native throwing-mode
+  substitutions. Use Greatswd only in composite captions to fit the text cache.
+- Verify 616 relocated consumer cases, adjacent-buffer guards, and the supplied
+  Chapter 16 in-game save. Review Rexx, Kyuuma, and switching back to Rexx.
+- Preserve saves, combat data, inherited code/data and every other ISO file.
+  Package a Retro Trans Tools local upgrade from published 0.1.81.
+
 ## 0.1.81 - Published release (2026-10-08)
 
 - Publish all UI fixes from local builds 0.1.78–0.1.81, including Options masks,

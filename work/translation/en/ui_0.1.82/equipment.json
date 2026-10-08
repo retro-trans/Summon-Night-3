@@ -1,0 +1,10 @@
+{
+  "version": "0.1.82",
+  "attack_modes": ["", "VSlash", "HSlash", "Thrust", "Strike", "Fire", "Throw", "Spec.", "VThrow", "HThrow"],
+  "weapons": ["", "Dagger", "Sword", "Greatswd", "Axe", "Katana", "Staff", "Spear", "Throwing", "Bow", "Gun", "Fists", "Claws", "Drill", ""],
+  "notes": [
+    "Greatswd abbreviates Greatsword only in composite Equip Type captions to fit the existing sixteen-cell text cache. Standalone labels retain Greatsword.",
+    "Weapon 8 retains the original VThrow/HThrow substitution for attack modes 1/2. Attack mode 7 retains the original empty-caption behavior.",
+    "Index 14 retains the native empty weapon-label sentinel."
+  ]
+}

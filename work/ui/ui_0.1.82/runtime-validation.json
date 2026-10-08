@@ -1,0 +1,45 @@
+{
+  "version": "0.1.82",
+  "passed": true,
+  "iso_sha256": "7b09f064e1f5807e695aeea7d80686ee8daee6a218e6a97fba5945db2ec2113a",
+  "fresh_boot": true,
+  "normal_in_game_save": true,
+  "save_state_used": false,
+  "emulator": "Windows PPSSPP 1.20.4",
+  "renderer": "software",
+  "emulator_instances": 1,
+  "emulator_closed": true,
+  "game_memory_writes": false,
+  "breakpoints_removed": true,
+  "audio_enabled": true,
+  "audio_playback_validated": false,
+  "screenshots": [
+    {
+      "path": "work/ui/ui_0.1.82/reviewed/fixedEquipType.png",
+      "sha256": "49b1ba183df14be5dfac668e98dc835b03e3426dddb86bf2a6c89dfb05987271",
+      "note": "All five Rexx captions visible in right panel.",
+      "visual_review_passed": true
+    },
+    {
+      "path": "work/ui/ui_0.1.82/reviewed/fixedExactEquip.png",
+      "sha256": "ab7eff7ee4d63640abf0d9981dd11c15254fc65167ac8c0d8ecfe18b2c2f7cf7",
+      "note": "All five Rexx captions visible in left panel; Condition None.",
+      "visual_review_passed": true
+    },
+    {
+      "path": "work/ui/ui_0.1.82/reviewed/fixedKyuuma.png",
+      "sha256": "05180129d8bb0af50c96e70101f3f2d2804c920942718d13ffc2c766df873d51",
+      "note": "Kyuuma Katana/Claws/Kimono labels visible.",
+      "visual_review_passed": true
+    },
+    {
+      "path": "work/ui/ui_0.1.82/reviewed/fixedRexxReturn.png",
+      "sha256": "b56e640d6b3eba323df1855c5aad385067d0b67b419466e83fc6790891910bbf",
+      "note": "Rexx captions remain correct after character switch and return.",
+      "visual_review_passed": true
+    }
+  ],
+  "limitations": [
+    "No direct Android validation or full-game playthrough."
+  ]
+}
