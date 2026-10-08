@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.77 - Full-patch packaging correction (2026-10-08)
+
+- Reduce the original-to-current xdelta from 407,197,655 to 14,383,778 bytes
+  with a 256 MiB source matching window; verify the identical released ISO.
+- Publish the optimized full patch under a new filename and withdraw the old
+  patch identity while preserving it in the Retro Trans Tools catalog.
+- Synchronize manifests and checksums; preserve the unchanged 0.1.73 upgrade.
+
 ## 0.1.77 - Optional battle headings and skill alignment (release, 2026-10-08)
 
 - Translate VS Phantom Warriors and all remaining headings in its encounter-card

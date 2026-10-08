@@ -1,0 +1,33 @@
+{
+  "version": "0.1.77",
+  "passed": true,
+  "retro_trans_version": "0.5.1",
+  "patcher_commit": "ddb3761e0497506a0e87bfe74b7e80c5911dc61c",
+  "public_catalog_discovery": true,
+  "prior_cached_catalog_immutable": true,
+  "oversized_patch_withdrawn": true,
+  "optimized_full_patch_bytes": 14383778,
+  "routes": [
+    {
+      "source_version": "original",
+      "patch": "SN3-English-v0.1.77-optimized.xdelta",
+      "public_download": true,
+      "automatic_patch": true,
+      "target_recognition": true,
+      "target_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427",
+      "target_bytes": 1691269120
+    },
+    {
+      "source_version": "0.1.73",
+      "patch": "SN3-English-v0.1.73-to-v0.1.77.xdelta",
+      "public_download": true,
+      "automatic_patch": true,
+      "target_recognition": true,
+      "target_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427",
+      "target_bytes": 1691269120
+    }
+  ],
+  "target_sha256": "d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427",
+  "target_bytes": 1691269120,
+  "scope": "Public ISO/catalog/engine routes, fresh cache. No emulator, GUI or CHD test."
+}

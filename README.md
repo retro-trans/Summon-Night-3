@@ -27,17 +27,17 @@ also work.
 
 | Your source image | Patch |
 |---|---|
-| Clean Japanese NPJH50380 | `SN3-English-v0.1.77.xdelta` |
+| Clean Japanese NPJH50380 | `SN3-English-v0.1.77-optimized.xdelta` |
 | Published English v0.1.73 | `SN3-English-v0.1.73-to-v0.1.77.xdelta` |
 
 Use the exact source version and keep checksum verification enabled. Local
 intermediate builds are not upgrade sources; use the clean Japanese image.
 Both patches are fully decoded and verified with the Retro Trans Tools engine.
-[Public Automatic-mode verification](docs/RETRO_TRANS_0.1.77.md) records the
+[Public Automatic-mode verification](docs/RETRO_TRANS_0.1.77_REPACK.md) records the
 original-image route and the v0.1.73 upgrade.
 
 ```sh
-xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.77.xdelta" "Summon Night 3 English v0.1.77.iso"
+xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.77-optimized.xdelta" "Summon Night 3 English v0.1.77.iso"
 ```
 
 | Image | SHA-256 |
@@ -47,7 +47,7 @@ xdelta3 -d -s "Summon Night 3 (Japan).iso" "SN3-English-v0.1.77.xdelta" "Summon 
 | English v0.1.77 - 1,691,269,120 bytes | `d35b5882e5547d578776d3337909c0b2c939f7aeedb05e76f21ab2cbb4587427` |
 
 Start the new ISO fresh and load an **in-game save**. Emulator save states retain
-old code and resources. The [release report](docs/RELEASE_0.1.77.md) distinguishes
+old code and resources. The [release report](docs/RELEASE_0.1.77_REPACK.md) distinguishes
 automated checks from fresh-boot testing. Aty's skill list and Yard's white-stone
 crafting, naming and equipment flow passed on the exact release ISO; a full
 playthrough and a Linux emulator host remain untested.
@@ -58,7 +58,7 @@ English targets and source identities are in [work/translation/en](work/translat
 Records use resource IDs, offsets and source hashes so the Japanese can be read
 from your own game image without publishing a full Japanese script dump.
 
-The latest [coverage and test report](docs/RELEASE_0.1.77.md) distinguishes
+The latest [coverage and test report](docs/RELEASE_0.1.77_REPACK.md) distinguishes
 in-game checks from static checks. Broader scope is documented in
 [Chapters 1–3](docs/BUILD_0.1.12.md), [Chapters 4–8](docs/CHAPTERS_0.1.14.md),
 and [battle dialogue](docs/BATTLE_DIALOGUE_0.1.24.md).
