@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.78 - Options selection masks (local test build, 2026-10-08)
+
+- Remove the retained Japanese text masks behind selected Cursor Direction
+  and L/R Function labels; clear the black shapes outside the English glyphs.
+- Check all five selected Options labels and both menu modes.
+- Preserve native palettes, dimensions, other textures, executable and ISO layout.
+- Package a local Retro Trans Tools test upgrade from published 0.1.77.
+
 ## 0.1.77 - Full-patch packaging correction (2026-10-08)
 
 - Reduce the original-to-current xdelta from 407,197,655 to 14,383,778 bytes

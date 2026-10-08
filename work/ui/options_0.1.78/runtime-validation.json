@@ -1,0 +1,114 @@
+{
+  "version": "0.1.78",
+  "passed": true,
+  "iso_sha256": "612b68c3ea4bb20341c2ee8f7bfe170e59f47fb1853ca08e03d2a9dcc025237f",
+  "emulator": "Windows PPSSPP 1.20.4",
+  "renderer": "software",
+  "cpu": "JIT",
+  "fresh_boot": true,
+  "entry": "title-screen Options",
+  "normal_save_loaded": false,
+  "save_state_used": false,
+  "game_memory_writes": false,
+  "capture_breakpoints_removed": true,
+  "emulator_instances": 1,
+  "emulator_closed_after_validation": true,
+  "audio_enabled": true,
+  "audio_playback_validated": false,
+  "host_audio_init_error": true,
+  "reviewed_cases": [
+    {
+      "label": "Music Volume",
+      "mode": "browsing",
+      "visual_review_passed": true,
+      "screenshot": "work/ui/options_0.1.78/reviewed/musicBrowseFinal.png",
+      "png_sha256": "8d91704f50ca0189c6658f71d7952e270810c334f777ec0e9025055de11f6fdc",
+      "capture_report_sha256": "f610f0b210629a80618c5abdb122a9f2469451bb359b50afa2d2097eb9c25bb7"
+    },
+    {
+      "label": "Music Volume",
+      "mode": "editing",
+      "visual_review_passed": true,
+      "screenshot": "work/ui/options_0.1.78/reviewed/musicEditFinal.png",
+      "png_sha256": "49bcfe8bc29111480439a01f09d4800cf88b5bc3dc02261f0f8a32872b835728",
+      "capture_report_sha256": "f74eeb612504d3117c4c0a5e2cda70126fc2bb089fcaee1503cc0f1f57e60a38"
+    },
+    {
+      "label": "Event Voices",
+      "mode": "browsing",
+      "visual_review_passed": true,
+      "screenshot": "work/ui/options_0.1.78/reviewed/heldDown.png",
+      "png_sha256": "c318fcedc1fa9de0951dc26861794930eac27099db83676d362b96b8448a4b4f",
+      "capture_report_sha256": "be7fc1e32098946453ceac0136f4f88104a9383ade046b37686e606819756e4b"
+    },
+    {
+      "label": "Event Voices",
+      "mode": "editing",
+      "visual_review_passed": true,
+      "screenshot": "work/ui/options_0.1.78/reviewed/heldVoicesEdit.png",
+      "png_sha256": "d5b87c9a69b2fcb983a5503af6137a2b0b4fa65eb7eb552d1ad730f959286b4b",
+      "capture_report_sha256": "f5d3217202e4d1b1168953de082360043172587e2574b86ef7be73c1f923332c"
+    },
+    {
+      "label": "Forecast",
+      "mode": "browsing",
+      "visual_review_passed": true,
+      "screenshot": "work/ui/options_0.1.78/reviewed/heldForecast.png",
+      "png_sha256": "753d7ef427e9cc274ea37258335defd302d5c0c7cb2c19cf631a850474b164b5",
+      "capture_report_sha256": "55ee3d8c9f2e610670a60fef73d59e7c88a6311b16b69482b9be7413556111da"
+    },
+    {
+      "label": "Forecast",
+      "mode": "editing",
+      "visual_review_passed": true,
+      "screenshot": "work/ui/options_0.1.78/reviewed/heldForecastEdit.png",
+      "png_sha256": "6ed9b549af5791df73f643f1ac2ccad67bfe3d1fd6f59590feda0ee894d0d0ec",
+      "capture_report_sha256": "e62938dd76dfcc50ab9f0936f47982a362fd2f7e30f87e131e6c79b9c5415180"
+    },
+    {
+      "label": "Cursor Direction",
+      "mode": "browsing",
+      "visual_review_passed": true,
+      "screenshot": "work/ui/options_0.1.78/reviewed/heldCursor.png",
+      "png_sha256": "bb8a682e4a5274dec7ce954ce89325fd117923ac65ca82474dae3e4868777fc5",
+      "capture_report_sha256": "24d6cbcd90f158e84ae173d924210976f334426fc9b489ac45468c3b9b3af197"
+    },
+    {
+      "label": "Cursor Direction",
+      "mode": "editing",
+      "visual_review_passed": true,
+      "screenshot": "work/ui/options_0.1.78/reviewed/heldCursorEdit.png",
+      "png_sha256": "262651eb340b902312bebd8ef3677160cb3cf4c6649659c85439488a53a451e7",
+      "capture_report_sha256": "5b6fa1201c8724ba6e7fa40b5b7380ffa2f1bbab185e747f1c1dc7a090d2382e"
+    },
+    {
+      "label": "L/R Function",
+      "mode": "browsing",
+      "visual_review_passed": true,
+      "screenshot": "work/ui/options_0.1.78/reviewed/heldLR.png",
+      "png_sha256": "22fb3dd44dfdced5d62dae0b057211de368a6b30f4e724d8abeb3e21efa28677",
+      "capture_report_sha256": "deccdbce8e0af7caa19ebd33bdd1c45afb02671fe4c7022b553f063d3b3cd15f"
+    },
+    {
+      "label": "L/R Function",
+      "mode": "editing",
+      "visual_review_passed": true,
+      "screenshot": "work/ui/options_0.1.78/reviewed/heldLREdit.png",
+      "png_sha256": "1526ab3ead30197fc07bb585efc41317ad48a33b74c7d004647ea62a4c82cf1e",
+      "capture_report_sha256": "a47ec82713c33d00e18fd070203deb7c2e2556829ceded73de77c8586a64cc82"
+    },
+    {
+      "label": "Exit Options",
+      "mode": "title screen",
+      "visual_review_passed": true,
+      "screenshot": "work/ui/options_0.1.78/reviewed/exitOptions.png",
+      "png_sha256": "8fb94b8ab2ccae555c02fce2ade71af2c750aea2a068d69f9cbe3323ef8f0fd7",
+      "capture_report_sha256": "62017d278d19d349fa65b2df544056e2c324ba7fbbe1ce87d3992522cbf4d1a3"
+    }
+  ],
+  "runtime_log_sha256": "a3595172c24a7f326c9fc448f486339aecd5765f76e80db785f3be02e59acd35",
+  "limitations": [
+    "No direct Android device test",
+    "Scoped Options check, not full gameplay regression"
+  ]
+}
