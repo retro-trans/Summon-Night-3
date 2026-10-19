@@ -1,0 +1,34 @@
+{
+  "version": "0.1.88",
+  "published": false,
+  "archive_bytes": 52251,
+  "archive_sha256": "2746349c4425b852f7e9427fd3a16453200321911586c6355e635e430e1db7f7",
+  "routes": [
+    {
+      "name": "SN3-English-v0.1.83-to-v0.1.88.xdelta",
+      "bytes": 12199,
+      "sha256": "fced859d77c0a8776015dff83585219b96d1948bb5cffcecd5796350b8a0515a"
+    },
+    {
+      "name": "SN3-English-v0.1.87-to-v0.1.88.xdelta",
+      "bytes": 6014,
+      "sha256": "1986e29be878d59402ccaa6babc899e7a8bfbadb8a452988c5071ab854492ea7"
+    }
+  ],
+  "retro_trans_validation": {
+    "schema_version": 1,
+    "manifest_sha256": "6e9c70c1c6fedadfc9e1b976529649f7311635aa511caa9aec328f865c916537",
+    "patches": [
+      {
+        "patch": "SN3-English-v0.1.83-to-v0.1.88.xdelta",
+        "roundtrip_verified": true,
+        "target_sha256": "c022bef990dc7e2af8a94fc08c19649c84d5c11cf21decfbfe2e5ebe7f52ee64"
+      },
+      {
+        "patch": "SN3-English-v0.1.87-to-v0.1.88.xdelta",
+        "roundtrip_verified": true,
+        "target_sha256": "c022bef990dc7e2af8a94fc08c19649c84d5c11cf21decfbfe2e5ebe7f52ee64"
+      }
+    ]
+  }
+}
