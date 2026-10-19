@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "version": "0.1.86",
+  "iso_sha256": "1f0fa1b166f8756eeffe86168e41f412c93abcc3ed83e8a3e077f9ca251727ae",
+  "emulator": "PPSSPP 1.20.4",
+  "jit": true,
+  "renderer": "software",
+  "fresh_boot": true,
+  "normal_suspend_loaded": true,
+  "save_state_used": false,
+  "battle_continued_without_memory_fault": true,
+  "loaded_redirects_verified": 3,
+  "game_memory_writes": false,
+  "exact_reported_skill_replayed": false,
+  "natural_matching_banner_observed": false,
+  "screenshots": [
+    {
+      "path": "work/ui/ui_0.1.86/reviewed/battle.png",
+      "sha256": "3e046b2ac41eec15a1e6525b96dd0932e85af27452fd8e221bf1b164f8127857"
+    },
+    {
+      "path": "work/ui/ui_0.1.86/reviewed/afterEnemy.png",
+      "sha256": "8992aaba66f35cd61dd1ff07ade77a87fa34a4897f2ee2fad7bc00986050f3c2"
+    }
+  ],
+  "limitations": [
+    "Existing recovered normal Suspend save used; supplied scene save is unavailable.",
+    "Exact Deadly Strike banner verified through emitted dispatch/widget/pixel tests, not claimed as replayed in the natural battle.",
+    "No Android, hardware renderer or full-playthrough claim."
+  ]
+}

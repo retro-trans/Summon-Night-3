@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.86 - Complete proportional action banners (local test build, 2026-10-19)
+
+- Fix “Deadly Strike” appearing as “Deadly S” in a fixed-spacing battle banner.
+  Include all 108 attack-skill labels in the existing centered VWF dispatcher.
+- Preserve prior spell-banner matches and use complete character matching.
+  Reuse adjacent unused font-cache strips for longer labels without growing
+  the texture atlas or allocating another executable page.
+- Verify exact dispatch, widget restoration, cache boundaries and full centered
+  glyph pixels at two load addresses; reproduce the prior matcher rejection.
+- Keep local Retro Trans Tools upgrades from 0.1.83 and 0.1.85.
+
 ## 0.1.85 - Level Up controller hint spacing (local test build, 2026-10-19)
 
 - Prevent button icons from covering OK/End in Level Up; reserve space after
