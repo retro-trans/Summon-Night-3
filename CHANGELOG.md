@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.85 - Level Up controller hint spacing (local test build, 2026-10-19)
+
+- Prevent button icons from covering OK/End in Level Up; reserve space after
+  Circle, Cross and Select and shorten the Select label to Skills.
+- Apply matching spacing to bonus-point confirmation. Keep the optional hints
+  on one line within the native formatter and staging limits.
+- Verify all eight formatter states and buffer guards. Reuse existing English
+  storage with no executable, ISO or loaded-memory growth.
+- Keep test upgrades from 0.1.83 and local 0.1.84 compatible with Retro Trans Tools.
+
 ## 0.1.84 - Battle rewards and class-change UI (local test build, 2026-10-19)
 
 - Match Retreat's selected/unselected frame and palette to neighboring buttons.

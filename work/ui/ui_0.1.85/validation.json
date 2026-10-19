@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "native_formatter_cases": [
+    {
+      "available": 0,
+      "allocation": 0,
+      "skills": 0,
+      "lines": [
+        "No units can level up.",
+        "А  OK Б  End"
+      ],
+      "staging": {
+        "glyphs": 32,
+        "rows": 2,
+        "max_slot": 31
+      }
+    },
+    {
+      "available": 0,
+      "allocation": 0,
+      "skills": 1,
+      "lines": [
+        "No units can level up.",
+        "А  OK Б  End   Й     Skills"
+      ],
+      "staging": {
+        "glyphs": 46,
+        "rows": 2,
+        "max_slot": 45
+      }
+    },
+    {
+      "available": 0,
+      "allocation": 1,
+      "skills": 0,
+      "lines": [
+        "Allocate bonus points.",
+        "А  OK"
+      ],
+      "staging": {
+        "glyphs": 26,
+        "rows": 2,
+        "max_slot": 25
+      }
+    },
+    {
+      "available": 0,
+      "allocation": 1,
+      "skills": 1,
+      "lines": [
+        "Allocate bonus points.",
+        "А  OK"
+      ],
+      "staging": {
+        "glyphs": 26,
+        "rows": 2,
+        "max_slot": 25
+      }
+    },
+    {
+      "available": 1,
+      "allocation": 0,
+      "skills": 0,
+      "lines": [
+        "Choose a unit to level up.",
+        "А  OK Б  End"
+      ],
+      "staging": {
+        "glyphs": 36,
+        "rows": 2,
+        "max_slot": 35
+      }
+    },
+    {
+      "available": 1,
+      "allocation": 0,
+      "skills": 1,
+      "lines": [
+        "Choose a unit to level up.",
+        "А  OK Б  End   Й     Skills"
+      ],
+      "staging": {
+        "glyphs": 50,
+        "rows": 2,
+        "max_slot": 49
+      }
+    },
+    {
+      "available": 1,
+      "allocation": 1,
+      "skills": 0,
+      "lines": [
+        "Allocate bonus points.",
+        "А  OK"
+      ],
+      "staging": {
+        "glyphs": 26,
+        "rows": 2,
+        "max_slot": 25
+      }
+    },
+    {
+      "available": 1,
+      "allocation": 1,
+      "skills": 1,
+      "lines": [
+        "Allocate bonus points.",
+        "А  OK"
+      ],
+      "staging": {
+        "glyphs": 26,
+        "rows": 2,
+        "max_slot": 25
+      }
+    }
+  ],
+  "icon_bounds": [
+    {
+      "token": "А",
+      "left": 120.0,
+      "right": 136.0
+    },
+    {
+      "token": "Б",
+      "left": 168.0,
+      "right": 184.0
+    },
+    {
+      "token": "Й",
+      "left": 229.125,
+      "right": 261.125
+    }
+  ],
+  "max_hint_cells": 27,
+  "max_combined_cells": 52,
+  "buffer_guards": true,
+  "loaded_bytes_added": 0,
+  "source_iso_files_except_eboot_unchanged": true
+}

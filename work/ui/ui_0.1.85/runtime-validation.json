@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "version": "0.1.85",
+  "iso_sha256": "a75a0f32478ab7466bb686ea51c670df47200828e2ac5f77ef0d32baf6ec167b",
+  "emulator": "PPSSPP 1.20.4",
+  "jit": true,
+  "renderer": "software",
+  "fresh_boot": true,
+  "normal_save_loaded": true,
+  "save_state_used": false,
+  "loaded_literal_groups": 3,
+  "game_memory_writes": false,
+  "screenshots": [
+    {
+      "path": "work/ui/ui_0.1.85/reviewed/room.png",
+      "sha256": "07c7d800f5aac6cc1a6686afbed43cb42d7ca8cbf4932eaaf9e8bc5ee1895edf"
+    },
+    {
+      "path": "work/ui/ui_0.1.85/reviewed/unitMenu.png",
+      "sha256": "4ee56928f9f0f82f87393ca5f193934ba0d220a43e1a5500c41e5f56a808cdae"
+    }
+  ],
+  "exact_post_battle_levelup_screen_reproduced": false,
+  "limitations": [
+    "Available Chapter 16 room save used; post-battle Level Up save unavailable.",
+    "Native formatter execution, buffer guards and real glyph metrics verify the reported hint layout; no exact-screen gameplay claim."
+  ]
+}
