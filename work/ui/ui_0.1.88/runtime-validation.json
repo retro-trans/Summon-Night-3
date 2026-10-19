@@ -1,7 +1,7 @@
 {
   "passed": true,
   "version": "0.1.88",
-  "iso_sha256": "0ebfb7174adef58d818aecba9e07ca39b456861de83f1ac6d37f402d54cdc127",
+  "iso_sha256": "c022bef990dc7e2af8a94fc08c19649c84d5c11cf21decfbfe2e5ebe7f52ee64",
   "emulator": "PPSSPP 1.20.4",
   "renderer": "software",
   "jit": true,
@@ -26,7 +26,7 @@
   "native_cache_validation": {
     "passed": true,
     "version": "0.1.88",
-    "iso_sha256": "0ebfb7174adef58d818aecba9e07ca39b456861de83f1ac6d37f402d54cdc127",
+    "iso_sha256": "c022bef990dc7e2af8a94fc08c19649c84d5c11cf21decfbfe2e5ebe7f52ee64",
     "native_allocator_executed": true,
     "old_caption_allocation_failed": true,
     "corrected_caption_allocation_succeeded": true,
@@ -41,6 +41,8 @@
       "allocation counter",
       "U16 text length"
     ],
+    "banner_lookup_cases": 296,
+    "banner_lookup_load_bases": 2,
     "runtime_rendering_verified_separately": true
   },
   "game_memory_writes": false,
@@ -51,26 +53,28 @@
       "sha256": "b101c63e7c68d753fa3c009bfa30c019af80228d3cbd90bc74341a193c7652ce"
     },
     {
-      "path": "work/ui/ui_0.1.88/reviewed/loaded.png",
+      "path": "work/ui/ui_0.1.88/reviewed/final_loaded.png",
       "version": "0.1.88",
-      "sha256": "01d2e22bdff8e577c8fc930ffd96a1aa664b67cbc3b69b859c7bd931e260205f"
+      "sha256": "5440f2b410b89ecf78219e76188a1269ac40761c94ccb84d3c8c4bd86b04bf75"
     },
     {
-      "path": "work/ui/ui_0.1.88/reviewed/shine_saber.png",
+      "path": "work/ui/ui_0.1.88/reviewed/final_shine_saber.png",
       "version": "0.1.88",
-      "sha256": "a0cdd83dc7f77a113dbd771b7187429d59db6ad6dcc19fb0e79c3b3f0715b068"
+      "sha256": "8fcab8d35d30bce23d6d74270668e585e77a5187971dc02b1c03c78bb23e86ee"
     },
     {
-      "path": "work/ui/ui_0.1.88/reviewed/next_summon.png",
+      "path": "work/ui/ui_0.1.88/reviewed/final_next_summon.png",
       "version": "0.1.88",
-      "sha256": "944a5b2d2a3af84012f3bfb051cfccecdf124fc7d9ae1e6feb900611cabd2339"
+      "sha256": "77cba49068b84a1ba489f3c9140fa8825384e2550ff1c0f0f117e53c207ac785"
     },
     {
-      "path": "work/ui/ui_0.1.88/reviewed/shine_saber_reopen.png",
+      "path": "work/ui/ui_0.1.88/reviewed/final_shine_saber_reopen.png",
       "version": "0.1.88",
-      "sha256": "829358c80b5d8ed8a288a6b044c39b8ea7ef2ff92ab1c5263ac801e04d82f086"
+      "sha256": "03288d89666da00e22357c8a15c7ee3c6ea70b13aef6ef905c8c02fb690feaf5"
     }
   ],
+  "banner_lookup_synchronized": true,
+  "banner_lookup_execution_verified": true,
   "limitations": [
     "Exact Create Summons casting screen not replayed; the same Shine Saber spell row was compared in Summon Index.",
     "No Android, hardware-renderer or full-playthrough claim."

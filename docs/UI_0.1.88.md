@@ -8,8 +8,10 @@ and advances 120.75 pixels at the existing proportional scale.
 
 Check all 235 nonempty spell names for both the 16-cell cache limit and the
 140-pixel column budget. Update the English literal in the static table and
-its master cached copy, preserving pointers, archive sizes, executable bytes,
-loaded memory use and save format. All 0.1.87 fixes are retained.
+its master cached copy. Synchronize the existing battle-banner name dictionary
+to the corrected spelling, and execute all 144 dictionary matches at two load
+addresses. Preserve pointers, archive sizes, executable instructions, loaded
+memory use and save format. All 0.1.87 fixes are retained.
 
 Fresh-boot tests with a normal in-game save reproduce the blank row on 0.1.87
 and show the corrected proportional caption on 0.1.88 in Summon Index. Switching
