@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.87 - Crafting accessory name widths (local test build, 2026-10-19)
+
+- Fit One-EyeMagatama as “1-Eye Magatama” in the narrower crafting column.
+- Fit the other over-limit accessory as “Arabesque Chm”; audit all 85 nonempty
+  accessory names against a 128-pixel proportional advance at the existing scale.
+- Update the static table and its master cache in place. Preserve every archive
+  offset, the executable, loaded memory use, save format and ISO size.
+- Keep local Retro Trans Tools upgrades from published 0.1.83 and local 0.1.86.
+
+
 ## 0.1.86 - Complete proportional action banners (local test build, 2026-10-19)
 
 - Fix “Deadly Strike” appearing as “Deadly S” in a fixed-spacing battle banner.

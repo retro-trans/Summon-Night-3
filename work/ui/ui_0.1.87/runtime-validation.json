@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "version": "0.1.87",
+  "iso_sha256": "1ecb54febdc6521eb434cbaa3f956b2e15dfb8dde824b83e8b7d958e7ce7db04",
+  "emulator": "PPSSPP 1.20.4",
+  "renderer": "software",
+  "jit": true,
+  "fresh_boot": true,
+  "normal_save_loaded": true,
+  "save_state_used": false,
+  "accessory_inventory_opened": true,
+  "corrected_name_seen": "1-Eye Magatama",
+  "game_memory_writes": false,
+  "screenshots": [
+    {
+      "path": "work/ui/ui_0.1.87/reviewed/loaded.png",
+      "sha256": "a546766296b6ce1437ca540ae448eb6ca2331f2759542ab3117e5c28e7f225d5"
+    },
+    {
+      "path": "work/ui/ui_0.1.87/reviewed/accessories.png",
+      "sha256": "17e86f4b75ba1f1b1332e10f023c8840cc7363242edff22b8246831b295e49f9"
+    }
+  ],
+  "limitations": [
+    "Corrected accessory name visually checked in normal inventory; exact battle crafting scene not replayed.",
+    "All 85 nonempty accessory names checked against the narrower crafting column through encoded proportional font metrics.",
+    "No Android, hardware-renderer or full-playthrough claim."
+  ]
+}
