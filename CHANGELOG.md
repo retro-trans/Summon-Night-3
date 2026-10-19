@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.88 - Published release (2026-10-20)
+
+- Publish local fixes from 0.1.84–0.1.88: reward/class UI, Retreat frame,
+  Level Up hints, full action banners, crafting captions and Shine Saber text.
+- Include only original → 0.1.88 and published 0.1.83 → 0.1.88 patch routes;
+  keep the 0.1.87 test upgrade local.
+- Verify complete decoded images, manifests and checksums for Retro Trans Tools;
+  retain the compact 256 MiB source window for the original-game patch.
+- Document inherited gameplay checks and the pending Brave Medal award heading.
+
 ## 0.1.88 - Shine Saber spell caption (local test build, 2026-10-20)
 
 - Restore the blank spell row as “Crush! L.G.Sword”. The prior 18-cell label

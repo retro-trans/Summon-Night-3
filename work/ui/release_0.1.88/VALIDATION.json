@@ -1,0 +1,200 @@
+{
+  "version": "0.1.88",
+  "iso_sha256": "c022bef990dc7e2af8a94fc08c19649c84d5c11cf21decfbfe2e5ebe7f52ee64",
+  "iso_bytes": 1699074048,
+  "passed": true,
+  "input_hashes_verified": 3404,
+  "encoder_source_window_bytes": 268435456,
+  "asset_checks": {
+    "passed": true,
+    "version": "0.1.88",
+    "iso_sha256": "c022bef990dc7e2af8a94fc08c19649c84d5c11cf21decfbfe2e5ebe7f52ee64",
+    "spell_names_audited": 235,
+    "all_spell_names_fit": true,
+    "archive_indexes_unchanged": true,
+    "master_cache_synchronized": true,
+    "unchanged_bank_resources": 31768,
+    "executable_instructions_unchanged": true,
+    "banner_lookup_synchronized": true,
+    "iso_size_unchanged": true,
+    "loaded_memory_growth_bytes": 0
+  },
+  "runtime": {
+    "passed": true,
+    "version": "0.1.88",
+    "iso_sha256": "c022bef990dc7e2af8a94fc08c19649c84d5c11cf21decfbfe2e5ebe7f52ee64",
+    "emulator": "PPSSPP 1.20.4",
+    "renderer": "software",
+    "jit": true,
+    "fresh_boot": true,
+    "normal_save_loaded": true,
+    "save_state_used": false,
+    "prior_blank_row_reproduced": true,
+    "corrected_name_seen": "Crush! L.G.Sword",
+    "proportional_spacing_observed": true,
+    "adjacent_summon_checked": "Dark Bringer / Dark Sword",
+    "corrected_name_survives_page_change": true,
+    "runtime_font_cache": {
+      "manager": "0x8a3bfc0",
+      "descriptor_count": 336,
+      "capacities": {
+        "1": 256,
+        "8": 64,
+        "16": 16
+      },
+      "max_capacity": 16
+    },
+    "native_cache_validation": {
+      "passed": true,
+      "version": "0.1.88",
+      "iso_sha256": "c022bef990dc7e2af8a94fc08c19649c84d5c11cf21decfbfe2e5ebe7f52ee64",
+      "native_allocator_executed": true,
+      "old_caption_allocation_failed": true,
+      "corrected_caption_allocation_succeeded": true,
+      "spell_names_checked": 235,
+      "cache_fixture_capacities": [
+        8,
+        8,
+        16
+      ],
+      "boundary_stubs": [
+        "font manager pool/count accessors",
+        "allocation counter",
+        "U16 text length"
+      ],
+      "banner_lookup_cases": 296,
+      "banner_lookup_load_bases": 2,
+      "runtime_rendering_verified_separately": true
+    },
+    "game_memory_writes": false,
+    "screenshots": [
+      {
+        "path": "work/ui/ui_0.1.88/reviewed/indexlast.png",
+        "version": "0.1.87",
+        "sha256": "b101c63e7c68d753fa3c009bfa30c019af80228d3cbd90bc74341a193c7652ce"
+      },
+      {
+        "path": "work/ui/ui_0.1.88/reviewed/final_loaded.png",
+        "version": "0.1.88",
+        "sha256": "5440f2b410b89ecf78219e76188a1269ac40761c94ccb84d3c8c4bd86b04bf75"
+      },
+      {
+        "path": "work/ui/ui_0.1.88/reviewed/final_shine_saber.png",
+        "version": "0.1.88",
+        "sha256": "8fcab8d35d30bce23d6d74270668e585e77a5187971dc02b1c03c78bb23e86ee"
+      },
+      {
+        "path": "work/ui/ui_0.1.88/reviewed/final_next_summon.png",
+        "version": "0.1.88",
+        "sha256": "77cba49068b84a1ba489f3c9140fa8825384e2550ff1c0f0f117e53c207ac785"
+      },
+      {
+        "path": "work/ui/ui_0.1.88/reviewed/final_shine_saber_reopen.png",
+        "version": "0.1.88",
+        "sha256": "03288d89666da00e22357c8a15c7ee3c6ea70b13aef6ef905c8c02fb690feaf5"
+      }
+    ],
+    "banner_lookup_synchronized": true,
+    "banner_lookup_execution_verified": true,
+    "limitations": [
+      "Exact Create Summons casting screen not replayed; the same Shine Saber spell row was compared in Summon Index.",
+      "No Android, hardware-renderer or full-playthrough claim."
+    ]
+  },
+  "report_sha256": {
+    "asset-validation.json": "b7031f697cfe8d9cd0186a4e8f4f210343d6d29657f79c24385dcb126ce53e58",
+    "runtime-validation.json": "86b00721f9ec0b7174b3610bea7a0742376d587c3cac418b9fd55fb720aa6bf2"
+  },
+  "inherited_local_build_checks": [
+    {
+      "version": "0.1.84",
+      "iso_sha256": "fdac1e933503aea6b4968c67f0c1a602546b26aea5c620de1d5f761e208a3057",
+      "reports": [
+        {
+          "path": "work/output/0.1.84/asset-validation.json",
+          "sha256": "0fa21558a810cb3b6c8107f2cd37a70b30bcaa526952598d01a19a2e2f0d52ab",
+          "limitations": []
+        },
+        {
+          "path": "work/output/0.1.84/runtime-validation.json",
+          "sha256": "c82f7818704f60c01a35576d116ebdb555af818193011cfbb0cc86f5e087dc70",
+          "limitations": [
+            "Available Chapter 16 normal save used; exact beach/reward/class-change save is unavailable.",
+            "Renderer helper behavior and name lookup are exercised by emitted-code tests; complete reported sequences require later gameplay confirmation.",
+            "No Android, hardware renderer or full playthrough testing claimed."
+          ]
+        }
+      ],
+      "scope": "Earlier local build checks; not a new full replay on 0.1.88."
+    },
+    {
+      "version": "0.1.85",
+      "iso_sha256": "a75a0f32478ab7466bb686ea51c670df47200828e2ac5f77ef0d32baf6ec167b",
+      "reports": [
+        {
+          "path": "work/output/0.1.85/asset-validation.json",
+          "sha256": "642c158172adc6294acc8be72820b11d00fb6f77736b1befe8e20f57fb6d1dde",
+          "limitations": []
+        },
+        {
+          "path": "work/output/0.1.85/runtime-validation.json",
+          "sha256": "5c00d8af03b9ac091af2a64816a633af447fbf0c5bbe46c54a8ee68c4aa26c6c",
+          "limitations": [
+            "Available Chapter 16 room save used; post-battle Level Up save unavailable.",
+            "Native formatter execution, buffer guards and real glyph metrics verify the reported hint layout; no exact-screen gameplay claim."
+          ]
+        }
+      ],
+      "scope": "Earlier local build checks; not a new full replay on 0.1.88."
+    },
+    {
+      "version": "0.1.86",
+      "iso_sha256": "1f0fa1b166f8756eeffe86168e41f412c93abcc3ed83e8a3e077f9ca251727ae",
+      "reports": [
+        {
+          "path": "work/output/0.1.86/asset-validation.json",
+          "sha256": "a6fb5b6af1572e257e866d1aa54200273d68d891b9d08303876ad7da59383d49",
+          "limitations": []
+        },
+        {
+          "path": "work/output/0.1.86/runtime-validation.json",
+          "sha256": "1115e852ae1aad4d8a8c03cc0170430d379fe70ed115f9739939e4afc240d8b3",
+          "limitations": [
+            "Existing recovered normal Suspend save used; supplied scene save is unavailable.",
+            "Exact Deadly Strike banner verified through emitted dispatch/widget/pixel tests, not claimed as replayed in the natural battle.",
+            "No Android, hardware renderer or full-playthrough claim."
+          ]
+        }
+      ],
+      "scope": "Earlier local build checks; not a new full replay on 0.1.88."
+    },
+    {
+      "version": "0.1.87",
+      "iso_sha256": "1ecb54febdc6521eb434cbaa3f956b2e15dfb8dde824b83e8b7d958e7ce7db04",
+      "reports": [
+        {
+          "path": "work/output/0.1.87/asset-validation.json",
+          "sha256": "d5dc1bad6a237e1c71af356c8b2bf466c9c4f5587b32d5c4fd681f9340af0d78",
+          "limitations": []
+        },
+        {
+          "path": "work/output/0.1.87/runtime-validation.json",
+          "sha256": "f47efd848f88340c552d500b79ab839072852e5623bb3d8204dd79392936ab6b",
+          "limitations": [
+            "Corrected accessory name visually checked in normal inventory; exact battle crafting scene not replayed.",
+            "All 85 nonempty accessory names checked against the narrower crafting column through encoded proportional font metrics.",
+            "No Android, hardware-renderer or full-playthrough claim."
+          ]
+        }
+      ],
+      "scope": "Earlier local build checks; not a new full replay on 0.1.88."
+    }
+  ],
+  "pending": [
+    "Brave Medal award heading remains untranslated."
+  ],
+  "limits": [
+    "Exact Create Summons casting screen not replayed; the same Shine Saber spell row was compared in Summon Index.",
+    "No Android, hardware-renderer or full-playthrough claim."
+  ]
+}
