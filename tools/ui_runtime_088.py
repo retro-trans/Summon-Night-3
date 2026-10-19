@@ -18,6 +18,6 @@ def main():
  import capture_framebuffer
  capture_framebuffer.request=r;png,report=capture_framebuffer.capture(hold=True);report.update(session=s,buttons=a.buttons,case=a.case)
  d=ROOT/'work/ui/ui_0.1.88/reviewed'/a.name;d.parent.mkdir(parents=True,exist_ok=True);assert not d.with_suffix('.png').exists()
- d.with_suffix('.png').write_bytes(png);d.with_suffix('.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf8');print(d.with_suffix('.png'),flush=True)
+ d.with_suffix('.png').write_bytes(png);d.with_suffix('.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf8',newline='\n');print(d.with_suffix('.png'),flush=True)
 
 if __name__=='__main__':main()
