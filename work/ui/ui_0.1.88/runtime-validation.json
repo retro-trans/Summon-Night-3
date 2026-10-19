@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "version": "0.1.88",
+  "iso_sha256": "0ebfb7174adef58d818aecba9e07ca39b456861de83f1ac6d37f402d54cdc127",
+  "emulator": "PPSSPP 1.20.4",
+  "renderer": "software",
+  "jit": true,
+  "fresh_boot": true,
+  "normal_save_loaded": true,
+  "save_state_used": false,
+  "prior_blank_row_reproduced": true,
+  "corrected_name_seen": "Crush! L.G.Sword",
+  "proportional_spacing_observed": true,
+  "adjacent_summon_checked": "Dark Bringer / Dark Sword",
+  "corrected_name_survives_page_change": true,
+  "runtime_font_cache": {
+    "manager": "0x8a3bfc0",
+    "descriptor_count": 336,
+    "capacities": {
+      "1": 256,
+      "8": 64,
+      "16": 16
+    },
+    "max_capacity": 16
+  },
+  "native_cache_validation": {
+    "passed": true,
+    "version": "0.1.88",
+    "iso_sha256": "0ebfb7174adef58d818aecba9e07ca39b456861de83f1ac6d37f402d54cdc127",
+    "native_allocator_executed": true,
+    "old_caption_allocation_failed": true,
+    "corrected_caption_allocation_succeeded": true,
+    "spell_names_checked": 235,
+    "cache_fixture_capacities": [
+      8,
+      8,
+      16
+    ],
+    "boundary_stubs": [
+      "font manager pool/count accessors",
+      "allocation counter",
+      "U16 text length"
+    ],
+    "runtime_rendering_verified_separately": true
+  },
+  "game_memory_writes": false,
+  "screenshots": [
+    {
+      "path": "work/ui/ui_0.1.88/reviewed/indexlast.png",
+      "version": "0.1.87",
+      "sha256": "b101c63e7c68d753fa3c009bfa30c019af80228d3cbd90bc74341a193c7652ce"
+    },
+    {
+      "path": "work/ui/ui_0.1.88/reviewed/loaded.png",
+      "version": "0.1.88",
+      "sha256": "01d2e22bdff8e577c8fc930ffd96a1aa664b67cbc3b69b859c7bd931e260205f"
+    },
+    {
+      "path": "work/ui/ui_0.1.88/reviewed/shine_saber.png",
+      "version": "0.1.88",
+      "sha256": "a0cdd83dc7f77a113dbd771b7187429d59db6ad6dcc19fb0e79c3b3f0715b068"
+    },
+    {
+      "path": "work/ui/ui_0.1.88/reviewed/next_summon.png",
+      "version": "0.1.88",
+      "sha256": "944a5b2d2a3af84012f3bfb051cfccecdf124fc7d9ae1e6feb900611cabd2339"
+    },
+    {
+      "path": "work/ui/ui_0.1.88/reviewed/shine_saber_reopen.png",
+      "version": "0.1.88",
+      "sha256": "829358c80b5d8ed8a288a6b044c39b8ea7ef2ff92ab1c5263ac801e04d82f086"
+    }
+  ],
+  "limitations": [
+    "Exact Create Summons casting screen not replayed; the same Shine Saber spell row was compared in Summon Index.",
+    "No Android, hardware-renderer or full-playthrough claim."
+  ]
+}

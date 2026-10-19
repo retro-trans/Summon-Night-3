@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.88 - Shine Saber spell caption (local test build, 2026-10-20)
+
+- Restore the blank spell row as “Crush! L.G.Sword”. The prior 18-cell label
+  exceeded the existing 16-cell font cache despite fitting the visible column.
+- Audit all 235 nonempty spell names against both encoded cell count and
+  proportional width; preserve the executable, loaded memory and archive layout.
+- Reproduce the old blank row and verify the corrected caption in Summon Index
+  after fresh boots and normal save loads, including switching summons and back.
+- Keep local Retro Trans Tools upgrades from published 0.1.83 and local 0.1.87.
+- The separate untranslated Brave Medal award heading remains pending.
+
 ## Unreleased - Brave Medal banner investigation (2026-10-19)
 
 - Record the untranslated award heading as “Brave Medals awarded!” and preserve

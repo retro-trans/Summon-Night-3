@@ -1,0 +1,19 @@
+{
+  "version": "0.1.88",
+  "table": 13,
+  "record_stride": 40,
+  "record_count": 237,
+  "name_slot": 8,
+  "font_cache_limit_cells": 16,
+  "font_scale": 0.875,
+  "column_advance_limit_pixels": 140,
+  "changes": [
+    {
+      "record": 233,
+      "before": "Crush! L.Gen.Sword",
+      "after": "Crush! L.G.Sword",
+      "full_translation": "Shatter! Light General's Sword!",
+      "review": "Retains the imperative Crush, initials L.G. for Light General, and Sword. Sixteen encoded cells fit the existing summon spell font cache; the prior eighteen-cell label failed to obtain a cache strip."
+    }
+  ]
+}
