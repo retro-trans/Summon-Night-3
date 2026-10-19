@@ -133,7 +133,7 @@ def main():
     if args.prepare_evidence:
         path = ROOT / 'work/ui/release_0.1.88/VALIDATION.json'
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(summary, indent=2) + '\n', encoding='utf8')
+        path.write_text(json.dumps(summary, indent=2) + '\n', encoding='utf8', newline='\n')
     git = ['git', '-c', 'safe.directory=' + ROOT.as_posix()]
     commit = subprocess.check_output(git + ['rev-parse', 'HEAD'], text=True).strip()
     out = ROOT / 'work/output/release-v0.1.88'

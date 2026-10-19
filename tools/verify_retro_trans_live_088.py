@@ -61,9 +61,9 @@ def main():
         public_catalog_discovery=True, prior_cached_catalog_immutable=True,
         routes=routes, target_sha256=EXPECTED, target_bytes=1699074048,
         scope='Both public ISO/catalog/engine routes, fresh cache. No emulator, GUI or CHD test.')
-    (args.out / 'validation.json').write_text(json.dumps(report, indent=2) + '\n', encoding='utf8')
+    (args.out / 'validation.json').write_text(json.dumps(report, indent=2) + '\n', encoding='utf8', newline='\n')
     evidence = ROOT / 'work/ui/release_0.1.88/PUBLIC-VALIDATION.json'
-    evidence.write_text(json.dumps(report, indent=2) + '\n', encoding='utf8')
+    evidence.write_text(json.dumps(report, indent=2) + '\n', encoding='utf8', newline='\n')
     print(json.dumps(report, indent=2), flush=True)
 
 
