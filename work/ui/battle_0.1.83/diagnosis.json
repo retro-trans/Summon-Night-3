@@ -1,0 +1,19 @@
+{
+  "version": "0.1.83",
+  "source_version": "0.1.81",
+  "reported_pc": "0x0881f320",
+  "screenshot_bad_write": "0x2c961c20",
+  "log_bad_write": "0x2c961c24",
+  "original_notification_cells": 52,
+  "native_pointer_slots_per_row": 31,
+  "native_counter_offset": 124,
+  "native_row_bytes": 128,
+  "root_cause": "The 32nd glyph pointer overwrites the row counter. The next glyph store uses the corrupted pointer as an index.",
+  "fixed_notification": "Berserk Summon broke the stone!",
+  "fixed_notification_cells": 31,
+  "related_notifications_shortened": 8,
+  "category_notifications_audited": 27,
+  "original_state_retained": true,
+  "original_state_sha256": "5d46c34d58ae04ba983f3c4931a1177195de5c65992f537ea32d99b196dfc72d",
+  "public_patch_contains_no_save_data": true
+}
