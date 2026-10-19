@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.83 - Published release (2026-10-19)
+
+- Publish the Berserk Summon notification crash fix and the 0.1.82 equipment-row
+  fix. Include only original → 0.1.83 and published 0.1.81 → 0.1.83 patch routes.
+- Verify full decoded images, manifests and checksums for Retro Trans Tools;
+  use the compact 256 MiB source window for the original-game patch.
+- Keep the supplied and recovered private saves out of public release assets.
+
 ## 0.1.83 - Berserk Summon notification crash (local test build, 2026-10-19)
 
 - Fix the 52-character stone-break message overflowing the native 31-entry

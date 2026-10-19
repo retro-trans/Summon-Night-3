@@ -1,0 +1,161 @@
+{
+  "version": "0.1.83",
+  "iso_sha256": "6cac982807c5cb6672fbbb74e166f973352ac7d30375fe4ccfee48d41babb5e6",
+  "iso_bytes": 1696403456,
+  "passed": true,
+  "input_hashes_verified": 3358,
+  "encoder_source_window_bytes": 268435456,
+  "asset_checks": {
+    "passed": true,
+    "version": "0.1.83",
+    "native_binder_cases": 56,
+    "load_bases": 2,
+    "prior_bad_store_reproduced": "0x2c961c20",
+    "adjacent_row_guards": true,
+    "complete_messages_preserved": true,
+    "code_and_relocations_unchanged": true,
+    "output_elf_sha256": "0b6396af7fd08c76fbded3acb96c5f8ca91be03ef0faea8b25cd22174509b18f",
+    "iso_sha256": "6cac982807c5cb6672fbbb74e166f973352ac7d30375fe4ccfee48d41babb5e6",
+    "executable_matches_expected": true,
+    "all_other_iso_files_unchanged": true
+  },
+  "runtime": {
+    "version": "0.1.83",
+    "passed": true,
+    "iso_sha256": "6cac982807c5cb6672fbbb74e166f973352ac7d30375fe4ccfee48d41babb5e6",
+    "original_crash_reproduced": true,
+    "fresh_boot_normal_suspend": true,
+    "original_supplied_state_repaired_for_replay": true,
+    "recovery": {
+      "source_sha256": "5d46c34d58ae04ba983f3c4931a1177195de5c65992f537ea32d99b196dfc72d",
+      "recovered_sha256": "3f1e7b1cfdf9f359a456f2d34ef48defa5d32f3816d9bfccbe2d99ae572a7122",
+      "notification_literals": [
+        {
+          "module_address": "0x32fe18",
+          "prior_cells": 32,
+          "cells": 29
+        },
+        {
+          "module_address": "0x32ff4c",
+          "prior_cells": 44,
+          "cells": 27
+        },
+        {
+          "module_address": "0x3300b8",
+          "prior_cells": 33,
+          "cells": 28
+        },
+        {
+          "module_address": "0x330138",
+          "prior_cells": 44,
+          "cells": 29
+        },
+        {
+          "module_address": "0x330194",
+          "prior_cells": 38,
+          "cells": 26
+        },
+        {
+          "module_address": "0x3301e4",
+          "prior_cells": 39,
+          "cells": 31
+        },
+        {
+          "module_address": "0x330264",
+          "prior_cells": 32,
+          "cells": 27
+        },
+        {
+          "module_address": "0x331fd4",
+          "prior_cells": 32,
+          "cells": 27
+        },
+        {
+          "module_address": "0x3327ac",
+          "prior_cells": 52,
+          "cells": 31
+        }
+      ],
+      "renderer_loop_restarted": true,
+      "renderer_registers_reset": [
+        "s0",
+        "s1",
+        "s3",
+        "s4"
+      ],
+      "corrupted_row_counter_reset": true,
+      "cached_message_width_and_center_corrected": true,
+      "renderer_pc_restarted_from": "0x0881f320",
+      "renderer_pc_restarted_at": "0x0881f2a0",
+      "combat_and_save_data_unchanged": true,
+      "code_unchanged": true,
+      "original_state_unchanged": true
+    },
+    "live_game_memory_writes": false,
+    "all_27_fresh_loaded_literals_verified": true,
+    "emulator": "Windows PPSSPP 1.20.4",
+    "cpu": "JIT",
+    "renderer": "software",
+    "strict_memory_checks": true,
+    "emulator_instances": 1,
+    "emulator_closed": true,
+    "breakpoints_removed": true,
+    "audio_enabled": true,
+    "audio_playback_validated": false,
+    "screenshots": [
+      {
+        "path": "work/ui/battle_0.1.83/reviewed/verifiedMessage.png",
+        "sha256": "783dc3b9951619a706217eba4eeb95b5bab54d12ea401bdb5cd6e52a73e62a49",
+        "note": "Complete 31-character message visible and centered.",
+        "visual_review_passed": true
+      },
+      {
+        "path": "work/ui/battle_0.1.83/reviewed/verifiedAfterMessage.png",
+        "sha256": "176587e560c86b1677b85fb66c550eefa4d49bbf671700950e6cd58c80d9b2e9",
+        "note": "Confirm returns to the battle.",
+        "visual_review_passed": true
+      },
+      {
+        "path": "work/ui/battle_0.1.83/reviewed/verifiedOverwrite.png",
+        "sha256": "a77a4c2cb35b5d413bcb6432552379cc3ea9625b2dab750f96385c5213b9e835",
+        "note": "Normal Suspend saving completes.",
+        "visual_review_passed": true
+      },
+      {
+        "path": "work/ui/battle_0.1.83/reviewed/freshBattle.png",
+        "sha256": "8c8f0110f4b09cafc7613c6f1229aaee2068d6d4979383a477dd82de22dc61fb",
+        "note": "Fresh 0.1.83 boot continues the recovered normal Suspend save.",
+        "visual_review_passed": true
+      }
+    ],
+    "limitations": [
+      "Exact cast aftermath replayed from the supplied 0.1.81 state with its renderer context repaired; fresh boot separately verifies new literals and normal Suspend continuation.",
+      "No direct Android or hardware-renderer validation, or full-game playthrough."
+    ]
+  },
+  "report_sha256": {
+    "asset-validation.json": "1b21a48c4ac9910e4a7ff237e060ae2b916d32394d3a4ad68473cc9f11f6dfe4",
+    "runtime-validation.json": "16e0754b7dabbd256ab27055c10111ccb676a3b7e7d11b83bc62a14ae0cd9faa"
+  },
+  "inherited_local_build_checks": [
+    {
+      "version": "0.1.82",
+      "iso_sha256": "7b09f064e1f5807e695aeea7d80686ee8daee6a218e6a97fba5945db2ec2113a",
+      "reports": [
+        {
+          "path": "work/output/0.1.82/asset-validation.json",
+          "sha256": "271b07c50675b27ca21acc4d2d964062b26bb3d7eba9110a7d07f1d8e86de271"
+        },
+        {
+          "path": "work/output/0.1.82/runtime-validation.json",
+          "sha256": "30415a96e537d8c4262021fc88ec41c169349f5b59be74a69bfc9e0dac8171df"
+        }
+      ],
+      "scope": "Checks on the earlier local build; not a new full replay on 0.1.83."
+    }
+  ],
+  "limits": [
+    "Exact cast aftermath replayed from the supplied 0.1.81 state with its renderer context repaired; fresh boot separately verifies new literals and normal Suspend continuation.",
+    "No direct Android or hardware-renderer validation, or full-game playthrough."
+  ]
+}
