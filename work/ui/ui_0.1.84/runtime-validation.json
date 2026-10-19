@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "version": "0.1.84",
+  "iso_sha256": "fdac1e933503aea6b4968c67f0c1a602546b26aea5c620de1d5f761e208a3057",
+  "emulator": "PPSSPP 1.20.4",
+  "jit": true,
+  "renderer": "software",
+  "fresh_boot": true,
+  "save_state_used": false,
+  "normal_save_loaded": true,
+  "load_base": "0x8804000",
+  "class_literal_groups_verified_in_ram": 8,
+  "reward_heading_verified_in_ram": true,
+  "live_popup_bindings": 80,
+  "live_class_branches_verified": 2,
+  "loaded_helper_bytes": 808,
+  "screenshots": [
+    "finalLoaded.png",
+    "finalStatus.png",
+    "finalTypes.png",
+    "finalOtherTypes.png"
+  ],
+  "exact_beach_reward_sequence_reproduced": false,
+  "exact_class_change_sequence_reproduced": false,
+  "exact_summon_animation_reproduced": false,
+  "limitations": [
+    "Available Chapter 16 normal save used; exact beach/reward/class-change save is unavailable.",
+    "Renderer helper behavior and name lookup are exercised by emitted-code tests; complete reported sequences require later gameplay confirmation.",
+    "No Android, hardware renderer or full playthrough testing claimed."
+  ]
+}

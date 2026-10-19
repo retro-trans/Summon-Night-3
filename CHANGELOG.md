@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.1.84 - Battle rewards and class-change UI (local test build, 2026-10-19)
+
+- Match Retreat's selected/unselected frame and palette to neighboring buttons.
+- Translate default summon-animation names through the existing glossary lookup,
+  including the missed Riser banner branch; preserve custom names and saves.
+- Use a bounded English reward heading and proportional reward/discovery text;
+  remove the Party Ability quote overlap and measure found-name spacing.
+- Use proportional class-change equipment captions without duplicating the
+  existing caption table. Translate class help, confirmation, Yes and No.
+- Verify relocated helper execution, native texture footprints, historical input
+  hashes and archive resources. Discard an oversized candidate after boot QA;
+  keep the final added loaded code/data under 1 KiB.
+- Package a Retro Trans Tools local test upgrade from published 0.1.83. The exact
+  beach/reward/class-change save is unavailable; record runtime coverage separately.
+
 ## 0.1.83 - Published release (2026-10-19)
 
 - Publish the Berserk Summon notification crash fix and the 0.1.82 equipment-row
