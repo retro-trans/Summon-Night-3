@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased - Brave Medal banner investigation (2026-10-19)
+
+- Record the untranslated award heading as “Brave Medals awarded!” and preserve
+  the screenshot and investigation status. Its source binding is unresolved;
+  no new build or patch was produced, and 0.1.87 remains unchanged.
+
 ## 0.1.87 - Crafting accessory name widths (local test build, 2026-10-19)
 
 - Fit One-EyeMagatama as “1-Eye Magatama” in the narrower crafting column.
