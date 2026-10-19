@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.83 - Berserk Summon notification crash (local test build, 2026-10-19)
+
+- Fix the 52-character stone-break message overflowing the native 31-entry
+  character list after Berserk Summon. Shorten eight related battle warnings;
+  audit 27 notifications against the same bound.
+- Reproduce the original bad store at 0x2c961c20; verify 56 native-binder cases
+  at two load addresses, including the maximum safe row length.
+- Recover a private copy of the interrupted message, verify complete display
+  and return to battle, and create a normal Suspend save through the game.
+- Retain the 0.1.82 equipment fix. Change only English literals; preserve code,
+  relocations, combat rules, save formats and every other ISO file. Package a
+  Retro Trans Tools local test upgrade from published 0.1.81.
+
 ## 0.1.82 - Equipment-type row isolation (local test build, 2026-10-09)
 
 - Fix blank Equip Type rows caused by English captions overflowing the native
